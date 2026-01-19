@@ -1,4 +1,6 @@
 import type { Case } from '../types/library';
+import { DiagramIcon } from './DiagramIcon';
+import { abbreviateInsight } from '../utils/abbreviateInsight';
 
 interface CaseCardProps {
   caseStudy: Case;
@@ -8,12 +10,17 @@ interface CaseCardProps {
 }
 
 export function CaseCard({ caseStudy, isStarred, onToggleStar, onExpand }: CaseCardProps) {
+  const abbreviatedInsight = abbreviateInsight(caseStudy.content.coreInsight || '');
+
   return (
     <div className="bg-white border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
       <div className="flex items-start justify-between mb-2">
-        <div>
-          <h3 className="font-semibold text-gray-900">{caseStudy.company}</h3>
-          <p className="text-sm text-gray-500">{caseStudy.title}</p>
+        <div className="flex items-start gap-3">
+          <DiagramIcon templateId={caseStudy.diagramTemplate} className="w-12 h-12 flex-shrink-0" />
+          <div>
+            <h3 className="font-semibold text-gray-900">{caseStudy.company}</h3>
+            <p className="text-sm text-gray-500">{caseStudy.title}</p>
+          </div>
         </div>
         <button
           onClick={(e) => {
@@ -44,24 +51,20 @@ export function CaseCard({ caseStudy, isStarred, onToggleStar, onExpand }: CaseC
         </button>
       </div>
 
-      <p className="text-sm text-gray-600 mb-3 line-clamp-3">{caseStudy.summary}</p>
+      <p className="text-sm text-gray-600 mb-3 line-clamp-2">{caseStudy.summary}</p>
 
-      {caseStudy.content.coreInsight && (
-        <div className="bg-indigo-50 border-l-2 border-indigo-400 p-2 mb-3">
-          <p className="text-xs text-indigo-700 font-medium">Core Insight</p>
-          <p className="text-sm text-indigo-900">{caseStudy.content.coreInsight}</p>
+      {abbreviatedInsight && (
+        <div className="bg-indigo-50 border-l-2 border-indigo-400 px-2 py-1 mb-3">
+          <p className="text-sm text-indigo-800 font-medium italic">"{abbreviatedInsight}"</p>
         </div>
       )}
 
-      <div className="flex items-center justify-between">
-        <span className="text-xs text-gray-400 bg-gray-100 px-2 py-1 rounded">
-          {caseStudy.diagramTemplate}
-        </span>
+      <div className="flex items-center justify-end">
         <button
           onClick={onExpand}
           className="text-sm text-indigo-600 hover:text-indigo-800 font-medium"
         >
-          Read More
+          Read More →
         </button>
       </div>
     </div>
