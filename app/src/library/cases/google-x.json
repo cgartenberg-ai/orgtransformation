@@ -1,0 +1,25 @@
+{
+  "id": "google-x",
+  "company": "Google X",
+  "title": "The Moonshot Factory",
+  "summary": "100+ experiments annually, 2% graduation rate, teams bonused for killing projects",
+  "diagramTemplate": "centralized-lab",
+  "architecturalPrinciples": ["locus-of-innovation"],
+  "designPrinciples": ["reward-fast-failure", "ring-fence-budget", "governance-lets-it-cook", "protect-deviations"],
+  "content": {
+    "whatItIs": "Alphabet's 'moonshot factory'—a dedicated organization for pursuing radical, high-risk innovations with potential for 10x impact. Operates on deliberately different rules than the rest of Google.",
+    "howItWorks": [
+      "Launches 100+ experiments annually",
+      "2% graduation rate (projects that become real businesses after 5-6 years)",
+      "Explicit incentives for killing projects: teams get bonuses, applause, hugs, high fives, and promotions for ending projects early",
+      "'Pre-mortem' analysis before projects start (predict why it will fail)",
+      "'Run at all the hardest parts of the problem first'",
+      "Surviving projects get concentrated resources: 44% of X's entire budget goes to the 2% that graduate"
+    ],
+    "coreInsight": "CEO Astro Teller: The incentive structure is the innovation. By rewarding failure and making project termination a badge of honor, X eliminates the sunk cost fallacy and political protection of zombie projects.",
+    "keyMetrics": "Graduates: Waymo, Verily, Wing, Loon, Chronicle",
+    "sources": ["TechCrunch Disrupt 2025", "HBR Podcast", "NPR Interview"]
+  },
+  "conversations": [],
+  "extendedContent": {}
+}
