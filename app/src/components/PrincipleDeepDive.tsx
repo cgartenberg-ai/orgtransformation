@@ -140,6 +140,7 @@ export function PrincipleDeepDive({
                   <DesignPrincipleCard
                     key={designPrinciple.id}
                     principle={designPrinciple}
+                    group={group}
                     isStarred={principleState.starredPrinciples.includes(designPrinciple.id)}
                     onToggleStar={() => onToggleStarPrinciple(designPrinciple.id)}
                     onExpand={() => setExpandedPrinciple(designPrinciple)}
@@ -181,6 +182,7 @@ export function PrincipleDeepDive({
       {expandedPrinciple && (
         <DesignPrincipleExpandedView
           principle={expandedPrinciple}
+          group={principleGroups.find((g) => g.id === expandedPrinciple.group)}
           isStarred={principleState.starredPrinciples.includes(expandedPrinciple.id)}
           onToggleStar={() => onToggleStarPrinciple(expandedPrinciple.id)}
           onClose={() => setExpandedPrinciple(null)}
