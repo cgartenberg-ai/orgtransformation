@@ -1,0 +1,15 @@
+{
+  "id": "remove-human-intuition-bottlenecks",
+  "title": "Remove Human Intuition Bottlenecks at Scale",
+  "group": "resources",
+  "architecturalPrinciples": ["locus-of-innovation", "human-ai-boundaries"],
+  "insight": "In some domains, human intuition about what to try is the bottleneck. Hypothesis-free exploration at massive scale finds what humans would miss.",
+  "manifestations": [
+    "Recursion: 2.2M experiments/week, hypothesis-agnostic discovery",
+    "Letting data reveal patterns rather than testing human hunches",
+    "'The company's platform is capable of finding novel biology that may have been overlooked by humans'"
+  ],
+  "test": "Are your most valuable discoveries ones that humans predicted, or ones that surprised them? If everything was predicted, you might not be exploring broadly enough.",
+  "conversations": [],
+  "extendedContent": {}
+}
