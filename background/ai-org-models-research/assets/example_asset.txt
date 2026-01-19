@@ -1,0 +1,23 @@
+# AI Organizational Models Research - Asset Directory
+
+This directory is for storing templates and assets used in output generation.
+
+## Recommended Assets to Add
+
+1. **Document Template** - AI_Org_Models_Template.docx
+   - Pre-formatted Word template with styles
+   - Can be used as base for document generation
+
+2. **Data Files** - cases.json, sources.json
+   - JSON exports of the case database
+   - Can be imported into other tools
+
+3. **Brand Assets** - If creating client-facing reports
+   - Logos, color schemes, fonts
+
+## Current State
+
+The primary output is generated programmatically via docx-js.
+See references/docx-generator.md for the generation script.
+
+No template files are required for basic operation.

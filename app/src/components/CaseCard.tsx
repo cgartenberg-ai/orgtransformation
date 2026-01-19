@@ -1,6 +1,8 @@
-import type { Case } from '../types/library';
+import type { Case, Conversation } from '../types/library';
 import { DiagramIcon } from './DiagramIcon';
 import { abbreviateInsight } from '../utils/abbreviateInsight';
+import { ConversationPanel } from './ConversationPanel';
+import { useCaseConversation } from '../hooks/useConversation';
 
 interface CaseCardProps {
   caseStudy: Case;
@@ -76,6 +78,7 @@ interface CaseExpandedViewProps {
   isStarred: boolean;
   onToggleStar: () => void;
   onClose: () => void;
+  onConversationUpdate?: (conversations: Conversation[]) => void;
 }
 
 export function CaseExpandedView({
@@ -83,14 +86,23 @@ export function CaseExpandedView({
   isStarred,
   onToggleStar,
   onClose,
+  onConversationUpdate,
 }: CaseExpandedViewProps) {
+  const { conversations, isLoading, error, askQuestion } = useCaseConversation(
+    caseStudy,
+    onConversationUpdate
+  );
+
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
       <div className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
         <div className="sticky top-0 bg-white border-b border-gray-200 p-4 flex items-center justify-between">
-          <div>
-            <h2 className="text-xl font-bold text-gray-900">{caseStudy.company}</h2>
-            <p className="text-gray-500">{caseStudy.title}</p>
+          <div className="flex items-center gap-3">
+            <DiagramIcon templateId={caseStudy.diagramTemplate} className="w-12 h-12" />
+            <div>
+              <h2 className="text-xl font-bold text-gray-900">{caseStudy.company}</h2>
+              <p className="text-gray-500">{caseStudy.title}</p>
+            </div>
           </div>
           <div className="flex items-center gap-2">
             <button
@@ -183,11 +195,13 @@ export function CaseExpandedView({
             </div>
           )}
 
-          <div className="pt-4 border-t border-gray-200">
-            <p className="text-xs text-gray-400">
-              Diagram Template: {caseStudy.diagramTemplate}
-            </p>
-          </div>
+          {/* Conversation Panel */}
+          <ConversationPanel
+            conversations={conversations}
+            onAsk={askQuestion}
+            isLoading={isLoading}
+            error={error}
+          />
         </div>
       </div>
     </div>

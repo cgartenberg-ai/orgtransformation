@@ -147,7 +147,8 @@ export function useUserState(): UseUserStateResult {
 
   const resetPrinciple = useCallback((principleId: string) => {
     setUserState((prev) => {
-      const { [principleId]: _, ...rest } = prev;
+      const { [principleId]: _removed, ...rest } = prev;
+      void _removed; // Intentionally unused - destructuring to exclude key
       return rest;
     });
   }, []);

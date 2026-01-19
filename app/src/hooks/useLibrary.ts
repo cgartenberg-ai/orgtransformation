@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useMemo } from 'react';
 import type { Layer, ArchitecturalPrinciple, Case, DesignPrinciple, PrincipleGroup, DiagramTemplate } from '../types/library';
 
 // Import framework data
@@ -72,10 +72,8 @@ export interface UseLibraryResult {
 }
 
 export function useLibrary(): UseLibraryResult {
-  const [isLoading, setIsLoading] = useState(true);
-
   // Assemble library from static imports
-  const library: Library = {
+  const library: Library = useMemo(() => ({
     layers: layersData as Layer[],
     architecturalPrinciples: architecturalPrinciplesData as ArchitecturalPrinciple[],
     principleGroups: principleGroupsData as PrincipleGroup[],
@@ -117,10 +115,10 @@ export function useLibrary(): UseLibraryResult {
       labToOperationsHandoff,
       ceoAsPoliticalShield,
     ] as DesignPrinciple[],
-  };
+  }), []);
 
   // Create lookup functions
-  const lookups: LibraryLookups = {
+  const lookups: LibraryLookups = useMemo(() => ({
     getLayer: (id: string) => library.layers.find((l) => l.id === id),
     getArchitecturalPrinciple: (id: string) =>
       library.architecturalPrinciples.find((p) => p.id === id),
@@ -141,12 +139,7 @@ export function useLibrary(): UseLibraryResult {
       ),
     getDesignPrinciplesByGroup: (groupId: string) =>
       library.designPrinciples.filter((p) => p.group === groupId),
-  };
+  }), [library]);
 
-  useEffect(() => {
-    // Simulate async loading for future extensibility
-    setIsLoading(false);
-  }, []);
-
-  return { library, lookups, isLoading };
+  return { library, lookups, isLoading: false };
 }

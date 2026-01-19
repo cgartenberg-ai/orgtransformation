@@ -1,6 +1,8 @@
-import type { DesignPrinciple, PrincipleGroup } from '../types/library';
+import type { DesignPrinciple, PrincipleGroup, Conversation } from '../types/library';
 import { PrincipleGroupIcon } from './PrincipleGroupIcon';
 import { abbreviateInsight } from '../utils/abbreviateInsight';
+import { ConversationPanel } from './ConversationPanel';
+import { usePrincipleConversation } from '../hooks/useConversation';
 
 interface DesignPrincipleCardProps {
   principle: DesignPrinciple;
@@ -87,6 +89,7 @@ interface DesignPrincipleExpandedViewProps {
   isStarred: boolean;
   onToggleStar: () => void;
   onClose: () => void;
+  onConversationUpdate?: (conversations: Conversation[]) => void;
 }
 
 export function DesignPrincipleExpandedView({
@@ -95,8 +98,13 @@ export function DesignPrincipleExpandedView({
   isStarred,
   onToggleStar,
   onClose,
+  onConversationUpdate,
 }: DesignPrincipleExpandedViewProps) {
   const groupColor = group?.color || '#94a3b8';
+  const { conversations, isLoading, error, askQuestion } = usePrincipleConversation(
+    principle,
+    onConversationUpdate
+  );
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
@@ -177,6 +185,14 @@ export function DesignPrincipleExpandedView({
               <p className="text-amber-900">{principle.test}</p>
             </div>
           )}
+
+          {/* Conversation Panel */}
+          <ConversationPanel
+            conversations={conversations}
+            onAsk={askQuestion}
+            isLoading={isLoading}
+            error={error}
+          />
         </div>
       </div>
     </div>

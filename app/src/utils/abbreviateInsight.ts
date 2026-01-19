@@ -35,7 +35,7 @@ export function abbreviateInsight(fullInsight: string, maxWords: number = 5): st
 
   // Strategy 3: Extract key verb phrase or first meaningful chunk
   // Remove common filler starts
-  let processed = fullInsight
+  const processed = fullInsight
     .replace(/^(The insight is that|The core insight is|CEO [^:]+:|[A-Z][a-z]+ [A-Z][a-z]+:)\s*/i, '')
     .trim();
 
