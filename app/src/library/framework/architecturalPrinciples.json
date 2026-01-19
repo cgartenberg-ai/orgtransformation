@@ -1,0 +1,66 @@
+[
+  {
+    "id": "north-star",
+    "name": "Organizational North Star",
+    "layerId": "identity",
+    "coreQuestion": "What is your organization's fundamental identity, and how does AI transformation relate to—or change—that identity?",
+    "whyArchitectural": "Your identity determines what kinds of transformation are even conceivable. An organization that sees itself as a 'science company' will approach AI differently than one that sees itself as a 'customer company.'",
+    "status": "coming-soon"
+  },
+  {
+    "id": "stance-on-uncertainty",
+    "name": "Stance on Uncertainty",
+    "layerId": "orientation",
+    "coreQuestion": "How does your organization relate to uncertainty, ambiguity, and the unknown in planning and execution?",
+    "whyArchitectural": "AI transformation involves deep uncertainty. Organizations that require certainty before acting will struggle with the experimental nature of AI capability building.",
+    "status": "coming-soon"
+  },
+  {
+    "id": "measurement-philosophy",
+    "name": "Measurement Philosophy",
+    "layerId": "orientation",
+    "coreQuestion": "What do you measure, and what do your measurements actually drive?",
+    "whyArchitectural": "What you measure shapes behavior. Measuring productivity kills exploration. Measuring learning enables it. Your measurement system is your actual strategy.",
+    "status": "coming-soon"
+  },
+  {
+    "id": "locus-of-innovation",
+    "name": "Locus of Innovation",
+    "layerId": "flow",
+    "coreQuestion": "Where do you expect the best ideas for AI transformation to originate, and how do you design the organizational mechanisms to cultivate, capture, and deploy them?",
+    "whyArchitectural": "The 'lab' question is where transformation becomes concrete. Every other principle ultimately manifests through this one.",
+    "status": "available"
+  },
+  {
+    "id": "information-architecture",
+    "name": "Information Architecture",
+    "layerId": "flow",
+    "coreQuestion": "How does information flow through your organization, and how does that enable or constrain AI transformation?",
+    "whyArchitectural": "AI systems need data. Where data lives, who can access it, and how it flows determines what AI applications are even possible.",
+    "status": "coming-soon"
+  },
+  {
+    "id": "ambidexterity-structure",
+    "name": "Ambidexterity Structure",
+    "layerId": "structure",
+    "coreQuestion": "How do you balance exploitation of current capabilities with exploration of new ones?",
+    "whyArchitectural": "Organizations that optimize current operations tend to kill exploration. The structural relationship between 'explore' and 'exploit' is foundational.",
+    "status": "coming-soon"
+  },
+  {
+    "id": "resource-allocation",
+    "name": "Resource Allocation Logic",
+    "layerId": "structure",
+    "coreQuestion": "How do resources get allocated between current operations and transformation efforts?",
+    "whyArchitectural": "Budget processes often kill transformation by forcing ROI justification for exploratory work. The allocation logic must match the transformation ambition.",
+    "status": "coming-soon"
+  },
+  {
+    "id": "human-ai-boundaries",
+    "name": "Human-AI Work Boundaries",
+    "layerId": "work",
+    "coreQuestion": "Where do humans add value that AI cannot, and how do you design work to leverage both?",
+    "whyArchitectural": "The boundary between human and AI work is shifting rapidly. Your stance on this boundary determines workforce strategy, skill development, and organizational design.",
+    "status": "coming-soon"
+  }
+]
