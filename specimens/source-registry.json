@@ -248,10 +248,10 @@
       "url": "https://economicgraph.linkedin.com",
       "host": "LinkedIn",
       "frequency": "Ongoing",
-      "scannedThrough": null,
-      "scannedThroughDate": null,
-      "lastScanned": null,
-      "sessionFiles": [],
+      "scannedThrough": "Keyword search for CAIO appointments through Feb 1, 2026. Surfaced UBS Magazzeni, CBA Boteju, Stagwell Kahan appointments via cross-references. Ad agency CAIO wave (Monks, IPG, Stagwell).",
+      "scannedThroughDate": "2026-02-01",
+      "lastScanned": "2026-02-01",
+      "sessionFiles": ["2026-02-01-002-research-tier1-press-broad-scan.md"],
       "notes": "Primary source for CAIO appointments, AI role growth data, executive moves. Track via keyword searches (CAIO, Head of AI, AI reorg). Also linkedin.com/news for editorial takes on workforce shifts."
     },
     {
@@ -346,10 +346,10 @@
       "url": "https://wsj.com",
       "host": "WSJ Editorial",
       "frequency": "Daily",
-      "scannedThrough": null,
-      "scannedThroughDate": null,
-      "lastScanned": null,
-      "sessionFiles": [],
+      "scannedThrough": "Headline triage via web search through Feb 1, 2026. Paywalled — limited free results. No new org-specific specimens beyond what's captured via other sources.",
+      "scannedThroughDate": "2026-02-01",
+      "lastScanned": "2026-02-01",
+      "sessionFiles": ["2026-02-01-002-research-tier1-press-broad-scan.md"],
       "notes": "Primary source for major reorg announcements, CEO strategy interviews, earnings call analysis with AI restructuring language, CAIO/CTO appointments at Fortune 500. Keyword-searchable archive. Paywalled but headlines/excerpts often suffice for triage. Search: 'chief AI officer', 'AI restructuring', 'AI center of excellence', 'AI layoffs'."
     },
     {
@@ -360,10 +360,10 @@
       "url": "https://ft.com",
       "host": "FT Editorial",
       "frequency": "Daily",
-      "scannedThrough": null,
-      "scannedThroughDate": null,
-      "lastScanned": null,
-      "sessionFiles": [],
+      "scannedThrough": "Headline triage via web search through Feb 1, 2026. Paywalled — limited free results. EY CEO Outlook (FT Longitude research) is macro trend. No new org specimens.",
+      "scannedThroughDate": "2026-02-01",
+      "lastScanned": "2026-02-01",
+      "sessionFiles": ["2026-02-01-002-research-tier1-press-broad-scan.md"],
       "notes": "Strongest on European/global AI org moves (Siemens, SAP, Roche, Novo Nordisk, UK Gov). Better than WSJ for non-US companies. Also strong on AI governance, board-level AI strategy. Paywalled. Search: 'chief AI officer', 'AI transformation', 'AI governance'."
     },
     {
@@ -374,10 +374,10 @@
       "url": "https://reuters.com/technology",
       "host": "Reuters Editorial",
       "frequency": "Daily",
-      "scannedThrough": null,
-      "scannedThroughDate": null,
-      "lastScanned": null,
-      "sessionFiles": [],
+      "scannedThrough": "Headline triage via web search through Feb 1, 2026. Amazon 16K layoffs (Jan 2026) widely reported via Reuters wire. No new org specimens beyond existing.",
+      "scannedThroughDate": "2026-02-01",
+      "lastScanned": "2026-02-01",
+      "sessionFiles": ["2026-02-01-002-research-tier1-press-broad-scan.md"],
       "notes": "Wire service — often first to report layoffs, reorgs, executive changes. Free access. Already surfaced in prior sessions via Google News. Formalizing as tracked source."
     },
     {
@@ -388,10 +388,10 @@
       "url": "https://bloomberg.com/technology",
       "host": "Bloomberg Editorial",
       "frequency": "Daily",
-      "scannedThrough": null,
-      "scannedThroughDate": null,
-      "lastScanned": null,
-      "sessionFiles": [],
+      "scannedThrough": "Headline triage via web search through Feb 1, 2026. Meta 4th AI restructuring, Amazon 14K cuts, OpenAI restructuring — all previously captured. AI productivity gains expected 2026.",
+      "scannedThroughDate": "2026-02-01",
+      "lastScanned": "2026-02-01",
+      "sessionFiles": ["2026-02-01-002-research-tier1-press-broad-scan.md"],
       "notes": "Deep enterprise AI coverage, M&A reporting (Scale AI/Meta, lab valuations), workforce data. Mark Gurman for Apple AI org, Brad Stone for Amazon. Paywalled but headlines triage well via Google News."
     },
     {
@@ -402,10 +402,10 @@
       "url": "https://theinformation.com",
       "host": "Jessica Lessin et al.",
       "frequency": "Daily",
-      "scannedThrough": null,
-      "scannedThroughDate": null,
-      "lastScanned": null,
-      "sessionFiles": [],
+      "scannedThrough": "Headline triage via web search through Feb 1, 2026. Paywalled. Meta 4th AI restructuring (Aug 2025), OpenAI restructuring, SEC/DOGE AI push. Headlines confirm existing specimens. No new org specimens.",
+      "scannedThroughDate": "2026-02-01",
+      "lastScanned": "2026-02-01",
+      "sessionFiles": ["2026-02-01-002-research-tier1-press-broad-scan.md"],
       "notes": "Best insider reporting on AI lab internal dynamics — org charts, team restructuring, talent departures, internal strategy debates. Broke many Meta/Google/OpenAI reorg stories. Heavily paywalled but headlines are high-signal for what to search elsewhere."
     },
     {

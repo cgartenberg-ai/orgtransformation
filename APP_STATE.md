@@ -16,7 +16,7 @@
 
 ## Site Prototype Status
 
-The reference site is a working Next.js prototype in `site/`. It implements UI Spec Phases 1-3 (Core Browse, Interactive Exploration, Situation Matcher). No deployment yet — runs locally via `npm run dev`.
+The reference site is a working Next.js prototype in `site/`. It implements UI Spec Phases 1-3 (Core Browse, Interactive Exploration, Situation Matcher). No deployment yet — runs locally via `npm run dev`. Version controlled via git (initialized 2026-02-01).
 
 ### Tech Stack (Implemented)
 
@@ -112,19 +112,19 @@ site/lib/
 
 ## Data Infrastructure Status
 
-### Specimens: 65 structured
+### Specimens: 84 structured
 
 | Structural Model | Count | Type Specimen |
 |-----------------|-------|---------------|
-| Model 1: Research Lab | 9 | Eli Lilly |
-| Model 2: Center of Excellence | 10 | — |
+| Model 1: Research Lab | 11 | Eli Lilly |
+| Model 2: Center of Excellence | 16 | — |
 | Model 3: Embedded Teams | 9 | — |
-| Model 4: Hub-and-Spoke | 21 | — |
-| Model 5: Product/Venture Lab | 8 | Google X |
-| Model 6: Unnamed/Informal | 7 | P&G, Bank of America |
+| Model 4: Hub-and-Spoke | 23 | — |
+| Model 5: Product/Venture Lab | 11 | Google X |
+| Model 6: Unnamed/Informal | 13 | P&G, Bank of America |
 | Model 7: Tiger Teams | 1 | Samsung C-Lab |
 
-**Orientation distribution**: 44 Structural, 19 Contextual, 2 Temporal
+**Orientation distribution**: 59 Structural, 23 Contextual, 2 Temporal
 
 ### Synthesis Data
 
@@ -166,27 +166,26 @@ site/lib/
 - Search (Algolia or Supabase full-text — currently just client-side filter)
 
 ### Data Gaps
-- 171 sources with null URLs across specimens
+- Sources with null URLs across specimens (legacy data)
 - 55 legacy cases in `library/cases/` not yet converted
-- 31 specimens pending Phase 3 synthesis
-- 5 research sessions pending Phase 2 curation
+- Pipeline fully caught up as of 2026-02-01 (all research curated, all specimens synthesized)
 
 ---
 
 ## Pipeline Status
 
 ### Research (Phase 1)
-- 9 sessions completed
-- 5 sessions pending curation (batch3, batch4, gap-coverage, deep-scan, plus any new)
-- Deep-scan backlog: 2 HIGH, 8 MEDIUM priority podcast episodes
+- 11 sessions completed (in `research/sessions/`)
+- All sessions curated — no pending items in `research/queue.json`
+- Deep-scan backlog: 2 HIGH, 8 MEDIUM priority podcast episodes (see HANDOFF.md for list)
 
 ### Curation (Phase 2)
-- 3 sessions completed
-- 5 research sessions awaiting processing
+- 9 sessions completed (in `curation/sessions/`)
+- All research sessions processed
 
 ### Synthesis (Phase 3)
-- 1 session completed
-- 31 specimens pending synthesis (of 53 in queue)
+- 3 sessions completed (in `synthesis/sessions/`)
+- 74 specimens in synthesis queue, all synthesized — no pending items
 
 ---
 

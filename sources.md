@@ -65,6 +65,10 @@ These podcasts consistently feature AI organizational content. **Monitor all new
 | **Tech Trends** | Deloitte | deloitte.com/insights | Agentic AI adoption data |
 | **AI Predictions** | PwC | pwc.com | CAIO priorities and trends |
 | **HBR AI Strategy** | Harvard Business Review | hbr.org | Frameworks like "Match Your AI Strategy" |
+| **Mercer Global Talent Trends** | Mercer | mercer.com | AI workforce restructuring, talent trends |
+| **Oxford Economics AI & Labor** | Oxford Economics | oxfordeconomics.com | AI layoff counterpoint research |
+| **i4cp AI Workforce** | i4cp | i4cp.com | Corporate AI workforce restructuring data |
+| **State of AI Report** | Air Street Capital | stateof.ai | Annual AI talent flows, lab dynamics |
 
 ### Tier 3: Specialized Sources (Check Monthly)
 
@@ -326,6 +330,7 @@ Watch for:
 | Not Boring | Packy McCormick | notboring.co | Weekly | AI + hard tech |
 | The Generalist | Mario Gabriele | generalist.com | Weekly | Company deep dives |
 | Import AI | Jack Clark | importai.net | Weekly | AI policy & research |
+| The Pragmatic Engineer | Gergely Orosz | newsletter.pragmaticengineer.com | 2x/week | Engineering org restructuring, AI tooling impact |
 
 ### Tier 2 - Specialized
 
@@ -339,19 +344,27 @@ Watch for:
 | The Batch | Andrew Ng / DeepLearning.AI | Weekly AI news |
 | Last Week in AI | Various | News roundup |
 
+### Tier 2.5 - Tracked Sources (in source-registry.json)
+
+| Publication | Author | Focus |
+|-------------|--------|-------|
+| Lenny's Newsletter | Lenny Rachitsky | Product management AI, team structure |
+| Elad Gil's Blog | Elad Gil | AI company scaling, org design at growth stage |
+| Platformer | Casey Newton | Big Tech internal reorgs, culture shifts |
+
 ### Tier 3 - Monitor for Specific Topics
 
 | Publication | When to Check |
 |-------------|---------------|
-| Lenny's Newsletter | Product management AI |
 | First Round Review | Startup AI org |
 | Future | A16z future tech |
-| Platformer | Big Tech policy |
 | Big Technology | Big Tech strategy |
 
 ---
 
 ## SEC & Investor Materials
+
+**Tracked in source-registry.json:** SEC Filings (sec.gov/EDGAR) and Earnings Call Transcripts (seekingalpha.com) are registered for systematic scanning.
 
 ### Filing Types to Search
 
@@ -393,8 +406,14 @@ Watch for:
 | Bloomberg | Business/finance | AI investments, M&A |
 | Reuters | Breaking news | Partnerships, deals |
 | WSJ | Business strategy | Executive moves |
+| Financial Times | Global business | European/global AI org moves |
+| CNBC | CEO interviews, earnings | CEO quotes on AI org changes |
+| Fortune | Fortune 500 AI adoption | CAIO profiles, AI strategy |
+| HBR | AI management strategy | Frameworks, org design |
 | Wired | Tech culture | Lab profiles |
 | MIT Technology Review | Research-to-product | AI breakthroughs |
+| The Decoder | AI lab dynamics | Researcher departures, talent moves |
+| CIO Dive | Enterprise IT | CIO/CTO AI adoption |
 | Semafor | Tech journalism | AI policy |
 | The Verge | Consumer tech | Product launches |
 | Ars Technica | Technical depth | AI capabilities |

@@ -287,3 +287,55 @@ Running summary of each research session. Updated at wrap-up. Newest sessions at
 | NVIDIA | existing | "Purpose vs. tasks" framework for software engineers; pervasive Cursor adoption; productivity → more exploration, not fewer jobs |
 
 **Notes**: Light session — episode focused on macro AI trends, not org structure. Flagged by validator as single-source/single-type.
+
+---
+
+## 2026-01-31 — Bulk Review Batch 1 (Legacy Specimen Curation)
+
+**File**: `sessions/2026-01-31-bulk-review-batch1.md`
+
+**Source**: Bulk curation review of legacy specimens from `convert-cases.js` (batch 1 of 4: High + Medium completeness)
+**Source Types**: Existing specimen files (no new research sources)
+
+**Organizations Reviewed (10)**: google-x, bank-of-america, pg-chatpg, samsung-c-lab, abb, accenture-openai, adobe-firefly, allianz-anthropic, amazon-agi, bcg-trailblazers
+
+**Notes**: Standardized legacy JSON specimens to current schema. All existing — no new specimens created.
+
+---
+
+## 2026-01-31 — Bulk Review Batch 2 (Legacy Specimen Curation)
+
+**File**: `sessions/2026-01-31-bulk-review-batch2.md`
+
+**Source**: Bulk curation review of legacy specimens from `convert-cases.js` (batch 2 of 4)
+**Source Types**: Existing specimen files (no new research sources)
+
+**Organizations Reviewed (11)**: bosch-bcai, bytedance, dai-nippon-printing, deloitte, duolingo, google-deepmind, hyundai-robotics, ig-group, jpmorgan, klarna, lg-electronics
+
+**Notes**: Standardized legacy JSON specimens to current schema. All existing — no new specimens created.
+
+---
+
+## 2026-01-31 — Bulk Review Batch 3 (Legacy Specimen Curation)
+
+**File**: `sessions/2026-01-31-bulk-review-batch3.md`
+
+**Source**: Bulk curation review of legacy specimens from `convert-cases.js` (batch 3 of 4)
+**Source Types**: Existing specimen files (no new research sources)
+
+**Organizations Reviewed (11)**: mckinsey-quantumblack, mckinsey-workforce, mercado-libre, moderna, novo-nordisk, palo-alto-networks, pfizer, recursion, roche-genentech, sanofi, sap
+
+**Notes**: Standardized legacy JSON specimens to current schema. All existing — no new specimens created.
+
+---
+
+## 2026-01-31 — Bulk Review Batch 4 (Legacy Specimen Curation)
+
+**File**: `sessions/2026-01-31-bulk-review-batch4.md`
+
+**Source**: Bulk curation review of legacy specimens from `convert-cases.js` (batch 4 of 4)
+**Source Types**: Existing specimen files (no new research sources)
+
+**Organizations Reviewed (10)**: schneider-electric, servier, shopify, siemens, snowflake, tencent, thinking-machines-lab, uk-government, walmart, waystar
+
+**Notes**: Standardized legacy JSON specimens to current schema. All existing — no new specimens created.
