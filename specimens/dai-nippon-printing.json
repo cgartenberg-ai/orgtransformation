@@ -1,0 +1,111 @@
+{
+  "id": "dai-nippon-printing",
+  "name": "Dai Nippon Printing",
+  "title": "90% Results in 90 Days",
+  "classification": {
+    "structuralModel": 3,
+    "structuralModelName": "Embedded Teams",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "DNP deployed ChatGPT Enterprise through targeted embedding in specific business units (ICT R&D for patent research, data architecture). The description explicitly states they avoided broad, low-impact deployments in favor of targeted high-value applications. This is the Embedded Teams pattern: AI capability placed within existing teams, not a centralized CoE governing from above. Contextual orientation: no named AI unit described; individuals within existing divisions adopted AI tools.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Manufacturing",
+    "sector": null,
+    "orgSize": "Enterprise",
+    "employees": "~38,000",
+    "revenue": null,
+    "headquarters": "Tokyo, Japan",
+    "geography": "Japan"
+  },
+  "description": "Dai Nippon Printing (DNP), one of Japan's largest printing and information services companies, achieved what enterprise AI programs struggle to demonstrate: measurable results in 90% of use cases within three months of implementing ChatGPT Enterprise.\n- Breakthrough application: ICT R&D division automated patent research and filing strategies\n- Cut patent research time by 95% and expanded coverage 10x\n- Data architecture definition time cut by 90%—foundational improvement enabling faster downstream AI development\n- Identified high-value, knowledge-intensive workflows where AI could deliver immediate, measurable impact\n- Avoided broad, low-impact deployments in favor of targeted high-value applications",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "90% of use cases showed measurable results within 3 months. Patent research: 95% time reduction, 10x coverage expansion. Data architecture: 90% time reduction."
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "RECLASSIFIED: Model 2 (CoE) to Model 3 (Embedded Teams), Contextual orientation. The data describes a targeted deployment within specific business units (ICT R&D for patents, data architecture) rather than a centralized CoE providing governance. The approach explicitly avoided broad rollouts in favor of embedding AI into high-value existing workflows. Removed weak Mechanism #5 (no evidence of mass deploy-before-knowing pattern). Fixed quote to be properly attributed.",
+      "classification": {
+        "structuralModel": 3,
+        "orientation": "Contextual",
+        "confidence": "Medium",
+        "action": "reclassified",
+        "previousModel": 2,
+        "previousOrientation": "Structural"
+      },
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Dai Nippon Printing (DNP), one of Japan's largest printing and information services companies, achieved what enterprise AI programs struggle to demonstrate: measurable results in 90% of use cases within three months of implementing ChatGPT Enterprise.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "OpenAI Enterprise Case Studies",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Blog",
+      "name": "OpenAI Blog",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": "Contextual. AI adopted within existing team workflows rather than through new structural units.",
+    "speedVsDepth": "Depth. Focused on high-value, knowledge-intensive workflows rather than broad deployment.",
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [
+    "What organizational structure (if any) coordinated the ChatGPT Enterprise deployment? Was there a central team or did divisions self-organize?",
+    "Has DNP expanded beyond the initial ICT R&D use cases? What does the current AI footprint look like?"
+  ],
+  "taxonomyFeedback": [],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/dai-nippon-printing.json"
+  }
+}

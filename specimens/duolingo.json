@@ -1,0 +1,135 @@
+{
+  "id": "duolingo",
+  "name": "Duolingo",
+  "title": "Birdbrain Personalization Engine",
+  "classification": {
+    "structuralModel": 3,
+    "structuralModelName": "Embedded Teams",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "Birdbrain personalization system is deeply embedded in the product rather than existing as a separate AI unit or lab. GPT-4 was integrated as an additional capability layer (Explain My Answer, Roleplay features) within the existing product team structure. No evidence of a separate AI team or CoE—AI capability is embedded in existing product development. Contextual orientation: AI adoption driven by product needs rather than a named structural entity.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "EdTech",
+    "orgSize": "Enterprise",
+    "employees": "~800",
+    "revenue": "~$700M",
+    "headquarters": "Pittsburgh, PA",
+    "geography": "Global"
+  },
+  "description": "Duolingo's Birdbrain system represents AI personalization at massive scale: it updates every day based on 1.25 billion exercises that learners complete, making predictions about what 31+ million monthly active users know and need to learn next.\n- Birdbrain system developed ~2018, updates daily based on 1.25 billion exercises completed\n- The Goldilocks principle: find perfect difficulty for each user—too hard is frustrating, too easy is boring\n- AI continuously calibrates this balance for every learner individually\n- In 2023, added GPT-4 as 'language reasoning core' for premium features\n- GPT-4 powers 'Explain My Answer' (contextual explanations) and 'Roleplay' (dynamic dialogue)",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "CEO Luis von Ahn's vision: 'We will become as good as a one-on-one language tutor.' Results: 51% surge in DAU, $1B revenue milestone, $9B+ market cap."
+  },
+  "mechanisms": [
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "Birdbrain and GPT-4 features (Explain My Answer, Roleplay) are consumer-facing AI with polished UX. The Goldilocks personalization principle explicitly optimizes user experience. While consumer-facing rather than employee-facing, demonstrates the mechanism of making AI delightful to use.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Model 3 (Embedded Teams) with Contextual orientation validated. Birdbrain is deeply embedded in the product team rather than existing as a separate AI unit. GPT-4 integration was added as an additional capability layer, not a structural change. Contextual orientation confirmed: AI is woven into existing product workflows rather than housed in a separate structure. Fixed sector to EdTech. Removed spurious auto-converted quote. Added habitat data.",
+      "classification": {
+        "structuralModel": 3,
+        "orientation": "Contextual",
+        "confidence": "Medium",
+        "action": "validated"
+      },
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Duolingo's Birdbrain system represents AI personalization at massive scale: it updates every day based on 1.25 billion exercises that learners complete, making predictions about what 31+ million monthly active users know and need to learn next.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Academic Paper",
+      "name": "MIT Sloan Review",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Bloomberg",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "WIPO Magazine",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Press Release",
+      "name": "Duolingo Press",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": "Contextual. AI is embedded in the product rather than housed in a separate structure.",
+    "speedVsDepth": "Depth. Birdbrain developed since ~2018; patient, deep integration rather than rapid deployment.",
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [],
+  "taxonomyFeedback": [],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/duolingo.json"
+  }
+}

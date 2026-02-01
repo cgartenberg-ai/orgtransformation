@@ -1,0 +1,37 @@
+{
+  "id": "schneider-electric",
+  "company": "Schneider Electric",
+  "title": "AI-Native Ecosystem with Hub-and-Spoke Model",
+  "summary": "Building integrated sustainability and energy management ecosystem with 2.5B euro AI investment, agentic AI for industrial applications",
+  "diagramTemplate": "hybrid-hub-spoke",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "resource-allocation"
+  ],
+  "designPrinciples": [
+    "domain-expertise"
+  ],
+  "content": {
+    "whatItIs": "Schneider Electric announced a landmark multi-year initiative to build an integrated ecosystem for sustainability and energy management, backed by more than 2.5 billion euros AI investment by end of 2027.",
+    "howItWorks": [
+      "AI Hub (established 2021): provides governance, develops data science expertise, collaborates with business units on deployment",
+      "'Hub-and-spoke' operating model designed to break down silos and ensure cohesive flow across the organization",
+      "Agentic AI for industrial applications: 'makes factory processes more intelligent' through autonomous decisions",
+      "Three-layer strategy: internal productivity, product augmentation, new value creation",
+      "7.5M customer service tickets processed annually\u2014AI now auto-routes previously manual requests"
+    ],
+    "coreInsight": "Industrial companies should organize AI with a 'hub-and-spoke' model: a central hub for governance and expertise, with spokes connecting to business units for deployment. The three-layer strategy provides clear framework for prioritizing AI investments. Appointing a CAIO with a climate mission (not just technology) aligns AI strategy with business purpose.",
+    "keyMetrics": "2.5B euro AI investment by 2027. Target: 6B euro software and services revenue by early 2030s. Philippe Rambach, CAIO: 'Energy transition will not happen without AI.'",
+    "sources": [
+      "Schneider Electric press releases",
+      "TechPoint Africa",
+      "Carbon Credits",
+      "AI Magazine"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

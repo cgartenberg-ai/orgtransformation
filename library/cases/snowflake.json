@@ -1,0 +1,37 @@
+{
+  "id": "snowflake",
+  "company": "Snowflake",
+  "title": "Great Decentralization Thesis",
+  "summary": "CEO predicts end of Big Tech AI hegemony through smaller, specialized models and employee-driven adoption outpacing IT-sanctioned tools",
+  "diagramTemplate": "platform-to-product",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "stance-on-uncertainty"
+  ],
+  "designPrinciples": [
+    "ride-the-exponential"
+  ],
+  "content": {
+    "whatItIs": "Snowflake CEO Sridhar Ramaswamy argues 2026 will be the year of the 'Great Decentralization'\u2014the end of Big Tech walled gardens as smaller, specialized models deliver higher ROI than trillion-parameter alternatives.",
+    "howItWorks": [
+      "Core thesis: 'You don't need the biggest models to do a lot of things'\u2014smaller specialized models often outperform giants",
+      "The 'HTTP Moment': 2026 expected to see emergence of dominant protocol for agent collaboration, enabling interoperability",
+      "Strategic vs. Slop: Organizations split between generating 'AI slop' and 'Creative Amplification'",
+      "Employee-driven adoption: Workers using ChatGPT, Claude without waiting for IT, forcing organizations to catch up",
+      "Continuous learning imperative: Successful AI products build in feedback loops that improve far faster than static models"
+    ],
+    "coreInsight": "The future favors smaller, specialized models over trillion-parameter giants. Design for the 'Great Decentralization' by building modular AI capabilities that don't depend on Big Tech walled gardens. Accept that employee-driven adoption will outpace IT-sanctioned tools\u2014build governance to catch up, not control.",
+    "keyMetrics": "Acquired Observe (observability platform) early 2026 for AI system monitoring. As execution becomes commoditized, strategic thinking becomes the bottleneck.",
+    "sources": [
+      "Fortune",
+      "WebProNews",
+      "Sequoia Training Data Podcast",
+      "Morgan Stanley"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

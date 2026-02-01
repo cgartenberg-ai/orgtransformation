@@ -1,0 +1,113 @@
+{
+  "id": "roche-genentech",
+  "name": "Roche / Genentech",
+  "title": "Lab in a Loop — Computational-Wet Lab Integration",
+  "classification": {
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 1 (Research Lab). The gRED Computational Sciences group is a research-focused AI unit within Roche, developing computational prediction capabilities and integrating them with wet lab validation. The Prescient Design acquisition added AI protein design research. $12B commitment to computational sciences indicates deep research investment. Structural orientation: the computational sciences group is separated from Roche's commercial operations.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Pharmaceuticals",
+    "sector": "Drug Discovery / Biologics",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Basel, Switzerland (Roche) / South San Francisco, CA (Genentech)",
+    "geography": "Global"
+  },
+  "description": "Roche's gRED Computational Sciences group pioneered the 'Lab in a Loop' concept — integrating computational prediction with wet lab validation in tight cycles. Rather than treating AI as a separate function, the model creates a continuous feedback loop where in silico predictions drive wet lab experiments, and experimental results improve the models.\n\nThe Prescient Design acquisition brought dedicated AI protein design capabilities, complementing internal computational sciences. The $12B commitment to computational sciences signals the scale of investment in this research-first approach.\n\nThe structural arrangement maintains the computational sciences group as a distinct research entity within Roche's broader R&D organization (gRED), while requiring tight integration with wet lab teams. This creates a productive tension between computational exploration and experimental validation.",
+  "observableMarkers": {
+    "reportingStructure": "gRED Computational Sciences group within Roche's R&D organization. Prescient Design integrated as acquisition.",
+    "resourceAllocation": "$12B committed to computational sciences",
+    "timeHorizons": "Multi-year drug discovery timelines with tight iterative cycles within projects",
+    "decisionRights": null,
+    "metrics": "$12B committed to computational sciences"
+  },
+  "mechanisms": [
+    {
+      "id": 3,
+      "name": "Embed Product at Research Frontier",
+      "evidence": "The 'Lab in a Loop' concept directly embeds computational prediction into the wet lab research process — each prediction cycle drives the next experiment, creating tight integration between AI capability and research frontier.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 1 classification. Fixed industry from Technology to Pharmaceuticals. Replaced Mechanism #5 (rapid iteration doesn't equal mass deployment) with Mechanism #3 (Embed Product at Research Frontier — Lab in a Loop). Added habitat, classification rationale.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Roche's gRED Computational Sciences group with 'Lab in a Loop' concept — integrating computational prediction with wet lab validation in tight cycles.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Roche investor presentations",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "BioPharma Dive",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": -0.7,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.4,
+    "longVsShortHorizon": -0.7
+  },
+  "openQuestions": [
+    "How large is the gRED Computational Sciences group (headcount)?",
+    "How does the Lab in a Loop model differ between small molecule and biologics discovery?",
+    "What is the Prescient Design team's current integration status within Roche?",
+    "How does Roche's approach compare to other pharma AI labs (Recursion, Sanofi)?"
+  ],
+  "taxonomyFeedback": [
+    "The 'Lab in a Loop' concept (tight compute-wet lab cycles) is a valuable structural pattern for pharma AI. It creates structural separation with forced integration — a distinct tension management approach.",
+    "Roche's dual-site structure (Basel + South San Francisco/Genentech) adds geographic complexity to the AI organizational model."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/roche-genentech.json"
+  }
+}

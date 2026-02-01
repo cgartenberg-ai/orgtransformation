@@ -1,0 +1,71 @@
+{
+  "id": "uk-government",
+  "name": "UK Government",
+  "title": "AI Engineering Lab with Time-Limited Vendor Licenses",
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 2 (Center of Excellence). The AI Engineering Lab at Government Digital Service provides governance, evaluation, and enablement — classic CoE functions. It evaluates AI tools (Copilot, Gemini, Claude, Amazon Q) through time-limited licenses rather than building products. CAIO Kalbir Sohi from consumer tech (Spotify, Facebook) leads the effort. Structural orientation: the AI Engineering Lab is a distinct unit within GDS, separated from the government departments it serves.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Government",
+    "sector": "Central Government / Digital Services",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "London, UK",
+    "geography": "Europe"
+  },
+  "description": "The UK Government appointed Kalbir Sohi as its first Chief AI Officer, overseeing AI teams at the Government Digital Service. The hire from consumer tech (Product Director at Spotify Core Infrastructure, senior roles at Facebook) represents a significant departure from traditional government technology leadership.\n\nBacked by a 2 billion pound AI investment (2026-2030) with up to 137 million pounds for the AI Engineering Lab, the approach is distinctive for its time-limited vendor evaluation model. The Lab launches in early 2026 with time-limited licenses (up to 6 months) for Microsoft Copilot, Gemini, Amazon Q/Kiro, and Claude. The time-limited approach is intentional: it forces evaluation, prevents vendor lock-in, and enables comparison across platforms.\n\nThe Lab builds on existing AI deployments: the Ministry of Justice's ChatGPT Enterprise, and Whitehall AI tools 'Humphrey' and 'Consult.' The CoE model enables central evaluation and governance while individual government departments adapt AI to their specific domains.",
+  "observableMarkers": {
+    "reportingStructure": "CAIO Kalbir Sohi (ex-Spotify, Facebook) at Government Digital Service. AI Engineering Lab as central evaluation unit.",
+    "resourceAllocation": "2B pound total AI investment 2026-2030. Up to 137M pounds for AI-enabled breakthroughs.",
+    "timeHorizons": "6-month license evaluation cycles. 5-year investment horizon (2026-2030).",
+    "decisionRights": "AI Engineering Lab evaluates tools centrally; departments adopt based on Lab recommendations",
+    "metrics": "2B pound investment. 137M pound AI Lab budget. 6-month evaluation licenses for 4+ AI vendors."
+  },
+  "mechanisms": [
+    {
+      "id": 9,
+      "name": "Hire CAIOs from Consumer Tech",
+      "evidence": "CAIO Kalbir Sohi hired from consumer tech: Product Director at Spotify Core Infrastructure, senior roles at Facebook. Significant departure from traditional government IT leadership.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 2 classification. Replaced weakly-evidenced Mechanism #5 with Mechanism #9 (Hire CAIOs from Consumer Tech — Sohi from Spotify/Facebook). Added habitat, observable markers, classification rationale.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "UK Government appointed first CAIO from consumer tech. AI Engineering Lab with 2B pound investment and time-limited vendor evaluation licenses.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    }
+  ],
+  "sources": [
+    {"id": "source-1", "type": "Press", "name": "Global Government Forum — UK CAIO appointment", "url": "https://www.globalgovernmentforum.com/uk-government-appoints-first-chief-ai-officer/", "timestamp": null, "sourceDate": "2026-01", "collectedDate": "2026-01-31", "notes": null},
+    {"id": "source-2", "type": "Press", "name": "Open Access Government", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-3", "type": "Press", "name": "UK AI Incubator", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-4", "type": "Personal", "name": "Kalbir Sohi — background", "url": "https://kalbirsohi.net/about/", "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-31", "notes": "CAIO background: Spotify Core Infrastructure, Facebook, HMRC, startup founder"}
+  ],
+  "contingencies": {"regulatoryIntensity": "High", "timeToObsolescence": "Slow", "ceoTenure": null, "talentMarketPosition": "Talent-constrained", "technicalDebt": "High"},
+  "tensionPositions": {"structuralVsContextual": -0.6, "speedVsDepth": -0.5, "centralVsDistributed": -0.5, "namedVsQuiet": -0.4, "longVsShortHorizon": -0.3},
+  "openQuestions": ["How does the 6-month license evaluation process work in practice?", "Which government departments are earliest AI adopters?", "How does the UK approach compare to US federal AI governance (CAIO mandates)?"],
+  "taxonomyFeedback": ["Time-limited vendor evaluation is a distinctive government AI pattern — forces experimentation without commitment. Could be a variant of Temporal orientation within a Structural model.", "Government CoEs face unique constraints: procurement rules, security clearances, data sovereignty. These habitat conditions strongly shape what models are feasible."],
+  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/uk-government.json"}
+}

@@ -1,0 +1,21 @@
+{
+  "id": "reward-fast-failure",
+  "title": "Bonus Teams That Kill Their Own Projects",
+  "group": "incentives",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy"
+  ],
+  "insight": "Most organizations implicitly punish failure even when they say they value experimentation. Explicit rewards for killing projects early (bonuses, promotions, public celebration) are required to overcome this.",
+  "manifestations": [
+    "Google X: 'We have bonused every single person on teams that end their projects'",
+    "Pre-mortems before starting (predict why this will fail)",
+    "'Run at the hardest parts first' methodology",
+    "Public celebration of killed projects, not just successes",
+    "Promotion criteria that include 'projects responsibly ended'"
+  ],
+  "test": "Can you name the last project that was killed early and what happened to the people who killed it? If they were penalized or sidelined, the incentives are wrong.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

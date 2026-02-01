@@ -1,0 +1,140 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "ntt-data",
+  "name": "NTT DATA",
+  "title": "Triple-CoE Structure for Agentic AI",
+
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "NTT DATA operates three distinct CoE structures: (1) OpenAI CoE for client-facing GenAI services, (2) Internal AI CoE within CIO office for enterprise AI integration, (3) Virtual CoE for CX contact center solutions. All three are centralized enablement functions — classic Model 2. Structural orientation: each CoE serves a distinct domain with separate leadership. Medium confidence: multiple sources confirm the multi-CoE structure, but internal coordination mechanisms between CoEs are unclear.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Technology",
+    "sector": "IT Services / Consulting",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Tokyo, Japan",
+    "geography": "Global"
+  },
+
+  "description": "NTT DATA has built a distinctive triple-CoE structure for AI, with each center serving a different organizational function. The OpenAI Center of Excellence, established through a strategic collaboration with OpenAI, develops client-facing GenAI services powered by OpenAI APIs, tailored by industry vertical. Separately, an internal AI CoE within the CIO office (led by Maureen Tan) manages enterprise-wide AI integration using Azure AI Agent Service and Fabric data agents. A third Virtual CoE for CX, launched in 2026 starting in Czech Republic, Belgium, and Germany, focuses on AI-driven contact center solutions using Dynamics 365.\n\nNTT DATA's Smart AI Agent ecosystem, announced May 2025, targets $2B in revenue by 2027. The system includes a patented solution that converts legacy bots into autonomous intelligent agents — addressing the explore/execute tension by preserving existing automation investments while enabling agentic AI capabilities. Hundreds of agent instances are deployed across healthcare (insurance appeals, medical necessity decisions) and automotive (regulatory compliance) verticals.\n\nThe company was named ISG Provider Lens Leader for Agentic AI Services 2025 and partnered with Google Cloud (August 2025) for AI-powered cloud innovations, suggesting a platform-agnostic approach to AI enablement.",
+
+  "observableMarkers": {
+    "reportingStructure": "Internal AI CoE within CIO office (Maureen Tan). OpenAI CoE likely under client services. Virtual CoE for CX in European markets.",
+    "resourceAllocation": "$2B agentic AI revenue target by 2027",
+    "timeHorizons": "Near-term deployment (hundreds of agent instances already live)",
+    "decisionRights": "Each CoE appears to have distinct domain authority — unclear how they coordinate",
+    "metrics": "$2B revenue target by 2027. Hundreds of Smart AI Agent instances deployed. ISG Leader for Agentic AI Services."
+  },
+
+  "mechanisms": [],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2025-05",
+      "label": "Smart AI Agent Ecosystem Launch",
+      "summary": "NTT DATA announced enterprise-grade Smart AI Agent ecosystem with industry-specific solutions. Patented legacy bot conversion. $2B revenue target by 2027.",
+      "classification": null,
+      "sourceRefs": ["ntt-smart-agent-2025"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Triple-CoE Structure Documented",
+      "summary": "Three CoE structures confirmed: OpenAI CoE (client services), internal AI CoE (CIO office, Maureen Tan), Virtual CoE for CX (Czech/Belgium/Germany). Plus Google Cloud partnership.",
+      "classification": null,
+      "sourceRefs": ["microsoft-ntt-2025", "ntt-cx-2026", "ntt-google-2025"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "ntt-smart-agent-2025",
+      "type": "Press Release",
+      "name": "NTT DATA — Smart AI Agent Ecosystem announcement",
+      "url": "https://services.global.ntt/en-us/newsroom/ntt-data-unveils-smart-ai-agent-ecosystem",
+      "timestamp": null,
+      "sourceDate": "2025-05-16",
+      "collectedDate": "2026-02-01",
+      "notes": "Enterprise-grade agentic AI. $2B target. Patented legacy bot conversion."
+    },
+    {
+      "id": "microsoft-ntt-2025",
+      "type": "Press",
+      "name": "Microsoft Customer Stories — NTT DATA AI CoE",
+      "url": "https://www.microsoft.com/en/customers/story/23654-ntt-data-azure-ai-agent-service",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-01",
+      "notes": "Internal AI CoE, Maureen Tan, Fabric + Azure AI Agent Service integration"
+    },
+    {
+      "id": "ntt-cx-2026",
+      "type": "Blog",
+      "name": "NTT DATA Blog — Putting AI at the Heart of CX",
+      "url": "https://us.nttdata.com/en/blog/2026/january/putting-ai-at-the-heart-of-cx-from-contact-center-to-growth-engine",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-01",
+      "notes": "Virtual CoE for CX, Czech Republic/Belgium/Germany"
+    },
+    {
+      "id": "ntt-google-2025",
+      "type": "Press Release",
+      "name": "NTT DATA — Google Cloud Partnership",
+      "url": "https://www.nttdata.com/global/en/news/press-release/2025/august/081300",
+      "timestamp": null,
+      "sourceDate": "2025-08-13",
+      "collectedDate": "2026-02-01",
+      "notes": "Global partnership for AI-powered cloud innovations"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": 0.2,
+    "centralVsDistributed": -0.4,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": 0.2
+  },
+
+  "openQuestions": [
+    "How do the three CoEs coordinate? Is there a single CAIO or distributed governance?",
+    "What's the relationship between the OpenAI CoE and the internal CIO-office CoE?",
+    "Is the Virtual CoE a new org unit or a consulting/services offering?",
+    "How many people staff each CoE?"
+  ],
+
+  "taxonomyFeedback": [
+    "NTT DATA's triple-CoE structure suggests the CoE model (Model 2) is fragmenting into specialized variants: client-facing, internal operations, and domain-specific (CX). The taxonomy may need to recognize CoE sub-types.",
+    "IT services/consulting firms may systematically adopt multi-CoE structures because they serve both internal transformation AND client delivery — a dual explore/execute tension."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-01",
+    "lastUpdated": "2026-02-01",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

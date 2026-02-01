@@ -1,0 +1,40 @@
+{
+  "id": "moderna",
+  "company": "Moderna",
+  "title": "Mandatory Proficiency with AI Academy",
+  "summary": "100% AI proficiency goal in 6 months, AI Academy as innovation incubator, 80%+ mChat adoption",
+  "diagramTemplate": "embedded-universal",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "human-ai-boundaries",
+    "measurement-philosophy"
+  ],
+  "designPrinciples": [
+    "mandatory-proficiency",
+    "a-team-capability"
+  ],
+  "content": {
+    "whatItIs": "An approach where the 'lab' is essentially the entire organization\u2014with a goal of 100% AI proficiency across all employees within 6 months, supported by a structured AI Academy.",
+    "howItWorks": [
+      "Goal: 'achieve 100% adoption and proficiency of generative AI by all its people with access to digital solutions in six months'",
+      "Three-layer change management: Individual (in-depth research, listening programs, trainings), Collective (AI prompt contest identified top 100 AI power users who became 'Generative AI Champions'), Structural (AI Academy evolved from educational content to 'an innovation incubator for AI capability, projects and ideas')",
+      "mChat (internal chatbot on OpenAI's API) adopted by over 80% of employees",
+      "Since deploying ChatGPT Enterprise: 750+ custom GPTs across the company"
+    ],
+    "coreInsight": "Set aggressive, time-bound AI proficiency targets (100% in 6 months). Structure the transformation with individual, collective, and institutional change management. Create internal 'AI Champions' from your best users. Make AI proficiency a company-wide competency, not a technical specialty.",
+    "keyMetrics": "Domain fit: 'The informational nature of mRNA lends itself well to drug design simulation and optimization.'",
+    "sources": [
+      "OpenAI",
+      "Inc Magazine",
+      "IBM Case Study",
+      "Moderna Press"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {
+    "2026Restructuring": "After reporting a $1B quarterly loss in 2025, Moderna is restructuring to treat AI as a collaborator rather than just a tool. Created new role of Chief People and Digital Technology Officer to oversee merged HR and tech departments. This enables 'work planning' instead of 'workforce planning'\u2014managers assess tasks based on whether they should be automated, augmented, or performed by a person. mChat evolved into a Chrome extension connected to databases without storing conversations. Key GPTs: Dose ID (clinical data analysis for augmenting clinical judgment), Contract Companion (90-95% time savings on legal contracts\u2014now company-wide asset). 40% of weekly active users actively creating GPTs, averaging 120 ChatGPT Enterprise conversations per week."
+  },
+  "lastUpdated": "2026-01-20",
+  "phenotype": "unnamed-informal",
+  "phenotypeSubtype": "enterprise-adoption"
+}

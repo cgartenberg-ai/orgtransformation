@@ -1,0 +1,41 @@
+{
+  "id": "openai-microsoft",
+  "company": "OpenAI / Microsoft",
+  "title": "Partnership Restructuring + Agentic AI",
+  "summary": "Restructured $135B partnership, Azure exclusivity until AGI, 800M+ weekly ChatGPT users, Agent 365 suite",
+  "diagramTemplate": "hybrid-hub-spoke",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "resource-allocation"
+  ],
+  "designPrinciples": [
+    "ride-the-exponential",
+    "rapid-iteration-cycles"
+  ],
+  "content": {
+    "whatItIs": "The foundational AI partnership that ignited the AI boom, now restructured with clearer boundaries. OpenAI focuses on frontier models while Microsoft deploys at enterprise scale through Agent 365 and Azure.",
+    "howItWorks": [
+      "New MOU signed: Microsoft holds ~$135B investment (27% as-converted diluted basis)",
+      "OpenAI remains Microsoft's frontier model partner with Azure API exclusivity until AGI",
+      "OpenAI committed to $250B additional Azure cloud services",
+      "Microsoft sole cloud provider allowed to sell OpenAI models until at least 2030",
+      "OpenAI transitioning to public benefit corporation (PBC) with Microsoft support",
+      "2026 focus: 'Agentic AI' with Microsoft's Agent 365 suite\u2014autonomous digital workers for procurement, HR, supply chain"
+    ],
+    "coreInsight": "CFO Sarah Friar: 2026 is the year of 'practical adoption'\u2014closing the gap between what AI makes possible and how people use it daily. Focus on health, science, and enterprise.",
+    "keyMetrics": "ChatGPT: 800M+ weekly active users, 1M+ business customers. OpenAI revenue: $2B (2023) to $20B+ (2025). Compute grew from 0.2GW to 1.9GW. Vision: ChatGPT evolving from chatbot to 'super assistant' with goals, context, and proactive help.",
+    "sources": [
+      "OpenAI Blog January 2026",
+      "CNBC January 2026",
+      "The Decoder",
+      "Fifth Person"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {
+    "partnershipTensions": "Partnership frayed under pressure in 2025 as the halcyon early days ended. FTC and European Commission actively investigating for potential anti-competitive behavior. Microsoft CEO Satya Nadella wants industry to stop calling AI 'slop.' OpenAI reportedly burning through vast cash to maintain AI advances\u2014some project $14B losses in 2026 and potential bankruptcy by 2027."
+  },
+  "lastUpdated": "2026-01-20",
+  "phenotype": "product-venture-lab",
+  "phenotypeSubtype": "venture-builder"
+}

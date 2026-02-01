@@ -1,0 +1,38 @@
+{
+  "id": "waystar",
+  "company": "Waystar",
+  "title": "Autonomous Revenue Cycle Vision",
+  "summary": "150+ AI agents creating end-to-end agentic network for healthcare billing automation with $15.5B in prevented denials",
+  "diagramTemplate": "platform-to-product",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy"
+  ],
+  "designPrinciples": [
+    "data-flywheel",
+    "ride-the-exponential"
+  ],
+  "content": {
+    "whatItIs": "Waystar announced agentic intelligence at JPM 2026, articulating a vision for the 'autonomous revenue cycle'\u2014where AI agents handle healthcare billing, denials, and claims without human intervention.",
+    "howItWorks": [
+      "2025: Processed 7.5+ billion insurance transactions\u2014proprietary data as key differentiator",
+      "July 2025: Acquired Iodine Software (processes one in three clinical hospital discharges) adding 'troves of new data to train and refine AI models'",
+      "Building 'dynamic, end-to-end agentic network that continuously acts within workflows, executes defined tasks, and learns from outcomes with minimal intervention'",
+      "Platform includes 150+ AI-trained models",
+      "In seconds, agentic AI analyzes full medical record, prioritizes 30,000 most relevant data points, auto-populates correction requests with clinical context"
+    ],
+    "coreInsight": "Healthcare administrative AI should aim for 'autonomous' rather than 'assisted' operations. Build agentic networks (150+ models) that execute tasks end-to-end. Proprietary transaction data (7.5B+ annually) becomes the moat. The TAM expansion thesis: AI transforms market size, not just market share.",
+    "keyMetrics": "$15.5B in prevented denials. ~40% reduction in manual correction workload. 95% time savings in denial-related workflows. TAM projected to grow from $20-25B to $55B by 2030.",
+    "sources": [
+      "PR Newswire",
+      "Fierce Healthcare",
+      "TechTarget",
+      "HIT Consultant"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "embedded",
+  "phenotypeSubtype": null
+}

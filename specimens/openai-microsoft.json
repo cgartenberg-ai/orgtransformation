@@ -1,0 +1,207 @@
+{
+  "id": "openai-microsoft",
+  "name": "OpenAI / Microsoft",
+  "title": "Partnership Restructuring + Agentic AI",
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5b",
+    "subTypeName": "Venture Builder",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Auto-converted from legacy phenotype 'product-venture-lab' / 'venture-builder'. Orientation inferred from content and design principles. Needs human review.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": null,
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": null,
+    "geography": null
+  },
+  "description": "The foundational AI partnership that ignited the AI boom, now restructured with clearer boundaries. OpenAI focuses on frontier models while Microsoft deploys at enterprise scale through Agent 365 and Azure.\n- New MOU signed: Microsoft holds ~$135B investment (27% as-converted diluted basis)\n- OpenAI remains Microsoft's frontier model partner with Azure API exclusivity until AGI\n- OpenAI committed to $250B additional Azure cloud services\n- Microsoft sole cloud provider allowed to sell OpenAI models until at least 2030\n- OpenAI transitioning to public benefit corporation (PBC) with Microsoft support\n- 2026 focus: 'Agentic AI' with Microsoft's Agent 365 suite—autonomous digital workers for procurement, HR, supply chain",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "ChatGPT: 800M+ weekly active users, 1M+ business customers. OpenAI revenue: $2B (2023) to $20B+ (2025). Compute grew from 0.2GW to 1.9GW. Vision: ChatGPT evolving from chatbot to 'super assistant' with goals, context, and proactive help."
+  },
+  "mechanisms": [
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Identified via design principle 'rapid-iteration-cycles' in original case data. Evidence needs strengthening from sources.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "practical adoption",
+      "speaker": "Sarah Friar",
+      "speakerTitle": null,
+      "source": null,
+      "sourceUrl": null,
+      "timestamp": null,
+      "date": null
+    }
+  ],
+  "layers": [
+    {
+      "date": "2025-10",
+      "label": "PBC Restructuring & IPO Path",
+      "summary": "EVOLUTION: OpenAI completed restructuring from capped-profit nonprofit subsidiary → Public Benefit Corporation ('OpenAI Group PBC') on Oct 28, 2025. Nonprofit → 'OpenAI Foundation' holds equity ~$130B, commits $25B to health/curing diseases. Microsoft holds $135B/27% equity with tech rights through 2032. SoftBank invested $40B (half conditional on lifting profit cap). Independent AGI verification panel created. On path to IPO potentially valued at $1T, H2 2026. Hired Krishna Rao (former Airbnb, key to 2020 IPO).",
+      "classification": "Model 5b (Venture Builder) — governance evolution, not structural model change",
+      "sourceRefs": ["openai-pbc-2025", "builtin-structure-2025", "openai-structure-2025", "empower-softbank-2025", "cnbc-ipo-2025", "time-timeline-2025"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Latest Update",
+      "summary": "Partnership frayed under pressure in 2025 as the halcyon early days ended. FTC and European Commission actively investigating for potential anti-competitive behavior. Microsoft CEO Satya Nadella wants industry to stop calling AI 'slop.' OpenAI reportedly burning through vast cash to maintain AI adva...",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025",
+      "label": "Initial Documentation",
+      "summary": "The foundational AI partnership that ignited the AI boom, now restructured with clearer boundaries. OpenAI focuses on frontier models while Microsoft deploys at enterprise scale through Agent 365 and Azure.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Blog",
+      "name": "OpenAI Blog January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "CNBC January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "The Decoder",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "Fifth Person",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "openai-pbc-2025",
+      "type": "Blog",
+      "name": "OpenAI — Built to Benefit Everyone",
+      "url": "https://openai.com/index/built-to-benefit-everyone/",
+      "timestamp": null,
+      "sourceDate": "2025-10-28",
+      "collectedDate": "2026-01-31",
+      "notes": "PBC restructuring announcement."
+    },
+    {
+      "id": "builtin-structure-2025",
+      "type": "Press",
+      "name": "Built In — OpenAI New Corporate Structure",
+      "url": "https://builtin.com/articles/openai-new-corporate-structure",
+      "timestamp": null,
+      "sourceDate": "2025-10",
+      "collectedDate": "2026-01-31",
+      "notes": "Foundation equity ~$130B, $25B health commitment."
+    },
+    {
+      "id": "openai-structure-2025",
+      "type": "Blog",
+      "name": "OpenAI — Our Structure",
+      "url": "https://openai.com/our-structure/",
+      "timestamp": null,
+      "sourceDate": "2025-10-28",
+      "collectedDate": "2026-01-31",
+      "notes": "Microsoft $135B/27%, rights through 2032."
+    },
+    {
+      "id": "empower-softbank-2025",
+      "type": "Press",
+      "name": "Empower — OpenAI Restructuring PBC",
+      "url": "https://www.empower.com/the-currency/money/openai-restructuring-public-benefit-corporation-news",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-01-31",
+      "notes": "SoftBank $40B, half conditional."
+    },
+    {
+      "id": "cnbc-ipo-2025",
+      "type": "Press",
+      "name": "CNBC — IPO Preparation",
+      "url": "https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html",
+      "timestamp": null,
+      "sourceDate": "2025-12-03",
+      "collectedDate": "2026-01-31",
+      "notes": "IPO race with Anthropic."
+    },
+    {
+      "id": "time-timeline-2025",
+      "type": "Press",
+      "name": "TIME — OpenAI ChatGPT Sam Altman Timeline",
+      "url": "https://time.com/7328674/openai-chatgpt-sam-altman-elon-musk-timeline/",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-01-31",
+      "notes": "CA AG concessions."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [],
+  "taxonomyFeedback": [],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/openai-microsoft.json"
+  }
+}

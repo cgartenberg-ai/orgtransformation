@@ -1,0 +1,140 @@
+{
+  "id": "amazon-agi",
+  "name": "Amazon",
+  "title": "AGI Frontier Model Research: Parallel Moonshot Organization",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 1,
+    "secondaryModelName": "Research Lab",
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Reclassified from Model 1 to Model 4 + secondary Model 1. Amazon's AGI organization under Peter DeSantis unites research (AGI SF Lab), infrastructure (Trainium/Inferentia chips), and quantum computing — functioning as a hub. AWS AI services (30+ services) serve as execution spokes bringing AI capabilities to customers. The AGI SF Lab has research lab characteristics (Pieter Abbeel, world models), but the broader org is structured as a hub serving multiple execution channels. Structural orientation: research and product/infrastructure are in distinct units with different timelines.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "E-commerce / Cloud Computing",
+    "orgSize": "Enterprise",
+    "employees": 1500000,
+    "revenue": "$600B",
+    "headquarters": "Seattle, WA",
+    "geography": "Global"
+  },
+  "description": "Amazon created a new organization uniting AGI research, custom chips (Trainium/Inferentia), and quantum computing under a single leader. The AGI SF Lab specifically focuses on developing useful AI agents for digital and physical worlds.\n- Peter DeSantis (27 years at Amazon) leads new organization combining AI models, custom silicon, and quantum computing\n- AGI SF Lab in San Francisco seeded by team acquired from Adept—specialists in AI agents that handle complex workflows\n- Recruited robotics pioneer Pieter Abbeel (UC Berkeley) to lead embodied AI and world-model research\n- Separate from AWS commercial AI services, allowing different timelines and risk profiles\n- Combines LLMs with reinforcement learning (RL) for reasoning, planning, and world modeling\n- Amazon Nova foundation models power the research—state-of-the-art models announced recently",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "AWS offers 30+ AI/ML services. 2026 Amazon Nova AI Challenge focuses on 'Trusted Software Agents'—university teams building defenses and reliability into agentic coding systems."
+  },
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "AGI SF Lab operates separately from AWS commercial AI services, allowing different timelines and risk profiles. Combines LLMs with reinforcement learning for reasoning, planning, and world modeling — research directions that may not have immediate commercial application.",
+      "strength": "Moderate"
+    },
+    {
+      "id": 6,
+      "name": "Merge Competing AI Teams Under Single Leader",
+      "evidence": "Peter DeSantis (27 years at Amazon) leads new organization uniting AGI research, custom chips (Trainium/Inferentia), and quantum computing under a single leader. Previously these were separate efforts.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review — Reclassified",
+      "summary": "Bulk curation review reclassified from Model 1 (Research Lab) to Model 4 (Hybrid/Hub-and-Spoke) with secondary Model 1. Decision tree walk: formal AI unit → not primarily academic research (agents, products, chips are primary) → central team exists (DeSantis org) → central team builds products AND provides infrastructure → outputs include both research and products → Model 4. The AGI org is a hub combining research, chips, and quantum; AWS AI services are execution spokes. Fixed industry from Robotics to Technology. Added habitat data.",
+      "classification": "Model 1 (Research Lab) — pre-review classification",
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Latest Update",
+      "summary": "The AGI SF Lab builds on Amazon's acquisition of key talent from Adept, who pioneered AI agents that can use the same tools humans use—computers, web browsers, and code interpreters. This positions Amazon to compete in the emerging 'agentic AI' space that is expected to define 2026.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025",
+      "label": "Initial Documentation",
+      "summary": "Amazon created a new organization uniting AGI research, custom chips (Trainium/Inferentia), and quantum computing under a single leader. The AGI SF Lab specifically focuses on developing useful AI agents for digital and physical worlds.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Blog",
+      "name": "Amazon Science Blog",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "About Amazon News",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Blog",
+      "name": "AWS News Blog January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.7,
+    "speedVsDepth": -0.4,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.6,
+    "longVsShortHorizon": -0.5
+  },
+  "openQuestions": [
+    "How does the AGI org under DeSantis coordinate with AWS AI services (Bedrock, SageMaker)?",
+    "What is the size of the AGI SF Lab team vs. the broader DeSantis organization?",
+    "How do Amazon Nova foundation models relate to the AGI research agenda vs. AWS product needs?",
+    "What is the relationship between Amazon's robotics AI work and the AGI org?"
+  ],
+  "taxonomyFeedback": [
+    "Amazon's AGI org tests the Model 1 vs Model 4 boundary. The AGI SF Lab has clear research lab characteristics, but the broader org (research + chips + quantum) is a hub serving multiple execution channels. The reclassification to Model 4 + secondary Model 1 captures this better than pure Model 1.",
+    "The Adept acquisition (talent acqui-hire) represents a mechanism not yet in the taxonomy: acquiring external teams to seed internal research."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/amazon-agi.json"
+  }
+}

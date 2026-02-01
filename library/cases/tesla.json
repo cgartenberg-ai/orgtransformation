@@ -1,0 +1,40 @@
+{
+  "id": "tesla",
+  "company": "Tesla",
+  "title": "Fleet as Distributed Lab",
+  "summary": "1.5 million cars generating training data continuously, vision-only approach at scale",
+  "diagramTemplate": "product-as-lab",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "information-architecture"
+  ],
+  "designPrinciples": [
+    "data-flywheel",
+    "remove-human-intuition-bottlenecks"
+  ],
+  "content": {
+    "whatItIs": "Using deployed products as the innovation system. 1.5 million cars globally, each with 8 cameras, continuously generating training data and surfacing edge cases that no human R&D team could anticipate.",
+    "howItWorks": [
+      "Former AI Director Andrej Karpathy: 'Build a dataset; train your network; deploy it and test it. When you notice that the network is misbehaving, you incorporate the errors into the training set.'",
+      "Every week, robots process 1.5 petabytes of data requiring massive compute to train",
+      "The fleet identifies edge cases that humans would never anticipate",
+      "Vision-only approach (no LiDAR, no HD maps): 'It's actually quite unscalable to collect, build, and maintain high-definition lidar maps.'"
+    ],
+    "coreInsight": "Design products that generate training data as a byproduct of usage. The more customers use the product, the better it gets. This creates a flywheel competitors without deployed fleets cannot replicate.",
+    "keyMetrics": "Cross-domain transfer: The organizational capability built for Autopilot directly enables Tesla Bot (Optimus). 2026 targets: 50,000 Optimus robots, Cybercab volume production starting April 2026.",
+    "sources": [
+      "Lex Fridman Podcast #333",
+      "Tesla AI Day",
+      "BrainCreators",
+      "WebProNews January 2026",
+      "Motley Fool December 2025"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {
+    "2026Roadmap": "Elon Musk set firm 2026 deadline for unsupervised FSD and Optimus breakthroughs\u2014VP of AI Ashok Elluswamy said it will be 'the hardest year' of employees' lives. FSD v14.2 rolling out globally (Europe launch expected Q1 2026). FSD transitioning to subscription-only model from February 2026. Optimus Gen 3 production-intent prototype expected Q1 2026, with thousands deployed in factories by end of 2026. Cybercab (steering-wheel-free robotaxi) volume production starting April 2026\u2014driverless testing ongoing in Austin."
+  },
+  "lastUpdated": "2026-01-20",
+  "phenotype": "embedded",
+  "phenotypeSubtype": null
+}

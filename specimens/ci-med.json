@@ -1,0 +1,96 @@
+{
+  "id": "ci-med",
+  "name": "Carle Illinois College of Medicine",
+  "title": "First CAIO at Engineering-Based Medical School",
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Tentative Model 2 (CoE). CAIO Dr. Adil Haider appointed to lead AI strategy across medical education, translational research, and clinical innovation. The CAIO role suggests centralized AI governance and enablement — the CoE pattern. However, data is from a single source with minimal detail on actual organizational structure. Low confidence reflects this data gap.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Education",
+    "sector": "Medical Education",
+    "orgSize": "Small",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Champaign, IL",
+    "geography": "US"
+  },
+  "description": "Carle Illinois College of Medicine (CI MED), the world's first engineering-based medical school, appointed Dr. Adil Haider as its inaugural Chief AI Officer in January 2026. Haider, a Pakistani-American surgeon-scientist and founder of Boston Health AI, will lead strategic vision and responsible deployment of AI across medical education, translational research, and clinical innovation.\n\nThis represents the CAIO role expanding into academic medical education — a new sector for AI organizational leadership.",
+  "observableMarkers": {
+    "reportingStructure": "CAIO Dr. Adil Haider (inaugural appointment)",
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+  "mechanisms": [
+    {
+      "id": 9,
+      "name": "Hire CAIOs from Consumer Tech",
+      "evidence": "CAIO Dr. Adil Haider hired from health AI startup ecosystem (Boston Health AI founder). Represents CAIO pattern expanding into academic medicine.",
+      "strength": "Weak"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "CI MED appoints inaugural CAIO (Dr. Adil Haider) for AI across medical education, research, and clinical innovation.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "The Nation (Pakistan) — CAIO appointment",
+      "url": "https://www.nation.com.pk/17-Jan-2026/dr-adil-appointed-inaugural-chief-artificial-intelligence-officer-ci-med",
+      "timestamp": null,
+      "sourceDate": "2026-01-17",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.5,
+    "speedVsDepth": -0.5,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": -0.5
+  },
+  "openQuestions": [
+    "What AI capabilities is CI MED building? Research vs. curriculum integration?",
+    "How does the CAIO role relate to the engineering focus of the school?",
+    "What is the CAIO's budget and team size?"
+  ],
+  "taxonomyFeedback": [
+    "CAIO appointments in academic medicine represent a new frontier for the role. The education sector faces different constraints than corporate: faculty governance, research funding cycles, accreditation requirements."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

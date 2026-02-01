@@ -1,0 +1,128 @@
+{
+  "id": "bosch-bcai",
+  "name": "Bosch",
+  "title": "Cross-Divisional AI Network (BCAI)",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "BCAI is explicitly described as a network of experts from both Bosch Research AND business divisions—not a traditional centralized lab. This network structure with central coordination is the defining pattern of Model 4 (Hub-and-Spoke). Structural orientation: BCAI is a named, formally-resourced entity with board-level leadership (Dr. Kessler).",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Industrial Technology",
+    "sector": "Diversified (Automotive, Industrial, Consumer, Energy)",
+    "orgSize": "Enterprise",
+    "employees": "~420,000",
+    "revenue": "~€92B",
+    "headquarters": "Gerlingen, Germany",
+    "geography": "Global"
+  },
+  "description": "The Bosch Center for Artificial Intelligence (BCAI) is not a traditional centralized lab but a network of experts from both Bosch Research and business divisions, enabling AI in virtually every product and technological development.\n- Network structure: experts from both central research AND business divisions—not a traditional centralized lab\n- Enables AI expertise to flow into virtually every product development\n- 2.5B euro AI investment by end of 2027; software/sensor business expected to exceed 10B euro by mid-2030s\n- Leadership: Dr. Michael Kessler joined board focusing on AI research, application, industrialization\n- CES 2026 demos: AI cockpit systems with LLMs, agentic AI for manufacturing, connected cooking appliances",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "2.5B euro AI investment by 2027. 10B+ euro target for software/sensor business by mid-2030s. CES 2026: 'people-centric technology' vision."
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Model 4 (Hybrid/Hub-and-Spoke) validated. BCAI is explicitly described as a network connecting central research AND business divisions—classic hub-and-spoke. Structural orientation confirmed: BCAI is a named, formally-resourced entity. Fixed industry from Automotive to Industrial Technology (Bosch spans automotive, industrial, consumer, energy). Removed spurious auto-converted quote. Added habitat data.",
+      "classification": {
+        "structuralModel": 4,
+        "orientation": "Structural",
+        "confidence": "Medium",
+        "action": "validated"
+      },
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "The Bosch Center for Artificial Intelligence (BCAI) is not a traditional centralized lab but a network of experts from both Bosch Research and business divisions, enabling AI in virtually every product and technological development.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Bosch Research",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "CES 2026 announcements",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Interesting Engineering",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "AiBase News",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": "Distributed-leaning. BCAI is explicitly \"not a traditional centralized lab\" but a network spanning research and business divisions.",
+    "namedVsQuiet": "Named. BCAI is a branded, visible entity with public presence at CES.",
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [],
+  "taxonomyFeedback": [],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/bosch-bcai.json"
+  }
+}

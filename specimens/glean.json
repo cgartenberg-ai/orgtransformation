@@ -1,0 +1,108 @@
+{
+  "id": "glean",
+  "name": "Glean",
+  "title": "Enterprise AI Search — Automation Harder Than Expected",
+
+  "classification": {
+    "structuralModel": 3,
+    "structuralModelName": "Embedded Teams",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Low",
+    "classificationRationale": "AI-native company with product-embedded AI. CEO Arvind Jain's candid admission that AI automation was harder than expected — tried to automate internal workflows and fine-tune custom models, both fell short. Very limited org structure data.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Enterprise AI Search",
+    "orgSize": "Scaleup",
+    "employees": null,
+    "revenue": null,
+    "headquarters": null,
+    "geography": "North America"
+  },
+
+  "description": "Glean CEO Arvind Jain, speaking on the BG2 Pod (Dec 23, 2025), described trying to automate internal workflows (identifying priorities) and expecting AI would 'magically' do the work — but it did not. Glean also tried fine-tuning a custom model, which fell short. Enterprise AI search company valued at $7.2B after raising $150M (Sep 2025).",
+
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": "$150M raised at $7.2B valuation (Sep 2025).",
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2025-12",
+      "label": "Initial Documentation",
+      "summary": "CEO Arvind Jain on BG2 Pod: tried automating internal workflows, expected AI would 'magically' do the work but it didn't. Also tried fine-tuning custom model, fell short. $150M raise at $7.2B valuation (Sep 2025).",
+      "classification": null,
+      "sourceRefs": ["bg2-pod-2025-12", "dnyuz-2025-12"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "bg2-pod-2025-12",
+      "type": "Podcast",
+      "name": "BG2 Pod — AI Enterprise: Databricks, Glean",
+      "url": "https://podcasts.apple.com/ca/podcast/ai-enterprise-databricks-glean-bg2-guest-interview/id1727278168?i=1000742526917",
+      "timestamp": null,
+      "sourceDate": "2025-12-23",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "dnyuz-2025-12",
+      "type": "Press",
+      "name": "AOL/DNYUZ — AI CEOs Say Automation with AI Is Harder Than It Looks",
+      "url": "https://dnyuz.com/2025/12/24/ai-ceos-say-automation-with-ai-is-harder-than-it-looks/",
+      "timestamp": null,
+      "sourceDate": "2025-12-24",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": "Founder",
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [
+    "What is Glean's internal AI org structure?",
+    "What specific workflows did they try to automate and why did they fail?",
+    "How did the fine-tuned custom model fall short vs. off-the-shelf LLMs?"
+  ],
+
+  "taxonomyFeedback": [],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

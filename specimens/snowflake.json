@@ -1,0 +1,64 @@
+{
+  "id": "snowflake",
+  "name": "Snowflake",
+  "title": "Great Decentralization Thesis",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Kept Model 4 tentatively but confidence downgraded to Low. The data primarily describes CEO Ramaswamy's commentary on industry trends ('Great Decentralization') rather than Snowflake's internal AI organizational structure. The Observe acquisition and AI product strategy suggest some central AI capability, but no internal structure is described. Needs significantly more data about internal AI organization.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Cloud Computing",
+    "sector": "Data Platform / Data Warehousing",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Bozeman, MT",
+    "geography": "Global"
+  },
+  "description": "Snowflake CEO Sridhar Ramaswamy argues 2026 will be the year of the 'Great Decentralization' — the end of Big Tech walled gardens as smaller, specialized models deliver higher ROI than trillion-parameter alternatives. His core thesis: 'You don't need the biggest models to do a lot of things.'\n\nThe 2026 vision includes an 'HTTP Moment' — emergence of a dominant protocol for agent collaboration, enabling interoperability. Ramaswamy distinguishes between organizations generating 'AI slop' versus those achieving 'Creative Amplification.' Employee-driven adoption (workers using ChatGPT, Claude without waiting for IT) forces organizations to catch up.\n\nStrategically, Snowflake acquired Observe (observability platform) in early 2026 for AI system monitoring, signaling investment in AI infrastructure. The broader thesis positions Snowflake's data platform as essential infrastructure for the decentralized AI era.",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": "Acquired Observe (observability) early 2026 for AI system monitoring",
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "Observe acquisition for AI system monitoring."
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Kept Model 4 but downgraded confidence to Low and status to Stub. Data describes CEO industry commentary, not Snowflake's internal AI org structure. Fixed industry from Technology to Cloud Computing. Removed spurious 'Great Decentralization' quote fragment. Added habitat.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Snowflake CEO's 'Great Decentralization' thesis about the end of Big Tech AI walled gardens and the rise of smaller, specialized models.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    }
+  ],
+  "sources": [
+    {"id": "source-1", "type": "Press", "name": "Fortune", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-2", "type": "Press", "name": "WebProNews", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-3", "type": "Podcast", "name": "Sequoia Training Data Podcast", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-4", "type": "Press", "name": "Morgan Stanley", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+  ],
+  "contingencies": {"regulatoryIntensity": "Low", "timeToObsolescence": "Fast", "ceoTenure": "Short", "talentMarketPosition": "Talent-rich", "technicalDebt": "Low"},
+  "tensionPositions": {"structuralVsContextual": null, "speedVsDepth": null, "centralVsDistributed": null, "namedVsQuiet": null, "longVsShortHorizon": null},
+  "openQuestions": ["What is Snowflake's internal AI team structure?", "How does the 'Great Decentralization' thesis translate to Snowflake's own AI product architecture?", "How does Snowflake's data platform advantage shape its AI competitive positioning?"],
+  "taxonomyFeedback": ["Like mckinsey-workforce, this specimen captures CEO commentary about AI trends rather than organizational structure for AI. Consider whether such specimens should be categorized differently."],
+  "meta": {"status": "Stub", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/snowflake.json"}
+}

@@ -1,0 +1,37 @@
+{
+  "id": "salesforce",
+  "company": "Salesforce",
+  "title": "Agentforce at Scale",
+  "summary": "From 2.6M internal conversations to 63% autonomous resolution, now serving 18,500 enterprise customers with 3B automated workflows monthly",
+  "diagramTemplate": "platform-to-product",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy"
+  ],
+  "designPrinciples": [
+    "data-flywheel",
+    "ride-the-exponential"
+  ],
+  "content": {
+    "whatItIs": "Salesforce has achieved what may be the largest enterprise deployment of agentic AI, with Agentforce serving 18,500 enterprise customers running more than 3 billion automated workflows monthly.",
+    "howItWorks": [
+      "Internal validation: deployed on help.salesforce.com, handled 2.6 million conversations, now resolves 63% of questions autonomously",
+      "Customer satisfaction scores roughly match human agents",
+      "Enterprise results: Reddit (46% case deflection, 84% reduction in resolution times), Adecco (51% conversations outside working hours)",
+      "Engine: Anticipating $2M savings, CSAT improved from 3.7 to 4.3",
+      "WEF deployment (January 2026): 'EVA' proactive concierge for 3,000+ leaders at Davos"
+    ],
+    "coreInsight": "Scale proves the model. Deploy agentic AI internally first (2.6M conversations), prove autonomous resolution rates (63%), then expand to enterprise customers. The progression: internal dogfooding, measurable metrics, industry-specific case studies, then platform scale.",
+    "keyMetrics": "18,500 enterprise customers (up from 12,500). 3B automated workflows monthly. Agentic product revenue: $540M ARR.",
+    "sources": [
+      "Salesforce News",
+      "VentureBeat",
+      "Salesforce Investor Relations"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

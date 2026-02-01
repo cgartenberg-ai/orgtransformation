@@ -1,0 +1,137 @@
+{
+  "id": "samsung-c-lab",
+  "name": "Samsung C-Lab",
+  "title": "Separation with Spinoff Path",
+  "classification": {
+    "structuralModel": 7,
+    "structuralModelName": "Tiger Teams",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Temporal",
+    "orientationName": "Temporal",
+    "confidence": "High",
+    "classificationRationale": "Employees leave their execution roles for a defined period of exploration (full year, not 20% time), then either return to operations, spin off as an independent company, or get absorbed back. This is textbook temporal ambidexterity: individuals cycle between exploration and execution phases. The time-boxed structure with clear exit paths is the defining characteristic of Model 7.",
+    "typeSpecimen": true
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Consumer Electronics / Conglomerate",
+    "orgSize": "Enterprise",
+    "employees": 270000,
+    "revenue": "$230B",
+    "headquarters": "Seoul, South Korea",
+    "geography": "Global"
+  },
+  "description": "Samsung C-Lab is an internal incubator launched in 2012 after Samsung management's Silicon Valley experiences. It operates on two structural innovations: internal holacracy and a defined spinoff pathway.\n\nThe selection process is itself innovative: employees vote on ideas, experts review finalists, and a selected audience plays 'venture capitalists' deciding whether to invest. Selected employees get a full year away from regular duties — 100% dedicated time, not 20% time. Teams operate with flat hierarchy ('Each team has a leader and project members. That's it.') and can recruit from outside Samsung if needed talent isn't available internally.\n\nThe defining structural feature is the clear exit mechanism: 20% of C-Lab projects have become independent companies. Since 2015, promising projects can spin off as fully-fledged startups. This creates a three-path outcome for exploration work: reintegration into Samsung operations, spinoff as an independent venture, or termination — giving entrepreneurial employees clear endpoints rather than indefinite limbo.",
+  "observableMarkers": {
+    "reportingStructure": "Flat structure within C-Lab teams. Leader + project members only. Separate from Samsung's main hierarchy during exploration period.",
+    "resourceAllocation": "Full-year commitment for selected employees. Can recruit external talent. Venture-style selection process.",
+    "timeHorizons": "One year of dedicated exploration. Post-exploration: spinoff timeline varies. Program running since 2012.",
+    "decisionRights": "Employee voting for idea selection. Flat hierarchy during exploration. Clear exit criteria for spinoff vs. reintegration.",
+    "metrics": "959 total ventures supported (423 in-house, 536 external via C-Lab Outside) as of February 2025. 100+ graduated startups since 2012. 20% of projects become independent companies."
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "text": "Each team has a leader and project members. That's it.",
+      "speaker": null,
+      "speakerTitle": null,
+      "source": "Samsung Global Newsroom",
+      "sourceUrl": null,
+      "timestamp": null,
+      "date": null
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Bulk curation review validated classification as Model 7 (Tiger Teams) with Temporal orientation. Decision tree walk: formal unit → not primarily research → time-boxed team structure with clear exit paths (return/spinoff/terminate) → Model 7. Type specimen status confirmed. Added employee count and revenue estimates.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025-02",
+      "label": "Scale and External Expansion",
+      "summary": "959 total ventures supported: 423 in-house, 536 external through C-Lab Outside. 100+ graduated startups. 20% spinoff rate to independent companies. Program has been running 13 years.",
+      "classification": "Model 7",
+      "sourceRefs": [
+        "samsung-newsroom",
+        "mdpi-sustainability"
+      ]
+    },
+    {
+      "date": "2015",
+      "label": "Spinoff Path Formalized",
+      "summary": "C-Lab added formal spinoff mechanism, allowing promising projects to become fully-fledged startups. Prior to this, reintegration into Samsung was the primary exit path.",
+      "classification": "Model 7",
+      "sourceRefs": [
+        "samsung-newsroom"
+      ]
+    },
+    {
+      "date": "2012",
+      "label": "C-Lab Founded",
+      "summary": "Samsung launched C-Lab as internal incubator after management's Silicon Valley experiences. Original structure: employee voting, expert review, full-year dedication, flat hierarchy.",
+      "classification": "Model 7",
+      "sourceRefs": [
+        "samsung-newsroom"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "samsung-newsroom",
+      "type": "Press Release",
+      "name": "Samsung Global Newsroom",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": "2025-02",
+      "collectedDate": "2026-01-20",
+      "notes": "Official Samsung communications on C-Lab program, metrics, and structure."
+    },
+    {
+      "id": "mdpi-sustainability",
+      "type": "Academic Paper",
+      "name": "MDPI Sustainability Journal",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "Academic analysis of Samsung C-Lab's incubation model."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": 0.0,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.7,
+    "longVsShortHorizon": 0.0
+  },
+  "openQuestions": [
+    "What is the return-to-operations experience like for employees whose projects don't spin off?",
+    "How does C-Lab Outside (external program) differ structurally from the internal program?",
+    "What is the survival rate of spun-off companies after 3-5 years?",
+    "How does Samsung's main org view C-Lab alumni — are they promoted, or is there stigma?"
+  ],
+  "taxonomyFeedback": [
+    "Samsung C-Lab validates Model 7 (Tiger Teams) as distinct from Model 5 (Product/Venture Lab). The key difference is that C-Lab participants are temporarily separated from execution roles and may return — vs. Model 5 where the lab is a permanent structure. The spinoff path blurs this slightly, but the defining feature is the temporal cycling of individuals.",
+    "The 'C-Lab Outside' program (external startups) may warrant separate treatment or a note that Model 7 can evolve to include external participants."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Medium",
+    "convertedFrom": "library/cases/samsung-c-lab.json"
+  }
+}

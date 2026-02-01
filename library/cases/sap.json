@@ -1,0 +1,37 @@
+{
+  "id": "sap",
+  "company": "SAP",
+  "title": "No Apps, No Data, No AI Philosophy",
+  "summary": "AI only creates value when deeply embedded in business processes\u2014the formula is apps + data + AI, without the first two the third delivers limited value",
+  "diagramTemplate": "platform-to-product",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "information-architecture"
+  ],
+  "designPrinciples": [
+    "domain-expertise"
+  ],
+  "content": {
+    "whatItIs": "SAP CEO Christian Klein's distinctive AI philosophy challenges standalone AI tools: 'For high-value AI cases in B2B, a Large Language Model alone is not sufficient. No apps, no data, no AI.'",
+    "howItWorks": [
+      "Three-pillar architecture: modern cloud software + modern data management + consistent AI stack linking them",
+      "AI must be deeply embedded in business processes\u2014not standalone technology",
+      "Prediction: Within 2 years, SAP users will no longer manually enter data; all tasks processed with natural language",
+      "Joule (SAP's AI copilot) delivers minimum 30-40% productivity increase",
+      "Real results: Johnson Controls (3,000 hours/year saved), Bosch (2,500 hours/service center/year), JK Cement (50% faster purchasing)"
+    ],
+    "coreInsight": "AI success requires deep integration into business processes, not standalone tools. The formula is 'apps + data + AI'\u2014without the first two, the third delivers limited value. For enterprise software companies, AI accelerates cloud migration as customers want AI capabilities now.",
+    "keyMetrics": "Q4 2025: RISE deals pulled forward because customers want SAP Business AI. EU AI Cloud launched with sovereign data guarantees. TIME Davos 2026: 'Intelligent Age' operating model.",
+    "sources": [
+      "Diginomica",
+      "TIME Davos Interview",
+      "CIO Magazine",
+      "SAP News Center"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

@@ -1,0 +1,170 @@
+{
+  "id": "wells-fargo",
+  "name": "Wells Fargo",
+  "title": "Business Leader as AI Chief — Dual-Role Hub",
+
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Business leader (Saul Van Beurden, co-CEO Consumer Banking) named Head of AI, with tech exec (Faraz Shafiq from AWS) as Head of AI Products underneath. Dual-role structure bridges business and technology. Hub (AI leadership) with spokes (business units). Distinct pattern: business-leader-as-AI-chief rather than technologist-as-AI-chief.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Financial Services",
+    "sector": "Consumer Banking",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "San Francisco, CA",
+    "geography": "North America"
+  },
+
+  "description": "Wells Fargo named Saul Van Beurden as Head of AI (Nov 2025). Van Beurden was previously CEO of Consumer and Small Business Banking — a business leader, not a consumer technologist. He continues in a dual role as co-CEO of Consumer Banking. Background: joined WF in 2019 as head of technology, previously CIO at JPMorgan Chase. Wells Fargo also hired Faraz Shafiq from AWS as Head of AI Products (Feb 2026). The bank has trained 90,000 employees and deployed AI tools to 180,000 desktops. CEO Charlie Scharf has framed AI as a competitive imperative across all industries.",
+
+  "observableMarkers": {
+    "reportingStructure": "Head of AI (Van Beurden) holds dual role as co-CEO of Consumer Banking. Head of AI Products (Shafiq) reports into AI organization. Business leader atop AI function, tech exec underneath.",
+    "resourceAllocation": "90,000 employees trained on AI; 180,000 desktops equipped with AI tools.",
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [
+    {
+      "id": 9,
+      "name": "Counter-Example",
+      "evidence": "Hired a business leader (consumer banking CEO) to head AI rather than a technologist or CAIO from outside. Contrasts with typical pattern of appointing CTO/CAIO.",
+      "strength": "Strong"
+    },
+    {
+      "id": 7,
+      "name": "Mass Deployment / Saturation",
+      "evidence": "90,000 employees trained on AI; 180,000 desktops with AI tools deployed across the enterprise.",
+      "strength": "Strong"
+    }
+  ],
+
+  "quotes": [
+    {
+      "text": "Generative and agentic AI will reshape competitive dynamics across every industry, and we are embracing these tools as we have embraced robotic process automation and machine learning for years.",
+      "speaker": "Charlie Scharf",
+      "speakerTitle": "CEO, Wells Fargo",
+      "source": "Wells Fargo Newsroom",
+      "sourceUrl": null,
+      "timestamp": null,
+      "date": "2025-11"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2025-11",
+      "label": "Van Beurden Named Head of AI",
+      "summary": "Wells Fargo names Saul Van Beurden (co-CEO Consumer Banking) as Head of AI. Kleber Santos expands responsibilities as co-CEO of Consumer Banking and Lending.",
+      "classification": null,
+      "sourceRefs": ["wf-newsroom-2025-11", "cdo-magazine-2025-11", "american-banker-2025-11"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Shafiq Hired as Head of AI Products",
+      "summary": "Wells Fargo hires Faraz Shafiq from AWS as Head of AI Products, expanding AI leadership team under Van Beurden.",
+      "classification": null,
+      "sourceRefs": ["yahoo-finance-2026-01", "bloomberg-2026-01"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "wf-newsroom-2025-11",
+      "type": "Press Release",
+      "name": "Wells Fargo Newsroom — Van Beurden to Lead AI",
+      "url": "https://newsroom.wf.com/news-releases/news-details/2025/Wells-Fargo-Names-Saul-Van-Beurden-to-Lead-Artificial-Intelligence-Kleber-Santos-to-Expand-Responsibilities-and-Serve-as-Co-CEO-of-Consumer-Banking-and-Lending-with-Van-Beurden/default.aspx",
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "yahoo-finance-2026-01",
+      "type": "Press",
+      "name": "Yahoo Finance — Wells Fargo Names Faraz Shafiq",
+      "url": "https://finance.yahoo.com/news/wells-fargo-names-faraz-shafiq-130000132.html",
+      "timestamp": null,
+      "sourceDate": "2026-01-26",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "cdo-magazine-2025-11",
+      "type": "Press",
+      "name": "CDO Magazine — Saul Van Beurden to Lead AI for Wells Fargo",
+      "url": "https://www.cdomagazine.tech/leadership-moves/saul-van-beurden-to-lead-ai-for-wells-fargo",
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "american-banker-2025-11",
+      "type": "Press",
+      "name": "American Banker — Wells Fargo Taps Head of Consumer Banking to Lead on AI",
+      "url": "https://www.americanbanker.com/news/wells-fargo-taps-head-of-consumer-banking-to-lead-on-ai",
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "bloomberg-2026-01",
+      "type": "Press",
+      "name": "Bloomberg — Wells Fargo Taps AWS Executive to Expand AI Use",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-26/wells-fargo-taps-amazon-web-services-executive-to-expand-ai-use",
+      "timestamp": null,
+      "sourceDate": "2026-01-26",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.5,
+    "speedVsDepth": null,
+    "centralVsDistributed": -0.4,
+    "namedVsQuiet": -0.7,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [
+    "How does Van Beurden's dual role (co-CEO Consumer Banking + Head of AI) work in practice? Does the AI mandate get secondary attention?",
+    "What is Shafiq's reporting relationship to Van Beurden vs. CTO?",
+    "How does the 90K training / 180K desktop deployment compare to JPMorgan's LLM Suite rollout?"
+  ],
+
+  "taxonomyFeedback": [
+    "Giving the consumer banking CEO the AI mandate (rather than CTO/CAIO) is a distinct pattern — business-leader-as-AI-chief rather than technologist-as-AI-chief. May warrant its own sub-type or marker."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

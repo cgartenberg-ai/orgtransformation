@@ -1,0 +1,134 @@
+{
+  "id": "coca-cola",
+  "name": "Coca-Cola",
+  "title": "CEO Transition with CDO Appointment and AI-Driven Restructuring",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Tentative Model 4. Coca-Cola created a new CDO role (Sedef Sahin) alongside CEO transition and $1.1B Microsoft partnership. The CDO presumably serves as a central hub for digital/AI across market divisions (spokes). However, internal AI organizational structure is largely inferred — the data describes executive appointments and partnerships, not team structures. Low confidence reflects this inference gap.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Consumer Goods",
+    "sector": "Beverages",
+    "orgSize": "Enterprise",
+    "employees": "~80,000",
+    "revenue": null,
+    "headquarters": "Atlanta, GA",
+    "geography": "Global"
+  },
+  "description": "Coca-Cola is undergoing simultaneous CEO transition and AI-driven restructuring in early 2026. Incoming CEO Henrique Braun (succeeding James Quincey effective March 31, 2026) created a new Chief Digital Officer role, appointing 22-year veteran Sedef Sahin — calling it 'a pivotal new role for our future.'\n\nThe restructuring began with 75 layoffs in Atlanta (January 2026) as the first phase, with more waves planned starting February 28, 2026. Simultaneously, the company is reorganizing into two new market groupings emphasizing Asia, Africa, and Middle East.\n\nThis builds on a $1.1B strategic partnership with Microsoft (announced 2024) deploying Azure OpenAI Service and Copilot across operations. The combination of executive transition, digital leadership appointment, and AI partnership creates a multi-pronged organizational transformation.",
+  "observableMarkers": {
+    "reportingStructure": "New CDO role (Sedef Sahin, 22-year veteran). CEO transition Braun/Quincey March 2026.",
+    "resourceAllocation": "$1.1B Microsoft partnership (Azure OpenAI, Copilot).",
+    "timeHorizons": "Restructuring in phases starting Jan 2026. CEO transition March 2026.",
+    "decisionRights": null,
+    "metrics": "75 initial layoffs Atlanta. $1.1B Microsoft partnership. 2 new market groupings."
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Coca-Cola undergoing CEO transition, AI-driven restructuring, and new CDO appointment. $1.1B Microsoft AI partnership. Phased layoffs beginning Jan 2026.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4",
+        "source-5"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Food Dive — Coca-Cola restructuring",
+      "url": "https://www.fooddive.com/news/coca-cola-corporate-layoffs/808744/",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Simply Wall St — CEO transition",
+      "url": "https://simplywall.st/stocks/us/food-beverage-tobacco/nyse-ko/coca-cola/news/how-investors-may-respond-to-coca-cola-ko-ceo-transition-res",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Mission Media Asia — CDO appointment",
+      "url": "https://missionmedia.asia/coca-cola-chief-digital-officer-sedef-sahin-asia/",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "CIO.inc — Coca-Cola AI strategy",
+      "url": "https://www.cio.inc/from-freestyle-to-future-coca-cola-leads-digital-ai-a-26016",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "source-5",
+      "type": "Press",
+      "name": "Coca-Cola IR — Operational reorg",
+      "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1150/",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "New",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.3,
+    "speedVsDepth": -0.2,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.2,
+    "longVsShortHorizon": -0.2
+  },
+  "openQuestions": [
+    "What is the scope of the CDO role vs. a CAIO? Does Coca-Cola have or plan a CAIO?",
+    "How does the Microsoft/Azure AI deployment map to org structure changes?",
+    "What specific AI use cases drove the restructuring decision?"
+  ],
+  "taxonomyFeedback": [
+    "CDO vs. CAIO distinction matters: a CDO covers broader digital transformation while a CAIO focuses specifically on AI. Coca-Cola's choice of CDO suggests AI is embedded within a broader digital mandate rather than separated.",
+    "CPG industry pattern: Coca-Cola, Nestlé, Kraft Heinz, Unilever, Mars all restructuring simultaneously around AI. Industry-level wave worth tracking."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

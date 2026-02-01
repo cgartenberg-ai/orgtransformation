@@ -1,0 +1,30 @@
+{
+  "id": "pfizer",
+  "company": "Pfizer",
+  "title": "End-to-End AI Integration",
+  "summary": "CAIO-led hybrid model with AI/ML Fab Lab, Predictive Analytics Incubator, and PACT partnership reducing drug candidate development from 1+ year to 30 days.",
+
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null,
+
+  "diagramTemplate": "hybrid-hub-spoke",
+  "architecturalPrinciples": ["locus-of-innovation", "resource-allocation", "stance-on-uncertainty"],
+  "designPrinciples": ["ride-the-exponential", "rapid-iteration-cycles"],
+
+  "content": {
+    "whatItIs": "Pfizer has built a comprehensive AI organization under newly appointed CAIO Berta Rodriguez-Hervas, combining internal capability building (AI/ML Fab Lab, Predictive Analytics Incubator) with strategic partnerships. The PACT (Pfizer-Amazon-Claude Trifecta) partnership represents a new model of pharmaceutical AI deployment.",
+    "howItWorks": [
+      "CAIO position established to provide executive-level AI leadership and strategy",
+      "AI/ML Fab Lab serves as internal experimentation and capability building center",
+      "Predictive Analytics Incubator focuses on applied AI for drug discovery",
+      "PACT partnership with AWS and Anthropic provides enterprise AI infrastructure",
+      "Development cycles reduced from 6+ weeks to 6 weeks through AI acceleration",
+      "Drug candidate development compressed from 1+ year to 30 days using AI"
+    ],
+    "coreInsight": "The 30-day drug candidate development metric represents a 10x+ compression of traditional timelines - demonstrating that AI can fundamentally change the economics and speed of pharmaceutical R&D, not just incrementally improve existing processes.",
+    "keyMetrics": "Drug candidate development reduced from 1+ year to 30 days, development cycles cut to 6 weeks, CAIO appointed 2025",
+    "sources": ["Industry reports January 2026", "Partnership announcements", "Pfizer investor communications"]
+  },
+
+  "lastUpdated": "2026-01-20"
+}

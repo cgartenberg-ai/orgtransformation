@@ -1,0 +1,35 @@
+{
+  "id": "allianz-anthropic",
+  "company": "Allianz + Anthropic",
+  "title": "AI Logging for Compliance",
+  "summary": "For regulated industries, 'compliance by design' with AI interaction logging transforms AI from compliance risk into compliance asset",
+  "diagramTemplate": "embedded-teams",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy"
+  ],
+  "designPrinciples": [
+    "domain-expertise"
+  ],
+  "content": {
+    "whatItIs": "Anthropic partnered with Allianz to make Claude Code available to all employees and build custom AI agents that execute multistep workflows with human-in-the-loop. Critical compliance feature: AI system logs all interactions for regulatory transparency.",
+    "howItWorks": [
+      "Claude Code deployed to all employees at one of world's largest insurance companies",
+      "Custom AI agents for multistep workflows with human-in-the-loop oversight",
+      "Critical feature: AI system logs all AI interactions for transparency and regulatory compliance",
+      "Logging creates audit trail reviewable for regulatory purposes, internal compliance, or dispute resolution",
+      "Hybrid approach satisfies both efficiency goals and regulatory requirements"
+    ],
+    "coreInsight": "For regulated industries, 'compliance by design' (logging all AI interactions) enables AI adoption where it might otherwise be blocked. The audit trail approach transforms AI from a compliance risk into a compliance asset. Human-in-the-loop agent design satisfies regulators while delivering automation benefits. 'Transparency as feature' creates competitive advantage in regulated markets.",
+    "keyMetrics": "Anthropic now commands 40% of enterprise LLM spend vs. OpenAI's 27% (reversed from 2023). 85% of Anthropic revenue from business customers. Client base: under 1,000 to 300,000+ in two years.",
+    "sources": [
+      "TechCrunch",
+      "Anthropic customer stories"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "coe",
+  "phenotypeSubtype": null
+}

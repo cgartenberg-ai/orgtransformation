@@ -1,0 +1,45 @@
+{
+  "id": "anthropic",
+  "company": "Anthropic",
+  "title": "Labs Team + Ride the Exponential",
+  "summary": "Dedicated Labs team for zero-to-one ideas, plus 'ride the exponential' product philosophy",
+  "diagramTemplate": "hybrid-labs-core",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "stance-on-uncertainty",
+    "measurement-philosophy",
+    "information-architecture"
+  ],
+  "designPrinciples": [
+    "ride-the-exponential",
+    "internal-first-validation",
+    "protect-deviations"
+  ],
+  "content": {
+    "whatItIs": "A two-part innovation model: (1) a dedicated Labs team focused on 'disruptive zero-to-one ideas' that operates independently from core product, and (2) a company-wide product philosophy of 'ride the exponential'\u2014building for capabilities that don't exist yet.",
+    "howItWorks": [
+      "Labs team is separate from main product organization, focused on exploratory/disruptive innovation",
+      "Labs built Claude CLI (later Claude Code), early computer use explorations, and other experimental bets",
+      "Once Labs creates something promising, it gets 'buttoned up and put on a more fancy suit' for public release",
+      "Internal adoption validates before external release: Claude CLI 'rapidly overtook every other coding tool we had internally' in 3 months",
+      "Regular hackathons (2-3x/year) where internal teams build on Labs innovations",
+      "Over time, they delete parts of the harness rather than add to it because the model can do more"
+    ],
+    "coreInsight": "CPO Mike Krieger: 'The more you can align with the company's general long-term perspective about where powerful AI will come from, the smoother things will go because [Anthropic] is nothing but focused.'",
+    "keyMetrics": "Claude Code: $1B ARR within 6 months of launch. MCP: 'fastest-growing standard in tech history'. Series F: $13B at $183B valuation. Revenue grew from $1B to $5B+ in 8 months.",
+    "sources": [
+      "AI Daily Brief podcast interview with Mike Krieger (December 2025)",
+      "Lenny's Newsletter",
+      "Sequoia Inference Podcast",
+      "TechCrunch January 2026",
+      "CNBC January 2026"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {
+    "january2026Updates": "Anthropic raised $13B Series F at $183B valuation, seeking additional $10B to reach $350B valuation. Launched Claude for Healthcare with HIPAA-ready Enterprise plans and CMS connectors. Claude Haiku 4.5 released as fastest intelligent model. MCP donated to Linux Foundation's Agentic AI Foundation. Appointed Irina Ghose as Managing Director of India ahead of Bengaluru office opening."
+  },
+  "lastUpdated": "2026-01-20",
+  "phenotype": "product-venture-lab",
+  "phenotypeSubtype": "internal-incubator"
+}

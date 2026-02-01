@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Botanical palette mapped to shadcn/ui variables */
+    --background: 42 63% 96%;        /* cream #FAF3E0 */
+    --foreground: 192 10% 19%;       /* charcoal #2D3436 */
+
+    --card: 42 63% 98%;              /* cream-50 */
+    --card-foreground: 192 10% 19%;
+
+    --popover: 42 63% 98%;
+    --popover-foreground: 192 10% 19%;
+
+    --primary: 153 41% 18%;          /* forest #1B4332 */
+    --primary-foreground: 42 63% 96%;
+
+    --secondary: 143 17% 59%;        /* sage #84A98C */
+    --secondary-foreground: 192 10% 19%;
+
+    --muted: 143 17% 59%;            /* sage */
+    --muted-foreground: 192 10% 40%;
+
+    --accent: 26 48% 64%;            /* amber #D4A373 */
+    --accent-foreground: 192 10% 19%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 143 17% 80%;           /* sage-100 */
+    --input: 143 17% 80%;
+    --ring: 153 41% 18%;             /* forest */
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

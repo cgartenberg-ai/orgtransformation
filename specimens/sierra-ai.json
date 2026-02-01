@@ -1,0 +1,107 @@
+{
+  "id": "sierra-ai",
+  "name": "Sierra AI",
+  "title": "AI Agent Company with Outcome-Based Pricing",
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5a",
+    "subTypeName": "Internal Incubator",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Tentative Model 5a. Sierra AI is an AI-native startup building enterprise AI agents, co-founded by Bret Taylor (ex-Salesforce co-CEO, OpenAI Board Chair) and Clay Bavor (18-year Google veteran). The company is a product lab building AI agents with outcome-based pricing. Structural: distinct product development function. Low confidence because internal organizational structure is not described — only founder backgrounds and business model.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Enterprise AI / AI Agents",
+    "orgSize": "Startup",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "San Francisco, CA",
+    "geography": "US"
+  },
+  "description": "Sierra AI, co-founded by Bret Taylor and Clay Bavor, builds AI agents for enterprises with an innovative outcome-based pricing model: 'We only charge our customers when their agent successfully completes the task.' Taylor's career path (Google Maps → FriendFeed → Facebook CTO → Salesforce co-CEO → OpenAI Board Chair → Sierra) and Bavor's (18 years at Google, Gmail/Drive/Docs/Labs/AR-VR → Sierra) bring deep enterprise and AI product experience.\n\nThe founders emphasize internal AI-first culture: 'can't succeed if they're not the poster child for automation.' Taylor frames AI agents as the next major organizational unit, predicting 'agent' will stick as a category term like 'app.'\n\nSierra represents a product-first AI company where the business model (outcome-based pricing) reflects organizational confidence in AI agent capability.",
+  "observableMarkers": {
+    "reportingStructure": "Co-founders: Bret Taylor (ex-Salesforce co-CEO, OpenAI Board Chair), Clay Bavor (ex-Google, 18 years)",
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+  "mechanisms": [
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "evidence": "Founders emphasize internal AI-first culture: 'can't succeed if they're not the poster child for automation.' Leadership uses AI tools internally as organizational principle.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We only charge our customers when their agent successfully completes the task.",
+      "speaker": "Clay Bavor",
+      "speakerTitle": "Co-founder, Sierra AI",
+      "source": "Acquired ACQ2 Podcast",
+      "sourceUrl": "https://www.acquired.fm/episodes/how-is-ai-different-than-other-technology-waves-with-bret-taylor-and-clay-bavor",
+      "timestamp": null,
+      "date": "2025-08-18"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2025-08",
+      "label": "Initial Documentation",
+      "summary": "Sierra AI documented from Acquired ACQ2 deep-scan. Bret Taylor + Clay Bavor co-founded AI agent company with outcome-based pricing. Internal AI-first culture.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Podcast",
+      "name": "Acquired ACQ2 — Bret Taylor + Clay Bavor",
+      "url": "https://www.acquired.fm/episodes/how-is-ai-different-than-other-technology-waves-with-bret-taylor-and-clay-bavor",
+      "timestamp": null,
+      "sourceDate": "2025-08-18",
+      "collectedDate": "2026-01-31",
+      "notes": "Deep-scan. Taylor/Bavor on AI agent business model, outcome-based pricing, internal AI culture."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.3,
+    "speedVsDepth": 0.5,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": 0.5
+  },
+  "openQuestions": [
+    "How is Sierra AI structured internally? Engineering vs. product vs. research?",
+    "What is the team size and composition?",
+    "How does Taylor's board role at OpenAI affect Sierra's positioning?"
+  ],
+  "taxonomyFeedback": [
+    "Outcome-based pricing as an organizational signal: if you only charge when the agent succeeds, the org must be structured for quality/reliability over volume. This business model shapes org design.",
+    "AI-native startups like Sierra don't fit neatly into the taxonomy which was designed for established orgs adopting AI. The whole company IS the AI product."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

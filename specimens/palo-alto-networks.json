@@ -1,0 +1,105 @@
+{
+  "id": "palo-alto-networks",
+  "name": "Palo Alto Networks",
+  "title": "Enterprise-Wide Developer AI Adoption",
+  "classification": {
+    "structuralModel": 3,
+    "structuralModelName": "Embedded Teams",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 3 (Embedded Teams). No central AI lab or separate AI unit — AI tools (Claude Code) are deployed directly into existing engineering teams. 2,500 developers use AI as part of their standard workflow. Contextual orientation: developers switch between AI-assisted and traditional coding within the same role. No structural separation between AI exploration and execution.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Cybersecurity",
+    "sector": "Network Security / Cloud Security",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Santa Clara, CA",
+    "geography": "Global"
+  },
+  "description": "Palo Alto Networks represents an embedded AI adoption model where 2,500 developers across the cybersecurity company use Claude Code (Anthropic) as their primary AI development assistant. Rather than creating a separate AI lab, the company integrates AI tools directly into existing development workflows.\n\nAI assists with code generation, review, documentation, and debugging across the engineering organization. Junior developers use AI for accelerated onboarding, learning codebases 70% faster, while senior developers leverage AI for increased feature velocity (20-30% improvement). The capability is fully embedded — no separate AI team exists.\n\nThis model demonstrates how cybersecurity companies can adopt AI for internal productivity while their core product IS security. The embedded approach avoids creating a separate exploration function, instead making AI a standard tool in every developer's workflow.",
+  "observableMarkers": {
+    "reportingStructure": "No separate AI team — AI tools embedded within existing engineering org structure",
+    "resourceAllocation": null,
+    "timeHorizons": "Quarterly product cycles with AI-accelerated velocity",
+    "decisionRights": "Individual developers decide when and how to use AI tools",
+    "metrics": "2,500 developers on Claude Code, 70% faster junior developer onboarding, 20-30% feature velocity increase"
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 3 Contextual classification. Added sector. Removed weakly-evidenced Mechanism #4 (Consumer-Grade UX — Claude Code is a developer tool, not consumer UX). Added habitat, observable markers, classification rationale.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Palo Alto Networks deploys Claude Code to 2,500 developers as standard development tool, with no separate AI lab. AI embedded in existing engineering workflows.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Anthropic customer stories",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Report",
+      "name": "Industry reports January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.8,
+    "speedVsDepth": 0.4,
+    "centralVsDistributed": 0.7,
+    "namedVsQuiet": 0.6,
+    "longVsShortHorizon": 0.5
+  },
+  "openQuestions": [
+    "Does Palo Alto Networks have any centralized AI/ML team for product features (threat detection, etc.) separate from developer tool adoption?",
+    "How does the cybersecurity domain shape AI adoption decisions (security concerns about AI-generated code)?",
+    "What governance exists around AI-generated code in security-critical products?"
+  ],
+  "taxonomyFeedback": [
+    "This specimen captures developer AI tool adoption (AI FOR development) which is different from AI AS the product. The taxonomy doesn't distinguish between these two modes of AI integration.",
+    "Model 3 (Embedded Teams) may be too broad — it covers both 'AI tools used by product teams' and 'AI built into products by product teams'. These are structurally different."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/palo-alto-networks.json"
+  }
+}

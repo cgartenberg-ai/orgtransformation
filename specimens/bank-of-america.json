@@ -1,0 +1,134 @@
+{
+  "id": "bank-of-america",
+  "name": "Bank of America",
+  "title": "Broad Deployment, Consumer-Grade UX",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "High",
+    "classificationRationale": "No formal AI lab branding. AI is deployed enterprise-wide through consumer-grade tools extended to employees. 90%+ adoption makes this the defining example of Enterprise-Wide Adoption (6a). Contextual orientation: employees use AI tools within their existing roles rather than exploration happening in separate units.",
+    "typeSpecimen": true
+  },
+  "habitat": {
+    "industry": "Financial Services",
+    "sector": "Banking",
+    "orgSize": "Enterprise",
+    "employees": 213000,
+    "revenue": "$100B+",
+    "headquarters": "Charlotte, NC",
+    "geography": "Global"
+  },
+  "description": "Rather than building a separate innovation lab, Bank of America treated enterprise AI deployment as a consumer product problem. The key insight was to extend Erica — their customer-facing virtual assistant launched in 2018 — internally as 'Erica for Employees' in 2020, leveraging existing brand recognition, user familiarity, and proven conversational patterns.\n\nThe pandemic timing was crucial: rapid adoption occurred when employees needed technology support for remote work. Starting with IT support, the system expanded to health benefits, payroll, and tax forms — each expansion building on proven interaction patterns. The approach drove adoption that most enterprise tools never achieve: over 90% of 213,000 employees actively use AI tools daily.\n\nThe result over 15 years has been structural transformation without a formal transformation program: headcount reduced from 300,000 to 212,000 while deposits doubled, producing $6 billion in expense savings. Developer efficiency increased 20% through coding assistants. IT service desk calls were reduced by more than 50%.",
+  "observableMarkers": {
+    "reportingStructure": "No separate AI organization. AI tools embedded in existing functional structures.",
+    "resourceAllocation": "Investment through technology budget, not ring-fenced AI budget. Over 15 years of sustained technology investment.",
+    "timeHorizons": "Incremental expansion of consumer-proven interfaces. Quarterly feature additions building on established patterns.",
+    "decisionRights": "Technology leadership drives platform; adoption is expected across all roles.",
+    "metrics": "Over 90% of 213,000 employees use AI tools daily. IT service desk calls reduced 50%+. Developer efficiency up 20%. Headcount from 300K to 212K over 15 years. $6B expense savings."
+  },
+  "mechanisms": [
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "Extended consumer-facing Erica to employees rather than building separate enterprise system. Leveraged existing brand, familiarity, and interaction patterns to drive adoption.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Bulk curation review validated classification as Model 6a (Enterprise-Wide Adoption) with Contextual orientation. Decision tree walk: no formal AI lab → mass adoption >50% (90%+) → 6a. Type specimen status confirmed. Added revenue estimate. Noted edge case: possible hidden CoE structure underlying the 6a deployment.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025",
+      "label": "Mature Enterprise Adoption",
+      "summary": "90%+ adoption across 213,000 employees. 15+ years of sustained AI/technology investment producing $6B in savings and significant headcount optimization. Developer coding assistants deployed.",
+      "classification": "Model 6a",
+      "sourceRefs": [
+        "bofa-newsroom",
+        "cto-magazine",
+        "aix-expert"
+      ]
+    },
+    {
+      "date": "2020",
+      "label": "Erica Extended to Employees",
+      "summary": "Consumer-facing Erica virtual assistant (launched 2018) extended internally as 'Erica for Employees.' Pandemic timing accelerated adoption. Started with IT support, expanded to health benefits, payroll, tax forms.",
+      "classification": "Model 6a",
+      "sourceRefs": [
+        "bofa-newsroom"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "bofa-newsroom",
+      "type": "Press Release",
+      "name": "BofA Newsroom",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "Official Bank of America communications on Erica and AI adoption."
+    },
+    {
+      "id": "cto-magazine",
+      "type": "Press",
+      "name": "CTO Magazine",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "Coverage of BofA technology strategy and metrics."
+    },
+    {
+      "id": "aix-expert",
+      "type": "Report",
+      "name": "AIX Expert Network",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.8,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": 0.9,
+    "longVsShortHorizon": 0.2
+  },
+  "openQuestions": [
+    "What is BofA's total AI investment relative to technology budget?",
+    "How is Erica's internal deployment governed — is there a central product team?",
+    "What does the developer coding assistant rollout look like in detail?"
+  ],
+  "taxonomyFeedback": [
+    "BofA blurs the line between 6a (Enterprise-Wide Adoption) and a de facto Center of Excellence (Model 2). There may be an internal technology team functioning as a CoE without the label. Worth investigating whether 6a specimens typically have hidden CoE structures."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Medium",
+    "convertedFrom": "library/cases/bank-of-america.json"
+  }
+}

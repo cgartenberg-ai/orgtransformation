@@ -1,0 +1,36 @@
+{
+  "id": "tencent",
+  "company": "Tencent",
+  "title": "Hub-and-Spoke AI Integration",
+  "summary": "Consolidated scattered AI R&D into unified departments\u2014objective shifted from inventing AI to manufacturing and deploying at industrial scale",
+  "diagramTemplate": "hybrid-hub-spoke",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "resource-allocation"
+  ],
+  "designPrinciples": [
+    "a-team-capability"
+  ],
+  "content": {
+    "whatItIs": "Tencent's restructuring represents a direct response to market realities in the AI race. Previously, model R&D teams and resources were scattered across different business groups, leading to unfocused R&D efforts and resource waste.",
+    "howItWorks": [
+      "Previously: Hunyuan team spanned multiple departments (Large Language Model, AI Lab, Machine Learning Platform) in scattered structure",
+      "Reorganization: Established unified departments in TEG\u2014AI Infra Department, AI Data Department, and Data Computing Platform",
+      "Objective shift: From simply inventing AI (traditional lab mission) to manufacturing and deploying at industrial scale",
+      "Leadership: Yao Shunyu (former OpenAI researcher) joined as Chief AI Scientist in CEO/President's Office",
+      "Talent magnet: Appointment rapidly attracted core employees from ByteDance, Alibaba, and competitors"
+    ],
+    "coreInsight": "When AI R&D becomes strategic, scattered teams across business units must be consolidated into unified departments. The 'hub-and-spoke' model maintains connections to business needs while centralizing technical resources. Executive AI appointments (Chief AI Scientist reporting to CEO) signal organizational priority and attract top talent.",
+    "keyMetrics": "Hunyuan 2.0: 406B parameters (32B active), 256K context. 30+ new models released in past year. Hunyuan Image 3.0 ranks #8 on LM Arena with 80B parameters.",
+    "sources": [
+      "36Kr exclusive report",
+      "TechNode",
+      "Tencent announcements"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

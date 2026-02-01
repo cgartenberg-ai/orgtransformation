@@ -1,0 +1,36 @@
+{
+  "id": "walmart",
+  "company": "Walmart",
+  "title": "Internal Tool to Revenue Line Transformation",
+  "summary": "Productizing internal AI capabilities (Route Optimization, GoLocal) as external revenue streams through SaaS offerings",
+  "diagramTemplate": "platform-to-product",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "resource-allocation"
+  ],
+  "designPrinciples": [
+    "productize-internal-tools"
+  ],
+  "content": {
+    "whatItIs": "Walmart's strategic evolution encapsulates the 'Platform-to-Product' model: identifying internal operational capabilities and commercializing them as external revenue streams.",
+    "howItWorks": [
+      "Route Optimization began as internal logistics AI to reduce emissions and improve trailer packing",
+      "Results: 94 million pounds of CO2 avoided, 30 million unnecessary miles eliminated, 110,000 inefficient paths optimized",
+      "Won the 2023 Franz Edelman Award for operational excellence",
+      "Recognizing the value extended beyond internal cost savings, Walmart commercialized Route Optimization as SaaS through Walmart Commerce Technologies",
+      "GoLocal (2021): white-label parcel delivery service extends Walmart's last-mile infrastructure to other retailers"
+    ],
+    "coreInsight": "Any internal capability that provides significant operational advantage is a potential product. The question isn't 'should we build this?' but 'who else would pay for this?' Internal tools become moats when competitors must either build or buy from you.",
+    "keyMetrics": "Corporate identity shift: 'We're now an advertising business, a data company, a financial services provider, and a Software as a Service (SaaS) provider, and more.'",
+    "sources": [
+      "Walmart Corporate News",
+      "Supply Chain Dive",
+      "Franz Edelman Award 2023"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "product-venture-lab",
+  "phenotypeSubtype": "platform-to-product"
+}

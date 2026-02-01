@@ -1,0 +1,174 @@
+{
+  "id": "commonwealth-bank",
+  "name": "Commonwealth Bank of Australia",
+  "title": "50,000 Employee AI Rollout + First CAIO",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
+    "secondaryModel": 2,
+    "secondaryModelName": "Center of Excellence",
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "CBA's primary model remains enterprise-wide AI adoption (50,000 employees, ChatGPT Enterprise). The CAIO appointment adds a secondary Model 2 (CoE) element: formal governance structure layered on top of broad contextual adoption. CAIO placed on Technology Leadership Team, indicating structural governance over contextual usage. This evolution pattern — informal adoption first, formal governance second — is the opposite of the typical CoE-first pattern.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Financial Services",
+    "sector": "Retail Banking",
+    "orgSize": "Enterprise",
+    "employees": 50000,
+    "revenue": null,
+    "headquarters": "Sydney, Australia",
+    "geography": "Asia-Pacific"
+  },
+  "description": "Commonwealth Bank of Australia (CBA) deployed ChatGPT Enterprise to all 50,000 employees, representing the largest single ChatGPT Enterprise deployment in the world. CEO Matt Comyn personally engaged with the rollout, spending significant time understanding AI capabilities and use cases. The approach rejected pilot-based rollout in favor of universal access.\n\nIn late 2025, CBA appointed Ranil Boteju as its first Chief AI Officer, commencing early 2026. Boteju was hired from Lloyds Banking Group where he was Group Chief Data and Analytics Officer, leading 2,000+ people and delivering 50+ GenAI initiatives. CBA already ranks 4th globally in the Evident AI Index, indicating strong existing capability. The CAIO formalizes leadership over what had been a more informal, enterprise-wide adoption pattern.\n\nCEO Matt Comyn frames the approach as 'building tomorrow's bank today' — an explicit explore/execute tension. The evolution from contextual/informal AI adoption to formal structural leadership (CAIO appointment) represents a notable maturation pattern.",
+  "observableMarkers": {
+    "reportingStructure": "CAIO placed on Technology Leadership Team, reporting into technology function.",
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": "CEO hands-on in championing AI. CAIO formalizes governance.",
+    "metrics": "50,000 employees; largest ChatGPT Enterprise deployment globally. Ranks 4th globally in Evident AI Index."
+  },
+  "mechanisms": [
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Deployed ChatGPT Enterprise to all 50,000 employees simultaneously — no pilots, universal access from day one.",
+      "strength": "Strong"
+    },
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "ChatGPT Enterprise deployment — consumer-grade interface provided to all employees.",
+      "strength": "Moderate"
+    },
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "evidence": "CEO Matt Comyn personally spent significant time understanding AI capabilities and use cases.",
+      "strength": "Moderate"
+    },
+    {
+      "id": 9,
+      "name": "Hire CAIOs from Consumer Tech",
+      "evidence": "Hired Boteju from Lloyds Banking Group (data/analytics background) rather than consumer tech — a counter-example. Pipeline is data/analytics → CAIO, not consumer tech → CAIO.",
+      "strength": "Emerging"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2025-11",
+      "label": "CAIO Appointment — Formalizing AI Governance",
+      "summary": "CBA appointed Ranil Boteju as first CAIO (from Lloyds Banking Group, 2,000+ person data/analytics org, 50+ GenAI initiatives). Placed on Technology Leadership Team. Evolution: informal enterprise-wide adoption → formal structural AI leadership. CBA ranks 4th globally in Evident AI Index.",
+      "classification": "Model 6a (Enterprise-Wide Adoption) — adding Model 2 (CoE) secondary",
+      "sourceRefs": ["cba-newsroom-2025", "banking-dive-cba-2025", "cdo-magazine-cba-2025"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "CBA deployed ChatGPT Enterprise to all 50,000 employees — largest single deployment globally. CEO personally engaged with rollout.",
+      "classification": "Model 6a (Enterprise-Wide Adoption)",
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "OpenAI customer announcements",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Australian Financial Review, January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "CBA investor materials",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "cba-newsroom-2025",
+      "type": "Press Release",
+      "name": "CBA Newsroom — Ranil Boteju Chief AI Officer",
+      "url": "https://www.commbank.com.au/articles/newsroom/2025/11/ranil-boteju-chief-ai-officer.html",
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-01-31",
+      "notes": "Official CAIO appointment announcement."
+    },
+    {
+      "id": "banking-dive-cba-2025",
+      "type": "Press",
+      "name": "Banking Dive — Commonwealth Bank Australia AI",
+      "url": "https://www.bankingdive.com/news/commonwealth-bank-australia-ranil-boteju-ai-lloyds/806765/",
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-01-31",
+      "notes": "Led 2,000+ people, 50+ GenAI initiatives at Lloyds."
+    },
+    {
+      "id": "cdo-magazine-cba-2025",
+      "type": "Press",
+      "name": "CDO Magazine — CBA Welcomes Ranil Boteju as CAIO",
+      "url": "https://www.cdomagazine.tech/leadership-moves/commonwealth-bank-welcomes-ranil-boteju-as-chief-ai-officer",
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-01-31",
+      "notes": "CBA ranks 4th globally in Evident AI Index."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.4,
+    "speedVsDepth": 0.6,
+    "centralVsDistributed": 0.2,
+    "namedVsQuiet": 0.3,
+    "longVsShortHorizon": 0.3
+  },
+  "openQuestions": [
+    "How does the CAIO role change the existing enterprise-wide AI adoption approach?",
+    "What new governance structures has the CAIO established?",
+    "How does CBA measure AI impact across 50,000 employees?"
+  ],
+  "taxonomyFeedback": [
+    "CBA exemplifies an evolution pattern: informal adoption first (Model 6a) → formal governance layer second (Model 2 CAIO). This is the opposite of the typical CoE-first pattern where governance precedes broad adoption.",
+    "CEO framing 'building tomorrow's bank today' is a clear explore/execute tension articulation."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Medium",
+    "convertedFrom": "library/cases/commonwealth-bank.json"
+  }
+}

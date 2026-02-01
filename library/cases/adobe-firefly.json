@@ -1,0 +1,38 @@
+{
+  "id": "adobe-firefly",
+  "company": "Adobe",
+  "title": "Content Credentials Trust Architecture",
+  "summary": "Generative AI with built-in provenance, consent, and creator compensation mechanisms from day one",
+  "diagramTemplate": "research-lab",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "north-star"
+  ],
+  "designPrinciples": [
+    "protect-deviations"
+  ],
+  "content": {
+    "whatItIs": "Adobe's Firefly represents a distinctive approach to generative AI: building trust and creator rights into the technical architecture from day one, not as an afterthought. This addresses the 'original sin' of many AI models\u2014training on content without consent or compensation.",
+    "howItWorks": [
+      "Content Authenticity Initiative (CAI): Adobe co-founded in 2019, now 3,300+ members including tech companies, news orgs, NGOs",
+      "Developed Content Credentials\u2014technical standard for tracking how content was created and modified",
+      "Firefly trained on Adobe Stock images, openly licensed content, and public domain content",
+      "'Designed to generate content safe for commercial use' without IP infringement risks",
+      "Automatic provenance: Content Credentials attached to Firefly-generated content indicating AI was used",
+      "Creator compensation commitment and 'Do Not Train' tag for creators"
+    ],
+    "coreInsight": "Generative AI companies face an existential trust problem around training data and authenticity. Build provenance, consent, and compensation mechanisms into the technical architecture from the start. The companies that solve AI trust will win regulated markets.",
+    "keyMetrics": "CAI has 3,300+ members. Firefly designed for commercial safety. Content Credentials travel with content wherever published.",
+    "sources": [
+      "Adobe Blog",
+      "Adobe Press",
+      "Diginomica",
+      "Moor Insights"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "product-venture-lab",
+  "phenotypeSubtype": "internal-incubator"
+}

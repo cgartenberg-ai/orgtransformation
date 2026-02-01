@@ -1,0 +1,38 @@
+{
+  "id": "duolingo",
+  "company": "Duolingo",
+  "title": "Birdbrain Personalization Engine",
+  "summary": "AI personalization at massive scale: 1.25 billion daily exercises training the Goldilocks algorithm for 31M+ users",
+  "diagramTemplate": "embedded-teams",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy"
+  ],
+  "designPrinciples": [
+    "ride-the-exponential",
+    "data-flywheel"
+  ],
+  "content": {
+    "whatItIs": "Duolingo's Birdbrain system represents AI personalization at massive scale: it updates every day based on 1.25 billion exercises that learners complete, making predictions about what 31+ million monthly active users know and need to learn next.",
+    "howItWorks": [
+      "Birdbrain system developed ~2018, updates daily based on 1.25 billion exercises completed",
+      "The Goldilocks principle: find perfect difficulty for each user\u2014too hard is frustrating, too easy is boring",
+      "AI continuously calibrates this balance for every learner individually",
+      "In 2023, added GPT-4 as 'language reasoning core' for premium features",
+      "GPT-4 powers 'Explain My Answer' (contextual explanations) and 'Roleplay' (dynamic dialogue)"
+    ],
+    "coreInsight": "Build AI systems that learn from every user interaction at massive scale. Use this data to achieve 'Goldilocks personalization'\u2014not one-size-fits-all, but individually calibrated difficulty. Layer in LLMs for reasoning on top of proprietary behavioral models.",
+    "keyMetrics": "CEO Luis von Ahn's vision: 'We will become as good as a one-on-one language tutor.' Results: 51% surge in DAU, $1B revenue milestone, $9B+ market cap.",
+    "sources": [
+      "MIT Sloan Review",
+      "Bloomberg",
+      "WIPO Magazine",
+      "Duolingo Press"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "embedded",
+  "phenotypeSubtype": null
+}

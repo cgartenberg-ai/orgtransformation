@@ -1,0 +1,42 @@
+{
+  "id": "meta-ai",
+  "company": "Meta",
+  "title": "FAIR + Superintelligence Labs Split",
+  "summary": "Research lab restructuring: FAIR continues under LeCun (departing), new Superintelligence Labs under Alexandr Wang for AGI pursuit",
+  "diagramTemplate": "centralized-lab",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "information-architecture"
+  ],
+  "designPrinciples": [
+    "a-team-capability",
+    "protect-deviations"
+  ],
+  "content": {
+    "whatItIs": "Meta's AI organization underwent major restructuring in 2025-2026, splitting research between the original FAIR (Fundamental AI Research) lab and a new Superintelligence Labs division focused on AGI. This followed tensions between research leadership and product demands.",
+    "howItWorks": [
+      "FAIR (Fundamental AI Research) founded 2013, focused on open-source models (Llama) and long-term research",
+      "New Superintelligence Labs division created under Alexandr Wang (Scale AI founder, acquired 49% stake for $14.3B)",
+      "Shengjia Zhao (former OpenAI researcher) appointed Chief Scientist of Superintelligence Labs",
+      "Yann LeCun remained FAIR head but departed in November 2025 to launch AMI Labs (targeting $3.5B valuation)",
+      "LeCun publicly disagreed with Zuckerberg's LLM focus, calling them 'useful but fundamentally limited'",
+      "New models 'Mango' and 'Avocado' planned for first half 2026"
+    ],
+    "coreInsight": "LeCun on leaving: 'You don't tell a researcher what to do. You certainly don't tell a researcher like me what to do.' The split reveals tensions between open research culture and commercial AGI ambitions.",
+    "keyMetrics": "Scale AI acquisition: $14.3B for 49% stake. AMI Labs (LeCun's new startup): targeting $3.5B valuation before launch, HQ in Paris.",
+    "sources": [
+      "Fortune November 2025",
+      "Fortune December 2025",
+      "Nasdaq News",
+      "The Decoder",
+      "LinkedIn News"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {
+    "lecunDeparture": "Turing Award winner Yann LeCun left Meta after 10 years in November 2025 to found AMI Labs (Advanced Machine Intelligence Labs), focused on 'world models'\u2014AI systems that understand physics, maintain persistent memory, and plan complex actions. Alexandre LeBrun (Nabla founder) appointed CEO. LeCun acknowledged Llama 4 benchmark results were manipulated, after which Zuckerberg reportedly lost confidence in those responsible and sidelined the GenAI department."
+  },
+  "lastUpdated": "2026-01-20",
+  "phenotype": "research-lab",
+  "phenotypeSubtype": null
+}

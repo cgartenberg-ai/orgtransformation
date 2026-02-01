@@ -1,0 +1,123 @@
+{
+  "id": "novo-nordisk",
+  "name": "Novo Nordisk",
+  "title": "300-Person Enterprise AI Hub with Mass Copilot Deployment",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 4 (Hub-and-Spoke). Novo Nordisk has a 300-person central Enterprise AI team (hub) under a CAIO, with spoke teams in business units. RECLASSIFIED orientation from Contextual to Structural: the 300-person hub is a distinct structural unit separated from the BUs it serves, with its own CAIO reporting line. The mass Copilot deployment (20K employees) has contextual elements, but the organizing principle is structural separation between the AI hub and business operations.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Pharmaceuticals",
+    "sector": "Diabetes / Obesity therapeutics (GLP-1)",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Bagsv\u00e6rd, Denmark",
+    "geography": "Global"
+  },
+  "description": "Novo Nordisk's Enterprise AI organization represents a mature hub-and-spoke model with a 300-person central AI team that enables capabilities across the pharmaceutical giant. Under CAIO Mads Einar Krogh Kristensen (since 2023), the company has deployed Microsoft Copilot to 20,000 employees under the banner 'Make Your Time Count' — signaling that AI adoption is about productivity enhancement, not workforce reduction.\n\nThe central 300-person Enterprise AI team serves as the hub, providing platforms, governance, and expertise. Spoke teams embedded in business units apply AI to specific domains including GLP-1 drug optimization and clinical trials. The mass deployment strategy — giving 20,000 employees Copilot access with clear productivity messaging — combines structural AI capability building with broad contextual adoption.\n\nThe CAIO reports to executive leadership, ensuring AI has board-level visibility and strategic alignment. This structure allows Novo Nordisk to maintain long-horizon drug discovery AI research while simultaneously deploying productivity tools across the enterprise.",
+  "observableMarkers": {
+    "reportingStructure": "CAIO Mads Einar Krogh Kristensen reports to executive leadership. 300-person hub serves business unit spokes.",
+    "resourceAllocation": null,
+    "timeHorizons": "Mix of long-horizon drug discovery AI and shorter-term productivity tool deployment",
+    "decisionRights": "Central AI hub sets standards and platforms; BU spokes apply to domain-specific problems",
+    "metrics": "300-person AI team, 20,000 employee Copilot rollout, CAIO position established 2023"
+  },
+  "mechanisms": [
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Deployed Microsoft Copilot to 20,000 employees under 'Make Your Time Count' banner — mass deployment before specific use cases were defined, letting adoption emerge from broad access.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 4 classification. RECLASSIFIED orientation from Contextual to Structural (300-person hub is a distinct structural unit). Added Mechanism #5 (Deploy to Thousands — 20K Copilot rollout). Added habitat data. Removed spurious 'Make Your Time Count' quote (it's a slogan, not a leadership quote). Added classification rationale.",
+      "classification": "Model 4, Contextual",
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Novo Nordisk's Enterprise AI organization with 300-person central AI team under CAIO, deploying Microsoft Copilot to 20,000 employees under 'Make Your Time Count' banner.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "LinkedIn",
+      "name": "LinkedIn (Mads Einar Krogh Kristensen profile)",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Company announcements January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Industry analysis",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.3,
+    "speedVsDepth": -0.2,
+    "centralVsDistributed": -0.4,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": -0.4
+  },
+  "openQuestions": [
+    "What is the split between drug discovery AI and productivity tool AI within the 300-person team?",
+    "How do spoke teams in business units interact with the central hub — embedded vs. consulting model?",
+    "What is the CAIO's exact reporting line (CEO, CTO, or other)?",
+    "What specific GLP-1 drug optimization AI applications are being deployed?"
+  ],
+  "taxonomyFeedback": [
+    "Novo Nordisk is a strong candidate for Model 4 type specimen — well-documented hub-and-spoke with clear CAIO, 300-person team, and mass deployment. Needs more source depth to qualify.",
+    "The 'Make Your Time Count' messaging represents a deliberate framing strategy for AI adoption — productivity, not replacement. This framing mechanism isn't captured in the 10 mechanisms."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/novo-nordisk.json"
+  }
+}

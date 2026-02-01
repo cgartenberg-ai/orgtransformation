@@ -1,0 +1,42 @@
+{
+  "id": "jpmorgan",
+  "company": "JPMorgan Chase",
+  "title": "ML Center of Excellence with Rapid Cycles",
+  "summary": "200+ ML scientists, 8-week update cycles, LLM Suite deployed to 250,000 employees",
+  "diagramTemplate": "center-of-excellence",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "human-ai-boundaries",
+    "measurement-philosophy"
+  ],
+  "designPrinciples": [
+    "rapid-iteration-cycles",
+    "a-team-capability",
+    "domain-expertise"
+  ],
+  "content": {
+    "whatItIs": "A centralized Machine Learning Center of Excellence with 200+ ML scientists, software engineers, and product managers positioned globally across three continents. Distinctive for its rapid iteration cadence.",
+    "howItWorks": [
+      "LLM Suite deployed to 250,000 employees (entire workforce except branch and call center staff)",
+      "Half use it roughly every day",
+      "'Every eight weeks, LLM Suite is updated as the bank feeds it more from the vast databases and software applications of its major businesses, giving the platform more abilities'",
+      "Multi-model architecture using both OpenAI and Anthropic\u2014creating optionality and avoiding vendor lock-in",
+      "Led by Chief Analytics Officer Derek Waldron (former McKinsey partner with PhD in computational physics)"
+    ],
+    "coreInsight": "Enterprise AI transformation requires dedicated ML Centers of Excellence, but the key differentiator is the 8-week update cycle. This creates a flywheel where usage drives improvement drives usage.",
+    "keyMetrics": "Vision: 'The JPMorgan Chase of the future is going to be a fully AI-connected enterprise.' Plans include AI agents for every employee, automation of every behind-the-scenes process, and AI concierges for every client experience.",
+    "sources": [
+      "CNBC",
+      "American Banker (2025 Innovation of the Year)",
+      "CIO Dive",
+      "JPMorgan Press"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {
+    "2026AgenticPhase": "JPMorgan has begun deploying agentic AI to handle complex multistep tasks. Derek Waldron: 'As those agents become increasingly powerful and increasingly connected into JPMorgan, they can take on more and more responsibilities.' The bank expects to invest $18B in technology this year. AI integration projected to enable 10% reduction in operations staff within five years due to automation of routine tasks like fraud detection and account setup. LLM Suite created a credible PowerPoint deck in ~30 seconds\u2014work that previously required teams of analysts working long hours."
+  },
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

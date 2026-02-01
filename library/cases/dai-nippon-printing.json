@@ -1,0 +1,35 @@
+{
+  "id": "dai-nippon-printing",
+  "company": "Dai Nippon Printing",
+  "title": "90% Results in 90 Days",
+  "summary": "Measurable results in 90% of use cases within three months by targeting knowledge-intensive bottlenecks like patents and data architecture",
+  "diagramTemplate": "embedded-teams",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy"
+  ],
+  "designPrinciples": [
+    "rapid-iteration-cycles"
+  ],
+  "content": {
+    "whatItIs": "Dai Nippon Printing (DNP), one of Japan's largest printing and information services companies, achieved what enterprise AI programs struggle to demonstrate: measurable results in 90% of use cases within three months of implementing ChatGPT Enterprise.",
+    "howItWorks": [
+      "Breakthrough application: ICT R&D division automated patent research and filing strategies",
+      "Cut patent research time by 95% and expanded coverage 10x",
+      "Data architecture definition time cut by 90%\u2014foundational improvement enabling faster downstream AI development",
+      "Identified high-value, knowledge-intensive workflows where AI could deliver immediate, measurable impact",
+      "Avoided broad, low-impact deployments in favor of targeted high-value applications"
+    ],
+    "coreInsight": "Target knowledge-intensive bottlenecks (patents, data architecture, research) for initial AI deployment rather than broad horizontal applications. Measure results in weeks, not years. The '90% in 90 days' benchmark sets a new standard for enterprise AI time-to-value.",
+    "keyMetrics": "90% of use cases showed measurable results within 3 months. Patent research: 95% time reduction, 10x coverage expansion. Data architecture: 90% time reduction.",
+    "sources": [
+      "OpenAI Enterprise Case Studies",
+      "OpenAI Blog"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "coe",
+  "phenotypeSubtype": null
+}

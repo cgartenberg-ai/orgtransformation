@@ -1,0 +1,20 @@
+{
+  "id": "lab-to-operations-handoff",
+  "title": "Design the Lab-to-Operations Handoff (Or It Dies in Translation)",
+  "group": "lab-to-org",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "ambidexterity-structure"
+  ],
+  "insight": "Discoveries that stay in the lab create no value. But the handoff to operations is where most innovations die—either rejected by 'not invented here' or mangled in translation. The handoff mechanism must be designed, not assumed.",
+  "manifestations": [
+    "Anthropic: Internal adoption validates before external release—the organization is the first customer",
+    "Google X: 2% graduation rate, but graduates (Waymo, Wing) get 44% of budget—massive investment in successful handoffs",
+    "JPMorgan: ML Center of Excellence deploys to 250,000 employees with 8-week cycles—tight feedback loop",
+    "Bank of America: Extended consumer product (Erica) to employees—familiar interface eases adoption"
+  ],
+  "test": "Can you trace the last three lab innovations to actual operational deployment? If they're still 'in pilot' or 'being evaluated,' your handoff is broken.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "sap",
+  "name": "SAP",
+  "title": "No Apps, No Data, No AI — Embedded AI Philosophy",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 4 (Hub-and-Spoke). SAP builds Joule (AI copilot) centrally as a horizontal capability, then embeds it across product lines (S/4HANA, SuccessFactors, Ariba, etc.). The central AI team develops the copilot and AI stack; product teams (spokes) integrate AI into specific business processes. CEO Klein's philosophy ('no apps, no data, no AI') demands tight integration between central AI and product delivery. Structural orientation: central AI capability development is separated from product-line integration.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Enterprise Software",
+    "sector": "ERP / Business Applications",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Walldorf, Germany",
+    "geography": "Global"
+  },
+  "description": "SAP CEO Christian Klein articulated a distinctive AI philosophy that challenges standalone AI tools: AI must be deeply embedded in business processes, not treated as standalone technology. The three-pillar architecture — modern cloud software + modern data management + consistent AI stack — demands tight coupling between AI capability and business application.\n\nJoule, SAP's AI copilot, is built centrally and deployed across the product portfolio, delivering claimed 30-40% productivity increases. The EU AI Cloud launched with sovereign data guarantees addresses regulatory requirements while enabling AI deployment. Real customer results include Johnson Controls (3,000 hours/year saved), Bosch (2,500 hours per service center per year), and JK Cement (50% faster purchasing).\n\nThe vision is transformative: within 2 years, SAP users will no longer manually enter data, with all tasks processed via natural language. This represents a fundamental shift from data entry to AI-mediated business process management.",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": "RISE deals pulled forward as customers demand SAP Business AI. EU AI Cloud investment for sovereign deployment.",
+    "timeHorizons": "2-year vision for no-manual-data-entry. Quarterly product releases with AI integration.",
+    "decisionRights": null,
+    "metrics": "Joule: 30-40% productivity increase. Johnson Controls: 3,000 hrs/yr saved. Bosch: 2,500 hrs/service center/yr. JK Cement: 50% faster purchasing."
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 4 classification. Fixed industry from Technology to Enterprise Software. Added habitat data (Walldorf HQ). Removed spurious 'apps + data + AI' quote fragment. Added observable markers, classification rationale. Enriched description.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "SAP's AI philosophy under CEO Christian Klein: AI must be embedded in business processes. Joule AI copilot deployed across product portfolio.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Diginomica",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Interview",
+      "name": "TIME Davos Interview",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "CIO Magazine",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "SAP News Center",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "High"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.2,
+    "speedVsDepth": 0.0,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": 0.2
+  },
+  "openQuestions": [
+    "What is the size and structure of SAP's central AI team building Joule?",
+    "How does AI integration vary across SAP's product lines (S/4HANA, SuccessFactors, Ariba)?",
+    "How does the EU AI Cloud sovereign data approach affect AI deployment capabilities?",
+    "What is the customer adoption rate for Joule across the installed base?"
+  ],
+  "taxonomyFeedback": [
+    "SAP's 'no apps, no data, no AI' philosophy is a strong articulation of why embedded AI (vs. standalone AI) matters. This framing could inform how we describe the tension between centralized AI units and embedded integration.",
+    "Enterprise software vendors have a unique structural challenge: they build AI centrally but must embed it across dozens of distinct product lines. This is a variant of Hub-and-Spoke specific to platform companies."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/sap.json"
+  }
+}

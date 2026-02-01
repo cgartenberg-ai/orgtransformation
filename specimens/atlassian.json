@@ -1,0 +1,122 @@
+{
+  "id": "atlassian",
+  "name": "Atlassian",
+  "title": "Teamwork Graph + Rovo Agents: Hub-and-Spoke AI Architecture",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Model 4 (Hub-and-Spoke). Centralized ML team serves as hub, with distributed product AI teams as spokes. AI gateway proxy layer manages model selection and routing across multiple providers. Head of AI (Sherif Mansour) oversees. Tiered exploration model: teams get 'complete free reign in discovery' then work with central ML team for optimization. Structural: the AI gateway and centralized ML team are distinct structural entities.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Collaboration Software / Developer Tools",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Sydney, Australia",
+    "geography": "Global"
+  },
+  "description": "Atlassian has built a sophisticated AI architecture around its proprietary Teamwork Graph — a knowledge graph mapping all organizational knowledge across teams, pull requests, work items, Confluence pages, Trello boards, and integrated third-party tools. The Graph populates both 'organically' (users linking objects) and 'inorganically' (system integrations).\n\nThe internal AI structure follows a hub-and-spoke model: product teams building AI features consult a centralized ML team, with an AI gateway proxy layer managing model selection and routing. Teams get 'complete free reign in the early days in discovery' before working with the ML team for optimization — a tiered exploration model.\n\nRovo agents represent the product output: AI teammates powered by the Teamwork Graph with identity, knowledge access, and autonomous action capability. The company has deliberately shifted PM hiring to recruit 'AI native' candidates.\n\nHead of AI Sherif Mansour frames enterprise AI deployment through 'Taste, Knowledge, Workflows' — the three ingredients: organizational character/voice, information agent access, and business process embedding.",
+  "observableMarkers": {
+    "reportingStructure": "Head of AI (Sherif Mansour). Centralized ML team + distributed product AI teams + AI gateway layer.",
+    "resourceAllocation": null,
+    "timeHorizons": "Tiered: free exploration in discovery, then ML team optimization",
+    "decisionRights": "AI gateway manages model selection centrally. Product teams have autonomy in early exploration.",
+    "metrics": "3.5M users of AI capabilities. 70-80+ AI features across main apps. Rovo agents with pre-built library."
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "text": "taste, knowledge, and workflows... the three ingredients you kind of need",
+      "speaker": "Sherif Mansour",
+      "speakerTitle": "Head of AI, Atlassian",
+      "source": "Cognitive Revolution podcast",
+      "sourceUrl": "https://www.cognitiverevolution.ai/escaping-ai-slop-how-atlassian-gives-ai-teammates-taste-knowledge-workflows-w-sherif-mansour/",
+      "timestamp": null,
+      "date": "2025-11-20"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2025-11",
+      "label": "Initial Documentation",
+      "summary": "Atlassian AI architecture documented from Cognitive Revolution deep-scan. Hub-and-spoke: centralized ML team + distributed product teams + AI gateway. Teamwork Graph as knowledge backbone. Rovo agents. Head of AI Sherif Mansour. 'Taste, Knowledge, Workflows' framework.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Podcast",
+      "name": "Cognitive Revolution — Sherif Mansour (Atlassian)",
+      "url": "https://www.cognitiverevolution.ai/escaping-ai-slop-how-atlassian-gives-ai-teammates-taste-knowledge-workflows-w-sherif-mansour/",
+      "timestamp": null,
+      "sourceDate": "2025-11-20",
+      "collectedDate": "2026-01-31",
+      "notes": "Deep-scan. Teamwork Graph, AI gateway, tiered exploration, Taste/Knowledge/Workflows framework."
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Atlassian Blog — Teamwork Collection + Rovo",
+      "url": "https://www.atlassian.com/blog/artificial-intelligence/unlocking-ai-teammates-with-twc",
+      "timestamp": null,
+      "sourceDate": "2025-10",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Empyra — Teamwork Graph architecture",
+      "url": "https://atlassian.empyra.com/blog/atlassian-teamwork-graph-the-core-of-the-atlassian-ai-platform",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.3,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": -0.2,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": 0.2
+  },
+  "openQuestions": [
+    "How large is Atlassian's centralized ML team vs. distributed AI product teams?",
+    "What is the Rovo adoption rate among enterprise customers?",
+    "How does the AI gateway model selection actually work in practice?"
+  ],
+  "taxonomyFeedback": [
+    "Atlassian's Teamwork Graph + Rovo agents means Atlassian is building the infrastructure that reshapes OTHER companies' org structures. Platform companies as 'AI org architects' is a meta-pattern.",
+    "The 'AI gateway' centralized model routing layer is an emerging structural component worth tracking across Model 4 specimens."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

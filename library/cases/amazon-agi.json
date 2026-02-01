@@ -1,0 +1,43 @@
+{
+  "id": "amazon-agi",
+  "company": "Amazon",
+  "title": "AGI Frontier Model Research: Parallel Moonshot Organization",
+  "summary": "New AGI-focused organization under Peter DeSantis, separate from AWS AI, with robotics pioneer Pieter Abbeel leading embodied AI research.",
+  "diagramTemplate": "research-lab",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "resource-allocation",
+    "stance-on-uncertainty"
+  ],
+  "designPrinciples": [
+    "domain-expertise",
+    "a-team-capability",
+    "ring-fence-budget",
+    "protect-deviations"
+  ],
+  "content": {
+    "whatItIs": "Amazon created a new organization uniting AGI research, custom chips (Trainium/Inferentia), and quantum computing under a single leader. The AGI SF Lab specifically focuses on developing useful AI agents for digital and physical worlds.",
+    "howItWorks": [
+      "Peter DeSantis (27 years at Amazon) leads new organization combining AI models, custom silicon, and quantum computing",
+      "AGI SF Lab in San Francisco seeded by team acquired from Adept\u2014specialists in AI agents that handle complex workflows",
+      "Recruited robotics pioneer Pieter Abbeel (UC Berkeley) to lead embodied AI and world-model research",
+      "Separate from AWS commercial AI services, allowing different timelines and risk profiles",
+      "Combines LLMs with reinforcement learning (RL) for reasoning, planning, and world modeling",
+      "Amazon Nova foundation models power the research\u2014state-of-the-art models announced recently"
+    ],
+    "coreInsight": "DeSantis sees AI models, custom silicon, and quantum computing as 'naturally reinforcing each other.' By uniting these under one organization, Amazon can optimize the full stack from hardware to AGI applications.",
+    "keyMetrics": "AWS offers 30+ AI/ML services. 2026 Amazon Nova AI Challenge focuses on 'Trusted Software Agents'\u2014university teams building defenses and reliability into agentic coding systems.",
+    "sources": [
+      "Amazon Science Blog",
+      "About Amazon News",
+      "AWS News Blog January 2026"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {
+    "adeptAcquisition": "The AGI SF Lab builds on Amazon's acquisition of key talent from Adept, who pioneered AI agents that can use the same tools humans use\u2014computers, web browsers, and code interpreters. This positions Amazon to compete in the emerging 'agentic AI' space that is expected to define 2026."
+  },
+  "lastUpdated": "2026-01-20",
+  "phenotype": "research-lab",
+  "phenotypeSubtype": null
+}

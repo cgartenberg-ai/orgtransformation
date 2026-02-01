@@ -1,0 +1,64 @@
+{
+  "id": "waystar",
+  "name": "Waystar",
+  "title": "Autonomous Revenue Cycle — Agentic Healthcare AI",
+  "classification": {
+    "structuralModel": 3,
+    "structuralModelName": "Embedded Teams",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 3 (Embedded Teams). Waystar's 150+ AI models are embedded directly into the revenue cycle management platform. No separate AI lab described — AI is the product. AI capability is built into every product team's workflow. Contextual orientation: AI agents and product development are intertwined within the same teams rather than structurally separated.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Healthcare Technology",
+    "sector": "Revenue Cycle Management / Health IT",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Louisville, KY",
+    "geography": "North America"
+  },
+  "description": "Waystar announced agentic intelligence at JPM 2026, articulating a vision for the 'autonomous revenue cycle' where AI agents handle healthcare billing, denials, and claims without human intervention. The company processed 7.5+ billion insurance transactions in 2025, positioning proprietary data as its key differentiator.\n\nIn July 2025, Waystar acquired Iodine Software (which processes one in three clinical hospital discharges), adding 'troves of new data to train and refine AI models.' The platform now includes 150+ AI-trained models building toward a 'dynamic, end-to-end agentic network that continuously acts within workflows, executes defined tasks, and learns from outcomes with minimal intervention.'\n\nIn practice, agentic AI analyzes full medical records in seconds, prioritizes 30,000 most relevant data points, and auto-populates correction requests with clinical context. Results include $15.5B in prevented denials, ~40% reduction in manual correction workload, and 95% time savings in denial-related workflows.",
+  "observableMarkers": {
+    "reportingStructure": "No separate AI lab described — AI embedded in product platform",
+    "resourceAllocation": "Acquired Iodine Software (July 2025) for data and AI model training",
+    "timeHorizons": "Continuous product development with AI integration",
+    "decisionRights": null,
+    "metrics": "$15.5B prevented denials. 40% reduction in manual correction. 95% time savings. 7.5B+ insurance transactions processed. 150+ AI models. TAM: $20-25B → $55B by 2030."
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 3 Contextual classification. Fixed industry from Automotive to Healthcare Technology. Removed spurious 'autonomous' quote fragment. Added habitat, observable markers, classification rationale.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Waystar's agentic intelligence vision for autonomous healthcare revenue cycle management. 150+ AI models. $15.5B in prevented denials.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    }
+  ],
+  "sources": [
+    {"id": "source-1", "type": "Press", "name": "PR Newswire", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-2", "type": "Press", "name": "Fierce Healthcare", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-3", "type": "Press", "name": "TechTarget", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-4", "type": "Press", "name": "HIT Consultant", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+  ],
+  "contingencies": {"regulatoryIntensity": "High", "timeToObsolescence": "Medium", "ceoTenure": null, "talentMarketPosition": "Non-traditional", "technicalDebt": "Medium"},
+  "tensionPositions": {"structuralVsContextual": 0.6, "speedVsDepth": 0.3, "centralVsDistributed": 0.5, "namedVsQuiet": 0.3, "longVsShortHorizon": 0.3},
+  "openQuestions": ["What is Waystar's internal AI team structure?", "How does the regulatory environment (HIPAA, healthcare compliance) shape AI deployment decisions?", "How does the acquisition of Iodine Software integrate with existing AI capabilities?"],
+  "taxonomyFeedback": ["Waystar illustrates how healthcare AI companies embed AI directly into domain-specific products rather than maintaining separate AI functions.", "The agentic AI vision (autonomous revenue cycle) represents an evolution beyond copilot-style AI assistance — worth tracking as a structural trend."],
+  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/waystar.json"}
+}

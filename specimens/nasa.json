@@ -1,0 +1,116 @@
+{
+  "id": "nasa",
+  "name": "NASA",
+  "title": "Government CAIO Transition — Insider Succession",
+
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Government/defense CAIO pattern. Federally mandated CAIO role (EO #14110 compliance). First CAIO (Salvagnini) was IC/military background; successor (Murphy) is a 17-year NASA insider from Earth Science Data Systems. Low confidence due to limited org structure data beyond the CAIO appointment.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Government",
+    "sector": "Space Agency",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Washington, DC",
+    "geography": "North America"
+  },
+
+  "description": "NASA's CAIO transition: David Salvagnini was named NASA's first Chief AI Officer in May 2024, among the first federal agencies to comply with White House Executive Order #14110. Salvagnini departed Nov 30, 2025 (deferred resignation, spring 2026 retirement). He came from intelligence community CIO and 21-year Air Force background. Kevin Murphy became acting CAIO and CDO — a 17+ year NASA insider from Earth Science Data Systems. The transition represents a shift from external defense/IC leadership to internal domain expertise.",
+
+  "observableMarkers": {
+    "reportingStructure": "CAIO role with dual CDO responsibilities (Murphy holds both acting CAIO and CDO titles).",
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2024-05",
+      "label": "First CAIO Appointed",
+      "summary": "David Salvagnini named NASA's first CAIO, complying with White House EO #14110. Background: IC CIO, 21-year Air Force veteran.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025-12",
+      "label": "CAIO Transition",
+      "summary": "Salvagnini departs (deferred resignation, spring 2026 retirement). Kevin Murphy becomes acting CAIO and CDO. Murphy: 17+ year NASA insider from Earth Science Data Systems.",
+      "classification": null,
+      "sourceRefs": ["fedscoop-2025-12", "webpronews-2026-01"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "fedscoop-2025-12",
+      "type": "Press",
+      "name": "FedScoop — NASA Has New Acting AI Data Chief",
+      "url": "https://fedscoop.com/nasa-has-new-acting-ai-data-chief/",
+      "timestamp": null,
+      "sourceDate": "2025-12",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "webpronews-2026-01",
+      "type": "Press",
+      "name": "WebProNews — NASA's AI Gambit: Inside the Leadership Shuffle",
+      "url": "https://www.webpronews.com/nasas-ai-gambit-inside-the-leadership-shuffle-steering-the-agencys-digital-ascent/",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": null,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.8,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [
+    "Will Murphy's appointment become permanent or will NASA recruit externally?",
+    "How does the combined CAIO+CDO role affect AI governance vs. data governance priorities?",
+    "What is the impact of the federal administration transition on NASA's AI strategy?",
+    "How does NASA's CAIO structure compare to other federal agencies (DoD, VA, etc.)?"
+  ],
+
+  "taxonomyFeedback": [],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

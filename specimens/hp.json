@@ -1,0 +1,98 @@
+{
+  "id": "hp",
+  "name": "HP Inc.",
+  "title": "Company-Wide AI Restructuring — Unnamed/Informal",
+
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6a",
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Low",
+    "classificationRationale": "Company-wide AI restructuring with major layoffs as part of fiscal 2026 plan focused on AI adoption. No named AI unit or CAIO appointment reported — restructuring is unnamed/informal, driven by productivity and cost goals rather than a dedicated AI organization.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Hardware/PC",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Palo Alto, CA",
+    "geography": "Global"
+  },
+
+  "description": "HP Inc. announced major layoffs as part of its fiscal 2026 plan focused on AI adoption. The restructuring aims to boost productivity, speed product innovation, and improve customer interactions. Expected to generate $1B in annual savings by FY2028. Company-wide restructuring without a named AI unit.",
+
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": "Expected $1B annual savings by FY2028 from AI-driven restructuring.",
+    "timeHorizons": "FY2026 plan with FY2028 savings target.",
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026",
+      "label": "Initial Documentation",
+      "summary": "Major layoffs as part of fiscal 2026 plan focused on AI adoption. Goals: boost productivity, speed product innovation, improve customer interactions. Expected $1B annual savings by FY2028.",
+      "classification": null,
+      "sourceRefs": ["techrepublic-2026"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "techrepublic-2026",
+      "type": "Press",
+      "name": "TechRepublic — HP 6K Jobs AI Overhaul",
+      "url": "https://www.techrepublic.com/article/news-hp-6k-jobs-ai-overhaul/",
+      "timestamp": null,
+      "sourceDate": "2026",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": 0.5,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": 0.7,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [
+    "Is there a named AI leader or unit driving this restructuring?",
+    "What specific roles are being eliminated vs. created?",
+    "How does HP's approach compare to other hardware companies (Dell, Lenovo)?"
+  ],
+
+  "taxonomyFeedback": [],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

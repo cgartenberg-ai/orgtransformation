@@ -1,0 +1,131 @@
+{
+  "id": "google-deepmind",
+  "name": "Google DeepMind",
+  "title": "Accelerate the Pipeline: Research-to-Product Consolidation",
+  "classification": {
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 4,
+    "secondaryModelName": "Hybrid/Hub-and-Spoke",
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Google DeepMind is primarily a Research Lab (Model 1): frontier AI research under Demis Hassabis, world-modeling team under Tim Brooks, etc. However, the Brain+DeepMind consolidation created a secondary Hub-and-Spoke function (Model 4): unified organization coordinates research-to-product pipeline across Google products. The explicit mandate to accelerate research-to-product pipeline is the hub coordination function. Structural orientation: Google DeepMind is a named, formally-structured entity with dedicated leadership and resources.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "AI Research",
+    "orgSize": "Enterprise",
+    "employees": "~5,600",
+    "revenue": null,
+    "headquarters": "London, UK",
+    "geography": "Global"
+  },
+  "description": "Google consolidated its AI research organizations (Google Brain and DeepMind) into a unified Google DeepMind organization, growing from ~2,500 to 5,600 employees. The merged entity launched new initiatives including Tim Brooks' world-modeling team, with explicit mandate to accelerate research-to-product pipeline.\n- Merged Google Brain and DeepMind into single organization\n- Grew from ~2,500 to 5,600 employees through consolidation and hiring\n- Launched specialized teams like Tim Brooks' world-modeling research\n- Explicit mandate to accelerate research-to-product pipeline\n- Unified leadership under Demis Hassabis to eliminate coordination friction",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "2,500 to 5,600 employees; unified organization; Tim Brooks world-modeling team launched"
+  },
+  "mechanisms": [
+    {
+      "id": 6,
+      "name": "Merge Competing AI Teams",
+      "evidence": "Google merged two competing AI research organizations (Google Brain and DeepMind) into a single Google DeepMind entity under Demis Hassabis. This eliminated coordination friction between parallel research efforts and doubled the team from ~2,500 to 5,600. Classic competing-teams-merger pattern.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2025-10",
+      "label": "Historical AI Org Evolution (Acquired Deep-Scan)",
+      "summary": "Acquired 'Google: The AI Company' deep-scan reveals 25-year arc. Early decentralized AI (2001-2009, Shazeer/Herrick working informally). Google X as AI incubator (2009, Thrun's academic consultant model). Brain team (2011, Dean/Ng/Corrado). DNN Research acquisition ($44M, Hinton/Krizhevsky/Sutskever). DeepMind acquisition ($550M, 2014) kept operationally separate in London with independent oversight board. Dual structure (Brain = products, DeepMind = AGI research) preserved mission integrity but may have delayed ChatGPT response. Talent exodus: Rosewood Hotel dinner (2015) → Sutskever → OpenAI. Gemini response. 450M users by Oct 2025.",
+      "classification": null,
+      "sourceRefs": ["source-3"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Kept Model 1 (Research Lab) as primary but added secondary Model 4 (Hub-and-Spoke). Google DeepMind remains fundamentally a research lab (frontier AI research, Demis Hassabis leadership), but the Brain+DeepMind consolidation created a hub function that coordinates research-to-product pipeline across Google. Added Mechanism #6 (Merge Competing AI Teams). Structural orientation confirmed. Added habitat data.",
+      "classification": {
+        "structuralModel": 1,
+        "secondaryModel": 4,
+        "orientation": "Structural",
+        "confidence": "Medium",
+        "action": "enriched"
+      },
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Google consolidated its AI research organizations (Google Brain and DeepMind) into a unified Google DeepMind organization, growing from ~2,500 to 5,600 employees. The merged entity launched new initiatives including Tim Brooks' world-modeling team, with explicit mandate to accelerate research-to-product pipeline.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Google DeepMind announcements, 2024-2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "The Information, January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Podcast",
+      "name": "Acquired — Google: The AI Company",
+      "url": "https://www.acquired.fm/episodes/google-the-ai-company",
+      "timestamp": null,
+      "sourceDate": "2025-10-05",
+      "collectedDate": "2026-01-31",
+      "notes": "4-hour deep-scan. Full Google AI org history: Brain, DeepMind acquisition, dual structure, talent exodus, Gemini response."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": "Critical. Google DeepMind competes directly with OpenAI, Anthropic, Meta FAIR for top AI researchers. Tim Brooks hire from OpenAI demonstrates talent acquisition as strategic lever.",
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": "Structural. Named entity with formal leadership, budget, and mandate.",
+    "speedVsDepth": "Speed-leaning. Explicit mandate to accelerate research-to-product pipeline, suggesting impatience with pure research timelines.",
+    "centralVsDistributed": "Centralized. Consolidation explicitly designed to eliminate distributed coordination friction.",
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [],
+  "taxonomyFeedback": [],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/google-deepmind.json"
+  }
+}

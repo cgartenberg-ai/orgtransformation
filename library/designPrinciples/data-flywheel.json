@@ -1,0 +1,19 @@
+{
+  "id": "data-flywheel",
+  "title": "Use Deployed Products as Data Flywheel",
+  "group": "lab-to-org",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "information-architecture"
+  ],
+  "insight": "Products in the field generate data that improves AI capabilities that improve products. This flywheel is a durable competitive advantage.",
+  "manifestations": [
+    "Tesla: 1.5 million cars generating training data continuously",
+    "Duolingo: 1.25 billion daily exercises training personalization algorithms",
+    "Any product where usage improves the underlying AI"
+  ],
+  "test": "Is your AI getting better as a direct result of customer usage? If not, you're not building a flywheel.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

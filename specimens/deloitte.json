@@ -1,0 +1,114 @@
+{
+  "id": "deloitte",
+  "name": "Deloitte",
+  "title": "Agentic Operating Model",
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "CAUTION: This specimen conflates Deloitte's RESEARCH FINDINGS about agentic AI with Deloitte's own organizational structure. The data (30% explore, 38% pilot, etc.) describes Deloitte's clients, not Deloitte itself. As a professional services firm with dedicated AI practices, Deloitte's internal AI org likely operates as a CoE (Model 2) serving client engagements. However, confidence is Low because we lack direct evidence of Deloitte's own internal AI structure. Needs fundamental rework with sources about Deloitte's actual AI organization.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Professional Services",
+    "sector": "Management Consulting / Audit",
+    "orgSize": "Enterprise",
+    "employees": "~457,000",
+    "revenue": "~$65B",
+    "headquarters": "London, UK",
+    "geography": "Global"
+  },
+  "description": "Deloitte's research on agentic AI adoption reveals a stark gap: while 30% explore and 38% pilot, only 14% have solutions ready to deploy and a mere 11% are actively using these systems in production.\n- Key insight: Leading enterprises don't layer agents onto existing workflows—they redesign processes to leverage agents' unique strengths\n- 'Bolting AI onto existing workflows delivers limited value. Real impact requires reimagining processes with agents at the core.'\n- New paradigm: 'What if we rebuild our entire operating model around AI?' Not implementing tools—pioneering new operating models around autonomous decision-making\n- Workforce shift: Human-agent collaboration moving from hands-on execution to supervision and exception handling\n- Infrastructure requirement: Clean, consistent, real-time data, standardized interfaces, event-driven architectures",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "30% exploring, 38% piloting, 14% ready to deploy, 11% in production. Governance-as-enabler increases confidence for higher-value scenarios."
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "RECLASSIFIED and DOWNGRADED: Model 5c (Platform-to-Product) to Model 2 (CoE), downgraded to Stub. Critical issue: the specimen data describes Deloitte RESEARCH FINDINGS about agentic AI adoption across industries, NOT Deloitte's own organizational structure. The 30%/38%/14%/11% figures are survey data about Deloitte's clients, not about Deloitte itself. As a professional services firm, Deloitte's AI org is better classified as a CoE that serves clients. However, this specimen needs fundamental rework to describe Deloitte's actual internal AI structure rather than its research output. Fixed industry from Technology to Professional Services. Removed spurious quote and weak mechanism.",
+      "classification": {
+        "structuralModel": 2,
+        "orientation": "Structural",
+        "confidence": "Low",
+        "action": "reclassified",
+        "previousModel": 5,
+        "previousSubType": "5c",
+        "previousOrientation": "Structural"
+      },
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Deloitte's research on agentic AI adoption reveals a stark gap: while 30% explore and 38% pilot, only 14% have solutions ready to deploy and a mere 11% are actively using these systems in production.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Deloitte Insights",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Deloitte Tech Trends 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [
+    "What is Deloitte's ACTUAL internal AI organizational structure? Does it have a centralized AI practice, embedded teams, or hybrid model?",
+    "This specimen needs to be reworked to describe Deloitte's own AI transformation rather than its research findings about clients."
+  ],
+  "taxonomyFeedback": [
+    "Systemic issue: professional services firms (Deloitte, BCG, McKinsey) often have specimens that conflate their research/advisory output with their own organizational structure. Need clear guidance for curators on separating these."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/deloitte.json"
+  }
+}

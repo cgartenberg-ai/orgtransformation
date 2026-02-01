@@ -1,0 +1,135 @@
+{
+  "id": "pg-chatpg",
+  "name": "Procter & Gamble",
+  "title": "Large-Scale Field Experiments",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6b",
+    "subTypeName": "Centralized-but-Unnamed",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "High",
+    "classificationRationale": "Central team built ChatPG but without formal lab branding or identity. Deployed company-wide immediately rather than through a named innovation unit. Contextual orientation: the tool is embedded in everyone's workflow; employees balance AI exploration and execution within their existing roles.",
+    "typeSpecimen": true
+  },
+  "habitat": {
+    "industry": "Consumer Goods",
+    "sector": "Consumer Packaged Goods",
+    "orgSize": "Enterprise",
+    "employees": 107000,
+    "revenue": "$84B",
+    "headquarters": "Cincinnati, OH",
+    "geography": "Global"
+  },
+  "description": "Rather than creating a formal innovation lab, P&G built an internal generative AI tool called ChatPG and immediately deployed it to thousands of users — rejecting the conventional 'small pilot then scale' approach. In the first two hours after launch, the system received 8,000 requests, with company-wide launch following within 2-3 months.\n\nThe approach treats the entire company as an experimental platform. P&G partnered with Harvard Business School's Digital Data Design Institute for rigorous academic validation, running a field experiment with 776 professionals that demonstrated individuals using ChatPG achieved the same performance level as teams without AI, while teams partnered with ChatPG consistently produced the best outcomes.\n\nP&G has since deployed three products — ChatPG, ImagePG, and AskPG — to 30,000+ users with 35+ integrated use cases. The platform enables switching between AI models 'as deemed necessary from a business perspective,' avoiding vendor lock-in. All users complete mandatory 10-minute training and an acceptable use policy.",
+  "observableMarkers": {
+    "reportingStructure": "Central technology team builds and maintains tools. No formal AI lab structure or branding.",
+    "resourceAllocation": "Investment through technology budget. Academic partnership with Harvard for validation.",
+    "timeHorizons": "Rapid deployment cycles. Company-wide launch within 2-3 months of initial release.",
+    "decisionRights": "Central team builds platform; usage is broadly distributed and expected.",
+    "metrics": "30,000+ active users. 8,000 requests in first two hours. 35+ use cases. Three deployed products (ChatPG, ImagePG, AskPG). Mandatory 10-minute training."
+  },
+  "mechanisms": [
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Explicitly rejected small pilots. Deployed ChatPG to thousands immediately, receiving 8,000 requests in first two hours. Company-wide within 2-3 months. Used academic research partnership to validate at scale rather than gating on pre-deployment validation.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Individuals using chatPG achieved the same performance level as teams that did not use the AI tool, while teams that partnered with chatPG consistently produced the best outcomes.",
+      "speaker": null,
+      "speakerTitle": null,
+      "source": "Harvard Business School / P&G Field Experiment",
+      "sourceUrl": null,
+      "timestamp": null,
+      "date": null
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Bulk curation review validated classification as Model 6b (Centralized-but-Unnamed) with Contextual orientation. Decision tree walk: no formal AI lab branding → central team with informal name (ChatPG) → 6b. Type specimen status confirmed. Added employee count and revenue. Completeness remains Medium — would benefit from identifying the central team's leader.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025",
+      "label": "Mature Platform with Academic Validation",
+      "summary": "30,000+ users across three products (ChatPG, ImagePG, AskPG). 35+ use cases with internal data integration. Multi-model platform architecture avoiding vendor lock-in. Harvard field experiment validates approach.",
+      "classification": "Model 6b",
+      "sourceRefs": [
+        "cio-dive",
+        "mit-sloan",
+        "pg-signal"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cio-dive",
+      "type": "Press",
+      "name": "CIO Dive",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "Coverage of P&G's ChatPG deployment strategy."
+    },
+    {
+      "id": "mit-sloan",
+      "type": "Academic Paper",
+      "name": "MIT Sloan Management Review",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "Academic coverage of P&G's AI deployment and field experiment results."
+    },
+    {
+      "id": "pg-signal",
+      "type": "Blog",
+      "name": "P&G Signal",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "P&G's official communications about AI initiatives."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Non-traditional",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.7,
+    "speedVsDepth": 0.9,
+    "centralVsDistributed": -0.2,
+    "namedVsQuiet": 0.8,
+    "longVsShortHorizon": 0.6
+  },
+  "openQuestions": [
+    "What is the size of the central team that built and maintains ChatPG?",
+    "How is the academic partnership with Harvard structured? Who funded the field experiment?",
+    "What drove the decision to reject small pilots — was there a champion or was it policy?"
+  ],
+  "taxonomyFeedback": [
+    "P&G's approach is 'centralized build, decentralized use' — the central team is real but deliberately unnamed. This is a clean example of 6b and supports the distinction between 6a (mass adoption, top-down mandate) and 6b (central team, informal identity)."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Medium",
+    "convertedFrom": "library/cases/pg-chatpg.json"
+  }
+}

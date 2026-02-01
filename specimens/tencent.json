@@ -1,0 +1,76 @@
+{
+  "id": "tencent",
+  "name": "Tencent",
+  "title": "AI Consolidation Under Unified TEG Departments",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 4 (Hub-and-Spoke). Tencent consolidated previously scattered AI teams (Hunyuan, AI Lab, ML Platform) into unified departments in TEG: AI Infra Department, AI Data Department, and Data Computing Platform. This is a clear restructuring from distributed/embedded to centralized hub-and-spoke. Chief AI Scientist Yao Shunyu (ex-OpenAI) placed in CEO/President's Office signals strategic importance. Structural orientation: dedicated centralized AI departments separated from business groups.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Internet / Social Media / Gaming",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Shenzhen, China",
+    "geography": "Asia-Pacific"
+  },
+  "description": "Tencent's AI restructuring represents a direct response to competitive pressure in the Chinese AI race. Previously, the Hunyuan model R&D teams and resources were scattered across different business groups — spanning Large Language Model, AI Lab, and Machine Learning Platform departments — leading to unfocused R&D efforts and resource waste.\n\nThe reorganization established unified departments within TEG (Technology & Engineering Group): AI Infra Department, AI Data Department, and Data Computing Platform. The objective shifted explicitly from 'simply inventing AI' (traditional lab mission) to manufacturing and deploying AI at industrial scale.\n\nA key structural signal was hiring Yao Shunyu (former OpenAI researcher) as Chief AI Scientist, placed in the CEO/President's Office rather than in an engineering division. This appointment rapidly attracted core employees from ByteDance, Alibaba, and other competitors, demonstrating how a single strategic hire can shift talent dynamics.",
+  "observableMarkers": {
+    "reportingStructure": "Chief AI Scientist Yao Shunyu in CEO/President's Office. Unified AI departments in TEG (AI Infra, AI Data, Data Computing Platform).",
+    "resourceAllocation": null,
+    "timeHorizons": "Shift from long-term research to industrial-scale deployment",
+    "decisionRights": "Centralized in TEG unified departments; Chief AI Scientist has CEO-level access",
+    "metrics": "Hunyuan 2.0: 406B parameters. 30+ new models in past year. Hunyuan Image 3.0: #8 on LM Arena (80B params)."
+  },
+  "mechanisms": [
+    {
+      "id": 6,
+      "name": "Merge Competing AI Teams Under Single Leader",
+      "evidence": "Consolidated previously scattered Hunyuan teams (LLM, AI Lab, ML Platform across different business groups) into unified TEG departments. Eliminated duplicated R&D efforts.",
+      "strength": "Strong"
+    },
+    {
+      "id": 9,
+      "name": "Hire CAIOs from Consumer Tech",
+      "evidence": "Hired Yao Shunyu (former OpenAI researcher) as Chief AI Scientist, placed in CEO/President's Office. Appointment attracted talent from ByteDance, Alibaba, and competitors.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 4 classification. Fixed industry from Industrial to Technology. Added Mechanisms #6 (Merge Competing AI Teams) and #9 (Hire from External — Yao from OpenAI). Removed spurious 'hub-and-spoke' quote fragment. Added habitat and classification rationale.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Tencent consolidated scattered AI teams into unified TEG departments. Hired ex-OpenAI researcher as Chief AI Scientist in CEO's Office.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    }
+  ],
+  "sources": [
+    {"id": "source-1", "type": "Report", "name": "36Kr exclusive report", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-2", "type": "Press", "name": "TechNode", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-3", "type": "Press", "name": "Tencent announcements", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+  ],
+  "contingencies": {"regulatoryIntensity": "High", "timeToObsolescence": "Fast", "ceoTenure": "Long", "talentMarketPosition": "Talent-rich", "technicalDebt": "Medium"},
+  "tensionPositions": {"structuralVsContextual": -0.6, "speedVsDepth": 0.3, "centralVsDistributed": -0.7, "namedVsQuiet": -0.4, "longVsShortHorizon": 0.2},
+  "openQuestions": ["How do the unified TEG departments interact with Tencent's business groups (gaming, social, fintech)?", "What specifically attracted Yao Shunyu from OpenAI to Tencent?", "How does Tencent's AI restructuring compare to ByteDance and Alibaba approaches?"],
+  "taxonomyFeedback": ["Tencent's evolution from scattered AI teams to unified hub is a well-documented example of Mechanism #6. The 'before and after' restructuring provides structural evidence often missing in other specimens.", "Chinese tech company AI restructurings (Tencent, ByteDance) represent a distinct pattern of competitive-pressure-driven consolidation."],
+  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/tencent.json"}
+}

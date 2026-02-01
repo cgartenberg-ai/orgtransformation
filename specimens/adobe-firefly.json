@@ -1,0 +1,136 @@
+{
+  "id": "adobe-firefly",
+  "name": "Adobe",
+  "title": "Content Credentials Trust Architecture",
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5a",
+    "subTypeName": "Internal Incubator",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Adobe Firefly was incubated as a distinct generative AI product initiative, trained on licensed/owned content, with its own trust architecture (Content Credentials). Products stay within Adobe (integrated into Photoshop, Illustrator, Express) rather than spinning out. This fits Model 5a (Internal Incubator). Edge case: Firefly augments existing products rather than creating standalone ventures — could argue for Model 3 (Embedded Teams) if Firefly teams are now embedded in product orgs. Structural orientation: Firefly development was ring-fenced from core product teams.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Creative Software",
+    "orgSize": "Enterprise",
+    "employees": 30000,
+    "revenue": "$20B",
+    "headquarters": "San Jose, CA",
+    "geography": "Global"
+  },
+  "description": "Adobe's Firefly represents a distinctive approach to generative AI: building trust and creator rights into the technical architecture from day one, not as an afterthought. This addresses the 'original sin' of many AI models—training on content without consent or compensation.\n- Content Authenticity Initiative (CAI): Adobe co-founded in 2019, now 3,300+ members including tech companies, news orgs, NGOs\n- Developed Content Credentials—technical standard for tracking how content was created and modified\n- Firefly trained on Adobe Stock images, openly licensed content, and public domain content\n- 'Designed to generate content safe for commercial use' without IP infringement risks\n- Automatic provenance: Content Credentials attached to Firefly-generated content indicating AI was used\n- Creator compensation commitment and 'Do Not Train' tag for creators",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "CAI has 3,300+ members. Firefly designed for commercial safety. Content Credentials travel with content wherever published."
+  },
+  "mechanisms": [
+    {
+      "id": 8,
+      "name": "Log Everything When Regulators Watch",
+      "evidence": "Content Credentials standard tracks how content was created and modified, creating provenance trails. Content Authenticity Initiative (3,300+ members) builds industry-wide audit infrastructure for AI-generated content.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Bulk curation review validated classification as Model 5a (Internal Incubator) with Structural orientation. Decision tree walk: formal AI unit (Firefly team) → not primarily academic research → central team builds products → outputs are new products staying in parent (Firefly integrated into Photoshop, Illustrator, etc.) → 5a. Noted edge case: Firefly augments existing products rather than creating standalone ventures, which could argue for Model 3 (Embedded). Kept 5a because Firefly was incubated as a distinct product initiative. Fixed habitat fields. Removed weak Mechanism #1 evidence.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Adobe's Firefly represents a distinctive approach to generative AI: building trust and creator rights into the technical architecture from day one, not as an afterthought. This addresses the 'original sin' of many AI models—training on content without consent or compensation.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Blog",
+      "name": "Adobe Blog",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press Release",
+      "name": "Adobe Press",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Diginomica",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "Moor Insights",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.5,
+    "speedVsDepth": -0.6,
+    "centralVsDistributed": -0.4,
+    "namedVsQuiet": -0.8,
+    "longVsShortHorizon": -0.2
+  },
+  "openQuestions": [
+    "Is the Firefly team still a distinct unit, or has it been absorbed into Adobe's product engineering teams?",
+    "What is Adobe Research's role in Firefly development vs. the product team?",
+    "How does the Content Authenticity Initiative governance structure work?"
+  ],
+  "taxonomyFeedback": [
+    "Adobe Firefly tests the boundary between Model 5a (Internal Incubator) and Model 3 (Embedded Teams). If Firefly was incubated separately but is now embedded in product teams, the classification may need to evolve. The trust/provenance architecture (CAI, Content Credentials) is a cross-cutting mechanism not well captured by the current taxonomy."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/adobe-firefly.json"
+  }
+}

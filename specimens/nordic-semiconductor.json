@@ -1,0 +1,89 @@
+{
+  "id": "nordic-semiconductor",
+  "name": "Nordic Semiconductor",
+  "title": "Edge AI Lab for On-Device Intelligence",
+  "classification": {
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Tentative Model 1 (Research Lab). Nordic Semiconductor launched an Edge AI Lab alongside the nRF54L SoC with NPU. The lab helps developers generate custom models for anomaly detection, activity recognition, and biometric monitoring — research and development functions. Structural: the lab is a named, dedicated entity. Low confidence reflects minimal data on internal structure, headcount, and reporting.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Semiconductors",
+    "sector": "IoT / Wireless Connectivity",
+    "orgSize": "Mid-market",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Trondheim, Norway",
+    "geography": "Europe / Global"
+  },
+  "description": "Nordic Semiconductor launched the Edge AI Lab alongside the nRF54L Series SoC with NPU, focusing on privacy-preserving, real-time intelligence on constrained devices without cloud dependency. The lab helps developers generate custom models for anomaly detection, activity recognition, and biometric monitoring.\n\nThis represents a structural commitment to AI at a semiconductor company focused on IoT — embedding AI capability directly into hardware products.",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Nordic Semiconductor launches Edge AI Lab alongside nRF54L SoC with NPU. On-device AI for IoT without cloud dependency.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Nordic Semiconductor — Edge AI Lab launch",
+      "url": "https://www.nordicsemi.com/Nordic-news/2026/01/nRF54L-Series-SoC-with-NPU-and-Nordic-Edge-AI-Lab-make-on-device-intelligence-easily-accessible",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": -0.4,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": -0.4
+  },
+  "openQuestions": [
+    "How is the Edge AI Lab structured within Nordic Semiconductor?",
+    "Headcount? Budget? Reporting line?",
+    "Is the lab product-integrated or a separate research function?"
+  ],
+  "taxonomyFeedback": [
+    "Edge AI labs at semiconductor companies represent a hardware-specific variant of Model 1 where the 'lab' output is tightly coupled to silicon products rather than being a standalone research function."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

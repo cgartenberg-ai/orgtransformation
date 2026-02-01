@@ -1,0 +1,133 @@
+{
+  "id": "mercado-libre",
+  "name": "Mercado Libre",
+  "title": "Founder as AI Champion Structure",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 4. Mercado Libre has AI integrated across e-commerce, fintech (Mercado Pago), and logistics, with the founder transitioning to Executive Chairman specifically to provide central AI coordination. The $13.2B investment and GenAds AI product indicate both centralized AI investment and distributed execution across business units. Founder-as-hub is an unusual variant of Hub-and-Spoke.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "E-commerce",
+    "sector": "E-commerce / Fintech / Logistics",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Buenos Aires, Argentina",
+    "geography": "Global"
+  },
+  "description": "Mercado Libre represents an unusual structural pattern: the founder himself becomes the central AI coordination point. Marcos Galperin transitioned from CEO to Executive Chairman on January 1, 2026, specifically to focus on artificial intelligence integration across the business, elevating AI from a departmental function to the central organizing principle.\n\nRather than delegating AI to a CAIO or technical function, the founder becomes the hub in a hub-and-spoke model, coordinating AI integration across Mercado Libre's e-commerce marketplace, Mercado Pago fintech, and logistics operations. The $13.2B investment in 2025 (including $3.4B in Mexico with explicit AI focus) signals the scale of commitment.\n\nGenAds, the company's generative AI advertising product, demonstrates the spoke execution pattern: a 45% increase in impressions and 90,000+ product creatives across 7 countries. With 18,000+ engineers and 28,000 planned hires (33% headcount increase), the company is scaling both AI capability and human capacity simultaneously.",
+  "observableMarkers": {
+    "reportingStructure": "Founder transitions from CEO to Executive Chairman to serve as central AI coordinator. New CEO handles operations while founder focuses on AI strategy.",
+    "resourceAllocation": "$13.2B investment in 2025 — record. Includes $5.8B Brazil, $3.4B Mexico (explicit AI focus), $2.6B Argentina.",
+    "timeHorizons": null,
+    "decisionRights": "Founder retains AI strategic decision rights at highest level",
+    "metrics": "GenAds: 45% increase in impressions, 90,000+ product creatives across 7 countries. 18,000+ engineers. $1.4T total payment volume. 28,000 planned hires."
+  },
+  "mechanisms": [
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "evidence": "Founder Marcos Galperin transitions to Executive Chairman specifically to focus on AI integration — the most senior leader personally champions AI at the highest structural level.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 4 classification. Fixed industry from Technology to E-commerce. Added habitat, reporting structure, resource allocation markers. Added Mechanism #7 (Put Executives on the Tools). Added classification rationale and open questions.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Mercado Libre is making a structural statement about AI's centrality: founder Marcos Galperin will transition from CEO to Executive Chairman on January 1, 2026, specifically to focus on AI integration across the business.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "PYMNTS",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Klover.ai",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "eMarketer",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-4",
+      "type": "Substack",
+      "name": "Alfredo Hahn Substack",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.3,
+    "speedVsDepth": 0.4,
+    "centralVsDistributed": -0.2,
+    "namedVsQuiet": 0.3,
+    "longVsShortHorizon": 0.0
+  },
+  "openQuestions": [
+    "What is the internal AI team structure beneath the founder's coordination?",
+    "How does AI integration differ across Mercado Libre's three main businesses (marketplace, Mercado Pago, logistics)?",
+    "Is GenAds the primary AI product or are there others in development?",
+    "How does the Latin American talent market shape AI capability building?"
+  ],
+  "taxonomyFeedback": [
+    "Founder-as-hub is a distinctive variant of Hub-and-Spoke not captured by the taxonomy. The founder's role change (CEO → Executive Chairman for AI) is a structural mechanism worth tracking.",
+    "This pattern may be common in founder-led companies where the founder personally champions the AI transformation rather than delegating to a CAIO."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/mercado-libre.json"
+  }
+}

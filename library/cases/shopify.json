@@ -1,0 +1,41 @@
+{
+  "id": "shopify",
+  "company": "Shopify",
+  "title": "AI as Embedded Expectation",
+  "summary": "Must prove AI can't do it before requesting headcount, AI usage affects performance reviews",
+  "diagramTemplate": "embedded-universal",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "human-ai-boundaries",
+    "north-star"
+  ],
+  "designPrinciples": [
+    "mandatory-proficiency",
+    "ride-the-exponential"
+  ],
+  "content": {
+    "whatItIs": "Rather than a separate lab, Shopify embedded AI capability expectations into every role\u2014making AI proficiency a condition of employment and resource allocation.",
+    "howItWorks": [
+      "CEO Tobi Lutke mandate (April 2025): employees must 'show jobs can't be done by artificial intelligence before asking for more headcount and resources'",
+      "AI usage now 'a baseline expectation' that influences performance reviews",
+      "Lutke expects employees to use AI as 'a thought partner, deep researcher, critic, tutor, or pair programmer'",
+      "Developers have access to Copilot, Cursor, and Claude Code 'all pre-tooled and ready to go'",
+      "AI integration formally part of monthly business reviews and product development cycles"
+    ],
+    "coreInsight": "Make AI proficiency a condition of employment and resource allocation. When requesting headcount, the burden of proof shifts to demonstrating why AI can't do the job.",
+    "keyMetrics": "Products: Shopify Magic and Sidekick externalize this philosophy. 'RenAIssance edition' (Winter 2025) contained 150+ AI-focused product updates. Headcount dropped from 8,300 to 8,100 over the past year.",
+    "sources": [
+      "CNBC",
+      "Business Today",
+      "Shopify Blog",
+      "X/Twitter"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {
+    "2026AgenticStorefronts": "Winter 2026 Edition introduced 'Agentic Storefronts'\u2014making every Shopify store agent-ready by default. CEO Tobi L\u00fctke: 'Shopify is the easiest solution for merchants who want AI agents to find their storefronts, understand their products, and complete transactions.' The AI mandate has become an industry template: 8 months after L\u00fctke's memo, Meta, Microsoft, Google, and NVIDIA have adopted similar metrics. The memo functioned as a 'filter'\u2014reshaping who would want to work at Shopify and who would thrive. All employees have access to Copilot, Claude, and Cursor."
+  },
+  "lastUpdated": "2026-01-20",
+  "phenotype": "embedded",
+  "phenotypeSubtype": null
+}

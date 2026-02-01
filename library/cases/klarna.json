@@ -1,0 +1,40 @@
+{
+  "id": "klarna",
+  "company": "Klarna",
+  "title": "AI Customer Service Experiment (and Correction)",
+  "summary": "AI-first customer service achieved dramatic efficiency but required human-hybrid correction for quality",
+  "diagramTemplate": "embedded-teams",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "stance-on-uncertainty",
+    "human-ai-boundaries"
+  ],
+  "designPrinciples": [
+    "rapid-iteration-cycles"
+  ],
+  "content": {
+    "whatItIs": "Klarna's AI experiment provides a rare honest case study of both AI's potential and its limits. They publicly reversed course after going 'full tilt toward AI-based support.'",
+    "howItWorks": [
+      "February 2024: AI assistant announced as 'doing the equivalent work of 700 full-time agents' within first month",
+      "Initial results: 2.3 million conversations, matching human satisfaction scores",
+      "25% drop in repeat inquiries, resolution time dropped from 11 minutes to under 2 minutes",
+      "$40 million annual savings projected; workforce shrank 40% from 5,000 to ~3,000",
+      "By 2025, Klarna reversed course, resuming human hiring after acknowledging 'a full tilt toward AI-based support roles resulted in lower quality work'",
+      "New model: Hybrid approach with AI handling simple inquiries, humans handling nuance and complexity"
+    ],
+    "coreInsight": "AI can achieve dramatic efficiency gains in customer service, but pure AI replacement creates quality problems. The sustainable model is human-AI hybrid where AI handles volume and humans handle complexity. Be willing to publicly reverse course when the data shows problems.",
+    "keyMetrics": "CEO Siemiatkowski: 'It is important that customers always have a clear path to a human.' Company now recruits remote support staff in 'Uber type of setup.'",
+    "sources": [
+      "Klarna Press",
+      "OpenAI",
+      "Fast Company",
+      "CNBC",
+      "Sequoia Podcast"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "unnamed-informal",
+  "phenotypeSubtype": "enterprise-adoption"
+}

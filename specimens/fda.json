@@ -1,0 +1,108 @@
+{
+  "id": "fda",
+  "name": "FDA",
+  "title": "Combined CAIO + Head of IT",
+
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Minimal data. CAIO combined with Head of IT suggests AI governance is merged with IT infrastructure — a common government pattern. Contrasts with Mechanism #9 (Hire CAIOs from Consumer Tech): Walsh comes from IT/federal contracting, not consumer tech. Low confidence due to single source.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Government",
+    "sector": "Federal Health Agency / Regulatory",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Silver Spring, MD",
+    "geography": "North America"
+  },
+
+  "description": "The FDA hired Jeremy Walsh as its first Chief AI Officer AND Head of IT — a combined role that places AI governance directly within the IT function. Walsh comes from an IT professional background with federal health agency contracting experience. This contrasts with the emerging pattern of hiring CAIOs from consumer tech or data science backgrounds (Mechanism #9), suggesting federal agencies may follow a different pipeline where IT operations experience is valued over AI research or product expertise.",
+
+  "observableMarkers": {
+    "reportingStructure": "CAIO combined with Head of IT — single role.",
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [
+    {
+      "id": 8,
+      "name": "Log Everything When Regulators Watch",
+      "evidence": "FDA is itself the regulator — AI deployment in a regulatory agency inherently requires maximum auditability and compliance.",
+      "strength": "Emerging"
+    }
+  ],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2025",
+      "label": "Initial Documentation",
+      "summary": "Jeremy Walsh hired as FDA's first CAIO + Head of IT. IT background with federal health agency contracting experience.",
+      "classification": null,
+      "sourceRefs": ["akin-fda-2025"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "akin-fda-2025",
+      "type": "Press",
+      "name": "Akin Law Firm — FDA and HHS Appoint AI Chiefs",
+      "url": "https://www.akingump.com/en/insights/blogs/eye-on-fda/fda-and-hhs-appoint-ai-chiefs",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "High"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.8,
+    "speedVsDepth": -0.8,
+    "centralVsDistributed": -0.6,
+    "namedVsQuiet": -0.2,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [
+    "How does the combined CAIO/Head of IT role affect AI innovation vs. IT maintenance priorities?",
+    "What AI use cases is the FDA pursuing?",
+    "How does the CAIO role interact with FDA's existing regulatory science programs?"
+  ],
+
+  "taxonomyFeedback": [
+    "The combined CAIO + Head of IT role is a distinct pattern in government orgs — merging AI leadership with IT infrastructure. May indicate that government agencies see AI as an IT upgrade rather than a strategic transformation.",
+    "Contrasts sharply with Mechanism #9 (Hire CAIOs from Consumer Tech) — federal agencies hiring from IT/contracting pipelines."
+  ],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

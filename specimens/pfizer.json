@@ -1,0 +1,123 @@
+{
+  "id": "pfizer",
+  "name": "Pfizer",
+  "title": "CAIO-Led Hub with AI Fab Lab and PACT Partnership",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 4 (Hub-and-Spoke). Pfizer has a CAIO (Berta Rodriguez-Hervas) overseeing central AI capabilities: AI/ML Fab Lab (exploration/experimentation), Predictive Analytics Incubator (applied AI), and the PACT partnership with AWS and Anthropic (infrastructure). These central units serve drug discovery and development business units as spokes. Structural orientation: distinct AI units are separated from the therapeutic area operations they serve.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Pharmaceuticals",
+    "sector": "Drug Discovery & Development",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "New York, NY",
+    "geography": "Global"
+  },
+  "description": "Pfizer has built a multi-layered AI organization under CAIO Berta Rodriguez-Hervas, combining internal capability building with strategic partnerships. The structure includes the AI/ML Fab Lab for experimentation and capability building, and the Predictive Analytics Incubator for applied AI in drug discovery.\n\nThe PACT (Pfizer-Amazon-Claude Trifecta) partnership with AWS and Anthropic represents a new model of pharmaceutical AI deployment, providing enterprise AI infrastructure. This external partnership supplements internal AI capabilities, creating a layered approach to AI capacity.\n\nResults include development cycles reduced from 6+ weeks to 6 weeks through AI acceleration, and drug candidate development compressed from 1+ year to 30 days using AI. The CAIO position provides executive-level AI leadership, ensuring strategic alignment between AI capabilities and drug development priorities.",
+  "observableMarkers": {
+    "reportingStructure": "CAIO Berta Rodriguez-Hervas provides executive-level AI leadership. AI/ML Fab Lab and Predictive Analytics Incubator as central units.",
+    "resourceAllocation": null,
+    "timeHorizons": "Drug discovery AI: years. Process acceleration: quarters.",
+    "decisionRights": "CAIO sets AI strategy; PACT partnership provides infrastructure; Fab Lab experiments; Incubator applies to drug discovery.",
+    "metrics": "Drug candidate development: 1+ year reduced to 30 days. Development cycles: 6+ weeks to 6 weeks. CAIO appointed 2025."
+  },
+  "mechanisms": [
+    {
+      "id": 3,
+      "name": "Embed Product at Research Frontier",
+      "evidence": "PACT partnership embeds AWS/Anthropic AI infrastructure directly into Pfizer's drug discovery pipeline, connecting AI capability with the research frontier.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 4 classification. Replaced weakly-evidenced Mechanism #5 with Mechanism #3 (Embed Product at Research Frontier — PACT partnership). Added habitat, observable markers, classification rationale. Enriched description.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Pfizer AI organization under CAIO Berta Rodriguez-Hervas with AI/ML Fab Lab, Predictive Analytics Incubator, and PACT partnership with AWS and Anthropic.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Report",
+      "name": "Industry reports January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Partnership announcements",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Pfizer investor communications",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.5,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": -0.3
+  },
+  "openQuestions": [
+    "How does the PACT partnership governance work — who decides which AI capabilities to deploy?",
+    "What is the CAIO's reporting line (CEO, CSO, or CTO)?",
+    "How does the AI/ML Fab Lab differ from the Predictive Analytics Incubator in practice?",
+    "What regulatory considerations shape AI deployment in drug discovery vs. clinical trials?"
+  ],
+  "taxonomyFeedback": [
+    "External AI partnerships (PACT model) as a structural component of AI organization isn't well captured by the taxonomy. Many pharma companies build AI capability partly through vendor partnerships.",
+    "The 'Fab Lab + Incubator + Partnership' triple structure may be a pharma-specific pattern worth documenting."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/pfizer.json"
+  }
+}

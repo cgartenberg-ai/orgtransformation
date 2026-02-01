@@ -1,0 +1,145 @@
+{
+  "id": "amazon",
+  "name": "Amazon",
+  "title": "AI-Driven Workforce Restructuring at Enterprise Scale",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "Model 6a (Enterprise-Wide Adoption). Amazon's Jan 2026 restructuring cuts 16,000 corporate jobs while investing $125B in AI infrastructure. No dedicated AI lab or CAIO is described — rather, AI is driving enterprise-wide cultural change ('removing bureaucracy'). Contextual orientation: employees across all functions expected to integrate AI into existing roles. Distinguished from amazon-agi specimen which covers the AGI/Bedrock organizational structure.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "E-commerce / Cloud / Logistics",
+    "orgSize": "Enterprise",
+    "employees": "~1,500,000",
+    "revenue": ">$180B quarterly",
+    "headquarters": "Seattle, WA",
+    "geography": "Global"
+  },
+  "description": "Amazon's January 2026 restructuring represents AI-driven workforce transformation at unprecedented scale. The company cut 16,000 corporate jobs (its second wave in three months after 14,000 in October 2025), with projections reaching 30,000 by May 2026. CEO Andy Jassy framed the cuts as cultural rather than financial: removing 'layers of bureaucracy' and 'increasing ownership.'\n\nThis occurs against a backdrop of record financial performance (Q4 profits up ~40% to ~$21B) and the highest AI capital expenditure among megacap companies ($125B forecast for 2026). The $100B AI investment is explicitly linked to the layoff decisions — this is strategic rebalancing, not distress.\n\nNote: This specimen captures Amazon's enterprise-wide AI-driven restructuring. The separate amazon-agi specimen covers Amazon's AGI research lab and Bedrock/AWS AI platform organizational structure.",
+  "observableMarkers": {
+    "reportingStructure": "CEO Andy Jassy driving restructuring directly. SVP Beth Galetti overseeing workforce transition.",
+    "resourceAllocation": "$125B CapEx forecast 2026. $100B explicitly for AI.",
+    "timeHorizons": "10-year AI commitment cited (Washington state). Layoffs in quarterly waves.",
+    "decisionRights": "CEO-driven cultural mandate. 'Removing layers of bureaucracy.'",
+    "metrics": "16,000 jobs cut Jan 2026. 14,000 cut Oct 2025. 30,000 projected by May 2026. 2,400 in WA alone. Q4 profits ~$21B."
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "text": "It's culture.",
+      "speaker": "Andy Jassy",
+      "speakerTitle": "CEO, Amazon",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/01/28/amazon-layoffs-anti-bureaucracy-ai.html",
+      "timestamp": null,
+      "date": "2025-10"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Amazon cuts 16,000 corporate jobs while investing $125B in AI. CEO Jassy frames cuts as cultural ('removing bureaucracy'). Distinct from amazon-agi specimen (AGI lab/AWS structure).",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4",
+        "source-5"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "CNN — Amazon 16K layoffs",
+      "url": "https://www.cnn.com/2026/01/28/tech/amazon-layoffs-ai",
+      "timestamp": null,
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "HR Digest — 30K projection",
+      "url": "https://www.thehrdigest.com/why-amazon-layoffs-could-hit-30000-roles-by-may-2026",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Bloomberg — $125B CapEx",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-28/amazon-to-cut-16-000-jobs-trimming-bureaucracy-amid-ai-tussle",
+      "timestamp": null,
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-01-31",
+      "notes": "[paywall]"
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "CNBC — Jassy culture framing",
+      "url": "https://www.cnbc.com/2026/01/28/amazon-layoffs-anti-bureaucracy-ai.html",
+      "timestamp": null,
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "source-5",
+      "type": "Press",
+      "name": "National CIO Review — $100B AI focus",
+      "url": "https://nationalcioreview.com/articles-insights/extra-bytes/amazons-100-billion-ai-focus-comes-with-layoffs-in-seattle-hq/",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.5,
+    "speedVsDepth": 0.6,
+    "centralVsDistributed": 0.3,
+    "namedVsQuiet": 0.7,
+    "longVsShortHorizon": 0.3
+  },
+  "openQuestions": [
+    "What is Amazon's internal AI organizational structure? Is there a central AI unit or federated model?",
+    "How is AWS AI (Bedrock, Trainium) organized relative to consumer AI efforts?",
+    "Is there a CAIO or equivalent role?",
+    "What specific roles are being created to replace the cut positions?"
+  ],
+  "taxonomyFeedback": [
+    "Amazon has two specimens (amazon-agi for AGI lab/Bedrock, amazon for workforce restructuring). This split captures how the same company can have both Model 4 (dedicated AI structure) and Model 6a (enterprise-wide adoption) simultaneously.",
+    "AI-driven layoffs at profitable companies may need recognition as a distinct organizational transition pattern — not distress-driven but strategy-driven."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

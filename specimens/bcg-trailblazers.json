@@ -1,0 +1,127 @@
+{
+  "id": "bcg-trailblazers",
+  "name": "BCG",
+  "title": "60% Budget to Upskilling (Trailblazer Model)",
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "BCG functions as a Center of Excellence for its clients — providing AI governance, training, and implementation expertise. The 'Trailblazer' pattern from the AI Radar 2026 survey describes a cross-industry finding (60% budget to upskilling, CEO 8+ hours/week learning), not BCG's own structure. Contextual orientation: BCG's approach emphasizes AI fluency across all consultant roles rather than separating AI specialists. Medium confidence because the specimen data primarily describes BCG's research findings rather than BCG's own organizational structure.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Professional Services",
+    "sector": "Management Consulting",
+    "orgSize": "Enterprise",
+    "employees": 32000,
+    "revenue": "$12B",
+    "headquarters": "Boston, MA",
+    "geography": "Global"
+  },
+  "description": "BCG's AI Radar 2026 survey of 2,360 executives identified 'Trailblazers' representing ~15% of companies who drive AI transformation through decisive investment in workforce capability.\n- Defining characteristic: 60% of Trailblazing CEOs' AI budgets go to upskilling and retraining current workforce (vs. 27% Pragmatists, 24% Followers)\n- CEO personal investment: Trailblazing CEOs spend 8+ hours per week on their own AI upskilling—twice the counterpart average\n- Agentic AI deployment: Trailblazers direct 50%+ of 2026 AI investment to agents, 2x more likely to deploy end-to-end\n- Regional finding: Africa leads globally with 42% Trailblazer CEOs (vs. 14% EU), averaging 8.3 hours/week learning AI\n- Pressure driver: 50% of CEOs believe their job depends on getting AI right",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "15% Trailblazers vs. 85% followers. 60% budget to upskilling. 8+ hours/week CEO personal learning. 50% of non-CEOs think CEO should resign if company loses share due to inadequate AI strategy."
+  },
+  "mechanisms": [
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "evidence": "BCG's AI Radar 2026 found that Trailblazing CEOs spend 8+ hours per week on their own AI upskilling — twice the average. This finding reflects BCG's advisory emphasis on executive hands-on AI engagement.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Bulk curation review kept classification as Model 2 (CoE) with Contextual orientation but noted significant issues. This specimen conflates BCG's research findings (AI Radar 2026 survey) with BCG's own organizational structure. The 'Trailblazer' pattern described is a cross-industry finding, not BCG-specific. BCG itself operates as a CoE for clients (enablement, training, advisory). Fixed industry from Technology to Professional Services. Added habitat data. Confidence remains Medium.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "BCG's AI Radar 2026 survey of 2,360 executives identified 'Trailblazers' representing ~15% of companies who drive AI transformation through decisive investment in workforce capability.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press Release",
+      "name": "BCG Press",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Report",
+      "name": "BCG AI Radar Report",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "PR Newswire",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.5,
+    "speedVsDepth": null,
+    "centralVsDistributed": 0.3,
+    "namedVsQuiet": -0.4,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [
+    "What is BCG's own internal AI organizational structure — does it have a dedicated AI practice?",
+    "How does BCG X (the venture/tech arm) relate to the consulting CoE?",
+    "What AI tools do BCG consultants use internally?",
+    "How does BCG's approach differ from McKinsey's QuantumBlack/workforce split?"
+  ],
+  "taxonomyFeedback": [
+    "This specimen conflates BCG's research findings with BCG's organizational structure. The Trailblazer pattern is valuable as a cross-cutting observation but may not belong as a single-org specimen. Consider separating: (1) BCG's own AI structure as a specimen, (2) the Trailblazer pattern as a synthesis finding.",
+    "Professional services firms that both advise on AI structure AND have their own AI structure present a 'meta' classification challenge."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/bcg-trailblazers.json"
+  }
+}

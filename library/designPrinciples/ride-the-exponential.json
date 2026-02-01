@@ -1,0 +1,21 @@
+{
+  "id": "ride-the-exponential",
+  "title": "Build for Capabilities That Don't Exist Yet",
+  "group": "speed",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "stance-on-uncertainty"
+  ],
+  "insight": "If you build for what AI can reliably do today, you'll be behind when capabilities improve (which happens fast). Build for what's barely possible, accept breakage, and be ready when capabilities arrive. Design products that naturally get better as models improve—and delete scaffolding over time rather than adding to it.",
+  "manifestations": [
+    "Anthropic product principle: 'ride the exponential'—products must 'meet the moment' but 'naturally improve' as models get better",
+    "Deleting harness code over time rather than adding to it because the model can do more",
+    "Companies that 'pushed the limits with earlier models, hit walls, and then were ready when new capabilities emerged' are the ones succeeding (Cursor, Lovable)",
+    "Designing for 10x capability improvement in 18 months",
+    "Accepting that current implementations will break"
+  ],
+  "test": "Is your AI roadmap based on current model capabilities or anticipated capabilities? Are you deleting scaffolding over time or adding more? If you're only building for what works reliably today, you're too conservative.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

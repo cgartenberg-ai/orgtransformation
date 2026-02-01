@@ -1,0 +1,39 @@
+{
+  "id": "bytedance",
+  "company": "ByteDance Volcano Engine",
+  "title": "50 Trillion Token Consumer-to-Enterprise Scale",
+  "summary": "Built enterprise AI platform by first achieving massive consumer scale (172M MAU), then offering that infrastructure to external businesses",
+  "diagramTemplate": "platform-to-product",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy",
+    "information-architecture"
+  ],
+  "designPrinciples": [
+    "data-flywheel",
+    "ride-the-exponential"
+  ],
+  "content": {
+    "whatItIs": "ByteDance's Doubao large language model usage grew more than tenfold in a single year. 'AI is being adopted at an unprecedented speed, and how to make better use of it has become a question all businesses have to answer well.'",
+    "howItWorks": [
+      "Doubao's daily token usage: 50 trillion tokens/month, up from 4 trillion (12x increase in one year)",
+      "Volcano Engine accounts for 49.2% of AI model-focused public cloud services in China (IDC)",
+      "Enterprise customers: Mercedes-Benz, BYD, China Merchants Bank, Yuanfudao",
+      "Spring Festival Gala partnership (2026 CCTV): reached 700+ million viewers",
+      "Ocean team integrates hardware initiatives: Doubao phone, Ola Friend earbuds, AI glasses, plus acquired Smartisan, PICO, Oladance"
+    ],
+    "coreInsight": "Consumer-scale AI (hundreds of millions of MAUs) becomes enterprise infrastructure. By achieving massive scale in consumer applications first, platforms can offer battle-tested AI to enterprises with proven reliability. Organizing hardware initiatives under a unified team with acquired entities creates vertical integration for AI-native products.",
+    "keyMetrics": "172M MAUs (QuestMobile Q3 2025), surpassing DeepSeek's 144M. $23B AI infrastructure investment planned for 2026. Potential 20,000 NVIDIA H200 chip purchase.",
+    "sources": [
+      "Yahoo Finance",
+      "TechNode",
+      "Sacra equity research",
+      "CCTV partnership announcement"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "product-venture-lab",
+  "phenotypeSubtype": "platform-to-product"
+}

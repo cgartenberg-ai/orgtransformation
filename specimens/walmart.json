@@ -1,0 +1,70 @@
+{
+  "id": "walmart",
+  "name": "Walmart",
+  "title": "Internal Tool to Revenue Line — Platform-to-Product",
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5c",
+    "subTypeName": "Platform-to-Product",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 5c (Platform-to-Product). Walmart's Route Optimization started as internal logistics AI, won the Franz Edelman Award for operational excellence, then was commercialized as SaaS through Walmart Commerce Technologies. GoLocal (2021) extends last-mile infrastructure to other retailers. The pattern is clear: internal operational advantage → external revenue stream. Structural orientation: Walmart Commerce Technologies is a distinct commercial unit separated from internal retail operations.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Retail",
+    "sector": "Omnichannel Retail / Logistics",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Bentonville, AR",
+    "geography": "Global"
+  },
+  "description": "Walmart's strategic evolution encapsulates the 'Platform-to-Product' model: identifying internal operational capabilities and commercializing them as external revenue streams. The clearest example is Route Optimization, which began as internal logistics AI to reduce emissions and improve trailer packing.\n\nInternal results were dramatic: 94 million pounds of CO2 avoided, 30 million unnecessary miles eliminated, 110,000 inefficient paths optimized. The system won the 2023 Franz Edelman Award for operational excellence. Recognizing that value extended beyond internal cost savings, Walmart commercialized Route Optimization as SaaS through Walmart Commerce Technologies.\n\nGoLocal (2021) follows the same pattern: a white-label parcel delivery service that extends Walmart's last-mile infrastructure to other retailers. The corporate identity has shifted accordingly — Walmart now describes itself as 'an advertising business, a data company, a financial services provider, and a Software as a Service (SaaS) provider.'",
+  "observableMarkers": {
+    "reportingStructure": "Walmart Commerce Technologies as distinct commercial unit for productized internal capabilities",
+    "resourceAllocation": null,
+    "timeHorizons": "Internal optimization: ongoing. Productization: multi-year commercial build-out.",
+    "decisionRights": null,
+    "metrics": "94M lbs CO2 avoided. 30M unnecessary miles eliminated. 110,000 inefficient paths optimized. Franz Edelman Award 2023. GoLocal launched 2021."
+  },
+  "mechanisms": [
+    {
+      "id": 10,
+      "name": "Productize Internal Operational Advantages",
+      "evidence": "Route Optimization built internally for logistics → commercialized as SaaS through Walmart Commerce Technologies. GoLocal extends internal last-mile infrastructure to external retailers. Franz Edelman Award validates internal operational excellence.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 5c classification. Fixed industry from Technology to Retail. Added Mechanism #10 (Productize Internal Advantages — Route Optimization, GoLocal). Removed spurious truncated quote. Added habitat, observable markers, classification rationale.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Walmart's Platform-to-Product model: Route Optimization and GoLocal commercialize internal operational capabilities as external revenue streams.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    }
+  ],
+  "sources": [
+    {"id": "source-1", "type": "Press", "name": "Walmart Corporate News", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-2", "type": "Press", "name": "Supply Chain Dive", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-3", "type": "Press", "name": "Franz Edelman Award 2023", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+  ],
+  "contingencies": {"regulatoryIntensity": "Low", "timeToObsolescence": "Medium", "ceoTenure": null, "talentMarketPosition": "Talent-constrained", "technicalDebt": "High"},
+  "tensionPositions": {"structuralVsContextual": -0.5, "speedVsDepth": 0.2, "centralVsDistributed": -0.2, "namedVsQuiet": 0.0, "longVsShortHorizon": 0.0},
+  "openQuestions": ["How large is the Walmart Commerce Technologies team?", "What percentage of revenue comes from productized AI capabilities vs. core retail?", "How does Walmart's data advantage (scale of transactions) shape AI product development?"],
+  "taxonomyFeedback": ["Walmart is the type specimen for Model 5c (Platform-to-Product). The Route Optimization → SaaS path is the clearest documented example of this model.", "The corporate identity shift ('we're now a SaaS provider') suggests that Platform-to-Product can fundamentally change how an organization sees itself."],
+  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/walmart.json"}
+}

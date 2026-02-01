@@ -1,0 +1,21 @@
+{
+  "id": "give-everyone-access",
+  "title": "Give Everyone Access Before You Know What Works",
+  "group": "speed",
+  "architecturalPrinciples": [
+    "measurement-philosophy",
+    "locus-of-innovation"
+  ],
+  "insight": "For general-purpose AI tools, universal access surfaces use cases that pilots miss. You can't predict which teams will find breakthrough applications. Cast wide, then concentrate resources on what emerges.",
+  "manifestations": [
+    "P&G: Rejected pilot model, 8,000 requests in first 2 hours, company-wide in months",
+    "Commonwealth Bank: 50,000 employees got ChatGPT Enterprise access on day one (largest global deployment)",
+    "Moderna: 80%+ employee adoption of mChat, 750+ custom GPTs emerged organically",
+    "Contrast with narrow pilots that throttle organizational learning"
+  ],
+  "test": "Are you learning from 50 users or 50,000? If you're still in 'pilot' for general-purpose tools, you're throttling organizational learning.",
+  "whenNotToUse": "Custom AI for specific high-stakes workflows (drug discovery, trading algorithms) where you need to understand the full system before scaling.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-21"
+}

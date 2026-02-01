@@ -1,0 +1,136 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "pwc",
+  "name": "PwC",
+  "title": "CAIO as Portfolio of Accountable Owners",
+
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "PwC appointed CAIO Dan Priest to lead AI strategy, with $1B investment over 3 years. PwC's 2026 framework describes CAIO evolving from single role to 'portfolio of accountable owners across value creation, governance, and production operations.' This is a centralized governance/enablement function — Model 2 (CoE). Medium confidence: the CAIO + $1B investment confirms formal AI structure, but internal team composition is unknown.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Professional Services",
+    "sector": "Consulting / Advisory",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "London, UK",
+    "geography": "Global"
+  },
+
+  "description": "PwC appointed Dan Priest as Chief AI Officer, previously cloud and digital leader at PwC with 11 years at the firm and prior experience as VP and CIO at Toyota Financial Services. This career path — enterprise IT (Toyota CIO) to consulting digital leader to consulting CAIO — represents a distinct variant of the CAIO pipeline.\n\nPwC committed $1B to AI investment over three years, covering both customer-facing AI offerings and internal operations. The firm's 2026 CAIO framework articulates an evolution of the AI leadership role: from a single executive to a 'portfolio of accountable owners across value creation, governance, and production operations' — suggesting the CAIO function is being distributed across the organization while maintaining centralized coordination.\n\nPwC advocates a dual AI strategy: 'defense' (safeguarding market position against AI-powered rivals) and 'offense' (entering or creating new markets). Key data points from PwC's research: 79% of executives say their companies are already adopting AI agents, and 58% say Responsible AI boosts ROI and efficiency.",
+
+  "observableMarkers": {
+    "reportingStructure": "CAIO Dan Priest; framework evolving toward distributed 'portfolio of accountable owners'",
+    "resourceAllocation": "$1B AI investment over 3 years",
+    "timeHorizons": null,
+    "decisionRights": "CAIO coordinates AI strategy across value creation, governance, and production",
+    "metrics": "79% of executives adopting AI agents (PwC survey). 58% say RAI boosts ROI."
+  },
+
+  "mechanisms": [
+    {
+      "id": 9,
+      "name": "Hire CAIOs from Consumer Tech",
+      "evidence": "CAIO Dan Priest came from enterprise IT background (VP/CIO at Toyota Financial Services) before joining PwC. Not consumer tech, but the pattern of hiring from operational technology leadership rather than pure consulting background.",
+      "strength": "Moderate"
+    }
+  ],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2025",
+      "label": "CAIO Appointment + $1B Investment",
+      "summary": "PwC appointed Dan Priest as CAIO. Committed $1B over 3 years to AI. Priest background: Toyota CIO -> PwC cloud leader -> PwC CAIO.",
+      "classification": null,
+      "sourceRefs": ["ciodive-2025", "inc-2025"]
+    },
+    {
+      "date": "2026-01",
+      "label": "2026 CAIO Framework Published",
+      "summary": "PwC published 2026 CAIO priorities: evolving from single executive to portfolio of accountable owners. Dual defense/offense strategy. 79% AI agent adoption stat.",
+      "classification": null,
+      "sourceRefs": ["pwc-caio-2026"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "ciodive-2025",
+      "type": "Press",
+      "name": "CIO Dive — PwC CAIO appointment",
+      "url": "https://www.ciodive.com/news/PwC-chief-ai-officer-dan-priest/721397/",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-01",
+      "notes": "Dan Priest background, role details"
+    },
+    {
+      "id": "inc-2025",
+      "type": "Press",
+      "name": "Inc. — PwC AI investment",
+      "url": "https://www.inc.com/associated-press/heres-what-pwcs-new-ai-head-thinks-about-ai-at-work/91101270",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-01",
+      "notes": "$1B AI investment over 3 years"
+    },
+    {
+      "id": "pwc-caio-2026",
+      "type": "Report",
+      "name": "PwC Executive Leadership Hub — What's important to the CAIO in 2026",
+      "url": "https://www.pwc.com/us/en/executive-leadership-hub/caio.html",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-01",
+      "notes": "2026 CAIO priorities: agentic AI scaling, governance, portfolio of accountable owners framework"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.2,
+    "speedVsDepth": -0.1,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.4,
+    "longVsShortHorizon": 0.0
+  },
+
+  "openQuestions": [
+    "What does PwC's internal AI operating model look like? Central CAIO + distributed practice areas?",
+    "How does PwC's AI CoE compare to Deloitte/McKinsey/BCG structures?",
+    "What does 'portfolio of accountable owners' look like in practice — which roles make up the portfolio?"
+  ],
+
+  "taxonomyFeedback": [
+    "PwC's 'portfolio of accountable owners' framework suggests an evolution of the CAIO role from centralized to distributed — potentially a new pattern where the CoE (Model 2) evolves into something like a federated governance model.",
+    "Professional services firms (PwC, Deloitte, BCG, McKinsey) are an interesting habitat: they simultaneously transform internally AND advise clients on transformation. Dual explore/execute tension."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-01",
+    "lastUpdated": "2026-02-01",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

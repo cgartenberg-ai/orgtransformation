@@ -1,0 +1,114 @@
+{
+  "id": "abb",
+  "name": "ABB",
+  "title": "Engineer to Autonomy: Decentralized AI Deployment",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Central Genix industrial AI platform provides shared infrastructure while business divisions have autonomy to deploy AI solutions for their specific contexts. The hub-and-spoke pattern — central platform + distributed deployment authority — is the defining characteristic of Model 4. Structural orientation: exploration (Genix platform development) and execution (division-specific deployment) happen in distinct organizational units.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Industrial Automation",
+    "sector": "Robotics & Industrial AI",
+    "orgSize": "Enterprise",
+    "employees": 105000,
+    "revenue": "$32B",
+    "headquarters": "Zurich, Switzerland",
+    "geography": "Global"
+  },
+  "description": "ABB's 'Engineer to Autonomy' philosophy gives individual business divisions authority to deploy AI solutions suited to their specific industrial contexts, while the central Genix platform provides shared infrastructure. This decentralized approach enables faster deployment while maintaining standards.\n- Business divisions have autonomy to identify and deploy AI solutions for their domains\n- Genix industrial AI platform provides shared infrastructure and standards\n- Central team sets guardrails without bottlenecking innovation\n- Focus on industrial AI applications: predictive maintenance, process optimization, autonomous operations",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "Verdantix Green Quadrant Leader in Industrial AI; Genix platform deployed across divisions"
+  },
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "Identified via design principle 'protect-deviations' in original case data. Evidence needs strengthening from sources.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Bulk curation review validated classification as Model 4 (Hybrid/Hub-and-Spoke) with Structural orientation. Decision tree walk: formal AI unit (Genix platform) → not primarily academic → central team exists → central team both builds platform AND enables divisions → Model 4. Fixed industry from Automotive to Industrial Automation. Added headquarters, employee count, revenue. Mechanism #1 evidence remains weak — marked for future sourcing.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "ABB's 'Engineer to Autonomy' philosophy gives individual business divisions authority to deploy AI solutions suited to their specific industrial contexts, while the central Genix platform provides shared infrastructure. This decentralized approach enables faster deployment while maintaining standards.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Verdantix Green Quadrant Industrial AI 2025",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "ABB corporate materials, January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.4,
+    "speedVsDepth": null,
+    "centralVsDistributed": 0.4,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [
+    "What is the size and reporting structure of the central Genix platform team?",
+    "How much autonomy do business divisions have in choosing AI tools vs. using Genix?",
+    "What is ABB's total AI/R&D investment as percentage of revenue?"
+  ],
+  "taxonomyFeedback": [
+    "ABB's 'Engineer to Autonomy' philosophy gives divisions significant independence, pushing it toward the distributed end of Model 4. Worth comparing to more centralized Model 4 specimens."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/abb.json"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "pg-chatpg",
+  "company": "Procter & Gamble",
+  "title": "Large-Scale Field Experiments",
+  "summary": "Rejected small pilots, deployed ChatPG to thousands immediately, 8,000 requests in first two hours",
+  "diagramTemplate": "broad-deployment",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy",
+    "human-ai-boundaries"
+  ],
+  "designPrinciples": [
+    "rapid-iteration-cycles",
+    "mandatory-proficiency"
+  ],
+  "content": {
+    "whatItIs": "Rather than a traditional 'innovation lab,' P&G's approach was to build an internal AI tool and immediately deploy it to thousands of users, treating the entire company as the experimental platform.",
+    "howItWorks": [
+      "Built ChatPG (internal generative AI tool) and rejected 'small pilot then scale' approach",
+      "Decision: test with thousands of people immediately to get it in use quickly",
+      "'In the first two hours when they launched at P&G, they received 8,000 requests'",
+      "Company-wide launch followed within 2-3 months",
+      "Partnership with Harvard Business School's Digital Data Design Institute for rigorous academic validation",
+      "Field experiment with 776 professionals: 'Individuals using chatPG achieved the same performance level as teams that did not use the AI tool, while teams that partnered with chatPG consistently produced the best outcomes'"
+    ],
+    "coreInsight": "For enterprise AI adoption, skip small pilots. Deploy broadly, measure rigorously with academic partners, and iterate fast based on real usage data rather than theoretical concerns.",
+    "keyMetrics": "30,000+ users, mandatory 10-minute training and acceptable use policy, 35+ use cases with internal data integration. Three deployed products: ChatPG, ImagePG, AskPG. Platform enables switching between AI models 'as deemed necessary from a business perspective'\u2014avoiding vendor lock-in.",
+    "sources": [
+      "CIO Dive",
+      "MIT Sloan Management Review",
+      "P&G Signal"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "phenotype": "unnamed-informal",
+  "phenotypeSubtype": "centralized-unnamed",
+  "lastUpdated": "2026-01-20"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "sanofi",
+  "name": "Sanofi",
+  "title": "AI Research Factory with Proprietary Models",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 4 (Hub-and-Spoke). The 'AI Research Factory' is a centralized hub that develops proprietary AI models (CodonBERT) and internal tools (plai platform), serving therapeutic area business units as spokes. The centralized capability builds domain-specific AI that is then deployed across drug discovery programs. Structural orientation: the AI Research Factory is a distinct unit separated from the therapeutic areas it serves.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Pharmaceuticals",
+    "sector": "Drug Discovery & Development",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Paris, France",
+    "geography": "Global"
+  },
+  "description": "Sanofi operates a centralized 'AI Research Factory' model with dedicated AI scientists working on internal tools and models specific to drug discovery. The factory develops proprietary models like CodonBERT for understanding genetic code, and has identified 7 drug targets through AI approaches.\n\nThe plai platform serves as the internal AI deployment mechanism, enabling therapeutic area teams to leverage centralized AI capabilities without building their own. This hub-and-spoke arrangement allows the central factory to maintain cutting-edge AI research while therapeutic areas focus on domain-specific drug development.\n\nThe centralized model ensures consistency in AI governance and quality while the spoke deployment enables domain-specific application across Sanofi's therapeutic portfolio.",
+  "observableMarkers": {
+    "reportingStructure": "Centralized AI Research Factory serves therapeutic area business units",
+    "resourceAllocation": null,
+    "timeHorizons": "Multi-year drug discovery; medium-term platform development",
+    "decisionRights": "Central factory builds models and platforms; therapeutic areas define application domains",
+    "metrics": "7 AI-identified drug targets in pipeline. Proprietary models: CodonBERT. Internal platform: plai."
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 4 classification. Added habitat data (Paris HQ). Added observable markers and classification rationale. Enriched description with hub-spoke dynamics.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Sanofi's centralized AI Research Factory developing proprietary models (CodonBERT) and plai platform for drug discovery.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press Release",
+      "name": "Sanofi press releases",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "BioPharma industry coverage",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": -0.4,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": -0.5
+  },
+  "openQuestions": [
+    "How large is the AI Research Factory team?",
+    "What is the reporting line for the AI Research Factory (CTO, CSO, CAIO)?",
+    "How does CodonBERT compare to external models — why build proprietary?",
+    "What percentage of Sanofi's pipeline has AI involvement?"
+  ],
+  "taxonomyFeedback": [],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/sanofi.json"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "id": "mercor",
+  "name": "Mercor",
+  "title": "AI-Native Hiring Platform — Uber for Knowledge Work",
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5a",
+    "subTypeName": "Internal Incubator",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Model 5a (Product/Venture Lab). Mercor is an AI-native startup building an AI hiring platform — the company IS the AI product. Founded 2023, $1 to $500M revenue in 17 months. Platform uses AI for 20-min interviews, skill evaluation, and matching. Structural: distinct product development function building the platform. Mercor shapes how OTHER companies structure their AI workforce.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "AI Hiring / Talent Marketplace",
+    "orgSize": "Startup",
+    "employees": null,
+    "revenue": "$500M ARR",
+    "headquarters": "San Francisco, CA",
+    "geography": "Global"
+  },
+  "description": "Mercor is an AI-native hiring platform that connects knowledge workers with companies (including OpenAI, Anthropic, Meta) at unprecedented speed. Founded in 2023 by three college dropouts and Thiel Fellows (Brendan Foody CEO, Adarsh Hiremath CTO, Surya Midha Chair), the company grew from $1 to $500M revenue run rate in 17 months.\n\nThe platform uses a 20-minute AI interview to evaluate skills, create profiles, and match to roles. In 2025, Mercor hired 30,000 contractors (80% US-based), distributing $1.5M+ daily. October 2025: Series C $350M at $10B valuation, backed by Peter Thiel and Jack Dorsey. Uber's former CPO Sundeep Jain joined as president.\n\nFounder thesis: AI isn't eliminating labor but reallocating it — humans become the bottleneck for the remaining 10%, creating 10x leverage. Work is shifting toward 'more fractional, gig-like' models. Mercor launched APEX (AI Productivity Index) in January 2026 to measure AI tool impact on professional productivity.\n\nMercor is structurally significant because it reshapes how OTHER companies organize AI talent — connecting former industry experts with AI labs to create training data, evals, and rubrics.",
+  "observableMarkers": {
+    "reportingStructure": "3 co-founders (all youngest self-made billionaires). Uber CPO Sundeep Jain as president.",
+    "resourceAllocation": "$350M Series C at $10B. $500M revenue run rate.",
+    "timeHorizons": "Rapid: $1 to $500M in 17 months",
+    "decisionRights": null,
+    "metrics": "$500M ARR. 30K contractors. $1.5M+/day distributed. $10B valuation. 80% US-based workers."
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "text": "If AI automates 90% of the economy, then humans become the bottleneck for the remaining 10%. So there's 10x leverage on every unit of economic output that humans contribute.",
+      "speaker": "Brendan Foody",
+      "speakerTitle": "CEO, Mercor",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/01/13/will-ai-take-my-job-or-human-skills-protect-me-mercor-training-self-made-billionaires/",
+      "timestamp": null,
+      "date": "2026-01-13"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2025-10",
+      "label": "Initial Documentation",
+      "summary": "Mercor documented from Conversations with Tyler + press. AI hiring platform connecting knowledge workers with AI labs. $500M ARR, $10B valuation, 30K contractors. Reshapes how companies structure AI talent acquisition.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Podcast",
+      "name": "Conversations with Tyler — Brendan Foody (Mercor)",
+      "url": "https://conversationswithtyler.com/episodes/jack-clark/",
+      "timestamp": null,
+      "sourceDate": "2025-10-16",
+      "collectedDate": "2026-01-31",
+      "notes": "Note: shared episode page. Foody discussed AI labs hiring rubrics, knowledge workers building RL environments."
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "TechCrunch — Mercor $100M raise",
+      "url": "https://techcrunch.com/2025/02/20/mercor-an-ai-recruiting-startup-founded-by-21-year-olds-raises-100m-at-2b-valuation/",
+      "timestamp": null,
+      "sourceDate": "2025-02-20",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Fortune — APEX, workforce thesis",
+      "url": "https://fortune.com/2026/01/13/will-ai-take-my-job-or-human-skills-protect-me-mercor-training-self-made-billionaires/",
+      "timestamp": null,
+      "sourceDate": "2026-01-13",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "Fortune — Series C, $10B valuation",
+      "url": "https://fortune.com/2025/11/12/brendan-foody-mercor-interview-ai-adarsh-hiremath-surya-midha-youngest-self-made-billionaires/",
+      "timestamp": null,
+      "sourceDate": "2025-11-12",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.2,
+    "speedVsDepth": 0.7,
+    "centralVsDistributed": 0.3,
+    "namedVsQuiet": -0.2,
+    "longVsShortHorizon": 0.7
+  },
+  "openQuestions": [
+    "What is Mercor's internal team structure?",
+    "How are AI labs structuring their contractor relationships through Mercor vs. direct hire?",
+    "How does the AI interview evaluation compare to traditional hiring?"
+  ],
+  "taxonomyFeedback": [
+    "Mercor is a 'meta-organizational' specimen — it doesn't just have an AI org structure, it reshapes how OTHER organizations structure their AI workforces.",
+    "The gig-ification of AI talent (30K contractors) suggests a new labor model that the taxonomy doesn't capture."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

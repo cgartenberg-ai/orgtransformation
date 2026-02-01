@@ -1,0 +1,19 @@
+{
+  "id": "internal-first-validation",
+  "title": "Internal-First Validation Before External Release",
+  "group": "lab-to-org",
+  "architecturalPrinciples": [
+    "locus-of-innovation"
+  ],
+  "insight": "The best filter for whether an innovation is real is whether your own organization adopts it. Internal usage surfaces problems, discovers unexpected applications, and builds conviction before external release.",
+  "manifestations": [
+    "Anthropic: Labs builds tools, internal adoption validates (Claude CLI overtook other tools in 3 months), then external release",
+    "Hackathons as discovery mechanism—internal teams find use cases the builders didn't anticipate",
+    "'Dogfooding' as serious innovation filter, not just quality check",
+    "Time between internal success and external release used to 'button it up and put on a fancy suit'"
+  ],
+  "test": "How long do you use your own innovations before releasing them? If internal teams aren't fighting over access, it might not be ready.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

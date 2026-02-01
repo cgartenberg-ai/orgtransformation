@@ -1,0 +1,37 @@
+{
+  "id": "ubs",
+  "company": "UBS",
+  "title": "Model-Based AI and Explainability Focus",
+  "summary": "First CAIO appointment signals AI as central nervous system of future business, with focus on explainable AI for regulated industries",
+  "diagramTemplate": "coe-governance",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy"
+  ],
+  "designPrinciples": [
+    "domain-expertise"
+  ],
+  "content": {
+    "whatItIs": "UBS appointed Daniele Magazzeni as its first Chief Artificial Intelligence Officer effective January 1, 2026\u2014signaling AI is no longer peripheral but 'the central nervous system of its future business model.'",
+    "howItWorks": [
+      "Strategic hire from J.P. Morgan where Magazzeni was Chief Analytics Officer for EMEA and helped secure top Evident Banking AI Index spot",
+      "Expertise in 'Model-Based AI' and 'Explainable AI' (XAI)\u2014critical for regulated industries where 'black box' algorithms are liabilities",
+      "Chief AI Office responsible for effective deployment at scale, consistent standards, and strong technological foundations",
+      "Reports to Group Chief Operations and Technology Officer",
+      "300+ live AI use cases; M365 Copilot and in-house 'Red' AI Assistant rolling out to all employees"
+    ],
+    "coreInsight": "In regulated industries, the CAIO role must emphasize explainability and governance, not just capability. Hire leaders with both academic AI credentials AND enterprise delivery experience. 'Model-Based AI' and 'Explainable AI' (XAI) become competitive advantages when regulators and clients demand transparency.",
+    "keyMetrics": "300+ live AI use cases. 'Big Rocks' large-scale transformational initiatives launched 2025. 40%+ of Fortune 500 expected to have CAIO by end of 2026.",
+    "sources": [
+      "UBS Global",
+      "Banking Dive",
+      "Technology Magazine",
+      "FinNews Asia"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "coe",
+  "phenotypeSubtype": null
+}

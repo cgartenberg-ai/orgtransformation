@@ -1,0 +1,19 @@
+{
+  "id": "information-symmetry",
+  "title": "Information Symmetry Enables Distributed Innovation",
+  "group": "lab-to-org",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "information-architecture"
+  ],
+  "insight": "When everyone has complete context, you don't need a separate innovation function—innovation can happen anywhere. Hierarchy creates information asymmetry that kills distributed innovation.",
+  "manifestations": [
+    "NVIDIA: 60 direct reports, no 1:1s, public reasoning",
+    "Daily 'Top 5' emails from across the company",
+    "Decisions made in group settings with full context"
+  ],
+  "test": "Does a frontline employee have the context to recognize and act on an innovation opportunity? If not, innovation is bottlenecked at the top.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

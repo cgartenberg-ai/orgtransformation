@@ -1,0 +1,19 @@
+{
+  "id": "governance-lets-it-cook",
+  "title": "Governance That Lets It Cook (Without Spinning Wheels)",
+  "group": "incentives",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy"
+  ],
+  "insight": "Too much oversight kills exploration; too little enables drift and waste. The governance model must create accountability for learning and progress without demanding premature proof of ROI.",
+  "manifestations": [
+    "Google X: 'Pre-mortems' before projects start, then 'run at the hardest parts first'—governance focused on quality of exploration, not results",
+    "JPMorgan: 8-week cycles create natural rhythm for review without micromanagement",
+    "Samsung C-Lab: Employees vote on ideas, experts review finalists—peer governance, not executive oversight"
+  ],
+  "test": "Can a lab team explain what they learned last quarter without being asked what they shipped? Is 'we learned this won't work and killed it' a successful outcome in your governance model?",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "rapid-iteration-cycles",
+  "title": "Rapid Iteration Cycles Over Perfect Launches",
+  "group": "speed",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy"
+  ],
+  "insight": "In fast-moving domains, speed of learning beats quality of initial launch. 8-week cycles mean you're never far from course correction.",
+  "manifestations": [
+    "JPMorgan: 8-week update cycles for LLM Suite",
+    "DNP: 90% of use cases showing results in 90 days",
+    "Continuous deployment over big-bang releases"
+  ],
+  "test": "How long between identifying a problem and deploying a fix? If it's months, you're too slow.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

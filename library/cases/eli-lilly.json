@@ -1,0 +1,43 @@
+{
+  "id": "eli-lilly",
+  "company": "Eli Lilly",
+  "title": "Decentralized Domain Hubs",
+  "summary": "15 years of decentralized R&D hubs of 300-400 people, each operating like a biotech with long time horizons",
+  "diagramTemplate": "distributed-hubs",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "ambidexterity-structure",
+    "stance-on-uncertainty"
+  ],
+  "designPrinciples": [
+    "protect-deviations",
+    "ring-fence-budget",
+    "domain-expertise",
+    "ceo-as-political-shield"
+  ],
+  "content": {
+    "whatItIs": "Approximately 15 years ago, Lilly decentralized its R&D into smaller hubs of 300-400 people. Each hub operates like a biotech\u2014focused on a specific therapeutic area or modality\u2014but without the burden of fundraising or quarterly investor pressure.",
+    "howItWorks": [
+      "Small enough to maintain scientific intimacy and shared tacit knowledge",
+      "Large enough to have critical mass of capability",
+      "Protected from corporate optimization pressure",
+      "Long time horizons (the GLP-1 program ran 18+ years from first injection to Mounjaro)",
+      "'Teams just grinding on a theme' rather than big-bet single projects"
+    ],
+    "coreInsight": "CEO Dave Ricks: 'All the studies on middle management find they tend to squash deviations, but the deviations are the people doing stuff off strategy, in the labs, the things that make the next breakthrough.'",
+    "keyMetrics": "Drug development cycle: ~7 years vs. industry average of 10. R&D investment target: 20-25% of sales. At $120B revenue, R&D budget approaches NIH scale.",
+    "sources": [
+      "Cheeky Pint Podcast (Collison Brothers)",
+      "Chief Executive Magazine",
+      "NVIDIA/Lilly press releases January 2026"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {
+    "recentAIEvolution": "In January 2026, Lilly announced a $1B co-innovation lab with NVIDIA in South San Francisco. This adds a 'scientist-in-the-loop' AI capability to the existing decentralized structure\u2014Lilly domain experts co-located with NVIDIA AI engineers. They're also deploying a 1,016 Blackwell Ultra GPU supercomputer (9+ exaflops)\u2014the most powerful owned by a pharma company.",
+    "nvidiaLabDetails": "The NVIDIA-Lilly co-innovation lab (announced January 12, 2026) will invest up to $1B over five years. Scientists from both firms will co-locate in South San Francisco by end of March 2026. Initial focus: continuous learning system connecting Lilly's agentic wet labs with computational dry labs for 24/7 AI-assisted experimentation. The 'scientist-in-the-loop' framework enables experiments, data generation, and AI model development to continuously inform and improve one another. The lab will also provide resources to NVIDIA and Lilly's startup ecosystems."
+  },
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

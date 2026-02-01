@@ -1,0 +1,45 @@
+{
+  "id": "google-x",
+  "company": "Google X",
+  "title": "The Moonshot Factory",
+  "summary": "100+ experiments annually, 2% graduation rate, teams bonused for killing projects",
+  "diagramTemplate": "centralized-lab",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy",
+    "resource-allocation",
+    "stance-on-uncertainty"
+  ],
+  "designPrinciples": [
+    "reward-fast-failure",
+    "ring-fence-budget",
+    "governance-lets-it-cook",
+    "protect-deviations"
+  ],
+  "content": {
+    "whatItIs": "Alphabet's 'moonshot factory'\u2014a dedicated organization for pursuing radical, high-risk innovations with potential for 10x impact. Operates on deliberately different rules than the rest of Google.",
+    "howItWorks": [
+      "Launches 100+ experiments annually",
+      "2% graduation rate (projects that become real businesses after 5-6 years)",
+      "Explicit incentives for killing projects: teams get bonuses, applause, hugs, high fives, and promotions for ending projects early",
+      "'Pre-mortem' analysis before projects start (predict why it will fail)",
+      "'Run at all the hardest parts of the problem first'",
+      "Surviving projects get concentrated resources: 44% of X's entire budget goes to the 2% that graduate"
+    ],
+    "coreInsight": "CEO Astro Teller: The incentive structure is the innovation. By rewarding failure and making project termination a badge of honor, X eliminates the sunk cost fallacy and political protection of zombie projects.",
+    "keyMetrics": "Graduates: Waymo, Verily, Wing, Loon, Chronicle. Series X Capital: $500M+ fund for spinouts.",
+    "sources": [
+      "TechCrunch Disrupt 2025",
+      "HBR Podcast",
+      "NPR Interview",
+      "TechCrunch November 2025"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {
+    "2026StrategicShift": "X is increasingly spinning out projects as independent companies rather than keeping them within Alphabet. Series X Capital ($500M+ raised, run by former YouTube exec Gideon Yu) invests in X spinouts with Alphabet as minority investor. Recent moonshots: Anori (AI for real estate/construction), Moonshot for Circularity (plastics recycling with hyperspectral imaging), Tapestry (AI-powered electric grid visibility), Project Bellwether (wildfire/flood prediction). Reports indicate budget shrinkage and evolving from 'renegade team' to 'startup incubator' as Alphabet focuses on core AI products."
+  },
+  "lastUpdated": "2026-01-20",
+  "phenotype": "product-venture-lab",
+  "phenotypeSubtype": "venture-builder"
+}

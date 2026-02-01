@@ -1,0 +1,29 @@
+{
+  "id": "palo-alto-networks",
+  "company": "Palo Alto Networks",
+  "title": "Developer AI Acceleration",
+  "summary": "2,500 developers use Claude Code for AI-assisted development, achieving 70% faster junior developer onboarding and 20-30% increase in feature velocity.",
+
+  "phenotype": "embedded",
+  "phenotypeSubtype": null,
+
+  "diagramTemplate": "embedded-teams",
+  "architecturalPrinciples": ["locus-of-innovation", "human-ai-boundaries", "measurement-philosophy"],
+  "designPrinciples": ["mandatory-proficiency", "consumer-grade-ux"],
+
+  "content": {
+    "whatItIs": "Palo Alto Networks represents an embedded AI adoption model where 2,500 developers across the cybersecurity company use Claude Code (Anthropic) as their primary AI development assistant. Rather than creating a separate AI lab, the company integrates AI tools directly into existing development workflows.",
+    "howItWorks": [
+      "Claude Code deployed to entire 2,500-developer workforce as standard development tool",
+      "AI assists with code generation, review, documentation, and debugging",
+      "Junior developers use AI for accelerated onboarding - learning codebases 70% faster",
+      "Senior developers leverage AI for increased feature velocity (20-30% improvement)",
+      "No separate AI team - capability embedded in existing engineering organization"
+    ],
+    "coreInsight": "The embedded model treats AI as a productivity multiplier within existing roles rather than a separate capability. The 70% faster onboarding metric suggests AI can flatten the experience curve - junior developers can contribute meaningfully much sooner.",
+    "keyMetrics": "2,500 developers on Claude Code, 70% faster junior developer onboarding, 20-30% feature velocity increase",
+    "sources": ["Anthropic customer stories", "Industry reports January 2026"]
+  },
+
+  "lastUpdated": "2026-01-20"
+}

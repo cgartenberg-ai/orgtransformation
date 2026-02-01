@@ -1,0 +1,39 @@
+{
+  "id": "samsung-c-lab",
+  "company": "Samsung C-Lab",
+  "title": "Separation with Spinoff Path",
+  "summary": "Internal incubator with holacracy structure and 20% spinoff rate to independent companies",
+  "diagramTemplate": "centralized-lab",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "ambidexterity-structure",
+    "resource-allocation"
+  ],
+  "designPrinciples": [
+    "exit-paths-entrepreneurs",
+    "protected-exploration-time",
+    "governance-lets-it-cook"
+  ],
+  "content": {
+    "whatItIs": "An internal incubator launched in 2012 after Samsung management's Silicon Valley experiences. Operates on two structural innovations: internal holacracy and a defined spinoff pathway.",
+    "howItWorks": [
+      "Employees vote on ideas, experts review finalists, selected audience plays 'venture capitalists' deciding whether to invest",
+      "Selected employees get a full year away from regular duties\u2014100% time, not 20% time",
+      "Flat structure: 'Each team has a leader and project members. That's it.' No hierarchical systems",
+      "Teams can recruit from outside Samsung if needed talent isn't available internally",
+      "Clear exit mechanism: 20% of C-Lab projects have become independent companies",
+      "Since 2015, promising projects can spin off as fully-fledged startups"
+    ],
+    "coreInsight": "Corporate innovation needs both structural freedom (flat hierarchy) AND clear exit paths (spinoff mechanism) to attract entrepreneurial talent and maintain startup-like urgency.",
+    "keyMetrics": "As of February 2025: 959 total ventures supported (423 in-house, 536 external through C-Lab Outside)",
+    "sources": [
+      "Samsung Global Newsroom",
+      "MDPI Sustainability Journal"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "phenotype": "product-venture-lab",
+  "phenotypeSubtype": "venture-builder",
+  "lastUpdated": "2026-01-20"
+}

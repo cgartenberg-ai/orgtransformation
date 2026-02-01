@@ -1,0 +1,154 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "invent-advisory",
+  "name": "Invent",
+  "title": "Consumer Tech CAIO in Regulated Wealth Management",
+
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Invent appointed its first CAIO to oversee AI strategy, governance, and implementation — a centralized AI leadership role. Classified as Model 2 (CoE) because the CAIO role is described as establishing standards, governance, and domain-specific AI frameworks across the platform. Low confidence: no detail on whether the CAIO is building a team/center or operating as a solo governance role.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Financial Services",
+    "sector": "Wealth Management Technology",
+    "orgSize": null,
+    "employees": null,
+    "revenue": null,
+    "headquarters": "USA",
+    "geography": "North America"
+  },
+
+  "description": "Invent, an AI-ready data and experience cloud platform for wealth management, appointed Jim Zimmerman as its first Chief AI Officer in November 2025. Zimmerman's background spans Microsoft Azure (where he was a Black Belt Engineer leading the Azure Red Hat OpenShift service) and Red Hat (principal product manager) — a consumer/enterprise tech-to-fintech CAIO pipeline that maps to Mechanism #9.\n\nZimmerman's mandate focuses on building a domain-specific AI framework with strict guardrails around privacy, data residency, and PII protection — reflecting the acute explore/execute tension in regulated financial services where AI innovation must coexist with stringent compliance requirements. The platform serves 20,000+ users across RIAs, broker-dealers, OSJs, and bank wealth teams.\n\nCEO Oleg Tishkevich noted the appointment was planned over 12 months, suggesting deliberate rather than reactive AI leadership investment.",
+
+  "observableMarkers": {
+    "reportingStructure": "CAIO reports to CEO (implied by CEO's direct involvement in hire)",
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": "CAIO oversees AI strategy, governance, and implementation across the platform",
+    "metrics": "20,000+ platform users across RIAs, broker-dealers, OSJs, bank wealth teams"
+  },
+
+  "mechanisms": [
+    {
+      "id": 9,
+      "name": "Hire CAIOs from Consumer Tech",
+      "evidence": "Jim Zimmerman hired from Microsoft Azure (Black Belt Engineer) and Red Hat (principal product manager) — bringing cloud/enterprise tech product-shipping experience to regulated wealth management.",
+      "strength": "Strong"
+    },
+    {
+      "id": 8,
+      "name": "Log Everything When Regulators Watch",
+      "evidence": "CAIO mandate explicitly includes building 'domain-specific AI framework with strict guardrails around privacy, data residency, and PII protection.' Regulatory compliance as a design constraint.",
+      "strength": "Emerging"
+    }
+  ],
+
+  "quotes": [
+    {
+      "text": "AI is changing how we build, think, and deliver technology. In wealth management, the opportunity is enormous, but it comes with responsibility.",
+      "speaker": "Jim Zimmerman",
+      "speakerTitle": "CAIO, Invent",
+      "source": "PR Newswire",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/invent-appoints-former-microsoft-and-red-hat-executive-jim-zimmerman-as-chief-ai-officer-302619521.html",
+      "timestamp": null,
+      "date": "2025-11"
+    },
+    {
+      "text": "This is a move we've been thinking about the last 12 months. Every company needs to think seriously about how AI is going to help or affect their business.",
+      "speaker": "Oleg Tishkevich",
+      "speakerTitle": "CEO, Invent",
+      "source": "Citywire RIA",
+      "sourceUrl": "https://citywire.com/ria/news/invent-taps-microsoft-veteran-as-chief-ai-officer/a2478823",
+      "timestamp": null,
+      "date": "2025-11"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2025-11",
+      "label": "Initial Documentation — First CAIO Appointed",
+      "summary": "Invent appointed Jim Zimmerman (ex-Microsoft, ex-Red Hat) as first CAIO. Mandate: AI strategy, governance, domain-specific framework with privacy/compliance guardrails for wealth management.",
+      "classification": null,
+      "sourceRefs": ["prnewswire-2025", "wealthmgmt-2025", "citywire-2025"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "prnewswire-2025",
+      "type": "Press Release",
+      "name": "PR Newswire — Invent CAIO appointment",
+      "url": "https://www.prnewswire.com/news-releases/invent-appoints-former-microsoft-and-red-hat-executive-jim-zimmerman-as-chief-ai-officer-302619521.html",
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-01",
+      "notes": "Official announcement. CAIO mandate, Zimmerman background."
+    },
+    {
+      "id": "wealthmgmt-2025",
+      "type": "Press",
+      "name": "Wealth Management — Invent hires Microsoft/Red Hat exec as CAIO",
+      "url": "https://www.wealthmanagement.com/artificial-intelligence/invent-us-hires-former-red-hat-microsoft-executive-as-chief-ai-officer",
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-01",
+      "notes": "Background details: Azure OpenShift, Black Belt Engineer"
+    },
+    {
+      "id": "citywire-2025",
+      "type": "Press",
+      "name": "Citywire RIA — Invent taps Microsoft veteran as CAIO",
+      "url": "https://citywire.com/ria/news/invent-taps-microsoft-veteran-as-chief-ai-officer/a2478823",
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-01",
+      "notes": "CEO quote on 12-month planning timeline"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.3,
+    "speedVsDepth": -0.4,
+    "centralVsDistributed": -0.6,
+    "namedVsQuiet": -0.2,
+    "longVsShortHorizon": 0.0
+  },
+
+  "openQuestions": [
+    "What does Invent's AI team structure look like? Solo CAIO or building a team?",
+    "What specific AI products are being developed?",
+    "How does the CAIO role interact with existing engineering/product leadership?"
+  ],
+
+  "taxonomyFeedback": [
+    "Invent demonstrates Mechanism #9 clearly: consumer/enterprise tech background (Microsoft Azure Black Belt) to CAIO in regulated financial services.",
+    "Small-to-mid platform companies appointing CAIOs may represent a different pattern than large enterprise CAIO appointments — more integrated with product development."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-01",
+    "lastUpdated": "2026-02-01",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

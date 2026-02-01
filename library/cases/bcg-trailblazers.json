@@ -1,0 +1,37 @@
+{
+  "id": "bcg-trailblazers",
+  "company": "BCG",
+  "title": "60% Budget to Upskilling (Trailblazer Model)",
+  "summary": "15% of companies drive AI transformation by allocating 60% of AI budget to workforce upskilling, with CEOs spending 8+ hours/week learning AI",
+  "diagramTemplate": "coe-governance",
+  "architecturalPrinciples": [
+    "human-ai-boundaries",
+    "resource-allocation"
+  ],
+  "designPrinciples": [
+    "mandatory-proficiency",
+    "a-team-capability"
+  ],
+  "content": {
+    "whatItIs": "BCG's AI Radar 2026 survey of 2,360 executives identified 'Trailblazers' representing ~15% of companies who drive AI transformation through decisive investment in workforce capability.",
+    "howItWorks": [
+      "Defining characteristic: 60% of Trailblazing CEOs' AI budgets go to upskilling and retraining current workforce (vs. 27% Pragmatists, 24% Followers)",
+      "CEO personal investment: Trailblazing CEOs spend 8+ hours per week on their own AI upskilling\u2014twice the counterpart average",
+      "Agentic AI deployment: Trailblazers direct 50%+ of 2026 AI investment to agents, 2x more likely to deploy end-to-end",
+      "Regional finding: Africa leads globally with 42% Trailblazer CEOs (vs. 14% EU), averaging 8.3 hours/week learning AI",
+      "Pressure driver: 50% of CEOs believe their job depends on getting AI right"
+    ],
+    "coreInsight": "The Trailblazer model inverts typical AI investment priorities: 60% to workforce upskilling, not technology. CEO personal commitment (8+ hours/week learning) signals organizational seriousness. The 15% who lead create competitive distance from the 85% who follow.",
+    "keyMetrics": "15% Trailblazers vs. 85% followers. 60% budget to upskilling. 8+ hours/week CEO personal learning. 50% of non-CEOs think CEO should resign if company loses share due to inadequate AI strategy.",
+    "sources": [
+      "BCG Press",
+      "BCG AI Radar Report",
+      "PR Newswire"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "coe",
+  "phenotypeSubtype": null
+}

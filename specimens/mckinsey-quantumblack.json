@@ -1,0 +1,122 @@
+{
+  "id": "mckinsey-quantumblack",
+  "name": "McKinsey / QuantumBlack",
+  "title": "F1 Analytics to Enterprise AI Platform",
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5c",
+    "subTypeName": "Platform-to-Product",
+    "secondaryModel": 2,
+    "secondaryModelName": "Center of Excellence",
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "QuantumBlack functions as both a product builder (Horizon, Lilli, GAIL, Agents-at-Scale) and McKinsey's internal AI CoE. The primary classification is 5c because the core motion is productizing internal AI capability for external sale. Secondary Model 2 reflects the CoE governance/enablement role across McKinsey. Confidence Medium due to limited source detail on reporting structure and internal vs. external revenue split.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Professional Services",
+    "sector": "Management Consulting",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "London, UK (QuantumBlack origin)",
+    "geography": "Global"
+  },
+  "description": "QuantumBlack represents an acquisition-driven path to AI capability. Founded in 2009 in London specializing in Formula 1 racing analytics—optimizing split-second decisions with advanced data science—it was acquired by McKinsey in 2015 when the firm recognized that analytical rigor developed for F1 would translate to enterprise contexts.\n\nFrom a 45-person startup with 11 data scientists, QuantumBlack has grown to 1,200+ practitioners and now serves as McKinsey's center of excellence for AI, generative AI, and agentic AI. It builds internal products (Horizon AI platform, Lilli knowledge assistant, GAIL generative AI library, Agents-at-Scale framework) that are deployed both internally for McKinsey consultants and externally for clients.\n\nThe structural arrangement separates QuantumBlack as a distinct unit from McKinsey's traditional consulting practice, creating a boundary between AI product development (exploration) and consulting delivery (execution). This mirrors the Platform-to-Product pattern seen at Walmart GoLocal—internal capability becoming an external revenue stream.",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": "Mix of medium-term product development (6-18 months for platforms) and ongoing consulting delivery",
+    "decisionRights": null,
+    "metrics": "Grew from 45 people (2015) to 1,200+ practitioners. Products: Horizon (AI platform), Lilli (internal knowledge assistant), GAIL (generative AI library), Agents-at-Scale framework."
+  },
+  "mechanisms": [
+    {
+      "id": 10,
+      "name": "Productize Internal Operational Advantages",
+      "evidence": "QuantumBlack's F1-derived analytics capability was generalized into enterprise products (Horizon, Lilli, GAIL) that serve both McKinsey consultants and external clients.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 5c classification with added secondary Model 2 (CoE). Fixed industry from Technology to Professional Services. Added Mechanism #10 (Productize Internal Advantages). Removed spurious quote. Added habitat data and classification rationale.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "A model where AI capability was acquired through purchasing a company with deep domain expertise in a specific, high-stakes field (Formula 1 racing), then generalized to enterprise contexts.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Blog",
+      "name": "McKinsey Blog",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Consultancy.uk",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Management Consulted",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.5,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": -0.4,
+    "namedVsQuiet": -0.7,
+    "longVsShortHorizon": 0.0
+  },
+  "openQuestions": [
+    "What is the reporting relationship between QuantumBlack leadership and McKinsey's Managing Partner?",
+    "What proportion of QuantumBlack's output serves internal vs. external clients?",
+    "How does QuantumBlack coordinate with individual practice-area AI efforts?"
+  ],
+  "taxonomyFeedback": [
+    "Acquisition-driven AI capability building (buy vs. build) is an underrepresented path in the taxonomy. QuantumBlack's F1→enterprise pipeline is distinctive.",
+    "The dual 5c + 2 classification reflects a common pattern in professional services: the AI unit both builds products AND serves as internal CoE. May warrant a specific sub-type."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/mckinsey-quantumblack.json"
+  }
+}

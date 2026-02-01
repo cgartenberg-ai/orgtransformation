@@ -1,0 +1,56 @@
+[
+  {
+    "id": "centralized-lab",
+    "name": "Centralized Lab",
+    "description": "Dedicated unit, separate from operations",
+    "svgPath": "centralized-lab.svg"
+  },
+  {
+    "id": "distributed-hubs",
+    "name": "Distributed Hubs",
+    "description": "Multiple semi-autonomous units",
+    "svgPath": "distributed-hubs.svg"
+  },
+  {
+    "id": "embedded-universal",
+    "name": "Embedded Universal",
+    "description": "AI expected everywhere, no separate lab",
+    "svgPath": "embedded-universal.svg"
+  },
+  {
+    "id": "center-of-excellence",
+    "name": "Center of Excellence",
+    "description": "Central team serving whole org",
+    "svgPath": "center-of-excellence.svg"
+  },
+  {
+    "id": "product-as-lab",
+    "name": "Product as Lab",
+    "description": "Deployed products generate learning",
+    "svgPath": "product-as-lab.svg"
+  },
+  {
+    "id": "hybrid-labs-core",
+    "name": "Hybrid Labs + Core",
+    "description": "Separate exploration + core product",
+    "svgPath": "hybrid-labs-core.svg"
+  },
+  {
+    "id": "tight-loop",
+    "name": "Tight Loop",
+    "description": "Rapid iteration between prediction/validation",
+    "svgPath": "tight-loop.svg"
+  },
+  {
+    "id": "external-acquisition",
+    "name": "External Acquisition",
+    "description": "Capability acquired from outside",
+    "svgPath": "external-acquisition.svg"
+  },
+  {
+    "id": "broad-deployment",
+    "name": "Broad Deployment",
+    "description": "Skip pilots, deploy widely immediately",
+    "svgPath": "broad-deployment.svg"
+  }
+]

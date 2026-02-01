@@ -1,0 +1,35 @@
+{
+  "id": "abb",
+  "company": "ABB",
+  "title": "Engineer to Autonomy: Decentralized AI Deployment",
+  "summary": "Decentralized AI strategy empowering divisions to deploy AI independently through the unified Genix platform, achieving Verdantix Green Quadrant Leader status.",
+  "diagramTemplate": "hybrid-hub-spoke",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "human-ai-boundaries"
+  ],
+  "designPrinciples": [
+    "protect-deviations",
+    "domain-expertise"
+  ],
+  "content": {
+    "whatItIs": "ABB's 'Engineer to Autonomy' philosophy gives individual business divisions authority to deploy AI solutions suited to their specific industrial contexts, while the central Genix platform provides shared infrastructure. This decentralized approach enables faster deployment while maintaining standards.",
+    "howItWorks": [
+      "Business divisions have autonomy to identify and deploy AI solutions for their domains",
+      "Genix industrial AI platform provides shared infrastructure and standards",
+      "Central team sets guardrails without bottlenecking innovation",
+      "Focus on industrial AI applications: predictive maintenance, process optimization, autonomous operations"
+    ],
+    "coreInsight": "Industrial AI requires deep domain expertise that centralized teams cannot possess across all manufacturing contexts. By decentralizing deployment authority while centralizing platform infrastructure, ABB enables domain experts to drive AI adoption in their specific contexts.",
+    "keyMetrics": "Verdantix Green Quadrant Leader in Industrial AI; Genix platform deployed across divisions",
+    "sources": [
+      "Verdantix Green Quadrant Industrial AI 2025",
+      "ABB corporate materials, January 2026"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

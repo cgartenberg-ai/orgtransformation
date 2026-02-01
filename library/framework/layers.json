@@ -1,0 +1,37 @@
+[
+  {
+    "id": "identity",
+    "name": "Identity",
+    "description": "Who we are and what we stand for",
+    "principles": ["north-star"],
+    "color": "#6366f1"
+  },
+  {
+    "id": "orientation",
+    "name": "Orientation",
+    "description": "How we face the world and make sense of it",
+    "principles": ["stance-on-uncertainty", "measurement-philosophy"],
+    "color": "#8b5cf6"
+  },
+  {
+    "id": "flow",
+    "name": "Flow",
+    "description": "How ideas and information move through the organization",
+    "principles": ["locus-of-innovation", "information-architecture"],
+    "color": "#a855f7"
+  },
+  {
+    "id": "structure",
+    "name": "Structure",
+    "description": "How we organize people and resources",
+    "principles": ["ambidexterity-structure", "resource-allocation"],
+    "color": "#d946ef"
+  },
+  {
+    "id": "work",
+    "name": "Work",
+    "description": "How humans and AI collaborate on tasks",
+    "principles": ["human-ai-boundaries"],
+    "color": "#ec4899"
+  }
+]

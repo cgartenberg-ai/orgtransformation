@@ -1,0 +1,293 @@
+{
+  "id": "anthropic",
+  "name": "Anthropic",
+  "title": "Labs Team + Ride the Exponential",
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5a",
+    "subTypeName": "Internal Incubator",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "High",
+    "classificationRationale": "Anthropic is a research-driven company building AI products (Claude) with a dedicated Labs team for zero-to-one innovations. Dario/Daniela CEO/COO split maps explicitly to explore/execute tension. Platform-first strategy with strategic vertical investments. 7 co-founder structure with equal equity provides distributed value-carrier model. PBC with LTBT governance protects long-term safety mission. Multiple confirming sources now available. Upgraded from Medium to High confidence.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "AI Research / Foundation Models",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": "~$5B ARR (Aug 2025), projected ~$26B annualized",
+    "headquarters": "San Francisco, CA",
+    "geography": "Global"
+  },
+  "description": "Anthropic operates a two-part innovation model: (1) a dedicated Labs team focused on 'disruptive zero-to-one ideas' that operates independently from core product, and (2) a company-wide product philosophy of 'ride the exponential' — building for capabilities that don't exist yet. Labs built Claude CLI (later Claude Code), early computer use explorations, and other experimental bets.\n\nThe company's leadership structure explicitly maps to the explore/execute tension: CEO Dario Amodei handles strategy and vision (exploration), while COO Daniela Amodei handles operations (execution). Dario describes this split as allowing 'each to spend most of our time on the thing that we're best at.'\n\nAnthropically, the 7 co-founder structure with equal equity is distinctive. All 7 co-founders share equity equally — defying standard Silicon Valley advice. This works because they had long histories of working together, and having 7 value-carriers allows the organization to scale while maintaining cultural coherence. Dario holds regular all-hands 'every couple of weeks' to maintain mission alignment across the growing org.\n\nAnthropically operates as a Public Benefit Corporation with a unique Long-Term Benefit Trust (LTBT) holding special Class T shares with escalating board-election rights. This governance structure protects the safety mission from short-term market pressures. The company is preparing for IPO (Wilson Sonsini hired, $350B+ valuation range) with a novel single-class common stock structure where the LTBT provides governance center of gravity rather than dual-class founder shares.",
+  "observableMarkers": {
+    "reportingStructure": "CEO/COO split maps to explore/execute. 7 co-founders with equal equity as distributed value-carriers.",
+    "resourceAllocation": "~$5B ARR, projected ~$26B. Series F: $13B at ~$183B valuation. Microsoft $5B, Nvidia $10B investments.",
+    "timeHorizons": "Builds for capabilities that don't exist yet. Deletes harness parts as model improves.",
+    "decisionRights": "Information compartmentalization within open culture — 'you're only told what you need to know.'",
+    "metrics": "Claude Code: $1B ARR within 6 months. MCP: 'fastest-growing standard in tech history'. Highest retention rate among AI companies."
+  },
+  "mechanisms": [
+    {
+      "id": 3,
+      "name": "Embed Product at Research Frontier",
+      "evidence": "Labs team creates experimental products (Claude CLI, computer use) that get 'buttoned up' for public release. Internal adoption validates before external release. Regular hackathons (2-3x/year) build on Labs innovations.",
+      "strength": "Strong"
+    },
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "Labs team operates independently from core product. PBC/LTBT governance structure protects long-term safety mission from market pressures.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The more you can align with the company",
+      "speaker": "Mike Krieger",
+      "speakerTitle": null,
+      "source": null,
+      "sourceUrl": null,
+      "timestamp": null,
+      "date": null
+    },
+    {
+      "text": "We have seven people who really carry the values of the company and project them to a wide set of people, it allows you to scale the company to a much larger size while holding on to the values.",
+      "speaker": "Dario Amodei",
+      "speakerTitle": "CEO, Anthropic",
+      "source": "Cheeky Pint Podcast",
+      "sourceUrl": "https://cheekypint.substack.com/p/a-cheeky-pint-with-anthropic-ceo",
+      "timestamp": null,
+      "date": "2025-08-06"
+    },
+    {
+      "text": "My job is the second and Daniela's job is the first... allowed us each to spend most of our time on the thing that we're best at.",
+      "speaker": "Dario Amodei",
+      "speakerTitle": "CEO, Anthropic",
+      "source": "Cheeky Pint Podcast",
+      "sourceUrl": "https://cheekypint.substack.com/p/a-cheeky-pint-with-anthropic-ceo",
+      "timestamp": null,
+      "date": "2025-08-06"
+    },
+    {
+      "text": "Product and go-to-market... are kind of a way to clean the window and let the light shine through.",
+      "speaker": "Dario Amodei",
+      "speakerTitle": "CEO, Anthropic",
+      "source": "Cheeky Pint Podcast",
+      "sourceUrl": "https://cheekypint.substack.com/p/a-cheeky-pint-with-anthropic-ceo",
+      "timestamp": null,
+      "date": "2025-08-06"
+    },
+    {
+      "text": "We tend to compartmentalize information... you're only told what you need to know.",
+      "speaker": "Dario Amodei",
+      "speakerTitle": "CEO, Anthropic",
+      "source": "Cheeky Pint Podcast",
+      "sourceUrl": "https://cheekypint.substack.com/p/a-cheeky-pint-with-anthropic-ceo",
+      "timestamp": null,
+      "date": "2025-08-06"
+    },
+    {
+      "text": "being able to manage fleets of AI agents and orchestrate them is going to make people incredibly powerful",
+      "speaker": "Jack Clark",
+      "speakerTitle": "Co-founder, Anthropic",
+      "source": "Conversations with Tyler",
+      "sourceUrl": "https://conversationswithtyler.com/episodes/jack-clark/",
+      "timestamp": null,
+      "date": "2025-05-11"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2025-05",
+      "label": "Co-Founder Culture & Manager Nerds Thesis",
+      "summary": "Jack Clark on Conversations with Tyler: Anthropic office as 'cheerful blankness' — brand oriented toward being 'tasteful and thoughtful, not too flashy.' Inherited former Slack HQ. Clark predicts 'manager nerds' era: managing fleets of AI agents will make people 'incredibly powerful.' Observes startups operating with very small FTEs + many coding agents. AI monitoring paradox: monitoring chain of thought might create anti-goals. AI embeds cultural values creating 'soft power' effects.",
+      "classification": null,
+      "sourceRefs": ["cwt-clark-2025"]
+    },
+    {
+      "date": "2025-12",
+      "label": "IPO Preparation & Governance",
+      "summary": "Hired Wilson Sonsini for IPO prep. PBC with LTBT/Class T governance structure. Valued at ~$350B+ after Microsoft ($5B) and Nvidia ($10B) investments. Projecting ~$26B annualized revenue. No dual-class founder structure — LTBT provides governance center of gravity. Krishna Rao hired from Airbnb.",
+      "classification": null,
+      "sourceRefs": ["techcrunch-ipo-2025", "forem-ltbt-2026", "cnbc-valuation-2025", "yahoo-revenue-2025"]
+    },
+    {
+      "date": "2025-08",
+      "label": "CEO/COO Structure & Co-Founder Model",
+      "summary": "Dario Amodei on Cheeky Pint revealed: 7 co-founders with equal equity, CEO/COO explore/execute split, platform-first with strategic verticals, information compartmentalization within open culture, highest retention among AI companies, ~$5B ARR.",
+      "classification": null,
+      "sourceRefs": ["cheeky-pint-dario-2025"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Latest Update",
+      "summary": "Anthropic raised $13B Series F at $183B valuation. Launched Claude for Healthcare. MCP donated to Linux Foundation.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025",
+      "label": "Initial Documentation",
+      "summary": "A two-part innovation model: (1) a dedicated Labs team focused on 'disruptive zero-to-one ideas' that operates independently from core product, and (2) a company-wide product philosophy of 'ride the exponential'.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4",
+        "source-5"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Podcast",
+      "name": "AI Daily Brief podcast interview with Mike Krieger (December 2025)",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Substack",
+      "name": "Lenny's Newsletter",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Podcast",
+      "name": "Sequoia Inference Podcast",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "TechCrunch January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-5",
+      "type": "Press",
+      "name": "CNBC January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "cheeky-pint-dario-2025",
+      "type": "Podcast",
+      "name": "Cheeky Pint — A Cheeky Pint with Anthropic CEO Dario Amodei",
+      "url": "https://cheekypint.substack.com/p/a-cheeky-pint-with-anthropic-ceo",
+      "timestamp": null,
+      "sourceDate": "2025-08-06",
+      "collectedDate": "2026-01-31",
+      "notes": "7 co-founders, CEO/COO split, platform strategy, ~$5B ARR, highest retention."
+    },
+    {
+      "id": "techcrunch-ipo-2025",
+      "type": "Press",
+      "name": "TechCrunch — Anthropic Hires Lawyers for IPO Prep",
+      "url": "https://techcrunch.com/2025/12/03/anthropic-hires-lawyers-as-it-preps-for-ipo/",
+      "timestamp": null,
+      "sourceDate": "2025-12-03",
+      "collectedDate": "2026-01-31",
+      "notes": "Wilson Sonsini hired. Krishna Rao from Airbnb."
+    },
+    {
+      "id": "forem-ltbt-2026",
+      "type": "Press",
+      "name": "Future Forem — Anthropic's 2026 IPO Path: Structure, Governance, and Valuation",
+      "url": "https://future.forem.com/nalyne_lima_977268c938caf/anthropics-2026-ipo-path-structure-governance-and-valuation-2en6",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": "LTBT/Class T structure, PBC governance details."
+    },
+    {
+      "id": "cnbc-valuation-2025",
+      "type": "Press",
+      "name": "CNBC — Anthropic Claude IPO Preparation",
+      "url": "https://www.cnbc.com/2025/12/03/anthropic-claude-reportedly-preparing-ipo-race-openai-chatgpt-ft-wilson-sonsini-goodrich-rosati.html",
+      "timestamp": null,
+      "sourceDate": "2025-12-03",
+      "collectedDate": "2026-01-31",
+      "notes": "$350B valuation, Microsoft $5B, Nvidia $10B."
+    },
+    {
+      "id": "yahoo-revenue-2025",
+      "type": "Press",
+      "name": "Yahoo Finance — Anthropic Plans IPO",
+      "url": "https://finance.yahoo.com/news/anthropic-plans-ipo-early-2026-004854547.html",
+      "timestamp": null,
+      "sourceDate": "2025-12-02",
+      "collectedDate": "2026-01-31",
+      "notes": "~$26B projected annualized revenue."
+    },
+    {
+      "id": "cwt-clark-2025",
+      "type": "Podcast",
+      "name": "Conversations with Tyler — Jack Clark (Anthropic)",
+      "url": "https://conversationswithtyler.com/episodes/jack-clark/",
+      "timestamp": null,
+      "sourceDate": "2025-05-11",
+      "collectedDate": "2026-01-31",
+      "notes": "Clark on office culture ('cheerful blankness'), 'manager nerds' era, AI monitoring paradox, soft power thesis."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.5,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.8,
+    "longVsShortHorizon": -0.2
+  },
+  "openQuestions": [
+    "How does the 7-co-founder structure work at ~$5B ARR scale? Are all 7 still active?",
+    "What's the team size and structure of the Claude for Enterprise / virtual co-worker initiative?",
+    "How does Anthropic structurally separate safety research from product development?",
+    "How will the LTBT governance be received by public market investors?",
+    "Will Anthropic IPO before or after OpenAI?",
+    "How does the safety mission interact with public market growth expectations?"
+  ],
+  "taxonomyFeedback": [
+    "Anthropic's PBC/LTBT governance is a novel structural mechanism for protecting long-term safety mission from market pressures. May warrant its own mechanism entry: 'Governance structure as exploration protection.'",
+    "The 7 co-founder equal equity model is a distinctive structural choice that enables cultural coherence at scale — not captured by current taxonomy."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Medium",
+    "convertedFrom": "library/cases/anthropic.json"
+  }
+}

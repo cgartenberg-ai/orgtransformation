@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Next.js build
+site/.next/
+site/out/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code plans (ephemeral)
+# Note: .claude/skills/ and .claude/settings.local.json ARE tracked

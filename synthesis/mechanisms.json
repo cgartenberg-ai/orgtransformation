@@ -1,0 +1,529 @@
+{
+  "description": "Living document — confirmed and candidate mechanisms observed across specimens. Updated during Phase 3 synthesis sessions.",
+  "lastUpdated": "2026-02-01",
+  "confirmed": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "definition": "Organizational structures that shield exploratory work ('deviations') from middle management's natural tendency to optimize for current strategy.",
+      "problemItSolves": "Middle management rationally kills deviations because they don't fit current metrics. But deviations create breakthroughs.",
+      "theoreticalConnection": "Structural ambidexterity — physical separation protects exploration from exploitation pressures.",
+      "specimens": ["eli-lilly", "anthropic", "meta-ai", "google-x", "amazon-agi", "samsung-c-lab", "ssi", "recursion"],
+      "evidence": [
+        {
+          "specimenId": "eli-lilly",
+          "quote": "Middle management tends to squash deviations, but the deviations... make the next breakthrough",
+          "speaker": "Dave Ricks",
+          "source": "Acquired Podcast"
+        },
+        {
+          "specimenId": "anthropic",
+          "quote": null,
+          "speaker": null,
+          "source": "Anthropic case analysis",
+          "notes": "PBC/LTBT governance structure protects long-term safety mission from market pressures. Labs team operates independently from core product. 7 co-founders as distributed value-carriers. CEO/COO split maps to explore/execute."
+        },
+        {
+          "specimenId": "meta-ai",
+          "quote": "You don't tell a researcher what to do. You certainly don't tell a researcher like me what to do.",
+          "speaker": "Yann LeCun",
+          "source": "The Decoder",
+          "notes": "COUNTER-EXAMPLE: Meta FAILED to protect off-strategy research. LeCun's departure demonstrates what happens when exploration (FAIR) is subordinated to execution (product-driven MSL). Research autonomy sacrificed for coordination."
+        },
+        {
+          "specimenId": "google-x",
+          "quote": null,
+          "speaker": null,
+          "source": "Google X case analysis",
+          "notes": "X operates as structurally separated moonshot factory with distinct culture, metrics, and incentives. 2% graduation rate protects exploration from being prematurely optimized."
+        },
+        {
+          "specimenId": "amazon-agi",
+          "quote": null,
+          "speaker": null,
+          "source": "Amazon Science Blog",
+          "notes": "AGI SF Lab operates separately from AWS commercial AI services, allowing different timelines and risk profiles. World-model research directions may not have immediate commercial application."
+        },
+        {
+          "specimenId": "samsung-c-lab",
+          "quote": null,
+          "speaker": null,
+          "source": "Samsung C-Lab documentation",
+          "notes": "C-Lab Inside allows employees to propose and pursue off-strategy projects for defined periods. Structural protection via time-boxing and separate governance from BU management."
+        },
+        {
+          "specimenId": "ssi",
+          "quote": null,
+          "speaker": null,
+          "source": "SSI case analysis",
+          "notes": "Pure research lab — no products at all, all compute directed at research. $3B funding with zero product pressure. Maximum structural protection of exploration."
+        },
+        {
+          "specimenId": "recursion",
+          "quote": null,
+          "speaker": null,
+          "source": "Recursion case analysis",
+          "notes": "Entire company IS the research lab. Hypothesis-free automated discovery protects against human hypothesis bias. 2.2M experiments/week without commercial application filter."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Bonus Teams That Kill Projects",
+      "definition": "Incentive systems that reward teams for quickly terminating their own projects when evidence shows they won't work.",
+      "problemItSolves": "Sunk cost fallacy keeps failing projects alive too long, wasting exploration resources.",
+      "theoreticalConnection": "Addresses temporal dimension — fast failure enables more exploration cycles.",
+      "specimens": ["google-x", "klarna"],
+      "evidence": [
+        {
+          "specimenId": "google-x",
+          "quote": null,
+          "speaker": "Astro Teller",
+          "source": "Google X documentation",
+          "notes": "Teams get 'applause, hugs, and high fives' for killing projects; 2% graduation rate by design"
+        },
+        {
+          "specimenId": "klarna",
+          "quote": null,
+          "speaker": null,
+          "source": "Klarna case analysis",
+          "notes": "REVERSAL CASE: Klarna publicly reversed its full-tilt AI customer service strategy after acknowledging quality degradation. CEO publicly acknowledged the correction and resumed human hiring. While not literally a bonus for killing, demonstrates organizational courage to terminate a high-profile AI initiative."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Embed Product at Research Frontier",
+      "definition": "Product teams working directly with researchers on model development, not downstream building UX on finished models.",
+      "problemItSolves": "Value multiplier comes from frontier proximity. Downstream product work captures less of the innovation value.",
+      "theoreticalConnection": "Integration mechanism — bridges exploration (research) and execution (product).",
+      "specimens": ["anthropic", "eli-lilly", "pfizer", "roche-genentech"],
+      "evidence": [
+        {
+          "specimenId": "anthropic",
+          "source": "Anthropic case analysis",
+          "notes": "Labs Team explores early computer use, CLI prototypes; Claude Code went from internal experiment to dominant tool in 3 months. Regular hackathons (2-3x/year) build on Labs innovations."
+        },
+        {
+          "specimenId": "eli-lilly",
+          "quote": null,
+          "speaker": null,
+          "source": "NVIDIA Newsroom / Lilly IR",
+          "notes": "NVIDIA co-innovation lab co-locates Lilly domain scientists with NVIDIA AI engineers. 'Scientist-in-the-loop' continuous learning system connecting agentic wet labs with computational dry labs for 24/7 experimentation."
+        },
+        {
+          "specimenId": "pfizer",
+          "quote": null,
+          "speaker": null,
+          "source": "Pfizer case analysis",
+          "notes": "PACT partnership embeds AWS/Anthropic AI infrastructure directly into drug discovery pipeline. Drug candidate development compressed from 1+ year to 30 days. AI/ML Fab Lab operates at research frontier."
+        },
+        {
+          "specimenId": "roche-genentech",
+          "quote": null,
+          "speaker": null,
+          "source": "Roche/Genentech case analysis",
+          "notes": "'Lab in a Loop' concept directly embeds computational prediction into wet lab research. Each prediction cycle drives the next experiment. $12B commitment to computational sciences. Prescient Design acquisition added AI protein design research."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "definition": "Extending consumer-proven interfaces to employees rather than building separate enterprise systems.",
+      "problemItSolves": "Enterprise tools often have poor UX, limiting adoption. Consumer UX is already validated at scale.",
+      "theoreticalConnection": "Reduces friction in contextual ambidexterity — individuals adopt faster when tools are intuitive.",
+      "specimens": ["bank-of-america", "commonwealth-bank", "duolingo"],
+      "evidence": [
+        {
+          "specimenId": "bank-of-america",
+          "source": "Bank of America case analysis",
+          "notes": "Erica chatbot for customers -> Erica for Employees; 90%+ adoption among 213K employees"
+        },
+        {
+          "specimenId": "commonwealth-bank",
+          "quote": null,
+          "speaker": null,
+          "source": "Commonwealth Bank case analysis",
+          "notes": "ChatGPT Enterprise deployment to all 50,000 employees — consumer-grade interface provided universally."
+        },
+        {
+          "specimenId": "duolingo",
+          "quote": null,
+          "speaker": null,
+          "source": "Duolingo case analysis",
+          "notes": "AI embedded into consumer-facing learning product that employees also use. Consumer-grade UX is the product itself — no separate enterprise tool needed."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "definition": "Wide deployment of general-purpose AI to discover use cases, rather than narrow pilots to validate predetermined use cases.",
+      "problemItSolves": "You can't predict which teams will find breakthrough applications. Pilots throttle learning.",
+      "theoreticalConnection": "Contextual ambidexterity at scale — let individuals find explore/execute balance.",
+      "specimens": ["pg-chatpg", "commonwealth-bank", "wells-fargo", "nvidia", "jpmorgan", "moderna", "novo-nordisk", "infosys", "ntt-data"],
+      "evidence": [
+        {
+          "specimenId": "pg-chatpg",
+          "source": "P&G case analysis",
+          "notes": "8,000 requests in first two hours; rejected pilots"
+        },
+        {
+          "specimenId": "commonwealth-bank",
+          "source": "Commonwealth Bank case analysis",
+          "notes": "50,000 employees on day one"
+        },
+        {
+          "specimenId": "wells-fargo",
+          "quote": null,
+          "speaker": null,
+          "source": "Wells Fargo Newsroom",
+          "notes": "90,000 employees trained on AI; 180,000 desktops equipped with AI tools — saturation deployment across the enterprise."
+        },
+        {
+          "specimenId": "nvidia",
+          "quote": "The more productive we are, the more ideas we can explore, the more growth as a result.",
+          "speaker": "Jensen Huang",
+          "source": "No Priors Podcast",
+          "notes": "Pervasive Cursor adoption among engineers. Productivity gains channeled into more exploration and growth, not headcount reduction."
+        },
+        {
+          "specimenId": "jpmorgan",
+          "quote": null,
+          "speaker": null,
+          "source": "CNBC / American Banker",
+          "notes": "LLM Suite deployed to 250,000 employees. Half use it roughly every day. Updated every 8 weeks with new capabilities. Massive-scale deployment with rapid iteration in regulated banking."
+        },
+        {
+          "specimenId": "moderna",
+          "quote": null,
+          "speaker": null,
+          "source": "Moderna case analysis",
+          "notes": "Enterprise-wide AI deployment across drug development, manufacturing, and corporate functions. Model 6a contextual adoption pattern — AI permeating all roles."
+        },
+        {
+          "specimenId": "novo-nordisk",
+          "quote": null,
+          "speaker": null,
+          "source": "Novo Nordisk case analysis",
+          "notes": "20,000 Copilot licenses deployed across the enterprise. 300-person central hub supports wide deployment."
+        },
+        {
+          "specimenId": "infosys",
+          "quote": null,
+          "speaker": null,
+          "source": "Infosys case analysis",
+          "notes": "100,000 engineers enrolled in AI CoE with Cursor deployment. Largest announced CoE by headcount — saturation deployment at services firm scale."
+        },
+        {
+          "specimenId": "ntt-data",
+          "quote": null,
+          "speaker": null,
+          "source": "NTT DATA Smart AI Agent Ecosystem announcement",
+          "notes": "Hundreds of Smart AI Agent instances deployed across healthcare and automotive verticals. Enterprise-grade agentic AI deployed at scale before full use cases are known."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Merge Competing AI Teams Under Single Leader",
+      "definition": "Consolidating multiple elite AI teams under unified leadership when coordination costs exceed independence benefits.",
+      "problemItSolves": "Parallel teams duplicate infrastructure, compete for talent, create confusion about ownership.",
+      "theoreticalConnection": "Structural simplification — from multiple exploration units to unified structure.",
+      "specimens": ["google-deepmind", "tencent", "meta-ai", "google-ai-infra", "amazon-agi"],
+      "evidence": [
+        {
+          "specimenId": "google-deepmind",
+          "source": "Google case analysis",
+          "notes": "Merged Brain and DeepMind under Hassabis. 25-year arc: decentralized -> X incubator -> Brain + DeepMind dual structure -> merger. Historical evolution documented via Acquired deep-scan."
+        },
+        {
+          "specimenId": "tencent",
+          "source": "Tencent case analysis",
+          "notes": "Consolidated previously scattered Hunyuan teams (LLM, AI Lab, ML Platform across different business groups) into unified TEG departments. Eliminated duplicated R&D efforts."
+        },
+        {
+          "specimenId": "meta-ai",
+          "quote": "By reducing the size of our team, fewer conversations will be required to make a decision, and each person will be more load-bearing and have more scope and impact.",
+          "speaker": "Alexandr Wang",
+          "source": "Internal memo via Axios",
+          "notes": "Previous dual-track (GenAI under Chris Cox + FAIR under LeCun) consolidated into 4-unit MSL under Wang. Multiple reshuffles in rapid succession."
+        },
+        {
+          "specimenId": "google-ai-infra",
+          "quote": null,
+          "speaker": null,
+          "source": "WebProNews / Business Insider",
+          "notes": "Project EAT consolidates teams from Google Research, Cloud, and hardware into AI2 unit under Amin Vahdat. 'Wholesale rethinking of Google's AI technology stack.'"
+        },
+        {
+          "specimenId": "amazon-agi",
+          "quote": null,
+          "speaker": null,
+          "source": "Amazon Science Blog",
+          "notes": "Peter DeSantis (27 years at Amazon) leads new organization uniting AGI research, custom chips (Trainium/Inferentia), and quantum computing under a single leader. Previously separate efforts."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "definition": "Senior leaders spending significant time (8+ hours/week) personally using AI tools on real work, not just watching demos.",
+      "problemItSolves": "Executives who don't use AI make bad decisions about AI. They can't evaluate structural options they don't understand.",
+      "theoreticalConnection": "Leadership bridging — senior team holds explore/execute tension through direct experience.",
+      "specimens": ["bcg-trailblazers", "microsoft", "mercado-libre", "nvidia", "commonwealth-bank", "jpmorgan", "shopify"],
+      "evidence": [
+        {
+          "specimenId": "bcg-trailblazers",
+          "source": "BCG AI Radar",
+          "notes": "BCG 'Trailblazer' CEOs spend 8+ hours per week on their own AI upskilling — twice the average."
+        },
+        {
+          "specimenId": "microsoft",
+          "quote": "I am lingering around Teams channels and they're most helpful... Teams is the new wandering the halls.",
+          "speaker": "Satya Nadella",
+          "source": "Cheeky Pint Podcast",
+          "notes": "Nadella restructured exec ranks, demands all leaders 'work and act like Individual Contributors.' Uses Teams channels as sensing mechanism. Dual model source strategy (MAI internal + OpenAI)."
+        },
+        {
+          "specimenId": "mercado-libre",
+          "source": "Mercado Libre case analysis",
+          "notes": "Founder stepped down as CEO to focus hands-on on AI. Founder-as-hub pattern."
+        },
+        {
+          "specimenId": "nvidia",
+          "quote": "The purpose of a software engineer is to solve known problems and to find new problems to solve. Coding is one of the tasks.",
+          "speaker": "Jensen Huang",
+          "source": "No Priors Podcast",
+          "notes": "CEO personally engages with AI tool implications, frames adoption through 'purpose vs. tasks' philosophy. Reads ~100 'Top Five Things' emails daily to stochastically sample the org."
+        },
+        {
+          "specimenId": "commonwealth-bank",
+          "quote": null,
+          "speaker": null,
+          "source": "Commonwealth Bank case analysis",
+          "notes": "CEO Matt Comyn personally spent significant time understanding AI capabilities and use cases."
+        },
+        {
+          "specimenId": "jpmorgan",
+          "quote": null,
+          "speaker": null,
+          "source": "JPMorgan case analysis",
+          "notes": "CEO Jamie Dimon's public vision: 'fully AI-connected enterprise.' LLM Suite deployed to entire workforce including senior leadership. CEO-level commitment."
+        },
+        {
+          "specimenId": "shopify",
+          "quote": null,
+          "speaker": null,
+          "source": "Shopify case analysis",
+          "notes": "CEO Tobi Lutke issued company-wide mandate requiring AI proficiency. Executive-driven cultural change — AI usage as expectation, not option."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Log Everything When Regulators Watch",
+      "definition": "Building complete audit trails into AI architecture from day one in regulated industries.",
+      "problemItSolves": "Regulatory compliance looks like overhead but becomes competitive advantage — you can deploy AI that competitors can't.",
+      "theoreticalConnection": "Enabling execution in constrained environments — structural accommodation of regulatory requirements.",
+      "specimens": ["allianz-anthropic", "ubs", "wells-fargo", "adobe-firefly", "jpmorgan", "invent-advisory"],
+      "evidence": [
+        {
+          "specimenId": "allianz-anthropic",
+          "source": "Allianz case analysis",
+          "notes": "AI system logs all interactions for regulatory transparency. Audit trails reviewable for regulatory purposes, internal compliance, or dispute resolution. Compliance by design."
+        },
+        {
+          "specimenId": "ubs",
+          "quote": null,
+          "speaker": null,
+          "source": "UBS case analysis",
+          "notes": "CAIO hired specifically for 'Model-Based AI' and 'Explainable AI' (XAI) expertise. Chief AI Office responsible for consistent standards."
+        },
+        {
+          "specimenId": "wells-fargo",
+          "quote": null,
+          "speaker": null,
+          "source": "Wells Fargo case analysis",
+          "notes": "Regulated banking environment. Business leader placed atop AI function with tech exec underneath — structure suggesting governance and compliance priority."
+        },
+        {
+          "specimenId": "adobe-firefly",
+          "quote": null,
+          "speaker": null,
+          "source": "Adobe case analysis",
+          "notes": "Content Credentials standard tracks how content was created and modified, creating provenance trails. Content Authenticity Initiative (3,300+ members) builds industry-wide audit infrastructure for AI-generated content. Compliance-by-design for IP and creator rights."
+        },
+        {
+          "specimenId": "jpmorgan",
+          "quote": null,
+          "speaker": null,
+          "source": "JPMorgan case analysis",
+          "notes": "8-week iteration cadence in heavily regulated banking environment. Multi-model architecture (OpenAI + Anthropic) implies audit trail capabilities enabling rapid deployment despite regulatory constraints."
+        },
+        {
+          "specimenId": "invent-advisory",
+          "quote": null,
+          "speaker": null,
+          "source": "PR Newswire",
+          "notes": "CAIO mandate explicitly includes building 'domain-specific AI framework with strict guardrails around privacy, data residency, and PII protection' for regulated wealth management (RIAs, broker-dealers, OSJs)."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Hire CAIOs from Consumer Tech",
+      "definition": "Prioritizing consumer tech product experience over enterprise IT background when hiring Chief AI Officers.",
+      "problemItSolves": "AI transformation requires people who've shipped products to millions, not managed infrastructure.",
+      "theoreticalConnection": "Leadership selection — product mindset enables exploration; IT mindset optimizes execution.",
+      "specimens": ["uk-government", "siemens", "meta-ai", "salesforce", "tencent", "invent-advisory", "indostar-capital", "pwc"],
+      "evidence": [
+        {
+          "specimenId": "uk-government",
+          "source": "UK Government case analysis",
+          "notes": "CAIO Kalbir Sohi hired from Spotify Core Infrastructure / Facebook. Significant departure from traditional government IT leadership."
+        },
+        {
+          "specimenId": "siemens",
+          "source": "Siemens case analysis",
+          "notes": "Hired multiple external AI leaders: Peter Koerte, Nand Mulchandani, Usama Hasan — bringing consumer/startup mindset to industrial technology."
+        },
+        {
+          "specimenId": "meta-ai",
+          "quote": null,
+          "speaker": null,
+          "source": "Meta case analysis",
+          "notes": "Hired Alexandr Wang (28, Scale AI founder) as CAIO — consumer tech/startup background. Also hired Nat Friedman (former GitHub CEO) for Products & Applied Research."
+        },
+        {
+          "specimenId": "salesforce",
+          "quote": null,
+          "speaker": null,
+          "source": "Salesforce case analysis",
+          "notes": "Hired Eric Hysen as Chief AI & Transformation Officer — ex-DHS CAIO. Government-to-corporate CAIO pipeline. Dual AI leadership structure."
+        },
+        {
+          "specimenId": "tencent",
+          "quote": null,
+          "speaker": null,
+          "source": "Tencent case analysis",
+          "notes": "Hired Yao Shunyu (former OpenAI researcher) as Chief AI Scientist, placed in CEO/President's Office. Appointment attracted talent from ByteDance and Alibaba."
+        },
+        {
+          "specimenId": "invent-advisory",
+          "quote": null,
+          "speaker": null,
+          "source": "PR Newswire / Citywire RIA",
+          "notes": "Jim Zimmerman hired from Microsoft Azure (Black Belt Engineer) and Red Hat (principal product manager) as first CAIO in regulated wealth management. Consumer/enterprise tech-to-fintech CAIO pipeline."
+        },
+        {
+          "specimenId": "indostar-capital",
+          "quote": null,
+          "speaker": null,
+          "source": "ScanX Trade / DQ Channels",
+          "notes": "VARIANT: CTO-to-CAIO re-designation — internal tech leadership promotion rather than external hire. 28+ years tech experience. Represents internal pipeline variant of Mechanism #9."
+        },
+        {
+          "specimenId": "pwc",
+          "quote": null,
+          "speaker": null,
+          "source": "CIO Dive / Inc.",
+          "notes": "VARIANT: Enterprise IT-to-consulting CAIO pipeline. Dan Priest: Toyota CIO → PwC cloud/digital leader (11 years) → PwC CAIO. Operational technology background rather than consumer tech."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Productize Internal Operational Advantages",
+      "definition": "Turning internally-developed AI tools into external revenue streams.",
+      "problemItSolves": "Internal tools prove value; external sales extend advantage and create defensible moats.",
+      "theoreticalConnection": "5c Platform-to-Product model — execution capability becomes exploration of new business.",
+      "specimens": ["walmart", "salesforce", "mckinsey-quantumblack", "bytedance", "ntt-data"],
+      "evidence": [
+        {
+          "specimenId": "walmart",
+          "source": "Walmart case analysis",
+          "notes": "Route Optimization -> Franz Edelman Award -> GoLocal SaaS. Corporate identity shifted to 'SaaS provider.'"
+        },
+        {
+          "specimenId": "salesforce",
+          "source": "Salesforce case analysis",
+          "notes": "2.6M internal conversations -> Agentforce for 18,500 customers. Internal deployment validated product before external launch. Budget tripled $4M->$300M."
+        },
+        {
+          "specimenId": "mckinsey-quantumblack",
+          "quote": null,
+          "speaker": null,
+          "source": "McKinsey/QuantumBlack case analysis",
+          "notes": "QuantumBlack (Model 5c) productizes internal analytics capabilities as external consulting + platform offering. Internal tools and methodologies become client-facing products."
+        },
+        {
+          "specimenId": "bytedance",
+          "quote": null,
+          "speaker": null,
+          "source": "ByteDance case analysis",
+          "notes": "Volcano Engine (Model 5c) productizes internal AI platform (powering TikTok's recommendation engine) as external cloud AI services. Internal algorithms become commercial infrastructure."
+        },
+        {
+          "specimenId": "ntt-data",
+          "quote": null,
+          "speaker": null,
+          "source": "NTT DATA Smart AI Agent Ecosystem",
+          "notes": "Patented solution converts legacy bots into autonomous intelligent agents — internal automation capability productized as client-facing agentic AI services. $2B revenue target by 2027. IT services dual tension: internal transformation AND client delivery."
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Ring-Fence Multi-Year Budgets",
+      "observedIn": ["Pharma AI labs", "some tech moonshot factories"],
+      "hypothesis": "Protecting exploration budgets from annual reallocation pressure enables longer time horizons.",
+      "evidenceNeeded": "More specimens showing budget protection mechanisms",
+      "specimens": ["eli-lilly", "roche-genentech"]
+    },
+    {
+      "name": "Separate Reporting Lines for Exploration",
+      "observedIn": ["Various specimens"],
+      "hypothesis": "Exploration units that report to CEO/board rather than COO/operations are more protected.",
+      "evidenceNeeded": "Systematic comparison of reporting structures and outcomes",
+      "specimens": ["anthropic", "eli-lilly", "tencent"]
+    },
+    {
+      "name": "Time-Box Then Reintegrate",
+      "observedIn": ["Tiger team models"],
+      "hypothesis": "Temporary structural separation followed by planned reintegration captures benefits of both.",
+      "evidenceNeeded": "More specimens with explicit reintegration mechanisms",
+      "specimens": ["samsung-c-lab", "intercom", "uk-government"]
+    },
+    {
+      "name": "CEO/COO Explore-Execute Split",
+      "observedIn": ["Anthropic", "Intercom"],
+      "hypothesis": "Explicitly dividing explore (CEO/visionary) and execute (COO/operator) responsibilities at the top leadership level enables dedicated attention to both.",
+      "evidenceNeeded": "3+ specimens with explicit CEO/COO or similar leadership splits mapped to explore/execute",
+      "specimens": ["anthropic"]
+    },
+    {
+      "name": "Business Leader as AI Chief",
+      "observedIn": ["Wells Fargo", "Coca-Cola", "PwC"],
+      "hypothesis": "Appointing business-line leaders (not technologists) to head AI ensures AI strategy serves business transformation rather than technology for its own sake.",
+      "evidenceNeeded": "Evidence that business-background CAIOs produce different structural outcomes than tech-background CAIOs",
+      "specimens": ["wells-fargo", "coca-cola", "pwc"]
+    },
+    {
+      "name": "Acqui-Hire to Seed Internal Research",
+      "observedIn": ["Amazon (Adept), Google (DeepMind)"],
+      "hypothesis": "Acquiring external teams to seed internal AI research is faster than organic capability building and brings proven team dynamics.",
+      "evidenceNeeded": "3+ specimens with documented acqui-hire patterns for AI capability",
+      "specimens": ["amazon-agi", "google-deepmind"]
+    },
+    {
+      "name": "AI-Driven Workforce Restructuring as Structural Lever",
+      "observedIn": ["Salesforce", "Klarna", "Amazon", "Citigroup", "Pinterest", "Dow", "UPS", "Microsoft"],
+      "hypothesis": "Using AI to eliminate roles creates structural space for new AI-native organizational forms. The workforce reduction is not just cost-cutting but enables fundamentally different operating structures.",
+      "evidenceNeeded": "Evidence that restructuring leads to new structural forms, not just headcount reduction. UPS and Microsoft now provide evidence: both explicitly target management layers (delayering), not just operational headcount.",
+      "specimens": ["salesforce", "klarna", "amazon", "citigroup", "pinterest", "dow", "ups", "microsoft"]
+    }
+  ]
+}

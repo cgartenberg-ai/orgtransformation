@@ -1,0 +1,107 @@
+{
+  "id": "boston-dynamics-deepmind",
+  "name": "Boston Dynamics + Google DeepMind Partnership",
+  "title": "Cross-Company Robotics AI Partnership",
+
+  "classification": {
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 3,
+    "secondaryModelName": "Embedded Teams",
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Cross-company partnership where DeepMind provides foundational AI research (Model 1) and Boston Dynamics provides hardware execution (Model 3, embedded in physical robots). The structural separation between research partner (DeepMind) and execution partner (Boston Dynamics) is a clear structural orientation. Very limited data — single source.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Robotics / AI Research",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": null,
+    "geography": "Global"
+  },
+
+  "description": "A new partnership between Boston Dynamics and Google DeepMind to bring foundational AI to humanoid robots. Google DeepMind is advancing Gemini Robotics foundation models for robots 'of any shape and size.' The partnership represents a cross-company structural exploration model: DeepMind provides the model exploration (research frontier), while Boston Dynamics provides the execution/hardware platform.\n\nThis is a notable structural arrangement because the exploration and execution functions live in entirely different companies, connected by a formal partnership rather than internal reporting lines.",
+
+  "observableMarkers": {
+    "reportingStructure": "Cross-company: DeepMind (Alphabet) provides AI models, Boston Dynamics (Hyundai) provides hardware.",
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [
+    {
+      "id": 3,
+      "name": "Embed Product at Research Frontier",
+      "evidence": "DeepMind's Gemini Robotics models are being embedded directly into Boston Dynamics hardware — research and product development at the frontier.",
+      "strength": "Emerging"
+    }
+  ],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Partnership announced: Boston Dynamics + Google DeepMind to bring Gemini Robotics foundation models to humanoid robots.",
+      "classification": null,
+      "sourceRefs": ["bd-blog-2026"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "bd-blog-2026",
+      "type": "Blog",
+      "name": "Boston Dynamics Blog — Google DeepMind Partnership",
+      "url": "https://bostondynamics.com/blog/boston-dynamics-google-deepmind-form-new-ai-partnership/",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.9,
+    "speedVsDepth": -0.5,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.8,
+    "longVsShortHorizon": -0.7
+  },
+
+  "openQuestions": [
+    "What does the governance structure of the partnership look like?",
+    "How are research priorities set between the two organizations?",
+    "What's the timeline for commercialization?"
+  ],
+
+  "taxonomyFeedback": [
+    "Cross-company partnerships where explore and execute functions live in separate organizations may warrant their own notation in the taxonomy — distinct from internal structural separation."
+  ],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ig-group",
+  "company": "IG Group",
+  "title": "Three-Month ROI Achievement",
+  "summary": "Full ROI in three months by targeting high-value use cases\u2014analytics automation (70 hours/week saved), HR feedback, multilingual content",
+  "diagramTemplate": "embedded-teams",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "measurement-philosophy"
+  ],
+  "designPrinciples": [
+    "rapid-iteration-cycles"
+  ],
+  "content": {
+    "whatItIs": "IG Group, a global leader in online trading, deployed Claude through their Data and AI transformation team with remarkable speed to value, achieving full ROI within three months.",
+    "howItWorks": [
+      "Targeted three specific use cases: automating complex analytics workflows, HR performance feedback, multilingual content",
+      "Analytics teams now save 70 hours weekly",
+      "Certain use cases saw productivity double",
+      "Focus on high-impact, high-frequency tasks rather than broad enterprise rollout",
+      "Demonstrated value quickly, building organizational confidence for broader adoption"
+    ],
+    "coreInsight": "Target high-value, high-frequency use cases for initial AI deployment rather than broad rollout. '70 hours weekly' savings in specific teams creates measurable ROI and organizational champions. The three-month ROI threshold sets an ambitious but achievable bar that prevents AI projects from becoming endless pilots. Focus on use cases with clear metrics (hours saved, productivity doubled) rather than fuzzy 'transformation' goals.",
+    "keyMetrics": "Full ROI in 3 months. 70 hours/week saved in analytics. Productivity doubled in certain use cases. Targeted: analytics automation, HR feedback, multilingual content.",
+    "sources": [
+      "Anthropic customer stories"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "embedded",
+  "phenotypeSubtype": null
+}

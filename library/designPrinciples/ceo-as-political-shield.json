@@ -1,0 +1,19 @@
+{
+  "id": "ceo-as-political-shield",
+  "title": "CEO as Political Shield (Not Just Sponsor)",
+  "group": "protection",
+  "architecturalPrinciples": [
+    "locus-of-innovation"
+  ],
+  "insight": "Labs attract organizational antibodies—resentment from those who lost talent, skepticism from those who want ROI, competition from those who want the resources. The CEO must actively defend the lab, not just approve it.",
+  "manifestations": [
+    "Eli Lilly CEO Dave Ricks explicitly defends deviations: 'All the studies on middle management find they tend to squash deviations'",
+    "NVIDIA: Jensen Huang's 'mission as the boss' philosophy protects unconventional approaches",
+    "CEO publicly credits lab for value (even when attribution is ambiguous)",
+    "CEO intervenes when operational leaders try to raid lab talent"
+  ],
+  "test": "When was the last time the CEO publicly defended the lab against internal criticism? If you can't remember, the lab is politically exposed.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

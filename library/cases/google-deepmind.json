@@ -1,0 +1,36 @@
+{
+  "id": "google-deepmind",
+  "company": "Google DeepMind",
+  "title": "Accelerate the Pipeline: Research-to-Product Consolidation",
+  "summary": "Merged Google Brain and DeepMind into unified 5,600-person organization, launched Tim Brooks' world-modeling team, accelerating research-to-product pipeline.",
+  "diagramTemplate": "research-lab",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "information-architecture"
+  ],
+  "designPrinciples": [
+    "lab-to-operations-handoff",
+    "a-team-capability"
+  ],
+  "content": {
+    "whatItIs": "Google consolidated its AI research organizations (Google Brain and DeepMind) into a unified Google DeepMind organization, growing from ~2,500 to 5,600 employees. The merged entity launched new initiatives including Tim Brooks' world-modeling team, with explicit mandate to accelerate research-to-product pipeline.",
+    "howItWorks": [
+      "Merged Google Brain and DeepMind into single organization",
+      "Grew from ~2,500 to 5,600 employees through consolidation and hiring",
+      "Launched specialized teams like Tim Brooks' world-modeling research",
+      "Explicit mandate to accelerate research-to-product pipeline",
+      "Unified leadership under Demis Hassabis to eliminate coordination friction"
+    ],
+    "coreInsight": "Having two separate elite AI research organizations created coordination overhead and slower research-to-product transfer. Consolidation under unified leadership enables faster deployment of research breakthroughs into Google products.",
+    "keyMetrics": "2,500 to 5,600 employees; unified organization; Tim Brooks world-modeling team launched",
+    "sources": [
+      "Google DeepMind announcements, 2024-2026",
+      "The Information, January 2026"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "research-lab",
+  "phenotypeSubtype": null
+}

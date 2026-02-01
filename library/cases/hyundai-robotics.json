@@ -1,0 +1,36 @@
+{
+  "id": "hyundai-robotics",
+  "company": "Hyundai Motor Group",
+  "title": "Physical AI + Robotics Total Solution",
+  "summary": "Robotics LAB with on-device AI chips, 'Robotics Total Solution' integrating hardware and software for physical AI",
+  "diagramTemplate": "centralized-lab",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "resource-allocation"
+  ],
+  "designPrinciples": [
+    "domain-expertise",
+    "data-flywheel"
+  ],
+  "content": {
+    "whatItIs": "Hyundai's Robotics LAB focuses on 'Physical AI'\u2014AI that interacts with the physical world through robots. Unlike pure software AI labs, this combines hardware and software into an integrated 'Robotics Total Solution.'",
+    "howItWorks": [
+      "Co-developed 'edge brain' on-device AI chip with DEEPX\u2014began mass production at CES 2026",
+      "On-device AI enables robots to process without cloud latency",
+      "Strategy: 'Robotics Total Solution (RTS)' integrating hardware and software",
+      "Moving beyond individual robot products to platform approach",
+      "Physical AI implementation plan unveiled at CES Foundry 2026"
+    ],
+    "coreInsight": "Physical AI requires different organizational capabilities than software AI\u2014tight integration between hardware (chips, motors, sensors) and software (models, control systems). The 'Robotics Total Solution' approach treats this as a platform problem.",
+    "keyMetrics": "Edge brain chip in mass production as of CES 2026. Part of Hyundai's broader Boston Dynamics / robotics portfolio.",
+    "sources": [
+      "Hyundai Motor Group Newsroom January 2026",
+      "CES Foundry 2026"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "research-lab",
+  "phenotypeSubtype": null
+}

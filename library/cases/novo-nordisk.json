@@ -1,0 +1,28 @@
+{
+  "id": "novo-nordisk",
+  "company": "Novo Nordisk",
+  "title": "Make Your Time Count",
+  "summary": "300-person Enterprise AI team deploys hub-and-spoke model with 20,000 employee Copilot rollout, led by CAIO Mads Einar Krogh Kristensen.",
+
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null,
+
+  "diagramTemplate": "hybrid-hub-spoke",
+  "architecturalPrinciples": ["locus-of-innovation", "human-ai-boundaries", "measurement-philosophy"],
+  "designPrinciples": ["mandatory-proficiency"],
+
+  "content": {
+    "whatItIs": "Novo Nordisk's Enterprise AI organization represents a mature hub-and-spoke model with a 300-person central AI team that enables capabilities across the pharma giant. Under CAIO Mads Einar Krogh Kristensen (since 2023), the company has deployed Microsoft Copilot to 20,000 employees under the banner 'Make Your Time Count' - signaling that AI adoption is about productivity enhancement, not workforce reduction.",
+    "howItWorks": [
+      "Central 300-person Enterprise AI team serves as the hub providing platforms, governance, and expertise",
+      "Spoke teams embedded in business units apply AI to specific domains (GLP-1 drug optimization, clinical trials)",
+      "Mass deployment strategy: 20,000 employees given Copilot access with clear productivity messaging",
+      "CAIO reports to executive leadership, ensuring AI has board-level visibility and strategic alignment"
+    ],
+    "coreInsight": "The 'Make Your Time Count' framing transforms AI adoption from a threat narrative to an empowerment narrative - employees see AI as a tool to reclaim time for higher-value work rather than a replacement for their jobs.",
+    "keyMetrics": "300-person AI team, 20,000 employee Copilot rollout, CAIO position established 2023",
+    "sources": ["LinkedIn (Mads Einar Krogh Kristensen profile)", "Company announcements January 2026", "Industry analysis"]
+  },
+
+  "lastUpdated": "2026-01-20"
+}

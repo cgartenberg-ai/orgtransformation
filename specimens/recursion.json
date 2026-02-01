@@ -1,0 +1,126 @@
+{
+  "id": "recursion",
+  "name": "Recursion Pharmaceuticals",
+  "title": "Automated Hypothesis-Free Discovery Platform",
+  "classification": {
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 1 (Research Lab). Recursion's entire business IS an AI research lab — automated systems run 2.2M experiments weekly, generating 40 PB of data. The company inverts traditional drug discovery by using hypothesis-free automated screening. Unlike traditional pharma with AI units, here the research lab IS the company. Structural orientation: the automated lab (exploration) is structurally separated from drug development and commercialization (execution).",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Pharmaceuticals",
+    "sector": "AI-First Drug Discovery / Biotechnology",
+    "orgSize": "Scaleup",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Salt Lake City, UT",
+    "geography": "North America"
+  },
+  "description": "Recursion represents a distinctive case where the entire company IS an AI research lab. Rather than having an AI unit within a pharmaceutical company, Recursion was built from inception as an automated drug discovery platform. Robots run up to 2.2 million experiments weekly, generating 40 petabytes of data from over 300 million experiments.\n\nThe company inverts traditional pharmaceutical research by adopting a hypothesis-free approach. Traditional pharma starts with hypotheses about disease mechanisms; Recursion's platform finds novel biology that may have been overlooked by humans or considered too challenging to pursue. LOWE, an LLM-based interface, allows scientists to query across animal models, commercially available compounds, and existing research using natural language.\n\nThe vision extends from a 'self-driving lab' toward building a 'virtual cell' and eventually virtual organ and virtual patient. By leveraging data, automation, and virtual modeling, Recursion develops lead molecules with claimed 10x the efficiency of traditional methods, in half the time and at a fraction of the cost.",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": "Multi-year drug discovery timelines, but with dramatically compressed lead molecule identification",
+    "decisionRights": "Automated systems generate hypotheses; scientists interpret and direct follow-up",
+    "metrics": "2.2M experiments/week. 40 PB of data. 300M+ total experiments. 10x efficiency claim. LOWE LLM interface for scientist queries."
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 1 classification. Fixed industry from Pharmaceuticals to include AI-First Drug Discovery sector. Removed weakly-evidenced Mechanism #5 (rapid iteration is about experimental speed, not mass deployment). Removed spurious 'self-driving lab.' quote fragment. Added habitat, classification rationale.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Recursion as an automated drug discovery platform where the entire company is an AI research lab running 2.2M experiments weekly.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "BioPharma Dive",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Fortune",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "NIH Seed",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-4",
+      "type": "Press Release",
+      "name": "Recursion Press",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Non-traditional",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.8,
+    "speedVsDepth": -0.5,
+    "centralVsDistributed": -0.7,
+    "namedVsQuiet": -0.8,
+    "longVsShortHorizon": -0.6
+  },
+  "openQuestions": [
+    "How does Recursion's organizational structure divide between automated lab operations and commercialization/partnering?",
+    "What is the company's financial sustainability — is the 10x efficiency claim translating to commercial outcomes?",
+    "How does Recursion navigate FDA regulatory requirements for AI-discovered drug candidates?",
+    "What is the relationship between LOWE (LLM interface) and the automated experimental platform?"
+  ],
+  "taxonomyFeedback": [
+    "Recursion represents an edge case: the 'AI unit' IS the entire company. Model 1 (Research Lab) fits, but the taxonomy assumes the lab is WITHIN a larger organization. AI-native companies blur this boundary.",
+    "The hypothesis-free approach is a fundamentally different way of organizing research — the AI doesn't assist human researchers, it replaces the hypothesis generation step entirely."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/recursion.json"
+  }
+}

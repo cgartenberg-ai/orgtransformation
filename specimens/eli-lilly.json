@@ -1,0 +1,201 @@
+{
+  "id": "eli-lilly",
+  "name": "Eli Lilly",
+  "title": "Decentralized Domain Hubs",
+
+  "classification": {
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 5,
+    "secondaryModelName": "Product/Venture Lab (5b: Venture Builder — NVIDIA partnership)",
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "High",
+    "classificationRationale": "Decentralized R&D hubs are structurally separated from core operations with protected multi-year horizons. The NVIDIA co-innovation lab adds a venture-builder dimension. Structural orientation is clear: exploration and execution live in distinct units with integration at senior leadership.",
+    "typeSpecimen": true
+  },
+
+  "habitat": {
+    "industry": "Pharmaceuticals",
+    "sector": "Biopharma",
+    "orgSize": "Enterprise",
+    "employees": 43000,
+    "revenue": "$120B",
+    "headquarters": "Indianapolis, IN",
+    "geography": "Global"
+  },
+
+  "description": "Approximately 15 years ago, Eli Lilly decentralized its R&D into smaller hubs of 300-400 people. Each hub operates like an internal biotech — focused on a specific therapeutic area or modality — but without the burden of fundraising or quarterly investor pressure. The hubs are small enough to maintain scientific intimacy and shared tacit knowledge, yet large enough to have critical mass of capability.\n\nThe structure enables extraordinarily long time horizons. The GLP-1 program ran 18+ years from first injection in 2006 to the launch of Mounjaro, with teams 'just grinding on a theme' rather than making big-bet single projects. CEO Dave Ricks explicitly shields these hubs from corporate optimization pressure, recognizing that middle management naturally squashes the off-strategy deviations that produce breakthroughs.\n\nIn January 2026, Lilly added a new dimension: a $1B co-innovation lab with NVIDIA in South San Francisco. This 'scientist-in-the-loop' AI capability co-locates Lilly domain experts with NVIDIA AI engineers, creating a continuous learning system connecting agentic wet labs with computational dry labs for 24/7 AI-assisted experimentation. The lab will also deploy a 1,016 Blackwell Ultra GPU supercomputer — the most powerful owned by a pharma company.",
+
+  "observableMarkers": {
+    "reportingStructure": "Hubs report to R&D leadership, not business unit heads. NVIDIA lab is a joint venture structure.",
+    "resourceAllocation": "R&D investment target: 20-25% of sales. At $120B revenue, R&D budget approaches NIH scale. $1B committed to NVIDIA partnership over five years.",
+    "timeHorizons": "Decades, not quarters. The GLP-1 program exemplifies an 18+ year horizon from first injection to commercial product.",
+    "decisionRights": "Hub leaders have significant autonomy. CEO actively protects off-strategy work from middle management optimization.",
+    "metrics": "Drug development cycle ~7 years vs. industry average of 10. 300-400 person hub size. 1,016 Blackwell Ultra GPUs (9+ exaflops)."
+  },
+
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "CEO Dave Ricks explicitly shields long-horizon R&D bets from middle management optimization pressure. Hub structure insulates exploration from quarterly execution demands.",
+      "strength": "Strong"
+    }
+  ],
+
+  "quotes": [
+    {
+      "text": "All the studies on middle management find they tend to squash deviations, but the deviations are the people doing stuff off strategy, in the labs, the things that make the next breakthrough.",
+      "speaker": "Dave Ricks",
+      "speakerTitle": "CEO, Eli Lilly",
+      "source": "Cheeky Pint Podcast (Collison Brothers)",
+      "sourceUrl": null,
+      "timestamp": null,
+      "date": "2025-11"
+    },
+    {
+      "text": "AI is transforming every industry, and its most profound impact will be in life sciences.",
+      "speaker": "Jensen Huang",
+      "speakerTitle": "CEO, NVIDIA",
+      "source": "J.P. Morgan Healthcare Conference / NVIDIA Newsroom",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai",
+      "timestamp": null,
+      "date": "2026-01-12"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "NVIDIA Co-Innovation Lab — Detailed Sources",
+      "summary": "Multiple press sources confirm $1B co-innovation lab details: co-location model in South San Francisco, 24/7 experimentation loop connecting wet and dry labs, robotics and digital twins for production lines, extends beyond drug discovery to clinical development and manufacturing. Part of $50B US commitment.",
+      "classification": null,
+      "sourceRefs": ["nvidia-newsroom-2026", "lilly-ir-2026", "fiercebiotech-2026", "drugdiscovery-2026"]
+    },
+    {
+      "date": "2026-01",
+      "label": "NVIDIA Co-Innovation Lab",
+      "summary": "Announced $1B co-innovation lab with NVIDIA in South San Francisco. Scientists from both firms to co-locate by end of March 2026. Adds Model 5b (Venture Builder) dimension to existing Model 1 structure. Initial focus: continuous learning system connecting agentic wet labs with computational dry labs. Deploying 1,016 Blackwell Ultra GPU supercomputer.",
+      "classification": "Model 1 + Model 5b",
+      "sourceRefs": ["nvidia-pr-2026"]
+    },
+    {
+      "date": "2025-11",
+      "label": "Hub Structure Detailed",
+      "summary": "CEO Dave Ricks publicly detailed the decentralized hub model on Cheeky Pint podcast. Described 300-400 person hubs operating like internal biotechs, 18+ year time horizons (GLP-1 program), and philosophy of protecting off-strategy deviations.",
+      "classification": "Model 1",
+      "sourceRefs": ["cheeky-pint-2025", "chief-exec-2025"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "cheeky-pint-2025",
+      "type": "Podcast",
+      "name": "Cheeky Pint Podcast (Collison Brothers) — Dave Ricks interview",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2025-12-15",
+      "notes": "CEO Dave Ricks interview. Primary source for hub structure details and quotes."
+    },
+    {
+      "id": "chief-exec-2025",
+      "type": "Press",
+      "name": "Chief Executive Magazine",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2025-12-15",
+      "notes": "Coverage of Lilly R&D strategy and metrics."
+    },
+    {
+      "id": "nvidia-pr-2026",
+      "type": "Press Release",
+      "name": "NVIDIA/Lilly Co-Innovation Lab Announcement",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": "2026-01-12",
+      "collectedDate": "2026-01-13",
+      "notes": "$1B partnership, South San Francisco lab, Blackwell Ultra supercomputer."
+    },
+    {
+      "id": "nvidia-newsroom-2026",
+      "type": "Press Release",
+      "name": "NVIDIA Newsroom — Co-Innovation Lab Announcement",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai",
+      "timestamp": null,
+      "sourceDate": "2026-01-12",
+      "collectedDate": "2026-01-31",
+      "notes": "Official NVIDIA announcement. Jensen Huang quote on life sciences."
+    },
+    {
+      "id": "lilly-ir-2026",
+      "type": "Press Release",
+      "name": "Eli Lilly Investor Relations — Co-Innovation Lab",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/nvidia-and-lilly-announce-co-innovation-ai-lab-reinvent-drug",
+      "timestamp": null,
+      "sourceDate": "2026-01-12",
+      "collectedDate": "2026-01-31",
+      "notes": "Investor-facing details. Co-location model, South SF."
+    },
+    {
+      "id": "fiercebiotech-2026",
+      "type": "Press",
+      "name": "FierceBiotech — Lilly NVIDIA Partnership",
+      "url": "https://www.fiercebiotech.com/biotech/lilly-nvidia-tag-partnership-new-ai-co-innovation-lab-1b-investment",
+      "timestamp": null,
+      "sourceDate": "2026-01-12",
+      "collectedDate": "2026-01-31",
+      "notes": "1,016 Blackwell Ultra GPU supercomputer, 9 exaflops detail."
+    },
+    {
+      "id": "drugdiscovery-2026",
+      "type": "Press",
+      "name": "Drug Discovery Trends — Lilly and NVIDIA Unveil $1B Lab",
+      "url": "https://www.drugdiscoverytrends.com/lilly-and-nvidia-unveil-1b-co-innovation-lab-in-sf/",
+      "timestamp": null,
+      "sourceDate": "2026-01-12",
+      "collectedDate": "2026-01-31",
+      "notes": "24/7 wet-dry lab loop, robotics, digital twins."
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.8,
+    "speedVsDepth": -0.9,
+    "centralVsDistributed": 0.4,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": -1.0
+  },
+
+  "openQuestions": [
+    "How does the NVIDIA co-innovation lab integrate with existing hubs? Is it a separate structure or embedded?",
+    "What is the formal reporting relationship between hub leaders and corporate leadership?",
+    "How are decisions made about which therapeutic areas get hubs?"
+  ],
+
+  "taxonomyFeedback": [
+    "Eli Lilly's hub model is closer to a federation of Research Labs than a single Research Lab. The taxonomy may benefit from distinguishing centralized vs. decentralized Research Labs.",
+    "The NVIDIA partnership adds a Venture Builder (5b) element — hybrid classification (Model 1 + 5b) captures this but may need a cleaner notation."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "High",
+    "convertedFrom": "library/cases/eli-lilly.json"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "publicis-groupe",
+  "name": "Publicis Groupe",
+  "title": "AI Center of Excellence + Enterprise AI Factories with NVIDIA",
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Tentative Model 2 (CoE). Publicis created an AI Center of Excellence and 'Enterprise AI Factories' in partnership with NVIDIA. Publicis Sapient (tech consulting arm) launching AI Factory Solutions. Central AI capability serving group agencies. Low confidence: minimal data on internal structure, headcount, reporting.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Advertising/Media",
+    "sector": "Marketing Services / Consulting",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Paris, France",
+    "geography": "Global"
+  },
+  "description": "Publicis Groupe created an AI Center of Excellence and 'Enterprise AI Factories' in partnership with NVIDIA. Publicis Sapient (the group's tech consulting arm) is launching 'AI Factory Solutions' — a full-stack service for clients to manage the entire AI lifecycle.\n\nThe combined team across Publicis Sapient and NVIDIA advances enterprise AI integration. This represents the advertising/media industry creating dedicated AI organizational structures.",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Publicis Groupe creates AI CoE and Enterprise AI Factories with NVIDIA. Publicis Sapient launches AI Factory Solutions.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Publicis Groupe PR — AI CoE + NVIDIA",
+      "url": "https://www.publicisgroupe.com/en/news/press-releases/publicis-groupe-to-create-ai-center-of-excellence-and-enterprise-ai-factories-with-nvidia",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.4,
+    "speedVsDepth": 0.2,
+    "centralVsDistributed": -0.4,
+    "namedVsQuiet": -0.4,
+    "longVsShortHorizon": 0.3
+  },
+  "openQuestions": [
+    "How large is the dedicated AI CoE team?",
+    "How does this relate to Publicis's existing Marcel AI platform?",
+    "What's the org structure of the NVIDIA partnership team?"
+  ],
+  "taxonomyFeedback": [
+    "Advertising/media industry AI CoE adoption is a new sector for the collection.",
+    "NVIDIA as CoE partnership enabler is a pattern worth tracking — NVIDIA appears in multiple specimens (Publicis, LG, Eli Lilly) as AI infrastructure partner."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

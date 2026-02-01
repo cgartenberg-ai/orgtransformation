@@ -1,0 +1,249 @@
+{
+  "id": "meta-ai",
+  "name": "Meta",
+  "title": "Meta Superintelligence Labs — 4-Unit Consolidation",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 1,
+    "secondaryModelName": "Research Lab",
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "High",
+    "classificationRationale": "RECLASSIFIED from Model 1 (Research Lab) to Model 4 (Hybrid/Hub-and-Spoke). The Oct 2025 restructuring consolidated Meta's AI into a 4-unit Meta Superintelligence Labs (MSL) under Alexandr Wang: (1) TBD Lab (LLMs), (2) FAIR (long-term research), (3) Products & Applied Research, (4) MSL Infra. This is a classic hub-and-spoke with MSL as the hub and 4 specialized units as spokes. FAIR retains as secondary Model 1 element but is now subordinated to product-driven leadership. The departure of chief scientist LeCun signals that pure research autonomy was sacrificed for product coordination. High confidence: 8+ sources with detailed structural information.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Social Media / AI Research",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Menlo Park, CA",
+    "geography": "Global"
+  },
+  "description": "Meta reorganized its AI division into Meta Superintelligence Labs (MSL) with 4 units: (1) TBD Lab (LLMs including Llama), (2) FAIR (long-term research), (3) Products & Applied Research (led by Nat Friedman, former GitHub CEO), and (4) MSL Infrastructure. The consolidation is led by Alexandr Wang (28, founder/former CEO of Scale AI), whom Meta appointed as Chief AI Officer after acquiring a 49% stake in Scale AI for $14.3 billion.\n\nIn October 2025, Meta cut approximately 600 positions from MSL but notably spared the TBD Lab unit. Wang's internal memo explained: 'By reducing the size of our team, fewer conversations will be required to make a decision, and each person will be more load-bearing and have more scope and impact.'\n\nThe restructuring triggered the departure of Yann LeCun (Turing Award winner, Meta's Chief AI Scientist for 12 years), who publicly stated: 'You don't tell a researcher what to do. You certainly don't tell a researcher like me what to do.' LeCun left to found AMI Labs, pursuing alternative AI approaches (world models via V-JEPA). The departure represents a fundamental tension: Meta shifted from protecting long-term research autonomy (FAIR under LeCun) to subordinating research to product-driven commercial objectives (MSL under Wang).\n\nMeta is aggressively recruiting AI talent: 11 new researchers from DeepMind, OpenAI, and Anthropic, with Zuckerberg personally recruiting at his homes. New model roadmap includes Mango (image/video) and Avocado (text/reasoning) for H1 2026. Separately, Stratechery reported Meta is retreating from Reality Labs to fund AI infrastructure ('Meta Compute').",
+  "observableMarkers": {
+    "reportingStructure": "4-unit MSL under Alexandr Wang (CAIO). FAIR, TBD Lab, Products & Applied Research, MSL Infra. Wang reports to Zuckerberg.",
+    "resourceAllocation": "$14.3B for 49% Scale AI stake. ~600 positions cut Oct 2025 (TBD Lab spared). Aggressive 7-9 figure talent packages.",
+    "timeHorizons": "Shifted from long-term research (FAIR era) toward product delivery (MSL era). Mango + Avocado models for H1 2026.",
+    "decisionRights": "Consolidated under Wang. Wang memo: 'fewer conversations... each person more load-bearing.'",
+    "metrics": "$14.3B Scale AI acquisition. ~600 layoffs. 11 new AI researchers from competitors. Mango + Avocado models in pipeline."
+  },
+  "mechanisms": [
+    {
+      "id": 6,
+      "name": "Merge Competing AI Teams Under Single Leader",
+      "evidence": "Previous dual-track (GenAI under Chris Cox + FAIR under LeCun) consolidated into 4-unit MSL under single leader Alexandr Wang. Multiple reshuffles in rapid succession.",
+      "strength": "Strong"
+    },
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "COUNTER-EXAMPLE: Meta FAILED to protect off-strategy research. LeCun's departure demonstrates what happens when exploration (FAIR) is subordinated to execution (product-driven MSL). Research autonomy sacrificed for coordination.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "You don't tell a researcher what to do. You certainly don't tell a researcher like me what to do.",
+      "speaker": "Yann LeCun",
+      "speakerTitle": "former Chief AI Scientist, Meta",
+      "source": "The Decoder",
+      "sourceUrl": "https://the-decoder.com/you-certainly-dont-tell-a-researcher-like-me-what-to-do-says-lecun-as-he-exits-meta-for-his-own-startup/",
+      "timestamp": null,
+      "date": "2026-01"
+    },
+    {
+      "text": "By reducing the size of our team, fewer conversations will be required to make a decision, and each person will be more load-bearing and have more scope and impact.",
+      "speaker": "Alexandr Wang",
+      "speakerTitle": "Head of Meta Superintelligence Labs",
+      "source": "Internal memo via Axios",
+      "sourceUrl": "https://www.axios.com/2025/10/22/meta-superintelligence-tbd-ai-reorg",
+      "timestamp": null,
+      "date": "2025-10-22"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Meta Compute & Reality Labs Retreat",
+      "summary": "Stratechery reported Meta retreating from Reality Labs to fund AI infrastructure ('Meta Compute'). Zuckerberg bet: winning in AI means winning with infrastructure.",
+      "classification": null,
+      "sourceRefs": ["stratechery-meta-compute-2026"]
+    },
+    {
+      "date": "2025-10",
+      "label": "MSL Consolidation & Layoffs",
+      "summary": "EVOLUTION: Previous dual-track (GenAI under Chris Cox + FAIR under LeCun) → consolidated 4-unit MSL under Alexandr Wang. ~600 positions cut (TBD Lab spared). Wang appointed CAIO via $14.3B Scale AI deal. Mango + Avocado models for H1 2026. LeCun departed to found AMI Labs. 11 researchers poached from DeepMind, OpenAI, Anthropic.",
+      "classification": "Model 1 (Research Lab) → reclassified to Model 4 (Hybrid/Hub-and-Spoke)",
+      "sourceRefs": ["mlq-reorg-2025", "storyboard-wang-2025", "axios-layoffs-2025", "puck-reorg-2025", "mlq-models-2026"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Latest Update (pre-conversion)",
+      "summary": "Yann LeCun left Meta to found AMI Labs. Alexandr Wang leading MSL. Multiple competitive hires.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025",
+      "label": "Initial Documentation",
+      "summary": "Meta's AI organization splitting between FAIR and new Superintelligence Labs.",
+      "classification": "Model 1 (Research Lab)",
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4",
+        "source-5"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Fortune November 2025",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Fortune December 2025",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Nasdaq News",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "The Decoder",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-5",
+      "type": "LinkedIn",
+      "name": "LinkedIn News",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "mlq-reorg-2025",
+      "type": "Press",
+      "name": "MLQ.ai — Meta AI Major Restructure",
+      "url": "https://mlq.ai/news/meta-ai-undergoes-major-restructure-as-alexandr-wang-takes-full-control/",
+      "timestamp": null,
+      "sourceDate": "2025-10-22",
+      "collectedDate": "2026-01-31",
+      "notes": "4-unit MSL structure, 11 competitive hires."
+    },
+    {
+      "id": "storyboard-wang-2025",
+      "type": "Press",
+      "name": "Storyboard18 — Alexandr Wang Profile",
+      "url": "https://www.storyboard18.com/brand-makers/who-is-alexandr-wang-the-28-year-old-hired-by-meta-for-14-billion-to-head-their-superintelligence-labs-82037.htm",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-01-31",
+      "notes": "Wang profile, $14.3B Scale AI deal."
+    },
+    {
+      "id": "axios-layoffs-2025",
+      "type": "Press",
+      "name": "Axios — Meta Superintelligence TBD AI Reorg",
+      "url": "https://www.axios.com/2025/10/22/meta-superintelligence-tbd-ai-reorg",
+      "timestamp": null,
+      "sourceDate": "2025-10-22",
+      "collectedDate": "2026-01-31",
+      "notes": "~600 layoffs, TBD Lab spared, Wang memo."
+    },
+    {
+      "id": "puck-reorg-2025",
+      "type": "Press",
+      "name": "Puck — Why Did Meta Reorganize Its AI Unit... Again?",
+      "url": "https://puck.news/why-did-meta-reorganize-its-ai-unit-again/",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-01-31",
+      "notes": "Insider analysis of repeated reorgs."
+    },
+    {
+      "id": "mlq-models-2026",
+      "type": "Press",
+      "name": "MLQ.ai — Mango and Avocado Models for 2026",
+      "url": "https://mlq.ai/news/meta-readies-nextgeneration-mango-and-avocado-ai-models-for-2026-launch/",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": "New model roadmap post-restructuring."
+    },
+    {
+      "id": "stratechery-meta-compute-2026",
+      "type": "Substack",
+      "name": "Stratechery — Meta Compute, The Meta-OpenAI Battle, The Reality Labs Sacrifice",
+      "url": "https://stratechery.com/2026/meta-compute-the-meta-openai-battle-the-reality-labs-sacrifice/",
+      "timestamp": null,
+      "sourceDate": "2026-01-14",
+      "collectedDate": "2026-01-31",
+      "notes": "[paywall] Zuckerberg bet on AI infrastructure over Reality Labs."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": 0.5,
+    "centralVsDistributed": -0.4,
+    "namedVsQuiet": -0.9,
+    "longVsShortHorizon": 0.4
+  },
+  "openQuestions": [
+    "How does FAIR operate within MSL? Does it retain research autonomy or is it now directed by product needs?",
+    "What happened to Chris Cox's role in the AI structure?",
+    "How has the 600-person layoff affected specific research programs?",
+    "Will the aggressive talent poaching and lavish packages create sustainable team dynamics?"
+  ],
+  "taxonomyFeedback": [
+    "RECLASSIFICATION: Model 1 → Model 4. Meta's evolution demonstrates how a Research Lab model can be subordinated to a Hub-and-Spoke model when product urgency overrides research autonomy. LeCun's departure is a clear signal of this transition.",
+    "Meta is a powerful counter-example for Mechanism #1 (Protect Off-Strategy Work): when the CEO stops protecting research autonomy, the chief scientist leaves and the research lab loses its independence.",
+    "The 'repeated reorgs' pattern (Puck: 'Why Did Meta Reorganize Its AI Unit... Again?') suggests organizational instability as a cost of rapid strategic pivots. The taxonomy doesn't capture the costs of excessive structural flexibility."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "High",
+    "convertedFrom": "library/cases/meta-ai.json"
+  }
+}

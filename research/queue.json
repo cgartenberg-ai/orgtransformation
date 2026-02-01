@@ -1,0 +1,202 @@
+{
+  "description": "Curation queue — research sessions awaiting Phase 2 processing. Updated by Phase 1 (add entries) and Phase 2 (mark curated).",
+  "lastUpdated": "2026-02-01",
+  "queue": [
+    {
+      "sessionFile": "2026-01-31-no-priors-jensen-huang.md",
+      "sessionDate": "2026-01-31",
+      "source": "No Priors — Jensen Huang (2026-01-08)",
+      "organizationsFound": [
+        "nvidia"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-01-31-curation.md"
+    },
+    {
+      "sessionFile": "2026-01-31-multi-source-session.md",
+      "sessionDate": "2026-01-31",
+      "source": "Cheeky Pint + Latent Space + Press (CAIO + AI lab searches)",
+      "organizationsFound": [
+        "anthropic",
+        "microsoft",
+        "intercom",
+        "ubs",
+        "commonwealth-bank",
+        "us-cyber-command",
+        "fda",
+        "illinois-state",
+        "boston-dynamics-deepmind",
+        "world-labs",
+        "harvey-ai"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-01-31-curation.md"
+    },
+    {
+      "sessionFile": "2026-01-31-substacks-bg2-press.md",
+      "sessionDate": "2026-01-31",
+      "source": "Stratechery + One Useful Thing + BG2 Pod + Press (CAIO, AI lab, AI reorg searches)",
+      "organizationsFound": [
+        "meta",
+        "google",
+        "eli-lilly",
+        "wells-fargo",
+        "salesforce",
+        "openai",
+        "anthropic",
+        "nasa",
+        "ami-labs",
+        "databricks",
+        "glean",
+        "hp",
+        "tesla"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-01-31-curation.md"
+    },
+    {
+      "sessionFile": "2026-01-31-bulk-review-batch1.md",
+      "sessionDate": "2026-01-31",
+      "source": "Bulk curation review — legacy specimens (batch 1/4: High + Medium + first Low)",
+      "organizationsFound": [
+        "google-x",
+        "bank-of-america",
+        "pg-chatpg",
+        "samsung-c-lab",
+        "abb",
+        "accenture-openai",
+        "adobe-firefly",
+        "allianz-anthropic",
+        "amazon-agi",
+        "bcg-trailblazers"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-01-31-batch1-curation.md"
+    },
+    {
+      "sessionFile": "2026-01-31-bulk-review-batch2.md",
+      "sessionDate": "2026-01-31",
+      "source": "Bulk curation review — legacy specimens (batch 2/4)",
+      "organizationsFound": [
+        "bosch-bcai",
+        "bytedance",
+        "dai-nippon-printing",
+        "deloitte",
+        "duolingo",
+        "google-deepmind",
+        "hyundai-robotics",
+        "ig-group",
+        "jpmorgan",
+        "klarna",
+        "lg-electronics"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-01-31-batch2-curation.md"
+    },
+    {
+      "sessionFile": "2026-01-31-bulk-review-batch3.md",
+      "sessionDate": "2026-01-31",
+      "source": "Bulk curation review — legacy specimens (batch 3/4)",
+      "organizationsFound": [
+        "mckinsey-quantumblack",
+        "mckinsey-workforce",
+        "mercado-libre",
+        "moderna",
+        "novo-nordisk",
+        "palo-alto-networks",
+        "pfizer",
+        "recursion",
+        "roche-genentech",
+        "sanofi",
+        "sap"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-01-31-batch3-curation.md"
+    },
+    {
+      "sessionFile": "2026-01-31-bulk-review-batch4.md",
+      "sessionDate": "2026-01-31",
+      "source": "Bulk curation review — legacy specimens (batch 4/4)",
+      "organizationsFound": [
+        "schneider-electric",
+        "servier",
+        "shopify",
+        "siemens",
+        "snowflake",
+        "tencent",
+        "thinking-machines-lab",
+        "uk-government",
+        "walmart",
+        "waystar"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-01-31-batch4-curation.md"
+    },
+    {
+      "sessionFile": "2026-01-31-gap-coverage-session.md",
+      "sessionDate": "2026-01-31",
+      "source": "Dwarkesh + Acquired + The Generalist + Import AI + No Priors + Press (AI lab, CAIO, reorg, CoE, venture studio searches)",
+      "organizationsFound": [
+        "amazon",
+        "coca-cola",
+        "infosys",
+        "lg-electronics",
+        "uk-government",
+        "ci-med",
+        "nordic-semiconductor",
+        "univers-ial",
+        "google",
+        "microsoft",
+        "sunday-robotics"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-01-31-gap-coverage-curation.md"
+    },
+    {
+      "sessionFile": "2026-01-31-deep-scan-session.md",
+      "sessionDate": "2026-01-31",
+      "source": "Dwarkesh (Nadella + Sutskever deep-scans) + Acquired (Google AI + Taylor/Bavor deep-scans) + Cheeky Pint (catch-up) + Stratechery (catch-up) + Press",
+      "organizationsFound": [
+        "microsoft",
+        "ssi",
+        "google",
+        "sierra-ai",
+        "citigroup"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-01-31-deep-scan-curation.md"
+    },
+    {
+      "sessionFile": "2026-01-31-tier2-podcasts-press-session.md",
+      "sessionDate": "2026-01-31",
+      "source": "Cognitive Revolution (Atlassian deep-scan) + Conversations with Tyler (Clark/Anthropic, Foody/Mercor) + Pragmatic Engineer + One Useful Thing + Press (Pinterest, Dow, Salesforce CAIO, Publicis, UPS)",
+      "organizationsFound": [
+        "atlassian",
+        "pinterest",
+        "dow",
+        "mercor",
+        "salesforce",
+        "anthropic",
+        "publicis-groupe",
+        "ups"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-01-31-tier2-curation.md"
+    },
+    {
+      "sessionFile": "2026-02-01-001-research-press-podcasts-reports.md",
+      "sessionDate": "2026-02-01",
+      "source": "Press keyword searches (AI restructuring, CAIO, AI lab, AI CoE, AI layoffs Feb 2026) + BG2 Pod feed check + Invest Like the Best triage + HBR + PwC CAIO report + Mercer GTT 2026",
+      "organizationsFound": [
+        "indostar-capital",
+        "ntt-data",
+        "invent-advisory",
+        "ups",
+        "microsoft",
+        "pwc"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-01-curation.md"
+    }
+  ]
+}

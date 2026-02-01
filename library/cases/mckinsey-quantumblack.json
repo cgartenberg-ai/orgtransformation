@@ -1,0 +1,37 @@
+{
+  "id": "mckinsey-quantumblack",
+  "company": "McKinsey / QuantumBlack",
+  "title": "Domain Expertise Acquisition",
+  "summary": "Acquired F1 racing analytics firm, scaled from 45 to 1,200+ practitioners",
+  "diagramTemplate": "external-acquisition",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "resource-allocation",
+    "information-architecture"
+  ],
+  "designPrinciples": [
+    "domain-expertise",
+    "a-team-capability"
+  ],
+  "content": {
+    "whatItIs": "A model where AI capability was acquired through purchasing a company with deep domain expertise in a specific, high-stakes field (Formula 1 racing), then generalized to enterprise contexts.",
+    "howItWorks": [
+      "QuantumBlack founded 2009 in London, specialized in F1 racing analytics\u2014optimizing split-second decisions with advanced data science",
+      "McKinsey's insight in 2015: analytical rigor developed for F1 (where milliseconds matter) would translate to enterprise contexts",
+      "Acquired the 45-person startup (11 data scientists) and began expanding",
+      "The F1 heritage provides credibility: 'we optimized the fastest sport in the world'"
+    ],
+    "coreInsight": "The best enterprise AI capabilities may come from acquiring teams who've solved extreme versions of common problems. F1 racing analytics to supply chain optimization is a more credible path than pure consulting to AI services.",
+    "keyMetrics": "From 45 people in 2015 to 1,200+ practitioners by 2022, now McKinsey's center of excellence for AI, gen AI, and agentic AI. Products: Horizon (AI platform), Lilli (internal knowledge assistant), GAIL (generative AI library), Agents-at-Scale framework.",
+    "sources": [
+      "McKinsey Blog",
+      "Consultancy.uk",
+      "Management Consulted"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "phenotype": "product-venture-lab",
+  "phenotypeSubtype": "platform-to-product",
+  "lastUpdated": "2026-01-20"
+}

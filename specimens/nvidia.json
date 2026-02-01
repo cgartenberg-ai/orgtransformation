@@ -1,0 +1,190 @@
+{
+  "id": "nvidia",
+  "name": "NVIDIA",
+  "title": "Information Symmetry as Lab",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Auto-converted from legacy phenotype 'hybrid'. NVIDIA operates with extreme information transparency (60 direct reports, no 1:1s, Top Five emails) rather than classic hub-and-spoke. Classification holds but may need refinement — NVIDIA's model is closer to a flat network than a traditional hub-spoke. Pervasive AI tool adoption across engineering suggests contextual elements within structural frame.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Semiconductors / AI Infrastructure",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Santa Clara, CA",
+    "geography": "Global"
+  },
+  "description": "A model where the 'lab' is essentially the entire company operating with complete information transparency—no separate innovation function because innovation is expected everywhere.\n- CEO Jensen Huang manages 60 direct reports with no one-on-one meetings\n- 'All NVIDIA execs should be able to learn from the feedback he provides to any one of them'\n- Instead of private meetings, Huang prefers mass gatherings where he reasons through decisions aloud\n- Every morning, Huang reads about 100 'Top Five Things' emails from employees across the company—summaries of what each person wants leadership to know\n- Uses these to 'stochastically sample the system' and sense whether the company is moving in the right direction\n- No long-term or short-term plans: 'the company adopts a flexible approach, constantly re-evaluating based on ever-evolving business conditions'\n\nInternally, NVIDIA engineers use AI coding assistants (Cursor) 'pervasively.' Jensen frames AI's role through a 'purpose vs. tasks' lens: the purpose of a software engineer is to solve problems; coding is just one task. This philosophy drives how NVIDIA deploys AI internally — not replacing roles but redefining what roles do. Jensen argues productivity gains should lead to exploring more ideas and growth, not headcount reduction, and NVIDIA continues aggressive hiring despite AI productivity gains.",
+  "observableMarkers": {
+    "reportingStructure": "60 direct reports to CEO, no one-on-one meetings. Flat structure with information transparency.",
+    "resourceAllocation": null,
+    "timeHorizons": "Flexible — no long-term or short-term plans; constant re-evaluation.",
+    "decisionRights": "CEO reasons through decisions aloud in mass gatherings. Stochastic sampling via daily 'Top Five Things' emails.",
+    "metrics": "Huang says he is 'allergic to hierarchy and corporate silos.' Engineers use AI coding tools (Cursor) pervasively."
+  },
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "Identified via design principle 'governance-lets-it-cook' in original case data. Evidence needs strengthening from sources.",
+      "strength": "Moderate"
+    },
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "evidence": "Jensen Huang frames AI adoption through personal 'purpose vs. tasks' philosophy and argues engineers should aspire to a future where 'none of them are coding at all — they're just solving problems.' Indicates CEO-level engagement with AI tool implications.",
+      "strength": "Emerging"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The mission as the boss",
+      "speaker": null,
+      "speakerTitle": null,
+      "source": null,
+      "sourceUrl": null,
+      "timestamp": null,
+      "date": null
+    },
+    {
+      "text": "The purpose of a software engineer is to solve known problems and to find new problems to solve. Coding is one of the tasks.",
+      "speaker": "Jensen Huang",
+      "speakerTitle": "CEO, NVIDIA",
+      "source": "No Priors Podcast",
+      "sourceUrl": "https://open.spotify.com/episode/4kSlkESoQ8GPU6meWACSlf",
+      "timestamp": "~37:49",
+      "date": "2026-01-08"
+    },
+    {
+      "text": "The more productive we are, the more ideas we can explore, the more growth as a result.",
+      "speaker": "Jensen Huang",
+      "speakerTitle": "CEO, NVIDIA",
+      "source": "No Priors Podcast",
+      "sourceUrl": "https://open.spotify.com/episode/4kSlkESoQ8GPU6meWACSlf",
+      "timestamp": "~04:12",
+      "date": "2026-01-08"
+    },
+    {
+      "text": "Nothing would give me more joy than none of them are coding at all. They're just solving problems.",
+      "speaker": "Jensen Huang",
+      "speakerTitle": "CEO, NVIDIA",
+      "source": "No Priors Podcast",
+      "sourceUrl": "https://open.spotify.com/episode/4kSlkESoQ8GPU6meWACSlf",
+      "timestamp": "~37:49",
+      "date": "2026-01-08"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "CEO AI Philosophy & Internal Adoption",
+      "summary": "Jensen Huang on No Priors podcast revealed pervasive Cursor usage among NVIDIA engineers and articulated 'purpose vs. tasks' framework: coding is a task, solving problems is the purpose. Productivity gains → more exploration and growth, not headcount cuts. NVIDIA continues aggressive hiring.",
+      "classification": null,
+      "sourceRefs": ["no-priors-huang-2026"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "A model where the 'lab' is essentially the entire company operating with complete information transparency—no separate innovation function because innovation is expected everywhere.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Fortune",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "CNBC",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Tom's Hardware",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Podcast",
+      "name": "Dwarkesh Podcast",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "no-priors-huang-2026",
+      "type": "Podcast",
+      "name": "No Priors — Jensen Huang on Reasoning Models, Robotics, and Refuting the 'AI Bubble' Narrative",
+      "url": "https://open.spotify.com/episode/4kSlkESoQ8GPU6meWACSlf",
+      "timestamp": "~37:49, ~04:12",
+      "sourceDate": "2026-01-08",
+      "collectedDate": "2026-01-31",
+      "notes": "Light on org structure specifics. Focus on macro AI trends, internal Cursor adoption, and purpose vs. tasks philosophy."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.3,
+    "speedVsDepth": 0.4,
+    "centralVsDistributed": 0.6,
+    "namedVsQuiet": 0.5,
+    "longVsShortHorizon": 0.0
+  },
+  "openQuestions": [
+    "How is NVIDIA's internal AI research structured? Do they have separate exploration labs vs. product teams?",
+    "What is NVIDIA's internal AI adoption rate beyond engineering (e.g., sales, operations, legal)?",
+    "How does NVIDIA's organizational structure handle the tension between its GPU business (execution) and its AI research/software ambitions (exploration)?"
+  ],
+  "taxonomyFeedback": [
+    "NVIDIA's flat, information-transparent structure with 60 direct reports doesn't fit the traditional Hub-and-Spoke model well. It's closer to an anti-hierarchical whole-company lab. May need a sub-type or reclassification as Model 6c (grassroots) at the company level.",
+    "Jensen's 'purpose vs. tasks' framework and pervasive Cursor adoption suggest contextual orientation elements within an ostensibly structural frame."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/nvidia.json"
+  }
+}

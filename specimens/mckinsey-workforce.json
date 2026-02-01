@@ -1,0 +1,116 @@
+{
+  "id": "mckinsey-workforce",
+  "name": "McKinsey (Workforce Transformation)",
+  "title": "25% Growth, 25% Cut Workforce Rebalancing",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Low",
+    "classificationRationale": "RECLASSIFIED from Model 2 (CoE). The specimen data describes enterprise-wide workforce rebalancing from AI adoption, not a CoE structure. The actual structural AI unit (QuantumBlack) is captured in the mckinsey-quantumblack specimen. This specimen captures the contextual workforce transformation: AI changes the composition of ALL roles across McKinsey. Model 6a fits because the data describes mass adoption changing how work is staffed. Confidence Low because the data is CEO commentary about workforce impact, not detailed structural description.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Professional Services",
+    "sector": "Management Consulting",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "New York, NY",
+    "geography": "Global"
+  },
+  "description": "This specimen captures McKinsey's enterprise-wide workforce transformation under AI, as articulated by CEO Bob Sternfels. Rather than describing a distinct AI organizational structure (see mckinsey-quantumblack for that), this documents how AI adoption reshapes the entire consulting workforce.\n\nSternfels described AI as having 'fundamentally changed how McKinsey staffs its business, allowing it to add and cut jobs in equal measure' — approximately 25% growth in some roles and 25% cuts in others simultaneously. This is not a one-time restructuring but continuous workforce rebalancing.\n\nThe skills half-life insight is structural: ROI on employee skills has shrunk from ~7 years to 3.6 years over 30 years, and is accelerating. This implies the traditional training/upskilling approach needs fundamental rethinking. The CEO priority has shifted from strategy to organizational speed.",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": "Skills ROI shrinking from ~7 years to 3.6 years — implies accelerating rebalancing cycles",
+    "decisionRights": null,
+    "metrics": "~25% growth and ~25% cuts simultaneously across different role types"
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "RECLASSIFIED: Model 2 (CoE) → Model 6a (Enterprise-Wide Adoption). Industry fixed from Technology to Professional Services. Specimen describes workforce transformation, not AI org structure. QuantumBlack specimen captures the structural AI approach; this captures the contextual workforce impact. Downgraded to Stub.",
+      "classification": "Model 2 (Center of Excellence)",
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "McKinsey CEO Bob Sternfels articulated one of the most honest frameworks for AI's workforce impact: AI has 'fundamentally changed how McKinsey staffs its business, allowing it to add and cut jobs in equal measure'—approximately 25% growth in some roles and 25% cuts in others.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Yahoo Finance",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Podcast",
+      "name": "All-In Podcast (CES 2026)",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Fortune Leadership Next",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.7,
+    "speedVsDepth": 0.5,
+    "centralVsDistributed": null,
+    "namedVsQuiet": 0.5,
+    "longVsShortHorizon": 0.3
+  },
+  "openQuestions": [
+    "What specific roles are growing vs. being cut?",
+    "How does McKinsey's workforce rebalancing differ from competitor firms (BCG, Bain)?",
+    "Is the 25%/25% pattern a one-time shift or ongoing continuous rebalancing?",
+    "What is the relationship between QuantumBlack-driven AI capability and firm-wide workforce transformation?"
+  ],
+  "taxonomyFeedback": [
+    "This specimen captures workforce IMPACT of AI, not organizational STRUCTURE for AI. Consider whether such specimens belong in the herbarium or should be a separate collection.",
+    "The 'equal measure' growth/cut pattern is a potentially important structural observation about how firms absorb AI — distinct from how they organize AI development."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/mckinsey-workforce.json"
+  }
+}

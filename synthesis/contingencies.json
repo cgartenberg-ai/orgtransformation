@@ -1,0 +1,147 @@
+{
+  "description": "Living document — key contingencies that determine which structural approach is appropriate. Updated during Phase 3 synthesis sessions.",
+  "lastUpdated": "2026-02-01",
+  "contingencies": [
+    {
+      "id": "regulatoryIntensity",
+      "name": "Regulatory Intensity",
+      "whatItDetermines": "How much structure, documentation, and oversight AI deployment requires.",
+      "high": {
+        "label": "High regulatory intensity (healthcare, finance, government)",
+        "favors": ["Centralized governance", "Audit trails", "Formal review processes"],
+        "mechanisms": [8],
+        "specimens": ["allianz-anthropic", "ubs", "pfizer", "wells-fargo", "commonwealth-bank", "nasa", "us-cyber-command", "fda", "eli-lilly", "bank-of-america", "jpmorgan", "moderna", "novo-nordisk", "roche-genentech", "sanofi", "servier", "tencent", "recursion", "ci-med", "citigroup", "waystar", "indostar-capital", "invent-advisory", "pwc"]
+      },
+      "medium": {
+        "label": "Medium regulatory intensity (industrial, enterprise tech, diversified)",
+        "favors": ["Balanced governance", "Risk-proportionate oversight"],
+        "mechanisms": [],
+        "specimens": ["amazon-agi", "amazon", "abb", "adobe-firefly", "sap", "microsoft", "siemens", "schneider-electric", "mercado-libre", "palo-alto-networks", "ssi", "anthropic", "univers-ial", "dow", "ups", "ntt-data"]
+      },
+      "low": {
+        "label": "Low regulatory intensity (tech, consumer, consulting)",
+        "favors": ["Distributed autonomy", "Rapid deployment", "Less documentation"],
+        "mechanisms": [5],
+        "specimens": ["pg-chatpg", "shopify", "intercom", "nvidia", "google-x", "samsung-c-lab", "bcg-trailblazers", "mckinsey-quantumblack", "mckinsey-workforce", "coca-cola", "infosys", "nordic-semiconductor", "snowflake", "atlassian", "pinterest", "thinking-machines-lab", "mercor", "sierra-ai", "publicis-groupe"]
+      }
+    },
+    {
+      "id": "timeToObsolescence",
+      "name": "Time-to-Obsolescence of Core Business",
+      "whatItDetermines": "Urgency of exploration and willingness to cannibalize.",
+      "high": {
+        "label": "High urgency (core business threatened by AI)",
+        "favors": ["Aggressive exploration", "Willingness to disrupt self"],
+        "notes": "May require structural separation to protect exploration from defensive execution",
+        "mechanisms": [],
+        "specimens": ["intercom", "meta-ai", "tesla", "samsung-c-lab", "bcg-trailblazers", "shopify", "tencent", "amazon", "adobe-firefly", "mckinsey-quantumblack", "mckinsey-workforce", "infosys", "microsoft", "anthropic", "thinking-machines-lab", "mercor", "sierra-ai", "snowflake", "atlassian", "pinterest", "palo-alto-networks", "publicis-groupe", "ntt-data", "pwc"]
+      },
+      "medium": {
+        "label": "Medium urgency (AI augments but doesn't replace core)",
+        "favors": ["Phased transformation", "Hybrid approaches"],
+        "notes": "Window of opportunity exists but not existential",
+        "mechanisms": [],
+        "specimens": ["google-x", "bank-of-america", "amazon-agi", "moderna", "walmart", "mercado-libre", "nordic-semiconductor", "univers-ial", "citigroup", "waystar", "sap", "indostar-capital", "invent-advisory"]
+      },
+      "low": {
+        "label": "Low urgency (core business stable)",
+        "favors": ["Integration", "Incremental improvement"],
+        "notes": "Risk of complacency, missing transformation window",
+        "mechanisms": [],
+        "specimens": ["eli-lilly", "pg-chatpg", "novo-nordisk", "pfizer", "roche-genentech", "sanofi", "servier", "recursion", "ssi", "siemens", "schneider-electric", "ci-med", "dow", "ups", "coca-cola"]
+      }
+    },
+    {
+      "id": "ceoTenure",
+      "name": "CEO Tenure and Mandate",
+      "whatItDetermines": "Ability to sustain structural change through organizational resistance.",
+      "high": {
+        "label": "Long tenure, strong mandate",
+        "favors": ["Structural changes that take years to pay off", "Protecting exploration from short-term pressure"],
+        "mechanisms": [1],
+        "specimens": ["eli-lilly", "nvidia", "microsoft", "commonwealth-bank", "google-x", "bank-of-america", "tencent"]
+      },
+      "founder": {
+        "label": "Founder-led (unique authority to transform)",
+        "favors": ["Radical structural change", "AI-first mandates", "Top-down transformation"],
+        "notes": "Founders can impose structural changes that hired CEOs cannot — critical for AI-first transformations",
+        "mechanisms": [7],
+        "specimens": ["shopify", "mercado-libre", "recursion", "anthropic", "thinking-machines-lab", "mercor", "sierra-ai", "ssi"]
+      },
+      "medium": {
+        "label": "Medium tenure, moderate mandate",
+        "favors": ["Balanced approach", "Building coalitions"],
+        "mechanisms": [],
+        "specimens": ["pg-chatpg", "samsung-c-lab", "amazon-agi", "bcg-trailblazers", "amazon", "sap", "siemens"]
+      },
+      "low": {
+        "label": "Short tenure, weak mandate",
+        "favors": ["Quick wins", "Working within existing structures", "Contextual over structural ambidexterity"],
+        "mechanisms": [],
+        "specimens": ["snowflake"]
+      },
+      "new": {
+        "label": "New CEO (transformation mandate)",
+        "favors": ["Restructuring as signal of change", "Hiring new AI leadership"],
+        "notes": "New CEOs often use AI strategy as a way to mark a break from the past",
+        "mechanisms": [9],
+        "specimens": ["coca-cola"]
+      },
+      "critical": {
+        "label": "CEO as singular driver",
+        "favors": ["Concentration risk", "Strategy depends on individual conviction"],
+        "notes": "AI strategy is entirely CEO-dependent — succession risk is high",
+        "mechanisms": [],
+        "specimens": ["klarna"]
+      }
+    },
+    {
+      "id": "talentMarketPosition",
+      "name": "Talent Market Position",
+      "whatItDetermines": "Viable structural options for attracting/retaining AI talent.",
+      "high": {
+        "label": "Strong position (can attract top talent)",
+        "favors": ["Internal research labs", "Competing with startups for researchers"],
+        "mechanisms": [],
+        "specimens": ["meta-ai", "anthropic", "nvidia", "ami-labs", "google-x", "samsung-c-lab", "amazon-agi", "bcg-trailblazers", "adobe-firefly", "mckinsey-quantumblack", "mckinsey-workforce", "moderna", "roche-genentech", "tencent", "amazon", "microsoft", "ssi", "sierra-ai", "thinking-machines-lab", "mercor", "palo-alto-networks", "atlassian", "infosys", "snowflake", "mercado-libre", "ntt-data", "pwc"]
+      },
+      "low": {
+        "label": "Weak position (struggles to attract talent)",
+        "favors": ["Partner, acquire, or outsource", "Focus on deployment over development", "Model 4 (Hybrid) with external partnerships"],
+        "mechanisms": [],
+        "specimens": ["ubs", "commonwealth-bank", "us-cyber-command", "fda", "bank-of-america", "coca-cola", "novo-nordisk", "pfizer", "sanofi", "servier", "schneider-electric", "siemens", "walmart", "ci-med", "nordic-semiconductor", "citigroup", "pinterest", "dow", "publicis-groupe", "ups", "indostar-capital", "invent-advisory"]
+      },
+      "nonTraditional": {
+        "label": "Non-traditional talent strategy",
+        "favors": ["Retraining existing workforce", "Domain-specific AI talent", "Industry-specific pipelines"],
+        "notes": "Some organizations recruit domain experts and train them in AI rather than competing for AI researchers",
+        "mechanisms": [],
+        "specimens": ["pg-chatpg", "recursion", "waystar"]
+      }
+    },
+    {
+      "id": "technicalDebt",
+      "name": "Existing Technical Debt",
+      "whatItDetermines": "Ease of integrating AI into operations.",
+      "high": {
+        "label": "High technical debt",
+        "favors": ["Pilot approaches", "Gradual rollout", "Separate systems for AI work"],
+        "notes": "Requires infrastructure investment before AI value",
+        "mechanisms": [],
+        "specimens": ["ubs", "microsoft", "us-cyber-command", "fda", "allianz-anthropic", "sap", "siemens", "walmart", "citigroup", "dow", "ups"]
+      },
+      "medium": {
+        "label": "Medium technical debt",
+        "favors": ["Targeted modernization", "AI as catalyst for debt reduction"],
+        "mechanisms": [],
+        "specimens": ["bank-of-america", "pg-chatpg", "samsung-c-lab", "amazon-agi", "novo-nordisk", "pfizer", "roche-genentech", "sanofi", "schneider-electric", "tencent", "amazon", "mercado-libre", "infosys", "abb", "atlassian", "pinterest", "publicis-groupe", "waystar", "indostar-capital", "ntt-data"]
+      },
+      "low": {
+        "label": "Low technical debt",
+        "favors": ["Rapid AI integration", "Wide deployment", "Contextual integration"],
+        "mechanisms": [],
+        "specimens": ["anthropic", "nvidia", "intercom", "ami-labs", "google-x", "adobe-firefly", "bcg-trailblazers", "mckinsey-quantumblack", "mckinsey-workforce", "moderna", "palo-alto-networks", "recursion", "shopify", "snowflake", "thinking-machines-lab", "mercor", "ssi", "sierra-ai", "ci-med", "nordic-semiconductor", "univers-ial", "pwc"]
+      }
+    }
+  ]
+}

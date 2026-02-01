@@ -1,0 +1,39 @@
+{
+  "id": "nvidia",
+  "company": "NVIDIA",
+  "title": "Information Symmetry as Lab",
+  "summary": "60 direct reports, no 1:1s, daily Top 5 emails, public reasoning in group settings",
+  "diagramTemplate": "embedded-universal",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "information-architecture"
+  ],
+  "designPrinciples": [
+    "information-symmetry",
+    "governance-lets-it-cook"
+  ],
+  "content": {
+    "whatItIs": "A model where the 'lab' is essentially the entire company operating with complete information transparency\u2014no separate innovation function because innovation is expected everywhere.",
+    "howItWorks": [
+      "CEO Jensen Huang manages 60 direct reports with no one-on-one meetings",
+      "'All NVIDIA execs should be able to learn from the feedback he provides to any one of them'",
+      "Instead of private meetings, Huang prefers mass gatherings where he reasons through decisions aloud",
+      "Every morning, Huang reads about 100 'Top Five Things' emails from employees across the company\u2014summaries of what each person wants leadership to know",
+      "Uses these to 'stochastically sample the system' and sense whether the company is moving in the right direction",
+      "No long-term or short-term plans: 'the company adopts a flexible approach, constantly re-evaluating based on ever-evolving business conditions'"
+    ],
+    "coreInsight": "'The mission as the boss'\u2014prioritizing customer needs and technological breakthroughs over internal politics or predetermined roadmaps. Innovation doesn't need a separate container if everyone has complete context.",
+    "keyMetrics": "Huang says he is 'allergic to hierarchy and corporate silos.'",
+    "sources": [
+      "Fortune",
+      "CNBC",
+      "Tom's Hardware",
+      "Dwarkesh Podcast"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null,
+  "lastUpdated": "2026-01-20"
+}

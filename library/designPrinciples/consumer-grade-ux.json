@@ -1,0 +1,18 @@
+{
+  "id": "consumer-grade-ux",
+  "title": "Consumer-Grade UX Drives Enterprise Adoption",
+  "group": "lab-to-org",
+  "architecturalPrinciples": [
+    "locus-of-innovation"
+  ],
+  "insight": "Enterprise tools don't have to feel like enterprise tools. Consumer-grade UX dramatically increases adoption, and adoption is where value comes from.",
+  "manifestations": [
+    "Bank of America: extending consumer Erica to employees, achieving 90%+ adoption",
+    "'Erica for Everyone' philosophy",
+    "Measuring adoption like a consumer product (DAU, retention, NPS)"
+  ],
+  "test": "Would your employees choose to use your internal AI tools if they weren't required? If not, the UX isn't good enough.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

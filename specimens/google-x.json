@@ -1,0 +1,161 @@
+{
+  "id": "google-x",
+  "name": "Google X",
+  "title": "The Moonshot Factory",
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5b",
+    "subTypeName": "Venture Builder",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "High",
+    "classificationRationale": "X is a structurally separated unit with a distinct mission (moonshots), its own incentive systems, and explicit graduation criteria. Exploration happens entirely within X; execution happens in graduated companies or Alphabet product orgs. Classic structural ambidexterity.",
+    "typeSpecimen": true
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Conglomerate / Diversified Tech",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Mountain View, CA",
+    "geography": "Global"
+  },
+  "description": "Google X (now simply 'X') is Alphabet's dedicated 'moonshot factory' — an organization that pursues radical, high-risk innovations with potential for 10x impact. It operates on deliberately different rules than the rest of Google, with its own incentive systems, time horizons, and success metrics.\n\nThe core innovation is structural: X launches 100+ experiments annually with a 2% graduation rate. Projects that survive 5-6 years of rigorous testing can become independent companies (Waymo, Verily, Wing) or get absorbed into Alphabet. Critically, X has inverted the usual corporate incentive structure — teams receive bonuses, applause, and promotions for killing their own projects early. This eliminates the sunk cost fallacy and prevents political protection of zombie projects. Before projects even begin, teams run 'pre-mortems' to predict how they'll fail, then 'run at all the hardest parts of the problem first.'\n\nMore recently, X has shifted toward spinning out projects as independent companies rather than keeping them within Alphabet. Series X Capital ($500M+ fund run by former YouTube exec Gideon Yu) invests in X spinouts with Alphabet as minority investor. Recent moonshots include Anori (AI for real estate), Tapestry (AI-powered electric grid), and Project Bellwether (wildfire/flood prediction).",
+  "observableMarkers": {
+    "reportingStructure": "Reports to Alphabet CEO. Structurally separated from Google product organization.",
+    "resourceAllocation": "Surviving projects (2% graduation rate) consume 44% of X's entire budget. Series X Capital: $500M+ fund for spinouts.",
+    "timeHorizons": "5-6 year graduation timeline. 100+ experiments at any given time.",
+    "decisionRights": "X leadership decides project continuation/termination. Kill decisions are celebrated, not punished.",
+    "metrics": "100+ experiments annually, 2% graduation rate, 44% budget concentration on graduates. Graduated companies: Waymo, Verily, Wing, Loon, Chronicle."
+  },
+  "mechanisms": [
+    {
+      "id": 2,
+      "name": "Bonus Teams That Kill Projects",
+      "evidence": "Teams get 'applause, hugs, high fives, and promotions' for killing projects early. Inverted incentive structure eliminates sunk cost fallacy and zombie project protection.",
+      "strength": "Strong"
+    },
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "Ring-fenced budget and structural separation from Google's core product organization. Different rules, different time horizons, different success metrics.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The incentive structure is the innovation. By rewarding failure and making project termination a badge of honor, X eliminates the sunk cost fallacy and political protection of zombie projects.",
+      "speaker": "Astro Teller",
+      "speakerTitle": "CEO, X",
+      "source": "TechCrunch Disrupt 2025",
+      "sourceUrl": null,
+      "timestamp": null,
+      "date": "2025"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Bulk curation review validated classification as Model 5b (Venture Builder) with Structural orientation. Decision tree walk confirmed: formal AI unit → not primarily academic research → central team builds products → outputs are new companies (Waymo, Verily, Wing) → 5b. Type specimen status confirmed. No reclassification needed.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025-11",
+      "label": "Strategic Shift to Spinouts",
+      "summary": "X increasingly spinning out projects as independent companies rather than keeping within Alphabet. Series X Capital ($500M+) invests in spinouts. Reports of budget shrinkage and evolution from 'renegade team' to 'startup incubator.' Recent moonshots: Anori, Tapestry, Project Bellwether, Moonshot for Circularity.",
+      "classification": "Model 5b",
+      "sourceRefs": [
+        "techcrunch-2025-nov",
+        "techcrunch-disrupt-2025"
+      ]
+    },
+    {
+      "date": "2025",
+      "label": "Established Model",
+      "summary": "100+ experiments annually, 2% graduation rate. Known graduates include Waymo, Verily, Wing. Pre-mortem practice and kill-incentive structure well documented.",
+      "classification": "Model 5b",
+      "sourceRefs": [
+        "techcrunch-disrupt-2025",
+        "hbr-podcast",
+        "npr-interview"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "techcrunch-disrupt-2025",
+      "type": "Interview",
+      "name": "TechCrunch Disrupt 2025 — Astro Teller",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-01-20",
+      "notes": "Astro Teller on X's incentive structure and moonshot model."
+    },
+    {
+      "id": "hbr-podcast",
+      "type": "Podcast",
+      "name": "HBR Podcast",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "Coverage of X's operating model."
+    },
+    {
+      "id": "npr-interview",
+      "type": "Interview",
+      "name": "NPR Interview",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "techcrunch-2025-nov",
+      "type": "Press",
+      "name": "TechCrunch — X Strategic Shift",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-01-20",
+      "notes": "Report on budget shrinkage, Series X Capital, shift to spinout model."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -1.0,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": -0.8,
+    "namedVsQuiet": -0.9,
+    "longVsShortHorizon": -0.7
+  },
+  "openQuestions": [
+    "What is X's current budget relative to Alphabet's total R&D spend?",
+    "How has the shift to spinout model affected internal talent retention?",
+    "What is the success rate of Series X Capital investments post-spinout?"
+  ],
+  "taxonomyFeedback": [
+    "X is evolving from pure Venture Builder (5b) toward something closer to an Internal Incubator (5a) that spins out. The sub-type boundary between 5a and 5b may need clarification: is the distinguishing factor intent at creation or outcome?"
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "High",
+    "convertedFrom": "library/cases/google-x.json"
+  }
+}

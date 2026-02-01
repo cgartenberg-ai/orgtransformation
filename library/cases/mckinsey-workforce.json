@@ -1,0 +1,36 @@
+{
+  "id": "mckinsey-workforce",
+  "company": "McKinsey",
+  "title": "25% Growth, 25% Cut Workforce Rebalancing",
+  "summary": "AI transforms workforce composition, not just size\u2014simultaneous 25% growth in some roles and 25% cuts in others, with skills half-life shrinking from 7 to 3.6 years",
+  "diagramTemplate": "coe-governance",
+  "architecturalPrinciples": [
+    "human-ai-boundaries",
+    "resource-allocation"
+  ],
+  "designPrinciples": [
+    "mandatory-proficiency"
+  ],
+  "content": {
+    "whatItIs": "McKinsey CEO Bob Sternfels articulated one of the most honest frameworks for AI's workforce impact: AI has 'fundamentally changed how McKinsey staffs its business, allowing it to add and cut jobs in equal measure'\u2014approximately 25% growth in some roles and 25% cuts in others.",
+    "howItWorks": [
+      "Simultaneous 25% growth and 25% cuts across different role types",
+      "Speed imperative: 'I haven't met a CEO yet that isn't talking about how do I get my organization moving faster'",
+      "Skills half-life insight: ROI on employee skills has shrunk from ~7 years to 3.6 years over 30 years",
+      "If skill ROI is accelerating downward, traditional training approaches need fundamental rethinking",
+      "'Equal measure' approach suggests AI reshapes composition of work, requiring continuous workforce rebalancing"
+    ],
+    "coreInsight": "AI transforms workforce composition, not just size. Plan for simultaneous hiring and reduction across different role types. Recognize that skills half-lives are shortening dramatically (7 years \u2192 3.6 years), requiring fundamental changes to training investment models.",
+    "keyMetrics": "~25% growth, ~25% cuts simultaneously. Skills ROI: 7 years \u2192 3.6 years (and accelerating). CEO priority shift: less about strategy, more about organizational speed.",
+    "sources": [
+      "Yahoo Finance",
+      "All-In Podcast (CES 2026)",
+      "Fortune Leadership Next"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "coe",
+  "phenotypeSubtype": null
+}

@@ -1,0 +1,35 @@
+{
+  "id": "sanofi",
+  "company": "Sanofi",
+  "title": "AI Research Factory",
+  "summary": "Centralized AI Research Factory with CodonBERT and proprietary drug discovery models",
+  "diagramTemplate": "centralized-lab",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "resource-allocation"
+  ],
+  "designPrinciples": [
+    "domain-expertise",
+    "a-team-capability"
+  ],
+  "content": {
+    "whatItIs": "A centralized 'AI Research Factory' model with dedicated AI scientists working on internal tools and models specific to drug discovery.",
+    "howItWorks": [
+      "Developed CodonBERT and other proprietary models for drug discovery",
+      "7 drug targets identified through AI approaches",
+      "plai platform for internal AI deployment",
+      "Centralized capability that serves therapeutic areas"
+    ],
+    "coreInsight": "Centralized AI capability allows deep specialization in domain-specific models (like CodonBERT for genetic sequences) while serving multiple therapeutic areas.",
+    "keyMetrics": "7 AI-identified drug targets in development pipeline",
+    "sources": [
+      "Sanofi press releases",
+      "BioPharma industry coverage"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null,
+  "lastUpdated": "2026-01-20"
+}

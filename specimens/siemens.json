@@ -1,0 +1,71 @@
+{
+  "id": "siemens",
+  "name": "Siemens",
+  "title": "AI as Industrial Operating System",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 4 (Hub-and-Spoke). EVP and Head of Data & AI (Vasi Philomin, ex-AWS) provides central AI leadership. Xcelerator platform integrates AI centrally across digital twins, automation, and manufacturing. Industrial Copilot deployed across product lines. Structural orientation: central Data & AI function is separated from business divisions (Digital Industries, Smart Infrastructure, Mobility).",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Industrial Technology",
+    "sector": "Automation / Digital Twins / Manufacturing",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": "EUR 78.9B (FY2025)",
+    "headquarters": "Munich, Germany",
+    "geography": "Global"
+  },
+  "description": "Siemens CEO Roland Busch positions AI as 'the operating system for the industrial sector,' presenting a vision at CES 2026 alongside NVIDIA CEO Jensen Huang. The company made a key structural hire: Vasi Philomin, former AWS VP of Generative AI who launched Amazon Bedrock, was appointed EVP and Head of Data & AI in July 2025.\n\nPhilomin's thesis is that 'the next great frontier for artificial intelligence is the physical world — powering machines, factories, and infrastructure that sense, reason, and act.' The flagship transformation is Siemens' device plant in Erlangen, set to become the world's first fully AI-controlled, adaptive manufacturing facility.\n\nThe Xcelerator platform integrates AI as a foundational capability across digital twins, automation, and manufacturing, with 35 AI-powered applications including the award-winning Industrial Copilot. Siemens' data advantage thesis argues that proprietary industrial data positions Germany uniquely for the AI era.",
+  "observableMarkers": {
+    "reportingStructure": "EVP and Head of Data & AI (Vasi Philomin, ex-AWS VP GenAI). Central AI function spans Xcelerator platform.",
+    "resourceAllocation": null,
+    "timeHorizons": "Multi-year industrial transformation; quarterly product releases",
+    "decisionRights": "Central Data & AI function sets platform capabilities; business divisions apply to specific industrial domains",
+    "metrics": "EUR 78.9B revenue. EUR 10.4B net income. 35 AI-powered applications. Industrial Copilot. TIME 2025 World's Best Companies."
+  },
+  "mechanisms": [
+    {
+      "id": 9,
+      "name": "Hire CAIOs from Consumer Tech",
+      "evidence": "Vasi Philomin hired from AWS (VP of Generative AI, launched Amazon Bedrock) as EVP and Head of Data & AI. Consumer/cloud tech expertise brought to industrial company.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 4 classification. Fixed industry from Industrial to Industrial Technology. Added Mechanism #9 (Hire from Consumer Tech — Philomin from AWS). Removed spurious 'blueprint' quote fragment. Added habitat, observable markers, classification rationale.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Siemens CEO and NVIDIA CEO present AI as 'operating system for the industrial sector' at CES 2026. Vasi Philomin (ex-AWS) hired as EVP and Head of Data & AI.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    }
+  ],
+  "sources": [
+    {"id": "source-1", "type": "Press Release", "name": "Siemens Press", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-2", "type": "Press", "name": "Engineering.com", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-3", "type": "Press", "name": "Fortune", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-4", "type": "Press", "name": "CIO Magazine", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+  ],
+  "contingencies": {"regulatoryIntensity": "Medium", "timeToObsolescence": "Slow", "ceoTenure": "Medium", "talentMarketPosition": "Talent-constrained", "technicalDebt": "High"},
+  "tensionPositions": {"structuralVsContextual": -0.4, "speedVsDepth": -0.3, "centralVsDistributed": -0.3, "namedVsQuiet": -0.5, "longVsShortHorizon": -0.4},
+  "openQuestions": ["How does Philomin's Data & AI function interact with Siemens' business divisions?", "What is the Erlangen AI factory's current deployment status?", "How does Siemens' proprietary industrial data advantage translate to AI model performance?"],
+  "taxonomyFeedback": ["Siemens represents the industrial sector's hub-and-spoke pattern well. The 'AI as industrial OS' framing positions AI as infrastructure rather than a separate function.", "The Philomin hire (AWS → Siemens) is a clear example of Mechanism #9 and demonstrates the consumer-to-industrial tech talent pipeline."],
+  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/siemens.json"}
+}

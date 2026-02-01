@@ -1,0 +1,37 @@
+{
+  "id": "servier",
+  "company": "Servier",
+  "title": "Dual AI Partnership Strategy",
+  "summary": "Parallel AI partnerships totaling nearly $2B for pipeline refresh, hedging by partnering with two distinct approaches simultaneously",
+  "diagramTemplate": "hybrid-hub-spoke",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "resource-allocation"
+  ],
+  "designPrinciples": [
+    "rapid-iteration-cycles"
+  ],
+  "content": {
+    "whatItIs": "French pharmaceutical company Servier kicked off 2026 with a bold organizational strategy: signing two major AI drug discovery partnerships within four days, totaling nearly $2 billion in potential value.",
+    "howItWorks": [
+      "First partnership (January 4, 2026): Insilico Medicine, valued at up to $888 million for oncology drug discovery",
+      "Insilico's Pharma.AI platform demonstrates 12-18 month timelines from project initiation to preclinical candidate (vs. 4.5 year industry average)",
+      "Second partnership (January 8, 2026): Iktos, valued at over 1 billion euros for oncology and neurology",
+      "Iktos brings AI-orchestrated robotics combining generative AI design with automated synthesis and testing",
+      "Strategic signal: hedging by partnering with two distinct approaches\u2014computational design at scale AND AI-robotics integration"
+    ],
+    "coreInsight": "In rapidly evolving AI capability landscapes, consider parallel partnerships with complementary AI platforms rather than single-vendor bets. Dual partnerships provide optionality, competitive learning, and risk mitigation while signaling organizational commitment to AI-first discovery.",
+    "keyMetrics": "Two partnerships in 4 days totaling ~$2B. Fits pattern of pharma dealmaking for pipeline refresh ahead of patent cliff.",
+    "sources": [
+      "Fierce Biotech",
+      "Pharmaphorum",
+      "PR Newswire",
+      "European Biotechnology"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

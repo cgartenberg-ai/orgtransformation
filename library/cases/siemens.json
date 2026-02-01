@@ -1,0 +1,39 @@
+{
+  "id": "siemens",
+  "company": "Siemens",
+  "title": "AI as Industrial Operating System Vision",
+  "summary": "Positioning AI as 'the operating system for the industrial sector' with world's first fully AI-controlled adaptive manufacturing facility",
+  "diagramTemplate": "hybrid-hub-spoke",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "resource-allocation",
+    "information-architecture"
+  ],
+  "designPrinciples": [
+    "domain-expertise",
+    "ride-the-exponential"
+  ],
+  "content": {
+    "whatItIs": "Siemens CEO Roland Busch and NVIDIA CEO Jensen Huang presented a vision at CES 2026 that positions AI as 'the operating system for the industrial sector.' Busch stated: 'Just as electricity once revolutionized the world, industry is now undergoing a profound transformation.'",
+    "howItWorks": [
+      "Key hire: Vasi Philomin (former AWS VP of Generative AI, launched Amazon Bedrock) appointed EVP and Head of Data & AI (July 2025)",
+      "Philomin's thesis: 'The next great frontier for artificial intelligence is the physical world\u2014powering machines, factories, and infrastructure that sense, reason, and act'",
+      "Flagship transformation: Siemens device plant in Erlangen will become 'world's first fully AI-controlled, adaptive manufacturing facility'",
+      "35 AI-powered applications including award-winning Industrial Copilot",
+      "Xcelerator platform integrates AI as foundational capability across digital twins, automation, manufacturing"
+    ],
+    "coreInsight": "Industrial AI transformation requires treating AI not as a feature but as an operating system\u2014the foundational layer upon which all other capabilities run. Hire consumer AI leaders (AWS, Google) to bring that mindset to industrial contexts. Create 'blueprint' facilities that demonstrate the full vision.",
+    "keyMetrics": "FY2025: EUR 78.9B revenue, EUR 10.4B net income. Named in TIME's 2025 World's Best Companies. Data advantage thesis: proprietary industrial data positions Germany uniquely for AI era.",
+    "sources": [
+      "Siemens Press",
+      "Engineering.com",
+      "Fortune",
+      "CIO Magazine"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

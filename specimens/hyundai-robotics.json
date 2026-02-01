@@ -1,0 +1,116 @@
+{
+  "id": "hyundai-robotics",
+  "name": "Hyundai Motor Group",
+  "title": "Physical AI + Robotics Total Solution",
+  "classification": {
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Hyundai Robotics LAB is a dedicated research lab focused on Physical AI—AI that interacts with the physical world through robots. The lab develops foundational technology (edge brain AI chip with DEEPX, Robotics Total Solution platform). This is frontier research with hardware-software integration, characteristic of Model 1. Structural orientation: named lab with dedicated resources, board visibility, and public CES presence.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Automotive/Mobility",
+    "sector": "Automotive + Robotics",
+    "orgSize": "Enterprise",
+    "employees": "~300,000",
+    "revenue": "~$230B (Hyundai Motor Group)",
+    "headquarters": "Seoul, South Korea",
+    "geography": "Global"
+  },
+  "description": "Hyundai's Robotics LAB focuses on 'Physical AI'—AI that interacts with the physical world through robots. Unlike pure software AI labs, this combines hardware and software into an integrated 'Robotics Total Solution.'\n- Co-developed 'edge brain' on-device AI chip with DEEPX—began mass production at CES 2026\n- On-device AI enables robots to process without cloud latency\n- Strategy: 'Robotics Total Solution (RTS)' integrating hardware and software\n- Moving beyond individual robot products to platform approach\n- Physical AI implementation plan unveiled at CES Foundry 2026",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "Edge brain chip in mass production as of CES 2026. Part of Hyundai's broader Boston Dynamics / robotics portfolio."
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "text": "Robotics Total Solution",
+      "speaker": null,
+      "speakerTitle": null,
+      "source": null,
+      "sourceUrl": null,
+      "timestamp": null,
+      "date": null
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Model 1 (Research Lab) validated. Hyundai Robotics LAB is a dedicated research lab focused on Physical AI and robotics. Structural orientation confirmed: named lab with dedicated resources and public presence. Fixed industry from Robotics to Automotive/Mobility (Hyundai Motor Group is an automotive conglomerate; robotics is one division). Added habitat data.",
+      "classification": {
+        "structuralModel": 1,
+        "orientation": "Structural",
+        "confidence": "Medium",
+        "action": "validated"
+      },
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Hyundai's Robotics LAB focuses on 'Physical AI'—AI that interacts with the physical world through robots. Unlike pure software AI labs, this combines hardware and software into an integrated 'Robotics Total Solution.'",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press Release",
+      "name": "Hyundai Motor Group Newsroom January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "CES Foundry 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": "Structural. Named lab with dedicated mandate and resources.",
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": "Long horizon. Physical AI and robotics are long-cycle R&D investments. Edge brain chip just entering mass production."
+  },
+  "openQuestions": [],
+  "taxonomyFeedback": [],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/hyundai-robotics.json"
+  }
+}

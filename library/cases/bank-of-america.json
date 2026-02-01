@@ -1,0 +1,38 @@
+{
+  "id": "bank-of-america",
+  "company": "Bank of America",
+  "title": "Broad Deployment, Consumer-Grade UX",
+  "summary": "Extended consumer Erica to employees, achieving 90%+ adoption across 213,000 employees",
+  "diagramTemplate": "center-of-excellence",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "human-ai-boundaries",
+    "measurement-philosophy"
+  ],
+  "designPrinciples": [
+    "consumer-grade-ux",
+    "rapid-iteration-cycles"
+  ],
+  "content": {
+    "whatItIs": "Rather than a separate innovation lab, BofA's approach treats enterprise AI deployment like a consumer product problem. The 'lab' is essentially a product organization focused on getting tools into everyone's hands with minimal friction.",
+    "howItWorks": [
+      "Erica (customer-facing virtual assistant) launched 2018",
+      "Rather than building a separate employee system, extended Erica internally in 2020 as 'Erica for Employees'",
+      "Leveraged existing brand recognition, user familiarity, and proven conversational patterns",
+      "Pandemic timing crucial: rapid adoption when employees needed technology support for remote work",
+      "Started with IT support, expanded to health benefits, payroll, tax forms\u2014each expansion built on proven interaction patterns"
+    ],
+    "coreInsight": "Don't build separate enterprise and consumer AI\u2014extend consumer-proven interfaces to employees. The best enterprise AI strategy may be 'Erica for Everyone.' Consumer-grade UX drives adoption; adoption drives value.",
+    "keyMetrics": "Over 90% of 213,000 employees actively use AI tools. IT service desk calls reduced by more than 50%. Developer efficiency increased 20% through coding assistants. Over 15 years: headcount reduced from 300,000 to 212,000 while deposits doubled\u2014$6 billion in expense savings.",
+    "sources": [
+      "BofA Newsroom",
+      "CTO Magazine",
+      "AIX Expert Network"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "phenotype": "unnamed-informal",
+  "phenotypeSubtype": "enterprise-adoption",
+  "lastUpdated": "2026-01-20"
+}

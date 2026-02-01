@@ -1,0 +1,37 @@
+{
+  "id": "bosch-bcai",
+  "company": "Bosch",
+  "title": "Cross-Divisional AI Network (BCAI)",
+  "summary": "AI network spanning research and business divisions enables AI in virtually every product\u2014from cooking appliances to autonomous vehicles",
+  "diagramTemplate": "hybrid-hub-spoke",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "information-architecture"
+  ],
+  "designPrinciples": [
+    "domain-expertise"
+  ],
+  "content": {
+    "whatItIs": "The Bosch Center for Artificial Intelligence (BCAI) is not a traditional centralized lab but a network of experts from both Bosch Research and business divisions, enabling AI in virtually every product and technological development.",
+    "howItWorks": [
+      "Network structure: experts from both central research AND business divisions\u2014not a traditional centralized lab",
+      "Enables AI expertise to flow into virtually every product development",
+      "2.5B euro AI investment by end of 2027; software/sensor business expected to exceed 10B euro by mid-2030s",
+      "Leadership: Dr. Michael Kessler joined board focusing on AI research, application, industrialization",
+      "CES 2026 demos: AI cockpit systems with LLMs, agentic AI for manufacturing, connected cooking appliances"
+    ],
+    "coreInsight": "Rather than a centralized AI lab, create a 'network' of AI experts spanning research and business divisions. This enables AI expertise to flow into virtually every product development. The network model suits diversified industrial conglomerates better than a single lab, as it maintains domain context while sharing AI methodologies. Board-level AI leadership signals strategic priority.",
+    "keyMetrics": "2.5B euro AI investment by 2027. 10B+ euro target for software/sensor business by mid-2030s. CES 2026: 'people-centric technology' vision.",
+    "sources": [
+      "Bosch Research",
+      "CES 2026 announcements",
+      "Interesting Engineering",
+      "AiBase News"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

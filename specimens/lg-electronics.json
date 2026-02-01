@@ -1,0 +1,155 @@
+{
+  "id": "lg-electronics",
+  "name": "LG Electronics",
+  "title": "AX Center: From Digital to AI Transformation",
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 5,
+    "secondaryModelName": "Product/Venture Lab",
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "The AX Center is a centralized entity (renamed from DX organization) with a mandate to drive AI transformation across all business units. This is the CoE pattern (Model 2): a central team providing AI governance, strategy, and capability to the rest of the organization. The renaming from DX to AX signals strategic priority shift but not structural change. Structural orientation: AX Center is a named, formally-structured entity with CEO-level commitment and a 30% productivity improvement mandate.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Consumer Electronics",
+    "sector": "Consumer Electronics / Home Appliances",
+    "orgSize": "Enterprise",
+    "employees": "~75,000",
+    "revenue": "~$55B",
+    "headquarters": "Seoul, South Korea",
+    "geography": "Global"
+  },
+  "description": "LG Electronics rebranded its Digital Transformation organization as the 'AX Center' (AI Transformation Center), signaling a strategic shift from general digitization to AI-first operations. The company set a concrete goal of 30% productivity improvement across all business units through AI deployment.\n- Renamed existing DX organization to AX Center to signal strategic priority shift\n- Set measurable 30% productivity improvement target across all operations\n- Deployed AI across customer service, manufacturing, and product development\n- CEO publicly committed to AI transformation as company's primary strategic focus",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "30% productivity improvement target; company-wide AI transformation mandate"
+  },
+  "mechanisms": [
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "Identified via design principle 'consumer-grade-ux' in original case data. Evidence needs strengthening from sources.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "WaveX AI Venture Studio Launch",
+      "summary": "LG Electronics' NovaWave Capital (under LG NOVA innovation center) launched WaveX AI venture studio in Arizona at CES 2026. Targets healthcare, energy, sports, media AI ventures. Collaboration with Arizona Commerce Authority. Added secondary Model 5 (Venture Builder). LG NOVA hubs in Silicon Valley and West Virginia complement the Arizona studio.",
+      "classification": null,
+      "sourceRefs": ["source-3", "source-4", "source-5"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "RECLASSIFIED: Model 4 (Hub-and-Spoke) to Model 2 (Center of Excellence). The AX Center is a renamed DX organization—it is a centralized entity providing AI transformation capability to business units, which is the CoE pattern. Hub-and-Spoke implies distributed spokes with AI capabilities; here the data only shows a central unit with a mandate. Changed orientation from Contextual to Structural: the AX Center is a named, formally-structured entity with CEO commitment. Added habitat data.",
+      "classification": {
+        "structuralModel": 2,
+        "orientation": "Structural",
+        "confidence": "Medium",
+        "action": "reclassified",
+        "previousModel": 4,
+        "previousOrientation": "Contextual"
+      },
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "LG Electronics rebranded its Digital Transformation organization as the 'AX Center' (AI Transformation Center), signaling a strategic shift from general digitization to AI-first operations. The company set a concrete goal of 30% productivity improvement across all business units through AI deployment.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "LG Electronics corporate announcements, January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "CES 2026 coverage",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "PR Newswire — NovaWave WaveX launch",
+      "url": "https://www.prnewswire.com/news-releases/novawave-capital-announces-fund-milestone-launches-arizona-collaboration-on-ai-venture-studio-302655235.html",
+      "timestamp": null,
+      "sourceDate": "2026-01-07",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "LG NOVA — WaveX context",
+      "url": "https://www.lgnova.com/news/novawave-capital-announces-fund-milestone-launches-arizona-collaboration-on-ai-venture-studio",
+      "timestamp": null,
+      "sourceDate": "2026-01-07",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "source-5",
+      "type": "Press",
+      "name": "AZ Commerce — Arizona AI hub context",
+      "url": "https://www.azcommerce.com/news-events/news/2026/1/novawave-ai-venture-studio/",
+      "timestamp": null,
+      "sourceDate": "2026-01-07",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": "Structural. Named entity with formal mandate and CEO commitment.",
+    "speedVsDepth": null,
+    "centralVsDistributed": "Centralized. AX Center is a single central entity driving transformation across BUs.",
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [
+    "How does the AX Center interact with individual business units? Is it purely advisory/governance, or does it embed staff?",
+    "What concrete AI deployments has the AX Center driven since the rebrand? The 30% productivity target is aspirational—what progress has been made?"
+  ],
+  "taxonomyFeedback": [],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/lg-electronics.json"
+  }
+}

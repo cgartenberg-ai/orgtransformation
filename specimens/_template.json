@@ -1,0 +1,76 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "",
+  "name": "",
+  "title": "",
+
+  "classification": {
+    "structuralModel": null,
+    "structuralModelName": "",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": null,
+    "orientationName": "",
+    "confidence": "Medium",
+    "classificationRationale": null,
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "",
+    "sector": null,
+    "orgSize": null,
+    "employees": null,
+    "revenue": null,
+    "headquarters": null,
+    "geography": null
+  },
+
+  "description": "",
+
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [],
+
+  "quotes": [],
+
+  "layers": [],
+
+  "sources": [],
+
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [],
+  "taxonomyFeedback": [],
+
+  "meta": {
+    "status": "Active",
+    "created": "",
+    "lastUpdated": "",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

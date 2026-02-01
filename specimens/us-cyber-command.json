@@ -1,0 +1,107 @@
+{
+  "id": "us-cyber-command",
+  "name": "US Cyber Command",
+  "title": "First Military CAIO",
+
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Limited data. CAIO appointment suggests a governance/enablement role (Model 2) rather than a product-building function. Military organizations typically centralize standards and distribute execution. Low confidence due to single thin source with minimal structural detail.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Government",
+    "sector": "Defense / Cyber Operations",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Fort Meade, MD",
+    "geography": "North America"
+  },
+
+  "description": "US Cyber Command named Reid Novotny as its first Chief AI Officer, tasked with accelerating AI adoption across cyber operations. Novotny brings 24+ years of service in the US Air Force and Maryland Air National Guard, spanning intelligence, cyber defense, and policy. This appointment follows the White House OMB mandate (March 2024) requiring all executive departments to appoint a CAIO within 60 days.\n\nThe military-to-CAIO career pipeline is a distinct pattern: operational experience in intelligence and cyber defense provides domain expertise that academic or commercial AI leaders typically lack. The CAIO role at Cyber Command represents the formalization of AI governance within the defense establishment.",
+
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [
+    {
+      "id": 8,
+      "name": "Log Everything When Regulators Watch",
+      "evidence": "Military/government context inherently requires audit trails and compliance. CAIO role likely includes governance and accountability for AI deployment in sensitive cyber operations.",
+      "strength": "Emerging"
+    }
+  ],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Reid Novotny appointed as first CAIO of US Cyber Command. 24+ years military career spanning intelligence, cyber defense, and policy.",
+      "classification": null,
+      "sourceRefs": ["cdo-magazine-cybercom-2026"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "cdo-magazine-cybercom-2026",
+      "type": "Press",
+      "name": "CDO Magazine — US Cyber Command Names Reid Novotny as Chief AI Officer",
+      "url": "https://www.cdomagazine.tech/leadership-moves/us-cyber-command-names-reid-novotny-as-chief-ai-officer",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "High"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.7,
+    "speedVsDepth": -0.6,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [
+    "What is the size and structure of the CAIO's team?",
+    "How does the CAIO role interact with existing cyber operations divisions?",
+    "What AI use cases is Cyber Command prioritizing?"
+  ],
+
+  "taxonomyFeedback": [
+    "Government/military CAIO appointments may warrant their own sub-pattern within Model 2. The mandate-driven nature (White House EO) differs from organic CoE formation."
+  ],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

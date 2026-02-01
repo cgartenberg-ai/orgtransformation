@@ -1,0 +1,38 @@
+[
+  {
+    "id": "protection",
+    "name": "Protection",
+    "color": "#3b82f6",
+    "principles": ["protect-deviations", "protected-exploration-time", "ring-fence-budget", "ceo-as-political-shield"]
+  },
+  {
+    "id": "lab-to-org",
+    "name": "Lab-to-Org Handoff & Integration",
+    "color": "#10b981",
+    "principles": ["internal-first-validation", "data-flywheel", "consumer-grade-ux", "information-symmetry", "lab-to-operations-handoff"]
+  },
+  {
+    "id": "incentives",
+    "name": "Incentives, Monitoring & Measurement",
+    "color": "#f59e0b",
+    "principles": ["reward-fast-failure", "governance-lets-it-cook"]
+  },
+  {
+    "id": "culture",
+    "name": "Culture",
+    "color": "#ef4444",
+    "principles": ["mandatory-proficiency"]
+  },
+  {
+    "id": "resources",
+    "name": "Resources & Talent",
+    "color": "#8b5cf6",
+    "principles": ["exit-paths-entrepreneurs", "domain-expertise", "remove-human-intuition-bottlenecks", "a-team-capability"]
+  },
+  {
+    "id": "speed",
+    "name": "Managing Speed & Time Horizons",
+    "color": "#06b6d4",
+    "principles": ["ride-the-exponential", "rapid-iteration-cycles"]
+  }
+]

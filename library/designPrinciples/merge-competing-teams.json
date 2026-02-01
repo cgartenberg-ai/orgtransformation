@@ -1,0 +1,20 @@
+{
+  "id": "merge-competing-teams",
+  "title": "Merge Competing AI Teams Under One Leader",
+  "group": "structure",
+  "architecturalPrinciples": [
+    "ambidexterity-structure",
+    "resource-allocation"
+  ],
+  "insight": "Multiple elite AI teams create coordination overhead that eventually exceeds independence benefits. When teams duplicate infrastructure or compete for talent, force consolidation.",
+  "manifestations": [
+    "Google DeepMind: Merged Brain + DeepMind under Hassabis (2,500 to 5,600 people)",
+    "Tencent: Unified scattered AI teams under Chief AI Scientist reporting to CEO",
+    "Meta: Created Superintelligence Labs, restructured FAIR under new leadership"
+  ],
+  "test": "Do you have 2+ AI teams building similar infrastructure or recruiting from the same talent pool? If yes, coordination costs are probably exceeding independence benefits.",
+  "whenNotToUse": "When teams are genuinely exploring different technical approaches where premature convergence would kill optionality.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-21"
+}

@@ -1,0 +1,90 @@
+{
+  "id": "univers-ial",
+  "name": "Univers (Global Impact AI Lab)",
+  "title": "Multi-Partner AI Incubation Lab in Singapore",
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5a",
+    "subTypeName": "Internal Incubator",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Tentative Model 5a (Internal Incubator). The Global Impact AI Lab (IAL) is designed to fast-track enterprise-scale AI innovation through an incubation program. Multi-partner structure (AMD, Microsoft, NUS) with government support (IMDA). Structural: formally announced entity with distinct purpose. Low confidence reflects minimal data on governance, team structure, and operations.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "AI Innovation / Incubation",
+    "orgSize": "Small",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Singapore",
+    "geography": "Asia-Pacific"
+  },
+  "description": "Univers launched the Global Impact AI Lab (IAL) in Singapore, a multi-partner initiative in collaboration with AMD, Microsoft, and the National University of Singapore (NUS). Supported by Singapore's Infocomm Media Development Authority (IMDA), the Lab is designed to fast-track enterprise-scale AI and IoT/Edge innovation through an incubation program.\n\nThe multi-stakeholder model brings together technology partners (AMD, Microsoft), academic expertise (NUS), and government support (IMDA) in a structured incubation environment.",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Univers launches Global Impact AI Lab (IAL) in Singapore with AMD, Microsoft, NUS, and IMDA. Enterprise AI incubation program.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Eco-Business — IAL launch",
+      "url": "https://www.eco-business.com/press-releases/univers-launches-world-first-global-impact-ai-lab-in-collaboration-with-amd-microsoft-and-nus-to-accelerate-enterprise-ai-and-iot-innovation/",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.5,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": -0.4
+  },
+  "openQuestions": [
+    "What is the governance structure of the IAL? Academic vs. corporate control?",
+    "How do AMD, Microsoft, NUS split responsibilities?",
+    "What is the incubation program structure?"
+  ],
+  "taxonomyFeedback": [
+    "Multi-partner incubation labs (corporate + academic + government) are an emerging pattern not well captured by the current taxonomy, which assumes single-organization specimens.",
+    "Singapore as a government-facilitated AI innovation hub is a distinct habitat condition worth tracking."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

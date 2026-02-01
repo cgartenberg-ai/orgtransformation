@@ -1,0 +1,20 @@
+{
+  "id": "ring-fence-budget",
+  "title": "Ring-Fence the Budget (Board-Level Protection)",
+  "group": "protection",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "resource-allocation"
+  ],
+  "insight": "Lab budgets get raided when the core business is under pressure—unless they're structurally protected. The protection needs to be at a level above the people who feel quarterly pressure.",
+  "manifestations": [
+    "Ring-fenced budgets that require board vote (not just CEO discretion) to reallocate",
+    "Google X: Survives because Alphabet structure protects it from Google's P&L pressure",
+    "Eli Lilly: CEO explicitly defends 'unproductive' R&D from middle management optimization",
+    "Percentage of revenue automatically allocated (like R&D commitments)"
+  ],
+  "test": "When your core business had its last bad quarter, what happened to exploration budgets? If they got cut, protection is insufficient.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

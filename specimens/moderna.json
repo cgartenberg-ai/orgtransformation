@@ -1,0 +1,140 @@
+{
+  "id": "moderna",
+  "name": "Moderna",
+  "title": "100% AI Proficiency with AI Academy",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 6a. Moderna's approach treats the ENTIRE organization as the AI unit — 100% adoption goal within 6 months, 80%+ mChat usage, 750+ custom GPTs. No named AI lab; instead, the AI Academy evolved from education to innovation incubator. The 'Generative AI Champions' (top 100 power users) serve as distributed enablers, not a centralized team. Contextual orientation: every employee expected to achieve AI proficiency within their role.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Pharmaceuticals",
+    "sector": "Biotechnology / mRNA Therapeutics",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Cambridge, MA",
+    "geography": "Global"
+  },
+  "description": "Moderna exemplifies the enterprise-wide adoption model where the 'lab' is the entire organization. The company set a goal of achieving 100% AI proficiency across all employees with access to digital solutions within six months, supported by a structured three-layer change management approach.\n\nThe three layers operate as: Individual (in-depth research, listening programs, trainings), Collective (AI prompt contest identified top 100 power users who became 'Generative AI Champions'), and Structural (AI Academy evolved from educational content to an innovation incubator for AI capability, projects, and ideas). mChat, Moderna's internal chatbot on OpenAI's API, achieved 80%+ employee adoption. Since deploying ChatGPT Enterprise, the company has generated 750+ custom GPTs.\n\nAfter reporting a $1B quarterly loss in 2025, Moderna restructured to treat AI as a collaborator rather than a tool, creating a new role of Chief People and Digital Technology Officer overseeing merged HR and tech departments. This enables 'work planning' instead of 'workforce planning' — managing work outputs rather than headcount. The informational nature of mRNA technology provides natural AI-biology fit.",
+  "observableMarkers": {
+    "reportingStructure": "New Chief People and Digital Technology Officer role merges HR and tech departments. AI Champions serve as distributed enablers.",
+    "resourceAllocation": null,
+    "timeHorizons": "6-month proficiency targets; continuous evolution of AI Academy",
+    "decisionRights": null,
+    "metrics": "80%+ mChat adoption. 750+ custom GPTs. 100% proficiency target. Top 100 AI Champions identified through prompt contest."
+  },
+  "mechanisms": [
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Moderna set 100% adoption goal within 6 months — deploying mChat and ChatGPT Enterprise company-wide before knowing which use cases would prove most valuable. 750+ custom GPTs emerged from broad deployment.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 6a classification. Fixed industry from Technology to Pharmaceuticals/Biotechnology. Added habitat data. Added Mechanism #5 (Deploy to Thousands). Removed spurious 'AI Champions' quote fragment. Enriched description with restructuring details. Added classification rationale.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Latest Update",
+      "summary": "After reporting a $1B quarterly loss in 2025, Moderna restructured to treat AI as a collaborator. Created new role of Chief People and Digital Technology Officer to oversee merged HR and tech departments.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025",
+      "label": "Initial Documentation",
+      "summary": "Moderna set a goal of 100% AI proficiency across all employees within 6 months, supported by a structured AI Academy. mChat adopted by 80%+ of employees.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "OpenAI",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Inc Magazine",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Report",
+      "name": "IBM Case Study",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-4",
+      "type": "Press Release",
+      "name": "Moderna Press",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.8,
+    "speedVsDepth": 0.6,
+    "centralVsDistributed": 0.5,
+    "namedVsQuiet": 0.4,
+    "longVsShortHorizon": 0.3
+  },
+  "openQuestions": [
+    "How has the $1B loss affected AI investment and adoption momentum?",
+    "What specific AI applications are being used in mRNA drug design vs. corporate functions?",
+    "How does the merged HR/Tech department under Chief People and Digital Technology Officer work in practice?",
+    "What happened after the 6-month proficiency deadline — was 100% adoption achieved?"
+  ],
+  "taxonomyFeedback": [
+    "Moderna's three-layer change management (Individual, Collective, Structural) is a well-articulated framework for enterprise-wide AI adoption that could inform taxonomy descriptions of Model 6a.",
+    "The mRNA-AI fit ('informational nature of mRNA lends itself to AI') suggests industry-specific habitat conditions that make certain models more natural."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/moderna.json"
+  }
+}

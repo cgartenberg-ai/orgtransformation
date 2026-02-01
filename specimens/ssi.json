@@ -1,0 +1,108 @@
+{
+  "id": "ssi",
+  "name": "Safe Superintelligence Inc. (SSI)",
+  "title": "Pure Research Lab — No Products, All Compute on Research",
+  "classification": {
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Model 1 (Research Lab). SSI is explicitly positioned as a pure research company: no product teams, no sales, no customer-facing engineering. All compute is concentrated on research rather than fragmented across inference, products, and multiple modalities. Sutskever states 'We are squarely an age of research company.' Structural: the entire company IS the research lab, with clear structural separation from any commercialization function (which doesn't exist yet).",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "AI Research",
+    "orgSize": "Startup",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Palo Alto, CA",
+    "geography": "US"
+  },
+  "description": "Safe Superintelligence Inc. (SSI), founded by Ilya Sutskever after departing OpenAI, represents the purest exploration model in the AI organizational landscape. The company has no product teams, no sales function, and no customer-facing engineering — all resources are concentrated on fundamental AI research.\n\nWith $3B in funding, Sutskever argues that SSI's effective research compute is competitive because competitors dilute their compute across inference, products, sales, and multiple modalities. SSI concentrates everything on research.\n\nSutskever's organizational philosophy emphasizes hiring 'people who think differently rather than the same' — valuing diversity of thought over scale of headcount. His era framework (2012-2020: age of research, 2020-2025: age of scaling, 2026+: age of research again 'just with big computers') provides the intellectual foundation for SSI's pure-research organizational model.\n\nThe company's thesis on 'jaggedness' — models excelling at benchmarks but having limited economic impact — implies current product-focused AI orgs may be misallocating resources, further justifying the research-only model.",
+  "observableMarkers": {
+    "reportingStructure": "Founded by Ilya Sutskever (ex-OpenAI Chief Scientist)",
+    "resourceAllocation": "$3B funding. All compute concentrated on research, not fragmented across products/inference.",
+    "timeHorizons": "Long-horizon: pursuing safe superintelligence, no near-term product roadmap",
+    "decisionRights": "Research-led, no product/sales influence on priorities",
+    "metrics": "$3B funding. Zero products, zero sales team."
+  },
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "SSI's entire organizational design protects research from product/commercial pressures. No product teams, no sales, no customer-facing engineering — structurally preventing off-strategy work from being diverted to near-term commercial demands.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We are squarely an 'age of research' company.",
+      "speaker": "Ilya Sutskever",
+      "speakerTitle": "CEO, SSI",
+      "source": "Dwarkesh Podcast",
+      "sourceUrl": "https://www.dwarkesh.com/p/ilya-sutskever-2",
+      "timestamp": null,
+      "date": "2025-11-25"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2025-11",
+      "label": "Initial Documentation",
+      "summary": "SSI documented from Dwarkesh Podcast deep-scan. Pure research company with $3B funding, no products, all compute on research. Sutskever's 'age of research' framework as organizational design philosophy.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Podcast",
+      "name": "Dwarkesh Podcast — Ilya Sutskever",
+      "url": "https://www.dwarkesh.com/p/ilya-sutskever-2",
+      "timestamp": null,
+      "sourceDate": "2025-11-25",
+      "collectedDate": "2026-01-31",
+      "notes": "Deep-scan of full episode. Sutskever on SSI organizational model, research concentration, hiring philosophy."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.9,
+    "speedVsDepth": -0.8,
+    "centralVsDistributed": -0.7,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": -0.9
+  },
+  "openQuestions": [
+    "How many people does SSI employ? What is the researcher-to-engineer ratio?",
+    "What is the internal team structure? Single research group or multiple?",
+    "How does SSI plan to transition from research to product (if ever)?",
+    "Relationship between SSI's pure research model and eventual commercialization"
+  ],
+  "taxonomyFeedback": [
+    "SSI represents the purest Model 1 specimen: a company that IS a research lab with zero product/commercial function. Potential type specimen for Model 1 'Pure Research' variant.",
+    "The 'age of research' framing provides a temporal argument for why pure exploration orgs make sense now — not just structural but era-dependent."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "thinking-machines-lab",
+  "company": "Thinking Machines Lab",
+  "title": "Ex-OpenAI CTO's Efficient AI Startup",
+  "summary": "Mira Murati's $2B seed round at $12B valuation, focused on efficient customizable models with Tinker tool",
+  "diagramTemplate": "research-lab",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "stance-on-uncertainty"
+  ],
+  "designPrinciples": [
+    "ride-the-exponential",
+    "rapid-iteration-cycles"
+  ],
+  "content": {
+    "whatItIs": "Founded by former OpenAI CTO Mira Murati, Thinking Machines Lab focuses on making AI models more efficient and customizable. One of the largest seed rounds in Silicon Valley history.",
+    "howItWorks": [
+      "Founded by ex-OpenAI CTO Mira Murati after her surprise departure in September 2025",
+      "$2B seed round at $12B valuation within first 5 months\u2014one of largest seed rounds ever",
+      "Focus on efficient, customizable models rather than raw scale",
+      "Launched Tinker: tool that simplifies fine-tuning open models using techniques like LoRA (Low-Rank Adaptation)",
+      "Positioning as alternative to 'scale is all you need' approach",
+      "Team includes other former OpenAI researchers"
+    ],
+    "coreInsight": "The 'efficient AI' thesis: rather than building ever-larger models, focus on making models more efficient and easier to customize. Tinker democratizes fine-tuning for enterprises that need tailored models.",
+    "keyMetrics": "$2B seed round at $12B valuation in 5 months. One of the largest seed rounds in Silicon Valley history.",
+    "sources": [
+      "Built In",
+      "TechCrunch",
+      "The Information"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "research-lab",
+  "phenotypeSubtype": null
+}

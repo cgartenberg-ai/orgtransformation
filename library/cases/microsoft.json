@@ -1,0 +1,38 @@
+{
+  "id": "microsoft",
+  "company": "Microsoft",
+  "title": "Work Like Individual Contributors Transformation",
+  "summary": "CEO Nadella restructured executives to act as ICs, becoming hands-on product leader during AI transition",
+  "diagramTemplate": "hybrid-hub-spoke",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "human-ai-boundaries"
+  ],
+  "designPrinciples": [
+    "a-team-capability",
+    "rapid-iteration-cycles"
+  ],
+  "content": {
+    "whatItIs": "Microsoft CEO Satya Nadella has executed one of the most dramatic organizational transformations in big tech: restructuring executive ranks while demanding that all leaders 'work and act like Individual Contributors in our own orgs, constantly learning and unlearning.'",
+    "howItWorks": [
+      "December 2025: Major executive restructuring, appointed Judson Althoff as CEO of commercial business to free Nadella's time for hands-on technical work",
+      "Nadella became 'deeply hands-on with the company's AI push, actively engaging with top engineers and closely reviewing product performance'",
+      "Runs intensive weekly meetings, issues direct product mandates, personally courts elite researchers from OpenAI and Google DeepMind",
+      "Pressuring executives to 'work faster and leaner'\u2014company must 'move with greater speed, rethink entrenched practices'",
+      "Philosophy: 'Think in decades, execute in quarters'\u2014long-term conviction with operational intensity"
+    ],
+    "coreInsight": "At moments of technological discontinuity, CEOs must become hands-on product leaders, not just strategists. Flatten hierarchies, demand IC-level engagement from executives, and create organizational urgency that treats the status quo as the risk.",
+    "keyMetrics": "FY2025: ~$80B spent on AI-enabled datacenters. 400+ data centers in 70 regions including 'world's most powerful AI data centre' in Fairwater.",
+    "sources": [
+      "Business Insider",
+      "CNBC",
+      "AI Magazine",
+      "MediaPost"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

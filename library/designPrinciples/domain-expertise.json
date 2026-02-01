@@ -1,0 +1,18 @@
+{
+  "id": "domain-expertise",
+  "title": "Domain Expertise is the Differentiator",
+  "group": "resources",
+  "architecturalPrinciples": [
+    "locus-of-innovation"
+  ],
+  "insight": "General AI capabilities are increasingly commoditized. Domain expertise in applying AI to specific contexts is the source of differentiation.",
+  "manifestations": [
+    "McKinsey acquiring QuantumBlack (F1 racing expertise)",
+    "Eli Lilly's 18-year GLP-1 journey (protein engineering expertise)",
+    "Recursion's 300M+ experiments (biology-specific automation expertise)"
+  ],
+  "test": "What do you know about applying AI to your domain that a general AI consultancy doesn't? If nothing, you're not building durable advantage.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

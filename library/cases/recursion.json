@@ -1,0 +1,39 @@
+{
+  "id": "recursion",
+  "company": "Recursion Pharmaceuticals",
+  "title": "Automated Hypothesis-Free Discovery",
+  "summary": "2.2 million experiments per week, robots 100 feet from CEO, hypothesis-agnostic discovery",
+  "diagramTemplate": "tight-loop",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "information-architecture",
+    "stance-on-uncertainty"
+  ],
+  "designPrinciples": [
+    "remove-human-intuition-bottlenecks",
+    "data-flywheel",
+    "rapid-iteration-cycles"
+  ],
+  "content": {
+    "whatItIs": "A lab where the primary 'researcher' is an automated system running 2.2 million experiments per week. Humans design the system and interpret results, but the discovery process itself is largely automated and hypothesis-agnostic.",
+    "howItWorks": [
+      "Robots run up to 2.2 million experiments weekly, generating 40 petabytes of data from over 300+ million experiments",
+      "CEO Chris Gibson: 'I'm currently sitting 100 feet away from a giant lab full of robots.'",
+      "Traditional pharma starts with hypotheses about disease mechanisms. Recursion inverts this: 'The company's platform is capable of finding novel biology that may have been overlooked by humans, or considered too challenging to pursue.'",
+      "LOWE: an LLM-based interface where scientists can query across animal models, commercially available compounds, and existing research using natural language"
+    ],
+    "coreInsight": "Remove human intuition as a bottleneck by running experiments at scales no human team could achieve. Let the data reveal biology that human hypotheses would miss. The goal is a 'self-driving lab.'",
+    "keyMetrics": "By leveraging data, automation, and virtual modelling, Recursion develops a lead molecule with 10x the efficiency of traditional methods, in half the time and at a fraction of the cost. Vision: Building toward a 'virtual cell'\u2014and eventually a virtual organ and virtual patient.",
+    "sources": [
+      "BioPharma Dive",
+      "Fortune",
+      "NIH Seed",
+      "Recursion Press"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "phenotype": "research-lab",
+  "phenotypeSubtype": null,
+  "lastUpdated": "2026-01-20"
+}

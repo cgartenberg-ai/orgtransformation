@@ -1,0 +1,36 @@
+{
+  "id": "roche-genentech",
+  "company": "Roche / Genentech",
+  "title": "Lab in a Loop",
+  "summary": "gRED Computational Sciences with tight in silico to wet lab validation cycles, $12B commitment",
+  "diagramTemplate": "tight-loop",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "information-architecture"
+  ],
+  "designPrinciples": [
+    "rapid-iteration-cycles",
+    "domain-expertise",
+    "data-flywheel"
+  ],
+  "content": {
+    "whatItIs": "Roche's gRED Computational Sciences group with 'Lab in a Loop' concept\u2014integrating computational prediction with wet lab validation in tight cycles.",
+    "howItWorks": [
+      "Prescient Design acquisition brought AI protein design capabilities",
+      "$12B commitment to computational sciences",
+      "Tight integration between in silico prediction and experimental validation",
+      "Each cycle improves the models"
+    ],
+    "coreInsight": "The tightest possible loop between computational prediction and experimental validation creates a flywheel where each experiment improves the models that generate the next experiments.",
+    "keyMetrics": "$12B committed to computational sciences",
+    "sources": [
+      "Roche investor presentations",
+      "BioPharma Dive"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "phenotype": "research-lab",
+  "phenotypeSubtype": null,
+  "lastUpdated": "2026-01-20"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "shopify",
+  "name": "Shopify",
+  "title": "AI as Baseline Expectation — Prove AI Can't Do It",
+  "classification": {
+    "structuralModel": 3,
+    "structuralModelName": "Embedded Teams",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "Validated Model 3 (Embedded Teams) with Contextual orientation. CEO Lütke's mandate ('prove AI can't do it before hiring') makes AI proficiency a condition of employment and resource allocation. No separate AI lab — AI tools embedded into every role. Contextual: individuals balance AI-assisted and traditional work within their roles. Strong Model 6c (Grassroots) elements as CEO mandate formalizes what employees were already doing.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "E-commerce",
+    "sector": "Commerce Platform / SaaS",
+    "orgSize": "Enterprise",
+    "employees": 8100,
+    "revenue": null,
+    "headquarters": "Ottawa, Canada",
+    "geography": "Global"
+  },
+  "description": "Shopify represents one of the clearest examples of contextual ambidexterity: CEO Tobi Lütke mandated that employees must 'show jobs can't be done by artificial intelligence before asking for more headcount and resources.' Rather than creating a separate AI lab, Shopify embedded AI capability expectations into every role — making AI proficiency a condition of employment and resource allocation.\n\nAI usage is now a 'baseline expectation' that influences performance reviews. Lütke expects employees to use AI as 'a thought partner, deep researcher, critic, tutor, or pair programmer.' Developers have access to Copilot, Cursor, and Claude Code 'all pre-tooled and ready to go.' AI integration is formally part of monthly business reviews and product development cycles.\n\nThe approach extends to products: Shopify Magic and Sidekick externalize this AI-first philosophy to merchants. The Winter 2025 'RenAIssance edition' contained 150+ AI-focused product updates. By Winter 2026, Shopify introduced 'Agentic Storefronts' — making every store agent-ready by default. Headcount dropped from 8,300 to 8,100 over the past year while output increased.",
+  "observableMarkers": {
+    "reportingStructure": "No separate AI team. CEO directly mandates AI proficiency for all roles.",
+    "resourceAllocation": "Headcount requests must prove AI can't do the job first. Tools (Copilot, Cursor, Claude Code) pre-provisioned.",
+    "timeHorizons": "Quarterly product cycles with continuous AI integration",
+    "decisionRights": "CEO sets AI-first mandate; individual teams decide implementation; performance reviews include AI usage",
+    "metrics": "Headcount: 8,300 → 8,100. 150+ AI product updates (Winter 2025). Agentic Storefronts (Winter 2026)."
+  },
+  "mechanisms": [
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "evidence": "CEO Tobi Lütke personally uses AI tools and mandates company-wide AI proficiency as a condition of hiring and resource allocation. AI usage is part of performance reviews.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Validated Model 3 Contextual classification. Fixed industry from Technology to E-commerce. Added Mechanism #7 (Put Executives on the Tools — CEO mandate). Added habitat data (8,100 employees, Ottawa HQ). Added observable markers and classification rationale.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Latest Update",
+      "summary": "Winter 2026 Edition introduced 'Agentic Storefronts' — making every Shopify store agent-ready by default.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025",
+      "label": "Initial Documentation",
+      "summary": "CEO Tobi Lütke mandated AI proficiency as condition of employment and resource allocation. AI embedded across all roles.",
+      "classification": null,
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+    }
+  ],
+  "sources": [
+    {"id": "source-1", "type": "Press", "name": "CNBC", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-2", "type": "Press", "name": "Business Today", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-3", "type": "Blog", "name": "Shopify Blog", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
+    {"id": "source-4", "type": "Press", "name": "X/Twitter", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+  ],
+  "contingencies": {"regulatoryIntensity": "Low", "timeToObsolescence": "Fast", "ceoTenure": "Founder", "talentMarketPosition": "Talent-rich", "technicalDebt": "Low"},
+  "tensionPositions": {"structuralVsContextual": 0.9, "speedVsDepth": 0.6, "centralVsDistributed": 0.7, "namedVsQuiet": 0.3, "longVsShortHorizon": 0.5},
+  "openQuestions": ["How is the 'prove AI can't do it' mandate enforced in practice — what evidence is required?", "Has Shopify's headcount reduction been primarily in AI-replaceable roles?", "How do Shopify's merchants respond to the AI-first product strategy?"],
+  "taxonomyFeedback": ["Shopify's 'prove AI can't do it' mandate is the strongest articulation of contextual ambidexterity in the herbarium. Could serve as a reference example for Contextual orientation.", "The boundary between Model 3 (Embedded) and Model 6c (Grassroots) is blurred here — the CEO mandate formalizes what may have been emerging grassroots AI adoption."],
+  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/shopify.json"}
+}

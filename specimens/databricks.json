@@ -1,0 +1,108 @@
+{
+  "id": "databricks",
+  "name": "Databricks",
+  "title": "Data/AI Platform — 95% of AI Projects Fail",
+
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Data platform company. CEO Ali Ghodsi's commentary on AI adoption challenges (95% failure rate, LLM commoditization). Very limited org structure data — classification is provisional.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Data/AI Platform",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "San Francisco, CA",
+    "geography": "North America"
+  },
+
+  "description": "Databricks CEO Ali Ghodsi, speaking on the BG2 Pod (Dec 23, 2025), stated that 95% of AI projects fail. He characterized LLMs as 'rapidly commoditizing' and envisioned a future where 'we all become supervisors' of AI agents. Limited organizational structure data available.",
+
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2025-12",
+      "label": "Initial Documentation",
+      "summary": "CEO Ali Ghodsi on BG2 Pod: 95% of AI projects fail, LLMs rapidly commoditizing, envisions 'we all become supervisors' of AI agents.",
+      "classification": null,
+      "sourceRefs": ["bg2-pod-2025-12", "dnyuz-2025-12"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "bg2-pod-2025-12",
+      "type": "Podcast",
+      "name": "BG2 Pod — AI Enterprise: Databricks, Glean",
+      "url": "https://podcasts.apple.com/ca/podcast/ai-enterprise-databricks-glean-bg2-guest-interview/id1727278168?i=1000742526917",
+      "timestamp": null,
+      "sourceDate": "2025-12-23",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    },
+    {
+      "id": "dnyuz-2025-12",
+      "type": "Press",
+      "name": "AOL/DNYUZ — AI CEOs Say Automation with AI Is Harder Than It Looks",
+      "url": "https://dnyuz.com/2025/12/24/ai-ceos-say-automation-with-ai-is-harder-than-it-looks/",
+      "timestamp": null,
+      "sourceDate": "2025-12-24",
+      "collectedDate": "2026-01-31",
+      "notes": null
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [
+    "What is Databricks' internal AI org structure?",
+    "How does the 95% AI project failure rate claim map to their customers?",
+    "What does 'we all become supervisors' mean for Databricks' own product strategy?"
+  ],
+
+  "taxonomyFeedback": [],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

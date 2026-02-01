@@ -1,0 +1,130 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "indostar-capital",
+  "name": "IndoStar Capital Finance",
+  "title": "CTO-to-CAIO Re-designation in Indian NBFC",
+
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "IndoStar re-designated its CTO to CAIO with a mandate to embed AI into lending, risk, and digital architecture. This suggests a centralized AI leadership role coordinating across business functions — consistent with Model 2 (CoE). However, no formal CoE team or separate AI unit is described; the CAIO may be a single-leader governance role rather than a staffed center. Low confidence: limited structural detail beyond the C-suite appointment.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Financial Services",
+    "sector": "Non-Banking Finance / Digital Lending",
+    "orgSize": "Mid-market",
+    "employees": null,
+    "revenue": "~$950M AUM (INR 8,000+ crores)",
+    "headquarters": "India",
+    "geography": "Asia-Pacific"
+  },
+
+  "description": "IndoStar Capital Finance, an Indian NBFC backed by Brookfield and Everstone, restructured its senior management in January 2026 by re-designating CTO Amit Kothari to Chief AI Officer and appointing a new CTO (Shivam Choudhary) to backfill. This CTO-to-CAIO career pipeline is a notable variant of Mechanism #9.\n\nKothari's CAIO mandate extends beyond deploying AI tools: the role involves embedding intelligent decision-making into core lending engines, risk management frameworks, and scalable digital architectures, with emphasis on responsible AI adoption. With 28+ years of experience including 7+ years as CTO at digital lending NBFCs, Kothari brings deep domain expertise to the AI transformation.\n\nIndoStar operates 500+ branches nationwide serving 100K+ customers across commercial vehicles, construction equipment, farm equipment, and small business loans. The re-designation signals that AI leadership is now considered distinct from and more strategically important than general technology leadership.",
+
+  "observableMarkers": {
+    "reportingStructure": "CAIO role separate from CTO — both are senior management positions",
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": "CAIO mandate covers lending engines, risk frameworks, digital architecture",
+    "metrics": "500+ branches, 100K+ customers, INR 8,000+ crores AUM"
+  },
+
+  "mechanisms": [
+    {
+      "id": 9,
+      "name": "Hire CAIOs from Consumer Tech",
+      "evidence": "CTO-to-CAIO re-designation variant: internal CTO with 28+ years tech experience elevated to CAIO. Not consumer tech per se, but the pattern of drawing CAIO from technology leadership rather than business/consulting background.",
+      "strength": "Moderate"
+    }
+  ],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation — CTO to CAIO Re-designation",
+      "summary": "IndoStar re-designated CTO Amit Kothari to CAIO effective January 20, 2026. New CTO appointed. CAIO mandate: embed AI in lending, risk, architecture.",
+      "classification": null,
+      "sourceRefs": ["scanx-trade-2026", "dq-channels-2026", "tipranks-2026"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "scanx-trade-2026",
+      "type": "Press",
+      "name": "ScanX Trade — IndoStar restructuring announcement",
+      "url": "https://scanx.trade/stock-market-news/stocks/indostar-capital-finance-announces-senior-management-restructuring-with-new-cto-appointment/30466418",
+      "timestamp": null,
+      "sourceDate": "2026-01-20",
+      "collectedDate": "2026-02-01",
+      "notes": "CTO re-designated to CAIO, effective Jan 20, 2026"
+    },
+    {
+      "id": "dq-channels-2026",
+      "type": "Press",
+      "name": "DQ Channels — IndoStar CAIO role details",
+      "url": "https://www.dqchannels.com/news/indostar-capital-finance-chief-ai-officer-role-signals-ai-push-11022994",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-01",
+      "notes": "CAIO mandate details, Kothari background (28+ years)"
+    },
+    {
+      "id": "tipranks-2026",
+      "type": "Press",
+      "name": "TipRanks — IndoStar leadership revamp",
+      "url": "https://www.tipranks.com/news/company-announcements/indostar-revamps-tech-leadership-creates-chief-ai-officer-role",
+      "timestamp": null,
+      "sourceDate": "2026-01-20",
+      "collectedDate": "2026-02-01",
+      "notes": "Responsible AI adoption mandate, measurable business outcomes focus"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.3,
+    "speedVsDepth": -0.2,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": 0.0
+  },
+
+  "openQuestions": [
+    "What is IndoStar's AI operating model? CoE, embedded, or CAIO-as-coordinator?",
+    "Is the CTO-to-CAIO re-designation pattern common in Indian NBFCs/fintechs?",
+    "What AI team (if any) reports to the new CAIO?",
+    "What specific AI products or capabilities are being developed?"
+  ],
+
+  "taxonomyFeedback": [
+    "CTO-to-CAIO re-designation is a distinct CAIO pipeline variant worth tracking — internal promotion from tech leadership rather than external hire from consumer tech (Mechanism #9 variant).",
+    "Indian NBFC sector may represent a different habitat condition than US/European financial services — different regulatory context (RBI), different talent market, different digital maturity."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-01",
+    "lastUpdated": "2026-02-01",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

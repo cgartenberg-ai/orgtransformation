@@ -1,0 +1,35 @@
+{
+  "id": "lg-electronics",
+  "company": "LG Electronics",
+  "title": "AX Center: From Digital to AI Transformation",
+  "summary": "Renamed Digital Transformation (DX) organization to AI Transformation (AX) Center, targeting 30% productivity improvement across all operations.",
+  "diagramTemplate": "hybrid-hub-spoke",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "resource-allocation"
+  ],
+  "designPrinciples": [
+    "mandatory-proficiency",
+    "consumer-grade-ux"
+  ],
+  "content": {
+    "whatItIs": "LG Electronics rebranded its Digital Transformation organization as the 'AX Center' (AI Transformation Center), signaling a strategic shift from general digitization to AI-first operations. The company set a concrete goal of 30% productivity improvement across all business units through AI deployment.",
+    "howItWorks": [
+      "Renamed existing DX organization to AX Center to signal strategic priority shift",
+      "Set measurable 30% productivity improvement target across all operations",
+      "Deployed AI across customer service, manufacturing, and product development",
+      "CEO publicly committed to AI transformation as company's primary strategic focus"
+    ],
+    "coreInsight": "The DX\u2192AX rebrand represents more than naming: it signals that AI is no longer a component of digital transformation but the primary driver. By setting specific productivity targets, LG creates accountability for AI deployment outcomes.",
+    "keyMetrics": "30% productivity improvement target; company-wide AI transformation mandate",
+    "sources": [
+      "LG Electronics corporate announcements, January 2026",
+      "CES 2026 coverage"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "hybrid",
+  "phenotypeSubtype": null
+}

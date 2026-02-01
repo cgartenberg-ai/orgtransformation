@@ -1,0 +1,150 @@
+{
+  "id": "klarna",
+  "name": "Klarna",
+  "title": "AI Customer Service Experiment (and Correction)",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "Klarna did not create a named AI unit or CoE. CEO Siemiatkowski drove enterprise-wide AI adoption directly: AI replaced 700 customer service agents, workforce shrank 40% from 5,000 to ~3,000. No formal AI organizational structure described—this is CEO-mandate-driven adoption, characteristic of Model 6a. Contextual orientation: AI was adopted across existing workflows without creating new structural entities. Notable as a reversal case: after going full-tilt AI, Klarna resumed human hiring acknowledging quality degradation.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Financial Services",
+    "sector": "Fintech / Buy-Now-Pay-Later",
+    "orgSize": "Enterprise",
+    "employees": "~3,000",
+    "revenue": "~$2B",
+    "headquarters": "Stockholm, Sweden",
+    "geography": "Global"
+  },
+  "description": "Klarna's AI experiment provides a rare honest case study of both AI's potential and its limits. They publicly reversed course after going 'full tilt toward AI-based support.'\n- February 2024: AI assistant announced as 'doing the equivalent work of 700 full-time agents' within first month\n- Initial results: 2.3 million conversations, matching human satisfaction scores\n- 25% drop in repeat inquiries, resolution time dropped from 11 minutes to under 2 minutes\n- $40 million annual savings projected; workforce shrank 40% from 5,000 to ~3,000\n- By 2025, Klarna reversed course, resuming human hiring after acknowledging 'a full tilt toward AI-based support roles resulted in lower quality work'\n- New model: Hybrid approach with AI handling simple inquiries, humans handling nuance and complexity",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "CEO Siemiatkowski: 'It is important that customers always have a clear path to a human.' Company now recruits remote support staff in 'Uber type of setup.'"
+  },
+  "mechanisms": [
+    {
+      "id": 3,
+      "name": "Bonus Teams That Kill Projects",
+      "evidence": "Klarna reversed course after going full-tilt AI, resuming human hiring. This is the rare demonstrated willingness to kill an AI initiative when quality suffered. CEO publicly acknowledged the correction. While not literally a bonus, the organizational courage to reverse a high-profile AI strategy demonstrates the kill-discipline this mechanism describes.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Model 6a (Enterprise-Wide Adoption, Unnamed/Informal) with Contextual orientation validated. Klarna did not create a named AI unit—the CEO drove enterprise-wide AI adoption directly, replacing 700 agents with AI, then reversed course. This is the informal, top-down adoption pattern of Model 6a. Contextual orientation confirmed: no named AI structure, CEO-driven cultural mandate. Fixed industry from Technology to Fintech. Removed weak Mechanism #5 (the pattern here is not deploy-before-knowing; it is CEO-mandated rapid adoption followed by correction). Added habitat data. This specimen is valuable as a CAUTIONARY case—demonstrates limits of pure AI substitution.",
+      "classification": {
+        "structuralModel": 6,
+        "subType": "6a",
+        "orientation": "Contextual",
+        "confidence": "Medium",
+        "action": "validated"
+      },
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation",
+      "summary": "Klarna's AI experiment provides a rare honest case study of both AI's potential and its limits. They publicly reversed course after going 'full tilt toward AI-based support.'",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4",
+        "source-5"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press Release",
+      "name": "Klarna Press",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "OpenAI",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Fast Company",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "CNBC",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-5",
+      "type": "Podcast",
+      "name": "Sequoia Podcast",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": "Critical. AI strategy is entirely CEO-driven. Siemiatkowski's personal conviction drove both the AI push and the correction.",
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": "Contextual. CEO-driven mandate, no named AI structure.",
+    "speedVsDepth": "Initially Speed (full-tilt AI adoption), corrected to Depth (acknowledging need for human nuance).",
+    "centralVsDistributed": "Centralized decision, distributed impact. CEO made the call to go AI-first and to reverse.",
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [
+    "What does the hybrid model look like now? How are AI and human agents coordinated in the corrected approach?",
+    "What organizational learning occurred from the reversal? Has Klarna created any formal AI governance since?"
+  ],
+  "taxonomyFeedback": [],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/klarna.json"
+  }
+}

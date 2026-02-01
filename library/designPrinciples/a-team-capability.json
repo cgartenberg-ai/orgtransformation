@@ -1,0 +1,19 @@
+{
+  "id": "a-team-capability",
+  "title": "A-Team Capability (However You Get It)",
+  "group": "resources",
+  "architecturalPrinciples": [
+    "locus-of-innovation"
+  ],
+  "insight": "Labs staffed with 'whoever is available' produce mediocre results. You need A-team capability in the lab—but there are multiple ways to get it beyond pulling your best operational people.",
+  "manifestations": [
+    "Pull and backfill (premium model): Move top performers to the lab, explicitly hire replacements",
+    "Hire externally for the lab: Recruit specifically for exploration, pair with internal 'translators'",
+    "Lab as talent magnet: Use the lab to attract people you couldn't otherwise recruit",
+    "Rotation with return path: Operational people do 6-12 month lab rotations with guaranteed return"
+  ],
+  "test": "Would your lab team be competitive in the external talent market for their roles? If not, you don't have A-team capability—you have who was available.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20"
+}

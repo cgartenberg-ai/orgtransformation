@@ -1,0 +1,148 @@
+{
+  "id": "jpmorgan",
+  "name": "JPMorgan Chase",
+  "title": "ML Center of Excellence with Rapid Cycles",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "High",
+    "classificationRationale": "Textbook Hub-and-Spoke (Model 4): centralized ML CoE (200+ ML scientists, software engineers, product managers across 3 continents) serves as the hub, distributing LLM Suite to 250K employees across all business divisions (spokes). Led by Chief Analytics Officer Derek Waldron. 8-week iteration cadence for platform updates. Multi-model architecture (OpenAI + Anthropic). Structural orientation: named CoE with dedicated C-suite leadership, formal budget ($18B tech investment), and explicit mandate.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Financial Services",
+    "sector": "Banking / Investment Banking",
+    "orgSize": "Enterprise",
+    "employees": "~310,000",
+    "revenue": "~$170B",
+    "headquarters": "New York, NY",
+    "geography": "Global"
+  },
+  "description": "A centralized Machine Learning Center of Excellence with 200+ ML scientists, software engineers, and product managers positioned globally across three continents. Distinctive for its rapid iteration cadence.\n- LLM Suite deployed to 250,000 employees (entire workforce except branch and call center staff)\n- Half use it roughly every day\n- 'Every eight weeks, LLM Suite is updated as the bank feeds it more from the vast databases and software applications of its major businesses, giving the platform more abilities'\n- Multi-model architecture using both OpenAI and Anthropic—creating optionality and avoiding vendor lock-in\n- Led by Chief Analytics Officer Derek Waldron (former McKinsey partner with PhD in computational physics)",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "Vision: 'The JPMorgan Chase of the future is going to be a fully AI-connected enterprise.' Plans include AI agents for every employee, automation of every behind-the-scenes process, and AI concierges for every client experience."
+  },
+  "mechanisms": [
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "LLM Suite deployed to 250,000 employees (entire workforce except branch/call center). Updated every 8 weeks with new capabilities. Half the workforce uses it roughly every day. This is massive-scale deployment with rapid iteration—deploying first, then feeding more data and capabilities iteratively.",
+      "strength": "Strong"
+    },
+    {
+      "id": 7,
+      "name": "Put Executives on Tools",
+      "evidence": "LLM Suite deployed to entire workforce including senior leadership. CEO Jamie Dimon's public vision: \"The JPMorgan Chase of the future is going to be a fully AI-connected enterprise.\" CEO-level commitment to AI transformation suggests executive tool adoption.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Curation Review",
+      "summary": "Model 4 (Hybrid/Hub-and-Spoke) validated with high conviction. JPMorgan has a centralized ML CoE (200+ ML scientists) that serves the entire enterprise via LLM Suite deployed to 250K employees. This is textbook hub-and-spoke: central AI capability hub distributing to business division spokes. Structural orientation confirmed: named CoE with dedicated Chief Analytics Officer (Derek Waldron), formal resources, 8-week iteration cadence. Fixed industry from Technology to Financial Services. Added Mechanism #5 (Deploy to Thousands) with strengthened evidence. Added Mechanism #7 (Put Executives on Tools).",
+      "classification": {
+        "structuralModel": 4,
+        "orientation": "Structural",
+        "confidence": "High",
+        "action": "validated"
+      },
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-01",
+      "label": "Latest Update",
+      "summary": "JPMorgan has begun deploying agentic AI to handle complex multistep tasks. Derek Waldron: 'As those agents become increasingly powerful and increasingly connected into JPMorgan, they can take on more and more responsibilities.' The bank expects to invest $18B in technology this year. AI integration ...",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025",
+      "label": "Initial Documentation",
+      "summary": "A centralized Machine Learning Center of Excellence with 200+ ML scientists, software engineers, and product managers positioned globally across three continents. Distinctive for its rapid iteration cadence.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "CNBC",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "American Banker (2025 Innovation of the Year)",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "CIO Dive",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Press Release",
+      "name": "JPMorgan Press",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High. Banking is heavily regulated; AI deployment must navigate compliance, risk, and audit requirements. Remarkable that JPMorgan achieves 8-week cycles despite this.",
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": "Structural. Named CoE with C-suite leadership and formal mandate.",
+    "speedVsDepth": "Speed. 8-week iteration cadence is remarkably fast for a regulated financial institution.",
+    "centralVsDistributed": "Centralized. ML CoE is a strong central hub distributing capability enterprise-wide.",
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [],
+  "taxonomyFeedback": [],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/jpmorgan.json"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "mandatory-ai-proficiency",
+  "title": "Make AI Proficiency a Condition of Employment",
+  "group": "workforce",
+  "architecturalPrinciples": [
+    "human-ai-boundaries",
+    "measurement-philosophy"
+  ],
+  "insight": "Optional AI adoption creates bimodal distribution (power users and non-users). Making proficiency mandatory—with support structures—creates universal capability.",
+  "manifestations": [
+    "Shopify: 'Prove AI can't do it before requesting headcount'; AI usage affects performance reviews",
+    "Moderna: 100% AI proficiency target within 6 months",
+    "Palo Alto Networks: 2,500 developers on Claude Code, 70% faster junior onboarding",
+    "BCG Trailblazers: 60% of AI budget to workforce upskilling (vs. 24-27% for followers)"
+  ],
+  "test": "What percentage of employees use AI tools weekly? If under 50%, adoption is optional in practice regardless of policy. What happens to employees who refuse to adopt?",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-21"
+}

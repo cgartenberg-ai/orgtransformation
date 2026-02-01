@@ -1,0 +1,155 @@
+{
+  "id": "tesla",
+  "name": "Tesla",
+  "title": "Fleet as Distributed Lab",
+  "classification": {
+    "structuralModel": 3,
+    "structuralModelName": "Embedded Teams",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "Auto-converted from legacy phenotype 'embedded'. Orientation inferred from content and design principles. Needs human review.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": null,
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": null,
+    "geography": null
+  },
+  "description": "Using deployed products as the innovation system. 1.5 million cars globally, each with 8 cameras, continuously generating training data and surfacing edge cases that no human R&D team could anticipate.\n- Former AI Director Andrej Karpathy: 'Build a dataset; train your network; deploy it and test it. When you notice that the network is misbehaving, you incorporate the errors into the training set.'\n- Every week, robots process 1.5 petabytes of data requiring massive compute to train\n- The fleet identifies edge cases that humans would never anticipate\n- Vision-only approach (no LiDAR, no HD maps): 'It's actually quite unscalable to collect, build, and maintain high-definition lidar maps.'",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "Cross-domain transfer: The organizational capability built for Autopilot directly enables Tesla Bot (Optimus). 2026 targets: 50,000 Optimus robots, Cybercab volume production starting April 2026."
+  },
+  "mechanisms": [],
+  "quotes": [],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Operation Maestro & AI Pivot",
+      "summary": "Internal reorganization 'Operation Maestro' driving massive expenses. GAAP net income Q4 fell 61% YoY to $840M. Forecasting $20B+ CapEx for 2026 focused on AI infrastructure. First-ever annual revenue decline concurrent with AI pivot. Identity crisis: automotive decline meets AI ambition.",
+      "classification": null,
+      "sourceRefs": ["financialcontent-maestro-2026"]
+    },
+    {
+      "date": "2026-01",
+      "label": "Latest Update",
+      "summary": "Elon Musk set firm 2026 deadline for unsupervised FSD and Optimus breakthroughs—VP of AI Ashok Elluswamy said it will be 'the hardest year' of employees' lives. FSD v14.2 rolling out globally (Europe launch expected Q1 2026). FSD transitioning to subscription-only model from February 2026. Optimus G...",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2025",
+      "label": "Initial Documentation",
+      "summary": "Using deployed products as the innovation system. 1.5 million cars globally, each with 8 cameras, continuously generating training data and surfacing edge cases that no human R&D team could anticipate.",
+      "classification": null,
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4",
+        "source-5"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "source-1",
+      "type": "Podcast",
+      "name": "Lex Fridman Podcast #333",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Tesla AI Day",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "BrainCreators",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "WebProNews January 2026",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "source-5",
+      "type": "Press",
+      "name": "Motley Fool December 2025",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": null
+    },
+    {
+      "id": "financialcontent-maestro-2026",
+      "type": "Press",
+      "name": "FinancialContent — Tesla's Identity Crisis",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-1-29-teslas-identity-crisis-first-ever-annual-revenue-decline-meets-ai-pivot-as-earnings-beat-expectations",
+      "timestamp": null,
+      "sourceDate": "2026-01-29",
+      "collectedDate": "2026-01-31",
+      "notes": "Operation Maestro expenses, 61% income drop, $20B+ CapEx forecast."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [
+    "What does 'Operation Maestro' actually entail structurally?",
+    "How is Tesla's AI team (FSD, Optimus, Dojo) organized?",
+    "What's the reporting line for AI vs. automotive?"
+  ],
+  "taxonomyFeedback": [],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/tesla.json"
+  }
+}

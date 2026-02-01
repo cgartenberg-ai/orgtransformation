@@ -1,0 +1,117 @@
+{
+  "items": [
+    {
+      "id": "research-1768924454962",
+      "type": "web-search",
+      "timestamp": "2026-01-20T15:54:14.962Z",
+      "query": "search the web for latest news about Procter & Gamble Large-Scale Field Experiments",
+      "answer": "Based on the search results, here are the latest developments regarding P&G's AI transformation approach:\n\n## Evolution Beyond Field Experiments: The \"AI Factory\" Model\n\nP&G has evolved their large-scale deployment approach into what they now call an **\"AI Factory\"** [1]. This represents a systematic scaling of their original field experiment methodology, providing \"a vehicle — including data sources, software tools, methods, and defined security protocols — to rapidly develop, test, deploy, and scale AI models\" [1].\n\n## Strategic Framework: \"Constructive Disruption\"\n\nThe company has formalized their transformation approach under the strategic theme of **\"constructive disruption,\"** which has been consistently featured in their annual reports from 2022 through 2024 [2]. This signals that their AI transformation \"is not a short-term reaction to industry hype but a long-term, consistent strategy to proactively reshape its own business and the market at large\" [2].\n\n## Three-Pillar Scaling Strategy\n\nP&G's current approach focuses on three key areas for scaling AI initiatives [3][5]:\n- **Clearly articulating business purposes** for AI implementations\n- **Building organizational AI fluency and skills** across the workforce  \n- **Standardizing and automating AI development** throughout P&G enterprises for speed and efficiency\n\n## Operational Applications\n\nThe company is now applying their scaled AI approach to core business operations, including **automated modeling and simulation to overcome supply chain issues and improve fabric care formula design** [4]. They've integrated \"numerous detergent formulas into our core data lake, which now allows for faster development\" [4].\n\nHowever, the search results don't reveal specific updates on the Harvard Business School partnership study results or detailed metrics on the current usage of ChatPG, ImagePG, and AskPG platforms since the initial deployment.",
+      "sources": [
+        "How Procter & Gamble Uses AI to Unlock New Insights From Data | Thomas H. Davenport and Randy Bean | MIT Sloan Management Review - https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data/",
+        "Procter & Gamble’s AI Strategy: Path to AI Dominance in Consumer Goods - Klover.ai - https://www.klover.ai/procter-gamble-ai-strategy-path-to-ai-dominance-consumer-goods/",
+        "Artificial Intelligence at Procter & Gamble - Emerj Artificial Intelligence Research - https://emerj.com/artificial-intelligence-at-procter-gamble/",
+        "3 Keys to Successful Digital Transformation | P&G - https://us.pg.com/blogs/keys-to-successful-digital-transformation/",
+        "P&G's AI Factory Scaling Data Science Innovations | Consumer Goods Technology - https://consumergoods.com/pg-investing-ai-scalability-eyeing-end-end-applications"
+      ],
+      "extractedFacts": [
+        "P&G has evolved their large-scale field experiment approach into an \"AI Factory\" model that provides systematic infrastructure for rapid AI development and deployment",
+        "The company has adopted \"constructive disruption\" as their strategic theme for AI transformation, consistently used in annual reports 2022-2024",
+        "P&G's current scaling strategy focuses on three pillars: articulating business purposes, building AI fluency, and standardizing development",
+        "They are now applying AI to core operations like supply chain optimization and product formulation through automated modeling and simulation",
+        "Multiple detergent formulas have been integrated into their core data lake to accelerate development processes"
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "title": "How Procter & Gamble Uses AI to Unlock New Insights From Data | Thomas H. Davenport and Randy Bean | MIT Sloan Management Review",
+          "url": "https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data/",
+          "snippet": "P&G developed a capability that it calls an 'AI factory.' It provides a vehicle — including data sources, software tools, methods, and defined security protocols — to rapidly develop, test, deploy, and scale AI models",
+          "siteName": "sloanreview.mit.edu"
+        },
+        {
+          "index": 2,
+          "title": "Procter & Gamble’s AI Strategy: Path to AI Dominance in Consumer Goods - Klover.ai",
+          "url": "https://www.klover.ai/procter-gamble-ai-strategy-path-to-ai-dominance-consumer-goods/",
+          "snippet": "The persistent use of this term signals that P&G's AI transformation is not a short-term reaction to industry hype but a long-term, consistent strategy to proactively reshape its own business and the market at large",
+          "siteName": "www.klover.ai",
+          "publishedDate": "2025-07-25T12:47:15"
+        },
+        {
+          "index": 3,
+          "title": "Artificial Intelligence at Procter & Gamble - Emerj Artificial Intelligence Research",
+          "url": "https://emerj.com/artificial-intelligence-at-procter-gamble/",
+          "snippet": "P&G is focusing on scaling AI initiatives by clearly articulating their business purposes, building organizational AI fluency and skills, and standardizing AI development throughout P&G enterprises for speed and efficiency",
+          "siteName": "emerj.com"
+        },
+        {
+          "index": 4,
+          "title": "3 Keys to Successful Digital Transformation | P&G",
+          "url": "https://us.pg.com/blogs/keys-to-successful-digital-transformation/",
+          "snippet": "By implementing automated modeling and simulation, we can overcome supply chain issues and improve our fabric care formula design",
+          "siteName": "us.pg.com",
+          "publishedDate": "2025-06-17T05:56:49"
+        }
+      ]
+    },
+    {
+      "id": "research-1768924457934",
+      "type": "web-search",
+      "timestamp": "2026-01-20T15:54:17.934Z",
+      "query": "search the web for latest news about Procter & Gamble Large-Scale Field Experiments",
+      "answer": "Based on the search results, here are the latest developments regarding P&G's AI transformation approach:\n\n## Evolution Beyond Field Experiments: The \"AI Factory\" Model\n\nP&G has evolved their large-scale deployment approach into what they now call an **\"AI Factory\"** [1]. This represents a systematic scaling of their original field experiment methodology, providing \"a vehicle — including data sources, software tools, methods, and defined security protocols — to rapidly develop, test, deploy, and scale AI models\" [1].\n\n## Strategic Framework: \"Constructive Disruption\"\n\nThe company has formalized their transformation approach under the strategic theme of **\"constructive disruption,\"** which has been consistently featured in their annual reports from 2022 through 2024 [2]. This signals that their AI transformation \"is not a short-term reaction to industry hype but a long-term, consistent strategy to proactively reshape its own business and the market at large\" [2].\n\n## Three-Pillar Scaling Strategy\n\nP&G's current approach focuses on three key areas for scaling AI initiatives [3][5]:\n- **Clearly articulating business purposes** for AI implementations\n- **Building organizational AI fluency and skills** across the workforce  \n- **Standardizing and automating AI development** throughout P&G enterprises for speed and efficiency\n\n## Operational Applications\n\nThe company is now applying their scaled AI approach to core business operations, including **automated modeling and simulation to overcome supply chain issues and improve fabric care formula design** [4]. They've integrated \"numerous detergent formulas into our core data lake, which now allows for faster development\" [4].\n\nHowever, the search results don't reveal specific updates on the Harvard Business School partnership study results or detailed metrics on the current usage of ChatPG, ImagePG, and AskPG platforms since the initial deployment.",
+      "sources": [
+        "How Procter & Gamble Uses AI to Unlock New Insights From Data | Thomas H. Davenport and Randy Bean | MIT Sloan Management Review - https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data/",
+        "Procter & Gamble’s AI Strategy: Path to AI Dominance in Consumer Goods - Klover.ai - https://www.klover.ai/procter-gamble-ai-strategy-path-to-ai-dominance-consumer-goods/",
+        "Artificial Intelligence at Procter & Gamble - Emerj Artificial Intelligence Research - https://emerj.com/artificial-intelligence-at-procter-gamble/",
+        "3 Keys to Successful Digital Transformation | P&G - https://us.pg.com/blogs/keys-to-successful-digital-transformation/",
+        "P&G's AI Factory Scaling Data Science Innovations | Consumer Goods Technology - https://consumergoods.com/pg-investing-ai-scalability-eyeing-end-end-applications"
+      ],
+      "extractedFacts": [
+        "P&G has evolved their large-scale field experiment approach into an \"AI Factory\" model that provides systematic infrastructure for rapid AI development and deployment",
+        "The company has adopted \"constructive disruption\" as their strategic theme for AI transformation, consistently used in annual reports 2022-2024",
+        "P&G's current scaling strategy focuses on three pillars: articulating business purposes, building AI fluency, and standardizing development",
+        "They are now applying AI to core operations like supply chain optimization and product formulation through automated modeling and simulation",
+        "Multiple detergent formulas have been integrated into their core data lake to accelerate development processes"
+      ],
+      "citations": [
+        {
+          "index": 1,
+          "title": "How Procter & Gamble Uses AI to Unlock New Insights From Data | Thomas H. Davenport and Randy Bean | MIT Sloan Management Review",
+          "url": "https://sloanreview.mit.edu/article/how-procter-gamble-uses-ai-to-unlock-new-insights-from-data/",
+          "snippet": "P&G developed a capability that it calls an 'AI factory.' It provides a vehicle — including data sources, software tools, methods, and defined security protocols — to rapidly develop, test, deploy, and scale AI models",
+          "siteName": "sloanreview.mit.edu"
+        },
+        {
+          "index": 2,
+          "title": "Procter & Gamble’s AI Strategy: Path to AI Dominance in Consumer Goods - Klover.ai",
+          "url": "https://www.klover.ai/procter-gamble-ai-strategy-path-to-ai-dominance-consumer-goods/",
+          "snippet": "The persistent use of this term signals that P&G's AI transformation is not a short-term reaction to industry hype but a long-term, consistent strategy to proactively reshape its own business and the market at large",
+          "siteName": "www.klover.ai",
+          "publishedDate": "2025-07-25T12:47:15"
+        },
+        {
+          "index": 3,
+          "title": "Artificial Intelligence at Procter & Gamble - Emerj Artificial Intelligence Research",
+          "url": "https://emerj.com/artificial-intelligence-at-procter-gamble/",
+          "snippet": "P&G is focusing on scaling AI initiatives by clearly articulating their business purposes, building organizational AI fluency and skills, and standardizing AI development throughout P&G enterprises for speed and efficiency",
+          "siteName": "emerj.com"
+        },
+        {
+          "index": 4,
+          "title": "3 Keys to Successful Digital Transformation | P&G",
+          "url": "https://us.pg.com/blogs/keys-to-successful-digital-transformation/",
+          "snippet": "By implementing automated modeling and simulation, we can overcome supply chain issues and improve our fabric care formula design",
+          "siteName": "us.pg.com",
+          "publishedDate": "2025-06-17T05:56:49"
+        }
+      ]
+    },
+    {
+      "id": "note-1768924536446",
+      "type": "note",
+      "timestamp": "2026-01-20T15:55:36.446Z",
+      "content": "while the experiment model may have been early, it looks like they are instiuting a more formal model how."
+    }
+  ],
+  "lastUpdated": "2026-01-20T15:55:36.451Z"
+}

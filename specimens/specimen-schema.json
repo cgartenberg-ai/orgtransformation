@@ -1,0 +1,405 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Ambidexterity Field Guide Specimen",
+  "description": "A single organizational specimen documenting how an organization structures AI exploration and execution.",
+  "type": "object",
+  "required": ["id", "name", "classification", "description", "sources", "layers", "meta"],
+  "properties": {
+
+    "id": {
+      "type": "string",
+      "description": "URL-safe identifier. Lowercase, hyphens. e.g. 'eli-lilly', 'google-x'",
+      "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$"
+    },
+
+    "name": {
+      "type": "string",
+      "description": "Display name of the organization. e.g. 'Eli Lilly', 'Google X'"
+    },
+
+    "title": {
+      "type": "string",
+      "description": "Short descriptive title for the specimen. e.g. 'Decentralized Domain Hubs', 'The Moonshot Factory'"
+    },
+
+    "classification": {
+      "type": "object",
+      "description": "Taxonomy classification along two dimensions: structural model and ambidexterity orientation.",
+      "required": ["structuralModel", "orientation", "confidence"],
+      "properties": {
+        "structuralModel": {
+          "type": ["integer", "null"],
+          "enum": [1, 2, 3, 4, 5, 6, 7, null],
+          "description": "Primary structural model. 1=Research Lab, 2=Center of Excellence, 3=Embedded Teams, 4=Hybrid/Hub-and-Spoke, 5=Product/Venture Lab, 6=Unnamed/Informal, 7=Tiger Teams"
+        },
+        "structuralModelName": {
+          "type": "string",
+          "enum": ["Research Lab", "Center of Excellence", "Embedded Teams", "Hybrid/Hub-and-Spoke", "Product/Venture Lab", "Unnamed/Informal", "Tiger Teams", ""],
+          "description": "Human-readable name for the primary structural model"
+        },
+        "subType": {
+          "type": ["string", "null"],
+          "enum": ["5a", "5b", "5c", "6a", "6b", "6c", null],
+          "description": "Sub-type if applicable. 5a=Internal Incubator, 5b=Venture Builder, 5c=Platform-to-Product, 6a=Enterprise-Wide Adoption, 6b=Centralized-but-Unnamed, 6c=Grassroots/Bottom-Up"
+        },
+        "subTypeName": {
+          "type": ["string", "null"],
+          "enum": ["Internal Incubator", "Venture Builder", "Platform-to-Product", "Enterprise-Wide Adoption", "Centralized-but-Unnamed", "Grassroots/Bottom-Up", null],
+          "description": "Human-readable name for the sub-type"
+        },
+        "secondaryModel": {
+          "type": ["integer", "null"],
+          "enum": [1, 2, 3, 4, 5, 6, 7, null],
+          "description": "Secondary structural model if hybrid. e.g. Eli Lilly is Model 1 + Model 5b"
+        },
+        "secondaryModelName": {
+          "type": ["string", "null"],
+          "description": "Human-readable name for the secondary model"
+        },
+        "orientation": {
+          "type": ["string", "null"],
+          "enum": ["Structural", "Contextual", "Temporal", null],
+          "description": "Primary ambidexterity orientation"
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["High", "Medium", "Low"],
+          "description": "Classification confidence. High=multiple confirming sources. Medium=reasonable but incomplete. Low=best guess from limited data."
+        },
+        "classificationRationale": {
+          "type": ["string", "null"],
+          "description": "Explanation of why this classification was chosen, especially if non-obvious or Medium/Low confidence."
+        },
+        "typeSpecimen": {
+          "type": "boolean",
+          "description": "True if this is the clearest reference example of its structural model."
+        }
+      }
+    },
+
+    "habitat": {
+      "type": "object",
+      "description": "Environmental conditions — industry, size, geography. Enables the Situation Matcher.",
+      "properties": {
+        "industry": {
+          "type": "string",
+          "description": "Primary industry. e.g. 'Pharmaceuticals', 'Technology', 'Financial Services'"
+        },
+        "sector": {
+          "type": ["string", "null"],
+          "description": "More specific sector within industry. e.g. 'E-commerce', 'Cloud Infrastructure'"
+        },
+        "orgSize": {
+          "type": ["string", "null"],
+          "enum": ["Startup", "Scaleup", "Mid-market", "Enterprise", null],
+          "description": "Startup=<500, Scaleup=500-1000, Mid-market=1000-10000, Enterprise=10000+"
+        },
+        "employees": {
+          "type": ["integer", "null"],
+          "description": "Approximate employee count"
+        },
+        "revenue": {
+          "type": ["string", "null"],
+          "description": "Approximate annual revenue. e.g. '$120B', '$4.6B'"
+        },
+        "headquarters": {
+          "type": ["string", "null"],
+          "description": "HQ location. e.g. 'Indianapolis, IN', 'Mountain View, CA'"
+        },
+        "geography": {
+          "type": ["string", "null"],
+          "enum": ["North America", "Europe", "Asia-Pacific", "Global", "Other", null],
+          "description": "Primary operating geography"
+        }
+      }
+    },
+
+    "description": {
+      "type": "string",
+      "description": "2-3 paragraph narrative description of how this org structures AI exploration and execution. What does it actually look like? Be specific."
+    },
+
+    "observableMarkers": {
+      "type": "object",
+      "description": "How you'd recognize this structural form in the wild.",
+      "properties": {
+        "reportingStructure": {
+          "type": ["string", "null"],
+          "description": "Who reports to whom. e.g. 'Hubs report to R&D leadership, not BU heads'"
+        },
+        "resourceAllocation": {
+          "type": ["string", "null"],
+          "description": "Budget and headcount patterns. e.g. '20-25% of revenue to R&D'"
+        },
+        "timeHorizons": {
+          "type": ["string", "null"],
+          "description": "Planning and delivery cycles. e.g. 'Decades, not quarters'"
+        },
+        "decisionRights": {
+          "type": ["string", "null"],
+          "description": "Who decides what. e.g. 'Hub leaders have significant autonomy'"
+        },
+        "metrics": {
+          "type": ["string", "null"],
+          "description": "Key quantitative metrics. e.g. '95% daily AI usage, 30K+ active users'"
+        }
+      }
+    },
+
+    "mechanisms": {
+      "type": "array",
+      "description": "Which of the 10 cross-cutting mechanisms this specimen demonstrates.",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "evidence"],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 10,
+            "description": "Mechanism number (1-10)"
+          },
+          "name": {
+            "type": "string",
+            "description": "Mechanism name. e.g. 'Protect Off-Strategy Work'"
+          },
+          "evidence": {
+            "type": "string",
+            "description": "How this specimen demonstrates the mechanism. Specific, sourced."
+          },
+          "strength": {
+            "type": "string",
+            "enum": ["Strong", "Moderate", "Emerging"],
+            "description": "How clearly the mechanism is demonstrated"
+          }
+        }
+      }
+    },
+
+    "quotes": {
+      "type": "array",
+      "description": "Verbatim quotes from leaders with full attribution.",
+      "items": {
+        "type": "object",
+        "required": ["text", "speaker"],
+        "properties": {
+          "text": {
+            "type": "string",
+            "description": "Exact quote text"
+          },
+          "speaker": {
+            "type": "string",
+            "description": "Full name of speaker"
+          },
+          "speakerTitle": {
+            "type": ["string", "null"],
+            "description": "Title/role at time of quote"
+          },
+          "source": {
+            "type": ["string", "null"],
+            "description": "Where the quote appeared"
+          },
+          "sourceUrl": {
+            "type": ["string", "null"],
+            "description": "URL to source"
+          },
+          "timestamp": {
+            "type": ["string", "null"],
+            "description": "Timestamp within audio/video source. e.g. '34:12'"
+          },
+          "date": {
+            "type": ["string", "null"],
+            "description": "Date of the quote (source date, not collected date). ISO format preferred."
+          }
+        }
+      }
+    },
+
+    "layers": {
+      "type": "array",
+      "description": "Historical layers (stratigraphy). Most recent first. Each layer represents a point-in-time state of the organization's approach. Layers are additive — never delete, only add.",
+      "items": {
+        "type": "object",
+        "required": ["date", "summary"],
+        "properties": {
+          "date": {
+            "type": "string",
+            "description": "When this state was revealed by the org. YYYY-MM format. e.g. '2026-01'"
+          },
+          "label": {
+            "type": ["string", "null"],
+            "description": "Short label for the layer. e.g. 'NVIDIA Partnership', 'Hub Structure Detailed'"
+          },
+          "summary": {
+            "type": "string",
+            "description": "What this layer represents. What was new or changed."
+          },
+          "classification": {
+            "type": ["string", "null"],
+            "description": "Classification at this point in time, if different from current. e.g. 'Model 1' before becoming 'Model 1 + 5b'"
+          },
+          "sourceRefs": {
+            "type": "array",
+            "description": "References to source IDs in the sources array.",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "sources": {
+      "type": "array",
+      "description": "All sources for this specimen. Every fact must trace to a source.",
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "name"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique source reference ID within this specimen. e.g. 'cheeky-pint-2025', 'nvidia-pr-2026'"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["Podcast", "Substack", "Press", "SEC Filing", "Earnings Call", "Interview", "Report", "LinkedIn", "Blog", "Academic Paper", "Press Release", "Other"],
+            "description": "Source type"
+          },
+          "name": {
+            "type": "string",
+            "description": "Source name. e.g. 'Cheeky Pint Podcast', 'NVIDIA Press Release'"
+          },
+          "url": {
+            "type": ["string", "null"],
+            "description": "URL to source. Required unless behind paywall or unavailable."
+          },
+          "timestamp": {
+            "type": ["string", "null"],
+            "description": "For audio/video: timestamp where relevant content appears. e.g. '23:45'"
+          },
+          "sourceDate": {
+            "type": ["string", "null"],
+            "description": "When the org revealed/disclosed this info (as-of date). YYYY-MM-DD or YYYY-MM."
+          },
+          "collectedDate": {
+            "type": ["string", "null"],
+            "description": "When we captured this in the herbarium. YYYY-MM-DD."
+          },
+          "notes": {
+            "type": ["string", "null"],
+            "description": "Additional context. e.g. '[paywall]', 'Dave Ricks interview'"
+          }
+        }
+      }
+    },
+
+    "contingencies": {
+      "type": "object",
+      "description": "How this specimen scores on the 5 key contingency variables. Used by the Situation Matcher.",
+      "properties": {
+        "regulatoryIntensity": {
+          "type": ["string", "null"],
+          "enum": ["High", "Medium", "Low", null],
+          "description": "Level of regulatory burden on the organization"
+        },
+        "timeToObsolescence": {
+          "type": ["string", "null"],
+          "enum": ["Fast", "Medium", "Slow", null],
+          "description": "How quickly the core business faces disruption"
+        },
+        "ceoTenure": {
+          "type": ["string", "null"],
+          "enum": ["Long", "Medium", "Short", "Founder", null],
+          "description": "CEO tenure and mandate stability"
+        },
+        "talentMarketPosition": {
+          "type": ["string", "null"],
+          "enum": ["Talent-rich", "Talent-constrained", "Non-traditional", null],
+          "description": "Ability to attract and retain AI talent"
+        },
+        "technicalDebt": {
+          "type": ["string", "null"],
+          "enum": ["High", "Medium", "Low", null],
+          "description": "Degree of legacy system burden"
+        }
+      }
+    },
+
+    "tensionPositions": {
+      "type": "object",
+      "description": "Where this specimen falls on the 5 core tensions. Scale: -1.0 (Pole A) to +1.0 (Pole B). Used for the Tension Map visualization.",
+      "properties": {
+        "structuralVsContextual": {
+          "type": ["number", "null"],
+          "minimum": -1,
+          "maximum": 1,
+          "description": "-1 = fully structural separation, +1 = fully contextual integration"
+        },
+        "speedVsDepth": {
+          "type": ["number", "null"],
+          "minimum": -1,
+          "maximum": 1,
+          "description": "-1 = deep validation before deploy, +1 = fast wide deployment"
+        },
+        "centralVsDistributed": {
+          "type": ["number", "null"],
+          "minimum": -1,
+          "maximum": 1,
+          "description": "-1 = fully centralized, +1 = fully distributed"
+        },
+        "namedVsQuiet": {
+          "type": ["number", "null"],
+          "minimum": -1,
+          "maximum": 1,
+          "description": "-1 = strongly named/branded, +1 = quiet/unnamed transformation"
+        },
+        "longVsShortHorizon": {
+          "type": ["number", "null"],
+          "minimum": -1,
+          "maximum": 1,
+          "description": "-1 = multi-year/decade horizons, +1 = quarterly cycles"
+        }
+      }
+    },
+
+    "openQuestions": {
+      "type": "array",
+      "description": "What remains unclear about this specimen. Guides future research.",
+      "items": { "type": "string" }
+    },
+
+    "taxonomyFeedback": {
+      "type": "array",
+      "description": "Observations about how this specimen fits (or doesn't fit) the taxonomy. Informs taxonomy evolution.",
+      "items": { "type": "string" }
+    },
+
+    "meta": {
+      "type": "object",
+      "description": "Specimen metadata for registry and tracking.",
+      "required": ["status", "created", "lastUpdated", "completeness"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["Active", "Stub", "Archived"],
+          "description": "Active=maintained, Stub=minimal data, Archived=no longer tracking"
+        },
+        "created": {
+          "type": "string",
+          "description": "When this specimen was first created. YYYY-MM-DD."
+        },
+        "lastUpdated": {
+          "type": "string",
+          "description": "When this specimen was last updated. YYYY-MM-DD."
+        },
+        "completeness": {
+          "type": "string",
+          "enum": ["High", "Medium", "Low"],
+          "description": "High=multiple sources, mechanisms documented, quotes. Medium=core structure understood, some gaps. Low=stub, insufficient detail."
+        },
+        "convertedFrom": {
+          "type": ["string", "null"],
+          "description": "If converted from old format, the original file path. e.g. 'library/cases/eli-lilly.json'"
+        }
+      }
+    }
+  }
+}

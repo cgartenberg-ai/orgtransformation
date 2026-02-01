@@ -1,0 +1,38 @@
+{
+  "id": "commonwealth-bank",
+  "company": "Commonwealth Bank of Australia",
+  "title": "50,000 Employee AI Rollout: Largest ChatGPT Enterprise Deployment",
+  "summary": "Deployed ChatGPT Enterprise to all 50,000 employees with CEO hands-on involvement, representing the largest single ChatGPT Enterprise deployment globally.",
+  "diagramTemplate": "hybrid-hub-spoke",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "human-ai-boundaries"
+  ],
+  "designPrinciples": [
+    "mandatory-proficiency",
+    "consumer-grade-ux",
+    "ceo-as-political-shield"
+  ],
+  "content": {
+    "whatItIs": "Commonwealth Bank of Australia (CBA) deployed ChatGPT Enterprise to all 50,000 employees, representing the largest single ChatGPT Enterprise deployment in the world. CEO Matt Comyn personally engaged with the rollout, spending significant time understanding AI capabilities and use cases.",
+    "howItWorks": [
+      "Full enterprise-wide deployment to all 50,000 employees simultaneously",
+      "CEO Matt Comyn hands-on involvement in understanding and championing AI",
+      "ChatGPT Enterprise platform provides security, compliance, and audit capabilities required for banking",
+      "Universal access rather than pilot-based rollout strategy",
+      "Focus on productivity gains across all business functions"
+    ],
+    "coreInsight": "CBA's approach rejects the traditional 'pilot, then scale' model in favor of immediate universal access. By giving all employees AI tools from day one, they accelerate learning curves and identify high-value use cases organically across the organization.",
+    "keyMetrics": "50,000 employees; largest ChatGPT Enterprise deployment globally; CEO hands-on involvement",
+    "sources": [
+      "OpenAI customer announcements",
+      "Australian Financial Review, January 2026",
+      "CBA investor materials"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "unnamed-informal",
+  "phenotypeSubtype": "enterprise-adoption"
+}

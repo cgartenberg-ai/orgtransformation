@@ -1,0 +1,20 @@
+{
+  "id": "executives-on-tools",
+  "title": "Put Executives on the Tools, Not Just the Strategy",
+  "group": "leadership",
+  "architecturalPrinciples": [
+    "organizational-north-star",
+    "stance-on-uncertainty"
+  ],
+  "insight": "Executives who don't personally use AI make bad decisions about AI transformation. Demos don't build intuition; doing real work does.",
+  "manifestations": [
+    "BCG Trailblazers: CEOs spend 8+ hours/week personally using AI on real work",
+    "Microsoft: Nadella restructured executives to work as individual contributors on AI products",
+    "Mercado Libre: Founder stepped down as CEO to focus hands-on on AI",
+    "Commonwealth Bank: CEO personally drove 50K deployment, not delegated to IT"
+  ],
+  "test": "When did your C-suite last use AI tools on their own real work—not watch a demo, not review someone else's output, but actually use the tools? If you can't remember, executive judgment on AI is uninformed.",
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-21"
+}

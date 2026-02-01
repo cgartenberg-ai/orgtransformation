@@ -1,0 +1,35 @@
+{
+  "id": "deloitte",
+  "company": "Deloitte",
+  "title": "Agentic Operating Model",
+  "summary": "Only 11% of organizations have agentic AI in production\u2014success requires process redesign, workforce change management, and governance-as-enabler",
+  "diagramTemplate": "coe-governance",
+  "architecturalPrinciples": [
+    "locus-of-innovation",
+    "ambidexterity-structure"
+  ],
+  "designPrinciples": [
+    "rapid-iteration-cycles"
+  ],
+  "content": {
+    "whatItIs": "Deloitte's research on agentic AI adoption reveals a stark gap: while 30% explore and 38% pilot, only 14% have solutions ready to deploy and a mere 11% are actively using these systems in production.",
+    "howItWorks": [
+      "Key insight: Leading enterprises don't layer agents onto existing workflows\u2014they redesign processes to leverage agents' unique strengths",
+      "'Bolting AI onto existing workflows delivers limited value. Real impact requires reimagining processes with agents at the core.'",
+      "New paradigm: 'What if we rebuild our entire operating model around AI?' Not implementing tools\u2014pioneering new operating models around autonomous decision-making",
+      "Workforce shift: Human-agent collaboration moving from hands-on execution to supervision and exception handling",
+      "Infrastructure requirement: Clean, consistent, real-time data, standardized interfaces, event-driven architectures"
+    ],
+    "coreInsight": "The 11% production deployment rate reveals the real barrier: organizational capacity, not technology. Success requires process redesign (not overlay), explicit workforce change management, infrastructure modernization, and governance-as-enabler. The question isn't 'how do we use AI?' but 'how do we rebuild around AI?'",
+    "keyMetrics": "30% exploring, 38% piloting, 14% ready to deploy, 11% in production. Governance-as-enabler increases confidence for higher-value scenarios.",
+    "sources": [
+      "Deloitte Insights",
+      "Deloitte Tech Trends 2026"
+    ]
+  },
+  "conversations": [],
+  "extendedContent": {},
+  "lastUpdated": "2026-01-20",
+  "phenotype": "product-venture-lab",
+  "phenotypeSubtype": "platform-to-product"
+}
