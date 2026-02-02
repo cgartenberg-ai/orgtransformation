@@ -12,7 +12,7 @@ export function MechanismsTab({
   if (specimen.mechanisms.length === 0) {
     return (
       <p className="text-sm text-charcoal-400">
-        No mechanisms documented for this specimen yet.
+        No principles documented for this organization yet.
       </p>
     );
   }
@@ -20,7 +20,7 @@ export function MechanismsTab({
   return (
     <div className="space-y-4">
       <p className="text-sm text-charcoal-500">
-        Cross-cutting patterns observed in {specimen.name}:
+        Structural principles observed in {specimen.name}:
       </p>
       <div className="space-y-3">
         {specimen.mechanisms.map((m) => {

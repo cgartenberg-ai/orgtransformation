@@ -5,7 +5,7 @@ export function EvolutionTab({ specimen }: { specimen: Specimen }) {
   if (specimen.layers.length === 0) {
     return (
       <p className="text-sm text-charcoal-400">
-        No historical layers documented yet.
+        No organizational evolution documented yet.
       </p>
     );
   }
@@ -13,8 +13,8 @@ export function EvolutionTab({ specimen }: { specimen: Specimen }) {
   return (
     <div className="space-y-1">
       <p className="mb-4 text-sm text-charcoal-500">
-        Stratigraphic layers &mdash; click a node to see details. Layers are
-        never overwritten, only added.
+        How this organization&rsquo;s structural form has evolved. Each node
+        marks an observed shift in AI organization or strategic direction.
       </p>
       <EvolutionTimeline layers={specimen.layers} />
     </div>

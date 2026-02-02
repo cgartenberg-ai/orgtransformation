@@ -9,11 +9,13 @@ import { SpecimenCard } from "./SpecimenCard";
 export function SpecimenBrowser({
   specimens,
   industries,
+  initialModel = null,
 }: {
   specimens: Specimen[];
   industries: string[];
+  initialModel?: StructuralModel | null;
 }) {
-  const [modelFilter, setModelFilter] = useState<StructuralModel | null>(null);
+  const [modelFilter, setModelFilter] = useState<StructuralModel | null>(initialModel);
   const [orientationFilter, setOrientationFilter] = useState<Orientation | null>(null);
   const [industryFilter, setIndustryFilter] = useState<string | null>(null);
   const [completenessFilter, setCompletenessFilter] = useState<string | null>(null);
@@ -156,6 +158,19 @@ export function SpecimenBrowser({
 
       {/* Results */}
       <div>
+        {modelFilter && (
+          <div className="mb-6 rounded-xl border border-sage-200 bg-white p-6 shadow-sm">
+            <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-sage-500">
+              {STRUCTURAL_MODELS[modelFilter].shortName}
+            </p>
+            <h2 className="mt-1 font-serif text-xl font-semibold text-forest">
+              {STRUCTURAL_MODELS[modelFilter].name}
+            </h2>
+            <p className="mt-2 text-sm leading-relaxed text-charcoal-600">
+              {STRUCTURAL_MODELS[modelFilter].characteristics}
+            </p>
+          </div>
+        )}
         <p className="mb-4 text-sm text-charcoal-500">
           {filtered.length} specimen{filtered.length !== 1 ? "s" : ""}
           {hasFilters ? " matching filters" : ""}

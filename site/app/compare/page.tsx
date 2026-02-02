@@ -18,7 +18,7 @@ export default async function ComparePage() {
         </h1>
         <p className="mt-2 text-charcoal-500">
           Select up to 4 specimens to compare side-by-side across
-          classification, contingencies, tension positions, and mechanisms.
+          classification, contingencies, tension positions, and principles.
         </p>
       </header>
 

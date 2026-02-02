@@ -197,6 +197,19 @@
       ],
       "status": "curated",
       "curatedIn": "2026-02-01-curation.md"
+    },
+    {
+      "sessionFile": "2026-02-01-002-research-tier1-press-broad-scan.md",
+      "sessionDate": "2026-02-01",
+      "source": "WSJ + FT + Reuters + Bloomberg + The Information + LinkedIn Economic Graph (all headline triage, first scan) + press keyword searches (CAIO appointed 2026, AI lab launches, AI restructuring)",
+      "organizationsFound": [
+        "ubs",
+        "commonwealth-bank",
+        "stagwell",
+        "amazon"
+      ],
+      "status": "pending",
+      "curatedIn": null
     }
   ]
 }

@@ -204,7 +204,7 @@ export function ComparisonView({
               </ComparisonSection>
 
               {/* Mechanisms */}
-              <ComparisonSection label="Mechanisms">
+              <ComparisonSection label="Principles">
                 {(() => {
                   const allMechIds = Array.from(
                     new Set(

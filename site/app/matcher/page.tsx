@@ -1,10 +1,12 @@
 import { getAllSpecimens } from "@/lib/data/specimens";
 import { MatcherForm } from "@/components/matcher/MatcherForm";
+import { ChatMatcher } from "@/components/matcher/ChatMatcher";
+import { MatcherTabs } from "@/components/matcher/MatcherTabs";
 
 export const metadata = {
-  title: "Situation Matcher — Ambidexterity Field Guide",
+  title: "Find Your Match — Ambidexterity Field Guide",
   description:
-    "Find organizations facing constraints like yours",
+    "Chat with an AI advisor or use quick matching to find organizations facing constraints like yours",
 };
 
 export default async function MatcherPage() {
@@ -15,16 +17,18 @@ export default async function MatcherPage() {
     <div className="space-y-6">
       <header>
         <h1 className="font-serif text-3xl font-semibold text-forest">
-          Situation Matcher
+          Find Your Match
         </h1>
         <p className="mt-2 text-charcoal-500">
-          Describe your organizational context and we&rsquo;ll find specimens
-          facing similar constraints. Matching is transparent &mdash; click
-          &ldquo;Why?&rdquo; on any result to see exactly how it scored.
+          Describe your organization and we&rsquo;ll help you find the
+          structural species that fits your situation.
         </p>
       </header>
 
-      <MatcherForm specimens={active} />
+      <MatcherTabs
+        chatPanel={<ChatMatcher />}
+        quickPanel={<MatcherForm specimens={active} />}
+      />
     </div>
   );
 }

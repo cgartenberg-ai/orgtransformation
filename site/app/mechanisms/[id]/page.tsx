@@ -18,7 +18,7 @@ export async function generateMetadata({
   const mechanism = data.confirmed.find((m) => m.id === Number(params.id));
   if (!mechanism) return {};
   return {
-    title: `${mechanism.name} — Mechanisms — Ambidexterity Field Guide`,
+    title: `${mechanism.name} — Principles — Ambidexterity Field Guide`,
     description: mechanism.definition,
   };
 }
@@ -47,16 +47,16 @@ export default async function MechanismDetailPage({
       {/* Breadcrumb */}
       <nav className="text-sm text-charcoal-400">
         <Link href="/mechanisms" className="hover:text-forest">
-          Mechanisms
+          Principles
         </Link>
         <span className="mx-2">/</span>
-        <span className="text-charcoal-700">#{mechanism.id}</span>
+        <span className="text-charcoal-700">Principle #{mechanism.id}</span>
       </nav>
 
       {/* Header */}
       <header>
         <span className="font-mono text-sm text-charcoal-400">
-          Mechanism #{mechanism.id}
+          Principle #{mechanism.id}
         </span>
         <h1 className="mt-1 font-serif text-3xl font-semibold text-forest">
           {mechanism.name}
@@ -137,7 +137,7 @@ export default async function MechanismDetailPage({
       {linkedSpecimens.length > 0 && (
         <section>
           <h2 className="mb-3 font-serif text-lg text-forest">
-            Specimens Demonstrating This Mechanism ({linkedSpecimens.length})
+            Organizations Showing This Principle ({linkedSpecimens.length})
           </h2>
           <div className="grid gap-3 md:grid-cols-2">
             {linkedSpecimens.map((s) => (

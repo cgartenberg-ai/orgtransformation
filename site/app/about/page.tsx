@@ -52,7 +52,7 @@ export default async function AboutPage() {
           <li>
             Note the conditions under which each form thrives
           </li>
-          <li>Let patterns emerge from careful observation</li>
+          <li>Let principles emerge from careful observation</li>
         </ul>
       </section>
 
@@ -120,12 +120,12 @@ export default async function AboutPage() {
           <MethodologyStep
             number={2}
             title="Curation (Classification)"
-            description="Apply the 7-model taxonomy. Assign ambidexterity orientation. Structure findings into specimen cards. Link to relevant mechanisms."
+            description="Apply the 7-model taxonomy. Assign ambidexterity orientation. Structure findings into specimen cards. Link to relevant principles."
           />
           <MethodologyStep
             number={3}
-            title="Synthesis (Patterns)"
-            description="Identify mechanisms that appear across multiple specimens. Surface tensions and trade-offs. Update mechanism descriptions with new examples."
+            title="Synthesis (Principles)"
+            description="Identify principles that appear across multiple specimens. Surface tensions and trade-offs. Update principle descriptions with new examples."
           />
         </div>
       </section>
@@ -170,7 +170,7 @@ export default async function AboutPage() {
             <p className="font-serif text-2xl font-semibold text-forest">
               {mechanisms.confirmed.length}
             </p>
-            <p className="text-xs text-charcoal-400">Mechanisms</p>
+            <p className="text-xs text-charcoal-400">Principles</p>
           </div>
           <div className="text-center">
             <p className="font-serif text-2xl font-semibold text-forest">

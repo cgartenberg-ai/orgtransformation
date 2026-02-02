@@ -11,7 +11,7 @@ import { RelatedTab } from "./RelatedTab";
 
 const TABS = [
   { id: "overview", label: "Overview" },
-  { id: "mechanisms", label: "Mechanisms" },
+  { id: "mechanisms", label: "Principles" },
   { id: "evolution", label: "Evolution" },
   { id: "sources", label: "Sources" },
   { id: "related", label: "Related" },

@@ -55,8 +55,8 @@ export function RelatedTab({
       )}
       {sharedMechanisms.length > 0 && (
         <RelatedGroup
-          title="Shared Mechanisms"
-          description="Organizations demonstrating similar mechanisms"
+          title="Shared Principles"
+          description="Organizations demonstrating similar principles"
           specimens={sharedMechanisms}
         />
       )}

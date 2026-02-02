@@ -3,8 +3,8 @@ import { getAllSpecimens } from "@/lib/data/specimens";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Mechanisms — Ambidexterity Field Guide",
-  description: "Cross-cutting patterns observed across organizational specimens",
+  title: "Principles — Ambidexterity Field Guide",
+  description: "Structural principles observed across organizational specimens",
 };
 
 export default async function MechanismsPage() {
@@ -17,11 +17,11 @@ export default async function MechanismsPage() {
     <div className="space-y-12">
       <header>
         <h1 className="font-serif text-3xl font-semibold text-forest">
-          Mechanisms
+          Principles
         </h1>
         <p className="mt-2 text-charcoal-500">
-          Cross-cutting patterns observed across multiple specimens. These
-          mechanisms emerged from systematic observation of how organizations
+          Structural principles observed across multiple specimens. These
+          principles emerged from systematic observation of how organizations
           structurally enable both exploration and execution.
         </p>
       </header>
@@ -29,7 +29,7 @@ export default async function MechanismsPage() {
       {/* Confirmed Mechanisms */}
       <section>
         <h2 className="mb-4 font-serif text-xl text-forest">
-          Confirmed Mechanisms ({mechanismData.confirmed.length})
+          Confirmed Principles ({mechanismData.confirmed.length})
         </h2>
         <div className="space-y-4">
           {mechanismData.confirmed.map((m) => {
@@ -87,10 +87,10 @@ export default async function MechanismsPage() {
       {mechanismData.candidates.length > 0 && (
         <section>
           <h2 className="mb-4 font-serif text-xl text-charcoal-600">
-            Candidate Mechanisms ({mechanismData.candidates.length})
+            Emerging Principles ({mechanismData.candidates.length})
           </h2>
           <p className="mb-4 text-sm text-charcoal-400">
-            Patterns observed in some specimens but not yet confirmed across
+            Principles emerging from some specimens but not yet confirmed across
             enough cases.
           </p>
           <div className="space-y-3">

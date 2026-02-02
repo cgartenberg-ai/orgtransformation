@@ -6,11 +6,19 @@ export const metadata = {
   description: "Browse all organizational specimens in the field guide",
 };
 
-export default async function SpecimensPage() {
+export default async function SpecimensPage({
+  searchParams,
+}: {
+  searchParams: { model?: string };
+}) {
   const [specimens, stats] = await Promise.all([
     getAllSpecimens(),
     getComputedStats(),
   ]);
+
+  const initialModel = searchParams.model
+    ? (Number(searchParams.model) as 1 | 2 | 3 | 4 | 5 | 6 | 7)
+    : null;
 
   return (
     <div>
@@ -21,7 +29,11 @@ export default async function SpecimensPage() {
         {stats.totalSpecimens} organizations documented across{" "}
         {Object.keys(stats.byModel).length} structural models
       </p>
-      <SpecimenBrowser specimens={specimens} industries={stats.industries} />
+      <SpecimenBrowser
+        specimens={specimens}
+        industries={stats.industries}
+        initialModel={initialModel}
+      />
     </div>
   );
 }

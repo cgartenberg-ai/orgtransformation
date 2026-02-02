@@ -125,7 +125,7 @@ export function EvolutionTimeline({ layers }: { layers: Layer[] }) {
               </span>
               {selectedIndex === 0 && (
                 <span className="ml-2 rounded bg-forest-50 px-1.5 py-0.5 text-[10px] font-medium text-forest">
-                  Current
+                  Latest
                 </span>
               )}
               {parsed[selectedIndex].label && (
@@ -135,7 +135,7 @@ export function EvolutionTimeline({ layers }: { layers: Layer[] }) {
               )}
             </div>
             <span className="text-xs text-charcoal-400">
-              Layer {parsed.length - selectedIndex} of {parsed.length}
+              Observation {parsed.length - selectedIndex} of {parsed.length}
             </span>
           </div>
           <p className="mt-3 text-sm leading-relaxed text-charcoal-600">
@@ -143,7 +143,10 @@ export function EvolutionTimeline({ layers }: { layers: Layer[] }) {
           </p>
           {parsed[selectedIndex].classification && (
             <p className="mt-2 font-mono text-xs text-charcoal-400">
-              Classification: {parsed[selectedIndex].classification}
+              Classification:{" "}
+              {typeof parsed[selectedIndex].classification === "object"
+                ? formatClassification(parsed[selectedIndex].classification as Record<string, unknown>)
+                : String(parsed[selectedIndex].classification)}
             </p>
           )}
           {parsed[selectedIndex].sourceRefs.length > 0 && (
@@ -155,4 +158,13 @@ export function EvolutionTimeline({ layers }: { layers: Layer[] }) {
       </AnimatePresence>
     </div>
   );
+}
+
+function formatClassification(c: Record<string, unknown>): string {
+  const parts: string[] = [];
+  if (c.structuralModel) parts.push(`M${c.structuralModel}`);
+  if (c.orientation) parts.push(String(c.orientation));
+  if (c.action) parts.push(String(c.action));
+  if (c.confidence) parts.push(`${c.confidence} confidence`);
+  return parts.join(" · ");
 }

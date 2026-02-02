@@ -4,6 +4,36 @@ Running summary of each research session. Updated at wrap-up. Newest sessions at
 
 ---
 
+## 2026-02-01 — Tier 1 Press Broad Scan (First-Ever Scan of 6 Sources)
+
+**File**: `sessions/2026-02-01-002-research-tier1-press-broad-scan.md`
+
+**Sources Scanned**: WSJ (first scan), FT (first scan), Reuters (first scan), Bloomberg (first scan), The Information (first scan), LinkedIn Economic Graph (first scan), press keyword searches (CAIO appointed 2026, AI lab/CoE launches, ad agency CAIO wave)
+**Source Types**: press
+
+**Organizations Found (4)**:
+| Org | Status | Key Finding |
+|-----|--------|-------------|
+| UBS | evolution | First CAIO Daniele Magazzeni (from JPMorgan analytics + King's College London AI professor). Reports to Group COTO. 300+ live AI use cases. "Big Rocks" AI initiatives. Copilot + in-house "Red" AI Assistant rollout. |
+| Commonwealth Bank | evolution | First CAIO Ranil Boteju (from Lloyds, led 2,000-person team, 50+ GenAI initiatives). CBA 4th globally on Evident AI Index. "Boomerang" hire — previously at CBA 2007-2010. |
+| Stagwell | **new** | First CAIO in ad holding company. John Kahan (38 yrs Microsoft/IBM) reports to CEO Mark Penn. $1B EBITDA target by 2030. Part of broader wave: Monks, IPG also naming CAIOs. |
+| Amazon | evolution | 16K more job cuts (Jan 2026), total ~30K corporate target. Affecting AWS, retail, Prime Video, HR. CEO Jassy cited AI. |
+
+**Broader Trends**:
+- **CAIO approaching ubiquity**: 40%+ of Fortune 500 expected to have CAIO by end of 2026
+- **Ad agency CAIO wave**: Stagwell (Kahan), Monks (ter Haar), IPG (Sarig), Momentum (Snyder) — new industry vertical
+- **93/7 Problem** (Deloitte CTO Briggs): 93% of AI budget on technology, 7% on people — structural investment without cultural investment
+- **Broad experimentation → targeted scaling** (EY CEO Outlook) — shift from wide deployment toward depth
+- **245K tech jobs lost** (Q4 2025 - Jan 2026) — AI cited as primary driver across multiple industries
+
+**New Sources Discovered**: Ad Age (trade), Digiday (digital media trade)
+
+**Sources Updated**: WSJ, FT, Reuters, Bloomberg, The Information, LinkedIn Economic Graph — all now have initial scannedThrough dates
+
+**Deep-Scan Backlog Flagged**: Consolidated in session file frontmatter. HIGH: BG2 Michael Dell, ILTB Gavin Baker, Acquired Alphabet Inc, Latent Space Glean. MEDIUM: ILTB David George, Dwarkesh Karpathy, Cheeky Pint backlog, Acquired Shopify/Dimon/Coca-Cola.
+
+---
+
 ## 2026-02-01 — Press, Podcast Feed Checks & Reports
 
 **File**: `sessions/2026-02-01-001-research-press-podcasts-reports.md`

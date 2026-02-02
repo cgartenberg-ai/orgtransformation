@@ -4,7 +4,7 @@ const navItems = [
   { href: "/matcher", label: "Matcher" },
   { href: "/specimens", label: "Specimens" },
   { href: "/taxonomy", label: "Taxonomy" },
-  { href: "/mechanisms", label: "Mechanisms" },
+  { href: "/mechanisms", label: "Principles" },
   { href: "/tensions", label: "Tensions" },
   { href: "/compare", label: "Compare" },
   { href: "/about", label: "About" },
