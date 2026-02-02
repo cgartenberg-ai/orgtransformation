@@ -2,7 +2,7 @@ import { getComputedStats } from "@/lib/data/specimens";
 import { getMechanisms } from "@/lib/data/synthesis";
 
 export const metadata = {
-  title: "About — Ambidexterity Field Guide",
+  title: "About — Field Guide to AI Organizations",
   description: "The botanist's approach to documenting organizational ambidexterity",
 };
 

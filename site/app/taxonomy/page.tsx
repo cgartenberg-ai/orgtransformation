@@ -1,10 +1,11 @@
+import Link from "next/link";
 import { getSpecimensByTaxonomy, getComputedStats } from "@/lib/data/specimens";
 import { TaxonomyMatrix } from "@/components/taxonomy/TaxonomyMatrix";
 import { STRUCTURAL_MODELS, ORIENTATION_DESCRIPTIONS } from "@/lib/types/taxonomy";
 import type { StructuralModel } from "@/lib/types/specimen";
 
 export const metadata = {
-  title: "Taxonomy — Ambidexterity Field Guide",
+  title: "Taxonomy — Field Guide to AI Organizations",
   description: "7 structural models x 3 ambidexterity orientations",
 };
 
@@ -49,22 +50,23 @@ export default async function TaxonomyPage() {
             const info = STRUCTURAL_MODELS[m];
             const count = stats.byModel[String(m)] ?? 0;
             return (
-              <div
+              <Link
                 key={m}
-                className="rounded-lg border border-sage-200 bg-cream-50 p-4"
+                href={`/taxonomy/models/${m}`}
+                className="group rounded-lg border border-sage-200 bg-cream-50 p-4 transition-shadow hover:shadow-md"
               >
                 <div className="flex items-center justify-between">
-                  <span className="font-mono text-sm font-medium text-forest">
+                  <span className="font-mono text-sm font-medium text-forest group-hover:text-forest-600">
                     {info.shortName}: {info.name}
                   </span>
                   <span className="font-mono text-xs text-charcoal-400">
-                    {count} specimen{count !== 1 ? "s" : ""}
+                    {count} specimen{count !== 1 ? "s" : ""} &rarr;
                   </span>
                 </div>
                 <p className="mt-1 text-sm text-charcoal-500">
                   {info.description}
                 </p>
-              </div>
+              </Link>
             );
           })}
         </div>
@@ -80,22 +82,23 @@ export default async function TaxonomyPage() {
             ([orientation, description]) => {
               const count = stats.byOrientation[orientation] ?? 0;
               return (
-                <div
+                <Link
                   key={orientation}
-                  className="rounded-lg border border-sage-200 bg-cream-50 p-4"
+                  href={`/taxonomy/orientations/${orientation}`}
+                  className="group rounded-lg border border-sage-200 bg-cream-50 p-4 transition-shadow hover:shadow-md"
                 >
                   <div className="flex items-center justify-between">
-                    <span className="font-mono text-sm font-medium text-sage-700">
+                    <span className="font-mono text-sm font-medium text-sage-700 group-hover:text-sage-800">
                       {orientation}
                     </span>
                     <span className="font-mono text-xs text-charcoal-400">
-                      {count}
+                      {count} &rarr;
                     </span>
                   </div>
                   <p className="mt-1 text-sm text-charcoal-500">
                     {description}
                   </p>
-                </div>
+                </Link>
               );
             }
           )}

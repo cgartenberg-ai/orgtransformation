@@ -4,7 +4,7 @@ import { ChatMatcher } from "@/components/matcher/ChatMatcher";
 import { MatcherTabs } from "@/components/matcher/MatcherTabs";
 
 export const metadata = {
-  title: "Find Your Match — Ambidexterity Field Guide",
+  title: "Find Your Match — Field Guide to AI Organizations",
   description:
     "Chat with an AI advisor or use quick matching to find organizations facing constraints like yours",
 };

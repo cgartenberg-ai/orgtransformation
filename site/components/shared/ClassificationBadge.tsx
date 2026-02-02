@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { STRUCTURAL_MODELS, SUB_TYPES } from "@/lib/types/taxonomy";
 import type { Classification } from "@/lib/types/specimen";
 
@@ -15,27 +16,39 @@ export function ClassificationBadge({
   return (
     <div className="flex flex-wrap gap-2">
       {modelInfo && (
-        <span className="rounded bg-forest-50 px-2.5 py-1 font-mono text-xs font-medium text-forest">
+        <Link
+          href={`/taxonomy/models/${model}`}
+          className="rounded bg-forest-50 px-2.5 py-1 font-mono text-xs font-medium text-forest transition-colors hover:bg-forest-100 hover:text-forest-700"
+        >
           {modelInfo.shortName}: {modelInfo.name}
-        </span>
+        </Link>
       )}
       {subTypeName && (
-        <span className="rounded bg-forest-50 px-2.5 py-1 font-mono text-xs text-forest-600">
+        <Link
+          href={`/taxonomy/models/${model}`}
+          className="rounded bg-forest-50 px-2.5 py-1 font-mono text-xs text-forest-600 transition-colors hover:bg-forest-100 hover:text-forest-700"
+        >
           {subTypeName}
-        </span>
+        </Link>
       )}
       {classification.secondaryModel && (
-        <span className="rounded bg-forest-50 px-2.5 py-1 font-mono text-xs text-forest-600">
+        <Link
+          href={`/taxonomy/models/${classification.secondaryModel}`}
+          className="rounded bg-forest-50 px-2.5 py-1 font-mono text-xs text-forest-600 transition-colors hover:bg-forest-100 hover:text-forest-700"
+        >
           +M{classification.secondaryModel}
           {classification.secondaryModelName
             ? `: ${classification.secondaryModelName}`
             : ""}
-        </span>
+        </Link>
       )}
       {classification.orientation && (
-        <span className="rounded bg-sage-100 px-2.5 py-1 font-mono text-xs text-sage-700">
+        <Link
+          href={`/taxonomy/orientations/${classification.orientation}`}
+          className="rounded bg-sage-100 px-2.5 py-1 font-mono text-xs text-sage-700 transition-colors hover:bg-sage-200 hover:text-sage-800"
+        >
           {classification.orientation}
-        </span>
+        </Link>
       )}
       {classification.typeSpecimen && (
         <span className="rounded-full bg-amber-100 px-2.5 py-1 font-mono text-xs font-medium text-amber-700">

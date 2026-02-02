@@ -17,7 +17,7 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Ambidexterity Field Guide",
+  title: "Field Guide to AI Organizations",
   description:
     "How organizations structurally enable both exploration and execution in the AI era",
 };

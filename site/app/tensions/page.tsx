@@ -3,7 +3,7 @@ import { getTensions } from "@/lib/data/synthesis";
 import { TensionMap } from "@/components/visualizations/TensionMap";
 
 export const metadata = {
-  title: "Tension Map — Ambidexterity Field Guide",
+  title: "Tension Map — Field Guide to AI Organizations",
   description:
     "Explore where organizations sit on key structural tensions",
 };

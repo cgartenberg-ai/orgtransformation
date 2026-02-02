@@ -2,7 +2,7 @@ import { getAllSpecimens, getComputedStats } from "@/lib/data/specimens";
 import { SpecimenBrowser } from "@/components/specimens/SpecimenBrowser";
 
 export const metadata = {
-  title: "Specimens — Ambidexterity Field Guide",
+  title: "Specimens — Field Guide to AI Organizations",
   description: "Browse all organizational specimens in the field guide",
 };
 

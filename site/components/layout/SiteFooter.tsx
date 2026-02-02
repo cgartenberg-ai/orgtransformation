@@ -4,7 +4,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="font-serif text-sm text-charcoal-500">
-            Ambidexterity Field Guide
+            Field Guide to AI Organizations
           </p>
           <p className="text-xs text-charcoal-400">
             A research-backed catalog of how organizations structure AI

@@ -19,7 +19,7 @@ export async function generateMetadata({
   const specimen = await getSpecimenById(params.id);
   if (!specimen) return {};
   return {
-    title: `${specimen.name} — Ambidexterity Field Guide`,
+    title: `${specimen.name} — Field Guide to AI Organizations`,
     description: specimen.title,
   };
 }

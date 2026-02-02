@@ -2,7 +2,7 @@ import { getAllSpecimens } from "@/lib/data/specimens";
 import { ComparisonView } from "@/components/compare/ComparisonView";
 
 export const metadata = {
-  title: "Compare Specimens — Ambidexterity Field Guide",
+  title: "Compare Specimens — Field Guide to AI Organizations",
   description: "Side-by-side comparison of up to 4 organizational specimens",
 };
 

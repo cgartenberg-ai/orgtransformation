@@ -3,7 +3,7 @@ import { getAllSpecimens } from "@/lib/data/specimens";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Principles — Ambidexterity Field Guide",
+  title: "Principles — Field Guide to AI Organizations",
   description: "Structural principles observed across organizational specimens",
 };
 

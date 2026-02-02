@@ -18,7 +18,7 @@ export async function generateMetadata({
   const mechanism = data.confirmed.find((m) => m.id === Number(params.id));
   if (!mechanism) return {};
   return {
-    title: `${mechanism.name} — Principles — Ambidexterity Field Guide`,
+    title: `${mechanism.name} — Principles — Field Guide to AI Organizations`,
     description: mechanism.definition,
   };
 }
