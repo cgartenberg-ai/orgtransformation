@@ -22,7 +22,8 @@
     "employees": null,
     "revenue": null,
     "headquarters": "San Francisco, CA",
-    "geography": "North America"
+    "geography": "North America",
+    "orgType": "AI-native"
   },
   "description": "Founded by former OpenAI CTO Mira Murati after her departure in September 2025, Thinking Machines Lab focuses on making AI models more efficient and customizable — positioning as an alternative to the 'scale is all you need' approach. The startup raised a $2B seed round at $12B valuation within its first 5 months, one of the largest seed rounds in Silicon Valley history.\n\nThe company launched Tinker, a tool that simplifies fine-tuning open models using techniques like LoRA (Low-Rank Adaptation). This product commercializes the research thesis that smaller, customized models can outperform larger general-purpose ones for specific applications.\n\nThe team includes other former OpenAI researchers, reflecting the AI talent diaspora pattern where researchers leave large labs to pursue alternative approaches. The efficiency-first thesis directly challenges the scaling paradigm that dominated Murati's former employer.",
   "observableMarkers": {
@@ -40,24 +41,84 @@
       "label": "Curation Review",
       "summary": "Validated Model 1 with added secondary Model 5. Removed weakly-evidenced Mechanism #5 and spurious 'efficient AI' quote fragment. Fixed orgSize to Startup. Added habitat and classification rationale.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Founded by ex-OpenAI CTO Mira Murati. Focuses on efficient, customizable AI models. $2B seed round at $12B valuation.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
     }
   ],
   "sources": [
-    {"id": "source-1", "type": "Press", "name": "Built In", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-2", "type": "Press", "name": "TechCrunch", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-3", "type": "Press", "name": "The Information", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Built In",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "TechCrunch",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "The Information",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
   ],
-  "contingencies": {"regulatoryIntensity": "Low", "timeToObsolescence": "Fast", "ceoTenure": "Founder", "talentMarketPosition": "Talent-rich", "technicalDebt": "Low"},
-  "tensionPositions": {"structuralVsContextual": -0.7, "speedVsDepth": -0.3, "centralVsDistributed": -0.8, "namedVsQuiet": -0.9, "longVsShortHorizon": 0.0},
-  "openQuestions": ["How does Thinking Machines Lab's efficient AI thesis compare commercially to scale-first approaches?", "What is the organizational structure between research and product (Tinker) teams?", "How many employees does the startup currently have?"],
-  "taxonomyFeedback": ["Like Recursion, this is an AI-native company where the 'lab' IS the company. The taxonomy's assumption that labs exist within larger organizations doesn't capture this startup pattern.", "The AI talent diaspora (OpenAI → independent labs) is a structural phenomenon worth tracking — it creates new specimens through organizational fission."],
-  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/thinking-machines-lab.json"}
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.7,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": -0.8,
+    "namedVsQuiet": -0.9,
+    "longVsShortHorizon": 0.0
+  },
+  "openQuestions": [
+    "How does Thinking Machines Lab's efficient AI thesis compare commercially to scale-first approaches?",
+    "What is the organizational structure between research and product (Tinker) teams?",
+    "How many employees does the startup currently have?"
+  ],
+  "taxonomyFeedback": [
+    "Like Recursion, this is an AI-native company where the 'lab' IS the company. The taxonomy's assumption that labs exist within larger organizations doesn't capture this startup pattern.",
+    "The AI talent diaspora (OpenAI → independent labs) is a structural phenomenon worth tracking — it creates new specimens through organizational fission."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-02-02",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/thinking-machines-lab.json"
+  }
 }

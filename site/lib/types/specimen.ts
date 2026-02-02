@@ -12,6 +12,8 @@ export type SpecimenStatus = "Active" | "Stub" | "Archived";
 
 export type Completeness = "High" | "Medium" | "Low";
 
+export type OrgType = "AI-native" | "AI-adopter";
+
 export type OrgSize = "Startup" | "Scaleup" | "Mid-market" | "Enterprise";
 
 export type Geography =
@@ -60,6 +62,7 @@ export interface Classification {
 export interface Habitat {
   industry: string;
   sector?: string | null;
+  orgType?: OrgType | null;
   orgSize?: OrgSize | null;
   employees?: number | null;
   revenue?: string | null;

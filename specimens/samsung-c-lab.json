@@ -1,18 +1,18 @@
 {
   "id": "samsung-c-lab",
   "name": "Samsung C-Lab",
-  "title": "Separation with Spinoff Path",
+  "title": "Internal Incubator with Spinoff Path",
   "classification": {
-    "structuralModel": 7,
-    "structuralModelName": "Tiger Teams",
-    "subType": null,
-    "subTypeName": null,
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5a",
+    "subTypeName": "Internal Incubator",
     "secondaryModel": null,
     "secondaryModelName": null,
     "orientation": "Temporal",
     "orientationName": "Temporal",
     "confidence": "High",
-    "classificationRationale": "Employees leave their execution roles for a defined period of exploration (full year, not 20% time), then either return to operations, spin off as an independent company, or get absorbed back. This is textbook temporal ambidexterity: individuals cycle between exploration and execution phases. The time-boxed structure with clear exit paths is the defining characteristic of Model 7.",
+    "classificationRationale": "Reclassified from M7 (Tiger Teams) to M5a (Internal Incubator). C-Lab is a permanent internal incubator (running since 2012) with startup-like incentives, a venture-style selection process, and a 20% spinoff rate to independent companies. The permanent structure with dedicated funding and a mandate to commercialize fits M5a. The temporal cycling of individuals (full-year rotations away from execution roles) is captured by the Temporal orientation, not the structural model. M7 is reserved for ad hoc, temporary structures, not 13-year institutional programs with 959 ventures.",
     "typeSpecimen": true
   },
   "habitat": {
@@ -45,6 +45,13 @@
     }
   ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Reclassification: M7 → M5a",
+      "summary": "Reclassified from Model 7 (Tiger Teams) to Model 5a (Internal Incubator). C-Lab is a permanent structure (running since 2012) with startup-like incentives and a 20% spinoff rate — this fits M5a (commercialize AI into new ventures) rather than M7 (time-boxed strike teams). The temporal cycling of individuals is captured by the Temporal orientation. Type specimen status transferred to M5a.",
+      "classification": "Model 5a",
+      "sourceRefs": []
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
@@ -124,13 +131,13 @@
     "How does Samsung's main org view C-Lab alumni — are they promoted, or is there stigma?"
   ],
   "taxonomyFeedback": [
-    "Samsung C-Lab validates Model 7 (Tiger Teams) as distinct from Model 5 (Product/Venture Lab). The key difference is that C-Lab participants are temporarily separated from execution roles and may return — vs. Model 5 where the lab is a permanent structure. The spinoff path blurs this slightly, but the defining feature is the temporal cycling of individuals.",
+    "Samsung C-Lab was reclassified from M7 to M5a. The key distinguishing factor is permanence: C-Lab is a standing structure (13+ years) with a mandate to commercialize, not a time-boxed team. The temporal rotation of individuals is an orientation feature, not a structural model feature.",
     "The 'C-Lab Outside' program (external startups) may warrant separate treatment or a note that Model 7 can evolve to include external participants."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-02",
     "completeness": "Medium",
     "convertedFrom": "library/cases/samsung-c-lab.json"
   }

@@ -81,6 +81,11 @@ export function SpecimenCard({
               {s.classification.orientation}
             </Link>
           )}
+          {s.habitat.orgType === "AI-native" && (
+            <span className="rounded bg-violet-100 px-1.5 py-0.5 font-mono text-[10px] text-violet-700">
+              AI-native
+            </span>
+          )}
           <span className="rounded bg-charcoal-50 px-1.5 py-0.5 text-[10px] text-charcoal-500">
             {s.habitat.industry}
           </span>

@@ -39,6 +39,7 @@ See also: `references/classification-quick-ref.md` for one-line tests, `referenc
 | **5. Product/Venture Lab** | Commercialize AI into products | 6-36 months | Revenue, valuations, launches |
 | **6. Unnamed/Informal** | Quiet transformation without formal structure | Varies | Adoption metrics, no formal branding |
 | **7. Tiger Teams** | Time-boxed exploration sprints | Weeks to months | Sprint outcomes, reintegration |
+| **8. Skunkworks (Emerging)** | Semi-autonomous unit rebuilding core business with AI, structurally positioned to absorb legacy org | 1-3 years | [No confirmed specimens] |
 
 **Model 5 Sub-Types:**
 - **5a. Internal Incubator** — Products absorbed into parent company (e.g., Adobe Firefly)
@@ -114,8 +115,39 @@ Ask these questions in order:
       └─ NO → Model 4 (Hybrid/Hub-and-Spoke)
 
 5. Is there a time-boxed team structure?
-   └─ YES → Model 7 (Tiger Teams)
+   └─ YES → Is it a permanent program (3+ years) with a pipeline?
+      ├─ YES → Model 5 (Product/Venture Lab) — temporal cycling is orientation, not structure
+      │   ├─ Is the unit building something *adjacent* to the core business? → 5a/5b/5c
+      │   └─ Is the unit *reimagining* a core business line with the structural potential
+      │       to absorb legacy operations? → Flag as potential M8 (Skunkworks) in Taxonomy Feedback.
+      │       Classify as M5 for now until M8 has confirmed specimens.
+      └─ NO → Model 7 (Tiger Teams) — ad hoc, temporary structures only
 ```
+
+### Classification Guardrails
+
+After walking the decision tree, check these common misclassification patterns before finalizing:
+
+**Guardrail 1: Permanence vs. Time-Boxing (M7 trap)**
+If you classified as M7 (Tiger Teams), ask: Has this structure existed for 3+ years with a dedicated pipeline? If YES → it's likely M5 (with Temporal orientation), not M7. M7 is reserved for *ad hoc, temporary* structures — not permanent institutional programs. The temporal cycling of individuals is an *orientation* feature, not a structural model.
+
+**Guardrail 2: Single Lab vs. Federation (M1 trap)**
+If you classified as M1 (Research Lab), ask: Are there 3+ semi-autonomous units coordinated by a central function? If YES → it's M4 (Hub-and-Spoke) regardless of whether the units do research. M1 means a single, ring-fenced research entity. Multiple distributed units with central coordination = M4.
+
+**Guardrail 3: Research Work vs. Research Structure (M1 trap)**
+If you classified as M1 (Research Lab), ask: Is the AI unit's primary integration pattern tight-loop feedback with existing teams? If YES → it's M3 (Embedded Teams) even if the people are researchers. M1 requires *deliberate separation* from product/operational timelines. Scientists who sit inside teams and iterate tightly are embedded, not ring-fenced.
+
+**Guardrail 4: Prestige Bias Check**
+M1 (Research Lab) is the most commonly over-applied model. Before finalizing M1, verify: Is the unit truly *ring-fenced and separated*, or is it integrated into the broader organization's workflow? Does it have academic culture, publications, and multi-year horizons as primary outputs?
+
+**Guardrail 5: AI-Native Scope Check**
+If the specimen is a standalone AI startup (no legacy business to balance), it may not exhibit ambidexterity tension. Tag `habitat.orgType: "AI-native"` and note that the ambidexterity framing applies differently. These specimens are valuable as competitive threat reference points for AI-adopter organizations.
+
+**Guardrail 6: One-Time Event vs. Temporal Orientation**
+If you assigned Temporal orientation, ask: Is the organization *cycling* between exploration and execution, or did it make a *one-time pivot*? A single dramatic transformation (e.g., "refounded for AI in 72 hours") is not temporal cycling. If individuals now balance both in their daily roles, the orientation is Contextual.
+
+**Guardrail 7: Adjacent Venture vs. Core Replacement (M5 vs. M8)**
+If you classified as M5, ask: Is the unit building something *adjacent* to the core business, or *reimagining* a core business line with the structural potential to absorb or replace legacy operations? No company will publicly frame this as cannibalization — look for structural signals: the unit mirrors an existing function, operates at scale, and has a pathway to become the primary way work gets done. If you see this pattern, flag as potential M8 (Skunkworks) in Taxonomy Feedback. Classify as M5 for now until M8 has confirmed specimens.
 
 ### Step 3: Assign Ambidexterity Orientation
 

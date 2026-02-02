@@ -2,7 +2,6 @@
   "id": "glean",
   "name": "Glean",
   "title": "Enterprise AI Search — Automation Harder Than Expected",
-
   "classification": {
     "structuralModel": 3,
     "structuralModelName": "Embedded Teams",
@@ -16,7 +15,6 @@
     "classificationRationale": "AI-native company with product-embedded AI. CEO Arvind Jain's candid admission that AI automation was harder than expected — tried to automate internal workflows and fine-tune custom models, both fell short. Very limited org structure data.",
     "typeSpecimen": false
   },
-
   "habitat": {
     "industry": "Technology",
     "sector": "Enterprise AI Search",
@@ -24,11 +22,10 @@
     "employees": null,
     "revenue": null,
     "headquarters": null,
-    "geography": "North America"
+    "geography": "North America",
+    "orgType": "AI-native"
   },
-
   "description": "Glean CEO Arvind Jain, speaking on the BG2 Pod (Dec 23, 2025), described trying to automate internal workflows (identifying priorities) and expecting AI would 'magically' do the work — but it did not. Glean also tried fine-tuning a custom model, which fell short. Enterprise AI search company valued at $7.2B after raising $150M (Sep 2025).",
-
   "observableMarkers": {
     "reportingStructure": null,
     "resourceAllocation": "$150M raised at $7.2B valuation (Sep 2025).",
@@ -36,21 +33,20 @@
     "decisionRights": null,
     "metrics": null
   },
-
   "mechanisms": [],
-
   "quotes": [],
-
   "layers": [
     {
       "date": "2025-12",
       "label": "Initial Documentation",
       "summary": "CEO Arvind Jain on BG2 Pod: tried automating internal workflows, expected AI would 'magically' do the work but it didn't. Also tried fine-tuning custom model, fell short. $150M raise at $7.2B valuation (Sep 2025).",
       "classification": null,
-      "sourceRefs": ["bg2-pod-2025-12", "dnyuz-2025-12"]
+      "sourceRefs": [
+        "bg2-pod-2025-12",
+        "dnyuz-2025-12"
+      ]
     }
   ],
-
   "sources": [
     {
       "id": "bg2-pod-2025-12",
@@ -73,7 +69,6 @@
       "notes": null
     }
   ],
-
   "contingencies": {
     "regulatoryIntensity": null,
     "timeToObsolescence": null,
@@ -81,7 +76,6 @@
     "talentMarketPosition": null,
     "technicalDebt": null
   },
-
   "tensionPositions": {
     "structuralVsContextual": null,
     "speedVsDepth": null,
@@ -89,19 +83,16 @@
     "namedVsQuiet": null,
     "longVsShortHorizon": null
   },
-
   "openQuestions": [
     "What is Glean's internal AI org structure?",
     "What specific workflows did they try to automate and why did they fail?",
     "How did the fine-tuned custom model fall short vs. off-the-shelf LLMs?"
   ],
-
   "taxonomyFeedback": [],
-
   "meta": {
     "status": "Stub",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-02",
     "completeness": "Low",
     "convertedFrom": null
   }

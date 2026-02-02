@@ -3,16 +3,16 @@
   "name": "Roche / Genentech",
   "title": "Lab in a Loop — Computational-Wet Lab Integration",
   "classification": {
-    "structuralModel": 1,
-    "structuralModelName": "Research Lab",
+    "structuralModel": 3,
+    "structuralModelName": "Embedded Teams",
     "subType": null,
     "subTypeName": null,
     "secondaryModel": null,
     "secondaryModelName": null,
     "orientation": "Structural",
     "orientationName": "Structural",
-    "confidence": "Medium",
-    "classificationRationale": "Validated Model 1 (Research Lab). The gRED Computational Sciences group is a research-focused AI unit within Roche, developing computational prediction capabilities and integrating them with wet lab validation. The Prescient Design acquisition added AI protein design research. $12B commitment to computational sciences indicates deep research investment. Structural orientation: the computational sciences group is separated from Roche's commercial operations.",
+    "confidence": "Low",
+    "classificationRationale": "Reclassified from M1 (Research Lab) to M3 (Embedded Teams). The 'Lab in a Loop' concept embeds computational prediction directly into wet lab research cycles rather than operating as a separate AI research unit. The description explicitly states 'rather than treating AI as a separate function' — this anti-separation pattern is M3, not M1. Confidence lowered to Low due to thin evidence base (legacy sources without URLs, sparse organizational structure details). Added to low-confidence research queue for deeper investigation.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -43,18 +43,31 @@
   "quotes": [],
   "layers": [
     {
+      "date": "2026-02",
+      "label": "Reclassification: M1 → M3, Confidence Lowered",
+      "summary": "Reclassified from Model 1 (Research Lab) to Model 3 (Embedded Teams). The 'Lab in a Loop' concept embeds computational capability within wet lab teams rather than operating a separate AI research unit. Confidence lowered from Medium to Low due to thin evidence base. Added to low-confidence research queue for deeper investigation.",
+      "classification": "Model 3",
+      "sourceRefs": []
+    },
+    {
       "date": "2026-01",
       "label": "Curation Review",
       "summary": "Validated Model 1 classification. Fixed industry from Technology to Pharmaceuticals. Replaced Mechanism #5 (rapid iteration doesn't equal mass deployment) with Mechanism #3 (Embed Product at Research Frontier — Lab in a Loop). Added habitat, classification rationale.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2"]
+      "sourceRefs": [
+        "source-1",
+        "source-2"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Roche's gRED Computational Sciences group with 'Lab in a Loop' concept — integrating computational prediction with wet lab validation in tight cycles.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2"]
+      "sourceRefs": [
+        "source-1",
+        "source-2"
+      ]
     }
   ],
   "sources": [
@@ -100,13 +113,13 @@
     "How does Roche's approach compare to other pharma AI labs (Recursion, Sanofi)?"
   ],
   "taxonomyFeedback": [
-    "The 'Lab in a Loop' concept (tight compute-wet lab cycles) is a valuable structural pattern for pharma AI. It creates structural separation with forced integration — a distinct tension management approach.",
+    "Roche was reclassified from M1 to M3. The 'Lab in a Loop' tight integration pattern is the opposite of ring-fenced separation. Key lesson: the nature of the work (research) doesn't determine the model — the organizational structure does.",
     "Roche's dual-site structure (Basel + South San Francisco/Genentech) adds geographic complexity to the AI organizational model."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-02",
     "completeness": "Low",
     "convertedFrom": "library/cases/roche-genentech.json"
   }

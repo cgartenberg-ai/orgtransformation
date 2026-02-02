@@ -108,7 +108,9 @@ Copy `specimens/_template.json` as the starting structure. Set:
 
 ### B. Classify Using Decision Tree
 
-Follow the classification decision tree in `skills/ambidexterity-curation/SKILL.md` Steps 2-3. For every classification:
+Follow the classification decision tree in `skills/ambidexterity-curation/SKILL.md` Steps 2-3. **After walking the decision tree, run all 7 Classification Guardrails from SKILL.md before finalizing the classification.** Guardrails catch common misclassification patterns (M7 permanence trap, M1 prestige bias, temporal vs. one-time pivot, etc.).
+
+For every classification:
 
 1. **Walk the decision tree explicitly** — start at "Is there a formal AI unit?" and follow the branches
 2. **Assign confidence**: High = multiple confirming sources; Medium = reasonable from available data; Low = best guess from limited data

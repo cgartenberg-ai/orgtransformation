@@ -33,6 +33,15 @@ If it passes at least one, record it and note which dimension(s) it addresses. T
 
 ---
 
+## Research Path Check
+
+Before starting, determine the research path:
+
+- **General** (`/research` or `/research general`): Follow the full protocol below
+- **Low-confidence** (`/research low-confidence`): Read `research/low-confidence-queue.json` and follow the targeted research protocol in the research SKILL.md. Skip the general scanning protocol.
+
+---
+
 ## Pre-Session Setup
 
 Before scanning anything:

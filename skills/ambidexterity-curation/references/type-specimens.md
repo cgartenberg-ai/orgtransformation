@@ -30,7 +30,20 @@ Type specimens are the clearest, best-documented examples of each structural mod
 - Hub sets standards, spokes execute
 - Dual KPI structure (central + BU)
 
+**Additional Reference: Eli Lilly (Decentralized Hubs)**
+- Multiple 300-400 person hubs, each focused on a therapeutic area
+- Hubs operate like internal biotechs, coordinated by central R&D leadership
+- Reclassified from M1 — multiple distributed units with central coordination = M4, not M1
+- $1B NVIDIA co-innovation lab adds M5b (Venture Builder) secondary dimension
+
 ## Model 5: Product/Venture Lab
+**Type Specimen (5a): Samsung C-Lab**
+- Permanent internal incubator (13+ years, since 2012)
+- Venture-style selection, full-year employee rotations
+- 20% of projects become independent companies (959 total ventures)
+- Temporal orientation: individuals cycle between exploration and execution
+- Reclassified from M7 — permanence and pipeline make it M5, not M7
+
 **Type Specimen (5b): Google X**
 - 100+ experiments annually
 - 2% graduation rate to independent companies
@@ -57,11 +70,20 @@ Type specimens are the clearest, best-documented examples of each structural mod
 - No formal lab structure
 
 ## Model 7: Tiger Teams
-**Type Specimen: Samsung C-Lab**
+**Type Specimen: [TBD — no current type specimen]**
+- Ad hoc, temporary structures only (not permanent programs)
 - Employees leave roles for time-limited exploration
-- 100+ graduated startups since 2012
-- 20% become independent companies
-- Clear exit: back to operations or out to venture
+- Clear exit: back to operations or project termination
+- Note: Samsung C-Lab was reclassified to M5a (permanent program with temporal cycling)
+
+## Model 8: Skunkworks (Emerging)
+**Type Specimen: [None yet]**
+- Semi-autonomous unit reimagining an existing business line with AI
+- Distinguished from M5 by structural potential: positioned to replace the mothership, not build adjacent
+- No company will publicly frame this as cannibalization — infer from structure, not stated intent
+- Orientation typically Temporal (transitioning from old way to new way)
+- Watch for: Google DeepMind (potential candidate as Gemini absorbs core product functions)
+- Pattern reported in executive conversations but no confirmed specimen as of 2026-02
 
 ---
 

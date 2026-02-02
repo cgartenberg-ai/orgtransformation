@@ -1,0 +1,28 @@
+{
+  "description": "Low-confidence research queue — specimens needing targeted research to improve classification confidence. Use `/research low-confidence` to process.",
+  "lastUpdated": "2026-02-02",
+  "entries": [
+    {
+      "specimenId": "roche-genentech",
+      "currentModel": 3,
+      "currentModelName": "Embedded Teams",
+      "currentConfidence": "Low",
+      "whatToLookFor": "Confirm whether gRED Computational Sciences operates as an embedded team within wet lab groups (M3) or as a separate research unit (M1). Look for org charts, reporting lines, team size. Find URLs for Roche investor presentations and BioPharma Dive articles referenced in legacy sources.",
+      "addedDate": "2026-02-02",
+      "researchCycles": 0,
+      "lastResearchDate": null,
+      "status": "pending"
+    },
+    {
+      "specimenId": "lg-electronics",
+      "currentModel": 2,
+      "currentModelName": "Center of Excellence",
+      "currentConfidence": "Medium",
+      "whatToLookFor": "Confirm whether LG AI Research is a CoE (M2) or a research lab (M1). Look for: Does LG AI Research publish papers as primary output? Does it set standards/enable others (M2) or do fundamental research (M1)? What is its relationship to business units?",
+      "addedDate": "2026-02-02",
+      "researchCycles": 0,
+      "lastResearchDate": null,
+      "status": "pending"
+    }
+  ]
+}

@@ -36,6 +36,31 @@ Follow this protocol step by step. Do NOT skip steps.
 
 !`cat "/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/research/SESSION-LOG.md"`
 
+## Dual-Path Research
+
+This skill supports two research paths. Specify which path when invoking:
+
+### General Research (default)
+`/research` or `/research general`
+
+Standard multi-source scanning for new specimens and updates. Follows the full session protocol above.
+
+### Low-Confidence Targeted Research
+`/research low-confidence`
+
+Targeted research to improve classification confidence for specific specimens. Process:
+
+1. Read `research/low-confidence-queue.json` — identify specimens with `"status": "pending"`
+2. For each pending specimen, use `whatToLookFor` to guide targeted searches
+3. Search for specific structural details, org charts, reporting lines, headcounts
+4. If new evidence found: update the specimen JSON (add layer, adjust confidence, update sources)
+5. Increment `researchCycles` and set `lastResearchDate` in the queue entry
+6. If confidence improves to Medium or High: set queue entry status to `"resolved"`
+7. If no useful evidence found after 2+ cycles: set status to `"deferred"` — the specimen stays as-is until new information surfaces naturally
+8. Run `node scripts/validate-workflow.js` to confirm consistency
+
+The low-confidence path is intentionally narrow — don't expand into general research during these sessions. Stay focused on the specific specimens and questions in the queue.
+
 ## Your Task
 
 Execute a complete research session following the protocol above:

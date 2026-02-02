@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { AnimatePresence } from "framer-motion";
-import type { Specimen, StructuralModel, Orientation } from "@/lib/types/specimen";
+import type { Specimen, StructuralModel, Orientation, OrgType } from "@/lib/types/specimen";
 import { STRUCTURAL_MODELS, ORIENTATIONS } from "@/lib/types/taxonomy";
 import { SpecimenCard } from "./SpecimenCard";
 
@@ -18,6 +18,7 @@ export function SpecimenBrowser({
   const [modelFilter, setModelFilter] = useState<StructuralModel | null>(initialModel);
   const [orientationFilter, setOrientationFilter] = useState<Orientation | null>(null);
   const [industryFilter, setIndustryFilter] = useState<string | null>(null);
+  const [orgTypeFilter, setOrgTypeFilter] = useState<OrgType | null>(null);
   const [completenessFilter, setCompletenessFilter] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -27,6 +28,7 @@ export function SpecimenBrowser({
       if (modelFilter && s.classification.structuralModel !== modelFilter) return false;
       if (orientationFilter && s.classification.orientation !== orientationFilter) return false;
       if (industryFilter && s.habitat.industry !== industryFilter) return false;
+      if (orgTypeFilter && (s.habitat.orgType ?? "AI-adopter") !== orgTypeFilter) return false;
       if (completenessFilter && s.meta.completeness !== completenessFilter) return false;
       if (searchQuery) {
         const q = searchQuery.toLowerCase();
@@ -39,9 +41,9 @@ export function SpecimenBrowser({
       }
       return true;
     });
-  }, [specimens, modelFilter, orientationFilter, industryFilter, completenessFilter, searchQuery]);
+  }, [specimens, modelFilter, orientationFilter, industryFilter, orgTypeFilter, completenessFilter, searchQuery]);
 
-  const hasFilters = modelFilter || orientationFilter || industryFilter || completenessFilter || searchQuery;
+  const hasFilters = modelFilter || orientationFilter || industryFilter || orgTypeFilter || completenessFilter || searchQuery;
 
   return (
     <div className="mt-6 grid gap-8 lg:grid-cols-[260px_1fr]">
@@ -101,6 +103,32 @@ export function SpecimenBrowser({
           ))}
         </FilterGroup>
 
+        {/* Org Type */}
+        <FilterGroup label="Org Type">
+          <FilterButton
+            active={orgTypeFilter === null}
+            onClick={() => setOrgTypeFilter(null)}
+          >
+            All
+          </FilterButton>
+          <FilterButton
+            active={orgTypeFilter === "AI-native"}
+            onClick={() =>
+              setOrgTypeFilter(orgTypeFilter === "AI-native" ? null : "AI-native")
+            }
+          >
+            AI-native
+          </FilterButton>
+          <FilterButton
+            active={orgTypeFilter === "AI-adopter"}
+            onClick={() =>
+              setOrgTypeFilter(orgTypeFilter === "AI-adopter" ? null : "AI-adopter")
+            }
+          >
+            AI-adopter
+          </FilterButton>
+        </FilterGroup>
+
         {/* Industry */}
         <FilterGroup label="Industry">
           <select
@@ -146,6 +174,7 @@ export function SpecimenBrowser({
               setModelFilter(null);
               setOrientationFilter(null);
               setIndustryFilter(null);
+              setOrgTypeFilter(null);
               setCompletenessFilter(null);
               setSearchQuery("");
             }}

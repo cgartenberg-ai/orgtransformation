@@ -22,7 +22,8 @@
     "employees": null,
     "revenue": null,
     "headquarters": "Palo Alto, CA",
-    "geography": "US"
+    "geography": "US",
+    "orgType": "AI-native"
   },
   "description": "Safe Superintelligence Inc. (SSI), founded by Ilya Sutskever after departing OpenAI, represents the purest exploration model in the AI organizational landscape. The company has no product teams, no sales function, and no customer-facing engineering — all resources are concentrated on fundamental AI research.\n\nWith $3B in funding, Sutskever argues that SSI's effective research compute is competitive because competitors dilute their compute across inference, products, sales, and multiple modalities. SSI concentrates everything on research.\n\nSutskever's organizational philosophy emphasizes hiring 'people who think differently rather than the same' — valuing diversity of thought over scale of headcount. His era framework (2012-2020: age of research, 2020-2025: age of scaling, 2026+: age of research again 'just with big computers') provides the intellectual foundation for SSI's pure-research organizational model.\n\nThe company's thesis on 'jaggedness' — models excelling at benchmarks but having limited economic impact — implies current product-focused AI orgs may be misallocating resources, further justifying the research-only model.",
   "observableMarkers": {
@@ -101,7 +102,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-02",
     "completeness": "Low",
     "convertedFrom": null
   }

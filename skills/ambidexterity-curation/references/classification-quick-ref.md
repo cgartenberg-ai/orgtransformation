@@ -7,16 +7,17 @@
 | **1. Research Lab** | Publishes papers, 3-10 year horizon | DeepMind, FAIR |
 | **2. Center of Excellence** | Enables others, doesn't build products | Many bank AI CoEs |
 | **3. Embedded Teams** | AI built into product teams, no central | Product-specific AI |
-| **4. Hybrid/Hub-and-Spoke** | Central + distributed execution | Many enterprises |
+| **4. Hybrid/Hub-and-Spoke** | Central + distributed execution | Novo Nordisk, Eli Lilly |
 | **5. Product/Venture Lab** | Builds products/companies from AI | Google X, Anthropic |
 | **6. Unnamed/Informal** | No formal structure, quiet adoption | P&G ChatPG, BofA |
-| **7. Tiger Teams** | Time-boxed sprints, people return | Samsung C-Lab |
+| **7. Tiger Teams** | Time-boxed sprints, people return | [TBD — need ad hoc example] |
+| **8. Skunkworks (Emerging)** | Semi-autonomous unit rebuilding core business with AI, structurally positioned to absorb legacy org | [No confirmed specimens] |
 
 ## Model 5 Sub-Types
 
 | Sub-Type | Key Indicator | Example |
 |----------|---------------|---------|
-| **5a. Internal Incubator** | Products stay in parent company | Adobe Firefly |
+| **5a. Internal Incubator** | Products stay in parent company | Adobe Firefly, Samsung C-Lab |
 | **5b. Venture Builder** | Spin-offs become independent | Google X → Waymo |
 | **5c. Platform-to-Product** | Internal tool sold externally | Walmart GoLocal |
 

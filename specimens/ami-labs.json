@@ -2,7 +2,6 @@
   "id": "ami-labs",
   "name": "AMI Labs",
   "title": "Academic Spin-Off from Big Tech — World Models",
-
   "classification": {
     "structuralModel": 1,
     "structuralModelName": "Research Lab",
@@ -16,7 +15,6 @@
     "classificationRationale": "Pure research lab founded by Turing Award winner Yann LeCun after departing Meta. Pursuing alternatives to LLM paradigm (world models, V-JEPA architecture). LeCun took Executive Chair role (not CEO), indicating research-first orientation. Parallel to World Labs (Fei-Fei Li from Stanford).",
     "typeSpecimen": false
   },
-
   "habitat": {
     "industry": "Technology",
     "sector": "AI Research",
@@ -24,11 +22,10 @@
     "employees": null,
     "revenue": null,
     "headquarters": "Paris, France",
-    "geography": "Europe"
+    "geography": "Europe",
+    "orgType": "AI-native"
   },
-
   "description": "AMI Labs was founded by Yann LeCun (Turing Award winner, age 65) after departing Meta in Jan 2026, where he served as Chief AI Scientist for 12 years. LeCun took the role of Executive Chair (not CEO), citing his temperament and age. CEO is Alex LeBrun. The lab focuses on 'world models' — AI that understands physics, memory, and planning — using V-JEPA architecture as an alternative to the dominant LLM paradigm. Seeking approximately 500M euros at a 3-3.5B euro valuation. Meta will not invest but plans a partnership. HQ in Paris.",
-
   "observableMarkers": {
     "reportingStructure": "Executive Chair (LeCun) + CEO (LeBrun) structure. Research leader as chair, operational leader as CEO.",
     "resourceAllocation": "Seeking ~500M euros at 3-3.5B euro valuation.",
@@ -36,9 +33,7 @@
     "decisionRights": null,
     "metrics": null
   },
-
   "mechanisms": [],
-
   "quotes": [
     {
       "text": "I'm too disorganized for this, and also too old.",
@@ -59,31 +54,39 @@
       "date": "2026-01"
     }
   ],
-
   "layers": [
     {
       "date": "2025-11",
       "label": "LeCun Departure from Meta Announced",
       "summary": "Yann LeCun's departure from Meta announced after 12 years as Chief AI Scientist.",
       "classification": null,
-      "sourceRefs": ["cnbc-2025-11"]
+      "sourceRefs": [
+        "cnbc-2025-11"
+      ]
     },
     {
       "date": "2025-12",
       "label": "AMI Labs Founded",
       "summary": "AMI Labs founded by LeCun. Focus on world models and V-JEPA architecture. Seeking ~500M euros at 3-3.5B euro valuation. HQ Paris.",
       "classification": null,
-      "sourceRefs": ["fortune-2025-12", "sifted-2025-12"]
+      "sourceRefs": [
+        "fortune-2025-12",
+        "sifted-2025-12"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Executive Chair Role Confirmed",
       "summary": "LeCun confirms Executive Chair role (not CEO). Alex LeBrun named CEO. Meta plans partnership but will not invest.",
       "classification": null,
-      "sourceRefs": ["edtech-2026-01", "webpronews-lecun-2026-01", "linkedin-lecun-2026-01", "the-decoder-2026-01"]
+      "sourceRefs": [
+        "edtech-2026-01",
+        "webpronews-lecun-2026-01",
+        "linkedin-lecun-2026-01",
+        "the-decoder-2026-01"
+      ]
     }
   ],
-
   "sources": [
     {
       "id": "fortune-2025-12",
@@ -156,7 +159,6 @@
       "notes": null
     }
   ],
-
   "contingencies": {
     "regulatoryIntensity": "Low",
     "timeToObsolescence": "Fast",
@@ -164,7 +166,6 @@
     "talentMarketPosition": "Talent-rich",
     "technicalDebt": "Low"
   },
-
   "tensionPositions": {
     "structuralVsContextual": -0.8,
     "speedVsDepth": -0.6,
@@ -172,22 +173,19 @@
     "namedVsQuiet": -0.9,
     "longVsShortHorizon": -0.7
   },
-
   "openQuestions": [
     "How does AMI Labs' world models approach differ technically from World Labs (Fei-Fei Li)?",
     "What is the nature of the Meta partnership if Meta is not investing?",
     "Will LeCun's Executive Chair role be primarily research direction or also fundraising/strategy?",
     "How does the Paris HQ affect talent acquisition vs. Bay Area competitors?"
   ],
-
   "taxonomyFeedback": [
     "Academic spin-off from Big Tech — researcher dissatisfied with product-driven commercialization. Parallel to World Labs (Fei-Fei Li from Stanford). May represent a distinct sub-pattern: senior AI researchers leaving Big Tech to pursue non-LLM research agendas independently."
   ],
-
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-02",
     "completeness": "Medium",
     "convertedFrom": null
   }

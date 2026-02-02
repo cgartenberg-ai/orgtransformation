@@ -2,7 +2,6 @@
   "id": "intercom",
   "name": "Intercom",
   "title": "72-Hour AI Pivot",
-
   "classification": {
     "structuralModel": 3,
     "structuralModelName": "Embedded Teams",
@@ -10,13 +9,12 @@
     "subTypeName": null,
     "secondaryModel": null,
     "secondaryModelName": null,
-    "orientation": "Temporal",
-    "orientationName": "Temporal",
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
     "confidence": "Medium",
-    "classificationRationale": "Intercom scrapped existing roadmaps and reorganized teams within 72 hours of ChatGPT launch, then built Fin in 15 days. This is a clear temporal orientation — the org cycles between exploration and execution in time-boxed sprints. No separate AI lab or CoE; AI is embedded in product teams. The 4 new AI-specific roles (AI ops lead, knowledge manager, conversation designer, support automation specialist) suggest embedded AI within the existing product org, not a separate unit. Model 3 because there's no formal central AI function described — AI capability lives within product teams.",
+    "classificationRationale": "Model 3 (Embedded Teams) with Contextual orientation. AI capability is embedded in product teams with 4 new AI-specific roles (AI ops lead, knowledge manager, etc.). Orientation reclassified from Temporal to Contextual: the 72-hour pivot was a one-time event, not a recurring temporal cycle. In steady state, individuals balance AI exploration and product execution within their roles.",
     "typeSpecimen": false
   },
-
   "habitat": {
     "industry": "Technology",
     "sector": "SaaS / Customer Support",
@@ -26,9 +24,7 @@
     "headquarters": "San Francisco, CA",
     "geography": "Global"
   },
-
   "description": "When ChatGPT launched in November 2022, Intercom scrapped its existing roadmaps and reorganized teams within 72 hours. The company built Fin, its AI customer support agent, in just 15 days. Co-founder Des Traynor describes this as 'refounding' the company — not iterating on an existing product but reimagining the business from scratch for the AI era.\n\nIntercom is restructuring around 4 new AI-specific roles: AI operations lead, knowledge manager, conversation designer, and support automation specialist. These form what the company calls 'the backbone of the AI-first support organization.' At Pioneer 2025, Intercom announced Fin would become a unified 'Customer Agent' — handling not just support but sales, success, and marketing interactions — arguing that separate AI agents per function would create 'a mess of competing Agents that destroys the customer experience.'\n\nFin has reached significant scale: 7,000+ customers and 1M+ resolutions per week. Traynor predicts AI will collapse organizational silos, potentially enabling 20-person companies to generate hundreds of millions in revenue. If 60-80% of support volume disappears, the support org cannot remain the same size.",
-
   "observableMarkers": {
     "reportingStructure": null,
     "resourceAllocation": null,
@@ -36,9 +32,7 @@
     "decisionRights": "Co-founders made the call to scrap roadmaps within 72 hours of ChatGPT launch.",
     "metrics": "Fin: 7,000+ customers, 1M+ resolutions/week."
   },
-
   "mechanisms": [],
-
   "quotes": [
     {
       "text": "If 60-80% of support volume disappears, it's unlikely the support org will remain the same size.",
@@ -50,17 +44,27 @@
       "date": null
     }
   ],
-
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Orientation Reclassification: Temporal → Contextual",
+      "summary": "Orientation changed from Temporal to Contextual. The 72-hour pivot was a one-time event, not a recurring temporal cycle. Intercom's steady-state AI structure is contextual: AI capability is embedded in product teams, and individuals balance exploration and execution within their roles.",
+      "classification": "Model 3",
+      "sourceRefs": []
+    },
     {
       "date": "2025",
       "label": "Initial Documentation",
       "summary": "72-hour pivot after ChatGPT launch, Fin built in 15 days, 4 new AI-specific roles, unified Customer Agent vision announced at Pioneer 2025, 'refounding' framing from co-founder Des Traynor.",
       "classification": null,
-      "sourceRefs": ["pigment-traynor-2025", "intercom-blog-roles-2025", "intercom-pioneer-2025", "hg-orbit-traynor-2025"]
+      "sourceRefs": [
+        "pigment-traynor-2025",
+        "intercom-blog-roles-2025",
+        "intercom-pioneer-2025",
+        "hg-orbit-traynor-2025"
+      ]
     }
   ],
-
   "sources": [
     {
       "id": "pigment-traynor-2025",
@@ -103,7 +107,6 @@
       "notes": "Refounding framing"
     }
   ],
-
   "contingencies": {
     "regulatoryIntensity": "Low",
     "timeToObsolescence": "Fast",
@@ -111,7 +114,6 @@
     "talentMarketPosition": null,
     "technicalDebt": "Medium"
   },
-
   "tensionPositions": {
     "structuralVsContextual": 0.2,
     "speedVsDepth": 0.9,
@@ -119,23 +121,20 @@
     "namedVsQuiet": 0.4,
     "longVsShortHorizon": 0.8
   },
-
   "openQuestions": [
     "What does Intercom's internal org chart look like now vs. pre-AI pivot?",
     "How many people work on Fin vs. traditional product?",
     "What happened to the teams whose roadmaps were scrapped in 72 hours?"
   ],
-
   "taxonomyFeedback": [
     "Intercom's 72-hour pivot is one of the clearest temporal ambidexterity examples in the dataset. Could be a type specimen candidate for a temporal orientation pattern.",
     "The 'refounding' framing suggests a pattern not well captured by current taxonomy: not just switching between explore/execute, but wholesale organizational reinvention triggered by external technological discontinuity.",
     "The 4 new AI-specific roles (AI ops lead, knowledge manager, conversation designer, support automation specialist) represent an emerging pattern of AI-native job categories that could inform a new mechanism."
   ],
-
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-02",
     "completeness": "Medium",
     "convertedFrom": null
   }

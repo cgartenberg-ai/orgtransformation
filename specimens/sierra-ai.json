@@ -22,7 +22,8 @@
     "employees": null,
     "revenue": null,
     "headquarters": "San Francisco, CA",
-    "geography": "US"
+    "geography": "US",
+    "orgType": "AI-native"
   },
   "description": "Sierra AI, co-founded by Bret Taylor and Clay Bavor, builds AI agents for enterprises with an innovative outcome-based pricing model: 'We only charge our customers when their agent successfully completes the task.' Taylor's career path (Google Maps → FriendFeed → Facebook CTO → Salesforce co-CEO → OpenAI Board Chair → Sierra) and Bavor's (18 years at Google, Gmail/Drive/Docs/Labs/AR-VR → Sierra) bring deep enterprise and AI product experience.\n\nThe founders emphasize internal AI-first culture: 'can't succeed if they're not the poster child for automation.' Taylor frames AI agents as the next major organizational unit, predicting 'agent' will stick as a category term like 'app.'\n\nSierra represents a product-first AI company where the business model (outcome-based pricing) reflects organizational confidence in AI agent capability.",
   "observableMarkers": {
@@ -100,7 +101,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-02",
     "completeness": "Low",
     "convertedFrom": null
   }

@@ -22,7 +22,8 @@
     "employees": null,
     "revenue": null,
     "headquarters": "Bozeman, MT",
-    "geography": "Global"
+    "geography": "Global",
+    "orgType": "AI-native"
   },
   "description": "Snowflake CEO Sridhar Ramaswamy argues 2026 will be the year of the 'Great Decentralization' — the end of Big Tech walled gardens as smaller, specialized models deliver higher ROI than trillion-parameter alternatives. His core thesis: 'You don't need the biggest models to do a lot of things.'\n\nThe 2026 vision includes an 'HTTP Moment' — emergence of a dominant protocol for agent collaboration, enabling interoperability. Ramaswamy distinguishes between organizations generating 'AI slop' versus those achieving 'Creative Amplification.' Employee-driven adoption (workers using ChatGPT, Claude without waiting for IT) forces organizations to catch up.\n\nStrategically, Snowflake acquired Observe (observability platform) in early 2026 for AI system monitoring, signaling investment in AI infrastructure. The broader thesis positions Snowflake's data platform as essential infrastructure for the decentralized AI era.",
   "observableMarkers": {
@@ -40,25 +41,95 @@
       "label": "Curation Review",
       "summary": "Kept Model 4 but downgraded confidence to Low and status to Stub. Data describes CEO industry commentary, not Snowflake's internal AI org structure. Fixed industry from Technology to Cloud Computing. Removed spurious 'Great Decentralization' quote fragment. Added habitat.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Snowflake CEO's 'Great Decentralization' thesis about the end of Big Tech AI walled gardens and the rise of smaller, specialized models.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     }
   ],
   "sources": [
-    {"id": "source-1", "type": "Press", "name": "Fortune", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-2", "type": "Press", "name": "WebProNews", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-3", "type": "Podcast", "name": "Sequoia Training Data Podcast", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-4", "type": "Press", "name": "Morgan Stanley", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Fortune",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "WebProNews",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Podcast",
+      "name": "Sequoia Training Data Podcast",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "Morgan Stanley",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
   ],
-  "contingencies": {"regulatoryIntensity": "Low", "timeToObsolescence": "Fast", "ceoTenure": "Short", "talentMarketPosition": "Talent-rich", "technicalDebt": "Low"},
-  "tensionPositions": {"structuralVsContextual": null, "speedVsDepth": null, "centralVsDistributed": null, "namedVsQuiet": null, "longVsShortHorizon": null},
-  "openQuestions": ["What is Snowflake's internal AI team structure?", "How does the 'Great Decentralization' thesis translate to Snowflake's own AI product architecture?", "How does Snowflake's data platform advantage shape its AI competitive positioning?"],
-  "taxonomyFeedback": ["Like mckinsey-workforce, this specimen captures CEO commentary about AI trends rather than organizational structure for AI. Consider whether such specimens should be categorized differently."],
-  "meta": {"status": "Stub", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/snowflake.json"}
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Short",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [
+    "What is Snowflake's internal AI team structure?",
+    "How does the 'Great Decentralization' thesis translate to Snowflake's own AI product architecture?",
+    "How does Snowflake's data platform advantage shape its AI competitive positioning?"
+  ],
+  "taxonomyFeedback": [
+    "Like mckinsey-workforce, this specimen captures CEO commentary about AI trends rather than organizational structure for AI. Consider whether such specimens should be categorized differently."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-02-02",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/snowflake.json"
+  }
 }

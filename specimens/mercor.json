@@ -22,7 +22,8 @@
     "employees": null,
     "revenue": "$500M ARR",
     "headquarters": "San Francisco, CA",
-    "geography": "Global"
+    "geography": "Global",
+    "orgType": "AI-native"
   },
   "description": "Mercor is an AI-native hiring platform that connects knowledge workers with companies (including OpenAI, Anthropic, Meta) at unprecedented speed. Founded in 2023 by three college dropouts and Thiel Fellows (Brendan Foody CEO, Adarsh Hiremath CTO, Surya Midha Chair), the company grew from $1 to $500M revenue run rate in 17 months.\n\nThe platform uses a 20-minute AI interview to evaluate skills, create profiles, and match to roles. In 2025, Mercor hired 30,000 contractors (80% US-based), distributing $1.5M+ daily. October 2025: Series C $350M at $10B valuation, backed by Peter Thiel and Jack Dorsey. Uber's former CPO Sundeep Jain joined as president.\n\nFounder thesis: AI isn't eliminating labor but reallocating it — humans become the bottleneck for the remaining 10%, creating 10x leverage. Work is shifting toward 'more fractional, gig-like' models. Mercor launched APEX (AI Productivity Index) in January 2026 to measure AI tool impact on professional productivity.\n\nMercor is structurally significant because it reshapes how OTHER companies organize AI talent — connecting former industry experts with AI labs to create training data, evals, and rubrics.",
   "observableMarkers": {
@@ -126,7 +127,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-02",
     "completeness": "Low",
     "convertedFrom": null
   }
