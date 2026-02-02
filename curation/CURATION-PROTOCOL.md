@@ -257,6 +257,18 @@ Follow all steps in "Add Layer to Existing Specimen" above, plus:
 
 ---
 
+## Out-of-Band Changes (Taxonomy Audits, Manual Edits)
+
+When specimens are modified outside the normal `/curate` pipeline (e.g., taxonomy audits, manual reclassifications, bulk tagging), the synthesis queue will NOT be updated automatically. After any out-of-band specimen edits:
+
+1. **Add entries to `curation/synthesis-queue.json`** for every modified specimen, with `"curatedIn"` referencing the audit/edit context (e.g., `"taxonomy-audit-2026-02-02"`)
+2. **Update `specimens/registry.json`** with new model counts, orientations, type specimens
+3. **Run `node scripts/validate-workflow.js`** to confirm consistency
+
+This ensures the next `/synthesize` run picks up all changes regardless of how they were made.
+
+---
+
 ## Completeness Guide
 
 | Level | Criteria |

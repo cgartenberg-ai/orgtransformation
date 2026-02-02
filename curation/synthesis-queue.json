@@ -1,6 +1,6 @@
 {
   "description": "Synthesis queue — specimens updated since last synthesis, awaiting Phase 3 analysis. Updated by Phase 2 (add entries) and Phase 3 (mark synthesized).",
-  "lastUpdated": "2026-02-01",
+  "lastUpdated": "2026-02-02",
   "lastSynthesisDate": "2026-02-01",
   "queue": [
     {
@@ -738,6 +738,118 @@
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis-batch2.md",
       "notes": "EVOLUTION: Added to candidate 'AI-Driven Workforce Restructuring.' Management delayering convergent with UPS."
+    },
+    {
+      "specimenId": "samsung-c-lab",
+      "action": "evolution",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "RECLASSIFIED: M7 (Tiger Teams) → M5a (Internal Incubator). Permanence guardrail: 13-year program is not ad hoc."
+    },
+    {
+      "specimenId": "eli-lilly",
+      "action": "evolution",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "RECLASSIFIED: M1 (Research Lab) → M4 (Hub-and-Spoke). Federation guardrail: multiple decentralized hubs with central coordination. Type specimen status removed."
+    },
+    {
+      "specimenId": "roche-genentech",
+      "action": "evolution",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "RECLASSIFIED: M1 (Research Lab) → M3 (Embedded Teams). Research-work-vs-structure guardrail: Lab in a Loop embeds into wet lab teams. Confidence lowered to Low. Added to low-confidence research queue."
+    },
+    {
+      "specimenId": "intercom",
+      "action": "evolution",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "RECLASSIFIED orientation: Temporal → Contextual. One-time-event guardrail: 72-hour pivot was not recurring temporal cycling."
+    },
+    {
+      "specimenId": "harvey-ai",
+      "action": "updated",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "Tagged habitat.orgType: AI-native. Competitive threat reference point for AI-adopter organizations."
+    },
+    {
+      "specimenId": "mercor",
+      "action": "updated",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "Tagged habitat.orgType: AI-native. Competitive threat reference point for AI-adopter organizations."
+    },
+    {
+      "specimenId": "sierra-ai",
+      "action": "updated",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "Tagged habitat.orgType: AI-native. Competitive threat reference point for AI-adopter organizations."
+    },
+    {
+      "specimenId": "glean",
+      "action": "updated",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "Tagged habitat.orgType: AI-native. Competitive threat reference point for AI-adopter organizations."
+    },
+    {
+      "specimenId": "ssi",
+      "action": "updated",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "Tagged habitat.orgType: AI-native. Competitive threat reference point for AI-adopter organizations."
+    },
+    {
+      "specimenId": "ami-labs",
+      "action": "updated",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "Tagged habitat.orgType: AI-native. Competitive threat reference point for AI-adopter organizations."
+    },
+    {
+      "specimenId": "thinking-machines-lab",
+      "action": "updated",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "Tagged habitat.orgType: AI-native. Competitive threat reference point for AI-adopter organizations."
+    },
+    {
+      "specimenId": "world-labs",
+      "action": "updated",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "Tagged habitat.orgType: AI-native. Competitive threat reference point for AI-adopter organizations."
+    },
+    {
+      "specimenId": "databricks",
+      "action": "updated",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "Tagged habitat.orgType: AI-native. Competitive threat reference point for AI-adopter organizations."
+    },
+    {
+      "specimenId": "snowflake",
+      "action": "updated",
+      "curatedIn": "taxonomy-audit-2026-02-02",
+      "status": "pending",
+      "synthesizedIn": null,
+      "notes": "Tagged habitat.orgType: AI-native. Competitive threat reference point for AI-adopter organizations."
     }
   ]
 }
