@@ -6,18 +6,18 @@
 
 ## CRITICAL: Read This First
 
-There are **17 uncommitted files** from the Feb 2 session (curation, synthesis, and handoff updates). The build has not been re-verified since these changes. The first action should be:
+All work from the Feb 2 session is **committed** (`3701460` — 17 files). The first action should be:
 
 1. `cd site && npm run build` — verify build passes
 2. `node scripts/validate-workflow.js` — should be 0 errors, ~60 warnings
-3. Commit all 17 files (see lists below)
-4. Ask the user what to work on next
+3. Ask the user what to work on next
 
 ---
 
 ## What Happened Since Last Commit
 
 ### Last Commits
+- `3701460` — Curation + synthesis: Stagwell specimen, 2 mechanism promotions, handoff updates
 - `2dce5bd` — Fix: add taxonomy audit entries to synthesis queue
 - `81b4bb0` — Taxonomy audit: reclassify 4 specimens, add curation guardrails, AI-native tagging
 
@@ -118,7 +118,7 @@ Working Next.js 14 prototype with 12 routes + 1 API endpoint. All Phases 1-3 of 
 ## What Needs Doing Next
 
 ### Immediate (this session)
-1. Verify build + validate, commit 13 uncommitted files
+1. Verify build + validate
 2. Ask user for direction
 
 ### Research Backlog
