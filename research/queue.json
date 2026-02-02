@@ -1,6 +1,6 @@
 {
   "description": "Curation queue — research sessions awaiting Phase 2 processing. Updated by Phase 1 (add entries) and Phase 2 (mark curated).",
-  "lastUpdated": "2026-02-01",
+  "lastUpdated": "2026-02-02",
   "queue": [
     {
       "sessionFile": "2026-01-31-no-priors-jensen-huang.md",
@@ -208,8 +208,8 @@
         "stagwell",
         "amazon"
       ],
-      "status": "pending",
-      "curatedIn": null
+      "status": "curated",
+      "curatedIn": "2026-02-02-curation.md"
     }
   ]
 }

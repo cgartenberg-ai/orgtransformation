@@ -1,10 +1,10 @@
 {
-  "description": "Specimen Registry — tracks all specimens in the herbarium. Updated whenever specimens are created or modified.",
+  "description": "Specimen Registry \u2014 tracks all specimens in the herbarium. Updated whenever specimens are created or modified.",
   "lastUpdated": "2026-02-02",
-  "totalSpecimens": 84,
+  "totalSpecimens": 85,
   "byModel": {
     "1": 9,
-    "2": 16,
+    "2": 17,
     "3": 10,
     "4": 24,
     "5": 12,
@@ -12,7 +12,7 @@
     "7": 0
   },
   "byOrientation": {
-    "Structural": 59,
+    "Structural": 60,
     "Contextual": 24,
     "Temporal": 1
   },
@@ -93,8 +93,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-02",
+      "layerCount": 2,
       "completeness": "Low",
       "confidence": "Medium"
     },
@@ -288,8 +288,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
-      "layerCount": 2,
+      "lastUpdated": "2026-02-02",
+      "layerCount": 3,
       "completeness": "Medium",
       "confidence": "Medium"
     },
@@ -1098,8 +1098,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
-      "layerCount": 2,
+      "lastUpdated": "2026-02-02",
+      "layerCount": 3,
       "completeness": "Medium",
       "confidence": "Medium"
     },
@@ -1280,6 +1280,21 @@
       "created": "2026-02-01",
       "lastUpdated": "2026-02-01",
       "layerCount": 2,
+      "completeness": "Low",
+      "confidence": "Medium"
+    },
+    {
+      "id": "stagwell",
+      "name": "Stagwell",
+      "structuralModel": 2,
+      "subType": null,
+      "secondaryModel": null,
+      "orientation": "Structural",
+      "typeSpecimen": false,
+      "status": "Active",
+      "created": "2026-02-02",
+      "lastUpdated": "2026-02-02",
+      "layerCount": 1,
       "completeness": "Low",
       "confidence": "Medium"
     }

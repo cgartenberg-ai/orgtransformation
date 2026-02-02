@@ -30,7 +30,7 @@
     "resourceAllocation": "$125B CapEx forecast 2026. $100B explicitly for AI.",
     "timeHorizons": "10-year AI commitment cited (Washington state). Layoffs in quarterly waves.",
     "decisionRights": "CEO-driven cultural mandate. 'Removing layers of bureaucracy.'",
-    "metrics": "16,000 jobs cut Jan 2026. 14,000 cut Oct 2025. 30,000 projected by May 2026. 2,400 in WA alone. Q4 profits ~$21B."
+    "metrics": "16,000 jobs cut Jan 2026 (affecting AWS, retail, Prime Video, HR). 14,000 cut Oct 2025. 30,000 projected by May 2026. 2,400 in WA alone. Q4 profits ~$21B."
   },
   "mechanisms": [],
   "quotes": [
@@ -45,6 +45,13 @@
     }
   ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Tier 1 Press Broad Scan — Division Detail",
+      "summary": "International press coverage adds specific division detail: layoffs affecting AWS, retail, Prime Video, and HR. Part of broader ~30K corporate role reduction goal. CEO Jassy had previously warned AI would shrink workforce. Reinforces candidate mechanism 'AI-Driven Workforce Restructuring as Structural Lever.'",
+      "classification": null,
+      "sourceRefs": ["aljazeera-amazon-2026", "thestar-amazon-2026", "thenational-amazon-2026"]
+    },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
@@ -109,6 +116,36 @@
       "sourceDate": "2026-01",
       "collectedDate": "2026-01-31",
       "notes": null
+    },
+    {
+      "id": "aljazeera-amazon-2026",
+      "type": "Press",
+      "name": "Al Jazeera — Amazon Cuts Thousands of Jobs Amid AI Push",
+      "url": "https://www.aljazeera.com/economy/2026/1/28/amazon-cuts-thousands-of-jobs-amid-ai-push",
+      "timestamp": null,
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-02-01",
+      "notes": "Divisions affected: AWS, retail, Prime Video, HR."
+    },
+    {
+      "id": "thestar-amazon-2026",
+      "type": "Press",
+      "name": "The Star — Amazon Cuts 16,000 Jobs Globally in Broader Restructuring",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/01/28/amazon-cuts-16000-jobs-globally-in-broader-restructuring",
+      "timestamp": null,
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-02-01",
+      "notes": null
+    },
+    {
+      "id": "thenational-amazon-2026",
+      "type": "Press",
+      "name": "The National — Amazon Cuts 16,000 Jobs Globally Amid AI Push",
+      "url": "https://www.thenationalnews.com/future/technology/2026/01/28/amazon-cuts-16000-jobs-globally-amid-ai-push/",
+      "timestamp": null,
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-02-01",
+      "notes": null
     }
   ],
   "contingencies": {
@@ -138,7 +175,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-02",
     "completeness": "Low",
     "convertedFrom": null
   }

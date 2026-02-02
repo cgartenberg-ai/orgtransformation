@@ -1,6 +1,6 @@
 # Ambidexterity in the AI Era: A Field Guide
-## Product Specification v1.1
-### Updated January 31, 2026
+## Product Specification v1.2
+### Updated February 2, 2026
 
 ---
 
@@ -64,7 +64,7 @@ This field guide focuses primarily on **structural approaches** — how organiza
 
 ## 4. The Taxonomy
 
-The taxonomy builds on empirical research originally documenting 285+ organizational cases. As of January 31, 2026, **65 organizations** have been fully structured as specimens with classification, sourcing, and stratigraphic layers. Specimens are classified along two dimensions: **primary structural model** and **ambidexterity orientation**.
+The taxonomy builds on empirical research originally documenting 285+ organizational cases. As of February 2, 2026, **85 organizations** have been fully structured as specimens with classification, sourcing, and stratigraphic layers. Specimens are classified along two dimensions: **primary structural model** and **ambidexterity orientation**.
 
 ### Dimension 1: Structural Model
 *What is the organizational structure for AI?*
@@ -107,14 +107,14 @@ These three orientations come directly from the ambidexterity literature. Most s
 ### Classification Examples
 
 **Eli Lilly**
-- **Structural Model**: Model 1 (Research Lab) + Model 5b (Venture Builder with NVIDIA)
+- **Structural Model**: Model 4 (Hub-and-Spoke) + secondary Model 5b (Venture Builder with NVIDIA)
 - **Ambidexterity Orientation**: Structural
-- *Key pattern*: Decentralized 300-400 person hubs, 18-year time horizons, CEO protects "off-strategy" deviations
+- *Key pattern*: Decentralized 300-400 person hubs coordinated by central R&D leadership, 18-year time horizons, CEO protects "off-strategy" deviations. Reclassified from M1 to M4 — multiple distributed hubs with central coordination is Hub-and-Spoke, not a single Research Lab.
 
 **Shopify**
-- **Structural Model**: Model 6a (Enterprise-Wide Adoption)
+- **Structural Model**: Model 3 (Embedded Teams)
 - **Ambidexterity Orientation**: Contextual
-- *Key pattern*: "Prove AI can't do it" mandate, AI proficiency as employment condition
+- *Key pattern*: "Prove AI can't do it" mandate, AI proficiency as employment condition, CEO-driven cultural change
 
 **Bank of America**
 - **Structural Model**: Model 6a (Enterprise-Wide Adoption)
@@ -127,9 +127,9 @@ These three orientations come directly from the ambidexterity literature. Most s
 - *Key pattern*: 100+ experiments annually, 2% graduation rate, teams bonused for killing projects
 
 **Samsung C-Lab**
-- **Structural Model**: Model 7 (Tiger Teams)
+- **Structural Model**: Model 5a (Internal Incubator)
 - **Ambidexterity Orientation**: Temporal
-- *Key pattern*: Employees leave roles for time-limited exploration, 20% spin off into independent companies
+- *Key pattern*: Permanent 13-year incubator with 959 ventures. Employees leave roles for full-year dedicated exploration, 20% spin off into independent companies. Reclassified from M7 to M5a — a permanent institutional program is not an ad hoc tiger team.
 
 ---
 
@@ -327,8 +327,8 @@ The reference site is organized for browsing and discovery:
 - Filter by: Structural Form, Integration Mechanism, Industry
 - Each specimen card expandable to full detail
 
-### Mechanisms
-Cross-cutting patterns observed across multiple specimens. These 10 mechanisms emerged from systematic case analysis:
+### Principles (Mechanisms)
+Cross-cutting patterns observed across multiple specimens. These 12 confirmed mechanisms emerged from systematic case analysis:
 
 1. **Protect Off-Strategy Work** — Structure to let deviations survive (Eli Lilly)
 2. **Bonus Teams That Kill Projects** — Incentivize early termination (Google X)
@@ -338,10 +338,12 @@ Cross-cutting patterns observed across multiple specimens. These 10 mechanisms e
 6. **Merge Competing AI Teams Under Single Leader** — Consolidate when coordination costs exceed independence benefits (Google DeepMind)
 7. **Put Executives on the Tools** — Leaders use AI 8+ hours/week on real work (BCG Trailblazers)
 8. **Log Everything When Regulators Watch** — Audit trails as competitive advantage (Allianz, UBS)
-9. **Hire CAIOs from Consumer Tech** — Product-shipping experience over enterprise IT (UK Government, Siemens)
+9. **Hire CAIOs from Consumer Tech** — Product-shipping experience over enterprise IT (UK Government, Siemens, Stagwell)
 10. **Productize Internal Operational Advantages** — Internal tools become revenue streams (Walmart, Salesforce)
+11. **AI-Driven Workforce Restructuring as Structural Lever** — Using AI to eliminate roles creates structural space for new organizational forms (Amazon, Salesforce, UPS, Microsoft). Management delayering is the leading edge. *Promoted from candidate 2026-02-02 (8 specimens).*
+12. **Business Leader as AI Chief** — Appointing business-line leaders to head AI ensures strategy serves transformation, not technology (Wells Fargo, Coca-Cola, PwC). *Promoted from candidate 2026-02-02 (3 specimens).*
 
-Each mechanism links to specimens that demonstrate it.
+5 candidate mechanisms remain under observation. Each mechanism links to specimens that demonstrate it.
 
 ### Tensions & Contingencies
 
@@ -454,7 +456,7 @@ Light on jargon, heavy on practical detail. Theoretical connections available bu
 ## 11. Open Questions
 
 1. **Scope**: Should we include contextual ambidexterity specimens, or focus exclusively on structural approaches?
-   - *Status: RESOLVED — We include all three orientations (Structural, Contextual, Temporal). Current distribution: 44 Structural, 19 Contextual, 2 Temporal across 65 specimens.*
+   - *Status: RESOLVED — We include all three orientations (Structural, Contextual, Temporal). Current distribution: 60 Structural, 24 Contextual, 1 Temporal across 85 specimens.*
 
 2. **Recency**: How do we handle specimens that may have evolved since documentation? Living documents vs. point-in-time snapshots?
    - *Status: RESOLVED — Stratigraphy model implemented. Specimens have `layers[]` array preserving historical evolution. Each layer is dated and sourced.*
@@ -463,61 +465,68 @@ Light on jargon, heavy on practical detail. Theoretical connections available bu
    - *Status: OPEN — Not yet systematically addressed. Some specimens note tensions/failures (e.g., Google's delayed ChatGPT response, Databricks/Glean admitting 95% AI project failure rate).*
 
 4. **Interactivity**: Any interactive elements beyond browse/filter? Comparison tool? Self-assessment?
-   - *Status: DESIGNED — UI_Spec.md includes Situation Matcher, Tension Map, Comparison View. Not yet built.*
+   - *Status: BUILT — Situation Matcher (dimension-based + Claude chat advisor), Tension Map (D3 force-directed), Comparison View (side-by-side up to 4). All implemented in site prototype.*
 
 5. **Updates**: What's the workflow for adding new specimens as organizations evolve?
    - *Status: RESOLVED — Three-phase skill workflow operational: `/research` → `/curate` → `/synthesize`. Source registry tracks coverage. Queue system tracks workflow state.*
 
 ---
 
-## 12. Current State (as of January 31, 2026)
+## 12. Current State (as of February 2, 2026)
 
 ### Infrastructure Built
 
-The three-phase workflow is fully operational:
+The three-phase workflow is fully operational. All queues are empty (no pending work).
 
 | Component | Status | Location |
 |-----------|--------|----------|
-| **Specimen collection** | 65 structured specimens | `specimens/*.json` |
-| **Specimen registry** | Tracking all 65 with model/orientation distribution | `specimens/registry.json` |
-| **Source registry** | 38 sources (18 Tier 1, 20 Tier 2) | `specimens/source-registry.json` |
-| **Research sessions** | 9 sessions completed | `research/sessions/` |
-| **Research queue** | 9 entries (4 curated, 5 pending) | `research/queue.json` |
-| **Curation sessions** | 3 completed | `curation/sessions/` |
-| **Synthesis queue** | 53 entries (22 synthesized, 31 pending) | `curation/synthesis-queue.json` |
-| **Mechanisms** | 10 confirmed + 5 candidate | `synthesis/mechanisms.json` |
+| **Specimen collection** | 85 structured specimens | `specimens/*.json` |
+| **Specimen registry** | Tracking all 85 with model/orientation distribution | `specimens/registry.json` |
+| **Source registry** | 41 sources (18 Tier 1, 23 Tier 2) | `specimens/source-registry.json` |
+| **Research sessions** | 12 sessions completed | `research/sessions/` |
+| **Research queue** | 12 entries (all pending new research) | `research/queue.json` |
+| **Curation sessions** | 11 completed | `curation/sessions/` |
+| **Synthesis queue** | 110 entries (all synthesized, 0 pending) | `curation/synthesis-queue.json` |
+| **Mechanisms** | 12 confirmed + 5 candidate | `synthesis/mechanisms.json` |
 | **Tensions** | 5 core tensions | `synthesis/tensions.json` |
 | **Contingencies** | 5 key contingencies | `synthesis/contingencies.json` |
-| **Validation** | 0 errors, ~67 warnings (mostly null URLs from legacy data) | `scripts/validate-workflow.js` |
-| **Skills** | 3 phase skills (`/research`, `/curate`, `/synthesize`) | `.claude/skills/` |
+| **Validation** | 0 errors, 60 warnings (mostly null URLs from legacy data) | `scripts/validate-workflow.js` |
+| **Skills** | 3 phase skills (`/research`, `/curate`, `/synthesize`) + curation guardrails | `.claude/skills/` |
+| **Reference site** | Working Next.js prototype (10 routes, Claude chat matcher) | `site/` |
+| **Classification guardrails** | 7 guardrails embedded in curation protocol | `skills/ambidexterity-curation/SKILL.md` |
+| **Low-confidence queue** | 2 specimens queued for deeper research | `research/low-confidence-queue.json` |
 
 ### Specimen Distribution
 
 | Structural Model | Count | Type Specimen |
 |-----------------|-------|---------------|
-| Model 1: Research Lab | 9 | Eli Lilly |
-| Model 2: Center of Excellence | 10 | — |
-| Model 3: Embedded Teams | 9 | — |
-| Model 4: Hub-and-Spoke | 21 | — |
-| Model 5: Product/Venture Lab | 8 | Google X |
-| Model 6: Unnamed/Informal | 7 | P&G (ChatPG), Bank of America |
-| Model 7: Tiger Teams | 1 | Samsung C-Lab |
+| Model 1: Research Lab | 9 | Google DeepMind |
+| Model 2: Center of Excellence | 17 | — |
+| Model 3: Embedded Teams | 10 | — |
+| Model 4: Hub-and-Spoke | 24 | Novo Nordisk |
+| Model 5: Product/Venture Lab | 12 | Google X (5b), Samsung C-Lab (5a) |
+| Model 6: Unnamed/Informal | 13 | P&G (ChatPG), Bank of America |
+| Model 7: Tiger Teams | 0 | — (no confirmed specimens after taxonomy audit) |
+| Model 8: Skunkworks (Emerging) | 0 | — (predicted model, no confirmed specimens yet) |
+
+**Orientation distribution**: 60 Structural, 24 Contextual, 1 Temporal
+
+**AI-native specimens**: 10 tagged (harvey-ai, mercor, sierra-ai, glean, ssi, ami-labs, thinking-machines-lab, world-labs, databricks, snowflake)
 
 ### Source Coverage
 
-- **11 Tier 1 podcast/substack sources**: All scanned at least once
-- **7 Tier 1 press sources**: Added to registry, not yet systematically scanned
-- **20 Tier 2 sources**: 8 podcasts, 4 substacks, 4 reports, 2 press, 2 filings — mostly unscanned
-- **Deep-scan backlog**: ~11 high/medium priority podcast episodes triaged but not transcript-scanned
+- **18 Tier 1 sources**: All scanned at least once (11 podcast/substack + 7 press)
+- **23 Tier 2 sources**: 8 podcasts, 4 substacks, 4 reports, 2 press, 2 filings, plus ad-age, digiday
+- **Deep-scan backlog**: 4 HIGH, 5 MEDIUM priority podcast episodes (see research session 002)
 
 ### What Remains to Build
 
-1. **Reference site** — UI_Spec.md is designed but no code yet (Next.js, Tailwind, D3.js)
-2. **Source URL backfill** — 171 sources across specimens have null URLs (legacy data)
-3. **Legacy case conversion** — 55 old-format files in `library/cases/` can be batch-converted via `scripts/convert-cases.js`
-4. **Ongoing research** — Tier 2 sources, new press sources, deep-scan backlog
-5. **Ongoing curation** — 5 research sessions pending Phase 2 processing
-6. **Ongoing synthesis** — 31 specimens pending Phase 3 synthesis
+1. **Source URL backfill** — 169 sources across specimens have null URLs (legacy data)
+2. **Legacy case conversion** — 55 old-format files in `library/cases/` can be batch-converted via `scripts/convert-cases.js`
+3. **Ongoing research** — Deep-scan backlog, Tier 2 sources
+4. **Low-confidence specimens** — roche-genentech (M3, Low) and lg-electronics (M2) need deeper evidence
+5. **Site deployment** — Not yet deployed (runs locally only)
+6. **Site Phase 4-6** — User features, research integration, polish (see APP_STATE.md)
 
 ---
 
@@ -526,17 +535,18 @@ The three-phase workflow is fully operational:
 ### Example 1: Eli Lilly
 
 **Classification**:
-- **Structural Model**: Model 1 (Research Lab) — decentralized 300-400 person hubs
-- **Sub-type**: Hybrid with Model 5b (Venture Builder) via NVIDIA partnership
+- **Structural Model**: Model 4 (Hub-and-Spoke) — decentralized 300-400 person hubs coordinated by central R&D leadership
+- **Sub-type**: Secondary Model 5b (Venture Builder) via NVIDIA partnership
 - **Ambidexterity Orientation**: Structural
 
 **Specimen card** would include:
-- The 300-400 person hub structure operating like biotechs
+- Multiple 300-400 person hubs operating like biotechs, coordinated by central leadership
 - 18+ year time horizon example (GLP-1 program: 2006 to Mounjaro)
 - CEO Dave Ricks quote: "Middle management tends to squash deviations, but the deviations... make the next breakthrough"
 - $1B NVIDIA co-innovation lab (January 2026)
 - R&D investment: 20-25% of sales (~$120B revenue)
 - **Mechanisms demonstrated**: #1 Protect Off-Strategy Work
+- *Reclassified from M1 to M4 (taxonomy audit 2026-02): multiple distributed hubs with central coordination = Hub-and-Spoke*
 
 ### Example 2: Google X
 
@@ -567,16 +577,17 @@ The three-phase workflow is fully operational:
 ### Example 4: Samsung C-Lab
 
 **Classification**:
-- **Structural Model**: Model 7 (Tiger Teams)
+- **Structural Model**: Model 5a (Internal Incubator)
 - **Ambidexterity Orientation**: Temporal
 
 **Specimen card** would include:
-- Employees leave current roles for dedicated exploration time
-- 100+ graduated startups since 2012
-- 20% of projects become independent companies
+- Permanent 13-year incubator (959 ventures since 2012)
+- Employees leave current roles for full-year dedicated exploration
+- 20% of projects spin off into independent companies
 - Clear exit mechanism back to operations or out to venture
-- **Mechanisms demonstrated**: Time-boxed exploration with defined endpoints
+- **Mechanisms demonstrated**: Protected exploration with institutional permanence
+- *Reclassified from M7 to M5a (taxonomy audit 2026-02): a permanent institutional program is not an ad hoc tiger team*
 
 ---
 
-*This spec builds on empirical research originally documenting 285+ organizational cases. As of January 31, 2026, 65 organizations have been fully structured as specimens. The field guide is developed iteratively through the three-phase skill workflow, with the taxonomy refined as specimens are documented and synthesized.*
+*This spec builds on empirical research originally documenting 285+ organizational cases. As of February 2, 2026, 85 organizations have been fully structured as specimens with 12 confirmed cross-cutting mechanisms. The field guide is developed iteratively through the three-phase skill workflow, with the taxonomy refined as specimens are documented and synthesized.*

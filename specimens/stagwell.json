@@ -1,0 +1,143 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "stagwell",
+  "name": "Stagwell",
+  "title": "First CAIO in Ad Holding Company",
+
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Stagwell appointed a CAIO (John Kahan) reporting directly to the CEO, mandated to spearhead AI integration across the global agency network. This is a centralized governance and standards role — the CAIO enables distributed adoption across semi-autonomous agencies rather than running a dedicated AI lab or building AI products. Model 2 (CoE) with Structural orientation: a formal AI governance role separated from the agencies' day-to-day creative operations. No evidence of a dedicated research unit (M1), product lab (M5), or enterprise-wide informal adoption (M6). The holding company structure adds a distinctive layer: the CAIO must coordinate across independent agency brands.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Advertising / Marketing",
+    "sector": "Ad Holding Company",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "New York, NY",
+    "geography": "Global"
+  },
+
+  "description": "Stagwell, the digital-first advertising holding company led by Mark Penn, appointed John Kahan as its inaugural Chief AI Officer in April 2025. Kahan reports directly to Penn (Chairman & CEO) and is mandated to spearhead AI integration across Stagwell's global agency network.\n\nKahan brings 38 years of experience at Microsoft and IBM in data and AI, spanning product development, marketing, and sales. His appointment is tied to Stagwell's financial ambition: increasing EBITDA to $1B by 2030, with AI as a key enabler. Stagwell published a 2026 agentic AI predictions booklet, signaling strategic commitment.\n\nThe appointment is part of a broader ad industry trend toward formalizing AI leadership. Monks promoted Wesley ter Haar to CAIO (internal promotion), IPG appointed Yaniv Sarig as global head of AI commerce, and Momentum Worldwide named Jason Snyder as first CAIO. Gartner analyst Nicole Greene noted a 'surge in appointing head of AI roles across agencies' reflecting the industry's need for a holistic AI approach. The structural question is whether a holding-company-level CAIO can effectively coordinate AI adoption across semi-autonomous creative agencies.",
+
+  "observableMarkers": {
+    "reportingStructure": "CAIO reports directly to Chairman & CEO (Mark Penn).",
+    "resourceAllocation": null,
+    "timeHorizons": "EBITDA target of $1B by 2030 — 5-year AI-enabled growth horizon.",
+    "decisionRights": "CAIO mandated to spearhead AI integration across global agency network.",
+    "metrics": "EBITDA target: $1B by 2030."
+  },
+
+  "mechanisms": [
+    {
+      "id": 9,
+      "name": "Hire CAIOs from Consumer Tech",
+      "evidence": "Kahan hired from 38 years at Microsoft and IBM (enterprise tech) into ad holding company CAIO role. A variant: enterprise tech → ad industry CAIO pipeline, rather than consumer tech.",
+      "strength": "Strong"
+    }
+  ],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2025-04",
+      "label": "Initial Documentation — First CAIO in Ad Holding Company",
+      "summary": "Stagwell appointed John Kahan as inaugural CAIO (April 2025). Reports to CEO Mark Penn. 38 years Microsoft/IBM background. Mandate: AI integration across agency network. Part of broader ad industry CAIO wave (Monks, IPG, Momentum Worldwide).",
+      "classification": null,
+      "sourceRefs": ["stagwell-pr-2025", "adweek-stagwell-2025", "ad-age-agency-caios-2025", "digiday-ipg-caios-2025"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "stagwell-pr-2025",
+      "type": "Press Release",
+      "name": "Stagwell — Appoints John Kahan as Inaugural Chief AI Officer",
+      "url": "https://www.stagwellglobal.com/stagwell-stgw-appoints-john-kahan-as-inaugural-chief-ai-officer/",
+      "timestamp": null,
+      "sourceDate": "2025-04",
+      "collectedDate": "2026-02-01",
+      "notes": "Official appointment announcement. Reports to Mark Penn."
+    },
+    {
+      "id": "adweek-stagwell-2025",
+      "type": "Press",
+      "name": "Adweek — Stagwell Appoints John Kahan as First Chief AI Officer",
+      "url": "https://www.adweek.com/agencies/stagwell-appoints-john-kahan-as-first-chief-ai-officer/",
+      "timestamp": null,
+      "sourceDate": "2025-04",
+      "collectedDate": "2026-02-01",
+      "notes": "38 years Microsoft/IBM. EBITDA $1B by 2030 target."
+    },
+    {
+      "id": "ad-age-agency-caios-2025",
+      "type": "Press",
+      "name": "Ad Age — Behind the Rise of AI Chiefs at Agencies",
+      "url": "https://adage.com/agencies/aa-behind-the-rise-of-ai-chiefs-at-agencies/",
+      "timestamp": null,
+      "sourceDate": "2025-12",
+      "collectedDate": "2026-02-01",
+      "notes": "Industry trend piece. Monks (ter Haar), IPG (Sarig), Momentum (Snyder). Gartner's Nicole Greene quote on surge in agency AI leadership roles."
+    },
+    {
+      "id": "digiday-ipg-caios-2025",
+      "type": "Press",
+      "name": "Digiday — IPG's Latest Appointment Confirms AI Chiefs Are the Latest Holdco Must-Have",
+      "url": "https://digiday.com/marketing/ipgs-latest-appointment-confirms-ai-chiefs-are-the-latest-holdco-must-have/",
+      "timestamp": null,
+      "sourceDate": "2025-12",
+      "collectedDate": "2026-02-01",
+      "notes": "Broader holding company CAIO trend. IPG context."
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Low"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.4,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.6,
+    "longVsShortHorizon": 0.2
+  },
+
+  "openQuestions": [
+    "What AI products/services is Stagwell building vs. buying?",
+    "How does Kahan's mandate interact with individual agency creative directors?",
+    "Is a holding-company-level CAIO effective when agencies operate semi-independently?",
+    "What team or unit does the CAIO lead? Or is it a solo governance role?",
+    "How does Stagwell's AI strategy compare to WPP, Publicis, or Omnicom approaches?"
+  ],
+
+  "taxonomyFeedback": [
+    "First ad holding company specimen in the herbarium. The holding company structure adds a distinctive organizational layer: CAIO must coordinate across semi-autonomous creative agencies. This is a different coordination challenge than coordinating across business units in a unitary company.",
+    "CAIO career pipeline variant: enterprise tech (Microsoft/IBM) → ad holding company. Different from consumer tech → enterprise CAIO or academic → finance CAIO pipelines documented elsewhere.",
+    "Industry-wide CAIO wave in advertising (Stagwell, Monks, IPG, Momentum) mirrors the 2024-2025 wave in banking/finance. May represent a lagging-sector adoption pattern worth tracking."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-02",
+    "lastUpdated": "2026-02-02",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

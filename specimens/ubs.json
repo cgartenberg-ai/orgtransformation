@@ -50,6 +50,13 @@
 
   "layers": [
     {
+      "date": "2026-02",
+      "label": "Tier 1 Press Broad Scan — Source Enrichment",
+      "summary": "Additional sources confirm CAIO appointment details. Magazzeni's academic career quantified: 12+ years at King's College London with 100+ publications. Mandate framed as reshaping business capabilities, improving client experience, enhancing employee productivity. Fintech Futures source adds JPMorgan provenance detail.",
+      "classification": null,
+      "sourceRefs": ["banking-dive-ubs-2025", "fintech-futures-ubs-2025"]
+    },
+    {
       "date": "2025-10",
       "label": "CAIO Appointment — Structural Evolution",
       "summary": "New data confirms CAIO appointment details: Magazzeni reports to Group Chief CTO, heads dedicated Chief AI Office, background includes JPM Explainable AI CoE leadership and academic AI professorship. 'Big Rocks' AI program named. Concurrent with Credit Suisse integration.",
@@ -85,11 +92,11 @@
       "id": "source-2",
       "type": "Press",
       "name": "Banking Dive",
-      "url": null,
+      "url": "https://www.bankingdive.com/news/ubs-revamps-leadership-tech-ai-daniele-magazzeni-mike-dargan/803848/",
       "timestamp": null,
-      "sourceDate": null,
+      "sourceDate": "2025-10",
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "UBS leadership revamp — Magazzeni and Dargan."
     },
     {
       "id": "source-3",
@@ -150,6 +157,26 @@
       "sourceDate": "2025-10",
       "collectedDate": "2026-01-31",
       "notes": "'Big Rocks' AI program mentioned."
+    },
+    {
+      "id": "banking-dive-ubs-2025",
+      "type": "Press",
+      "name": "Banking Dive — UBS Revamps Leadership with AI Chief",
+      "url": "https://www.bankingdive.com/news/ubs-revamps-leadership-tech-ai-daniele-magazzeni-mike-dargan/803848/",
+      "timestamp": null,
+      "sourceDate": "2025-10",
+      "collectedDate": "2026-02-01",
+      "notes": "Detailed leadership restructuring context."
+    },
+    {
+      "id": "fintech-futures-ubs-2025",
+      "type": "Press",
+      "name": "Fintech Futures — UBS Hires JPMorgan Analytics Chief for AI Strategy",
+      "url": "https://www.fintechfutures.com/job-cuts-new-hires/ubs-hires-jp-morgan-analytics-chief-daniele-magazzeni-to-lead-ai-strategy",
+      "timestamp": null,
+      "sourceDate": "2025-10",
+      "collectedDate": "2026-02-01",
+      "notes": "JPMorgan provenance detail. 12+ years academic career, 100+ publications."
     }
   ],
 
@@ -183,7 +210,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-02",
     "completeness": "Medium",
     "convertedFrom": "library/cases/ubs.json"
   }

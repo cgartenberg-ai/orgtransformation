@@ -24,7 +24,7 @@
     "headquarters": "Sydney, Australia",
     "geography": "Asia-Pacific"
   },
-  "description": "Commonwealth Bank of Australia (CBA) deployed ChatGPT Enterprise to all 50,000 employees, representing the largest single ChatGPT Enterprise deployment in the world. CEO Matt Comyn personally engaged with the rollout, spending significant time understanding AI capabilities and use cases. The approach rejected pilot-based rollout in favor of universal access.\n\nIn late 2025, CBA appointed Ranil Boteju as its first Chief AI Officer, commencing early 2026. Boteju was hired from Lloyds Banking Group where he was Group Chief Data and Analytics Officer, leading 2,000+ people and delivering 50+ GenAI initiatives. CBA already ranks 4th globally in the Evident AI Index, indicating strong existing capability. The CAIO formalizes leadership over what had been a more informal, enterprise-wide adoption pattern.\n\nCEO Matt Comyn frames the approach as 'building tomorrow's bank today' — an explicit explore/execute tension. The evolution from contextual/informal AI adoption to formal structural leadership (CAIO appointment) represents a notable maturation pattern.",
+  "description": "Commonwealth Bank of Australia (CBA) deployed ChatGPT Enterprise to all 50,000 employees, representing the largest single ChatGPT Enterprise deployment in the world. CEO Matt Comyn personally engaged with the rollout, spending significant time understanding AI capabilities and use cases. The approach rejected pilot-based rollout in favor of universal access.\n\nIn late 2025, CBA appointed Ranil Boteju as its first Chief AI Officer, commencing early 2026. Boteju was hired from Lloyds Banking Group where he was Group Chief Data and Analytics Officer, leading 2,000+ people and delivering 50+ GenAI initiatives. Notably, Boteju is a 'boomerang' hire — he previously worked at CBA from 2007-2010 as general manager for customer analysis, and held prior roles at Standard Chartered and HSBC in Singapore and Hong Kong. CBA already ranks 4th globally in the Evident AI Index, indicating strong existing capability. The CAIO formalizes leadership over what had been a more informal, enterprise-wide adoption pattern.\n\nCEO Matt Comyn frames the approach as 'building tomorrow's bank today' — an explicit explore/execute tension. The evolution from contextual/informal AI adoption to formal structural leadership (CAIO appointment) represents a notable maturation pattern.",
   "observableMarkers": {
     "reportingStructure": "CAIO placed on Technology Leadership Team, reporting into technology function.",
     "resourceAllocation": null,
@@ -60,6 +60,13 @@
   ],
   "quotes": [],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Tier 1 Press Broad Scan — Source Enrichment",
+      "summary": "Additional context on Boteju's career: 'boomerang' hire — previously worked at CBA 2007-2010 as general manager for customer analysis. Also held roles at Standard Chartered and HSBC in Singapore and Hong Kong. Cross-bank CAIO pipeline: finance analytics → international banking CDO → CBA CAIO.",
+      "classification": null,
+      "sourceRefs": ["capital-brief-cba-2025"]
+    },
     {
       "date": "2025-11",
       "label": "CAIO Appointment — Formalizing AI Governance",
@@ -139,6 +146,16 @@
       "sourceDate": "2025-11",
       "collectedDate": "2026-01-31",
       "notes": "CBA ranks 4th globally in Evident AI Index."
+    },
+    {
+      "id": "capital-brief-cba-2025",
+      "type": "Press",
+      "name": "Capital Brief — CBA Poaches Lloyds Data Chief Ranil Boteju to Lead AI Strategy",
+      "url": "https://www.capitalbrief.com/briefing/cba-poaches-lloyds-data-chief-ranil-boteju-to-lead-ai-strategy-99eca8a6-de34-4530-989c-d406dbcfe63f/",
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-01",
+      "notes": "Boomerang hire detail — Boteju worked at CBA 2007-2010. Prior roles at Standard Chartered and HSBC (Singapore, Hong Kong)."
     }
   ],
   "contingencies": {
@@ -167,7 +184,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-02",
     "completeness": "Medium",
     "convertedFrom": "library/cases/commonwealth-bank.json"
   }

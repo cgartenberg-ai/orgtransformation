@@ -7,17 +7,17 @@ new_sources_discovered: ["ad-age", "digiday"]
 organizations_found:
   - id: "ubs"
     status: "evolution"
-    curated: false
+    curated: true
   - id: "commonwealth-bank"
     status: "evolution"
-    curated: false
+    curated: true
   - id: "stagwell"
     status: "new"
-    curated: false
+    curated: true
   - id: "amazon"
     status: "evolution"
-    curated: false
-curation_status: "pending"
+    curated: true
+curation_status: "curated"
 deep_scan_backlog:
   - source: "bg2-pod"
     episode: "Michael Dell"

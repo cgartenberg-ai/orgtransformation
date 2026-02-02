@@ -1,7 +1,10 @@
 # Handoff: UI Sprint — Home Page + Terminology
 
 **Created:** 2026-02-01
-**Priority:** This is the next task to pick up.
+**Status:** ✅ COMPLETED & ARCHIVED (2026-02-01)
+**Committed as:** 7cc479a (UI sprint) + d1a159c (taxonomy tags) + 81b4bb0 (taxonomy audit)
+
+> **This document is archived for reference only.** All sprint items were completed. See APP_STATE.md for current project state and HANDOFF.md for next session context.
 
 ---
 

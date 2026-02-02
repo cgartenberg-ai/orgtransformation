@@ -1,6 +1,6 @@
 {
-  "description": "Living document — core tensions organizations face when structuring for ambidexterity. Updated during Phase 3 synthesis sessions.",
-  "lastUpdated": "2026-02-01",
+  "description": "Living document \u2014 core tensions organizations face when structuring for ambidexterity. Updated during Phase 3 synthesis sessions.",
+  "lastUpdated": "2026-02-02",
   "tensions": [
     {
       "id": 1,
@@ -27,40 +27,181 @@
       },
       "keyContingency": "Time horizon of exploration and risk of premature termination",
       "specimens": [
-        {"specimenId": "eli-lilly", "position": -0.8, "evidence": "Structurally separated hubs (300-400 people each) operate like internal biotechs. 18+ year time horizons. CEO explicitly shields from middle management optimization."},
-        {"specimenId": "meta-ai", "position": -0.6, "evidence": "4-unit MSL under single leader. Structural separation, but FAIR's autonomy was sacrificed. LeCun departure signals integration costs."},
-        {"specimenId": "anthropic", "position": -0.5, "evidence": "Labs team structurally separate from core product. PBC/LTBT governance protects mission. CEO/COO split allows some contextual bridging."},
-        {"specimenId": "microsoft", "position": -0.3, "evidence": "Three-tier structural separation (infra/platform/product) but managed through contextual 'micro-cultures' and Teams channels. Dual model strategy (MAI + OpenAI)."},
-        {"specimenId": "intercom", "position": 0.2, "evidence": "No separate AI lab. AI embedded in product teams. 72-hour pivot, 15-day build."},
-        {"specimenId": "nvidia", "position": 0.3, "evidence": "No separate innovation function — 'the lab is the entire company.' 60 direct reports, flat structure."},
-        {"specimenId": "commonwealth-bank", "position": 0.4, "evidence": "Enterprise-wide ChatGPT deployment to all 50K employees. Contextual adoption first, CAIO governance layer added second."},
-        {"specimenId": "wells-fargo", "position": -0.5, "evidence": "Structural: Business leader heads dedicated AI function. 90K trained, 180K desktops — but centralized leadership."},
-        {"specimenId": "ubs", "position": -0.6, "evidence": "Dedicated Chief AI Office. CAIO reports to CTO. 300+ use cases governed centrally."},
-        {"specimenId": "ami-labs", "position": -0.8, "evidence": "Pure research lab pursuing alternative AI paradigm. Maximum structural separation from commercial pressures."},
-        {"specimenId": "google-ai-infra", "position": -0.6, "evidence": "Project EAT consolidates teams into unified AI2 unit — structural consolidation."},
-        {"specimenId": "nasa", "position": -0.6, "evidence": "Dedicated CAIO/CDO role. Government mandate-driven structural approach."},
-        {"specimenId": "tesla", "position": 0.0, "evidence": "Fleet as distributed lab — exploration and execution are structurally intertwined in deployed products."},
-        {"specimenId": "openai-microsoft", "position": -0.5, "evidence": "Explore (OpenAI frontier models) and execute (Microsoft enterprise deployment) separated across companies."},
-        {"specimenId": "google-x", "position": -0.9, "evidence": "Maximum structural separation: physically separate campus, different culture, different incentives. 2% graduation rate by design."},
-        {"specimenId": "samsung-c-lab", "position": -0.7, "evidence": "Temporal structural separation: employees leave BU roles for defined exploration periods, then reintegrate or spin out."},
-        {"specimenId": "amazon-agi", "position": -0.7, "evidence": "AGI SF Lab separate from AWS commercial services. Different timelines and risk profiles."},
-        {"specimenId": "jpmorgan", "position": -0.5, "evidence": "Centralized ML CoE (200+ people) structurally separated from business divisions. 250K employees on LLM Suite."},
-        {"specimenId": "ssi", "position": -1.0, "evidence": "Pure research lab — no products at all. Maximum structural separation. All compute on research."},
-        {"specimenId": "recursion", "position": -0.8, "evidence": "Entire company IS the research lab. Structural separation between automated discovery (exploration) and drug development (execution)."},
-        {"specimenId": "shopify", "position": 0.3, "evidence": "No named AI lab. CEO mandate for AI proficiency across all roles. Contextual integration."},
-        {"specimenId": "duolingo", "position": 0.4, "evidence": "AI embedded in product teams. No separate AI function described. Contextual adoption."},
-        {"specimenId": "klarna", "position": 0.6, "evidence": "No named AI structure. CEO-driven mandate. Pure contextual integration — then reversed when quality suffered."},
-        {"specimenId": "bosch-bcai", "position": -0.5, "evidence": "BCAI as dedicated research center serving BU spokes. Structural hub-and-spoke."},
-        {"specimenId": "sanofi", "position": -0.6, "evidence": "AI Research Factory as centralized structural hub. plai platform distributes to therapeutic area spokes."},
-        {"specimenId": "atlassian", "position": -0.3, "evidence": "Centralized ML team + distributed product AI teams + AI gateway. Structural separation with integration points."},
-        {"specimenId": "adobe-firefly", "position": -0.5, "evidence": "Firefly incubated as distinct product initiative, structurally separated from core product teams."},
-        {"specimenId": "allianz-anthropic", "position": 0.6, "evidence": "Enterprise-wide Claude deployment. No formal AI unit described. Contextual adoption."},
-        {"specimenId": "lg-electronics", "position": -0.4, "evidence": "AX Center as named structural entity. CoE with CEO-level commitment."},
-        {"specimenId": "ntt-data", "position": -0.6, "evidence": "Triple-CoE structure: three structurally distinct centers (OpenAI CoE, CIO office CoE, Virtual CX CoE). Maximum structural separation within the CoE model."},
-        {"specimenId": "ups", "position": 0.5, "evidence": "No formal AI unit, lab, or CAIO. AI automation embedded across operations and management functions. Contextual adoption at industrial scale."},
-        {"specimenId": "pwc", "position": -0.2, "evidence": "CAIO coordinates centrally but framework evolving toward 'portfolio of accountable owners' — structural governance with contextual distribution."},
-        {"specimenId": "invent-advisory", "position": -0.3, "evidence": "CAIO oversees AI strategy centrally. Structural governance role for regulated wealth management."},
-        {"specimenId": "indostar-capital", "position": -0.3, "evidence": "CTO-to-CAIO re-designation creates separate structural AI leadership. Centralized governance role."}
+        {
+          "specimenId": "eli-lilly",
+          "position": -0.8,
+          "evidence": "Structurally separated hubs (300-400 people each) operate like internal biotechs. 18+ year time horizons. CEO explicitly shields from middle management optimization."
+        },
+        {
+          "specimenId": "meta-ai",
+          "position": -0.6,
+          "evidence": "4-unit MSL under single leader. Structural separation, but FAIR's autonomy was sacrificed. LeCun departure signals integration costs."
+        },
+        {
+          "specimenId": "anthropic",
+          "position": -0.5,
+          "evidence": "Labs team structurally separate from core product. PBC/LTBT governance protects mission. CEO/COO split allows some contextual bridging."
+        },
+        {
+          "specimenId": "microsoft",
+          "position": -0.3,
+          "evidence": "Three-tier structural separation (infra/platform/product) but managed through contextual 'micro-cultures' and Teams channels. Dual model strategy (MAI + OpenAI)."
+        },
+        {
+          "specimenId": "intercom",
+          "position": 0.2,
+          "evidence": "No separate AI lab. AI embedded in product teams. 72-hour pivot, 15-day build."
+        },
+        {
+          "specimenId": "nvidia",
+          "position": 0.3,
+          "evidence": "No separate innovation function \u2014 'the lab is the entire company.' 60 direct reports, flat structure."
+        },
+        {
+          "specimenId": "commonwealth-bank",
+          "position": 0.4,
+          "evidence": "Enterprise-wide ChatGPT deployment to all 50K employees. Contextual adoption first, CAIO governance layer added second."
+        },
+        {
+          "specimenId": "wells-fargo",
+          "position": -0.5,
+          "evidence": "Structural: Business leader heads dedicated AI function. 90K trained, 180K desktops \u2014 but centralized leadership."
+        },
+        {
+          "specimenId": "ubs",
+          "position": -0.6,
+          "evidence": "Dedicated Chief AI Office. CAIO reports to CTO. 300+ use cases governed centrally."
+        },
+        {
+          "specimenId": "ami-labs",
+          "position": -0.8,
+          "evidence": "Pure research lab pursuing alternative AI paradigm. Maximum structural separation from commercial pressures."
+        },
+        {
+          "specimenId": "google-ai-infra",
+          "position": -0.6,
+          "evidence": "Project EAT consolidates teams into unified AI2 unit \u2014 structural consolidation."
+        },
+        {
+          "specimenId": "nasa",
+          "position": -0.6,
+          "evidence": "Dedicated CAIO/CDO role. Government mandate-driven structural approach."
+        },
+        {
+          "specimenId": "tesla",
+          "position": 0.0,
+          "evidence": "Fleet as distributed lab \u2014 exploration and execution are structurally intertwined in deployed products."
+        },
+        {
+          "specimenId": "openai-microsoft",
+          "position": -0.5,
+          "evidence": "Explore (OpenAI frontier models) and execute (Microsoft enterprise deployment) separated across companies."
+        },
+        {
+          "specimenId": "google-x",
+          "position": -0.9,
+          "evidence": "Maximum structural separation: physically separate campus, different culture, different incentives. 2% graduation rate by design."
+        },
+        {
+          "specimenId": "samsung-c-lab",
+          "position": -0.7,
+          "evidence": "Temporal structural separation: employees leave BU roles for defined exploration periods, then reintegrate or spin out."
+        },
+        {
+          "specimenId": "amazon-agi",
+          "position": -0.7,
+          "evidence": "AGI SF Lab separate from AWS commercial services. Different timelines and risk profiles."
+        },
+        {
+          "specimenId": "jpmorgan",
+          "position": -0.5,
+          "evidence": "Centralized ML CoE (200+ people) structurally separated from business divisions. 250K employees on LLM Suite."
+        },
+        {
+          "specimenId": "ssi",
+          "position": -1.0,
+          "evidence": "Pure research lab \u2014 no products at all. Maximum structural separation. All compute on research."
+        },
+        {
+          "specimenId": "recursion",
+          "position": -0.8,
+          "evidence": "Entire company IS the research lab. Structural separation between automated discovery (exploration) and drug development (execution)."
+        },
+        {
+          "specimenId": "shopify",
+          "position": 0.3,
+          "evidence": "No named AI lab. CEO mandate for AI proficiency across all roles. Contextual integration."
+        },
+        {
+          "specimenId": "duolingo",
+          "position": 0.4,
+          "evidence": "AI embedded in product teams. No separate AI function described. Contextual adoption."
+        },
+        {
+          "specimenId": "klarna",
+          "position": 0.6,
+          "evidence": "No named AI structure. CEO-driven mandate. Pure contextual integration \u2014 then reversed when quality suffered."
+        },
+        {
+          "specimenId": "bosch-bcai",
+          "position": -0.5,
+          "evidence": "BCAI as dedicated research center serving BU spokes. Structural hub-and-spoke."
+        },
+        {
+          "specimenId": "sanofi",
+          "position": -0.6,
+          "evidence": "AI Research Factory as centralized structural hub. plai platform distributes to therapeutic area spokes."
+        },
+        {
+          "specimenId": "atlassian",
+          "position": -0.3,
+          "evidence": "Centralized ML team + distributed product AI teams + AI gateway. Structural separation with integration points."
+        },
+        {
+          "specimenId": "adobe-firefly",
+          "position": -0.5,
+          "evidence": "Firefly incubated as distinct product initiative, structurally separated from core product teams."
+        },
+        {
+          "specimenId": "allianz-anthropic",
+          "position": 0.6,
+          "evidence": "Enterprise-wide Claude deployment. No formal AI unit described. Contextual adoption."
+        },
+        {
+          "specimenId": "lg-electronics",
+          "position": -0.4,
+          "evidence": "AX Center as named structural entity. CoE with CEO-level commitment."
+        },
+        {
+          "specimenId": "ntt-data",
+          "position": -0.6,
+          "evidence": "Triple-CoE structure: three structurally distinct centers (OpenAI CoE, CIO office CoE, Virtual CX CoE). Maximum structural separation within the CoE model."
+        },
+        {
+          "specimenId": "ups",
+          "position": 0.5,
+          "evidence": "No formal AI unit, lab, or CAIO. AI automation embedded across operations and management functions. Contextual adoption at industrial scale."
+        },
+        {
+          "specimenId": "pwc",
+          "position": -0.2,
+          "evidence": "CAIO coordinates centrally but framework evolving toward 'portfolio of accountable owners' \u2014 structural governance with contextual distribution."
+        },
+        {
+          "specimenId": "invent-advisory",
+          "position": -0.3,
+          "evidence": "CAIO oversees AI strategy centrally. Structural governance role for regulated wealth management."
+        },
+        {
+          "specimenId": "indostar-capital",
+          "position": -0.3,
+          "evidence": "CTO-to-CAIO re-designation creates separate structural AI leadership. Centralized governance role."
+        },
+        {
+          "specimenId": "stagwell",
+          "position": -0.4,
+          "evidence": "CAIO reports to CEO with mandate to coordinate AI across semi-autonomous agencies. Structural governance role separated from agency operations."
+        }
       ]
     },
     {
@@ -88,25 +229,106 @@
       },
       "keyContingency": "Predictability of use cases and cost of failure",
       "specimens": [
-        {"specimenId": "eli-lilly", "position": -0.9, "evidence": "Deep multi-year R&D hubs. 18+ year GLP-1 program. $1B NVIDIA co-innovation lab for deep domain learning."},
-        {"specimenId": "ubs", "position": -0.4, "evidence": "300+ AI use cases but with centralized governance and XAI/explainability requirements."},
-        {"specimenId": "commonwealth-bank", "position": 0.6, "evidence": "50,000 employees on day one. Rejected pilot-based rollout."},
-        {"specimenId": "intercom", "position": 0.9, "evidence": "72-hour pivot, 15-day product build. Speed over depth."},
-        {"specimenId": "meta-ai", "position": 0.5, "evidence": "Rapid model development (Mango, Avocado for H1 2026)."},
-        {"specimenId": "nvidia", "position": 0.4, "evidence": "Pervasive Cursor adoption across engineering. No formal pilot program."},
-        {"specimenId": "wells-fargo", "position": 0.3, "evidence": "180,000 desktops equipped with AI tools — broad deployment in regulated environment."},
-        {"specimenId": "anthropic", "position": 0.3, "evidence": "Claude Code went from internal experiment to dominant tool in 3 months."},
-        {"specimenId": "jpmorgan", "position": 0.4, "evidence": "250K employees on LLM Suite. 8-week iteration cadence — remarkably fast for regulated finance."},
-        {"specimenId": "roche-genentech", "position": -0.7, "evidence": "Lab in a Loop: deep tight cycles between computational prediction and wet lab validation. $12B commitment."},
-        {"specimenId": "recursion", "position": -0.5, "evidence": "Deep automated discovery: 2.2M experiments/week, 40 PB data. Depth-first approach to drug discovery."},
-        {"specimenId": "ig-group", "position": 0.5, "evidence": "Full ROI in 3 months. Targeted high-impact use cases for rapid value capture."},
-        {"specimenId": "adobe-firefly", "position": -0.6, "evidence": "Deep investment in trust architecture (Content Credentials) before broad deployment."},
-        {"specimenId": "pfizer", "position": -0.3, "evidence": "PACT partnership enables deep AI integration with drug discovery. Compressed from 1+ year to 30 days."},
-        {"specimenId": "sap", "position": 0.0, "evidence": "Joule built centrally then embedded across product lines. Balanced depth-width."},
-        {"specimenId": "infosys", "position": 0.5, "evidence": "100K engineers enrolled at once — saturation deployment for services firm."},
-        {"specimenId": "ntt-data", "position": 0.2, "evidence": "Hundreds of agent instances deployed across verticals. Rapid agentic AI deployment with $2B revenue target by 2027."},
-        {"specimenId": "ups", "position": 0.3, "evidence": "$9B automation investment. 57% packages through automated facilities. Speed of automation rollout across 490K-person enterprise."},
-        {"specimenId": "invent-advisory", "position": -0.4, "evidence": "Domain-specific AI framework with strict regulatory guardrails. Depth-first in regulated wealth management."}
+        {
+          "specimenId": "eli-lilly",
+          "position": -0.9,
+          "evidence": "Deep multi-year R&D hubs. 18+ year GLP-1 program. $1B NVIDIA co-innovation lab for deep domain learning."
+        },
+        {
+          "specimenId": "ubs",
+          "position": -0.4,
+          "evidence": "300+ AI use cases but with centralized governance and XAI/explainability requirements."
+        },
+        {
+          "specimenId": "commonwealth-bank",
+          "position": 0.6,
+          "evidence": "50,000 employees on day one. Rejected pilot-based rollout."
+        },
+        {
+          "specimenId": "intercom",
+          "position": 0.9,
+          "evidence": "72-hour pivot, 15-day product build. Speed over depth."
+        },
+        {
+          "specimenId": "meta-ai",
+          "position": 0.5,
+          "evidence": "Rapid model development (Mango, Avocado for H1 2026)."
+        },
+        {
+          "specimenId": "nvidia",
+          "position": 0.4,
+          "evidence": "Pervasive Cursor adoption across engineering. No formal pilot program."
+        },
+        {
+          "specimenId": "wells-fargo",
+          "position": 0.3,
+          "evidence": "180,000 desktops equipped with AI tools \u2014 broad deployment in regulated environment."
+        },
+        {
+          "specimenId": "anthropic",
+          "position": 0.3,
+          "evidence": "Claude Code went from internal experiment to dominant tool in 3 months."
+        },
+        {
+          "specimenId": "jpmorgan",
+          "position": 0.4,
+          "evidence": "250K employees on LLM Suite. 8-week iteration cadence \u2014 remarkably fast for regulated finance."
+        },
+        {
+          "specimenId": "roche-genentech",
+          "position": -0.7,
+          "evidence": "Lab in a Loop: deep tight cycles between computational prediction and wet lab validation. $12B commitment."
+        },
+        {
+          "specimenId": "recursion",
+          "position": -0.5,
+          "evidence": "Deep automated discovery: 2.2M experiments/week, 40 PB data. Depth-first approach to drug discovery."
+        },
+        {
+          "specimenId": "ig-group",
+          "position": 0.5,
+          "evidence": "Full ROI in 3 months. Targeted high-impact use cases for rapid value capture."
+        },
+        {
+          "specimenId": "adobe-firefly",
+          "position": -0.6,
+          "evidence": "Deep investment in trust architecture (Content Credentials) before broad deployment."
+        },
+        {
+          "specimenId": "pfizer",
+          "position": -0.3,
+          "evidence": "PACT partnership enables deep AI integration with drug discovery. Compressed from 1+ year to 30 days."
+        },
+        {
+          "specimenId": "sap",
+          "position": 0.0,
+          "evidence": "Joule built centrally then embedded across product lines. Balanced depth-width."
+        },
+        {
+          "specimenId": "infosys",
+          "position": 0.5,
+          "evidence": "100K engineers enrolled at once \u2014 saturation deployment for services firm."
+        },
+        {
+          "specimenId": "ntt-data",
+          "position": 0.2,
+          "evidence": "Hundreds of agent instances deployed across verticals. Rapid agentic AI deployment with $2B revenue target by 2027."
+        },
+        {
+          "specimenId": "ups",
+          "position": 0.3,
+          "evidence": "$9B automation investment. 57% packages through automated facilities. Speed of automation rollout across 490K-person enterprise."
+        },
+        {
+          "specimenId": "invent-advisory",
+          "position": -0.4,
+          "evidence": "Domain-specific AI framework with strict regulatory guardrails. Depth-first in regulated wealth management."
+        },
+        {
+          "specimenId": "stagwell",
+          "position": 0.3,
+          "evidence": "Agentic AI predictions booklet signals rapid deployment orientation. EBITDA target ($1B by 2030) pressures speed over depth."
+        }
       ]
     },
     {
@@ -134,29 +356,126 @@
       },
       "keyContingency": "Coordination costs vs. local responsiveness value",
       "specimens": [
-        {"specimenId": "meta-ai", "position": -0.4, "evidence": "Consolidated 4-unit MSL under single leader Wang."},
-        {"specimenId": "ubs", "position": -0.5, "evidence": "Chief AI Office with centralized standards and governance responsibility."},
-        {"specimenId": "google-ai-infra", "position": -0.7, "evidence": "Project EAT consolidates Research, Cloud, hardware teams into one AI2 unit."},
-        {"specimenId": "wells-fargo", "position": -0.4, "evidence": "Head of AI as centralized leadership."},
-        {"specimenId": "nasa", "position": -0.5, "evidence": "CAIO with dual CDO responsibilities."},
-        {"specimenId": "anthropic", "position": -0.3, "evidence": "7 co-founders as distributed value-carriers within centralized safety mission."},
-        {"specimenId": "microsoft", "position": 0.2, "evidence": "Micro-cultures with distributed shaping. Power 'diffused and distributed.'"},
-        {"specimenId": "commonwealth-bank", "position": 0.2, "evidence": "Broad deployment to all 50K employees (distributed usage), adding CAIO (central governance)."},
-        {"specimenId": "intercom", "position": 0.3, "evidence": "AI embedded in product teams, no central AI function."},
-        {"specimenId": "nvidia", "position": 0.6, "evidence": "60 direct reports, no hierarchy. Distributed innovation."},
-        {"specimenId": "eli-lilly", "position": 0.4, "evidence": "Decentralized hubs of 300-400 people. Hub leaders have significant autonomy."},
-        {"specimenId": "tencent", "position": -0.7, "evidence": "Unified TEG departments. Chief AI Scientist in CEO's office."},
-        {"specimenId": "jpmorgan", "position": -0.5, "evidence": "ML CoE as strong central hub distributing capability enterprise-wide."},
-        {"specimenId": "sanofi", "position": -0.5, "evidence": "Centralized AI Research Factory serves therapeutic area spokes."},
-        {"specimenId": "lg-electronics", "position": -0.5, "evidence": "AX Center as single central entity driving transformation across BUs."},
-        {"specimenId": "bosch-bcai", "position": -0.4, "evidence": "BCAI as centralized AI research center."},
-        {"specimenId": "schneider-electric", "position": -0.3, "evidence": "Hub-and-spoke: central AI capability distributed to industrial BUs."},
-        {"specimenId": "atlassian", "position": -0.3, "evidence": "Centralized ML team + AI gateway architecture. Structural centralization with distributed product integration."},
-        {"specimenId": "ntt-data", "position": -0.4, "evidence": "Three separate CoEs — centralized within domains but distributed across client, internal, and CX functions."},
-        {"specimenId": "pwc", "position": -0.3, "evidence": "CAIO Dan Priest centralizes AI strategy, but evolving toward distributed 'portfolio of accountable owners.' Movement from central toward distributed."},
-        {"specimenId": "ups", "position": 0.3, "evidence": "No central AI function described. Automation distributed across operational facilities. Management delayering suggests reduced central coordination."},
-        {"specimenId": "indostar-capital", "position": -0.5, "evidence": "CAIO coordinates AI across lending, risk, and architecture — centralized governance."},
-        {"specimenId": "invent-advisory", "position": -0.6, "evidence": "Single CAIO oversees all AI strategy for the platform. High centralization in small org."}
+        {
+          "specimenId": "meta-ai",
+          "position": -0.4,
+          "evidence": "Consolidated 4-unit MSL under single leader Wang."
+        },
+        {
+          "specimenId": "ubs",
+          "position": -0.5,
+          "evidence": "Chief AI Office with centralized standards and governance responsibility."
+        },
+        {
+          "specimenId": "google-ai-infra",
+          "position": -0.7,
+          "evidence": "Project EAT consolidates Research, Cloud, hardware teams into one AI2 unit."
+        },
+        {
+          "specimenId": "wells-fargo",
+          "position": -0.4,
+          "evidence": "Head of AI as centralized leadership."
+        },
+        {
+          "specimenId": "nasa",
+          "position": -0.5,
+          "evidence": "CAIO with dual CDO responsibilities."
+        },
+        {
+          "specimenId": "anthropic",
+          "position": -0.3,
+          "evidence": "7 co-founders as distributed value-carriers within centralized safety mission."
+        },
+        {
+          "specimenId": "microsoft",
+          "position": 0.2,
+          "evidence": "Micro-cultures with distributed shaping. Power 'diffused and distributed.'"
+        },
+        {
+          "specimenId": "commonwealth-bank",
+          "position": 0.2,
+          "evidence": "Broad deployment to all 50K employees (distributed usage), adding CAIO (central governance)."
+        },
+        {
+          "specimenId": "intercom",
+          "position": 0.3,
+          "evidence": "AI embedded in product teams, no central AI function."
+        },
+        {
+          "specimenId": "nvidia",
+          "position": 0.6,
+          "evidence": "60 direct reports, no hierarchy. Distributed innovation."
+        },
+        {
+          "specimenId": "eli-lilly",
+          "position": 0.4,
+          "evidence": "Decentralized hubs of 300-400 people. Hub leaders have significant autonomy."
+        },
+        {
+          "specimenId": "tencent",
+          "position": -0.7,
+          "evidence": "Unified TEG departments. Chief AI Scientist in CEO's office."
+        },
+        {
+          "specimenId": "jpmorgan",
+          "position": -0.5,
+          "evidence": "ML CoE as strong central hub distributing capability enterprise-wide."
+        },
+        {
+          "specimenId": "sanofi",
+          "position": -0.5,
+          "evidence": "Centralized AI Research Factory serves therapeutic area spokes."
+        },
+        {
+          "specimenId": "lg-electronics",
+          "position": -0.5,
+          "evidence": "AX Center as single central entity driving transformation across BUs."
+        },
+        {
+          "specimenId": "bosch-bcai",
+          "position": -0.4,
+          "evidence": "BCAI as centralized AI research center."
+        },
+        {
+          "specimenId": "schneider-electric",
+          "position": -0.3,
+          "evidence": "Hub-and-spoke: central AI capability distributed to industrial BUs."
+        },
+        {
+          "specimenId": "atlassian",
+          "position": -0.3,
+          "evidence": "Centralized ML team + AI gateway architecture. Structural centralization with distributed product integration."
+        },
+        {
+          "specimenId": "ntt-data",
+          "position": -0.4,
+          "evidence": "Three separate CoEs \u2014 centralized within domains but distributed across client, internal, and CX functions."
+        },
+        {
+          "specimenId": "pwc",
+          "position": -0.3,
+          "evidence": "CAIO Dan Priest centralizes AI strategy, but evolving toward distributed 'portfolio of accountable owners.' Movement from central toward distributed."
+        },
+        {
+          "specimenId": "ups",
+          "position": 0.3,
+          "evidence": "No central AI function described. Automation distributed across operational facilities. Management delayering suggests reduced central coordination."
+        },
+        {
+          "specimenId": "indostar-capital",
+          "position": -0.5,
+          "evidence": "CAIO coordinates AI across lending, risk, and architecture \u2014 centralized governance."
+        },
+        {
+          "specimenId": "invent-advisory",
+          "position": -0.6,
+          "evidence": "Single CAIO oversees all AI strategy for the platform. High centralization in small org."
+        },
+        {
+          "specimenId": "stagwell",
+          "position": -0.5,
+          "evidence": "Holding-company-level CAIO centralizes AI strategy. Key question: can one CAIO effectively coordinate semi-autonomous creative agencies?"
+        }
       ]
     },
     {
@@ -184,33 +503,146 @@
       },
       "keyContingency": "Signaling value vs. integration value",
       "specimens": [
-        {"specimenId": "meta-ai", "position": -0.9, "evidence": "Meta Superintelligence Labs — highly branded, named entity."},
-        {"specimenId": "ami-labs", "position": -0.9, "evidence": "Named research lab with distinct identity."},
-        {"specimenId": "anthropic", "position": -0.8, "evidence": "Named Labs team for zero-to-one ideas. Company identity centered on AI safety research."},
-        {"specimenId": "google-ai-infra", "position": -0.8, "evidence": "Named AI2 unit under Project EAT."},
-        {"specimenId": "wells-fargo", "position": -0.7, "evidence": "Named 'Head of AI' role with formal AI organization."},
-        {"specimenId": "ubs", "position": -0.3, "evidence": "Chief AI Office — formal but governance-oriented."},
-        {"specimenId": "eli-lilly", "position": -0.5, "evidence": "Named NVIDIA co-innovation lab."},
-        {"specimenId": "microsoft", "position": -0.5, "evidence": "Mustafa Suleyman as 'Microsoft AI CEO.'"},
-        {"specimenId": "commonwealth-bank", "position": 0.3, "evidence": "Enterprise-wide deployment without named AI unit initially."},
-        {"specimenId": "intercom", "position": 0.4, "evidence": "No named AI lab. Company-wide AI pivot."},
-        {"specimenId": "nvidia", "position": 0.5, "evidence": "No separate AI lab — entire company IS the lab."},
-        {"specimenId": "hp", "position": 0.7, "evidence": "Company-wide restructuring without named AI unit or CAIO."},
-        {"specimenId": "nasa", "position": -0.8, "evidence": "Formal CAIO/CDO role mandated by executive order."},
-        {"specimenId": "google-x", "position": -0.9, "evidence": "Highly branded moonshot factory with distinct culture and physical space."},
-        {"specimenId": "ssi", "position": -0.9, "evidence": "Named lab with pure research identity and $3B funding."},
-        {"specimenId": "thinking-machines-lab", "position": -0.9, "evidence": "Named lab with $12B valuation — lab identity is the brand."},
-        {"specimenId": "shopify", "position": 0.4, "evidence": "No named AI lab. CEO mandate drives quiet transformation across all teams."},
-        {"specimenId": "klarna", "position": 0.5, "evidence": "No named AI structure. CEO-driven mandate."},
-        {"specimenId": "duolingo", "position": 0.3, "evidence": "AI embedded in product. No separate lab described."},
-        {"specimenId": "amazon-agi", "position": -0.6, "evidence": "Named AGI SF Lab with distinct research identity."},
-        {"specimenId": "lg-electronics", "position": -0.4, "evidence": "Named AX Center — formal rebrand from DX to AI."},
-        {"specimenId": "adobe-firefly", "position": -0.8, "evidence": "Named Firefly product initiative with Content Authenticity Initiative."},
-        {"specimenId": "ntt-data", "position": -0.5, "evidence": "Named OpenAI CoE, internal AI CoE, and Virtual CoE for CX. Triple-named structure."},
-        {"specimenId": "pwc", "position": -0.4, "evidence": "Named CAIO role with $1B investment. Formal AI leadership position."},
-        {"specimenId": "ups", "position": 0.7, "evidence": "No named AI unit, lab, or CAIO. Quiet automation transformation through operational technology."},
-        {"specimenId": "indostar-capital", "position": -0.3, "evidence": "Named CAIO role created through re-designation. Formal structural signal."},
-        {"specimenId": "invent-advisory", "position": -0.2, "evidence": "Named CAIO role — first in the company. CEO announced 12-month planning timeline."}
+        {
+          "specimenId": "meta-ai",
+          "position": -0.9,
+          "evidence": "Meta Superintelligence Labs \u2014 highly branded, named entity."
+        },
+        {
+          "specimenId": "ami-labs",
+          "position": -0.9,
+          "evidence": "Named research lab with distinct identity."
+        },
+        {
+          "specimenId": "anthropic",
+          "position": -0.8,
+          "evidence": "Named Labs team for zero-to-one ideas. Company identity centered on AI safety research."
+        },
+        {
+          "specimenId": "google-ai-infra",
+          "position": -0.8,
+          "evidence": "Named AI2 unit under Project EAT."
+        },
+        {
+          "specimenId": "wells-fargo",
+          "position": -0.7,
+          "evidence": "Named 'Head of AI' role with formal AI organization."
+        },
+        {
+          "specimenId": "ubs",
+          "position": -0.3,
+          "evidence": "Chief AI Office \u2014 formal but governance-oriented."
+        },
+        {
+          "specimenId": "eli-lilly",
+          "position": -0.5,
+          "evidence": "Named NVIDIA co-innovation lab."
+        },
+        {
+          "specimenId": "microsoft",
+          "position": -0.5,
+          "evidence": "Mustafa Suleyman as 'Microsoft AI CEO.'"
+        },
+        {
+          "specimenId": "commonwealth-bank",
+          "position": 0.3,
+          "evidence": "Enterprise-wide deployment without named AI unit initially."
+        },
+        {
+          "specimenId": "intercom",
+          "position": 0.4,
+          "evidence": "No named AI lab. Company-wide AI pivot."
+        },
+        {
+          "specimenId": "nvidia",
+          "position": 0.5,
+          "evidence": "No separate AI lab \u2014 entire company IS the lab."
+        },
+        {
+          "specimenId": "hp",
+          "position": 0.7,
+          "evidence": "Company-wide restructuring without named AI unit or CAIO."
+        },
+        {
+          "specimenId": "nasa",
+          "position": -0.8,
+          "evidence": "Formal CAIO/CDO role mandated by executive order."
+        },
+        {
+          "specimenId": "google-x",
+          "position": -0.9,
+          "evidence": "Highly branded moonshot factory with distinct culture and physical space."
+        },
+        {
+          "specimenId": "ssi",
+          "position": -0.9,
+          "evidence": "Named lab with pure research identity and $3B funding."
+        },
+        {
+          "specimenId": "thinking-machines-lab",
+          "position": -0.9,
+          "evidence": "Named lab with $12B valuation \u2014 lab identity is the brand."
+        },
+        {
+          "specimenId": "shopify",
+          "position": 0.4,
+          "evidence": "No named AI lab. CEO mandate drives quiet transformation across all teams."
+        },
+        {
+          "specimenId": "klarna",
+          "position": 0.5,
+          "evidence": "No named AI structure. CEO-driven mandate."
+        },
+        {
+          "specimenId": "duolingo",
+          "position": 0.3,
+          "evidence": "AI embedded in product. No separate lab described."
+        },
+        {
+          "specimenId": "amazon-agi",
+          "position": -0.6,
+          "evidence": "Named AGI SF Lab with distinct research identity."
+        },
+        {
+          "specimenId": "lg-electronics",
+          "position": -0.4,
+          "evidence": "Named AX Center \u2014 formal rebrand from DX to AI."
+        },
+        {
+          "specimenId": "adobe-firefly",
+          "position": -0.8,
+          "evidence": "Named Firefly product initiative with Content Authenticity Initiative."
+        },
+        {
+          "specimenId": "ntt-data",
+          "position": -0.5,
+          "evidence": "Named OpenAI CoE, internal AI CoE, and Virtual CoE for CX. Triple-named structure."
+        },
+        {
+          "specimenId": "pwc",
+          "position": -0.4,
+          "evidence": "Named CAIO role with $1B investment. Formal AI leadership position."
+        },
+        {
+          "specimenId": "ups",
+          "position": 0.7,
+          "evidence": "No named AI unit, lab, or CAIO. Quiet automation transformation through operational technology."
+        },
+        {
+          "specimenId": "indostar-capital",
+          "position": -0.3,
+          "evidence": "Named CAIO role created through re-designation. Formal structural signal."
+        },
+        {
+          "specimenId": "invent-advisory",
+          "position": -0.2,
+          "evidence": "Named CAIO role \u2014 first in the company. CEO announced 12-month planning timeline."
+        },
+        {
+          "specimenId": "stagwell",
+          "position": -0.6,
+          "evidence": "Named inaugural CAIO role with press announcement. Part of industry-wide signaling wave \u2014 CAIO appointments as competitive positioning."
+        }
       ]
     },
     {
@@ -238,24 +670,101 @@
       },
       "keyContingency": "Nature of exploration work and capital patience",
       "specimens": [
-        {"specimenId": "eli-lilly", "position": -1.0, "evidence": "18+ year GLP-1 program. Decades-not-quarters time horizon."},
-        {"specimenId": "ami-labs", "position": -0.7, "evidence": "Pursuing world models — fundamental alternative to LLM paradigm."},
-        {"specimenId": "anthropic", "position": -0.2, "evidence": "PBC/LTBT governance protects long-term mission. But Claude Code shipped in 3 months."},
-        {"specimenId": "meta-ai", "position": 0.4, "evidence": "Shifted from long-term FAIR research to product-driven MSL."},
-        {"specimenId": "intercom", "position": 0.8, "evidence": "72-hour pivot. 15-day build. Extreme short-cycle orientation."},
-        {"specimenId": "commonwealth-bank", "position": 0.3, "evidence": "Rapid enterprise deployment."},
-        {"specimenId": "microsoft", "position": 0.0, "evidence": "Nadella's 'think in decades, execute in quarters.'"},
-        {"specimenId": "nvidia", "position": 0.0, "evidence": "No long-term or short-term plans. Flexible, constantly re-evaluating."},
-        {"specimenId": "salesforce", "position": 0.5, "evidence": "Rapid workforce restructuring — 9K to 5K support staff."},
-        {"specimenId": "ssi", "position": -0.9, "evidence": "Pure research lab. No product timeline. All compute on research."},
-        {"specimenId": "roche-genentech", "position": -0.7, "evidence": "Multi-year drug discovery timelines. $12B commitment to computational sciences."},
-        {"specimenId": "recursion", "position": -0.6, "evidence": "Multi-year drug discovery, but dramatically compressed lead molecule identification."},
-        {"specimenId": "google-x", "position": -0.5, "evidence": "Moonshot factory. Multi-year exploration protected by distinct incentive structure."},
-        {"specimenId": "samsung-c-lab", "position": -0.3, "evidence": "Defined exploration periods (time-boxing) with reintegration or spin-out. Medium-term."},
-        {"specimenId": "jpmorgan", "position": 0.3, "evidence": "8-week iteration cadence. Short cycles in regulated banking."},
-        {"specimenId": "klarna", "position": 0.6, "evidence": "Full-tilt AI adoption then rapid reversal. Extremely short accountability cycle."},
-        {"specimenId": "ups", "position": 0.3, "evidence": "$9B automation through 2028 — medium horizon. But 68K+ job cuts in 12 months suggest short-cycle execution."},
-        {"specimenId": "ntt-data", "position": 0.2, "evidence": "$2B revenue target by 2027. Near-term deployment with hundreds of agent instances already live."}
+        {
+          "specimenId": "eli-lilly",
+          "position": -1.0,
+          "evidence": "18+ year GLP-1 program. Decades-not-quarters time horizon."
+        },
+        {
+          "specimenId": "ami-labs",
+          "position": -0.7,
+          "evidence": "Pursuing world models \u2014 fundamental alternative to LLM paradigm."
+        },
+        {
+          "specimenId": "anthropic",
+          "position": -0.2,
+          "evidence": "PBC/LTBT governance protects long-term mission. But Claude Code shipped in 3 months."
+        },
+        {
+          "specimenId": "meta-ai",
+          "position": 0.4,
+          "evidence": "Shifted from long-term FAIR research to product-driven MSL."
+        },
+        {
+          "specimenId": "intercom",
+          "position": 0.8,
+          "evidence": "72-hour pivot. 15-day build. Extreme short-cycle orientation."
+        },
+        {
+          "specimenId": "commonwealth-bank",
+          "position": 0.3,
+          "evidence": "Rapid enterprise deployment."
+        },
+        {
+          "specimenId": "microsoft",
+          "position": 0.0,
+          "evidence": "Nadella's 'think in decades, execute in quarters.'"
+        },
+        {
+          "specimenId": "nvidia",
+          "position": 0.0,
+          "evidence": "No long-term or short-term plans. Flexible, constantly re-evaluating."
+        },
+        {
+          "specimenId": "salesforce",
+          "position": 0.5,
+          "evidence": "Rapid workforce restructuring \u2014 9K to 5K support staff."
+        },
+        {
+          "specimenId": "ssi",
+          "position": -0.9,
+          "evidence": "Pure research lab. No product timeline. All compute on research."
+        },
+        {
+          "specimenId": "roche-genentech",
+          "position": -0.7,
+          "evidence": "Multi-year drug discovery timelines. $12B commitment to computational sciences."
+        },
+        {
+          "specimenId": "recursion",
+          "position": -0.6,
+          "evidence": "Multi-year drug discovery, but dramatically compressed lead molecule identification."
+        },
+        {
+          "specimenId": "google-x",
+          "position": -0.5,
+          "evidence": "Moonshot factory. Multi-year exploration protected by distinct incentive structure."
+        },
+        {
+          "specimenId": "samsung-c-lab",
+          "position": -0.3,
+          "evidence": "Defined exploration periods (time-boxing) with reintegration or spin-out. Medium-term."
+        },
+        {
+          "specimenId": "jpmorgan",
+          "position": 0.3,
+          "evidence": "8-week iteration cadence. Short cycles in regulated banking."
+        },
+        {
+          "specimenId": "klarna",
+          "position": 0.6,
+          "evidence": "Full-tilt AI adoption then rapid reversal. Extremely short accountability cycle."
+        },
+        {
+          "specimenId": "ups",
+          "position": 0.3,
+          "evidence": "$9B automation through 2028 \u2014 medium horizon. But 68K+ job cuts in 12 months suggest short-cycle execution."
+        },
+        {
+          "specimenId": "ntt-data",
+          "position": 0.2,
+          "evidence": "$2B revenue target by 2027. Near-term deployment with hundreds of agent instances already live."
+        },
+        {
+          "specimenId": "stagwell",
+          "position": 0.2,
+          "evidence": "5-year EBITDA target ($1B by 2030). Ad industry faces fast-moving AI disruption \u2014 short to medium accountability cycles."
+        }
       ]
     }
   ]
