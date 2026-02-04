@@ -33,8 +33,25 @@
     "metrics": "100,000 engineers equipped. 39% increase in shipped PRs (Cursor claim). 64% of Fortune 1000 use Cursor."
   },
   "mechanisms": [],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "redefining how global enterprises build and scale AI-powered digital solutions",
+      "speaker": "Salil Parekh",
+      "speakerTitle": "CEO, Infosys",
+      "source": "Infosys Newsroom",
+      "sourceUrl": "https://www.infosys.com/newsroom/press-releases/2026/accelerate-software-engineering-global-enterprises.html",
+      "timestamp": null,
+      "date": "2026-01-27"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Session 002 Enrichment — Additional Sources & CEO Quote",
+      "summary": "Added CEO Salil Parekh quote on AI-first organization. Added additional sources (IndianWeb2, India Infoline). Confirmed Topaz Fabric integration as agentic services suite. Cursor CEO Michael Truell: 'Infosys' commitment to building an AI-first organization makes them a natural collaborator.' Stock rose ~1% on announcement.",
+      "classification": null,
+      "sourceRefs": ["indianweb2-infosys-2026", "indiainfoline-infosys-2026"]
+    },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
@@ -77,6 +94,26 @@
       "sourceDate": "2026-01-27",
       "collectedDate": "2026-01-31",
       "notes": null
+    },
+    {
+      "id": "indianweb2-infosys-2026",
+      "type": "Press",
+      "name": "IndianWeb2 — Infosys Establishes Cursor CoE",
+      "url": "https://www.indianweb2.com/2026/01/infosys-establishes-cursor-coe.html",
+      "timestamp": null,
+      "sourceDate": "2026-01-27",
+      "collectedDate": "2026-02-03",
+      "notes": "100K engineers, Topaz Fabric integration details."
+    },
+    {
+      "id": "indiainfoline-infosys-2026",
+      "type": "Press",
+      "name": "India Infoline — Infosys Collaborates with Cursor",
+      "url": "https://www.indiainfoline.com/news/companies/infosys-collaborates-with-cursor-to-strengthen-ai-software-engineering-coe",
+      "timestamp": null,
+      "sourceDate": "2026-01-27",
+      "collectedDate": "2026-02-03",
+      "notes": "CEO quotes, stock impact."
     }
   ],
   "contingencies": {
@@ -94,9 +131,11 @@
     "longVsShortHorizon": 0.3
   },
   "openQuestions": [
-    "How does the Cursor CoE relate to Infosys's broader AI strategy (Topaz)?",
-    "What is the internal org structure of the CoE? Dedicated team or distributed?",
-    "How does this compare to Accenture's AI CoE approach?"
+    "How does the Cursor CoE relate to Infosys's existing AI training programs (reported 250K employees trained on AI)?",
+    "What metrics is Infosys tracking? Cursor reports 39% increase in shipped PRs — is Infosys measuring similarly?",
+    "Is this primarily a marketing/sales partnership or a genuine structural transformation?",
+    "How does this compare to TCS, Wipro, Accenture AI augmentation approaches?",
+    "What is the internal org structure of the CoE? Dedicated team or distributed?"
   ],
   "taxonomyFeedback": [
     "At 100,000 engineers, this is the largest announced CoE by headcount. Scale may change the CoE dynamics — governance at 100K is different from governance at 100.",
@@ -105,7 +144,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-04",
     "completeness": "Low",
     "convertedFrom": null
   }

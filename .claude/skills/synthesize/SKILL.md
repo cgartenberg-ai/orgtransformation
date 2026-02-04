@@ -40,6 +40,10 @@ Follow this protocol step by step. Do NOT skip steps.
 
 !`cat "/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/synthesis/contingencies.json"`
 
+## Current Insights (update with new evidence, add new insights — NEVER delete existing insights)
+
+!`cat "/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/synthesis/insights.json"`
+
 ## Specimen Registry (for cross-referencing)
 
 !`cat "/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/specimens/registry.json"`

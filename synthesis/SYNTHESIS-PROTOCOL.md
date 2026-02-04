@@ -29,6 +29,7 @@ Before analyzing anything:
 - [ ] Read `synthesis/mechanisms.json` — load current confirmed mechanisms and candidates. Note which specimens already have evidence recorded.
 - [ ] Read `synthesis/tensions.json` — load current tensions. Note which already have specimen links.
 - [ ] Read `synthesis/contingencies.json` — load current contingencies. Note which already have specimen links.
+- [ ] Read `synthesis/insights.json` — load current cross-cutting insights. Note maturity levels and which specimens are already cited. **Remember: insights are NEVER deleted.**
 - [ ] Read `specimens/registry.json` — get the full specimen list for cross-referencing.
 - [ ] Check for previous synthesis session files in `synthesis/sessions/` — understand what was already processed in prior sessions.
 - [ ] Plan batch: If >15 specimens are pending, consider processing in batches (e.g., high-completeness first, then medium, then stubs). Stubs may have too little data for meaningful synthesis.
@@ -163,6 +164,55 @@ Convergent evolution is strong evidence that a structural solution addresses a r
 - Multiple firms appointing business-line leaders as AI heads (rather than technologists)
 - Multiple firms collapsing separate AI teams under one leader after coordination costs rose
 
+### Step 5b: Insight Review (across batch)
+
+After processing all specimens in the batch, review cross-cutting insights:
+
+**GUARDRAIL: Insights are NEVER deleted. They can only be updated with new evidence or new insights can be added.**
+
+**Does any newly processed specimen provide evidence for an existing insight?**
+
+Walk through `synthesis/insights.json`. For each insight, check if any newly synthesized specimen provides evidence:
+
+```
+Does the specimen support an existing insight?
+├── YES → Add the specimen to the insight's `evidence` array
+│         Update insight maturity: 1 specimen = "hypothesis", 2 = "emerging", 3+ = "confirmed"
+└── NO → Skip
+```
+
+**Does this batch reveal a NEW cross-cutting insight?**
+
+Criteria:
+1. A finding that spans multiple specimens, industries, or mechanisms
+2. Connected to the core research question about structural exploration/execution
+3. Not already captured by existing insights
+4. Has a theoretical connection (even if preliminary)
+
+If yes: add as a new insight with `"maturity": "hypothesis"` (1 specimen) or `"emerging"` (2 specimens) or `"confirmed"` (3+).
+
+New insight format:
+```json
+{
+  "id": "kebab-case-id",
+  "title": "Clear, Specific Title",
+  "theme": "convergence | organizational-form | mechanism | workforce | methodology",
+  "maturity": "hypothesis | emerging | confirmed",
+  "finding": "The empirical finding in 2-4 sentences.",
+  "evidence": [{ "specimenId": "org-id", "note": "How this specimen demonstrates it" }],
+  "theoreticalConnection": "Connection to organizational economics theory",
+  "discoveredIn": "synthesis/sessions/YYYY-MM-DD-synthesis.md",
+  "relatedMechanisms": [1, 5],
+  "relatedTensions": [2]
+}
+```
+
+**Are any existing hypothesis/emerging insights now ready for promotion?**
+
+Check evidence counts: if a `"hypothesis"` insight now has 2+ specimens → promote to `"emerging"`. If an `"emerging"` insight now has 3+ → promote to `"confirmed"`.
+
+---
+
 ### Step 6: Taxonomy Refinement Check (across batch)
 
 Review all `taxonomyFeedback` fields from processed specimens:
@@ -221,6 +271,12 @@ After ALL pending specimens are processed:
   - All new specimen links added
   - `"lastUpdated": "YYYY-MM-DD"`
 
+- [ ] **Update `synthesis/insights.json`** (NEVER delete existing insights):
+  - New evidence added to existing insights
+  - Maturity promotions applied (hypothesis→emerging→confirmed based on evidence count)
+  - New insights added (if discovered)
+  - `"lastUpdated": "YYYY-MM-DD"`
+
 - [ ] **Write synthesis session log** at `synthesis/sessions/YYYY-MM-DD-synthesis.md`:
 
   ```yaml
@@ -235,6 +291,8 @@ After ALL pending specimens are processed:
   contingencies_updated: ["regulatoryIntensity"]
   convergent_patterns: 0
   taxonomy_proposals: 0
+  insights_updated: []
+  new_insights: []
   ---
 
   # Synthesis Session: YYYY-MM-DD
@@ -273,6 +331,14 @@ After ALL pending specimens are processed:
   ## Taxonomy Proposals
   | Proposal | Type | Confidence |
   |----------|------|------------|
+
+  ## Insights Updated
+  | Insight | New Evidence | Maturity Change |
+  |---------|-------------|-----------------|
+
+  ## New Insights Discovered
+  | Insight | Theme | Evidence Count | Maturity |
+  |---------|-------|----------------|----------|
 
   ## Key Insights for Executives
   [2-3 bullet points: What should a leader making structural decisions take away?]

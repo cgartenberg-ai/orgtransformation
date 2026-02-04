@@ -1,11 +1,12 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAllSpecimens } from "@/lib/data/specimens";
+import { getMechanisms } from "@/lib/data/synthesis";
 import { STRUCTURAL_MODELS, SUB_TYPES } from "@/lib/types/taxonomy";
 import { SpecimenCard } from "@/components/specimens/SpecimenCard";
 import type { StructuralModel } from "@/lib/types/specimen";
 
-const VALID_MODELS = [1, 2, 3, 4, 5, 6, 7] as const;
+const VALID_MODELS = [1, 2, 3, 4, 5, 6, 7, 8, 9] as const;
 
 export function generateStaticParams() {
   return VALID_MODELS.map((id) => ({ id: String(id) }));
@@ -37,7 +38,10 @@ export default async function ModelDetailPage({
     notFound();
   }
 
-  const specimens = await getAllSpecimens();
+  const [specimens, mechanismData] = await Promise.all([
+    getAllSpecimens(),
+    getMechanisms(),
+  ]);
 
   const matching = specimens.filter(
     (s) =>
@@ -114,6 +118,49 @@ export default async function ModelDetailPage({
         </section>
       )}
 
+      {/* Common Principles */}
+      {(() => {
+        const relatedMechanisms = mechanismData.confirmed
+          .filter((m) => m.affinityProfile?.modelDistribution[modelNum])
+          .sort(
+            (a, b) =>
+              (b.affinityProfile?.modelDistribution[modelNum]?.count ?? 0) -
+              (a.affinityProfile?.modelDistribution[modelNum]?.count ?? 0)
+          );
+        if (relatedMechanisms.length === 0) return null;
+        return (
+          <section>
+            <h2 className="mb-4 font-serif text-lg text-forest">
+              Common Principles
+            </h2>
+            <div className="space-y-2">
+              {relatedMechanisms.map((m) => {
+                const dist = m.affinityProfile!.modelDistribution[modelNum];
+                return (
+                  <Link
+                    key={m.id}
+                    href={`/mechanisms/${m.id}`}
+                    className="flex items-center justify-between rounded-lg border border-sage-200 bg-cream-50 p-4 transition-shadow hover:shadow-sm"
+                  >
+                    <div>
+                      <span className="font-mono text-xs text-charcoal-400">
+                        #{m.id}
+                      </span>{" "}
+                      <span className="text-sm font-medium text-forest">
+                        {m.name}
+                      </span>
+                    </div>
+                    <span className="font-mono text-xs text-charcoal-400">
+                      {dist.count} specimen{dist.count !== 1 ? "s" : ""} ({dist.percentage}%)
+                    </span>
+                  </Link>
+                );
+              })}
+            </div>
+          </section>
+        );
+      })()}
+
       {/* Specimens */}
       <section>
         <h2 className="mb-4 font-serif text-lg text-forest">
@@ -126,9 +173,20 @@ export default async function ModelDetailPage({
             ))}
           </div>
         ) : (
-          <p className="text-sm text-charcoal-400">
-            No specimens classified under this model yet.
-          </p>
+          <div className="rounded-lg border border-sage-200 bg-cream-50 p-6 text-center">
+            <p className="text-sm text-charcoal-500">
+              No confirmed specimens under this model yet.
+              {modelNum >= 7 && (
+                <span className="mt-1 block text-charcoal-400">
+                  {modelNum === 9
+                    ? "AI-native specimens are organizations born with AI at their core. Browse the AI-Native page for the current collection."
+                    : modelNum === 8
+                    ? "This is a predicted structural model based on historical organizational patterns. We expect to identify AI-era examples as the field matures."
+                    : "Tiger Teams are time-boxed by nature and difficult to document from public sources. Specimens may exist but be underrepresented in our collection."}
+                </span>
+              )}
+            </p>
+          </div>
         )}
       </section>
     </div>

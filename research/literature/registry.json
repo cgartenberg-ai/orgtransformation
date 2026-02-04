@@ -1,0 +1,610 @@
+{
+  "description": "Core scholarly canon for the Ambidexterity Field Guide. Papers that are in conversation with our field insights. Entries drafted from training knowledge — review and correct.",
+  "lastUpdated": "2026-02-03",
+  "papers": [
+    {
+      "id": "march-1991",
+      "citation": "March, J. G. (1991). Exploration and Exploitation in Organizational Learning. Organization Science, 2(1), 71-87.",
+      "authors": [
+        "March"
+      ],
+      "year": 1991,
+      "journal": "Organization Science",
+      "tradition": "org-econ",
+      "keyMechanism": "Organizations face a fundamental trade-off between exploration (search, variation, risk-taking, experimentation) and exploitation (refinement, efficiency, selection, implementation). Exploitation tends to crowd out exploration because its returns are more certain, more proximate, and more precisely measured. Adaptive processes that favor exploitation over exploration are self-destructive in the long run.",
+      "predictionForAI": "AI should intensify the exploration-exploitation tension: AI makes exploitation cheaper and faster (automate what works), which should increase the pressure to crowd out exploration. Organizations that don't structurally protect exploration will converge on local optima faster than ever. Predicts that structural separation (dedicated exploration units) becomes more important, not less, in the AI era.",
+      "connectedInsights": [
+        "hub-spoke-rd-intensive",
+        "ai-native-no-ambidexterity",
+        "meta-exploration-failure",
+        "consulting-dual-identity"
+      ],
+      "connectedMechanisms": [
+        1
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "simon-1947",
+      "citation": "Simon, H. A. (1947). Administrative Behavior: A Study of Decision-Making Processes in Administrative Organization. New York: Macmillan. (4th ed., 1997, Free Press).",
+      "authors": [
+        "Simon"
+      ],
+      "year": 1947,
+      "journal": "Book",
+      "tradition": "org-econ",
+      "keyMechanism": "Organizations exist because individual rationality is bounded. Hierarchy is an information-processing architecture: each level aggregates, filters, and relays information upward while transmitting decisions downward. The number of hierarchical levels is a function of the gap between the information-processing demands of the environment and the cognitive capacity of individual decision-makers.",
+      "predictionForAI": "AI expands individual cognitive capacity — each person can process more information, synthesize more data, and handle more exceptions. This should reduce the need for hierarchical information aggregation, predicting flatter organizations with fewer middle-management layers. The delayering should be concentrated in information-relay roles, not in roles requiring judgment under genuine uncertainty.",
+      "connectedInsights": [
+        "management-delayering-convergent",
+        "ai-restructuring-convergent",
+        "entry-level-talent-hollow"
+      ],
+      "connectedMechanisms": [
+        11
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "arrow-1962",
+      "citation": "Arrow, K. J. (1962). The Economic Implications of Learning by Doing. Review of Economic Studies, 29(3), 155-173.",
+      "authors": [
+        "Arrow"
+      ],
+      "year": 1962,
+      "journal": "Review of Economic Studies",
+      "tradition": "org-econ",
+      "keyMechanism": "Knowledge is produced as a by-product of production activity (learning by doing). The accumulation of experience generates increasing returns. Information has properties of a public good — it is non-rival and difficult to exclude — which creates both spillover benefits and appropriability problems. Organizations that can internalize learning-by-doing effects gain cumulative advantage.",
+      "predictionForAI": "Organizations with centralized AI infrastructure (hubs) should accumulate learning faster than those with distributed, siloed efforts — the hub captures cross-unit learning-by-doing externalities. Hub-and-spoke structures are an organizational solution to Arrow's appropriability problem: the hub internalizes information spillovers across spokes. Predicts that organizations with more internal knowledge-sharing infrastructure will have faster AI capability accumulation.",
+      "connectedInsights": [
+        "hub-spoke-rd-intensive",
+        "ai-team-consolidation-arc"
+      ],
+      "connectedMechanisms": [
+        4,
+        6
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "arrow-1974",
+      "citation": "Arrow, K. J. (1974). The Limits of Organization. New York: W.W. Norton. (Fels Lectures on Public Policy Analysis).",
+      "authors": [
+        "Arrow"
+      ],
+      "year": 1974,
+      "journal": "Book",
+      "tradition": "org-econ",
+      "keyMechanism": "Organizations exist to exploit situations where prices fail to coordinate — particularly when information is costly to transmit, trust is needed, and authority relationships enable efficient decision-making. Authority is the ability to make decisions that others follow without re-deriving the reasoning. Organizations economize on communication costs by creating channels (hierarchy) and codes (shared language). But organizations face limits: they create internal information asymmetries, develop codes that filter out novel signals, and resist change because their communication channels are optimized for the current environment.",
+      "predictionForAI": "AI changes the economics of organizational codes and communication channels. Arrow's codes are compression mechanisms — shared shorthand that speeds routine communication but filters out novelty. AI creates new codes (prompts, model outputs, embeddings) that compress differently than human codes — potentially transmitting more routine information faster while being even worse at transmitting genuinely novel signals. Predicts that AI-augmented organizations will be faster at exploiting known patterns but may be even more resistant to recognizing architectural innovation (Henderson & Clark). Also predicts that authority relationships change: if AI can re-derive reasoning cheaply, the informational basis for authority shifts from 'I know things you don't' to 'I can judge what the AI output means in context.'",
+      "connectedInsights": [
+        "hub-spoke-rd-intensive",
+        "management-delayering-convergent",
+        "ai-team-consolidation-arc",
+        "meta-exploration-failure"
+      ],
+      "connectedMechanisms": [
+        1,
+        4,
+        6,
+        11
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "garicano-2000",
+      "citation": "Garicano, L. (2000). Hierarchies and the Organization of Knowledge in Production. Journal of Political Economy, 108(5), 874-904.",
+      "authors": [
+        "Garicano"
+      ],
+      "year": 2000,
+      "journal": "Journal of Political Economy",
+      "tradition": "org-econ",
+      "keyMechanism": "Hierarchies emerge as the optimal way to organize knowledge when matching problems to those who can solve them is costly. Production workers learn to solve the most common or easiest problems, and unsolved problems are escalated to successive layers of specialized problem solvers who handle increasingly rare or difficult exceptions. The key trade-off is between communication costs (time spent transmitting solutions) and knowledge acquisition costs (learning). The resulting pyramidal organization operates by 'management by exception,' with information flowing vertically from specialists in rare problems down to production workers.",
+      "predictionForAI": "AI dramatically reduces the cost of acquiring knowledge (the c parameter), which the model predicts should increase worker discretion, widen spans of control, flatten hierarchies, and reduce reliance on specialized problem solvers. This favors Embedded Teams and Contextual ambidexterity over dedicated structural separation: when AI tools let frontline workers solve problems they previously escalated, organizations need fewer layers of AI specialists and more broadly skilled workers who switch between exploration and execution. However, AI also reduces communication costs (the h parameter), which has the opposite effect on worker scope -- making it cheaper to centralize problem-solving in a Hub-and-Spoke or Center of Excellence model where AI experts serve many teams. The tension between these two forces predicts that organizations will oscillate between centralized AI units (exploiting cheap communication) and embedded AI capability (exploiting cheap knowledge acquisition), depending on whether the dominant bottleneck is communication or learning.",
+      "connectedInsights": [
+        "hub-spoke-rd-intensive",
+        "management-delayering-convergent",
+        "entry-level-talent-hollow"
+      ],
+      "connectedMechanisms": [
+        4,
+        11
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/Garicano.pdf"
+    },
+    {
+      "id": "holmstrom-1979",
+      "citation": "Holmström, B. (1979). Moral Hazard and Observability. Bell Journal of Economics, 10(1), 74-91.",
+      "authors": [
+        "Holmstrom"
+      ],
+      "year": 1979,
+      "journal": "Bell Journal of Economics",
+      "tradition": "org-econ",
+      "keyMechanism": "When an agent's effort is not directly observable, the principal must design contracts that align incentives using observable signals. The informativeness principle: any signal correlated with the agent's effort should be included in the contract. More observable effort environments allow more efficient contracting; less observable ones require higher-powered incentives or structural solutions.",
+      "predictionForAI": "AI increases observability of effort and output (dashboards, usage metrics, code commits, model performance). This should shift the optimal contract toward more output-based compensation. But for exploration — where output is noisy and long-delayed — AI monitoring may be counterproductive, encouraging exploitation of measurable metrics. Predicts tension between using AI for monitoring (exploitation-favoring) and protecting unmeasurable exploration. Founder-led firms may tolerate more unobservable exploration because principals and agents are the same person.",
+      "connectedInsights": [
+        "founder-authority-structural-enabler"
+      ],
+      "connectedMechanisms": [
+        1,
+        7
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "aghion-tirole-1997",
+      "citation": "Aghion, P. & Tirole, J. (1997). Formal and Real Authority in Organizations. Journal of Political Economy, 105(1), 1-29.",
+      "authors": [
+        "Aghion",
+        "Tirole"
+      ],
+      "year": 1997,
+      "journal": "JPE",
+      "tradition": "org-econ",
+      "keyMechanism": "Formal authority (the right to decide) and real authority (the effective control over decisions) can diverge. When a subordinate is better informed than the principal, delegating real authority motivates the subordinate to acquire information, but the principal loses control. The optimal allocation depends on the importance of the subordinate's initiative vs. the loss from the principal's reduced control.",
+      "predictionForAI": "In AI-native organizations, founders often retain both formal and real authority because they have deep technical knowledge. In incumbents, the CAIO role represents a transfer of real authority over AI decisions from business-line leaders to a technical specialist — but formal authority may remain with the CEO. Predicts friction when formal and real authority over AI are split (business leaders have formal authority but CAIOs have real authority because they understand the technology).",
+      "connectedInsights": [
+        "founder-authority-structural-enabler",
+        "caio-industry-waves"
+      ],
+      "connectedMechanisms": [
+        7
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "gibbons-henderson-2012",
+      "citation": "Gibbons, R. & Henderson, R. (2012). Relational Contracts and Organizational Capabilities. Organization Science, 23(5), 1350-1364.",
+      "authors": [
+        "Gibbons",
+        "Henderson"
+      ],
+      "year": 2012,
+      "journal": "Organization Science",
+      "tradition": "org-econ",
+      "keyMechanism": "Organizational capabilities are sustained by relational contracts — informal agreements enforced by repeated interaction and the value of ongoing relationships. Capabilities are hard to build because relational contracts require shared understanding and trust that takes time to develop. They are also hard to transfer because the relational context is organization-specific.",
+      "predictionForAI": "AI team consolidation (merging competing internal AI teams) destroys existing relational contracts and must build new ones. This predicts a productivity dip during consolidation even if the new structure is theoretically more efficient. Organizations that consolidate AI teams should experience coordination costs that exceed what formal restructuring alone would predict. Also predicts that cultural encoding of AI norms (mechanism #7) is a form of relational contract — it takes time to build and is hard to copy.",
+      "connectedInsights": [
+        "ai-team-consolidation-arc"
+      ],
+      "connectedMechanisms": [
+        6
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "henderson-clark-1990",
+      "citation": "Henderson, R. M., & Clark, K. B. (1990). Architectural innovation: The reconfiguration of existing product technologies and the failure of established firms. Administrative Science Quarterly, 35(1), 9-30.",
+      "authors": [
+        "Henderson",
+        "Clark"
+      ],
+      "year": 1990,
+      "journal": "ASQ",
+      "tradition": "innovation",
+      "keyMechanism": "Organizations develop two kinds of knowledge: component knowledge (about individual parts) and architectural knowledge (about how parts link together). Once a dominant design emerges, architectural knowledge becomes embedded in communication channels, information filters, and problem-solving routines, making it implicit and hard to change. Innovations that reconfigure linkages between components without changing the components themselves (architectural innovations) are therefore uniquely dangerous to incumbents: they look minor but destroy the usefulness of deeply embedded organizational knowledge, and firms cannot easily recognize or correct the problem.",
+      "predictionForAI": "AI is likely an architectural innovation for most established firms: the core components of business (sales, operations, finance) remain, but AI changes how they connect and interact. This theory predicts that firms using Embedded Teams or Hub-and-Spoke models will struggle most, because they graft AI onto existing communication channels and information filters that encode pre-AI architectural knowledge. Structurally separated units like Skunkworks, Product/Venture Labs, or AI-Native organizations should fare better, since they can build new architectural knowledge from scratch without inheriting embedded routines. The theory also predicts that firms will systematically underestimate AI's organizational impact, treating it as incremental (a better tool within existing workflows) rather than architectural (a reconfiguration of how functions relate to each other).",
+      "connectedInsights": [
+        "google-25-year-arc",
+        "ai-team-consolidation-arc"
+      ],
+      "connectedMechanisms": [
+        3,
+        6
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/Henderson-ArchitecturalInnovationReconfiguration-1990.pdf"
+    },
+    {
+      "id": "teece-1986",
+      "citation": "Teece, D. J. (1986). Profiting from Technological Innovation: Implications for Integration, Collaboration, Licensing and Public Policy. Research Policy, 15(6), 285-305.",
+      "authors": [
+        "Teece"
+      ],
+      "year": 1986,
+      "journal": "Research Policy",
+      "tradition": "innovation",
+      "keyMechanism": "The innovator does not necessarily capture the value from an innovation. Value capture depends on the appropriability regime (can others copy it?), the dominant design paradigm (has a standard emerged?), and control of complementary assets (manufacturing, distribution, service). Firms that control complementary assets can profit even without the best technology.",
+      "predictionForAI": "Organizations that productize internal AI operational advantages (mechanism #10) are applying Teece's logic: they built AI capabilities as complementary assets for their core business, then realized those capabilities are independently valuable. Predicts that the biggest AI winners among incumbents won't be those with the best models but those with the best complementary assets (data, distribution, customer relationships, regulatory approvals).",
+      "connectedInsights": [
+        "regulation-expensive-not-slow"
+      ],
+      "connectedMechanisms": [
+        10,
+        8
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "christensen-1997",
+      "citation": "Christensen, C. M. (1997). The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail. Boston: Harvard Business School Press.",
+      "authors": [
+        "Christensen"
+      ],
+      "year": 1997,
+      "journal": "Book",
+      "tradition": "innovation",
+      "keyMechanism": "Disruptive innovations start in low-end or new markets that incumbents rationally ignore. Incumbents fail not because they are poorly managed but because good management — listening to current customers, investing in profitable innovations — leads them to ignore disruption. By the time the disruptive technology improves enough to threaten the core market, it's too late.",
+      "predictionForAI": "Use cautiously. The disruption framework predicts AI-native startups should attack low-end markets that incumbents ignore. But AI doesn't follow the classic disruption pattern well — it's a general-purpose technology that improves everything simultaneously, including incumbents' core products. AI-native organizations (M9) may be better understood through March's exploration logic than Christensen's disruption logic. We cite this framework but don't organize around it.",
+      "connectedInsights": [
+        "ai-native-no-ambidexterity"
+      ],
+      "connectedMechanisms": [],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "oreilly-tushman-2004",
+      "citation": "O'Reilly, C. A. & Tushman, M. L. (2004). The Ambidextrous Organization. Harvard Business Review, 82(4), 74-81.",
+      "authors": [
+        "O'Reilly",
+        "Tushman"
+      ],
+      "year": 2004,
+      "journal": "HBR",
+      "tradition": "innovation",
+      "keyMechanism": "Ambidextrous organizations structurally separate exploratory units from exploitative ones while maintaining tight strategic integration at the senior leadership level. The key is that the separated units have different processes, structures, and cultures — but they share a common strategic intent coordinated by senior leadership that can manage the tensions between them.",
+      "predictionForAI": "Our structural separation models (M1 Research Lab, M5 Venture Lab, M8 Skunkworks) are implementations of O'Reilly & Tushman's structural ambidexterity. Predicts that organizations using structural orientation should outperform those using contextual orientation when the exploration task is radical (foundational AI research). But AI-native organizations (M9) may not need ambidexterity at all — they were born exploring, so the tension doesn't exist yet.",
+      "connectedInsights": [
+        "ai-native-no-ambidexterity",
+        "consulting-dual-identity"
+      ],
+      "connectedMechanisms": [
+        1
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "gibson-birkinshaw-2004",
+      "citation": "Gibson, C. B. & Birkinshaw, J. (2004). The Antecedents, Consequences, and Mediating Role of Organizational Ambidexterity. Academy of Management Journal, 47(2), 209-226.",
+      "authors": [
+        "Gibson",
+        "Birkinshaw"
+      ],
+      "year": 2004,
+      "journal": "AMJ",
+      "tradition": "innovation",
+      "keyMechanism": "Contextual ambidexterity achieves exploration and exploitation within the same unit through behavioral context rather than structural separation. The context is created by performance management systems, social support, and trust that allow individuals to make their own judgments about how to divide their time between exploration and exploitation.",
+      "predictionForAI": "Our contextual orientation specimens — where the same teams do both AI exploration and operational execution — are implementing Gibson & Birkinshaw's model. Predicts that contextual ambidexterity works when: (1) the exploration task is incremental (applying AI to existing processes), (2) individuals are skilled enough to self-manage the balance, and (3) performance management doesn't penalize exploration failures. Should work less well for radical AI exploration.",
+      "connectedInsights": [
+        "consulting-dual-identity"
+      ],
+      "connectedMechanisms": [
+        5,
+        7
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "north-1990",
+      "citation": "North, D. C. (1990). Institutions, Institutional Change and Economic Performance. Cambridge: Cambridge University Press.",
+      "authors": [
+        "North"
+      ],
+      "year": 1990,
+      "journal": "Book",
+      "tradition": "org-econ",
+      "keyMechanism": "Institutions are the rules of the game — both formal constraints (laws, regulations, property rights) and informal constraints (norms, conventions, codes of conduct). Organizations are players within these rules. Institutional environments shape organizational structure because compliance costs, enforcement mechanisms, and regulatory uncertainty all affect the optimal way to organize economic activity.",
+      "predictionForAI": "Regulatory environments don't just constrain AI deployment — they shape organizational structure. Organizations in heavily regulated industries (pharma, finance) build compliance infrastructure as a fixed cost, which then becomes a competitive advantage (mechanism #8). Predicts that regulation creates structural isomorphism within industries (everyone in pharma builds hub-and-spoke) but divergence across industries. Also predicts that informal institutions (industry norms, professional standards) will shape AI adoption as much as formal regulation.",
+      "connectedInsights": [
+        "hub-spoke-rd-intensive",
+        "regulation-expensive-not-slow"
+      ],
+      "connectedMechanisms": [
+        8
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "banerjee-1992",
+      "citation": "Banerjee, A. V. (1992). A Simple Model of Herd Behavior. Quarterly Journal of Economics, 107(3), 797-817.",
+      "authors": [
+        "Banerjee"
+      ],
+      "year": 1992,
+      "journal": "QJE",
+      "tradition": "org-econ",
+      "keyMechanism": "Rational agents observe the actions (but not the private information) of predecessors and may optimally ignore their own private signal to follow the herd. Information cascades form when the accumulated weight of observed actions outweighs any individual's private information. Herding is individually rational but socially fragile — cascades can be based on very little information and can break suddenly when new public information arrives.",
+      "predictionForAI": "The CAIO appointment wave follows cascade logic: early movers (finance CAIOs) send a signal that the role solves a coordination problem. Later movers (consulting, advertising) observe the signal, infer that a CAIO addresses a problem they also face, and appoint one — even without strong private information that the role works for their context. Predicts that CAIO appointments will cluster by industry peer group and that some late-adopter CAIOs will be ineffective because the role doesn't solve their specific coordination problem.",
+      "connectedInsights": [
+        "caio-industry-waves"
+      ],
+      "connectedMechanisms": [],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "becker-1964",
+      "citation": "Becker, G. S. (1964). Human Capital: A Theoretical and Empirical Analysis, with Special Reference to Education. New York: Columbia University Press.",
+      "authors": [
+        "Becker"
+      ],
+      "year": 1964,
+      "journal": "Book",
+      "tradition": "org-econ",
+      "keyMechanism": "Human capital is the stock of skills, knowledge, and experience embodied in individuals. General human capital (transferable across firms) is funded by workers via lower wages during training. Firm-specific human capital (valuable only within the firm) is jointly funded because both parties benefit from the ongoing relationship. The distinction determines who bears training costs and who captures returns.",
+      "predictionForAI": "AI substitutes for general human capital tasks (routine analysis, information aggregation, standard report writing) that entry-level workers traditionally performed as on-the-job training. This hollows out the entry-level talent pipeline: the tasks that built general human capital no longer exist, but the firm-specific knowledge they led to is still needed. Predicts a \"missing rung\" problem — firms can't develop senior talent internally if the junior tasks that built foundational skills are automated. Organizations will need to redesign training pathways or accept permanent reliance on lateral hiring for mid-career talent.",
+      "connectedInsights": [
+        "entry-level-talent-hollow"
+      ],
+      "connectedMechanisms": [
+        11
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "dessein-2002",
+      "citation": "Dessein, W. (2002). Authority and Communication in Organizations. Review of Economic Studies, 69(4), 811-838.",
+      "authors": [
+        "Dessein"
+      ],
+      "year": 2002,
+      "journal": "Review of Economic Studies",
+      "tradition": "org-econ",
+      "keyMechanism": "When a principal delegates authority to a better-informed agent, the agent communicates more honestly because the agent's information is used directly rather than strategically distorted. But delegation means the principal loses control over the decision. The trade-off: centralization with distorted communication vs. delegation with honest communication. Delegation is optimal when the agent's information advantage is large and preference divergence is small.",
+      "predictionForAI": "AI reduces communication distortion by making information more transparent (dashboards, real-time data). This should make centralization more viable — if the principal can observe agent information directly via AI tools, the case for delegation weakens. But for genuinely complex problems where AI can't fully transmit local knowledge, delegation remains necessary. Predicts a split: routine decisions recentralize (AI makes information transparent), while complex decisions remain delegated (local knowledge still matters).",
+      "connectedInsights": [
+        "management-delayering-convergent",
+        "founder-authority-structural-enabler"
+      ],
+      "connectedMechanisms": [
+        7,
+        11
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "alonso-dessein-matouschek-2008",
+      "citation": "Alonso, R., Dessein, W. & Matouschek, N. (2008). When Does Coordination Require Centralization? American Economic Review, 98(1), 145-179.",
+      "authors": [
+        "Alonso",
+        "Dessein",
+        "Matouschek"
+      ],
+      "year": 2008,
+      "journal": "AER",
+      "tradition": "org-econ",
+      "keyMechanism": "When divisions need to coordinate, communication under decentralization is distorted because each division manager biases messages toward their own unit's interests. Centralization solves the coordination problem but loses local information. The trade-off depends on the relative importance of adaptation (using local knowledge) vs. coordination (aligning across units). Centralization is optimal when coordination is more important; decentralization when local adaptation matters more.",
+      "predictionForAI": "Hub-and-spoke (M4) is a centralization response to the coordination problem across AI initiatives. The hub coordinates, the spokes preserve local knowledge. AI may shift the trade-off: if AI tools improve cross-unit communication (reducing distortion), decentralization becomes more viable. But if AI increases the returns to coordination (shared models, shared data infrastructure), centralization becomes more attractive. Predicts industry variation: R&D-intensive firms centralize the hub because coordination of scarce AI talent matters more; service firms decentralize because local client knowledge matters more.",
+      "connectedInsights": [
+        "hub-spoke-rd-intensive",
+        "consulting-dual-identity"
+      ],
+      "connectedMechanisms": [
+        4,
+        6
+      ],
+      "status": "core-canon",
+      "addedDate": "2026-02-03",
+      "sourceFile": null
+    },
+    {
+      "id": "azoulay-lerner-2013",
+      "citation": "Azoulay, P. & Lerner, J. (2013). Technological Innovation and Organizations. In R. Gibbons & J. Roberts (Eds.), The Handbook of Organizational Economics. Princeton University Press, pp. 575-603.",
+      "authors": [
+        "Azoulay",
+        "Lerner"
+      ],
+      "year": 2013,
+      "journal": "Handbook of Organizational Economics",
+      "tradition": "org-econ",
+      "keyMechanism": "The internal organization of firms shapes their innovative output through three interconnected channels: incentive design (tolerating early failure and rewarding long-term success promotes exploration over exploitation), knowledge spillover management (absorptive capacity requires firms to invest in their own R&D to capture external knowledge, and spillovers are mediated by geographic, technological, and social distance), and organizational structure choices (centralized vs. decentralized R&D, team composition via network closure vs. brokerage, and the make-or-buy boundary for innovative activities). Contract design between firms also critically affects innovation, with incomplete contracting and property rights allocation determining who controls and captures value from joint R&D projects.",
+      "predictionForAI": "This paper would predict that organizations structuring AI work face a fundamental tension between centralized Research Labs (which enable long-range exploration but risk becoming ivory towers) and Embedded Teams (which stay close to business needs but may lose scientific frontier knowledge). The incentive design findings suggest AI exploration units need tolerance for early failure and long time horizons -- favoring structurally separated units like Skunkworks or Product/Venture Labs over contextual ambidexterity, where day-to-day execution pressures crowd out experimentation. The knowledge spillover logic predicts that Hub-and-Spoke models will outperform pure structural separation because absorptive capacity requires ongoing connections between the AI frontier and the operational core. The contracting analysis implies that firms will keep cutting-edge AI development in-house (where knowledge production is hard to specify contractually) while outsourcing more routine AI implementation to vendors.",
+      "connectedInsights": [],
+      "connectedMechanisms": [],
+      "status": "candidate",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/Azoulay_Lerner.pdf"
+    },
+    {
+      "id": "cohen-levinthal-1990",
+      "citation": "Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. Administrative Science Quarterly, 35(1), 128-152.",
+      "authors": [
+        "Cohen",
+        "Levinthal"
+      ],
+      "year": 1990,
+      "journal": "ASQ",
+      "tradition": "org-econ",
+      "keyMechanism": "A firm's ability to recognize, assimilate, and apply external knowledge -- its absorptive capacity -- depends on its prior related knowledge. R&D serves a dual function: it generates new knowledge directly and it builds the firm's capacity to learn from outside sources. Because absorptive capacity is cumulative and path-dependent, firms that fail to invest early in a knowledge domain may become permanently locked out of it, unable even to recognize the value of new developments in that area.",
+      "predictionForAI": "Organizations need prior AI-related knowledge distributed across their units to absorb and exploit AI advances. This favors Hub-and-Spoke or Embedded Teams models over purely centralized Research Labs, because absorptive capacity is not just about the central unit's expertise but about whether receiving units have enough overlapping knowledge to assimilate what the center produces. Firms that delay building internal AI expertise risk lockout -- becoming unable to evaluate or adopt AI even as it matures -- which explains why some incumbents create dedicated Centers of Excellence as deliberate absorptive-capacity investments rather than waiting for organic adoption. The theory also predicts a tension between knowledge diversity (needed to scan a fast-moving AI landscape) and knowledge overlap (needed for internal transfer), suggesting that rotation programs and cross-functional AI teams will outperform siloed specialist structures.",
+      "connectedInsights": [],
+      "connectedMechanisms": [],
+      "status": "candidate",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/cohen-levinthal-1990-AbsorptiveCapacity.pdf"
+    },
+    {
+      "id": "ethiraj-levinthal-2004",
+      "citation": "Ethiraj, S. K., & Levinthal, D. A. (2004). Bounded rationality and the search for organizational architecture: An evolutionary perspective on the design of organizations and their evolvability. Administrative Science Quarterly, 49(3), 404-437.",
+      "authors": [
+        "Ethiraj",
+        "Levinthal"
+      ],
+      "year": 2004,
+      "journal": "ASQ",
+      "tradition": "org-econ",
+      "keyMechanism": "Using a computational model grounded in Simon's architecture of complexity, the paper shows that boundedly rational managers can discover effective organizational designs through evolutionary search -- but only when the underlying task structure has hierarchy (asymmetric interdependence between units). Hierarchy is necessary and sufficient for successful structural redesign (second-order adaptation), while near-decomposability (loose coupling) is necessary and sufficient for successful incremental performance improvement (first-order adaptation). The two forms of adaptation are complements: restructuring opens new opportunities for local optimization, and local optimization works better within well-designed structures. However, when environmental change outpaces the organization's ability to redesign, structural inertia performs as well as active restructuring.",
+      "predictionForAI": "Organizations exploring AI will find it easier to design effective AI structures (Centers of Excellence, Hub-and-Spoke, Embedded Teams) when AI work is hierarchically ordered relative to the core business -- that is, when AI units constrain or inform business units but not vice versa. Structures with heavy reciprocal interdependence between AI teams and business operations (like deeply Embedded Teams in tightly coupled workflows) will be hardest to design correctly and will produce chronic restructuring cycles. The paper also predicts that structural separation models (Research Labs, Skunkworks) will be complementary to local AI execution improvements, not substitutes -- organizations that invest in both structural redesign and incremental AI adoption will outperform those doing only one. Finally, in rapidly changing AI environments, larger organizations will struggle to keep their AI structures aligned with shifting demands, potentially making structural inertia a rational default.",
+      "connectedInsights": [],
+      "connectedMechanisms": [],
+      "status": "candidate",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/Ethiraj Levinthal (2004) - Bounded Rationality and the Search for Organizational Architecture An Evolutionary Perspective on the Design of Organizations and Their Evolvability.pdf"
+    },
+    {
+      "id": "gartenberg-zenger-2022",
+      "citation": "Gartenberg, C. & Zenger, T. (2023). The Firm as a Subsociety: Purpose, Justice, and the Theory of the Firm. Organization Science, 34(5), 1965-1980.",
+      "authors": [
+        "Gartenberg",
+        "Zenger"
+      ],
+      "year": 2022,
+      "journal": "Organization Science",
+      "tradition": "org-econ",
+      "keyMechanism": "Firms are not merely subeconomies (collections of transactions managed by authority) but subsocieties in which employees exchange rights -- control over work, loyalty, voice -- for membership. This rights exchange creates heightened expectations that leaders will uphold principles of purpose and justice. When leaders' actions are consistent with these principles, employees respond with identification and cooperation; when actions violate them, the result is alienation. Firm boundaries amplify this social response: the same action triggers a stronger cooperative or destructive reaction inside the firm than outside it.",
+      "predictionForAI": "Organizations that frame AI adoption as consistent with their stated purpose (e.g., advancing the mission, enabling better work) should see stronger cooperation from employees than those where AI is perceived as violating principles of justice (e.g., displacing workers without regard for fairness, concentrating rewards among a small AI elite). Structurally, this predicts that firms will favor internalizing AI work (Research Labs, Embedded Teams, Centers of Excellence) when AI reinforces the organization's identity and purpose, but will outsource or contract for AI capabilities that create justice tensions -- such as extreme pay differentials between AI specialists and core workers. Hub-and-Spoke and Embedded models may generate more subsociety friction than structurally separated models (Skunkworks, Venture Labs) precisely because embedding AI teams makes compensation and status disparities visible within the same social referent group.",
+      "connectedInsights": [],
+      "connectedMechanisms": [],
+      "status": "candidate",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/gartenberg-zenger-2022-the-firm-as-a-subsociety-purpose-justice-and-the-theory-of-the-firm.pdf"
+    },
+    {
+      "id": "hayek-1945",
+      "citation": "Hayek, F. A. (1945). The use of knowledge in society. American Economic Review, 35(4), 519-530.",
+      "authors": [
+        "Hayek"
+      ],
+      "year": 1945,
+      "journal": "American Economic Review",
+      "tradition": "org-econ",
+      "keyMechanism": "The central economic problem is not optimization given known data, but rather how to make use of knowledge that is dispersed across many individuals and never exists in concentrated form. Local, tacit knowledge of particular circumstances of time and place is as valuable as scientific knowledge, and decentralized decision-making outperforms central planning because the 'man on the spot' possesses information that cannot be transmitted to a central authority. The price system serves as an information-economizing mechanism that coordinates dispersed knowledge by communicating only the essential signals needed for individuals to adjust their actions.",
+      "predictionForAI": "Hayek's framework predicts that centralized AI governance structures (e.g., a single Center of Excellence dictating AI use across the firm) will underperform more decentralized models because they cannot aggregate the local, contextual knowledge that frontline workers possess about where AI creates value. Embedded Teams and Contextual Ambidexterity models should outperform top-down structural separation because they leave AI adoption decisions closer to the people who understand the particular circumstances of their work. Hub-and-Spoke models represent the Hayekian compromise: a central node provides general-purpose AI knowledge (analogous to scientific knowledge), while spokes retain local decision rights over application. The theory also predicts that organizations will need internal price-like signals — metrics, internal markets for AI resources, or performance feedback loops — to coordinate AI exploration across units without requiring a central planner to possess all relevant knowledge.",
+      "connectedInsights": [],
+      "connectedMechanisms": [],
+      "status": "candidate",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/Hayek_AER_1945.pdf"
+    },
+    {
+      "id": "joseph-sengul-2024",
+      "citation": "Joseph, J., & Sengul, M. (2025). Organization design: Current insights and future research directions. Journal of Management, 51(1), 249-308.",
+      "authors": [
+        "Joseph",
+        "Sengul"
+      ],
+      "year": 2024,
+      "journal": "Journal of Management",
+      "tradition": "org-econ",
+      "keyMechanism": "Reviewing 350 articles from 2000-2023, the paper synthesizes organization design research into four complementary approaches that together address how firms divide labor and integrate effort under bounded rationality. Configuration concerns which structural elements exist and how they fit together (fit/misfit, activity systems, modularity, reorganization). Control concerns how managers steer behavior through formal systems, oversight, and incentives. Channelization concerns how structure shapes attention, feedback, cognitive representations, and the errors and biases that arise from them. Coordination concerns how knowledge flows, shared understanding, and decision authority (centralization vs. decentralization) enable joint action. The central unifying claim is that fit -- the alignment between structural choices and contingencies -- remains the most fundamental design principle, but the field has moved from static fit to dynamic fit, recognizing that organizations must continuously reconfigure across all four approaches as environments shift.",
+      "predictionForAI": "The four-approach framework generates specific predictions for AI-era organizational structure. First, configuration: organizations adopting AI will face the classic ambidexterity problem as a design challenge -- the paper reviews spatial separation (parallel structures like Research Labs or Skunkworks), temporal cycling (vacillation between exploration and execution phases), and contextual ambidexterity as alternative configurational solutions, each with distinct fit requirements. Structural separation models will be most effective when AI exploration demands fundamentally different routines, incentives, and metrics than the core business. Second, control: AI adoption will strain existing control systems because algorithmic decision-making shifts the locus of oversight -- organizations must redesign incentive structures and monitoring to handle human-AI task allocation, not just human-human delegation. Third, channelization: AI tools will reshape managerial attention and cognitive representations, potentially reducing some bounded-rationality biases (better data processing) while introducing new ones (algorithmic opacity, automation complacency). The paper's discussion of centralization promoting exploratory innovation while decentralization supports exploitative innovation suggests that Hub-and-Spoke and Center of Excellence models -- which centralize AI capability while decentralizing execution -- may achieve a structurally efficient compromise. Fourth, coordination: human-AI coordination is fundamentally a division-of-labor problem, and the paper predicts that organizations will need new shared representations (mental models of what AI can and cannot do) to coordinate effectively across AI and human decision-makers. The fit hypothesis implies that no single AI structural model dominates -- the right structure depends on task decomposability, environmental dynamism, and the organization's existing configuration.",
+      "connectedInsights": [],
+      "connectedMechanisms": [],
+      "status": "candidate",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/Joseph Sengul (2024) - Organization design Current insights and future research directions.pdf"
+    },
+    {
+      "id": "kogut-zander-1992",
+      "citation": "Kogut, B. & Zander, U. (1992). Knowledge of the Firm, Combinative Capabilities, and the Replication of Technology. Organization Science, 3(3), 383-397.",
+      "authors": [
+        "Kogut",
+        "Zander"
+      ],
+      "year": 1992,
+      "journal": "Organization Science",
+      "tradition": "org-econ",
+      "keyMechanism": "Firms exist not primarily to curb opportunism but because they are superior to markets at transferring and recombining knowledge held by individuals and groups. Organizational knowledge consists of information (declarative facts) and know-how (procedural recipes for organizing work), both embedded in social relationships and higher-order organizing principles that cannot be reduced to any single individual. Firms grow by replicating this knowledge internally, but face a paradox: codifying knowledge for easier internal transfer also makes it easier for competitors to imitate. New knowledge is created through 'combinative capabilities' — recombining existing knowledge into novel applications — and this recombination is path-dependent, constrained by the firm's current social structure and organizing principles.",
+      "predictionForAI": "Organizations will develop AI capabilities internally (rather than buying them) when AI knowledge is closely related to their existing organizing principles and can be recombined with current capabilities. This favors Embedded Teams and Hub-and-Spoke models, where AI know-how is transferred through existing social relationships rather than isolated in separate units. Structurally separated models like Skunkworks or Research Labs risk creating knowledge that cannot be reintegrated because the receiving units lack shared codes. The theory also predicts a replication-imitation tension: firms that codify AI practices into transferable playbooks (e.g., Centers of Excellence) accelerate internal diffusion but also make those practices easier for competitors to copy, pushing toward continuous recombination and innovation rather than static best-practice replication.",
+      "connectedInsights": [],
+      "connectedMechanisms": [],
+      "status": "candidate",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/Kogut-KnowledgeFirmCombinative-1992.pdf"
+    },
+    {
+      "id": "manso-2011",
+      "citation": "Manso, G. (2011). Motivating Innovation. The Journal of Finance, 66(5), 1823-1860.",
+      "authors": [
+        "Manso"
+      ],
+      "year": 2011,
+      "journal": "Journal of Finance",
+      "tradition": "org-econ",
+      "keyMechanism": "Standard pay-for-performance contracts that punish failure and reward short-term success are counterproductive for motivating innovation. Using a bandit-problem framework embedded in a principal-agent model, Manso shows that the optimal contract for motivating exploration requires tolerance (or even reward) for early failure combined with reward for long-term success. Commitment to long-term compensation, job security, and timely performance feedback are also essential for exploration, whereas none of these matter for motivating exploitation of known approaches.",
+      "predictionForAI": "Organizations that want AI teams to genuinely explore novel applications -- rather than just implement proven solutions -- need structurally different incentive and governance regimes than those applied to operational units. Dedicated exploration structures like Research Labs, Skunkworks, and Product/Venture Labs should feature long evaluation horizons, protection from termination after early project failures, and compensation tied to long-run outcomes rather than quarterly metrics. Embedded Teams and Hub-and-Spoke models face a harder problem: the same managers may need exploration incentives for AI experimentation and exploitation incentives for core operations, which Manso's model shows require fundamentally incompatible contract structures. This creates a formal economic rationale for structural separation (structural ambidexterity) over contextual ambidexterity when AI work is genuinely exploratory.",
+      "connectedInsights": [],
+      "connectedMechanisms": [],
+      "status": "candidate",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/Manso - Motivating Innovation.pdf"
+    },
+    {
+      "id": "march-2006",
+      "citation": "March, J. G. (2006). Rationality, foolishness, and adaptive intelligence. Strategic Management Journal, 27(3), 201-214.",
+      "authors": [
+        "March"
+      ],
+      "year": 2006,
+      "journal": "Strategic Management Journal",
+      "tradition": "org-econ",
+      "keyMechanism": "Adaptive processes are inherently myopic: they favor exploitation over exploration because exploitation yields reliable, short-run, observable returns while exploration produces high-variance outcomes with longer lead times and lower average expectations. Technologies of rationality are effective instruments of exploitation in simple situations, but in complex situations they generate huge errors — which paradoxically makes them unintentional engines of exploration. Exploration survives in adaptive systems not on its own merits but by hitchhiking on exploitation's successes, through organizational partitioning into segregated subgroups, and through the imperviousness to feedback of committed 'fools' and true believers.",
+      "predictionForAI": "Organizations will naturally drift toward using AI for exploitation — efficiency gains, process optimization, known-problem automation — because adaptive feedback rewards short-run, observable returns and penalizes the high-variance outcomes of exploratory AI initiatives. Structurally separated units (Research Labs, Skunkworks, Tiger Teams) are essential not because they are rationally optimal but because segregation from the core slows the adaptive process that would otherwise kill exploratory AI work before it matures. Hub-and-Spoke and Center of Excellence models risk becoming pure exploitation engines unless they are deliberately buffered from performance feedback. The theory also predicts that AI-native organizations, lacking legacy exploitation successes to hitchhike on, face an acute survival problem: they need committed founders who are impervious to negative feedback — March's 'heroic fools' — to sustain exploration long enough for rare breakthroughs to materialize.",
+      "connectedInsights": [],
+      "connectedMechanisms": [],
+      "status": "candidate",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/march-2006-rationality.pdf"
+    },
+    {
+      "id": "oreilly-tushman-2013",
+      "citation": "O'Reilly, C. A., & Tushman, M. L. (2013). Organizational ambidexterity: Past, present, and future. Academy of Management Perspectives, 27(4), 324-338.",
+      "authors": [
+        "O'Reilly",
+        "Tushman"
+      ],
+      "year": 2013,
+      "journal": "Academy of Management Perspectives",
+      "tradition": "innovation",
+      "keyMechanism": "Organizations that survive long-term must simultaneously explore new technologies and markets while exploiting existing ones. This review consolidates 15 years of evidence showing three viable modes: structural ambidexterity (separate units with distinct alignments linked by common vision and targeted integration), contextual ambidexterity (individual-level switching enabled by culture of stretch, discipline, and trust), and sequential ambidexterity (temporal shifting between exploitation and exploration modes). The key finding is that structural separation is necessary but not sufficient -- senior leadership must actively manage the interfaces between explore and exploit units, orchestrating resource allocation and resolving conflicts. Ambidexterity is reframed as a dynamic capability: the senior team's ability to sense and seize opportunities by reconfiguring organizational assets.",
+      "predictionForAI": "Organizations facing AI disruption should structurally separate AI exploration units (Research Labs, Skunkworks, Product/Venture Labs) from operational execution, each with its own people, processes, incentives, and culture -- but connected through senior leadership that actively manages the interface. Purely contextual approaches (asking individuals to split time between AI experimentation and core work) will handle incremental AI adoption but will fail for discontinuous AI capabilities that require fundamentally different skill sets and business models. The theory predicts a temporal pattern: firms will start with structural separation (dedicated AI units), then integrate successful AI capabilities into the core business over time as they gain legitimacy. Larger, resource-rich firms will more successfully pursue simultaneous ambidexterity, while smaller firms may need to sequence AI exploration and operational execution.",
+      "connectedInsights": [],
+      "connectedMechanisms": [],
+      "status": "candidate",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/oreilly-tushman-2013-ambidexterity-review.pdf"
+    },
+    {
+      "id": "zenger-nickerson-2004",
+      "citation": "Nickerson, J. A., & Zenger, T. R. (2004). A knowledge-based theory of the firm—The problem-solving perspective. Organization Science, 15(6), 617–632.",
+      "authors": [
+        "Nickerson",
+        "Zenger"
+      ],
+      "year": 2004,
+      "journal": "Organization Science",
+      "tradition": "org-econ",
+      "keyMechanism": "The complexity of a problem determines the optimal form of solution search and, in turn, the optimal governance structure. Decomposable problems (low interaction among knowledge sets) are best governed by markets using directional/local search. Nearly decomposable problems suit authority-based hierarchy, where a central figure crafts heuristics to guide search. Highly complex, nondecomposable problems require consensus-based hierarchy with extensive knowledge sharing to develop collective search heuristics. The key trade-off is between high-powered incentives that motivate specialized search effort and governance structures that facilitate the knowledge transfer needed to solve complex problems.",
+      "predictionForAI": "AI adoption problems that are decomposable — where teams can independently optimize subsystems (e.g., deploying off-the-shelf AI tools into distinct business units) — should be governed through market-like structures such as Embedded Teams or decentralized informal adoption, with high autonomy and strong incentives. Nearly decomposable AI problems — where some cross-domain coordination is needed but subproblems can be defined — should use authority-based structures like a Center of Excellence or Hub-and-Spoke, where a central AI leader sets design rules and architectural constraints. Truly nondecomposable AI problems — where AI capability is deeply entangled with product, data, and organizational design (as in AI-Native firms or ambitious transformation efforts) — require consensus-based structures like Research Labs or Skunkworks with extensive horizontal knowledge sharing, shared language, and low-powered incentives. This predicts that organizations will struggle when they use centralized authority (CoE) for problems that are actually nondecomposable, because no single leader can absorb all the relevant knowledge to direct search.",
+      "connectedInsights": [],
+      "connectedMechanisms": [],
+      "status": "candidate",
+      "addedDate": "2026-02-03",
+      "sourceFile": "library/research papers/zenger-nickerson-2004-a-knowledge-based-theory-of-the-firm-the-problem-solving-perspective.pdf"
+    }
+  ]
+}

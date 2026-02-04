@@ -118,7 +118,7 @@ If it fails all three, don't record it.
 4. **Apply Relevance Test**: Every finding must address the core question with structural depth
 5. **Discover new sources**: Add any new sources found to sources.md and source-registry.json
 6. **Record findings** in output format above — do not classify; that's Phase 2
-7. **Update registries**: source-registry.json, research/queue.json
+7. **Update registries**: source-registry.json, research/queue.json, **field-signals.json**
 8. **Validate**: Run `node scripts/validate-workflow.js`
 
 See `SESSION-PROTOCOL.md` for the full checklist, scan methods per source type, and quality standards.
@@ -140,6 +140,17 @@ STRATEGY:
 METRICS:
 "adoption", "deployment", "rollout", "headcount"
 ```
+
+## Field Signal Tracking
+
+At the end of each session, update `research/field-signals.json` with macro-level observations. See `SESSION-PROTOCOL.md` → "Field Signal Tracking" section for the full protocol. In brief:
+
+- **Strengthen** existing signals with new data points and session references
+- **Add** new signals when a novel macro pattern emerges
+- **Record counter-evidence** rather than deleting signals
+- **Mark saturated** when a signal has 5+ sessions and no new dimensions
+
+Signals are the bridge between raw session observations and formal insights (Phase 3). They accumulate evidence across sessions so that patterns become visible over time.
 
 ## Session Output
 

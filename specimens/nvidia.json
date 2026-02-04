@@ -7,8 +7,8 @@
     "structuralModelName": "Hybrid/Hub-and-Spoke",
     "subType": null,
     "subTypeName": null,
-    "secondaryModel": null,
-    "secondaryModelName": null,
+    "secondaryModel": 1,
+    "secondaryModelName": "Research Lab",
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Medium",
@@ -90,7 +90,9 @@
       "label": "CEO AI Philosophy & Internal Adoption",
       "summary": "Jensen Huang on No Priors podcast revealed pervasive Cursor usage among NVIDIA engineers and articulated 'purpose vs. tasks' framework: coding is a task, solving problems is the purpose. Productivity gains → more exploration and growth, not headcount cuts. NVIDIA continues aggressive hiring.",
       "classification": null,
-      "sourceRefs": ["no-priors-huang-2026"]
+      "sourceRefs": [
+        "no-priors-huang-2026"
+      ]
     },
     {
       "date": "2026-01",
@@ -169,7 +171,7 @@
     "speedVsDepth": 0.4,
     "centralVsDistributed": 0.6,
     "namedVsQuiet": 0.5,
-    "longVsShortHorizon": 0.0
+    "longVsShortHorizon": 0
   },
   "openQuestions": [
     "How is NVIDIA's internal AI research structured? Do they have separate exploration labs vs. product teams?",

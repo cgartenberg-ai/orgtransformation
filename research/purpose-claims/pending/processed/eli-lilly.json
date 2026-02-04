@@ -1,0 +1,8 @@
+{
+  "specimenId": "eli-lilly",
+  "scannedDate": "2026-02-03",
+  "claimsFound": 0,
+  "quality": "none",
+  "scanNotes": "Web access tools (WebSearch, WebFetch, Chrome MCP) were all unavailable during this scan session. Exhaustive review of existing project data (specimen file, 5 research session files, library cases, design principles) found only one Dave Ricks quote ('All the studies on middle management find they tend to squash deviations...') from Cheeky Pint Podcast (2025-11), but it lacks a traceable URL (sourceUrl: null in specimen). The Jensen Huang quote has a URL but is not from a Lilly leader. Known high-potential sources that could not be fetched: (1) NVIDIA Newsroom press release (https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai) — likely contains Ricks quotes; (2) Eli Lilly Investor Relations release (https://investor.lilly.com/news-releases/news-release-details/nvidia-and-lilly-announce-co-innovation-ai-lab-reinvent-drug); (3) FierceBiotech coverage; (4) Drug Discovery Trends coverage; (5) Cheeky Pint Podcast transcript (no URL on file); (6) Eli Lilly Q4 2025 earnings call transcript (not yet scanned per research queue). RESCAN REQUIRED with web access to complete this scan.",
+  "claims": []
+}

@@ -1,7 +1,7 @@
 {
   "id": "ami-labs",
   "name": "AMI Labs",
-  "title": "Academic Spin-Off from Big Tech — World Models",
+  "title": "Academic Spin-Off from Big Tech \u2014 World Models",
   "classification": {
     "structuralModel": 1,
     "structuralModelName": "Research Lab",
@@ -12,7 +12,7 @@
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Medium",
-    "classificationRationale": "Pure research lab founded by Turing Award winner Yann LeCun after departing Meta. Pursuing alternatives to LLM paradigm (world models, V-JEPA architecture). LeCun took Executive Chair role (not CEO), indicating research-first orientation. Parallel to World Labs (Fei-Fei Li from Stanford).",
+    "classificationRationale": "Model 1 (Research Lab). Pure research lab founded by Turing Award winner Yann LeCun after departing Meta. Pursuing alternatives to LLM paradigm (world models, V-JEPA architecture). No product, no revenue, pre-paradigm research. LeCun took Executive Chair role (not CEO), indicating research-first orientation. 'Baby' versions expected within 1 year; full-scale systems in a few years. Nabla healthcare partnership for 'first access' to world model tech, but this is a research partnership, not a product launch. Parallel to World Labs (Fei-Fei Li from Stanford). Medium confidence: pre-launch, organizational structure still forming.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -25,11 +25,11 @@
     "geography": "Europe",
     "orgType": "AI-native"
   },
-  "description": "AMI Labs was founded by Yann LeCun (Turing Award winner, age 65) after departing Meta in Jan 2026, where he served as Chief AI Scientist for 12 years. LeCun took the role of Executive Chair (not CEO), citing his temperament and age. CEO is Alex LeBrun. The lab focuses on 'world models' — AI that understands physics, memory, and planning — using V-JEPA architecture as an alternative to the dominant LLM paradigm. Seeking approximately 500M euros at a 3-3.5B euro valuation. Meta will not invest but plans a partnership. HQ in Paris.",
+  "description": "AMI Labs (Advanced Machine Intelligence Labs) was founded by Yann LeCun (Turing Award winner, age 65) after departing Meta in November 2025, where he served as Chief AI Scientist for 12 years. His departure was triggered by tension with Alexandr Wang over reporting lines within Meta's newly consolidated MSL structure.\n\nLeCun took the role of Executive Chair (not CEO), citing his temperament and age: 'I'm too disorganized for this, and also too old.' CEO is Alex LeBrun. The lab focuses on 'world models' \u2014 AI that understands physics, maintains persistent memory, and plans complex actions \u2014 using V-JEPA architecture as an explicit rejection of the dominant LLM approach.\n\nFundraising targets approximately \u20ac500M at a \u20ac3-3.5B valuation, one of the largest pre-launch AI raises ever. Meta continues a partnership despite LeCun's departure (non-compete apparently not enforced). AMI Labs also established a partnership with Nabla (healthcare) for 'first access' to world model tech, targeting FDA-certifiable agentic AI. 'Baby' versions of world models expected within 1 year; full-scale systems in a few years. HQ in Paris (planned early 2026).",
   "observableMarkers": {
     "reportingStructure": "Executive Chair (LeCun) + CEO (LeBrun) structure. Research leader as chair, operational leader as CEO.",
-    "resourceAllocation": "Seeking ~500M euros at 3-3.5B euro valuation.",
-    "timeHorizons": null,
+    "resourceAllocation": "Seeking ~\u20ac500M at \u20ac3-3.5B valuation. One of largest pre-launch AI raises.",
+    "timeHorizons": "'Baby' versions within 1 year. Full-scale systems in a few years. Fundamental research horizon.",
     "decisionRights": null,
     "metrics": null
   },
@@ -39,10 +39,10 @@
       "text": "I'm too disorganized for this, and also too old.",
       "speaker": "Yann LeCun",
       "speakerTitle": "Executive Chair, AMI Labs (on why he's Executive Chair not CEO)",
-      "source": "EdTech Innovation Hub",
-      "sourceUrl": null,
+      "source": "The Decoder",
+      "sourceUrl": "https://the-decoder.com/you-certainly-dont-tell-a-researcher-like-me-what-to-do-says-lecun-as-he-exits-meta-for-his-own-startup/",
       "timestamp": null,
-      "date": "2026-01"
+      "date": "2025-11"
     },
     {
       "text": "You don't tell a researcher what to do. You certainly don't tell a researcher like me what to do.",
@@ -51,10 +51,26 @@
       "source": "The Decoder",
       "sourceUrl": "https://the-decoder.com/you-certainly-dont-tell-a-researcher-like-me-what-to-do-says-lecun-as-he-exits-meta-for-his-own-startup/",
       "timestamp": null,
-      "date": "2026-01"
+      "date": "2025-11"
+    },
+    {
+      "text": "Results were fudged a little bit.",
+      "speaker": "Yann LeCun",
+      "speakerTitle": "Executive Chair, AMI Labs (on Meta's Llama 4 benchmarks)",
+      "source": "The Decoder",
+      "sourceUrl": "https://the-decoder.com/you-certainly-dont-tell-a-researcher-like-me-what-to-do-says-lecun-as-he-exits-meta-for-his-own-startup/",
+      "timestamp": null,
+      "date": "2025-11"
     }
   ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Session 002 Update — Healthcare Partnership & Timeline",
+      "summary": "Added Nabla healthcare partnership for 'first access' to world model tech targeting FDA-certifiable agentic AI. Confirmed timeline: 'baby' versions within 1 year, full-scale systems in a few years. Meta continues partnership despite departure (non-compete not enforced). Fixed structuralModel from 9 to 1 (Research Lab). Added 'Results were fudged' quote on Llama 4 benchmarks.",
+      "classification": null,
+      "sourceRefs": ["webpronews-lecun-2026-01", "marketingai-nabla-2025", "odsc-vjep-2025", "decoder-lecun-2025-11"]
+    },
     {
       "date": "2025-11",
       "label": "LeCun Departure from Meta Announced",
@@ -91,7 +107,7 @@
     {
       "id": "fortune-2025-12",
       "type": "Press",
-      "name": "Fortune — Yann LeCun AMI Labs AI Startup",
+      "name": "Fortune \u2014 Yann LeCun AMI Labs AI Startup",
       "url": "https://fortune.com/2025/12/19/yann-lecun-ami-labs-ai-startup-valuation-meta-departure/",
       "timestamp": null,
       "sourceDate": "2025-12-19",
@@ -101,7 +117,7 @@
     {
       "id": "sifted-2025-12",
       "type": "Press",
-      "name": "Sifted — Yann LeCun AMI Labs 3bn Valuation",
+      "name": "Sifted \u2014 Yann LeCun AMI Labs 3bn Valuation",
       "url": "https://sifted.eu/articles/yann-lecun-ami-labs-3bn-valuation",
       "timestamp": null,
       "sourceDate": "2025-12",
@@ -111,7 +127,7 @@
     {
       "id": "edtech-2026-01",
       "type": "Press",
-      "name": "EdTech Innovation Hub — LeCun Confirms Executive Chair Role",
+      "name": "EdTech Innovation Hub \u2014 LeCun Confirms Executive Chair Role",
       "url": "https://www.edtechinnovationhub.com/news/former-facebook-ai-veteran-yann-lecun-confirms-executive-chair-role-at-ami-labs",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -121,17 +137,17 @@
     {
       "id": "webpronews-lecun-2026-01",
       "type": "Press",
-      "name": "WebProNews — Yann LeCun Leaves Meta to Launch AMI Labs",
+      "name": "WebProNews \u2014 Yann LeCun Leaves Meta to Launch AMI Labs",
       "url": "https://www.webpronews.com/yann-lecun-leaves-meta-to-launch-ami-labs-critiques-llm-hype/",
       "timestamp": null,
-      "sourceDate": "2026-01",
-      "collectedDate": "2026-01-31",
-      "notes": null
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-03",
+      "notes": "LeCun departure details, AMI Labs founding."
     },
     {
       "id": "linkedin-lecun-2026-01",
       "type": "Social Media",
-      "name": "LinkedIn — Yann LeCun Announcement",
+      "name": "LinkedIn \u2014 Yann LeCun Announcement",
       "url": "https://www.linkedin.com/posts/yann-lecun_as-many-of-you-have-heard-through-rumors-activity-7397020300451749888-2lhA",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -141,22 +157,52 @@
     {
       "id": "the-decoder-2026-01",
       "type": "Press",
-      "name": "The Decoder — LeCun Exits Meta for Own Startup",
+      "name": "The Decoder \u2014 LeCun Exits Meta for Own Startup",
       "url": "https://the-decoder.com/you-certainly-dont-tell-a-researcher-like-me-what-to-do-says-lecun-as-he-exits-meta-for-his-own-startup/",
       "timestamp": null,
-      "sourceDate": "2026-01",
+      "sourceDate": "2025-11-20",
       "collectedDate": "2026-01-31",
       "notes": null
     },
     {
       "id": "cnbc-2025-11",
       "type": "Press",
-      "name": "CNBC — Meta Chief AI Scientist Yann LeCun Leaving",
+      "name": "CNBC \u2014 Meta Chief AI Scientist Yann LeCun Leaving",
       "url": "https://www.cnbc.com/2025/11/19/meta-chief-ai-scientist-yann-lecun-is-leaving-the-company-.html",
       "timestamp": null,
       "sourceDate": "2025-11-19",
       "collectedDate": "2026-01-31",
       "notes": null
+    },
+    {
+      "id": "marketingai-nabla-2025",
+      "type": "Press",
+      "name": "Marketing AI Institute \u2014 Meta's Chief AI Scientist Leaving",
+      "url": "https://www.marketingaiinstitute.com/blog/metas-chief-ai-scientist-leaving",
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-03",
+      "notes": "Nabla healthcare partnership details."
+    },
+    {
+      "id": "odsc-vjep-2025",
+      "type": "Press",
+      "name": "ODSC \u2014 Yann LeCun Launches New AI Startup Focused on Advanced Machine Intelligence",
+      "url": "https://opendatascience.com/yann-lecun-leaves-meta-to-launch-new-ai-startup-focused-on-advanced-machine-intelligence/",
+      "timestamp": null,
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-03",
+      "notes": "V-JEPA architecture, world models approach."
+    },
+    {
+      "id": "decoder-lecun-2025-11",
+      "type": "Press",
+      "name": "The Decoder \u2014 LeCun Departure Interview",
+      "url": "https://the-decoder.com/you-certainly-dont-tell-a-researcher-like-me-what-to-do-says-lecun-as-he-exits-meta-for-his-own-startup/",
+      "timestamp": null,
+      "sourceDate": "2025-11-20",
+      "collectedDate": "2026-02-03",
+      "notes": "'Too disorganized, too old' quote, Llama 4 'fudged' quote."
     }
   ],
   "contingencies": {
@@ -177,15 +223,20 @@
     "How does AMI Labs' world models approach differ technically from World Labs (Fei-Fei Li)?",
     "What is the nature of the Meta partnership if Meta is not investing?",
     "Will LeCun's Executive Chair role be primarily research direction or also fundraising/strategy?",
-    "How does the Paris HQ affect talent acquisition vs. Bay Area competitors?"
+    "How does the Paris HQ affect talent acquisition vs. Bay Area competitors?",
+    "What is the Meta-AMI partnership structure? IP sharing? Access to Meta's compute?",
+    "How does V-JEPA differ from DeepMind's Gato/Gemini multimodal approach?",
+    "Can world models attract top research talent away from LLM-focused labs?",
+    "What does the Nabla healthcare partnership look like structurally?"
   ],
   "taxonomyFeedback": [
-    "Academic spin-off from Big Tech — researcher dissatisfied with product-driven commercialization. Parallel to World Labs (Fei-Fei Li from Stanford). May represent a distinct sub-pattern: senior AI researchers leaving Big Tech to pursue non-LLM research agendas independently."
+    "Academic spin-off from Big Tech \u2014 researcher dissatisfied with product-driven commercialization. Parallel to World Labs (Fei-Fei Li from Stanford). May represent a distinct sub-pattern: senior AI researchers leaving Big Tech to pursue non-LLM research agendas independently.",
+    "FIX: structuralModel corrected from 9 to 1. The value 9 was invalid; AMI Labs is clearly Model 1 (Research Lab) — single ring-fenced research entity with academic culture, no product, multi-year horizons."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-02",
+    "lastUpdated": "2026-02-04",
     "completeness": "Medium",
     "convertedFrom": null
   }

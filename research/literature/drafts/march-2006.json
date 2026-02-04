@@ -1,0 +1,15 @@
+{
+  "id": "march-2006",
+  "citation": "March, J. G. (2006). Rationality, foolishness, and adaptive intelligence. Strategic Management Journal, 27(3), 201-214.",
+  "authors": ["March"],
+  "year": 2006,
+  "journal": "Strategic Management Journal",
+  "tradition": "org-econ",
+  "keyMechanism": "Adaptive processes are inherently myopic: they favor exploitation over exploration because exploitation yields reliable, short-run, observable returns while exploration produces high-variance outcomes with longer lead times and lower average expectations. Technologies of rationality are effective instruments of exploitation in simple situations, but in complex situations they generate huge errors — which paradoxically makes them unintentional engines of exploration. Exploration survives in adaptive systems not on its own merits but by hitchhiking on exploitation's successes, through organizational partitioning into segregated subgroups, and through the imperviousness to feedback of committed 'fools' and true believers.",
+  "predictionForAI": "Organizations will naturally drift toward using AI for exploitation — efficiency gains, process optimization, known-problem automation — because adaptive feedback rewards short-run, observable returns and penalizes the high-variance outcomes of exploratory AI initiatives. Structurally separated units (Research Labs, Skunkworks, Tiger Teams) are essential not because they are rationally optimal but because segregation from the core slows the adaptive process that would otherwise kill exploratory AI work before it matures. Hub-and-Spoke and Center of Excellence models risk becoming pure exploitation engines unless they are deliberately buffered from performance feedback. The theory also predicts that AI-native organizations, lacking legacy exploitation successes to hitchhike on, face an acute survival problem: they need committed founders who are impervious to negative feedback — March's 'heroic fools' — to sustain exploration long enough for rare breakthroughs to materialize.",
+  "connectedInsights": [],
+  "connectedMechanisms": [],
+  "status": "candidate",
+  "addedDate": "2026-02-03",
+  "sourceFile": "library/research papers/march-2006-rationality.pdf"
+}

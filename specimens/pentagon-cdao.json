@@ -1,0 +1,193 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "pentagon-cdao",
+  "name": "Pentagon CDAO (Department of War)",
+  "title": "AI Innovation Consolidation Under R&E Umbrella",
+
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 2,
+    "secondaryModelName": "Center of Excellence",
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "The defining structural move is the consolidation of 6 innovation organizations (CDAO, DIU, SCO, DARPA, TRMC, OSC) under the Under Secretary for R&E (Emil Michael), creating a hub-and-spoke architecture where R&E serves as the hub and each innovation org is a spoke with a distinct mission. CDAO specifically functions as both an applied AI deployer (GenAI.mil platform, 30-day model parity) and a standards/governance body (Data Decrees enforcement), giving it secondary M2 (CoE) characteristics. Three overlapping oversight bodies were dissolved and replaced by a single Action Group under the CTO — further evidence of hub consolidation. Medium confidence because (a) the restructuring is recent (Aug 2025 - Jan 2026) and still evolving, (b) the talent exodus from CDAO may indicate structural instability, and (c) the degree of actual coordination vs. nominal consolidation is unclear.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Government / Defense",
+    "sector": "National Security / Military",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Arlington, VA (Pentagon)",
+    "geography": "United States / Global military operations"
+  },
+
+  "description": "The Department of War's Chief Digital and AI Officer (CDAO) was restructured in August 2025, moving from reporting to the Deputy Secretary of Defense to reporting under the Under Secretary of War for Research & Engineering (Emil Michael). This placed CDAO as one of six innovation organizations under a single R&E umbrella: CDAO, Defense Innovation Unit (DIU), Strategic Capabilities Office (SCO), DARPA, Test Resource Management Center (TRMC), and Office of Strategic Capital (OSC).\n\nCameron Stanley was named CDAO in January 2026 — a Project Maven alumnus and former AWS national security lead. Stanley is dual-hatted as CDAO and Senior Official for Applied AI, concentrating AI authority in one role. Meanwhile, the CDAO's own CTO directorate was dissolved 'due to inefficiencies linked to budget cuts,' and three overlapping oversight bodies (Defense Innovation Steering Group, Defense Innovation Working Group, CTO Council) were replaced by a single 'Action Group' under the CTO.\n\nThe Pentagon released two major strategy memos in January 2026: an AI Strategy and a Defense Innovation Ecosystem transformation plan. These establish an 'AI-first warfighting force' mandate, designate 7 Pace-Setting Projects for CDAO (including GenAI.mil), and impose a 30-day AI model deployment cadence — the latest AI models must be deployed within 30 days of public release. A 'Barrier removal SWAT team' under R&E has authority to waive non-statutory requirements. Despite the ambition, senior technical talent is reported to be leaving CDAO, raising questions about whether the consolidation is helping or hindering innovation speed.",
+
+  "observableMarkers": {
+    "reportingStructure": "CDAO reports to Under Secretary for R&E (Emil Michael). Previously reported to Deputy Secretary of Defense. CDAO is one of 6 innovation orgs under R&E. Cameron Stanley dual-hatted as CDAO + Senior Official for Applied AI.",
+    "resourceAllocation": "CDAO's own CTO directorate dissolved due to budget cuts. 6 CTA (Critical Technology Area) leads appointed under Pentagon CTO (Jan 30, 2026).",
+    "timeHorizons": "30-day AI model deployment mandate (tactical). 7 Pace-Setting Projects (medium-term). AI Strategy document sets longer-term vision for 'AI-first warfighting force.'",
+    "decisionRights": "Three overlapping oversight bodies dissolved, replaced by single Action Group under CTO. Barrier removal SWAT team under R&E with authority to waive non-statutory requirements. Data Decrees enforcement mandate for CDAO.",
+    "metrics": "30-day model parity with public release. 7 Pace-Setting Projects including GenAI.mil platform."
+  },
+
+  "mechanisms": [],
+
+  "quotes": [
+    {
+      "text": "an 'AI-first' warfighting force across all components, from front to back",
+      "speaker": "Pete Hegseth",
+      "speakerTitle": "Secretary of War",
+      "source": "DefenseScoop",
+      "sourceUrl": "https://defensescoop.com/2026/01/13/hegseth-ai-tech-hubs-reorganization-dod-dow/",
+      "timestamp": null,
+      "date": "2026-01-13"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "CDAO Restructuring and AI Strategy Release",
+      "summary": "Cameron Stanley named CDAO (Jan 2026), dual-hatted as Senior Official for Applied AI. Pentagon released AI Strategy and Defense Innovation Ecosystem memos. 7 Pace-Setting Projects designated. 30-day model parity mandate. CDAO's CTO directorate dissolved. 3 oversight bodies replaced by single Action Group. 6 CTA leads appointed under CTO. Senior talent exodus reported.",
+      "classification": null,
+      "sourceRefs": ["defensescoop-reorg-2026", "cdo-magazine-stanley-2026", "defcros-cto-dissolved-2026", "dod-ai-strategy-2026", "breaking-defense-cta-2026", "govconwire-stanley-2026", "inside-gov-contracts-2026"]
+    },
+    {
+      "date": "2025-08",
+      "label": "CDAO Moved Under R&E",
+      "summary": "CDAO reporting line changed from Deputy Secretary of Defense to Under Secretary for R&E (Emil Michael). CDAO becomes one of 6 innovation organizations under R&E umbrella alongside DIU, SCO, DARPA, TRMC, and OSC.",
+      "classification": null,
+      "sourceRefs": ["crs-cdao-realignment-2025"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "defensescoop-reorg-2026",
+      "type": "Press",
+      "name": "DefenseScoop — Hegseth AI tech hubs reorganization",
+      "url": "https://defensescoop.com/2026/01/13/hegseth-ai-tech-hubs-reorganization-dod-dow/",
+      "timestamp": null,
+      "sourceDate": "2026-01-13",
+      "collectedDate": "2026-02-03",
+      "notes": "AI Strategy memos, CDAO restructuring, innovation org consolidation"
+    },
+    {
+      "id": "cdo-magazine-stanley-2026",
+      "type": "Press",
+      "name": "CDO Magazine — Pentagon names Cameron Stanley CDAO",
+      "url": "https://www.cdomagazine.tech/leadership-moves/pentagon-names-cameron-stanley-chief-digital-and-ai-officer",
+      "timestamp": null,
+      "sourceDate": "2026-01-07",
+      "collectedDate": "2026-02-03",
+      "notes": "Cameron Stanley appointment, background: Project Maven, AWS"
+    },
+    {
+      "id": "crs-cdao-realignment-2025",
+      "type": "Press",
+      "name": "Congressional Research Service — CDAO realignment under R&E",
+      "url": "https://www.congress.gov/crs-product/IN12615",
+      "timestamp": null,
+      "sourceDate": "2025-08-14",
+      "collectedDate": "2026-02-03",
+      "notes": "CDAO moved under R&E, Aug 2025"
+    },
+    {
+      "id": "defcros-cto-dissolved-2026",
+      "type": "Press",
+      "name": "DEFCROS News — Pentagon's AI office streamlines operations",
+      "url": "https://news.defcros.com/pentagons-ai-office-streamlines-operations/",
+      "timestamp": null,
+      "sourceDate": "2026-01-01",
+      "collectedDate": "2026-02-03",
+      "notes": "CDAO CTO directorate dissolved due to inefficiencies and budget cuts"
+    },
+    {
+      "id": "dod-ai-strategy-2026",
+      "type": "Filing",
+      "name": "DoD — Artificial Intelligence Strategy for the Department of War",
+      "url": "https://media.defense.gov/2026/Jan/12/2003855671/-1/-1/0/ARTIFICIAL-INTELLIGENCE-STRATEGY-FOR-THE-DEPARTMENT-OF-WAR.PDF",
+      "timestamp": null,
+      "sourceDate": "2026-01-12",
+      "collectedDate": "2026-02-03",
+      "notes": "Official AI strategy document"
+    },
+    {
+      "id": "breaking-defense-cta-2026",
+      "type": "Press",
+      "name": "Breaking Defense — Pentagon CTO picks six defense tech vets for Critical Technology Areas",
+      "url": "https://breakingdefense.com/2026/01/pentagon-cto-picks-six-defense-tech-vets-to-lead-critical-technology-areas/",
+      "timestamp": null,
+      "sourceDate": "2026-01-30",
+      "collectedDate": "2026-02-03",
+      "notes": "6 CTA appointees under Pentagon CTO"
+    },
+    {
+      "id": "govconwire-stanley-2026",
+      "type": "Press",
+      "name": "GovConWire — CDAO Cameron Stanley Pentagon AI industry engagement",
+      "url": "https://www.govconwire.com/articles/cdao-cameron-stanley-pentagon-ai-industry",
+      "timestamp": null,
+      "sourceDate": "2026-01-01",
+      "collectedDate": "2026-02-03",
+      "notes": "Stanley dual-hatted role, industry engagement"
+    },
+    {
+      "id": "inside-gov-contracts-2026",
+      "type": "Press",
+      "name": "Inside Government Contracts — Pentagon releases AI strategy",
+      "url": "https://www.insidegovernmentcontracts.com/2026/02/pentagon-releases-artificial-intelligence-strategy/",
+      "timestamp": null,
+      "sourceDate": "2026-02-01",
+      "collectedDate": "2026-02-03",
+      "notes": "Innovation ecosystem consolidation analysis"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-scarce",
+    "technicalDebt": "High"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.8,
+    "speedVsDepth": 0.5,
+    "centralVsDistributed": -0.7,
+    "namedVsQuiet": -0.9,
+    "longVsShortHorizon": 0.3
+  },
+
+  "openQuestions": [
+    "Does consolidating 6 innovation orgs under one person (Emil Michael) help or hinder AI adoption speed?",
+    "Senior talent exodus from CDAO — is this the explore/execute tension in action? (Innovation talent departing as bureaucratic oversight increases)",
+    "How does the 30-day model deployment mandate actually work in classified environments?",
+    "What is the actual coordination mechanism between CDAO, DIU, SCO, DARPA, TRMC, and OSC under R&E? Is there real hub-spoke integration or nominal consolidation?"
+  ],
+
+  "taxonomyFeedback": [
+    "Government specimen: the hub-and-spoke pattern here is driven by political reorganization (new administration) rather than organic market response. The 6-org consolidation under R&E is a top-down structural mandate, not an emergent coordination solution. This raises a question about whether government specimens should track the driver of structural change differently.",
+    "The dual-hatted CDAO + Senior Official for Applied AI role is an interesting governance mechanism — concentrating AI authority without creating a new office. Worth tracking as a government-specific variant of CAIO role design.",
+    "The 'Barrier removal SWAT team' concept is a structural mechanism for removing bureaucratic obstacles that may be unique to government contexts. Could be a candidate for a new mechanism if it recurs.",
+    "CDAO evolution (Deputy SecDef reporting -> R&E reporting) is a significant structural demotion or lateral move depending on interpretation. The talent exodus may be a consequence. This is a valuable data point on how reporting-line changes affect explore/execute balance."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-04",
+    "lastUpdated": "2026-02-04",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

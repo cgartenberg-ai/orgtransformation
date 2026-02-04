@@ -1,7 +1,7 @@
 {
   "description": "Synthesis queue \u2014 specimens updated since last synthesis, awaiting Phase 3 analysis. Updated by Phase 2 (add entries) and Phase 3 (mark synthesized).",
-  "lastUpdated": "2026-02-02",
-  "lastSynthesisDate": "2026-02-02",
+  "lastUpdated": "2026-02-04",
+  "lastSynthesisDate": "2026-02-04",
   "queue": [
     {
       "specimenId": "nvidia",
@@ -882,6 +882,177 @@
       "status": "synthesized",
       "synthesizedIn": "2026-02-02-synthesis.md",
       "notes": "Source enrichment: 3 international press sources. Division-level detail added (AWS, retail, Prime Video, HR affected)."
+    },
+    {
+      "specimenId": "sk-telecom",
+      "action": "created",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "NEW: Model 5, Structural. AI-first spin-off strategy: T Factory (AI data center), AI Data Corp, Atom AI. Asian telecom AI diversification."
+    },
+    {
+      "specimenId": "pentagon-cdao",
+      "action": "created",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "NEW: Model 4, Structural. Military hub-and-spoke: CDAO as hub, services as spokes. DOGE threat. Task Force Lima."
+    },
+    {
+      "specimenId": "new-york-state",
+      "action": "created",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "NEW: Model 2, Contextual. State government CAIO appointment. Stub."
+    },
+    {
+      "specimenId": "meta-ai",
+      "action": "evolution",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "MAJOR UPDATE: Cross-session merge (sessions 001-003). MSL 4-unit structure, Wang CAIO, LeCun departure, Q4 2025 earnings, Reality Labs retreat. Completeness→High, confidence→High. 7 layers, 28 sources."
+    },
+    {
+      "specimenId": "ami-labs",
+      "action": "updated",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "Added Nabla healthcare partnership, timeline details, 'fudged' benchmarks quote. Fixed structuralModel 9→1."
+    },
+    {
+      "specimenId": "pinterest",
+      "action": "updated",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "Added CEO Bill Ready quote, additional sources (Yahoo Finance, Retail Dive, CBS News). Confirmed ~780 headcount."
+    },
+    {
+      "specimenId": "infosys",
+      "action": "updated",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "Added CEO Parekh quote, 2 new sources (IndianWeb2, India Infoline). Topaz Fabric integration confirmed."
+    },
+    {
+      "specimenId": "anthropic",
+      "action": "updated",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "Added 4 new IPO sources (Fortune, OpenTools, FinancialContent, JDP Global). $350B valuation, Kalshi 72% odds, $50B data center."
+    },
+    {
+      "specimenId": "microsoft",
+      "action": "updated",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "Cross-session merge (sessions 001, 003). Stratechery source (OpenAI = 45% Azure RPO). Q2 FY2026 earnings layer enriched."
+    },
+    {
+      "specimenId": "amazon-agi",
+      "action": "updated",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "Q4 2025 pre-earnings layer. AWS backlog $200B, Project Rainier, $150B+ CapEx."
+    },
+    {
+      "specimenId": "google-deepmind",
+      "action": "updated",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "Q3 2025 results + identity narrative shift. Gemini 650M MAU, 7B tokens/min. 'AI company that monetizes through advertising' reframing."
+    },
+    {
+      "specimenId": "salesforce",
+      "action": "updated",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "Q3 FY2026 earnings layer. Agentforce 5,000+ deals. 'Digital labor' positioning. Data Cloud 120% growth."
+    },
+    {
+      "specimenId": "accenture-openai",
+      "action": "evolution",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "RECLASSIFIED: M2→M4 (Hub-and-Spoke). Reinvention Services consolidation. $865M restructuring, 11K layoffs + 77K AI hires. CEO Sweet 'exiting non-reskillable' quote."
+    },
+    {
+      "specimenId": "travelers",
+      "action": "created",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "NEW: Model 4, Contextual. TravAI platform, 20K users, 30% handle time reduction. Insurance industry — most operationally specific non-tech AI deployment."
+    },
+    {
+      "specimenId": "servicenow",
+      "action": "created",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "NEW: Model 4, Contextual. 'AI Control Tower' positioning. $600M Now Assist revenue. 'Obliterate 20th century org charts' quote."
+    },
+    {
+      "specimenId": "nokia",
+      "action": "created",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "NEW: Model 4, Structural. Portfolio Businesses restructuring + Nokia Defense incubation. European industrial AI."
+    },
+    {
+      "specimenId": "publicis-groupe",
+      "action": "evolution",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "RECLASSIFIED: M2→M4 (Hub-and-Spoke). CoreAI platform hub. €17.4B revenue. 73% AI-powered operating model. Multi-vendor AI strategy."
+    },
+    {
+      "specimenId": "workday",
+      "action": "created",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "NEW: Model 6a, Contextual. 1,750 layoffs (8.5%) citing AI. AI-washing data point. Stub."
+    },
+    {
+      "specimenId": "rwjbarnabas-health",
+      "action": "created",
+      "curatedIn": "2026-02-04-curation.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-04-synthesis-batched.md",
+      "synthesizedIn": null,
+      "notes": "NEW: Model 2, Structural. First healthcare system specimen. Joint AI CoE spanning 14 hospitals + academic partner. Stub."
     }
   ]
 }

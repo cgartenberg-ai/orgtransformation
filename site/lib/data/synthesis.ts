@@ -4,6 +4,7 @@ import type {
   MechanismData,
   TensionData,
   ContingencyData,
+  InsightData,
 } from "@/lib/types/synthesis";
 
 const SYNTHESIS_DIR = path.resolve(process.cwd(), "..", "synthesis");
@@ -27,6 +28,14 @@ export async function getTensions(): Promise<TensionData> {
 export async function getContingencies(): Promise<ContingencyData> {
   const raw = await fs.readFile(
     path.join(SYNTHESIS_DIR, "contingencies.json"),
+    "utf-8"
+  );
+  return JSON.parse(raw);
+}
+
+export async function getInsights(): Promise<InsightData> {
+  const raw = await fs.readFile(
+    path.join(SYNTHESIS_DIR, "insights.json"),
     "utf-8"
   );
   return JSON.parse(raw);

@@ -1,0 +1,15 @@
+{
+  "id": "henderson-clark-1990-pdf",
+  "citation": "Henderson, R. M., & Clark, K. B. (1990). Architectural innovation: The reconfiguration of existing product technologies and the failure of established firms. Administrative Science Quarterly, 35(1), 9-30.",
+  "authors": ["Henderson", "Clark"],
+  "year": 1990,
+  "journal": "ASQ",
+  "tradition": "innovation",
+  "keyMechanism": "Organizations develop two kinds of knowledge: component knowledge (about individual parts) and architectural knowledge (about how parts link together). Once a dominant design emerges, architectural knowledge becomes embedded in communication channels, information filters, and problem-solving routines, making it implicit and hard to change. Innovations that reconfigure linkages between components without changing the components themselves (architectural innovations) are therefore uniquely dangerous to incumbents: they look minor but destroy the usefulness of deeply embedded organizational knowledge, and firms cannot easily recognize or correct the problem.",
+  "predictionForAI": "AI is likely an architectural innovation for most established firms: the core components of business (sales, operations, finance) remain, but AI changes how they connect and interact. This theory predicts that firms using Embedded Teams or Hub-and-Spoke models will struggle most, because they graft AI onto existing communication channels and information filters that encode pre-AI architectural knowledge. Structurally separated units like Skunkworks, Product/Venture Labs, or AI-Native organizations should fare better, since they can build new architectural knowledge from scratch without inheriting embedded routines. The theory also predicts that firms will systematically underestimate AI's organizational impact, treating it as incremental (a better tool within existing workflows) rather than architectural (a reconfiguration of how functions relate to each other).",
+  "connectedInsights": [],
+  "connectedMechanisms": [],
+  "status": "candidate",
+  "addedDate": "2026-02-03",
+  "sourceFile": "library/research papers/Henderson-ArchitecturalInnovationReconfiguration-1990.pdf"
+}

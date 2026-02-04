@@ -53,6 +53,20 @@ export const STRUCTURAL_MODELS: Record<
     characteristics:
       "Cross-functional strike teams assembled for specific AI missions with fixed timelines and clear deliverables, then disbanded or rotated. Maximizes urgency and focus while minimizing permanent headcount. Best for organizations in early exploration phases or those facing acute competitive pressure that demands rapid proof-of-concept work.",
   },
+  8: {
+    name: "Skunkworks",
+    shortName: "M8",
+    description: "Secret or semi-secret autonomous unit (emerging model)",
+    characteristics:
+      "A small, autonomous team operating outside normal organizational processes, often with direct executive sponsorship and minimal oversight. Distinguished from Tiger Teams (M7) by permanence and from Research Labs (M1) by secrecy and operational independence. Predicted based on historical patterns (Lockheed Skunk Works, Apple's original Macintosh team) but not yet confirmed in AI-era specimens.",
+  },
+  9: {
+    name: "AI-Native",
+    shortName: "M9",
+    description: "Organizations born with AI at their core (no legacy to transform)",
+    characteristics:
+      "Companies founded in the AI era where AI is not a transformation initiative but the foundational operating model. There is no 'legacy business' to protect — the entire organization is the exploration vehicle. Distinguished from all other models by the absence of an ambidexterity tension: exploration and execution are unified because the product IS AI. Structural decisions center on scaling research into product, not on protecting exploration from execution pressure.",
+  },
 } as const;
 
 export const SUB_TYPES: Record<string, string> = {
@@ -80,5 +94,5 @@ export const ORIENTATION_DESCRIPTIONS: Record<Orientation, string> = {
 };
 
 export const MODEL_NUMBERS: readonly StructuralModel[] = [
-  1, 2, 3, 4, 5, 6, 7,
+  1, 2, 3, 4, 5, 6, 7, 8, 9,
 ] as const;

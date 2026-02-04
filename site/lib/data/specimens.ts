@@ -97,7 +97,7 @@ export async function getSpecimensByTaxonomy(): Promise<
   const active = specimens.filter((s) => s.meta.status !== "Archived");
 
   const matrix: Record<number, Record<string, Specimen[]>> = {};
-  for (const model of [1, 2, 3, 4, 5, 6, 7] as StructuralModel[]) {
+  for (const model of [1, 2, 3, 4, 5, 6, 7, 8, 9] as StructuralModel[]) {
     matrix[model] = {};
     for (const orientation of [
       "Structural",

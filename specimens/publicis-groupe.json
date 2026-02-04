@@ -1,40 +1,73 @@
 {
   "id": "publicis-groupe",
   "name": "Publicis Groupe",
-  "title": "AI Center of Excellence + Enterprise AI Factories with NVIDIA",
+  "title": "CoreAI Platform — Hub-and-Spoke with Agentic AI",
+
   "classification": {
-    "structuralModel": 2,
-    "structuralModelName": "Center of Excellence",
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
     "subType": null,
     "subTypeName": null,
     "secondaryModel": null,
     "secondaryModelName": null,
     "orientation": "Structural",
     "orientationName": "Structural",
-    "confidence": "Low",
-    "classificationRationale": "Tentative Model 2 (CoE). Publicis created an AI Center of Excellence and 'Enterprise AI Factories' in partnership with NVIDIA. Publicis Sapient (tech consulting arm) launching AI Factory Solutions. Central AI capability serving group agencies. Low confidence: minimal data on internal structure, headcount, reporting.",
+    "confidence": "Medium",
+    "classificationRationale": "Reclassified from M2 (CoE) to M4 (Hub-and-Spoke). CoreAI is the hub — an in-house AI foundation built by Publicis Sapient that unifies 2.3B consumer profiles with trillions of data points. Media, creative, and technology practices are spokes. 73% of operating model now 'AI-powered.' CEO Sadoun explicitly describes CoreAI as connecting all competitive advantages at scale. Multi-model AI vendor strategy (refused to wed to single vendor, unlike WPP/Gemini). Structural orientation: CoreAI is a named, formally-structured platform with dedicated technical core (Publicis Sapient).",
     "typeSpecimen": false
   },
+
   "habitat": {
     "industry": "Advertising/Media",
     "sector": "Marketing Services / Consulting",
     "orgSize": "Enterprise",
-    "employees": null,
-    "revenue": null,
+    "employees": "~100,000",
+    "revenue": "€17.4B (FY2025)",
     "headquarters": "Paris, France",
     "geography": "Global"
   },
-  "description": "Publicis Groupe created an AI Center of Excellence and 'Enterprise AI Factories' in partnership with NVIDIA. Publicis Sapient (the group's tech consulting arm) is launching 'AI Factory Solutions' — a full-stack service for clients to manage the entire AI lifecycle.\n\nThe combined team across Publicis Sapient and NVIDIA advances enterprise AI integration. This represents the advertising/media industry creating dedicated AI organizational structures.",
+
+  "description": "Publicis Groupe has built CoreAI, an in-house AI foundation developed by Publicis Sapient that unifies 2.3 billion consumer profiles with trillions of data points. 73% of the operating model is now described as 'AI-powered,' with agentic AI applications connecting media, creative, data, and technology capabilities at scale.\n\nThe CoreAI platform serves as the hub in a hub-and-spoke arrangement: Publicis Sapient is the technical core building and maintaining the platform; media, creative, and technology practices are spokes that leverage CoreAI for client delivery. CEO Arthur Sadoun explicitly positions this as the company's structural differentiator, stating that only Publicis can connect all four competitive advantages through CoreAI's agentic applications.\n\nNotably, Sadoun has explicitly rejected single-vendor AI dependency ('We are not an AI platform, and we shouldn't compete with those investing trillions into data and new technology'), distinguishing Publicis from WPP's exclusive Gemini deal. The company also created an AI Center of Excellence and 'Enterprise AI Factories' in partnership with NVIDIA, with Publicis Sapient launching 'AI Factory Solutions' for client-facing AI lifecycle management.\n\nFY2025 revenue reached €17.4B (+8.5% reported, +5.6% organic), with operating margin of 18.2% — agentic solutions described as 'taking labor-intensive tasks and creating incremental leverage.'",
+
   "observableMarkers": {
-    "reportingStructure": null,
-    "resourceAllocation": null,
+    "reportingStructure": "CoreAI built by Publicis Sapient (tech consulting arm). CEO Arthur Sadoun leads overall AI strategy.",
+    "resourceAllocation": "NVIDIA Enterprise AI Factories partnership. Multi-model AI vendor strategy.",
     "timeHorizons": null,
-    "decisionRights": null,
-    "metrics": null
+    "decisionRights": "Hub (CoreAI/Publicis Sapient) sets AI standards; spokes (media, creative, tech practices) execute at client sites.",
+    "metrics": "€17.4B revenue (+8.5%). 18.2% operating margin. 73% of operating model AI-powered. 2.3B consumer profiles unified. +5.6% organic growth."
   },
+
   "mechanisms": [],
-  "quotes": [],
+
+  "quotes": [
+    {
+      "text": "What truly makes Publicis a category of one is that only we, thanks to CoreAI agentic applications, connect all four of those competitive advantages at scale.",
+      "speaker": "Arthur Sadoun",
+      "speakerTitle": "CEO, Publicis Groupe",
+      "source": "Ad Age — Publicis Q4 2025 Earnings",
+      "sourceUrl": "https://adage.com/agencies/aa-publicis-q4-2025-earnings/",
+      "timestamp": null,
+      "date": "2026-02-03"
+    },
+    {
+      "text": "We are not an AI platform, and we shouldn't compete with those investing trillions into data and new technology.",
+      "speaker": "Arthur Sadoun",
+      "speakerTitle": "CEO, Publicis Groupe",
+      "source": "Publicis Groupe Full Year 2025 Results",
+      "sourceUrl": "https://www.publicisgroupe.com/en/news/press-releases/publicis-groupe-2025-full-year-results",
+      "timestamp": null,
+      "date": "2026-02-03"
+    }
+  ],
+
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "FY2025 Results — CoreAI Platform & Reclassification M2→M4",
+      "summary": "Reclassified from M2 (CoE) to M4 (Hub-and-Spoke). FY2025 results reveal CoreAI as structural hub: in-house AI foundation built by Publicis Sapient, unifying 2.3B consumer profiles. 73% of operating model AI-powered. Agentic AI applications connecting all practices at scale. Revenue €17.4B (+8.5%), operating margin 18.2%. CEO Sadoun explicitly rejected single-vendor AI dependency (unlike WPP/Gemini). Added habitat data (employees, revenue), CEO quotes, additional sources.",
+      "classification": "Model 4 Hub-and-Spoke",
+      "sourceRefs": ["publicis-fy2025-results", "adage-publicis-q4-2025"]
+    },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
@@ -45,6 +78,7 @@
       ]
     }
   ],
+
   "sources": [
     {
       "id": "source-1",
@@ -55,8 +89,29 @@
       "sourceDate": "2025",
       "collectedDate": "2026-01-31",
       "notes": null
+    },
+    {
+      "id": "publicis-fy2025-results",
+      "type": "Earnings Call",
+      "name": "Publicis Groupe — Full Year 2025 Results",
+      "url": "https://www.publicisgroupe.com/en/news/press-releases/publicis-groupe-2025-full-year-results",
+      "timestamp": null,
+      "sourceDate": "2026-02-03",
+      "collectedDate": "2026-02-04",
+      "notes": "€17.4B revenue, 18.2% margin, CoreAI platform details, multi-vendor AI strategy."
+    },
+    {
+      "id": "adage-publicis-q4-2025",
+      "type": "Press",
+      "name": "Ad Age — Publicis Q4 2025 Earnings",
+      "url": "https://adage.com/agencies/aa-publicis-q4-2025-earnings/",
+      "timestamp": null,
+      "sourceDate": "2026-02-03",
+      "collectedDate": "2026-02-04",
+      "notes": "CEO Sadoun 'category of one' quote, CoreAI agentic applications, WPP/Gemini contrast."
     }
   ],
+
   "contingencies": {
     "regulatoryIntensity": "Low",
     "timeToObsolescence": "Fast",
@@ -64,26 +119,33 @@
     "talentMarketPosition": "Talent-constrained",
     "technicalDebt": "Medium"
   },
+
   "tensionPositions": {
-    "structuralVsContextual": -0.4,
-    "speedVsDepth": 0.2,
+    "structuralVsContextual": -0.3,
+    "speedVsDepth": 0.3,
     "centralVsDistributed": -0.4,
-    "namedVsQuiet": -0.4,
+    "namedVsQuiet": -0.5,
     "longVsShortHorizon": 0.3
   },
+
   "openQuestions": [
-    "How large is the dedicated AI CoE team?",
-    "How does this relate to Publicis's existing Marcel AI platform?",
-    "What's the org structure of the NVIDIA partnership team?"
+    "How large is the dedicated CoreAI/Publicis Sapient AI team?",
+    "How does CoreAI's multi-vendor strategy work in practice — which models for which tasks?",
+    "What is the internal governance structure of CoreAI? Who decides model selection, data access?",
+    "How does the 73% 'AI-powered' claim translate to actual structural changes in team composition?",
+    "What is the NVIDIA Enterprise AI Factories partnership delivering specifically?"
   ],
+
   "taxonomyFeedback": [
-    "Advertising/media industry AI CoE adoption is a new sector for the collection.",
-    "NVIDIA as CoE partnership enabler is a pattern worth tracking — NVIDIA appears in multiple specimens (Publicis, LG, Eli Lilly) as AI infrastructure partner."
+    "Reclassified from M2 to M4. CoreAI is a platform hub, not a standalone CoE. Publicis Sapient builds it; practices consume it. The 73% AI-powered operating model claim suggests deep integration beyond a CoE advisory function.",
+    "Sadoun's explicit rejection of single-vendor AI dependency is a structural governance choice worth tracking as a pattern. Contrast with WPP's exclusive Gemini deal.",
+    "Advertising/media industry remains underrepresented in the collection. Publicis and Stagwell are the only ad industry specimens."
   ],
+
   "meta": {
-    "status": "Stub",
+    "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-04",
     "completeness": "Low",
     "convertedFrom": null
   }

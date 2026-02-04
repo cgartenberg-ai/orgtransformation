@@ -1,9 +1,9 @@
 {
   "id": "databricks",
   "name": "Databricks",
-  "title": "Data/AI Platform — 95% of AI Projects Fail",
+  "title": "Data/AI Platform \u2014 95% of AI Projects Fail",
   "classification": {
-    "structuralModel": 4,
+    "structuralModel": 9,
     "structuralModelName": "Hybrid/Hub-and-Spoke",
     "subType": null,
     "subTypeName": null,
@@ -12,7 +12,7 @@
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Low",
-    "classificationRationale": "Data platform company. CEO Ali Ghodsi's commentary on AI adoption challenges (95% failure rate, LLM commoditization). Very limited org structure data — classification is provisional.",
+    "classificationRationale": "Data platform company. CEO Ali Ghodsi's commentary on AI adoption challenges (95% failure rate, LLM commoditization). Very limited org structure data \u2014 classification is provisional.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -51,7 +51,7 @@
     {
       "id": "bg2-pod-2025-12",
       "type": "Podcast",
-      "name": "BG2 Pod — AI Enterprise: Databricks, Glean",
+      "name": "BG2 Pod \u2014 AI Enterprise: Databricks, Glean",
       "url": "https://podcasts.apple.com/ca/podcast/ai-enterprise-databricks-glean-bg2-guest-interview/id1727278168?i=1000742526917",
       "timestamp": null,
       "sourceDate": "2025-12-23",
@@ -61,7 +61,7 @@
     {
       "id": "dnyuz-2025-12",
       "type": "Press",
-      "name": "AOL/DNYUZ — AI CEOs Say Automation with AI Is Harder Than It Looks",
+      "name": "AOL/DNYUZ \u2014 AI CEOs Say Automation with AI Is Harder Than It Looks",
       "url": "https://dnyuz.com/2025/12/24/ai-ceos-say-automation-with-ai-is-harder-than-it-looks/",
       "timestamp": null,
       "sourceDate": "2025-12-24",

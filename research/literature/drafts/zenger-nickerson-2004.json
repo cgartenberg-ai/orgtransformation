@@ -1,0 +1,15 @@
+{
+  "id": "zenger-nickerson-2004",
+  "citation": "Nickerson, J. A., & Zenger, T. R. (2004). A knowledge-based theory of the firm—The problem-solving perspective. Organization Science, 15(6), 617–632.",
+  "authors": ["Nickerson", "Zenger"],
+  "year": 2004,
+  "journal": "Organization Science",
+  "tradition": "org-econ",
+  "keyMechanism": "The complexity of a problem determines the optimal form of solution search and, in turn, the optimal governance structure. Decomposable problems (low interaction among knowledge sets) are best governed by markets using directional/local search. Nearly decomposable problems suit authority-based hierarchy, where a central figure crafts heuristics to guide search. Highly complex, nondecomposable problems require consensus-based hierarchy with extensive knowledge sharing to develop collective search heuristics. The key trade-off is between high-powered incentives that motivate specialized search effort and governance structures that facilitate the knowledge transfer needed to solve complex problems.",
+  "predictionForAI": "AI adoption problems that are decomposable — where teams can independently optimize subsystems (e.g., deploying off-the-shelf AI tools into distinct business units) — should be governed through market-like structures such as Embedded Teams or decentralized informal adoption, with high autonomy and strong incentives. Nearly decomposable AI problems — where some cross-domain coordination is needed but subproblems can be defined — should use authority-based structures like a Center of Excellence or Hub-and-Spoke, where a central AI leader sets design rules and architectural constraints. Truly nondecomposable AI problems — where AI capability is deeply entangled with product, data, and organizational design (as in AI-Native firms or ambitious transformation efforts) — require consensus-based structures like Research Labs or Skunkworks with extensive horizontal knowledge sharing, shared language, and low-powered incentives. This predicts that organizations will struggle when they use centralized authority (CoE) for problems that are actually nondecomposable, because no single leader can absorb all the relevant knowledge to direct search.",
+  "connectedInsights": [],
+  "connectedMechanisms": [],
+  "status": "candidate",
+  "addedDate": "2026-02-03",
+  "sourceFile": "library/research papers/zenger-nickerson-2004-a-knowledge-based-theory-of-the-firm-the-problem-solving-perspective.pdf"
+}

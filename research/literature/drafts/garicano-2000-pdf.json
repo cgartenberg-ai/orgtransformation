@@ -1,0 +1,15 @@
+{
+  "id": "garicano-2000-pdf",
+  "citation": "Garicano, L. (2000). Hierarchies and the Organization of Knowledge in Production. Journal of Political Economy, 108(5), 874-904.",
+  "authors": ["Garicano"],
+  "year": 2000,
+  "journal": "Journal of Political Economy",
+  "tradition": "org-econ",
+  "keyMechanism": "Hierarchies emerge as the optimal way to organize knowledge when matching problems to those who can solve them is costly. Production workers learn to solve the most common or easiest problems, and unsolved problems are escalated to successive layers of specialized problem solvers who handle increasingly rare or difficult exceptions. The key trade-off is between communication costs (time spent transmitting solutions) and knowledge acquisition costs (learning). The resulting pyramidal organization operates by 'management by exception,' with information flowing vertically from specialists in rare problems down to production workers.",
+  "predictionForAI": "AI dramatically reduces the cost of acquiring knowledge (the c parameter), which the model predicts should increase worker discretion, widen spans of control, flatten hierarchies, and reduce reliance on specialized problem solvers. This favors Embedded Teams and Contextual ambidexterity over dedicated structural separation: when AI tools let frontline workers solve problems they previously escalated, organizations need fewer layers of AI specialists and more broadly skilled workers who switch between exploration and execution. However, AI also reduces communication costs (the h parameter), which has the opposite effect on worker scope -- making it cheaper to centralize problem-solving in a Hub-and-Spoke or Center of Excellence model where AI experts serve many teams. The tension between these two forces predicts that organizations will oscillate between centralized AI units (exploiting cheap communication) and embedded AI capability (exploiting cheap knowledge acquisition), depending on whether the dominant bottleneck is communication or learning.",
+  "connectedInsights": [],
+  "connectedMechanisms": [],
+  "status": "candidate",
+  "addedDate": "2026-02-03",
+  "sourceFile": "library/research papers/Garicano.pdf"
+}

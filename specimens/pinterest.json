@@ -12,7 +12,7 @@
     "orientation": "Contextual",
     "orientationName": "Contextual",
     "confidence": "Low",
-    "classificationRationale": "Tentative Model 6a. Pinterest is cutting 700-800 jobs (10-15% workforce) to 'reallocate resources to AI-focused roles.' No dedicated AI lab, CAIO, or CoE described — the restructuring is enterprise-wide reallocation. CEO frames platform as 'AI-powered shopping assistant.' Contextual: AI embedded across product and sales teams. Low confidence reflects restructuring announcement rather than observed AI org structure.",
+    "classificationRationale": "Tentative Model 6a. Pinterest is cutting ~780 jobs (~15% of ~5,200 workforce) to 'reallocate resources to AI-focused roles.' No dedicated AI lab, CAIO, or CoE described — the restructuring is enterprise-wide reallocation. CEO frames platform as 'AI-powered shopping assistant.' Contextual: AI embedded across product and sales teams. Low confidence reflects restructuring announcement rather than observed AI org structure. SEC filing cites 'transformation initiatives' but no specific AI organizational unit is described.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -24,21 +24,38 @@
     "headquarters": "San Francisco, CA",
     "geography": "Global"
   },
-  "description": "Pinterest is cutting 700-800 jobs (10-15% of ~5,200 workforce) in January 2026, explicitly framed as an AI pivot: 'reallocating resources to AI-focused roles and teams that drive AI adoption and execution.' The company is hiring 'AI-proficient talent' to replace cut roles.\n\nCEO Bill Ready describes the platform as 'an AI-powered shopping assistant for 600 million customers,' with the Pinterest Assistant shopping tool launched October 2025. Pre-tax restructuring charges of $35-45M through September 2026.\n\nNotably, the company acknowledged risks: restructuring may affect talent retention, distract management, and may not deliver intended benefits. Stock fell on announcement.",
+  "description": "Pinterest is cutting approximately 780 jobs (~15% of ~5,200 workforce) announced January 27, 2026, explicitly framed as an AI pivot: SEC filing cites 'transformation initiatives' and resources are being 'reallocated to AI-focused roles and teams that drive AI adoption and execution.' The company is hiring 'AI-proficient talent' to replace cut roles.\n\nCEO Bill Ready describes the platform as 'an AI-powered shopping assistant for 600 million customers,' with AI-powered products including the Pinterest Assistant (shopping recommendations) and AI-powered boards. The restructuring is expected to complete by September 30, 2026 with pre-tax charges of $35-45M. The company also announced office space reductions.\n\nPinterest is among the most explicit companies in tying layoffs directly to an AI pivot, with the SEC filing language making the connection formal and on-the-record. However, the stock fell on the announcement and analysts questioned whether this represents genuine AI-driven transformation or 'AI-washing' for a company with slowing revenue growth.",
   "observableMarkers": {
     "reportingStructure": null,
-    "resourceAllocation": "$35-45M restructuring charges",
-    "timeHorizons": "Restructuring plan through Sept 2026",
+    "resourceAllocation": "$35-45M restructuring charges. ~780 jobs cut (~15%). Office space reductions.",
+    "timeHorizons": "Restructuring plan through Sept 2026.",
     "decisionRights": null,
-    "metrics": "700-800 jobs cut (10-15%). 600M users. Pinterest Assistant launched Oct 2025."
+    "metrics": "~780 jobs cut (~15%). 600M users. Pinterest Assistant launched Oct 2025. AI-powered boards."
   },
   "mechanisms": [],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Our investments in AI and product innovation are paying off. We've become a leader in visual search and have effectively turned our platform into an AI-powered shopping assistant for 600 million customers.",
+      "speaker": "Bill Ready",
+      "speakerTitle": "CEO, Pinterest",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/01/27/pinterest-layoffs-stock-ai.html",
+      "timestamp": null,
+      "date": "2025-11"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Session 002 Update — Additional Sources & Quote",
+      "summary": "Added CEO Bill Ready verbatim quote on AI-powered shopping assistant. Added additional source URLs (Yahoo Finance, Retail Dive, CBS News). Confirmed ~780 specific headcount (~15% of 5,200). Added AI-powered boards and Pinterest Assistant product details.",
+      "classification": null,
+      "sourceRefs": ["yahoo-pinterest-2026", "retaildive-pinterest-2026", "cbs-pinterest-2026"]
+    },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
-      "summary": "Pinterest cuts 700-800 jobs for AI pivot. Hiring AI-proficient talent. CEO frames as AI-powered shopping assistant for 600M customers.",
+      "summary": "Pinterest cuts ~780 jobs (~15%) for AI pivot. SEC filing cites 'transformation initiatives.' Hiring AI-proficient talent. CEO frames as AI-powered shopping assistant for 600M customers. Stock fell on announcement.",
       "classification": null,
       "sourceRefs": [
         "source-1",
@@ -88,6 +105,36 @@
       "sourceDate": "2026-01-27",
       "collectedDate": "2026-01-31",
       "notes": null
+    },
+    {
+      "id": "yahoo-pinterest-2026",
+      "type": "Press",
+      "name": "Yahoo Finance — Pinterest Lay Off 15% Workforce",
+      "url": "https://finance.yahoo.com/news/pinterest-lay-off-15-workforce-171121442.html",
+      "timestamp": null,
+      "sourceDate": "2026-01-27",
+      "collectedDate": "2026-02-03",
+      "notes": "'Transformation initiatives' SEC language."
+    },
+    {
+      "id": "retaildive-pinterest-2026",
+      "type": "Press",
+      "name": "Retail Dive — Pinterest Layoffs AI Investment",
+      "url": "https://www.retaildive.com/news/pinterest-layoffs-ai-investment/810762/",
+      "timestamp": null,
+      "sourceDate": "2026-01-27",
+      "collectedDate": "2026-02-03",
+      "notes": "$35-45M restructuring charges, Sept 2026 completion."
+    },
+    {
+      "id": "cbs-pinterest-2026",
+      "type": "Press",
+      "name": "CBS News — Pinterest Layoffs AI",
+      "url": "https://www.cbsnews.com/news/pinterest-layoffs-workforce-artificial-intelligence/",
+      "timestamp": null,
+      "sourceDate": "2026-01-27",
+      "collectedDate": "2026-02-03",
+      "notes": "AI-powered boards, Pinterest Assistant details."
     }
   ],
   "contingencies": {
@@ -105,18 +152,22 @@
     "longVsShortHorizon": 0.5
   },
   "openQuestions": [
-    "How many of the 700-800 cut roles will be replaced by AI-specific hires?",
+    "How many of the ~780 cut roles will be replaced by AI-specific hires?",
     "What is the actual AI team size at Pinterest?",
-    "Is this genuine AI restructuring or 'AI-washing'?"
+    "Is this genuine AI restructuring or 'AI-washing'?",
+    "What does Pinterest's post-restructuring org chart look like? Are there new AI-specific teams or leadership roles?",
+    "How does the 15% cut map to specific functions (engineering vs. sales vs. content)?",
+    "What AI roles are being created with the reallocated resources?"
   ],
   "taxonomyFeedback": [
     "Pinterest's self-described risks ('may not deliver intended benefits') are rare transparency about AI restructuring uncertainty. Most companies present AI pivots as certain.",
-    "'AI-washing' critique (Axios) raises question: how do we distinguish genuine AI organizational transformation from cost-cutting framed as AI?"
+    "'AI-washing' critique (Axios) raises question: how do we distinguish genuine AI organizational transformation from cost-cutting framed as AI?",
+    "Pinterest is the most explicit case yet of tying workforce cuts to AI pivot via SEC filing. The formal, on-the-record nature of the SEC language makes this a stronger data point than CEO interviews alone."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-04",
     "completeness": "Low",
     "convertedFrom": null
   }

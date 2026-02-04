@@ -1,4 +1,4 @@
-export type StructuralModel = 1 | 2 | 3 | 4 | 5 | 6 | 7;
+export type StructuralModel = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
 
 export type SubType = "5a" | "5b" | "5c" | "6a" | "6b" | "6c";
 

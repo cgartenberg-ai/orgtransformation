@@ -66,9 +66,80 @@ This way, if the session is interrupted:
 
 A session is only marked `"curated"` in `research/queue.json` during Session Wrap-Up, after ALL its organizations have `curated: true`. If wrap-up doesn't run (context exhaustion), the session remains pending and the next run picks up where it left off.
 
-### One Session Per Run
+### One Session Per Run (Default)
 
 Process pending sessions **one at a time**, in queue order. Complete all organisms in one session (or as many as context allows) before moving to the next. This ensures partial progress is always saved to the current session file.
+
+---
+
+## Parallel Curation with Overlapping Specimens
+
+When multiple research sessions are pending and the operator wants to process them in parallel (e.g., launching multiple agents), **overlapping specimens are a data-loss risk**. If two agents write to the same specimen file concurrently, last-writer-wins and the earlier agent's changes are lost.
+
+### Pre-Flight: Overlap Detection
+
+Before launching parallel curation agents, the **coordinator** (the main session) must:
+
+1. **Read all pending session files** and extract the `organizations_found` list from each
+2. **Build an org-to-sessions map** — for each org ID, list which sessions reference it
+3. **Identify overlapping orgs** — any org appearing in 2+ sessions
+
+Example:
+```
+meta-ai:      [session-001, session-002, session-003]  ← OVERLAP
+microsoft:    [session-001, session-003]                ← OVERLAP
+salesforce:   [session-003]                             ← no overlap
+travelers:    [session-004]                             ← no overlap
+```
+
+### Assignment Rules
+
+For each overlapping org, the coordinator assigns it to **exactly one session** using this priority:
+
+1. **Richest data** — assign to the session with the most substantive findings for that org (most sources, deepest structural detail, evolution events)
+2. **Evolution over addition** — if one session flags the org as "evolution" and another as "existing", the evolution session gets ownership
+3. **Tie-break: later session wins** — if data richness is comparable, assign to the chronologically later session (it likely has the most recent data)
+
+The coordinator then:
+- **Marks the org as `skip: true`** in all non-owning sessions' processing instructions
+- **Annotates the owning session** with a note listing the additional sources from skipped sessions that should be incorporated:
+
+```yaml
+# Example annotation for the owning agent
+overlap_assignments:
+  meta-ai:
+    owner: session-002
+    additional_sources_from:
+      - session-001: "Reality Labs 1,500 cuts, Stratechery Meta Compute pivot"
+      - session-003: "Q4 2025 earnings: $164.5B revenue, $65B capex, 72K employees"
+```
+
+### Agent Instructions
+
+Each parallel agent receives:
+- Its assigned session file
+- The overlap assignment map
+- For orgs it owns: a list of additional data from other sessions to incorporate
+- For orgs it should skip: clear `skip: true` flags
+
+Agents **must**:
+- Skip any org marked `skip: true` — do not read or write that specimen
+- For owned overlapping orgs: incorporate data from all sessions (not just their primary session)
+- Write to specimen files only for orgs they own
+
+### Fallback: Sequential Processing
+
+If overlap detection is skipped or fails, fall back to sequential processing (one session at a time). This is always safe because each session reads the specimen file fresh, sees previous sessions' layers, and appends correctly.
+
+### Post-Parallel Reconciliation
+
+After all parallel agents complete, the coordinator should:
+
+1. **Verify overlapping specimens** — read each overlapping specimen file, confirm it contains data from ALL sessions that referenced it
+2. **Patch any gaps** — if an agent failed or missed data from a non-primary session, manually add the missing layers/sources/quotes
+3. **Check for write conflicts** — if file timestamps suggest multiple agents wrote the same file, manually merge
+
+This reconciliation step is required whenever parallel agents were used. Skip it only if all orgs were non-overlapping.
 
 ---
 

@@ -6,14 +6,34 @@ export interface MechanismEvidence {
   notes?: string | null;
 }
 
+export interface AffinityDistribution {
+  count: number;
+  percentage: number;
+  specimens?: string[];
+}
+
+export interface AffinityProfile {
+  modelDistribution: Record<number, AffinityDistribution>;
+  orientationDistribution: Record<string, AffinityDistribution>;
+  primaryModel: number;
+  primaryOrientation: string;
+  specimenCount: number;
+  affinitySummary: string;
+}
+
+export type MechanismMaturity = "emerging" | "confirmed" | "widespread" | "deprecated";
+
 export interface ConfirmedMechanism {
   id: number;
   name: string;
   definition: string;
   problemItSolves: string;
   theoreticalConnection: string;
+  scholarlyAnchor?: string;
+  maturity?: MechanismMaturity;
   specimens: string[];
   evidence: MechanismEvidence[];
+  affinityProfile?: AffinityProfile;
 }
 
 export interface CandidateMechanism {
@@ -22,6 +42,8 @@ export interface CandidateMechanism {
   hypothesis: string;
   evidenceNeeded: string;
   specimens: string[];
+  demotionReason?: string;
+  previousId?: number;
 }
 
 export interface MechanismData {
@@ -42,6 +64,11 @@ export interface TensionSpecimenPosition {
   evidence: string;
 }
 
+export interface TensionContingencyConnection {
+  contingencyId: string;
+  relationship: string;
+}
+
 export interface Tension {
   id: number;
   name: string;
@@ -50,6 +77,9 @@ export interface Tension {
   whenNegative: TensionPole;
   whenPositive: TensionPole;
   keyContingency: string;
+  drivers?: string;
+  connectedContingencies?: TensionContingencyConnection[];
+  interpretiveNote?: string;
   specimens: TensionSpecimenPosition[];
 }
 
@@ -78,4 +108,30 @@ export interface ContingencyData {
   description: string;
   lastUpdated: string;
   contingencies: ContingencyDefinition[];
+}
+
+export interface InsightEvidence {
+  specimenId: string;
+  note: string;
+}
+
+export type InsightMaturity = "hypothesis" | "emerging" | "confirmed";
+
+export interface Insight {
+  id: string;
+  title: string;
+  theme: "convergence" | "organizational-form" | "mechanism" | "workforce" | "methodology";
+  maturity: InsightMaturity;
+  finding: string;
+  evidence: InsightEvidence[];
+  theoreticalConnection?: string;
+  discoveredIn: string;
+  relatedMechanisms?: number[];
+  relatedTensions?: number[];
+}
+
+export interface InsightData {
+  description: string;
+  lastUpdated: string;
+  insights: Insight[];
 }

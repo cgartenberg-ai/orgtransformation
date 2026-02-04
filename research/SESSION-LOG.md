@@ -4,6 +4,137 @@ Running summary of each research session. Updated at wrap-up. Newest sessions at
 
 ---
 
+## 2026-02-04 — Earnings Season Wide-Net Discovery (Q4 2025)
+
+**File**: `sessions/2026-02-04-001-earnings-q4-2025-wide-net.md`
+
+**Sources scanned**: Earnings discovery searches (CAIO, AI restructuring, agentic AI in earnings calls), industry vertical searches (healthcare, insurance, manufacturing, telecom), targeted company follow-ups. Google Q4 and Amazon Q4 transcripts not yet available (calls on Feb 4 and Feb 5).
+
+**Organizations found**:
+
+| Organization | Status | Key Finding |
+|-------------|--------|-------------|
+| Travelers (TRV) | **New** | TravAI in-house agentic AI platform, 20K+ active users, Anthropic/Claude partnership for 10K staff, 30% reduction in claims handle time, 4→2 call centers, 65B clean data points, $1.5B tech investment |
+| ServiceNow (NOW) | **New** | "AI Control Tower," AI Agent Orchestrator, $600M+ Now Assist revenue, McDermott: "obliterate 20th century org charts," dual Anthropic+OpenAI partnerships, $10B+ in acquisitions (Moveworks, Armis) |
+| Accenture (ACN) | Evolution | $865M restructuring, 11K layoffs (791K→779K), "exiting non-reskillable on compressed timeline," 77K AI professionals (up from 40K), 70K trained in agentic AI, $5.9B GenAI bookings |
+| Nokia (NOK) | **New** | Agentic AI for network automation (96% downtime reduction), Nokia Defense incubation unit (potential M8 Skunkworks), €750M restructuring, €2.4B from AI/cloud customers |
+| Workday (WDAY) | **New** | 1,750 layoffs (8.5%), $230-270M charges — AI-washing data point |
+| Publicis Groupe (PUBGY) | Evolution | CoreAI platform, 73% AI-powered operating model, 2.3B consumer profiles, agentic AI applications |
+| RWJBarnabas Health | **New** | Healthcare AI CoE spanning 14 hospitals + Rutgers, joint AI Executive Committee |
+
+**Broader trends**:
+- **Agentic AI as dominant narrative**: McDermott ("obliterate org charts"), Travelers TravAI, Nokia network automation — "agentic" has replaced "copilot" as the structural framing
+- **Insurance as structural AI goldmine**: Travelers is possibly the most operationally detailed non-tech AI deployment — TravAI platform, concrete metrics (30% handle time reduction, 4→2 call centers), deep data moat (65B data points)
+- **"Exit the non-reskillable" pattern**: Accenture CEO explicitly framing layoffs as exiting workers who can't be reskilled — structural triage, not just cost-cutting
+- **CAIO at critical mass**: IBM data shows 26% of orgs now have CAIO (up from 11%), hub-and-spoke model yields 36% higher ROI
+- **Nokia Defense as M8 candidate**: Incubation unit for defense AI — potential first M8 Skunkworks specimen
+
+**New sources**: WebProNews, Insurance Thought Leadership, Roots AI
+
+**Sources updated**: earnings-calls (wide-net discovery session added)
+
+**Follow-ups**: Google Q4 earnings (Feb 4, transcript pending); Amazon Q4 earnings (Feb 5); Travelers deep-scan (TravAI platform deserves dedicated analysis); insurance industry expansion in earnings calendar; Nokia Defense follow-up; Mayo Clinic/Cleveland Clinic structural details
+
+---
+
+## 2026-02-03 — Session 3: Earnings Calls — CapEx Arms Race and Management Delayering
+
+**File**: `sessions/2026-02-03-003-research-earnings-calls-press.md`
+
+**Sources scanned**: Earnings calls (Microsoft Q2 FY2026, Meta Q4 2025, Salesforce Q3 FY2026), Amazon/Google pre-earnings coverage, Platformer (first scan), press keyword searches. CIO Dive discovered as new source.
+
+**Organizations found**:
+
+| Organization | Status | Key Finding |
+|-------------|--------|-------------|
+| Microsoft | Evolution | Q2 FY2026: $81.3B revenue, 10.5% stock plunge (-$375B), $37.5B quarterly CapEx, 15M Copilot paid seats (3.3% penetration), 3M user-created agents, "AI Efficiency" pivot |
+| Meta | Evolution | Q4 2025: $59.89B, $115-135B 2026 CapEx (2x), Zuckerberg: "single talented person replaces big teams," flattening teams, MSL "most talent-dense" |
+| Amazon | Evolution | 30K corporate cuts in 4 months (~9% of 350K), Jassy: "culture not AI" BUT internal AI agents replacing tasks, $150B+ 2026 CapEx |
+| Google | Evolution | Q3: $102.3B, Gemini 650M MAU, Cloud backlog $155B, narrative shift to "AI company that monetizes through ads" — Q4 earnings Feb 4 |
+| Salesforce | Evolution | Agentforce $500M ARR, 9,500 paid deals, 84% AI resolution rate, 2% escalation, 4K support jobs cut and redeployed — cleanest AI restructuring case |
+
+**Broader trends**:
+- CapEx arms race: ~$500-530B combined 2026 AI CapEx from 4 companies; market questioning ROI (Microsoft $375B correction)
+- Management delayering convergence: Zuckerberg ("single talented person"), Galetti/Amazon ("reducing layers"), prior Nadella statements
+- Salesforce as cleanest AI restructuring case: building + using + selling AI-driven restructuring
+- Jassy contradiction: "culture not AI" but internal AI agents replacing tasks — AI-washing in real time
+- Earnings calls elevated to Tier 1 source — highest structural density
+
+**New sources**: CIO Dive (Tier 2 Press)
+
+**Sources updated**: earnings-calls (elevated to Tier 1), platformer (first scan)
+
+**Follow-ups**: Google Q4 earnings Feb 4; Amazon Q4 earnings Feb 5; Salesforce specimen needs major curation update
+
+---
+
+## 2026-02-03 — Session 2: AI Labs, IPOs, and Workforce Restructuring (Press + Podcast Feed Checks)
+
+**File**: `sessions/2026-02-03-002-research-press-podcasts-ai-labs.md`
+
+**Sources scanned**: Dwarkesh (feed check — no new 2026 eps), Acquired (feed check — Ballmer ep triaged, low structural value), Lex Fridman (first scan — Ep #490 State of AI triaged, macro), CNBC (first formal scan), Fortune, The Decoder, press keyword searches
+
+**Organizations found**:
+
+| Organization | Status | Key Finding |
+|-------------|--------|-------------|
+| Meta (MSL) | Evolution | 5th AI restructuring: Alexandr Wang as CAIO, 4-unit MSL structure, LeCun departure, 600 cuts, $14.3B Scale AI deal |
+| AMI Labs | New | LeCun's world-models venture, €500M at €3B valuation, Paris HQ, explicit LLM rejection |
+| Pinterest | New | 15% workforce cut (~780) explicitly tied to AI pivot, resource reallocation to AI roles |
+| Infosys | Evolution | Cursor CoE for 100K+ engineers, AI-native product development at services-firm scale |
+| Anthropic | Evolution | IPO prep with Wilson Sonsini, LTBT governance, $350B valuation, $9B ARR, $50B+ data center |
+| Eli Lilly/NVIDIA | Existing | $1B co-innovation AI lab, co-located Bay Area site, drug discovery focus |
+
+**Broader trends**:
+- AI lab spin-out wave: LeCun (AMI Labs) follows Sutskever (SSI) — senior researchers leaving majors to pursue pure exploration
+- Meta as serial restructuring case: 5 major AI reorgs in ~2 years, each more aggressive, younger leadership
+- AI IPO race as governance experiment: Anthropic LTBT vs. OpenAI profit-cap removal — two models for public AI labs
+- CoE model scaling to 100K+: Infosys arming entire workforce (not small team) with AI tools
+- AI-washing intensifies: Pinterest most explicit case, but analyst skepticism growing
+
+**New sources**: None (CNBC formalized from informal to tracked)
+
+**Sources updated**: dwarkesh-podcast, acquired, lex-fridman (first scan), cnbc (first scan)
+
+**Follow-ups**: Q4 2025 earnings calls (Microsoft, Google, Meta, Amazon) — high priority for AI restructuring language; Invest Like the Best Gavin Baker ep; Meta MSL specimen needs major curation update; Anthropic internal org structure before S-1 filing
+
+---
+
+## 2026-02-03 — Multi-Source Session (Podcasts, Press, Substacks + All-In First Triage)
+
+**File**: `sessions/2026-02-03-001-research-podcasts-press-substacks.md`
+
+**Sources Scanned**: No Priors (feed check through Ep 148), Latent Space (feed check), BG2 Pod (feed check), Stratechery (through Feb 3), All-In Podcast (first triage through ~E259), Press keyword searches (CAIO appointments Feb 2026, AI restructuring/layoffs Feb 2026, AI lab/CoE launches)
+**Source Types**: podcast, substack, press
+
+**Organizations Found (5)**:
+| Org | Status | Key Finding |
+|-----|--------|-------------|
+| SK Telecom | **new** | AI Company-in-Company (CIC) structure — CEO-led independent AI business unit. $3.6B/5yr investment. All AI functions consolidated (assistant, enterprise, data centers, partnerships). MNO/AI business split. CTO appointed from AI CIC head (Feb 2, 2026). OpenAI exclusive B2C partnership. |
+| Pentagon (DoW CDAO) | **new** | Major AI org restructuring: CDAO moved from Deputy SecDef to Under Secretary for R&E. Cameron Stanley named CDAO (dual-hatted as Senior Official for Applied AI). 6 innovation orgs consolidated under single CTO. 3 oversight bodies dissolved → single Action Group. CDAO's own CTO directorate dissolved. 7 Pace-Setting Projects including GenAI.mil. 30-day model deployment mandate. |
+| New York State | **new** | 2nd CAIO in under a year — Eleonore Fournier-Tombs (UN University AI policy lab founder) replaces Shreya Amin who departed for startup. Empire AI consortium. 1,000-employee AI training pilot. Academic/UN → government CAIO pipeline. |
+| Meta | evolution | Reality Labs: 1,500 cuts (10% of 15K), 3 VR studios closed, pivot from metaverse to AI wearables. $70B+ cumulative losses. CFO: losses peak 2026, reduce from 2027. Smart glasses production doubling target (20M/yr). |
+| Microsoft | evolution | Stratechery (Feb 3): OpenAI = 45% of Azure RPO — market now views concentration as liability, not asset. "Full circle" from biggest ChatGPT winner to facing software survival questions. Extends internal MAI vs. external OpenAI structural tension. |
+
+**Broader Trends**:
+- **25,000 tech jobs cut in January 2026** across 27 companies (Layoffs.fyi). AI-attributed layoffs ~55K in 2025.
+- **"AI-washing" credibility problem**: TechCrunch (Feb 1) questions whether AI-cited layoffs are genuine; Oxford Economics says firms not replacing workers at scale; Forrester: 55% employers regret AI layoffs, half will be quietly rehired offshore.
+- **Pentagon "AI-first warfighting force"**: First formal DoW AI strategy memos, CDAO restructured under R&E with "barrier removal SWAT team."
+- **CAIO pipeline diversifying further**: Academic/UN → government (NY State), Military → Pentagon CDAO (Stanley), state-level wave expanding (NY, OK, MT, TX, NC, AR, IL).
+- **All-In Podcast assessment**: First triage — primarily macro AI/market commentary, low org-structural density. Sacks now in government (DOGE) — future source for government AI.
+
+**New Sources Discovered**: DefenseScoop (defense AI org coverage), StateScoop (state government CAIO/AI governance)
+
+**Sources Updated**: No Priors (through Ep 148), Stratechery (through Feb 3), All-In Podcast (first scan), Latent Space (feed check), BG2 Pod (feed check). 2 new sources added (DefenseScoop, StateScoop). Total sources: 43.
+
+**Follow-ups Needed**:
+- HIGH: No Priors Ep 147 Emil Michael (DoW) — deep-scan for Pentagon AI org structure
+- HIGH: BG2 Michael Dell, Dwarkesh Karpathy, Acquired Alphabet Inc (carryover)
+- MEDIUM: SK Telecom CIC governance details; Pentagon GenAI.mil deployment status
+- WATCH: NY State CAIO tenure patterns; Meta post-Reality Labs org restructuring
+
+---
+
 ## 2026-02-01 — Tier 1 Press Broad Scan (First-Ever Scan of 6 Sources)
 
 **File**: `sessions/2026-02-01-002-research-tier1-press-broad-scan.md`

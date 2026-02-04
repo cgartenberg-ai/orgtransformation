@@ -1,0 +1,15 @@
+{
+  "id": "manso-2011",
+  "citation": "Manso, G. (2011). Motivating Innovation. The Journal of Finance, 66(5), 1823-1860.",
+  "authors": ["Manso"],
+  "year": 2011,
+  "journal": "Journal of Finance",
+  "tradition": "org-econ",
+  "keyMechanism": "Standard pay-for-performance contracts that punish failure and reward short-term success are counterproductive for motivating innovation. Using a bandit-problem framework embedded in a principal-agent model, Manso shows that the optimal contract for motivating exploration requires tolerance (or even reward) for early failure combined with reward for long-term success. Commitment to long-term compensation, job security, and timely performance feedback are also essential for exploration, whereas none of these matter for motivating exploitation of known approaches.",
+  "predictionForAI": "Organizations that want AI teams to genuinely explore novel applications -- rather than just implement proven solutions -- need structurally different incentive and governance regimes than those applied to operational units. Dedicated exploration structures like Research Labs, Skunkworks, and Product/Venture Labs should feature long evaluation horizons, protection from termination after early project failures, and compensation tied to long-run outcomes rather than quarterly metrics. Embedded Teams and Hub-and-Spoke models face a harder problem: the same managers may need exploration incentives for AI experimentation and exploitation incentives for core operations, which Manso's model shows require fundamentally incompatible contract structures. This creates a formal economic rationale for structural separation (structural ambidexterity) over contextual ambidexterity when AI work is genuinely exploratory.",
+  "connectedInsights": [],
+  "connectedMechanisms": [],
+  "status": "candidate",
+  "addedDate": "2026-02-03",
+  "sourceFile": "library/research papers/Manso - Motivating Innovation.pdf"
+}

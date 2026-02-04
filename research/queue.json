@@ -1,11 +1,11 @@
 {
-  "description": "Curation queue — research sessions awaiting Phase 2 processing. Updated by Phase 1 (add entries) and Phase 2 (mark curated).",
-  "lastUpdated": "2026-02-02",
+  "description": "Curation queue \u2014 research sessions awaiting Phase 2 processing. Updated by Phase 1 (add entries) and Phase 2 (mark curated).",
+  "lastUpdated": "2026-02-04",
   "queue": [
     {
       "sessionFile": "2026-01-31-no-priors-jensen-huang.md",
       "sessionDate": "2026-01-31",
-      "source": "No Priors — Jensen Huang (2026-01-08)",
+      "source": "No Priors \u2014 Jensen Huang (2026-01-08)",
       "organizationsFound": [
         "nvidia"
       ],
@@ -57,7 +57,7 @@
     {
       "sessionFile": "2026-01-31-bulk-review-batch1.md",
       "sessionDate": "2026-01-31",
-      "source": "Bulk curation review — legacy specimens (batch 1/4: High + Medium + first Low)",
+      "source": "Bulk curation review \u2014 legacy specimens (batch 1/4: High + Medium + first Low)",
       "organizationsFound": [
         "google-x",
         "bank-of-america",
@@ -76,7 +76,7 @@
     {
       "sessionFile": "2026-01-31-bulk-review-batch2.md",
       "sessionDate": "2026-01-31",
-      "source": "Bulk curation review — legacy specimens (batch 2/4)",
+      "source": "Bulk curation review \u2014 legacy specimens (batch 2/4)",
       "organizationsFound": [
         "bosch-bcai",
         "bytedance",
@@ -96,7 +96,7 @@
     {
       "sessionFile": "2026-01-31-bulk-review-batch3.md",
       "sessionDate": "2026-01-31",
-      "source": "Bulk curation review — legacy specimens (batch 3/4)",
+      "source": "Bulk curation review \u2014 legacy specimens (batch 3/4)",
       "organizationsFound": [
         "mckinsey-quantumblack",
         "mckinsey-workforce",
@@ -116,7 +116,7 @@
     {
       "sessionFile": "2026-01-31-bulk-review-batch4.md",
       "sessionDate": "2026-01-31",
-      "source": "Bulk curation review — legacy specimens (batch 4/4)",
+      "source": "Bulk curation review \u2014 legacy specimens (batch 4/4)",
       "organizationsFound": [
         "schneider-electric",
         "servier",
@@ -210,6 +210,65 @@
       ],
       "status": "curated",
       "curatedIn": "2026-02-02-curation.md"
+    },
+    {
+      "sessionFile": "2026-02-03-001-research-podcasts-press-substacks.md",
+      "sessionDate": "2026-02-03",
+      "source": "No Priors (feed check) + Stratechery (Feb 3) + All-In Podcast (first triage) + Press keyword searches (CAIO appointments, AI restructuring, AI lab launches Feb 2026)",
+      "organizationsFound": [
+        "sk-telecom",
+        "pentagon-cdao",
+        "new-york-state",
+        "meta",
+        "microsoft"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-04-curation.md"
+    },
+    {
+      "sessionFile": "2026-02-03-002-research-press-podcasts-ai-labs.md",
+      "sessionDate": "2026-02-03",
+      "source": "Dwarkesh + Acquired + Lex Fridman (feed checks) + Press keyword searches (CAIO, AI restructuring, AI lab launches) + CNBC + Fortune + The Decoder",
+      "organizationsFound": [
+        "meta-msl",
+        "ami-labs",
+        "pinterest",
+        "infosys",
+        "anthropic",
+        "eli-lilly-nvidia"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-04-curation.md"
+    },
+    {
+      "sessionFile": "2026-02-03-003-research-earnings-calls-press.md",
+      "sessionDate": "2026-02-03",
+      "source": "Earnings calls (Microsoft Q2 FY2026, Meta Q4 2025, Salesforce Q3 FY2026) + Amazon/Google pre-earnings coverage + Platformer (first scan) + Press keyword searches",
+      "organizationsFound": [
+        "microsoft",
+        "meta-ai",
+        "amazon-agi",
+        "google-deepmind",
+        "salesforce"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-04-curation.md"
+    },
+    {
+      "sessionFile": "2026-02-04-001-earnings-q4-2025-wide-net.md",
+      "sessionDate": "2026-02-04",
+      "source": "Earnings season wide-net discovery: discovery searches (CAIO, AI restructuring, agentic AI earnings), industry verticals (healthcare, insurance, manufacturing, telecom), targeted company follow-ups",
+      "organizationsFound": [
+        "travelers",
+        "servicenow",
+        "accenture",
+        "nokia",
+        "workday",
+        "publicis-groupe",
+        "rwjbarnabas-health"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-04-curation.md"
     }
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "description": "Supplemental search for 'north star' purpose claims across Batch 1 specimens. Searched for verbatim uses of 'north star' by leaders at 5 target companies in the context of AI adaptation. Result: no instances found. The only documented 'north star' + AI claim in the collection remains Zuckerberg's Q4 2025 earnings statement (meta-ai--005).",
+  "scannedDate": "2026-02-03",
+  "searchQueries": [
+    "\"Satya Nadella\" \"north star\" AI",
+    "\"Tobi Lutke\" OR \"Tobi Lütke\" \"north star\" AI",
+    "\"Bill McDermott\" \"north star\" AI",
+    "\"Dave Ricks\" \"north star\" AI",
+    "\"Andy Jassy\" \"north star\" AI",
+    "Microsoft \"north star\" AI transformation OR strategy 2025 2026",
+    "Shopify \"north star\" AI 2025 2026",
+    "ServiceNow \"north star\" AI 2025 2026",
+    "\"Eli Lilly\" \"north star\" AI 2025 2026",
+    "Amazon \"north star\" AI transformation 2025 2026"
+  ],
+  "searchMethodology": "Exhaustive grep of all project files (specimens/*.json, research/sessions/*.md, research/purpose-claims/, synthesis/, library/) for 'north star' (case-insensitive). Web search tools (WebSearch, WebFetch, Chrome MCP) were all unavailable during this session — no live web searches could be executed. The search therefore covers only claims already captured in prior research sessions and specimen files.",
+  "searchLimitations": "All web access tools were blocked during this scan session. The following high-potential sources could NOT be searched: (1) Microsoft Q2 FY2026 earnings call transcript (Jan 28, 2026); (2) Amazon Q4 2025 earnings call transcript (Feb 5, 2026 — not yet available at scan time); (3) ServiceNow Q4 2025 full earnings transcript; (4) Shopify Q4 2025 earnings (not yet reported); (5) Eli Lilly Q4 2025 earnings (not yet reported); (6) Nadella's annual shareholder letter; (7) Nadella podcast interviews (Dwarkesh, Cheeky Pint — transcripts scanned for existing claims but not re-fetched); (8) Tobi Lutke's April 2025 AI memo full text; (9) Bill McDermott conference appearances (CES, Davos). A RESCAN WITH WEB ACCESS IS REQUIRED to make this search definitive.",
+  "companiesSearched": [
+    {
+      "specimenId": "microsoft",
+      "leaders": ["Satya Nadella", "Mustafa Suleyman"],
+      "northStarFound": false,
+      "notes": "7 purpose claims already documented in pending/microsoft.json — none use 'north star' language. Nadella's directional language favors 'knowledge' (direction-under-uncertainty), 'micro-cultures' (transformation), and 'decades' (temporal framing). No 'north star' found in specimen file, research sessions, or existing purpose claims."
+    },
+    {
+      "specimenId": "shopify",
+      "leaders": ["Tobi Lutke"],
+      "northStarFound": false,
+      "notes": "5 purpose claims already documented in pending/shopify.json — none use 'north star' language. Lutke's directional language in the April 2025 memo favors imperatives ('prove AI can't do it') and personal testimony ('I use it as a thought partner'). No 'north star' found in specimen file, research sessions, or existing purpose claims."
+    },
+    {
+      "specimenId": "servicenow",
+      "leaders": ["Bill McDermott"],
+      "northStarFound": false,
+      "notes": "2 purpose claims already documented in pending/servicenow.json — none use 'north star' language. McDermott's rhetorical style favors dramatic metaphors ('obliterated,' 'AI Control Tower') rather than compass/navigation metaphors. No 'north star' found in specimen file, research sessions, or existing purpose claims."
+    },
+    {
+      "specimenId": "eli-lilly",
+      "leaders": ["Dave Ricks"],
+      "northStarFound": false,
+      "notes": "0 purpose claims documented — Eli Lilly scan was blocked by lack of web access. Only one Ricks quote exists in the project (middle management / deviations, from Cheeky Pint Podcast), and it does not use 'north star' language. This is the least-searched of the 5 companies. HIGH PRIORITY for rescan."
+    },
+    {
+      "specimenId": "amazon-agi",
+      "leaders": ["Andy Jassy", "Beth Galetti", "Matt Garman"],
+      "northStarFound": false,
+      "notes": "5 purpose claims already documented in pending/amazon-agi.json — none use 'north star' language. Jassy's directional language favors identity invocation ('it's culture') and hedged forecasts ('likely cause... to fall in coming years'). Galetti uses structural language ('reducing layers, increasing ownership'). No 'north star' found in specimen file, research sessions, or existing purpose claims. Amazon Q4 2025 earnings (Feb 5) had not yet occurred at scan time."
+    }
+  ],
+  "analyticalNote": "The absence of 'north star' language across these 5 companies is itself analytically interesting. Zuckerberg's usage at Meta (meta-ai--005) may be distinctive rather than representative — a specific rhetorical choice that other CEOs do not mirror. Each CEO has their own directional vocabulary: Nadella uses 'knowledge' and 'decades,' Lutke uses imperatives and personal testimony, McDermott uses dramatic metaphors, Jassy uses cultural identity, and Ricks (from limited data) uses structural arguments about middle management. The 'north star' metaphor — invoking a fixed celestial point for navigation — may appeal specifically to Zuckerberg's framing of AI as a journey requiring a compass ('As we navigate this, our north star is...'). However, this finding is PRELIMINARY and requires web-access rescan to be definitive. The phrase may appear in earnings transcripts, letters, or interviews not yet captured in project files.",
+  "claims": []
+}

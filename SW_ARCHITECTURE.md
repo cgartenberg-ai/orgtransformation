@@ -1,6 +1,6 @@
 # Software Architecture: Ambidexterity Field Guide Site
 
-## Last Updated: February 1, 2026
+## Last Updated: February 3, 2026
 
 ---
 
@@ -8,7 +8,7 @@
 
 An interactive reference site for browsing organizational specimens — how companies structure AI work across exploration and execution.
 
-**Architecture pattern:** Static-first Next.js 14 with file-based data. No database, no auth, no API routes. All data lives in JSON files read by server components at build/request time via Node `fs`.
+**Architecture pattern:** Static-first Next.js 14 with file-based data. No database, no auth. One API route for Claude chat matcher. All data lives in JSON files read by server components at build/request time via Node `fs`.
 
 **Data flow:**
 ```
@@ -55,18 +55,24 @@ site/
 │   ├── specimens/
 │   │   ├── page.tsx                # Browse: SpecimenBrowser with filters + search
 │   │   └── [id]/page.tsx           # Detail: 5-tab view (Overview, Mechanisms, Evolution, Sources, Related)
-│   ├── taxonomy/page.tsx           # Matrix: 7x3 interactive grid
+│   ├── taxonomy/
+│   │   ├── page.tsx                # Matrix: 9x3 interactive grid with model/orientation accordions
+│   │   ├── models/[id]/page.tsx    # Model detail: description, specimens, common principles
+│   │   └── orientations/[id]/page.tsx # Orientation detail: specimens, common principles
 │   ├── mechanisms/
-│   │   ├── page.tsx                # All: confirmed + candidate mechanisms
-│   │   └── [id]/page.tsx           # Detail: single mechanism with specimens
-│   ├── tensions/page.tsx           # Map: D3 force-directed scatter
-│   ├── matcher/page.tsx            # Matcher: 5-dimension contingency matching
+│   │   ├── page.tsx                # All: confirmed + candidate mechanisms with maturity badges
+│   │   └── [id]/page.tsx           # Detail: single mechanism with specimens, scholarly anchor, affinity profile
+│   ├── insights/page.tsx           # Field insights grouped by theme with maturity badges
+│   ├── ai-native/page.tsx          # AI-native org analysis: M9 specimens, model/orientation distribution
+│   ├── tensions/page.tsx           # Map: D3 force-directed scatter with enriched tension cards
+│   ├── matcher/page.tsx            # Matcher: 5-dimension contingency matching + Claude chat advisor
 │   ├── compare/page.tsx            # Compare: side-by-side up to 4
-│   └── about/page.tsx              # About: methodology, taxonomy reference
+│   ├── about/page.tsx              # About: methodology, taxonomy reference
+│   └── api/chat/route.ts           # Streaming Claude API endpoint for chat matcher
 │
 ├── components/
 │   ├── layout/
-│   │   ├── SiteHeader.tsx          # Nav with 7 links (Home, Specimens, Taxonomy, Mechanisms, Tensions, Matcher, About)
+│   │   ├── SiteHeader.tsx          # Nav with 7 links (Specimens, Taxonomy, Principles, Insights, Tensions, Compare, About)
 │   │   └── SiteFooter.tsx          # Footer
 │   ├── specimens/
 │   │   ├── SpecimenBrowser.tsx     # Client: multi-filter list (model, orientation, industry, completeness) + text search
@@ -80,9 +86,13 @@ site/
 │   ├── mechanisms/
 │   │   └── MechanismChip.tsx       # Clickable mechanism badge
 │   ├── matcher/
+│   │   ├── ChatMatcher.tsx         # Client: Claude API streaming chat advisor
+│   │   ├── MatcherTabs.tsx         # Tab toggle (Chat Advisor / Quick Match)
 │   │   └── MatcherForm.tsx         # Client: 5-dimension form + ranked results
 │   ├── taxonomy/
-│   │   └── TaxonomyMatrix.tsx      # Client: interactive 7x3 grid with cell click
+│   │   ├── TaxonomyMatrix.tsx      # Client: interactive 9x3 grid with cell click
+│   │   ├── ModelAccordion.tsx      # Client: expandable model section with mechanisms
+│   │   └── OrientationAccordion.tsx # Client: expandable orientation section
 │   ├── compare/
 │   │   └── ComparisonView.tsx      # Client: side-by-side comparison
 │   ├── visualizations/
@@ -100,10 +110,10 @@ site/
     ├── types/
     │   ├── specimen.ts             # Full type hierarchy (see Section 4)
     │   ├── taxonomy.ts             # STRUCTURAL_MODELS, SUB_TYPES, ORIENTATIONS constants
-    │   └── synthesis.ts            # MechanismData, TensionData, ContingencyData types
+    │   └── synthesis.ts            # MechanismData, TensionData, ContingencyData, InsightData types (incl. InsightMaturity, MechanismMaturity)
     ├── data/
     │   ├── specimens.ts            # Data access: getAllSpecimens, getSpecimenById, getComputedStats, getSpecimensByTaxonomy
-    │   └── synthesis.ts            # Data access: getMechanisms, getTensions, getContingencies
+    │   └── synthesis.ts            # Data access: getMechanisms, getTensions, getContingencies, getInsights
     ├── matching.ts                 # Situation matcher scoring algorithm
     └── utils.ts                    # cn() — clsx + tailwind-merge helper
 ```
@@ -115,7 +125,7 @@ site/
 ### 4.1 Specimen (Primary Entity)
 
 **Schema:** `lib/types/specimen.ts`
-**Storage:** One JSON file per specimen in `../specimens/` (65 files as of Feb 2026)
+**Storage:** One JSON file per specimen in `../specimens/` (85 files as of Feb 2026)
 
 ```typescript
 interface Specimen {
@@ -139,7 +149,7 @@ interface Specimen {
 ```
 
 **Key types:**
-- `StructuralModel`: `1 | 2 | 3 | 4 | 5 | 6 | 7`
+- `StructuralModel`: `1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9`
 - `SubType`: `"5a" | "5b" | "5c" | "6a" | "6b" | "6c"`
 - `Orientation`: `"Structural" | "Contextual" | "Temporal"`
 - `Confidence`: `"High" | "Medium" | "Low"`
@@ -151,9 +161,20 @@ interface Specimen {
 **Mechanisms** (`../synthesis/mechanisms.json`):
 ```typescript
 interface MechanismData {
-  confirmed: ConfirmedMechanism[];  // 10 confirmed: id, name, definition, problemItSolves, theoreticalConnection, specimens[], evidence[]
-  candidates: CandidateMechanism[]; // 5 candidates: name, hypothesis, evidenceNeeded, observedIn[], specimens[]
+  confirmed: ConfirmedMechanism[];  // 9 confirmed: id, name, definition, problemItSolves, theoreticalConnection, scholarlyAnchor, maturity, specimens[], evidence[], affinityProfile
+  candidates: CandidateMechanism[]; // 9 candidates: name, hypothesis, evidenceNeeded, observedIn[], specimens[], demotionReason?
 }
+// MechanismMaturity: "emerging" | "confirmed" | "widespread" | "deprecated"
+```
+
+**Insights** (`../synthesis/insights.json`):
+```typescript
+interface InsightData {
+  insights: Insight[];  // 13 insights: id, title, theme, maturity, finding, evidence[], theoreticalConnection, relatedMechanisms[], relatedTensions[]
+}
+// InsightMaturity: "hypothesis" | "emerging" | "confirmed"
+// Themes: "convergence" | "organizational-form" | "mechanism" | "workforce" | "methodology"
+// GUARDRAIL: Insights are NEVER deleted — only updated with new evidence or new insights added
 ```
 
 **Tensions** (`../synthesis/tensions.json`):
@@ -183,7 +204,7 @@ interface ContingencyData {
 
 **`lib/data/synthesis.ts`:**
 - `SYNTHESIS_DIR = path.resolve(process.cwd(), "..", "synthesis")`
-- `getMechanisms()`, `getTensions()`, `getContingencies()` — simple file reads with type casting
+- `getMechanisms()`, `getTensions()`, `getContingencies()`, `getInsights()` — simple file reads with type casting
 
 **No caching layer.** Per-request reads in dev mode; build-time reads for static pages.
 
@@ -233,11 +254,15 @@ The Situation Matcher lets users input their organizational context and find pee
 - Y-axis: force simulation with weak centering + collision avoidance
 - **Simulation runs synchronously** (200 ticks on mount) — no continuous animation
 - Circles colored by structural model (MODEL_COLORS map, forest/sage/amber hues)
-- Model number displayed inside circle as "M1", "M2", etc.
+- Model number displayed inside circle as "M1", "M2", etc. (r=13 circles)
 - Name label below each circle (truncated to 14 chars)
-- Hover: shows specimen preview panel below the map
+- **Pole labels** with directional arrows (`← label` / `label →`) outside chart area at vertical center
+- **Background color zones**: warm (#F8F0E8) for negative pole, cool (#E8F0E8) for positive pole
+- **Scale markers** (-1, -0.5, 0, +0.5, +1) along bottom axis
+- 120px padding on each side for pole labels; chart height 420px
+- Hover: shows specimen preview panel below the map (uses `typeof hoveredValue === "number"` guard)
 - Click: navigates to specimen detail page via Next.js Link
-- Legend shows all 7 model colors
+- Legend shows all 9 model colors
 - SVG viewBox responsive, contained in `overflow-x-auto` wrapper
 
 ### EvolutionTimeline (`components/visualizations/EvolutionTimeline.tsx`)
@@ -314,16 +339,21 @@ Each color has a full scale (50-900) defined in `tailwind.config.ts`.
 
 | Route | Page Data Dependencies | Key Client Component | Static? |
 |-------|----------------------|---------------------|---------|
-| `/` | `getAllSpecimens`, `getComputedStats`, `getMechanisms` | (none — server rendered) | No |
+| `/` | `getAllSpecimens`, `getComputedStats`, `getMechanisms`, `getInsights` | (none — server rendered) | No |
 | `/specimens` | `getAllSpecimens` | `SpecimenBrowser` | No |
-| `/specimens/[id]` | `getSpecimenById`, `getAllSpecimens` (related), `getMechanisms` | `SpecimenTabs` | Yes (generateStaticParams) |
-| `/taxonomy` | `getSpecimensByTaxonomy` | `TaxonomyMatrix` | No |
+| `/specimens/[id]` | `getSpecimenById`, `getAllSpecimens` (related), `getMechanisms`, `getInsights` | `SpecimenTabs` | Yes (generateStaticParams) |
+| `/taxonomy` | `getSpecimensByTaxonomy`, `getMechanisms` | `TaxonomyMatrix`, `ModelAccordion`, `OrientationAccordion` | No |
+| `/taxonomy/models/[id]` | `getAllSpecimens`, `getMechanisms` | (none) | Yes (generateStaticParams) |
+| `/taxonomy/orientations/[id]` | `getAllSpecimens`, `getMechanisms` | (none) | Yes (generateStaticParams) |
 | `/mechanisms` | `getMechanisms` | (none) | No |
 | `/mechanisms/[id]` | `getMechanisms`, `getAllSpecimens` | (none) | Yes (generateStaticParams) |
+| `/insights` | `getInsights`, `getAllSpecimens` | (none) | No |
+| `/ai-native` | `getAllSpecimens`, `getMechanisms` | (none) | No |
 | `/tensions` | `getTensions`, `getAllSpecimens` | `TensionMap` | No |
-| `/matcher` | `getAllSpecimens`, `getContingencies` | `MatcherForm` | No |
+| `/matcher` | `getAllSpecimens`, `getContingencies` | `MatcherForm`, `ChatMatcher` | No |
 | `/compare` | `getAllSpecimens` | `ComparisonView` | No |
 | `/about` | (none) | (none) | No |
+| `/api/chat` | — | — | No (API route) |
 
 ---
 

@@ -247,6 +247,46 @@
       "notes": "~$26B projected annualized revenue."
     },
     {
+      "id": "fortune-ipo-race-2026",
+      "type": "Press",
+      "name": "Fortune — Start Your Engines: OpenAI, Anthropic Race to IPO",
+      "url": "https://fortune.com/2026/02/02/start-your-engines-openai-anthropic-race-to-ipo/",
+      "timestamp": null,
+      "sourceDate": "2026-02-02",
+      "collectedDate": "2026-02-03",
+      "notes": "Wilson Sonsini hired. Kalshi 72% odds Anthropic lists first. IPO race context."
+    },
+    {
+      "id": "opentools-ipo-2026",
+      "type": "Press",
+      "name": "OpenTools AI News — Anthropic IPO Set to Revolutionize AI Landscape",
+      "url": "https://opentools.ai/news/anthropics-ipo-set-to-revolutionize-ai-landscape-in-2026",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-03",
+      "notes": "$350B valuation, $10B round."
+    },
+    {
+      "id": "financialcontent-ipo-2026",
+      "type": "Press",
+      "name": "FinancialContent — Anthropic Signals End of AI Wild West",
+      "url": "https://www.financialcontent.com/article/tokenring-2026-1-8-anthropic-signals-end-of-ai-wild-west-with-landmark-2026-ipo-preparations",
+      "timestamp": null,
+      "sourceDate": "2026-01-08",
+      "collectedDate": "2026-02-03",
+      "notes": "$1B → $9B ARR trajectory, Claude Code $1B ARR."
+    },
+    {
+      "id": "jdpglobal-ipo-2025",
+      "type": "Press",
+      "name": "JDP Global — Anthropic's Path to a Potential 2026 IPO",
+      "url": "https://www.jdpglobal.com/anthropics-path-to-a-potential-2026-ipo-a-venture-capital-perspective/",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-03",
+      "notes": "$50B next data center project, public markets capital needs."
+    },
+    {
       "id": "cwt-clark-2025",
       "type": "Podcast",
       "name": "Conversations with Tyler — Jack Clark (Anthropic)",
@@ -286,7 +326,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-04",
     "completeness": "Medium",
     "convertedFrom": "library/cases/anthropic.json"
   }

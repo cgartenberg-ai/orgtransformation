@@ -3,7 +3,7 @@
   "name": "Harvey AI",
   "title": "Legal AI at Enterprise Scale",
   "classification": {
-    "structuralModel": 5,
+    "structuralModel": 9,
     "structuralModelName": "Product/Venture Lab",
     "subType": "5a",
     "subTypeName": "Internal Incubator",
@@ -12,7 +12,7 @@
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Low",
-    "classificationRationale": "Harvey is a standalone AI company building legal AI products, not an internal unit of a larger org. Classified as 5a (Internal Incubator) because it's productizing AI research into legal domain products. However, data is very thin — only a podcast description and brief notes. The claim about 'putting together complex client matters to make law firms more profitable' suggests structural transformation of work delivery, not just tool adoption.",
+    "classificationRationale": "Harvey is a standalone AI company building legal AI products, not an internal unit of a larger org. Classified as 5a (Internal Incubator) because it's productizing AI research into legal domain products. However, data is very thin \u2014 only a podcast description and brief notes. The claim about 'putting together complex client matters to make law firms more profitable' suggests structural transformation of work delivery, not just tool adoption.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -25,7 +25,7 @@
     "geography": "North America",
     "orgType": "AI-native"
   },
-  "description": "Harvey AI is a legal AI company that scaled to approximately 1,000 customers — including Walmart, PwC, and other Fortune 500 companies — in just 3 years. The company's approach goes beyond individual lawyer productivity to focus on 'putting together complex client matters to make law firms more profitable.' This suggests a structural transformation of how legal work is delivered, not just tool adoption.\n\nFounded by Gabe Pereyra, Harvey represents the vertical AI application pattern: deep domain expertise (legal) combined with frontier AI models to restructure professional services workflows.",
+  "description": "Harvey AI is a legal AI company that scaled to approximately 1,000 customers \u2014 including Walmart, PwC, and other Fortune 500 companies \u2014 in just 3 years. The company's approach goes beyond individual lawyer productivity to focus on 'putting together complex client matters to make law firms more profitable.' This suggests a structural transformation of how legal work is delivered, not just tool adoption.\n\nFounded by Gabe Pereyra, Harvey represents the vertical AI application pattern: deep domain expertise (legal) combined with frontier AI models to restructure professional services workflows.",
   "observableMarkers": {
     "reportingStructure": null,
     "resourceAllocation": null,
@@ -39,7 +39,7 @@
     {
       "date": "2025-12",
       "label": "Initial Documentation",
-      "summary": "Podcast appearance (No Priors, Dec 2025) — ~1,000 customers including Fortune 500, focused on restructuring legal work delivery beyond productivity tools.",
+      "summary": "Podcast appearance (No Priors, Dec 2025) \u2014 ~1,000 customers including Fortune 500, focused on restructuring legal work delivery beyond productivity tools.",
       "classification": null,
       "sourceRefs": [
         "no-priors-pereyra-2025"
@@ -50,12 +50,12 @@
     {
       "id": "no-priors-pereyra-2025",
       "type": "Podcast",
-      "name": "No Priors — Gabe Pereyra (Harvey AI)",
+      "name": "No Priors \u2014 Gabe Pereyra (Harvey AI)",
       "url": "https://open.spotify.com/show/0O65xhqvGVhpgdIrrdlEYk",
       "timestamp": null,
       "sourceDate": "2025-12-05",
       "collectedDate": "2026-01-31",
-      "notes": "Episode description only — deep scan needed for org structure details."
+      "notes": "Episode description only \u2014 deep scan needed for org structure details."
     }
   ],
   "contingencies": {
@@ -78,7 +78,7 @@
     "How are law firm workflows actually restructured by Harvey's product?"
   ],
   "taxonomyFeedback": [
-    "Harvey represents the 'vertical AI company' pattern — deep domain expertise + frontier models. This may be a distinct sub-pattern worth tracking."
+    "Harvey represents the 'vertical AI company' pattern \u2014 deep domain expertise + frontier models. This may be a distinct sub-pattern worth tracking."
   ],
   "meta": {
     "status": "Stub",

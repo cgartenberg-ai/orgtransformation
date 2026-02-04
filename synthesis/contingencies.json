@@ -1,6 +1,6 @@
 {
   "description": "Living document \u2014 key contingencies that determine which structural approach is appropriate. Updated during Phase 3 synthesis sessions.",
-  "lastUpdated": "2026-02-02",
+  "lastUpdated": "2026-02-04",
   "contingencies": [
     {
       "id": "regulatoryIntensity",
@@ -40,7 +40,11 @@
           "waystar",
           "indostar-capital",
           "invent-advisory",
-          "pwc"
+          "pwc",
+          "travelers",
+          "pentagon-cdao",
+          "new-york-state",
+          "rwjbarnabas-health"
         ]
       },
       "medium": {
@@ -66,7 +70,10 @@
           "univers-ial",
           "dow",
           "ups",
-          "ntt-data"
+          "ntt-data",
+          "servicenow",
+          "nokia",
+          "sk-telecom"
         ]
       },
       "low": {
@@ -99,7 +106,9 @@
           "mercor",
           "sierra-ai",
           "publicis-groupe",
-          "stagwell"
+          "stagwell",
+          "accenture-openai",
+          "workday"
         ]
       }
     },
@@ -140,7 +149,11 @@
           "publicis-groupe",
           "ntt-data",
           "pwc",
-          "stagwell"
+          "stagwell",
+          "servicenow",
+          "accenture-openai",
+          "sk-telecom",
+          "workday"
         ]
       },
       "medium": {
@@ -164,7 +177,9 @@
           "waystar",
           "sap",
           "indostar-capital",
-          "invent-advisory"
+          "invent-advisory",
+          "nokia",
+          "pentagon-cdao"
         ]
       },
       "low": {
@@ -190,7 +205,10 @@
           "ci-med",
           "dow",
           "ups",
-          "coca-cola"
+          "coca-cola",
+          "travelers",
+          "new-york-state",
+          "rwjbarnabas-health"
         ]
       }
     },
@@ -215,7 +233,10 @@
           "google-x",
           "bank-of-america",
           "tencent",
-          "stagwell"
+          "stagwell",
+          "travelers",
+          "servicenow",
+          "sk-telecom"
         ]
       },
       "founder": {
@@ -254,7 +275,10 @@
           "bcg-trailblazers",
           "amazon",
           "sap",
-          "siemens"
+          "siemens",
+          "nokia",
+          "accenture-openai",
+          "workday"
         ]
       },
       "low": {
@@ -280,7 +304,9 @@
           9
         ],
         "specimens": [
-          "coca-cola"
+          "coca-cola",
+          "pentagon-cdao",
+          "new-york-state"
         ]
       },
       "critical": {
@@ -334,7 +360,10 @@
           "snowflake",
           "mercado-libre",
           "ntt-data",
-          "pwc"
+          "pwc",
+          "servicenow",
+          "accenture-openai",
+          "workday"
         ]
       },
       "low": {
@@ -368,7 +397,13 @@
           "ups",
           "indostar-capital",
           "invent-advisory",
-          "stagwell"
+          "stagwell",
+          "travelers",
+          "nokia",
+          "sk-telecom",
+          "pentagon-cdao",
+          "new-york-state",
+          "rwjbarnabas-health"
         ]
       },
       "nonTraditional": {
@@ -411,7 +446,11 @@
           "walmart",
           "citigroup",
           "dow",
-          "ups"
+          "ups",
+          "nokia",
+          "pentagon-cdao",
+          "new-york-state",
+          "rwjbarnabas-health"
         ]
       },
       "medium": {
@@ -441,7 +480,9 @@
           "publicis-groupe",
           "waystar",
           "indostar-capital",
-          "ntt-data"
+          "ntt-data",
+          "travelers",
+          "sk-telecom"
         ]
       },
       "low": {
@@ -475,7 +516,10 @@
           "nordic-semiconductor",
           "univers-ial",
           "pwc",
-          "stagwell"
+          "stagwell",
+          "servicenow",
+          "accenture-openai",
+          "workday"
         ]
       }
     }

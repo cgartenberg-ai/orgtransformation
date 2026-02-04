@@ -1,15 +1,16 @@
 import { getAllSpecimens, getComputedStats } from "@/lib/data/specimens";
-import { getMechanisms } from "@/lib/data/synthesis";
+import { getMechanisms, getInsights } from "@/lib/data/synthesis";
 import { STRUCTURAL_MODELS } from "@/lib/types/taxonomy";
 import type { StructuralModel } from "@/lib/types/specimen";
 import { FieldObservation } from "@/components/home/FieldObservation";
 import Link from "next/link";
 
 export default async function HomePage() {
-  const [stats, specimens, mechanismData] = await Promise.all([
+  const [stats, specimens, mechanismData, insightData] = await Promise.all([
     getComputedStats(),
     getAllSpecimens(),
     getMechanisms(),
+    getInsights(),
   ]);
 
   const typeSpecimens = specimens.filter((s) => s.classification.typeSpecimen);
@@ -77,7 +78,7 @@ export default async function HomePage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════
-          Section 2: Seven Structural Species
+          Section 2: Nine Structural Species
           ═══════════════════════════════════════════════════════════ */}
       <section className="bg-cream-50 px-4 py-20 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
@@ -86,7 +87,7 @@ export default async function HomePage() {
               The Taxonomy
             </p>
             <h2 className="mt-2 font-serif text-3xl font-semibold text-forest">
-              Seven Structural Species
+              Nine Structural Species
             </h2>
             <p className="mx-auto mt-3 max-w-lg text-charcoal-500">
               Every organization in the collection fits one of these forms.
@@ -94,7 +95,7 @@ export default async function HomePage() {
             </p>
           </div>
           <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-            {([1, 2, 3, 4, 5, 6, 7] as StructuralModel[]).map((model) => {
+            {([1, 2, 3, 4, 5, 6, 7, 8, 9] as StructuralModel[]).map((model) => {
               const info = STRUCTURAL_MODELS[model];
               const count = stats.byModel[String(model)] ?? 0;
               return (
@@ -224,6 +225,67 @@ export default async function HomePage() {
                 </Link>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* ═══════════════════════════════════════════════════════════
+          Section: Key Field Insights
+          ═══════════════════════════════════════════════════════════ */}
+      <section className="bg-cream-50 px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl">
+          <div className="text-center">
+            <p className="font-mono text-xs uppercase tracking-[0.2em] text-sage-500">
+              From the Field
+            </p>
+            <h2 className="mt-2 font-serif text-3xl font-semibold text-forest">
+              Key Findings
+            </h2>
+            <p className="mx-auto mt-3 max-w-lg text-charcoal-500">
+              Cross-cutting patterns discovered across the specimen collection.
+            </p>
+          </div>
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {insightData.insights.slice(0, 6).map((insight) => (
+              <Link
+                key={insight.id}
+                href="/insights"
+                className="group rounded-xl border border-sage-200 bg-white p-5 transition-all hover:-translate-y-1 hover:shadow-md"
+              >
+                <p className="font-mono text-[10px] uppercase tracking-wide text-sage-500">
+                  {insight.theme.replace("-", " ")}
+                </p>
+                <p className="mt-2 font-serif text-base font-medium text-forest group-hover:text-forest-600">
+                  {insight.title}
+                </p>
+                <p className="mt-2 line-clamp-3 text-sm leading-snug text-charcoal-500">
+                  {insight.finding}
+                </p>
+                <div className="mt-3 flex flex-wrap gap-1">
+                  {insight.evidence.slice(0, 3).map((e) => (
+                    <span
+                      key={e.specimenId}
+                      className="rounded bg-sage-50 px-1.5 py-0.5 text-[10px] text-sage-600"
+                    >
+                      {e.specimenId}
+                    </span>
+                  ))}
+                  {insight.evidence.length > 3 && (
+                    <span className="text-[10px] text-charcoal-400">
+                      +{insight.evidence.length - 3} more
+                    </span>
+                  )}
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div className="mt-8 text-center">
+            <Link
+              href="/insights"
+              className="font-mono text-sm text-forest hover:underline"
+            >
+              View all {insightData.insights.length} insights &rarr;
+            </Link>
           </div>
         </div>
       </section>

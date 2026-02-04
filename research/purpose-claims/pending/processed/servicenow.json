@@ -1,0 +1,41 @@
+{
+  "specimenId": "servicenow",
+  "scannedDate": "2026-02-03",
+  "claimsFound": 2,
+  "quality": "adequate",
+  "claims": [
+    {
+      "id": "servicenow--001",
+      "specimenId": "servicenow",
+      "claimType": "utopian",
+      "text": "We need to have those 20th century org charts obliterated... we now need to work in teams. Teams need to work across processes, and the agents need to be the best friend to humans.",
+      "speaker": "Bill McDermott",
+      "speakerTitle": "CEO, ServiceNow",
+      "context": "Q4 2025 earnings call, discussing ServiceNow's AI agent orchestration strategy and the organizational implications of agentic AI replacing traditional hierarchical structures",
+      "rhetoricalFunction": "Frames AI not as a tool upgrade but as an organizational revolution requiring the destruction of existing hierarchical structures. Positions agentic AI as the catalyst for replacing vertical reporting with horizontal team-based work. The word 'obliterated' is deliberately violent — this is not evolution, it is demolition. The 'best friend to humans' softens the destruction framing with a partnership metaphor.",
+      "source": "ServiceNow Q4 2025 Earnings Call (via CNBC)",
+      "sourceUrl": "https://www.cnbc.com/2026/01/28/servicenow-now-q4-2025-earnings-report.html",
+      "sourceType": "Earnings Call",
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-02-03",
+      "notes": "Secondary type: transformation-framing. This is among the most structurally explicit CEO statements in the entire specimen collection — comparable to Zuckerberg's 'single talented person' comment at Meta. McDermott is a famously rhetorical CEO (former SAP CEO). The 'obliterated' language goes further than most transformation claims — it doesn't just describe change, it calls for destruction of existing structures. Cross-reference: the claim maps to mechanism M13 (Replace Coordination Layers with AI) and the agentic-ai-as-organizational-restructuring-tool field signal."
+    },
+    {
+      "id": "servicenow--002",
+      "specimenId": "servicenow",
+      "claimType": "identity",
+      "text": "AI Control Tower for the global enterprise.",
+      "speaker": "Bill McDermott",
+      "speakerTitle": "CEO, ServiceNow",
+      "context": "Q4 2025 earnings call, positioning ServiceNow's role in the AI agent ecosystem — describing the company as the central orchestrator that coordinates specialized AI agents across enterprise systems and workflows",
+      "rhetoricalFunction": "Organizational identity claim that redefines ServiceNow from workflow automation platform to the command center of the AI enterprise. The 'Control Tower' metaphor invokes air traffic control — a single point of coordination managing complex, autonomous agents. This frames ServiceNow not as one AI vendor among many, but as the indispensable orchestration layer. It also implies customers need a central authority over their AI agents — a structural argument for hub-and-spoke topology.",
+      "source": "ServiceNow Q4 2025 Earnings Call (via CNBC / FinancialContent)",
+      "sourceUrl": "https://www.cnbc.com/2026/01/28/servicenow-now-q4-2025-earnings-report.html",
+      "sourceType": "Earnings Call",
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-02-03",
+      "notes": "Secondary type: transformation-framing. This phrase may be a paraphrase rather than exact verbatim — the research session records McDermott 'describes ServiceNow as' the AI Control Tower, but it is used consistently as a direct positioning claim across multiple sources. Confidence in verbatim accuracy: medium. The phrase appears in both CNBC and FinancialContent coverage. Cross-reference: the 'Control Tower' metaphor is the product-level instantiation of the structural claim in servicenow--001. If org charts are obliterated, something must coordinate the resulting chaos — ServiceNow claims to be that something."
+    }
+  ],
+  "scanNotes": "Web search and web fetch tools were unavailable during this scan. Claims were extracted from existing project research files: specimen card (specimens/servicenow.json), research session (research/sessions/2026-02-04-001-earnings-q4-2025-wide-net.md), and synthesis files. McDermott is a famously quotable CEO known for bold rhetoric — a dedicated web scan would likely yield additional claims, particularly from CNBC/Bloomberg interviews around the Q4 2025 earnings. Recommended follow-up: re-scan with web access to capture (a) additional McDermott quotes from the full earnings call transcript, (b) any CES 2025 or Davos 2025/2026 quotes, (c) quotes from the Moveworks/Armis acquisition announcements. Quality rated 'adequate' rather than 'rich' because web access limitations prevented finding the full range of McDermott's AI purpose rhetoric."
+}

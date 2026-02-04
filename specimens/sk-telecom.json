@@ -1,0 +1,178 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "sk-telecom",
+  "name": "SK Telecom",
+  "title": "AI Company-in-Company with CEO Dual-Hat",
+
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5a",
+    "subTypeName": "Internal Incubator",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "AI CIC (Company-in-Company) consolidates all AI functions into a structurally independent business unit with its own revenue targets ($3.55B by 2030), dedicated investment ($3.6B over 5 years), and CEO dual-hat leadership. Classified as M5a (Internal Incubator) because the CIC builds AI products and services that remain within the parent company. The CIC model is more autonomous than a typical incubator — closer to a subsidiary in governance — but the CEO dual-hat and KRW 5T ring-fenced budget indicate structural separation rather than spin-off. Medium confidence because CIC governance details (board structure, decision rights vs. parent) are not yet documented. The business split into MNO and AI halves with CEO leading both suggests this could evolve toward M8 (Skunkworks) if AI absorbs core operations, but current evidence shows parallel businesses, not replacement.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Telecommunications",
+    "sector": "Mobile Network Operations / AI Services",
+    "orgSize": "Enterprise",
+    "employees": 15000,
+    "revenue": null,
+    "headquarters": "Seoul, South Korea",
+    "geography": "South Korea / Global partnerships"
+  },
+
+  "description": "SK Telecom launched an AI CIC (Company-in-Company) in September 2025 — a structurally independent AI business unit that consolidates all AI functions under one roof: personal assistant (A.), enterprise AI service (A. Biz), AI data center business, global AI partnerships (OpenAI, Anthropic), R&D, and messaging/authentication. The CIC has KRW 5 trillion ($3.6B) committed over five years and targets $3.55B in annual AI revenue by 2030.\n\nThe most distinctive structural feature is the CEO dual-hat: CEO Ryu Young-sang concurrently serves as CEO of the AI CIC, signaling that AI is not a delegated initiative but a CEO-led transformation. The company is now divided into two halves — MNO (mobile network operations) and AI — with the CEO straddling both. In February 2026, the head of the AI CIC (Jeong Seokgeun) was elevated to CTO, further consolidating AI leadership at the top of the organization.\n\nThe AI CIC also pursues 'AI Transformation (AX)' — embedding AI into all internal systems and infrastructure — and has established an exclusive B2C partnership with OpenAI to offer ChatGPT to all SKT subscribers. The vision extends beyond SKT itself: the CIC is positioned as 'the core that leads the AI business for the entire SK Group,' suggesting cross-conglomerate AI leadership ambitions. Context: a major data breach affecting 23 million customers preceded the AI pivot, with $514M invested in security.",
+
+  "observableMarkers": {
+    "reportingStructure": "AI CIC CEO is same person as SK Telecom CEO (Ryu Young-sang). AI CIC head (Jeong Seokgeun) elevated to CTO in Feb 2026. Business split into MNO and AI halves.",
+    "resourceAllocation": "KRW 5 trillion ($3.6B) committed over 5 years to AI CIC. $514M separately for security post-breach.",
+    "timeHorizons": "Revenue target of $3.55B annual AI revenue by 2030 (5-year horizon). CIC launched September 2025.",
+    "decisionRights": "CEO dual-hatted across MNO and AI. CIC described as 'structurally independent' but governance details (board, autonomy from parent) unknown.",
+    "metrics": "$3.55B annual AI revenue target by 2030. OpenAI partnership as B2C distribution channel."
+  },
+
+  "mechanisms": [
+    {
+      "id": 6,
+      "name": "Merge Competing AI Teams Under Single Leader",
+      "evidence": "AI CIC consolidates ALL AI functions that were previously separate: personal assistant, enterprise service, data center business, global partnerships, R&D, messaging/authentication — all under a single CIC structure led by the CEO.",
+      "strength": "Strong"
+    }
+  ],
+
+  "quotes": [
+    {
+      "text": "the main driver of SK's AI business and, furthermore, the core that leads the AI business for the entire SK Group",
+      "speaker": "SK Telecom",
+      "speakerTitle": null,
+      "source": "TelecomTV",
+      "sourceUrl": "https://www.telecomtv.com/content/telcos-and-ai-channel/sk-telecom-sets-3-55bn-sales-target-for-new-ai-cic-53922/",
+      "timestamp": null,
+      "date": "2025-09-26"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "CTO Appointment from AI CIC",
+      "summary": "Jeong Seokgeun, head of AI CIC, elevated to CTO (Feb 2, 2026). AI leader becomes tech leader for the company — further structural consolidation of AI leadership at the executive level.",
+      "classification": null,
+      "sourceRefs": ["asia-economy-cto-2026"]
+    },
+    {
+      "date": "2025-09",
+      "label": "Initial Documentation — AI CIC Launch",
+      "summary": "SK Telecom launched AI CIC (Company-in-Company) in September 2025. CEO dual-hatted as CIC CEO. All AI functions consolidated. $3.6B committed over 5 years. Business split into MNO and AI halves. OpenAI exclusive B2C partnership established.",
+      "classification": null,
+      "sourceRefs": ["ieee-comsoc-cic-2025", "telecomtv-targets-2025", "mwl-split-2025", "rcr-wireless-2025", "neuron-expert-2025"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "ieee-comsoc-cic-2025",
+      "type": "Press",
+      "name": "IEEE ComSoc Technology Blog — SK Telecom forms AI CIC",
+      "url": "https://techblog.comsoc.org/2025/09/26/sk-telecom-forms-ai-cic-in-house-company-to-pursue-internal-ai-innovation/",
+      "timestamp": null,
+      "sourceDate": "2025-09-26",
+      "collectedDate": "2026-02-03",
+      "notes": "AI CIC launch, CEO-led structure"
+    },
+    {
+      "id": "telecomtv-targets-2025",
+      "type": "Press",
+      "name": "TelecomTV — SK Telecom sets $3.55B sales target for new AI CIC",
+      "url": "https://www.telecomtv.com/content/telcos-and-ai-channel/sk-telecom-sets-3-55bn-sales-target-for-new-ai-cic-53922/",
+      "timestamp": null,
+      "sourceDate": "2025-09-26",
+      "collectedDate": "2026-02-03",
+      "notes": "$3.6B investment, $3.55B revenue target, SK Group AI leadership quote"
+    },
+    {
+      "id": "mwl-split-2025",
+      "type": "Press",
+      "name": "Mobile World Live — SKT brings AI businesses into single unit",
+      "url": "https://www.mobileworldlive.com/operators/skt-brings-ai-businesses-into-single-unit/",
+      "timestamp": null,
+      "sourceDate": "2025-09-26",
+      "collectedDate": "2026-02-03",
+      "notes": "Business split MNO/AI, all AI functions consolidated"
+    },
+    {
+      "id": "asia-economy-cto-2026",
+      "type": "Press",
+      "name": "Asia Economy — Jeong Seokgeun CTO appointment",
+      "url": "https://cm.asiae.co.kr/en/article/2026020220383849862",
+      "timestamp": null,
+      "sourceDate": "2026-02-02",
+      "collectedDate": "2026-02-03",
+      "notes": "AI CIC head elevated to CTO"
+    },
+    {
+      "id": "rcr-wireless-2025",
+      "type": "Press",
+      "name": "RCR Wireless — SK Telecom AI",
+      "url": "https://www.rcrwireless.com/20250926/ai-infrastructure/sk-telecom-ai-5",
+      "timestamp": null,
+      "sourceDate": "2025-09-26",
+      "collectedDate": "2026-02-03",
+      "notes": "$3.6B commitment, OpenAI partnership"
+    },
+    {
+      "id": "neuron-expert-2025",
+      "type": "Press",
+      "name": "Neuron Expert — SK Telecom sets $3.55B sales target for new AI CIC",
+      "url": "https://neuron.expert/news/sk-telecom-sets-355bn-sales-target-for-new-ai-cic/14409/en/",
+      "timestamp": null,
+      "sourceDate": "2025-09-26",
+      "collectedDate": "2026-02-03",
+      "notes": "CEO-led CIC, trust rebuilding post-breach"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.7,
+    "speedVsDepth": 0.2,
+    "centralVsDistributed": -0.6,
+    "namedVsQuiet": -0.8,
+    "longVsShortHorizon": -0.4
+  },
+
+  "openQuestions": [
+    "How does the CIC model differ from a traditional subsidiary spin-off? What governance independence does it actually have?",
+    "Is the MNO/AI split creating internal tension between the legacy telecom business and AI ambitions?",
+    "Other telecom companies adopting similar CIC structures?"
+  ],
+
+  "taxonomyFeedback": [
+    "The CIC (Company-in-Company) model sits between an internal incubator (M5a) and a full subsidiary spin-off. It has more structural independence than a typical incubator but remains within the parent company. This may warrant a distinct sub-type or note within M5.",
+    "CEO dual-hat across both MNO and AI halves is a distinctive governance mechanism — the CEO serves as the integration bridge between the structurally separated businesses. This is different from a CAIO appointment or a separate AI unit leader.",
+    "Cross-conglomerate AI leadership ambition (AI CIC as core for entire SK Group) suggests the CIC could evolve beyond SKT's boundaries, which would push toward M5b (Venture Builder) territory."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-04",
+    "lastUpdated": "2026-02-04",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

@@ -7,8 +7,8 @@
     "structuralModelName": "Hybrid/Hub-and-Spoke",
     "subType": null,
     "subTypeName": null,
-    "secondaryModel": null,
-    "secondaryModelName": null,
+    "secondaryModel": 5,
+    "secondaryModelName": "Product/Venture Lab",
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Medium",
@@ -17,44 +17,89 @@
   },
   "habitat": {
     "industry": "Technology",
-    "sector": null,
+    "sector": "Enterprise Software / CRM / AI Agents",
     "orgSize": "Enterprise",
     "employees": null,
-    "revenue": null,
-    "headquarters": null,
-    "geography": null
+    "revenue": "$10.0B quarterly (Q4 FY2025)",
+    "headquarters": "San Francisco, CA",
+    "geography": "Global"
   },
-  "description": "Salesforce has achieved what may be the largest enterprise deployment of agentic AI, with Agentforce serving 18,500 enterprise customers running more than 3 billion automated workflows monthly.\n- Internal validation: deployed on help.salesforce.com, handled 2.6 million conversations, now resolves 63% of questions autonomously\n- Customer satisfaction scores roughly match human agents\n- Enterprise results: Reddit (46% case deflection, 84% reduction in resolution times), Adecco (51% conversations outside working hours)\n- Engine: Anticipating $2M savings, CSAT improved from 3.7 to 4.3\n- WEF deployment (January 2026): 'EVA' proactive concierge for 3,000+ leaders at Davos",
+  "description": "Salesforce is the cleanest case study of a company simultaneously building AI products, using those products to restructure its own workforce, and selling the restructuring capability to others. Agentforce serves 18,500 enterprise customers with 9,500 paid deals and $500M ARR (Q3 FY2026), running 3 billion automated workflows monthly.\n\nInternally, Salesforce deployed Agentforce on help.salesforce.com, handling 380,000 conversations at an 84% autonomous resolution rate with only 2% escalation to humans. This enabled 4,000 support jobs to be cut in September 2025, with staff redeployed into sales and services roles \u2014 what Benioff calls 'radical augmentation.' The workforce composition shifted: 20%+ more AEs hired, engineering headcount flat, AI budget tripled from $4M to $300M.\n\nThe $8B Informatica acquisition provides the data management foundation for Agentforce's enterprise AI pipeline. The launch of AgentExchange \u2014 'the world's first agent marketplace' targeting a '$6 trillion digital labor market' \u2014 marks an identity-level shift from CRM company to 'digital labor' platform company. Data Cloud + AI ARR reached $900M (+120% YoY). Dual AI leadership: Agentforce product teams + Eric Hysen as Chief AI & Transformation Officer (ex-DHS CAIO).",
   "observableMarkers": {
-    "reportingStructure": null,
-    "resourceAllocation": null,
+    "reportingStructure": "Benioff as CEO driving Agentforce strategy. Eric Hysen as Chief AI & Transformation Officer (reports to President/CLO). Dual AI leadership: product AI (Agentforce) + internal transformation (Hysen).",
+    "resourceAllocation": "AI budget tripled $4M\u2192$300M. Informatica acquisition: $8B for data management foundation. 4,000 support jobs cut and redeployed. Hiring mix shifted: 20%+ more AEs, flat engineering.",
     "timeHorizons": null,
     "decisionRights": null,
-    "metrics": "18,500 enterprise customers (up from 12,500). 3B automated workflows monthly. Agentic product revenue: $540M ARR."
+    "metrics": "18,500 enterprise customers. 9,500 Agentforce paid deals. $500M Agentforce ARR (Q3 FY2026). $900M Data Cloud + AI ARR (+120% YoY). 3B automated workflows monthly. 380K conversations on help.salesforce.com. 84% autonomous resolution rate. 2% escalation to humans. RPO $63.4B (+11%). FCF $12.4B (+31%). Q4 FY2025 revenue: $10.0B."
   },
   "mechanisms": [
     {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Agentforce deployed on help.salesforce.com handling 380,000 conversations at 84% resolution rate before scaling to 9,500 paid enterprise deals. Internal deployment validated the product before broad commercialization.",
+      "strength": "Strong"
+    },
+    {
       "id": 9,
       "name": "Hire CAIOs from Consumer Tech",
-      "evidence": "Eric Hysen hired as Chief AI & Transformation Officer from US government (DHS CAIO/CIO). Career path: Google SWE/PM → Biden-Harris transition → DHS CAIO/CIO → Salesforce. Government-to-corporate CAIO pipeline.",
+      "evidence": "Eric Hysen hired as Chief AI & Transformation Officer from US government (DHS CAIO/CIO). Career path: Google SWE/PM \u2192 Biden-Harris transition \u2192 DHS CAIO/CIO \u2192 Salesforce. Government-to-corporate CAIO pipeline.",
       "strength": "Moderate"
+    },
+    {
+      "id": 10,
+      "name": "Productize Internal Operational Advantages",
+      "evidence": "Salesforce used Agentforce to restructure its own support workforce (4,000 jobs cut, 50% of conversations now AI-handled), then productized the capability for customers via AgentExchange marketplace. The '$6 trillion digital labor market' framing positions internal restructuring as a sellable capability.",
+      "strength": "Strong"
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "No company is better positioned than Salesforce to lead customers through the digital labor revolution.",
+      "speaker": "Marc Benioff",
+      "speakerTitle": "CEO, Salesforce",
+      "source": "Salesforce Q4 FY2025 Earnings Call",
+      "sourceUrl": "https://investor.salesforce.com/news/news-details/2025/Salesforce-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+      "timestamp": null,
+      "date": "2025-02"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Agentforce at Scale \u2014 Earnings, Marketplace, Radical Augmentation",
+      "summary": "Q4 FY2025: $10.0B revenue (+8%), RPO $63.4B (+11%), FCF $12.4B (+31%). Benioff declared 'the quarter of Agentforce.' Agentforce adoption scaled from 3,000 paying customers at FY2025 close to 9,500 paid deals by Q3 FY2026 (+50% QoQ). Agentforce annualized revenue: $500M by Q3 FY2026 (330% YoY surge). On help.salesforce.com: 380,000 conversations handled by Agentforce, 84% autonomous resolution rate, only 2% escalation to humans. 4,000 support jobs cut in September 2025 \u2014 agents handling ~50% of customer support tasks; many staff redeployed into sales and services roles ('radical augmentation' per Benioff). Data Cloud + AI ARR: $900M (+120% YoY). Acquired Informatica for $8B \u2014 data management foundation for AI. Launched AgentExchange \u2014 'world's first agent marketplace' for the '$6 trillion digital labor market.' 6 of top 10 deals in Q3 FY2026 driven by companies wanting to 'transform with Agentforce.' Agentforce IT Service launched \u2014 expanding from sales/service into IT service management.",
+      "classification": null,
+      "sourceRefs": [
+        "salesforce-ir-q4-fy2025",
+        "techbuzz-agentforce-500m",
+        "salesforce-ir-q3-fy2026",
+        "ciodive-agentforce-q4-2025",
+        "ciodive-agentforce-it-benioff",
+        "salesforce-agentexchange-2025"
+      ]
+    },
     {
       "date": "2025-08",
       "label": "Dual AI Leadership — Chief AI & Transformation Officer",
       "summary": "Salesforce added Eric Hysen as Chief AI and Transformation Officer (Aug 2025), reporting to President/Chief Legal Officer. Scope: legal, government, compliance, public affairs, and 'trusted agentics.' Background: Former CAIO at DHS, former CIO at DHS, Google SWE/PM. Government-to-corporate CAIO pipeline. This creates dual AI leadership: product AI teams (Agentforce) + internal AI transformation officer (Hysen).",
       "classification": null,
-      "sourceRefs": ["govconwire-hysen-2025", "cdo-hysen-2025"]
+      "sourceRefs": [
+        "govconwire-hysen-2025",
+        "cdo-hysen-2025"
+      ]
     },
     {
       "date": "2026-01",
       "label": "AI-Driven Workforce Restructuring",
       "summary": "Cut support staff from 9,000 to ~5,000 through AI agent deployment. 50% of customer conversations now AI-handled (from zero one year prior). Shifted hiring mix: 20%+ more AEs, flat engineering. Budget tripled $4M→$300M. Agentforce recalibrated with deterministic 'Agent Script' controls. In 'Agent War' with ServiceNow for enterprise AI OS dominance.",
       "classification": null,
-      "sourceRefs": ["uctoday-cuts-2026", "sfben-hiring-2026", "cio-budget-2026", "cio-agentscript-2026", "agent-war-2026"]
+      "sourceRefs": [
+        "uctoday-cuts-2026",
+        "sfben-hiring-2026",
+        "cio-budget-2026",
+        "cio-agentscript-2026",
+        "agent-war-2026"
+      ]
     },
     {
       "date": "2026-01",
@@ -162,12 +207,72 @@
     {
       "id": "agent-war-2026",
       "type": "Press",
-      "name": "FinancialContent/WRAL — The Great Agent War",
+      "name": "FinancialContent/WRAL \u2014 The Great Agent War",
       "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-1-the-great-agent-war-salesforce-and-servicenow-clash-over-the-future-of-the-enterprise-ai-operating-system",
       "timestamp": null,
       "sourceDate": "2026-01-01",
       "collectedDate": "2026-01-31",
       "notes": "Salesforce vs. ServiceNow for enterprise AI OS dominance."
+    },
+    {
+      "id": "salesforce-ir-q4-fy2025",
+      "type": "Earnings Call",
+      "name": "Salesforce IR \u2014 Q4 FY2025 Results",
+      "url": "https://investor.salesforce.com/news/news-details/2025/Salesforce-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+      "timestamp": null,
+      "sourceDate": "2025-02-26",
+      "collectedDate": "2026-02-03",
+      "notes": "Q4 FY2025: $10.0B revenue, $63.4B RPO, $12.4B FCF."
+    },
+    {
+      "id": "techbuzz-agentforce-500m",
+      "type": "Press",
+      "name": "TechBuzz \u2014 Salesforce Agentforce AI Hits $500M Run Rate",
+      "url": "https://www.techbuzz.ai/articles/salesforce-agentforce-ai-hits-500m-run-rate-beats-earnings",
+      "timestamp": null,
+      "sourceDate": "2025-12",
+      "collectedDate": "2026-02-03",
+      "notes": "Agentforce $500M ARR, 9,500 paid deals, 50% QoQ growth."
+    },
+    {
+      "id": "salesforce-ir-q3-fy2026",
+      "type": "Earnings Call",
+      "name": "Salesforce IR \u2014 Q3 FY2026 Record Results Driven by Agentforce",
+      "url": "https://investor.salesforce.com/news/news-details/2025/Salesforce-Delivers-Record-Third-Quarter-Fiscal-2026-Results-Driven-by-Agentforce--Data-360/default.aspx",
+      "timestamp": null,
+      "sourceDate": "2025-12",
+      "collectedDate": "2026-02-03",
+      "notes": "Q3 FY2026 results driven by Agentforce and Data 360."
+    },
+    {
+      "id": "ciodive-agentforce-q4-2025",
+      "type": "Press",
+      "name": "CIO Dive \u2014 Agentforce Resolution Metrics",
+      "url": "https://www.ciodive.com/news/salesforce-agentforce-AI-Q4-2025/741212/",
+      "timestamp": null,
+      "sourceDate": "2025-02-26",
+      "collectedDate": "2026-02-03",
+      "notes": "380K conversations, 84% resolution rate, 2% escalation."
+    },
+    {
+      "id": "ciodive-agentforce-it-benioff",
+      "type": "Press",
+      "name": "CIO Dive \u2014 Salesforce Agentforce IT Services, 4K Support Cuts",
+      "url": "https://www.ciodive.com/news/salesforce-agentforce-IT-services-marc-benioff/807103/",
+      "timestamp": null,
+      "sourceDate": "2025-09",
+      "collectedDate": "2026-02-03",
+      "notes": "4,000 support jobs cut, 'radical augmentation,' Agentforce IT Service launch."
+    },
+    {
+      "id": "salesforce-agentexchange-2025",
+      "type": "Press",
+      "name": "Salesforce Newsroom \u2014 2025 Year in Review (AgentExchange)",
+      "url": "https://www.salesforce.com/news/stories/2025-recap/?bc=OTH",
+      "timestamp": null,
+      "sourceDate": "2025-12",
+      "collectedDate": "2026-02-03",
+      "notes": "AgentExchange marketplace launch, '$6 trillion digital labor market.'"
     }
   ],
   "contingencies": {
@@ -187,17 +292,23 @@
   "openQuestions": [
     "What is the actual composition of the remaining 5,000 support staff? Are they supervising AI or handling escalations?",
     "How was the transition managed operationally? Over what timeframe?",
-    "Has the Klarna reversal influenced Salesforce's approach?"
+    "Has the Klarna reversal influenced Salesforce's approach?",
+    "What does the 'radical augmentation' redeployment look like? What specific roles were support staff moved into?",
+    "Is the 84% resolution rate / 2% escalation sustainable at scale, or cherry-picked metrics from help.salesforce.com?",
+    "How does AgentExchange change Salesforce's partner ecosystem structure?",
+    "Does the $8B Informatica acquisition change Salesforce's internal org chart?"
   ],
   "taxonomyFeedback": [
     "Salesforce's simultaneous workforce cuts (4,000 support staff) and hiring shifts (+20% AEs) represents a distinct pattern: AI doesn't just reduce headcount, it reshapes the workforce composition. The taxonomy doesn't capture this 'workforce recomposition' pattern.",
-    "Benioff's contradiction (publicly downplaying AI job displacement 2 months before cutting 4,000 jobs) raises questions about how executives manage the narrative around AI-driven restructuring."
+    "Benioff's contradiction (publicly downplaying AI job displacement 2 months before cutting 4,000 jobs) raises questions about how executives manage the narrative around AI-driven restructuring.",
+    "Salesforce may be approaching type specimen status for Mechanism #10 (Productize Internal Advantages): the clearest case of using AI internally to restructure, then selling that capability externally. The eat-your-own-dog-food pattern with specific metrics (84% resolution, 2% escalation, $500M ARR) is unusually well-documented.",
+    "The identity shift from CRM company to 'digital labor platform' \u2014 with AgentExchange targeting a '$6T digital labor market' \u2014 raises an M5/M8 boundary question: is Agentforce an adjacent venture (M5a) or a core replacement that could eventually become the primary way Salesforce operates (potential M8)?"
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-04",
+    "completeness": "Medium",
     "convertedFrom": "library/cases/salesforce.json"
   }
 }

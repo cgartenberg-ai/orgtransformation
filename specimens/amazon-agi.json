@@ -24,13 +24,13 @@
     "headquarters": "Seattle, WA",
     "geography": "Global"
   },
-  "description": "Amazon created a new organization uniting AGI research, custom chips (Trainium/Inferentia), and quantum computing under a single leader. The AGI SF Lab specifically focuses on developing useful AI agents for digital and physical worlds.\n- Peter DeSantis (27 years at Amazon) leads new organization combining AI models, custom silicon, and quantum computing\n- AGI SF Lab in San Francisco seeded by team acquired from Adept—specialists in AI agents that handle complex workflows\n- Recruited robotics pioneer Pieter Abbeel (UC Berkeley) to lead embodied AI and world-model research\n- Separate from AWS commercial AI services, allowing different timelines and risk profiles\n- Combines LLMs with reinforcement learning (RL) for reasoning, planning, and world modeling\n- Amazon Nova foundation models power the research—state-of-the-art models announced recently",
+  "description": "Amazon operates a dual-track AI transformation: (1) the AGI organization under Peter DeSantis unites frontier model research (AGI SF Lab, seeded by Adept acqui-hire), custom silicon (Trainium/Inferentia), and quantum computing as a structurally separated exploration hub; (2) simultaneously, the corporate organization is undergoing massive delayering \u2014 ~30,000 corporate layoffs (Oct 2025 - Jan 2026), with SVP Beth Galetti describing 'reducing layers, increasing ownership, and removing bureaucracy.'\n\nThe structural tension is sharp: CEO Jassy frames the 30K cuts as 'culture, not AI' \u2014 claiming Amazon 'grew too fast' \u2014 but separately acknowledges AI efficiency gains will reduce corporate headcount, and internal reports confirm AI agents already replacing repetitive tasks in engineering, product management, and operations. This contradiction between the public narrative and internal reality is a significant data point for understanding how executives manage AI-driven restructuring narratives.\n\nCapEx is accelerating dramatically: $125B in 2025, projected >$150B in 2026, primarily directed at AWS AI infrastructure. AWS carries a $200B backlog with 34.6% operating margins, benefiting from proprietary silicon and AI workload scaling. The AGI SF Lab (Pieter Abbeel, world models, embodied AI) remains structurally separate from AWS commercial AI services, preserving different timelines and risk profiles.",
   "observableMarkers": {
-    "reportingStructure": null,
-    "resourceAllocation": null,
+    "reportingStructure": "CEO Andy Jassy driving corporate restructuring. SVP Beth Galetti (People Experience & Technology) leading delayering initiative.",
+    "resourceAllocation": "$125B CapEx full year 2025, >$150B projected 2026 — primarily AWS AI infrastructure. 3.8 GW data center capacity added past year, expects to double by end of 2027. ~30,000 corporate layoffs (Oct 2025 - Jan 2026).",
     "timeHorizons": null,
-    "decisionRights": null,
-    "metrics": "AWS offers 30+ AI/ML services. 2026 Amazon Nova AI Challenge focuses on 'Trusted Software Agents'—university teams building defenses and reliability into agentic coding systems."
+    "decisionRights": "Jassy framing restructuring as 'culture' not AI — but internal reports indicate AI agents replacing tasks in engineering, PM, and operations.",
+    "metrics": "AWS offers 30+ AI/ML services. AWS $200B backlog. AWS operating margin: 34.6% (Q3 2025). ~350,000 corporate workforce (pre-cuts). ~30K corporate layoffs (~9% of corporate workforce). Q4 revenue guidance: $206-213B. 2026 Amazon Nova AI Challenge focuses on 'Trusted Software Agents'."
   },
   "mechanisms": [
     {
@@ -46,8 +46,32 @@
       "strength": "Strong"
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "As I shared in October, we've been working to strengthen our organization by reducing layers, increasing ownership, and removing bureaucracy.",
+      "speaker": "Beth Galetti",
+      "speakerTitle": "SVP People Experience & Technology, Amazon",
+      "source": "CRN",
+      "sourceUrl": "https://www.crn.com.au/news-network/cloud/2026/amazon-layoffs-5-key-takeaways-on-ai",
+      "timestamp": null,
+      "date": "2026-01"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Corporate Delayering + AI Agents Internal + CapEx Surge",
+      "summary": "~30,000 corporate layoffs over Oct 2025 - Jan 2026 (14K Oct, 16K Jan — ~9% of 350K corporate workforce). Jassy explicitly stated cuts are 'not financially driven, not AI-driven... it's culture' — 'grew too fast.' But separately acknowledged AI efficiency gains would reduce headcount, and internal reports confirm AI agents already taking over repetitive tasks in engineering, product management, and operations. SVP Beth Galetti: 'reducing layers, increasing ownership, and removing bureaucracy.' CapEx: $125B full year 2025, >$150B projected 2026 — primarily AWS AI infrastructure. AWS: $200B backlog, added 3.8 GW data center capacity in past year, plans to double by end of 2027. AWS operating margin: 34.6% (Q3 2025) vs. 30.3% two years prior — efficiency from proprietary silicon + AI workload scaling. Q4 2025 earnings scheduled Feb 5 — not yet reported at time of collection.",
+      "classification": null,
+      "sourceRefs": [
+        "crn-layoffs-2026",
+        "afrotech-jassy-culture-2026",
+        "hrdigest-amazon-30k-2026",
+        "advbiz-amazon-capex-2026",
+        "ig-amazon-preview-2026",
+        "amazon-q4-announcement"
+      ]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review — Reclassified",
@@ -104,6 +128,66 @@
       "sourceDate": null,
       "collectedDate": "2026-01-20",
       "notes": null
+    },
+    {
+      "id": "crn-layoffs-2026",
+      "type": "Press",
+      "name": "CRN \u2014 Amazon Layoffs: 5 Key Takeaways on AI",
+      "url": "https://www.crn.com.au/news-network/cloud/2026/amazon-layoffs-5-key-takeaways-on-ai",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-03",
+      "notes": "30K layoffs, culture rationale, Beth Galetti 'reducing layers' quote."
+    },
+    {
+      "id": "afrotech-jassy-culture-2026",
+      "type": "Press",
+      "name": "AfroTech \u2014 Jassy: Layoffs Are Culture, Not Costs or AI",
+      "url": "https://afrotech.com/amazon-ceo-andy-jassy-layoffs-culture-not-costs-or-ai",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-03",
+      "notes": "Jassy 'not AI-driven, it's culture' framing."
+    },
+    {
+      "id": "hrdigest-amazon-30k-2026",
+      "type": "Press",
+      "name": "HR Digest \u2014 Why Amazon Layoffs Could Hit 30,000 Roles by May 2026",
+      "url": "https://www.thehrdigest.com/why-amazon-layoffs-could-hit-30000-roles-by-may-2026",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-03",
+      "notes": "30K by May 2026 projection."
+    },
+    {
+      "id": "advbiz-amazon-capex-2026",
+      "type": "Press",
+      "name": "Advertising Business \u2014 Amazon AI Strategy 2025, Win 2026 Risk Explained",
+      "url": "https://www.advertisingbusiness.org/amazon-ai-strategy-2025-win-2026-risk-explained/",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-03",
+      "notes": "$125B CapEx 2025, >$150B 2026, AWS capacity doubling."
+    },
+    {
+      "id": "ig-amazon-preview-2026",
+      "type": "Press",
+      "name": "IG International \u2014 Amazon Q4 2025 Earnings Preview",
+      "url": "https://www.ig.com/en/news-and-trade-ideas/Amazon-4Q25-earnings-preview-260128",
+      "timestamp": null,
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-02-03",
+      "notes": "AI agents in engineering/PM/ops internally."
+    },
+    {
+      "id": "amazon-q4-announcement",
+      "type": "Press",
+      "name": "Amazon \u2014 Q4 2025 Earnings Announcement",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q4-2025-report",
+      "timestamp": null,
+      "sourceDate": "2026-02-05",
+      "collectedDate": "2026-02-03",
+      "notes": "Q4 results scheduled Feb 5 \u2014 not yet reported at collection time."
     }
   ],
   "contingencies": {
@@ -124,17 +208,23 @@
     "How does the AGI org under DeSantis coordinate with AWS AI services (Bedrock, SageMaker)?",
     "What is the size of the AGI SF Lab team vs. the broader DeSantis organization?",
     "How do Amazon Nova foundation models relate to the AGI research agenda vs. AWS product needs?",
-    "What is the relationship between Amazon's robotics AI work and the AGI org?"
+    "What is the relationship between Amazon's robotics AI work and the AGI org?",
+    "Feb 5 Q4 2025 earnings: Does AI come up as structural driver in Jassy's remarks?",
+    "How does the 30K cut map to specific functions? Engineering vs. management vs. operations?",
+    "What does 'removing bureaucracy' look like structurally? Fewer VPs? Wider spans of control?",
+    "Jassy claims culture, not AI \u2014 but internal reports say AI agents are replacing tasks. Which is it? (The Jassy Contradiction)"
   ],
   "taxonomyFeedback": [
     "Amazon's AGI org tests the Model 1 vs Model 4 boundary. The AGI SF Lab has clear research lab characteristics, but the broader org (research + chips + quantum) is a hub serving multiple execution channels. The reclassification to Model 4 + secondary Model 1 captures this better than pure Model 1.",
-    "The Adept acquisition (talent acqui-hire) represents a mechanism not yet in the taxonomy: acquiring external teams to seed internal research."
+    "The Adept acquisition (talent acqui-hire) represents a mechanism not yet in the taxonomy: acquiring external teams to seed internal research.",
+    "The 'Jassy Contradiction' \u2014 publicly framing 30K cuts as culture while internally deploying AI agents to replace tasks \u2014 is a narrative management pattern that may warrant taxonomy attention. CEOs hedging between 'restructuring for culture/efficiency' and 'AI is changing everything' appears to be a convergent pattern across Big Tech (Amazon, Meta, Microsoft).",
+    "Amazon's management delayering ('reducing layers, increasing ownership, removing bureaucracy') combined with AI agent deployment internally suggests a structural evolution: the hub-and-spoke model may be flattening as AI agents reduce the need for middle-management coordination."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-04",
+    "completeness": "Medium",
     "convertedFrom": "library/cases/amazon-agi.json"
   }
 }

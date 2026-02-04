@@ -1,0 +1,15 @@
+{
+  "id": "ethiraj-levinthal-2004",
+  "citation": "Ethiraj, S. K., & Levinthal, D. A. (2004). Bounded rationality and the search for organizational architecture: An evolutionary perspective on the design of organizations and their evolvability. Administrative Science Quarterly, 49(3), 404-437.",
+  "authors": ["Ethiraj", "Levinthal"],
+  "year": 2004,
+  "journal": "ASQ",
+  "tradition": "org-econ",
+  "keyMechanism": "Using a computational model grounded in Simon's architecture of complexity, the paper shows that boundedly rational managers can discover effective organizational designs through evolutionary search -- but only when the underlying task structure has hierarchy (asymmetric interdependence between units). Hierarchy is necessary and sufficient for successful structural redesign (second-order adaptation), while near-decomposability (loose coupling) is necessary and sufficient for successful incremental performance improvement (first-order adaptation). The two forms of adaptation are complements: restructuring opens new opportunities for local optimization, and local optimization works better within well-designed structures. However, when environmental change outpaces the organization's ability to redesign, structural inertia performs as well as active restructuring.",
+  "predictionForAI": "Organizations exploring AI will find it easier to design effective AI structures (Centers of Excellence, Hub-and-Spoke, Embedded Teams) when AI work is hierarchically ordered relative to the core business -- that is, when AI units constrain or inform business units but not vice versa. Structures with heavy reciprocal interdependence between AI teams and business operations (like deeply Embedded Teams in tightly coupled workflows) will be hardest to design correctly and will produce chronic restructuring cycles. The paper also predicts that structural separation models (Research Labs, Skunkworks) will be complementary to local AI execution improvements, not substitutes -- organizations that invest in both structural redesign and incremental AI adoption will outperform those doing only one. Finally, in rapidly changing AI environments, larger organizations will struggle to keep their AI structures aligned with shifting demands, potentially making structural inertia a rational default.",
+  "connectedInsights": [],
+  "connectedMechanisms": [],
+  "status": "candidate",
+  "addedDate": "2026-02-03",
+  "sourceFile": "library/research papers/Ethiraj Levinthal (2004) - Bounded Rationality and the Search for Organizational Architecture An Evolutionary Perspective on the Design of Organizations and Their Evolvability.pdf"
+}

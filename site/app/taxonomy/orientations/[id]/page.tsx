@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAllSpecimens } from "@/lib/data/specimens";
+import { getMechanisms } from "@/lib/data/synthesis";
 import { ORIENTATION_DESCRIPTIONS } from "@/lib/types/taxonomy";
 import { SpecimenCard } from "@/components/specimens/SpecimenCard";
 import type { Orientation } from "@/lib/types/specimen";
@@ -33,7 +34,10 @@ export default async function OrientationDetailPage({
 
   const description = ORIENTATION_DESCRIPTIONS[orientation];
 
-  const specimens = await getAllSpecimens();
+  const [specimens, mechanismData] = await Promise.all([
+    getAllSpecimens(),
+    getMechanisms(),
+  ]);
   const matching = specimens.filter(
     (s) =>
       s.meta.status !== "Archived" &&
@@ -70,6 +74,49 @@ export default async function OrientationDetailPage({
         </h2>
         <p className="leading-relaxed text-charcoal-600">{description}</p>
       </section>
+
+      {/* Common Principles */}
+      {(() => {
+        const relatedMechanisms = mechanismData.confirmed
+          .filter((m) => m.affinityProfile?.orientationDistribution[orientation])
+          .sort(
+            (a, b) =>
+              (b.affinityProfile?.orientationDistribution[orientation]?.count ?? 0) -
+              (a.affinityProfile?.orientationDistribution[orientation]?.count ?? 0)
+          );
+        if (relatedMechanisms.length === 0) return null;
+        return (
+          <section>
+            <h2 className="mb-4 font-serif text-lg text-forest">
+              Common Principles
+            </h2>
+            <div className="space-y-2">
+              {relatedMechanisms.map((m) => {
+                const dist = m.affinityProfile!.orientationDistribution[orientation];
+                return (
+                  <Link
+                    key={m.id}
+                    href={`/mechanisms/${m.id}`}
+                    className="flex items-center justify-between rounded-lg border border-sage-200 bg-cream-50 p-4 transition-shadow hover:shadow-sm"
+                  >
+                    <div>
+                      <span className="font-mono text-xs text-charcoal-400">
+                        #{m.id}
+                      </span>{" "}
+                      <span className="text-sm font-medium text-forest">
+                        {m.name}
+                      </span>
+                    </div>
+                    <span className="font-mono text-xs text-charcoal-400">
+                      {dist.count} specimen{dist.count !== 1 ? "s" : ""} ({dist.percentage}%)
+                    </span>
+                  </Link>
+                );
+              })}
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Specimens */}
       <section>

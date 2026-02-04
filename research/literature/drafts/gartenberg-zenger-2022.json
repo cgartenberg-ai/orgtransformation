@@ -1,0 +1,15 @@
+{
+  "id": "gartenberg-zenger-2022",
+  "citation": "Gartenberg, C. & Zenger, T. (2023). The Firm as a Subsociety: Purpose, Justice, and the Theory of the Firm. Organization Science, 34(5), 1965-1980.",
+  "authors": ["Gartenberg", "Zenger"],
+  "year": 2022,
+  "journal": "Organization Science",
+  "tradition": "org-econ",
+  "keyMechanism": "Firms are not merely subeconomies (collections of transactions managed by authority) but subsocieties in which employees exchange rights -- control over work, loyalty, voice -- for membership. This rights exchange creates heightened expectations that leaders will uphold principles of purpose and justice. When leaders' actions are consistent with these principles, employees respond with identification and cooperation; when actions violate them, the result is alienation. Firm boundaries amplify this social response: the same action triggers a stronger cooperative or destructive reaction inside the firm than outside it.",
+  "predictionForAI": "Organizations that frame AI adoption as consistent with their stated purpose (e.g., advancing the mission, enabling better work) should see stronger cooperation from employees than those where AI is perceived as violating principles of justice (e.g., displacing workers without regard for fairness, concentrating rewards among a small AI elite). Structurally, this predicts that firms will favor internalizing AI work (Research Labs, Embedded Teams, Centers of Excellence) when AI reinforces the organization's identity and purpose, but will outsource or contract for AI capabilities that create justice tensions -- such as extreme pay differentials between AI specialists and core workers. Hub-and-Spoke and Embedded models may generate more subsociety friction than structurally separated models (Skunkworks, Venture Labs) precisely because embedding AI teams makes compensation and status disparities visible within the same social referent group.",
+  "connectedInsights": [],
+  "connectedMechanisms": [],
+  "status": "candidate",
+  "addedDate": "2026-02-03",
+  "sourceFile": "library/research papers/gartenberg-zenger-2022-the-firm-as-a-subsociety-purpose-justice-and-the-theory-of-the-firm.pdf"
+}

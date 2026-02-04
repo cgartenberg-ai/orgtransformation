@@ -1,0 +1,15 @@
+{
+  "id": "oreilly-tushman-2013",
+  "citation": "O'Reilly, C. A., & Tushman, M. L. (2013). Organizational ambidexterity: Past, present, and future. Academy of Management Perspectives, 27(4), 324-338.",
+  "authors": ["O'Reilly", "Tushman"],
+  "year": 2013,
+  "journal": "Academy of Management Perspectives",
+  "tradition": "innovation",
+  "keyMechanism": "Organizations that survive long-term must simultaneously explore new technologies and markets while exploiting existing ones. This review consolidates 15 years of evidence showing three viable modes: structural ambidexterity (separate units with distinct alignments linked by common vision and targeted integration), contextual ambidexterity (individual-level switching enabled by culture of stretch, discipline, and trust), and sequential ambidexterity (temporal shifting between exploitation and exploration modes). The key finding is that structural separation is necessary but not sufficient -- senior leadership must actively manage the interfaces between explore and exploit units, orchestrating resource allocation and resolving conflicts. Ambidexterity is reframed as a dynamic capability: the senior team's ability to sense and seize opportunities by reconfiguring organizational assets.",
+  "predictionForAI": "Organizations facing AI disruption should structurally separate AI exploration units (Research Labs, Skunkworks, Product/Venture Labs) from operational execution, each with its own people, processes, incentives, and culture -- but connected through senior leadership that actively manages the interface. Purely contextual approaches (asking individuals to split time between AI experimentation and core work) will handle incremental AI adoption but will fail for discontinuous AI capabilities that require fundamentally different skill sets and business models. The theory predicts a temporal pattern: firms will start with structural separation (dedicated AI units), then integrate successful AI capabilities into the core business over time as they gain legitimacy. Larger, resource-rich firms will more successfully pursue simultaneous ambidexterity, while smaller firms may need to sequence AI exploration and operational execution.",
+  "connectedInsights": [],
+  "connectedMechanisms": [],
+  "status": "candidate",
+  "addedDate": "2026-02-03",
+  "sourceFile": "library/research papers/oreilly-tushman-2013-ambidexterity-review.pdf"
+}

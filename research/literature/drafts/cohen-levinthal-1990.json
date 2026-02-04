@@ -1,0 +1,15 @@
+{
+  "id": "cohen-levinthal-1990",
+  "citation": "Cohen, W. M., & Levinthal, D. A. (1990). Absorptive capacity: A new perspective on learning and innovation. Administrative Science Quarterly, 35(1), 128-152.",
+  "authors": ["Cohen", "Levinthal"],
+  "year": 1990,
+  "journal": "ASQ",
+  "tradition": "org-econ",
+  "keyMechanism": "A firm's ability to recognize, assimilate, and apply external knowledge -- its absorptive capacity -- depends on its prior related knowledge. R&D serves a dual function: it generates new knowledge directly and it builds the firm's capacity to learn from outside sources. Because absorptive capacity is cumulative and path-dependent, firms that fail to invest early in a knowledge domain may become permanently locked out of it, unable even to recognize the value of new developments in that area.",
+  "predictionForAI": "Organizations need prior AI-related knowledge distributed across their units to absorb and exploit AI advances. This favors Hub-and-Spoke or Embedded Teams models over purely centralized Research Labs, because absorptive capacity is not just about the central unit's expertise but about whether receiving units have enough overlapping knowledge to assimilate what the center produces. Firms that delay building internal AI expertise risk lockout -- becoming unable to evaluate or adopt AI even as it matures -- which explains why some incumbents create dedicated Centers of Excellence as deliberate absorptive-capacity investments rather than waiting for organic adoption. The theory also predicts a tension between knowledge diversity (needed to scan a fast-moving AI landscape) and knowledge overlap (needed for internal transfer), suggesting that rotation programs and cross-functional AI teams will outperform siloed specialist structures.",
+  "connectedInsights": [],
+  "connectedMechanisms": [],
+  "status": "candidate",
+  "addedDate": "2026-02-03",
+  "sourceFile": "library/research papers/cohen-levinthal-1990-AbsorptiveCapacity.pdf"
+}

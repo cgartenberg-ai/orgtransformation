@@ -1,0 +1,114 @@
+{
+  "id": "workday",
+  "name": "Workday",
+  "title": "AI Pivot Restructuring — 1,750 Layoffs (8.5%)",
+
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Low",
+    "classificationRationale": "Tentative Model 6a. Workday is cutting 1,750 jobs (8.5% of workforce) with CEO Carl Eschenbach citing 'increasing demand for AI' as driver. Continued hiring in 'key strategic areas' (AI-targeted). No dedicated AI lab, CAIO, or CoE described — the restructuring is enterprise-wide reallocation framed as AI pivot. Low confidence: this may be cost-cutting framed as AI ('AI-washing'). Restructuring announcement rather than observed AI org structure.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Enterprise Software / HCM",
+    "orgSize": "Enterprise",
+    "employees": "~20,600",
+    "revenue": null,
+    "headquarters": "Pleasanton, CA",
+    "geography": "Global"
+  },
+
+  "description": "Workday announced 1,750 layoffs (8.5% of workforce) in February 2025, with CEO Carl Eschenbach explicitly citing AI as the driver: 'Companies everywhere are reimagining how work gets done, and the increasing demand for AI has the potential to drive a new era of growth for Workday.'\n\nThe company simultaneously announced continued hiring in 'key strategic areas' including AI, suggesting a workforce composition shift rather than pure headcount reduction. Restructuring charges of $230-270M for severance and benefits.\n\nThis specimen is primarily valuable as an 'AI-washing' data point. Only 4-5% of tech layoffs explicitly cite AI as driver, and critics note companies may be using AI narrative to justify cost reductions. Former Amazon employee quoted: 'You could potentially have just been bloated in the first place, reduce head count, attribute it to AI, and now you've got a value story.' The specimen parallels Pinterest (also explicit AI-pivot layoffs) but with even less structural evidence of actual AI organizational change.",
+
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": "$230-270M restructuring charges. 1,750 jobs cut (8.5%).",
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "1,750 jobs cut (8.5% of ~20,600 workforce)."
+  },
+
+  "mechanisms": [],
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Initial Documentation",
+      "summary": "Workday cuts 1,750 jobs (8.5%) citing AI demand. CEO Eschenbach memo frames as AI-driven growth opportunity. $230-270M restructuring charges. Continued AI hiring. AI-washing question raised by analysts.",
+      "classification": null,
+      "sourceRefs": [
+        "fortune-workday-2025",
+        "siliconrepublic-workday-2025"
+      ]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "fortune-workday-2025",
+      "type": "Press",
+      "name": "Fortune — Workday Layoff AI Future of Work",
+      "url": "https://fortune.com/2025/02/07/workday-layoff-ai-future-of-work/",
+      "timestamp": null,
+      "sourceDate": "2025-02-07",
+      "collectedDate": "2026-02-04",
+      "notes": "CEO memo quote, AI-washing analysis, 4-5% stat on AI-cited layoffs."
+    },
+    {
+      "id": "siliconrepublic-workday-2025",
+      "type": "Press",
+      "name": "Silicon Republic — Workday Layoff AI 8.5% 1750",
+      "url": "https://www.siliconrepublic.com/business/workday-layoff-ai-8-5-1750",
+      "timestamp": null,
+      "sourceDate": "2025-02-07",
+      "collectedDate": "2026-02-04",
+      "notes": "$230-270M restructuring charges."
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": 0.5,
+    "speedVsDepth": 0.5,
+    "centralVsDistributed": 0.3,
+    "namedVsQuiet": 0.7,
+    "longVsShortHorizon": 0.5
+  },
+
+  "openQuestions": [
+    "Is this genuine AI restructuring or cost-cutting framed as AI?",
+    "What AI roles are being created with the 'key strategic areas' hiring?",
+    "How does Workday's own AI product (Illuminate) relate to internal AI org structure?",
+    "What is Workday's actual AI team size and structure?"
+  ],
+
+  "taxonomyFeedback": [
+    "Workday is primarily valuable as an AI-washing data point. The gap between 'AI as stated reason for restructuring' and 'AI as actual driver of organizational change' is widening across the tech sector.",
+    "Parallels Pinterest: both are mid-tier tech companies tying workforce cuts to AI pivot with minimal evidence of actual AI organizational structure change."
+  ],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-04",
+    "lastUpdated": "2026-02-04",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

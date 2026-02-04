@@ -3,7 +3,7 @@
   "name": "Snowflake",
   "title": "Great Decentralization Thesis",
   "classification": {
-    "structuralModel": 4,
+    "structuralModel": 9,
     "structuralModelName": "Hybrid/Hub-and-Spoke",
     "subType": null,
     "subTypeName": null,
@@ -25,7 +25,7 @@
     "geography": "Global",
     "orgType": "AI-native"
   },
-  "description": "Snowflake CEO Sridhar Ramaswamy argues 2026 will be the year of the 'Great Decentralization' — the end of Big Tech walled gardens as smaller, specialized models deliver higher ROI than trillion-parameter alternatives. His core thesis: 'You don't need the biggest models to do a lot of things.'\n\nThe 2026 vision includes an 'HTTP Moment' — emergence of a dominant protocol for agent collaboration, enabling interoperability. Ramaswamy distinguishes between organizations generating 'AI slop' versus those achieving 'Creative Amplification.' Employee-driven adoption (workers using ChatGPT, Claude without waiting for IT) forces organizations to catch up.\n\nStrategically, Snowflake acquired Observe (observability platform) in early 2026 for AI system monitoring, signaling investment in AI infrastructure. The broader thesis positions Snowflake's data platform as essential infrastructure for the decentralized AI era.",
+  "description": "Snowflake CEO Sridhar Ramaswamy argues 2026 will be the year of the 'Great Decentralization' \u2014 the end of Big Tech walled gardens as smaller, specialized models deliver higher ROI than trillion-parameter alternatives. His core thesis: 'You don't need the biggest models to do a lot of things.'\n\nThe 2026 vision includes an 'HTTP Moment' \u2014 emergence of a dominant protocol for agent collaboration, enabling interoperability. Ramaswamy distinguishes between organizations generating 'AI slop' versus those achieving 'Creative Amplification.' Employee-driven adoption (workers using ChatGPT, Claude without waiting for IT) forces organizations to catch up.\n\nStrategically, Snowflake acquired Observe (observability platform) in early 2026 for AI system monitoring, signaling investment in AI infrastructure. The broader thesis positions Snowflake's data platform as essential infrastructure for the decentralized AI era.",
   "observableMarkers": {
     "reportingStructure": null,
     "resourceAllocation": "Acquired Observe (observability) early 2026 for AI system monitoring",
@@ -70,7 +70,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL \u2014 legacy conversion]"
     },
     {
       "id": "source-2",
@@ -80,7 +80,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL \u2014 legacy conversion]"
     },
     {
       "id": "source-3",
@@ -90,7 +90,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL \u2014 legacy conversion]"
     },
     {
       "id": "source-4",
@@ -100,7 +100,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL \u2014 legacy conversion]"
     }
   ],
   "contingencies": {

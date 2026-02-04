@@ -1,0 +1,22 @@
+{
+  "description": "Supplemental 'north star' search for Meta. Searched for verbatim uses of 'north star' by Meta leaders (Zuckerberg, Wang, Cox, Bosworth) in the context of AI adaptation. Result: no NEW instances found beyond the known Q4 2025 earnings claim (meta-ai--005).",
+  "scannedDate": "2026-02-03",
+  "searchQueries": [
+    "\"Mark Zuckerberg\" \"north star\" AI",
+    "\"Alexandr Wang\" Meta \"north star\" AI",
+    "Meta \"north star\" AI transformation OR strategy 2025 2026",
+    "\"Zuckerberg\" \"north star\" superintelligence OR MSL OR agents",
+    "Meta earnings \"north star\" 2025 2026"
+  ],
+  "searchMethodology": "Exhaustive grep of all project files (specimens/meta-ai.json, research/sessions/*.md, research/purpose-claims/, synthesis/, library/) for 'north star' (case-insensitive). Web search tools (WebSearch, WebFetch, Chrome MCP) were all unavailable during this session — no live web searches could be executed. The search covers only claims already captured in prior research sessions and specimen files.",
+  "knownClaimExcluded": {
+    "id": "meta-ai--005",
+    "text": "Our north star is building the best place for individuals to make a massive impact.",
+    "speaker": "Mark Zuckerberg",
+    "source": "Q4 2025 Earnings Call",
+    "sourceDate": "2026-01-28",
+    "reason": "Already in registry — excluded per task instructions"
+  },
+  "claims": [],
+  "rescanNotes": "No live web searches were possible. This file should be treated as a local-data-only scan. A rescan with web access is recommended to search for: (1) Alexandr Wang 'north star' quotes from MSL announcements or interviews, (2) Chris Cox or Andrew Bosworth 'north star' quotes from product keynotes or podcasts, (3) Any Zuckerberg 'north star' usage in contexts beyond Q4 2025 earnings (e.g., shareholder letters, Connect keynotes, internal memos leaked to press). Priority: HIGH for rescan when web tools are available."
+}

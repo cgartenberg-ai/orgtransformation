@@ -17,20 +17,20 @@
   },
   "habitat": {
     "industry": "Technology",
-    "sector": "AI Research",
+    "sector": "AI Research / Cloud / Advertising",
     "orgSize": "Enterprise",
-    "employees": "~5,600",
-    "revenue": null,
-    "headquarters": "London, UK",
+    "employees": "~5,600 (Google DeepMind); ~180,000 (Alphabet)",
+    "revenue": "$102.3B quarterly (Q3 2025, Alphabet)",
+    "headquarters": "London, UK (DeepMind); Mountain View, CA (Alphabet)",
     "geography": "Global"
   },
   "description": "Google consolidated its AI research organizations (Google Brain and DeepMind) into a unified Google DeepMind organization, growing from ~2,500 to 5,600 employees. The merged entity launched new initiatives including Tim Brooks' world-modeling team, with explicit mandate to accelerate research-to-product pipeline.\n- Merged Google Brain and DeepMind into single organization\n- Grew from ~2,500 to 5,600 employees through consolidation and hiring\n- Launched specialized teams like Tim Brooks' world-modeling research\n- Explicit mandate to accelerate research-to-product pipeline\n- Unified leadership under Demis Hassabis to eliminate coordination friction",
   "observableMarkers": {
-    "reportingStructure": null,
-    "resourceAllocation": null,
+    "reportingStructure": "Demis Hassabis leads unified Google DeepMind. Reports to Sundar Pichai.",
+    "resourceAllocation": "CapEx guidance: $91-93B for full year 2025 (Alphabet-wide). Google Cloud backlog: $155B (+46% QoQ).",
     "timeHorizons": null,
     "decisionRights": null,
-    "metrics": "2,500 to 5,600 employees; unified organization; Tim Brooks world-modeling team launched"
+    "metrics": "2,500 to 5,600 employees (post-merger). Gemini: 650M MAU, queries 3x from Q2, 7B tokens/min via API. 13M+ developers building with generative models. 230M+ videos generated with Veo 3. Google Cloud revenue up 34%. Cloud backlog $155B. Alphabet Q3 2025: $102.3B revenue, $35B net income."
   },
   "mechanisms": [
     {
@@ -42,6 +42,19 @@
   ],
   "quotes": [],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Q3 2025 Results + Identity Narrative Shift + Pre-Q4 Preview",
+      "summary": "Q3 2025: Alphabet revenue $102.3B (+16%), net income $35B (+33%), EPS $2.87 (+35%). Gemini: 650M monthly active users, queries 3x from Q2, 7 billion tokens/minute via API. Google Cloud: revenue up 34%, backlog expanded $49B sequentially to $155B (+46% QoQ). 13M+ developers building with generative models, 230M+ videos generated with Veo 3. CapEx guidance: $91-93B for full year 2025. Analyst narrative shift: Google evolving 'from an advertising giant that uses AI to an AI company that monetizes through advertising, cloud, and consumer platforms' \u2014 an identity-level structural reframing. Gemini 3 expected to launch next. Q4 2025 earnings scheduled Feb 4 \u2014 not yet reported at time of collection. Key questions for Q4: AI adoption in Search (AI Overviews), Workspace, and enterprise Cloud; any DeepMind/Google AI org structure updates.",
+      "classification": null,
+      "sourceRefs": [
+        "alphabet-ir-q3-2025",
+        "fool-alphabet-q3-2025",
+        "saxo-alphabet-q3-2025",
+        "alphabet-ir-q4-date",
+        "ig-alphabet-q4-preview"
+      ]
+    },
     {
       "date": "2025-10",
       "label": "Historical AI Org Evolution (Acquired Deep-Scan)",
@@ -97,12 +110,62 @@
     {
       "id": "source-3",
       "type": "Podcast",
-      "name": "Acquired — Google: The AI Company",
+      "name": "Acquired \u2014 Google: The AI Company",
       "url": "https://www.acquired.fm/episodes/google-the-ai-company",
       "timestamp": null,
       "sourceDate": "2025-10-05",
       "collectedDate": "2026-01-31",
       "notes": "4-hour deep-scan. Full Google AI org history: Brain, DeepMind acquisition, dual structure, talent exodus, Gemini response."
+    },
+    {
+      "id": "alphabet-ir-q3-2025",
+      "type": "Earnings Call",
+      "name": "Alphabet IR \u2014 Q3 2025 Earnings Release",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q3/2025q3-alphabet-earnings-release.pdf",
+      "timestamp": null,
+      "sourceDate": "2025-10-30",
+      "collectedDate": "2026-02-03",
+      "notes": "Q3 2025: $102.3B revenue, $35B net income, EPS $2.87."
+    },
+    {
+      "id": "fool-alphabet-q3-2025",
+      "type": "Earnings Call",
+      "name": "Motley Fool \u2014 Alphabet Q3 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2025/11/27/alphabet-googl-q3-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "sourceDate": "2025-11-27",
+      "collectedDate": "2026-02-03",
+      "notes": "Gemini 650M MAU, 7B tokens/min, 13M+ developers, 230M+ Veo 3 videos."
+    },
+    {
+      "id": "saxo-alphabet-q3-2025",
+      "type": "Earnings Call",
+      "name": "Saxo \u2014 Alphabet Q3 2025 Earnings Analysis",
+      "url": "https://www.home.saxo/content/articles/equities/googl-earnings-30102025",
+      "timestamp": null,
+      "sourceDate": "2025-10-30",
+      "collectedDate": "2026-02-03",
+      "notes": "Cloud backlog $155B, 46% QoQ growth."
+    },
+    {
+      "id": "alphabet-ir-q4-date",
+      "type": "Press",
+      "name": "Alphabet IR \u2014 Q4 2025 Earnings Call Schedule",
+      "url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "timestamp": null,
+      "sourceDate": "2026-01-23",
+      "collectedDate": "2026-02-03",
+      "notes": "Q4 2025 earnings scheduled Feb 4, 2026."
+    },
+    {
+      "id": "ig-alphabet-q4-preview",
+      "type": "Press",
+      "name": "IG Bank \u2014 Alphabet Q4 Earnings Preview",
+      "url": "https://www.ig.com/en-ch/news-and-trade-ideas/alphabet-q4-earnings-preview-will-cloud-and-ai-justify-the-4t-valuation-260202",
+      "timestamp": null,
+      "sourceDate": "2026-02-02",
+      "collectedDate": "2026-02-03",
+      "notes": "'AI company that monetizes through advertising' narrative shift."
     }
   ],
   "contingencies": {
@@ -119,13 +182,21 @@
     "namedVsQuiet": null,
     "longVsShortHorizon": null
   },
-  "openQuestions": [],
-  "taxonomyFeedback": [],
+  "openQuestions": [
+    "Feb 4 Q4 2025 earnings: Does Pichai provide any update on DeepMind vs. Google AI org structure?",
+    "How does Google Cloud's AI architecture (Vertex AI, Gemini API) change internal org boundaries?",
+    "What is the relationship between Gemini team and DeepMind? Still merged? Functional split?",
+    "How does $91-93B CapEx compare to Meta's $115-135B and Amazon's $150B+? Is there a CapEx arms race dynamic?"
+  ],
+  "taxonomyFeedback": [
+    "The analyst narrative shift \u2014 'from an advertising giant that uses AI to an AI company that monetizes through advertising' \u2014 represents an identity-level structural reframing. If this narrative takes hold internally, it could drive reclassification: Google DeepMind shifts from a research lab within an ad company to the core capability of an AI company. This blurs the M1/M4 boundary further.",
+    "Cloud backlog at $155B and 34% growth suggests enterprise AI is becoming a core revenue driver for Alphabet, not a side bet. This changes the structural relationship between DeepMind (research) and Cloud (commercialization) \u2014 the research-to-product pipeline is now a major revenue pipeline."
+  ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-04",
+    "completeness": "Medium",
     "convertedFrom": "library/cases/google-deepmind.json"
   }
 }

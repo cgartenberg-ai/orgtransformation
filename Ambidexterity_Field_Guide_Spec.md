@@ -1,6 +1,6 @@
 # Ambidexterity in the AI Era: A Field Guide
-## Product Specification v1.2
-### Updated February 2, 2026
+## Product Specification v1.3
+### Updated February 3, 2026
 
 ---
 
@@ -64,7 +64,7 @@ This field guide focuses primarily on **structural approaches** — how organiza
 
 ## 4. The Taxonomy
 
-The taxonomy builds on empirical research originally documenting 285+ organizational cases. As of February 2, 2026, **85 organizations** have been fully structured as specimens with classification, sourcing, and stratigraphic layers. Specimens are classified along two dimensions: **primary structural model** and **ambidexterity orientation**.
+The taxonomy builds on empirical research originally documenting 285+ organizational cases. As of February 3, 2026, **85 organizations** have been fully structured as specimens with classification, sourcing, and stratigraphic layers. Specimens are classified along two dimensions: **primary structural model** and **ambidexterity orientation**.
 
 ### Dimension 1: Structural Model
 *What is the organizational structure for AI?*
@@ -80,6 +80,8 @@ Based on systematic observation of how organizations actually structure AI work:
 | **5. Product/Venture Lab** | Commercialize AI into products | 6-36 months | Exploration with explicit path to value |
 | **6. Unnamed/Informal** | Quiet transformation without formal structure | Varies | Often individual-level ambidexterity |
 | **7. Tiger Teams** | Time-boxed exploration sprints | Weeks to months | Temporary structural separation, then reintegration |
+| **8. Skunkworks** *(Emerging)* | Autonomous unit with radical independence | Years | Extreme structural separation, minimal parent oversight |
+| **9. AI-Native** | Born-AI organization, no legacy to transform | Varies | No ambidexterity tension — the product IS exploration |
 
 **Model 5 Sub-Types:**
 - **5a. Internal Incubator** — Products absorbed into parent company (Adobe Firefly)
@@ -328,22 +330,34 @@ The reference site is organized for browsing and discovery:
 - Each specimen card expandable to full detail
 
 ### Principles (Mechanisms)
-Cross-cutting patterns observed across multiple specimens. These 12 confirmed mechanisms emerged from systematic case analysis:
+Cross-cutting patterns observed across multiple specimens. After a rigorous audit (Feb 3, 2026), **9 confirmed mechanisms** remain, each with scholarly anchors grounding them in organizational economics:
 
-1. **Protect Off-Strategy Work** — Structure to let deviations survive (Eli Lilly)
-2. **Bonus Teams That Kill Projects** — Incentivize early termination (Google X)
-3. **Embed Product at Research Frontier** — Product teams work directly with researchers (Anthropic)
-4. **Consumer-Grade UX for Employee Tools** — Extend consumer interfaces internally (Bank of America)
-5. **Deploy to Thousands Before You Know What Works** — Cast wide, then concentrate (P&G, Commonwealth Bank)
-6. **Merge Competing AI Teams Under Single Leader** — Consolidate when coordination costs exceed independence benefits (Google DeepMind)
-7. **Put Executives on the Tools** — Leaders use AI 8+ hours/week on real work (BCG Trailblazers)
-8. **Log Everything When Regulators Watch** — Audit trails as competitive advantage (Allianz, UBS)
-9. **Hire CAIOs from Consumer Tech** — Product-shipping experience over enterprise IT (UK Government, Siemens, Stagwell)
-10. **Productize Internal Operational Advantages** — Internal tools become revenue streams (Walmart, Salesforce)
-11. **AI-Driven Workforce Restructuring as Structural Lever** — Using AI to eliminate roles creates structural space for new organizational forms (Amazon, Salesforce, UPS, Microsoft). Management delayering is the leading edge. *Promoted from candidate 2026-02-02 (8 specimens).*
-12. **Business Leader as AI Chief** — Appointing business-line leaders to head AI ensures strategy serves transformation, not technology (Wells Fargo, Coca-Cola, PwC). *Promoted from candidate 2026-02-02 (3 specimens).*
+1. **Protect Off-Strategy Work** — Structure to let deviations survive. *Scholarly anchor: March (1991) on exploitation driving out exploration.* (Eli Lilly)
+3. **Embed Product at Research Frontier** — Product teams work directly with researchers. *Scholarly anchor: Henderson & Clark (1990) on architectural innovation.* (Anthropic)
+4. **Consumer-Grade UX for Employee Tools** — Extend consumer interfaces internally. *Scholarly anchor: Eisenhardt & Martin (2000) on dynamic capabilities.* (Bank of America)
+5. **Deploy to Thousands Before You Know What Works** — Cast wide, then concentrate. *Scholarly anchor: Arrow (1962) on learning-by-doing.* (P&G, Commonwealth Bank)
+6. **Merge Competing AI Teams Under Single Leader** — Consolidate when coordination costs exceed independence benefits. *Scholarly anchor: Gibbons & Henderson (2012) on relational contracts.* (Google DeepMind)
+7. **Put Executives on the Tools** — Leaders use AI 8+ hours/week on real work. *Scholarly anchor: Holmstrom (1979) on moral hazard.* (BCG Trailblazers)
+8. **Turn Compliance Into Deployment Advantage** — Audit infrastructure becomes competitive moat. *Scholarly anchor: North (1990) on institutional economics.* (JPMorgan, UBS)
+10. **Productize Internal Operational Advantages** — Internal tools become revenue streams. *Scholarly anchor: Teece (1986) on profiting from technological innovation.* (Walmart, Salesforce)
+11. **AI-Driven Management Delayering** — AI reduces the information-aggregation role of middle management, enabling flatter structures. *Scholarly anchor: Simon (1947) on bounded rationality.* (Amazon, Microsoft, UPS)
 
-5 candidate mechanisms remain under observation. Each mechanism links to specimens that demonstrate it.
+**Mechanism maturity lifecycle**: emerging → confirmed → widespread → deprecated. Mechanisms #2, #9, #12 were demoted to candidate status during the Feb 3 audit for insufficient evidence or definitional issues.
+
+9 candidate mechanisms remain under observation. Each mechanism links to specimens that demonstrate it.
+
+### Field Insights
+
+Cross-cutting findings that span multiple specimens, industries, or mechanisms. These are the field guide's key empirical contributions — **insights are never deleted**, only updated with new evidence or new insights added.
+
+**13 insights** organized by theme:
+- **Convergence patterns** (5): Hub-and-spoke in R&D-intensive industries, management delayering convergence, AI team consolidation arc, CAIO industry waves, Google's 25-year structural evolution
+- **Organizational form** (2): AI-native orgs don't face classic ambidexterity tension, founder authority determines accessible models
+- **Mechanism insights** (3): Meta as exploration failure natural experiment, speed without depth is a trap, regulation means expensive not slow
+- **Workforce** (2): AI-driven restructuring convergent across industries, entry-level elimination creates talent hollow
+- **Methodology** (1): Consulting dual-identity problem
+
+**Insight maturity lifecycle**: hypothesis (1 specimen) → emerging (2 specimens) → confirmed (3+ specimens). Current distribution: 7 confirmed, 3 emerging, 3 hypothesis.
 
 ### Tensions & Contingencies
 
@@ -444,7 +458,7 @@ Light on jargon, heavy on practical detail. Theoretical connections available bu
 
 | Original Spec | Field Guide |
 |--------------|-------------|
-| 5 layers, 8 principles, 18 design principles | 2-dimension taxonomy (7 Structural Models × 3 Ambidexterity Orientations) |
+| 5 layers, 8 principles, 18 design principles | 2-dimension taxonomy (9 Structural Models × 3 Ambidexterity Orientations) |
 | Prescriptive framework | Descriptive catalog |
 | Conversation system with modes | Browse/search reference site |
 | "Helps leadership teams develop stances" | "Documents how organizations actually structure this" |
@@ -472,7 +486,7 @@ Light on jargon, heavy on practical detail. Theoretical connections available bu
 
 ---
 
-## 12. Current State (as of February 2, 2026)
+## 12. Current State (as of February 3, 2026)
 
 ### Infrastructure Built
 
@@ -487,12 +501,13 @@ The three-phase workflow is fully operational. All queues are empty (no pending 
 | **Research queue** | 12 entries (all pending new research) | `research/queue.json` |
 | **Curation sessions** | 11 completed | `curation/sessions/` |
 | **Synthesis queue** | 110 entries (all synthesized, 0 pending) | `curation/synthesis-queue.json` |
-| **Mechanisms** | 12 confirmed + 5 candidate | `synthesis/mechanisms.json` |
+| **Mechanisms** | 9 confirmed + 9 candidate (audited Feb 3) | `synthesis/mechanisms.json` |
+| **Insights** | 13 cross-cutting field insights (7 confirmed, 3 emerging, 3 hypothesis) | `synthesis/insights.json` |
 | **Tensions** | 5 core tensions | `synthesis/tensions.json` |
 | **Contingencies** | 5 key contingencies | `synthesis/contingencies.json` |
 | **Validation** | 0 errors, 60 warnings (mostly null URLs from legacy data) | `scripts/validate-workflow.js` |
 | **Skills** | 3 phase skills (`/research`, `/curate`, `/synthesize`) + curation guardrails | `.claude/skills/` |
-| **Reference site** | Working Next.js prototype (10 routes, Claude chat matcher) | `site/` |
+| **Reference site** | Working Next.js prototype (15 routes incl. insights, taxonomy detail, mechanism detail; Claude chat matcher) | `site/` |
 | **Classification guardrails** | 7 guardrails embedded in curation protocol | `skills/ambidexterity-curation/SKILL.md` |
 | **Low-confidence queue** | 2 specimens queued for deeper research | `research/low-confidence-queue.json` |
 
@@ -500,18 +515,19 @@ The three-phase workflow is fully operational. All queues are empty (no pending 
 
 | Structural Model | Count | Type Specimen |
 |-----------------|-------|---------------|
-| Model 1: Research Lab | 9 | Google DeepMind |
+| Model 1: Research Lab | 6 | Google DeepMind |
 | Model 2: Center of Excellence | 17 | — |
-| Model 3: Embedded Teams | 10 | — |
-| Model 4: Hub-and-Spoke | 24 | Novo Nordisk |
-| Model 5: Product/Venture Lab | 12 | Google X (5b), Samsung C-Lab (5a) |
+| Model 3: Embedded Teams | 9 | — |
+| Model 4: Hub-and-Spoke | 22 | Novo Nordisk |
+| Model 5: Product/Venture Lab | 9 | Google X (5b), Samsung C-Lab (5a) |
 | Model 6: Unnamed/Informal | 13 | P&G (ChatPG), Bank of America |
 | Model 7: Tiger Teams | 0 | — (no confirmed specimens after taxonomy audit) |
 | Model 8: Skunkworks (Emerging) | 0 | — (predicted model, no confirmed specimens yet) |
+| Model 9: AI-Native | 10 | — (born-AI organizations, no legacy to transform) |
 
-**Orientation distribution**: 60 Structural, 24 Contextual, 1 Temporal
+**Orientation distribution**: 50 Structural, 24 Contextual, 1 Temporal (M9 AI-Native: 9 Structural, 1 Contextual)
 
-**AI-native specimens**: 10 tagged (harvey-ai, mercor, sierra-ai, glean, ssi, ami-labs, thinking-machines-lab, world-labs, databricks, snowflake)
+**AI-native specimens (M9)**: 10 (harvey-ai, mercor, sierra-ai, glean, ssi, ami-labs, thinking-machines-lab, world-labs, databricks, snowflake)
 
 ### Source Coverage
 
@@ -590,4 +606,4 @@ The three-phase workflow is fully operational. All queues are empty (no pending 
 
 ---
 
-*This spec builds on empirical research originally documenting 285+ organizational cases. As of February 2, 2026, 85 organizations have been fully structured as specimens with 12 confirmed cross-cutting mechanisms. The field guide is developed iteratively through the three-phase skill workflow, with the taxonomy refined as specimens are documented and synthesized.*
+*This spec builds on empirical research originally documenting 285+ organizational cases. As of February 3, 2026, 85 organizations have been fully structured as specimens with 9 confirmed cross-cutting mechanisms (each grounded in scholarly anchors) and 13 cross-cutting field insights. The field guide is developed iteratively through the three-phase skill workflow, with the taxonomy refined as specimens are documented and synthesized.*

@@ -1,0 +1,123 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "nokia",
+  "name": "Nokia",
+  "title": "Portfolio Separation + Defense Incubation Unit",
+
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 5,
+    "secondaryModelName": "Product/Venture Lab",
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Decision tree: Formal AI units exist (agentic AI for network automation, Nokia Defense incubation) → not academic research → central capability exists in core network infrastructure → central team BUILDS products → Nokia Defense builds new products (defense-grade 4G/5G for NATO). Primary M4: core network infrastructure business operates as hub with AI/cloud capabilities ($2.4B from AI & cloud customers) distributed across business units. Secondary M5 (5a Internal Incubator): Nokia Defense is a new incubation unit building defense-grade solutions — structurally separated from core network business. Structural orientation: explicit separation between exploration (Nokia Defense incubation, new market) and execution (core network infrastructure). Portfolio Businesses restructuring moves 4 non-core BUs into separate unit — classic structural ambidexterity. G7 Skunkworks check: Nokia Defense builds adjacent capability (defense market) not core replacement — classify as M5a, not M8. The session flagged Nokia Defense as potential M8 but the adjacent-market evidence (defense/NATO) rather than core-reimagining evidence argues against M8. Medium confidence: 2 sources with URLs, restructuring details, but limited visibility into Nokia Defense internal structure.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Telecommunications",
+    "sector": "Network Infrastructure / Equipment",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Espoo, Finland",
+    "geography": "Europe"
+  },
+
+  "description": "Nokia is executing a multi-track structural transformation centered on portfolio separation and incubation. The company restructured its business units by moving 4 units into a new 'Portfolio Businesses' grouping — a structural separation of non-core from core that is textbook structural ambidexterity. This allows the core network infrastructure business to focus on execution while non-core businesses are managed separately, presumably for divestiture or wind-down.\n\nSimultaneously, Nokia created a Nokia Defense incubation unit focused on defense-grade solutions for Finland and NATO, applying 4G/5G technology to military applications. This is structurally separated from the core business and represents exploration of an adjacent market using existing technological capabilities. The company also deployed an agentic AI solution for network automation that reduces network downtime by 96% through event-driven automation management.\n\nThe financial context shows a company in active transition: €300M restructuring in 2025 with €450M planned for 2026, targeting €800M-1.2B in total savings. Nokia made a strategic €0.9B equity investment in NVIDIA, betting on the AI infrastructure layer. Revenue from AI and cloud customers reached €2.4B in 2025, indicating AI/cloud is becoming central to the growth strategy. The company positions its networks as 'trusted AI-native networks' — intelligence infrastructure beyond data centers.",
+
+  "observableMarkers": {
+    "reportingStructure": "Portfolio Businesses: 4 non-core BUs moved to separate structural grouping. Nokia Defense: new incubation unit with separate mandate.",
+    "resourceAllocation": "€300M restructuring in 2025, €450M in 2026. €0.9B equity investment in NVIDIA. €2.4B from AI & cloud customers.",
+    "timeHorizons": "Multi-year restructuring (€800M-1.2B total savings target). Nokia Defense is exploration with longer time horizon.",
+    "decisionRights": null,
+    "metrics": "Agentic AI network automation: 96% reduction in network downtime. €2.4B from AI & cloud customers in 2025. €300M restructuring 2025 + €450M 2026."
+  },
+
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "Nokia Defense is a structurally separated incubation unit exploring defense-grade 4G/5G for military applications (Finland/NATO) — adjacent to core network infrastructure business but protected from the core business's optimization pressures.",
+      "strength": "Moderate"
+    }
+  ],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation — Portfolio Restructuring + Defense Incubation",
+      "summary": "Nokia's structural transformation documented: Portfolio Businesses separation of 4 non-core BUs, Nokia Defense incubation unit for military 4G/5G, agentic AI network automation (96% downtime reduction), €300M+ restructuring, €0.9B NVIDIA investment, €2.4B AI/cloud customer revenue.",
+      "classification": null,
+      "sourceRefs": ["nokia-q4-2025-earnings", "nokia-ai-bets-2026"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "nokia-q4-2025-earnings",
+      "type": "Earnings Call",
+      "name": "Nokia Q4 2025 Earnings Call Transcript",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nokia-q4-2025-misses-forecasts-stock-dips-93CH-4480919",
+      "timestamp": null,
+      "sourceDate": "2026-01-29",
+      "collectedDate": "2026-02-04",
+      "notes": "Q4 2025 earnings — Portfolio Businesses restructuring, Nokia Defense, agentic AI network automation, NVIDIA investment"
+    },
+    {
+      "id": "nokia-ai-bets-2026",
+      "type": "Press",
+      "name": "TipRanks — Nokia Earnings Call: AI Bets Offset Margin Pressures",
+      "url": "https://www.tipranks.com/news/company-announcements/nokia-delivers-in-line-2025-results-raises-ai-focused-network-ambitions-for-2026",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-04",
+      "notes": "AI-focused network ambitions, restructuring cost targets, 'trusted AI-native networks' positioning"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "High"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": -0.4
+  },
+
+  "openQuestions": [
+    "What is the internal structure and leadership of the Nokia Defense incubation unit?",
+    "What are the 4 business units moved to Portfolio Businesses, and what is their expected trajectory (divestiture, wind-down, restructuring)?",
+    "How does the agentic AI network automation solution relate organizationally to the core network infrastructure business?",
+    "What is Nokia's CAIO or AI leadership structure?",
+    "Does Nokia Defense have its own P&L, hiring authority, and strategic planning — is it truly structurally separated?"
+  ],
+
+  "taxonomyFeedback": [
+    "Nokia Defense was flagged as a potential M8 Skunkworks candidate in the research session. After classification review: Nokia Defense is building adjacent capability (defense market) using existing technology (4G/5G), not reimagining a core business line. This is M5a (Internal Incubator), not M8. The distinction matters: M8 requires structural potential to absorb/replace the legacy org; Nokia Defense adds a new market, it doesn't threaten the core.",
+    "European industrial perspective on AI restructuring is valuable — Nokia provides non-US, non-tech-sector data point. The Portfolio Businesses separation is classic Christensen-style structural ambidexterity.",
+    "First telecommunications infrastructure specimen in the collection. The 'trusted AI-native networks' positioning and 96% downtime reduction via agentic AI are unique operational metrics not seen in other specimens."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-04",
+    "lastUpdated": "2026-02-04",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

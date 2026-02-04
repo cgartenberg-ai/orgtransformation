@@ -7,8 +7,8 @@
     "structuralModelName": "Hybrid/Hub-and-Spoke",
     "subType": null,
     "subTypeName": null,
-    "secondaryModel": null,
-    "secondaryModelName": null,
+    "secondaryModel": 1,
+    "secondaryModelName": "Research Lab",
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Medium",
@@ -20,23 +20,23 @@
     "sector": "Cloud / Enterprise Software / AI",
     "orgSize": "Enterprise",
     "employees": 220000,
-    "revenue": null,
+    "revenue": "$81.3B quarterly (Q2 FY2026)",
     "headquarters": "Redmond, WA",
     "geography": "Global"
   },
-  "description": "Microsoft CEO Satya Nadella has executed one of the most dramatic organizational transformations in big tech: restructuring executive ranks while demanding that all leaders 'work and act like Individual Contributors in our own orgs, constantly learning and unlearning.'\n\nNadella describes a three-tier AI structure: (1) Infrastructure/token factory (Azure compute), (2) Agent factory (platform for building AI agents), (3) Systems of intelligence / Copilot family (first-party AI products). Each layer should be independently usable but with 'integration benefits and platform effects' — a deliberate structural choice about modularity vs. bundling.\n\nNadella manages Microsoft's massive org through 'micro-cultures' rather than top-down directives: 'The power is a lot more diffused and distributed... Micro-cultures and they can be shaped.' He stays connected to innovation by 'lingering around Teams channels' — discovering emerging AI work organically. As he puts it, 'Teams is the new wandering the halls.'\n\nMicrosoft is expanding into vertical AI domains: DAX Copilot for physician note-taking (health), NLWeb for agentic commerce (in collaboration with Stripe). The framing of AI's core enterprise challenge: 'Making sure that AI is getting diffused inside of the enterprise... not to just admire somebody else's AI factory or AI agent, but how to build your own.'",
+  "description": "Microsoft CEO Satya Nadella has executed one of the most dramatic organizational transformations in big tech: restructuring executive ranks while demanding that all leaders 'work and act like Individual Contributors in our own orgs, constantly learning and unlearning.'\n\nNadella describes a three-tier AI structure: (1) Infrastructure/token factory (Azure compute), (2) Agent factory (platform for building AI agents), (3) Systems of intelligence / Copilot family (first-party AI products). Each layer should be independently usable but with 'integration benefits and platform effects' \u2014 a deliberate structural choice about modularity vs. bundling.\n\nNadella manages Microsoft's massive org through 'micro-cultures' rather than top-down directives: 'The power is a lot more diffused and distributed... Micro-cultures and they can be shaped.' He stays connected to innovation by 'lingering around Teams channels' \u2014 discovering emerging AI work organically. As he puts it, 'Teams is the new wandering the halls.'\n\nMicrosoft is expanding into vertical AI domains: DAX Copilot for physician note-taking (health), NLWeb for agentic commerce (in collaboration with Stripe). The framing of AI's core enterprise challenge: 'Making sure that AI is getting diffused inside of the enterprise... not to just admire somebody else's AI factory or AI agent, but how to build your own.'",
   "observableMarkers": {
     "reportingStructure": "CEO appointed Judson Althoff as CEO of commercial business to free time for hands-on technical work. Mustafa Suleyman as Microsoft AI CEO.",
-    "resourceAllocation": "FY2025: $88B on AI development. $80B+ on AI-enabled datacenters. 400+ data centers in 70 regions. 15K+ jobs cut in 2025.",
+    "resourceAllocation": "FY2025: $88B on AI development. $80B+ on AI-enabled datacenters. 400+ data centers in 70 regions. 15K+ jobs cut in 2025. Q2 FY2026: $37.5B quarterly CapEx (+77% YoY).",
     "timeHorizons": "'Think in decades, execute in quarters.'",
     "decisionRights": "CEO manages via Teams channels, discovers emerging work organically. 'Micro-cultures' with distributed shaping.",
-    "metrics": "400+ data centers in 70 regions. $88B AI development spend FY2025. 30% of code AI-written. 220K+ employees. 15K+ layoffs in 2025."
+    "metrics": "400+ data centers in 70 regions. $88B AI development spend FY2025. 30% of code AI-written. 220K+ employees. 15K+ layoffs in 2025. 15M Copilot paid seats (3.3% of 450M commercial M365 seats). 100M+ Copilot MAU. 800M MAU engaging with AI features. 3M agents created via SharePoint/Copilot Studio. 20M GitHub Copilot users (90% Fortune 100). Azure $75B+ annual revenue."
   },
   "mechanisms": [
     {
       "id": 5,
       "name": "Deploy to Thousands Before You Know What Works",
-      "evidence": "Copilot deployed broadly across Microsoft's product suite (Teams, Office, Azure) with rapid iteration cycles.",
+      "evidence": "Copilot deployed broadly across Microsoft's product suite (Teams, Office, Azure) with rapid iteration cycles. 15M paid seats, 100M+ MAU, 3M user-created agents.",
       "strength": "Moderate"
     },
     {
@@ -95,25 +95,50 @@
   ],
   "layers": [
     {
+      "date": "2026-01-28",
+      "label": "Q2 FY2026 Earnings \u2014 AI Investment Reckoning",
+      "summary": "Q2 FY2026 earnings (Jan 28, 2026): $81.3B revenue (+17% YoY), EPS $4.14 (beat $3.91 estimate). Stock plunged 10.5% on Jan 29 \u2014 erased ~$375B market cap \u2014 one of largest shareholder value destructions in corporate history. Cause: Azure growth slowed (39%, down from 40%) and $37.5B quarterly CapEx (+77% YoY) alarmed investors. Copilot: 15M paid seats (out of 450M commercial M365 seats = 3.3% penetration), 100M+ MAU, 3M user-created agents via SharePoint/Copilot Studio. GitHub Copilot: 20M users, 90% Fortune 100. Deep reasoning agents (Researcher + Analyst) adopted by 'tens of thousands of organizations' in first weeks. Azure surpassed $75B annual revenue. Strategic tensions: OpenAI = 45% of Azure RPO (concentration risk), potential vertical integration of own silicon, narrative pivot toward 'AI Efficiency' \u2014 lowering cost of serving AI models. Market now questioning whether AI spending produces adequate returns.",
+      "classification": null,
+      "sourceRefs": [
+        "cnbc-q2-fy2026",
+        "fc-375b-wipe-2026",
+        "fc-capex-reckoning-2026",
+        "fifthperson-q4-fy2025",
+        "fool-q4-fy2025",
+        "stratechery-msft-survival-2026"
+      ]
+    },
+    {
       "date": "2026-02",
       "label": "15K+ Layoffs, 30% AI Code, Management Delayering",
       "summary": "15K+ jobs eliminated in 2025 (6K May + 9K July) despite $88B AI spend. Nadella: 30% of code now AI-written, 220K employees a 'massive disadvantage.' Targeting management layers between ICs and senior execs. Feb 23, 2026 RTO enforcement (3 days/week within 50 miles) called 'soft layoff tool.' Rumored 11-22K Jan 2026 cuts denied by comms chief Shaw ('100% made up').",
       "classification": null,
-      "sourceRefs": ["fortune-layoffs-2025", "cloudwars-2026", "tipranks-msft-2025", "republic-world-2026", "fastcompany-2026", "hrdigest-2026"]
+      "sourceRefs": [
+        "fortune-layoffs-2025",
+        "cloudwars-2026",
+        "tipranks-msft-2025",
+        "republic-world-2026",
+        "fastcompany-2026",
+        "hrdigest-2026"
+      ]
     },
     {
       "date": "2025-11",
       "label": "Dual Model Source & Vertical Product Teams",
       "summary": "Nadella on Dwarkesh Podcast: Microsoft has dual model source (OpenAI external + MAI internal). Product-vertical teams in security, knowledge work, coding, science build 'application scaffolding' on top. Key AI talent acquisitions: Mustafa Suleyman (Microsoft AI lab), Amar Subramanya (from Gemini 2.5 post-training), Nando de Freitas (from DeepMind). Fairwater 2 datacenter: hundreds of thousands GB200s/GB300s, 2GW+ capacity. 10x training capacity increase every 18-24 months.",
       "classification": null,
-      "sourceRefs": ["dwarkesh-nadella-2025"]
+      "sourceRefs": [
+        "dwarkesh-nadella-2025"
+      ]
     },
     {
       "date": "2025-11",
       "label": "Three-Tier Structure & Micro-Cultures",
       "summary": "Nadella on Cheeky Pint detailed: three-tier AI structure (infra/agents/Copilot), micro-cultures management philosophy, Teams channels as CEO sensing mechanism, vertical AI expansion (DAX Copilot for health, NLWeb for commerce), data layer as hardest enterprise AI challenge.",
       "classification": null,
-      "sourceRefs": ["cheeky-pint-nadella-2025"]
+      "sourceRefs": [
+        "cheeky-pint-nadella-2025"
+      ]
     },
     {
       "date": "2026-01",
@@ -130,9 +155,59 @@
   ],
   "sources": [
     {
+      "id": "cnbc-q2-fy2026",
+      "type": "Earnings Call",
+      "name": "CNBC \u2014 Microsoft Q2 FY2026 Results",
+      "url": "https://www.cnbc.com/2026/01/28/microsoft-msft-q2-earnings-report-2026.html",
+      "timestamp": null,
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-02-03",
+      "notes": "Q2 FY2026: $81.3B revenue, $4.14 EPS, beat estimates."
+    },
+    {
+      "id": "fc-375b-wipe-2026",
+      "type": "Press",
+      "name": "FinancialContent \u2014 Microsoft $375B Market Cap Wipe",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-2-microsofts-400-billion-reality-check-ai-spending-surge-and-azure-slowdown-send-shares-tumbling",
+      "timestamp": null,
+      "sourceDate": "2026-02-02",
+      "collectedDate": "2026-02-03",
+      "notes": "10.5% stock plunge, $375B erased, Azure growth slowdown to 39%."
+    },
+    {
+      "id": "fc-capex-reckoning-2026",
+      "type": "Press",
+      "name": "FinancialContent \u2014 Microsoft AI Reckoning: CapEx and Market Skepticism",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-2-microsofts-ai-reckoning-record-revenues-overshadowed-by-massive-capex-and-market-skepticism",
+      "timestamp": null,
+      "sourceDate": "2026-02-02",
+      "collectedDate": "2026-02-03",
+      "notes": "$37.5B quarterly CapEx (+77% YoY), OpenAI restructuring, silicon integration."
+    },
+    {
+      "id": "fifthperson-q4-fy2025",
+      "type": "Earnings Call",
+      "name": "Fifth Person \u2014 Microsoft Q4 FY2025 Earnings Call",
+      "url": "https://fifthperson.com/microsoft-q4-2025-earnings-call/",
+      "timestamp": null,
+      "sourceDate": "2025-08-05",
+      "collectedDate": "2026-02-03",
+      "notes": "15M Copilot paid seats, 100M MAU, 3M agents."
+    },
+    {
+      "id": "fool-q4-fy2025",
+      "type": "Earnings Call",
+      "name": "Motley Fool \u2014 Microsoft Q4 FY2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2025/08/05/microsoft-msft-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "sourceDate": "2025-08-05",
+      "collectedDate": "2026-02-03",
+      "notes": "20M GitHub Copilot users, 90% Fortune 100."
+    },
+    {
       "id": "fortune-layoffs-2025",
       "type": "Press",
-      "name": "Fortune — Microsoft 9K July layoffs",
+      "name": "Fortune \u2014 Microsoft 9K July layoffs",
       "url": "https://fortune.com/2025/07/02/microsoft-layoffs-9000-ai/",
       "timestamp": null,
       "sourceDate": "2025-07-02",
@@ -142,7 +217,7 @@
     {
       "id": "cloudwars-2026",
       "type": "Press",
-      "name": "Cloud Wars — Microsoft AI-driven layoffs",
+      "name": "Cloud Wars \u2014 Microsoft AI-driven layoffs",
       "url": "https://cloudwars.com/ai/microsoft-ai-driven-layoffs-are-a-feature-not-a-bug/",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -152,7 +227,7 @@
     {
       "id": "tipranks-msft-2025",
       "type": "Press",
-      "name": "TipRanks — Microsoft AI spending",
+      "name": "TipRanks \u2014 Microsoft AI spending",
       "url": "https://www.tipranks.com/news/microsoft-msft-eyes-major-january-layoffs-as-ai-costs-rise",
       "timestamp": null,
       "sourceDate": "2025-12",
@@ -162,7 +237,7 @@
     {
       "id": "republic-world-2026",
       "type": "Press",
-      "name": "Republic World — Management delayering",
+      "name": "Republic World \u2014 Management delayering",
       "url": "https://www.republicworld.com/tech/after-15000-layoffs-microsoft-cuts-employee-library-and-newspaper-access-shifts-focus-to-ai-based-learning",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -172,7 +247,7 @@
     {
       "id": "fastcompany-2026",
       "type": "Press",
-      "name": "Fast Company — Shaw denial of 2026 layoff rumors",
+      "name": "Fast Company \u2014 Shaw denial of 2026 layoff rumors",
       "url": "https://www.fastcompany.com/91472257/microsoft-layoff-rumors-response",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -182,7 +257,7 @@
     {
       "id": "hrdigest-2026",
       "type": "Press",
-      "name": "HR Digest — Microsoft RTO enforcement",
+      "name": "HR Digest \u2014 Microsoft RTO enforcement",
       "url": "https://www.thehrdigest.com/is-microsoft-preparing-for-mass-layoffs-in-2026",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -232,7 +307,7 @@
     {
       "id": "dwarkesh-nadella-2025",
       "type": "Podcast",
-      "name": "Dwarkesh Podcast — Satya Nadella: How Microsoft is preparing for AGI",
+      "name": "Dwarkesh Podcast \u2014 Satya Nadella: How Microsoft is preparing for AGI",
       "url": "https://www.dwarkesh.com/p/satya-nadella-2",
       "timestamp": null,
       "sourceDate": "2025-11-12",
@@ -242,12 +317,22 @@
     {
       "id": "cheeky-pint-nadella-2025",
       "type": "Podcast",
-      "name": "Cheeky Pint — Satya Nadella Describes How Lessons...",
+      "name": "Cheeky Pint \u2014 Satya Nadella Describes How Lessons...",
       "url": "https://cheekypint.substack.com/p/satya-nadella-describes-how-lessons",
       "timestamp": null,
       "sourceDate": "2025-11-18",
       "collectedDate": "2026-01-31",
       "notes": "Three-tier AI structure, micro-cultures, Teams as sensing mechanism, DAX Copilot, NLWeb."
+    },
+    {
+      "id": "stratechery-msft-survival-2026",
+      "type": "Substack",
+      "name": "Stratechery \u2014 Microsoft and Software Survival",
+      "url": "https://stratechery.com/2026/microsoft-and-software-survival/",
+      "timestamp": null,
+      "sourceDate": "2026-02-03",
+      "collectedDate": "2026-02-03",
+      "notes": "OpenAI = 45% Azure RPO. Market sentiment reversal: OpenAI concentration now viewed as detriment, not asset. 'Full circle moment' from ChatGPT winner to existential software questions."
     }
   ],
   "contingencies": {
@@ -262,21 +347,27 @@
     "speedVsDepth": 0.3,
     "centralVsDistributed": 0.2,
     "namedVsQuiet": -0.5,
-    "longVsShortHorizon": 0.0
+    "longVsShortHorizon": 0
   },
   "openQuestions": [
     "How does the Mustafa Suleyman / Microsoft AI CEO role fit into the three-tier structure?",
     "What's the reporting relationship between Azure AI, Copilot, and Microsoft AI?",
-    "How do micro-cultures interact with the three-tier structural separation?"
+    "How do micro-cultures interact with the three-tier structural separation?",
+    "What does 'vertical integration of own silicon' look like structurally? New hardware org? Partnership?",
+    "How does 3.3% Copilot penetration (15M/450M) compare to Microsoft internal targets?",
+    "How does the OpenAI deal restructuring affect the MAI vs. OpenAI internal tension?",
+    "Does the 45% RPO concentration force Microsoft to accelerate internal MAI development? Is this the beginning of an OpenAI/MAI structural separation?",
+    "Is the $375B market cap destruction a structural inflection point for AI investment across the industry?"
   ],
   "taxonomyFeedback": [
     "Nadella's 'micro-cultures' concept is a management mechanism for contextual ambidexterity within a structurally separated organization. This hybrid of structural separation + contextual management may need explicit recognition in the taxonomy.",
-    "The three-tier stack (infra/platform/product) is a common pattern in tech companies that the taxonomy doesn't explicitly capture as a sub-type of Model 4."
+    "The three-tier stack (infra/platform/product) is a common pattern in tech companies that the taxonomy doesn't explicitly capture as a sub-type of Model 4.",
+    "OpenAI concentration risk (45% of Azure RPO) reveals a structural vulnerability of the hub-and-spoke model when the hub's key capability is externally sourced. The potential restructuring of the OpenAI deal may force a fundamental architectural change."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-01",
+    "lastUpdated": "2026-02-04",
     "completeness": "Medium",
     "convertedFrom": "library/cases/microsoft.json"
   }

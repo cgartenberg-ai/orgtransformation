@@ -1,0 +1,564 @@
+{
+  "description": "Tracks which specimens have been scanned for purpose claims. Quality: unscanned | rich (3+) | adequate (1-2) | none (scanned, 0 claims).",
+  "lastUpdated": "2026-02-04",
+  "specimens": [
+    {
+      "specimenId": "abb",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "accenture-openai",
+      "lastScanned": "2026-02-04",
+      "claimsFound": 8,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "adobe-firefly",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "allianz-anthropic",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "amazon",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "amazon-agi",
+      "lastScanned": "2026-02-03",
+      "claimsFound": 5,
+      "quality": "adequate"
+    },
+    {
+      "specimenId": "ami-labs",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "anthropic",
+      "lastScanned": "2026-02-03",
+      "claimsFound": 14,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "atlassian",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "bank-of-america",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "bcg-trailblazers",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "bosch-bcai",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "boston-dynamics-deepmind",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "bytedance",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "ci-med",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "citigroup",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "coca-cola",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "commonwealth-bank",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "dai-nippon-printing",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "databricks",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "deloitte",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "dow",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "duolingo",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "eli-lilly",
+      "lastScanned": "2026-02-03",
+      "claimsFound": 7,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "fda",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "glean",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "google-ai-infra",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "google-deepmind",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "google-x",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "harvey-ai",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "hp",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "hyundai-robotics",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "ig-group",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "indostar-capital",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "infosys",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "intercom",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "invent-advisory",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "jpmorgan",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "klarna",
+      "lastScanned": "2026-02-04",
+      "claimsFound": 7,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "lg-electronics",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "mckinsey-quantumblack",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "mckinsey-workforce",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "mercado-libre",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "mercor",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "meta-ai",
+      "lastScanned": "2026-02-03",
+      "claimsFound": 11,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "microsoft",
+      "lastScanned": "2026-02-03",
+      "claimsFound": 15,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "moderna",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "nasa",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "new-york-state",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "nokia",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "nordic-semiconductor",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "novo-nordisk",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "ntt-data",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "nvidia",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "openai-microsoft",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "palo-alto-networks",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "pentagon-cdao",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "pfizer",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "pg-chatpg",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "pinterest",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "publicis-groupe",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "pwc",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "recursion",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "roche-genentech",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "rwjbarnabas-health",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "salesforce",
+      "lastScanned": "2026-02-04",
+      "claimsFound": 10,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "samsung-c-lab",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "sanofi",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "sap",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "schneider-electric",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "servicenow",
+      "lastScanned": "2026-02-03",
+      "claimsFound": 2,
+      "quality": "adequate"
+    },
+    {
+      "specimenId": "servier",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "shopify",
+      "lastScanned": "2026-02-03",
+      "claimsFound": 5,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "siemens",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "sierra-ai",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "sk-telecom",
+      "lastScanned": "2026-02-04",
+      "claimsFound": 5,
+      "quality": "adequate"
+    },
+    {
+      "specimenId": "snowflake",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "ssi",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "stagwell",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "tencent",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "tesla",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "thinking-machines-lab",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "travelers",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "ubs",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "uk-government",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "univers-ial",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "ups",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "us-cyber-command",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "walmart",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "waystar",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "wells-fargo",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "workday",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    },
+    {
+      "specimenId": "world-labs",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    }
+  ]
+}

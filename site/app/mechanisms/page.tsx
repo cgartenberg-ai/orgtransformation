@@ -1,5 +1,7 @@
 import { getMechanisms } from "@/lib/data/synthesis";
 import { getAllSpecimens } from "@/lib/data/specimens";
+import { STRUCTURAL_MODELS } from "@/lib/types/taxonomy";
+import type { StructuralModel } from "@/lib/types/specimen";
 import Link from "next/link";
 
 export const metadata = {
@@ -49,10 +51,22 @@ export default async function MechanismsPage() {
                     </span>
                     {m.name}
                   </h3>
-                  <span className="shrink-0 rounded bg-forest-50 px-2 py-0.5 font-mono text-xs text-forest">
-                    {linkedSpecimens.length} specimen
-                    {linkedSpecimens.length !== 1 ? "s" : ""}
-                  </span>
+                  <div className="flex shrink-0 items-center gap-2">
+                    {m.maturity && (
+                      <span className={`rounded px-2 py-0.5 font-mono text-xs ${
+                        m.maturity === "widespread" ? "bg-amber-50 text-amber-700" :
+                        m.maturity === "emerging" ? "bg-sage-50 text-sage-600" :
+                        m.maturity === "deprecated" ? "bg-charcoal-100 text-charcoal-400" :
+                        "bg-forest-50 text-forest"
+                      }`}>
+                        {m.maturity}
+                      </span>
+                    )}
+                    <span className="rounded bg-forest-50 px-2 py-0.5 font-mono text-xs text-forest">
+                      {linkedSpecimens.length} specimen
+                      {linkedSpecimens.length !== 1 ? "s" : ""}
+                    </span>
+                  </div>
                 </div>
                 <p className="mt-2 text-sm text-charcoal-600">
                   {m.definition}
@@ -60,8 +74,39 @@ export default async function MechanismsPage() {
                 <p className="mt-1 text-xs text-charcoal-400">
                   {m.problemItSolves}
                 </p>
+                {/* Taxonomy Affinity */}
+                {m.affinityProfile && (
+                  <div className="mt-3 flex flex-wrap items-center gap-2">
+                    <span className="text-[10px] font-medium uppercase tracking-wide text-charcoal-400">
+                      Most common in:
+                    </span>
+                    {Object.entries(m.affinityProfile.modelDistribution)
+                      .sort(([, a], [, b]) => b.count - a.count)
+                      .slice(0, 3)
+                      .map(([model, data]) => (
+                        <span
+                          key={model}
+                          className="rounded bg-forest-50 px-1.5 py-0.5 font-mono text-[10px] text-forest"
+                        >
+                          M{model} {STRUCTURAL_MODELS[Number(model) as StructuralModel]?.name} ({data.count})
+                        </span>
+                      ))}
+                    <span className="mx-0.5 text-charcoal-300">&middot;</span>
+                    <span
+                      className={`rounded px-1.5 py-0.5 text-[10px] ${
+                        m.affinityProfile.primaryOrientation === "Structural"
+                          ? "bg-forest-50 text-forest"
+                          : m.affinityProfile.primaryOrientation === "Contextual"
+                          ? "bg-amber-50 text-amber-700"
+                          : "bg-sage-50 text-sage-700"
+                      }`}
+                    >
+                      {m.affinityProfile.orientationDistribution[m.affinityProfile.primaryOrientation]?.percentage}% {m.affinityProfile.primaryOrientation}
+                    </span>
+                  </div>
+                )}
                 {linkedSpecimens.length > 0 && (
-                  <div className="mt-3 flex flex-wrap gap-1.5">
+                  <div className="mt-2 flex flex-wrap gap-1.5">
                     {linkedSpecimens.slice(0, 6).map((s) => (
                       <span
                         key={s.id}

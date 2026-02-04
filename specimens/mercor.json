@@ -1,9 +1,9 @@
 {
   "id": "mercor",
   "name": "Mercor",
-  "title": "AI-Native Hiring Platform — Uber for Knowledge Work",
+  "title": "AI-Native Hiring Platform \u2014 Uber for Knowledge Work",
   "classification": {
-    "structuralModel": 5,
+    "structuralModel": 9,
     "structuralModelName": "Product/Venture Lab",
     "subType": "5a",
     "subTypeName": "Internal Incubator",
@@ -12,7 +12,7 @@
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Medium",
-    "classificationRationale": "Model 5a (Product/Venture Lab). Mercor is an AI-native startup building an AI hiring platform — the company IS the AI product. Founded 2023, $1 to $500M revenue in 17 months. Platform uses AI for 20-min interviews, skill evaluation, and matching. Structural: distinct product development function building the platform. Mercor shapes how OTHER companies structure their AI workforce.",
+    "classificationRationale": "Model 5a (Product/Venture Lab). Mercor is an AI-native startup building an AI hiring platform \u2014 the company IS the AI product. Founded 2023, $1 to $500M revenue in 17 months. Platform uses AI for 20-min interviews, skill evaluation, and matching. Structural: distinct product development function building the platform. Mercor shapes how OTHER companies structure their AI workforce.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -25,7 +25,7 @@
     "geography": "Global",
     "orgType": "AI-native"
   },
-  "description": "Mercor is an AI-native hiring platform that connects knowledge workers with companies (including OpenAI, Anthropic, Meta) at unprecedented speed. Founded in 2023 by three college dropouts and Thiel Fellows (Brendan Foody CEO, Adarsh Hiremath CTO, Surya Midha Chair), the company grew from $1 to $500M revenue run rate in 17 months.\n\nThe platform uses a 20-minute AI interview to evaluate skills, create profiles, and match to roles. In 2025, Mercor hired 30,000 contractors (80% US-based), distributing $1.5M+ daily. October 2025: Series C $350M at $10B valuation, backed by Peter Thiel and Jack Dorsey. Uber's former CPO Sundeep Jain joined as president.\n\nFounder thesis: AI isn't eliminating labor but reallocating it — humans become the bottleneck for the remaining 10%, creating 10x leverage. Work is shifting toward 'more fractional, gig-like' models. Mercor launched APEX (AI Productivity Index) in January 2026 to measure AI tool impact on professional productivity.\n\nMercor is structurally significant because it reshapes how OTHER companies organize AI talent — connecting former industry experts with AI labs to create training data, evals, and rubrics.",
+  "description": "Mercor is an AI-native hiring platform that connects knowledge workers with companies (including OpenAI, Anthropic, Meta) at unprecedented speed. Founded in 2023 by three college dropouts and Thiel Fellows (Brendan Foody CEO, Adarsh Hiremath CTO, Surya Midha Chair), the company grew from $1 to $500M revenue run rate in 17 months.\n\nThe platform uses a 20-minute AI interview to evaluate skills, create profiles, and match to roles. In 2025, Mercor hired 30,000 contractors (80% US-based), distributing $1.5M+ daily. October 2025: Series C $350M at $10B valuation, backed by Peter Thiel and Jack Dorsey. Uber's former CPO Sundeep Jain joined as president.\n\nFounder thesis: AI isn't eliminating labor but reallocating it \u2014 humans become the bottleneck for the remaining 10%, creating 10x leverage. Work is shifting toward 'more fractional, gig-like' models. Mercor launched APEX (AI Productivity Index) in January 2026 to measure AI tool impact on professional productivity.\n\nMercor is structurally significant because it reshapes how OTHER companies organize AI talent \u2014 connecting former industry experts with AI labs to create training data, evals, and rubrics.",
   "observableMarkers": {
     "reportingStructure": "3 co-founders (all youngest self-made billionaires). Uber CPO Sundeep Jain as president.",
     "resourceAllocation": "$350M Series C at $10B. $500M revenue run rate.",
@@ -63,7 +63,7 @@
     {
       "id": "source-1",
       "type": "Podcast",
-      "name": "Conversations with Tyler — Brendan Foody (Mercor)",
+      "name": "Conversations with Tyler \u2014 Brendan Foody (Mercor)",
       "url": "https://conversationswithtyler.com/episodes/jack-clark/",
       "timestamp": null,
       "sourceDate": "2025-10-16",
@@ -73,7 +73,7 @@
     {
       "id": "source-2",
       "type": "Press",
-      "name": "TechCrunch — Mercor $100M raise",
+      "name": "TechCrunch \u2014 Mercor $100M raise",
       "url": "https://techcrunch.com/2025/02/20/mercor-an-ai-recruiting-startup-founded-by-21-year-olds-raises-100m-at-2b-valuation/",
       "timestamp": null,
       "sourceDate": "2025-02-20",
@@ -83,7 +83,7 @@
     {
       "id": "source-3",
       "type": "Press",
-      "name": "Fortune — APEX, workforce thesis",
+      "name": "Fortune \u2014 APEX, workforce thesis",
       "url": "https://fortune.com/2026/01/13/will-ai-take-my-job-or-human-skills-protect-me-mercor-training-self-made-billionaires/",
       "timestamp": null,
       "sourceDate": "2026-01-13",
@@ -93,7 +93,7 @@
     {
       "id": "source-4",
       "type": "Press",
-      "name": "Fortune — Series C, $10B valuation",
+      "name": "Fortune \u2014 Series C, $10B valuation",
       "url": "https://fortune.com/2025/11/12/brendan-foody-mercor-interview-ai-adarsh-hiremath-surya-midha-youngest-self-made-billionaires/",
       "timestamp": null,
       "sourceDate": "2025-11-12",
@@ -121,7 +121,7 @@
     "How does the AI interview evaluation compare to traditional hiring?"
   ],
   "taxonomyFeedback": [
-    "Mercor is a 'meta-organizational' specimen — it doesn't just have an AI org structure, it reshapes how OTHER organizations structure their AI workforces.",
+    "Mercor is a 'meta-organizational' specimen \u2014 it doesn't just have an AI org structure, it reshapes how OTHER organizations structure their AI workforces.",
     "The gig-ification of AI talent (30K contractors) suggests a new labor model that the taxonomy doesn't capture."
   ],
   "meta": {

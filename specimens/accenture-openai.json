@@ -1,38 +1,57 @@
 {
+  "$schema": "./specimen-schema.json",
+
   "id": "accenture-openai",
-  "name": "Accenture + OpenAI",
-  "title": "40,000 Enterprise Licenses Partnership",
+  "name": "Accenture",
+  "title": "$865M Restructuring — Simultaneous Layoff + AI Hiring at Scale",
+
   "classification": {
-    "structuralModel": 2,
-    "structuralModelName": "Center of Excellence",
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
     "subType": null,
     "subTypeName": null,
     "secondaryModel": null,
     "secondaryModelName": null,
     "orientation": "Contextual",
     "orientationName": "Contextual",
-    "confidence": "Low",
-    "classificationRationale": "Accenture has a formal AI practice and functions as an enabler for client organizations, fitting Model 2 (CoE). The 40,000 ChatGPT Enterprise license deployment to its own workforce has characteristics of Model 6a (Enterprise-Wide Adoption). Classified as Model 2 because Accenture's primary structural role is enabling/advising, not because its internal deployment pattern is CoE-like. Low confidence due to insufficient data about Accenture's internal AI organizational structure.",
+    "confidence": "Medium",
+    "classificationRationale": "Reclassified from M2 (CoE) to M4 (Hub-and-Spoke). New data reveals Accenture consolidated multiple service lines into a single 'Reinvention Services' business unit (effective Sep 1, 2025) — this is the hub. Industry practices and client engagement teams are spokes. 77,000 AI & data professionals across the organization, 70,000 trained in agentic AI, 550,000 in GenAI fundamentals. The hub sets AI standards and builds tools (100 industry-specific agentic AI tools); spokes execute at client sites. Contextual orientation: AI proficiency is now a baseline expectation — CEO Sweet explicitly states the company is 'exiting on a compressed timeline' employees where reskilling is not viable. This is contextual ambidexterity at its most extreme: every role is expected to integrate AI, and those who cannot are removed. Medium confidence because internal reporting lines of Reinvention Services unit are not fully documented.",
     "typeSpecimen": false
   },
+
   "habitat": {
     "industry": "Professional Services",
     "sector": "Management Consulting & IT Services",
     "orgSize": "Enterprise",
-    "employees": 750000,
-    "revenue": "$65B",
+    "employees": 779000,
+    "revenue": "$65B+",
     "headquarters": "Dublin, Ireland",
     "geography": "Global"
   },
-  "description": "Accenture is rolling out 40,000 ChatGPT Enterprise licenses and naming OpenAI its primary intelligence partner. This represents one of the largest enterprise AI deployments through a consulting partnership.\n- Partnership model: OpenAI partners with Accenture to reach enterprises through trusted consulting relationships\n- Accenture brings change management, implementation, and industry expertise; OpenAI brings model capabilities\n- 40,000 licenses for transforming Accenture's own workforce—'learn by doing' model\n- Consultants become AI-fluent through daily usage before advising clients\n- Government extension: UK Ministry of Justice rolled out ChatGPT Enterprise; 'Humphrey' and 'Consult' AI tools for Whitehall",
+
+  "description": "Accenture is undergoing the most structurally visible AI-driven workforce transformation of any large services firm. In Q4 FY2025, the company announced an $865M restructuring program ($615M severance in Q4 + $250M in Q1 FY26), laying off 11,000 employees in 3 months (reducing headcount from 791K to 779K). Simultaneously, Accenture hired 77,000 AI and data professionals in 2025 (up from 40,000 in 2023) and trained 70,000 in agentic AI specifically, with 550,000 trained in GenAI fundamentals.\n\nThe structural change centers on a new 'Reinvention Services' unit, effective September 1, 2025. This consolidation collapsed multiple service lines into a single AI-integrated business unit — the hub in a hub-and-spoke arrangement. The company is also building 100 industry-specific agentic AI tools and acquired NeuraFlash to expand agentic AI expertise. GenAI bookings reached $5.9B for the full year, with $1.8B in Q4 alone — revenue tripled YoY.\n\nCEO Julie Sweet's framing is notable for its candor. She openly admitted that AI 'value realization has been underwhelming for many' while simultaneously announcing the largest AI workforce restructuring in consulting history. Her statement about 'exiting on a compressed timeline people where reskilling, based on our experience, is not a viable path for the skills we need' is the most explicit CEO articulation of the workforce triage pattern: retain the reskillable, exit the rest. This is contextual ambidexterity in its starkest form — AI proficiency is not optional, it is a condition of continued employment.",
+
   "observableMarkers": {
-    "reportingStructure": null,
-    "resourceAllocation": null,
-    "timeHorizons": null,
+    "reportingStructure": "Reinvention Services — single consolidated business unit (effective Sep 1, 2025) integrating data + AI solutions across service lines.",
+    "resourceAllocation": "$865M restructuring charges ($615M Q4 + $250M Q1 FY26). 77,000 AI & data professionals hired in 2025. NeuraFlash acquisition. Expected $1B+ in savings.",
+    "timeHorizons": "Compressed timeline for workforce transition. FY26 plans to increase overall headcount despite ongoing restructuring.",
     "decisionRights": null,
-    "metrics": "OpenAI: 1M business customers ('fastest-growing business platform in history'). Enterprise users save 40-60 minutes/day. 75% of enterprises report positive ROI (Wharton study)."
+    "metrics": "GenAI bookings: $5.9B full year, $1.8B Q4 (revenue tripled YoY). 77,000 AI hires. 70,000 trained in agentic AI. 550,000 trained in GenAI fundamentals. 100 industry-specific agentic AI tools planned. 11,000 layoffs in 3 months. Headcount: 779K (from 791K)."
   },
+
   "mechanisms": [
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "550,000 employees trained in GenAI fundamentals, 70,000 in agentic AI specifically. 40,000 ChatGPT Enterprise licenses deployed. Mass deployment of AI proficiency training across the entire 779K-person organization.",
+      "strength": "Strong"
+    },
+    {
+      "id": 6,
+      "name": "Merge Competing AI Teams Under Single Leader",
+      "evidence": "Multiple service lines consolidated into single 'Reinvention Services' business unit effective Sep 1, 2025. This is a structural merger of AI capabilities under one unit when coordination costs across service lines exceeded benefits of independence.",
+      "strength": "Moderate"
+    },
     {
       "id": 7,
       "name": "Put Executives on the Tools",
@@ -40,8 +59,36 @@
       "strength": "Moderate"
     }
   ],
-  "quotes": [],
+
+  "quotes": [
+    {
+      "text": "We are exiting on a compressed timeline people where reskilling, based on our experience, is not a viable path for the skills we need.",
+      "speaker": "Julie Sweet",
+      "speakerTitle": "CEO, Accenture",
+      "source": "CNBC — Accenture Plans on Exiting Staff Who Can't Be Reskilled on AI",
+      "sourceUrl": "https://www.cnbc.com/2025/09/26/accenture-plans-on-exiting-staff-who-cant-be-reskilled-on-ai.html",
+      "timestamp": null,
+      "date": "2025-09-26"
+    },
+    {
+      "text": "value realization has been underwhelming for many",
+      "speaker": "Julie Sweet",
+      "speakerTitle": "CEO, Accenture",
+      "source": "FinancialContent — Accenture Pivots AI Strategy",
+      "sourceUrl": "https://markets.financialcontent.com/stocks/article/marketminute-2025-9-25-accenture-pivots-ai-strategy-unveils-job-cuts-amidst-underwhelming-returns-igniting-workforce-retraining-push",
+      "timestamp": null,
+      "date": "2025-09-25"
+    }
+  ],
+
   "layers": [
+    {
+      "date": "2025-09",
+      "label": "$865M Restructuring + Reinvention Services Consolidation",
+      "summary": "Evolved from M2 (CoE) to M4 (Hub-and-Spoke). Major restructuring: $865M program, 11K layoffs + 77K AI hires simultaneously. New 'Reinvention Services' unit consolidates service lines into single AI-integrated business unit (hub). CEO Sweet explicitly states org is 'exiting' non-reskillable staff. GenAI bookings $5.9B. 100 industry-specific agentic AI tools planned. NeuraFlash acquisition.",
+      "classification": "M2 Center of Excellence",
+      "sourceRefs": ["accenture-restructuring-2025", "accenture-exiting-cnbc-2025"]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
@@ -61,7 +108,28 @@
       ]
     }
   ],
+
   "sources": [
+    {
+      "id": "accenture-restructuring-2025",
+      "type": "Press",
+      "name": "FinancialContent — Accenture Pivots AI Strategy, Unveils Job Cuts",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2025-9-25-accenture-pivots-ai-strategy-unveils-job-cuts-amidst-underwhelming-returns-igniting-workforce-retraining-push",
+      "timestamp": null,
+      "sourceDate": "2025-09-25",
+      "collectedDate": "2026-02-04",
+      "notes": "$865M restructuring, 11K layoffs, Reinvention Services unit, $5.9B GenAI bookings, 'underwhelming ROI' admission"
+    },
+    {
+      "id": "accenture-exiting-cnbc-2025",
+      "type": "Press",
+      "name": "CNBC — Accenture Plans on Exiting Staff Who Can't Be Reskilled on AI",
+      "url": "https://www.cnbc.com/2025/09/26/accenture-plans-on-exiting-staff-who-cant-be-reskilled-on-ai.html",
+      "timestamp": null,
+      "sourceDate": "2025-09-26",
+      "collectedDate": "2026-02-04",
+      "notes": "CEO Sweet 'exiting on a compressed timeline' quote, 77K AI hires, 70K agentic AI trained"
+    },
     {
       "id": "source-1",
       "type": "Press",
@@ -93,34 +161,43 @@
       "notes": null
     }
   ],
+
   "contingencies": {
-    "regulatoryIntensity": null,
-    "timeToObsolescence": null,
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
     "ceoTenure": null,
-    "talentMarketPosition": null,
-    "technicalDebt": null
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
   },
+
   "tensionPositions": {
-    "structuralVsContextual": null,
-    "speedVsDepth": null,
-    "centralVsDistributed": null,
-    "namedVsQuiet": null,
-    "longVsShortHorizon": null
+    "structuralVsContextual": 0.6,
+    "speedVsDepth": 0.5,
+    "centralVsDistributed": -0.2,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": 0.4
   },
+
   "openQuestions": [
-    "What is Accenture's internal AI organizational structure — does it have a dedicated AI practice or CoE?",
-    "How does the OpenAI partnership differ from Accenture's other AI vendor relationships?",
-    "What metrics does Accenture track for consultant AI adoption and proficiency?"
+    "What is the internal structure of the Reinvention Services unit — who leads it and how does it relate to existing industry practices?",
+    "What specific roles are being 'exited' as non-reskillable? What skill profiles are being hired to replace them?",
+    "How does the NeuraFlash acquisition integrate with existing agentic AI capabilities?",
+    "What do the 100 industry-specific agentic AI tools look like structurally — who builds them, who deploys them?",
+    "How does the 'underwhelming ROI' admission affect client willingness to engage Accenture's AI services?"
   ],
+
   "taxonomyFeedback": [
-    "Professional services firms present a classification challenge: they both deploy AI internally (potentially 6a) and function as AI enablers for clients (Model 2). The specimen conflates these two dimensions. May need a clearer framework for classifying consulting firms.",
-    "The 'partnership specimen' format (Accenture + OpenAI) may be less useful than separate specimens for each org's internal structure."
+    "Reclassified from M2 to M4 based on substantial new evidence. The Reinvention Services consolidation is a clear hub; industry practices are spokes. Previous M2 classification was based on thin data about the OpenAI partnership only.",
+    "Accenture's simultaneous 11K layoffs + 77K AI hires is the most extreme workforce composition shift in the collection. This is not a simple 'AI replaces workers' story — it's a structural portfolio rebalancing of human capital. The 'exit the non-reskillable' framing is a third path between 'AI layoffs' and 'AI augmentation.'",
+    "Professional services firms remain challenging to classify because they both deploy AI internally AND function as AI enablers for clients. The Reinvention Services unit clarifies this: it's a structural hub serving both internal transformation and external client delivery.",
+    "Sweet's 'underwhelming ROI' admission is valuable counter-narrative data — the CEO of the world's largest consulting firm admitting AI returns are disappointing even as she doubles down on AI hiring."
   ],
+
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-04",
+    "completeness": "Medium",
     "convertedFrom": "library/cases/accenture-openai.json"
   }
 }

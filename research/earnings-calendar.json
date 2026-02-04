@@ -1,0 +1,848 @@
+{
+  "description": "Earnings Season Calendar — tracks which public companies to monitor each quarter, their fiscal year mappings, and scan status per quarter. Updated at the end of earnings season research sessions. Companies span tech, pharma, industrials, financial services, consumer, and services — the ambidexterity challenge is cross-industry.",
+  "lastUpdated": "2026-02-04",
+  "keywordScanProtocol": {
+    "description": "Keywords to search in earnings call transcripts for organizational structure signals. Run these against full transcript text to find relevant sections for deep reading.",
+    "structural": [
+      "reorganiz",
+      "restructur",
+      "reorg",
+      "reporting line",
+      "reporting structure",
+      "org structure",
+      "organizational change",
+      "new division",
+      "new unit",
+      "new team",
+      "Chief AI",
+      "CAIO",
+      "AI lab",
+      "center of excellence",
+      "CoE",
+      "AI team",
+      "AI organization",
+      "AI function"
+    ],
+    "workforce": [
+      "headcount",
+      "hiring",
+      "layoff",
+      "reduction",
+      "workforce",
+      "delayer",
+      "flatten",
+      "fewer manager",
+      "management layer",
+      "lean",
+      "efficiency",
+      "redeploy",
+      "reskill",
+      "attrition"
+    ],
+    "investment": [
+      "capital expenditure",
+      "CapEx",
+      "AI infrastructure",
+      "AI investment",
+      "AI spend",
+      "data center",
+      "GPU",
+      "compute",
+      "R&D"
+    ],
+    "deployment": [
+      "agent",
+      "agentic",
+      "copilot",
+      "AI assistant",
+      "AI product",
+      "foundation model",
+      "internal tool",
+      "AI-first",
+      "AI-native",
+      "pilot",
+      "production",
+      "deploy",
+      "rollout",
+      "resolution rate",
+      "automation rate"
+    ],
+    "governance": [
+      "responsible AI",
+      "AI safety",
+      "AI governance",
+      "AI ethics",
+      "AI board",
+      "AI committee",
+      "oversight"
+    ]
+  },
+  "priorityTiers": {
+    "description": "How to allocate scanning time each earnings season. Critical = always scan. High = scan every quarter when time permits. Monitor = scan selectively or when we know structural news is expected.",
+    "critical": "Always scan — these companies consistently produce the highest structural density in earnings commentary",
+    "high": "Scan every quarter — important specimens where earnings frequently surface AI org signals",
+    "monitor": "Scan selectively — watch for quarters with known structural news (CAIO appointments, restructurings, major AI announcements)"
+  },
+  "discoveryProtocol": {
+    "description": "The target list below tracks KNOWN specimens. But earnings season is also a DISCOVERY mechanism — the best time to find NEW organizations making structural AI moves. Every public company is required to speak, and many will surface AI structure signals for the first time. Run broad discovery searches each earnings window (see SESSION-PROTOCOL.md for search templates). Any company that passes the Relevance Test becomes a new finding, even if it's not on the target list. This is how the herbarium grows beyond tech.",
+    "discoverySearches": [
+      "\"Chief AI Officer\" OR \"CAIO\" earnings call transcript 2026",
+      "\"AI restructuring\" OR \"AI reorganization\" earnings call 2026",
+      "\"center of excellence\" AI earnings 2026",
+      "\"AI lab\" OR \"AI division\" earnings call 2026",
+      "\"agentic\" OR \"AI agent\" earnings call 2026",
+      "\"generative AI\" restructuring layoff earnings 2026"
+    ],
+    "industryVerticalSearches": [
+      "\"AI\" earnings call 2026 healthcare OR hospital",
+      "\"AI\" earnings call 2026 insurance",
+      "\"AI\" earnings call 2026 manufacturing",
+      "\"AI\" earnings call 2026 energy OR utility",
+      "\"AI\" earnings call 2026 airline OR transportation",
+      "\"AI\" earnings call 2026 telecom"
+    ]
+  },
+  "targetCompanies": [
+    {
+      "_sectionComment": "=== TECH PLATFORMS (Critical) ===",
+      "id": "microsoft",
+      "ticker": "MSFT",
+      "specimenSlug": "microsoft",
+      "industry": "Tech Platform",
+      "fiscalYearEnd": "June",
+      "fiscalQuarterMapping": {
+        "Q1": "Jul-Sep (reports Oct)",
+        "Q2": "Oct-Dec (reports Jan)",
+        "Q3": "Jan-Mar (reports Apr)",
+        "Q4": "Apr-Jun (reports Jul)"
+      },
+      "priority": "critical",
+      "whyMonitor": "Azure AI, Copilot penetration, OpenAI relationship, CapEx commitments, org structure signals from Nadella",
+      "keyExecutives": ["Satya Nadella (CEO)", "Amy Hood (CFO)", "Kevin Scott (CTO)"],
+      "scanHistory": [
+        {
+          "quarter": "Q2 FY2026",
+          "calendarQuarter": "Q4 2025",
+          "earningsDate": "2026-01-28",
+          "scanned": true,
+          "sessionFile": "2026-02-03-003-research-earnings-calls-press.md",
+          "keyFindings": "$37.5B CapEx guidance, 15M Copilot seats, 'AI Efficiency' narrative pivot, $375B market cap correction"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "ticker": "META",
+      "specimenSlug": "meta-ai",
+      "industry": "Tech Platform",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan)"
+      },
+      "priority": "critical",
+      "whyMonitor": "Largest AI CapEx spender, management delayering, Llama strategy, MSL restructuring, Zuckerberg structural commentary",
+      "keyExecutives": ["Mark Zuckerberg (CEO)", "Susan Li (CFO)", "Chris Cox (CPO)"],
+      "scanHistory": [
+        {
+          "quarter": "Q4 2025",
+          "calendarQuarter": "Q4 2025",
+          "earningsDate": "2026-01-29",
+          "scanned": true,
+          "sessionFile": "2026-02-03-003-research-earnings-calls-press.md",
+          "keyFindings": "$115-135B 2026 CapEx, 'single talented person replaces teams', management layer elimination"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "ticker": "AMZN",
+      "specimenSlug": "amazon-agi",
+      "industry": "Tech Platform",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Feb)"
+      },
+      "priority": "critical",
+      "whyMonitor": "AWS AI/Bedrock, AGI Lab, Trainium/Inferentia, workforce restructuring, Jassy delayering rhetoric",
+      "keyExecutives": ["Andy Jassy (CEO)", "Brian Olsavsky (CFO)", "Matt Garman (AWS CEO)"],
+      "scanHistory": [
+        {
+          "quarter": "Q4 2025",
+          "calendarQuarter": "Q4 2025",
+          "earningsDate": "2026-02-05",
+          "scanned": false,
+          "sessionFile": null,
+          "keyFindings": null
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "ticker": "GOOGL",
+      "specimenSlug": "google-deepmind",
+      "industry": "Tech Platform",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Feb)"
+      },
+      "priority": "critical",
+      "whyMonitor": "DeepMind integration, Gemini deployment, Cloud AI backlog, Pichai structural commentary, AI Overviews",
+      "keyExecutives": ["Sundar Pichai (CEO)", "Ruth Porat (CFO)", "Demis Hassabis (DeepMind CEO)", "Thomas Kurian (Cloud CEO)"],
+      "scanHistory": [
+        {
+          "quarter": "Q4 2025",
+          "calendarQuarter": "Q4 2025",
+          "earningsDate": "2026-02-04",
+          "scanned": false,
+          "sessionFile": null,
+          "keyFindings": null
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "ticker": "CRM",
+      "specimenSlug": "salesforce",
+      "industry": "Enterprise Software",
+      "fiscalYearEnd": "January",
+      "fiscalQuarterMapping": {
+        "Q1": "Feb-Apr (reports May/Jun)",
+        "Q2": "May-Jul (reports Aug/Sep)",
+        "Q3": "Aug-Oct (reports Nov/Dec)",
+        "Q4": "Nov-Jan (reports Feb/Mar)"
+      },
+      "priority": "critical",
+      "whyMonitor": "Agentforce as product-led structural change, agent deployment metrics, 'digital labor' framing, workforce redeployment",
+      "keyExecutives": ["Marc Benioff (CEO)", "Amy Weaver (CFO)", "Clara Shih (AI CEO)"],
+      "scanHistory": [
+        {
+          "quarter": "Q3 FY2026",
+          "calendarQuarter": "Q3 2025",
+          "earningsDate": "2025-12-03",
+          "scanned": true,
+          "sessionFile": "2026-02-03-003-research-earnings-calls-press.md",
+          "keyFindings": "Agentforce $500M ARR run-rate, 84% resolution rate, 4K employees redeployed, 'digital labor' positioning"
+        }
+      ]
+    },
+    {
+      "_sectionComment": "=== PHARMA & LIFE SCIENCES (High) ===",
+      "id": "eli-lilly",
+      "ticker": "LLY",
+      "specimenSlug": "eli-lilly",
+      "industry": "Pharma",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul/Aug)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Feb)"
+      },
+      "priority": "high",
+      "whyMonitor": "NVIDIA co-innovation lab ($1B), pharma AI structural model, drug discovery AI integration",
+      "keyExecutives": ["David Ricks (CEO)", "Anat Ashkenazi (CFO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "pfizer",
+      "ticker": "PFE",
+      "specimenSlug": "pfizer",
+      "industry": "Pharma",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr/May)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan/Feb)"
+      },
+      "priority": "high",
+      "whyMonitor": "AI-enabled clinical trials, drug discovery AI, post-COVID restructuring with AI component",
+      "keyExecutives": ["Albert Bourla (CEO)", "David Denton (CFO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "moderna",
+      "ticker": "MRNA",
+      "specimenSlug": "moderna",
+      "industry": "Pharma",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports May)",
+        "Q2": "Apr-Jun (reports Aug)",
+        "Q3": "Jul-Sep (reports Nov)",
+        "Q4": "Oct-Dec (reports Feb)"
+      },
+      "priority": "high",
+      "whyMonitor": "mRNA-AI platform integration, AI-native drug design, ChatGPT Enterprise pioneer (first pharma to deploy company-wide)",
+      "keyExecutives": ["Stephane Bancel (CEO)", "Jamey Mock (CFO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "novo-nordisk",
+      "ticker": "NVO",
+      "specimenSlug": "novo-nordisk",
+      "industry": "Pharma",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports May)",
+        "Q2": "Apr-Jun (reports Aug)",
+        "Q3": "Jul-Sep (reports Nov)",
+        "Q4": "Oct-Dec (reports Feb)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "AI in manufacturing scale-up (GLP-1 production), regulatory AI for global submissions",
+      "keyExecutives": ["Lars Fruergaard Jorgensen (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "sanofi",
+      "ticker": "SNY",
+      "specimenSlug": "sanofi",
+      "industry": "Pharma",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Jan-Jun (reports Jul)",
+        "Q3": "Jan-Sep (reports Oct)",
+        "Q4": "Jan-Dec (reports Feb)"
+      },
+      "priority": "high",
+      "whyMonitor": "'All-in on AI' strategy, plaiD AI data platform, Insilico Medicine partnership, restructuring R&D around AI capabilities",
+      "keyExecutives": ["Paul Hudson (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "roche",
+      "ticker": "RHHBY",
+      "specimenSlug": "roche-genentech",
+      "industry": "Pharma",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar",
+        "Q2": "Jan-Jun (reports Jul)",
+        "Q3": "Jan-Sep (reports Oct)",
+        "Q4": "Jan-Dec (reports Jan/Feb)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "Genentech AI drug discovery, embedded teams model (M3), pharma-specific ambidexterity challenge",
+      "keyExecutives": ["Thomas Schinecker (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "_sectionComment": "=== FINANCIAL SERVICES (High) ===",
+      "id": "jpmorgan",
+      "ticker": "JPM",
+      "specimenSlug": "jpmorgan",
+      "industry": "Financial Services",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan)"
+      },
+      "priority": "high",
+      "whyMonitor": "Largest bank AI investment, 2K AI use cases, Teresa Heitsenrether CAIO, structural model for financial services",
+      "keyExecutives": ["Jamie Dimon (CEO)", "Jeremy Barnum (CFO)", "Teresa Heitsenrether (CAIO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "ubs",
+      "ticker": "UBS",
+      "specimenSlug": "ubs",
+      "industry": "Financial Services",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan/Feb)"
+      },
+      "priority": "high",
+      "whyMonitor": "CAIO appointment (Mike Dargan), wealth management AI, post-Credit Suisse integration with AI, European banking AI leader",
+      "keyExecutives": ["Sergio Ermotti (CEO)", "Mike Dargan (CAIO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "citigroup",
+      "ticker": "C",
+      "specimenSlug": "citigroup",
+      "industry": "Financial Services",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "AI in global operations, major restructuring concurrent with AI adoption",
+      "keyExecutives": ["Jane Fraser (CEO)", "Mark Mason (CFO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "wells-fargo",
+      "ticker": "WFC",
+      "specimenSlug": "wells-fargo",
+      "industry": "Financial Services",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "AI in compliance-heavy environment, regulatory constraint as structural shaper",
+      "keyExecutives": ["Charlie Scharf (CEO)", "Mike Santomassimo (CFO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "bank-of-america",
+      "ticker": "BAC",
+      "specimenSlug": "bank-of-america",
+      "industry": "Financial Services",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "Erica AI assistant (1B+ interactions), enterprise-wide AI deployment at bank scale",
+      "keyExecutives": ["Brian Moynihan (CEO)", "Alastair Borthwick (CFO)"],
+      "scanHistory": []
+    },
+    {
+      "_sectionComment": "=== INSURANCE (High — discovered via wide-net) ===",
+      "id": "travelers",
+      "ticker": "TRV",
+      "specimenSlug": null,
+      "industry": "Insurance",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan)"
+      },
+      "priority": "high",
+      "whyMonitor": "TravAI in-house agentic AI platform, 20K+ users, Anthropic partnership, 30% handle time reduction, 4→2 call centers — possibly most operationally detailed non-tech AI deployment",
+      "keyExecutives": ["Alan Schnitzer (CEO)", "Dan Frey (CFO)"],
+      "scanHistory": [
+        {
+          "quarter": "Q4 2025",
+          "calendarQuarter": "Q4 2025",
+          "earningsDate": "2026-01-22",
+          "scanned": true,
+          "sessionFile": "2026-02-04-001-earnings-q4-2025-wide-net.md",
+          "keyFindings": "TravAI agentic AI platform, 20K+ users, Anthropic/Claude for 10K staff, 30% handle time reduction, 4→2 call centers, 65B data points, $1.5B tech investment"
+        }
+      ]
+    },
+    {
+      "id": "servicenow",
+      "ticker": "NOW",
+      "specimenSlug": null,
+      "industry": "Enterprise Software",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan)"
+      },
+      "priority": "high",
+      "whyMonitor": "AI Control Tower, AI Agent Orchestrator, $600M+ Now Assist revenue, McDermott 'obliterate org charts' rhetoric, dual Anthropic+OpenAI strategy, $10B+ acquisitions",
+      "keyExecutives": ["Bill McDermott (CEO)", "Gina Mastantuono (CFO)"],
+      "scanHistory": [
+        {
+          "quarter": "Q4 2025",
+          "calendarQuarter": "Q4 2025",
+          "earningsDate": "2026-01-29",
+          "scanned": true,
+          "sessionFile": "2026-02-04-001-earnings-q4-2025-wide-net.md",
+          "keyFindings": "AI Control Tower + Agent Orchestrator, $600M+ Now Assist revenue, 'obliterate 20th century org charts', $10B+ acquisitions (Moveworks, Armis)"
+        }
+      ]
+    },
+    {
+      "_sectionComment": "=== INDUSTRIALS & INFRASTRUCTURE (High) ===",
+      "id": "siemens",
+      "ticker": "SIEGY",
+      "specimenSlug": "siemens",
+      "industry": "Industrials",
+      "fiscalYearEnd": "September",
+      "fiscalQuarterMapping": {
+        "Q1": "Oct-Dec (reports Feb)",
+        "Q2": "Jan-Mar (reports May)",
+        "Q3": "Apr-Jun (reports Aug)",
+        "Q4": "Jul-Sep (reports Nov)"
+      },
+      "priority": "high",
+      "whyMonitor": "Industrial AI + digital twin integration, NVIDIA Omniverse partnership, Siemens Xcelerator platform, European industrial AI leader",
+      "keyExecutives": ["Roland Busch (CEO)", "Ralf Thomas (CFO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "schneider-electric",
+      "ticker": "SBGSF",
+      "specimenSlug": "schneider-electric",
+      "industry": "Industrials",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar",
+        "Q2": "Jan-Jun (reports Jul)",
+        "Q3": "Jan-Sep",
+        "Q4": "Jan-Dec (reports Feb)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "Energy management AI, sustainability-AI intersection, European industrial perspective",
+      "keyExecutives": ["Peter Herweck (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "abb",
+      "ticker": "ABB",
+      "specimenSlug": "abb",
+      "industry": "Industrials",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Feb)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "Robotics + AI integration, industrial automation, Swiss engineering approach to AI",
+      "keyExecutives": ["Bjorn Rosengren (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "_sectionComment": "=== CONSUMER & RETAIL (High) ===",
+      "id": "walmart",
+      "ticker": "WMT",
+      "specimenSlug": "walmart",
+      "industry": "Retail",
+      "fiscalYearEnd": "January",
+      "fiscalQuarterMapping": {
+        "Q1": "Feb-Apr (reports May)",
+        "Q2": "May-Jul (reports Aug)",
+        "Q3": "Aug-Oct (reports Nov)",
+        "Q4": "Nov-Jan (reports Feb)"
+      },
+      "priority": "high",
+      "whyMonitor": "Largest retailer AI deployment, supply chain AI, workforce augmentation at scale, Sam's Club automation",
+      "keyExecutives": ["Doug McMillon (CEO)", "John David Rainey (CFO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "coca-cola",
+      "ticker": "KO",
+      "specimenSlug": "coca-cola",
+      "industry": "Consumer",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Feb)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "CPG AI deployment, marketing/creative AI, supply chain optimization, traditional industry AI adoption",
+      "keyExecutives": ["James Quincey (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "_sectionComment": "=== LOGISTICS & SERVICES (High) ===",
+      "id": "ups",
+      "ticker": "UPS",
+      "specimenSlug": "ups",
+      "industry": "Logistics",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan/Feb)"
+      },
+      "priority": "high",
+      "whyMonitor": "48K+ AI-attributed job cuts, management delayering case study, CAIO appointment, logistics AI at industrial scale",
+      "keyExecutives": ["Carol Tome (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "infosys",
+      "ticker": "INFY",
+      "specimenSlug": "infosys",
+      "industry": "IT Services",
+      "fiscalYearEnd": "March",
+      "fiscalQuarterMapping": {
+        "Q1": "Apr-Jun (reports Jul)",
+        "Q2": "Jul-Sep (reports Oct)",
+        "Q3": "Oct-Dec (reports Jan)",
+        "Q4": "Jan-Mar (reports Apr)"
+      },
+      "priority": "high",
+      "whyMonitor": "100K+ engineer AI tooling deployment, services firm total workforce augmentation model, Cursor CoE",
+      "keyExecutives": ["Salil Parekh (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "dow",
+      "ticker": "DOW",
+      "specimenSlug": "dow",
+      "industry": "Chemicals",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan/Feb)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "CAIO appointment, chemicals/materials industry AI adoption, heavy industry perspective",
+      "keyExecutives": ["Jim Fitterling (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "publicis-groupe",
+      "ticker": "PUBGY",
+      "specimenSlug": "publicis-groupe",
+      "industry": "Advertising",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar",
+        "Q2": "Jan-Jun (reports Jul)",
+        "Q3": "Jan-Sep (reports Oct)",
+        "Q4": "Jan-Dec (reports Feb)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "Marcel AI platform, CoreAI engine, advertising industry structural transformation via AI",
+      "keyExecutives": ["Arthur Sadoun (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "_sectionComment": "=== TECH / ENTERPRISE SOFTWARE (High) ===",
+      "id": "nvidia",
+      "ticker": "NVDA",
+      "specimenSlug": "nvidia",
+      "industry": "Semiconductors",
+      "fiscalYearEnd": "January",
+      "fiscalQuarterMapping": {
+        "Q1": "Feb-Apr (reports May)",
+        "Q2": "May-Jul (reports Aug)",
+        "Q3": "Aug-Oct (reports Nov)",
+        "Q4": "Nov-Jan (reports Feb)"
+      },
+      "priority": "high",
+      "whyMonitor": "Infrastructure layer shaping all other companies' AI investments, Jensen Huang org philosophy, customer deployment commentary",
+      "keyExecutives": ["Jensen Huang (CEO)", "Colette Kress (CFO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "sap",
+      "ticker": "SAP",
+      "specimenSlug": "sap",
+      "industry": "Enterprise Software",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan)"
+      },
+      "priority": "high",
+      "whyMonitor": "Joule AI assistant, Business AI, European enterprise software AI leader, 8K restructuring tied to AI pivot",
+      "keyExecutives": ["Christian Klein (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "klarna",
+      "ticker": "KLAR",
+      "specimenSlug": "klarna",
+      "industry": "Fintech",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar",
+        "Q2": "Apr-Jun",
+        "Q3": "Jul-Sep",
+        "Q4": "Oct-Dec"
+      },
+      "priority": "high",
+      "whyMonitor": "Most aggressive AI-driven workforce reduction case, IPO filing with AI-efficiency narrative, Siemiatkowski structural philosophy",
+      "keyExecutives": ["Sebastian Siemiatkowski (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "duolingo",
+      "ticker": "DUOL",
+      "specimenSlug": "duolingo",
+      "industry": "EdTech",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports May)",
+        "Q2": "Apr-Jun (reports Aug)",
+        "Q3": "Jul-Sep (reports Nov)",
+        "Q4": "Oct-Dec (reports Feb)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "AI-first content generation replacing contractors, structural transformation of content org, small-company ambidexterity case",
+      "keyExecutives": ["Luis von Ahn (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "pinterest",
+      "ticker": "PINS",
+      "specimenSlug": "pinterest",
+      "industry": "Tech Platform",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr/May)",
+        "Q2": "Apr-Jun (reports Jul/Aug)",
+        "Q3": "Jul-Sep (reports Oct/Nov)",
+        "Q4": "Oct-Dec (reports Feb)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "15% AI-pivot layoffs, AI-washing case study, visual search AI, SEC disclosure language",
+      "keyExecutives": ["Bill Ready (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "palo-alto-networks",
+      "ticker": "PANW",
+      "specimenSlug": "palo-alto-networks",
+      "industry": "Cybersecurity",
+      "fiscalYearEnd": "July",
+      "fiscalQuarterMapping": {
+        "Q1": "Aug-Oct (reports Nov)",
+        "Q2": "Nov-Jan (reports Feb)",
+        "Q3": "Feb-Apr (reports May)",
+        "Q4": "May-Jul (reports Aug)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "AI-native security products, platformization strategy, cybersecurity-specific AI org design",
+      "keyExecutives": ["Nikesh Arora (CEO)"],
+      "scanHistory": []
+    },
+    {
+      "_sectionComment": "=== WATCH LIST (No specimen yet — monitor for structural signals) ===",
+      "id": "apple",
+      "ticker": "AAPL",
+      "specimenSlug": null,
+      "industry": "Tech Platform",
+      "fiscalYearEnd": "September",
+      "fiscalQuarterMapping": {
+        "Q1": "Oct-Dec (reports Jan)",
+        "Q2": "Jan-Mar (reports Apr/May)",
+        "Q3": "Apr-Jun (reports Jul/Aug)",
+        "Q4": "Jul-Sep (reports Oct/Nov)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "Apple Intelligence rollout, on-device AI strategy, potential org structure signals. No specimen yet — monitor for structural signals.",
+      "keyExecutives": ["Tim Cook (CEO)", "Kevan Parekh (CFO)", "Craig Federighi (SVP Software)"],
+      "scanHistory": []
+    },
+    {
+      "id": "shopify",
+      "ticker": "SHOP",
+      "specimenSlug": "shopify",
+      "industry": "E-Commerce Platform",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports May)",
+        "Q2": "Apr-Jun (reports Aug)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Feb)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "Tobi Lutke AI-first culture memo, small-org AI native specimen",
+      "keyExecutives": ["Tobi Lutke (CEO)", "Jeff Hoffmeister (CFO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "atlassian",
+      "ticker": "TEAM",
+      "specimenSlug": "atlassian",
+      "industry": "Enterprise Software",
+      "fiscalYearEnd": "June",
+      "fiscalQuarterMapping": {
+        "Q1": "Jul-Sep (reports Oct)",
+        "Q2": "Oct-Dec (reports Jan)",
+        "Q3": "Jan-Mar (reports Apr)",
+        "Q4": "Apr-Jun (reports Jul)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "Rovo AI internal deployment, AI Wednesdays culture practice, enterprise collaboration AI",
+      "keyExecutives": ["Mike Cannon-Brookes (Co-CEO)", "Scott Farquhar (Co-CEO)"],
+      "scanHistory": []
+    },
+    {
+      "id": "adobe",
+      "ticker": "ADBE",
+      "specimenSlug": "adobe-firefly",
+      "industry": "Creative Software",
+      "fiscalYearEnd": "November",
+      "fiscalQuarterMapping": {
+        "Q1": "Dec-Feb (reports Mar)",
+        "Q2": "Mar-May (reports Jun)",
+        "Q3": "Jun-Aug (reports Sep)",
+        "Q4": "Sep-Nov (reports Dec)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "Firefly as explore unit, AI monetization model, creative AI structural integration",
+      "keyExecutives": ["Shantanu Narayen (CEO)", "Dan Durn (CFO)", "David Wadhwani (Digital Media)"],
+      "scanHistory": []
+    },
+    {
+      "id": "tesla",
+      "ticker": "TSLA",
+      "specimenSlug": "tesla",
+      "industry": "Automotive/AI",
+      "fiscalYearEnd": "December",
+      "fiscalQuarterMapping": {
+        "Q1": "Jan-Mar (reports Apr)",
+        "Q2": "Apr-Jun (reports Jul)",
+        "Q3": "Jul-Sep (reports Oct)",
+        "Q4": "Oct-Dec (reports Jan)"
+      },
+      "priority": "monitor",
+      "whyMonitor": "Autonomous driving AI, Optimus robotics, Dojo supercomputer, vertical AI integration",
+      "keyExecutives": ["Elon Musk (CEO)", "Vaibhav Taneja (CFO)"],
+      "scanHistory": []
+    }
+  ],
+  "earningsSeasons": {
+    "description": "Quarterly earnings windows. Most companies report within a 3-week window. Use these dates to trigger proactive research sessions.",
+    "Q4_2025": {
+      "window": "2026-01-20 to 2026-02-15",
+      "status": "active",
+      "companiesReported": ["microsoft", "meta", "salesforce", "travelers", "servicenow", "accenture", "nokia", "workday", "publicis-groupe"],
+      "companiesPending": ["amazon", "google"],
+      "sessionFiles": ["2026-02-03-003-research-earnings-calls-press.md", "2026-02-04-001-earnings-q4-2025-wide-net.md"],
+      "notes": "First structured earnings season. Wide-net discovery session (Feb 4) surfaced 7 new orgs including Travelers (insurance goldmine), ServiceNow (org restructuring rhetoric), Nokia Defense (M8 candidate). Also watch for: Eli Lilly, JPMorgan, UBS, Pfizer, Moderna Q4 2025 reports in this window."
+    }
+  },
+  "industryDistribution": {
+    "description": "Summary of industry coverage to ensure we're not over-indexing on tech",
+    "Tech Platform": 6,
+    "Enterprise Software": 4,
+    "Pharma & Life Sciences": 6,
+    "Financial Services": 5,
+    "Insurance": 1,
+    "Industrials": 3,
+    "Consumer & Retail": 2,
+    "Logistics & Services": 4,
+    "Other (Fintech, EdTech, Cybersecurity, Automotive)": 5
+  }
+}

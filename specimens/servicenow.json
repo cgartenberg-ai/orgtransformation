@@ -1,0 +1,133 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "servicenow",
+  "name": "ServiceNow",
+  "title": "AI Control Tower — Agent Orchestration as Core Product",
+
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 5,
+    "secondaryModelName": "Product/Venture Lab",
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "Decision tree: Formal AI capability exists (Now Assist, AI Agent Orchestrator) → not academic research → central AI team exists → central team BUILDS products → outputs are new commercial products (Now Assist at $600M revenue). Primary M4: ServiceNow's AI capability functions as a central hub building and deploying AI agent orchestration across product lines and customer workflows. Dual lab partnerships (Anthropic + OpenAI within a week) feed the hub with multi-model capabilities. $10B+ acquisitions (Moveworks, Armis) expand hub capabilities. Secondary M5 (5c Platform-to-Product): the AI agent orchestration capability is itself becoming the core product sold externally. Contextual orientation: McDermott's 'obliterate 20th century org charts' vision — teams + agents replacing hierarchy, not separate explore/execute units. Medium confidence: strong revenue data and CEO quotes, but limited visibility into ServiceNow's internal AI organizational structure (as opposed to what it sells).",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Enterprise SaaS / Workflow Automation",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": "$3.47B quarterly subscription revenue (Q4 2025)",
+    "headquarters": "Santa Clara, CA",
+    "geography": "Global"
+  },
+
+  "description": "ServiceNow positions itself as the 'AI Control Tower for the global enterprise' — an AI agent orchestrator that coordinates specialized AI agents working together across systems and workflows. CEO Bill McDermott's vision is explicitly structural: replace 20th-century org charts with teams of humans and AI agents working across processes.\n\nThe company's AI strategy centers on Now Assist, which has generated $600M+ in revenue — one of the largest AI-specific revenue streams in enterprise SaaS. ServiceNow is simultaneously executing a structural business model shift: moving from traditional per-seat licensing to consumption-based 'assist packs,' reflecting the shift from software-as-tool to agent-as-worker. This pricing model change is itself a structural signal — it implies a different relationship between the software and the organization using it.\n\nServiceNow has pursued an open-ecosystem, multi-model strategy, signing deals with both Anthropic and OpenAI within a week of each other. It has also made $10B+ in acquisitions — Moveworks (AI productivity) and Armis (cybersecurity orchestration) — to fortify its AI and security capabilities. The cRPO (current remaining performance obligations) stands at $12.85B, up 25% YoY, indicating strong forward demand for the AI-integrated platform.",
+
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": "$10B+ in AI-related acquisitions (Moveworks, Armis). Dual partnerships with Anthropic and OpenAI.",
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "$600M+ Now Assist revenue. Q4 subscription revenue: $3.47B (21% YoY). cRPO: $12.85B (25% YoY). Consumption-based pricing shift from per-seat model."
+  },
+
+  "mechanisms": [
+    {
+      "id": 10,
+      "name": "Productize Internal Operational Advantages",
+      "evidence": "ServiceNow's AI agent orchestration capability — coordinating specialized agents across workflows — is being sold as the 'AI Control Tower' product. The shift from per-seat to consumption-based 'assist packs' reflects productization of AI-as-labor rather than AI-as-tool.",
+      "strength": "Strong"
+    }
+  ],
+
+  "quotes": [
+    {
+      "text": "We need to have those 20th century org charts obliterated... we now need to work in teams. Teams need to work across processes, and the agents need to be the best friend to humans.",
+      "speaker": "Bill McDermott",
+      "speakerTitle": "CEO, ServiceNow",
+      "source": "ServiceNow Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.cnbc.com/2026/01/28/servicenow-now-q4-2025-earnings-report.html",
+      "timestamp": null,
+      "date": "2026-01-28"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation — AI Control Tower and Agent Orchestration",
+      "summary": "ServiceNow's 'AI Control Tower' positioning documented with $600M Now Assist revenue, consumption-based pricing shift, dual Anthropic/OpenAI partnerships, $10B+ acquisitions (Moveworks, Armis), and McDermott's org structure vision.",
+      "classification": null,
+      "sourceRefs": ["servicenow-q4-2025-cnbc", "servicenow-q4-2025-analysis"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "servicenow-q4-2025-cnbc",
+      "type": "Press",
+      "name": "CNBC — ServiceNow Q4 2025 Earnings Report",
+      "url": "https://www.cnbc.com/2026/01/28/servicenow-now-q4-2025-earnings-report.html",
+      "timestamp": null,
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-02-04",
+      "notes": "Q4 2025 earnings coverage — McDermott quotes, Now Assist revenue, Anthropic/OpenAI dual partnerships"
+    },
+    {
+      "id": "servicenow-q4-2025-analysis",
+      "type": "Press",
+      "name": "FinancialContent — ServiceNow AI Surge Analysis",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-2-servicenows-ai-surge-meets-market-gravity-resilience-and-record-growth-in-q4-earnings",
+      "timestamp": null,
+      "sourceDate": "2026-02-02",
+      "collectedDate": "2026-02-04",
+      "notes": "Analysis of AI Control Tower positioning, acquisition strategy, cRPO growth"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": 0.5,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": -0.4,
+    "namedVsQuiet": -0.7,
+    "longVsShortHorizon": 0.2
+  },
+
+  "openQuestions": [
+    "What is ServiceNow's internal AI organizational structure — how is the AI agent orchestration capability team structured?",
+    "How does the dual Anthropic + OpenAI partnership work structurally — are there separate teams for each, or unified integration?",
+    "What was the acquisition price for Moveworks and Armis, and how are these teams being integrated?",
+    "How is ServiceNow itself using AI agents internally (dog-fooding the AI Control Tower)?",
+    "What does the consumption-based pricing shift mean for ServiceNow's own revenue recognition and sales org structure?"
+  ],
+
+  "taxonomyFeedback": [
+    "ServiceNow presents an interesting classification challenge: it sells AI org structure as its product. The 'AI Control Tower' is a hub-and-spoke topology for its CUSTOMERS' organizations. But we're classifying ServiceNow's own internal structure, which is less visible.",
+    "McDermott's 'obliterate 20th century org charts' quote is the most structurally explicit CEO statement since Zuckerberg's 'single talented person' comment. Worth tracking as a CEO framing data point.",
+    "The per-seat to consumption pricing shift is structurally significant — it implies agents are replacing seats (i.e., workers). This is a business model signal that reflects the structural shift in customer organizations."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-04",
+    "lastUpdated": "2026-02-04",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

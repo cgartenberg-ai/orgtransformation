@@ -1,0 +1,105 @@
+{
+  "id": "rwjbarnabas-health",
+  "name": "RWJBarnabas Health / Rutgers Health",
+  "title": "AI Center of Excellence — Multi-Hospital System + Academic Partner",
+
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Model 2 (Center of Excellence). RWJBarnabas Health and Rutgers Health established a joint AI Center of Excellence spanning 14 hospitals. Joint AI Executive Committee with leaders from both organizations ensures alignment with clinical priorities, ethical standards, and strategic goals. Classic healthcare CoE pattern: centralized governance enabling distributed adoption across multi-site system. Structural orientation: the CoE is a named, formally announced initiative with joint governance. Low confidence: single source, minimal structural detail on team size, reporting, or resource allocation.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Healthcare",
+    "sector": "Health System / Academic Medical Center",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "West Orange, NJ",
+    "geography": "Regional (New Jersey)"
+  },
+
+  "description": "RWJBarnabas Health and Rutgers Health established a joint AI Center of Excellence spanning 14 hospitals (12 acute care, 1 behavioral health, Children's Specialized Hospital). The CoE is governed by a Joint AI Executive Committee with leaders from both organizations, ensuring alignment with clinical priorities, ethical standards, and strategic goals.\n\nGoal areas include improving patient outcomes, reducing clinician burden and burnout, enhancing professional fulfillment, streamlining operations, and delivering long-term ROI. The joint governance structure across a health system and academic partner is structurally interesting — it creates a bridge between clinical operations and academic research.\n\nThis is the first healthcare system specimen in the collection, representing the Model 2 (CoE) pattern in a heavily regulated, multi-site healthcare context where patient safety requirements and regulatory constraints shape AI deployment differently than in technology or financial services.",
+
+  "observableMarkers": {
+    "reportingStructure": "Joint AI Executive Committee — leaders from both RWJBarnabas Health and Rutgers Health.",
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": "CoE provides centralized governance for AI across 14 hospitals. Joint executive committee ensures alignment with clinical priorities and ethical standards.",
+    "metrics": "14 hospitals (12 acute care, 1 behavioral health, 1 children's)."
+  },
+
+  "mechanisms": [],
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Initial Documentation",
+      "summary": "RWJBarnabas Health and Rutgers Health establish joint AI Center of Excellence spanning 14 hospitals. Joint AI Executive Committee for governance. First healthcare system specimen. Goals: patient outcomes, clinician burden reduction, operational efficiency, long-term ROI.",
+      "classification": null,
+      "sourceRefs": [
+        "aha-rwjbarnabas-2025"
+      ]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "aha-rwjbarnabas-2025",
+      "type": "Report",
+      "name": "AHA — RWJBarnabas Health / Rutgers Health AI Center of Excellence",
+      "url": "https://www.aha.org/stories/2025-09-26-rwjbarnabas-health-rutgers-health-new-jersey-ai-center-excellence-mindful-advancement-safer-smarter-care",
+      "timestamp": null,
+      "sourceDate": "2025-09-26",
+      "collectedDate": "2026-02-04",
+      "notes": "AHA profile of joint health system + academic partner AI CoE."
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "High"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.5,
+    "speedVsDepth": -0.4,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": -0.3
+  },
+
+  "openQuestions": [
+    "How large is the dedicated CoE team? Full-time vs. part-time members?",
+    "What specific AI applications have been deployed across the 14 hospitals?",
+    "How does the joint governance structure work in practice — who has veto power?",
+    "How does HIPAA/regulatory compliance shape the CoE's operational boundaries?",
+    "Is the Rutgers academic partnership producing research publications or primarily operational?"
+  ],
+
+  "taxonomyFeedback": [
+    "First healthcare system specimen in the collection. Healthcare AI CoEs face unique constraints: HIPAA compliance, patient safety requirements, FDA regulation for clinical AI tools, and multi-stakeholder governance (clinicians, administrators, researchers, regulators).",
+    "The joint health system + academic partner governance model is a distinct structural pattern worth tracking. Academic partners bring research capability; health systems bring clinical data and deployment context.",
+    "Healthcare industry AI adoption is likely underrepresented in our collection. Search for: Mayo Clinic, Cleveland Clinic, Intermountain Health, Kaiser Permanente AI org structures."
+  ],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-04",
+    "lastUpdated": "2026-02-04",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

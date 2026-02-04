@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAllSpecimens, getSpecimenById } from "@/lib/data/specimens";
-import { getMechanisms } from "@/lib/data/synthesis";
+import { getMechanisms, getInsights } from "@/lib/data/synthesis";
 import { ClassificationBadge } from "@/components/shared/ClassificationBadge";
 import { SpecimenTabs } from "@/components/specimens/SpecimenTabs";
 import type { Specimen } from "@/lib/types/specimen";
@@ -29,10 +29,11 @@ export default async function SpecimenPage({
 }: {
   params: { id: string };
 }) {
-  const [specimen, allSpecimens, mechanismData] = await Promise.all([
+  const [specimen, allSpecimens, mechanismData, insightData] = await Promise.all([
     getSpecimenById(params.id),
     getAllSpecimens(),
     getMechanisms(),
+    getInsights(),
   ]);
 
   if (!specimen) notFound();
@@ -123,6 +124,60 @@ export default async function SpecimenPage({
         related={related}
         mechanismDefinitions={mechanismData.confirmed}
       />
+
+      {/* Cross-cutting insights this specimen appears in */}
+      {(() => {
+        const specimenInsights = insightData.insights.filter((i) =>
+          i.evidence.some((e) => e.specimenId === specimen.id)
+        );
+        if (specimenInsights.length === 0) return null;
+        return (
+          <section className="rounded-lg border border-sage-200 bg-cream-50 p-5">
+            <h2 className="mb-3 font-serif text-lg text-forest">
+              Field Insights ({specimenInsights.length})
+            </h2>
+            <p className="mb-3 text-xs text-charcoal-400">
+              Cross-cutting findings this specimen contributes to.
+            </p>
+            <div className="space-y-3">
+              {specimenInsights.map((insight) => {
+                const thisEvidence = insight.evidence.find(
+                  (e) => e.specimenId === specimen.id
+                );
+                return (
+                  <Link
+                    key={insight.id}
+                    href="/insights"
+                    className="block rounded border border-sage-100 bg-white p-3 transition-colors hover:border-forest-50"
+                  >
+                    <div className="flex items-start justify-between gap-2">
+                      <p className="font-serif text-sm font-medium text-forest">
+                        {insight.title}
+                      </p>
+                      <span
+                        className={`shrink-0 rounded px-1.5 py-0.5 text-[9px] font-medium ${
+                          insight.maturity === "confirmed"
+                            ? "bg-forest-50 text-forest"
+                            : insight.maturity === "emerging"
+                            ? "bg-amber-50 text-amber-700"
+                            : "bg-charcoal-50 text-charcoal-400"
+                        }`}
+                      >
+                        {insight.maturity}
+                      </span>
+                    </div>
+                    {thisEvidence && (
+                      <p className="mt-1 text-xs text-charcoal-500">
+                        {thisEvidence.note}
+                      </p>
+                    )}
+                  </Link>
+                );
+              })}
+            </div>
+          </section>
+        );
+      })()}
 
       {/* Meta footer */}
       <footer className="border-t border-sage-200 pt-4 text-xs text-charcoal-400">

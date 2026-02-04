@@ -11,7 +11,7 @@ export async function buildSystemPrompt(): Promise<string> {
   const active = specimens.filter((s) => s.meta.status !== "Archived");
 
   // Build model descriptions
-  const modelDescriptions = ([1, 2, 3, 4, 5, 6, 7] as StructuralModel[])
+  const modelDescriptions = ([1, 2, 3, 4, 5, 6, 7, 8, 9] as StructuralModel[])
     .map((m) => {
       const info = STRUCTURAL_MODELS[m];
       return `M${m} — ${info.name}: ${info.description}\n   ${info.characteristics}`;

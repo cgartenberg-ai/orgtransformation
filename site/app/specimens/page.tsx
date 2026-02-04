@@ -17,7 +17,7 @@ export default async function SpecimensPage({
   ]);
 
   const initialModel = searchParams.model
-    ? (Number(searchParams.model) as 1 | 2 | 3 | 4 | 5 | 6 | 7)
+    ? (Number(searchParams.model) as 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9)
     : null;
 
   return (

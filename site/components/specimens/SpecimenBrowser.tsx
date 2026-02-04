@@ -71,7 +71,7 @@ export function SpecimenBrowser({
           >
             All
           </FilterButton>
-          {([1, 2, 3, 4, 5, 6, 7] as StructuralModel[]).map((m) => (
+          {([1, 2, 3, 4, 5, 6, 7, 8, 9] as StructuralModel[]).map((m) => (
             <FilterButton
               key={m}
               active={modelFilter === m}

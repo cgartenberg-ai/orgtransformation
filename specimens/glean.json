@@ -1,9 +1,9 @@
 {
   "id": "glean",
   "name": "Glean",
-  "title": "Enterprise AI Search — Automation Harder Than Expected",
+  "title": "Enterprise AI Search \u2014 Automation Harder Than Expected",
   "classification": {
-    "structuralModel": 3,
+    "structuralModel": 9,
     "structuralModelName": "Embedded Teams",
     "subType": null,
     "subTypeName": null,
@@ -12,7 +12,7 @@
     "orientation": "Contextual",
     "orientationName": "Contextual",
     "confidence": "Low",
-    "classificationRationale": "AI-native company with product-embedded AI. CEO Arvind Jain's candid admission that AI automation was harder than expected — tried to automate internal workflows and fine-tune custom models, both fell short. Very limited org structure data.",
+    "classificationRationale": "AI-native company with product-embedded AI. CEO Arvind Jain's candid admission that AI automation was harder than expected \u2014 tried to automate internal workflows and fine-tune custom models, both fell short. Very limited org structure data.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -25,7 +25,7 @@
     "geography": "North America",
     "orgType": "AI-native"
   },
-  "description": "Glean CEO Arvind Jain, speaking on the BG2 Pod (Dec 23, 2025), described trying to automate internal workflows (identifying priorities) and expecting AI would 'magically' do the work — but it did not. Glean also tried fine-tuning a custom model, which fell short. Enterprise AI search company valued at $7.2B after raising $150M (Sep 2025).",
+  "description": "Glean CEO Arvind Jain, speaking on the BG2 Pod (Dec 23, 2025), described trying to automate internal workflows (identifying priorities) and expecting AI would 'magically' do the work \u2014 but it did not. Glean also tried fine-tuning a custom model, which fell short. Enterprise AI search company valued at $7.2B after raising $150M (Sep 2025).",
   "observableMarkers": {
     "reportingStructure": null,
     "resourceAllocation": "$150M raised at $7.2B valuation (Sep 2025).",
@@ -51,7 +51,7 @@
     {
       "id": "bg2-pod-2025-12",
       "type": "Podcast",
-      "name": "BG2 Pod — AI Enterprise: Databricks, Glean",
+      "name": "BG2 Pod \u2014 AI Enterprise: Databricks, Glean",
       "url": "https://podcasts.apple.com/ca/podcast/ai-enterprise-databricks-glean-bg2-guest-interview/id1727278168?i=1000742526917",
       "timestamp": null,
       "sourceDate": "2025-12-23",
@@ -61,7 +61,7 @@
     {
       "id": "dnyuz-2025-12",
       "type": "Press",
-      "name": "AOL/DNYUZ — AI CEOs Say Automation with AI Is Harder Than It Looks",
+      "name": "AOL/DNYUZ \u2014 AI CEOs Say Automation with AI Is Harder Than It Looks",
       "url": "https://dnyuz.com/2025/12/24/ai-ceos-say-automation-with-ai-is-harder-than-it-looks/",
       "timestamp": null,
       "sourceDate": "2025-12-24",

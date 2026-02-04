@@ -1,0 +1,126 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "new-york-state",
+  "name": "New York State",
+  "title": "State CAIO Turnover and AI Governance",
+
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Low",
+    "classificationRationale": "CAIO role sits within ITS (Information Technology Services) and focuses on governance, policy, training, and enablement — hallmarks of M2 (Center of Excellence). The CAIO is not building AI products but enabling AI adoption across state agencies through acceptable use policies, training pilots (1,000 employees), and infrastructure (Empire AI consortium). Contextual orientation assigned because the goal is agency-wide AI adoption with employees expected to integrate AI into existing roles, not structural separation of an explore unit. Low confidence because (a) structural detail beyond the CAIO role is very thin, (b) we don't know the CAIO's team size, budget, or decision authority, and (c) the rapid turnover (2nd CAIO in <1 year) suggests the role may not yet be institutionally stable enough to classify firmly.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Government / State",
+    "sector": "Public Administration",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Albany, NY",
+    "geography": "New York State"
+  },
+
+  "description": "New York State appointed Eleonore Fournier-Tombs as its second Chief AI Officer (CAIO) on January 9, 2026, replacing Shreya Amin who departed after less than one year for 'personal and professional reasons, including the launch of her new company.' The rapid turnover — two CAIOs in under a year — raises questions about role stability in government AI leadership.\n\nFournier-Tombs brings an academic and international policy background: 15+ years in tech innovation, founder of the UN University's first AI policy research lab, and leader of anticipatory action and governance for predictive analytics in crisis forecasting. This represents a distinct CAIO pipeline — academic/international to government — contrasting with the corporate-to-corporate and military-to-government pipelines documented in other specimens.\n\nThe CAIO's priorities include expanding AI tools for state employees, refining the 'Acceptable Use of AI Technologies' policy, and building on an AI education pilot that trained approximately 1,000 state employees across multiple agencies. Empire AI, a statewide supercomputing consortium for university AI research launched by Governor Hochul, provides infrastructure. New York is part of a broader wave of state-level CAIO appointments alongside Oklahoma, Montana, Texas, North Carolina, Arkansas, and Illinois.",
+
+  "observableMarkers": {
+    "reportingStructure": "CAIO sits within New York State Office of Information Technology Services (ITS). Reporting line specifics unknown.",
+    "resourceAllocation": "Empire AI consortium for university AI research (statewide infrastructure). Budget for CAIO office unknown.",
+    "timeHorizons": "AI training pilot completed (~1,000 employees). Acceptable Use policy refinement ongoing.",
+    "decisionRights": "CAIO sets AI policy and acceptable use standards for state agencies. Decision authority scope unclear.",
+    "metrics": "~1,000 state employees trained in AI education pilot across multiple agencies."
+  },
+
+  "mechanisms": [],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Initial Documentation — Second CAIO Appointment",
+      "summary": "Eleonore Fournier-Tombs appointed as NY State's 2nd CAIO (Jan 9, 2026), replacing Shreya Amin who left after <1 year. Fournier-Tombs background: UN University AI policy lab founder. Priorities: expand AI tools, refine acceptable use policy. AI training pilot completed for ~1,000 employees. Empire AI consortium provides infrastructure. Part of broader state-level CAIO wave.",
+      "classification": null,
+      "sourceRefs": ["statescoop-caio-2026", "ny-its-announcement-2026", "governor-empire-ai-2024"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "statescoop-caio-2026",
+      "type": "Press",
+      "name": "StateScoop — New York State chief AI officer Eleonore Fournier-Tombs",
+      "url": "https://statescoop.com/new-york-state-chief-ai-officer-eleonore-fournier-tombs/",
+      "timestamp": null,
+      "sourceDate": "2026-01-09",
+      "collectedDate": "2026-02-03",
+      "notes": "Fournier-Tombs appointment, background, Amin departure details"
+    },
+    {
+      "id": "ny-its-announcement-2026",
+      "type": "Press",
+      "name": "NY ITS — Appoints Eleonore Fournier-Tombs as Chief AI Officer",
+      "url": "https://its.ny.gov/news/new-york-state-office-information-technology-services-appoints-eleonore-fournier-tombs-chief",
+      "timestamp": null,
+      "sourceDate": "2026-01-09",
+      "collectedDate": "2026-02-03",
+      "notes": "Official announcement, priorities for the role"
+    },
+    {
+      "id": "governor-empire-ai-2024",
+      "type": "Press",
+      "name": "Governor's Office — Empire AI Consortium announcement",
+      "url": "https://www.governor.ny.gov/news/governor-hochul-unveils-fifth-proposal-2024-state-state-empire-ai-consortium-make-new-york",
+      "timestamp": null,
+      "sourceDate": "2024-01-01",
+      "collectedDate": "2026-02-03",
+      "notes": "Empire AI statewide supercomputing consortium for university AI research"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [
+    "Why did the first CAIO depart after <1 year? Is this a pattern in government CAIO roles?",
+    "How does Empire AI compare to other state-level AI infrastructure investments?",
+    "Is the academic/UN to government pipeline a distinct archetype from the corporate CAIO pipelines?",
+    "What is the CAIO's actual team size, budget, and decision authority within ITS?",
+    "Are state-level CAIO roles structurally different from corporate CAIO roles (governance focus vs. product focus)?"
+  ],
+
+  "taxonomyFeedback": [
+    "New York State is a Stub specimen — thin on structural detail but valuable as one of the first state-government AI governance specimens. The CAIO role in government may be structurally different from corporate CAIO roles: more governance/policy, less product/technical.",
+    "CAIO turnover (<1 year tenure for first appointee) is a potentially important signal about government CAIO role stability. Worth tracking across other state-level CAIOs (OK, MT, TX, NC, AR, IL).",
+    "The academic/international-to-government CAIO pipeline (Fournier-Tombs: UN University -> NY State) is distinct from the corporate-to-corporate pipelines documented elsewhere. May be a government-specific variant worth noting in Mechanism #9 (Hire CAIOs)."
+  ],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-04",
+    "lastUpdated": "2026-02-04",
+    "completeness": "Stub",
+    "convertedFrom": null
+  }
+}

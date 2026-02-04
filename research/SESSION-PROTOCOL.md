@@ -71,7 +71,7 @@ Before scanning anything:
    - **Low Priority** (skip): General AI trends, pure technical capabilities, policy/regulation
 
 3. **For each high-priority episode**:
-   - Search for transcript (podscripts.co, podcast website, YouTube captions)
+   - **Check for full transcripts first.** Many podcast sources publish full transcripts on their websites or Substacks — check the source registry for `transcriptsAvailable: true`. These are the highest-value sources because you get exact verbatim wording in context. Sources with confirmed transcripts: Cheeky Pint, Dwarkesh, Latent Space, Acquired, Conversations with Tyler, Lex Fridman, Cognitive Revolution. For sources without official transcripts, try podscripts.co or YouTube captions.
    - Keyword scan the transcript for: "lab", "team", "structure", "report to", "Chief AI", "CoE", "incubator", "spin-off", "venture", "explore", "execute", "pilot", "deploy", "headcount", "budget"
    - Deep-read sections around keyword hits
    - Apply Relevance Test to each potential finding
@@ -116,11 +116,80 @@ Also run broader searches:
 
 For each relevant result: read the article, apply Relevance Test, record findings with full URL and date.
 
-### SEC Filings & Earnings (When Applicable)
+### SEC Filings & Earnings
 
 1. Search EDGAR for key companies (list in `sources.md` lines 366-372)
 2. Search filings for: "artificial intelligence", "machine learning", "R&D", "generative", "large language model"
 3. Extract structural details: investment levels, headcount, reporting lines, new units
+
+### Earnings Season Protocol
+
+Earnings calls are our **highest-density source** for organizational structure signals. CEOs make on-the-record, legally binding statements about flattening, delayering, agent deployment, CapEx, and org design. Run dedicated earnings sessions during each quarterly window.
+
+**When:** ~3-week window each quarter (roughly Jan/Feb, Apr/May, Jul/Aug, Oct/Nov). Check `research/earnings-calendar.json` for exact dates.
+
+**Target companies:** See `research/earnings-calendar.json` for the full list with fiscal year mappings, priorities, and scan history. Currently 34 companies across 8 industries:
+- **Critical** (scan every quarter): Microsoft, Meta, Amazon, Google/Alphabet, Salesforce
+- **High** (scan every quarter when time permits): Pharma (Eli Lilly, Pfizer, Moderna, Sanofi), Financial Services (JPMorgan, UBS), Industrials (Siemens), Consumer (Walmart), Logistics (UPS), IT Services (Infosys), Enterprise Software (SAP, NVIDIA, Klarna)
+- **Monitor** (scan selectively): Novo Nordisk, Roche, Citigroup, Wells Fargo, Bank of America, Schneider, ABB, Coca-Cola, Dow, Publicis, Duolingo, Pinterest, Palo Alto Networks, Shopify, Atlassian, Adobe, Tesla, Apple
+
+**Casting a wide net:** Beyond the target list, earnings sessions should also search for *new* companies making structural AI announcements during earnings. Run broad searches like `"Chief AI Officer" OR "AI restructuring" earnings call 2026` to catch companies not yet in our collection. The target list tracks known specimens; earnings season is also a discovery mechanism.
+
+**Per-company scan process:**
+
+1. **Find the transcript** — Search: `[company] Q[N] [FY year] earnings call transcript`
+   - Primary: Seeking Alpha, Motley Fool, company IR page
+   - Note: Some are paywalled. Search for press summaries + analyst coverage as backup
+
+2. **Keyword scan** — Use the keyword categories from `research/earnings-calendar.json`:
+   - `structural`: reorganize, restructure, reporting line, Chief AI, CoE, new unit/division
+   - `workforce`: headcount, delayer, flatten, fewer managers, reskill, redeploy, attrition
+   - `investment`: CapEx, AI infrastructure, AI investment, data center, GPU, compute
+   - `deployment`: agent, agentic, copilot, resolution rate, automation rate, AI product, deploy
+   - `governance`: responsible AI, AI safety, AI governance, AI board/committee
+
+3. **Deep-read around keyword hits** — Read 2-3 paragraphs of context around each hit. Apply Relevance Test.
+
+4. **Extract findings** — For each relevant finding:
+   - Direct quote from CEO/CFO (verbatim, with speaker and title)
+   - Specific numbers (CapEx, headcount, metrics, ARR)
+   - Structural signals (new units, reporting changes, role shifts)
+   - Source: transcript URL + earnings date + collected date
+
+5. **Update `research/earnings-calendar.json`** — Mark company/quarter as scanned, record session file and key findings
+
+**Session naming:** Use type `earnings` — e.g., `2026-02-05-001-earnings-q4-2025-amazon-google.md`
+
+**Discovery searches — casting a wide net:**
+
+Earnings season isn't just for tracking known specimens. It's the best time to discover *new* organizations making structural AI moves, because every public company is required to speak. Run these broad discovery searches each earnings window:
+
+```
+"Chief AI Officer" OR "CAIO" earnings call transcript 2026
+"AI restructuring" OR "AI reorganization" earnings call 2026
+"center of excellence" AI earnings 2026
+"AI lab" OR "AI division" earnings call 2026
+"agentic" OR "AI agent" earnings call 2026
+"generative AI" restructuring layoff earnings 2026
+```
+
+Also search by industry verticals we're underrepresented in:
+```
+"AI" earnings call 2026 healthcare OR hospital
+"AI" earnings call 2026 insurance
+"AI" earnings call 2026 manufacturing
+"AI" earnings call 2026 energy OR utility
+"AI" earnings call 2026 airline OR transportation
+"AI" earnings call 2026 telecom
+```
+
+Any company surfaced by discovery searches that passes the Relevance Test → record as a new finding in the session file, even if it's not on the target list. This is how the herbarium grows.
+
+**What makes earnings calls special:**
+- **Legal accountability** — CEOs make statements under SEC disclosure rules. They can't hand-wave.
+- **Comparative structure** — Same questions asked to every company each quarter = natural panel data.
+- **Structural specificity** — Analyst Q&A probes org design decisions: "How are you structuring the AI team?" "What's the CapEx trajectory?"
+- **Longitudinal tracking** — Quarter-over-quarter changes in narrative, spending, and structure are visible.
 
 ---
 
@@ -159,7 +228,51 @@ Before wrapping up the session, review all findings:
 - [ ] Add session to `research/queue.json` with all organizations found
 - [ ] If new sources were discovered, add them to **both** `sources.md` and `source-registry.json`
 - [ ] **Update `research/SESSION-LOG.md`** — add a summary entry at the top with: sources scanned, orgs found (table with key finding per org), broader trends, new sources discovered, sources updated, follow-ups needed
+- [ ] **Update `research/field-signals.json`** — see Field Signal Tracking below
 - [ ] Run `node scripts/validate-workflow.js` to confirm consistency
+
+---
+
+## Field Signal Tracking
+
+Field signals are macro-level observations that recur across multiple research sessions — trends, structural patterns, and emerging phenomena that aren't tied to a single specimen but emerge from the fieldwork as a whole.
+
+**When:** At the end of every research session, after writing the Broader Trends section in the session file, review `research/field-signals.json` and update it.
+
+**How:**
+
+1. **Strengthen existing signals** — If this session's broader trends match existing signals:
+   - Add the session ID to the signal's `sessions` array
+   - Add any new specimen slugs to `relatedSpecimens`
+   - Append new data points to `dataPoints` (with source + date)
+   - Update `lastUpdated`
+
+2. **Add new signals** — If this session surfaces a macro observation not yet tracked:
+   - Create a new entry with a descriptive `id` (kebab-case)
+   - Set `status: "active"`, `firstObserved` to today
+   - Assign a `theme` from the existing set: `workforce`, `convergence`, `governance`, `structural-form`, `deployment-reality`, `talent`, `investment`, `explore-execute`
+   - Include at least one data point with source citation
+
+3. **Record counter-evidence** — If a finding contradicts an existing signal, add it to that signal's `counterEvidence` array rather than deleting the signal. Signals are append-only.
+
+4. **Mark saturated** — If a signal has been observed in 5+ sessions and no new dimensions are emerging, set `status: "saturated"`. It's still tracked but no longer actively sought.
+
+5. **Promote to insights** — When a signal has enough evidence density and specificity to become a formal claim, set `status: "promoted"` and `promotedTo: "INS-XXX"` (the insight ID in `synthesis/insights.json`). Promotion happens during Phase 3 (Synthesis), not during research.
+
+**Signal lifecycle:** `active` → `saturated` → `promoted`
+
+**Themes:**
+
+| Theme | What it covers |
+|-------|---------------|
+| `workforce` | Headcount changes, layoffs, hiring patterns, role shifts |
+| `convergence` | Blurring of explore/execute, structural convergence |
+| `governance` | CAIO roles, reporting lines, oversight structures |
+| `structural-form` | Lab types, CoE patterns, org design |
+| `deployment-reality` | Gap between AI hype and actual deployment |
+| `talent` | AI talent markets, retention, competition |
+| `investment` | CapEx/OpEx shifts, infrastructure spend |
+| `explore-execute` | How orgs balance exploration and execution |
 
 ---
 
@@ -186,6 +299,7 @@ YYYY-MM-DD-NNN-<type>-<descriptor>.md
 | `deep-scan` | Transcript-level scan of specific episodes or articles |
 | `bulk-review` | Batch review/upgrade of existing specimens |
 | `gap-coverage` | Targeted session to fill taxonomy or industry gaps |
+| `earnings` | Quarterly earnings call transcript scanning session |
 
 **Examples:**
 
@@ -194,6 +308,7 @@ YYYY-MM-DD-NNN-<type>-<descriptor>.md
 2026-02-01-002-deep-scan-karpathy-alphabet.md
 2026-02-03-001-bulk-review-model6-specimens.md
 2026-02-05-001-gap-coverage-financial-services.md
+2026-02-05-002-earnings-q4-2025-amazon-google.md
 ```
 
 The sequence number (`NNN`) ensures unique, sortable filenames when multiple sessions run on the same date. Check existing files for the date before choosing the next number.

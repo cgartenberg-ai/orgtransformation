@@ -1,0 +1,15 @@
+{
+  "id": "azoulay-lerner-2013",
+  "citation": "Azoulay, P. & Lerner, J. (2013). Technological Innovation and Organizations. In R. Gibbons & J. Roberts (Eds.), The Handbook of Organizational Economics. Princeton University Press, pp. 575-603.",
+  "authors": ["Azoulay", "Lerner"],
+  "year": 2013,
+  "journal": "Handbook of Organizational Economics",
+  "tradition": "org-econ",
+  "keyMechanism": "The internal organization of firms shapes their innovative output through three interconnected channels: incentive design (tolerating early failure and rewarding long-term success promotes exploration over exploitation), knowledge spillover management (absorptive capacity requires firms to invest in their own R&D to capture external knowledge, and spillovers are mediated by geographic, technological, and social distance), and organizational structure choices (centralized vs. decentralized R&D, team composition via network closure vs. brokerage, and the make-or-buy boundary for innovative activities). Contract design between firms also critically affects innovation, with incomplete contracting and property rights allocation determining who controls and captures value from joint R&D projects.",
+  "predictionForAI": "This paper would predict that organizations structuring AI work face a fundamental tension between centralized Research Labs (which enable long-range exploration but risk becoming ivory towers) and Embedded Teams (which stay close to business needs but may lose scientific frontier knowledge). The incentive design findings suggest AI exploration units need tolerance for early failure and long time horizons -- favoring structurally separated units like Skunkworks or Product/Venture Labs over contextual ambidexterity, where day-to-day execution pressures crowd out experimentation. The knowledge spillover logic predicts that Hub-and-Spoke models will outperform pure structural separation because absorptive capacity requires ongoing connections between the AI frontier and the operational core. The contracting analysis implies that firms will keep cutting-edge AI development in-house (where knowledge production is hard to specify contractually) while outsourcing more routine AI implementation to vendors.",
+  "connectedInsights": [],
+  "connectedMechanisms": [],
+  "status": "candidate",
+  "addedDate": "2026-02-03",
+  "sourceFile": "library/research papers/Azoulay_Lerner.pdf"
+}

@@ -1,9 +1,9 @@
 {
   "id": "world-labs",
   "name": "World Labs",
-  "title": "Academic AI Spin-Off — World Models",
+  "title": "Academic AI Spin-Off \u2014 World Models",
   "classification": {
-    "structuralModel": 1,
+    "structuralModel": 9,
     "structuralModelName": "Research Lab",
     "subType": null,
     "subTypeName": null,
@@ -12,7 +12,7 @@
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Low",
-    "classificationRationale": "Academic spin-off from Stanford (Fei-Fei Li, Justin Johnson). Research lab focused on 'world models' with Marble product launch. Dual research lab + product development. Low confidence — single thin source.",
+    "classificationRationale": "Academic spin-off from Stanford (Fei-Fei Li, Justin Johnson). Research lab focused on 'world models' with Marble product launch. Dual research lab + product development. Low confidence \u2014 single thin source.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -25,7 +25,7 @@
     "geography": "North America",
     "orgType": "AI-native"
   },
-  "description": "World Labs was founded by Fei-Fei Li (Stanford professor, ImageNet creator) and Justin Johnson as an AI research lab spin-off from academia. The company launched 'Marble,' a generative world model for editable 3D environments, representing the move from pure research toward product. World Labs occupies a similar space to AMI Labs (Yann LeCun) — both are academic-origin research labs pursuing alternatives to the dominant LLM paradigm, focused on spatial understanding and world models.",
+  "description": "World Labs was founded by Fei-Fei Li (Stanford professor, ImageNet creator) and Justin Johnson as an AI research lab spin-off from academia. The company launched 'Marble,' a generative world model for editable 3D environments, representing the move from pure research toward product. World Labs occupies a similar space to AMI Labs (Yann LeCun) \u2014 both are academic-origin research labs pursuing alternatives to the dominant LLM paradigm, focused on spatial understanding and world models.",
   "observableMarkers": {
     "reportingStructure": null,
     "resourceAllocation": null,
@@ -39,7 +39,7 @@
     {
       "date": "2025",
       "label": "Initial Documentation",
-      "summary": "Fei-Fei Li + Justin Johnson founded World Labs. Launched Marble — generative world model for editable 3D environments.",
+      "summary": "Fei-Fei Li + Justin Johnson founded World Labs. Launched Marble \u2014 generative world model for editable 3D environments.",
       "classification": null,
       "sourceRefs": [
         "latent-space-worldlabs-2025"
@@ -50,12 +50,12 @@
     {
       "id": "latent-space-worldlabs-2025",
       "type": "Podcast",
-      "name": "Latent Space — World Labs / Fei-Fei Li",
+      "name": "Latent Space \u2014 World Labs / Fei-Fei Li",
       "url": "https://www.latent.space/podcast",
       "timestamp": null,
       "sourceDate": "2025",
       "collectedDate": "2026-01-31",
-      "notes": "Episode reference — needs deep scan for org structure details."
+      "notes": "Episode reference \u2014 needs deep scan for org structure details."
     }
   ],
   "contingencies": {
@@ -79,7 +79,7 @@
     "How does this compare to AMI Labs (LeCun's spin-off from Meta)?"
   ],
   "taxonomyFeedback": [
-    "Academic spin-offs pursuing non-LLM AI research (world models) may represent a distinct pattern — researchers leaving Big Tech or academia to build independent research labs with eventual product ambitions."
+    "Academic spin-offs pursuing non-LLM AI research (world models) may represent a distinct pattern \u2014 researchers leaving Big Tech or academia to build independent research labs with eventual product ambitions."
   ],
   "meta": {
     "status": "Stub",

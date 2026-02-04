@@ -1,0 +1,15 @@
+{
+  "id": "kogut-zander-1992",
+  "citation": "Kogut, B. & Zander, U. (1992). Knowledge of the Firm, Combinative Capabilities, and the Replication of Technology. Organization Science, 3(3), 383-397.",
+  "authors": ["Kogut", "Zander"],
+  "year": 1992,
+  "journal": "Organization Science",
+  "tradition": "org-econ",
+  "keyMechanism": "Firms exist not primarily to curb opportunism but because they are superior to markets at transferring and recombining knowledge held by individuals and groups. Organizational knowledge consists of information (declarative facts) and know-how (procedural recipes for organizing work), both embedded in social relationships and higher-order organizing principles that cannot be reduced to any single individual. Firms grow by replicating this knowledge internally, but face a paradox: codifying knowledge for easier internal transfer also makes it easier for competitors to imitate. New knowledge is created through 'combinative capabilities' — recombining existing knowledge into novel applications — and this recombination is path-dependent, constrained by the firm's current social structure and organizing principles.",
+  "predictionForAI": "Organizations will develop AI capabilities internally (rather than buying them) when AI knowledge is closely related to their existing organizing principles and can be recombined with current capabilities. This favors Embedded Teams and Hub-and-Spoke models, where AI know-how is transferred through existing social relationships rather than isolated in separate units. Structurally separated models like Skunkworks or Research Labs risk creating knowledge that cannot be reintegrated because the receiving units lack shared codes. The theory also predicts a replication-imitation tension: firms that codify AI practices into transferable playbooks (e.g., Centers of Excellence) accelerate internal diffusion but also make those practices easier for competitors to copy, pushing toward continuous recombination and innovation rather than static best-practice replication.",
+  "connectedInsights": [],
+  "connectedMechanisms": [],
+  "status": "candidate",
+  "addedDate": "2026-02-03",
+  "sourceFile": "library/research papers/Kogut-KnowledgeFirmCombinative-1992.pdf"
+}

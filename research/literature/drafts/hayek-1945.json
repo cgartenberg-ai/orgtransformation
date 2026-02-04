@@ -1,0 +1,15 @@
+{
+  "id": "hayek-1945",
+  "citation": "Hayek, F. A. (1945). The use of knowledge in society. American Economic Review, 35(4), 519-530.",
+  "authors": ["Hayek"],
+  "year": 1945,
+  "journal": "American Economic Review",
+  "tradition": "org-econ",
+  "keyMechanism": "The central economic problem is not optimization given known data, but rather how to make use of knowledge that is dispersed across many individuals and never exists in concentrated form. Local, tacit knowledge of particular circumstances of time and place is as valuable as scientific knowledge, and decentralized decision-making outperforms central planning because the 'man on the spot' possesses information that cannot be transmitted to a central authority. The price system serves as an information-economizing mechanism that coordinates dispersed knowledge by communicating only the essential signals needed for individuals to adjust their actions.",
+  "predictionForAI": "Hayek's framework predicts that centralized AI governance structures (e.g., a single Center of Excellence dictating AI use across the firm) will underperform more decentralized models because they cannot aggregate the local, contextual knowledge that frontline workers possess about where AI creates value. Embedded Teams and Contextual Ambidexterity models should outperform top-down structural separation because they leave AI adoption decisions closer to the people who understand the particular circumstances of their work. Hub-and-Spoke models represent the Hayekian compromise: a central node provides general-purpose AI knowledge (analogous to scientific knowledge), while spokes retain local decision rights over application. The theory also predicts that organizations will need internal price-like signals — metrics, internal markets for AI resources, or performance feedback loops — to coordinate AI exploration across units without requiring a central planner to possess all relevant knowledge.",
+  "connectedInsights": [],
+  "connectedMechanisms": [],
+  "status": "candidate",
+  "addedDate": "2026-02-03",
+  "sourceFile": "library/research papers/Hayek_AER_1945.pdf"
+}
