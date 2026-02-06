@@ -1,6 +1,6 @@
 {
-  "description": "Tracks which specimens have been scanned for purpose claims. Quality: unscanned | rich (3+) | adequate (1-2) | none (scanned, 0 claims).",
-  "lastUpdated": "2026-02-04",
+  "description": "Tracks which specimens have been scanned for purpose claims. Quality: unscanned | rich (5+) | adequate (2-4) | thin (1) | none (scanned, 0 claims). See PURPOSE-CLAIMS-SPEC.md for full schema.",
+  "lastUpdated": "2026-02-06",
   "specimens": [
     {
       "specimenId": "abb",
@@ -166,9 +166,12 @@
     },
     {
       "specimenId": "google-deepmind",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-06",
+      "claimsFound": 10,
+      "quality": "rich",
+      "transcriptAccess": "has-transcript",
+      "rescanFlag": false,
+      "notes": "3 transcript sources scanned: Dwarkesh (Feb 2024), 60 Minutes (Apr 2025), Lex Fridman #475. 5 additional transcript sources discovered but not yet scanned."
     },
     {
       "specimenId": "google-x",

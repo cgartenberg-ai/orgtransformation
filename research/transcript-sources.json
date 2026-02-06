@@ -131,6 +131,46 @@
       "transcriptAccess": "manual-required",
       "transcriptUrlPattern": null,
       "notes": "Auto-captions available but require manual extraction."
+    },
+    {
+      "id": "cbs-60-minutes",
+      "name": "CBS 60 Minutes",
+      "type": "news-outlet",
+      "url": "https://www.cbsnews.com/60-minutes/",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://www.cbsnews.com/news/{slug}-transcript/",
+      "notes": "Full transcripts published for major interviews. High-credibility source."
+    },
+    {
+      "id": "ted-interview",
+      "name": "TED Interview Podcast",
+      "type": "podcast",
+      "url": "https://www.ted.com/podcasts/ted-interview",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://www.ted.com/podcasts/ted-interview/{slug}-transcript",
+      "notes": "Full transcripts published for podcast episodes."
+    },
+    {
+      "id": "google-deepmind-podcast",
+      "name": "Google DeepMind Podcast",
+      "type": "podcast",
+      "url": "https://deepmind.google/discover/the-podcast/",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://deepmind.google/discover/the-podcast/{episode-slug}/",
+      "notes": "Official DeepMind podcast. Full transcripts on website."
+    },
+    {
+      "id": "nobel-prize",
+      "name": "Nobel Prize Interviews",
+      "type": "official",
+      "url": "https://www.nobelprize.org",
+      "transcriptQuality": "native",
+      "transcriptAccess": "manual-required",
+      "transcriptUrlPattern": null,
+      "notes": "Laureate interviews. Some access restrictions (403 errors)."
     }
   ]
 }

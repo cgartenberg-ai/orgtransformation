@@ -1,6 +1,6 @@
 {
   "description": "Tracks transcript sources discovered for each specimen's leader(s). Status: discovered | scanned | queued-for-manual. Serves both /research and /purpose-claims.",
-  "lastUpdated": "2026-02-06",
+  "lastUpdated": "2026-02-06T17:00:00Z",
   "created": "2026-02-03",
   "gaps": [
     {
@@ -83,10 +83,10 @@
       "transcriptAccess": "programmatic",
       "aiRelevance": "yes",
       "priority": "high",
-      "status": "discovered",
+      "status": "scanned",
       "discoveredDate": "2026-02-03",
-      "scannedDate": null,
-      "notes": "Google DeepMind is M1 Research Lab. Hassabis is a Nobel Prize winner — expect identity claims about scientific mission and direction-under-uncertainty."
+      "scannedDate": "2026-02-06",
+      "notes": "3 claims extracted: identity (ultimate tool for scientists, deepest research bench), direction-under-uncertainty (sweet spot when terrain gets harder)."
     },
     {
       "specimenId": "google-ai-infra",
@@ -138,6 +138,74 @@
       "discoveredDate": "2026-02-03",
       "scannedDate": null,
       "notes": "Already deep-scanned for research but not specifically for purpose claims. Rich structural history of Google's AI evolution."
+    },
+    {
+      "specimenId": "google-deepmind",
+      "leader": "Demis Hassabis",
+      "leaderTitle": "CEO",
+      "sourceId": "dwarkesh-podcast",
+      "episodeTitle": "Demis Hassabis — Scaling, superhuman AIs, AlphaZero atop LLMs, AlphaFold",
+      "episodeUrl": "https://www.dwarkesh.com/p/demis-hassabis",
+      "episodeDate": "2024-02-28",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "aiRelevance": "yes",
+      "priority": "high",
+      "status": "scanned",
+      "discoveredDate": "2026-02-06",
+      "scannedDate": "2026-02-06",
+      "notes": "4 claims extracted: identity (bold + responsible mantra, move away from move fast and break things), direction-under-uncertainty (most important technology)."
+    },
+    {
+      "specimenId": "google-deepmind",
+      "leader": "Demis Hassabis",
+      "leaderTitle": "CEO",
+      "sourceId": "cbs-60-minutes",
+      "episodeTitle": "Demis Hassabis on AI — 60 Minutes",
+      "episodeUrl": "https://www.cbsnews.com/news/artificial-intelligence-google-deepmind-ceo-demis-hassabis-60-minutes-transcript/",
+      "episodeDate": "2025-04-20",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "aiRelevance": "yes",
+      "priority": "high",
+      "status": "scanned",
+      "discoveredDate": "2026-02-06",
+      "scannedDate": "2026-02-06",
+      "notes": "4 claims extracted: teleological (cure disease in decade, revolutionize health), identity (ultimate tool), utopian (radical abundance)."
+    },
+    {
+      "specimenId": "google-deepmind",
+      "leader": "Demis Hassabis",
+      "leaderTitle": "CEO",
+      "sourceId": "ted-interview",
+      "episodeTitle": "DeepMind's Demis Hassabis on the future of AI",
+      "episodeUrl": "https://www.ted.com/podcasts/ted-interview/deepminds-demis-hassabis-on-the-future-of-ai-transcript",
+      "episodeDate": null,
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "aiRelevance": "yes",
+      "priority": "medium",
+      "status": "discovered",
+      "discoveredDate": "2026-02-06",
+      "scannedDate": null,
+      "notes": "TED Interview podcast transcript. Expect identity and vision claims."
+    },
+    {
+      "specimenId": "google-deepmind",
+      "leader": "Demis Hassabis",
+      "leaderTitle": "CEO",
+      "sourceId": "google-deepmind-podcast",
+      "episodeTitle": "Demis Hassabis: The Interview",
+      "episodeUrl": "https://deepmind.google/discover/the-podcast/demis-hassabis-the-interview/",
+      "episodeDate": null,
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "aiRelevance": "yes",
+      "priority": "medium",
+      "status": "discovered",
+      "discoveredDate": "2026-02-06",
+      "scannedDate": null,
+      "notes": "Official DeepMind podcast. Extended interview with Hannah Fry."
     },
     {
       "specimenId": "mercor",
