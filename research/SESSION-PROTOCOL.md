@@ -57,6 +57,30 @@ Before scanning anything:
 
 ---
 
+## Transcript Availability Check (Step 2b)
+
+Before deep-scanning any podcast or interview source for a specimen:
+
+1. **Check existing coverage:**
+   - Read `research/transcript-gap-queue.json` for this specimen's leader(s)
+   - If entries exist with `status: scanned`, the transcript has been processed
+
+2. **If no entry exists, run quick discovery:**
+   - Follow `research/TRANSCRIPT-DISCOVERY-PROTOCOL.md` Phase 1
+   - Add any discovered sources to the queue
+
+3. **Prioritize by access method:**
+   - `transcriptAccess: programmatic` — scan these first, they're fetchable
+   - `transcriptAccess: manual-required` — note in session file, add to queue for user
+
+4. **Update after scanning:**
+   - Set `status: scanned` and `scannedDate` for each transcript processed
+   - Add any new sources discovered to `transcript-sources.json`
+
+This step ensures we don't miss available transcripts and systematically track what's been scanned.
+
+---
+
 ## Scanning by Source Type
 
 ### Podcasts
