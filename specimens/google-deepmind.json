@@ -44,8 +44,17 @@
   "layers": [
     {
       "date": "2026-02",
+      "label": "Q4 2025 Earnings — CapEx Surge + Gemini 3 Metrics",
+      "summary": "Q4 2025 (reported Feb 4): Revenue $97.23B (+19% YoY), EPS $2.82 (beat by 9.73%). **CapEx guidance: $175-185B for 2026** — nearly doubling from $91-93B in 2025. Just over half of ML compute goes to Cloud. Gemini 3 Pro processing 3x daily tokens vs 2.5 Pro. **Gemini serving costs down 78%** through model optimization. Gemini app: 750M MAU (was 650M Q3). 8M+ paid Gemini Enterprise seats. 120,000+ enterprises using Gemini (95% of top 20 SaaS). **Cloud backlog: $240B** (was $155B Q3 — +55% QoQ). No DeepMind org structure changes announced. Research-to-product pipeline: 'All the innovation...Imagen, Veo, Liria, Genie...we bring into our products and cloud customers.'",
+      "classification": null,
+      "sourceRefs": [
+        "fool-alphabet-q4-2025"
+      ]
+    },
+    {
+      "date": "2026-02",
       "label": "Q3 2025 Results + Identity Narrative Shift + Pre-Q4 Preview",
-      "summary": "Q3 2025: Alphabet revenue $102.3B (+16%), net income $35B (+33%), EPS $2.87 (+35%). Gemini: 650M monthly active users, queries 3x from Q2, 7 billion tokens/minute via API. Google Cloud: revenue up 34%, backlog expanded $49B sequentially to $155B (+46% QoQ). 13M+ developers building with generative models, 230M+ videos generated with Veo 3. CapEx guidance: $91-93B for full year 2025. Analyst narrative shift: Google evolving 'from an advertising giant that uses AI to an AI company that monetizes through advertising, cloud, and consumer platforms' \u2014 an identity-level structural reframing. Gemini 3 expected to launch next. Q4 2025 earnings scheduled Feb 4 \u2014 not yet reported at time of collection. Key questions for Q4: AI adoption in Search (AI Overviews), Workspace, and enterprise Cloud; any DeepMind/Google AI org structure updates.",
+      "summary": "Q3 2025: Alphabet revenue $102.3B (+16%), net income $35B (+33%), EPS $2.87 (+35%). Gemini: 650M monthly active users, queries 3x from Q2, 7 billion tokens/minute via API. Google Cloud: revenue up 34%, backlog expanded $49B sequentially to $155B (+46% QoQ). 13M+ developers building with generative models, 230M+ videos generated with Veo 3. CapEx guidance: $91-93B for full year 2025. Analyst narrative shift: Google evolving 'from an advertising giant that uses AI to an AI company that monetizes through advertising, cloud, and consumer platforms' — an identity-level structural reframing. Gemini 3 expected to launch next. Q4 2025 earnings scheduled Feb 4 — not yet reported at time of collection. Key questions for Q4: AI adoption in Search (AI Overviews), Workspace, and enterprise Cloud; any DeepMind/Google AI org structure updates.",
       "classification": null,
       "sourceRefs": [
         "alphabet-ir-q3-2025",
@@ -160,12 +169,22 @@
     {
       "id": "ig-alphabet-q4-preview",
       "type": "Press",
-      "name": "IG Bank \u2014 Alphabet Q4 Earnings Preview",
+      "name": "IG Bank — Alphabet Q4 Earnings Preview",
       "url": "https://www.ig.com/en-ch/news-and-trade-ideas/alphabet-q4-earnings-preview-will-cloud-and-ai-justify-the-4t-valuation-260202",
       "timestamp": null,
       "sourceDate": "2026-02-02",
       "collectedDate": "2026-02-03",
       "notes": "'AI company that monetizes through advertising' narrative shift."
+    },
+    {
+      "id": "fool-alphabet-q4-2025",
+      "type": "Earnings Call",
+      "name": "Motley Fool — Alphabet Q4 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "sourceDate": "2026-02-04",
+      "collectedDate": "2026-02-06",
+      "notes": "CapEx guidance $175-185B for 2026. Gemini 750M MAU, 8M Enterprise seats. Cloud backlog $240B. Serving costs down 78%."
     }
   ],
   "contingencies": {

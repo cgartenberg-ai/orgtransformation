@@ -47,6 +47,13 @@
   "layers": [
     {
       "date": "2026-02",
+      "label": "Q4 2025 Earnings — $200B CapEx + Custom Silicon Surge",
+      "summary": "Q4 2025 (reported Feb 5): Revenue $213.4B (+12% YoY excl. FX), operating income $25B. AWS: $35.6B revenue (+24% YoY — highest growth in 13 quarters), $142B annualized run rate. **AWS backlog: $244B** (+40% YoY, +22% QoQ). **2026 CapEx: $200B** (predominantly AWS). Custom silicon breakthrough: **Trainium/Graviton chips now $10B+ ARR**, growing triple-digit YoY. 1.4M Trainium2 chips deployed (fastest chip ramp ever). Trainium3 launched: 40% more price-performant than T2. **Bedrock: multibillion-dollar ARR**, customer spend +60% QoQ. Alexa Plus launched ($19.99/mo for non-Prime). Project Rainier (Anthropic) going 'very well.'",
+      "classification": null,
+      "sourceRefs": ["fool-amazon-q4-2025"]
+    },
+    {
+      "date": "2026-02",
       "label": "Tier 1 Press Broad Scan — Division Detail",
       "summary": "International press coverage adds specific division detail: layoffs affecting AWS, retail, Prime Video, and HR. Part of broader ~30K corporate role reduction goal. CEO Jassy had previously warned AI would shrink workforce. Reinforces candidate mechanism 'AI-Driven Workforce Restructuring as Structural Lever.'",
       "classification": null,
@@ -146,6 +153,16 @@
       "sourceDate": "2026-01-28",
       "collectedDate": "2026-02-01",
       "notes": null
+    },
+    {
+      "id": "fool-amazon-q4-2025",
+      "type": "Earnings Call",
+      "name": "Motley Fool — Amazon Q4 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "sourceDate": "2026-02-05",
+      "collectedDate": "2026-02-06",
+      "notes": "$200B CapEx 2026. AWS $35.6B (+24%). Chips $10B+ ARR. Bedrock multibillion ARR. Project Rainier update."
     }
   ],
   "contingencies": {

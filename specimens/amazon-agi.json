@@ -60,6 +60,13 @@
   "layers": [
     {
       "date": "2026-02",
+      "label": "Q4 2025 Earnings — Custom Silicon + Bedrock Surge",
+      "summary": "Q4 2025 (reported Feb 5): AWS $35.6B revenue (+24% YoY — highest growth in 13 quarters). AWS backlog: $244B (+40% YoY). **Custom silicon breakthrough: Trainium/Graviton chips now $10B+ ARR**, growing triple-digit YoY. 1.4M Trainium2 chips deployed (fastest chip ramp ever). Trainium3 launched: 40% more price-performant, nearly all supply committed by mid-2026. **Bedrock: multibillion-dollar ARR**, customer spend +60% QoQ. NovaForge launched (early Nova model checkpoints). Project Rainier (Anthropic partnership): 'going very well.' **2026 CapEx: $200B** — up from prior $125B guidance, predominantly for AWS. AWS now a $142B ARR business.",
+      "classification": null,
+      "sourceRefs": ["fool-amazon-q4-2025"]
+    },
+    {
+      "date": "2026-02",
       "label": "Corporate Delayering + AI Agents Internal + CapEx Surge",
       "summary": "~30,000 corporate layoffs over Oct 2025 - Jan 2026 (14K Oct, 16K Jan — ~9% of 350K corporate workforce). Jassy explicitly stated cuts are 'not financially driven, not AI-driven... it's culture' — 'grew too fast.' But separately acknowledged AI efficiency gains would reduce headcount, and internal reports confirm AI agents already taking over repetitive tasks in engineering, product management, and operations. SVP Beth Galetti: 'reducing layers, increasing ownership, and removing bureaucracy.' CapEx: $125B full year 2025, >$150B projected 2026 — primarily AWS AI infrastructure. AWS: $200B backlog, added 3.8 GW data center capacity in past year, plans to double by end of 2027. AWS operating margin: 34.6% (Q3 2025) vs. 30.3% two years prior — efficiency from proprietary silicon + AI workload scaling. Q4 2025 earnings scheduled Feb 5 — not yet reported at time of collection.",
       "classification": null,
@@ -182,12 +189,22 @@
     {
       "id": "amazon-q4-announcement",
       "type": "Press",
-      "name": "Amazon \u2014 Q4 2025 Earnings Announcement",
+      "name": "Amazon — Q4 2025 Earnings Announcement",
       "url": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q4-2025-report",
       "timestamp": null,
       "sourceDate": "2026-02-05",
       "collectedDate": "2026-02-03",
-      "notes": "Q4 results scheduled Feb 5 \u2014 not yet reported at collection time."
+      "notes": "Q4 results scheduled Feb 5 — not yet reported at collection time."
+    },
+    {
+      "id": "fool-amazon-q4-2025",
+      "type": "Earnings Call",
+      "name": "Motley Fool — Amazon Q4 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "sourceDate": "2026-02-05",
+      "collectedDate": "2026-02-06",
+      "notes": "$200B CapEx 2026. AWS $35.6B (+24%). Chips $10B+ ARR. Bedrock multibillion ARR. Project Rainier update."
     }
   ],
   "contingencies": {

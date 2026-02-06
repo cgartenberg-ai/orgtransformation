@@ -11,24 +11,26 @@ All Feb 3-6 work is **committed**. Major infrastructure work completed AND teste
 ### What Was Just Completed (Feb 6 Evening)
 
 1. **Scaled Purpose Claims to 113 claims across 14 specimens**
-   - Merged 10 google-deepmind claims from pending (Hassabis: teleological, identity, utopian, direction-under-uncertainty from 3 transcripts)
+   - Merged 10 google-deepmind claims from pending
    - Scanned SSI: 8 claims (Sutskever) — pure identity/teleological/direction-under-uncertainty mix
    - Scanned Sierra-AI: 6 claims (Taylor/Bavor) — utopian, teleological, identity mix
-   - Updated transcript-gap-queue.json (SSI and Sierra marked scanned, new Acquired episode added)
 
-2. **Earlier today: Infrastructure**
+2. **Q4 2025 Earnings: Google + Amazon**
+   - Google: Revenue $97.23B (+19%), **CapEx $175-185B for 2026** (nearly 2x 2025), Gemini 750M MAU, Cloud backlog $240B, serving costs down 78%
+   - Amazon: Revenue $213.4B (+12%), **CapEx $200B for 2026**, AWS $35.6B (+24%), **custom chips $10B+ ARR**, Bedrock multibillion ARR, AWS backlog $244B
+
+3. **Earlier today: Infrastructure**
    - PURPOSE-CLAIMS-SPEC.md — 7-type taxonomy
    - Transcript Discovery Protocol — 17 sources registered
    - WORKFLOW.md — Complete command reference
-   - Tested workflow on google-deepmind (worked end-to-end)
 
 ### Three Priorities for Next Session
 
-1. **Google/Amazon Q4 2025 earnings.** Transcripts should be available now. Run `/research` earnings sessions. High priority — time-sensitive.
+1. **Continue purpose claims Batch 4.** Scan pharma specimens: novo-nordisk, pfizer, sanofi, roche-genentech. Also mercor (Brendan Foody on Conversations with Tyler — transcript already in queue).
 
-2. **Continue purpose claims Batch 3.** Scan pharma specimens: novo-nordisk, pfizer, sanofi, roche-genentech. Also mercor (Brendan Foody on Conversations with Tyler).
+2. **Run transcript discovery sweep.** Use Phase 1 Quick Sweep for high-priority unscanned specimens. 79 specimens still unscanned for purpose claims.
 
-3. **Run transcript discovery sweep.** Use Phase 1 Quick Sweep for high-priority unscanned specimens. 79 specimens still unscanned for purpose claims.
+3. **CapEx arms race synthesis.** The Q4 earnings reveal staggering CapEx: Google $175-185B, Amazon $200B (both for 2026). Compare to Meta and Microsoft. This is a major structural pattern worth synthesizing.
 
 ### Also Pending (Lower Priority)
 
@@ -72,8 +74,8 @@ All Feb 3-6 work is **committed**. Major infrastructure work completed AND teste
 | Travelers | Scanned + Synthesized | Jan 22 |
 | ServiceNow | Scanned + Synthesized | Jan 29 |
 | Accenture | Scanned + Synthesized | Jan 30 |
-| Google | **PENDING** | Feb 4 |
-| Amazon | **PENDING** | Feb 5 |
+| Google | **Scanned + Synthesized** | Feb 4 |
+| Amazon | **Scanned + Synthesized** | Feb 5 |
 
 ---
 
