@@ -14,18 +14,23 @@ Purpose claims are statements by organizational leaders that invoke mission, ide
 
 ---
 
-## Claim Type Taxonomy
+## Claim Type Taxonomy (v1.0)
 
-| Type | Definition | Example Pattern |
-|------|-----------|-----------------|
-| `utopian` | Grandiose, future-state, world-changing language. "The world is transforming and we exist to shape a new reality." | Zuckerberg $115-135B CapEx framing; McDermott "obliterate 20th century org charts" |
-| `identity` | Organizational self-definition invoked to explain AI choices. "We exist to help others" / "This is who we are." | Nadella growth mindset / "empower every person"; Eli Lilly breakthrough therapeutics identity |
-| `transformation-framing` | The organization is changing form, and here's why. "We are becoming..." | Jassy "it's culture"; Wang "fewer conversations to make a decision" |
-| `employee-deal` | Resets the implicit employment contract. "What we now expect from our people." | Lutke "prove AI can't do it"; Accenture "exiting non-reskillable" |
-| `sacrifice-justification` | Acknowledges cost/loss and connects it to purpose. "Why this pain is worth it." | Accenture $865M restructuring framing; UPS $9B automation investment |
-| `direction-under-uncertainty` | Purpose substitutes for profit signals. "We're betting on X even though ROI is unclear." | SK Telecom $3.6B ring-fenced; Eli Lilly 18-year time horizons |
+See `research/purpose-claims/PURPOSE-CLAIMS-SPEC.md` for full definitions and taxonomy evolution protocol.
 
-**Note:** Claims may have a secondary type. Record the primary type in `claimType` and note the secondary in `notes`.
+| Type | Core Question | Example |
+|------|---------------|---------|
+| `utopian` | "What future are we building?" | Zuckerberg "new era for humanity" — grandiose, unfalsifiable |
+| `identity` | "Who are we?" | Nadella "growth mindset" — character, not outcomes |
+| `teleological` | "What outcome justifies our existence?" | Amodei "cure all diseases" — specific, falsifiable goal |
+| `transformation-framing` | "What are we becoming?" | Wang "fewer conversations to make a decision" |
+| `employee-deal` | "What do we expect from people?" | Lutke "prove AI can't do it" |
+| `sacrifice-justification` | "Why is this pain worth it?" | Accenture "exiting non-reskillable" — cost + purpose |
+| `direction-under-uncertainty` | "Why are we betting on this?" | Eli Lilly 18-year time horizons — no clear ROI |
+
+**Multi-coding:** Use `secondaryType` field for claims with clear dual function. Flag edge cases in `taxonomyFlag` field.
+
+**Taxonomy is living:** Types will evolve as we collect more claims. See spec for revision protocol.
 
 ---
 
@@ -73,11 +78,19 @@ Purpose claims are statements by organizational leaders that invoke mission, ide
 
 For each specimen:
 
-### Step 1: Load Context
+### Step 1: Load Context + Check Transcript Availability
+
+**Load specimen context:**
 - Read the specimen JSON (`specimens/{id}.json`)
 - Note: CEO/leader name, existing `quotes[]` array, key `sources[]`, structural model
 - Read scan-tracker (`research/purpose-claims/scan-tracker.json`)
 - If `quality` is `rich` and `lastScanned` is within 30 days, skip unless explicitly requested
+
+**Check transcript availability (follow `research/TRANSCRIPT-DISCOVERY-PROTOCOL.md`):**
+1. Read `research/transcript-gap-queue.json` for this specimen
+2. If no entries exist OR entries are stale (>30 days old), run Phase 1 discovery
+3. Prioritize sources by quality: native > third-party > auto-generated
+4. For `transcriptAccess: manual-required` sources, queue for user if high-priority specimen
 
 ### Step 2: Mine Existing Specimen Data
 - Check the specimen's `quotes[]` array for any that qualify as purpose claims
@@ -256,13 +269,14 @@ Your main activity is WEB RESEARCH, not file analysis. You MUST use the WebSearc
 - Key existing quotes: {list any from specimen JSON}
 - Key sources: {list source URLs from specimen JSON}
 
-## Claim Types
+## Claim Types (7 types, v1.0 taxonomy)
 
-- utopian: Grandiose, future-state, world-changing language
-- identity: Organizational self-definition invoked to explain AI choices
+- utopian: Grandiose, future-state, world-changing. Vague/unfalsifiable.
+- identity: Organizational character, values, culture. Who we are.
+- teleological: Specific external outcome that justifies existence. Falsifiable goal.
 - transformation-framing: "We are becoming..." — org changing form
 - employee-deal: Resets the implicit employment contract
-- sacrifice-justification: Acknowledges cost/loss, connects to purpose
+- sacrifice-justification: Acknowledges cost/loss AND connects to purpose
 - direction-under-uncertainty: Purpose substitutes for profit signals
 
 ## Quality Filters (all three required)
@@ -315,7 +329,8 @@ The file should contain:
     {
       "id": "{specimen-id}--{NNN}",
       "specimenId": "{specimen-id}",
-      "claimType": "one of 6 types",
+      "claimType": "one of 7 types",
+      "secondaryType": "null or one of 7 types",
       "text": "EXACT VERBATIM QUOTE",
       "speaker": "full name",
       "speakerTitle": "title",
@@ -323,9 +338,11 @@ The file should contain:
       "rhetoricalFunction": "what organizational work this claim does",
       "source": "source name",
       "sourceUrl": "URL",
-      "sourceType": "Earnings Call | Podcast | Interview | Internal Memo | Shareholder Letter | Press | Conference",
+      "sourceType": "Earnings Call | Podcast | Interview | Internal Memo | Shareholder Letter | Press | Speech | Social Media",
       "sourceDate": "YYYY-MM-DD or YYYY-MM",
       "collectedDate": "2026-02-XX",
+      "transcriptSource": true | false,
+      "taxonomyFlag": "null or description of fit problem if claim doesn't fit types cleanly",
       "notes": "analytical notes, including VERIFICATION NEEDED flag if exact wording confidence is less than high"
     }
   ]
