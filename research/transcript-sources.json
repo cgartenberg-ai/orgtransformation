@@ -1,0 +1,136 @@
+{
+  "description": "Registry of transcript sources — podcasts, channels, and platforms where leader interviews with transcripts exist.",
+  "lastUpdated": "2026-02-06",
+  "sources": [
+    {
+      "id": "cheeky-pint",
+      "name": "Cheeky Pint",
+      "type": "podcast",
+      "url": "https://cheekypint.substack.com",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://cheekypint.substack.com/p/{episode-slug}",
+      "notes": "Full transcripts on Substack. On hiatus since Nov 2025."
+    },
+    {
+      "id": "dwarkesh-podcast",
+      "name": "Dwarkesh Podcast",
+      "type": "podcast",
+      "url": "https://www.dwarkesh.com",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://www.dwarkesh.com/p/{episode-slug}",
+      "notes": "Full transcripts published with each episode."
+    },
+    {
+      "id": "latent-space",
+      "name": "Latent Space",
+      "type": "podcast",
+      "url": "https://www.latent.space",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://www.latent.space/p/{episode-slug}",
+      "notes": "Full transcripts on Substack."
+    },
+    {
+      "id": "acquired",
+      "name": "Acquired",
+      "type": "podcast",
+      "url": "https://www.acquired.fm",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://www.acquired.fm/episodes/{episode-slug}",
+      "notes": "Full transcripts on website."
+    },
+    {
+      "id": "conversations-with-tyler",
+      "name": "Conversations with Tyler",
+      "type": "podcast",
+      "url": "https://conversationswithtyler.com",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://conversationswithtyler.com/episodes/{guest-slug}/",
+      "notes": "Full transcripts published with each episode."
+    },
+    {
+      "id": "lex-fridman",
+      "name": "Lex Fridman Podcast",
+      "type": "podcast",
+      "url": "https://lexfridman.com",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://lexfridman.com/{guest-name}-transcript/",
+      "notes": "Full transcripts published for each episode."
+    },
+    {
+      "id": "cognitive-revolution",
+      "name": "Cognitive Revolution",
+      "type": "podcast",
+      "url": "https://www.cognitiverevolution.ai",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://www.cognitiverevolution.ai/p/{episode-slug}",
+      "notes": "Full transcripts on Substack."
+    },
+    {
+      "id": "seeking-alpha",
+      "name": "Seeking Alpha",
+      "type": "earnings",
+      "url": "https://seekingalpha.com",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://seekingalpha.com/article/{article-id}",
+      "notes": "Earnings call transcripts. Some behind paywall."
+    },
+    {
+      "id": "motley-fool",
+      "name": "Motley Fool Transcripts",
+      "type": "earnings",
+      "url": "https://www.fool.com",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://www.fool.com/earnings/call-transcripts/{date}/{ticker}/",
+      "notes": "Free earnings call transcripts."
+    },
+    {
+      "id": "congress-gov",
+      "name": "Congress.gov",
+      "type": "official",
+      "url": "https://www.congress.gov",
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "transcriptUrlPattern": "https://www.congress.gov/event/{congress-number}/{chamber}/{event-id}",
+      "notes": "Congressional testimony and hearing transcripts."
+    },
+    {
+      "id": "youtube-bloomberg",
+      "name": "Bloomberg YouTube",
+      "type": "youtube-channel",
+      "url": "https://www.youtube.com/@Bloomberg",
+      "transcriptQuality": "auto-generated",
+      "transcriptAccess": "manual-required",
+      "transcriptUrlPattern": null,
+      "notes": "Auto-captions available but require manual extraction."
+    },
+    {
+      "id": "youtube-cnbc",
+      "name": "CNBC YouTube",
+      "type": "youtube-channel",
+      "url": "https://www.youtube.com/@CNBC",
+      "transcriptQuality": "auto-generated",
+      "transcriptAccess": "manual-required",
+      "transcriptUrlPattern": null,
+      "notes": "Auto-captions available but require manual extraction."
+    },
+    {
+      "id": "youtube-fortune",
+      "name": "Fortune YouTube",
+      "type": "youtube-channel",
+      "url": "https://www.youtube.com/@FortuneMagazine",
+      "transcriptQuality": "auto-generated",
+      "transcriptAccess": "manual-required",
+      "transcriptUrlPattern": null,
+      "notes": "Auto-captions available but require manual extraction."
+    }
+  ]
+}
