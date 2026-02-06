@@ -29,11 +29,60 @@ You are a colleague and collaborator on this project — not an assistant. We ar
 ## Required Reading (Every Session)
 
 1. **`APP_STATE.md`** — Read FIRST. Current state of everything: what's built, data counts, pipeline status, session log.
-2. **`SW_ARCHITECTURE.md`** — Software architecture for the Next.js site. Read when doing site development.
-3. **`Ambidexterity_Field_Guide_Spec.md`** — Product spec (v1.3): taxonomy (9 models × 3 orientations), specimen cards, mechanisms, tensions, contingencies, insights. Read when doing research/curation/synthesis or when domain context is needed.
-4. **`UI_Spec.md`** — UI/UX design spec. Read when building new screens or components.
-5. **`NARRATIVE_SPEC.md`** — Narrative creation spec: how insights serve as citable empirical claims for writing chapters/articles. Read when doing narrative writing (Phase 4).
-6. **`LITERATURE_SPEC.md`** — Literature matching spec: how field insights connect to scholarly conversation. Registry schema, `/literature-match` protocol, gaps queue. Read when doing literature analysis or paper writing.
+2. **`WORKFLOW.md`** — Complete command reference. **Read when running any research workflow.** Documents both research tracks, all skills, transcript discovery protocol, and file maps.
+3. **`Ambidexterity_Field_Guide_Spec.md`** — Product spec (v1.3): taxonomy (9 models × 3 orientations), specimen cards, mechanisms, tensions, contingencies, insights. Read when doing research/curation/synthesis.
+4. **`SW_ARCHITECTURE.md`** — Software architecture for the Next.js site. Read when doing site development.
+5. **`UI_Spec.md`** — UI/UX design spec. Read when building new screens or components.
+6. **`NARRATIVE_SPEC.md`** — Narrative creation spec: how insights serve as citable empirical claims for writing chapters/articles. Read when doing narrative writing.
+7. **`LITERATURE_SPEC.md`** — Literature matching spec: how field insights connect to scholarly conversation. Read when doing literature analysis.
+
+---
+
+## Two Research Tracks
+
+The project has **two parallel research tracks**:
+
+### Track 1: Structural Research — "How do organizations structure AI work?"
+
+```
+/research → /curate → /synthesize
+```
+
+| Phase | Skill | What it does |
+|-------|-------|--------------|
+| 1. Field Work | `/research` | Scans sources for structural findings → `research/queue.json` |
+| 2. Curation | `/curate` | Creates specimen cards → `specimens/*.json` |
+| 3. Synthesis | `/synthesize` | Identifies patterns → `synthesis/*.json` |
+
+**Output:** 93 specimens, 9 mechanisms, 13 insights, 5 tensions
+
+### Track 2: Purpose Claims — "How do leaders use purpose to authorize transformation?"
+
+```
+/purpose-claims → registry.json
+```
+
+| Skill | What it does |
+|-------|--------------|
+| `/purpose-claims [id]` | Collects verbatim claims → `research/purpose-claims/registry.json` |
+
+**Output:** Claim registry for academic paper (89 claims across 11 specimens so far)
+
+**Full workflow details:** See `WORKFLOW.md`
+
+---
+
+## Shared Infrastructure: Transcript Discovery
+
+Both tracks use the **Transcript Discovery Protocol** to find interview transcripts:
+
+| File | Purpose |
+|------|---------|
+| `research/TRANSCRIPT-DISCOVERY-PROTOCOL.md` | Protocol for finding transcripts |
+| `research/transcript-sources.json` | Registry of 13+ transcript sources |
+| `research/transcript-gap-queue.json` | Specimen × source tracking |
+
+**Core principle:** Be creative and energetic about finding transcripts. Don't limit to hardcoded lists.
 
 ---
 
@@ -43,39 +92,72 @@ You are a colleague and collaborator on this project — not an assistant. We ar
 orgtransformation/
 ├── CLAUDE.md                    # THIS FILE — auto-read at session start
 ├── APP_STATE.md                 # Current state (updated each session)
-├── SW_ARCHITECTURE.md           # Site software architecture
+├── WORKFLOW.md                  # Complete command reference (NEW)
 ├── Ambidexterity_Field_Guide_Spec.md  # Product spec (v1.3)
+├── SW_ARCHITECTURE.md           # Site software architecture
 ├── UI_Spec.md                   # UI/UX design spec
-├── NARRATIVE_SPEC.md            # Narrative creation spec (Phase 4)
+├── NARRATIVE_SPEC.md            # Narrative creation spec
+├── LITERATURE_SPEC.md           # Literature matching spec
 ├── HANDOFF.md                   # Session handoff for continuity
-├── site/                        # Next.js 14 prototype (App Router)
+│
+├── specimens/                   # THE HERBARIUM
+│   ├── registry.json            # Master specimen list
+│   ├── source-registry.json     # Source scanning status
+│   └── *.json                   # 93 specimen files
+│
+├── synthesis/                   # CROSS-CUTTING PATTERNS
+│   ├── mechanisms.json          # 9 confirmed mechanisms
+│   ├── tensions.json            # 5 structural tensions
+│   ├── contingencies.json       # 5 contingency factors
+│   └── insights.json            # 13 field insights
+│
+├── research/                    # TRACK 1 + SHARED
+│   ├── sessions/                # Research session files
+│   ├── queue.json               # Orgs pending curation
+│   ├── SESSION-PROTOCOL.md      # Research protocol
+│   ├── TRANSCRIPT-DISCOVERY-PROTOCOL.md  # Shared protocol
+│   ├── transcript-sources.json  # Source registry
+│   ├── transcript-gap-queue.json # Specimen × source tracking
+│   ├── field-signals.json       # Macro observations
+│   ├── purpose-claims/          # TRACK 2
+│   │   ├── registry.json        # All collected claims
+│   │   ├── scan-tracker.json    # What's been scanned
+│   │   ├── PURPOSE-CLAIMS-SPEC.md # Full spec
+│   │   └── pending/             # Claims pending merge
+│   └── literature/
+│       └── registry.json        # Academic literature
+│
+├── curation/                    # CURATION OUTPUTS
+│   ├── synthesis-queue.json     # Specimens pending synthesis
+│   └── sessions/                # Curation session logs
+│
+├── site/                        # Next.js 14 prototype
 │   ├── app/                     # Routes (~15 pages)
 │   ├── components/              # React components (~30)
-│   └── lib/                     # Types, data access, matching algorithm
-├── specimens/*.json             # 85 specimen data files (the herbarium)
-├── synthesis/                   # mechanisms.json, tensions.json, contingencies.json, insights.json
-├── research/                    # Session logs, queue.json, source-registry
-├── curation/                    # Session logs, synthesis-queue.json
-├── scripts/                     # validate-workflow.js, convert-cases.js
-└── .claude/skills/              # /research, /curate, /synthesize skills
+│   └── lib/                     # Types, data access
+│
+├── scripts/                     # Utilities
+│   └── validate-workflow.js     # Consistency checker
+│
+└── .claude/skills/              # SKILL DEFINITIONS
+    ├── research/SKILL.md        # /research
+    ├── curate/SKILL.md          # /curate
+    ├── synthesize/SKILL.md      # /synthesize
+    └── purpose-claims/SKILL.md  # /purpose-claims
 ```
 
 ---
 
-## Skills
+## Quick Command Reference
 
-### `/research` — Phase 1: Field Work
-Scans sources (podcasts, substacks, press) for organizational AI structure findings. Outputs session files to `research/sessions/` and updates `research/queue.json`. Use when adding new observations from the field.
-
-### `/curate` — Phase 2: Curation
-Transforms raw research findings into structured specimen cards using the 9-model taxonomy. Creates/updates `specimens/*.json` and queues specimens for synthesis. Use when processing pending research sessions.
-
-### `/synthesize` — Phase 3: Synthesis
-Identifies cross-cutting patterns across specimens — updates mechanisms, tensions, contingencies, and insights with new evidence. Use when newly curated specimens need pattern analysis. **Insights are never deleted** (see settled decisions).
-
-**Note:** Each skill is self-contained and loads its own protocols, schemas, and queues. Do not duplicate skill logic outside the skills.
-
-After running any skill, note changes in APP_STATE.md session log (specimens created/updated, mechanisms changed, etc.).
+| I want to... | Command |
+|--------------|---------|
+| Do a research session | `/research` |
+| Scan earnings calls | `/research` (follow earnings protocol) |
+| Create/update specimens | `/curate` |
+| Analyze patterns | `/synthesize` |
+| Collect purpose claims | `/purpose-claims [specimen-id]` |
+| Find transcripts | Follow `TRANSCRIPT-DISCOVERY-PROTOCOL.md` |
 
 ---
 
@@ -111,3 +193,4 @@ Before ending any session that modified files:
 | Data format | One JSON file per specimen with embedded layers |
 | Insights guardrail | Insights in `synthesis/insights.json` are **never deleted** — they can be updated with new evidence or new insights can be added, but existing insights are permanent records of research findings |
 | HANDOFF.md | Updated at end of each session for next-session continuity context |
+| Two research tracks | Track 1 (structural) and Track 2 (purpose claims) are parallel, share specimens and transcript infrastructure |
