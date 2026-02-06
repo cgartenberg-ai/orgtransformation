@@ -20,6 +20,12 @@ Follow this protocol step by step. Do NOT skip steps.
 
 !`cat "/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/research/SESSION-PROTOCOL.md"`
 
+## Transcript Discovery Protocol
+
+For systematic transcript source discovery, follow:
+
+!`cat "/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/research/TRANSCRIPT-DISCOVERY-PROTOCOL.md"`
+
 ## What to Look For and Output Format
 
 !`cat "/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/skills/ambidexterity-research/SKILL.md"`
