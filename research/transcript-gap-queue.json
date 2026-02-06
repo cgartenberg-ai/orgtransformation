@@ -1,6 +1,6 @@
 {
   "description": "Tracks transcript sources discovered for each specimen's leader(s). Status: discovered | scanned | queued-for-manual. Serves both /research and /purpose-claims.",
-  "lastUpdated": "2026-02-06T17:00:00Z",
+  "lastUpdated": "2026-02-06T21:00:00Z",
   "created": "2026-02-03",
   "gaps": [
     {
@@ -44,15 +44,15 @@
       "sourceId": "dwarkesh-podcast",
       "episodeTitle": "Ilya Sutskever — We're moving from the age of scaling to the age of research",
       "episodeUrl": "https://www.dwarkesh.com/p/ilya-sutskever-2",
-      "episodeDate": null,
+      "episodeDate": "2025-11",
       "transcriptQuality": "native",
       "transcriptAccess": "programmatic",
       "aiRelevance": "yes",
       "priority": "high",
-      "status": "discovered",
+      "status": "scanned",
       "discoveredDate": "2026-02-03",
-      "scannedDate": null,
-      "notes": "SSI is M9 AI-Native. Sutskever's founding vision and departure from OpenAI context — expect rich identity and direction-under-uncertainty claims."
+      "scannedDate": "2026-02-06",
+      "notes": "8 claims extracted: identity (age of research company, lean cracked team), teleological (safe superintelligence, care about sentient life), direction-under-uncertainty (investigate promising ideas)."
     },
     {
       "specimenId": "microsoft",
@@ -235,11 +235,28 @@
       "transcriptQuality": "native",
       "transcriptAccess": "programmatic",
       "aiRelevance": "yes",
-      "priority": "high",
+      "priority": "medium",
       "status": "discovered",
       "discoveredDate": "2026-02-03",
       "scannedDate": null,
-      "notes": "Sierra is M9 AI-Native. Bret Taylor (Chairman of OpenAI, creator of Google Maps) founding a conversational AI company — expect rich identity claims about AI-native organizational design."
+      "notes": "Lowered priority — already scanned Acquired ACQ2 podcast with both founders (6 claims). Latent Space may yield additional claims."
+    },
+    {
+      "specimenId": "sierra-ai",
+      "leader": "Bret Taylor + Clay Bavor",
+      "leaderTitle": "Cofounders",
+      "sourceId": "acquired",
+      "episodeTitle": "How is AI different than other technology waves? With Bret Taylor and Clay Bavor",
+      "episodeUrl": "https://www.acquired.fm/episodes/how-is-ai-different-than-other-technology-waves-with-bret-taylor-and-clay-bavor",
+      "episodeDate": null,
+      "transcriptQuality": "native",
+      "transcriptAccess": "programmatic",
+      "aiRelevance": "yes",
+      "priority": "high",
+      "status": "scanned",
+      "discoveredDate": "2026-02-06",
+      "scannedDate": "2026-02-06",
+      "notes": "6 claims extracted: utopian (inflection point like internet), teleological (agents more important than websites), identity (agent as category like app), direction-under-uncertainty (taking on risk)."
     }
   ]
 }

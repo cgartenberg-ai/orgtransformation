@@ -451,9 +451,11 @@
     },
     {
       "specimenId": "sierra-ai",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-06",
+      "claimsFound": 6,
+      "quality": "rich",
+      "transcriptAccess": "has-transcript",
+      "notes": "Acquired ACQ2 podcast with both founders. Strong utopian/teleological/identity mix. Business model (outcome-based pricing) IS a purpose claim."
     },
     {
       "specimenId": "sk-telecom",
@@ -469,9 +471,11 @@
     },
     {
       "specimenId": "ssi",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-06",
+      "claimsFound": 8,
+      "quality": "rich",
+      "transcriptAccess": "has-transcript",
+      "notes": "Rich scan: Dwarkesh Podcast (Nov 2025) + SSI website. Pure identity/teleological/direction-under-uncertainty mix — SSI's purpose IS their structure."
     },
     {
       "specimenId": "stagwell",
