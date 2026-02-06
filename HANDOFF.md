@@ -1,4 +1,4 @@
-# Session Handoff — February 6, 2026
+# Session Handoff — February 6, 2026 (Evening)
 
 **Project:** Ambidexterity Field Guide (`/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/`)
 
@@ -6,34 +6,34 @@
 
 ## CRITICAL: Read This First
 
-All Feb 3-6 work is **committed**. Major infrastructure work completed: PURPOSE-CLAIMS-SPEC.md, WORKFLOW.md, and Transcript Discovery Protocol.
+All Feb 3-6 work is **committed**. Major infrastructure work completed AND tested: PURPOSE-CLAIMS-SPEC.md, WORKFLOW.md, Transcript Discovery Protocol, and first batch of scaled purpose claims scanning.
 
-### What Was Just Completed (Feb 6)
+### What Was Just Completed (Feb 6 Evening)
 
-1. **PURPOSE-CLAIMS-SPEC.md** — Comprehensive data layer spec for purpose claims. 7-type taxonomy (added `teleological`). Taxonomy evolution protocol. Full claim schema.
+1. **Scaled Purpose Claims to 113 claims across 14 specimens**
+   - Merged 10 google-deepmind claims from pending (Hassabis: teleological, identity, utopian, direction-under-uncertainty from 3 transcripts)
+   - Scanned SSI: 8 claims (Sutskever) — pure identity/teleological/direction-under-uncertainty mix
+   - Scanned Sierra-AI: 6 claims (Taylor/Bavor) — utopian, teleological, identity mix
+   - Updated transcript-gap-queue.json (SSI and Sierra marked scanned, new Acquired episode added)
 
-2. **Transcript Discovery Protocol** — Systematic infrastructure for finding interview transcripts:
-   - `research/transcript-sources.json` — 13 seed sources
-   - `research/transcript-gap-queue.json` — expanded schema with quality/status tracking
-   - `research/TRANSCRIPT-DISCOVERY-PROTOCOL.md` — Phase 1 quick sweep + Phase 2 deep discovery
-   - Integration into both `/research` (Step 2b) and `/purpose-claims` (Step 1)
-
-3. **WORKFLOW.md** — Complete command reference documenting both research tracks, all skills, and typical session flows. Single source of truth for "how does this work?"
-
-4. **CLAUDE.md** — Updated to reflect two-track architecture and reference WORKFLOW.md.
+2. **Earlier today: Infrastructure**
+   - PURPOSE-CLAIMS-SPEC.md — 7-type taxonomy
+   - Transcript Discovery Protocol — 17 sources registered
+   - WORKFLOW.md — Complete command reference
+   - Tested workflow on google-deepmind (worked end-to-end)
 
 ### Three Priorities for Next Session
 
-1. **Run transcript discovery for high-priority specimens.** Use the new protocol to find podcast/interview transcripts for the 82 unscanned purpose claims specimens. Start with the 10 known pairs in `transcript-gap-queue.json`. Goal: build the queue of programmatically-accessible transcripts before scanning more specimens.
+1. **Google/Amazon Q4 2025 earnings.** Transcripts should be available now. Run `/research` earnings sessions. High priority — time-sensitive.
 
-2. **Scan purpose claims Batch 3.** With transcript infrastructure in place, scan pharma specimens for direction-under-uncertainty claims: novo-nordisk, pfizer, sanofi, roche-genentech. Use foreground serial scanning (background agents can't do web search).
+2. **Continue purpose claims Batch 3.** Scan pharma specimens: novo-nordisk, pfizer, sanofi, roche-genentech. Also mercor (Brendan Foody on Conversations with Tyler).
 
-3. **Google/Amazon Q4 2025 earnings.** Transcripts should be available now. Run `/research` earnings sessions.
+3. **Run transcript discovery sweep.** Use Phase 1 Quick Sweep for high-priority unscanned specimens. 79 specimens still unscanned for purpose claims.
 
 ### Also Pending (Lower Priority)
 
-4. **Purpose claims synthesis protocol.** Design pattern lifecycle (emerging → confirmed → deprecated) so patterns consolidate rather than grow additively.
-5. **Travelers reclassified M4→M2.** Synthesis files not yet updated for reclassification.
+4. **Purpose claims synthesis protocol.** Design pattern lifecycle so patterns consolidate.
+5. **Travelers reclassified M4→M2.** Synthesis files not yet updated.
 
 ---
 
@@ -41,8 +41,8 @@ All Feb 3-6 work is **committed**. Major infrastructure work completed: PURPOSE-
 
 ### Key Numbers
 - **93 specimens** total (all synthesized — 0 pending)
-- **89 purpose claims** across 11 specimens (7 types, v1.0 taxonomy)
-- **82 specimens unscanned** for purpose claims
+- **113 purpose claims** across 14 specimens (7 types, v1.0 taxonomy)
+- **79 specimens unscanned** for purpose claims
 - **14 patterns**, **5 hypotheses** in analytical notes
 - **9 confirmed mechanisms** + 9 candidates
 - **13 field insights**
@@ -50,7 +50,7 @@ All Feb 3-6 work is **committed**. Major infrastructure work completed: PURPOSE-
 - **5 tensions**, **5 contingencies**
 - **44 sources** tracked (19 Tier 1, 25 Tier 2)
 - **17 papers** in literature registry
-- **13 transcript sources** registered, **10 specimen × transcript pairs** known
+- **17 transcript sources** registered, **6 transcript sources scanned**
 
 ### Purpose Claims Status
 
@@ -59,7 +59,8 @@ All Feb 3-6 work is **committed**. Major infrastructure work completed: PURPOSE-
 | Pilot | meta-ai | 11 | Complete |
 | Batch 1 | microsoft, shopify, amazon-agi, servicenow, eli-lilly, anthropic | 48 | Complete |
 | Batch 2 | accenture-openai, salesforce, klarna, sk-telecom | 30 | Complete |
-| Batch 3+ | 82 remaining specimens | — | Pending |
+| Batch 3 | google-deepmind, ssi, sierra-ai | 24 | **Complete** |
+| Batch 4+ | 79 remaining specimens | — | Pending |
 
 ### Earnings Season — Active (Q4 2025)
 
@@ -103,7 +104,7 @@ All Feb 3-6 work is **committed**. Major infrastructure work completed: PURPOSE-
 /purpose-claims [specimen-id]
 ```
 **Question:** How do leaders use purpose to authorize transformation?
-**Output:** 89 claims across 11 specimens (growing)
+**Output:** 113 claims across 14 specimens (growing)
 
 **Shared infrastructure:** Transcript Discovery Protocol
 
