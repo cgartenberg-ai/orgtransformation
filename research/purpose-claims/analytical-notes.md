@@ -122,18 +122,43 @@ At Meta, utopian claims authorize the largest commitments ($14.3B acquisition, $
 | `entry-level-talent-hollow` | Shopify's employee-deal claims are the purpose mechanism for the talent hollow — "prove AI can't do it" directly replaces entry-level hiring with AI capability. |
 | `consulting-dual-identity` | Anthropic's identity claims create a third dual-identity case: safety lab + commercial company. Amodei explicitly navigates "things that we think are good, not necessarily things that feel buzzy." |
 
+### 15. Patient-Outcome Anchoring Is Universal in Pharma
+Every pharma specimen connects AI investment to patient outcomes. This is the teleological backbone: AI exists to serve patients. Even transformation-framing and direction-under-uncertainty claims circle back to patient benefit. Contrasts with tech companies where teleological anchors are more diffuse ("new era for humanity," productivity gains).
+
+**Evidence:** All 3 pharma specimens — pfizer (10/10 reference patients), novo-nordisk (8/11), roche-genentech (14/18)
+
+### 16. The CEO Gap: Pharma AI Claims Come From AI/Digital Leaders
+Novo Nordisk CEO yielded ZERO AI-context purpose claims. Roche-Genentech's 18 claims are overwhelmingly from Regev (EVP, not CEO Schinecker). In pharma, AI purpose claims come from the AI/digital leadership layer, not the CEO. Tech companies are the opposite (Zuckerberg, Nadella, Lutke = CEO-centric).
+
+**Evidence:** novo-nordisk (6 speakers, 0 CEO), roche-genentech (16/18 from Regev, 2 from Schinecker)
+
+**Theoretical connection:** May reflect pharma governance — CEOs address financial audiences while AI leaders address technical audiences. The purpose claim function is delegated because AI expertise is delegated.
+
+### 17. Regev as Outlier Data Point
+Aviv Regev (roche-genentech) produced 18 claims spanning all 7 types — possibly the richest single speaker in our collection. Compare: Zuckerberg 9, Amodei 14, Nadella ~8. Her rhetorical range is extraordinary: utopian ("human history"), sacrifice ("never going to be a drug"), employee-deal ("accent" metaphor), direction-under-uncertainty ("no Plan B").
+
+**Evidence:** roche-genentech--001 through --016
+
+### 18. Direction-Under-Uncertainty Overrepresented in Pharma
+Pharma specimens produce more direction-under-uncertainty claims proportionally than tech. Consistent with pharma's long time horizons and genuine uncertainty about AI's drug discovery impact. Leaders can say "we are still learning" (Iversen) because drug discovery inherently operates under deep uncertainty.
+
+**Evidence:** novo-nordisk (4/11 = 36%), roche-genentech (3/18)
+
 ---
 
-## Claim Type Distribution (89 total claims, 11 specimens)
+## Claim Type Distribution (152 total claims, 17 specimens — updated Feb 7)
 
 | Type | Count | % | Top Specimen |
 |------|-------|---|-------------|
-| identity | 22 | 25% | Anthropic (5), Microsoft (5), Salesforce (3), Accenture (2), SK Telecom (2) |
-| direction-under-uncertainty | 18 | 20% | Microsoft (4), Anthropic (3), Salesforce (2), Accenture (2), Klarna (2) |
-| employee-deal | 16 | 18% | Shopify (4), Salesforce (2), Accenture (2), Anthropic (2), Klarna (1) |
-| transformation-framing | 12 | 13% | Microsoft (4), Salesforce (2), Klarna (2), SK Telecom (2) |
-| utopian | 10 | 11% | Meta (3), Salesforce (3), SK Telecom (1), Accenture (0) |
-| sacrifice-justification | 11 | 12% | Klarna (2), Accenture (1), Anthropic (2), Meta (2), Salesforce (1) |
+| direction-under-uncertainty | 28 | 18% | Novo Nordisk (4), Microsoft (4), Anthropic (3), Roche-Genentech (3) |
+| identity | 27 | 18% | Anthropic (5), Microsoft (5), Roche-Genentech (2), Pfizer (2) |
+| employee-deal | 22 | 14% | Roche-Genentech (4), Shopify (4), Salesforce (2), Anthropic (2) |
+| transformation-framing | 20 | 13% | Roche-Genentech (3), Novo Nordisk (3), Microsoft (4), Pfizer (2) |
+| teleological | 17 | 11% | Roche-Genentech (3), Novo Nordisk (2), Pfizer (1) |
+| sacrifice-justification | 15 | 10% | Roche-Genentech (2), Klarna (2), Pfizer (1), Novo Nordisk (1) |
+| utopian | 13 | 9% | Meta (3), Salesforce (3), Roche-Genentech (1), Pfizer (1) |
+
+*Note: Sanofi pending merge. Counts approximate — exact totals after full re-count.*
 
 ---
 
@@ -172,10 +197,12 @@ Ryu Young-sang launched the AI CIC with utopian "golden era" framing; his succes
 
 ## Updated Hypotheses
 
-### H1 UPDATE: Claim type distribution varies with structural model
-- M4 Hub-and-Spoke (meta-ai, salesforce, accenture-openai): heavy on utopian + identity + employee-deal — CONFIRMS. All three M4 specimens produce rich, varied claim profiles
+### H1 UPDATE: Claim type distribution varies with structural model — MODERATED BY INDUSTRY
+- M4 Hub-and-Spoke TECH (meta-ai, salesforce, accenture-openai): heavy on utopian + identity + employee-deal — CONFIRMS
+- M4 Hub-and-Spoke PHARMA (pfizer, novo-nordisk, roche-genentech): direction-under-uncertainty + transformation-framing dominant. Patient-anchored teleological universal. CEO gap — purpose claims from AI/digital leaders, not CEO.
 - M6a Enterprise-Wide Adoption (klarna): sacrifice-justification + direction-under-uncertainty — NEW archetype. Reversal cases produce anti-utopian claims
 - M5a Internal Incubator (sk-telecom): identity + transformation-framing — conglomerate identity positioning
+- **H1 REVISION (Batch 4):** Structural model alone doesn't predict claim type. Industry context is a moderator. Same M4 structure produces different claim profiles depending on time horizons, regulatory environment, and CEO vs. AI-leader purpose delegation.
 
 ### H5 NEW: Podcast contexts elicit more honest purpose claims than formal settings
 - Benioff on podcast: "I need less heads" / "This is reality"
@@ -187,9 +214,9 @@ Ryu Young-sang launched the AI CIC with utopian "golden era" framing; his succes
 
 ---
 
-## Claim Type Distribution (89 total claims, 11 specimens)
+## Claim Type Distribution
 
-(see updated table above)
+(see updated table above — 152 claims, 17 specimens)
 
 ---
 
@@ -200,3 +227,5 @@ Ryu Young-sang launched the AI CIC with utopian "golden era" framing; his succes
 | 2026-02-03 | meta-ai | 11 | Pilot session. 5 patterns identified. |
 | 2026-02-03 | microsoft, shopify, amazon-agi, servicenow, eli-lilly, anthropic | 48 | Batch 1. Transcript gap discovered (Eli Lilly 0→7). 9 patterns total. North star search negative. |
 | 2026-02-04 | accenture-openai, salesforce, klarna, sk-telecom | 30 | Batch 2. Foreground serial scans (background agents failed due to permission issue). Key findings: Benioff contradiction (pattern #10), Klarna reversal case (pattern #11), anti-utopian register (pattern #12), North Star update (pattern #13), CEO succession register shift (pattern #14). New hypothesis H5 (podcast contexts). |
+| 2026-02-06 | google-deepmind, ssi, sierra-ai | 24 | Batch 3. Transcript-first scanning. SSI pure identity/teleological. Sierra-ai business model as purpose claim. |
+| 2026-02-07 | pfizer, novo-nordisk, roche-genentech | 39 | Batch 4 (partial — sanofi pending). Pharma batch. 4 new patterns (#15-18): patient-anchoring, CEO gap, Regev outlier, direction-under-uncertainty overrepresented. H1 revised: industry moderates model→claim relationship. Agent speed optimization: Sonnet model + serial fetches. Registry now at 152 claims across 17 specimens. |

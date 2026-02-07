@@ -78,13 +78,19 @@ See `research/purpose-claims/PURPOSE-CLAIMS-SPEC.md` for full definitions and ta
 
 For each specimen:
 
-### Step 1: Load Context + Check Transcript Availability
+### Step 1: Load Context + Check Cross-Pollination Leads + Check Transcript Availability
 
 **Load specimen context:**
 - Read the specimen JSON (`specimens/{id}.json`)
 - Note: CEO/leader name, existing `quotes[]` array, key `sources[]`, structural model
 - Read scan-tracker (`research/purpose-claims/scan-tracker.json`)
 - If `quality` is `rich` and `lastScanned` is within 30 days, skip unless explicitly requested
+
+**Check for research cross-pollination leads:**
+- Check `research/purpose-claims/pending/research-cross-pollination-*.json` for leads matching this specimen
+- These are purpose-like quotes discovered during `/research` sessions — they may or may not pass our quality filters
+- If leads exist for this specimen: use them as **seed URLs and quotes** to verify. Fetch the `sourceUrl`, confirm the quote is verbatim, apply the 3 quality filters, and promote to a full claim if it passes
+- Cross-pollination leads have `"source": "research-cross-pollination"` — track this provenance in the claim's notes if promoted
 
 **Check transcript availability (follow `research/TRANSCRIPT-DISCOVERY-PROTOCOL.md`):**
 1. Read `research/transcript-gap-queue.json` for this specimen
@@ -100,15 +106,12 @@ For each specimen:
 ### Step 3: Search for New Claims
 Use the source registry sources. Prioritize by source priority list above.
 
-**Search queries** (adapt CEO name per specimen):
-- `"[CEO Name]" AI transformation purpose OR mission OR "we exist" OR "becoming"`
-- `"[CEO Name]" AI restructuring OR reorganization vision OR strategy`
-- `"[CEO Name]" AI employees OR workforce OR "new expectations" OR reskilling`
-- `"[CEO Name]" AI investment OR CapEx OR "long-term" OR "betting on"`
-- `"[CEO Name]" "north star" AI` — *"North star" is a high-signal purpose phrase: leaders use it to anchor structural transformation in identity/mission language. Always search for it.*
-- `"[Company Name]" earnings call AI purpose OR mission OR identity`
-- `"[Company Name]" AI memo OR letter employees OR shareholders`
-- `"[CEO Name]" AI "unlike" OR "different from" OR "not like" OR "competitors" OR "other companies"` — *Competitive positioning via purpose: leaders define their organization's identity by contrasting against competitors or peers. Counter-positioning claims are high-signal because they reveal how purpose does boundary work — authorizing specific structural choices by defining what the org is NOT. Three known cases: Amodei ("strong compass" vs other AI labs), Zuckerberg (personal empowerment vs centralized superintelligence), Ricks ("higher calling" vs intermediaries who see AI as threat).*
+**Search queries** (adapt CEO name per specimen — 5 queries, consolidated for speed):
+1. `"[CEO Name]" AI purpose OR mission OR vision OR strategy OR transformation`
+2. `"[CEO Name]" AI "north star" OR "we exist" OR "becoming" OR "unlike" OR "different from"` — *"North star" and competitive positioning are high-signal purpose phrases.*
+3. `"[Company Name]" AI earnings call OR memo OR letter employees OR shareholders`
+4. `"[CEO Name]" AI workforce OR reskilling OR investment OR CapEx OR "long-term"`
+5. `"[Company Name]" "[CEO Name]" AI interview OR podcast OR transcript`
 
 **For earnings calls specifically:**
 - `"[Company Name]" Q4 2025 OR Q3 2025 earnings call AI`
@@ -187,7 +190,7 @@ Scan one specimen following the full protocol above.
 ```
 /purpose-claims --batch N
 ```
-Scan the next N unscanned specimens from the tracker. Prioritize by:
+Scan the next N unscanned specimens from the tracker (max 4 per batch). Prioritize by:
 1. High-completeness specimens first (more existing data to mine)
 2. Specimens with known CEO/founder names
 3. Active status over Stubs
@@ -214,7 +217,7 @@ This skill is designed to run as parallel background agents. Each agent scans on
 The orchestrator (you, in the main conversation) should:
 
 1. **Read the scan tracker** to identify unscanned specimens
-2. **Launch N background agents** using the Task tool, one per specimen
+2. **Launch N background agents** using the Task tool with `model: "opus"` (Opus produces higher quality analysis and completes more reliably than Sonnet for web scraping)
 3. Each agent receives a self-contained prompt (see template below)
 4. **Collect results** from each agent when done
 5. **Merge results** into `registry.json`, update `scan-tracker.json`, write session file
@@ -237,30 +240,29 @@ WRITE PATTERN:
 
 ### Background Agent Prompt Template
 
-Use the Task tool with `subagent_type: "general-purpose"` and `run_in_background: true`:
+Use the Task tool with `subagent_type: "general-purpose"`, `model: "opus"`, and `run_in_background: true`:
 
 ```
-You are scanning specimen "{specimen-id}" for purpose claims.
+You are scanning specimen "{specimen-id}" for purpose claims. COMPLETE THIS IN UNDER 25 MINUTES.
 
 TASK: Search for verbatim purpose claims by leaders at {org-name}, made in the context of AI adaptation.
 
-## CRITICAL: Web Search Is Your Primary Job
+## SPEED RULES — Read These First
 
-Your main activity is WEB RESEARCH, not file analysis. You MUST use the WebSearch tool to run EVERY search query listed below. Do not skip queries. Do not fall back to only analyzing existing specimen data.
+1. **NEVER make parallel WebFetch calls.** Fetch URLs ONE AT A TIME, sequentially. Parallel fetches cause sibling-error cascades where one 403 kills all concurrent fetches.
+2. **One retry max per URL.** If WebFetch fails, try ONE alternative URL. If that fails too, skip and move on. Do NOT retry the same URL.
+3. **One retry max per search.** If WebSearch fails, retry once. If it fails again, note the failure and move on.
+4. **Stop fetching after 6 URLs.** Even if you found more promising links, 6 fetched pages is enough. Prioritize quality over quantity.
+5. **Skip paywalled/blocked domains.** These always 403: bloomberg.com, wsj.com, ft.com, seekingalpha.com (premium), investing.com. Don't bother fetching them.
 
-**Mandatory workflow:**
-1. Run ALL search queries below using WebSearch (one at a time, all of them)
-2. From search results, identify the 5-8 most promising URLs (articles with direct quotes, earnings call coverage, interview transcripts, press releases with CEO statements)
-3. Use WebFetch on each promising URL to extract the full text
-4. Read the fetched content carefully for verbatim quotes that qualify as purpose claims
-5. ALSO mine the existing specimen quotes listed below — but this is supplementary, not your primary source
+## Workflow
+
+1. Run the 5 search queries below using WebSearch (one at a time)
+2. From ALL search results, pick the 4-6 most promising URLs (articles with direct quotes, transcripts, press releases with CEO statements)
+3. Fetch each URL ONE AT A TIME using WebFetch
+4. Mine fetched content for verbatim quotes that qualify as purpose claims
+5. ALSO mine the existing specimen quotes listed below
 6. Write all qualifying claims to the output file
-
-**If WebSearch fails on a query:** Retry it once. If it fails again, note the failure in your output and move to the next query. Do NOT silently skip failed searches.
-
-**If WebFetch fails on a URL:** Try an alternative URL from search results. Note any URLs you could not access.
-
-**Success criteria:** A good scan runs 6+ web searches, fetches 4+ source pages, and evaluates 10+ candidate quotes for quality filter compliance. If you finish with fewer than 3 web searches completed, your scan is incomplete.
 
 ## Specimen Context
 
@@ -285,37 +287,30 @@ Your main activity is WEB RESEARCH, not file analysis. You MUST use the WebSearc
 2. Made in context of AI adaptation — not generic mission statements
 3. Traceable source with URL — no URL, no claim
 
-## Search Queries — Run ALL of These
+## Search Queries — Run ALL 5
 
-1. "{leader-name}" AI transformation purpose OR mission OR "we exist" OR "becoming"
-2. "{leader-name}" AI restructuring OR reorganization vision OR strategy
-3. "{leader-name}" "north star" AI
-4. "{org-name}" earnings call AI purpose OR mission OR identity
-5. "{org-name}" AI memo OR letter employees OR shareholders
-6. "{leader-name}" AI "unlike" OR "different from" OR "not like" OR "competitors"
-7. "{leader-name}" AI workforce OR "new expectations" OR reskilling
-8. "{leader-name}" AI investment OR CapEx OR "long-term" OR "betting on"
+1. "{leader-name}" AI purpose OR mission OR vision OR strategy OR transformation
+2. "{leader-name}" AI "north star" OR "we exist" OR "becoming" OR "unlike" OR "different from"
+3. "{org-name}" AI earnings call OR memo OR letter employees OR shareholders
+4. "{leader-name}" AI workforce OR reskilling OR investment OR CapEx OR "long-term"
+5. "{org-name}" "{leader-name}" AI interview OR podcast OR transcript
 
 {additional-specimen-specific-queries}
 
-## WebFetch Priority Targets
+## WebFetch Instructions
 
-After running searches, prioritize fetching these source types (they yield the richest verbatim quotes):
-1. **Earnings call transcripts or coverage** — CEO prepared remarks contain purpose framing
-2. **Podcast/interview transcripts** — Leaders speak freely, identity and direction claims concentrate here
-3. **Internal memos (when published)** — Raw purpose language
-4. **Press articles with multiple direct quotes** — Look for long-form profiles, not news briefs
-5. **Shareholder letters / annual reports** — Annual purpose framing statements
+Fetch URLs ONE AT A TIME. After running all searches, prioritize:
+1. **Podcast/interview transcripts** — Leaders speak freely, richest claims
+2. **Earnings call coverage** — CEO prepared remarks with purpose framing
+3. **Long-form press profiles** — Multiple direct quotes (skip news briefs)
+4. **Internal memos (when published)** — Raw purpose language
 
-When fetching a page, prompt WebFetch with: "Extract all direct quotes attributed to {leader-name} or other {org-name} executives, especially quotes about AI strategy, organizational transformation, workforce changes, company mission/purpose, or long-term vision. Include the full surrounding context for each quote."
+Prompt WebFetch with: "Extract all direct quotes attributed to {leader-name} or other {org-name} executives about AI strategy, transformation, workforce, mission, or long-term vision. Include surrounding context."
 
 ## Output
 
-IMPORTANT: Write your results to a per-specimen file. Do NOT write to registry.json or scan-tracker.json.
-
 Write a JSON file to: {output-path}
 
-The file should contain:
 {
   "specimenId": "{specimen-id}",
   "scannedDate": "YYYY-MM-DD",
@@ -323,8 +318,8 @@ The file should contain:
   "quality": "rich|adequate|none",
   "searchesCompleted": N,
   "urlsFetched": N,
-  "searchFailures": ["list any queries that failed"],
-  "fetchFailures": ["list any URLs that could not be accessed"],
+  "searchFailures": ["queries that failed"],
+  "fetchFailures": ["URLs that could not be accessed"],
   "claims": [
     {
       "id": "{specimen-id}--{NNN}",
@@ -342,11 +337,18 @@ The file should contain:
       "sourceDate": "YYYY-MM-DD or YYYY-MM",
       "collectedDate": "2026-02-XX",
       "transcriptSource": true | false,
-      "taxonomyFlag": "null or description of fit problem if claim doesn't fit types cleanly",
-      "notes": "analytical notes, including VERIFICATION NEEDED flag if exact wording confidence is less than high"
+      "taxonomyFlag": null,
+      "notes": ""
     }
-  ]
+  ],
+  "specimenEnrichment": {
+    "newSources": [],
+    "structuralFindings": [],
+    "leaderUpdates": {}
+  }
 }
+
+**specimenEnrichment is optional.** Only populate if you notice significant structural findings (new C-suite AI roles, team sizes, org changes) while scanning. Don't spend time on this — claims are the priority.
 
 If no qualifying claims found, write the file with claims: [] and quality: "none".
 ```
@@ -359,16 +361,29 @@ If no qualifying claims found, write the file with claims: [] and quality: "none
 2. Read each `pending/{specimen-id}.json` file
 3. Append all claims to `research/purpose-claims/registry.json` (single write)
 4. Update each specimen's entry in `research/purpose-claims/scan-tracker.json` (single write)
-5. Write a session file to `research/purpose-claims/sessions/YYYY-MM-DD-batch-{description}.md`
-6. Read `research/purpose-claims/analytical-notes.md` and append any new patterns observed
-7. Update `HANDOFF.md` with results and next targets
-8. Delete processed `pending/*.json` files (or move to `pending/processed/`)
+5. **Process specimenEnrichment**: For each pending file with enrichment data:
+   - Add new sources to `research/queue.json` with tag `"source": "purpose-claims-enrichment"`
+   - Log structural findings in session file for next `/curate` pass
+   - Note leader updates (CEO changes, new CAIO roles) for specimen updates
+6. Write a session file to `research/purpose-claims/sessions/YYYY-MM-DD-batch-{description}.md`
+7. Read `research/purpose-claims/analytical-notes.md` and append any new patterns observed
+8. Update `HANDOFF.md` with results and next targets
+9. Delete processed `pending/*.json` files (or move to `pending/processed/`)
 
 ### Recommended Batch Sizes
 
-- **3-5 agents in parallel** is optimal (balances throughput vs. merge complexity)
+- **Max 4 specimens per batch** (prevents context overflow crashes)
+- **Parallel background agents work.** Launch up to 4 agents simultaneously with `run_in_background: true`.
+- **Always use `model: "opus"`** when launching agents. Opus produces higher quality rhetorical analysis and completes more reliably than Sonnet (which tends to crash during WebFetch phase).
+- **Pre-flight check:** Verify `WebFetch` and `WebSearch` are in `~/.claude/settings.json` global permissions before starting a batch. If missing, agents will silently fail on web operations.
 - Group specimens by richness: scan High-completeness specimens first (more data to mine)
-- Each agent takes ~2-5 minutes depending on source availability
+- Each agent takes ~15-25 minutes with Opus model. If agents take >40 minutes, check for stuck retry loops.
+
+### Known Failure Patterns
+
+- **Sibling-error cascades:** If an agent makes parallel WebFetch calls and one returns 403, ALL sibling calls fail. This is why the template says "fetch ONE AT A TIME." If you see agents taking 30+ minutes, they are probably stuck in sibling-error retry loops.
+- **Always-blocked domains:** bloomberg.com, wsj.com, ft.com, seekingalpha.com (premium), investing.com, klover.ai, aimagazine.com, biopharmadive.com always return 403. Don't fetch these.
+- **JS-rendered pages:** Some sites (MIT Sloan Review, McKinsey) return empty content from WebFetch because they require JavaScript rendering. Skip these after one attempt.
 
 ### Priority Queue for Next Batches
 

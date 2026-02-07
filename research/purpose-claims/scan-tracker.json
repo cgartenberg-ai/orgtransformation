@@ -1,6 +1,6 @@
 {
   "description": "Tracks which specimens have been scanned for purpose claims. Quality: unscanned | rich (5+) | adequate (2-4) | thin (1) | none (scanned, 0 claims). See PURPOSE-CLAIMS-SPEC.md for full schema.",
-  "lastUpdated": "2026-02-06",
+  "lastUpdated": "2026-02-07",
   "specimens": [
     {
       "specimenId": "abb",
@@ -313,9 +313,9 @@
     },
     {
       "specimenId": "novo-nordisk",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 11,
+      "quality": "rich"
     },
     {
       "specimenId": "ntt-data",
@@ -349,9 +349,9 @@
     },
     {
       "specimenId": "pfizer",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 10,
+      "quality": "rich"
     },
     {
       "specimenId": "pg-chatpg",
@@ -385,9 +385,9 @@
     },
     {
       "specimenId": "roche-genentech",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 18,
+      "quality": "rich"
     },
     {
       "specimenId": "rwjbarnabas-health",
@@ -409,9 +409,10 @@
     },
     {
       "specimenId": "sanofi",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 14,
+      "quality": "rich",
+      "notes": "Opus agent. 6 searches, 6 URLs fetched. TED transcript (Singju Post) richest source. Hudson extremely active public voice on AI."
     },
     {
       "specimenId": "sap",

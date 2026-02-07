@@ -1,4 +1,4 @@
-# Session Handoff — February 6, 2026 (Evening)
+# Session Handoff — February 7, 2026
 
 **Project:** Ambidexterity Field Guide (`/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/`)
 
@@ -6,36 +6,121 @@
 
 ## CRITICAL: Read This First
 
-All Feb 3-6 work is **committed**. Major infrastructure work completed AND tested: PURPOSE-CLAIMS-SPEC.md, WORKFLOW.md, Transcript Discovery Protocol, and first batch of scaled purpose claims scanning.
+All Feb 3-7 work: Batch 4 pharma purpose claims **fully merged** (53 claims from pfizer/novo-nordisk/roche-genentech/sanofi). Agent model decision: **Opus** (not Sonnet — Sonnet crashes during WebFetch, Opus completes reliably with superior analysis quality). Infrastructure improvements (cross-pollination, parallel research, permissions).
 
-### What Was Just Completed (Feb 6 Evening)
+### What Was Just Completed (Feb 7)
 
-1. **Scaled Purpose Claims to 113 claims across 14 specimens**
-   - Merged 10 google-deepmind claims from pending
-   - Scanned SSI: 8 claims (Sutskever) — pure identity/teleological/direction-under-uncertainty mix
-   - Scanned Sierra-AI: 6 claims (Taylor/Bavor) — utopian, teleological, identity mix
+1. **Batch 4 Pharma Purpose Claims — FULLY MERGED (4 of 4)**
+   - Pfizer: **10 claims** (rich) — Bourla's "scientific renaissance" narrative
+   - Novo Nordisk: **11 claims** (rich) — distributed across 6 AI/digital leaders (no CEO claims!)
+   - Roche-Genentech: **18 claims** (rich) — Regev is the richest single speaker in the collection
+   - Sanofi: **14 claims** (rich) — Hudson richest pharma CEO, "AI Fight Club," agency-problem framing
+   - **Registry now at 166 claims across 18 specimens** (was 113 across 14)
 
-2. **Q4 2025 Earnings: Google + Amazon**
-   - Google: Revenue $97.23B (+19%), **CapEx $175-185B for 2026** (nearly 2x 2025), Gemini 750M MAU, Cloud backlog $240B, serving costs down 78%
-   - Amazon: Revenue $213.4B (+12%), **CapEx $200B for 2026**, AWS $35.6B (+24%), **custom chips $10B+ ARR**, Bedrock multibillion ARR, AWS backlog $244B
+2. **Agent Model Decision: Opus**
+   - Ran Sonnet vs Opus comparison on Sanofi: Sonnet agent crashed during WebFetch (0 output), Opus completed with 14 rich claims
+   - Opus produces superior rhetorical function analysis and completes reliably
+   - SKILL.md updated: `model: "opus"`, serial WebFetch, 5 queries, one-retry-max, ~15-25 min per specimen
+   - WebFetch latency (not model speed) is the real bottleneck — both models spend 90%+ time waiting on network
 
-3. **Earlier today: Infrastructure**
-   - PURPOSE-CLAIMS-SPEC.md — 7-type taxonomy
-   - Transcript Discovery Protocol — 17 sources registered
-   - WORKFLOW.md — Complete command reference
+3. **Cross-Pollination Pipeline (research ↔ purpose claims)**
+   - Research agents capture purpose claims opportunistically → `purposeClaimsDiscovered` array
+   - Purpose claims skill checks for research cross-pollination leads in Step 1
+   - Bidirectional data flow between both tracks complete
 
-### Three Priorities for Next Session
+4. **Parallel Research Agent Infrastructure**
+   - `/research` SKILL.md redesigned for background agent parallelism
+   - Task types: earnings, podcast-deep-scan, press-keyword, transcript-scan, specimen-targeted
+   - Merge protocol with pending/*.json pattern (no write conflicts)
 
-1. **Continue purpose claims Batch 4.** Scan pharma specimens: novo-nordisk, pfizer, sanofi, roche-genentech. Also mercor (Brendan Foody on Conversations with Tyler — transcript already in queue).
+5. **Analytical Notes Updated (4 new patterns)**
+   - #15: Patient-outcome anchoring universal in pharma
+   - #16: CEO gap — pharma AI claims from AI/digital leaders, not CEO
+   - #17: Regev as outlier data point (18 claims, all 7 types)
+   - #18: Direction-under-uncertainty overrepresented in pharma
+   - H1 revised: industry moderates model→claim relationship
 
-2. **Run transcript discovery sweep.** Use Phase 1 Quick Sweep for high-priority unscanned specimens. 79 specimens still unscanned for purpose claims.
+### Immediate Next Steps (Start Here)
 
-3. **CapEx arms race synthesis.** The Q4 earnings reveal staggering CapEx: Google $175-185B, Amazon $200B (both for 2026). Compare to Meta and Microsoft. This is a major structural pattern worth synthesizing.
+1. **Commit all Feb 7 changes** — SKILL.md updates, Batch 4 claims (all 4 merged), analytical notes, model decision.
+
+2. **Run Batch 5** (4 specimens) with Opus agents. ~15-25 min per specimen expected.
+
+3. **Clean up pending files** — sanofi-opus-comparison.json can be deleted after commit.
+
+---
+
+## Complete Research Roadmap
+
+### Phase 1: Purpose Claims Web Scan (~20 batches)
+
+Systematic web-based purpose claims scanning for all 75 remaining unscanned specimens. 4 specimens per batch, max 4 parallel agents.
+
+**Priority order:**
+1. High-completeness specimens (3): already data-rich, claims will be contextually strong
+2. Medium-completeness specimens (21): good structural data, claims add depth
+3. Low-completeness specimens (51): thin structural data, claims may surface new structural info too
+
+**Estimated:** ~20 batches × 4 specimens = 80 specimens covered. ~3-4 sessions at 5-6 batches/session.
+
+### Phase 2: Transcript Discovery + Deep Scan (~10-15 batches)
+
+Run the Transcript Discovery Protocol across all 93 specimens, then deep-scan discovered transcripts.
+
+**Current state:**
+- 17 transcript sources registered in transcript-sources.json
+- Only 15 specimen×source pairs discovered (in transcript-gap-queue.json)
+- Only 5 scanned, 10 still `discovered` but unscanned
+- 78+ specimens have zero transcript discovery coverage
+
+**Sub-phases:**
+
+**2a. Discovery sweep** (~10 batches, ~10 specimens/batch):
+For each specimen, run Phase 1 Quick Sweep search patterns against all 17 sources + open-ended discovery. Record new specimen×source pairs in transcript-gap-queue.json.
+
+**2b. Programmatic transcript scanning** (~5-10 batches):
+For all pairs with `transcriptAccess: programmatic`, fetch and deep-scan for BOTH structural findings AND purpose claims. This is where the cross-pollination pipeline pays off — research agents capture purpose claims, purpose claims agents capture structural leads.
+
+**2c. YouTube/manual queue**:
+Flag `manual-required` sources (Bloomberg YouTube, CNBC YouTube, Fortune YouTube) for user batch processing. User extracts transcripts manually, then agents scan them.
+
+**Why this phase matters:** Web-based purpose claims scanning (Phase 1) finds claims in press articles and earnings calls. Transcript deep-scanning finds claims in long-form interviews where leaders speak more candidly. Specimens that came up `thin` or `none` in Phase 1 may become `rich` after transcript mining.
+
+### Phase 3: Earnings Season — Q4 2025 Coverage (~9 batches)
+
+33 unscanned companies from earnings-calendar.json. Uses the new parallel research agent infrastructure.
+
+**Priority tiers:**
+- **Critical** (done): microsoft, meta, google, amazon, salesforce, travelers, servicenow, accenture
+- **High priority** (next): eli-lilly, jpmorgan, nvidia, sap, ubs, ups, walmart, infosys, siemens, klarna, sanofi, pfizer, moderna, novo-nordisk
+- **Standard**: remaining 19 companies
+
+**Estimated:** ~9 batches × 2-3 companies/agent × 4 agents = 33 companies covered. ~3 sessions.
+
+### Phase 4: New Specimens + Discovery
+
+- **Goldman Sachs** — already queued. Gather structural data + purpose claims.
+- **Discovery from transcript sweep** — Phase 2 will surface new organizations mentioned in interviews
+- **Discovery from earnings** — Phase 3 may reveal new AI-structural moves by companies not yet in the herbarium
+
+### Phase 5: Synthesis & Housekeeping
+
+- **Purpose claims synthesis protocol** — Design pattern lifecycle so patterns consolidate across 100+ claims
+- **CapEx arms race synthesis** — Google $175-185B, Amazon $200B, Meta, Microsoft. Major structural pattern.
+- **Travelers reclassified M4→M2** — Synthesis files not yet updated
+- **Cross-specimen pattern analysis** — Once claims reach ~200+, run systematic pattern detection
+
+### Phase Ordering Notes
+
+- Phases 1 and 2 can **interleave**: run 5-6 Phase 1 batches, then start Phase 2a discovery sweep. Specimens that came up thin in Phase 1 get prioritized in Phase 2b transcript scanning.
+- Phase 3 (earnings) can run **in parallel** with Phases 1-2 since it uses different source types.
+- Phase 4 depends on Phases 2-3 for discovery.
+- Phase 5 should start once purpose claims cross ~150-200 total (enough mass for pattern detection).
 
 ### Also Pending (Lower Priority)
 
-4. **Purpose claims synthesis protocol.** Design pattern lifecycle so patterns consolidate.
-5. **Travelers reclassified M4→M2.** Synthesis files not yet updated.
+- **Purpose claims synthesis protocol.** Design pattern lifecycle so patterns consolidate.
+- **Travelers reclassified M4→M2.** Synthesis files not yet updated.
 
 ---
 
@@ -43,16 +128,16 @@ All Feb 3-6 work is **committed**. Major infrastructure work completed AND teste
 
 ### Key Numbers
 - **93 specimens** total (all synthesized — 0 pending)
-- **113 purpose claims** across 14 specimens (7 types, v1.0 taxonomy)
-- **79 specimens unscanned** for purpose claims
-- **14 patterns**, **5 hypotheses** in analytical notes
+- **166 purpose claims** across 18 specimens (7 types, v1.0 taxonomy)
+- **75 specimens unscanned** for purpose claims
+- **18 patterns**, **5 hypotheses** in analytical notes (4 new pharma patterns this session)
 - **9 confirmed mechanisms** + 9 candidates
 - **13 field insights**
 - **25 field signals**
 - **5 tensions**, **5 contingencies**
 - **44 sources** tracked (19 Tier 1, 25 Tier 2)
 - **17 papers** in literature registry
-- **17 transcript sources** registered, **6 transcript sources scanned**
+- **17 transcript sources** registered, **5 transcript sources scanned**, **10 discovered but unscanned**
 
 ### Purpose Claims Status
 
@@ -61,8 +146,9 @@ All Feb 3-6 work is **committed**. Major infrastructure work completed AND teste
 | Pilot | meta-ai | 11 | Complete |
 | Batch 1 | microsoft, shopify, amazon-agi, servicenow, eli-lilly, anthropic | 48 | Complete |
 | Batch 2 | accenture-openai, salesforce, klarna, sk-telecom | 30 | Complete |
-| Batch 3 | google-deepmind, ssi, sierra-ai | 24 | **Complete** |
-| Batch 4+ | 79 remaining specimens | — | Pending |
+| Batch 3 | google-deepmind, ssi, sierra-ai | 24 | Complete |
+| Batch 4 | pfizer, novo-nordisk, roche-genentech, sanofi | 53 (merged) | **Complete** |
+| Batch 5+ | 75 remaining specimens | — | Pending (see Roadmap) |
 
 ### Earnings Season — Active (Q4 2025)
 
@@ -106,18 +192,21 @@ All Feb 3-6 work is **committed**. Major infrastructure work completed AND teste
 /purpose-claims [specimen-id]
 ```
 **Question:** How do leaders use purpose to authorize transformation?
-**Output:** 113 claims across 14 specimens (growing)
+**Output:** 166 claims across 18 specimens (growing — 75 specimens unscanned)
 
-**Shared infrastructure:** Transcript Discovery Protocol
+**Shared infrastructure:** Transcript Discovery Protocol, Cross-Pollination Pipeline (research ↔ purpose claims)
 
 ---
 
 ## Implicit Knowledge
 
-1. **Background agents can't do web search.** Use foreground serial scanning for purpose claims.
-2. **Foreground serial scanning works well.** ~3-5 web searches + 1-2 fetches per specimen.
-3. **Synthesis context overflow**: Manual batched synthesis needed (context too large).
-4. **Edit tool + JSON**: Large JSON edits often fail. Include more surrounding context.
-5. **Insights guardrail**: Insights are NEVER deleted — only updated or new ones added.
-6. **Stratigraphic principle**: New specimen layers prepended to `layers[0]`, old layers never modified.
-7. **YouTube transcripts require manual extraction.** Flag as `manual-required` and queue for user.
+1. **Background agents CAN do web search** (as of Feb 7, 2026). Global permissions in `~/.claude/settings.json` broadly allow all tools. Max 4 agents in parallel to avoid context overflow.
+2. **Parallel scanning is preferred.** Launch up to 4 background agents simultaneously for both purpose claims and research batches.
+3. **Cross-pollination is live.** Research agents capture purpose claims → `purposeClaimsDiscovered` array → pending files. Purpose claims agents check for research cross-pollination leads in Step 1.
+4. **Research agents use pending/*.json pattern.** Each agent writes its own output file; orchestrator merges. See `/research` SKILL.md for merge protocol.
+5. **Synthesis context overflow**: Manual batched synthesis needed (context too large).
+6. **Edit tool + JSON**: Large JSON edits often fail. Include more surrounding context.
+7. **Insights guardrail**: Insights are NEVER deleted — only updated or new ones added.
+8. **Stratigraphic principle**: New specimen layers prepended to `layers[0]`, old layers never modified.
+9. **YouTube transcripts require manual extraction.** Flag as `manual-required` and queue for user.
+10. **Sibling tool call errors in agents**: When one parallel WebFetch fails (403), sibling calls may also error. Agents recover by retrying individually. Known pattern, not a bug.
