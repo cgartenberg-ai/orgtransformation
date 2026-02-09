@@ -14,23 +14,29 @@ Purpose claims are statements by organizational leaders that invoke mission, ide
 
 ---
 
-## Claim Type Taxonomy (v1.0)
+## Claim Type Taxonomy (v2.0)
 
 See `research/purpose-claims/PURPOSE-CLAIMS-SPEC.md` for full definitions and taxonomy evolution protocol.
 
-| Type | Core Question | Example |
-|------|---------------|---------|
-| `utopian` | "What future are we building?" | Zuckerberg "new era for humanity" — grandiose, unfalsifiable |
-| `identity` | "Who are we?" | Nadella "growth mindset" — character, not outcomes |
-| `teleological` | "What outcome justifies our existence?" | Amodei "cure all diseases" — specific, falsifiable goal |
-| `transformation-framing` | "What are we becoming?" | Wang "fewer conversations to make a decision" |
-| `employee-deal` | "What do we expect from people?" | Lutke "prove AI can't do it" |
-| `sacrifice-justification` | "Why is this pain worth it?" | Accenture "exiting non-reskillable" — cost + purpose |
-| `direction-under-uncertainty` | "Why are we betting on this?" | Eli Lilly 18-year time horizons — no clear ROI |
+The organizing principle: **what END does this claim invoke to justify AI transformation?**
+
+| Type | The claim says... | Core Question | Example |
+|------|-------------------|---------------|---------|
+| `utopian` | We are part of a civilizational transformation | "What epoch are we in?" | Hassabis "radical abundance"; Benioff "last generation of CEOs to manage only humans" |
+| `teleological` | We exist to achieve a specific moral/social outcome | "What concrete outcome justifies our existence?" | Hassabis "cure all disease"; Bourla "save the world from cancer" |
+| `higher-calling` | We answer to a duty that supersedes profit | "What obligation overrides economic logic?" | Amodei "we work on science out of proportion to profitability"; Ricks "we have a higher calling" |
+| `identity` | We do this because of who we are | "Who are we?" | Teller "we spend most of our time breaking things"; Nadella "growth mindset" |
+| `survival` | We must change or be left behind | "What threat demands action?" | Regev "we won't move fast enough"; Hudson "you don't delegate the revolution" |
+| `commercial-success` | This will make the business perform better | "How does this improve business outcomes?" | Nadella "increase ROIC on capital spend"; Wells Fargo "better experience for customers" |
+
+**Key distinctions:**
+- **Utopian vs. Teleological vs. Higher-calling:** Utopian = epochal moment justifies it. Teleological = specific achievable outcome justifies it. Higher-calling = moral duty supersedes profit.
+- **Survival vs. Commercial-success:** Survival = existential, adapt-or-die. Commercial-success = positive, this makes us better.
+- **Identity vs. everything else:** The end IS the group's self-concept. Justification terminates in who we are.
 
 **Multi-coding:** Use `secondaryType` field for claims with clear dual function. Flag edge cases in `taxonomyFlag` field.
 
-**Taxonomy is living:** Types will evolve as we collect more claims. See spec for revision protocol.
+**What is NOT a purpose claim:** Managerial directives ("AI training is required"), adoption metrics ("100% of workers use ChatGPT"), staffing facts ("I've reduced from 9,000 to 5,000"), market observations ("LLMs are commoditizing"). These don't invoke an end.
 
 ---
 
@@ -118,7 +124,7 @@ Use the source registry sources. Prioritize by source priority list above.
 - Look for CEO/CFO opening remarks — purpose framing often appears in the first 5 minutes
 
 **Transcript deep-scans (highest yield for verbatim claims):**
-Many podcasts publish full transcripts on their Substacks or websites. When a specimen's sources include a podcast with available transcripts, fetch the full transcript and scan it directly — this is the single best source for verbatim purpose claims because you get exact wording in conversational context. Check the source registry for sources with `transcriptsAvailable: true`. Leaders in long-form podcast conversations often make purpose claims they wouldn't make in earnings calls or press — identity claims, direction-under-uncertainty, and employee-deal claims are especially common in this format.
+Many podcasts publish full transcripts on their Substacks or websites. When a specimen's sources include a podcast with available transcripts, fetch the full transcript and scan it directly — this is the single best source for verbatim purpose claims because you get exact wording in conversational context. Check the source registry for sources with `transcriptsAvailable: true`. Leaders in long-form podcast conversations often make purpose claims they wouldn't make in earnings calls or press — identity, higher-calling, and survival claims are especially common in this format.
 
 ### Step 4: Record Each Claim
 For each verbatim claim found, create an entry in `research/purpose-claims/registry.json`:
@@ -271,15 +277,16 @@ TASK: Search for verbatim purpose claims by leaders at {org-name}, made in the c
 - Key existing quotes: {list any from specimen JSON}
 - Key sources: {list source URLs from specimen JSON}
 
-## Claim Types (7 types, v1.0 taxonomy)
+## Claim Types (6 types, v2.0 taxonomy — classify by what END the claim invokes)
 
-- utopian: Grandiose, future-state, world-changing. Vague/unfalsifiable.
-- identity: Organizational character, values, culture. Who we are.
-- teleological: Specific external outcome that justifies existence. Falsifiable goal.
-- transformation-framing: "We are becoming..." — org changing form
-- employee-deal: Resets the implicit employment contract
-- sacrifice-justification: Acknowledges cost/loss AND connects to purpose
-- direction-under-uncertainty: Purpose substitutes for profit signals
+- utopian: Civilizational transformation, new era. Epochal scale. "What epoch are we in?"
+- teleological: Specific moral/social outcome. Achievable/falsifiable. "What outcome justifies our existence?"
+- higher-calling: Moral duty supersedes profit. Obligation overrides economics. "What obligation overrides economic logic?"
+- identity: Organizational character, values, culture. "Who are we?" Justification terminates in collective identity.
+- survival: Adapt-or-die. Existential threat. Status quo not viable. "What threat demands action?"
+- commercial-success: Business performance, efficiency, growth, customer experience. "How does this improve outcomes?"
+
+NOT purpose claims (do NOT collect): managerial directives, adoption metrics, staffing facts, market observations, HR mandates.
 
 ## Quality Filters (all three required)
 
@@ -324,8 +331,8 @@ Write a JSON file to: {output-path}
     {
       "id": "{specimen-id}--{NNN}",
       "specimenId": "{specimen-id}",
-      "claimType": "one of 7 types",
-      "secondaryType": "null or one of 7 types",
+      "claimType": "one of 6 types: utopian|teleological|higher-calling|identity|survival|commercial-success",
+      "secondaryType": "null or one of 6 types",
       "text": "EXACT VERBATIM QUOTE",
       "speaker": "full name",
       "speakerTitle": "title",
@@ -400,13 +407,14 @@ This claim registry serves the paper on **purpose and AI-era organizational tran
 
 1. AI creates structural uncertainty that standard economic signals (ROI, market price) cannot resolve
 2. Leaders use purpose claims to authorize transformations that lack clear profit justification
-3. Different claim types do different organizational work:
-   - **Utopian** claims authorize CapEx at civilizational scale
-   - **Identity** claims maintain relational contracts through structural disruption
-   - **Employee-deal** claims renegotiate the employment contract
-   - **Sacrifice-justification** claims make painful changes feel meaningful
-   - **Direction-under-uncertainty** claims substitute for absent profit signals
-4. The type and frequency of purpose claims varies systematically with structural model and orientation
+3. Different claim types invoke different ENDS to justify transformation:
+   - **Utopian** — we are part of a civilizational moment (authorizes CapEx at epochal scale)
+   - **Teleological** — we exist to achieve a specific moral/social outcome (anchors transformation in mission)
+   - **Higher-calling** — we answer to a duty that supersedes profit (rare, analytically important)
+   - **Identity** — we do this because of who we are (maintains relational contracts through disruption)
+   - **Survival** — we must change or be left behind (creates urgency without positive vision)
+   - **Commercial-success** — this will make the business perform better (the baseline — standard business logic)
+4. The type and frequency of purpose claims varies systematically with structural model, orientation, and industry
 
 The registry provides the empirical base. Every claim is citable, traceable, and coded.
 

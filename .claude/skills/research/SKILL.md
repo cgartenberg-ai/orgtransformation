@@ -1,7 +1,7 @@
 ---
 name: research
 description: "Phase 1: Execute a research session — scan sources for organizational AI structure findings following the session protocol"
-disable-model-invocation: true
+disable-model-invocation: false
 ---
 
 # Phase 1: Research Session

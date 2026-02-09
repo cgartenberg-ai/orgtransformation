@@ -3,15 +3,18 @@
 import { useState } from "react";
 import type { Specimen } from "@/lib/types/specimen";
 import type { ConfirmedMechanism } from "@/lib/types/synthesis";
+import type { PurposeClaim, ClaimType } from "@/lib/types/purpose-claims";
 import { OverviewTab } from "./OverviewTab";
 import { MechanismsTab } from "./MechanismsTab";
 import { EvolutionTab } from "./EvolutionTab";
 import { SourcesTab } from "./SourcesTab";
 import { RelatedTab } from "./RelatedTab";
+import { PurposeClaimsTab } from "./PurposeClaimsTab";
 
 const TABS = [
   { id: "overview", label: "Overview" },
   { id: "mechanisms", label: "Principles" },
+  { id: "purpose-claims", label: "Purpose Claims" },
   { id: "evolution", label: "Evolution" },
   { id: "sources", label: "Sources" },
   { id: "related", label: "Related" },
@@ -23,10 +26,14 @@ export function SpecimenTabs({
   specimen,
   related,
   mechanismDefinitions,
+  purposeClaims = [],
+  claimTypeDefinitions = {} as Record<ClaimType, string>,
 }: {
   specimen: Specimen;
   related: Specimen[];
   mechanismDefinitions: ConfirmedMechanism[];
+  purposeClaims?: PurposeClaim[];
+  claimTypeDefinitions?: Record<ClaimType, string>;
 }) {
   const [activeTab, setActiveTab] = useState<TabId>("overview");
 
@@ -55,6 +62,11 @@ export function SpecimenTabs({
                   {specimen.layers.length}
                 </span>
               )}
+              {tab.id === "purpose-claims" && purposeClaims.length > 0 && (
+                <span className="ml-1.5 rounded-full bg-forest-50 px-1.5 py-0.5 text-[10px] text-forest">
+                  {purposeClaims.length}
+                </span>
+              )}
               {tab.id === "sources" && specimen.sources.length > 0 && (
                 <span className="ml-1.5 rounded-full bg-forest-50 px-1.5 py-0.5 text-[10px] text-forest">
                   {specimen.sources.length}
@@ -71,6 +83,13 @@ export function SpecimenTabs({
           <MechanismsTab
             specimen={specimen}
             mechanismDefinitions={mechanismDefinitions}
+          />
+        )}
+        {activeTab === "purpose-claims" && (
+          <PurposeClaimsTab
+            claims={purposeClaims}
+            claimTypeDefinitions={claimTypeDefinitions}
+            specimenId={specimen.id}
           />
         )}
         {activeTab === "evolution" && <EvolutionTab specimen={specimen} />}

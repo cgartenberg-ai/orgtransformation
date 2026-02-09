@@ -6,6 +6,7 @@ const navItems = [
   { href: "/mechanisms", label: "Principles" },
   { href: "/insights", label: "Insights" },
   { href: "/tensions", label: "Tensions" },
+  { href: "/purpose-claims", label: "Purpose Claims" },
   { href: "/compare", label: "Compare" },
   { href: "/about", label: "About" },
 ];

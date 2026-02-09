@@ -58,9 +58,9 @@
     },
     {
       "specimenId": "bank-of-america",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 14,
+      "quality": "rich"
     },
     {
       "specimenId": "bcg-trailblazers",
@@ -106,9 +106,9 @@
     },
     {
       "specimenId": "commonwealth-bank",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 13,
+      "quality": "rich"
     },
     {
       "specimenId": "dai-nippon-printing",
@@ -118,15 +118,15 @@
     },
     {
       "specimenId": "databricks",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 14,
+      "quality": "rich"
     },
     {
       "specimenId": "deloitte",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 5,
+      "quality": "adequate"
     },
     {
       "specimenId": "dow",
@@ -175,9 +175,9 @@
     },
     {
       "specimenId": "google-x",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 14,
+      "quality": "rich"
     },
     {
       "specimenId": "harvey-ai",
@@ -283,9 +283,9 @@
     },
     {
       "specimenId": "moderna",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 12,
+      "quality": "rich"
     },
     {
       "specimenId": "nasa",
@@ -343,9 +343,10 @@
     },
     {
       "specimenId": "pentagon-cdao",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 18,
+      "quality": "excluded",
+      "notes": "Excluded: political entity, not corporate. Political rhetoric should not influence purpose claims analysis. Pentagon suppliers (Palantir, Anduril) are fine."
     },
     {
       "specimenId": "pfizer",
@@ -355,9 +356,9 @@
     },
     {
       "specimenId": "pg-chatpg",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 9,
+      "quality": "rich"
     },
     {
       "specimenId": "pinterest",
@@ -510,9 +511,9 @@
     },
     {
       "specimenId": "ubs",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 10,
+      "quality": "rich"
     },
     {
       "specimenId": "uk-government",
@@ -528,9 +529,9 @@
     },
     {
       "specimenId": "ups",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 14,
+      "quality": "rich"
     },
     {
       "specimenId": "us-cyber-command",
@@ -540,9 +541,9 @@
     },
     {
       "specimenId": "walmart",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 15,
+      "quality": "rich"
     },
     {
       "specimenId": "waystar",
@@ -552,9 +553,9 @@
     },
     {
       "specimenId": "wells-fargo",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-07",
+      "claimsFound": 8,
+      "quality": "rich"
     },
     {
       "specimenId": "workday",

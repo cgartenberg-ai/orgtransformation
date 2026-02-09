@@ -67,33 +67,33 @@
 
 ## 3. Claim Type Taxonomy
 
-### Current Types (v1.0)
+### Current Types (v2.0)
 
-The taxonomy is a **living classification** — these are working categories derived from early observations, not fixed ontology. The taxonomy will evolve as we collect more claims.
+The taxonomy classifies purpose claims by **what END the claim invokes to justify AI transformation**. Every purpose claim implicitly answers: "Why are we doing this?" The taxonomy classifies the *type of end* the leader invokes — not the rhetorical move, not the topic, but the ultimate justification offered.
 
-| Type | Core Question | Assign When... |
-|------|---------------|----------------|
-| **utopian** | "What future are we building?" | Claim references civilizational change, new era, world transformation. Scale is beyond the organization. Vague/unfalsifiable. |
-| **identity** | "Who are we?" | Claim defines organizational character, values, or culture. Often uses "we are" or "we exist to." About character, not outcomes. |
-| **teleological** | "What outcome justifies our existence?" | Claim anchors purpose in a specific, external, higher-order goal (curing disease, solving intelligence, preventing extinction). Concrete enough to be achievable/falsifiable. |
-| **transformation-framing** | "What are we becoming?" | Claim describes organizational change as positive evolution. Often uses "we're building" or "we're becoming." |
-| **employee-deal** | "What do we expect from people?" | Claim resets employment contract, expectations, or baseline competency. Often addressed to/about employees. |
-| **sacrifice-justification** | "Why is this pain worth it?" | Claim acknowledges cost, loss, or disruption AND connects it to purpose. Both elements required. |
-| **direction-under-uncertainty** | "Why are we betting on this?" | Claim substitutes purpose for profit signals. Investment/direction justified without clear ROI. |
+| Type | The claim says... | Core Question | Example |
+|------|-------------------|---------------|---------|
+| **utopian** | We are part of a civilizational transformation | "What epoch are we in?" | Hassabis: "radical abundance"; Benioff: "we are the last generation of CEOs to manage only humans" |
+| **teleological** | We exist to achieve a specific moral/social outcome | "What concrete outcome justifies our existence?" | Hassabis: "cure all disease"; Bourla: "save the world from cancer"; SSI: "building safe superintelligence" |
+| **higher-calling** | We answer to a duty/purpose that supersedes profit | "What obligation overrides economic logic?" | Amodei: "we work on science and biomedical out of proportion to its immediate profitability"; Ricks: "we have a higher calling" |
+| **identity** | We do this because of who we are — group commitment | "Who are we?" | Teller: "we spend most of our time breaking things"; Nadella: "growth mindset"; Amodei: "having at least one player with a strong compass" |
+| **survival** | We must change or be left behind | "What threat demands action?" | Regev: "if we proceed in this stepwise way we won't move fast enough"; Sweet: "this is reversing five decades"; Hudson: "you don't delegate the revolution" |
+| **commercial-success** | This will make the business perform better | "How does this improve business outcomes?" | Nadella: "increase the ROIC on the capital spend"; Wells Fargo: "deliver an even better experience for customers" |
+| **unclassified** | Does not clearly invoke a purpose-end | — | Managerial directives, metrics, observations retained for review |
 
 ### Distinguishing Similar Types
 
-**Utopian vs. Teleological:**
-- Utopian: "This is the beginning of a new era for humanity" (vague, unfalsifiable)
-- Teleological: "We exist to cure all diseases" (specific, falsifiable outcome)
+**Utopian vs. Teleological vs. Higher-calling:**
+- Utopian: the moment in history is the justification (epochal, civilizational)
+- Teleological: a specific achievable outcome is the justification (cure cancer, build safe superintelligence)
+- Higher-calling: a moral obligation that supersedes profit is the justification (we owe it to patients, we choose science over profitability)
 
-**Identity vs. Teleological:**
-- Identity: "We are a safety-focused lab" (character)
-- Teleological: "We exist to ensure AI doesn't destroy humanity" (outcome)
+**Survival vs. Commercial-success:**
+- Survival: existential framing, adapt-or-die, the status quo is not viable
+- Commercial-success: positive framing, this will make us better/more efficient/more competitive
 
-**Transformation-framing vs. Employee-deal:**
-- Transformation-framing: "We are becoming an AI-first company" (organizational change)
-- Employee-deal: "Everyone must now demonstrate AI proficiency" (individual expectation)
+**Identity vs. everything else:**
+- Identity: the end IS the group's self-concept. "We do this because this is who we are." The justification terminates in collective identity itself.
 
 ### Multi-Coding Rule
 
@@ -287,6 +287,7 @@ Record diagnosis in `notes` field of scan-tracker.
 | Date | Version | Change | Rationale |
 |------|---------|--------|-----------|
 | 2026-02-06 | v1.0 | Initial 7-type taxonomy | Based on 89 claims across 11 specimens. Added `teleological` to capture Dario/Demis-style outcome-anchored claims. |
+| 2026-02-08 | v2.0 | Revised from 7 types to 7 (6 + unclassified). Dropped employee-deal (managerial directives, not purpose claims). Dissolved transformation-framing, sacrifice-justification, direction-under-uncertainty (surface features, not planes of meaning). Added higher-calling, survival, commercial-success, unclassified. Reframe: types now classify the END the claim invokes, not the rhetorical move. | Session 6 analytical review of all 294 claims revealed 3 types operated at different abstraction level than other 4. 198 claims reclassified, 96 unchanged, 0 deleted. |
 
 ---
 
