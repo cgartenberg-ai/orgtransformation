@@ -1,0 +1,42 @@
+{
+  "company": "New York State (ITS)",
+  "ticker": null,
+  "sector": "Government / State",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 4,
+  "fetchFailures": [
+    {
+      "url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+      "reason": "JS-rendered, CSS-only content returned"
+    },
+    {
+      "url": "https://www.bankingdive.com/news/bank-of-america-citi-wells-fargo-headcount-banking-job-cuts-2026/809756/",
+      "reason": "JS-rendered, no article body returned"
+    }
+  ],
+  "structuralFindings": {
+    "suggestedModel": 2,
+    "suggestedModelName": "Center of Excellence",
+    "suggestedOrientation": "Contextual",
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "New York State Office of Information Technology Services (ITS) appointed Eleonore Fournier-Tombs as Chief Artificial Intelligence Officer \u2014 a newly established role to guide AI strategy across ITS, pa",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "First state-level Chief AI Officer appointed",
+      "url": "https://www.cdomagazine.tech/leadership-moves/new-york-state-appoints-eleonore-fournier-tombs-as-chief-ai-officer",
+      "type": "Press",
+      "date": "2026-02",
+      "notes": "First state-level Chief AI Officer appointed"
+    }
+  ],
+  "summary": "First state-level Chief AI Officer appointed: New York State Office of Information Technology Services (ITS) appointed Eleonore Fournier-Tombs as Chief Artificial Intelligence Officer \u2014 a newly established role to guide AI strategy across ITS, pa",
+  "openQuestions": [],
+  "splitFrom": "general-sweep-feb-2026.json"
+}

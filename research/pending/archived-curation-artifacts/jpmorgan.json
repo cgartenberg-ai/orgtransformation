@@ -1,0 +1,86 @@
+{
+  "company": "JPMorgan Chase",
+  "ticker": "JPM",
+  "sector": "Financial Services",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 2,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "High",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "Dimon confirmed JPMorgan 'took AI, slash data, out of technology' \u2014 a deliberate structural reorganization to elevate AI's strategic importance. Teresa Heitsenrether serves as Chief Data & Analytics O",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "We will be spending more in AI.",
+      "speaker": "Jamie Dimon",
+      "speakerTitle": "CEO",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+      "sourceDate": "",
+      "context": "Q4 2025 earnings call, confirming increased AI investment in 2026"
+    },
+    {
+      "text": "it'll be driving more efficiency down the road... [that] will eventually be passed on to the customer.",
+      "speaker": "Jamie Dimon",
+      "speakerTitle": "CEO",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+      "sourceDate": "",
+      "context": "Describing AI's expected trajectory from internal efficiency to customer benefit"
+    },
+    {
+      "text": "Your competitors include all the FinTech. You have Stripe, you have SoFi, you have Revolut, you have Schwab.",
+      "speaker": "Jamie Dimon",
+      "speakerTitle": "CEO",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+      "sourceDate": "",
+      "context": "Framing JPMorgan's tech spending as competitive necessity against non-traditional competitors"
+    },
+    {
+      "text": "only getting more competitive",
+      "speaker": "Jeremy Barnum",
+      "speakerTitle": "CFO",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+      "sourceDate": "",
+      "context": "Justifying meaningful expense growth in 2026, particularly technology spending"
+    },
+    {
+      "text": "For $2 billion of expense, we have about $2 billion of benefit.",
+      "speaker": "Jamie Dimon",
+      "speakerTitle": "CEO",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://www.entrepreneur.com/business-news/jpmorgan-ceo-jamie-dimon-ai-saves-the-bank-billions-a-year/498115",
+      "sourceDate": "",
+      "context": "October 2025 remarks on AI investment ROI, calling it 'just the tip of the iceberg'"
+    }
+  ],
+  "sources": [
+    {
+      "name": "AI separated from Technology as distinct organizational function",
+      "url": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+      "type": "Earnings Call",
+      "date": "2026-01-13",
+      "notes": "AI separated from Technology as distinct organizational function"
+    },
+    {
+      "name": "$2B annual AI investment yielding $2B in benefits",
+      "url": "https://www.entrepreneur.com/business-news/jpmorgan-ceo-jamie-dimon-ai-saves-the-bank-billions-a-year/498115",
+      "type": "Press",
+      "date": "2025-10-08",
+      "notes": "$2B annual AI investment yielding $2B in benefits"
+    }
+  ],
+  "summary": "AI separated from Technology as distinct organizational function: Dimon confirmed JPMorgan 'took AI, slash data, out of technology' \u2014 a deliberate structural reorganization to elevate AI's strategic importance. Teresa Heitsenrether serves as Chief Data & Analytics O $2B annual AI investment yielding $2B in benefits: Dimon stated 'For $2 billion of expense, we have about $2 billion of benefit' from AI. This represents a break-even point with the bank viewing current returns as 'just the tip of the iceberg.' Cash f 150K weekly active AI users and 2K AI specialists: Approximately 150,000 employees per week use JPMorgan's internal AI model. The bank employs around 2,000 AI and machine learning experts. Bank has used AI since 2012, with use cases spanning risk mana 2026 expense guidance: $105B total, 'meaningful' growth driven by tech/AI: CFO Jeremy Barnum described 2026 as 'meaningful expense growth in both dollar and percentage terms' \u2014 boosting spending by more than $9B to ~$105B. Barnum said the environment is 'only getting more co",
+  "openQuestions": [],
+  "splitFrom": "financial-services-earnings-q4-2025.json"
+}

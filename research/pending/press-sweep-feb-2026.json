@@ -1,0 +1,622 @@
+{
+  "taskId": "press-sweep-feb-2026",
+  "taskType": "press-keyword",
+  "scannedDate": "2026-02-12",
+  "sourceScanned": {
+    "sourceId": "tier-1-press",
+    "name": "Tier 1 Press Outlets (WSJ, FT, Reuters, Bloomberg, The Information, CNBC, Fortune)",
+    "type": "Press",
+    "scannedThrough": "Keyword sweep Feb 1-12, 2026",
+    "scannedThroughDate": "2026-02-12"
+  },
+  "searchesCompleted": 5,
+  "urlsFetched": 14,
+  "searchFailures": [],
+  "fetchFailures": [
+    {
+      "url": "https://www.cnbc.com/2026/02/11/musk-announces-xai-re-org-following-key-departures-spacex-merger.html",
+      "reason": "Returned CSS only, no article content"
+    },
+    {
+      "url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+      "reason": "Returned page framework only, limited article content extracted"
+    },
+    {
+      "url": "https://www.ciol.com/news/infosys-cursor-ai-center-of-excellence-2026-11036239",
+      "reason": "403 Forbidden"
+    },
+    {
+      "url": "https://www.metaintro.com/blog/workday-layoffs-400-jobs-february-2026",
+      "reason": "Returned minified JS only, no article content"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "xAI",
+      "isNew": true,
+      "notInCollection": true,
+      "industry": "AI / Technology",
+      "findings": [
+        {
+          "type": "structural",
+          "summary": "xAI reorganized into four product divisions following SpaceX acquisition and ahead of planned IPO. The four divisions are: (1) Grok — chatbot/voice, led by Aman Madaan; (2) Coding — coding models + ML infrastructure, led by Manuel Kroiss; (3) Imagine — multimedia/video generation, led by co-founder Guodong Zhang; (4) Macrohard — multi-agent AI for process automation, led by Toby Pohlen. Half of original 12 co-founders have now departed, including Tony Wu and Jimmy Ba. SpaceX acquired xAI on Feb 2, 2026, combined valuation ~$1.25T. IPO planned for later in 2026.",
+          "structuralModel": "M4 - Dedicated AI Unit (product-divisional reorganization)",
+          "orientation": "structural",
+          "relevanceJustification": "Classic structural specimen: AI startup reorganizing from flat founding team into formal product divisions as it scales past 1,000 employees. The SpaceX merger creates an unusual parent-subsidiary dynamic for a frontier AI lab.",
+          "sources": [
+            {
+              "url": "https://theaiinsider.tech/2026/02/12/xai-reorganization-leads-to-co-founder-departures-as-elon-musk-outlines-ai-roadmap/",
+              "title": "xAI Reorganization Leads to Co-Founder Departures as Elon Musk Outlines AI Roadmap",
+              "sourceDate": "2026-02-12",
+              "collectedDate": "2026-02-12"
+            },
+            {
+              "url": "https://techstartups.com/2026/02/11/musk-reorganizes-xai-team-amid-co-founders-departures-as-spacex-merger-sets-stage-for-trillion-dollar-ipo/",
+              "title": "Musk reorganizes xAI team amid co-founders' departures as SpaceX merger sets stage for trillion-dollar IPO",
+              "sourceDate": "2026-02-11",
+              "collectedDate": "2026-02-12"
+            }
+          ],
+          "keyQuotes": [
+            {
+              "quote": "xAI was reorganized a few days ago to improve speed of execution. As a company grows, especially as quickly as xAI, the structure must evolve just like any living organism.",
+              "speaker": "Elon Musk",
+              "title": "CEO, xAI / SpaceX / Tesla",
+              "context": "Public statement explaining xAI reorganization, Feb 2026"
+            },
+            {
+              "quote": "It should be able to do everything on a computer that a computer can do.",
+              "speaker": "Toby Pohlen",
+              "title": "Head of Macrohard, xAI",
+              "context": "Describing the Macrohard multi-agent AI initiative"
+            }
+          ],
+          "keyFacts": [
+            "Workforce has grown beyond 1,000 employees",
+            "SpaceX acquired xAI on Feb 2, 2026; combined valuation ~$1.25 trillion",
+            "Half of original 12 co-founders have departed",
+            "Tony Wu (who reported directly to Musk) and Jimmy Ba among departures",
+            "Reorganization emphasizes 'speed and alignment' over 'academic pedigree or founding titles'",
+            "Imagine system produces tens of millions of AI-generated videos daily",
+            "IPO planned for later in 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Salesforce",
+      "isNew": false,
+      "existingSpecimenId": "salesforce",
+      "industry": "Enterprise Software",
+      "findings": [
+        {
+          "type": "structural-evolution",
+          "summary": "Salesforce laid off <1,000 employees in February 2026 across marketing, product management, data analytics, and Agentforce AI teams. Five senior executives departed in 3 months (Dec 2025-Feb 2026) including Slack CEO Denise Dresser (to OpenAI as CRO), CMO Ariel Kelman (to AMD), and EVP/GM of Salesforce AI Adam Evans. Customer support reduced from ~9,000 to ~5,000 using AI agents. Agentforce handling 1.5M conversations. Engineering productivity up 30%+ via AI.",
+          "structuralModel": "M4 - Dedicated AI Unit evolving toward M5 - AI-First Transformation",
+          "orientation": "temporal",
+          "relevanceJustification": "Significant structural evolution: massive executive exodus concurrent with AI-driven workforce compression. The support division halving (9,000→5,000) is one of the largest documented AI-driven workforce reductions in a single function. The departure of the AI EVP while AI remains central strategy creates a leadership vacuum pattern worth tracking.",
+          "sources": [
+            {
+              "url": "https://www.metaintro.com/blog/salesforce-layoffs-february-2026-agentforce-ai",
+              "title": "Salesforce Lays Off Nearly 1000 Across AI Teams",
+              "sourceDate": "2026-02-10",
+              "collectedDate": "2026-02-12"
+            },
+            {
+              "url": "https://www.storyboard18.com/amp/brand-marketing/salesforce-lays-off-under-1000-employees-amid-executive-reshuffle-and-ai-push-89263.htm",
+              "title": "Salesforce lays off under 1,000 employees amid executive reshuffle and AI push",
+              "sourceDate": "2026-02-10",
+              "collectedDate": "2026-02-12"
+            }
+          ],
+          "keyQuotes": [
+            {
+              "quote": "I need less heads",
+              "speaker": "Marc Benioff",
+              "title": "CEO, Salesforce",
+              "context": "Explaining AI efficiency gains driving headcount reduction"
+            }
+          ],
+          "keyFacts": [
+            "5 senior executives departed in 3 months (Dec 2025-Feb 2026)",
+            "Denise Dresser (Slack CEO) left for OpenAI as CRO",
+            "Adam Evans (EVP/GM Salesforce AI) left for startup ventures",
+            "6 replacement executives appointed, including hire from Google for security",
+            "Customer support: ~9,000 → ~5,000 staff via AI agents",
+            "Agentforce: 1.5M conversations, matching human satisfaction scores",
+            "Agentforce: $500M ARR, 330% YoY growth, 18,500+ deals",
+            "Engineering productivity increased 30%+ through AI",
+            "Heroku entering 'sustaining engineering' phase"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amazon",
+      "isNew": false,
+      "existingSpecimenId": "amazon-agi",
+      "industry": "Technology / E-commerce / Cloud",
+      "findings": [
+        {
+          "type": "structural-evolution",
+          "summary": "Amazon cut 16,000 corporate positions in January 2026 (on top of 14,000 in October 2025), totaling ~30,000 — the largest workforce reduction in company history. Cuts target management layers specifically: Manager III and principal-level roles eliminated. Affected divisions include AWS, Prime Video, retail operations, HR ('People Experience and Technology'). Software development roles largest share. Amazon investing $200B in capex (60% increase), largely for AI data centers. Jassy developing 1,000+ GenAI applications and investing in agentic AI.",
+          "structuralModel": "M5 - AI-First Transformation (flattening + AI agent replacement)",
+          "orientation": "structural",
+          "relevanceJustification": "The most aggressive documented case of simultaneous hierarchy flattening + AI agent deployment at scale. The explicit targeting of management layers (Manager III, principal-level) while investing $200B in AI infrastructure represents the clearest example of structural substitution we've seen — replacing human coordination layers with AI coordination layers.",
+          "sources": [
+            {
+              "url": "https://ts2.tech/en/amazon-layoffs-2026-16000-more-jobs-cut-as-ai-push-and-anti-bureaucracy-drive-deepen/",
+              "title": "Amazon layoffs 2026: 16,000 more jobs cut as AI push and anti-bureaucracy drive deepen",
+              "sourceDate": "2026-01-28",
+              "collectedDate": "2026-02-12"
+            },
+            {
+              "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+              "title": "More companies are pointing to AI as they lay off employees",
+              "sourceDate": "2026-02-04",
+              "collectedDate": "2026-02-12"
+            }
+          ],
+          "keyQuotes": [
+            {
+              "quote": "We will need fewer people doing some of the jobs that are being done today, and more people doing other types of jobs",
+              "speaker": "Andy Jassy",
+              "title": "CEO, Amazon",
+              "context": "Blog post to employees about AI-driven workforce changes"
+            }
+          ],
+          "keyFacts": [
+            "16,000 positions cut January 2026 + 14,000 in October 2025 = ~30,000 total",
+            "Largest workforce reduction in Amazon history",
+            "Manager III and principal-level roles specifically eliminated",
+            "Affected: AWS, Prime Video, retail operations, HR (PXT)",
+            "Software development roles = largest share of cuts",
+            "1,000+ GenAI applications in development",
+            "$200B planned capex, largely for AI data centers (60% increase)",
+            "90-day internal transfer window for affected US employees",
+            "Total workforce: 1.58 million (cuts affect corporate roles only)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pinterest",
+      "isNew": false,
+      "existingSpecimenId": "pinterest",
+      "industry": "Social Media / Technology",
+      "findings": [
+        {
+          "type": "structural-evolution",
+          "summary": "Pinterest cut <15% of workforce (~780 of 5,200 employees) in January 2026, explicitly citing 'AI-forward strategy.' The restructuring includes reallocating resources to 'AI-focused roles and teams,' hiring AI-proficient talent, and prioritizing AI-powered products. Notably, two engineers were fired in February for building an unauthorized internal tool to track laid-off colleagues, revealing deep internal tension. CEO Bill Ready told dissenting employees to 'consider finding another job.'",
+          "structuralModel": "M5 - AI-First Transformation",
+          "orientation": "temporal",
+          "relevanceJustification": "The Pinterest case is uniquely valuable for the internal dissent it reveals. The layoff-tracker incident and CEO's response ('consider finding another job') expose the organizational tension between transparency and control during AI-driven restructuring. This is a rare window into how AI transformation affects internal power dynamics and psychological safety.",
+          "sources": [
+            {
+              "url": "https://fortune.com/2026/02/04/pinterest-layoffs-employee-dissent-ai-tools-future-of-work-ceo-bill-ready/",
+              "title": "Pinterest cracks down on dissent, fires engineers for an internal layoff tool",
+              "sourceDate": "2026-02-04",
+              "collectedDate": "2026-02-12"
+            },
+            {
+              "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+              "title": "More companies are pointing to AI as they lay off employees",
+              "sourceDate": "2026-02-04",
+              "collectedDate": "2026-02-12"
+            }
+          ],
+          "keyQuotes": [
+            {
+              "quote": "making organizational changes to further deliver on our AI-forward strategy, which includes hiring AI-proficient talent",
+              "speaker": "Pinterest (company statement)",
+              "title": "",
+              "context": "Official announcement of layoffs, January 2026"
+            }
+          ],
+          "keyFacts": [
+            "<15% of workforce cut (~780 of 5,200)",
+            "Restructuring through September 2026",
+            "$35-45M in pre-tax restructuring charges",
+            "Two engineers fired for building unauthorized layoff-tracking tool",
+            "CEO Bill Ready: dissenting employees should 'consider finding another job'",
+            "Chief Security Officer cited privacy violation for the tracker tool",
+            "AI integration accelerated across platform (personalization, discovery, Pinterest Assistant)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Workday",
+      "isNew": false,
+      "existingSpecimenId": "workday",
+      "industry": "Enterprise Software / HR Tech",
+      "findings": [
+        {
+          "type": "structural-evolution",
+          "summary": "Workday announced ~400 job cuts on Feb 4, 2026 (2% of workforce), primarily in customer operations and non-revenue roles. Founder Aneel Bhusri returned as CEO on Feb 9, triggering 8%+ stock decline. Company redirecting resources from human support to AI-driven HR/finance tools. This follows earlier 1,750-person layoff (8.5% workforce) with $230-270M restructuring costs. Total restructuring charges for latest round: ~$135M.",
+          "structuralModel": "M4 - Dedicated AI Unit (with CEO succession dynamics)",
+          "orientation": "temporal",
+          "relevanceJustification": "The founder-return pattern (Bhusri back as CEO) during AI transformation is structurally interesting — it echoes patterns we've seen where companies bring back founders to drive radical transformation that professional managers resist. The sequential layoff waves (1,750 then 400) show iterative restructuring rather than one-shot reorganization.",
+          "sources": [
+            {
+              "url": "https://hrexecutive.com/workday-files-more-job-cuts-customer-ops-teams-hit/",
+              "title": "Workday announces 400 job cuts in customer ops restructuring",
+              "sourceDate": "2026-02-09",
+              "collectedDate": "2026-02-12"
+            },
+            {
+              "url": "https://www.oreateai.com/blog/workdays-bold-move-navigating-layoffs-amid-ai-growth/454c49c70068da1eccd6dacc1f52e4e3",
+              "title": "Workday's Bold Move: Navigating Layoffs Amid AI Growth",
+              "sourceDate": "2026-02",
+              "collectedDate": "2026-02-12"
+            }
+          ],
+          "keyQuotes": [
+            {
+              "quote": "Companies everywhere are reimagining how work gets done",
+              "speaker": "Carl Eschenbach",
+              "title": "Former CEO, Workday",
+              "context": "Internal memo filed with securities regulators announcing restructuring"
+            }
+          ],
+          "keyFacts": [
+            "~400 jobs cut February 2026 (2% of workforce)",
+            "Primarily customer operations and non-revenue roles",
+            "Founder Aneel Bhusri returned as CEO on Feb 9, 2026",
+            "Stock dropped 8%+ on Bhusri's return announcement",
+            "Previous round: 1,750 jobs (8.5%) with $230-270M costs",
+            "$135M restructuring charges for latest round",
+            "Continuing targeted hiring in AI and revenue-generating roles",
+            "Minimum 12 weeks severance for US employees"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dow",
+      "isNew": false,
+      "existingSpecimenId": "dow-chemical",
+      "industry": "Chemicals / Industrial",
+      "findings": [
+        {
+          "type": "structural-evolution",
+          "summary": "Dow announced 'Transform to Outperform' program cutting 4,500 positions (~13% of 34,600 workforce). CEO Jim Fitterling calls it 'radical simplification' of operating model. AI and automation deployed across production monitoring, supply chain, quality control, customer service, and admin functions. Targets $2B additional operating EBITDA by 2028. Implementation costs: $1.1-1.5B including $600-800M in severance.",
+          "structuralModel": "M3 - AI Integration (deep process automation across the value chain)",
+          "orientation": "contextual",
+          "relevanceJustification": "Rare detailed example of AI transformation in heavy industry/chemicals. The scope of AI deployment (production monitoring, predictive maintenance, supply chain, quality control, customer service) across an entire industrial value chain is more comprehensive than most tech-company specimens. Partnership with Kyndryl for AI/automation collaboration adds an outsourcing dimension.",
+          "sources": [
+            {
+              "url": "https://www.webpronews.com/dows-1-billion-restructuring-signals-chemical-industrys-pivot-to-ai-driven-operations/",
+              "title": "Dow's $1 Billion Restructuring Signals Chemical Industry's Pivot to AI-Driven Operations",
+              "sourceDate": "2026-01-30",
+              "collectedDate": "2026-02-12"
+            },
+            {
+              "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+              "title": "More companies are pointing to AI as they lay off employees",
+              "sourceDate": "2026-02-04",
+              "collectedDate": "2026-02-12"
+            }
+          ],
+          "keyQuotes": [],
+          "keyFacts": [
+            "Program name: 'Transform to Outperform'",
+            "4,500 positions cut (~13% of 34,600 workforce)",
+            "Target: $2B additional operating EBITDA by 2028",
+            "Implementation costs: $1.1-1.5B (including $600-800M severance)",
+            "AI deployed in: production monitoring, predictive maintenance, supply chain, quality control, customer service, order processing, demand forecasting",
+            "Partnership with Kyndryl for AI and automation (announced Nov 2025)",
+            "Builds on prior $1B savings plan (1,500 earlier cuts)",
+            "Later increased savings goal to $6B (April 2025)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ASML",
+      "isNew": true,
+      "notInCollection": true,
+      "industry": "Semiconductor Equipment",
+      "findings": [
+        {
+          "type": "structural",
+          "summary": "ASML cut 1,700 jobs in late January 2026 despite strong financials (16% revenue growth, 19% gross profit increase). CFO Roger Dassen explained cuts as 'trimming bloat and reducing extraneous and inefficient layers' to ensure 'engineers can be engineers again.' Notably, the cuts are NOT attributed to AI automation — they are framed as removing organizational complexity that accumulated during rapid growth.",
+          "structuralModel": "Not AI-structural per se — organizational simplification",
+          "orientation": "structural",
+          "relevanceJustification": "Interesting counter-example to the AI-washing narrative. ASML's restructuring is explicitly about removing organizational layers to let technical workers focus, NOT about replacing workers with AI. The 'engineers can be engineers again' framing is about bureaucratic de-layering. Useful as a comparison case — what restructuring looks like when AI is NOT the driver.",
+          "sources": [
+            {
+              "url": "https://fortune.com/2026/02/10/ai-washing-and-forever-layoffs-why-companies-keep-cutting-jobs-even-amid-rising-profits/",
+              "title": "AI-washing and forever layoffs: Why companies keep cutting jobs even amid rising profits",
+              "sourceDate": "2026-02-10",
+              "collectedDate": "2026-02-12"
+            }
+          ],
+          "keyQuotes": [
+            {
+              "quote": "trimming bloat and reducing extraneous and inefficient layers",
+              "speaker": "Roger Dassen",
+              "title": "CFO, ASML",
+              "context": "Explaining January 2026 layoffs"
+            }
+          ],
+          "keyFacts": [
+            "1,700 jobs cut despite 16% revenue growth and 19% gross profit increase",
+            "Cuts framed as organizational simplification, NOT AI-driven",
+            "Goal: ensure 'engineers can be engineers again'",
+            "Dutch semiconductor equipment maker — critical in AI supply chain but restructuring not AI-motivated"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Klarna",
+      "isNew": false,
+      "existingSpecimenId": "klarna",
+      "industry": "Fintech",
+      "findings": [
+        {
+          "type": "structural-evolution",
+          "summary": "Klarna's AI-driven workforce reduction (40% headcount cut Dec 2022-2024 via attrition + hiring freeze) has been partially reversed. CEO acknowledged the strategy produced 'lower quality' results. Company subsequently hired ~20 people specifically to handle customer service cases the AI assistant couldn't manage. This represents a documented case of AI-driven restructuring backfiring and requiring partial reversal.",
+          "structuralModel": "M5 - AI-First Transformation (with reversal/correction)",
+          "orientation": "temporal",
+          "relevanceJustification": "This is the most documented case of an AI workforce-replacement strategy failing and being partially reversed. The CEO's public admission of 'lower quality' and the re-hiring to cover AI gaps is structurally significant — it reveals the limits of aggressive AI substitution.",
+          "sources": [
+            {
+              "url": "https://hbr.org/2026/01/companies-are-laying-off-workers-because-of-ais-potential-not-its-performance",
+              "title": "Companies Are Laying Off Workers Because of AI's Potential—Not Its Performance",
+              "sourceDate": "2026-01",
+              "collectedDate": "2026-02-12"
+            }
+          ],
+          "keyQuotes": [],
+          "keyFacts": [
+            "40% workforce reduction Dec 2022-2024 via attrition and hiring freeze",
+            "CEO admitted strategy produced 'lower quality'",
+            "Hired ~20 people to handle cases AI assistant couldn't manage",
+            "Represents documented case of AI substitution backfiring"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lionsgate",
+      "isNew": false,
+      "existingSpecimenId": "lionsgate",
+      "industry": "Entertainment / Media",
+      "findings": [
+        {
+          "type": "structural-evolution",
+          "summary": "Lionsgate hired Kathleen Grace as its first Chief AI Officer. The CAIO role is positioned to lead AI strategy across production, marketing, distribution, and administrative operations. Limited structural detail available from source.",
+          "structuralModel": "M4 - Dedicated AI Unit (CAIO appointment)",
+          "orientation": "structural",
+          "relevanceJustification": "Confirms evolution of Lionsgate specimen — first entertainment studio to appoint a CAIO. Adds to the CAIO appointment wave pattern.",
+          "sources": [
+            {
+              "url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+              "title": "Lionsgate Hires First Chief AI Officer Kathleen Grace",
+              "sourceDate": "2026-02",
+              "collectedDate": "2026-02-12"
+            }
+          ],
+          "keyQuotes": [],
+          "keyFacts": [
+            "Kathleen Grace appointed as first Chief AI Officer",
+            "Role spans: AI strategy for production, marketing, distribution, administration",
+            "First entertainment studio CAIO appointment"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kyndryl",
+      "isNew": false,
+      "existingSpecimenId": "kyndryl",
+      "industry": "IT Services",
+      "findings": [
+        {
+          "type": "structural-evolution",
+          "summary": "Kyndryl launched SAP Transformations Center of Excellence on Jan 27, 2026. Dedicated hub with 500+ professionals combining SAP expertise with Kyndryl Agentic AI Framework. Also partnering with Dow on AI/automation implementation.",
+          "structuralModel": "M4 - Dedicated AI Unit (CoE model)",
+          "orientation": "structural",
+          "relevanceJustification": "CoE model specimen evolution — the 500+ dedicated professionals number gives concrete scale. The combination of SAP expertise with agentic AI framework shows how IT services firms are structuring AI capabilities around enterprise platform expertise.",
+          "sources": [
+            {
+              "url": "https://www.kyndryl.com/us/en/about-us/news/2026/01/sap-transformation-center-of-excellence",
+              "title": "Kyndryl SAP Center of Excellence accelerates AI adoption",
+              "sourceDate": "2026-01-27",
+              "collectedDate": "2026-02-12"
+            }
+          ],
+          "keyQuotes": [],
+          "keyFacts": [
+            "SAP Transformations CoE launched Jan 27, 2026",
+            "500+ dedicated Kyndryl professionals",
+            "Combines SAP expertise with Kyndryl Agentic AI Framework",
+            "Also partnering with Dow Chemical on AI/automation"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Infosys",
+      "isNew": false,
+      "existingSpecimenId": "infosys",
+      "industry": "IT Services",
+      "findings": [
+        {
+          "type": "structural-evolution",
+          "summary": "Infosys partnered with Cursor (AI coding platform) to launch a Center of Excellence for AI-native software development on Jan 27, 2026. The CoE helps companies adopt AI coding agents and build AI-native products. Includes a space for clients to test Infosys' Topaz Fabric (cloud/data/AI). Cursor's AI coding tools being rolled out to Infosys developers worldwide.",
+          "structuralModel": "M4 - Dedicated AI Unit (external partnership CoE)",
+          "orientation": "structural",
+          "relevanceJustification": "Shows IT services firms creating CoEs around specific AI tool partnerships (Cursor). The internal adoption dimension (rolling out AI coding tools to Infosys developers worldwide) makes this a dual-purpose CoE: client-facing AND internal capability building.",
+          "sources": [
+            {
+              "url": "https://www.ciol.com/news/infosys-cursor-ai-center-of-excellence-2026-11036239",
+              "title": "Infosys and Cursor Partner to Launch AI Center of Excellence",
+              "sourceDate": "2026-01-27",
+              "collectedDate": "2026-02-12"
+            }
+          ],
+          "keyQuotes": [],
+          "keyFacts": [
+            "CoE launched Jan 27, 2026 with Cursor partnership",
+            "Helps companies adopt AI coding agents and build AI-native products",
+            "Includes demo space for Topaz Fabric (cloud/data/AI platform)",
+            "Cursor's AI tools rolling out to Infosys developers globally"
+          ]
+        }
+      ]
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "AI-Washing vs. Genuine AI Restructuring",
+      "description": "A major debate has emerged around whether companies citing AI as justification for layoffs are genuinely restructuring for AI capabilities or using AI as cover for standard cost-cutting. Forrester Research coined the term 'AI-washing.' Of 1.2M US job cuts in 2025, only 55,000 (4.5%) were directly attributed to AI per Challenger, Gray & Christmas. An HBR study found 60% of orgs made headcount reductions in ANTICIPATION of AI, while only 2% based cuts on actual AI implementation results. This anticipation-vs-evidence gap is a major structural finding.",
+      "analyticalImplication": "This trend directly challenges our field observations. We need to distinguish between: (a) genuine structural transformation (Amazon's deliberate management layer elimination, Salesforce's support function halving), (b) anticipatory restructuring based on expected AI capabilities, and (c) AI-washing where AI is a convenient narrative for standard cost-cutting. Each has different structural implications.",
+      "sources": [
+        {
+          "url": "https://fortune.com/2026/02/10/ai-washing-and-forever-layoffs-why-companies-keep-cutting-jobs-even-amid-rising-profits/",
+          "sourceDate": "2026-02-10"
+        },
+        {
+          "url": "https://techcrunch.com/2026/02/01/ai-layoffs-or-ai-washing/",
+          "sourceDate": "2026-02-01"
+        },
+        {
+          "url": "https://hbr.org/2026/01/companies-are-laying-off-workers-because-of-ais-potential-not-its-performance",
+          "sourceDate": "2026-01"
+        }
+      ]
+    },
+    {
+      "trend": "CAIO Role Institutionalization",
+      "description": "The Chief AI Officer role continues rapid institutionalization. Over 40% of Fortune 500 companies estimated to have a CAIO role in 2026. New appointments span private sector (Lionsgate), state government (New York State), federal agencies (FDA, US Cyber Command). PwC positions the CAIO's primary challenge as translating AI value for non-technical executives.",
+      "analyticalImplication": "The CAIO wave represents structural formalization of AI leadership. Interesting variation: some CAIOs report to CEO (strategic), others to CTO/CIO (operational). The government CAIO wave (mandated by executive order in many cases) vs. voluntary corporate CAIO creates natural comparison.",
+      "sources": [
+        {
+          "url": "https://www.cdomagazine.tech/leadership-moves/new-york-state-appoints-eleonore-fournier-tombs-as-chief-ai-officer",
+          "sourceDate": "2026-02"
+        },
+        {
+          "url": "https://www.cdomagazine.tech/leadership-moves/us-cyber-command-names-reid-novotny-as-chief-ai-officer",
+          "sourceDate": "2026-02"
+        }
+      ]
+    },
+    {
+      "trend": "Sequential Layoff Waves ('Forever Layoffs')",
+      "description": "Multiple companies showing pattern of sequential restructuring waves rather than one-shot reorganizations: Amazon (14K Oct 2025 + 16K Jan 2026), Workday (1,750 then 400), Salesforce (ongoing since 2023). Glassdoor research identifies 'forever layoffs' as a distinct phenomenon where successive waves compound engagement damage more than single reductions. Companies are restructuring iteratively as they learn what AI can and cannot replace.",
+      "analyticalImplication": "This pattern challenges the assumption of discrete structural transitions (M3→M4→M5). Organizations may be in a continuous restructuring mode — an 'always-transforming' state. This has implications for employee psychological safety, organizational learning, and the sustainability of exploration-execution balance.",
+      "sources": [
+        {
+          "url": "https://fortune.com/2026/02/10/ai-washing-and-forever-layoffs-why-companies-keep-cutting-jobs-even-amid-rising-profits/",
+          "sourceDate": "2026-02-10"
+        }
+      ]
+    },
+    {
+      "trend": "Deloitte AI-Native Organization Framework",
+      "description": "Deloitte's 2026 Tech Trends report outlines the shift to AI-native IT organizations: cross-functional product squads replacing project teams, forward-deployed engineers, platform engineering, CIO role evolving to 'orchestrator' (65% now report to CEO vs. 41% in 2015), two-thirds of orgs piloting AI agents, and new roles emerging (Human-AI collaboration designers, Chief People and Digital Technology Officers).",
+      "analyticalImplication": "The CIO-to-CEO reporting line shift (41%→65% in 10 years) is a measurable structural change driven by technology's strategic centrality. The 'orchestrator' CIO model maps to our M3 integration pattern. The proposed C-suite triumvirate (CIO + CFO + Chief Strategy Officer) suggests structural complexity in AI governance that goes beyond our current taxonomy.",
+      "sources": [
+        {
+          "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
+          "sourceDate": "2026"
+        }
+      ]
+    },
+    {
+      "trend": "Management Layer Elimination as AI Strategy",
+      "description": "Several companies are explicitly targeting management layers for elimination: Amazon (Manager III, principal-level roles), ASML ('extraneous and inefficient layers'). This represents a shift from AI replacing operational/clerical work to AI replacing coordination/management work. The coordination function historically performed by middle managers is being viewed as automatable via AI agents.",
+      "analyticalImplication": "This connects directly to Garicano's knowledge hierarchy model and the information-cost reduction thesis. If AI reduces the cost of routing problems to the right expertise, the management layers that existed primarily for information routing become redundant. This is the structural mechanism we should be tracking most closely.",
+      "sources": [
+        {
+          "url": "https://ts2.tech/en/amazon-layoffs-2026-16000-more-jobs-cut-as-ai-push-and-anti-bureaucracy-drive-deepen/",
+          "sourceDate": "2026-01-28"
+        },
+        {
+          "url": "https://fortune.com/2026/02/10/ai-washing-and-forever-layoffs-why-companies-keep-cutting-jobs-even-amid-rising-profits/",
+          "sourceDate": "2026-02-10"
+        }
+      ]
+    }
+  ],
+  "newSourcesDiscovered": [
+    {
+      "name": "The AI Insider",
+      "url": "https://theaiinsider.tech",
+      "type": "AI-focused news site",
+      "note": "Good for AI company organizational moves, fetched successfully"
+    },
+    {
+      "name": "TechStartups.com",
+      "url": "https://techstartups.com",
+      "type": "Tech startup news",
+      "note": "Good structural detail on AI companies, fetched successfully"
+    },
+    {
+      "name": "CDO Magazine",
+      "url": "https://www.cdomagazine.tech",
+      "type": "Executive leadership moves",
+      "note": "Tracks CAIO/CDO appointments systematically, not yet tested for WebFetch"
+    }
+  ],
+  "purposeClaimsDiscovered": [
+    {
+      "speaker": "Elon Musk",
+      "title": "CEO, xAI / SpaceX / Tesla",
+      "company": "xAI",
+      "claim": "xAI was reorganized a few days ago to improve speed of execution. As a company grows, especially as quickly as xAI, the structure must evolve just like any living organism.",
+      "context": "Public statement explaining xAI reorganization, Feb 2026",
+      "rhetoricalFunction": "Naturalizing structural disruption — using organic metaphor ('living organism') to frame radical reorganization (half of co-founders leaving) as natural growth rather than crisis",
+      "source": "https://techstartups.com/2026/02/11/musk-reorganizes-xai-team-amid-co-founders-departures-as-spacex-merger-sets-stage-for-trillion-dollar-ipo/",
+      "sourceDate": "2026-02-11",
+      "note": "xAI is NOT in specimen collection — would need new specimen to attach this claim"
+    },
+    {
+      "speaker": "Marc Benioff",
+      "title": "CEO, Salesforce",
+      "company": "Salesforce",
+      "claim": "I need less heads",
+      "context": "Explaining AI efficiency gains driving headcount reduction, Feb 2026",
+      "rhetoricalFunction": "Blunt efficiency framing — no purpose-washing or mission invocation, just stark resource optimization logic. Contrast with typical purpose claim patterns.",
+      "source": "https://www.metaintro.com/blog/salesforce-layoffs-february-2026-agentforce-ai",
+      "sourceDate": "2026-02-10",
+      "note": "Exists in Salesforce specimen. Notable for its unusual directness — most CEOs wrap layoffs in purpose language. Benioff's bluntness is itself a rhetorical strategy."
+    },
+    {
+      "speaker": "Andy Jassy",
+      "title": "CEO, Amazon",
+      "company": "Amazon",
+      "claim": "We will need fewer people doing some of the jobs that are being done today, and more people doing other types of jobs",
+      "context": "Blog post to employees about AI-driven workforce changes, 2025-2026",
+      "rhetoricalFunction": "Reallocation framing — positions AI-driven job losses not as elimination but as portfolio rebalancing. The 'other types of jobs' implies structural evolution rather than contraction.",
+      "source": "https://ts2.tech/en/amazon-layoffs-2026-16000-more-jobs-cut-as-ai-push-and-anti-bureaucracy-drive-deepen/",
+      "sourceDate": "2026-01-28",
+      "note": "Exists in Amazon specimen. Classic Jassy directness — honest about job loss but reframes it as job-type transition."
+    },
+    {
+      "speaker": "Carl Eschenbach",
+      "title": "Former CEO, Workday",
+      "company": "Workday",
+      "claim": "Companies everywhere are reimagining how work gets done",
+      "context": "Internal memo filed with securities regulators announcing restructuring",
+      "rhetoricalFunction": "Normalizing through universalization — frames Workday's specific restructuring as part of an inevitable, universal trend. Reduces organizational agency and individual accountability.",
+      "source": "https://www.oreateai.com/blog/workdays-bold-move-navigating-layoffs-amid-ai-growth/454c49c70068da1eccd6dacc1f52e4e3",
+      "sourceDate": "2026-02",
+      "note": "Exists in Workday specimen. Eschenbach was replaced by founder Bhusri days later — this claim was one of his last as CEO."
+    },
+    {
+      "speaker": "Bill Ready",
+      "title": "CEO, Pinterest",
+      "company": "Pinterest",
+      "claim": "Those working against the direction of the company and disagreeing with the mission should consider finding another job",
+      "context": "Town hall meeting during AI restructuring, reported by CNBC, Feb 2026",
+      "rhetoricalFunction": "Coercive alignment — using mission/direction language to suppress dissent during transformation. Positions disagreement with restructuring as disloyalty to mission.",
+      "source": "https://fortune.com/2026/02/04/pinterest-layoffs-employee-dissent-ai-tools-future-of-work-ceo-bill-ready/",
+      "sourceDate": "2026-02-04",
+      "note": "Exists in Pinterest specimen. Unusually aggressive purpose claim — invokes 'mission' and 'direction' specifically to shut down internal opposition to AI-driven layoffs."
+    }
+  ]
+}

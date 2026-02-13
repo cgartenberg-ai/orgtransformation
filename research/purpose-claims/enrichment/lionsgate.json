@@ -1,0 +1,37 @@
+{
+  "specimenId": "lionsgate",
+  "scannedDate": "2026-02-13",
+  "claimCount": 11,
+  "searchesCompleted": 7,
+  "urlsFetched": 12,
+  "fetchFailures": 10,
+  "keyFindings": [
+    "Lionsgate deploys a systematic audience-dependent framing strategy: creative-vision-first for talent/industry press, efficiency/cost-first for investors. Feltheimer's earnings call ordering (productivity, cost savings, creative toolkit) is precisely inverted from the CAIO announcement ordering (creative vision, efficiencies, IP protection).",
+    "The CAIO appointment itself functions as a rhetorical act: Kathleen Grace's background at Vermillio (IP protection for creators) sends a signal to talent that the AI function is designed to PROTECT their interests, not displace them. Her first public statement conspicuously omits any mention of efficiency or cost savings.",
+    "Michael Burns serves as the 'candid channel' — his WSJ comments about explosions and 'millions and millions of dollars' reveal the commercial logic that Feltheimer's public rhetoric carefully manages. This CEO/Vice-Chairman division of rhetorical labor is analytically interesting.",
+    "The conditional framing 'when properly regulated' is nearly unique in our collection — most CEOs present AI enthusiasm unconditionally. Feltheimer's willingness to invoke regulation as a precondition suggests genuine awareness of the labor relations context.",
+    "Despite the CAIO being entertainment's first, the actual structural evidence remains extremely thin: we know title, reporting line (to Feltheimer), and mandate description, but nothing about team, budget, or operational model."
+  ],
+  "rhetoricalPatterns": [
+    "Art-Science Synthesis: 'The entertainment industry is fundamentally creative, but future advancement will necessitate a blend of artistry and scientific innovation' — the foundational both/and frame that authorizes all subsequent AI moves.",
+    "Grow-Alongside Framing: 'grow alongside our talent partners' — positions AI adoption as a collaborative journey WITH creative workers, deliberately avoiding any substitution implication. This is the political master-frame for a post-strikes entertainment company.",
+    "Augmentation Tricolon: 'augmenting, enhancing, and supplementing' — three additive verbs that together build a wall against the replacement interpretation. Compare to Netflix, which is more willing to speak in transformation terms.",
+    "Conditional Enthusiasm: 'when properly regulated, AI can serve as a beneficial resource' — hedges enthusiasm with a regulatory condition, signaling good-faith engagement with labor concerns."
+  ],
+  "comparativeNotes": "Lionsgate occupies a distinctive middle position between Disney's extreme caution and Netflix's relative openness about AI efficiency. Disney, in the post-strikes period, has been almost silent on AI — the brand risk of appearing to threaten creative jobs is too high for the company most identified with storytelling magic. Netflix, by contrast, has been more forthcoming about AI as an efficiency and recommendation tool, though it too has been careful about generative AI in content creation.\n\nLionsgate's positioning is more aggressive than Disney but wrapped in protective rhetoric that rivals Disney's caution. The key differentiator is the CAIO appointment itself — Lionsgate is the first entertainment company to create a C-suite AI role, which is simultaneously the boldest structural move in the sector AND carefully designed (via Grace's IP-protection background) to signal that this is a pro-creator, pro-protection function. The Runway partnership goes further than anything Disney or Netflix have publicly announced in terms of training proprietary generative models on a studio's content library. But the rhetoric wrapping this aggressive structural move is almost entirely about serving filmmakers and protecting talent. This gap between structural ambition and rhetorical caution is the most interesting analytical feature of the Lionsgate case.",
+  "notableAbsences": "Several notable absences in this collection: (1) No claims from Kathleen Grace about efficiency, cost savings, or productivity — her only public statement is purely about creative empowerment. This silence is itself a rhetorical choice. (2) No claims about specific use cases or deployment timelines — everything remains at the level of mandate and vision. (3) No public engagement with the strikes context — neither Feltheimer nor Grace mentions SAG-AFTRA, WGA, or the 2023 strikes in any found statement. The strikes are the elephant in the room that shapes every word of AI rhetoric but is never named. (4) No claims about workforce implications — no 'AI won't replace jobs' assurance, no 'AI will create new roles' promise. The complete silence on employment effects is notable given how central this concern is to the industry.",
+  "correctedLeaderInfo": {
+    "ceo": "Jon Feltheimer (CEO, Lionsgate Entertainment)",
+    "caio": "Kathleen Grace (Chief AI Officer, appointed February 2026)",
+    "viceChairman": "Michael Burns (Vice Chairman)",
+    "graceBackground": "Previously Chief Strategy Officer at Vermillio (AI platform for licensing and protecting IP/likeness); previously headed New Form (digital studio backed by Ron Howard/Brian Grazer); spearheaded YouTube's global Spaces initiative"
+  },
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 3,
+    "survival": 1,
+    "commercial-success": 5
+  }
+}

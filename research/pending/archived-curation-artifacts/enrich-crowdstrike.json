@@ -1,0 +1,142 @@
+{
+  "specimenId": "crowdstrike",
+  "researchDate": "2026-02-10",
+  "findings": {
+    "aiLeadership": "CrowdStrike's AI capabilities are embedded within the core engineering and product organization, not in a separate AI division. CTO Elia Zaitsev (promoted 2023) owns data science, AI/ML, and malware research. Amol Kulkarni serves as Chief Product & Engineering Officer, overseeing both product and engineering. Karan Gupta is Head of Engineering (joined 2023 from Palo Alto Networks SVP of Engineering). Alex Ionescu is Chief Technology Innovation Officer. Viswa Soubramanien is VP of Engineering for SIEM, SOAR, AI Native SOC, Data and ML Platform. No dedicated 'Chief AI Officer' or 'Chief Scientist' role exists — AI is distributed across the CTO and engineering org rather than centralized in a standalone unit.",
+    "teamStructure": "Charlotte AI was built using a multi-AI agent architecture where workflows are partitioned into discrete subtasks handled by specialized AI agents. Over a dozen task-oriented agents orchestrate to interpret questions, plan steps, and structure results. Each agent consists of a model and surrounding code. Key agent capabilities include Detection Triage, Guided Investigation, Natural Language Search, Malware Analysis, Promptbooks, and Workflow Automation. Charlotte AI AgentWorks (announced Fal.Con 2025) is a no-code tool enabling security teams to build custom agents without programming. Charlotte Agentic SOAR combines the Falcon Fusion SOAR workflow engine with Charlotte AI reasoning. The engineering org supports the unified Falcon platform with Enterprise Graph as the data backbone, comprising Threat Graph, Asset Graph, Risk Graph, Intel Graph, and Falcon LogScale.",
+    "reportingLines": "CTO Elia Zaitsev reports to CEO George Kurtz and owns AI/ML, data science, and malware research. Head of Engineering Karan Gupta leads the global engineering org supporting the Falcon platform. CPEO Amol Kulkarni oversees both product and engineering. VP Viswa Soubramanien covers SIEM, SOAR, AI Native SOC, Data and ML Platform. Adam Meyers is SVP of Counter Adversary Operations (threat intelligence). Michael Sentonas is President. This is a functionally integrated structure — AI is not a separate business unit but is woven into the platform engineering and CTO functions.",
+    "keyPeople": [
+      {
+        "name": "George Kurtz",
+        "title": "CEO & Founder",
+        "context": "Drives overall AI strategy. Articulated 'security AGI' as long-term aspirational goal at Fal.Con 2025. Framed layoffs as AI-driven efficiency: 'AI flattens our hiring curve and helps us innovate from idea to product faster.'"
+      },
+      {
+        "name": "Elia Zaitsev",
+        "title": "Chief Technology Officer",
+        "context": "Promoted to CTO in 2023. Owns data science, AI/ML, and malware research. Authored the 'Architecture of Agentic Defense' blog post (Jan 2026) laying out Enterprise Graph and Charlotte AI agent architecture. Unveiled APEX classifier (99.95% true positive rate)."
+      },
+      {
+        "name": "Amol Kulkarni",
+        "title": "Chief Product & Engineering Officer",
+        "context": "20+ years engineering experience, from embedded systems to cloud services handling hundreds of terabytes daily. Dual product-and-engineering role."
+      },
+      {
+        "name": "Karan Gupta",
+        "title": "Head of Engineering",
+        "context": "Joined CrowdStrike 2023, previously SVP Engineering at Palo Alto Networks. Leads global engineering organization supporting the AI-native Falcon platform."
+      },
+      {
+        "name": "Alex Ionescu",
+        "title": "Chief Technology Innovation Officer",
+        "context": "Separate from CTO role — focused on technology innovation rather than day-to-day AI/ML operations."
+      },
+      {
+        "name": "Viswa Soubramanien",
+        "title": "VP of Engineering — SIEM, SOAR, AI Native SOC, Data and ML Platform",
+        "context": "Owns the ML platform and AI-native SOC engineering. Key technical leader for Charlotte AI infrastructure."
+      },
+      {
+        "name": "Adam Meyers",
+        "title": "SVP, Counter Adversary Operations",
+        "context": "Leads threat intelligence — the domain expertise that feeds CrowdStrike's AI models."
+      },
+      {
+        "name": "Marian Radu",
+        "title": "Author of Charlotte AI multi-AI architecture white paper",
+        "context": "Authored the April 2024 blog post detailing Charlotte AI's multi-model approach. Likely a senior data science or AI engineering leader."
+      }
+    ],
+    "newQuotes": [
+      {
+        "quote": "AI flattens our hiring curve and helps us innovate from idea to product faster. It streamlines go-to-market, improves customer outcomes, and drives efficiencies across both the front and back office. AI is a force multiplier throughout the business.",
+        "speaker": "George Kurtz",
+        "context": "Employee memo announcing 500 layoffs (5% of workforce), May 2025",
+        "source": "https://www.cnbc.com/2025/05/07/crowdstrike-announces-5percent-job-cuts-says-ai-reshaping-every-industry.html",
+        "sourceDate": "2025-05-07"
+      },
+      {
+        "quote": "We are at a market and technology inflection point, with AI reshaping every industry, accelerating threats and evolving customer needs.",
+        "speaker": "George Kurtz",
+        "context": "Earnings call / layoff announcement framing",
+        "source": "https://www.cnbc.com/2025/05/07/crowdstrike-announces-5percent-job-cuts-says-ai-reshaping-every-industry.html",
+        "sourceDate": "2025-05-07"
+      },
+      {
+        "quote": "Security AGI",
+        "speaker": "George Kurtz",
+        "context": "Aspirational long-term goal articulated at Fal.Con 2025, using autonomous vehicle stages as metaphor for gradual transition from AI assistance to autonomy",
+        "source": "https://www.forrester.com/blogs/crowdstrike-fal-con-2025-flexing-into-the-agentic-ai-age/",
+        "sourceDate": "2025-09-01"
+      },
+      {
+        "quote": "AI adoption necessitates the right cybersecurity. It necessitates CrowdStrike.",
+        "speaker": "George Kurtz",
+        "context": "Positioning CrowdStrike as enabler of secure AI transformation",
+        "source": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-first-quarter-fiscal-year-2026-financial",
+        "sourceDate": "2025-06-03"
+      }
+    ],
+    "newSources": [
+      {
+        "url": "https://www.crowdstrike.com/en-us/blog/charlotte-ai-multi-approach/",
+        "title": "Charlotte AI's Multi-AI Approach",
+        "sourceDate": "2024-04-17",
+        "type": "company-blog"
+      },
+      {
+        "url": "https://www.crowdstrike.com/en-us/blog/architecture-of-agentic-defense-inside-the-falcon-platform/",
+        "title": "Architecture of Agentic Defense: Inside the Falcon Platform (by CTO Elia Zaitsev)",
+        "sourceDate": "2026-01-16",
+        "type": "company-blog"
+      },
+      {
+        "url": "https://www.cnbc.com/2025/05/07/crowdstrike-announces-5percent-job-cuts-says-ai-reshaping-every-industry.html",
+        "title": "CrowdStrike announces 5% job cuts, says AI is reshaping every industry",
+        "sourceDate": "2025-05-07",
+        "type": "news"
+      },
+      {
+        "url": "https://www.forrester.com/blogs/crowdstrike-fal-con-2025-flexing-into-the-agentic-ai-age/",
+        "title": "CrowdStrike Fal.Con 2025: Flexing Into The Agentic AI Age (Forrester analysis)",
+        "sourceDate": "2025-09-01",
+        "type": "analyst-report"
+      },
+      {
+        "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-first-quarter-fiscal-year-2026-financial",
+        "title": "CrowdStrike Q1 FY2026 Earnings Release",
+        "sourceDate": "2025-06-03",
+        "type": "earnings"
+      },
+      {
+        "url": "https://www.nasdaq.com/press-release/crowdstrike-reports-third-quarter-fiscal-year-2026-financial-results-2025-12-02",
+        "title": "CrowdStrike Q3 FY2026 Earnings Release",
+        "sourceDate": "2025-12-02",
+        "type": "earnings"
+      },
+      {
+        "url": "https://www.crowdstrike.com/en-us/events/rsac/news/",
+        "title": "CrowdStrike RSA 2025 News Center",
+        "sourceDate": "2025-05-01",
+        "type": "conference"
+      },
+      {
+        "url": "https://www.crowdstrike.com/en-us/about-us/executive-team/",
+        "title": "CrowdStrike Executive Team",
+        "sourceDate": "2026-02-10",
+        "type": "company-page"
+      }
+    ],
+    "observableMarkers": {
+      "employeeCount": "~10,000 pre-layoffs (May 2025); ~9,500 post-layoffs",
+      "revenue": "Q3 FY2026: $1.23B revenue; FY2026 guidance: $4.80B; ending ARR: $4.92B (23% YoY growth)",
+      "layoffDetails": "500 positions cut (5% of workforce) in May 2025. Charges of $36M-$53M. Completed by end of fiscal Q2 FY2026. Company stated it would continue to 'prudently hire' in customer-facing and product engineering roles.",
+      "aiProducts": "Charlotte AI (GenAI security analyst, GA 2023), Charlotte AI AgentWorks (custom agent builder, no-code, 2025), Charlotte Agentic SOAR (2025), Falcon AIDR (AI Detection & Response, 2025/2026), APEX classifier (anomalous process execution detection)",
+      "acquisitions2025": "Onum (data pipeline management), Pangea (AI security governance)",
+      "platformScale": "Processes hundreds of terabytes of data inflow daily. Enterprise Graph unifies Threat Graph, Asset Graph, Risk Graph, Intel Graph, and Falcon LogScale.",
+      "marketPosition": "Cloud-native, single-agent architecture. Positioned as 'AI-native' cybersecurity platform. Pursuing $10B ARR target."
+    },
+    "classificationNotes": "CrowdStrike appears to be an AI-Infused Operations model (M5) with Structural orientation. AI is deeply embedded in the core product (Falcon platform) but organized within the existing CTO and engineering functions rather than in a separate AI unit. The CTO owns AI/ML, data science, and malware research — there is no standalone Chief AI Officer. Charlotte AI represents an agentic product layer built on top of the unified platform, not a separate business unit. The 500 layoffs explicitly framed as AI-driven efficiency ('AI flattens our hiring curve') suggest the company is using AI both as a product differentiator and as an internal productivity tool. The 'security AGI' aspiration and autonomous vehicle metaphor suggest an incremental approach to AI autonomy. Two recent acquisitions (Onum, Pangea) indicate the company is acquiring AI-adjacent capabilities rather than building everything internally. Key tension: CrowdStrike is simultaneously a cybersecurity company that uses AI and an AI company that does cybersecurity — the framing is shifting toward the latter."
+  },
+  "enrichmentSummary": "CrowdStrike embeds AI within its CTO and engineering org (no separate AI division). CTO Elia Zaitsev owns AI/ML and data science; Charlotte AI uses a multi-agent architecture with 12+ specialized agents. The May 2025 layoffs (500 people, 5% of ~10K workforce) were explicitly framed by CEO Kurtz as AI-driven efficiency, while the company pursues a $10B ARR target and George Kurtz's aspirational goal of 'security AGI.'"
+}

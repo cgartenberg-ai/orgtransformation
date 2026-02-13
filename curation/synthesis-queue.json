@@ -1,7 +1,7 @@
 {
-  "description": "Synthesis queue \u2014 specimens updated since last synthesis, awaiting Phase 3 analysis. Updated by Phase 2 (add entries) and Phase 3 (mark synthesized).",
-  "lastUpdated": "2026-02-04",
-  "lastSynthesisDate": "2026-02-04",
+  "description": "Synthesis queue — specimens updated since last synthesis, awaiting Phase 3 analysis. Updated by Phase 2 (add entries) and Phase 3 (mark synthesized).",
+  "lastUpdated": "2026-02-12",
+  "lastSynthesisDate": "2026-02-09",
   "queue": [
     {
       "specimenId": "nvidia",
@@ -33,7 +33,7 @@
       "curatedIn": "2026-01-31-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-01-31-synthesis.md",
-      "notes": "EVOLUTION: Orientation changed Contextual\u2192Structural. Enriched CAIO details."
+      "notes": "EVOLUTION: Orientation changed Contextual→Structural. Enriched CAIO details."
     },
     {
       "specimenId": "commonwealth-bank",
@@ -57,7 +57,7 @@
       "curatedIn": "2026-01-31-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-01-31-synthesis.md",
-      "notes": "NEW: Model 2, Structural. First military CAIO. Stub \u2014 insufficient data for deep analysis."
+      "notes": "NEW: Model 2, Structural. First military CAIO. Stub — insufficient data for deep analysis."
     },
     {
       "specimenId": "fda",
@@ -65,7 +65,7 @@
       "curatedIn": "2026-01-31-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-01-31-synthesis.md",
-      "notes": "NEW: Model 2, Structural. Combined CAIO + Head of IT. Stub \u2014 insufficient data for deep analysis."
+      "notes": "NEW: Model 2, Structural. Combined CAIO + Head of IT. Stub — insufficient data for deep analysis."
     },
     {
       "specimenId": "harvey-ai",
@@ -73,7 +73,7 @@
       "curatedIn": "2026-01-31-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-01-31-synthesis.md",
-      "notes": "NEW: Model 5a, Structural. Legal AI at enterprise scale. Stub \u2014 insufficient data for synthesis."
+      "notes": "NEW: Model 5a, Structural. Legal AI at enterprise scale. Stub — insufficient data for synthesis."
     },
     {
       "specimenId": "boston-dynamics-deepmind",
@@ -81,7 +81,7 @@
       "curatedIn": "2026-01-31-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-01-31-synthesis.md",
-      "notes": "NEW: Model 1 + Model 3, Structural. Cross-company robotics AI. Stub \u2014 insufficient data for synthesis."
+      "notes": "NEW: Model 1 + Model 3, Structural. Cross-company robotics AI. Stub — insufficient data for synthesis."
     },
     {
       "specimenId": "world-labs",
@@ -89,7 +89,7 @@
       "curatedIn": "2026-01-31-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-01-31-synthesis.md",
-      "notes": "NEW: Model 1 + Model 5, Structural. Fei-Fei Li academic spin-off. Stub \u2014 insufficient data for synthesis."
+      "notes": "NEW: Model 1 + Model 5, Structural. Fei-Fei Li academic spin-off. Stub — insufficient data for synthesis."
     },
     {
       "specimenId": "meta-ai",
@@ -97,7 +97,7 @@
       "curatedIn": "2026-01-31-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-01-31-synthesis.md",
-      "notes": "RECLASSIFIED: Model 1\u2192Model 4. MSL consolidation under Wang. LeCun departure. Completeness\u2192High."
+      "notes": "RECLASSIFIED: Model 1→Model 4. MSL consolidation under Wang. LeCun departure. Completeness→High."
     },
     {
       "specimenId": "eli-lilly",
@@ -161,7 +161,7 @@
       "curatedIn": "2026-01-31-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-01-31-synthesis.md",
-      "notes": "NEW: Model 4, Structural. 95% AI projects fail commentary. Stub \u2014 insufficient data for synthesis."
+      "notes": "NEW: Model 4, Structural. 95% AI projects fail commentary. Stub — insufficient data for synthesis."
     },
     {
       "specimenId": "glean",
@@ -169,7 +169,7 @@
       "curatedIn": "2026-01-31-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-01-31-synthesis.md",
-      "notes": "NEW: Model 3, Contextual. Automation harder than expected. Stub \u2014 insufficient data for synthesis."
+      "notes": "NEW: Model 3, Contextual. Automation harder than expected. Stub — insufficient data for synthesis."
     },
     {
       "specimenId": "hp",
@@ -177,7 +177,7 @@
       "curatedIn": "2026-01-31-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-01-31-synthesis.md",
-      "notes": "NEW: Model 6 (6a), Contextual. $1B savings restructuring. Stub \u2014 insufficient data for synthesis."
+      "notes": "NEW: Model 6 (6a), Contextual. $1B savings restructuring. Stub — insufficient data for synthesis."
     },
     {
       "specimenId": "google-ai-infra",
@@ -249,7 +249,7 @@
       "curatedIn": "2026-01-31-batch1-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "RECLASSIFIED: Model 2 (CoE) \u2192 Model 6a (Enterprise-Wide Adoption). Fixed industry to Insurance. Added Mechanism #8. Separated Anthropic/Allianz data."
+      "notes": "RECLASSIFIED: Model 2 (CoE) → Model 6a (Enterprise-Wide Adoption). Fixed industry to Insurance. Added Mechanism #8. Separated Anthropic/Allianz data."
     },
     {
       "specimenId": "amazon-agi",
@@ -257,7 +257,7 @@
       "curatedIn": "2026-01-31-batch1-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "RECLASSIFIED: Model 1 (Research Lab) \u2192 Model 4 (Hub-and-Spoke) + secondary Model 1. Fixed industry to Technology. Added Mechanism #6. Added habitat."
+      "notes": "RECLASSIFIED: Model 1 (Research Lab) → Model 4 (Hub-and-Spoke) + secondary Model 1. Fixed industry to Technology. Added Mechanism #6. Added habitat."
     },
     {
       "specimenId": "bcg-trailblazers",
@@ -369,7 +369,7 @@
       "curatedIn": "2026-01-31-batch3-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "RECLASSIFIED: Model 2 (CoE) \u2192 Model 6a (Enterprise-Wide Adoption). Downgraded to Stub. Data describes workforce impact, not AI org structure."
+      "notes": "RECLASSIFIED: Model 2 (CoE) → Model 6a (Enterprise-Wide Adoption). Downgraded to Stub. Data describes workforce impact, not AI org structure."
     },
     {
       "specimenId": "mercado-libre",
@@ -393,7 +393,7 @@
       "curatedIn": "2026-01-31-batch3-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "RECLASSIFIED orientation: Contextual \u2192 Structural (300-person hub is a distinct structural unit). Added Mechanism #5 (Deploy to Thousands \u2014 20K Copilot rollout)."
+      "notes": "RECLASSIFIED orientation: Contextual → Structural (300-person hub is a distinct structural unit). Added Mechanism #5 (Deploy to Thousands — 20K Copilot rollout)."
     },
     {
       "specimenId": "palo-alto-networks",
@@ -409,7 +409,7 @@
       "curatedIn": "2026-01-31-batch3-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "Curation review: Model 4 validated. Replaced Mechanism #5 with #3 (Embed Product at Research Frontier \u2014 PACT partnership). Added habitat."
+      "notes": "Curation review: Model 4 validated. Replaced Mechanism #5 with #3 (Embed Product at Research Frontier — PACT partnership). Added habitat."
     },
     {
       "specimenId": "recursion",
@@ -425,7 +425,7 @@
       "curatedIn": "2026-01-31-batch3-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "Curation review: Model 1 validated. Fixed industry from Technology to Pharmaceuticals. Replaced Mechanism #5 with #3 (Embed Product at Research Frontier \u2014 Lab in a Loop)."
+      "notes": "Curation review: Model 1 validated. Fixed industry from Technology to Pharmaceuticals. Replaced Mechanism #5 with #3 (Embed Product at Research Frontier — Lab in a Loop)."
     },
     {
       "specimenId": "sanofi",
@@ -465,7 +465,7 @@
       "curatedIn": "2026-01-31-batch4-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "Curation review: Model 3 Contextual validated. Fixed industry to E-commerce. Added Mechanism #7 (Put Executives on the Tools \u2014 Tobi Lutke CEO mandate)."
+      "notes": "Curation review: Model 3 Contextual validated. Fixed industry to E-commerce. Added Mechanism #7 (Put Executives on the Tools — Tobi Lutke CEO mandate)."
     },
     {
       "specimenId": "siemens",
@@ -473,7 +473,7 @@
       "curatedIn": "2026-01-31-batch4-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "Curation review: Model 4 validated. Fixed industry to Industrial Technology. Added Mechanism #9 (Hire External AI Leader \u2014 Peter Koerte + Nand Mulchandani + Usama Hasan)."
+      "notes": "Curation review: Model 4 validated. Fixed industry to Industrial Technology. Added Mechanism #9 (Hire External AI Leader — Peter Koerte + Nand Mulchandani + Usama Hasan)."
     },
     {
       "specimenId": "snowflake",
@@ -497,7 +497,7 @@
       "curatedIn": "2026-01-31-batch4-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "Added secondary Model 5 (Product/Venture Lab \u2014 Tinker product). Fixed orgSize to Startup. Company-as-lab edge case."
+      "notes": "Added secondary Model 5 (Product/Venture Lab — Tinker product). Fixed orgSize to Startup. Company-as-lab edge case."
     },
     {
       "specimenId": "uk-government",
@@ -505,7 +505,7 @@
       "curatedIn": "2026-01-31-batch4-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "Curation review: Model 2 validated. Replaced Mechanism #5 with #9 (Hire External AI Leader \u2014 CAIO from Spotify/Facebook)."
+      "notes": "Curation review: Model 2 validated. Replaced Mechanism #5 with #9 (Hire External AI Leader — CAIO from Spotify/Facebook)."
     },
     {
       "specimenId": "walmart",
@@ -513,7 +513,7 @@
       "curatedIn": "2026-01-31-batch4-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "Curation review: Model 5c validated. Fixed industry from Technology to Retail. Added Mechanism #10 (Productize Internal Advantages \u2014 Route Optimization, GoLocal)."
+      "notes": "Curation review: Model 5c validated. Fixed industry from Technology to Retail. Added Mechanism #10 (Productize Internal Advantages — Route Optimization, GoLocal)."
     },
     {
       "specimenId": "waystar",
@@ -553,7 +553,7 @@
       "curatedIn": "2026-01-31-gap-coverage-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "NEW: Model 2, Structural. First CAIO at engineering-based medical school. Stub \u2014 single source."
+      "notes": "NEW: Model 2, Structural. First CAIO at engineering-based medical school. Stub — single source."
     },
     {
       "specimenId": "nordic-semiconductor",
@@ -561,7 +561,7 @@
       "curatedIn": "2026-01-31-gap-coverage-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "NEW: Model 1, Structural. Edge AI Lab for on-device intelligence. Stub \u2014 minimal data."
+      "notes": "NEW: Model 1, Structural. Edge AI Lab for on-device intelligence. Stub — minimal data."
     },
     {
       "specimenId": "univers-ial",
@@ -569,7 +569,7 @@
       "curatedIn": "2026-01-31-gap-coverage-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "NEW: Model 5a, Structural. Multi-partner AI incubation lab in Singapore. Stub \u2014 minimal data."
+      "notes": "NEW: Model 5a, Structural. Multi-partner AI incubation lab in Singapore. Stub — minimal data."
     },
     {
       "specimenId": "lg-electronics",
@@ -601,7 +601,7 @@
       "curatedIn": "2026-01-31-deep-scan-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "NEW: Model 1, Structural. Pure research lab \u2014 no products, all compute on research. $3B funding. Sutskever's 'age of research' philosophy."
+      "notes": "NEW: Model 1, Structural. Pure research lab — no products, all compute on research. $3B funding. Sutskever's 'age of research' philosophy."
     },
     {
       "specimenId": "google-deepmind",
@@ -609,7 +609,7 @@
       "curatedIn": "2026-01-31-deep-scan-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "Added layer: Historical AI Org Evolution from Acquired deep-scan. 25-year arc: decentralized \u2192 X incubator \u2192 Brain + DeepMind dual structure \u2192 merger."
+      "notes": "Added layer: Historical AI Org Evolution from Acquired deep-scan. 25-year arc: decentralized → X incubator → Brain + DeepMind dual structure → merger."
     },
     {
       "specimenId": "sierra-ai",
@@ -625,7 +625,7 @@
       "curatedIn": "2026-01-31-deep-scan-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "NEW: Model 6a, Contextual. -20K headcount via AI automation of middle office. Stub \u2014 single source."
+      "notes": "NEW: Model 6a, Contextual. -20K headcount via AI automation of middle office. Stub — single source."
     },
     {
       "specimenId": "atlassian",
@@ -641,7 +641,7 @@
       "curatedIn": "2026-01-31-tier2-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "NEW: Model 6a, Contextual. AI pivot restructuring \u2014 700-800 jobs cut (15% workforce). Low confidence."
+      "notes": "NEW: Model 6a, Contextual. AI pivot restructuring — 700-800 jobs cut (15% workforce). Low confidence."
     },
     {
       "specimenId": "dow",
@@ -649,7 +649,7 @@
       "curatedIn": "2026-01-31-tier2-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "NEW: Model 6a, Contextual. 'Transform to Outperform' \u2014 4,500 jobs cut, C3 AI platform. Stub."
+      "notes": "NEW: Model 6a, Contextual. 'Transform to Outperform' — 4,500 jobs cut, C3 AI platform. Stub."
     },
     {
       "specimenId": "mercor",
@@ -665,7 +665,7 @@
       "curatedIn": "2026-01-31-tier2-curation.md",
       "status": "synthesized",
       "synthesizedIn": "2026-02-01-synthesis.md",
-      "notes": "Added layer: Dual AI Leadership \u2014 Chief AI & Transformation Officer (Eric Hysen, ex-DHS CAIO). Added Mechanism #9. Government-to-corporate CAIO pipeline."
+      "notes": "Added layer: Dual AI Leadership — Chief AI & Transformation Officer (Eric Hysen, ex-DHS CAIO). Added Mechanism #9. Government-to-corporate CAIO pipeline."
     },
     {
       "specimenId": "anthropic",
@@ -745,7 +745,7 @@
       "curatedIn": "taxonomy-audit-2026-02-02",
       "status": "synthesized",
       "synthesizedIn": "2026-02-02-synthesis.md",
-      "notes": "RECLASSIFIED: M7 (Tiger Teams) \u2192 M5a (Internal Incubator). Permanence guardrail: 13-year program is not ad hoc."
+      "notes": "RECLASSIFIED: M7 (Tiger Teams) → M5a (Internal Incubator). Permanence guardrail: 13-year program is not ad hoc."
     },
     {
       "specimenId": "eli-lilly",
@@ -753,7 +753,7 @@
       "curatedIn": "taxonomy-audit-2026-02-02",
       "status": "synthesized",
       "synthesizedIn": "2026-02-02-synthesis.md",
-      "notes": "RECLASSIFIED: M1 (Research Lab) \u2192 M4 (Hub-and-Spoke). Federation guardrail: multiple decentralized hubs with central coordination. Type specimen status removed."
+      "notes": "RECLASSIFIED: M1 (Research Lab) → M4 (Hub-and-Spoke). Federation guardrail: multiple decentralized hubs with central coordination. Type specimen status removed."
     },
     {
       "specimenId": "roche-genentech",
@@ -761,7 +761,7 @@
       "curatedIn": "taxonomy-audit-2026-02-02",
       "status": "synthesized",
       "synthesizedIn": "2026-02-02-synthesis.md",
-      "notes": "RECLASSIFIED: M1 (Research Lab) \u2192 M3 (Embedded Teams). Research-work-vs-structure guardrail: Lab in a Loop embeds into wet lab teams. Confidence lowered to Low. Added to low-confidence research queue."
+      "notes": "RECLASSIFIED: M1 (Research Lab) → M3 (Embedded Teams). Research-work-vs-structure guardrail: Lab in a Loop embeds into wet lab teams. Confidence lowered to Low. Added to low-confidence research queue."
     },
     {
       "specimenId": "intercom",
@@ -769,7 +769,7 @@
       "curatedIn": "taxonomy-audit-2026-02-02",
       "status": "synthesized",
       "synthesizedIn": "2026-02-02-synthesis.md",
-      "notes": "RECLASSIFIED orientation: Temporal \u2192 Contextual. One-time-event guardrail: 72-hour pivot was not recurring temporal cycling."
+      "notes": "RECLASSIFIED orientation: Temporal → Contextual. One-time-event guardrail: 72-hour pivot was not recurring temporal cycling."
     },
     {
       "specimenId": "harvey-ai",
@@ -888,8 +888,7 @@
       "action": "created",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch7.md",
       "notes": "NEW: Model 5, Structural. AI-first spin-off strategy: T Factory (AI data center), AI Data Corp, Atom AI. Asian telecom AI diversification."
     },
     {
@@ -897,8 +896,7 @@
       "action": "created",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch5.md",
       "notes": "NEW: Model 4, Structural. Military hub-and-spoke: CDAO as hub, services as spokes. DOGE threat. Task Force Lima."
     },
     {
@@ -906,8 +904,7 @@
       "action": "created",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch5.md",
       "notes": "NEW: Model 2, Contextual. State government CAIO appointment. Stub."
     },
     {
@@ -915,8 +912,7 @@
       "action": "evolution",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch8.md",
       "notes": "MAJOR UPDATE: Cross-session merge (sessions 001-003). MSL 4-unit structure, Wang CAIO, LeCun departure, Q4 2025 earnings, Reality Labs retreat. Completeness→High, confidence→High. 7 layers, 28 sources."
     },
     {
@@ -924,8 +920,7 @@
       "action": "updated",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch8.md",
       "notes": "Added Nabla healthcare partnership, timeline details, 'fudged' benchmarks quote. Fixed structuralModel 9→1."
     },
     {
@@ -933,8 +928,7 @@
       "action": "updated",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch9.md",
       "notes": "Added CEO Bill Ready quote, additional sources (Yahoo Finance, Retail Dive, CBS News). Confirmed ~780 headcount."
     },
     {
@@ -942,8 +936,7 @@
       "action": "updated",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch3.md",
       "notes": "Added CEO Parekh quote, 2 new sources (IndianWeb2, India Infoline). Topaz Fabric integration confirmed."
     },
     {
@@ -951,8 +944,7 @@
       "action": "updated",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch8.md",
       "notes": "Added 4 new IPO sources (Fortune, OpenTools, FinancialContent, JDP Global). $350B valuation, Kalshi 72% odds, $50B data center."
     },
     {
@@ -960,8 +952,7 @@
       "action": "updated",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch8.md",
       "notes": "Cross-session merge (sessions 001, 003). Stratechery source (OpenAI = 45% Azure RPO). Q2 FY2026 earnings layer enriched."
     },
     {
@@ -969,8 +960,7 @@
       "action": "updated",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch8.md",
       "notes": "Q4 2025 pre-earnings layer. AWS backlog $200B, Project Rainier, $150B+ CapEx."
     },
     {
@@ -978,8 +968,7 @@
       "action": "updated",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch8.md",
       "notes": "Q3 2025 results + identity narrative shift. Gemini 650M MAU, 7B tokens/min. 'AI company that monetizes through advertising' reframing."
     },
     {
@@ -987,8 +976,7 @@
       "action": "updated",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch9.md",
       "notes": "Q3 FY2026 earnings layer. Agentforce 5,000+ deals. 'Digital labor' positioning. Data Cloud 120% growth."
     },
     {
@@ -996,8 +984,7 @@
       "action": "evolution",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch3.md",
       "notes": "RECLASSIFIED: M2→M4 (Hub-and-Spoke). Reinvention Services consolidation. $865M restructuring, 11K layoffs + 77K AI hires. CEO Sweet 'exiting non-reskillable' quote."
     },
     {
@@ -1005,8 +992,7 @@
       "action": "created",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch3.md",
       "notes": "NEW: Model 4, Contextual. TravAI platform, 20K users, 30% handle time reduction. Insurance industry — most operationally specific non-tech AI deployment."
     },
     {
@@ -1014,8 +1000,7 @@
       "action": "created",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch7.md",
       "notes": "NEW: Model 4, Contextual. 'AI Control Tower' positioning. $600M Now Assist revenue. 'Obliterate 20th century org charts' quote."
     },
     {
@@ -1023,8 +1008,7 @@
       "action": "created",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch7.md",
       "notes": "NEW: Model 4, Structural. Portfolio Businesses restructuring + Nokia Defense incubation. European industrial AI."
     },
     {
@@ -1032,8 +1016,7 @@
       "action": "evolution",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch6.md",
       "notes": "RECLASSIFIED: M2→M4 (Hub-and-Spoke). CoreAI platform hub. €17.4B revenue. 73% AI-powered operating model. Multi-vendor AI strategy."
     },
     {
@@ -1041,8 +1024,7 @@
       "action": "created",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch9.md",
       "notes": "NEW: Model 6a, Contextual. 1,750 layoffs (8.5%) citing AI. AI-washing data point. Stub."
     },
     {
@@ -1050,9 +1032,757 @@
       "action": "created",
       "curatedIn": "2026-02-04-curation.md",
       "status": "synthesized",
-      "synthesizedIn": "2026-02-04-synthesis-batched.md",
-      "synthesizedIn": null,
+      "synthesizedIn": "2026-02-09-synthesis-batch3.md",
       "notes": "NEW: Model 2, Structural. First healthcare system specimen. Joint AI CoE spanning 14 hospitals + academic partner. Stub."
+    },
+    {
+      "specimenId": "apple",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch8.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "anduril",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch5.md",
+      "notes": "M9 AI-Native, Structural"
+    },
+    {
+      "specimenId": "bloomberg",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch1.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Contextual"
+    },
+    {
+      "specimenId": "blue-origin",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch5.md",
+      "notes": "M6 Unnamed/Informal, Contextual"
+    },
+    {
+      "specimenId": "bmw",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch4.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Contextual"
+    },
+    {
+      "specimenId": "cvs-health",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch1.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Contextual"
+    },
+    {
+      "specimenId": "deere-and-co",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch4.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "delta-air-lines",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch5.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Contextual"
+    },
+    {
+      "specimenId": "disney",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch6.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "exxonmobil",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch4.md",
+      "notes": "M6 Unnamed/Informal, Contextual"
+    },
+    {
+      "specimenId": "fedex",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch5.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Contextual"
+    },
+    {
+      "specimenId": "ford",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch4.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "general-motors",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch4.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "honda",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch4.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "honeywell",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch4.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "intel",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch8.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "kroger",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch6.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "lockheed-martin",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch5.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "lowes",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch6.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "mayo-clinic",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch1.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "mercedes-benz",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch4.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "mount-sinai-health-system",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch1.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "netflix",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch6.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Contextual"
+    },
+    {
+      "specimenId": "nike",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch6.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Contextual"
+    },
+    {
+      "specimenId": "pepsico",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch6.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Contextual"
+    },
+    {
+      "specimenId": "progressive",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch2.md",
+      "notes": "M6 Unnamed/Informal, Contextual"
+    },
+    {
+      "specimenId": "sutter-health",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch1.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "t-mobile",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch7.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "toyota",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch4.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "uber",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch7.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "ulta-beauty",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch6.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Contextual"
+    },
+    {
+      "specimenId": "unitedhealth-group",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch3.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "visa",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch1.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "accenture",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch3.md",
+      "notes": "M6 Unnamed/Informal, Contextual"
+    },
+    {
+      "specimenId": "amazon-agi",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch8.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "bank-of-america",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch2.md",
+      "notes": "M6 Unnamed/Informal, Contextual"
+    },
+    {
+      "specimenId": "chegg",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch7.md",
+      "notes": "MNone Unknown, None"
+    },
+    {
+      "specimenId": "citigroup",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch1.md",
+      "notes": "M6 Unnamed/Informal, Contextual"
+    },
+    {
+      "specimenId": "cognizant",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch3.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "crowdstrike",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch9.md",
+      "notes": "MNone Unknown, None"
+    },
+    {
+      "specimenId": "dow-chemical",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch4.md",
+      "notes": "M6 Unnamed/Informal, None"
+    },
+    {
+      "specimenId": "eli-lilly",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch2.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "genpact",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch3.md",
+      "notes": "M5 Product/Venture Lab, Structural"
+    },
+    {
+      "specimenId": "goldman-sachs",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch1.md",
+      "notes": "M6 Unnamed/Informal, Contextual"
+    },
+    {
+      "specimenId": "google-deepmind",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch8.md",
+      "notes": "M1 Research Lab, Structural"
+    },
+    {
+      "specimenId": "hp-inc",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch9.md",
+      "notes": "M6 Unnamed/Informal, Contextual"
+    },
+    {
+      "specimenId": "jpmorgan",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch1.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "kyndryl",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch7.md",
+      "notes": "M2 Center of Excellence, Structural"
+    },
+    {
+      "specimenId": "lionsgate",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch6.md",
+      "notes": "M2 Center of Excellence, Structural"
+    },
+    {
+      "specimenId": "meta-reality-labs",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "deprecated",
+      "synthesizedIn": "2026-02-09-synthesis-batch8.md",
+      "notes": "M1 Research Lab, Temporal. DEPRECATED 2026-02-12: merged into meta-ai."
+    },
+    {
+      "specimenId": "moderna",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch2.md",
+      "notes": "M6 Unnamed/Informal, Contextual"
+    },
+    {
+      "specimenId": "morgan-stanley",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch1.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "nasa",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch5.md",
+      "notes": "M2 Center of Excellence, Structural"
+    },
+    {
+      "specimenId": "new-york-state",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch5.md",
+      "notes": "M2 Center of Excellence, Contextual"
+    },
+    {
+      "specimenId": "novo-nordisk",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch2.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "panasonic",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch7.md",
+      "notes": "M2 Center of Excellence, Structural"
+    },
+    {
+      "specimenId": "pfizer",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch2.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "pinterest",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch9.md",
+      "notes": "M6 Unnamed/Informal, Contextual"
+    },
+    {
+      "specimenId": "recruit-holdings",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch7.md",
+      "notes": "M6 Unnamed/Informal, None"
+    },
+    {
+      "specimenId": "roche-genentech",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch2.md",
+      "notes": "M3 Embedded Teams, Structural"
+    },
+    {
+      "specimenId": "salesforce",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch9.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "sanofi",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch3.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "sap",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch9.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "thomson-reuters",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch7.md",
+      "notes": "M6 Unnamed/Informal, Contextual"
+    },
+    {
+      "specimenId": "ubs",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch2.md",
+      "notes": "M2 Center of Excellence, Structural"
+    },
+    {
+      "specimenId": "us-air-force",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch5.md",
+      "notes": "M2 Center of Excellence, Structural"
+    },
+    {
+      "specimenId": "us-cyber-command",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch5.md",
+      "notes": "M2 Center of Excellence, Structural"
+    },
+    {
+      "specimenId": "washington-post",
+      "action": "new",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch6.md",
+      "notes": "M6 Unnamed/Informal, Temporal"
+    },
+    {
+      "specimenId": "wells-fargo",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch2.md",
+      "notes": "M4 Hybrid/Hub-and-Spoke, Structural"
+    },
+    {
+      "specimenId": "workday",
+      "action": "updated",
+      "curatedIn": "2026-02-09-overnight-curate.md",
+      "status": "synthesized",
+      "synthesizedIn": "2026-02-09-synthesis-batch9.md",
+      "notes": "M6 Unnamed/Informal, Contextual"
+    },
+    {
+      "specimenId": "thomson-reuters",
+      "action": "reclassified",
+      "curatedIn": "2026-02-12-curation.md",
+      "status": "pending",
+      "notes": "Reclassified M6a→M4. Added 7 sources, 4 quotes, 4 mechanisms. Platform+embedded model under acqui-hire CTO."
+    },
+    {
+      "specimenId": "crowdstrike",
+      "action": "reclassified",
+      "curatedIn": "2026-02-12-curation.md",
+      "status": "pending",
+      "notes": "Classified null→M3. CTO-led embedded AI with Charlotte AI multi-agent architecture."
+    },
+    {
+      "specimenId": "recruit-holdings",
+      "action": "reclassified",
+      "curatedIn": "2026-02-12-curation.md",
+      "status": "pending",
+      "notes": "Reclassified M6→M3/Contextual. Dual-hat CEO pattern, Glassdoor absorption, product-embedded AI."
+    },
+    {
+      "specimenId": "hp-inc",
+      "action": "reclassified",
+      "curatedIn": "2026-02-12-curation.md",
+      "status": "pending",
+      "notes": "Reclassified M6→M4. Three-pillar AI: HP IQ (Humane acqui-hire), HP Labs, divisional embedding."
+    },
+    {
+      "specimenId": "panasonic",
+      "action": "reclassified",
+      "curatedIn": "2026-02-12-curation.md",
+      "status": "pending",
+      "notes": "Reclassified M2→M4. CAIO + Blue Yonder subsidiary + Business CEO dual-hat mechanism."
+    },
+    {
+      "specimenId": "kyndryl",
+      "action": "enriched",
+      "curatedIn": "2026-02-12-curation.md",
+      "status": "pending",
+      "notes": "M2 confirmed, upgraded Low→Medium. Practice-based model, 9 key leaders, alliance-driven agents."
+    },
+    {
+      "specimenId": "cedars-sinai",
+      "action": "new",
+      "curatedIn": "2026-02-12-curation-b.md",
+      "status": "pending",
+      "notes": "M4 Hub-and-Spoke + M1 secondary, Structural. Dual-reporting CAIO, AI Council governance, CAIRE research center, 3 informatics officers."
+    },
+    {
+      "specimenId": "kaiser-permanente",
+      "action": "new",
+      "curatedIn": "2026-02-12-curation-b.md",
+      "status": "pending",
+      "notes": "M4 Hub-and-Spoke, Contextual. Integrated payer-provider, dual-hat CMIO/CAIO. Low confidence — thin data."
+    },
+    {
+      "specimenId": "mass-general-brigham",
+      "action": "new",
+      "curatedIn": "2026-02-12-curation-b.md",
+      "status": "pending",
+      "notes": "M4 Hub-and-Spoke + M5 secondary, Structural. 1,800+ digital staff under CDIO, cross-functional AI team, AIwithCare spinout."
+    },
+    {
+      "specimenId": "mckinsey",
+      "action": "new",
+      "curatedIn": "2026-02-12-curation-b.md",
+      "status": "pending",
+      "notes": "M4 Hub-and-Spoke + M2 secondary, Contextual. 60K entities (40K human + 25K AI agents), QuantumBlack 40% revenue, outcome-based partnerships."
+    },
+    {
+      "specimenId": "amazon-agi",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "meta-ai",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "nvidia",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "bosch-bcai",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "google-ai-infra",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "wells-fargo",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "pentagon-cdao",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "sap",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "cvs-health",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "apple",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "salesforce",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "servicenow",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "accenture-openai",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "netflix",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "uber",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "nike",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
+    },
+    {
+      "specimenId": "fedex",
+      "action": "reclassified",
+      "curatedIn": "m4-taxonomy-audit-2026-02-12",
+      "status": "pending",
+      "notes": "M4 taxonomy audit reclassification"
     }
   ]
 }

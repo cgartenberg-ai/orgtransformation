@@ -1,0 +1,112 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "accenture",
+  "name": "Accenture plc",
+  "title": "Reskilling-or-Exit Approach to AI Workforce Transformation",
+
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual Ambidexterity",
+    "confidence": "Low",
+    "classificationRationale": "The available data shows Accenture executing a large-scale workforce transformation (11,000 role cuts) tied to AI-driven work changes, with a reskilling-or-exit mandate from the CEO. This suggests enterprise-wide adoption rather than a named lab or center of excellence. The approach appears contextual—expecting individuals to adapt to AI-changed work within their roles rather than creating separate exploration units. However, we have no visibility into formal AI organizational structure, making this classification provisional.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Professional Services",
+    "sector": "Consulting & Technology Services",
+    "orgSize": "Enterprise",
+    "employees": 733000,
+    "revenue": "$64.1B (FY2024)",
+    "headquarters": "Dublin, Ireland",
+    "geography": "Global"
+  },
+
+  "description": "Accenture is executing a significant workforce transformation tied to AI-driven changes in how work is performed. In December 2025, the company announced approximately 11,000 role cuts as part of restructuring.\n\nCEO Julie Sweet's statement that 'those we cannot reskill will be exited' signals a decisive approach to AI adoption—the organization expects employees to adapt to AI-augmented work, with clear consequences for those who cannot. This suggests a contextual ambidexterity approach where individuals must balance exploration (learning new AI-enabled ways of working) with execution (delivering client work).\n\nThe scale of workforce changes (11,000 roles in a 733,000-person company) and the reskilling mandate suggest enterprise-wide transformation rather than a bounded AI initiative. However, we lack visibility into formal AI team structures, governance, or how AI exploration vs. deployment is organizationally managed.",
+
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [],
+
+  "quotes": [
+    {
+      "text": "those we cannot reskill will be exited",
+      "speaker": "Julie Sweet",
+      "role": "CEO",
+      "date": "2025-12",
+      "sourceId": "accenture-cbs-2026-02",
+      "context": "On 11,000 role cuts tied to AI-driven work changes"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "AI-Driven Workforce Restructuring",
+      "summary": "Accenture announced 11,000 role cuts in December 2025 as part of restructuring tied to AI-driven work changes. CEO Julie Sweet articulated a reskilling-or-exit policy, signaling enterprise-wide expectation that employees adapt to AI-changed work.",
+      "sourceRefs": ["accenture-cbs-2026-02"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "accenture-cbs-2026-02",
+      "name": "CBS News: AI Layoffs 2026",
+      "type": "Press",
+      "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "sourceDate": "2026-02-05",
+      "collectedDate": "2026-02-07"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low. Consulting firm — sells services, not legacy infrastructure. Modern tooling is a competitive requirement."
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": 0.7,
+    "speedVsDepth": 0.5,
+    "centralVsDistributed": -0.2,
+    "namedVsQuiet": 0.6,
+    "longVsShortHorizon": 0.3
+  },
+
+  "openQuestions": [
+    "What is Accenture's formal AI organizational structure? Do they have a named AI lab, CoE, or is it distributed?",
+    "How is AI exploration (new capabilities, R&D) distinguished from AI deployment in client work?",
+    "What does the reskilling program actually look like—centralized training, on-the-job, external partnerships?",
+    "How are the 11,000 role cuts distributed across functions and geographies?",
+    "What metrics does Accenture use to assess AI adoption success internally?"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] Professional services firms like Accenture present a taxonomy challenge: their AI structure serves both internal transformation AND client delivery. The 'reskilling-or-exit' framing suggests contextual ambidexterity at the individual level—consultants must adapt to AI-augmented work—but we cannot see whether exploration happens in separate units.",
+    "[2026-02] The CEO's stark 'reskilling-or-exit' language is unusually direct for workforce AI messaging. Most enterprises emphasize opportunity; Accenture is signaling consequences. This may reflect consulting's competitive talent dynamics or a deliberate cultural choice.",
+    "[2026-02] With only workforce reduction data, we cannot distinguish between M2 (CoE driving adoption), M4 (hub-and-spoke), or M6a (enterprise-wide). Accenture likely has formal AI structure given its scale, but current data only reveals the workforce impact, not the organizational design driving it."
+  ],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

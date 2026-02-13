@@ -1,0 +1,23 @@
+{
+  "specimenId": "ups",
+  "scannedDate": "2026-02-07",
+  "quality": "rich",
+  "claimCount": 14,
+  "claimTypeDistribution": {
+    "utopian": 0,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 9,
+    "survival": 2,
+    "commercial-success": 3
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

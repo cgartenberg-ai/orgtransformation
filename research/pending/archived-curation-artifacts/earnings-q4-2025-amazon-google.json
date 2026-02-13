@@ -1,0 +1,272 @@
+{
+  "taskId": "earnings-q4-2025-amazon-google",
+  "scannedDate": "2026-02-07",
+  "sessionType": "earnings",
+  "searchesCompleted": 5,
+  "urlsFetched": 8,
+  "fetchFailures": [
+    { "url": "https://www.cnbc.com/2026/02/05/amazon-amzn-q4-earnings-report-2025.html", "reason": "JS-rendered, returned CSS only" },
+    { "url": "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q4-2025/", "reason": "JS-rendered, returned CSS only" },
+    { "url": "https://www.insidermonkey.com/blog/alphabet-inc-nasdaqgoogl-q4-2025-earnings-call-transcript-1689466/", "reason": "JS-rendered, returned CSS only" },
+    { "url": "https://finance.yahoo.com/news/alphabet-q4-earnings-call-highlights-235256741.html", "reason": "JS-rendered, returned CSS only" },
+    { "url": "https://www.androidcentral.com/phones/google-pixel/alphabet-google-q4-2025-earnings-call", "reason": "JS-rendered, returned CSS only" }
+  ],
+  "companies": [
+    {
+      "id": "amazon",
+      "ticker": "AMZN",
+      "specimenSlug": "amazon-agi",
+      "quarter": "Q4 2025",
+      "earningsDate": "2026-02-05",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "$200B 2026 CapEx plan — largest single-year corporate infrastructure commitment",
+          "detail": "Amazon announced approximately $200 billion in planned 2026 capital expenditures, predominantly for AWS. This represents an unprecedented corporate infrastructure commitment, driven by AI compute demand. The scale dwarfs Google's $175-185B plan and Meta's $115-135B plan, making Amazon the largest AI infrastructure spender.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "AWS added more data center capacity than any other company in 2025",
+          "detail": "Amazon added 3.99 gigawatts of power capacity in 2025 — twice what they had in 2022 — and expects to double it again by 2027. Added 1.2 gigawatts in Q4 alone (quarter over quarter). All new capacity is immediately utilized by customers.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "$730M Q4 severance charge across all three segments",
+          "detail": "Amazon recorded $730 million in estimated severance costs in Q4 2025, affecting all three business segments (AWS, North America, International). This follows the 16,000-person layoff announced in January 2026 and the 14,000-person layoff from October 2025, totaling approximately 30,000 corporate roles cut — nearly 10% of previous corporate headcount.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "workforce"
+        },
+        {
+          "title": "Jassy frames workforce reduction as structural shift: fewer people in some jobs, more in others",
+          "detail": "Andy Jassy stated the company would shrink white-collar jobs as it invests in AI agents, framing it not as a temporary cut but a permanent structural reallocation. The 30,000 total cuts (16K Jan 2026 + 14K Oct 2025) represent roughly 10% of corporate headcount. The stated rationale was 'reducing layers, increasing ownership and removing bureaucracy.'",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+          "sourceDate": "2026-02-06",
+          "keywordCategory": "workforce"
+        },
+        {
+          "title": "AWS backlog hits $244B, up 40% YoY — fastest growth in 13 quarters",
+          "detail": "AWS revenue grew 24% in Q4 to $35.58 billion, exceeding analyst estimates of $34.93 billion. Jassy called it AWS's 'fastest growth in 13 quarters.' AWS backlog reached $244 billion, up 40% year over year, with strong demand for both AI and core AWS services.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "Bedrock reaches multibillion-dollar ARR, 60% QoQ growth in customer spend",
+          "detail": "Amazon Bedrock (managed AI model service) reached a multibillion-dollar annualized run rate, with customer spend growing 60% quarter over quarter. This positions Bedrock as a major enterprise AI platform competing with Google's Vertex AI and Microsoft's Azure AI.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "Trainium custom chips: 1.4M deployed, multibillion-dollar ARR, 100%+ YoY growth",
+          "detail": "Amazon's custom Trainium AI chips reached 1.4 million deployed, multibillion-dollar run rate, and 100%+ year-over-year growth. Jassy claims 30-40% better price performance than comparable GPUs. Combined with Graviton (40% better price-per-performance than x86, 90% of top 1,000 AWS customers using it), Amazon is building a vertical integration strategy in AI compute.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "Over 1,000 AI applications deployed or in development across Amazon businesses",
+          "detail": "Amazon reported over 1,000 AI applications deployed or in development across its businesses, indicating deeply embedded AI across retail, logistics, AWS, and advertising — not just AWS. Key examples: Rufus shopping assistant (300M customers, 60% higher purchase completion), Curo coding agent (150% QoQ growth in developer usage), plus AWS DevOps and security agents.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "deployment"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "We will need fewer people doing some of the jobs that are being done today, and more people doing other types of jobs.",
+          "speaker": "Andy Jassy, CEO",
+          "context": "Statement on AI-driven workforce changes (memo/interview, cited in CBS News coverage)",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/"
+        },
+        {
+          "text": "In 2025, AWS added more data center capacity than any other company in the world.",
+          "speaker": "Andy Jassy, CEO",
+          "context": "Prepared remarks, Q4 2025 earnings call",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/"
+        },
+        {
+          "text": "Every customer experience that we know of today is gonna be reinvented. With AI, there are gonna be a whole bunch of customer experience none of us ever imagined that are gonna become the norms of how we operate.",
+          "speaker": "Andy Jassy, CEO",
+          "context": "Prepared remarks, Q4 2025 earnings call",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/"
+        },
+        {
+          "text": "Trainium has 30% to 40% better price performance than comparable GPUs, so it's very compelling to customers.",
+          "speaker": "Andy Jassy, CEO",
+          "context": "Q&A response to Douglas Anmuth, Q4 2025 earnings call",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/"
+        },
+        {
+          "text": "We see strong return on invested capital. We see strong demand for these services, and we continue to like the investments in this area.",
+          "speaker": "Brian Olsavsky, CFO",
+          "context": "Q&A on returns on invested capital, Q4 2025 earnings call",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/"
+        },
+        {
+          "text": "We are putting into service with customers all capacity that we are getting, and it's immediately useful.",
+          "speaker": "Brian Olsavsky, CFO",
+          "context": "Prepared remarks, Q4 2025 earnings call",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/"
+        }
+      ],
+      "keyFindings": "Amazon's Q4 2025 reveals the full scale of the Jassy Contradiction: simultaneous $200B CapEx commitment (largest corporate infrastructure spend ever) alongside 30,000 corporate job cuts (~10% of corporate headcount) with a $730M severance charge. The structural signal is that Amazon is reallocating human capital to AI capital at unprecedented scale. AWS is now the largest cloud provider by infrastructure capacity (3.99 GW), with custom silicon (Trainium 1.4M chips deployed) creating vertical integration in AI compute. Over 1,000 AI applications deployed internally suggests deeply embedded contextual AI adoption, not just centralized R&D."
+    },
+    {
+      "id": "google",
+      "ticker": "GOOGL",
+      "specimenSlug": "google-deepmind",
+      "quarter": "Q4 2025",
+      "earningsDate": "2026-02-04",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "$175-185B 2026 CapEx guidance — nearly doubling 2025 spend",
+          "detail": "Alphabet plans $175-185 billion in 2026 capital expenditures, up from $91.4B in 2025 — nearly doubling. Breakdown: 60% servers/compute, 40% data centers/networking. Half of ML compute is allocated to Cloud business. This is the second-largest corporate AI infrastructure commitment after Amazon's $200B plan.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "50% of Google's code now written by AI agents",
+          "detail": "CFO Anat Ashkenazi revealed that approximately 50% of Google's code is now written by AI agents, with human engineers reviewing the output. This is a major structural finding — it implies a fundamental shift in the engineering workforce composition: engineers are transitioning from code producers to code reviewers/supervisors. The productivity implications for headcount are enormous.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "Gemini reaches 750M MAU, up from 650M in Q3 — Gemini 3 Pro processes 3x daily tokens",
+          "detail": "Gemini app reached 750 million monthly active users (+100M in Q4, up from 650M reported in Q3). Gemini 3 Pro processes 3x daily tokens vs. Gemini 2.5 Pro. The platform now processes over 10 billion tokens per minute via direct API use. This positions Gemini as the most widely used AI assistant by MAU.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "Gemini serving costs reduced 78% in 2025",
+          "detail": "Pichai announced that Gemini serving unit costs were lowered by 78% over 2025 through model optimizations, efficiency improvements, and utilization improvements. This dramatic cost reduction is a critical enabler of deployment at scale — it makes embedding AI in every product economically viable.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "Google Cloud backlog surges to $240B (up 55% QoQ), revenue grows 48%",
+          "detail": "Google Cloud Q4 revenue reached $17.66 billion, growing 48% year over year (up from $11.96B YoY). Annual run rate exceeded $70 billion. Backlog surged to $240 billion, up 55% quarter over quarter, driven by enterprise AI demand. This represents a significant acceleration from the $155B backlog reported in Q3.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "Gemini Enterprise: 8M paid seats across 2,800+ companies, 5B customer interactions in Q4",
+          "detail": "Gemini Enterprise reached 8 million paid seats sold to over 2,800 companies, managing 5 billion customer interactions in Q4 alone. This represents significant enterprise AI platform adoption and positions Google Cloud as a major enterprise AI provider alongside Microsoft and Amazon.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "AI Mode queries doubled daily in US, 3x longer than traditional searches",
+          "detail": "AI Mode queries doubled daily usage in the US and are 3x longer than traditional searches. This signals that AI is not just supplementing Search — it is changing the fundamental interaction pattern. Longer queries suggest users are treating Search more like a reasoning assistant than a link-finding tool.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "Pichai expects supply-constrained AI compute throughout 2026",
+          "detail": "Pichai stated he expects Google to be supply-constrained on AI compute capacity throughout 2026, even with the massive $175-185B CapEx plan. This suggests demand for AI infrastructure is outpacing even the most aggressive buildout in corporate history.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "Agentic commerce: Chrome Auto Browse and Universal Commerce Protocol",
+          "detail": "Google announced Chrome reimagined as an AI-first, agentic browser via Chrome Auto Browse. Also introduced Universal Commerce Protocol — a new open standard for agentic commerce. Plus Project Genie for interactive world generation using Genie 3. These represent Google's bet that agentic AI will reshape consumer interaction patterns.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "Continued hiring in AI and Cloud investment areas",
+          "detail": "CFO Ashkenazi stated Google is 'planning to continue hiring in key investment areas such as AI and cloud,' in contrast to many peers (Amazon, Meta) who are cutting headcount. This suggests Google is currently in a growth-hiring mode for AI talent rather than a restructuring mode.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "workforce"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "I do [expect] to go through the year in a supply constrained way.",
+          "speaker": "Sundar Pichai, CEO",
+          "context": "Q&A, Q4 2025 earnings call — on whether AI compute capacity will be sufficient in 2026",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/"
+        },
+        {
+          "text": "Our AI investments and infrastructure drive revenue and growth across the board.",
+          "speaker": "Sundar Pichai, CEO",
+          "context": "Prepared remarks, Q4 2025 earnings call",
+          "sourceUrl": "https://9to5google.com/2026/02/04/alphabet-q4-2025-earnings/"
+        },
+        {
+          "text": "We're also planning to continue hiring in key investment areas such as AI and cloud.",
+          "speaker": "Anat Ashkenazi, CFO",
+          "context": "Prepared remarks, Q4 2025 earnings call",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/"
+        }
+      ],
+      "keyFindings": "Google's Q4 2025 reveals three structurally important signals: (1) The '50% of code written by AI agents' claim is the most concrete evidence yet that AI is restructuring the engineering labor process at a major tech company — engineers becoming supervisors of AI output rather than primary producers. (2) The $175-185B CapEx plan, combined with Pichai's admission of supply constraints, shows that even the largest AI investments cannot keep pace with demand. (3) Google Cloud's backlog jumping from $155B to $240B in one quarter (+55%) and Gemini reaching 750M MAU suggest Google's AI platform strategy is achieving escape velocity. Unlike Amazon, Google is still hiring for AI/Cloud — a divergent workforce strategy worth tracking."
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "CapEx arms race reaches unprecedented scale",
+      "detail": "Amazon ($200B), Google ($175-185B), Meta ($115-135B), and Microsoft ($37.5B/quarter) are collectively committing over $600B in 2026 AI infrastructure CapEx. This exceeds the GDP of many nations and represents the largest coordinated private infrastructure buildout in history.",
+      "companies": ["amazon", "google", "meta", "microsoft"]
+    },
+    {
+      "trend": "Divergent workforce strategies: cutting vs. hiring for AI",
+      "detail": "Amazon is cutting 30,000 corporate jobs while massively expanding AI infrastructure. Google is explicitly hiring for AI and Cloud. Both are investing at similar scale but making opposite workforce bets. This divergence suggests different organizational theories about whether AI augments or replaces human labor.",
+      "companies": ["amazon", "google"]
+    },
+    {
+      "trend": "Supply-constrained AI compute despite record buildout",
+      "detail": "Both Pichai (Google) and Olsavsky (Amazon) indicated that AI compute demand exceeds supply even as they invest at record levels. Pichai explicitly expects supply constraints throughout 2026. Amazon says all new capacity is immediately utilized. This suggests the AI infrastructure buildout has not peaked.",
+      "companies": ["amazon", "google"]
+    },
+    {
+      "trend": "Cloud backlog acceleration signals enterprise AI adoption inflection",
+      "detail": "AWS backlog hit $244B (up 40% YoY), Google Cloud backlog hit $240B (up 55% QoQ from $155B). Combined with Google's 8M Gemini Enterprise paid seats and Amazon's Bedrock multibillion-dollar ARR, enterprise AI is moving from pilot to production at scale.",
+      "companies": ["amazon", "google"]
+    },
+    {
+      "trend": "Agentic AI as next deployment paradigm",
+      "detail": "Both companies are investing heavily in agentic AI: Amazon with Rufus (300M customers), Curo coding agent, and DevOps agents; Google with Chrome Auto Browse, Universal Commerce Protocol, and AI Mode queries. The shift from chatbots to autonomous agents signals a new phase of AI deployment.",
+      "companies": ["amazon", "google"]
+    },
+    {
+      "trend": "Custom silicon as vertical integration strategy",
+      "detail": "Amazon's Trainium (1.4M chips, 30-40% better price/performance than GPUs) and Google's TPUs represent a vertical integration strategy that reduces dependence on Nvidia. Both companies are building proprietary chip stacks to lower AI serving costs — Google achieved 78% cost reduction in Gemini serving in 2025.",
+      "companies": ["amazon", "google"]
+    }
+  ],
+  "purposeClaimsDiscovered": [
+    {
+      "specimenSlug": "amazon-agi",
+      "speaker": "Andy Jassy, CEO",
+      "text": "Every customer experience that we know of today is gonna be reinvented. With AI, there are gonna be a whole bunch of customer experience none of us ever imagined that are gonna become the norms of how we operate.",
+      "claimType": "utopian",
+      "context": "Prepared remarks, Q4 2025 earnings call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "specimenSlug": "amazon-agi",
+      "speaker": "Andy Jassy, CEO",
+      "text": "We will need fewer people doing some of the jobs that are being done today, and more people doing other types of jobs.",
+      "claimType": "sacrifice-justification",
+      "context": "Statement on AI-driven workforce changes (memo/interview)",
+      "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/"
+    }
+  ]
+}

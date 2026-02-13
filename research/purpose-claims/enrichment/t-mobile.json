@@ -1,0 +1,35 @@
+{
+  "specimenId": "t-mobile",
+  "scannedDate": "2026-02-13",
+  "quality": "rich",
+  "claimCount": 14,
+  "claimTypeDistribution": {
+    "utopian": 5,
+    "teleological": 0,
+    "higher-calling": 1,
+    "identity": 3,
+    "survival": 1,
+    "commercial-success": 4
+  },
+  "keyFindings": [
+    "T-Mobile shows a clear CEO succession rhetorical shift: Sievert used maximalist, identity-defining language ('completely revolutionize,' 'customer love,' 'tech company not telecom') while successor Gopalan uses pragmatic, execution-oriented language ('the objective is simple \u2014 personalize the experience'). This is a textbook transition from exploration-authorizing rhetoric to execution-legitimizing rhetoric.",
+    "Sievert's rhetorical portfolio is unusually diverse for telecom \u2014 spanning utopian (unprecedented moment), identity (telecom-to-tech transformation), survival (AI demand overwhelming networks), higher-calling (responsible AI), and commercial-success (115M customer personalization). Most telecom CEOs cluster in commercial-success only.",
+    "Ewaldsson (President of Technology) provides the most analytically interesting claim: 'Carriers used to manage networks. Now we must manage intent.' This redefines the organizational mission at the industry level, not just T-Mobile's strategy.",
+    "The CFO's $2.7B savings commitment is rare in purpose-claims collections but analytically important \u2014 it shows how financial authorization underwrites visionary claims. Without Osvaldik's numbers, Sievert's 'revolutionize' rhetoric lacks financial grounding.",
+    "CEO transition correction: The specimen lists Gopalan as CEO (effective Nov 2025), not Ewaldsson. The task prompt's identification of Ewaldsson as 'current CEO' appears incorrect \u2014 Ewaldsson is President of Technology. Gopalan is the CEO who succeeded Sievert."
+  ],
+  "rhetoricalPatterns": [
+    "TELECOM-TO-TECH IDENTITY MIGRATION: Sievert consistently repositions T-Mobile from carrier to technology company, making AI investment legible as identity-consistent rather than diversification. This is the dominant rhetorical move across his claims.",
+    "PARTNERSHIP-AS-CAPABILITY: T-Mobile leaders consistently name external partners (OpenAI, NVIDIA, Salesforce, Ericsson) when discussing AI \u2014 framing partnerships as core capabilities rather than vendor relationships. This 'buy not build' rhetoric is distinctive for the telecom sector.",
+    "SUCCESSION REGISTER SHIFT: Sievert's utopian/identity register gives way to Gopalan's commercial-success/teleological register for the same initiatives (IntentCX). The vision hasn't changed but the rhetorical register has downshifted from 'revolutionize' to 'personalize.'",
+    "DUAL-HORIZON AUTHORIZATION: Claims simultaneously authorize near-term commercial AI (IntentCX, cost savings) and long-horizon exploration (AI-RAN, 6G). The two tracks get different rhetorical treatments \u2014 IntentCX gets commercial-success framing, AI-RAN gets utopian/identity framing."
+  ],
+  "comparativeNotes": "T-Mobile's rhetorical portfolio is distinctive compared to other telecom specimens in several ways. First, the CEO succession provides a natural experiment in how purpose rhetoric shifts when leadership changes \u2014 Sievert's maximalist framing (comparable to Sanofi's Hudson or Meta's Zuckerberg in register intensity) gives way to Gopalan's pragmatic execution framing (closer to Siemens' Roland Busch). Second, the reliance on named external partners in nearly every AI claim is unusual \u2014 most specimens either build in-house (Google, Meta) or don't name vendors. T-Mobile's 'partnership portfolio' rhetoric (OpenAI for CX, NVIDIA for infrastructure, Salesforce for data) resembles a platform company more than a traditional carrier.\n\nThe Ewaldsson 'manage intent not networks' claim is structurally similar to the kind of industry-redefinition rhetoric seen in financial services specimens (e.g., JPMorgan's 'AI-first bank') but applied at the infrastructure level rather than the product level. This suggests M4 hub-and-spoke organizations may produce purpose claims at two distinct registers: visionary (from the hub/exploration side) and pragmatic (from the spoke/execution side).",
+  "notableAbsences": "No claims from CIO Jeff Simon, CPO Omar Tazi, or President of Innovation Mike Katz \u2014 the three executives who actually run distributed AI execution. All claims come from either the CEO (Sievert, then Gopalan), the technology president (Ewaldsson), or the CFO (Osvaldik). This top-heavy distribution may reflect the press-release-heavy source mix, but it also suggests that T-Mobile's purpose rhetoric is concentrated at the C-suite level rather than distributed to functional AI leaders. No internal memo or employee-facing communications were found. No workforce-specific claims from any leader (the 75% call reduction target is mentioned in analyst coverage but no verbatim leadership quote framing it as purpose was found).",
+  "searchesCompleted": 5,
+  "urlsFetched": 5,
+  "fetchFailures": [
+    "https://finance.yahoo.com/video/momentum-side-going-ai-era-165712249.html (incorrect header check)",
+    "https://www.lightreading.com/ai-machine-learning/t-mobile-ceo-we-ll-make-money-from-ai-traffic-network-slicing-and-satellites (403)"
+  ]
+}

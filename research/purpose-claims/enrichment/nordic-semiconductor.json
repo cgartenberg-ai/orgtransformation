@@ -1,0 +1,23 @@
+{
+  "specimenId": "nordic-semiconductor",
+  "scannedDate": "2026-02-09",
+  "quality": "adequate",
+  "claimCount": 4,
+  "claimTypeDistribution": {
+    "utopian": 0,
+    "teleological": 1,
+    "higher-calling": 0,
+    "identity": 2,
+    "survival": 0,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

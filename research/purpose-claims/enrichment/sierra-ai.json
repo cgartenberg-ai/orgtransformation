@@ -1,0 +1,23 @@
+{
+  "specimenId": "sierra-ai",
+  "scannedDate": "2026-02-06",
+  "quality": "rich",
+  "claimCount": 6,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 1,
+    "higher-calling": 0,
+    "identity": 3,
+    "survival": 0,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

@@ -1,0 +1,53 @@
+{
+  "company": "Cognizant Technology Solutions",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    {
+      "url": "https://www.insidermonkey.com/blog/thomson-reuters-corporation-nasdaqtri-q4-2025-earnings-call-transcript-1690317/",
+      "reason": "JS-rendered, no transcript content returned"
+    },
+    {
+      "url": "https://www.metaintro.com/blog/dow-layoffs-ai-automation-transform-outperform",
+      "reason": "JS-rendered, no article content returned"
+    },
+    {
+      "url": "https://futurumgroup.com/insights/sap-q4-fy-2025-earnings-cloud-erp-strength-ai-traction/",
+      "reason": "JS-rendered, no article content returned"
+    }
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "CEO Ravi Kumar outlined a three-vector strategy: Vector One augments traditional software delivery with AI; Vectors Two and Three build new agentic software cycles and 'digital labor.' Company has 4,0",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "Three-unit AI go-to-market reorganization",
+      "url": "https://www.dailypolitical.com/2026/02/05/cognizant-technology-solutions-q4-earnings-call-highlights.html",
+      "type": "Earnings Call",
+      "date": "2026-02-05",
+      "notes": "Three-unit AI go-to-market reorganization"
+    },
+    {
+      "name": "Broader pyramid workforce strategy \u2014 AI enables entry-level workers to do higher-value work",
+      "url": "https://www.ciol.com/news/ognizant-fresher-hiring-2026-ai-broader-pyramid-strategy-11081712",
+      "type": "Press",
+      "date": "2026-02-05",
+      "notes": "Broader pyramid workforce strategy \u2014 AI enables entry-level workers to do higher-value work"
+    }
+  ],
+  "summary": "Three-unit AI go-to-market reorganization: Cognizant has reorganized its go-to-market operations into three distinct AI-focused units: (1) Market-facing AI teams, (2) Integrated AI solutions unit, (3) Centralized AI platforms and products unit Three-vector AI strategy with agentic software and digital labor: CEO Ravi Kumar outlined a three-vector strategy: Vector One augments traditional software delivery with AI; Vectors Two and Three build new agentic software cycles and 'digital labor.' Company has 4,0 Broader pyramid workforce strategy \u2014 AI enables entry-level workers to do higher-value work: CEO Ravi Kumar described a 'broader pyramid' workforce strategy. Plans to hire 24,000-25,000 freshers in 2026. AI allows high-value technical work to be moved to entry-level roles. Combined with pyram Strategic partnerships with NVIDIA and Anthropic: Cognizant maintains strategic partnerships with NVIDIA and Anthropic to support AI capabilities, along with its proprietary BASIS framework and 'science of context engineering.'",
+  "openQuestions": [],
+  "splitFrom": "earnings-discovery-q4-2025.json"
+}

@@ -1,0 +1,280 @@
+{
+  "taskId": "general-sweep-feb-2026-v2",
+  "scannedDate": "2026-02-07",
+  "sessionType": "research",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.techrepublic.com/article/news-washington-post-layoffs-ai-restructuring/ (403)",
+    "https://www.crowe.com/news/crowe-expands-ai-center-of-excellence-appoints-firmwide-ai-leader (403)"
+  ],
+  "organizations": [
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "industry": "Technology / Social Media",
+      "status": "new",
+      "observations": [
+        {
+          "title": "Pinterest cuts 15% of workforce to redirect toward AI-forward strategy",
+          "detail": "Pinterest announced in January 2026 that it was cutting 15% of its workforce as part of organizational changes to deliver on its AI-forward strategy. The company stated it would redirect resources toward AI systems expansion and hiring AI-proficient talent. This represents a significant structural pivot: simultaneously reducing existing headcount while building new AI-oriented capability.",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+          "sourceDate": "2026-01",
+          "keywordCategory": "workforce"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "making organizational changes to further deliver on our AI-forward strategy",
+          "speaker": "Pinterest spokesperson",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/"
+        }
+      ],
+      "specimenRelevance": "HIGH — Explicit structural pivot: simultaneous workforce reduction + AI talent acquisition. Classic explore/execute tension. Social media/ad-tech industry adds diversity to collection."
+    },
+    {
+      "id": "dow-chemical",
+      "name": "Dow Chemical",
+      "industry": "Chemicals / Manufacturing",
+      "status": "new",
+      "observations": [
+        {
+          "title": "Dow cuts 4,500 jobs (13% of workforce) citing AI and automation adoption",
+          "detail": "On January 29, 2026, Dow Chemical announced cutting approximately 4,500 jobs — 13% of its 36,000-person workforce. CEO Jim Fitterling framed the restructuring around 'reducing complexity' and adopting best-available technologies including AI and automation. The company projected $2 billion in additional near-term earnings from the restructuring. Q4 2025 net sales were $9.5 billion, down 9% YoY, providing financial pressure context.",
+          "sourceUrl": "https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs",
+          "sourceDate": "2026-01-29",
+          "keywordCategory": "workforce"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "reducing complexity, adopting the best-available technologies",
+          "speaker": "Jim Fitterling, CEO, Dow Chemical",
+          "sourceUrl": "https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs"
+        }
+      ],
+      "specimenRelevance": "HIGH — Major manufacturing/chemicals company explicitly linking AI adoption to 13% workforce reduction. Fills a critical industry gap (heavy manufacturing). The 'reducing complexity' framing suggests operational simplification model. Financial pressure context (9% revenue decline) raises question of whether AI is genuine driver or rationalization."
+    },
+    {
+      "id": "meta-reality-labs",
+      "name": "Meta (Reality Labs)",
+      "industry": "Technology",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "Meta cuts ~1,500 from Reality Labs, redirects investment toward AI R&D",
+          "detail": "In January 2026, Meta cut approximately 1,500 employees from its Reality Labs division, redirecting investments toward AI research and development. The restructuring marks a strategic shift from metaverse focus to phone-based products, effectively reallocating resources from one exploration frontier (metaverse/XR) to another (AI). This is a notable case of an organization choosing between competing exploration bets.",
+          "sourceUrl": "https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs",
+          "sourceDate": "2026-01",
+          "keywordCategory": "structural"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "MEDIUM — Meta already well-documented, but this Reality Labs-to-AI pivot is structurally interesting: not explore-vs-execute, but explore-vs-explore reallocation. Shows how organizations triage between competing exploratory bets under resource constraints."
+    },
+    {
+      "id": "washington-post",
+      "name": "The Washington Post",
+      "industry": "Media / Publishing",
+      "status": "new",
+      "observations": [
+        {
+          "title": "Washington Post cuts ~1/3 of workforce in AI-oriented restructuring",
+          "detail": "The Washington Post began sweeping layoffs, cutting roughly one-third of its overall workforce including more than 300 journalists. The restructuring reorients the organization around subscriptions, events, and AI tools. This is one of the most dramatic media industry restructurings explicitly tied to AI-era adaptation. TechRepublic article was paywalled/blocked (403), so details come from search snippet only.",
+          "sourceUrl": "https://www.techrepublic.com/article/news-washington-post-layoffs-ai-restructuring/",
+          "sourceDate": "2026-01",
+          "keywordCategory": "structural"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "HIGH — Media industry restructuring around AI at massive scale (1/3 of workforce). Important for industry diversity in collection. Combines workforce reduction with structural reorientation toward AI tools. Need deeper sourcing for full specimen."
+    },
+    {
+      "id": "us-cyber-command",
+      "name": "U.S. Cyber Command",
+      "industry": "Government / Defense",
+      "status": "new",
+      "observations": [
+        {
+          "title": "US Cyber Command appoints first Chief AI Officer",
+          "detail": "U.S. Cyber Command named Reid Novotny as its Chief AI Officer and DoW Cyber Force Generation lead. Novotny brings 24+ years of military service across USAF and Maryland Air National Guard, with background spanning intelligence, cyber defense, and policy. Previous roles include Senior Military Policy Advisor to the Office of the National Cyber Director (Executive Office of the President) and Senior Intelligence Officer/CIO for National Guard Bureau's intelligence and cyber operations. The CAIO role focuses on accelerating AI adoption across cyber operations, integrating AI into mission sets, and building partnerships across DoW, industry, and academia.",
+          "sourceUrl": "https://www.cdomagazine.tech/leadership-moves/us-cyber-command-names-reid-novotny-as-chief-ai-officer",
+          "sourceDate": "2026-01",
+          "keywordCategory": "governance"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "a pivotal moment in world history",
+          "speaker": "Reid Novotny, Chief AI Officer, U.S. Cyber Command",
+          "sourceUrl": "https://www.cdomagazine.tech/leadership-moves/us-cyber-command-names-reid-novotny-as-chief-ai-officer"
+        }
+      ],
+      "specimenRelevance": "MEDIUM — Government/defense CAIO appointment adds public sector diversity. Interesting dual-hat role (CAIO + Cyber Force Generation lead) suggests AI governance embedded in operational command. Less structural detail available than corporate cases."
+    },
+    {
+      "id": "nasa",
+      "name": "NASA",
+      "industry": "Government / Space",
+      "status": "new",
+      "observations": [
+        {
+          "title": "NASA appoints new acting AI and data chief",
+          "detail": "Kevin Murphy has taken over as NASA's new acting chief AI officer and chief data officer. Details from FedScoop article not fetched (URL budget exhausted). The combined CAIO/CDO role is notable — suggests NASA sees AI governance and data governance as unified functions.",
+          "sourceUrl": "https://fedscoop.com/nasa-has-new-acting-ai-data-chief/",
+          "sourceDate": "2026",
+          "keywordCategory": "governance"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "LOW — Government CAIO appointment. Combined CAIO/CDO role is structurally interesting but limited detail available. Worth tracking but not priority for specimen creation."
+    },
+    {
+      "id": "recruit-holdings",
+      "name": "Recruit Holdings (Indeed / Glassdoor)",
+      "industry": "Technology / HR Services",
+      "status": "new",
+      "observations": [
+        {
+          "title": "Indeed and Glassdoor cut ~1,300 jobs citing AI transformation",
+          "detail": "Recruit Holdings, parent company of Indeed and Glassdoor, cut approximately 1,300 jobs across both platforms. CEO Hisayuki Idekoba explicitly framed the cuts around AI: 'AI is changing the world' and adaptation was required. The job search/HR tech industry is particularly exposed to AI disruption since AI can automate core matching and recommendation functions.",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+          "sourceDate": "2025",
+          "keywordCategory": "workforce"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "AI is changing the world",
+          "speaker": "Hisayuki Idekoba, CEO, Recruit Holdings",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/"
+        }
+      ],
+      "specimenRelevance": "MEDIUM — HR tech company disrupted by the technology it serves (AI matching). Interesting industry position but limited structural detail. The 2025 timing makes it less fresh."
+    },
+    {
+      "id": "chegg",
+      "name": "Chegg",
+      "industry": "Education Technology",
+      "status": "new",
+      "observations": [
+        {
+          "title": "Chegg cuts 45% of workforce citing 'new realities of AI'",
+          "detail": "In October 2025, Chegg cut 45% of its workforce, citing the 'new realities of AI' plus reduced Google traffic. This is one of the most dramatic AI-attributed workforce reductions in percentage terms. Chegg's core study-help business was directly disrupted by ChatGPT and similar tools, making this a case of AI disruption from outside the organization rather than internal AI adoption.",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+          "sourceDate": "2025-10",
+          "keywordCategory": "workforce"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "MEDIUM — Extreme case of external AI disruption (45% cut). Education technology getting disrupted by general-purpose AI. Less about internal org design choices and more about existential competitive threat. Interesting contrast to companies proactively restructuring."
+    },
+    {
+      "id": "crowdstrike",
+      "name": "CrowdStrike",
+      "industry": "Cybersecurity",
+      "status": "new",
+      "observations": [
+        {
+          "title": "CrowdStrike cuts ~500 positions at 'technology inflection point'",
+          "detail": "CrowdStrike cut approximately 500 positions in 2025, with CEO George Kurtz framing it as a response to a 'market and technology inflection point.' The company is leaning into AI capabilities for its cybersecurity platform. This follows the major July 2024 outage that disrupted global infrastructure.",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+          "sourceDate": "2025",
+          "keywordCategory": "workforce"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "market and technology inflection point",
+          "speaker": "George Kurtz, CEO, CrowdStrike",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/"
+        }
+      ],
+      "specimenRelevance": "LOW — Cybersecurity company citing AI but limited structural detail. The 'inflection point' language is vague. Not enough org design specifics for specimen creation."
+    },
+    {
+      "id": "workday",
+      "name": "Workday",
+      "industry": "Enterprise Software / HR Tech",
+      "status": "new",
+      "observations": [
+        {
+          "title": "Workday cuts ~1,750 jobs to 'reimagine how work gets done'",
+          "detail": "In February 2025, Workday cut approximately 1,750 jobs. CEO Carl Eschenbach framed the cuts as 'reimagining how work gets done' and aligning resources with customer needs. As a major HR/enterprise software company, Workday is both building AI into its products and restructuring its own operations around AI — an interesting dual position.",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+          "sourceDate": "2025-02",
+          "keywordCategory": "workforce"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "reimagining how work gets done",
+          "speaker": "Carl Eschenbach, CEO, Workday",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/"
+        }
+      ],
+      "specimenRelevance": "MEDIUM — HR tech company restructuring around AI while selling AI tools to other companies. The 'reimagining work' framing suggests deeper structural change, but limited detail available. 2025 timing makes it less fresh."
+    },
+    {
+      "id": "us-air-force",
+      "name": "U.S. Air Force",
+      "industry": "Government / Defense",
+      "status": "new",
+      "observations": [
+        {
+          "title": "Air Force establishes AI Center of Excellence",
+          "detail": "The Department of the Air Force is establishing an AI Center of Excellence, with Air Force Chief Data and AI Officer Susan Davenport overseeing the center. The CoE will leverage Microsoft infrastructure through the Air Force Academy's Innovation Landing Zone. This represents a formal structural unit for AI within the military branch.",
+          "sourceUrl": "https://www.airandspaceforces.com/air-force-launching-new-artificial-intelligence-center-of-excellence/",
+          "sourceDate": "2026",
+          "keywordCategory": "structural"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "MEDIUM — Government AI CoE with named CDAIO and Microsoft partnership. Structural unit creation. Limited detail without fetching the article. Worth tracking for government sector diversity."
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "AI layoff attribution accelerating dramatically",
+      "detail": "In 2025, 55,000 job cuts were directly attributed to AI — a 12x increase over two years prior. 51,000 of those were concentrated in the tech sector. This trend is accelerating into January 2026 with Pinterest (15%), Dow (13%), and Amazon (16K more) all citing AI.",
+      "evidence": "CBS News report citing Challenger, Gray & Christmas data; InformationWeek 2026 tracker"
+    },
+    {
+      "trend": "'AI-washing' of layoffs emerging as counternarrative",
+      "detail": "Growing skepticism about whether AI is the genuine driver of workforce reductions or a convenient justification. Forrester Research predicts half of AI-attributed layoffs will be 'quietly rehired, but offshore or at significantly lower salaries.' TechCrunch and NYT both published critical analyses of AI-washing in layoffs.",
+      "evidence": "TechCrunch Feb 2026 article; Forrester Research prediction; HR Executive analysis"
+    },
+    {
+      "trend": "Government CAIO appointments proliferating",
+      "detail": "Multiple federal agencies now have dedicated Chief AI Officers: US Cyber Command (Novotny), NASA (Murphy), DHS (McCord), plus state-level (NY State). Air Force establishing dedicated AI CoE. The government sector is rapidly building AI governance infrastructure, often with combined CAIO/CDO roles.",
+      "evidence": "CDO Magazine coverage; FedScoop; Air & Space Forces Magazine"
+    },
+    {
+      "trend": "Explore-vs-explore reallocation (not just explore-vs-execute)",
+      "detail": "Meta's Reality Labs cut shows organizations making difficult choices between competing exploratory bets (metaverse vs. AI), not just the classic explore/execute tension. When AI becomes the dominant exploration frontier, resources get pulled from other exploratory initiatives.",
+      "evidence": "Meta Reality Labs 1,500-person cut redirected to AI R&D"
+    },
+    {
+      "trend": "Manufacturing sector entering AI restructuring wave",
+      "detail": "Dow Chemical's 4,500-person cut (13% of workforce) signals that AI-driven restructuring is moving beyond tech/finance into heavy manufacturing and chemicals. CEO framing around 'reducing complexity' and 'best-available technologies' suggests operational simplification rather than new capability building.",
+      "evidence": "Dow Chemical January 2026 announcement; InformationWeek coverage"
+    },
+    {
+      "trend": "40%+ of Fortune 500 projected to have CAIO role by end of 2026",
+      "detail": "Industry estimates suggest over 40% of Fortune 500 companies will have a Chief AI Officer role by end of 2026, signaling AI governance is becoming a permanent C-suite fixture rather than an experimental appointment.",
+      "evidence": "Multiple industry analyst reports cited in search results"
+    }
+  ],
+  "purposeClaimsDiscovered": [
+    {
+      "specimenId": "dow-chemical",
+      "note": "CEO Jim Fitterling's 'reducing complexity, adopting best-available technologies' framing could be rich for purpose claims if earnings call transcript is available",
+      "sourceUrl": "https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs"
+    },
+    {
+      "specimenId": "pinterest",
+      "note": "Spokesperson's 'AI-forward strategy' language suggests purpose-laden internal communications worth investigating",
+      "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/"
+    }
+  ]
+}

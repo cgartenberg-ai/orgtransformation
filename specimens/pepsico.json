@@ -1,0 +1,291 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "pepsico",
+  "name": "PepsiCo",
+  "title": "Hub-and-Spoke Transformation with Enterprise-Wide AI Training",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual Ambidexterity",
+    "confidence": "High",
+    "classificationRationale": "PepsiCo exhibits a clear M4 Hybrid/Hub-and-Spoke structure: a central transformation organization under CSTO Athina Kanioura (700-1,000 engineers) sets standards and coordinates strategy, while two Digital Hubs (Dallas, Barcelona) function as Centers of Excellence, and 'mission-based teams' execute cross-functional programs with autonomy. The contextual orientation is evidenced by the initiative to train all 330,000 employees on AI—expecting everyone to incorporate AI in their roles rather than delegating to specialists. The 'four or five big bets' prioritization model with central governance (AI Council) plus distributed execution confirms the hub-and-spoke topology.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Consumer Goods / Food & Beverage",
+    "sector": "Consumer Goods / Manufacturing",
+    "orgSize": "Enterprise",
+    "employees": 330000,
+    "revenue": null,
+    "headquarters": "Purchase, New York, USA",
+    "geography": "Global"
+  },
+  "description": "PepsiCo operates a Hybrid/Hub-and-Spoke model for AI transformation, with a central transformation organization of 700-1,000 data engineers, software engineers, and data scientists reporting to Chief Strategy & Transformation Officer Athina Kanioura, who reports directly to CEO Ramon Laguarta. Two Digital Hubs in Dallas and Barcelona serve as Centers of Excellence, creating 500+ new data and digital jobs over three years. The company uses 'mission-based teams' for major transformational programs, coordinated centrally but with execution autonomy.\n\nThe contextual ambidexterity orientation is distinctive: PepsiCo is training all 330,000 employees on AI, expecting integration into everyday work rather than siloing AI in specialist units. CEO Laguarta describes this as 'a huge transformation' spanning agriculture, manufacturing, logistics, and consumer-facing applications. An AI Council/Steering Committee provides governance, while Kanioura's team prioritizes 'four or five big bets' to direct investments and align teams.\n\nThe company is deploying agentic AI across contact centers, workforce, and logistics, using an internal platform called 'PepGenX' built on Amazon Bedrock for experimentation. A partnership with Stanford HAI supports responsible AI research. Digital twins with Siemens and NVIDIA simulate Frito-Lay facility upgrades, representing a shift toward AI agents as 'co-designers' of physical infrastructure.",
+  "observableMarkers": {
+    "reportingStructure": "AI reports to Chief Strategy & Transformation Officer (Kanioura), who reports directly to CEO [pepsico-cdo-interview-2023]. No dedicated CAIO — AI is bundled with strategy, M&A, data, and transformation [pepsico-cdo-interview-2023]. AI Council/Steering Committee for governance [pepsico-cdo-prioritization-2024].",
+    "resourceAllocation": "Dedicated Digital Hubs with ring-fenced headcount [pepsico-digital-hubs-2021]. Central platform (PepGenX) for experimentation [pepsico-cgt-aws-2025]. Mission-based teams get cross-functional resources [pepsico-cdo-prioritization-2024]. Monthly transformation benefit tracking [pepsico-cdo-prioritization-2024].",
+    "timeHorizons": "Mixed: SAP rollout is multi-year foundation [pepsico-diginomica-ceo-2024]; agentic AI deployment is near-term (2025-2026) [pepsico-cgt-aws-2025]; digital twins are medium-term (facility simulations) [pepsico-siemens-nvidia-2026]. 100 basis points operating margin expansion over 3 years [pepsico-q2-earnings-2025].",
+    "decisionRights": "Hybrid — central team sets standards and prioritizes 'four or five big bets,' but mission-based teams have execution autonomy [pepsico-cdo-prioritization-2024]. AI Council vets AI-specific proposals [pepsico-cdo-prioritization-2024].",
+    "metrics": "Productivity savings (record target for 2026) [pepsico-q2-earnings-2025], cloud migration %, operating margin expansion, free cash flow conversion [pepsico-q2-earnings-2025]. Joint KPIs with AWS on innovation portfolio, supply chain performance, operational productivity [pepsico-cgt-aws-2025]. Monthly benefit tracking, quarterly exec committee reporting [pepsico-cdo-prioritization-2024]."
+  },
+  "mechanisms": [
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "PepGenX platform on Amazon Bedrock provides an experimentation sandbox for employees across the organization, enabling broad access to AI capabilities with consumer-grade tooling.",
+      "strength": "Emerging"
+    },
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Training 330,000 employees on AI before use cases are fully defined. Laguarta explicitly frames this as deploying AI 'across agriculture, manufacturing, logistics, consumer' at massive scale as a transformation priority.",
+      "strength": "Strong"
+    },
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "evidence": "Laguarta joined IBM's board specifically to gain AI/tech governance experience. His direct involvement in WEF Davos AI panels and CES 2026 digital twin announcements shows executive immersion in AI strategy.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The scale and complexity of PepsiCo's business, from farm to shelf, is massive—and we are embedding AI throughout our operations to better meet the increasing demands of our consumers and customers.",
+      "speaker": "Ramon Laguarta",
+      "speakerTitle": "Chairman & CEO",
+      "source": "PepsiCo Press Release - Siemens/NVIDIA Collaboration",
+      "sourceUrl": "https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia",
+      "sourceDate": "2026-01",
+      "context": "CES 2026 keynote announcing digital twin collaboration with Siemens and NVIDIA"
+    },
+    {
+      "text": "It's a huge transformation.",
+      "speaker": "Ramon Laguarta",
+      "speakerTitle": "Chairman & CEO",
+      "source": "PYMNTS / WEF Davos Panel",
+      "sourceUrl": "https://www.pymnts.com/artificial-intelligence-2/2025/aws-pepsico-and-other-ceos-tell-whats-needed-to-scale-ai/",
+      "sourceDate": "2025-01",
+      "context": "WEF Davos panel on scaling AI, discussing training 330,000 employees on AI"
+    },
+    {
+      "text": "We're going to put agentic AI across the spectrum. It will be an ecosystem of agents that we want to deploy for the transformation of services within PepsiCo.",
+      "speaker": "Athina Kanioura",
+      "speakerTitle": "Chief Strategy & Transformation Officer",
+      "source": "Consumer Goods Technology",
+      "sourceUrl": "https://consumergoods.com/pepsico-work-closely-aws-cloud-based-agentic-ai-first-roadmap",
+      "sourceDate": "2025",
+      "context": "Discussing AWS partnership and agentic AI-first roadmap"
+    },
+    {
+      "text": "I don't believe in extreme outsourcing, and the company always needs to be responsible for its own fate. Having a strong technology backbone of internal software engineers, enterprise architects, data engineers, AI and ML engineers, infrastructure and ops pros is super critical for the success of our organization.",
+      "speaker": "Athina Kanioura",
+      "speakerTitle": "Chief Strategy & Transformation Officer",
+      "source": "Computer Weekly (CDO Interview)",
+      "sourceUrl": "https://www.computerweekly.com/news/365531738/CDO-interview-Athina-Kanioura-chief-strategy-and-transformation-officer-PepsiCo",
+      "sourceDate": "2023",
+      "context": "Interview on building internal technology capability"
+    },
+    {
+      "text": "We strategically chose Barcelona and Dallas because they are truly innovative cities with topnotch talent, world-class education systems and fully-developed regional infrastructures.",
+      "speaker": "Athina Kanioura",
+      "speakerTitle": "Chief Strategy & Transformation Officer",
+      "source": "Beverage Daily",
+      "sourceUrl": "https://www.beveragedaily.com/Article/2021/10/26/PepsiCo-s-new-Digital-Hubs-to-develop-AI-and-machine-learning/",
+      "sourceDate": "2021-10",
+      "context": "Announcing Digital Hubs in Barcelona and Dallas"
+    },
+    {
+      "text": "We have four or five big bets, and that has helped direct investments and align teams.",
+      "speaker": "Athina Kanioura",
+      "speakerTitle": "Chief Strategy & Transformation Officer",
+      "source": "CDO Magazine",
+      "sourceUrl": "https://www.cdomagazine.tech/aiml/prioritizing-ai-initiatives-is-tricky-heres-how-pepsico-does-it",
+      "sourceDate": "2024",
+      "context": "Discussing AI prioritization strategy"
+    },
+    {
+      "text": "We are simplifying and harmonizing our systems, we're connecting our systems. We're on a long journey of changing the systems in the US, some of our older markets. We're almost done with our SAP rollout in the US. This will give us the foundation.",
+      "speaker": "Ramon Laguarta",
+      "speakerTitle": "Chairman & CEO",
+      "source": "Diginomica",
+      "sourceUrl": "https://diginomica.com/lip-smacking-thirst-quenching-tech-future-growth-pepsicos-ceo-food-and-drink-giants-transformation",
+      "sourceDate": "2024",
+      "context": "Interview on technology transformation journey — laying foundation for AI"
+    },
+    {
+      "text": "We've been investing in technology, we've been investing in AI, we've been investing in data. Those businesses now have opportunities to improve even more their productivity as a standalone business.",
+      "speaker": "Ramon Laguarta",
+      "speakerTitle": "Chairman & CEO",
+      "source": "Q2 2025 Earnings Call",
+      "sourceUrl": "https://www.investing.com/news/transcripts/earnings-call-transcript-pepsico-beats-q2-2025-eps-and-revenue-forecasts-93CH-4139976",
+      "sourceDate": "2025-07",
+      "context": "Q2 2025 earnings call discussing technology investments"
+    },
+    {
+      "text": "Artificial intelligence is a transformative force driving smarter decisions and unlocking new possibilities across industries.",
+      "speaker": "Ramon Laguarta",
+      "speakerTitle": "Chairman & CEO",
+      "source": "World Economic Forum",
+      "sourceUrl": "https://www.weforum.org/press/2025/01/advancing-ai-transformation-a-roadmap-for-businesses-and-governments/",
+      "sourceDate": "2025-01",
+      "context": "WEF Davos statement on AI transformation"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "Agentic AI and Digital Twin Deployment",
+      "summary": "PepsiCo operates a mature Hybrid/Hub-and-Spoke model with central transformation under CSTO Kanioura (700-1,000 engineers), two Digital Hubs (Dallas, Barcelona), and mission-based execution teams. Training all 330,000 employees on AI signals contextual ambidexterity. Deploying agentic AI across services via AWS partnership and digital twins with Siemens/NVIDIA for Frito-Lay manufacturing. AI governance through AI Council/Steering Committee with 'four or five big bets' prioritization. PepGenX platform enables experimentation. Targeting 95% cloud migration and record productivity savings.",
+      "sourceRefs": [
+        "pepsico-cgt-aws-2025",
+        "pepsico-pymnts-wef-2025",
+        "pepsico-siemens-nvidia-2026",
+        "pepsico-digital-hubs-2021",
+        "pepsico-cdo-prioritization-2024"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "pepsico-cgt-aws-2025",
+      "name": "Consumer Goods Technology - AWS Partnership",
+      "type": "Press",
+      "url": "https://consumergoods.com/pepsico-work-closely-aws-cloud-based-agentic-ai-first-roadmap",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "pepsico-pymnts-wef-2025",
+      "name": "PYMNTS - WEF Davos Panel on Scaling AI",
+      "type": "Conference",
+      "url": "https://www.pymnts.com/artificial-intelligence-2/2025/aws-pepsico-and-other-ceos-tell-whats-needed-to-scale-ai/",
+      "sourceDate": "2025-01",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "pepsico-diginomica-ceo-2024",
+      "name": "Diginomica - CEO Interview on Transformation",
+      "type": "Interview",
+      "url": "https://diginomica.com/lip-smacking-thirst-quenching-tech-future-growth-pepsicos-ceo-food-and-drink-giants-transformation",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "pepsico-siemens-nvidia-2026",
+      "name": "PepsiCo Press Release - Siemens/NVIDIA Digital Twin",
+      "type": "Press",
+      "url": "https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia",
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "pepsico-org-changes-2025",
+      "name": "PepsiCo - Organizational Changes Announcement",
+      "type": "Press",
+      "url": "https://www.pepsico.com/newsroom/stories/2025/pepsico-announces-organizational-changes-to-accelerate-growth",
+      "sourceDate": "2025-12",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "pepsico-digital-hubs-2021",
+      "name": "Beverage Daily - Digital Hubs Announcement",
+      "type": "Press",
+      "url": "https://www.beveragedaily.com/Article/2021/10/26/PepsiCo-s-new-Digital-Hubs-to-develop-AI-and-machine-learning/",
+      "sourceDate": "2021-10",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "pepsico-stanford-hai-2023",
+      "name": "Stanford HAI Partnership Announcement",
+      "type": "Press",
+      "url": "https://www.prnewswire.com/news-releases/pepsico-collaborates-with-stanford-institute-for-human-centered-artificial-intelligence-to-shape-responsible-ai-standards-301867270.html",
+      "sourceDate": "2023",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "pepsico-cdo-prioritization-2024",
+      "name": "CDO Magazine - AI Prioritization",
+      "type": "Interview",
+      "url": "https://www.cdomagazine.tech/aiml/prioritizing-ai-initiatives-is-tricky-heres-how-pepsico-does-it",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "pepsico-ibm-board-2026",
+      "name": "IBM Board Appointment - Laguarta",
+      "type": "Press",
+      "url": "https://www.stocktitan.net/news/IBM/ibm-elects-ramon-l-laguarta-to-its-board-of-hq0eqb4kkecj.html",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "pepsico-q2-earnings-2025",
+      "name": "Q2 2025 Earnings Call",
+      "type": "Earnings",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-pepsico-beats-q2-2025-eps-and-revenue-forecasts-93CH-4139976",
+      "sourceDate": "2025-07",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "pepsico-wef-statement-2025",
+      "name": "World Economic Forum - Laguarta Statement",
+      "type": "Conference",
+      "url": "https://www.weforum.org/press/2025/01/advancing-ai-transformation-a-roadmap-for-businesses-and-governments/",
+      "sourceDate": "2025-01",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "pepsico-cdo-interview-2023",
+      "name": "Computer Weekly - Kanioura CDO Interview",
+      "type": "Interview",
+      "url": "https://www.computerweekly.com/news/365531738/CDO-interview-Athina-Kanioura-chief-strategy-and-transformation-officer-PepsiCo",
+      "sourceDate": "2023",
+      "collectedDate": "2026-02-09"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Non-traditional",
+    "technicalDebt": "High"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.6,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": 0.0,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": 0.2
+  },
+  "openQuestions": [
+    "What is the annual AI/digital budget allocation?",
+    "How many of the 700-1,000 engineers are specifically AI/ML focused vs. general software?",
+    "What are the specific metrics for the 'four or five big bets'?",
+    "How does the AI Council/Steering Committee make decisions — consensus, executive veto, etc.?",
+    "What is the relationship between the Stanford HAI partnership outputs and internal AI governance?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] PepsiCo presents an interesting M4 variant where the CSTO role bundles AI with strategy, M&A, and transformation—rather than a dedicated CAIO. This 'embedded AI leadership' pattern may be more common in consumer goods where AI is a capability within broader transformation rather than a standalone strategic bet. The recent addition of Latin America Foods CEO responsibilities to Kanioura's role (Dec 2025) suggests the organization values leaders who can bridge technology and operations.",
+    "[2026-02] The contextual orientation here is particularly strong: training 330,000 employees on AI is an unusually ambitious commitment to broad-based capability building. Most M4 specimens maintain clearer separation between hub specialists and spoke generalists. PepsiCo's approach suggests contextual ambidexterity can coexist with hub-and-spoke structure when the hub focuses on enablement rather than monopolizing execution.",
+    "[2026-02] The 'four or five big bets' prioritization model with AI Council governance represents a distinctive mechanism for managing exploration within a complex, geographically distributed organization. This 'portfolio of bets with central governance' pattern could be a common adaptation for global consumer goods companies that need both strategic coherence and local execution flexibility."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

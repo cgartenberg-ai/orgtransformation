@@ -1,0 +1,42 @@
+{
+  "company": "Salesforce",
+  "ticker": null,
+  "sector": "Technology",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 4,
+  "fetchFailures": [
+    {
+      "url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+      "reason": "JS-rendered, CSS-only content returned"
+    },
+    {
+      "url": "https://www.bankingdive.com/news/bank-of-america-citi-wells-fargo-headcount-banking-job-cuts-2026/809756/",
+      "reason": "JS-rendered, no article body returned"
+    }
+  ],
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "Salesforce appointed Eric Hysen as Chief AI & Transformation Officer. Notable: the title combines AI leadership with transformation mandate in a single role, suggesting Salesforce views AI and organiz",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "Eric Hysen named Chief AI & Transformation Officer",
+      "url": "https://www.govconwire.com/articles/eric-hysen-salesforce-chief-ai-transformation-officer-appointment",
+      "type": "Press",
+      "date": "2026-01",
+      "notes": "Eric Hysen named Chief AI & Transformation Officer"
+    }
+  ],
+  "summary": "Eric Hysen named Chief AI & Transformation Officer: Salesforce appointed Eric Hysen as Chief AI & Transformation Officer. Notable: the title combines AI leadership with transformation mandate in a single role, suggesting Salesforce views AI and organiz",
+  "openQuestions": [],
+  "splitFrom": "general-sweep-feb-2026.json"
+}

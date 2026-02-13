@@ -1,0 +1,42 @@
+{
+  "company": "Kyndryl",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 4,
+  "fetchFailures": [
+    {
+      "url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+      "reason": "JS-rendered, CSS-only content returned"
+    },
+    {
+      "url": "https://www.bankingdive.com/news/bank-of-america-citi-wells-fargo-headcount-banking-job-cuts-2026/809756/",
+      "reason": "JS-rendered, no article body returned"
+    }
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "Established SAP Center of Excellence for agentic AI-driven transformation",
+      "url": "https://www.prnewswire.com/news-releases/kyndryl-establishes-sap-center-of-excellence-to-accelerate-agentic-ai-driven-transformation-for-customers-302670271.html",
+      "type": "Press",
+      "date": "2026-02",
+      "notes": "Established SAP Center of Excellence for agentic AI-driven transformation"
+    }
+  ],
+  "summary": "Established SAP Center of Excellence for agentic AI-driven transformation: Kyndryl established a SAP Center of Excellence \u2014 a dedicated hub where customers co-create with designers and engineers to unlock AI potential for SAP transformations. Collaboration with Nova Intellig",
+  "openQuestions": [],
+  "splitFrom": "general-sweep-feb-2026.json"
+}

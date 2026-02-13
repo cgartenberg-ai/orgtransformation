@@ -102,12 +102,13 @@
     "What is ABB's total AI/R&D investment as percentage of revenue?"
   ],
   "taxonomyFeedback": [
-    "ABB's 'Engineer to Autonomy' philosophy gives divisions significant independence, pushing it toward the distributed end of Model 4. Worth comparing to more centralized Model 4 specimens."
+    "ABB's 'Engineer to Autonomy' philosophy gives divisions significant independence, pushing it toward the distributed end of Model 4. Worth comparing to more centralized Model 4 specimens.",
+    "[2026-02-12 M4 Audit] M4 classification under review (Audit 2026-02-12). Genix industrial AI platform as shared infrastructure + BU autonomy sounds like genuine M4 but completeness is Low. Needs enrichment to confirm hub-spoke coordination vs. simple platform deployment."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-12",
     "completeness": "Low",
     "convertedFrom": "library/cases/abb.json"
   }

@@ -1,0 +1,317 @@
+{
+  "batchId": "batch8",
+  "batchTheme": "Tech Core + AI Labs",
+  "sessionDate": "2026-02-09",
+  "specimens": [
+    "amazon-agi",
+    "apple",
+    "google-deepmind",
+    "meta-ai",
+    "meta-reality-labs",
+    "microsoft",
+    "anthropic",
+    "ami-labs",
+    "intel"
+  ],
+
+  "mechanismUpdates": [
+    {
+      "mechanismId": 6,
+      "name": "Merge Competing AI Teams",
+      "action": "addEvidence",
+      "evidence": [
+        {
+          "specimenId": "google-deepmind",
+          "note": "Brain + DeepMind merger under Hassabis. 2,500 → 5,600 employees. Canonical case.",
+          "strength": "Strong"
+        },
+        {
+          "specimenId": "meta-ai",
+          "note": "5th restructuring consolidated GenAI + FAIR into MSL under Wang.",
+          "strength": "Strong"
+        }
+      ]
+    },
+    {
+      "mechanismId": 11,
+      "name": "Flatten Management Layers",
+      "action": "addEvidence",
+      "evidence": [
+        {
+          "specimenId": "intel",
+          "note": "CEO Tan: 'Bureaucracy kills innovation.' Explicit rationale for org flattening after cutting bureaucratic layers.",
+          "strength": "Strong"
+        },
+        {
+          "specimenId": "meta-ai",
+          "note": "Wang memo: 'Fewer conversations required... each person more load-bearing.' Zuckerberg: 'Single talented person' replacing teams.",
+          "strength": "Strong"
+        },
+        {
+          "specimenId": "microsoft",
+          "note": "Nadella demands leaders 'work and act like Individual Contributors.' Management layers targeted.",
+          "strength": "Moderate"
+        }
+      ]
+    },
+    {
+      "mechanismId": 1,
+      "name": "Protect Off-Strategy Work",
+      "action": "addEvidence",
+      "evidence": [
+        {
+          "specimenId": "meta-ai",
+          "note": "COUNTER-EXAMPLE: LeCun departure demonstrates failure to protect research autonomy. FAIR subordinated to product-driven MSL.",
+          "strength": "Strong"
+        },
+        {
+          "specimenId": "ami-labs",
+          "note": "CONSEQUENCE: LeCun founded AMI Labs to pursue research agenda without product pressure. Natural experiment continuation.",
+          "strength": "Strong"
+        },
+        {
+          "specimenId": "anthropic",
+          "note": "SUCCESS: Labs team protected for 'disruptive zero-to-one ideas.' CEO/COO split enables structural protection.",
+          "strength": "Strong"
+        }
+      ]
+    },
+    {
+      "mechanismId": 9,
+      "name": "Hire CAIOs from Consumer Tech",
+      "action": "addEvidence",
+      "evidence": [
+        {
+          "specimenId": "meta-ai",
+          "note": "Alexandr Wang (Scale AI founder) as CAIO + Nat Friedman (GitHub CEO) for Products & Applied Research. Both consumer/developer tech backgrounds.",
+          "strength": "Strong"
+        }
+      ]
+    }
+  ],
+
+  "insightUpdates": [
+    {
+      "insightId": "management-delayering-convergent",
+      "action": "addEvidence",
+      "evidence": [
+        {
+          "specimenId": "intel",
+          "note": "CEO Tan: 'Bureaucracy kills innovation' + 'organizational complexity and bureaucratic processes have been slowly suffocating the culture of innovation.'"
+        },
+        {
+          "specimenId": "meta-ai",
+          "note": "Wang memo: 'fewer conversations will be required to make a decision, and each person will be more load-bearing.' Zuckerberg: 'What many big teams at Meta do can now be accomplished by a single, very talented person.'"
+        },
+        {
+          "specimenId": "microsoft",
+          "note": "Nadella demands leaders 'work and act like Individual Contributors in our own orgs.' Targets management layers between ICs and senior execs."
+        }
+      ]
+    },
+    {
+      "insightId": "meta-exploration-failure",
+      "action": "addEvidence",
+      "evidence": [
+        {
+          "specimenId": "ami-labs",
+          "note": "NATURAL EXPERIMENT CONTINUATION: LeCun founded AMI Labs after Meta departure. Quote: 'You don't tell a researcher what to do. You certainly don't tell a researcher like me what to do.' Now have full arc: Mechanism #1 failure → departure → new lab creation."
+        }
+      ]
+    },
+    {
+      "insightId": "ai-team-consolidation-arc",
+      "action": "addEvidence",
+      "evidence": [
+        {
+          "specimenId": "meta-ai",
+          "note": "5th restructuring in ~2 years. Each restructuring consolidates more aggressively and elevates younger, more product-oriented leadership."
+        }
+      ]
+    }
+  ],
+
+  "newInsights": [
+    {
+      "id": "ai-code-generation-internal-transformation",
+      "title": "AI Code Generation as Internal Transformation Signal",
+      "theme": "workforce",
+      "maturity": "emerging",
+      "finding": "When 30-50% of code is AI-generated, the production function for software has fundamentally changed. Big Tech companies are being transformed BY AI internally, not just building AI for others. This signals that the 'AI-native organization' pattern can be applied retroactively to legacy tech companies.",
+      "evidence": [
+        {
+          "specimenId": "google-deepmind",
+          "note": "~50% of Google code now written by AI agents with human review (CFO Ashkenazi, Q4 2025)."
+        },
+        {
+          "specimenId": "microsoft",
+          "note": "30% of code AI-written (Nadella). 220K employees described as 'massive disadvantage.'"
+        }
+      ],
+      "theoreticalConnection": "This is not automation of routine tasks but transformation of the core production function for knowledge work. Parallels historical shifts (assembly line, computer spreadsheets) that fundamentally altered labor markets. If AI writes the code, the role of human engineers shifts from production to review/oversight.",
+      "openQuestions": [
+        "Does this apply uniformly across all engineering roles or concentrated in certain types?",
+        "What review/oversight structure exists for AI-generated code?",
+        "What happens to the junior engineer career pipeline when AI writes the code?"
+      ]
+    },
+    {
+      "id": "capex-commitment-device",
+      "title": "CapEx as AI Strategy Commitment Device",
+      "theme": "mechanism",
+      "maturity": "emerging",
+      "finding": "Big Tech is using unprecedented infrastructure investment ($500B+ combined 2026 CapEx across Meta, Google, Microsoft, Amazon) to lock in AI strategy. These are not just investment decisions — they are commitment devices that make AI transformation irreversible and signal credibility to talent, customers, and competitors.",
+      "evidence": [
+        {
+          "specimenId": "meta-ai",
+          "note": "$115-135B 2026 CapEx guidance — nearly doubled from 2025. Single largest AI investment commitment by any company."
+        },
+        {
+          "specimenId": "google-deepmind",
+          "note": "$175-185B 2026 CapEx guidance — nearly doubled from $91.4B in 2025. Supply-constrained through 2026."
+        },
+        {
+          "specimenId": "microsoft",
+          "note": "$37.5B quarterly CapEx (+77% YoY). Stock dropped 10.5% on announcement — investors question ROIC."
+        },
+        {
+          "specimenId": "amazon-agi",
+          "note": "$200B+ CapEx implied from AWS AI infrastructure buildout."
+        }
+      ],
+      "theoreticalConnection": "Commitment device economics: massive sunk cost investments signal credibility and make strategic reversals prohibitively expensive. Combined 2026 Big Tech AI CapEx exceeds GDP of most countries. This creates structural barriers to entry and demonstrates that AI is viewed as existential by these organizations."
+    }
+  ],
+
+  "tensionUpdates": [
+    {
+      "tensionId": 1,
+      "fieldName": "structuralVsContextual",
+      "specimens": [
+        {
+          "specimenId": "google-deepmind",
+          "position": -0.6,
+          "evidence": "Merged entity with formal leadership under Hassabis. Structural separation but research-to-product pipeline creates some integration."
+        },
+        {
+          "specimenId": "intel",
+          "position": -0.5,
+          "evidence": "Central Intel Labs (700+ researchers) + CEO direct leadership. Structural with some contextual bridging."
+        }
+      ]
+    },
+    {
+      "tensionId": 2,
+      "fieldName": "speedVsDepth",
+      "specimens": [
+        {
+          "specimenId": "google-deepmind",
+          "position": 0.2,
+          "evidence": "Speed-leaning. Explicit mandate to 'accelerate research-to-product pipeline.' Supply-constrained through 2026 but deploying rapidly."
+        },
+        {
+          "specimenId": "intel",
+          "position": -0.2,
+          "evidence": "Intel Labs doing foundational research but CEO Tan pushing for faster execution. Mixed but leaning depth."
+        }
+      ]
+    },
+    {
+      "tensionId": 3,
+      "fieldName": "centralVsDistributed",
+      "specimens": [
+        {
+          "specimenId": "google-deepmind",
+          "position": -0.6,
+          "evidence": "Consolidation explicitly designed to eliminate distributed coordination friction between Brain and DeepMind."
+        },
+        {
+          "specimenId": "intel",
+          "position": -0.5,
+          "evidence": "CEO direct leadership after CTO departed. Intel Labs as central hub."
+        }
+      ]
+    },
+    {
+      "tensionId": 4,
+      "fieldName": "namedVsQuiet",
+      "specimens": [
+        {
+          "specimenId": "google-deepmind",
+          "position": -0.7,
+          "evidence": "Named entity with Hassabis leadership, Project EAT consolidation. High visibility."
+        },
+        {
+          "specimenId": "intel",
+          "position": -0.5,
+          "evidence": "Intel Labs named, CEO Tan as public AI champion."
+        }
+      ]
+    },
+    {
+      "tensionId": 5,
+      "fieldName": "longVsShortHorizon",
+      "specimens": [
+        {
+          "specimenId": "google-deepmind",
+          "position": -0.2,
+          "evidence": "Mixed. Near-term supply-constrained (2026), but massive CapEx ($175-185B) signals long-horizon infrastructure commitment."
+        },
+        {
+          "specimenId": "intel",
+          "position": 0.0,
+          "evidence": "Mixed. Tan pushing for speed and execution, but Intel Labs doing foundational research."
+        }
+      ]
+    }
+  ],
+
+  "contingencyUpdates": [
+    {
+      "contingencyId": "talentMarketPosition",
+      "specimens": [
+        {
+          "specimenId": "google-deepmind",
+          "value": "Talent-rich",
+          "evidence": "Tim Brooks hire from OpenAI. Continued hiring in AI/Cloud confirmed Q4 2025."
+        },
+        {
+          "specimenId": "intel",
+          "value": "Talent-rich",
+          "evidence": "700+ researchers in Intel Labs, though CTO departed to OpenAI."
+        }
+      ]
+    },
+    {
+      "contingencyId": "ceoTenure",
+      "specimens": [
+        {
+          "specimenId": "intel",
+          "value": "New",
+          "evidence": "Lip-Bu Tan took CEO role August 2024. Transformation mandate."
+        }
+      ]
+    },
+    {
+      "contingencyId": "technicalDebt",
+      "specimens": [
+        {
+          "specimenId": "intel",
+          "value": "High",
+          "evidence": "Legacy chipmaker undergoing transformation. Tan explicitly targeting 'bureaucratic processes' accumulated over decades."
+        }
+      ]
+    }
+  ],
+
+  "specimenNotes": [
+    {
+      "specimenId": "meta-reality-labs",
+      "note": "Stub specimen with Low completeness. Consider folding into meta-ai as a layer rather than maintaining as standalone specimen. The Reality Labs VR→AI pivot is well-documented in meta-ai already."
+    },
+    {
+      "specimenId": "apple",
+      "note": "Thin data in this batch. Needs earnings call research to enrich. Subramanya hub restructure is documented but we lack Q4 2025 earnings details."
+    }
+  ]
+}

@@ -21,13 +21,13 @@
     "orgSize": "Enterprise",
     "employees": null,
     "revenue": null,
-    "headquarters": "Bagsv\u00e6rd, Denmark",
+    "headquarters": "Bagsværd, Denmark",
     "geography": "Global"
   },
   "description": "Novo Nordisk's Enterprise AI organization represents a mature hub-and-spoke model with a 300-person central AI team that enables capabilities across the pharmaceutical giant. Under CAIO Mads Einar Krogh Kristensen (since 2023), the company has deployed Microsoft Copilot to 20,000 employees under the banner 'Make Your Time Count' — signaling that AI adoption is about productivity enhancement, not workforce reduction.\n\nThe central 300-person Enterprise AI team serves as the hub, providing platforms, governance, and expertise. Spoke teams embedded in business units apply AI to specific domains including GLP-1 drug optimization and clinical trials. The mass deployment strategy — giving 20,000 employees Copilot access with clear productivity messaging — combines structural AI capability building with broad contextual adoption.\n\nThe CAIO reports to executive leadership, ensuring AI has board-level visibility and strategic alignment. This structure allows Novo Nordisk to maintain long-horizon drug discovery AI research while simultaneously deploying productivity tools across the enterprise.",
   "observableMarkers": {
-    "reportingStructure": "CAIO Mads Einar Krogh Kristensen reports to executive leadership. 300-person hub serves business unit spokes.",
-    "resourceAllocation": null,
+    "reportingStructure": "CAIO Mads Einar Krogh Kristensen reports to executive leadership. 300-person hub serves business unit spokes. CEO transition in July 2025: Mike Doustdar replaced Lars Fruergaard Jorgensen.",
+    "resourceAllocation": "DKK 60B capex for manufacturing expansion + DKK 30B for R&D pipeline in 2025. Company-wide transformation program with ~$1.12B (DKK ~7.7B) in costs announced Q3 2025.",
     "timeHorizons": "Mix of long-horizon drug discovery AI and shorter-term productivity tool deployment",
     "decisionRights": "Central AI hub sets standards and platforms; BU spokes apply to domain-specific problems",
     "metrics": "300-person AI team, 20,000 employee Copilot rollout, CAIO position established 2023"
@@ -40,8 +40,23 @@
       "strength": "Strong"
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "In 2026, Novo Nordisk will face pricing headwinds in an increasingly competitive market. However, we are very encouraged by the promising early uptake from the U.S. launch of Wegovy pill.",
+      "speaker": "Mike Doustdar",
+      "speakerTitle": "President and CEO",
+      "source": "Q4 2025 Earnings Call",
+      "context": "Forward guidance on competitive landscape"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Added Q4 2025 earnings data: CEO transition (Mike Doustdar replaced Lars Fruergaard Jorgensen in July 2025), company-wide transformation program with ~$1.12B in costs, DKK 60B manufacturing capex + DKK 30B R&D investment. Notably, no AI discussion in Q4 2025 earnings materials despite massive investment in manufacturing and R&D — AI appears decoupled from earnings narrative.",
+      "classification": "Model 4, Structural",
+      "sourceRefs": ["source-4", "source-5"]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
@@ -87,12 +102,32 @@
       "sourceDate": null,
       "collectedDate": "2026-01-20",
       "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "Novo Nordisk 2025 Financial Report - PharmaExec",
+      "url": "https://www.pharmexec.com/view/novo-nordisk-2025-financial-report-2026-sales-operations-profit-outlook",
+      "timestamp": null,
+      "sourceDate": "2026-02-04",
+      "collectedDate": "2026-02-07",
+      "notes": "Company-wide transformation program with ~$1.12B in costs"
+    },
+    {
+      "id": "source-5",
+      "type": "Earnings Call",
+      "name": "Novo Nordisk Q4 2025 Earnings Call Transcript",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-novo-nordisk-q4-2025-beats-eps-and-revenue-forecasts-93CH-4484819",
+      "timestamp": null,
+      "sourceDate": "2026-02-04",
+      "collectedDate": "2026-02-07",
+      "notes": "DKK 60B capex for manufacturing + DKK 30B for R&D pipeline"
     }
   ],
   "contingencies": {
     "regulatoryIntensity": "High",
     "timeToObsolescence": "Slow",
-    "ceoTenure": null,
+    "ceoTenure": "New. Mike Doustdar replaced Lars Fruergaard Jorgensen in July 2025. CAIO established under prior CEO — continuity uncertain.",
     "talentMarketPosition": "Talent-constrained",
     "technicalDebt": "Medium"
   },
@@ -107,16 +142,20 @@
     "What is the split between drug discovery AI and productivity tool AI within the 300-person team?",
     "How do spoke teams in business units interact with the central hub — embedded vs. consulting model?",
     "What is the CAIO's exact reporting line (CEO, CTO, or other)?",
-    "What specific GLP-1 drug optimization AI applications are being deployed?"
+    "What specific GLP-1 drug optimization AI applications are being deployed?",
+    "How does the company-wide transformation program relate to AI initiatives? Is the CAIO involved?",
+    "Will the new CEO (Doustdar) change AI strategy or governance?"
   ],
   "taxonomyFeedback": [
     "Novo Nordisk is a strong candidate for Model 4 type specimen — well-documented hub-and-spoke with clear CAIO, 300-person team, and mass deployment. Needs more source depth to qualify.",
-    "The 'Make Your Time Count' messaging represents a deliberate framing strategy for AI adoption — productivity, not replacement. This framing mechanism isn't captured in the 10 mechanisms."
+    "The 'Make Your Time Count' messaging represents a deliberate framing strategy for AI adoption — productivity, not replacement. This framing mechanism isn't captured in the 10 mechanisms.",
+    "[2026-02] Notable absence of AI discussion in Q4 2025 earnings despite DKK 90B in combined manufacturing/R&D investment. This may indicate AI is treated as operational infrastructure rather than strategic narrative — or that the new CEO has deprioritized AI messaging. Worth monitoring whether the 300-person AI hub continues under new leadership.",
+    "[2026-02] CEO transition (Doustdar replacing Jorgensen in July 2025) + $1.12B transformation program creates uncertainty about AI governance continuity. The CAIO position was established under the previous CEO — need to track if Doustdar maintains or restructures AI leadership."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-09",
     "completeness": "Low",
     "convertedFrom": "library/cases/novo-nordisk.json"
   }

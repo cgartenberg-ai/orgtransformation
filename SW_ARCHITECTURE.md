@@ -125,7 +125,7 @@ site/
 ### 4.1 Specimen (Primary Entity)
 
 **Schema:** `lib/types/specimen.ts`
-**Storage:** One JSON file per specimen in `../specimens/` (85 files as of Feb 2026)
+**Storage:** One JSON file per specimen in `../specimens/` (see `registry.json` for current count)
 
 ```typescript
 interface Specimen {
@@ -161,8 +161,8 @@ interface Specimen {
 **Mechanisms** (`../synthesis/mechanisms.json`):
 ```typescript
 interface MechanismData {
-  confirmed: ConfirmedMechanism[];  // 9 confirmed: id, name, definition, problemItSolves, theoreticalConnection, scholarlyAnchor, maturity, specimens[], evidence[], affinityProfile
-  candidates: CandidateMechanism[]; // 9 candidates: name, hypothesis, evidenceNeeded, observedIn[], specimens[], demotionReason?
+  confirmed: ConfirmedMechanism[];  // id, name, definition, problemItSolves, theoreticalConnection, scholarlyAnchor, maturity, specimens[], evidence[], affinityProfile
+  candidates: CandidateMechanism[]; // name, hypothesis, evidenceNeeded, observedIn[], specimens[], demotionReason?
 }
 // MechanismMaturity: "emerging" | "confirmed" | "widespread" | "deprecated"
 ```
@@ -170,7 +170,7 @@ interface MechanismData {
 **Insights** (`../synthesis/insights.json`):
 ```typescript
 interface InsightData {
-  insights: Insight[];  // 13 insights: id, title, theme, maturity, finding, evidence[], theoreticalConnection, relatedMechanisms[], relatedTensions[]
+  insights: Insight[];  // id, title, theme, maturity, finding, evidence[], theoreticalConnection, relatedMechanisms[], relatedTensions[]
 }
 // InsightMaturity: "hypothesis" | "emerging" | "confirmed"
 // Themes: "convergence" | "organizational-form" | "mechanism" | "workforce" | "methodology"

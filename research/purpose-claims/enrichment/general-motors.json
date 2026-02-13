@@ -1,0 +1,33 @@
+{
+  "specimenId": "general-motors",
+  "scannedDate": "2026-02-12",
+  "quality": "adequate",
+  "claimCount": 7,
+  "claimTypeDistribution": {
+    "utopian": 0,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 2,
+    "survival": 2,
+    "commercial-success": 3
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [
+    "Barra's AI rhetoric is distinctly 'pragmatic survival' — she deploys survival framing (claims 001, 005) but always pairs it with practical, customer-experience-oriented commercial logic (claims 002, 003, 006). She avoids utopian or epochal language entirely. No 'new era' or 'civilization-changing' rhetoric. The closest she gets to transformative vision is 'software platform' (claim 003), which is grounded and product-specific. This is consistent with GM's manufacturing identity and contrasts sharply with tech-company CEO rhetoric (see Altman, Nadella)."
+  ],
+  "comparativeNotes": null,
+  "notableAbsences": "No claims from Barak Turovsky (departed CAIO) were found in any accessible source. Given his 8-month tenure and departure during a restructuring, the absence of public AI purpose claims from GM's first CAIO is itself a data point — either he was deliberately kept quiet or his vision was never publicly articulated. This is consistent with the hypothesis that the CAIO role at GM was structurally constrained from the start.",
+  "correctedLeaderInfo": "The specimen context described Sterling Anderson as 'former CAIO — departed Nov 2025.' This is incorrect. Sterling Anderson is GM's Chief Product Officer (CPO), still active as of Dec 2025 and considered a potential Barra successor. The departed CAIO was Barak Turovsky, who left after approximately 8 months. Two other tech leaders also departed in Nov 2025: Dave Richardson (SVP Software & Services Engineering) and Baris Cetinok (SVP Software & Services, ex-Apple). Anderson actually GAINED power in the restructuring, consolidating vehicle software and product under his leadership.",
+  "scanNarrative": null,
+  "searchesCompleted": 6,
+  "urlsFetched": 8,
+  "fetchFailures": [
+    "ciodive.com (JS-rendered, no article text)",
+    "search-careers.gm.com (403)",
+    "cnbc.com (JS-rendered, CSS only)",
+    "finance.yahoo.com (header check error)",
+    "gmauthority.com (403)",
+    "techbuzz.ai (503)",
+    "wardsauto.com (JS-rendered, no article text)"
+  ]
+}

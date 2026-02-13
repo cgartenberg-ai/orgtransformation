@@ -38,9 +38,33 @@
   },
 
   "mechanisms": [],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "This creates a massive opportunity for us, but we need to make some changes to better align our resources with our customers' evolving needs",
+      "speaker": "Carl Eschenbach",
+      "speakerTitle": "CEO",
+      "sourceRef": "cbsnews-ai-layoffs-2026",
+      "context": "Announcing workforce reduction tied to AI strategy realignment"
+    }
+  ],
 
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Second Layoff Wave + Founder Return as CEO",
+      "summary": "Workday cut ~400 jobs (2% of workforce) on Feb 4, 2026, primarily in customer operations and non-revenue roles. Founder Aneel Bhusri returned as CEO on Feb 9, triggering 8%+ stock decline. Carl Eschenbach departed as CEO. Company redirecting resources from human support to AI-driven HR/finance tools. Previous round: 1,750 layoffs (8.5% workforce) with $230-270M restructuring costs. Latest round: ~$135M in charges. Sequential layoff waves pattern. Eschenbach's parting framing: 'Companies everywhere are reimagining how work gets done.'",
+      "classification": null,
+      "sourceRefs": ["hrexec-workday-cuts-2026", "oreateai-workday-2026"]
+    },
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Additional coverage confirms AI-framed restructuring. New CEO quote emphasizes 'resource realignment' for customer AI needs. No new structural details on actual AI organization.",
+      "classification": null,
+      "sourceRefs": [
+        "cbsnews-ai-layoffs-2026"
+      ]
+    },
     {
       "date": "2026-02",
       "label": "Initial Documentation",
@@ -73,6 +97,32 @@
       "sourceDate": "2025-02-07",
       "collectedDate": "2026-02-04",
       "notes": "$230-270M restructuring charges."
+    },
+    {
+      "id": "cbsnews-ai-layoffs-2026",
+      "type": "Press",
+      "name": "CBS News — AI Layoffs 2026",
+      "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "timestamp": null,
+      "sourceDate": "2026-02-05",
+      "collectedDate": "2026-02-07",
+      "notes": "CEO quote on resource realignment for AI opportunity."
+    },
+    {
+      "id": "hrexec-workday-cuts-2026",
+      "type": "Press",
+      "name": "HR Executive — Workday Files More Job Cuts",
+      "url": "https://hrexecutive.com/workday-files-more-job-cuts-customer-ops-teams-hit/",
+      "sourceDate": "2026-02-09",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "oreateai-workday-2026",
+      "type": "Press",
+      "name": "OreateAI — Workday's Bold Move: Navigating Layoffs Amid AI Growth",
+      "url": "https://www.oreateai.com/blog/workdays-bold-move-navigating-layoffs-amid-ai-growth/454c49c70068da1eccd6dacc1f52e4e3",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-12"
     }
   ],
 
@@ -101,13 +151,15 @@
 
   "taxonomyFeedback": [
     "Workday is primarily valuable as an AI-washing data point. The gap between 'AI as stated reason for restructuring' and 'AI as actual driver of organizational change' is widening across the tech sector.",
-    "Parallels Pinterest: both are mid-tier tech companies tying workforce cuts to AI pivot with minimal evidence of actual AI organizational structure change."
+    "Parallels Pinterest: both are mid-tier tech companies tying workforce cuts to AI pivot with minimal evidence of actual AI organizational structure change.",
+    "[2026-02] Additional scan confirms narrative consistency — CEO continues framing layoffs as 'resource realignment' for AI opportunity. Still no evidence of actual AI organizational structure (no CAIO, no dedicated lab, no CoE). Classification remains Low confidence M6a.",
+    "[2026-02-13] Founder-return pattern during AI transformation (Bhusri replacing Eschenbach) echoes similar dynamics where companies bring back founders to drive radical transformation that professional managers resist. The 8% stock decline on the announcement suggests market skepticism. This is a CEO succession pattern worth tracking across specimens."
   ],
 
   "meta": {
     "status": "Stub",
     "created": "2026-02-04",
-    "lastUpdated": "2026-02-04",
+    "lastUpdated": "2026-02-13",
     "completeness": "Low",
     "convertedFrom": null
   }

@@ -1,0 +1,42 @@
+{
+  "company": "Panasonic Holdings",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 4,
+  "fetchFailures": [
+    {
+      "url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+      "reason": "JS-rendered, CSS-only content returned"
+    },
+    {
+      "url": "https://www.bankingdive.com/news/bank-of-america-citi-wells-fargo-headcount-banking-job-cuts-2026/809756/",
+      "reason": "JS-rendered, no article body returned"
+    }
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "Panasonic created two new C-suite roles effective April 1, 2026: Chief AI Officer (CAIO) filled by Akira Sakakibara, and Solution Revenue Officer (SRO) filled by Hirofumi Suzuki. The CAIO mandate is t",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "CAIO appointment: Akira Sakakibara becomes first Chief AI Officer",
+      "url": "https://news.aibase.com/news/25255",
+      "type": "Press",
+      "date": "2026-02-04",
+      "notes": "CAIO appointment: Akira Sakakibara becomes first Chief AI Officer"
+    }
+  ],
+  "summary": "CAIO appointment: Akira Sakakibara becomes first Chief AI Officer: Panasonic created two new C-suite roles effective April 1, 2026: Chief AI Officer (CAIO) filled by Akira Sakakibara, and Solution Revenue Officer (SRO) filled by Hirofumi Suzuki. The CAIO mandate is t",
+  "openQuestions": [],
+  "splitFrom": "general-sweep-feb-2026.json"
+}

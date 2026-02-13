@@ -1,0 +1,33 @@
+{
+  "specimenId": "goldman-sachs",
+  "scannedDate": "2026-02-12",
+  "quality": "rich",
+  "claimCount": 16,
+  "claimTypeDistribution": {
+    "utopian": 0,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 10,
+    "survival": 1,
+    "commercial-success": 5
+  },
+  "keyFindings": [
+    "Goldman Sachs' purpose claims are overwhelmingly identity and commercial-success types, with almost zero utopian or higher-calling language. This is the most economically grounded claim profile in the collection. Solomon and Coleman speak in pure growth/efficiency terms; Argenti adds an identity layer that positions Goldman as pragmatic, business-led, and anti-hype. The absence of civilizational transformation rhetoric is itself analytically significant — Goldman frames AI as a business tool, not a mission. The most structurally consequential claim is Argenti's 'We don't want to create a separate AI kingdom,' which directly authorizes the no-CAIO contextual ambidexterity model. The rhetorical division of labor is clean: Solomon handles investor reassurance (growth, no job apocalypse), Coleman handles operational specifics (scale, process redesign), Argenti handles identity and philosophy (economic utility, not tool fetishism). No single speaker dominates — this is a distributed rhetorical strategy that matches the distributed structural model.",
+    "AI as capability amplifier for existing elite talent (not replacement)",
+    "Economic utility test as the governing principle for AI adoption",
+    "Deliberate rejection of separate AI organization ('no AI kingdom')",
+    "Growth and capacity expansion framing (not cost-cutting)",
+    "Anti-hype identity: 'not an AI company' but committed to AI excellence",
+    "Fitness vs. championship: productivity is baseline, excellence is the goal"
+  ],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": "Goldman's claim profile is the mirror image of Sanofi's. Sanofi's CEO Hudson used florid, agency-problem-laden language ('AI Fight Club') to justify radical structural change. Goldman's leaders use understated, economically precise language to justify embedding AI into existing structures. Both are effective but serve opposite structural choices: Sanofi built a separate AI kingdom; Goldman explicitly refused to. The Goldman profile is also distinctive within finserv: JPMorgan's Teresa Heitsenrether uses more transformation-forward language to justify the separate CAIO role, while Goldman's Argenti uses identity-preservation language to justify keeping AI in the CIO office.",
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "goldmansachs.com (JS-rendered, no content extracted)"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "taskId": "general-sweep-feb-2026",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 4,
+  "fetchFailures": [
+    {"url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/", "reason": "JS-rendered, CSS-only content returned"},
+    {"url": "https://www.bankingdive.com/news/bank-of-america-citi-wells-fargo-headcount-banking-job-cuts-2026/809756/", "reason": "JS-rendered, no article body returned"}
+  ],
+  "organizations": [
+    {
+      "id": "panasonic",
+      "name": "Panasonic Holdings",
+      "status": "new",
+      "observations": [
+        {
+          "title": "CAIO appointment: Akira Sakakibara becomes first Chief AI Officer",
+          "detail": "Panasonic created two new C-suite roles effective April 1, 2026: Chief AI Officer (CAIO) filled by Akira Sakakibara, and Solution Revenue Officer (SRO) filled by Hirofumi Suzuki. The CAIO mandate is to promote deep integration of AI within and outside the company — deploying AI for customer challenges and streamlining internal operations. The SRO role coordinates cross-functional initiatives and optimizes profit structures by dismantling departmental silos. CEO Yuki Kusumi identified 2026 as the 'key year for achieving growth phase transition.' The dual appointment signals Panasonic is restructuring to break down siloed manufacturing BU structures using generative AI and automation.",
+          "sourceUrl": "https://news.aibase.com/news/25255",
+          "sourceDate": "2026-02-04"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "HIGH — Classic structural ambidexterity move: new C-suite role to coordinate AI exploration across siloed execution-oriented BUs. Dual CAIO+SRO structure is unusual and maps to explore/execute tension directly. Potential specimen."
+    },
+    {
+      "id": "lionsgate",
+      "name": "Lionsgate Entertainment",
+      "status": "new",
+      "observations": [
+        {
+          "title": "First Chief AI Officer: Kathleen Grace appointed",
+          "detail": "Lionsgate hired Kathleen Grace as its first-ever Chief AI Officer. Mandate includes: providing AI tools to serve creative vision of filmmakers, creating efficiencies in production/marketing/distribution/admin operations, and spearheading initiatives to protect IP of the studio and its talent partners. Notable tension: AI efficiency vs. IP protection and creative autonomy — a dual mandate that embeds the explore/exploit tension directly in the role definition.",
+          "sourceUrl": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+          "sourceDate": "2026-02-06"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "MEDIUM — Interesting CAIO mandate (efficiency + IP protection as dual objectives). Entertainment industry specimen would diversify collection. Needs deeper sourcing for structural detail."
+    },
+    {
+      "id": "citigroup",
+      "name": "Citigroup",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "AI-driven headcount reduction: 20K roles by end-2026",
+          "detail": "Citigroup is executing a plan announced in 2024 to eliminate 20,000 roles (~8-10% of workforce) by year-end 2026, targeting $2.5B annual expense savings. Headcount already fell from 240,000 (2022) to 226,000 (late 2025). Fresh layoff round of ~1,000 in January 2026, with more slated for March 2026. AI and automation explicitly cited as accelerants by outgoing CFO Mark Mason.",
+          "sourceUrl": "https://www.webpronews.com/citis-axe-falls-again-layoffs-stretch-to-2026-in-frasers-cost-crusade/",
+          "sourceDate": "2026-01-14"
+        },
+        {
+          "title": "Mandatory AI training for 175K employees across 80 locations",
+          "detail": "Citigroup mandated AI training (prompting skills) for 175,000 employees across 80 locations. Adaptive platform: experts complete in <10 min, beginners ~30 min. 70% adoption rate of proprietary AI tools. 6.5M prompts entered by employees. 21M interactions with AI tools across 84 countries. 50% of new openings filled internally, making reskilling more cost-effective than external hiring.",
+          "sourceUrl": "https://fortune.com/2026/01/27/citigroup-ceo-jane-fraser-employees-trained-reinvent-themselves-with-ai-before-tech-changes-roles-forever/",
+          "sourceDate": "2026-01-27"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "It will take some jobs away.",
+          "speaker": "Jane Fraser, CEO, Citigroup",
+          "sourceUrl": "https://fortune.com/2026/01/27/citigroup-ceo-jane-fraser-employees-trained-reinvent-themselves-with-ai-before-tech-changes-roles-forever/"
+        },
+        {
+          "text": "I want to stack the odds that we will help our people reinvent themselves.",
+          "speaker": "Jane Fraser, CEO, Citigroup",
+          "sourceUrl": "https://fortune.com/2026/01/27/citigroup-ceo-jane-fraser-employees-trained-reinvent-themselves-with-ai-before-tech-changes-roles-forever/"
+        },
+        {
+          "text": "Someone using AI is going to probably be better at your job than you are.",
+          "speaker": "Jane Fraser, CEO, Citigroup",
+          "sourceUrl": "https://fortune.com/2026/01/27/citigroup-ceo-jane-fraser-employees-trained-reinvent-themselves-with-ai-before-tech-changes-roles-forever/"
+        }
+      ],
+      "specimenRelevance": "HIGH — Rich purpose claims material. Fraser framing AI as 'copilot not replacement' while executing 20K cuts is a textbook explore/execute tension. The 175K mandatory training + 70% adoption rate is unusually specific operational data. Strong candidate for both Track 1 specimen and Track 2 purpose claims."
+    },
+    {
+      "id": "hp-inc",
+      "name": "HP Inc.",
+      "status": "new",
+      "observations": [
+        {
+          "title": "4,000-6,000 job cuts by 2028, explicitly AI-driven",
+          "detail": "HP announced plans to reduce gross global headcount by 4,000-6,000 employees (~10% of 58,000 workforce) by end of fiscal 2028. Cuts primarily affect product development, internal operations, and customer support. Expected savings: $1B annualized gross run rate by end of FY2028. Restructuring charges: ~$650M total, $250M in FY2026. A separate earlier round cut 1,000-2,000 in Feb 2025. AI adoption and enablement explicitly cited as driver of fiscal 2026 plan.",
+          "sourceUrl": "https://www.cnn.com/2025/11/25/tech/hp-layoffs-ai-efforts",
+          "sourceDate": "2025-11-25"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "MEDIUM — Standard AI-driven cost restructuring. Less structural innovation than Panasonic or Citi. Useful as comparison case (pure execution-side optimization) but lower priority for specimen creation."
+    },
+    {
+      "id": "new-york-state",
+      "name": "New York State (ITS)",
+      "status": "new",
+      "observations": [
+        {
+          "title": "First state-level Chief AI Officer appointed",
+          "detail": "New York State Office of Information Technology Services (ITS) appointed Eleonore Fournier-Tombs as Chief Artificial Intelligence Officer — a newly established role to guide AI strategy across ITS, partner agencies, and state government. She brings 15+ years of experience in AI, data governance, digital transformation, and technology innovation.",
+          "sourceUrl": "https://www.cdomagazine.tech/leadership-moves/new-york-state-appoints-eleonore-fournier-tombs-as-chief-ai-officer",
+          "sourceDate": "2026-02"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "LOW — Public sector, less relevant to core research question about commercial organizations. Note for broader CAIO proliferation trend."
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "Eric Hysen named Chief AI & Transformation Officer",
+          "detail": "Salesforce appointed Eric Hysen as Chief AI & Transformation Officer. Notable: the title combines AI leadership with transformation mandate in a single role, suggesting Salesforce views AI and organizational transformation as inseparable.",
+          "sourceUrl": "https://www.govconwire.com/articles/eric-hysen-salesforce-chief-ai-transformation-officer-appointment",
+          "sourceDate": "2026-01"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "MEDIUM — Title is interesting (AI + Transformation combined). Salesforce already in collection but this is a new structural signal."
+    },
+    {
+      "id": "kyndryl",
+      "name": "Kyndryl",
+      "status": "new",
+      "observations": [
+        {
+          "title": "Established SAP Center of Excellence for agentic AI-driven transformation",
+          "detail": "Kyndryl established a SAP Center of Excellence — a dedicated hub where customers co-create with designers and engineers to unlock AI potential for SAP transformations. Collaboration with Nova Intelligence provides an agentic AI and data-driven modernization journey. This is a structural unit (CoE) explicitly organized around agentic AI for enterprise transformation.",
+          "sourceUrl": "https://www.prnewswire.com/news-releases/kyndryl-establishes-sap-center-of-excellence-to-accelerate-agentic-ai-driven-transformation-for-customers-302670271.html",
+          "sourceDate": "2026-02"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "LOW-MEDIUM — CoE is a common structural pattern but the agentic AI framing is current. Lower priority unless we need more CoE examples."
+    },
+    {
+      "id": "bank-of-america",
+      "name": "Bank of America",
+      "status": "new",
+      "observations": [
+        {
+          "title": "Projecting lower headcounts in 2026, joining Citi and Wells Fargo",
+          "detail": "BofA joins Citi and Wells Fargo in projecting lower headcounts for 2026. Headline from Banking Dive (Jan 15, 2026). Article body not extractable (JS-rendered). Signals an industry-wide pattern in banking: AI-driven headcount reduction across the Big Four.",
+          "sourceUrl": "https://www.bankingdive.com/news/bank-of-america-citi-wells-fargo-headcount-banking-job-cuts-2026/809756/",
+          "sourceDate": "2026-01-15"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "LOW as standalone — but important as evidence of sector-wide pattern when combined with Citi."
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "CAIO role proliferation accelerating in early 2026",
+      "detail": "Panasonic (manufacturing), Lionsgate (entertainment), NY State (government), Salesforce (tech/enterprise) all created CAIO or equivalent roles in Jan-Feb 2026. The role is no longer tech-sector-only — it's crossing into traditional industries and public sector.",
+      "evidence": "4 new CAIO appointments in ~5 weeks across 4 different sectors"
+    },
+    {
+      "trend": "Banking sector converging on AI-driven headcount reduction",
+      "detail": "Citi (20K by end-2026), BofA, and Wells Fargo all projecting lower headcounts for 2026 with AI explicitly cited. This is becoming an industry norm, not an outlier strategy.",
+      "evidence": "Banking Dive Jan 15, 2026; Citi 240K→226K trajectory; BofA and Wells joining"
+    },
+    {
+      "trend": "Agentic AI entering organizational structure vocabulary",
+      "detail": "40% of surveyed organizations currently use AI agents/agentic AI; 59% plan to invest in next 12 months. Kyndryl CoE explicitly organized around agentic AI. The framing is shifting from 'AI tools' to 'AI agents' which implies different structural choices (autonomy, governance, oversight).",
+      "evidence": "Multiple search results; Kyndryl SAP CoE; analyticsweek.com enterprise agentic AI article"
+    },
+    {
+      "trend": "Dual-mandate CAIO roles embedding explore/execute tension",
+      "detail": "Lionsgate CAIO mandate: efficiency + IP protection. Panasonic CAIO+SRO: AI integration + cross-BU revenue optimization. Salesforce: AI + Transformation in one title. The CAIO role itself is becoming a structural encoding of the ambidexterity challenge.",
+      "evidence": "Lionsgate, Panasonic, Salesforce role definitions"
+    }
+  ],
+  "purposeClaimsDiscovered": [
+    {
+      "specimenId": "citigroup",
+      "speaker": "Jane Fraser",
+      "claimType": "authorization-through-empowerment",
+      "preview": "Fraser framing 20K cuts as employee empowerment ('reinvent themselves') while candidly admitting 'it will take some jobs away' — classic tension between purpose rhetoric and operational reality",
+      "sourceUrl": "https://fortune.com/2026/01/27/citigroup-ceo-jane-fraser-employees-trained-reinvent-themselves-with-ai-before-tech-changes-roles-forever/"
+    }
+  ]
+}

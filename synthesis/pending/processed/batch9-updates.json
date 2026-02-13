@@ -1,0 +1,83 @@
+{
+  "batch": 9,
+  "theme": "Tech enterprise + remaining",
+  "date": "2026-02-09",
+  "sessionLog": "synthesis/sessions/2026-02-09-synthesis-batch9.md",
+
+  "mechanismUpdates": [
+    {
+      "id": 5,
+      "name": "Deploy to Thousands",
+      "action": "update",
+      "evidence": "Salesforce Agentforce provides strongest quantitative evidence: 18,500 customers, 9,500 paid deals, $500M ARR. The 84% AI resolution rate in support enables 4,000 contractor position cut—demonstrating the deploy-to-thousands mechanism working in practice.",
+      "specimens": ["salesforce"]
+    },
+    {
+      "id": 10,
+      "name": "Productize Internal Advantages",
+      "action": "update",
+      "evidence": "SAP Joule represents variant where 'internal advantage' is business process expertise, not just AI capability. Decades of ERP/HCM process knowledge becomes AI training ground. Consider subdividing: 10a Technical Productization (internal AI tools → products) vs 10b Domain Productization (internal domain expertise → AI training).",
+      "specimens": ["sap"]
+    }
+  ],
+
+  "tensionUpdates": [
+    {
+      "id": "namedVsQuiet",
+      "name": "Named vs. Quiet",
+      "action": "update",
+      "observation": "Pinterest (0.6), Workday (0.7), HP Inc (0.8) score high on 'Named' (loud AI narrative) despite having no named AI organizational structure. Tension may need subdivision into 'narrative loudness' vs 'structural loudness'. AI-washing specimens are narratively loud but structurally quiet.",
+      "specimens": ["pinterest", "workday", "hp-inc"]
+    }
+  ],
+
+  "contingencyUpdates": [],
+
+  "newInsights": [
+    {
+      "proposedId": "I-14",
+      "title": "AI-Washing as Classification Signal",
+      "finding": "Companies announcing AI-driven workforce restructuring without evidence of AI organizational structure (no CAIO, no AI lab, no CoE, no AI product adoption metrics) may be using AI narrative for cost reduction. Distinguishing characteristics: workforce cut metrics without AI product metrics; CEO statements about AI without named AI leadership; restructuring charges framed as 'AI investment'; no observable AI organizational structure change.",
+      "implication": "When coding organizational AI transformation, researchers should require structural evidence (named units, leadership roles, resource allocation) rather than accepting narrative claims at face value.",
+      "evidence": "Pinterest (SEC filing 'transformation initiatives'), Workday (CEO memo, 8.5% cut), HP Inc (4,000-6,000 cuts, $1B savings target), CrowdStrike ('technology inflection point' framing)",
+      "specimens": ["pinterest", "workday", "hp-inc", "crowdstrike"],
+      "confidence": "Medium"
+    },
+    {
+      "proposedId": "I-15",
+      "title": "Customer Adoption as AI Structural Maturity Indicator",
+      "finding": "Organizations with mature AI organizational structures can attribute customer adoption or revenue to AI capabilities. Salesforce ($500M Agentforce ARR, 18,500 customers) and SAP (AI in 2/3 of cloud order entry) both demonstrate this, while 'AI-washing' specimens have only internal metrics (cost savings, headcount cuts).",
+      "implication": "Customer-facing AI metrics may be a better indicator of genuine AI organizational transformation than internal restructuring announcements.",
+      "evidence": "Salesforce (Agentforce: $500M ARR, 18,500 customers, 9,500 paid deals); SAP (AI in 2/3 of Q4 cloud order entry, 90% of top 50 deals included AI/Data Cloud)",
+      "specimens": ["salesforce", "sap"],
+      "confidence": "Medium"
+    }
+  ],
+
+  "insightUpdates": [],
+
+  "convergentEvolution": [
+    {
+      "pattern": "Enterprise Software AI Copilot Pattern",
+      "description": "Salesforce and SAP independently evolved nearly identical strategies: (1) Build AI copilot centrally (Agentforce, Joule), (2) Embed across product portfolio, (3) Use customer adoption as success metric, (4) Position AI as 'table stakes' for enterprise deals. This is sector-specific convergent evolution—enterprise software vendors face same structural pressures and arrive at same solution.",
+      "specimens": ["salesforce", "sap"]
+    }
+  ],
+
+  "specimenQueueUpdates": [
+    { "id": "crowdstrike", "previousStatus": "pending", "newStatus": "synthesized" },
+    { "id": "hp-inc", "previousStatus": "pending", "newStatus": "synthesized" },
+    { "id": "pinterest", "previousStatus": "pending", "newStatus": "synthesized" },
+    { "id": "salesforce", "previousStatus": "pending", "newStatus": "synthesized" },
+    { "id": "sap", "previousStatus": "pending", "newStatus": "synthesized" },
+    { "id": "workday", "previousStatus": "pending", "newStatus": "synthesized" }
+  ],
+
+  "openQuestions": [
+    "Is CrowdStrike's 'technology inflection point' language AI-washing or genuine transformation? (stub status, insufficient data)",
+    "Will Pinterest's post-restructuring org chart show actual AI teams? (follow up Q3 2026)",
+    "Are there M6 specimens that demonstrate genuine AI transformation without formal structure?",
+    "How does the 'support function canary' pattern extend to other functions?",
+    "Is SAP's high technical debt + high AI adoption a pattern or exception?"
+  ]
+}

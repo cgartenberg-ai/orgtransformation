@@ -1,5 +1,6 @@
-import type { Specimen } from "@/lib/types/specimen";
+import type { Specimen, Source } from "@/lib/types/specimen";
 import { QuoteBlock } from "@/components/shared/QuoteBlock";
+import { CitedText } from "@/components/shared/CitedText";
 
 export function OverviewTab({ specimen }: { specimen: Specimen }) {
   const markers = specimen.observableMarkers;
@@ -10,7 +11,7 @@ export function OverviewTab({ specimen }: { specimen: Specimen }) {
       {/* Description */}
       <section>
         <p className="whitespace-pre-line text-base leading-relaxed text-charcoal-700">
-          {specimen.description}
+          <CitedText text={specimen.description} sources={specimen.sources} />
         </p>
       </section>
 
@@ -37,19 +38,19 @@ export function OverviewTab({ specimen }: { specimen: Specimen }) {
           </h3>
           <dl className="grid gap-3 md:grid-cols-2">
             {markers.reportingStructure && (
-              <MarkerItem label="Reporting Structure" value={markers.reportingStructure} />
+              <MarkerItem label="Reporting Structure" value={markers.reportingStructure} sources={specimen.sources} />
             )}
             {markers.resourceAllocation && (
-              <MarkerItem label="Resource Allocation" value={markers.resourceAllocation} />
+              <MarkerItem label="Resource Allocation" value={markers.resourceAllocation} sources={specimen.sources} />
             )}
             {markers.timeHorizons && (
-              <MarkerItem label="Time Horizons" value={markers.timeHorizons} />
+              <MarkerItem label="Time Horizons" value={markers.timeHorizons} sources={specimen.sources} />
             )}
             {markers.decisionRights && (
-              <MarkerItem label="Decision Rights" value={markers.decisionRights} />
+              <MarkerItem label="Decision Rights" value={markers.decisionRights} sources={specimen.sources} />
             )}
             {markers.metrics && (
-              <MarkerItem label="Metrics" value={markers.metrics} />
+              <MarkerItem label="Metrics" value={markers.metrics} sources={specimen.sources} />
             )}
           </dl>
         </section>
@@ -105,6 +106,20 @@ export function OverviewTab({ specimen }: { specimen: Specimen }) {
         </section>
       )}
 
+      {/* Botanist's Notes */}
+      {specimen.taxonomyFeedback && specimen.taxonomyFeedback.length > 0 && (
+        <section>
+          <h3 className="mb-2 font-serif text-lg text-forest">
+            Botanist&apos;s Notes
+          </h3>
+          <ul className="list-inside list-disc space-y-2 text-sm leading-relaxed text-charcoal-600">
+            {specimen.taxonomyFeedback.map((note, i) => (
+              <li key={i}>{note}</li>
+            ))}
+          </ul>
+        </section>
+      )}
+
       {/* Open Questions */}
       {specimen.openQuestions && specimen.openQuestions.length > 0 && (
         <section>
@@ -122,13 +137,15 @@ export function OverviewTab({ specimen }: { specimen: Specimen }) {
   );
 }
 
-function MarkerItem({ label, value }: { label: string; value: string }) {
+function MarkerItem({ label, value, sources }: { label: string; value: string; sources: Source[] }) {
   return (
     <div className="rounded border border-sage-200 bg-cream-50 p-3">
       <dt className="text-xs font-medium uppercase tracking-wide text-charcoal-400">
         {label}
       </dt>
-      <dd className="mt-1 text-sm text-charcoal-700">{value}</dd>
+      <dd className="mt-1 text-sm text-charcoal-700">
+        <CitedText text={value} sources={sources} />
+      </dd>
     </div>
   );
 }

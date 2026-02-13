@@ -1,0 +1,280 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "netflix",
+  "name": "Netflix",
+  "title": "Distributed Research Teams with Central Member AI Hub",
+  "classification": {
+    "structuralModel": 3,
+    "structuralModelName": "Embedded Teams",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "M4→M3 Contextual (Audit 2026-02-12). Netflix explicitly states research is NOT centralized — nine research areas are distributed and work 'in close collaboration with business teams.' AIMS is a product team for recommendations, not a coordinating hub. The contextual orientation was already assigned, which is inconsistent with M4's structural separation. Reclassifying to M3 Contextual aligns structure with orientation.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Media / Entertainment",
+    "sector": "Streaming",
+    "orgSize": "Enterprise",
+    "employees": 13000,
+    "revenue": "$48B (annualized from $12B Q4 2025)",
+    "headquarters": "Los Gatos, California",
+    "geography": "Global"
+  },
+  "description": "Netflix operates a distributed AI research structure where teams are explicitly NOT centralized — instead, nine research areas span Analytics, Computer Vision and Graphics, Consumer Insights, Encoding & Quality, Experimentation & Causal Inference, Machine Learning, Machine Learning Platform, NLP & Conversations, and Recommendations. These teams work in close collaboration with business and engineering teams rather than in isolation.\n\nDedicated AI units do exist within this distributed structure: AIMS (AI for Member Systems) is responsible for recommendations, personalization, search, and discovery serving 325M+ members, including GenAI and LLM-powered experiences. Eyeline Studios conducts research-focused work on computer vision, VFX, and media-focused ML including breakthrough technologies like DifFRelight for de-aging and relighting.\n\nCo-CEO Ted Sarandos has articulated a clear philosophy: AI should make content 'better, not just cheaper.' This manifests in specific use cases — set references, pre-visualization, VFX sequence prep, shot planning — with the El Eternauta production demonstrating 10x faster VFX completion using generative AI tools. The technology organization of ~3,000 people under CPTO Elizabeth Stone integrates AI strategy without a dedicated CAIO role.",
+  "observableMarkers": {
+    "reportingStructure": "AI reports to Elizabeth Stone (CPTO), who reports to co-CEOs Sarandos and Peters [variety-2026-01]. No dedicated CAIO role [variety-2026-01]. AIMS and research teams are part of the technology organization [netflix-research-website].",
+    "resourceAllocation": "AI is embedded within technology organization budget, not ring-fenced [netflix-research-website]. Research investments are distributed across business areas rather than centralized [netflix-research-website].",
+    "timeHorizons": "Mixed: AIMS works on production models (quarterly) [netflix-aims-job-posting], Eyeline Studios and research teams work on longer-horizon capabilities (e.g., virtual production, de-aging, relighting technology) [techcrunch-2025-10]. VFX innovation is explicitly 3-5 year horizon [deadline-2025-04].",
+    "decisionRights": "Distributed — research teams work 'in close collaboration with business teams' and are expected to drive 'high impact' [netflix-research-website]. Experimentation culture means teams can run experiments to validate hypotheses [netflix-research-website].",
+    "metrics": "Netflix measures personalization AI by quantified financial ROI [netflix-research-website]. Content AI measured by quality improvement ('10% better') [deadline-2025-04], efficiency gains ('10x faster VFX') [techcrunch-2025-10], and cost reduction (The Pedro Pascal film de-aging cost 'a fraction of The Irishman') [techcrunch-2025-10]. Ads AI measured by revenue growth and campaign planning speed [netflix-q4-2025-earnings]."
+  },
+  "mechanisms": [
+    {
+      "id": 3,
+      "name": "Embed Product at Research Frontier",
+      "evidence": "Research teams work 'in close collaboration with business teams, engineering teams, and other researchers' — explicitly NOT centralized. AIMS handles both research and production systems for 325M+ members.",
+      "strength": "Strong"
+    },
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "AI tools for creators are explicitly framed as making their work 'better' — pre-vis, VFX sequence prep, shot planning tools designed for creative talent to use directly.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We remain convinced that AI represents an incredible opportunity to help creators make films and series better, not just cheaper.",
+      "speaker": "Ted Sarandos",
+      "speakerTitle": "Co-CEO",
+      "source": "Netflix Q2 2025 earnings call",
+      "sourceUrl": "https://www.hollywoodreporter.com/business/business-news/netflixs-ted-sarandos-gen-ai-1236319038/",
+      "sourceDate": "2025-07",
+      "context": "Addressing analysts on generative AI strategy"
+    },
+    {
+      "text": "I remain convinced that there's an even bigger opportunity to make movies 10% better. So, our talent today is using AI tools to do set references, pre-vis, VFX sequence prep, shot planning, all kinds of things today that kind of make the process better.",
+      "speaker": "Ted Sarandos",
+      "speakerTitle": "Co-CEO",
+      "source": "Netflix Q1 2025 earnings call",
+      "sourceUrl": "https://deadline.com/2025/04/ted-sarandos-netflix-james-cameron-ai-movies-better-cheaper-1236371326/",
+      "sourceDate": "2025-04",
+      "context": "Responding to James Cameron's view that AI will make movies cheaper"
+    },
+    {
+      "text": "I look at Gen AI as a tool for creators to create content, not for Netflix to create instead of creators. So I feel like there are opportunities if it passes the big test, which is, can the use of this tool make a better show, then it will be really transformative and be helpful.",
+      "speaker": "Ted Sarandos",
+      "speakerTitle": "Co-CEO",
+      "source": "WSJ Tech conference",
+      "sourceUrl": "https://www.hollywoodreporter.com/business/business-news/ted-sarandos-netflix-ceo-wsj-tech-1236041394/",
+      "sourceDate": "2024-10",
+      "context": "WSJ Tech conference fireside chat with editor-in-chief Emma Tucker"
+    },
+    {
+      "text": "It takes a great artist to make something great. AI can give creatives better tools to enhance their overall TV/movie experience for our members, but it doesn't automatically [make you a great storyteller].",
+      "speaker": "Ted Sarandos",
+      "speakerTitle": "Co-CEO",
+      "source": "Variety",
+      "sourceUrl": "https://variety.com/2024/digital/news/netflix-ted-sarandos-generative-ai-tools-creators-1236077524/",
+      "sourceDate": "2024-07",
+      "context": "Q2 2024 earnings interview on AI as creator tool"
+    },
+    {
+      "text": "AI is not going to take your job. The person who uses AI well might take your job.",
+      "speaker": "Ted Sarandos",
+      "speakerTitle": "Co-CEO",
+      "source": "New York Times",
+      "sourceUrl": "https://fortune.com/2024/05/28/netflix-ceo-ted-sarandos-streaming-ai-hollywood-movies-tv-entertainment/",
+      "sourceDate": "2024-05",
+      "context": "Interview on AI's impact on entertainment industry jobs"
+    },
+    {
+      "text": "Using AI-powered tools, they were able to achieve an amazing result with remarkable speed and, in fact, that VFX sequence was completed ten times faster than it could have been completed with traditional VFX tools.",
+      "speaker": "Ted Sarandos",
+      "speakerTitle": "Co-CEO",
+      "source": "Netflix earnings discussion",
+      "sourceUrl": "https://techcrunch.com/2025/10/21/netflix-goes-all-in-on-generative-ai-as-entertainment-industry-remains-divided/",
+      "sourceDate": "2025-10",
+      "context": "Discussing El Eternauta, first Netflix original to use generative AI VFX footage"
+    },
+    {
+      "text": "AI has always been a thing that we've talked about with all of the guilds... a really great tool for us in the hands of creators and when they want to use that for efficiency.",
+      "speaker": "Bela Bajaria",
+      "speakerTitle": "Chief Content Officer",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2023/10/10/netflix-exec-downplays-ai/",
+      "sourceDate": "2023-10",
+      "context": "Discussing AI's role in content production and guild negotiations"
+    },
+    {
+      "text": "Across the company, we strive to run experiments to back up our hypotheses with evidence, which often uncover surprises that redirect or refine our research.",
+      "speaker": "Netflix Research",
+      "speakerTitle": "Company statement",
+      "source": "Netflix Research website",
+      "sourceUrl": "https://research.netflix.com/",
+      "sourceDate": "2026-02",
+      "context": "Description of research culture and methodology"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke → M3 Embedded Teams",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M3 Embedded Teams with Contextual orientation. Research explicitly distributed and embedded in business teams.",
+      "classification": "M4 Hybrid/Hub-and-Spoke",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Initial Classification",
+      "summary": "Netflix operates distributed AI research across 9 areas with central hubs (AIMS, Eyeline Studios). Research explicitly NOT centralized — teams work closely with business units. CPTO Elizabeth Stone leads ~3,000-person technology org. Sarandos articulates 'better not cheaper' AI philosophy with El Eternauta as proof point (10x faster VFX).",
+      "sourceRefs": [
+        "netflix-research-website",
+        "netflix-aims-job-posting",
+        "netflix-q4-2025-earnings",
+        "techcrunch-2025-10"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "netflix-research-website",
+      "name": "Netflix Research",
+      "url": "https://research.netflix.com/",
+      "type": "Blog",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-09",
+      "notes": "Key source for understanding research structure — explicitly states research is NOT centralized, lists 9 research areas, describes experimental culture"
+    },
+    {
+      "id": "netflix-aims-job-posting",
+      "name": "Netflix AIMS job posting",
+      "url": "https://explore.jobs.netflix.net/careers/job/790313260852-principal-technical-program-manager-ai-for-member-systems-aims--los-gatos-california-united-states-of-america?domain=netflix.com&microsite=netflix.com",
+      "type": "Report",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-09",
+      "notes": "Reveals AIMS organization structure — AI for Member Systems, 270M+ members, recommendations/personalization/search/discovery, GenAI and LLM work"
+    },
+    {
+      "id": "deadline-2025-04",
+      "name": "Deadline: Ted Sarandos on AI and James Cameron",
+      "url": "https://deadline.com/2025/04/ted-sarandos-netflix-james-cameron-ai-movies-better-cheaper-1236371326/",
+      "type": "Press",
+      "sourceDate": "2025-04",
+      "collectedDate": "2026-02-09",
+      "notes": "Key quote on '10% better' philosophy, specific examples of AI use cases (pre-vis, VFX, shot planning)"
+    },
+    {
+      "id": "techcrunch-2025-10",
+      "name": "TechCrunch: Netflix goes all in on generative AI",
+      "url": "https://techcrunch.com/2025/10/21/netflix-goes-all-in-on-generative-ai-as-entertainment-industry-remains-divided/",
+      "type": "Press",
+      "sourceDate": "2025-10",
+      "collectedDate": "2026-02-09",
+      "notes": "El Eternauta case study — first Netflix original with generative AI VFX, 10x faster than traditional"
+    },
+    {
+      "id": "hollywood-reporter-2025-07",
+      "name": "Hollywood Reporter: Ted Sarandos on Gen AI",
+      "url": "https://www.hollywoodreporter.com/business/business-news/netflixs-ted-sarandos-gen-ai-1236319038/",
+      "type": "Press",
+      "sourceDate": "2025-07",
+      "collectedDate": "2026-02-09",
+      "notes": "Core quote on AI making films 'better, not just cheaper'"
+    },
+    {
+      "id": "fortune-2024-05",
+      "name": "Fortune: Netflix CEO on AI and jobs",
+      "url": "https://fortune.com/2024/05/28/netflix-ceo-ted-sarandos-streaming-ai-hollywood-movies-tv-entertainment/",
+      "type": "Press",
+      "sourceDate": "2024-05",
+      "collectedDate": "2026-02-09",
+      "notes": "Famous quote: 'AI is not going to take your job. The person who uses AI well might take your job.'"
+    },
+    {
+      "id": "variety-2026-01",
+      "name": "Variety: Elizabeth Stone promotion",
+      "url": "https://variety.com/2026/tv/news/netflix-elizabeth-stone-chief-product-and-technology-officer-1236649971/",
+      "type": "Press",
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-09",
+      "notes": "Elizabeth Stone promoted to CPTO, leads 3,000-person team including product, engineering, data"
+    },
+    {
+      "id": "netflix-q4-2025-earnings",
+      "name": "Netflix Q4 2025 Shareholder Letter",
+      "url": "https://ir.netflix.net/files/doc_financials/2025/q4/FINAL-Q4-25-Shareholder-Letter.pdf",
+      "type": "Earnings Call",
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-09",
+      "notes": "AI tools for advertisers tested in 2025, automated ad workflows, subtitle localization AI, 325M subscribers, $12B quarterly revenue"
+    },
+    {
+      "id": "netflix-tech-blog-ml",
+      "name": "Netflix Tech Blog: ML/AI Development",
+      "url": "https://netflixtechblog.com/supercharging-the-ml-and-ai-development-experience-at-netflix-b2d5b95c63eb",
+      "type": "Blog",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-09",
+      "notes": "Metaflow platform details, Python as primary ML language, production workflow infrastructure"
+    },
+    {
+      "id": "hollywood-reporter-wsj-2024-10",
+      "name": "Hollywood Reporter: WSJ Tech Conference",
+      "url": "https://www.hollywoodreporter.com/business/business-news/ted-sarandos-netflix-ceo-wsj-tech-1236041394/",
+      "type": "Conference",
+      "sourceDate": "2024-10",
+      "collectedDate": "2026-02-09",
+      "notes": "Sarandos fireside chat on GenAI impact — 'profound impact on product' but less certain on content"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.6,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": 0.4,
+    "namedVsQuiet": 0.2,
+    "longVsShortHorizon": 0.0
+  },
+  "openQuestions": [
+    "Size of AIMS team specifically — how many researchers/engineers?",
+    "What percentage of Netflix's R&D budget goes to AI/ML research?",
+    "Relationship between Eyeline Studios and Netflix Research — are they the same or separate?",
+    "Whether Netflix has formal AI governance or ethics review processes",
+    "How AI work is prioritized across the nine research areas",
+    "Specific headcount in ML Platform, NLP, Computer Vision teams"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Netflix presents an interesting M4 variant where the 'hub' is NOT a traditional central AI lab but rather specialized functional hubs (AIMS for member experience, Eyeline for VFX) that coexist with deeply distributed research. The explicit statement that research is 'NOT centralized' challenges the typical hub-and-spoke framing — this is more like 'multiple small hubs plus pervasive distribution.'",
+    "[2026-02] The 'better not cheaper' framing is distinctive and may warrant tracking as a purpose-claim pattern. Sarandos has articulated this consistently since 2024, positioning AI as quality-enhancing rather than cost-reducing. This is unusual in an industry under margin pressure.",
+    "[2026-02] Netflix's contextual orientation is unusually explicit — the research website literally states that researchers work 'in close collaboration with business teams.' Most orgs claim this but Netflix appears to have built it into the structural DNA, with experimentation culture enabling individuals to balance exploration and execution.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M3. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — Research explicitly distributed and embedded in business teams."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

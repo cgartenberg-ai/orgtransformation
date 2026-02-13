@@ -1,0 +1,36 @@
+{
+  "company": "Chegg",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.techrepublic.com/article/news-washington-post-layoffs-ai-restructuring/ (403)",
+    "https://www.crowe.com/news/crowe-expands-ai-center-of-excellence-appoints-firmwide-ai-leader (403)"
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "In October 2025, Chegg cut 45% of its workforce, citing the 'new realities of AI' plus reduced Google traffic. This is one of the most dramatic AI-attributed workforce reductions in percentage terms.",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "Chegg cuts 45% of workforce citing 'new realities of AI'",
+      "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "type": "Press",
+      "date": "2025-10",
+      "notes": "Chegg cuts 45% of workforce citing 'new realities of AI'"
+    }
+  ],
+  "summary": "Chegg cuts 45% of workforce citing 'new realities of AI': In October 2025, Chegg cut 45% of its workforce, citing the 'new realities of AI' plus reduced Google traffic. This is one of the most dramatic AI-attributed workforce reductions in percentage terms. ",
+  "openQuestions": [],
+  "splitFrom": "general-sweep-feb-2026-v2.json"
+}

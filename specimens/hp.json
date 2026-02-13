@@ -43,6 +43,13 @@
 
   "layers": [
     {
+      "date": "2026-02",
+      "label": "AI Transformation Layoffs — 4K-6K Through 2028",
+      "summary": "HP announced 4,000-6,000 job cuts by 2028 (November 2025), followed by additional 1,000-2,000 in February 2026. Targeting product development, internal operations, and customer support. Company-wide initiative to generate $1B in gross cost savings by FY2028. $650M restructuring costs. AI-enabled PCs reached 30%+ of HP shipments in Q4. CEO Enrique Lores driving AI transformation. HP is both deploying AI internally and selling AI-enhanced products — dual AI exposure.",
+      "classification": null,
+      "sourceRefs": ["ktvu-hp-layoffs-2026", "channelfutures-hp-layoffs-2026"]
+    },
+    {
       "date": "2026",
       "label": "Initial Documentation",
       "summary": "Major layoffs as part of fiscal 2026 plan focused on AI adoption. Goals: boost productivity, speed product innovation, improve customer interactions. Expected $1B annual savings by FY2028.",
@@ -61,6 +68,22 @@
       "sourceDate": "2026",
       "collectedDate": "2026-01-31",
       "notes": null
+    },
+    {
+      "id": "ktvu-hp-layoffs-2026",
+      "type": "Press",
+      "name": "KTVU — HP AI Layoffs",
+      "url": "https://www.ktvu.com/news/hp-palo-alto-ai-layoffs",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "channelfutures-hp-layoffs-2026",
+      "type": "Press",
+      "name": "Channel Futures — Latest HP Layoffs Hit Up to 2,000 Workers",
+      "url": "https://www.channelfutures.com/channel-business/latest-hp-layoffs-to-hit-up-to-2-000-workers",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-12"
     }
   ],
 
@@ -86,12 +109,16 @@
     "How does HP's approach compare to other hardware companies (Dell, Lenovo)?"
   ],
 
-  "taxonomyFeedback": [],
+  "taxonomyFeedback": [
+    "[2026-02] HP represents the 'AI as cost-reduction lever' variant of M6a — structurally indistinguishable from traditional restructuring except for the stated rationale. The $1B savings goal and 6K layoffs suggest AI adoption is framed as labor substitution rather than capability addition, raising the question of whether this is genuine AI transformation or financial engineering with AI branding. This challenges the taxonomy's implicit assumption that AI restructuring involves building new capabilities rather than simply eliminating existing roles.",
+    "[2026-02] The hardware/PC sector context is crucial here: HP faces commoditization pressure and margin compression that makes cost-focused AI adoption economically rational, unlike software companies where AI restructuring typically aims at product innovation. This specimen exposes a sector-specific pattern where capital-intensive, low-margin businesses may adopt M6 Unnamed structures precisely because they cannot afford the exploration overhead of M1/M2/M4 models — the opportunity cost of dedicated AI investment is too high relative to immediate margin improvement needs.",
+    "[2026-02] Notably absent is any evidence of the protect-off-strategy-work mechanism or dual-horizon thinking. The 2-year timeline (FY2026 plan with FY2028 targets) is purely operational, suggesting HP has resolved the exploration-vs-execution tension entirely in favor of execution. This positions HP as a potential negative case: what happens when organizations adopt AI without structural protection for exploration? Does this path lead to sustainable AI capability or just temporary cost reduction that leaves the firm vulnerable to more ambitious AI-native competitors?"
+  ],
 
   "meta": {
     "status": "Stub",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-13",
     "completeness": "Low",
     "convertedFrom": null
   }

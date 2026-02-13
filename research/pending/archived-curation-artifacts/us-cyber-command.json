@@ -1,0 +1,46 @@
+{
+  "company": "U.S. Cyber Command",
+  "ticker": null,
+  "sector": "Government",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.techrepublic.com/article/news-washington-post-layoffs-ai-restructuring/ (403)",
+    "https://www.crowe.com/news/crowe-expands-ai-center-of-excellence-appoints-firmwide-ai-leader (403)"
+  ],
+  "structuralFindings": {
+    "suggestedModel": 2,
+    "suggestedModelName": "Center of Excellence",
+    "suggestedOrientation": "Structural",
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "U.S. Cyber Command named Reid Novotny as its Chief AI Officer and DoW Cyber Force Generation lead. Novotny brings 24+ years of military service across USAF and Maryland Air National Guard, with backgr",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "a pivotal moment in world history",
+      "speaker": "Reid Novotny",
+      "speakerTitle": "Chief AI Officer, U.S. Cyber Command",
+      "source": "general-sweep-feb-2026-v2.json",
+      "sourceUrl": "https://www.cdomagazine.tech/leadership-moves/us-cyber-command-names-reid-novotny-as-chief-ai-officer",
+      "sourceDate": "",
+      "context": ""
+    }
+  ],
+  "sources": [
+    {
+      "name": "US Cyber Command appoints first Chief AI Officer",
+      "url": "https://www.cdomagazine.tech/leadership-moves/us-cyber-command-names-reid-novotny-as-chief-ai-officer",
+      "type": "Press",
+      "date": "2026-01",
+      "notes": "US Cyber Command appoints first Chief AI Officer"
+    }
+  ],
+  "summary": "US Cyber Command appoints first Chief AI Officer: U.S. Cyber Command named Reid Novotny as its Chief AI Officer and DoW Cyber Force Generation lead. Novotny brings 24+ years of military service across USAF and Maryland Air National Guard, with backgr",
+  "openQuestions": [],
+  "splitFrom": "general-sweep-feb-2026-v2.json"
+}

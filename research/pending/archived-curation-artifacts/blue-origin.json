@@ -1,0 +1,166 @@
+{
+  "company": "Blue Origin",
+  "ticker": "PRIVATE",
+  "leader": "Dave Limp",
+  "leaderTitle": "CEO",
+  "sector": "Aerospace",
+  "quadrant": "Q2",
+  "scannedDate": "2026-02-09",
+  "searchesCompleted": 6,
+  "urlsFetched": 5,
+  "fetchFailures": ["https://finance.yahoo.com/news/blue-origin-ceo-says-data-centers-are-headed-to-space-in-our-lifetime-172346722.html", "https://www.cnbc.com/2024/10/05/blue-origin-ceo-dave-limp-brings-urgency-to-jeff-bezos-space-company.html"],
+
+  "structuralFindings": {
+    "suggestedModel": 6,
+    "suggestedModelName": "Unnamed/Informal - Enterprise-Wide Adoption (6a)",
+    "suggestedOrientation": "Contextual",
+    "confidence": "High",
+    "rationale": "Blue Origin has achieved remarkable AI adoption (70%+ of employees using AI agents monthly, 95% of software engineers using AI for coding) without a dedicated AI lab, CAIO, or formal AI-branded organizational unit. Instead, they built an internal platform (BlueGPT) and expect 'everyone at Blue Origin to build and collaborate with AI agents.' This is textbook Model 6a - enterprise-wide adoption with informal/unnamed structure. The orientation is clearly Contextual: individuals balance both exploration and execution within their roles, with engineers and manufacturing teams using AI agents for their core work rather than a separate exploration unit.",
+    "aiTeamStructure": "No dedicated AI lab or Chief AI Officer. AI work is led by Enterprise Technology under VP William Brennan. Blue Origin built an internal AI platform called 'BlueGPT' - a secure LLM gateway, agent marketplace, and multi-agent orchestration system. The company has deployed 2,700+ AI agents across engineering, manufacturing, software, and supply chain teams. Everyone at Blue Origin is expected to build and collaborate with AI agents - this is democratized adoption, not a centralized AI team.",
+    "keyPeople": [
+      {"name": "Dave Limp", "title": "Chief Executive Officer", "role": "Former Amazon SVP (led Alexa/Echo development); emphasizes AI proficiency for workforce; envisions space-based AI data centers"},
+      {"name": "William Brennan", "title": "Vice President of Enterprise Technology", "role": "Leads Blue Origin's AI transformation; presented at AWS re:Invent 2025 on agentic AI adoption; oversees BlueGPT platform"},
+      {"name": "Jeff Bezos", "title": "Founder", "role": "Also funding separate Project Prometheus AI lab focused on industrial AI"}
+    ],
+    "investmentSignals": "No public financials (private company). Revenue estimated at $5B annually. 11,000 employees. 2,700+ AI agents deployed. 3.5 million AI interactions monthly. Heavy investment in AWS partnership for AI infrastructure (Amazon Bedrock, Amazon EKS, Amazon OpenSearch, etc.).",
+    "observableMarkers": {
+      "reportingStructure": "AI reports through Enterprise Technology (VP William Brennan), not a dedicated CAIO or AI lab structure. CEO Dave Limp has strong AI background (led Alexa at Amazon).",
+      "resourceAllocation": "AI embedded in existing functions via BlueGPT platform. AWS provides cloud infrastructure. No separate AI budget mentioned - appears integrated into operations.",
+      "timeHorizons": "Mixed - short-term agent deployments (manufacturing issue resolution 70% faster) plus long-term vision (AI-designed lunar hardware, space data centers 'in 5-10 years').",
+      "decisionRights": "Highly distributed - 'everyone at Blue Origin is expected to build and collaborate with AI agents.' Agent marketplace enables discovery and sharing across teams.",
+      "metrics": "70% company-wide adoption rate, 95% of software engineers using AI tools, 70% faster manufacturing issue resolution, 75%+ acceleration in product development cycles (T-Rex project), 3.5M monthly interactions."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "Agentic AI has exploded at Blue Origin. Everyone at Blue is expected to build and collaborate with AI agents. We believe in a world where we can agentically design an entire rocket.",
+      "speaker": "William Brennan",
+      "speakerTitle": "VP of Enterprise Technology",
+      "source": "AWS re:Invent 2025",
+      "sourceUrl": "https://diginomica.com/boldly-rocketing-agentic-future-how-blue-origin-plans-build-lunar-colonies-built-ai-and-aws",
+      "sourceDate": "2025-12",
+      "context": "Keynote at AWS re:Invent 2025 on enterprise agentic AI deployment"
+    },
+    {
+      "text": "The early days of GenAI were exciting for us, but limited to more common sorts of tasks. We needed AI that could actually do the specialized work, not just assist with it.",
+      "speaker": "William Brennan",
+      "speakerTitle": "VP of Enterprise Technology",
+      "source": "AWS Case Study",
+      "sourceUrl": "https://aws.amazon.com/solutions/case-studies/blue-origin-case-study/",
+      "sourceDate": "2025-12",
+      "context": "Explaining Blue Origin's evolution from generative AI to agentic AI"
+    },
+    {
+      "text": "This is what we see as the future of engineering teams at Blue Origin. Small teams of 2 or 3 working with large teams of AI agents to deliver the work of dozens, and at orders of magnitude faster than before.",
+      "speaker": "William Brennan",
+      "speakerTitle": "VP of Enterprise Technology",
+      "source": "AWS Case Study",
+      "sourceUrl": "https://aws.amazon.com/solutions/case-studies/blue-origin-case-study/",
+      "sourceDate": "2025-12",
+      "context": "Describing the future structure of engineering teams"
+    },
+    {
+      "text": "With 95% of software engineers already using generative AI tools to write code, agents accelerating approvals, and manufacturing teams resolving issues 70% faster, Blue Origin is proving that democratized AI adoption can both improve productivity and unlock innovation at scale.",
+      "speaker": "William Brennan",
+      "speakerTitle": "VP of Enterprise Technology",
+      "source": "AWS Case Study",
+      "sourceUrl": "https://aws.amazon.com/solutions/case-studies/blue-origin-case-study/",
+      "sourceDate": "2025-12",
+      "context": "Quantifying AI adoption impact at Blue Origin"
+    },
+    {
+      "text": "With AWS and agentic AI, we're building the road to space faster than ever before — for the benefit of Earth.",
+      "speaker": "William Brennan",
+      "speakerTitle": "VP of Enterprise Technology",
+      "source": "AWS Case Study",
+      "sourceUrl": "https://aws.amazon.com/solutions/case-studies/blue-origin-case-study/",
+      "sourceDate": "2025-12",
+      "context": "Concluding vision statement"
+    },
+    {
+      "text": "You need to be world experts on how AI can be relevant for the field you're getting a degree in. There will be a lot of people out in the workforce that don't want to retrain themselves and they'll retire early.",
+      "speaker": "Dave Limp",
+      "speakerTitle": "CEO",
+      "source": "Vanderbilt Engineering Campus Event",
+      "sourceUrl": "https://engineering.vanderbilt.edu/2025/10/21/blue-origin-ceo-and-alumnus-david-limp-urges-students-to-be-curious-proficient-in-ai/",
+      "sourceDate": "2025-10",
+      "context": "Speaking to engineering students about workforce AI proficiency"
+    },
+    {
+      "text": "I over-index on hiring people that are curious. There are a lot of people that want to be stagnant in their life; they just don't want to keep learning. The people that keep learning are right more often. And I will pay almost anything for people that are right a lot.",
+      "speaker": "Dave Limp",
+      "speakerTitle": "CEO",
+      "source": "Vanderbilt Engineering Campus Event",
+      "sourceUrl": "https://engineering.vanderbilt.edu/2025/10/21/blue-origin-ceo-and-alumnus-david-limp-urges-students-to-be-curious-proficient-in-ai/",
+      "sourceDate": "2025-10",
+      "context": "On hiring philosophy and continuous learning"
+    },
+    {
+      "text": "Oh, it's going to happen for sure in our life... over the next five to 10 years, you're going to see that come to fruition for sure.",
+      "speaker": "Dave Limp",
+      "speakerTitle": "CEO",
+      "source": "Yahoo Finance Opening Bid",
+      "sourceUrl": "https://finance.yahoo.com/news/blue-origin-ceo-says-data-centers-are-headed-to-space-in-our-lifetime-172346722.html",
+      "sourceDate": "2025-12",
+      "context": "On space-based data centers for AI workloads"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "AWS Case Study: Blue Origin",
+      "url": "https://aws.amazon.com/solutions/case-studies/blue-origin-case-study/",
+      "type": "Case Study",
+      "date": "2025-12",
+      "notes": "Primary source for AI adoption metrics, BlueGPT platform details, and executive quotes. Documents 2,700+ agents, 70% adoption, 3.5M interactions."
+    },
+    {
+      "name": "Diginomica: Blue Origin at AWS re:Invent 2025",
+      "url": "https://diginomica.com/boldly-rocketing-agentic-future-how-blue-origin-plans-build-lunar-colonies-built-ai-and-aws",
+      "type": "Conference",
+      "date": "2025-12",
+      "notes": "Coverage of William Brennan's AWS re:Invent 2025 presentation. Details on BlueGPT platform, T-Rex project (75%+ acceleration), democratized AI philosophy."
+    },
+    {
+      "name": "Vanderbilt Engineering: Dave Limp Campus Event",
+      "url": "https://engineering.vanderbilt.edu/2025/10/21/blue-origin-ceo-and-alumnus-david-limp-urges-students-to-be-curious-proficient-in-ai/",
+      "type": "Interview",
+      "date": "2025-10",
+      "notes": "CEO on workforce AI proficiency expectations. Not specific to Blue Origin's internal structure but reveals leadership philosophy on AI competence."
+    },
+    {
+      "name": "Stanford CAESAR Center Announcement",
+      "url": "https://engineering.stanford.edu/news/new-center-harnesses-ai-advance-autonomous-exploration-outer-space",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Blue Origin is co-sponsor of Stanford's Center for AEroSpace Autonomy Research (CAESAR) - signals external AI research investment."
+    },
+    {
+      "name": "Yahoo Finance: Dave Limp Interview",
+      "url": "https://finance.yahoo.com/news/blue-origin-ceo-says-data-centers-are-headed-to-space-in-our-lifetime-172346722.html",
+      "type": "Interview",
+      "date": "2025-12",
+      "notes": "CEO on space-based data centers for AI. Long-term vision (5-10 years) for orbital computing to address AI energy demands."
+    },
+    {
+      "name": "The Org: Blue Origin Leadership Team",
+      "url": "https://theorg.com/org/blue-origin/teams/leadership-team",
+      "type": "Report",
+      "date": "2026-02",
+      "notes": "Reference for leadership structure. No CAIO or dedicated AI leadership role identified."
+    }
+  ],
+
+  "summary": "Blue Origin exemplifies Model 6a (Enterprise-Wide Adoption without formal AI structure). The company has deployed 2,700+ AI agents with 70% company-wide adoption through an internal platform called BlueGPT, but has no dedicated AI lab, CAIO, or formally branded AI organization. The expectation is that 'everyone at Blue Origin builds and collaborates with AI agents' - a contextual ambidexterity approach where individuals balance exploration and execution in their roles. VP of Enterprise Technology William Brennan leads the AI transformation, with CEO Dave Limp (former Amazon Alexa leader) emphasizing AI proficiency as a workforce competence.",
+
+  "openQuestions": [
+    "What is the budget/headcount specifically allocated to BlueGPT platform development?",
+    "How is the AI agent marketplace governed - who approves agents, what standards apply?",
+    "What is the relationship between Blue Origin's internal AI work and Jeff Bezos's separate Project Prometheus AI lab?",
+    "How does AI work integrate with Blue Origin's core engineering/manufacturing organizations structurally?",
+    "What specific AI capabilities are being developed for autonomous space operations vs. internal productivity?"
+  ],
+
+  "conferenceFindings": "AWS re:Invent 2025 was the key event. William Brennan (VP Enterprise Technology) presented on Blue Origin's agentic AI deployment. Key revelations: (1) 2,700+ agents deployed, (2) 70% company-wide adoption, (3) BlueGPT platform architecture on AWS, (4) T-Rex project - 'world's first AI agent-designed hardware' for lunar operations, (5) Vision of 'small teams of 2-3 working with large teams of AI agents.' This was the richest source of structural AI data for the company."
+}

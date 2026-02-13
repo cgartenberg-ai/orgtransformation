@@ -1,0 +1,267 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "ford",
+  "name": "Ford",
+  "title": "Multiple AI Subsidiaries with Structural Division Separation",
+
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 8,
+    "secondaryModelName": "Skunkworks",
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "Ford exhibits classic M4 Hybrid/Hub-and-Spoke with multiple distributed AI units operating with significant autonomy: Latitude AI (550-person autonomous driving subsidiary), Greenfield Labs (~300 researchers in Palo Alto), FARIC (Atlanta software/AI center), and a Doug Field-led skunkworks for affordable EVs. The Ford+ restructuring that separated Model e (EVs), Ford Blue (ICE), and Ford Pro (commercial) represents textbook structural ambidexterity—exploration and execution physically and organizationally separated. Latitude AI operates as a wholly owned subsidiary with its own C-suite, which is unusual even for M4 organizations. The skunkworks under Doug Field adds an M8 secondary element for radical EV innovation.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Automotive",
+    "sector": "Manufacturing",
+    "orgSize": "Enterprise",
+    "employees": 177000,
+    "revenue": "$176B (2024 annual)",
+    "headquarters": "Dearborn, Michigan, USA",
+    "geography": "Global"
+  },
+
+  "description": "Ford operates one of the most distributed AI structures in the automotive industry, with multiple specialized units pursuing different AI applications at varying time horizons. The flagship AI unit is Latitude AI, a 550-person wholly owned subsidiary headquartered in Pittsburgh focused on hands-free, eyes-off automated driving technology. Unlike most corporate AI labs, Latitude operates with its own CEO (Sammy Omari), CTO (Peter Carr), and President (David Gollob)—a level of structural independence typically reserved for true spin-offs.\n\nThe company's broader AI structure includes Greenfield Labs in Palo Alto (~300 researchers focused on human-centered design), FARIC in Atlanta (software and digital transformation), and a skunkworks unit under Doug Field (ex-Apple, Tesla) developing affordable EVs. This distributed model reflects Ford's 2022 Ford+ restructuring, which separated the company into Model e (EVs), Ford Blue (ICE vehicles), and Ford Pro (commercial)—a structural ambidexterity approach that physically separates exploration from execution.\n\nCEO Jim Farley frames AI primarily through a workforce impact lens, warning that AI will 'replace literally half of all white-collar workers' while advocating for AI to 'supercharge' essential economy workers rather than replace them. This philosophical stance positions Ford's AI strategy as much about workforce transformation as product innovation, with a focus on deploying AI 'systemically across the entire industrial system' rather than just in vehicles.",
+
+  "observableMarkers": {
+    "reportingStructure": "Latitude AI operates as wholly owned subsidiary with own C-suite (CEO, CTO, President). Doug Field as Chief Advanced Product Development Officer suggests AI/advanced tech reports to a product-focused executive rather than CIO/CTO. Ford Credit has Head of Non-Risk AI/ML and Gen AI reporting to Ford Credit CTO. Decentralized structure across Model e, Ford Blue, and Ford Pro divisions.",
+    "resourceAllocation": "Dedicated subsidiary for autonomous driving (Latitude AI). Separate innovation centers in Palo Alto, Atlanta, and Dearborn. Ring-fenced EV/skunkworks development under Doug Field. Strong cash position ($33B cash, $54B liquidity) enables continued investment.",
+    "timeHorizons": "Short-term: Deploying AI across industrial system, quality improvements, warranty process optimization. Medium-term: BlueCruise expansion and enhancement. Long-term: Hands-free, eyes-off-road automated driving via Latitude AI (5-10 year horizon).",
+    "decisionRights": "Distributed across divisions (Model e, Blue, Pro) and specialized units (Latitude AI, Greenfield Labs). Central R&D sets standards while subsidiaries/centers have operational autonomy.",
+    "metrics": "BlueCruise miles driven (50M+), quality improvement metrics, cost reduction targets ($1B/year), employee productivity, technician training effectiveness."
+  },
+
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "Latitude AI operates as a wholly owned subsidiary with its own C-suite, physically headquartered in Pittsburgh away from Dearborn. This structural independence protects the long-horizon autonomous driving work from quarterly pressures of the core auto business. Doug Field's skunkworks for affordable EVs similarly operates with ring-fenced resources.",
+      "strength": "Strong"
+    }
+  ],
+
+  "quotes": [
+    {
+      "text": "Artificial intelligence is gonna replace literally half of all white-collar workers in the U.S.",
+      "speaker": "Jim Farley",
+      "speakerTitle": "CEO",
+      "source": "Fortune / Aspen Ideas Festival",
+      "sourceUrl": "https://fortune.com/2025/07/05/ford-ceo-jim-farley-ai-white-collar-jobs-essential-economy-skilled-trade-jobs-shortage/",
+      "sourceDate": "2025-07",
+      "context": "Speaking at the 2025 Aspen Ideas Festival about AI's workforce impact"
+    },
+    {
+      "text": "AI will leave a lot of white-collar people behind.",
+      "speaker": "Jim Farley",
+      "speakerTitle": "CEO",
+      "source": "Fortune / Aspen Ideas Festival",
+      "sourceUrl": "https://fortune.com/2025/07/05/ford-ceo-jim-farley-ai-white-collar-jobs-essential-economy-skilled-trade-jobs-shortage/",
+      "sourceDate": "2025-07",
+      "context": "Speaking at the 2025 Aspen Ideas Festival about AI's workforce impact"
+    },
+    {
+      "text": "There's more than one way to the American Dream, but our whole education system is focused on four-year [college] education.",
+      "speaker": "Jim Farley",
+      "speakerTitle": "CEO",
+      "source": "Fortune / Aspen Ideas Festival",
+      "sourceUrl": "https://fortune.com/2025/07/05/ford-ceo-jim-farley-ai-white-collar-jobs-essential-economy-skilled-trade-jobs-shortage/",
+      "sourceDate": "2025-07",
+      "context": "Arguing for more vocational training paths as AI disrupts white-collar work"
+    },
+    {
+      "text": "I hope that it will be a help, but it's hard to say that today.",
+      "speaker": "Jim Farley",
+      "speakerTitle": "CEO",
+      "source": "Bloomberg TV Wall Street Week",
+      "sourceUrl": "https://fortune.com/2025/10/04/ford-ceo-jim-farley-ai-blue-collar-workers-data-center-jobs-technology/",
+      "sourceDate": "2025-10",
+      "context": "On whether AI will help or hurt essential/blue-collar workers"
+    },
+    {
+      "text": "The irony of the irony is, we have all these data centers, all this new technology to roll out, and still requires electricians, construction workers… and we have this huge shortage.",
+      "speaker": "Jim Farley",
+      "speakerTitle": "CEO",
+      "source": "Bloomberg TV",
+      "sourceUrl": "https://fortune.com/article/why-does-ford-ceo-jim-farley-see-blue-collar-worker-shortage-impact-data-center-reshoring/",
+      "sourceDate": "2025-10",
+      "context": "On the skilled labor shortage constraining AI infrastructure buildout"
+    },
+    {
+      "text": "I think the intent is there, but there's nothing to backfill the ambition. How can we reshore all this stuff if we don't have people to work there?",
+      "speaker": "Jim Farley",
+      "speakerTitle": "CEO",
+      "source": "Axios",
+      "sourceUrl": "https://fortune.com/2025/09/23/ford-ceo-jim-farley-ai-eating-entry-level-jobs-essential-economy/",
+      "sourceDate": "2025-09",
+      "context": "On the gap between reshoring ambitions and workforce availability"
+    },
+    {
+      "text": "So far, [they] basically come to us and say, 'here's my solution, buy this to make your engineers more productive.'",
+      "speaker": "Jim Farley",
+      "speakerTitle": "CEO",
+      "source": "Semafor",
+      "sourceUrl": "https://www.semafor.com/article/10/03/2025/jim-farleys-essential-economy-drive-at-ford",
+      "sourceDate": "2025-10",
+      "context": "Criticizing tech vendors for not understanding manufacturing problems"
+    },
+    {
+      "text": "We have to have an AI core competency, not only because you need AI in order to pull off the self driving task, but in parallel to slowly and gradually rolling out fully self driving vehicles to a small set of cities. We are going to keep putting more and more AI into the vehicles that people are buying and leasing and renting and using.",
+      "speaker": "Ken Washington",
+      "speakerTitle": "VP Research & Advanced Engineering / CTO",
+      "source": "CIO Dive",
+      "sourceUrl": "https://www.ciodive.com/news/ford-cto-AI-mobility-autonomous/552117/",
+      "sourceDate": "2019",
+      "context": "Describing Ford as a 'mobility company' with AI as a core competency"
+    },
+    {
+      "text": "Customers using BlueCruise are already experiencing... hands-off driving.",
+      "speaker": "Doug Field",
+      "speakerTitle": "Chief Advanced Product Development Officer",
+      "source": "Ford Media Center / Latitude AI announcement",
+      "sourceUrl": "https://media.ford.com/content/fordmedia/feu/en/news/2023/03/02/ford-establishes-latitude-ai-to-develop-future-automated-driving.html",
+      "sourceDate": "2023-03",
+      "context": "Announcing Latitude AI subsidiary"
+    },
+    {
+      "text": "[The goal is to] help improve safety while unlocking all-new customer experiences [and] free up a driver's time.",
+      "speaker": "Sammy Omari",
+      "speakerTitle": "CEO, Latitude AI",
+      "source": "Ford Media Center / Latitude AI announcement",
+      "sourceUrl": "https://media.ford.com/content/fordmedia/feu/en/news/2023/03/02/ford-establishes-latitude-ai-to-develop-future-automated-driving.html",
+      "sourceDate": "2023-03",
+      "context": "Describing Latitude AI's mission for automated driving"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Multi-hub AI structure with autonomous driving subsidiary",
+      "summary": "Ford operates a distributed AI structure with Latitude AI (550-person autonomous driving subsidiary), Greenfield Labs (~300 researchers), FARIC (Atlanta), and a Doug Field-led skunkworks. The Ford+ restructuring separated Model e, Ford Blue, and Ford Pro as distinct business units. CEO Farley emphasizes AI's workforce transformation impact, framing it through an 'essential economy' lens focused on supercharging rather than replacing skilled trades workers.",
+      "sourceRefs": ["ford-latitude-ai-2023", "ford-fortune-farley-2025", "ford-semafor-2025", "ford-q3-2025-earnings"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "ford-latitude-ai-2023",
+      "name": "Ford Media Center - Latitude AI Announcement",
+      "type": "Blog",
+      "url": "https://media.ford.com/content/fordmedia/feu/en/news/2023/03/02/ford-establishes-latitude-ai-to-develop-future-automated-driving.html",
+      "sourceDate": "2023-03-02",
+      "collectedDate": "2026-02-08",
+      "notes": "Primary source for Latitude AI structure, leadership, and mission. Details 550 employees, Pittsburgh HQ, leadership team."
+    },
+    {
+      "id": "ford-fortune-farley-2025",
+      "name": "Fortune - Farley AI White Collar Jobs Warning",
+      "type": "Press",
+      "url": "https://fortune.com/2025/07/05/ford-ceo-jim-farley-ai-white-collar-jobs-essential-economy-skilled-trade-jobs-shortage/",
+      "sourceDate": "2025-07-05",
+      "collectedDate": "2026-02-08",
+      "notes": "Key quotes from Aspen Ideas Festival on AI replacing white-collar workers, essential economy focus."
+    },
+    {
+      "id": "ford-semafor-2025",
+      "name": "Semafor - Farley Essential Economy Interview",
+      "type": "Interview",
+      "url": "https://www.semafor.com/article/10/03/2025/jim-farleys-essential-economy-drive-at-ford",
+      "sourceDate": "2025-10-03",
+      "collectedDate": "2026-02-08",
+      "notes": "Details on Doug Field skunkworks, criticism of tech vendors, AI strategy for essential economy workers."
+    },
+    {
+      "id": "ford-fortune-bluecollar-2025",
+      "name": "Fortune - Farley on AI and Blue-Collar Workers",
+      "type": "Press",
+      "url": "https://fortune.com/2025/10/04/ford-ceo-jim-farley-ai-blue-collar-workers-data-center-jobs-technology/",
+      "sourceDate": "2025-10-04",
+      "collectedDate": "2026-02-08",
+      "notes": "Bloomberg TV quotes on AI's uncertain impact on blue-collar work."
+    },
+    {
+      "id": "ford-fortune-essential-2025",
+      "name": "Fortune - Farley Essential Economy Jobs",
+      "type": "Press",
+      "url": "https://fortune.com/2025/09/23/ford-ceo-jim-farley-ai-eating-entry-level-jobs-essential-economy/",
+      "sourceDate": "2025-09-23",
+      "collectedDate": "2026-02-08",
+      "notes": "Axios quotes on reshoring ambitions vs workforce reality."
+    },
+    {
+      "id": "ford-ciodive-2019",
+      "name": "CIO Dive - Ford CTO AI Core Competency",
+      "type": "Press",
+      "url": "https://www.ciodive.com/news/ford-cto-AI-mobility-autonomous/552117/",
+      "sourceDate": "2019",
+      "collectedDate": "2026-02-08",
+      "notes": "Ken Washington quotes on AI as core competency, mobility company vision. Historical context."
+    },
+    {
+      "id": "ford-greenfield-labs",
+      "name": "Ford Corporate - Silicon Valley Campus",
+      "type": "Blog",
+      "url": "https://corporate.ford.com/operations/locations/silicon-valley/",
+      "sourceDate": "2022",
+      "collectedDate": "2026-02-08",
+      "notes": "Details on Greenfield Labs Palo Alto - 300 researchers, LEED Gold certified."
+    },
+    {
+      "id": "ford-q3-2025-earnings",
+      "name": "Alpha Sense - Ford Q3 2025 Earnings Summary",
+      "type": "Earnings Call",
+      "url": "https://www.alpha-sense.com/earnings/f/",
+      "sourceDate": "2025-10",
+      "collectedDate": "2026-02-08",
+      "notes": "Q3 2025 results: $50.5B revenue, $2.6B EBIT, systemically deploying AI across industrial system."
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "High"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.7,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": 0.5,
+    "namedVsQuiet": -0.6,
+    "longVsShortHorizon": -0.4
+  },
+
+  "openQuestions": [
+    "What is Ford's total AI R&D budget as a percentage of overall R&D spend?",
+    "How does AI governance work across Model e, Ford Blue, and Ford Pro divisions?",
+    "What is the reporting relationship between Latitude AI and Ford corporate leadership?",
+    "How does the ServiceTitan partnership specifically deploy AI in dealerships?",
+    "What are Ford's specific metrics for AI deployment success across the industrial system?",
+    "Who is the current CTO/Head of AI after Ken Washington departed (he left for Amazon)?",
+    "How many AI/ML engineers work outside of Latitude AI in the core Ford organization?"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] Ford's Latitude AI represents an unusually autonomous M4 spoke—operating as a wholly owned subsidiary with its own CEO, CTO, and President is rare for corporate AI units. This creates a structural independence that borders on M5b (Venture Builder) but without the intent to spin off. The taxonomy may need to distinguish between 'subsidiary autonomy' and 'division autonomy' within M4.",
+    "[2026-02] CEO Farley's public framing of AI is almost entirely about workforce transformation rather than product/technology. His 'essential economy' thesis—that AI will devastate white-collar work while skilled trades become more valuable—is a distinctive strategic narrative that shapes how Ford positions its AI investments. This workforce-centric framing is rare among automotive CEOs.",
+    "[2026-02] The Ford+ restructuring (Model e/Blue/Pro separation) combined with multiple innovation centers (Latitude AI, Greenfield Labs, FARIC, skunkworks) creates a nested structural ambidexterity: exploration vs. execution separated at both the division level AND within the innovation portfolio. This 'ambidexterity within ambidexterity' pattern may warrant taxonomic attention."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

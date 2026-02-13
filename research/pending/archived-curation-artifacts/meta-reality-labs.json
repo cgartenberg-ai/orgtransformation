@@ -1,0 +1,36 @@
+{
+  "company": "Meta (Reality Labs)",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.techrepublic.com/article/news-washington-post-layoffs-ai-restructuring/ (403)",
+    "https://www.crowe.com/news/crowe-expands-ai-center-of-excellence-appoints-firmwide-ai-leader (403)"
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "Meta cuts ~1,500 from Reality Labs, redirects investment toward AI R&D",
+      "url": "https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs",
+      "type": "Press",
+      "date": "2026-01",
+      "notes": "Meta cuts ~1,500 from Reality Labs, redirects investment toward AI R&D"
+    }
+  ],
+  "summary": "Meta cuts ~1,500 from Reality Labs, redirects investment toward AI R&D: In January 2026, Meta cut approximately 1,500 employees from its Reality Labs division, redirecting investments toward AI research and development. The restructuring marks a strategic shift from metav",
+  "openQuestions": [],
+  "splitFrom": "general-sweep-feb-2026-v2.json"
+}

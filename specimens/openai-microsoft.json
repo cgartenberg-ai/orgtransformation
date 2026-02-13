@@ -196,7 +196,11 @@
     "longVsShortHorizon": null
   },
   "openQuestions": [],
-  "taxonomyFeedback": [],
+  "taxonomyFeedback": [
+    "[2026-02] This specimen reveals a critical boundary case for M5b classification: the 'venture' being built is actually a redefinition of organizational boundaries through contractual governance rather than internal structure. The $135B investment with explicit rights through 2032, AGI-contingent exclusivity, and mandatory Azure cloud commitment ($250B) creates a hybrid entity where OpenAI's structural autonomy is constrained by quasi-ownership rights. This is M5b without the clarity of who is the 'builder' and who is the 'venture'—a symbiotic arrangement that challenges the parent-subsidiary logic implicit in our venture builder model.",
+    "[2026-02] The PBC restructuring (Oct 2025) exposes tension between financial scaling imperatives and governance models designed for off-strategy exploration. The mechanics are striking: nonprofit holds $130B equity but OpenAI needs massive capital infusion ($40B from SoftBank, half conditional on lifting profit cap) to remain competitive. This is the opposite of Mechanism 1 (Protect Off-Strategy Work)—instead we observe how frontier model competition forces commercialization pressure backward into governance structure. The independent AGI verification panel is a fascinating institutional response: attempting to preserve mission alignment while accepting profit-maximizing capital structure.",
+    "[2026-02] The partnership's evolution from 2025-2026 ('halcyon early days ended,' FTC/EC investigations, frayed relationship) demonstrates how M5b structures face coordination costs as market position shifts. When OpenAI was uncertain, Microsoft provided patient capital and distribution; now with 800M weekly active users and $20B revenue, bargaining power rebalances. The contractual lock-in (Azure exclusivity until 2030, sole cloud provider rights) suggests Microsoft anticipated this dynamic—using formal governance to prevent the very autonomy that made OpenAI valuable. This may be a general pattern: M5b venture builders succeed themselves into coordination problems."
+  ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",

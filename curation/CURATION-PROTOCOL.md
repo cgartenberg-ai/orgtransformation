@@ -179,15 +179,17 @@ Copy `specimens/_template.json` as the starting structure. Set:
 
 ### B. Classify Using Decision Tree
 
-Follow the classification decision tree in `skills/ambidexterity-curation/SKILL.md` Steps 2-3. **After walking the decision tree, run all 7 Classification Guardrails from SKILL.md before finalizing the classification.** Guardrails catch common misclassification patterns (M7 permanence trap, M1 prestige bias, temporal vs. one-time pivot, etc.).
+Follow the classification decision tree in `skills/ambidexterity-curation/SKILL.md` Steps 2-3. **After walking the decision tree, run all 8 Classification Guardrails from SKILL.md before finalizing the classification.** Guardrails catch common misclassification patterns (M7 permanence trap, M1 prestige bias, temporal vs. one-time pivot, etc.).
 
 For every classification:
 
-1. **Walk the decision tree explicitly** — start at "Is there a formal AI unit?" and follow the branches
-2. **Assign confidence**: High = multiple confirming sources; Medium = reasonable from available data; Low = best guess from limited data
-3. **Write a classificationRationale** for EVERY specimen with Medium or Low confidence — explain what data drove the decision and what's missing
-4. **Check for secondary model** — many orgs combine models (e.g., "Model 1 + Model 5b"). If you see a clear secondary, record it.
-5. **Assign orientation** using the orientation table in SKILL.md Step 3
+1. **Walk the decision tree explicitly** — start at "Is there a formal AI unit?" and follow the branches. **Record the path taken** (e.g., "Formal unit=YES → Publishes research=NO → Central team=YES → Builds+Enables → M4"). This reasoning goes into (a) the specimen's `classificationRationale` field and (b) the session log's "Classification Reasoning" table.
+2. **Run all 8 guardrails** and note which were triggered. Even "guardrail checked, not triggered" is useful — it shows the classification was tested.
+3. **Assign confidence**: High = multiple confirming sources; Medium = reasonable from available data; Low = best guess from limited data
+4. **Write a classificationRationale** for EVERY specimen with Medium or Low confidence — explain what data drove the decision and what's missing
+5. **Check for secondary model** — many orgs combine models (e.g., "Model 1 + Model 5b"). If you see a clear secondary, record it.
+6. **Assign orientation** using the orientation table in SKILL.md Step 3
+7. **Note cross-cutting observations** — if you see the same classification pattern across multiple specimens in this batch, flag it for the session log's "Cross-Cutting Patterns" section. These are analytically valuable.
 
 ### C. Build the Specimen Content
 
@@ -198,6 +200,10 @@ Working through each section of the schema:
 **`habitat`**: Fill in what's known — industry, sector, orgSize, employees, revenue, headquarters, geography. Use null for anything not in the data. Don't guess.
 
 **`observableMarkers`**: Fill in what the session data reveals about reporting structure, resource allocation, time horizons, decision rights, metrics. Use null for unknowns.
+
+**Source attribution**: All factual claims in observable markers and description text should include inline `[source-id]` citations matching entries in the specimen's `sources` array. Example: `"AI VP reports to SVP Software Engineering [apple-ai-reorg-2025]. Team of 200+ engineers [apple-cook-push-2025]."` The app renders these as superscript numbered links.
+
+**Metrics guidance**: The `metrics` field should capture which specific KPIs and targets the organization publicly announces it tracks or optimizes for in the AI context. Include: (a) KPIs explicitly named by leaders (e.g., "AI adoption rate", "cost per AI interaction"), (b) targets with numbers and timeframes (e.g., "30% automation by 2026"), (c) the framing used (productivity, revenue growth, cost reduction, capability). Each metric claim should include a `[source-id]` citation. Example: `"AI adoption rate across business units (target: 80% by Q4 2026) [earnings-q3-2025]. Cost per customer interaction reduced 40% via Agentforce [salesforce-agentforce-launch]."`
 
 **`mechanisms`**: Review the 10 mechanisms (listed in classification-quick-ref.md). For each mechanism the org demonstrates:
 - Record the mechanism id, name, evidence (specific, sourced), and strength (Strong/Moderate/Emerging)
@@ -394,6 +400,19 @@ For each completed session:
     ```
   - Update `lastUpdated`
 
+- [ ] **Sync `research/purpose-claims/scan-tracker.json`**:
+  - Add entries for any new specimens created during this curation session:
+    ```json
+    {
+      "specimenId": "org-id",
+      "lastScanned": null,
+      "claimsFound": 0,
+      "quality": "unscanned"
+    }
+    ```
+  - Verify total entry count matches `specimens/registry.json` totalSpecimens
+  - This keeps Track 2 (purpose claims) in sync with Track 1 specimen creation
+
 - [ ] **Write curation session log** at `curation/sessions/YYYY-MM-DD-curation.md`:
   ```markdown
   ---
@@ -415,9 +434,26 @@ For each completed session:
   |---|---|---|---|---|---|---|
   | [org] | Created/Updated/Reclassified | [model] | [orientation] | [H/M/L] | [H/M/L/Stub] | [notes] |
 
+  ## Classification Reasoning
+  For each specimen, document the decision tree walk and guardrail checks:
+  - Which decision tree path was followed (formal AI unit? → publishes research? → etc.)
+  - Which guardrails were triggered and their outcome
+  - What alternative classifications were considered and why they were rejected
+  - For reclassifications: what new evidence changed the classification
+
+  | Organization | Old → New | Decision Tree Path | Guardrails Applied | Key Evidence |
+  |---|---|---|---|---|
+  | [org] | [M6→M4] | [Formal unit=YES → Research=NO → Central team=YES → Builds+Enables=YES → M4] | [G2: Federation confirmed] | [specific evidence] |
+
   ## Reclassifications
   | Organization | Old Classification | New Classification | Rationale |
   |---|---|---|---|
+
+  ## Cross-Cutting Patterns
+  Observations that span multiple specimens in this batch — these are the analytical gold:
+  - [Pattern 1: e.g., "All M6 specimens from thin data were wrong after enrichment"]
+  - [Pattern 2: e.g., "Acqui-hire-to-CTO pipeline appears in 2+ specimens"]
+  These observations feed directly into insights.json and the field journal.
 
   ## Taxonomy Feedback
   [Edge cases, patterns that don't fit, suggested revisions, type specimen candidates]

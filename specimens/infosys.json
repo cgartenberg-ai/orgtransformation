@@ -47,6 +47,13 @@
   "layers": [
     {
       "date": "2026-02",
+      "label": "Cursor AI Center of Excellence Partnership",
+      "summary": "Infosys partnered with Cursor (AI coding platform) to launch a Center of Excellence for AI-native software development on Jan 27, 2026. The CoE helps companies adopt AI coding agents and build AI-native products. Includes a demo space for clients to test Infosys' Topaz Fabric (cloud/data/AI platform). Cursor's AI coding tools being rolled out to Infosys developers worldwide. This is a dual-purpose CoE: client-facing capability building AND internal developer productivity transformation.",
+      "classification": null,
+      "sourceRefs": ["ciol-infosys-cursor-2026"]
+    },
+    {
+      "date": "2026-02",
       "label": "Session 002 Enrichment — Additional Sources & CEO Quote",
       "summary": "Added CEO Salil Parekh quote on AI-first organization. Added additional sources (IndianWeb2, India Infoline). Confirmed Topaz Fabric integration as agentic services suite. Cursor CEO Michael Truell: 'Infosys' commitment to building an AI-first organization makes them a natural collaborator.' Stock rose ~1% on announcement.",
       "classification": null,
@@ -65,6 +72,14 @@
     }
   ],
   "sources": [
+    {
+      "id": "ciol-infosys-cursor-2026",
+      "type": "Press",
+      "name": "CIOL — Infosys and Cursor Partner to Launch AI Center of Excellence",
+      "url": "https://www.ciol.com/news/infosys-cursor-ai-center-of-excellence-2026-11036239",
+      "sourceDate": "2026-01-27",
+      "collectedDate": "2026-02-12"
+    },
     {
       "id": "source-1",
       "type": "Press",
@@ -119,7 +134,7 @@
   "contingencies": {
     "regulatoryIntensity": "Low",
     "timeToObsolescence": "Fast",
-    "ceoTenure": null,
+    "ceoTenure": "Medium. Salil Parekh CEO since 2018 (~8 years). Stable leadership driving AI-first positioning.",
     "talentMarketPosition": "Talent-rich",
     "technicalDebt": "Medium"
   },
@@ -144,7 +159,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-04",
+    "lastUpdated": "2026-02-13",
     "completeness": "Low",
     "convertedFrom": null
   }

@@ -1,0 +1,372 @@
+{
+  "taskId": "pharma-earnings-q4-2025",
+  "scannedDate": "2026-02-07",
+  "sessionType": "earnings",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    {"url": "https://finance.yahoo.com/news/sanofi-q4-earnings-call-highlights-220935609.html", "reason": "JS-rendered, no article content in HTML"},
+    {"url": "https://www.statnews.com/2025/11/17/roai-return-investment-ai-sanofi-paul-hudson/", "reason": "STAT+ paywall, only excerpt visible"},
+    {"url": "https://www.roche.com/investors/events/annual-results-2025", "reason": "JS-rendered, returned CSS only"}
+  ],
+  "companies": [
+    {
+      "id": "eli-lilly",
+      "ticker": "LLY",
+      "specimenSlug": "eli-lilly",
+      "quarter": "Q4 2025",
+      "earningsDate": "2026-02-04",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "NVIDIA co-innovation AI lab announced",
+          "detail": "Eli Lilly announced a new collaboration with NVIDIA to open a co-innovation AI lab combining Lilly's scientific expertise with NVIDIA's leading technology to accelerate drug discovery. The partnership is valued at approximately $1 billion and includes deployment of a new supercomputer.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "New therapeutic area president structure",
+          "detail": "Two new presidents joined the leadership team: Dr. Carole Ho (President of Lilly Neuroscience) and Anne White (President of Lilly Immunology), participating in their first earnings call. No specific AI-dedicated unit or chief AI officer mentioned.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "Massive R&D pipeline acceleration",
+          "detail": "Daniel Skovronsky highlighted 36 active Phase III programs and 14 new Phase III programs initiated recently. 39 business development transactions completed in 2025. AI investment framed as supporting broader R&D acceleration rather than establishing autonomous drug discovery operations.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "$55B+ manufacturing expansion since 2020",
+          "detail": "Over $55 billion committed to manufacturing expansion since 2020, with AI as a separate innovation priority. New manufacturing sites in Wisconsin and North Carolina beginning production.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "investment"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "We recently announced a new collaboration with NVIDIA to open a co-innovation AI lab.",
+          "speaker": "David Ricks, CEO",
+          "context": "Q4 2025 earnings call, discussing AI investments",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/"
+        },
+        {
+          "text": "This project will combine Lilly's scientific expertise with NVIDIA's leading technology to accelerate drug discovery.",
+          "speaker": "David Ricks, CEO",
+          "context": "Describing the NVIDIA co-innovation lab purpose",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/"
+        }
+      ],
+      "keyFindings": "Eli Lilly's Q4 2025 earnings confirm the NVIDIA co-innovation AI lab (~$1B), framing AI as a drug discovery accelerator rather than an autonomous capability. New therapeutic area presidents (Neuroscience, Immunology) expand M4 hub-and-spoke structure. AI positioned as infrastructure supporting a massive 36-program Phase III pipeline rather than as a standalone strategic unit."
+    },
+    {
+      "id": "pfizer",
+      "ticker": "PFE",
+      "specimenSlug": "pfizer",
+      "quarter": "Q4 2025",
+      "earningsDate": "2026-02-03",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "1,200 GPU deployment for R&D AI",
+          "detail": "Pfizer is expanding to more than 1,200 GPUs over the next two years, largely driven by R&D application of AI. This represents a significant infrastructure investment in computational capacity for drug discovery and development.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-03",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "AI engineers embedded across every R&D function",
+          "detail": "Chris Boshoff (CSO/President R&D) described embedding AI engineers in each function: discovery, medical, regulatory, safety, pharmacovigilance, and clinical trial execution. This is a textbook hub-and-spoke (M4) deployment — central AI capability distributed into functional BUs.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-03",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "AI as primary lever for cost reduction without activity loss",
+          "detail": "Bourla stated the main lever for cost reduction was 'the successful deployment of AI' enabling 'reducing the cost without that being seen in the activity.' AI explicitly positioned as the mechanism for doing more with less.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-03",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "$600M manufacturing savings via AI, $1.5B target by 2027",
+          "detail": "The company achieved $600 million in manufacturing savings in 2025, with $1.5 billion projected by 2027. AI is a contributor to the manufacturing optimization program achieving these savings.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-03",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "AI driving field force productivity and commercial MROI",
+          "detail": "Aamir Malik described AI helping with field force productivity and MROI measurement, making time with physicians maximized. AI is deployed commercially, not just in R&D.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-03",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "AI enabling international market speed-to-market",
+          "detail": "Alexandre de Germay described AI as enabling instant productivity gains across international markets: 'AI allows us to do that instantly. In all those markets...massive impact on productivity and speed to market.'",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-03",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "Integrated sterile injectable and biosimilar business unit created",
+          "detail": "Pfizer created an integrated sterile injectable and biosimilar business unit. Not specifically AI-related but represents structural consolidation relevant to organizational design.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-03",
+          "keywordCategory": "structural"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "over the next two years, we are expanding to more than 1,200 GPUs, largely driven by R&D application of AI.",
+          "speaker": "Albert Bourla, CEO",
+          "context": "Q4 2025 earnings call, discussing AI infrastructure investment",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/"
+        },
+        {
+          "text": "in discovery, medical, regulatory, safety, pharmacovigilance, clinical trial execution...embedding AI engineers in each function.",
+          "speaker": "Chris Boshoff, CSO and President of R&D",
+          "context": "Describing M4-style structural deployment of AI talent",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/"
+        },
+        {
+          "text": "the main lever was the successful deployment of AI",
+          "speaker": "Albert Bourla, CEO",
+          "context": "Explaining how cost reductions were achieved",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/"
+        },
+        {
+          "text": "reducing the cost without that being seen in the activity.",
+          "speaker": "Albert Bourla, CEO",
+          "context": "Framing AI as enabling efficiency without reducing output",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/"
+        },
+        {
+          "text": "AI allows us to do that instantly. In all those markets...massive impact on productivity and speed to market.",
+          "speaker": "Alexandre de Germay, President of International",
+          "context": "Describing AI impact on international market operations",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/"
+        }
+      ],
+      "keyFindings": "Pfizer's Q4 2025 earnings are the richest pharma AI findings in this batch. Bourla explicitly names AI as the 'main lever' for cost reduction. Boshoff's description of 'embedding AI engineers in each function' across discovery, medical, regulatory, safety, pharmacovigilance, and clinical trial execution is textbook M4 hub-and-spoke deployment. The 1,200 GPU investment and $600M-to-$1.5B manufacturing savings trajectory show AI operating at enterprise scale across R&D, manufacturing, commercial, and international operations."
+    },
+    {
+      "id": "moderna",
+      "ticker": "MRNA",
+      "specimenSlug": "moderna",
+      "quarter": "Q3 2025",
+      "earningsDate": "2025-12-11",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "GPT tools referenced for productivity but no structural AI discussion",
+          "detail": "In Q3 2025 earnings (latest available; Q4 2025 reports Feb 13, 2026), CEO Bancel mentioned 'driving productivity, including by the use of more digital tools, including a large number of GPTs' but provided no structural detail on AI organization.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2025/12/11/moderna-mrna-q3-2025-earnings-call-transcript/",
+          "sourceDate": "2025-12-11",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "Chief People and Digital Technology Officer role created",
+          "detail": "Tracey Franklin's role expanded from CHRO to Chief People and Digital Technology Officer, signaling organizational importance of digital/AI but details came from a JP Morgan conference presentation, not the earnings call itself.",
+          "sourceUrl": "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/moderna-provides-business-and-pipeline-updates-at-44th-annual-j.p.-mo-1125969",
+          "sourceDate": "2026-01-13",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "Aggressive cost reduction: $2B annual opex reduction",
+          "detail": "Moderna reduced annual operating expenses by approximately $2 billion, exceeding commitments. The GPT reference suggests AI tools contribute to this cost reduction, but no explicit quantification of AI's contribution was provided.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2025/12/11/moderna-mrna-q3-2025-earnings-call-transcript/",
+          "sourceDate": "2025-12-11",
+          "keywordCategory": "workforce"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "driving productivity, including by the use of more digital tools, including a large number of GPTs.",
+          "speaker": "Stephane Bancel, CEO",
+          "context": "Q3 2025 earnings call, discussing cost reduction levers",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2025/12/11/moderna-mrna-q3-2025-earnings-call-transcript/"
+        }
+      ],
+      "keyFindings": "Moderna's Q4 2025 earnings have not yet been reported (scheduled Feb 13, 2026). The Q3 2025 call contains minimal AI discussion — a single reference to GPTs for productivity. The more interesting structural signal is the creation of a Chief People and Digital Technology Officer role (Tracey Franklin), announced at JP Morgan in January 2026. The M6a classification (ChatGPT Enterprise pioneer) is not reinforced in recent earnings — AI may be embedded enough to not warrant discussion, or the narrative has shifted to cost discipline."
+    },
+    {
+      "id": "sanofi",
+      "ticker": "SNY",
+      "specimenSlug": "sanofi",
+      "quarter": "Q4 2025",
+      "earningsDate": "2026-01-29",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "Hudson frames Sanofi as 'R&D-driven, AI-powered biopharma company'",
+          "detail": "CEO Paul Hudson described Sanofi's strategic identity as an 'R&D-driven, AI-powered biopharma company' during Q4 2025 results. This framing elevates AI from a tool to a core identity claim, consistent with Hudson's prior 'all-in on AI' positioning.",
+          "sourceUrl": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-01-29-06-30-00-3228191",
+          "sourceDate": "2026-01-29",
+          "keywordCategory": "governance"
+        },
+        {
+          "title": "ROAI (Return on AI Investment) framework introduced",
+          "detail": "Hudson published a STAT article introducing ROAI as a measurement framework for AI value. The article notes 95% of AI pilot projects fail (citing MIT), positioning Sanofi as moving beyond pilots. Full details behind STAT+ paywall.",
+          "sourceUrl": "https://www.statnews.com/2025/11/17/roai-return-investment-ai-sanofi-paul-hudson/",
+          "sourceDate": "2025-11-17",
+          "keywordCategory": "governance"
+        },
+        {
+          "title": "Opella divestiture completed, reinvestment in AI and M&A",
+          "detail": "The completion of the Opella consumer health transaction enabled reinvestment into business development and M&A. Combined with a 5 billion euro share buyback, this represents strategic portfolio simplification to focus on the 'AI-powered biopharma' identity.",
+          "sourceUrl": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-01-29-06-30-00-3228191",
+          "sourceDate": "2026-01-29",
+          "keywordCategory": "structural"
+        }
+      ],
+      "quotes": [],
+      "keyFindings": "Sanofi's Q4 2025 results reinforce Hudson's AI-maximalist positioning: the company is now explicitly framed as an 'R&D-driven, AI-powered biopharma company.' The Opella divestiture and ROAI framework suggest Sanofi is moving from signaling to measurement. However, the earnings call transcript was behind SeekingAlpha paywall and Yahoo failed to render, so we lack verbatim quotes from the Q4 call itself. The STAT article on ROAI was also paywalled. The plaiD platform was not mentioned in available search results for Q4 — may have been discussed in the call but inaccessible."
+    },
+    {
+      "id": "novo-nordisk",
+      "ticker": "NVO",
+      "specimenSlug": "novo-nordisk",
+      "quarter": "Q4 2025",
+      "earningsDate": "2026-02-04",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "Company-wide transformation program with ~$1.12B in costs",
+          "detail": "Novo Nordisk incurred approximately $1.12 billion (DKK ~7.7B) in costs tied to a company-wide transformation program announced in Q3 2025. New CEO Mike Doustdar assumed the role in July 2025, replacing Lars Fruergaard Jorgensen.",
+          "sourceUrl": "https://www.pharmexec.com/view/novo-nordisk-2025-financial-report-2026-sales-operations-profit-outlook",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "CEO transition: Doustdar replaces Jorgensen",
+          "detail": "Mike Doustdar assumed the role of president and CEO in July 2025, replacing Lars Fruergaard Jorgensen. This leadership change occurred mid-year and coincided with the company-wide transformation program.",
+          "sourceUrl": "https://www.pharmexec.com/view/novo-nordisk-2025-financial-report-2026-sales-operations-profit-outlook",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "governance"
+        },
+        {
+          "title": "DKK 60B capex for manufacturing + DKK 30B for R&D pipeline",
+          "detail": "In 2025, Novo Nordisk deployed approximately DKK 60 billion for manufacturing capacity expansion through capital expenditure and approximately DKK 30 billion to expand the R&D pipeline through business development. Catalent manufacturing site acquisitions are being integrated.",
+          "sourceUrl": "https://www.investing.com/news/transcripts/earnings-call-transcript-novo-nordisk-q4-2025-beats-eps-and-revenue-forecasts-93CH-4484819",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "No AI discussion found in Q4 2025 earnings materials",
+          "detail": "Despite extensive manufacturing and R&D investment, no specific AI, machine learning, or digital transformation initiatives were mentioned in available Q4 2025 earnings coverage. The company-wide transformation appears focused on operational efficiency and manufacturing scale-up for GLP-1 demand rather than AI capability building.",
+          "sourceUrl": "https://www.pharmexec.com/view/novo-nordisk-2025-financial-report-2026-sales-operations-profit-outlook",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "deployment"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "In 2026, Novo Nordisk will face pricing headwinds in an increasingly competitive market. However, we are very encouraged by the promising early uptake from the U.S. launch of Wegovy pill.",
+          "speaker": "Mike Doustdar, President and CEO",
+          "context": "Q4 2025 earnings, forward guidance",
+          "sourceUrl": "https://www.pharmexec.com/view/novo-nordisk-2025-financial-report-2026-sales-operations-profit-outlook"
+        }
+      ],
+      "keyFindings": "Novo Nordisk's Q4 2025 is dominated by the CEO transition (Doustdar replacing Jorgensen), a $1.12B company-wide transformation program, and massive manufacturing scale-up (DKK 60B capex). However, there is a notable absence of AI discussion in available materials — the transformation appears focused on operational efficiency and Catalent integration rather than AI capability. This is a meaningful negative finding for our M4 type specimen: despite being classified as hub-and-spoke AI, the Q4 earnings suggest AI is not a top-of-mind narrative for the new CEO."
+    },
+    {
+      "id": "roche-genentech",
+      "ticker": "RHHBY",
+      "specimenSlug": "roche-genentech",
+      "quarter": "Q4 2025",
+      "earningsDate": "2026-01-29",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "Roche Genentech Innovation Center Boston launched",
+          "detail": "Roche announced the launch of the Roche Genentech Innovation Center Boston, based at Harvard's Enterprise Research Campus in Allston (announced March 2025). The center invests in a Cardiovascular, Renal, and Metabolism center of excellence along with data science and AI capabilities.",
+          "sourceUrl": "https://www.roche.com/media/releases/med-cor-2025-03-07",
+          "sourceDate": "2025-03-07",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "Genentech-NVIDIA multi-year AI research collaboration",
+          "detail": "Genentech entered a multi-year strategic research collaboration with NVIDIA coupling Genentech's AI capabilities, extensive biological and molecular datasets, and research expertise with NVIDIA's accelerated computing to speed up drug discovery and development.",
+          "sourceUrl": "https://www.roche.com/investors/updates/inv-update-2023-11-21",
+          "sourceDate": "2023-11-21",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "Aviv Regev's 'lab in a loop' mechanism at Genentech",
+          "detail": "Aviv Regev (Head of gRED — Genentech Research and Early Development) describes reaching an 'inflection point' where AI and machine learning redefine drug discovery through a 'lab in a loop' mechanism. This positions Genentech as having a fundamentally different AI integration model than hub-and-spoke.",
+          "sourceUrl": "https://www.roche.com/stories/ai-revolutionising-drug-discovery-and-transforming-patient-care",
+          "sourceDate": "2025-01-01",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "Roche-Genentech-Recursion up to $12B AI drug discovery partnership",
+          "detail": "Roche, Genentech, and Recursion launched an up-to-$12 billion AI drug discovery effort. This represents one of the largest pharma-AI partnerships by total deal value.",
+          "sourceUrl": "https://www.genengnews.com/news/roche-genentech-recursion-launch-up-to-12b-ai-drug-discovery-effort/",
+          "sourceDate": "2025-01-01",
+          "keywordCategory": "investment"
+        }
+      ],
+      "quotes": [],
+      "keyFindings": "Roche's FY2025 results page was JS-rendered and inaccessible. However, search results confirm the structural picture: Genentech Innovation Center Boston (at Harvard), the NVIDIA collaboration, and the massive $12B Recursion partnership. Aviv Regev's 'lab in a loop' concept remains the most distinctive AI integration framing in pharma. The Q4 earnings call transcript was behind SeekingAlpha paywall. The M3 classification (AI-native R&D subsidiary) is supported by the structural separation between Genentech's AI-first research and Roche's broader pharma/diagnostics operations."
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "GPU infrastructure race in pharma",
+      "detail": "Pfizer's 1,200 GPU deployment and Lilly's NVIDIA supercomputer suggest a pharma-wide GPU arms race. Both frame computational infrastructure as a strategic asset for drug discovery acceleration.",
+      "companies": ["pfizer", "eli-lilly"]
+    },
+    {
+      "trend": "AI as cost reduction narrative",
+      "detail": "Bourla (Pfizer) explicitly names AI as 'the main lever' for cost reduction. Moderna references GPTs for productivity. Sanofi introduces ROAI measurement. The Q4 2025 earnings cycle shows a shift from 'AI as innovation' to 'AI as efficiency' framing — companies are now expected to show AI's impact on the P&L.",
+      "companies": ["pfizer", "moderna", "sanofi"]
+    },
+    {
+      "trend": "Hub-and-spoke (M4) confirmed as dominant pharma AI model",
+      "detail": "Pfizer's 'embedding AI engineers in each function' is the clearest M4 articulation yet. Lilly's NVIDIA lab + BU president structure follows the same pattern. Only Roche-Genentech diverges with an arguably M3 (AI-native subsidiary) model under Regev.",
+      "companies": ["pfizer", "eli-lilly", "roche-genentech"]
+    },
+    {
+      "trend": "Absence of AI in Novo Nordisk narrative under new CEO",
+      "detail": "Despite being our M4 type specimen, Novo Nordisk's Q4 2025 earnings under new CEO Doustdar contain no AI discussion in available materials. The $1.12B transformation is about operational efficiency, not AI. This may indicate that AI narrative prominence varies by CEO identity — Jorgensen vs. Doustdar transition may signal a de-emphasis.",
+      "companies": ["novo-nordisk"]
+    },
+    {
+      "trend": "NVIDIA as pharma-AI infrastructure partner of choice",
+      "detail": "Both Eli Lilly (co-innovation lab, ~$1B) and Genentech (multi-year collaboration) have formalized NVIDIA partnerships. Pfizer is deploying 1,200 GPUs (likely NVIDIA). NVIDIA is emerging as the default computational partner for pharma AI, paralleling its role in tech.",
+      "companies": ["eli-lilly", "roche-genentech", "pfizer"]
+    }
+  ],
+  "purposeClaimsDiscovered": [
+    {
+      "specimenSlug": "pfizer",
+      "speaker": "Albert Bourla, CEO",
+      "claimText": "the main lever was the successful deployment of AI",
+      "context": "Framing AI as the primary mechanism for cost reduction in Q4 2025 earnings",
+      "rhetoricalFunction": "Authorization — positioning AI as the core enabler of financial performance, authorizing continued AI investment",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "specimenSlug": "pfizer",
+      "speaker": "Albert Bourla, CEO",
+      "claimText": "reducing the cost without that being seen in the activity.",
+      "context": "Describing AI's ability to maintain output while cutting costs",
+      "rhetoricalFunction": "Reassurance — addressing workforce anxiety about cost-cutting by claiming AI enables efficiency without visible activity reduction",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "specimenSlug": "sanofi",
+      "speaker": "Paul Hudson, CEO",
+      "claimText": "R&D-driven, AI-powered biopharma company",
+      "context": "Strategic identity framing in Q4 2025 earnings press release",
+      "rhetoricalFunction": "Identity construction — elevating AI from a tool to a definitional attribute of the company's identity",
+      "sourceUrl": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-01-29-06-30-00-3228191"
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "unitedhealth-group",
+  "name": "UnitedHealth Group",
+  "title": "Healthcare Giant with Central AI Governance and Distributed Execution",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "High",
+    "classificationRationale": "UnitedHealth exhibits textbook M4 hub-and-spoke structure: central governance through Responsible AI Board (20-25 experts) and United AI Studio platform, with distributed execution across business units (UnitedHealthcare, Optum, OptumRx). Clear separation of exploration (Optum Labs R&D, academic partnerships) from execution (1,000+ production use cases). Monthly business unit reviews plus quarterly CIO cross-enterprise monitoring creates formal coordination mechanisms. The dedicated Chief AI Scientist for governance plus Chief AI Transformation Officer for strategy indicates structural separation of AI functions.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Healthcare",
+    "sector": "Managed Care / Health Insurance",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Minnetonka, Minnesota",
+    "geography": "United States"
+  },
+  "description": "UnitedHealth Group operates what may be the largest healthcare AI deployment in the United States, with over 1,000 production use cases and 20,000 engineers leveraging AI tools. The organization follows a classic hub-and-spoke model: central governance through the Responsible AI Board (20-25 internal and external experts) and United AI Studio platform provides standards and oversight, while distributed execution occurs across business units including UnitedHealthcare (insurance), Optum (health services), and OptumRx (pharmacy benefits).\n\nThe exploration-execution separation is structural and explicit. Optum Labs serves as the dedicated R&D arm, maintaining academic partnerships including the UCLA AI in Healthcare Hub focused on foundational ML research. Meanwhile, operational AI is deeply embedded in claims processing (90% auto-adjudication), customer service (65M chatbot interactions), and clinical support. Leadership spans multiple specialized roles: Chief AI Scientist (Pencina) for governance standards, Chief AI Transformation Officer (Mohiuddin) for strategy, and Chief Digital & Technology Officer (Dadlani) for overall technology execution.\n\nThe company invests heavily—$1.5B planned for technology/AI in 2026—with explicit targets of $1B in AI-enabled cost reductions. Despite massive scale, UnitedHealth maintains that AI is 'never used to deny a claim,' with all non-approved claims escalating to human agents. The organization notably avoids the external AI conference circuit, preferring controlled investor and healthcare industry venues for announcements.",
+  "observableMarkers": {
+    "reportingStructure": "AI reports through Chief Digital & Technology Officer (Dadlani) and Chief AI Scientist (Pencina) [unitedhealth-group-fortune-2025, unitedhealth-group-stat-2025]. Responsible AI Board (20-25 experts) provides oversight [unitedhealth-group-aiexpert-2025]. Monthly business unit reviews, quarterly CIO monitoring [unitedhealth-group-fortune-2025]. OPTUM TRIPARTITE STRUCTURE: Optum Insight (data analytics/technology — built Optum Real system), Optum Health (care delivery), Optum Rx (pharmacy benefits) [uhg-healthcare-deep-dive-2026]. AI built in one division (Insight), deployed across others. Former naviHealth subsidiary (controversial claims denial algorithm) absorbed into Optum — no longer a named subsidiary [uhg-healthcare-deep-dive-2026]. Former CAIO Dennis Chornenky left for UC Davis Health as Chief AI Adviser (title downgrade: Officer → Adviser) [uhg-healthcare-deep-dive-2026].",
+    "resourceAllocation": "Dedicated investment: $1.5B in 2026 for technology/AI [unitedhealth-group-q4-2025-earnings]. Centralized platform (United AI Studio) with distributed usage across 20,000 engineers [unitedhealth-group-fortune-2025]. Separate R&D budget for Optum Labs [unitedhealth-group-ucla-hub-2025].",
+    "timeHorizons": "Mixed: 1,000+ production use cases (short-term operational) [unitedhealth-group-ai-page-2025]; Optum Labs academic partnerships for foundational ML research (long-term) [unitedhealth-group-ucla-hub-2025]; Chief AI Scientist role focused on governance standards (medium-term industry shaping) [unitedhealth-group-stat-2025].",
+    "decisionRights": "Centralized governance: AI Review Board reviews hundreds of use cases monthly before production approval [unitedhealth-group-ai-page-2025]. Execution is distributed across business units (UHC, Optum, OptumRx) [unitedhealth-group-fortune-2025].",
+    "metrics": "Cost reduction ($1B target for 2026) [unitedhealth-group-q4-2025-earnings], adoption (60M lines AI-generated code, 65M chatbot calls, 18M AI-enabled searches) [unitedhealth-group-fortune-2025], efficiency (90% claims auto-adjudicated) [unitedhealth-group-aiexpert-2025], engagement (55M digital users) [unitedhealth-group-aiexpert-2025]."
+  },
+  "mechanisms": [
+    {
+      "id": 8,
+      "name": "Turn Compliance Into Deployment Advantage",
+      "evidence": "UnitedHealth has invested heavily in AI governance infrastructure—Responsible AI Board with 20-25 experts, Chief AI Scientist hired from Duke who co-founded Coalition for Health AI, explicit policy that AI is 'never used to deny a claim.' In a heavily regulated healthcare environment under DOJ scrutiny, this governance apparatus becomes a deployment enabler: they can scale to 1,000+ production use cases precisely because they've built compliance into the architecture.",
+      "strength": "Strong"
+    },
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "65M chatbot interactions and 18M AI-enabled searches indicate mass internal adoption. 10,000+ employees enrolled in advanced AI learning course. 80%+ of member calls leverage AI tools. The scale of employee AI tool usage suggests consumer-grade accessibility, not specialist-only systems.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "AI is never used to deny a claim. If a claim is not eligible to be approved, it goes up to a human agent.",
+      "speaker": "Sandeep Dadlani",
+      "speakerTitle": "Chief Digital and Technology Officer",
+      "date": "2025-05-28",
+      "source": "Fortune",
+      "sourceId": "unitedhealth-group-fortune-2025",
+      "context": "Addressing concerns about AI in claims processing"
+    },
+    {
+      "text": "We want AI to be a tool",
+      "speaker": "Sandeep Dadlani",
+      "speakerTitle": "Chief Digital and Technology Officer",
+      "date": "2025-05-28",
+      "source": "Fortune",
+      "sourceId": "unitedhealth-group-fortune-2025",
+      "context": "Emphasizing AI augments rather than replaces clinicians"
+    },
+    {
+      "text": "It's clear that our traditional services in Optum Insight have to evolve to AI-first services, then to products, and eventually to platforms.",
+      "speaker": "Sandeep Dadlani",
+      "speakerTitle": "Chief Digital and Technology Officer (also Executive VP, Optum Insight)",
+      "date": "2026-01",
+      "source": "Q4 2025 Earnings Call",
+      "sourceId": "unitedhealth-group-q4-2025-earnings",
+      "context": "Q4 2025 earnings call discussing AI strategy evolution"
+    },
+    {
+      "text": "We are integrating AI...with pragmatism, enthusiasm, and responsibility. With over 1,000 active use cases, we're committed to identifying ways AI can help solve pain points.",
+      "speaker": "Sandeep Dadlani",
+      "speakerTitle": "Chief Digital and Technology Officer",
+      "date": "2025",
+      "source": "UnitedHealth Group official website",
+      "sourceId": "unitedhealth-group-ai-page-2025",
+      "context": "Official AI strategy page"
+    },
+    {
+      "text": "Our commitment...extends beyond innovation; it is rooted in the belief that AI, when used safely and responsibly, can be a force for good.",
+      "speaker": "Chief Medical Officer",
+      "speakerTitle": "Chief Medical Officer",
+      "date": "2025",
+      "source": "UnitedHealth Group official website",
+      "sourceId": "unitedhealth-group-ai-page-2025",
+      "context": "Official AI strategy page"
+    },
+    {
+      "text": "This Optum Labs AI in Healthcare Hub is the beginning of a collaborative research effort set to drive great impact in the future of healthcare. Working together with academia and research institutions, we will accelerate advances in equitable, personalized healthcare through the strategic application of responsible Machine Learning and Artificial Intelligence.",
+      "speaker": "Ranju Das",
+      "speakerTitle": "CEO, Optum Labs",
+      "date": "2025",
+      "source": "UCLA Computational Medicine",
+      "sourceId": "unitedhealth-group-ucla-hub-2025",
+      "context": "Announcing UCLA/Optum Labs AI in Healthcare Hub partnership"
+    },
+    {
+      "text": "The goal of the company is to work together, figure out how to innovate, test drive it and then make it broadly available, not just through our own networks.",
+      "speaker": "Andrew Witty",
+      "speakerTitle": "CEO (former)",
+      "date": "2023-12",
+      "source": "Fierce Healthcare (Investor Day)",
+      "sourceId": "unitedhealth-group-investor-day-2023",
+      "context": "December 2023 Investor Day discussing UHC/Optum integration"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "Healthcare Deep Dive — Governance Failure + Talent Flow",
+      "summary": "Healthcare sector comparative research (Feb 10, 2026) reveals structural governance concerns: (1) Optum Real AI pre-authorization system reviews claims BEFORE treatment — prospective gatekeeping, not retrospective review. Minnesota federal court (Feb 2025) ruled breach of contract claims can proceed because contracts specified clinical staff, not algorithms, make coverage decisions. (2) Denial rate doubled 2020-2022 after algorithmic review; 90% of denials overturned on appeal by federal administrative law judges — suggesting AI governance optimized for throughput over accuracy. (3) Former CAIO Dennis Chornenky left for UC Davis Health — talent flow from payer to provider AI.",
+      "sourceRefs": [
+        "uhg-healthcare-deep-dive-2026"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Initial specimen capture",
+      "summary": "Documented hub-and-spoke AI structure with 1,000+ production use cases, $1.5B annual investment, central governance (Responsible AI Board, United AI Studio), and distributed execution across UHC/Optum/OptumRx. Key leadership: Dadlani (CDTO), Pencina (Chief AI Scientist), Mohiuddin (Chief AI Transformation Officer). Optum Labs serves as R&D arm with UCLA partnership. Under DOJ scrutiny despite explicit policy against AI-based claim denials.",
+      "sourceRefs": [
+        "unitedhealth-group-fortune-2025",
+        "unitedhealth-group-q4-2025-earnings",
+        "unitedhealth-group-ai-page-2025",
+        "unitedhealth-group-aiexpert-2025",
+        "unitedhealth-group-stat-2025",
+        "unitedhealth-group-ucla-hub-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "unitedhealth-group-fortune-2025",
+      "name": "Fortune - UnitedHealth CTO on AI",
+      "type": "Press",
+      "url": "https://fortune.com/2025/05/28/unitedhealth-cto-says-ai-investments-can-help-a-healthcare-system-that-needs-to-be-fixed/",
+      "sourceDate": "2025-05-28",
+      "collectedDate": "2026-02-08",
+      "notes": "Key interview with Sandeep Dadlani. Details on 1,000 AI use cases, 20,000 engineers, governance structure, chatbot deployment, claims processing approach."
+    },
+    {
+      "id": "unitedhealth-group-ai-page-2025",
+      "name": "UnitedHealth Group - Official AI Page",
+      "type": "Blog",
+      "url": "https://www.unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08",
+      "notes": "Official framing of AI strategy. AI Review Board structure, United AI Studio platform, explicit statement that AI is NOT used for claim denials."
+    },
+    {
+      "id": "unitedhealth-group-aiexpert-2025",
+      "name": "AIExpert Network - Case Study",
+      "type": "Report",
+      "url": "https://aiexpert.network/ai-at-uhg/",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08",
+      "notes": "Comprehensive case study. 20-25 person Responsible AI Board, 50/50 GenAI/traditional split, $1B cost reduction target, 55M digital users, 90% claims auto-adjudication."
+    },
+    {
+      "id": "unitedhealth-group-stat-2025",
+      "name": "STAT News - Chief AI Scientist Hire",
+      "type": "Press",
+      "url": "https://www.statnews.com/2025/10/02/unitedhealth-group-chief-ai-scientist-michael-pencina-duke-expert/",
+      "sourceDate": "2025-10-02",
+      "collectedDate": "2026-02-08",
+      "notes": "Michael Pencina hired as Chief AI Scientist from Duke. Coalition for Health AI co-founder. Signals commitment to AI governance and oversight."
+    },
+    {
+      "id": "unitedhealth-group-ucla-hub-2025",
+      "name": "UCLA Computational Medicine - Optum Labs Hub",
+      "type": "Press",
+      "url": "https://compmed.ucla.edu/programs/united-health-group-ucla-ai-healthcare-hub",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08",
+      "notes": "Academic partnership details. $1M initial funding, joint steering committee, focus on foundational ML/AI methods for precision healthcare."
+    },
+    {
+      "id": "unitedhealth-group-q4-2025-earnings",
+      "name": "Q4 2025 Earnings Call",
+      "type": "Earnings",
+      "url": "https://finance.yahoo.com/news/unitedhealth-group-inc-unh-q4-190058389.html",
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-08",
+      "notes": "Q4 2025 results. $1.5B tech/AI investment planned for 2026, $1B AI-enabled cost reductions, 80%+ of member calls leverage AI tools."
+    },
+    {
+      "id": "unitedhealth-group-investor-day-2023",
+      "name": "Fierce Healthcare - Investor Day",
+      "type": "Press",
+      "url": "https://www.fiercehealthcare.com/payer/witty-why-unitedhealth-s-innovation-strategy-starts-breaking-down-siloes",
+      "sourceDate": "2023-12",
+      "collectedDate": "2026-02-08",
+      "notes": "December 2023 Investor Day discussing UHC/Optum integration strategy under former CEO Witty."
+    },
+    {
+      "id": "uhg-healthcare-deep-dive-2026",
+      "name": "Healthcare sector deep dive research — UnitedHealth findings",
+      "type": "research",
+      "url": "n/a — compiled from multiple search results",
+      "publicationDate": "2025-2026",
+      "collectedDate": "2026-02-10",
+      "notes": "Optum tripartite structure, Optum Real pre-authorization, Minnesota court ruling, 90% denial overturn rate, Chornenky departure to UC Davis."
+    },
+    {
+      "id": "bankinfosecurity-uhg-ai-claims-2025",
+      "name": "BankInfoSecurity — Court: UnitedHealth Must Answer for AI-Based Claim Denials",
+      "type": "press",
+      "url": "https://www.bankinfosecurity.com/court-unitedhealth-must-answer-for-ai-based-claim-denials-a-27534",
+      "publicationDate": "2025",
+      "collectedDate": "2026-02-10",
+      "notes": "Minnesota federal court ruling: breach of contract because contracts specified human clinical staff."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.7,
+    "speedVsDepth": 0.4,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": 0.3,
+    "longVsShortHorizon": 0.2
+  },
+  "openQuestions": [
+    "Exact reporting lines for Chief AI Scientist (Pencina) vs Chief AI Transformation Officer (Mohiuddin) vs CDTO (Dadlani) - who reports to whom?",
+    "Size and composition of Optum Labs team specifically",
+    "What percentage of $1.5B tech investment is specifically AI vs broader technology?",
+    "How DOJ investigation affecting AI deployment strategy",
+    "Stephen Hemsley's AI priorities since returning as CEO - no interviews found yet",
+    "Who replaced Dennis Chornenky as Optum CAIO after he departed?",
+    "How does AI governance differ between Optum Insight (technology/analytics) and Optum Health (care delivery)?",
+    "What changes were made to AI governance after the Minnesota federal court ruling and DOJ scrutiny?",
+    "What is the current status of the naviHealth algorithm after absorption into Optum?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] UnitedHealth exemplifies how hub-and-spoke (M4) can scale to massive production deployment (1,000+ use cases) when governance infrastructure is treated as deployment enablement rather than constraint. The Responsible AI Board with external experts is not just compliance theater—it's the mechanism that allows them to move fast across business units because approval pathways are clear.",
+    "[2026-02] The three-way split of AI leadership (Chief AI Scientist for governance, Chief AI Transformation Officer for strategy, CDTO for execution) is an interesting structural pattern worth tracking. It suggests that at sufficient scale, the AI leadership function itself may require structural separation—exploration of governance standards vs. transformation strategy vs. operational execution.",
+    "[2026-02] Notable absence from external AI conference circuit despite massive deployment. UnitedHealth prefers controlled investor/healthcare venues. This may reflect regulatory sensitivity (DOJ scrutiny) or deliberate strategy to avoid attention while scaling. Contrast with tech companies that aggressively publicize AI capabilities."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

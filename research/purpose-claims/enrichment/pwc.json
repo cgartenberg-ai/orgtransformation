@@ -1,0 +1,23 @@
+{
+  "specimenId": "pwc",
+  "scannedDate": "2026-02-09",
+  "quality": "rich",
+  "claimCount": 7,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 0,
+    "survival": 2,
+    "commercial-success": 3
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

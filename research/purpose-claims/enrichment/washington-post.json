@@ -1,0 +1,38 @@
+{
+  "specimenId": "washington-post",
+  "scannedDate": "2026-02-13",
+  "quality": "adequate",
+  "claimCount": 10,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 0,
+    "higher-calling": 2,
+    "identity": 2,
+    "survival": 5,
+    "commercial-success": 0
+  },
+  "keyFindings": [
+    "Lewis's rhetoric followed a clear arc: survival crisis ('we are in a hole') to epochal opportunity ('significant day in history') to defensive retrospection ('two years of transformation'). The arc collapsed in under two years, making Washington Post one of the fastest purpose-claim cycles in the collection.",
+    "The most analytically rich claim is Bezos's single statement (claim 008) which fuses higher-calling and commercial-success logics in a single sentence \u2014 'essential journalistic mission' alongside 'the data tells us what is valuable.' This is the Bezos organizational philosophy in miniature: mission and optimization are not in tension.",
+    "Lewis's shift from 'readers' to 'customers' (claim 007) and his CTO's directive of 'AI everywhere in our newsroom' signal a fundamental identity conflict: is WaPo a journalistic institution or a technology platform? D'Onofrio's corrective claim ('journalism as our north star') suggests this tension was felt internally.",
+    "The leaked internal planning language \u2014 'AI-fueled platform for news' delivering 'ideas and insights for all Americans' \u2014 reveals a more radical vision than Lewis ever articulated publicly. The gap between internal ambition and public rhetoric is itself a finding.",
+    "Lewis was notably absent from direct communication with his newsroom \u2014 he did not address the newsroom directly after June 2024, relying on memos and intermediaries. This communication vacuum is itself a form of purpose failure."
+  ],
+  "rhetoricalPatterns": [
+    "Crisis-to-epoch oscillation: Lewis alternates between blunt survival language ('we are in a hole') and grandiose epochal framing ('significant day in history') within the same address, creating whiplash that undermines credibility.",
+    "Passive-voice deflection: Lewis consistently uses passive constructions ('difficult decisions have been taken') when discussing destructive actions like layoffs, distancing himself from agency while claiming credit for 'transformation.'",
+    "Mission-data fusion (Bezos): Bezos uniquely combines higher-calling and commercial-success registers in a single statement, reflecting his broader philosophy that customer data and institutional mission are complementary rather than competing.",
+    "Post-departure corrective: D'Onofrio's claims reposition journalism as the 'north star,' performing a rhetorical cleanup after Lewis's commercially-inflected framing alienated the newsroom."
+  ],
+  "comparativeNotes": "Washington Post is the most dramatic 'failed transformation' specimen in the collection. Unlike Klarna (where AI-driven workforce reduction was paired with confident commercial-success claims that tracked with financial performance), WaPo's workforce reduction was paired with a CEO who lost credibility and resigned within days of the cuts. The Bezos claim is structurally similar to his approach at Amazon \u2014 mission and data optimization as naturally aligned \u2014 but at WaPo it landed in a newsroom that interpreted 'the data tells us what is valuable' as a threat to editorial judgment. The D'Onofrio corrective is reminiscent of leadership transitions at other specimens where incoming leaders must rhetorically repair damage from predecessors, though the speed of this transition (three days from layoffs to resignation) is unprecedented in the collection. The internal planning document's language ('AI-fueled platform for news') is more radical than any public claim Lewis made, suggesting the real strategic vision was deliberately concealed from the public \u2014 a pattern not seen in tech specimens like Anthropic or Google DeepMind where leaders are publicly bold about AI ambitions.",
+  "notableAbsences": "No claims from Matt Murray (Executive Editor appointed by Lewis) despite his prominent role \u2014 he gave interviews to Puck News but the content was paywalled. No claims from Sally Buzbee (former Executive Editor who departed before the restructuring). No claims from the Washington Post Guild union leadership, who would represent a counter-narrative. No teleological claims from any WaPo leader \u2014 nobody articulated a specific social outcome the AI transformation would achieve, only survival and commercial logic. The absence of teleological claims is striking for a newspaper whose institutional identity is built on democratic accountability ('Democracy Dies in Darkness').",
+  "searchesCompleted": 6,
+  "urlsFetched": 9,
+  "fetchFailures": [
+    "axios.com (403)",
+    "cnn.com (451)",
+    "cjr.org (403)",
+    "washingtonexaminer.com (content not rendered)",
+    "techrepublic.com (403)"
+  ]
+}

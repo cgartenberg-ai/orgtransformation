@@ -1,0 +1,23 @@
+{
+  "specimenId": "sanofi",
+  "scannedDate": "2026-02-07",
+  "quality": "rich",
+  "claimCount": 14,
+  "claimTypeDistribution": {
+    "utopian": 3,
+    "teleological": 1,
+    "higher-calling": 1,
+    "identity": 2,
+    "survival": 5,
+    "commercial-success": 2
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

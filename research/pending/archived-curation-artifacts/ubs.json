@@ -1,0 +1,59 @@
+{
+  "company": "UBS",
+  "ticker": "UBS",
+  "sector": "Financial Services",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 2,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 2,
+    "suggestedModelName": "Center of Excellence",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "Daniele Magazzeni appointed as UBS's first Chief AI Officer effective January 1, 2026. Based in London, reports to Mike Dargan (Group Chief Operations and Technology Officer). Magazzeni was previously Dargan framed the CAIO role as covering three AI modalities: 'further optimise our use of traditional, generative and agentic AI capabilities to transform our end-to-end operations and deliver cutting 85% of Swiss-booked client accounts migrated by end of Q4 2025, with Swiss booking center migrations on track to complete by end of Q1 2026. The near-completion of the Credit Suisse integration frees",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "Artificial intelligence is a top priority for UBS.",
+      "speaker": "Mike Dargan",
+      "speakerTitle": "Group Chief Operations and Technology Officer",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://www.wealthbriefing.com/html/article.php/ubs-signals-ai-ambitions-with-top-hire",
+      "sourceDate": "",
+      "context": "Announcing Magazzeni's appointment as first CAIO"
+    },
+    {
+      "text": "further optimise our use of traditional, generative and agentic AI capabilities to transform our end-to-end operations and deliver cutting-edge solutions to our clients.",
+      "speaker": "Mike Dargan",
+      "speakerTitle": "Group Chief Operations and Technology Officer",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://www.wealthbriefing.com/html/article.php/ubs-signals-ai-ambitions-with-top-hire",
+      "sourceDate": "",
+      "context": "Describing CAIO Magazzeni's mandate \u2014 notable for explicit three-mode AI taxonomy"
+    }
+  ],
+  "sources": [
+    {
+      "name": "First Chief AI Officer appointed, reporting to Group COO/CTO",
+      "url": "https://www.wealthbriefing.com/html/article.php/ubs-signals-ai-ambitions-with-top-hire",
+      "type": "Press",
+      "date": "2025-10-17",
+      "notes": "First Chief AI Officer appointed, reporting to Group COO/CTO"
+    },
+    {
+      "name": "Credit Suisse integration 85% complete, enabling AI focus",
+      "url": "https://www.ubs.com/global/en/media/display-page-ndp/en-20260204-4q25-quarterly-result.html",
+      "type": "Press",
+      "date": "2026-02-04",
+      "notes": "Credit Suisse integration 85% complete, enabling AI focus"
+    }
+  ],
+  "summary": "First Chief AI Officer appointed, reporting to Group COO/CTO: Daniele Magazzeni appointed as UBS's first Chief AI Officer effective January 1, 2026. Based in London, reports to Mike Dargan (Group Chief Operations and Technology Officer). Magazzeni was previously 300+ live AI use cases with firm-wide tool rollout: UBS has over 300 live AI use cases. AI-powered tools being rolled out to all employees including Microsoft M365 Copilot and in-house AI Assistant called 'Red.' Strategic 'Big Rocks' transformational A CAIO mandate spans traditional, generative, and agentic AI: Dargan framed the CAIO role as covering three AI modalities: 'further optimise our use of traditional, generative and agentic AI capabilities to transform our end-to-end operations and deliver cutting Credit Suisse integration 85% complete, enabling AI focus: 85% of Swiss-booked client accounts migrated by end of Q4 2025, with Swiss booking center migrations on track to complete by end of Q1 2026. The near-completion of the Credit Suisse integration frees ",
+  "openQuestions": [],
+  "splitFrom": "financial-services-earnings-q4-2025.json"
+}

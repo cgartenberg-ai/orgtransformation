@@ -1,0 +1,208 @@
+{
+  "company": "PepsiCo",
+  "ticker": "PEP",
+  "leader": "Ramon Laguarta",
+  "leaderTitle": "CEO & Chairman",
+  "sector": "Consumer Goods / Manufacturing",
+  "quadrant": "Q4",
+  "scannedDate": "2026-02-09",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.computerweekly.com/news/365531738/CDO-interview-Athina-Kanioura-chief-strategy-and-transformation-officer-PepsiCo",
+    "https://www.ciodive.com/news/PepsiCo-generative-AI-pilot-scale-strategy-agents/750095/",
+    "https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia",
+    "https://www.pepsico.com/en/newsroom/stories/2021/artificial-intelligence-at-pepsico"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Contextual",
+    "confidence": "High",
+    "rationale": "PepsiCo has a clear hybrid structure: central transformation function (Kanioura's ~1,000-person team) sets standards and coordinates, while two Digital Hubs (Dallas, Barcelona) serve as Centers of Excellence, and 'mission-based teams' execute cross-functional programs. Training 330,000 employees on AI indicates contextual orientation — expecting everyone to incorporate AI in their roles, not just specialists.",
+    "aiTeamStructure": "Central transformation organization under Chief Strategy & Transformation Officer (Athina Kanioura) with ~700-1,000 data engineers, software engineers, and data scientists. Two Digital Hubs (Dallas and Barcelona) serve as Centers of Excellence. 'Mission-based teams' pursue transformational programs. AI Council/Steering Committee provides governance. Internal platform 'PepGenX' built on Amazon Bedrock for experimentation. Partnership with Stanford HAI for responsible AI research.",
+    "keyPeople": [
+      {
+        "name": "Ramon Laguarta",
+        "title": "Chairman & CEO",
+        "role": "Sets AI vision and priority; joined IBM board (March 2026) for AI/tech governance experience; leads 330,000-employee AI training initiative"
+      },
+      {
+        "name": "Dr. Athina Kanioura",
+        "title": "Chief Strategy & Transformation Officer (also CEO of Latin America Foods as of Dec 2025)",
+        "role": "Owns AI strategy, digital transformation, data/analytics, software engineering, AI/ML. Reports directly to CEO. Manages 700-1,000 person technology team."
+      }
+    ],
+    "investmentSignals": "700-1,000 data/software engineers and data scientists. Two Digital Hubs creating 500+ new data/digital jobs over 3 years. Training 330,000 employees on AI. 65-70% cloud migration, targeting 95%. CapEx below 5% of net revenue. Record productivity savings targeted for 2026.",
+    "observableMarkers": {
+      "reportingStructure": "AI reports to Chief Strategy & Transformation Officer (Kanioura), who reports directly to CEO. No dedicated CAIO — AI is bundled with strategy, M&A, data, and transformation. AI Council/Steering Committee for governance.",
+      "resourceAllocation": "Dedicated Digital Hubs with ring-fenced headcount. Central platform (PepGenX) for experimentation. Mission-based teams get cross-functional resources. Monthly transformation benefit tracking.",
+      "timeHorizons": "Mixed: SAP rollout is multi-year foundation; agentic AI deployment is near-term (2025-2026); digital twins are medium-term (facility simulations). 100 basis points operating margin expansion over 3 years.",
+      "decisionRights": "Hybrid — central team sets standards and prioritizes 'four or five big bets,' but mission-based teams have execution autonomy. AI Council vets AI-specific proposals.",
+      "metrics": "Productivity savings (record target for 2026), cloud migration %, operating margin expansion, free cash flow conversion. Joint KPIs with AWS on innovation portfolio, supply chain performance, operational productivity. Monthly benefit tracking, quarterly exec committee reporting."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "The scale and complexity of PepsiCo's business, from farm to shelf, is massive—and we are embedding AI throughout our operations to better meet the increasing demands of our consumers and customers.",
+      "speaker": "Ramon Laguarta",
+      "speakerTitle": "Chairman & CEO",
+      "source": "PepsiCo Press Release - Siemens/NVIDIA Collaboration",
+      "sourceUrl": "https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia",
+      "sourceDate": "2026-01",
+      "context": "CES 2026 keynote announcing digital twin collaboration with Siemens and NVIDIA"
+    },
+    {
+      "text": "Artificial intelligence is a transformative force driving smarter decisions and unlocking new possibilities across industries.",
+      "speaker": "Ramon Laguarta",
+      "speakerTitle": "Chairman & CEO",
+      "source": "World Economic Forum",
+      "sourceUrl": "https://www.weforum.org/press/2025/01/advancing-ai-transformation-a-roadmap-for-businesses-and-governments/",
+      "sourceDate": "2025-01",
+      "context": "WEF Davos statement on AI transformation"
+    },
+    {
+      "text": "It's a huge transformation.",
+      "speaker": "Ramon Laguarta",
+      "speakerTitle": "Chairman & CEO",
+      "source": "PYMNTS / WEF Davos Panel",
+      "sourceUrl": "https://www.pymnts.com/artificial-intelligence-2/2025/aws-pepsico-and-other-ceos-tell-whats-needed-to-scale-ai/",
+      "sourceDate": "2025-01",
+      "context": "WEF Davos panel on scaling AI, discussing training 330,000 employees on AI"
+    },
+    {
+      "text": "We're going to put agentic AI across the spectrum. It will be an ecosystem of agents that we want to deploy for the transformation of services within PepsiCo.",
+      "speaker": "Athina Kanioura",
+      "speakerTitle": "Chief Strategy & Transformation Officer",
+      "source": "Consumer Goods Technology",
+      "sourceUrl": "https://consumergoods.com/pepsico-work-closely-aws-cloud-based-agentic-ai-first-roadmap",
+      "sourceDate": "2025",
+      "context": "Discussing AWS partnership and agentic AI-first roadmap"
+    },
+    {
+      "text": "We've been investing in technology, we've been investing in AI, we've been investing in data. Those businesses now have opportunities to improve even more their productivity as a standalone business.",
+      "speaker": "Ramon Laguarta",
+      "speakerTitle": "Chairman & CEO",
+      "source": "Q2 2025 Earnings Call",
+      "sourceUrl": "https://www.investing.com/news/transcripts/earnings-call-transcript-pepsico-beats-q2-2025-eps-and-revenue-forecasts-93CH-4139976",
+      "sourceDate": "2025-07",
+      "context": "Q2 2025 earnings call discussing technology investments"
+    },
+    {
+      "text": "We are simplifying and harmonizing our systems, we're connecting our systems. We're on a long journey of changing the systems in the US, some of our older markets. We're almost done with our SAP rollout in the US. This will give us the foundation.",
+      "speaker": "Ramon Laguarta",
+      "speakerTitle": "Chairman & CEO",
+      "source": "Diginomica",
+      "sourceUrl": "https://diginomica.com/lip-smacking-thirst-quenching-tech-future-growth-pepsicos-ceo-food-and-drink-giants-transformation",
+      "sourceDate": "2024",
+      "context": "Interview on technology transformation journey — laying foundation for AI"
+    },
+    {
+      "text": "I don't believe in extreme outsourcing, and the company always needs to be responsible for its own fate. Having a strong technology backbone of internal software engineers, enterprise architects, data engineers, AI and ML engineers, infrastructure and ops pros is super critical for the success of our organization.",
+      "speaker": "Athina Kanioura",
+      "speakerTitle": "Chief Strategy & Transformation Officer",
+      "source": "Computer Weekly (CDO Interview)",
+      "sourceUrl": "https://www.computerweekly.com/news/365531738/CDO-interview-Athina-Kanioura-chief-strategy-and-transformation-officer-PepsiCo",
+      "sourceDate": "2023",
+      "context": "Interview on building internal technology capability"
+    },
+    {
+      "text": "We strategically chose Barcelona and Dallas because they are truly innovative cities with topnotch talent, world-class education systems and fully-developed regional infrastructures.",
+      "speaker": "Athina Kanioura",
+      "speakerTitle": "Chief Strategy & Transformation Officer",
+      "source": "Beverage Daily",
+      "sourceUrl": "https://www.beveragedaily.com/Article/2021/10/26/PepsiCo-s-new-Digital-Hubs-to-develop-AI-and-machine-learning/",
+      "sourceDate": "2021-10",
+      "context": "Announcing Digital Hubs in Barcelona and Dallas"
+    },
+    {
+      "text": "We have four or five big bets, and that has helped direct investments and align teams.",
+      "speaker": "Athina Kanioura",
+      "speakerTitle": "Chief Strategy & Transformation Officer",
+      "source": "CDO Magazine",
+      "sourceUrl": "https://www.cdomagazine.tech/aiml/prioritizing-ai-initiatives-is-tricky-heres-how-pepsico-does-it",
+      "sourceDate": "2024",
+      "context": "Discussing AI prioritization strategy"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Consumer Goods Technology - AWS Partnership",
+      "url": "https://consumergoods.com/pepsico-work-closely-aws-cloud-based-agentic-ai-first-roadmap",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Detailed agentic AI strategy, cloud migration targets (95%), mission-based teams, governance structure. Rich Kanioura quotes."
+    },
+    {
+      "name": "PYMNTS - WEF Davos Panel on Scaling AI",
+      "url": "https://www.pymnts.com/artificial-intelligence-2/2025/aws-pepsico-and-other-ceos-tell-whats-needed-to-scale-ai/",
+      "type": "Conference",
+      "date": "2025-01",
+      "notes": "Laguarta on training 330,000 employees on AI, applications across agriculture/manufacturing/logistics/consumer. 'Huge transformation' quote."
+    },
+    {
+      "name": "Diginomica - CEO Interview on Transformation",
+      "url": "https://diginomica.com/lip-smacking-thirst-quenching-tech-future-growth-pepsicos-ceo-food-and-drink-giants-transformation",
+      "type": "Interview",
+      "date": "2024",
+      "notes": "Laguarta on SAP rollout, data foundations, digital twins. Notably avoided AI hype, focused on infrastructure."
+    },
+    {
+      "name": "PepsiCo Press Release - Siemens/NVIDIA Digital Twin",
+      "url": "https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia",
+      "type": "Press",
+      "date": "2026-01",
+      "notes": "CES 2026 announcement. Digital twins for Frito-Lay manufacturing. Key Laguarta quote on embedding AI 'from farm to shelf.'"
+    },
+    {
+      "name": "PepsiCo - Organizational Changes Announcement",
+      "url": "https://www.pepsico.com/newsroom/stories/2025/pepsico-announces-organizational-changes-to-accelerate-growth",
+      "type": "Press",
+      "date": "2025-12",
+      "notes": "Kanioura appointed CEO of Latin America Foods in addition to CSTO role, effective Dec 28, 2025."
+    },
+    {
+      "name": "Beverage Daily - Digital Hubs Announcement",
+      "url": "https://www.beveragedaily.com/Article/2021/10/26/PepsiCo-s-new-Digital-Hubs-to-develop-AI-and-machine-learning/",
+      "type": "Press",
+      "date": "2021-10",
+      "notes": "Original announcement of Dallas and Barcelona Digital Hubs. 500+ new data/digital jobs over 3 years."
+    },
+    {
+      "name": "Stanford HAI Partnership Announcement",
+      "url": "https://www.prnewswire.com/news-releases/pepsico-collaborates-with-stanford-institute-for-human-centered-artificial-intelligence-to-shape-responsible-ai-standards-301867270.html",
+      "type": "Press",
+      "date": "2023",
+      "notes": "PepsiCo inaugural member of Stanford HAI corporate affiliate program. Research on ethical AI in supply chain, customer experience, sustainability, org design."
+    },
+    {
+      "name": "CDO Magazine - AI Prioritization",
+      "url": "https://www.cdomagazine.tech/aiml/prioritizing-ai-initiatives-is-tricky-heres-how-pepsico-does-it",
+      "type": "Interview",
+      "date": "2024",
+      "notes": "Kanioura on 'four or five big bets' strategy, AI Council/Steering Committee governance, PepGenX sandbox platform."
+    },
+    {
+      "name": "IBM Board Appointment - Laguarta",
+      "url": "https://www.stocktitan.net/news/IBM/ibm-elects-ramon-l-laguarta-to-its-board-of-hq0eqb4kkecj.html",
+      "type": "Press",
+      "date": "2026-02",
+      "notes": "Laguarta elected to IBM board effective March 2026. Recognition of his tech transformation track record."
+    }
+  ],
+
+  "summary": "PepsiCo operates a Hybrid/Hub-and-Spoke model (M4) with a central transformation organization of 700-1,000 engineers/data scientists under CSTO Athina Kanioura, supported by Digital Hubs in Dallas and Barcelona serving as Centers of Excellence. The company is training all 330,000 employees on AI (contextual orientation), deploying agentic AI across contact centers, workforce, and logistics, and using digital twins for manufacturing optimization. AI governance flows through an AI Council/Steering Committee, with Kanioura's team orchestrating 'mission-based teams' for major transformational programs.",
+
+  "openQuestions": [
+    "What is the annual AI/digital budget allocation?",
+    "How many of the 700-1,000 engineers are specifically AI/ML focused vs. general software?",
+    "What are the specific metrics for the 'four or five big bets'?",
+    "How does the AI Council/Steering Committee make decisions — consensus, executive veto, etc.?",
+    "What is the relationship between the Stanford HAI partnership outputs and internal AI governance?"
+  ],
+
+  "conferenceFindings": "CES 2026: PepsiCo announced an 'industry-first' AI and digital twin collaboration with Siemens and NVIDIA during the opening keynote. Using Siemens Digital Twin Composer built on NVIDIA Omniverse to simulate facility upgrades for Frito-Lay U.S. operations, with plans to scale globally. Laguarta emphasized embedding AI 'from farm to shelf' across the entire value chain. This represents a shift to digital-first planning using physics-based digital twins and AI agents as 'co-designers' to simulate, validate, and optimize facility layouts before physical builds."
+}

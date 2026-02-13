@@ -1,0 +1,143 @@
+{
+  "company": "General Motors",
+  "ticker": "GM",
+  "leader": "Mary Barra",
+  "leaderTitle": "Chair and CEO",
+  "sector": "Automotive",
+  "quadrant": "Q2",
+  "scannedDate": "2026-02-08",
+  "searchesCompleted": 5,
+  "urlsFetched": 5,
+  "fetchFailures": ["https://techstrong.ai/features/departure-of-gms-ai-chief-could-portend-more-as-companies-grapple-to-define-role/ (403 error)"],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "High",
+    "rationale": "GM created a small, elite AI Center of Excellence (under 20 people) in Silicon Valley to set standards and enable AI adoption across divisions, while distributed teams execute in manufacturing, software, and autonomous driving. The November 2025 CAIO departure and subsequent reorganization moved the AI team under manufacturing engineering, indicating a shift toward more embedded/distributed execution. This is classic hub-and-spoke: central standards + distributed execution.",
+    "aiTeamStructure": "GM established a Silicon Valley AI Center of Excellence in Mountain View, CA (opened 2024) with ~12-20 elite hires from Google, Meta, and AWS. This team advises divisions on AI capabilities, secures partnerships, and negotiates vendor contracts. Separately, the Autonomous Robotics Center (ARC) in Warren, MI and a sister lab in Mountain View employ 100+ roboticists and AI engineers focused on manufacturing automation. After CAIO Barak Turovsky's departure in November 2025, the AI team moved to report under manufacturing engineering rather than the C-suite, signaling a shift from centralized strategy to embedded execution.",
+    "keyPeople": [
+      {"name": "Mary Barra", "title": "Chair and CEO", "role": "Overall strategic direction, positioned GM as technology platform"},
+      {"name": "Barak Turovsky", "title": "Chief AI Officer (departed Nov 2025)", "role": "First CAIO, led AI Center of Excellence. Former Google head of product for language AI. Left after 8 months."},
+      {"name": "John Anderson", "title": "Executive Director of AI Research", "role": "Former Google researcher and Pixar veteran, leads AI research"},
+      {"name": "Sterling Anderson", "title": "Chief Product Officer (former)", "role": "Oversees autonomous driving and vehicle software. Now leads combined vehicle software engineering and global product teams."},
+      {"name": "JP Clausen", "title": "EVP Global Manufacturing and Sustainability", "role": "AI manufacturing applications now report through this organization"}
+    ],
+    "investmentSignals": "$35 billion committed to electric and autonomous vehicle development through 2025. AI Center of Excellence kept intentionally small (<20 people) to maximize leverage. 100+ roboticists and AI engineers at Autonomous Robotics Center. Super Cruise grew 80% YoY to 620,000+ subscribers. 12 million OnStar global subscribers. Centralized computing platform launching 2028 with 10x OTA capacity, 1000x bandwidth, 35x AI performance.",
+    "observableMarkers": {
+      "reportingStructure": "Post-November 2025: AI team reports to manufacturing engineering organization. Previously reported to CAIO. Sterling Anderson leads combined vehicle software and product organization. Classic structural separation between AI enablement (manufacturing) and AI product (autonomous/software).",
+      "resourceAllocation": "Small elite central team (<20) + large distributed teams (100+ at ARC). Manufacturing has dedicated AI budget. Software/autonomous has separate substantial investment. Ring-fenced AI Center of Excellence now integrated into manufacturing.",
+      "timeHorizons": "Mixed: Near-term manufacturing AI (continuous improvement), medium-term conversational AI (2026 Google Gemini launch), long-term autonomous (eyes-off driving 2028). Pragmatic, staged approach.",
+      "decisionRights": "Shifting toward distributed. AI Center of Excellence originally had cross-functional advisory role. After CAIO departure, AI capabilities being 'strategically integrated directly into business and product organizations' per GM spokesperson.",
+      "metrics": "Super Cruise subscribers (620K+), OnStar subscribers (12M), manufacturing efficiency gains, software update capacity (10x target), over-the-air bandwidth (1000x target)"
+    }
+  },
+
+  "cruiseShutdown": {
+    "significance": "Major structural finding: GM's autonomous vehicle subsidiary Cruise represents one of the most public AI failures in corporate history. After years of investment and optimism, Cruise faced safety incidents in 2023-2024 that led to operational suspensions and leadership departures. This is a critical case study in AI governance, risk management, and the challenges of M5b (Venture Builder) models when exploration collides with real-world safety requirements.",
+    "structuralImplications": "Cruise operated as a separate venture/subsidiary (M5b Venture Builder model) with significant independence. The incident revealed governance gaps between the parent company and semi-autonomous AI ventures. GM's response—pulling back autonomous operations, reorganizing software under Sterling Anderson—represents a shift from venture-style independence toward tighter integration with core product organization."
+  },
+
+  "quotes": [
+    {
+      "text": "It's more than just a vehicle. It makes your life easier, more streamlined, and – more importantly – safer.",
+      "speaker": "Mary Barra",
+      "speakerTitle": "Chair and CEO",
+      "source": "GM Forward Event / GM Authority",
+      "sourceUrl": "https://gmauthority.com/blog/2025/12/with-ai-gm-thinks-its-vehicles-will-get-better-the-longer-we-own-them/",
+      "sourceDate": "2025-12",
+      "context": "Describing GM's vision for AI-enhanced vehicles that improve over time"
+    },
+    {
+      "text": "Human beings have more tolerance for human mistakes than they do for technology mistakes.",
+      "speaker": "Mary Barra",
+      "speakerTitle": "Chair and CEO",
+      "source": "Columbia Business School 2024 Climate Business & Investment Conference",
+      "sourceUrl": "https://business.columbia.edu/insights/climate/general-motors-ceo-mary-barra-we-believe-all-electric-future",
+      "sourceDate": "2024-10",
+      "context": "Discussing the asymmetric public tolerance for AI/autonomous vehicle errors vs. human driver errors"
+    },
+    {
+      "text": "We are strategically integrating AI capabilities directly into our business and product organizations, enabling faster innovation and more targeted solutions.",
+      "speaker": "GM Spokesperson",
+      "speakerTitle": "Corporate Communications",
+      "source": "CIO Dive",
+      "sourceUrl": "https://www.ciodive.com/news/general-motors-AI-chief-departure/806326/",
+      "sourceDate": "2025-11-24",
+      "context": "Explaining the rationale for restructuring AI team under manufacturing after CAIO departure"
+    },
+    {
+      "text": "It's not about automating everything or building more vehicles faster.",
+      "speaker": "GM Manufacturing",
+      "speakerTitle": "GM Newsroom",
+      "source": "GM News - AI Manufacturing",
+      "sourceUrl": "https://news.gm.com/home.detail.html/Pages/topic/us/en/2025/mar/0311-ai.html",
+      "sourceDate": "2025-03",
+      "context": "Describing GM's philosophy on AI in manufacturing—augmentation over replacement"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "CIO Dive - GM Chief AI Officer Steps Down",
+      "url": "https://www.ciodive.com/news/general-motors-AI-chief-departure/806326/",
+      "type": "Press",
+      "date": "2025-11-24",
+      "notes": "Key source on CAIO departure and organizational restructuring. AI team moved to manufacturing engineering."
+    },
+    {
+      "name": "CBT News - GM Recruits Elite AI Team",
+      "url": "https://www.cbtnews.com/gm-recruits-elite-ai-team-to-improve-efficiency-and-innovation/",
+      "type": "Press",
+      "date": "2025-08",
+      "notes": "Details on Silicon Valley AI Center of Excellence, team size (<20), key hires (Turovsky, Anderson)"
+    },
+    {
+      "name": "GM Newsroom - Using AI to Revolutionize Manufacturing",
+      "url": "https://news.gm.com/home.detail.html/Pages/topic/us/en/2025/mar/0311-ai.html",
+      "type": "Blog",
+      "date": "2025-03",
+      "notes": "Manufacturing AI applications: digital twins, battery quality detection, inspection systems"
+    },
+    {
+      "name": "GM Newsroom - Eyes-Off Driving, Conversational AI, Unified Software Platform",
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2025/oct/1022-UM-GM-eyes-off-driving-conversational-AI-unified-software-platform.html",
+      "type": "Blog",
+      "date": "2025-10-22",
+      "notes": "Major GM Forward event announcements: Google Gemini partnership, 2028 eyes-off driving, Autonomous Robotics Center details"
+    },
+    {
+      "name": "GM Investor Relations - Q4 and FY 2025 Shareholder Letter",
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2026/jan/0127-GM-letter-shareholders-Q4-2025.html",
+      "type": "Report",
+      "date": "2026-01-27",
+      "notes": "Financial context: $2.7B net income 2025, Super Cruise 620K+ subscribers, OnStar 12M subscribers"
+    },
+    {
+      "name": "Axios - GM's Practical Approach to AI",
+      "url": "https://www.axios.com/2025/08/20/gm-s-practical-approach-to-ai-future-of-mobility",
+      "type": "Press",
+      "date": "2025-08-20",
+      "notes": "Referenced in search results - positions GM's AI strategy as practical/pragmatic"
+    }
+  ],
+
+  "summary": "GM operates a Hybrid/Hub-and-Spoke model for AI with a small Silicon Valley Center of Excellence (<20 people) that set standards and enabled AI adoption across divisions, while larger distributed teams (100+ at Autonomous Robotics Center) execute in manufacturing and autonomous driving. After the first CAIO Barak Turovsky's departure in November 2025 after just 8 months, GM restructured to 'strategically integrate AI capabilities directly into business and product organizations,' moving the AI team under manufacturing engineering—a shift from centralized C-suite strategy toward embedded execution.",
+
+  "openQuestions": [
+    "What specific factors led to CAIO Turovsky's departure after only 8 months? Was there strategic misalignment or execution challenges?",
+    "How does Cruise's safety incidents and operational pullback affect GM's overall AI strategy and risk tolerance?",
+    "Will GM appoint a new CAIO or is the distributed model the new permanent structure?",
+    "What is the budget/headcount for the Autonomous Robotics Center specifically?",
+    "How does Google Gemini partnership affect GM's internal AI capabilities vs. external dependency?"
+  ],
+
+  "conferenceFindings": "Mary Barra spoke at several high-profile venues including TechCrunch Disrupt 2024 (discussed GM as technological powerhouse), Columbia Business School Climate Conference 2024 (discussed AI tolerance for errors), NYT DealBook Summit 2025, and the 'GM Forward' event in Detroit (October 2025) which was the major AI strategy announcement venue. No dedicated AI conference presence found (like Google Cloud Next or AWS re:Invent).",
+
+  "keyNarrativeThreads": {
+    "cruiseAsFoil": "The Cruise autonomous vehicle subsidiary represents GM's most aggressive AI bet and most public AI failure. The contrast between Cruise's venture-style independence and the main company's pragmatic, manufacturing-focused AI approach offers rich material for exploring how traditional companies manage AI exploration risk.",
+    "caioPivot": "The CAIO role lasted only 8 months before being restructured into manufacturing. This is a significant data point on whether the CAIO role works in traditional industrial companies—or whether AI leadership needs to be embedded rather than centralized.",
+    "pragmaticPositioning": "GM explicitly positions AI as 'not about automating everything' and 'complementing automotive expertise rather than turning the company into a tech firm.' This is a deliberate counter-positioning to Tesla's tech-company framing."
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "company": "UnitedHealth Group",
+  "ticker": "UNH",
+  "leader": "Stephen Hemsley",
+  "leaderTitle": "CEO",
+  "previousLeader": "Andrew Witty (stepped down May 2025)",
+  "sector": "Healthcare",
+  "quadrant": "Q2",
+  "scannedDate": "2026-02-08",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": ["fiercehealthcare.com (403)"],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "High",
+    "rationale": "UnitedHealth has a clear hub-and-spoke AI structure: central governance through the Responsible AI Board and United AI Studio platform, with distributed execution across business units (UnitedHealthcare, Optum, OptumRx). Monthly reviews by business units + quarterly cross-enterprise CIO monitoring. Dedicated research arm (Optum Labs) handles longer-horizon innovation while 1,000+ production AI use cases are embedded across operations. Clear separation between exploration (Optum Labs, Chief AI Scientist) and execution (embedded AI in claims, customer service, clinical support).",
+    "aiTeamStructure": "Multi-layered structure: (1) Responsible AI Board (20-25 external/internal experts) for governance; (2) United AI Studio as central platform; (3) Optum Labs as R&D arm with external partnerships (UCLA); (4) 20,000 engineers using AI tools across the enterprise; (5) Dedicated AI leadership including Chief AI Scientist (Michael Pencina), Chief AI Transformation & Strategy Officer (Syed Mohiuddin), and Chief Digital & Technology Officer (Sandeep Dadlani) overseeing strategy.",
+    "keyPeople": [
+      {"name": "Stephen Hemsley", "title": "CEO", "role": "Returned as CEO May 2025 after Witty departure; previously CEO 2006-2017"},
+      {"name": "Sandeep Dadlani", "title": "Chief Digital and Technology Officer", "role": "Leads AI-first strategy, oversees 1,000+ AI use cases in production, manages 20,000 engineers"},
+      {"name": "Michael Pencina", "title": "Chief AI Scientist", "role": "Hired October 2025 from Duke Health; co-founder of Coalition for Health AI; focuses on AI governance and oversight"},
+      {"name": "Syed Mohiuddin", "title": "SVP and Chief AI Transformation & Strategy Officer", "role": "Leads AI transformation strategy across insurance, insights, and care delivery"},
+      {"name": "Ranju Das", "title": "CEO of Optum Labs", "role": "Leads R&D arm; manages academic partnerships including UCLA AI in Healthcare Hub"},
+      {"name": "Craig Kurtzweil", "title": "Chief Data and Analytics Officer, UnitedHealthcare Commercial", "role": "Analytics leadership for commercial insurance"},
+      {"name": "Andrea Marks", "title": "Chief Analytics Officer, OptumRx", "role": "Analytics leadership for pharmacy benefits"}
+    ],
+    "investmentSignals": "$1.5B planned technology/AI investment in 2026. Nearly $1B in AI-enabled operating cost reductions projected for 2026. 20,000 engineers leveraging AI. 10,000+ employees enrolled in advanced AI learning course (launched March 2025). $1M initial funding for UCLA/Optum Labs AI in Healthcare Hub partnership.",
+    "observableMarkers": {
+      "reportingStructure": "AI reports through Chief Digital & Technology Officer (Dadlani) and Chief AI Scientist (Pencina). Responsible AI Board provides oversight. Monthly business unit reviews, quarterly CIO cross-enterprise monitoring.",
+      "resourceAllocation": "Dedicated investment: $1.5B in 2026 for technology/AI. Centralized platform (United AI Studio) with distributed usage across 20,000 engineers. Separate R&D budget for Optum Labs.",
+      "timeHorizons": "Mixed: 1,000+ production use cases (short-term operational); Optum Labs academic partnerships for foundational ML research (long-term); Chief AI Scientist role focused on governance standards (medium-term industry shaping).",
+      "decisionRights": "Centralized governance: AI Review Board reviews hundreds of use cases monthly before production approval. Execution is distributed across business units (UHC, Optum, OptumRx).",
+      "metrics": "Cost reduction ($1B target for 2026), adoption (60M lines AI-generated code, 65M chatbot calls, 18M AI-enabled searches), efficiency (90% claims auto-adjudicated), engagement (55M digital users)."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "AI is never used to deny a claim. If a claim is not eligible to be approved, it goes up to a human agent.",
+      "speaker": "Sandeep Dadlani",
+      "speakerTitle": "Chief Digital and Technology Officer",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/05/28/unitedhealth-cto-says-ai-investments-can-help-a-healthcare-system-that-needs-to-be-fixed/",
+      "sourceDate": "2025-05-28",
+      "context": "Addressing concerns about AI in claims processing"
+    },
+    {
+      "text": "We want AI to be a tool",
+      "speaker": "Sandeep Dadlani",
+      "speakerTitle": "Chief Digital and Technology Officer",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/05/28/unitedhealth-cto-says-ai-investments-can-help-a-healthcare-system-that-needs-to-be-fixed/",
+      "sourceDate": "2025-05-28",
+      "context": "Emphasizing AI augments rather than replaces clinicians"
+    },
+    {
+      "text": "It's clear that our traditional services in Optum Insight have to evolve to AI-first services, then to products, and eventually to platforms.",
+      "speaker": "Sandeep Dadlani",
+      "speakerTitle": "Chief Digital and Technology Officer (also Executive VP, Optum Insight)",
+      "source": "Yahoo Finance / Earnings Call",
+      "sourceUrl": "https://finance.yahoo.com/news/unitedhealth-group-inc-unh-q4-190058389.html",
+      "sourceDate": "2026-01",
+      "context": "Q4 2025 earnings call discussing AI strategy evolution"
+    },
+    {
+      "text": "We are integrating AI...with pragmatism, enthusiasm, and responsibility. With over 1,000 active use cases, we're committed to identifying ways AI can help solve pain points.",
+      "speaker": "Sandeep Dadlani",
+      "speakerTitle": "Chief Digital and Technology Officer",
+      "source": "UnitedHealth Group official website",
+      "sourceUrl": "https://www.unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html",
+      "sourceDate": "2025",
+      "context": "Official AI strategy page"
+    },
+    {
+      "text": "Our commitment...extends beyond innovation; it is rooted in the belief that AI, when used safely and responsibly, can be a force for good.",
+      "speaker": "Chief Medical Officer",
+      "speakerTitle": "Chief Medical Officer",
+      "source": "UnitedHealth Group official website",
+      "sourceUrl": "https://www.unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html",
+      "sourceDate": "2025",
+      "context": "Official AI strategy page (CMO name not specified)"
+    },
+    {
+      "text": "This Optum Labs AI in Healthcare Hub is the beginning of a collaborative research effort set to drive great impact in the future of healthcare. Working together with academia and research institutions, we will accelerate advances in equitable, personalized healthcare through the strategic application of responsible Machine Learning and Artificial Intelligence.",
+      "speaker": "Ranju Das",
+      "speakerTitle": "CEO, Optum Labs",
+      "source": "UCLA Computational Medicine",
+      "sourceUrl": "https://compmed.ucla.edu/programs/united-health-group-ucla-ai-healthcare-hub",
+      "sourceDate": "2025",
+      "context": "Announcing UCLA/Optum Labs AI in Healthcare Hub partnership"
+    },
+    {
+      "text": "The goal of the company is to work together, figure out how to innovate, test drive it and then make it broadly available, not just through our own networks.",
+      "speaker": "Andrew Witty",
+      "speakerTitle": "CEO (former)",
+      "source": "Fierce Healthcare (Investor Day)",
+      "sourceUrl": "https://www.fiercehealthcare.com/payer/witty-why-unitedhealth-s-innovation-strategy-starts-breaking-down-siloes",
+      "sourceDate": "2023-12",
+      "context": "December 2023 Investor Day discussing UHC/Optum integration"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Fortune - UnitedHealth CTO on AI",
+      "url": "https://fortune.com/2025/05/28/unitedhealth-cto-says-ai-investments-can-help-a-healthcare-system-that-needs-to-be-fixed/",
+      "type": "Press",
+      "date": "2025-05-28",
+      "notes": "Key interview with Sandeep Dadlani. Details on 1,000 AI use cases, 20,000 engineers, governance structure, chatbot deployment, claims processing approach."
+    },
+    {
+      "name": "UnitedHealth Group - Official AI Page",
+      "url": "https://www.unitedhealthgroup.com/uhg/what-we-do/artificial-intelligence.html",
+      "type": "Blog",
+      "date": "2025",
+      "notes": "Official framing of AI strategy. AI Review Board structure, United AI Studio platform, explicit statement that AI is NOT used for claim denials."
+    },
+    {
+      "name": "AIExpert Network - Case Study",
+      "url": "https://aiexpert.network/ai-at-uhg/",
+      "type": "Report",
+      "date": "2025",
+      "notes": "Comprehensive case study. 20-25 person Responsible AI Board, 50/50 GenAI/traditional split, $1B cost reduction target, 55M digital users, 90% claims auto-adjudication."
+    },
+    {
+      "name": "STAT News - Chief AI Scientist Hire",
+      "url": "https://www.statnews.com/2025/10/02/unitedhealth-group-chief-ai-scientist-michael-pencina-duke-expert/",
+      "type": "Press",
+      "date": "2025-10-02",
+      "notes": "Michael Pencina hired as Chief AI Scientist from Duke. Coalition for Health AI co-founder. Signals commitment to AI governance and oversight."
+    },
+    {
+      "name": "UCLA Computational Medicine - Optum Labs Hub",
+      "url": "https://compmed.ucla.edu/programs/united-health-group-ucla-ai-healthcare-hub",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Academic partnership details. $1M initial funding, joint steering committee, focus on foundational ML/AI methods for precision healthcare."
+    },
+    {
+      "name": "Yahoo Finance - Q4 2025 Earnings",
+      "url": "https://finance.yahoo.com/news/unitedhealth-group-inc-unh-q4-190058389.html",
+      "type": "Earnings Call",
+      "date": "2026-01",
+      "notes": "Q4 2025 results. $1.5B tech/AI investment planned for 2026, $1B AI-enabled cost reductions, 80%+ of member calls leverage AI tools."
+    }
+  ],
+
+  "summary": "UnitedHealth Group operates the largest healthcare AI deployment in the US with 1,000+ production use cases, 20,000 engineers, and $1.5B annual AI investment. Structure is classic hub-and-spoke: central governance (Responsible AI Board, United AI Studio platform) with distributed execution across UnitedHealthcare, Optum, and OptumRx. Optum Labs serves as the research arm with academic partnerships. Key tension: massive AI deployment under DOJ scrutiny for potential use in claims denial, despite official policy that AI is 'never used to deny a claim.'",
+
+  "openQuestions": [
+    "Exact reporting lines for Chief AI Scientist (Pencina) vs Chief AI Transformation Officer (Mohiuddin) vs CDTO (Dadlani) - who reports to whom?",
+    "Size and composition of Optum Labs team specifically",
+    "What percentage of $1.5B tech investment is specifically AI vs broader technology?",
+    "How DOJ investigation affecting AI deployment strategy",
+    "Stephen Hemsley's AI priorities since returning as CEO - no interviews found yet"
+  ],
+
+  "conferenceFindings": "No major AI conference presence found (AWS re:Invent, Google Cloud Next, etc.). Andrew Witty spoke at Forbes Healthcare Summit (2022) and BofA Securities Healthcare Conference about integration strategy. Annual investor conference in December is primary venue for AI announcements. UnitedHealth appears to avoid high-profile external AI conference circuit, preferring controlled investor/healthcare industry venues."
+}

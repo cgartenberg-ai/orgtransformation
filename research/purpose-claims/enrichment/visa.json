@@ -1,0 +1,32 @@
+{
+  "specimenId": "visa",
+  "scannedDate": "2026-02-13",
+  "claimCount": 14,
+  "searchesCompleted": 6,
+  "urlsFetched": 6,
+  "fetchFailures": 0,
+  "keyFindings": [
+    "Visa's purpose claims are split between two speakers with distinct rhetorical registers: CEO McInerney uses geopolitical/military metaphors ('arms race,' epochal transformation), while President of Technology Taneja uses developmental/humanistic metaphors ('toddler,' 'joy of shopping,' 'science and art').",
+    "The strongest survival claim ('arms race') comes from McInerney and is specifically about fraud/security, not about competitive disruption. Visa's existential framing is defensive (protect the network) rather than offensive (conquer new markets).",
+    "Taneja is unusually rich as a purpose-claim speaker — his 'fabric of the company' and 'science and art' framings are more nuanced than typical CTO/technology president language. He functions as Visa's AI philosopher alongside McInerney's AI general.",
+    "The $40B fraud prevention figure is Visa's anchor commercial claim, and its scale effectively forecloses cost-benefit debates about AI investment.",
+    "Visa's claims show a notable absence of workforce/reskilling language — no claims about what AI means for Visa's employees, how roles will change, or how the company will develop AI talent internally."
+  ],
+  "rhetoricalPatterns": [
+    "Military-defensive framing (McInerney): 'Arms race,' 'protect the ecosystem,' 'billions defending.' AI investment is justified by existential threat to the payments network, not by growth opportunity.",
+    "Animistic infrastructure (McInerney): 'A network that thinks, learns and protects in real-time.' The network is personified as a cognitive entity, elevating Visa's plumbing to intelligence.",
+    "Developmental patience (Taneja): 'Toddler in the life cycle,' 'dream for a long time,' early-stage framing that resists hype while committing to long-term investment.",
+    "Paradoxical control (Taneja): 'Unfettered access with guardrails,' 'science and art' — Taneja repeatedly resolves tensions by asserting Visa can hold both poles simultaneously."
+  ],
+  "comparativeNotes": "Visa's purpose claims differ meaningfully from other finserv specimens. Goldman Sachs emphasizes proprietary advantage and talent density; JPMorgan's Jamie Dimon uses civilizational urgency and World War II analogies; Morgan Stanley focuses on advisor empowerment. Visa's McInerney is closest to Dimon in scale of framing (epochal, civilizational) but more defensive — Dimon frames AI as an offensive weapon for competitive dominance, while McInerney frames it as a defensive necessity to protect an existing ecosystem.\n\nTaneja has no clear counterpart among other finserv technology leaders in our collection. His 'science and art' framing, developmental patience ('toddler'), and consumer-humanistic language ('joy of shopping') are distinctive. Most finserv tech leaders speak in efficiency and risk terms; Taneja speaks in values and craftsmanship terms. This may reflect Visa's position as infrastructure (serving an ecosystem) rather than principal (competing for deals), which generates different rhetorical needs.\n\nVisa also lacks the workforce anxiety present in Wells Fargo's claims or the talent-war framing in Goldman Sachs's. As a payments network rather than a people-intensive advisory business, Visa's AI narrative doesn't need to address the 'what happens to our people' question as urgently.",
+  "notableAbsences": "No higher-calling claims beyond the governance framing (visa--008). No claims about AI's impact on financial inclusion, serving the unbanked, or expanding economic access — surprising given Visa's global reach and corporate mission around enabling commerce for everyone. No workforce/reskilling claims whatsoever. No claims from Wang Min (SVP, Visa Research Labs) or Sam Hamilton (SVP, Data & AI Platforms), the two leaders closest to the AI hub-and-spoke structure. The absence of research-leader voices means we have executive purpose language but no scientist purpose language.",
+  "correctedLeaderInfo": null,
+  "claimTypeDistribution": {
+    "utopian": 4,
+    "teleological": 0,
+    "higher-calling": 1,
+    "identity": 3,
+    "survival": 1,
+    "commercial-success": 5
+  }
+}

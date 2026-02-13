@@ -1,7 +1,7 @@
 {
   "id": "citigroup",
   "name": "Citigroup",
-  "title": "AI-Driven Middle Office Automation (-20K Headcount)",
+  "title": "AI-Driven Enterprise Transformation (Project Bora Bora, -20K Headcount)",
   "classification": {
     "structuralModel": 6,
     "structuralModelName": "Unnamed/Informal",
@@ -11,8 +11,8 @@
     "secondaryModelName": null,
     "orientation": "Contextual",
     "orientationName": "Contextual",
-    "confidence": "Low",
-    "classificationRationale": "Tentative Model 6a (Enterprise-Wide Adoption). Citigroup CFO expects -20K headcount via AI automation of middle-office and operational functions. No CAIO, no dedicated AI lab, no AI CoE described — AI is being deployed broadly across existing functions. Contextual: AI automates within existing roles. Low confidence reflects single source with minimal organizational detail.",
+    "confidence": "Medium",
+    "classificationRationale": "Model 6a (Enterprise-Wide Adoption) confirmed. New data reveals massive scale: 70% AI adoption across 84 countries, 21M+ tool interactions, 175K employees completed mandatory AI training. No CAIO or dedicated AI lab — AI deployed through 'Project Bora Bora' restructuring across all functions. Contextual orientation confirmed: AI automates within existing roles (2.6M customer interactions/month automated, 9% developer productivity gain). Upgraded to Medium confidence based on specific adoption metrics.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -24,17 +24,42 @@
     "headquarters": "New York, NY",
     "geography": "Global"
   },
-  "description": "Citigroup CFO Mark Mason expects headcount to be down by approximately 20,000 as part of a broad organizational overhaul. Automation and AI-enabled systems will allow middle-office and operational functions to run with fewer employees.\n\nThis is part of a broader financial services AI restructuring wave: UBS (first CAIO), Wells Fargo (Head of AI), JPMorgan (AI CoE), Commonwealth Bank (first CAIO). Citigroup's approach appears to be enterprise-wide automation rather than dedicated AI organizational structure.",
+  "description": "Citigroup is executing 'Project Bora Bora' — a multi-year AI-driven restructuring targeting 20,000 role eliminations (~8% of workforce) and $2.5B annualized cost savings by 2026. CEO Jane Fraser frames this as cultural transformation, not just automation: eliminating 'the last vestiges of old, bad habits' and demanding a 'more commercial mindset.'\n\nScale of adoption is remarkable: 70% AI adoption rate across 84 countries, 21M+ interactions with proprietary AI tools, 175K employees completed mandatory AI training, 2.6M customer interactions automated monthly, 9% developer productivity increase. Over 10K of the 20K target reductions already achieved.\n\nThis is enterprise-wide contextual adoption — no CAIO, no dedicated AI lab, AI integrated into existing functions rather than separated structurally.",
   "observableMarkers": {
     "reportingStructure": null,
-    "resourceAllocation": null,
-    "timeHorizons": null,
+    "resourceAllocation": "$2.5B annualized cost savings target from AI and automation",
+    "timeHorizons": "2024-2026 restructuring timeline under Project Bora Bora",
     "decisionRights": null,
-    "metrics": "-20,000 expected headcount reduction via AI automation"
+    "metrics": "-20,000 headcount target (10K+ already cut); 70% AI adoption rate; 21M+ AI tool interactions; 2.6M customer interactions automated/month; 9% developer productivity increase; 175K employees completed AI training"
   },
   "mechanisms": [],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "We are not graded on effort. We are judged on our results.",
+      "speaker": "Jane Fraser",
+      "speakerTitle": "CEO",
+      "context": "Internal memo to staff coinciding with Q4 earnings and ~1,000 additional cuts",
+      "sourceRef": "source-2"
+    },
+    {
+      "text": "The last vestiges of old, bad habits",
+      "speaker": "Jane Fraser",
+      "speakerTitle": "CEO",
+      "context": "Describing what must be eliminated as part of restructuring — framing AI adoption as inseparable from cultural transformation",
+      "sourceRef": "source-2"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Q4 2025 earnings reveal massive AI adoption scale: 70% adoption across 84 countries, 21M+ tool interactions, 175K employees trained. $2.5B cost savings target. Fraser frames restructuring as cultural transformation. Upgraded confidence to Medium.",
+      "classification": null,
+      "sourceRefs": [
+        "source-2",
+        "source-3"
+      ]
+    },
     {
       "date": "2025-12",
       "label": "Initial Documentation",
@@ -55,6 +80,26 @@
       "sourceDate": "2025-12-21",
       "collectedDate": "2026-01-31",
       "notes": null
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Fortune — Jane Fraser on job cuts and restructuring",
+      "url": "https://fortune.com/2026/01/14/citigroup-ceo-jane-fraser-job-cuts-ai-bad-old-ways-restructuring/",
+      "timestamp": null,
+      "sourceDate": "2026-01-14",
+      "collectedDate": "2026-02-07",
+      "notes": "20K headcount reduction target with 10K+ already cut; Fraser frames AI as cultural transformation"
+    },
+    {
+      "id": "source-3",
+      "type": "Earnings Call",
+      "name": "Citigroup Q4 2025 Earnings Research",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-1-14-citigroup-nyse-c-q4-2025-earnings-research-deep-dive",
+      "timestamp": null,
+      "sourceDate": "2026-01-14",
+      "collectedDate": "2026-02-07",
+      "notes": "$2.5B annualized cost savings target; 70% AI adoption; 21M+ tool interactions; 84 countries"
     }
   ],
   "contingencies": {
@@ -65,26 +110,28 @@
     "technicalDebt": "High"
   },
   "tensionPositions": {
-    "structuralVsContextual": 0.5,
-    "speedVsDepth": 0.3,
+    "structuralVsContextual": 0.7,
+    "speedVsDepth": 0.4,
     "centralVsDistributed": 0.3,
-    "namedVsQuiet": 0.7,
+    "namedVsQuiet": 0.8,
     "longVsShortHorizon": 0.4
   },
   "openQuestions": [
-    "What is Citigroup's AI organizational structure? Central team or federated?",
-    "Does Citigroup have a CAIO?",
-    "Which specific middle-office/operational functions are being automated?"
+    "Does Citigroup have a CAIO or centralized AI leadership?",
+    "What is the governance structure for AI tool deployment across 84 countries?",
+    "How is the $2.5B savings target being measured and tracked?"
   ],
   "taxonomyFeedback": [
     "Financial services AI restructuring is a sector-level pattern: Citigroup (-20K), Amazon (-16K+), Coca-Cola (phased), all citing AI. The taxonomy could benefit from a 'sector wave' concept.",
-    "Citigroup's approach (automate middle office) is different from UBS (appoint CAIO) or JPMorgan (build CoE). Same sector, different organizational responses to AI."
+    "Citigroup's approach (automate middle office) is different from UBS (appoint CAIO) or JPMorgan (build CoE). Same sector, different organizational responses to AI.",
+    "[2026-02] Citigroup is emerging as a potential type specimen for Model 6a at scale. 70% adoption across 84 countries without a CAIO or dedicated AI lab suggests enterprise-wide contextual adoption can achieve massive scale through mandatory training (175K employees) and cultural framing ('judged on results'). Fraser's language about eliminating 'old, bad habits' is interesting — positioning AI adoption as cultural transformation rather than technical change.",
+    "[2026-02] The lack of structural AI leadership despite this scale is notable. Compare to JPMorgan (AI CoE), UBS (CAIO). Citigroup achieves similar adoption through Project Bora Bora restructuring + mandatory training. This may be an alternative path to enterprise AI adoption: restructuring-driven rather than structure-driven."
   ],
   "meta": {
-    "status": "Stub",
+    "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Medium",
     "convertedFrom": null
   }
 }

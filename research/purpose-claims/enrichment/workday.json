@@ -1,0 +1,23 @@
+{
+  "specimenId": "workday",
+  "scannedDate": "2026-02-09",
+  "quality": "rich",
+  "claimCount": 11,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 3,
+    "higher-calling": 2,
+    "identity": 1,
+    "survival": 2,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

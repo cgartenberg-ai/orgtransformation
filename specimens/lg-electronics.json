@@ -20,7 +20,7 @@
     "sector": "Consumer Electronics / Home Appliances",
     "orgSize": "Enterprise",
     "employees": "~75,000",
-    "revenue": "~$55B",
+    "revenue": "~55B",
     "headquarters": "Seoul, South Korea",
     "geography": "Global"
   },
@@ -47,7 +47,11 @@
       "label": "WaveX AI Venture Studio Launch",
       "summary": "LG Electronics' NovaWave Capital (under LG NOVA innovation center) launched WaveX AI venture studio in Arizona at CES 2026. Targets healthcare, energy, sports, media AI ventures. Collaboration with Arizona Commerce Authority. Added secondary Model 5 (Venture Builder). LG NOVA hubs in Silicon Valley and West Virginia complement the Arizona studio.",
       "classification": null,
-      "sourceRefs": ["source-3", "source-4", "source-5"]
+      "sourceRefs": [
+        "source-3",
+        "source-4",
+        "source-5"
+      ]
     },
     {
       "date": "2026-01",
@@ -144,7 +148,11 @@
     "How does the AX Center interact with individual business units? Is it purely advisory/governance, or does it embed staff?",
     "What concrete AI deployments has the AX Center driven since the rebrand? The 30% productivity target is aspirational—what progress has been made?"
   ],
-  "taxonomyFeedback": [],
+  "taxonomyFeedback": [
+    "[2026-02] The DX-to-AX rebrand reveals an important coordination problem: LG's existing digital transformation apparatus was structurally adequate but semantically misaligned with the AI moment. Rather than creating new organizational architecture, they relabeled existing infrastructure to authorize AI work under the old DX mandate. This is path-dependent efficiency—the M2 CoE structure was already in place, so the coordination cost of renaming is trivial compared to spinning up new entities. The 30% productivity target functions as a credible commitment device that the rebrand is substantive, not cosmetic. This pattern suggests that established CoEs may have structural advantages in AI transformation precisely because they already own cross-BU coordination rights.",
+    "[2026-02] The M2+M5 combination is structurally unusual and reveals LG's attempt to solve the exploration-exploitation tension through portfolio separation rather than integration. The AX Center (M2) handles operational AI deployment across manufacturing, customer service, and product development (execution-focused), while WaveX/NovaWave (M5) explores greenfield AI ventures in healthcare, energy, sports, and media (exploration-focused, off-strategy relative to core electronics business). Critically, these entities appear organizationally isolated—WaveX is geographically distant (Arizona, Silicon Valley, West Virginia) and targets non-core sectors. This is structural ambidexterity via separation, not integration. The coordination cost: ventures developed at WaveX may struggle to transfer insights back to core LG operations because the knowledge pathways between M2 and M5 are weak.",
+    "[2026-02] LG's M2 classification exposes a taxonomic edge case: when does a renamed entity constitute genuine structural change versus ceremonial window-dressing? The stratigraphy shows initial M4 classification, then reclassification to M2, which was correct—there's no evidence of distributed spokes. But the deeper question is whether the AX Center has different decision rights, resource allocation authority, or reporting lines than the predecessor DX organization. If it's identical except for naming, this is M6c (Grassroots/Informal) masquerading as M2 (formal CoE). The 30% productivity mandate suggests real authority, but without observable markers of budget control, headcount, or BU veto rights, confidence should remain medium-to-low. This specimen highlights the need for decision rights and resource allocation data to distinguish substantive from symbolic structure."
+  ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",

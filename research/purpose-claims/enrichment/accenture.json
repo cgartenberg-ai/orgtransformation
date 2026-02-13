@@ -1,0 +1,35 @@
+{
+  "specimenId": "accenture",
+  "scannedDate": "2026-02-13",
+  "quality": "rich",
+  "claimCount": 16,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 1,
+    "higher-calling": 2,
+    "identity": 2,
+    "survival": 5,
+    "commercial-success": 4
+  },
+  "keyFindings": [
+    "Sweet's rhetorical repertoire is unusually dominated by survival claims \u2014 5 of 16 claims use adapt-or-die framing, the highest concentration in the collection for a non-tech firm. This likely reflects consulting's need to sell urgency to clients.",
+    "The 'reinvention' lexicon is Sweet's signature \u2014 she has built an entire vocabulary around it (reinventor, reinvention partner, rewire). This is rare; most CEOs borrow existing AI framings rather than coining their own.",
+    "Sweet applies survival framing to Accenture itself ('our strategy and our structure were not aligned'), not just to clients. This eat-your-own-cooking move is distinctive \u2014 most consulting CEOs position their firm as the stable expert, not the patient.",
+    "The $865M restructuring claims are the most operationally consequential purpose claims in the collection \u2014 Sweet uses purpose language to authorize workforce exits, not just inspire. 'Compressed timeline where reskilling is not a viable path' is purpose-as-termination-authorization.",
+    "Paul Daugherty (former CTO) is absent from the AI-era claims despite co-authoring 'Human + Machine' \u2014 he retired in 2024, creating a single-voice dynamic where Sweet alone speaks for Accenture's AI purpose."
+  ],
+  "rhetoricalPatterns": [
+    "Survival-Commercial Oscillation: Sweet alternates between 'adapt or die' framing (for clients) and 'we deliver real outcomes' (for investors), often in the same interview. The survival framing sells the problem; the commercial framing sells Accenture as the solution.",
+    "Self-Application Credibility: Unlike most consulting CEOs, Sweet applies the same transformation imperative to Accenture itself ('our strategy and structure were not aligned'). This 'we did it first' pattern gives her survival claims credibility.",
+    "Epochal Anchoring: Sweet's most dramatic claims anchor to deep time \u2014 'reversing five decades,' 'the decade where people have to reinvent.' This temporal scale is unusual; most CEOs talk in quarters or years, not decades.",
+    "Tricolon Structure: 'Work, workforce, workbench' \u2014 Sweet favors three-part frameworks that make complex transformation feel structured and manageable. This is classic consulting rhetoric adapted for CEO communication."
+  ],
+  "comparativeNotes": "Sweet's rhetorical profile is closest to Jensen Huang (NVIDIA) in survival intensity but operates on a completely different axis. Where Huang frames survival around technological disruption ('the iPhone moment'), Sweet frames it around organizational capacity \u2014 the threat is not the technology itself but the inability to reorganize around it. This makes sense for a consulting firm: Accenture's business model depends on organizations needing help with transformation, not on the technology being scary.\n\nCompared to pharma CEOs (Bourla, Hudson, Regev), Sweet is notably more direct about workforce consequences. Pharma leaders frame AI reskilling as opportunity; Sweet explicitly names 'exiting' as an outcome. This may reflect consulting's more transactional labor model versus pharma's longer employee lifecycle. Sweet is also unusual in the collection for having no utopian claims about AI's societal benefits \u2014 her utopianism is limited to the scale of change, not its direction.",
+  "notableAbsences": "No claims from Paul Daugherty (retired 2024) or any other Accenture executive \u2014 this is entirely a Julie Sweet show. No Karthik Narain (who succeeded Daugherty as Group CEO, Technology) quotes found despite being a key leader. No claims about AI's societal benefits (teleological claims are limited to human-centered design). No internal memo language found despite Fortune reporting Sweet communicates via video rather than memo. Missing: Davos 2024/2026 panel quotes (paywalled/blocked).",
+  "searchesCompleted": 6,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.microsoft.com/en-us/worklab/podcast/inside-accentures-ai-journey-with-ceo-julie-sweet (CSS-only, no content extracted)",
+    "https://www.axios.com/2026/01/21/accenture-artificial-intelligence-davos-julie-sweet (403 blocked)"
+  ]
+}

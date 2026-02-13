@@ -26,11 +26,11 @@
   },
   "description": "Approximately 15 years ago, Eli Lilly decentralized its R&D into smaller hubs of 300-400 people. Each hub operates like an internal biotech — focused on a specific therapeutic area or modality — but without the burden of fundraising or quarterly investor pressure. The hubs are small enough to maintain scientific intimacy and shared tacit knowledge, yet large enough to have critical mass of capability.\n\nThe structure enables extraordinarily long time horizons. The GLP-1 program ran 18+ years from first injection in 2006 to the launch of Mounjaro, with teams 'just grinding on a theme' rather than making big-bet single projects. CEO Dave Ricks explicitly shields these hubs from corporate optimization pressure, recognizing that middle management naturally squashes the off-strategy deviations that produce breakthroughs.\n\nIn January 2026, Lilly added a new dimension: a $1B co-innovation lab with NVIDIA in South San Francisco. This 'scientist-in-the-loop' AI capability co-locates Lilly domain experts with NVIDIA AI engineers, creating a continuous learning system connecting agentic wet labs with computational dry labs for 24/7 AI-assisted experimentation. The lab will also deploy a 1,016 Blackwell Ultra GPU supercomputer — the most powerful owned by a pharma company.",
   "observableMarkers": {
-    "reportingStructure": "Hubs report to R&D leadership, not business unit heads. NVIDIA lab is a joint venture structure.",
-    "resourceAllocation": "R&D investment target: 20-25% of sales. At $120B revenue, R&D budget approaches NIH scale. $1B committed to NVIDIA partnership over five years.",
-    "timeHorizons": "Decades, not quarters. The GLP-1 program exemplifies an 18+ year horizon from first injection to commercial product.",
-    "decisionRights": "Hub leaders have significant autonomy. CEO actively protects off-strategy work from middle management optimization.",
-    "metrics": "Drug development cycle ~7 years vs. industry average of 10. 300-400 person hub size. 1,016 Blackwell Ultra GPUs (9+ exaflops)."
+    "reportingStructure": "Hubs report to R&D leadership, not business unit heads [cheeky-pint-2025]. NVIDIA lab is a joint venture structure [nvidia-newsroom-2026]. New therapeutic area presidents (Neuroscience, Immunology) added to leadership team in 2025 [lilly-earnings-q4-2025].",
+    "resourceAllocation": "R&D investment target: 20-25% of sales [chief-exec-2025]. At $120B revenue, R&D budget approaches NIH scale. $1B committed to NVIDIA partnership over five years [nvidia-newsroom-2026]. $55B+ committed to manufacturing expansion since 2020 [lilly-earnings-q4-2025].",
+    "timeHorizons": "Decades, not quarters. The GLP-1 program exemplifies an 18+ year horizon from first injection to commercial product [cheeky-pint-2025].",
+    "decisionRights": "Hub leaders have significant autonomy [cheeky-pint-2025]. CEO actively protects off-strategy work from middle management optimization [cheeky-pint-2025].",
+    "metrics": "Drug development cycle ~7 years vs. industry average of 10 [chief-exec-2025]. 300-400 person hub size [cheeky-pint-2025]. 1,016 Blackwell Ultra GPUs (9+ exaflops) [fiercebiotech-2026]. 36 active Phase III programs [lilly-earnings-q4-2025]. 14 new Phase III programs initiated recently [lilly-earnings-q4-2025]. 39 BD transactions in 2025 [lilly-earnings-q4-2025]."
   },
   "mechanisms": [
     {
@@ -58,9 +58,43 @@
       "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai",
       "timestamp": null,
       "date": "2026-01-12"
+    },
+    {
+      "text": "We recently announced a new collaboration with NVIDIA to open a co-innovation AI lab.",
+      "speaker": "David Ricks",
+      "speakerTitle": "CEO",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "date": "2026-02-04"
+    },
+    {
+      "text": "This project will combine Lilly's scientific expertise with NVIDIA's leading technology to accelerate drug discovery.",
+      "speaker": "David Ricks",
+      "speakerTitle": "CEO",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "date": "2026-02-04"
     }
   ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Q4 2025 earnings call confirms NVIDIA partnership positioning. New leadership structure visible: therapeutic area presidents (Neuroscience, Immunology) now participate in earnings calls. Pipeline scale: 36 active Phase III programs, 14 new Phase III starts. $55B+ manufacturing commitment since 2020.",
+      "classification": "Model 4 + Model 5b",
+      "sourceRefs": [
+        "lilly-earnings-q4-2025"
+      ]
+    },
     {
       "date": "2026-02",
       "label": "Reclassification: M1 → M4",
@@ -170,6 +204,16 @@
       "sourceDate": "2026-01-12",
       "collectedDate": "2026-01-31",
       "notes": "24/7 wet-dry lab loop, robotics, digital twins."
+    },
+    {
+      "id": "lilly-earnings-q4-2025",
+      "type": "Earnings Call",
+      "name": "Eli Lilly Q4 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "sourceDate": "2026-02-04",
+      "collectedDate": "2026-02-07",
+      "notes": "CEO Dave Ricks discusses NVIDIA co-innovation lab. New therapeutic area presidents participate. 36 active Phase III programs, $55B manufacturing commitment."
     }
   ],
   "contingencies": {
@@ -187,18 +231,19 @@
     "longVsShortHorizon": -1.0
   },
   "openQuestions": [
-    "How does the NVIDIA co-innovation lab integrate with existing hubs? Is it a separate structure or embedded?",
     "What is the formal reporting relationship between hub leaders and corporate leadership?",
-    "How are decisions made about which therapeutic areas get hubs?"
+    "How are decisions made about which therapeutic areas get hubs?",
+    "What is the relationship between the new therapeutic area presidents (Neuroscience, Immunology) and the hub structure? Are they hub leaders or a layer above?"
   ],
   "taxonomyFeedback": [
     "Eli Lilly was reclassified from M1 to M4. The key insight: 'decentralized hubs' with central coordination is Hub-and-Spoke by definition, regardless of whether the hubs do research. M1 should mean a single, ring-fenced unit.",
-    "The NVIDIA partnership adds a Venture Builder (5b) element — hybrid classification (Model 1 + 5b) captures this but may need a cleaner notation."
+    "The NVIDIA partnership adds a Venture Builder (5b) element — hybrid classification (Model 1 + 5b) captures this but may need a cleaner notation.",
+    "[2026-02] Q4 earnings call shows emerging 'therapeutic area president' structure. Dr. Carole Ho (Neuroscience) and Anne White (Immunology) are new presidents participating at the executive level. This may indicate formalization of the hub-and-spoke model — presidents coordinating multiple hubs per therapeutic area. Worth watching whether this represents a new intermediate layer."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-02",
+    "lastUpdated": "2026-02-12",
     "completeness": "High",
     "convertedFrom": "library/cases/eli-lilly.json"
   }

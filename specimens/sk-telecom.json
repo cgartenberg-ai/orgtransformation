@@ -63,6 +63,13 @@
   "layers": [
     {
       "date": "2026-02",
+      "label": "AI CIC Head Promoted to CTO — Dual Role Consolidation",
+      "summary": "Jeong Seokgeun appointed as new CTO on February 2, 2026, while retaining position as head of the AI Company-in-Company (CIC). SK Telecom established the AI CIC in September 2025 to consolidate AI operations, initially co-led by CSO Yoo Kyungsang and Jeong. Jeong previously led Naver's Clova CIC. He oversees AI model development (A.X K1 LLM, advancing toward multimodal), AI data center establishment, and internal AI transformation (AX) strategy. The CIC head's promotion to CTO signals elevation of AI from dedicated unit to enterprise-wide technology leadership — a potential M4→M3 transition.",
+      "classification": null,
+      "sourceRefs": ["asiae-skt-cto-2026"]
+    },
+    {
+      "date": "2026-02",
       "label": "CTO Appointment from AI CIC",
       "summary": "Jeong Seokgeun, head of AI CIC, elevated to CTO (Feb 2, 2026). AI leader becomes tech leader for the company — further structural consolidation of AI leadership at the executive level.",
       "classification": null,
@@ -119,6 +126,14 @@
       "notes": "AI CIC head elevated to CTO"
     },
     {
+      "id": "asiae-skt-cto-2026",
+      "type": "Press",
+      "name": "Asia Economy — SK Telecom Appoints AI CIC Head as CTO",
+      "url": "https://cm.asiae.co.kr/en/article/2026020220383849862",
+      "sourceDate": "2026-02-02",
+      "collectedDate": "2026-02-12"
+    },
+    {
       "id": "rcr-wireless-2025",
       "type": "Press",
       "name": "RCR Wireless — SK Telecom AI",
@@ -171,7 +186,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-02-04",
-    "lastUpdated": "2026-02-04",
+    "lastUpdated": "2026-02-13",
     "completeness": "Medium",
     "convertedFrom": null
   }

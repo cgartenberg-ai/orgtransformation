@@ -1,0 +1,179 @@
+{
+  "company": "Intel",
+  "ticker": "INTC",
+  "leader": "Lip-Bu Tan",
+  "leaderTitle": "CEO",
+  "sector": "Semiconductors",
+  "quadrant": "Q2",
+  "scannedDate": "2026-02-09",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": ["https://finance.yahoo.com/news/exclusive-intel-ceo-lip-bu-233237338.html"],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Intel has a distinct research arm (Intel Labs with 700+ researchers) that handles fundamental AI research with long horizons, while AI product work is distributed across business units (CCG for AI PCs, DCAI for data center AI, custom ASIC business). The recent flattening under Tan shows a central hub (CEO directly leading AI strategy after CTO departure to OpenAI) with distributed execution in product groups. The Central Engineering Group was established to unify horizontal functions. Intel Labs + University Centers of Excellence represent exploration, while product groups execute. This is classic hub-and-spoke.",
+    "aiTeamStructure": "Multi-layered structure: (1) Intel Labs - 700+ researchers in 30+ technical disciplines doing fundamental AI research; (2) Intel AI Lab within Intel Labs focusing on video/multimodal foundation models; (3) AI and Advanced Technologies Group now directly reporting to CEO after CTO Sachin Katti's departure to OpenAI; (4) Product-embedded AI teams in CCG (client computing), DCAI (data center), and custom ASIC business; (5) Central Engineering Group recently created to unify horizontal engineering functions.",
+    "keyPeople": [
+      {"name": "Lip-Bu Tan", "title": "CEO", "role": "Directly leading AI and Advanced Technologies Groups after CTO departure. Sets overall AI strategy."},
+      {"name": "Sachin Katti", "title": "Former Chief Technology and AI Officer", "role": "Led AI strategy, product roadmap, Intel Labs, and startup ecosystems until departure to OpenAI in late 2025."},
+      {"name": "Gadi Singer", "title": "Director, Emergent AI Research Lab", "role": "Leads emergent AI research within Intel Labs."},
+      {"name": "Michelle Johnston Holthaus", "title": "CEO of Intel Products", "role": "Previously oversaw data center and AI chip group as well as PC chip group, now product groups report directly to CEO."},
+      {"name": "Shailendra Desai", "title": "Senior Engineering Leader", "role": "Hired for senior AI engineering role, founder of Provino Technologies (acquired by Google 2021)."},
+      {"name": "Jean-Didier Allegrucci", "title": "Senior Engineering Leader", "role": "Senior AI engineering role, reported to CTO/CAIO."},
+      {"name": "Srinivasan Iyengar", "title": "Senior Engineering Leader", "role": "Appointed to strengthen technical AI capabilities."}
+    ],
+    "investmentSignals": "CapEx: ~$18B gross capital investment (2025). OpEx: $16B target by 2026 (down from higher levels via restructuring). Balance Sheet: $30.9B cash and short-term investments. CHIPS Act funding: $7.86B to support $100B manufacturing push. NVIDIA investment: $5B closed Q4 2025. SoftBank investment: $2B. Custom ASIC business reached $1B+ annualized run rate. Intel Labs invests ~$50M/year in university research programs. 21-25% workforce reduction (10,000+ jobs) as part of restructuring.",
+    "observableMarkers": {
+      "reportingStructure": "CEO Lip-Bu Tan directly leads AI and Advanced Technologies Group after CTO departure. Three longtime technical executives (Rob Bruckner, Mike Hurley, Lisa Pearce) now report directly to CEO. Product groups (DCAI, CCG) report directly to CEO. Flattened structure to reduce organizational complexity.",
+      "resourceAllocation": "Dedicated Intel Labs with 700+ researchers. Custom ASIC business as distinct unit with $1B+ revenue. Central Engineering Group created to unify horizontal functions. Ring-fenced foundry business. Clear separation between research (Labs) and product execution (business units).",
+      "timeHorizons": "Mixed: Intel Labs does multi-year fundamental research (cognitive AI, quantum, physical AI). Product groups work on quarterly/annual cycles (AI PCs, Xeon, Gaudi). CEO mentions 'won't happen overnight' for competitive AI platform - implies multi-year horizon for turnaround.",
+      "decisionRights": "Significantly centralized under CEO Tan after flattening. CEO directly oversees AI strategy. Central Engineering Group coordinates horizontal decisions. Quote from memo: 'This supports our emphasis on becoming an engineering-focused company and will give me visibility into what's needed to compete and win.'",
+      "metrics": "Revenue by segment (DCAI grew 15% sequentially in Q4). AI PC unit growth (16% in Q4). Custom ASIC business growth (50%+ in 2025, 26% sequential in Q4). Process node progress (18A milestone). Profitability targets (64.7% loss reduction in 2025, profitability target 2026)."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "It has been a tough period for quite a long time for Intel. We fell behind on innovation. As a result, we have been too slow to adapt and to meet your needs. You deserve better, and we need to improve.",
+      "speaker": "Lip-Bu Tan",
+      "speakerTitle": "CEO",
+      "source": "Intel Vision 2025 Keynote",
+      "sourceUrl": "https://www.theregister.com/2025/04/01/new_intel_ceo_major_speech/",
+      "sourceDate": "2025-04-01",
+      "context": "Opening remarks at Intel Vision 2025 conference, first public presentation as CEO"
+    },
+    {
+      "text": "I'm not happy with our current position. I know that you are not happy either. I have heard the feedback loud and clear. It's time to turn a new page.",
+      "speaker": "Lip-Bu Tan",
+      "speakerTitle": "CEO",
+      "source": "Intel Vision 2025 Keynote",
+      "sourceUrl": "https://www.theregister.com/2025/04/01/new_intel_ceo_major_speech/",
+      "sourceDate": "2025-04-01",
+      "context": "Addressing partners and customers about Intel's competitive position in AI"
+    },
+    {
+      "text": "Under-promise and over-deliver. That has been my trademark. I will not be satisfied until we delight all of you.",
+      "speaker": "Lip-Bu Tan",
+      "speakerTitle": "CEO",
+      "source": "Intel Vision 2025 Keynote",
+      "sourceUrl": "https://www.hpcwire.com/2025/04/08/have-it-your-way-lip-bu-tan-intel-vision-keynote/",
+      "sourceDate": "2025-04",
+      "context": "Sharing his business philosophy at Intel Vision 2025"
+    },
+    {
+      "text": "It's clear to me that organizational complexity and bureaucratic processes have been slowly suffocating the culture of innovation we need to win. It takes too long to make decisions. New ideas are not given room or resources to incubate. And unnecessary silos lead to inefficient execution.",
+      "speaker": "Lip-Bu Tan",
+      "speakerTitle": "CEO",
+      "source": "Internal Memo on Leadership Restructuring",
+      "sourceUrl": "https://www.datacenterdynamics.com/en/news/intel-ceo-shakes-up-leadership-team-appoints-new-chief-technology-and-ai-officer/",
+      "sourceDate": "2025-04",
+      "context": "Internal memo explaining rationale for flattening leadership structure"
+    },
+    {
+      "text": "This supports our emphasis on becoming an engineering-focused company and will give me visibility into what's needed to compete and win.",
+      "speaker": "Lip-Bu Tan",
+      "speakerTitle": "CEO",
+      "source": "Internal Memo on Leadership Restructuring",
+      "sourceUrl": "https://www.datacenterdynamics.com/en/news/intel-ceo-shakes-up-leadership-team-appoints-new-chief-technology-and-ai-officer/",
+      "sourceDate": "2025-04",
+      "context": "Explaining why technical executives now report directly to CEO"
+    },
+    {
+      "text": "Our conviction in the essential role of CPUs in the AI era continues to grow. We delivered a solid finish to the year and made progress on our journey to build a new Intel. The introduction of our first products on Intel 18A – the most advanced process technology developed and manufactured in the United States – marks an important milestone.",
+      "speaker": "Lip-Bu Tan",
+      "speakerTitle": "CEO",
+      "source": "Q4 2025 Earnings Press Release",
+      "sourceUrl": "https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial",
+      "sourceDate": "2026-01-22",
+      "context": "Q4 2025 earnings announcement"
+    },
+    {
+      "text": "I can't recall a time when I have been more excited about the future of computing and the opportunities in front of us.",
+      "speaker": "Lip-Bu Tan",
+      "speakerTitle": "CEO",
+      "source": "Q3 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2025/10/24/intel-intc-q3-2025-earnings-call-transcript/",
+      "sourceDate": "2025-10-24",
+      "context": "Q3 2025 earnings call remarks on computing and AI opportunities"
+    },
+    {
+      "text": "Bureaucracy kills innovation.",
+      "speaker": "Lip-Bu Tan",
+      "speakerTitle": "CEO",
+      "source": "Intel Vision 2025",
+      "sourceUrl": "https://www.hpcwire.com/2025/04/08/have-it-your-way-lip-bu-tan-intel-vision-keynote/",
+      "sourceDate": "2025-04",
+      "context": "Keynote remarks on organizational culture"
+    },
+    {
+      "text": "Machines have made a categorical leap from prompt engineering to 'human speak,' however other aspects of intelligence still await discovery.",
+      "speaker": "Gadi Singer",
+      "speakerTitle": "Director, Emergent AI Research Lab",
+      "source": "Intel Labs AI Research Page",
+      "sourceUrl": "https://www.intel.com/content/www/us/en/research/ai.html",
+      "sourceDate": "2025",
+      "context": "Discussing the state of AI research at Intel Labs"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Intel Vision 2025 Keynote Coverage (The Register)",
+      "url": "https://www.theregister.com/2025/04/01/new_intel_ceo_major_speech/",
+      "type": "Press",
+      "date": "2025-04-01",
+      "notes": "Detailed coverage of Tan's first major speech as CEO. Includes key quotes on competitive position, AI strategy acknowledgments. Notes Gaudi accelerator missed $500M target."
+    },
+    {
+      "name": "Intel Q3 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2025/10/24/intel-intc-q3-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2025-10-24",
+      "notes": "Rich source on AI strategy, NVIDIA partnership, Central Engineering Group creation, ASIC business details, investment levels."
+    },
+    {
+      "name": "Intel Q4 2025 Earnings Press Release",
+      "url": "https://www.intc.com/news-events/press-releases/detail/1759/intel-reports-fourth-quarter-and-full-year-2025-financial",
+      "type": "Press",
+      "date": "2026-01-22",
+      "notes": "Financial results, AI PC growth (16%), DCAI growth (15% sequential), custom ASIC $1B+ run rate."
+    },
+    {
+      "name": "Intel Leadership Restructuring (Data Center Dynamics)",
+      "url": "https://www.datacenterdynamics.com/en/news/intel-ceo-shakes-up-leadership-team-appoints-new-chief-technology-and-ai-officer/",
+      "type": "Press",
+      "date": "2025-04",
+      "notes": "Details on leadership flattening, CTO/CAIO role expansion, memo quotes on bureaucracy and innovation."
+    },
+    {
+      "name": "Intel Labs AI Research",
+      "url": "https://www.intel.com/content/www/us/en/research/ai.html",
+      "type": "Blog",
+      "date": "2025",
+      "notes": "Official description of Intel Labs AI research areas, organizational structure, Gadi Singer quote."
+    },
+    {
+      "name": "Intel Vision 2025 Keynote (HPCwire)",
+      "url": "https://www.hpcwire.com/2025/04/08/have-it-your-way-lip-bu-tan-intel-vision-keynote/",
+      "type": "Press",
+      "date": "2025-04-08",
+      "notes": "Additional keynote coverage, Tan's philosophy quotes, memory constraints discussion."
+    }
+  ],
+
+  "summary": "Intel operates a Hybrid/Hub-and-Spoke model with Intel Labs (700+ researchers) handling fundamental AI research while product groups (CCG, DCAI, custom ASIC) execute AI products. CEO Lip-Bu Tan has flattened the organization and now directly leads AI strategy after CTO Sachin Katti's departure to OpenAI. The turnaround emphasizes becoming 'engineering-focused,' eliminating bureaucracy, and catching up in datacenter AI where Intel has fallen behind NVIDIA.",
+
+  "openQuestions": [
+    "How is AI research prioritization decided between Intel Labs and product groups?",
+    "What is the specific headcount of the AI and Advanced Technologies Group?",
+    "How will the NVIDIA partnership change internal AI chip development strategy?",
+    "Who will be named as permanent CTO/CAIO after Katti's departure?",
+    "What is the governance structure for Intel's university AI Centers of Excellence?"
+  ],
+
+  "conferenceFindings": "Lip-Bu Tan delivered opening keynote at Intel Vision 2025 (March 31, 2025) - his first major public presentation as CEO. Key themes: honest acknowledgment of competitive struggles ('We fell behind on innovation'), commitment to engineering-focused culture, anti-bureaucracy messaging. Also spoke at Intel Foundry Direct Connect about 18A yields and foundry turnaround."
+}

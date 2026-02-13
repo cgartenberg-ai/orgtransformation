@@ -1,0 +1,173 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "exxonmobil",
+  "name": "ExxonMobil",
+  "title": "Oil Major Embeds AI in Operations Without Formal Lab",
+
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6b",
+    "subTypeName": "Centralized-but-Unnamed",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "ExxonMobil has no formal AI lab, CAIO, or branded AI center. AI capabilities are coordinated through Global Business Services (GBS) and embedded within a centralized technology organization that integrates IT with traditional engineering. The ~668 data scientists are distributed across business units rather than centralized. CEO Woods frames AI as enabling 'effectiveness rather than just cost efficiency' as a 'long-term evolution' — suggesting contextual ambidexterity where individuals balance exploration and execution within their roles. The $15B cost savings target by 2027 positions AI as an operational enabler rather than a separate exploration function.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Energy",
+    "sector": "Oil & Gas",
+    "orgSize": "Enterprise",
+    "employees": 62000,
+    "revenue": "$340B+",
+    "headquarters": "Houston, Texas",
+    "geography": "Global"
+  },
+
+  "description": "ExxonMobil operates an unnamed/informal AI structure where AI capabilities are coordinated through Global Business Services and embedded within a centralized technology organization, rather than through a formal AI lab or branded center. The company has approximately 668 data scientists distributed across business units, with key roles including an AI Operations Manager and Digital Transformation Lead reporting into IT and GBS rather than directly to the CEO.\n\nThe company's AI applications focus on operational efficiency: predictive maintenance, seismic interpretation acceleration (reducing 12-18 month timelines), the 'Sofia' AI assistant for refinery optimization, SmartLane for chemical manufacturing, and computer vision for emissions monitoring. CEO Darren Woods frames AI as enabling long-term operational effectiveness rather than breakthrough innovation, with a $15B cost savings target by 2027.\n\nHistorically siloed structure 'made it more difficult to apply any single type of technology across the company.' Current efforts focus on a corporate-wide ERP system to enable AI scaling by establishing a common data foundation. Notably, ExxonMobil also positions itself as an energy supplier to the AI industry, offering low-carbon data center power solutions.",
+
+  "observableMarkers": {
+    "reportingStructure": "AI roles report into IT and Global Business Services, not to CEO directly. No CAIO or Chief Digital Officer identified in executive roster.",
+    "resourceAllocation": "AI funding appears embedded in operational budgets rather than ring-fenced. Technology investments consolidated into single Houston campus hub.",
+    "timeHorizons": "Long-term orientation stated by CEO ('long-term evolution'). $15B savings target is 2027 (2-year horizon). Data foundation investments preceding AI scaling.",
+    "decisionRights": "Historically siloed structure 'made it more difficult to apply any single type of technology across the company.' Current push for corporate-wide ERP system suggests centralizing data to enable AI.",
+    "metrics": "Focus on operational efficiency metrics: cost savings, production optimization, emissions reduction. AI assistant 'Sofia' optimizes daily fuel/chemical production. No AI-specific success metrics disclosed."
+  },
+
+  "mechanisms": [],
+
+  "quotes": [
+    {
+      "text": "And, actually, with respect to your AI question, and Jensen, we now have because of those investments that we've made the opportunity to offer low carbon data centers. And in the time frame that many of the tech companies are talking about needing that low carbon data centers, we're uniquely positioned to provide that.",
+      "speaker": "Darren Woods",
+      "speakerTitle": "Chairman and CEO",
+      "context": "Discussing ExxonMobil's positioning to serve AI data center energy needs",
+      "sourceId": "exxonmobil-troweprice-2024"
+    },
+    {
+      "text": "seismic interpretation typically takes anywhere from twelve to eighteen months",
+      "speaker": "Dr. Xiaojung Huang",
+      "speakerTitle": "Digital Transformation Lead",
+      "context": "Explaining the challenge AI is helping to address in well development",
+      "sourceId": "exxonmobil-emerj-2023"
+    },
+    {
+      "text": "We can not scale anything up if we do not have a developed data foundation.",
+      "speaker": "Dr. Xiaojung Huang",
+      "speakerTitle": "Digital Transformation Lead",
+      "context": "Explaining prerequisite for AI scaling at ExxonMobil",
+      "sourceId": "exxonmobil-emerj-2023"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Initial observation",
+      "summary": "ExxonMobil operates unnamed/informal AI structure with ~668 data scientists distributed across business units, coordinated through Global Business Services and centralized technology organization. AI positioned as operational efficiency enabler with $15B cost savings target by 2027. No formal AI lab, CAIO, or branded AI center. CEO frames AI as 'long-term evolution' for 'effectiveness rather than just cost efficiency.'",
+      "sourceRefs": ["exxonmobil-emerj-2023", "exxonmobil-troweprice-2024", "exxonmobil-earnings-q2-2025", "exxonmobil-constellation-2024"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "exxonmobil-mit-sloan-2024",
+      "type": "Interview",
+      "name": "MIT Sloan Management Review - Sarah Karthigan Interview",
+      "url": "https://sloanreview.mit.edu/audio/developing-an-appetite-for-ai-exxonmobils-sarah-karthigan/",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "exxonmobil-emerj-2023",
+      "type": "Press",
+      "name": "Artificial Intelligence at ExxonMobil - Emerj",
+      "url": "https://emerj.com/artificial-intelligence-at-exxonmobil/",
+      "sourceDate": "2023",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "exxonmobil-troweprice-2024",
+      "type": "Interview",
+      "name": "The Long View: Interview with Darren Woods - T. Rowe Price",
+      "url": "https://www.troweprice.com/en/us/insights/the-long-view-ExxonMobil",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "exxonmobil-corporate-ai-2025",
+      "type": "Blog",
+      "name": "ExxonMobil Corporate News - Powering AI Revolution",
+      "url": "https://corporate.exxonmobil.com/news/corporate-news/powering-the-ai-revolution-with-reliable-energy",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "exxonmobil-smart-tech-2024",
+      "type": "Blog",
+      "name": "ExxonMobil Smart Technologies",
+      "url": "https://corporate.exxonmobil.com/who-we-are/technology-and-collaborations/smart-technologies-intelligent-operations",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "exxonmobil-earnings-q2-2025",
+      "type": "Earnings",
+      "name": "ExxonMobil Q2 2025 Earnings Call Highlights - Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/exxon-mobil-corp-xom-q2-071044349.html",
+      "sourceDate": "2025-07",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "exxonmobil-constellation-2024",
+      "type": "Press",
+      "name": "Constellation Research - ExxonMobil AI Efforts",
+      "url": "https://www.constellationr.com/blog-news/insights/exxonmobil-outline-process-automation-ai-efforts",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-09"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "High"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": 0.6,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": -0.2,
+    "namedVsQuiet": 0.8,
+    "longVsShortHorizon": -0.4
+  },
+
+  "openQuestions": [
+    "What is the actual AI budget or spending within the $27-29B annual CapEx?",
+    "How does the AI Operations team size compare to other energy majors?",
+    "What is the governance structure for AI decisions - who approves new AI initiatives?",
+    "Is the IBM Cloud Pak partnership ongoing or was it a one-time engagement?",
+    "How does the Pioneer acquisition affect AI capabilities and integration?"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] ExxonMobil exemplifies how legacy industrial firms adopt AI without formal AI organizations — the ~668 distributed data scientists and lack of CAIO/CDO suggests AI is treated as an operational capability rather than strategic function. This is classic M6b where the 'unnamed' quality reflects organizational conservatism about AI branding.",
+    "[2026-02] The data foundation constraint is revealing: 'We can not scale anything up if we do not have a developed data foundation.' This suggests a sequencing pattern where M6b firms must solve enterprise data integration before AI can move from pockets to platform. Historical silos are the binding constraint.",
+    "[2026-02] Interesting dual positioning: ExxonMobil is simultaneously an AI adopter (internal operations) and AI enabler (data center power supplier). CEO discusses Jensen Huang and low-carbon data centers but frames this as energy business opportunity rather than AI strategy. The company sees itself as 'molecule company not electron company' — AI is a customer, not an identity."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

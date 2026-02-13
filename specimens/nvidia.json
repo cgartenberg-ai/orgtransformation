@@ -3,16 +3,16 @@
   "name": "NVIDIA",
   "title": "Information Symmetry as Lab",
   "classification": {
-    "structuralModel": 4,
-    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
     "subType": null,
     "subTypeName": null,
-    "secondaryModel": 1,
-    "secondaryModelName": "Research Lab",
+    "secondaryModel": 9,
+    "secondaryModelName": "AI-Native",
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Medium",
-    "classificationRationale": "Auto-converted from legacy phenotype 'hybrid'. NVIDIA operates with extreme information transparency (60 direct reports, no 1:1s, Top Five emails) rather than classic hub-and-spoke. Classification holds but may need refinement — NVIDIA's model is closer to a flat network than a traditional hub-spoke. Pervasive AI tool adoption across engineering suggests contextual elements within structural frame.",
+    "classificationRationale": "M4→M1 (Audit 2026-02-12). NVIDIA Research is a dedicated research lab. But the broader company is AI-native (M9-adjacent) — AI IS the product across GPUs, CUDA, and enterprise software. No hub-spoke coordination because AI isn't a separate function to be coordinated; it's the company's core architecture.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -85,6 +85,15 @@
     }
   ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke + M1 → M1 Research Lab + M9 AI-Native",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M1 Research Lab with M9 AI-Native secondary. NVIDIA Research is ring-fenced research; the company itself is AI-native.",
+      "classification": "M4 Hybrid/Hub-and-Spoke + M1",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
     {
       "date": "2026-01",
       "label": "CEO AI Philosophy & Internal Adoption",
@@ -180,12 +189,13 @@
   ],
   "taxonomyFeedback": [
     "NVIDIA's flat, information-transparent structure with 60 direct reports doesn't fit the traditional Hub-and-Spoke model well. It's closer to an anti-hierarchical whole-company lab. May need a sub-type or reclassification as Model 6c (grassroots) at the company level.",
-    "Jensen's 'purpose vs. tasks' framework and pervasive Cursor adoption suggest contextual orientation elements within an ostensibly structural frame."
+    "Jensen's 'purpose vs. tasks' framework and pervasive Cursor adoption suggest contextual orientation elements within an ostensibly structural frame.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M1+M9. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — NVIDIA Research is ring-fenced research; the company itself is AI-native."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-12",
     "completeness": "Low",
     "convertedFrom": "library/cases/nvidia.json"
   }

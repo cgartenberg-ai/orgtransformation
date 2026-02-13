@@ -1,0 +1,23 @@
+{
+  "specimenId": "intercom",
+  "scannedDate": "2026-02-08",
+  "quality": "rich",
+  "claimCount": 14,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 1,
+    "higher-calling": 0,
+    "identity": 3,
+    "survival": 3,
+    "commercial-success": 5
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

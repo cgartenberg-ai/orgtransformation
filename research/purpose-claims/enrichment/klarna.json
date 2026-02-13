@@ -1,0 +1,23 @@
+{
+  "specimenId": "klarna",
+  "scannedDate": "2026-02-04",
+  "quality": "rich",
+  "claimCount": 3,
+  "claimTypeDistribution": {
+    "utopian": 0,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 1,
+    "survival": 1,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

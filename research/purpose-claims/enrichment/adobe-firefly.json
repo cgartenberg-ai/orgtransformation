@@ -1,0 +1,23 @@
+{
+  "specimenId": "adobe-firefly",
+  "scannedDate": "2026-02-09",
+  "quality": "rich",
+  "claimCount": 6,
+  "claimTypeDistribution": {
+    "utopian": 3,
+    "teleological": 0,
+    "higher-calling": 1,
+    "identity": 1,
+    "survival": 1,
+    "commercial-success": 0
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

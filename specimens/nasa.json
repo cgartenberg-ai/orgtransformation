@@ -43,6 +43,13 @@
 
   "layers": [
     {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Confirmation scan yielded no new structural details. FedScoop source on Murphy's CAIO/CDO appointment already captured in prior layer. Research session truncated due to URL budget constraints.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
       "date": "2024-05",
       "label": "First CAIO Appointed",
       "summary": "David Salvagnini named NASA's first CAIO, complying with White House EO #14110. Background: IC CIO, 21-year Air Force veteran.",
@@ -104,12 +111,17 @@
     "How does NASA's CAIO structure compare to other federal agencies (DoD, VA, etc.)?"
   ],
 
-  "taxonomyFeedback": [],
+  "taxonomyFeedback": [
+    "[2026-02] The succession pattern from external security/defense leadership (Salvagnini: IC + Air Force) to internal domain specialist (Murphy: 17 years in Earth Science Data Systems) suggests a fundamental tension in government M2 structures between two competing logics: (1) AI-as-security-governance requiring cleared military/IC expertise, versus (2) AI-as-scientific-infrastructure requiring deep domain knowledge of the agency's core mission. This may reflect a maturation hypothesis: initial CAIO appointments prioritize compliance and risk management (thus external security expertise), while sustained AI integration requires mission-domain embeddedness. The pattern raises whether M2 in regulated/government contexts inherently requires dual leadership or sequential phases.",
+    "[2026-02] The combined CAIO+CDO role in Murphy's appointment is structurally revealing. In private sector M2 specimens, we typically see Chief AI Officers as distinct from Chief Data Officers, with CDO focusing on data infrastructure/governance and CAIO on AI strategy/deployment. The merger here may reflect either: (a) resource constraints in government forcing role consolidation, (b) a more sophisticated recognition that AI governance and data governance are inseparable (challenging the typical private sector separation), or (c) a transitional 'acting' structure that would unbundle under permanent leadership. If (b), NASA may be ahead of private sector thinking on the structural unity of data and AI governance.",
+    "[2026-02] This specimen reveals a classification challenge: we've labeled it M2 Center of Excellence based on the CAIO role, but we have near-zero visibility into what structure actually exists beneath the CAIO title. The role could be: (a) pure governance/policy (making it a weak M2 or even M6b Centralized-but-Unnamed), (b) a true CoE with embedded experts across NASA centers, or (c) primarily an external compliance signal (EO #14110) with minimal internal structural authority. Government M2 structures may be fundamentally different from private sector M2s because they're compliance-driven rather than capability-driven—the CAIO role exists to satisfy federal mandate, not necessarily to build AI capacity. This suggests we may need a government-specific structural model or at minimum a subtype that distinguishes mandate-compliance M2 from capability-building M2.",
+    "[2026-02] Overnight research scan: No new structural data emerged. The specimen remains data-poor for understanding what exists beneath the CAIO title. Future research should prioritize finding NASA-specific AI governance documents, internal reorganization announcements, or interviews with Murphy/Salvagnini that reveal the actual organizational apparatus (if any) supporting the CAIO function."
+  ],
 
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-09",
     "completeness": "Low",
     "convertedFrom": null
   }

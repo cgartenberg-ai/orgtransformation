@@ -1,0 +1,130 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "dow-chemical",
+  "name": "Dow Chemical",
+  "title": "Major Workforce Restructuring Citing AI and Automation",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": null,
+    "orientationName": null,
+    "confidence": "Low",
+    "classificationRationale": "Data shows Dow is restructuring around AI/automation but provides no details about how AI work is actually structured. The 13% workforce cut framed around 'reducing complexity' and 'adopting best-available technologies' suggests transformation is underway, but we lack visibility into whether there's a named AI team, center of excellence, or distributed approach. Classification as M6 reflects that significant AI-driven change is happening without evidence of a formal, named AI structure.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Chemicals",
+    "sector": "Materials",
+    "orgSize": "Enterprise",
+    "employees": 36000,
+    "revenue": null,
+    "headquarters": "Midland, Michigan, USA",
+    "geography": "Global"
+  },
+  "description": "Dow Chemical is undergoing a significant AI-driven transformation, as evidenced by its January 2026 announcement of cutting approximately 4,500 jobs—13% of its 36,000-person workforce. CEO Jim Fitterling framed the restructuring around 'reducing complexity' and 'adopting the best-available technologies,' signaling that AI and automation are central to the company's operational strategy.\n\nHowever, the available data provides no visibility into how Dow actually structures its AI work internally. There is no information about dedicated AI teams, centers of excellence, reporting structures, or specific AI initiatives. The restructuring announcement suggests a top-down mandate for technology adoption, but whether this represents a formal AI organization or an informal, distributed approach remains unknown.\n\nThis specimen is classified as a stub pending additional research into Dow's specific AI organizational structure, investment patterns, and implementation approach.",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "text": "reducing complexity, adopting the best-available technologies",
+      "speaker": "Jim Fitterling",
+      "speakerTitle": "CEO, Dow Chemical",
+      "context": "Framing the rationale for cutting 4,500 jobs (13% of workforce)",
+      "sourceId": "dow-chemical-layoffs-2026"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Transform to Outperform — AI-Driven Industrial Restructuring",
+      "summary": "Dow announced 'Transform to Outperform' program cutting 4,500 positions (~13% of 34,600 workforce). COO Karen Carter: 'structural reengineering of our operating model and cost base.' AI and automation deployed across production monitoring, predictive maintenance, supply chain, quality control, customer service, and admin. Targets $2B additional EBITDA by 2028. Implementation costs: $1.1-1.5B including $600-800M severance. Two-thirds from productivity improvements (AI/automation), one-third from new revenue. Legal department using AI for patent research and case preparation. Partnership with Kyndryl for AI/automation collaboration.",
+      "classification": null,
+      "sourceRefs": ["webpronews-dow-restructuring-2026", "cbsnews-ai-layoffs-2026", "cen-dow-cuts-2026"]
+    },
+    {
+      "date": "2026-02",
+      "label": "Major Restructuring Announcement",
+      "summary": "Dow announces 4,500 job cuts (13% of workforce) citing AI and automation adoption. CEO frames restructuring around 'reducing complexity' and technology adoption, but no details on AI organizational structure provided.",
+      "sourceRefs": [
+        "dow-chemical-layoffs-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "dow-chemical-layoffs-2026",
+      "name": "Dow cuts 4,500 jobs citing AI and automation adoption",
+      "type": "Press",
+      "url": "https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs",
+      "sourceDate": "2026-01-29",
+      "collectedDate": "2026-02-07"
+    },
+    {
+      "id": "webpronews-dow-restructuring-2026",
+      "type": "Press",
+      "name": "WebProNews — Dow's $1 Billion Restructuring Signals Chemical Industry AI Pivot",
+      "url": "https://www.webpronews.com/dows-1-billion-restructuring-signals-chemical-industrys-pivot-to-ai-driven-operations/",
+      "sourceDate": "2026-01-30",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "cbsnews-ai-layoffs-2026",
+      "type": "Press",
+      "name": "CBS News — More Companies Pointing to AI as They Lay Off",
+      "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "sourceDate": "2026-02-04",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "cen-dow-cuts-2026",
+      "type": "Press",
+      "name": "C&EN — Dow to Cut 4,500 Positions with AI",
+      "url": "https://cen.acs.org/business/economy/dow-cut-4500-positions-ai/104/web/2026/01",
+      "sourceDate": "2026-01-29",
+      "collectedDate": "2026-02-12"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "High"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": 0.5,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [
+    "How is Dow structuring its AI work internally? Is there a named AI team or center of excellence?",
+    "What specific AI and automation technologies is Dow adopting?",
+    "How does the restructuring affect AI talent and capabilities?",
+    "Is the AI transformation centrally driven or distributed across business units?",
+    "What is the timeline and roadmap for Dow's AI adoption?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Dow presents a common pattern in industrial transformation: we see the OUTPUT of AI adoption (workforce restructuring) without visibility into the structural INPUT (how AI work is organized). The 13% workforce cut is significant but tells us nothing about whether Dow has research labs, embedded teams, or informal adoption patterns.",
+    "[2026-02] This specimen highlights a taxonomy gap: companies undergoing AI-driven restructuring may not fit cleanly into our models because the restructuring itself is the signal, not the AI organization. We may need to track 'transformation in progress' as a distinct observational state.",
+    "[2026-02] Chemical industry context is relevant—this is a capital-intensive, process-oriented sector where AI likely focuses on operational efficiency rather than product innovation. If confirmed, Dow might represent an M6b (centralized-but-unnamed) focused on operations, distinct from the consumer-facing examples in our current collection."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-13",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "specimenId": "new-york-state",
+  "scannedDate": "2026-02-09",
+  "quality": "rich",
+  "claimCount": 14,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 4,
+    "higher-calling": 2,
+    "identity": 4,
+    "survival": 1,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

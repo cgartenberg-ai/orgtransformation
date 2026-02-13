@@ -1,0 +1,50 @@
+{
+  "company": "Novo Nordisk",
+  "ticker": "NVO",
+  "sector": "Pharmaceuticals",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 2,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "In 2026, Novo Nordisk will face pricing headwinds in an increasingly competitive market. However, we are very encouraged by the promising early uptake from the U.S. launch of Wegovy pill.",
+      "speaker": "Mike Doustdar",
+      "speakerTitle": "President and CEO",
+      "source": "pharma-earnings-q4-2025.json",
+      "sourceUrl": "https://www.pharmexec.com/view/novo-nordisk-2025-financial-report-2026-sales-operations-profit-outlook",
+      "sourceDate": "",
+      "context": "Q4 2025 earnings, forward guidance"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Company-wide transformation program with ~$1.12B in costs",
+      "url": "https://www.pharmexec.com/view/novo-nordisk-2025-financial-report-2026-sales-operations-profit-outlook",
+      "type": "Press",
+      "date": "2026-02-04",
+      "notes": "Company-wide transformation program with ~$1.12B in costs"
+    },
+    {
+      "name": "DKK 60B capex for manufacturing + DKK 30B for R&D pipeline",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-novo-nordisk-q4-2025-beats-eps-and-revenue-forecasts-93CH-4484819",
+      "type": "Earnings Call",
+      "date": "2026-02-04",
+      "notes": "DKK 60B capex for manufacturing + DKK 30B for R&D pipeline"
+    }
+  ],
+  "summary": "Company-wide transformation program with ~$1.12B in costs: Novo Nordisk incurred approximately $1.12 billion (DKK ~7.7B) in costs tied to a company-wide transformation program announced in Q3 2025. New CEO Mike Doustdar assumed the role in July 2025, replacin CEO transition: Doustdar replaces Jorgensen: Mike Doustdar assumed the role of president and CEO in July 2025, replacing Lars Fruergaard Jorgensen. This leadership change occurred mid-year and coincided with the company-wide transformation progr DKK 60B capex for manufacturing + DKK 30B for R&D pipeline: In 2025, Novo Nordisk deployed approximately DKK 60 billion for manufacturing capacity expansion through capital expenditure and approximately DKK 30 billion to expand the R&D pipeline through busines No AI discussion found in Q4 2025 earnings materials: Despite extensive manufacturing and R&D investment, no specific AI, machine learning, or digital transformation initiatives were mentioned in available Q4 2025 earnings coverage. The company-wide tran",
+  "openQuestions": [],
+  "splitFrom": "pharma-earnings-q4-2025.json"
+}

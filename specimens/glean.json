@@ -1,7 +1,7 @@
 {
   "id": "glean",
   "name": "Glean",
-  "title": "Enterprise AI Search \u2014 Automation Harder Than Expected",
+  "title": "Enterprise AI Search — Automation Harder Than Expected",
   "classification": {
     "structuralModel": 9,
     "structuralModelName": "Embedded Teams",
@@ -12,7 +12,7 @@
     "orientation": "Contextual",
     "orientationName": "Contextual",
     "confidence": "Low",
-    "classificationRationale": "AI-native company with product-embedded AI. CEO Arvind Jain's candid admission that AI automation was harder than expected \u2014 tried to automate internal workflows and fine-tune custom models, both fell short. Very limited org structure data.",
+    "classificationRationale": "AI-native company with product-embedded AI. CEO Arvind Jain's candid admission that AI automation was harder than expected — tried to automate internal workflows and fine-tune custom models, both fell short. Very limited org structure data.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -25,7 +25,7 @@
     "geography": "North America",
     "orgType": "AI-native"
   },
-  "description": "Glean CEO Arvind Jain, speaking on the BG2 Pod (Dec 23, 2025), described trying to automate internal workflows (identifying priorities) and expecting AI would 'magically' do the work \u2014 but it did not. Glean also tried fine-tuning a custom model, which fell short. Enterprise AI search company valued at $7.2B after raising $150M (Sep 2025).",
+  "description": "Glean CEO Arvind Jain, speaking on the BG2 Pod (Dec 23, 2025), described trying to automate internal workflows (identifying priorities) and expecting AI would 'magically' do the work — but it did not. Glean also tried fine-tuning a custom model, which fell short. Enterprise AI search company valued at $7.2B after raising $150M (Sep 2025).",
   "observableMarkers": {
     "reportingStructure": null,
     "resourceAllocation": "$150M raised at $7.2B valuation (Sep 2025).",
@@ -51,7 +51,7 @@
     {
       "id": "bg2-pod-2025-12",
       "type": "Podcast",
-      "name": "BG2 Pod \u2014 AI Enterprise: Databricks, Glean",
+      "name": "BG2 Pod — AI Enterprise: Databricks, Glean",
       "url": "https://podcasts.apple.com/ca/podcast/ai-enterprise-databricks-glean-bg2-guest-interview/id1727278168?i=1000742526917",
       "timestamp": null,
       "sourceDate": "2025-12-23",
@@ -61,7 +61,7 @@
     {
       "id": "dnyuz-2025-12",
       "type": "Press",
-      "name": "AOL/DNYUZ \u2014 AI CEOs Say Automation with AI Is Harder Than It Looks",
+      "name": "AOL/DNYUZ — AI CEOs Say Automation with AI Is Harder Than It Looks",
       "url": "https://dnyuz.com/2025/12/24/ai-ceos-say-automation-with-ai-is-harder-than-it-looks/",
       "timestamp": null,
       "sourceDate": "2025-12-24",
@@ -88,7 +88,11 @@
     "What specific workflows did they try to automate and why did they fail?",
     "How did the fine-tuned custom model fall short vs. off-the-shelf LLMs?"
   ],
-  "taxonomyFeedback": [],
+  "taxonomyFeedback": [
+    "[2026-02] Classification as M9 AI-Native may be misleading — this specimen's value lies not in its org structure (which is undocumented) but as a *negative result* that challenges the assumption that AI-native companies have solved internal automation. Glean builds AI search for enterprise customers yet failed to automate their own internal workflow prioritization, revealing a boundary condition: being AI-native doesn't immunize you from the exploration/execution tension when turning AI inward. The 'shoemaker's children have no shoes' pattern suggests M9 may need a subtype for AI-native firms that struggle with internal AI adoption despite external AI competence.",
+    "[2026-02] The failed fine-tuning attempt is structurally significant because it signals a technical dead-end that may have org structure implications across the collection. If a $7.2B AI company with deep technical talent couldn't make custom model fine-tuning work economically, this weakens the case for M1 Research Labs or M5 Product Labs investing in foundational model development. The Glean evidence suggests the economics increasingly favor M3 Embedded Teams building on commodity foundation models rather than M1/M2 investing in custom model infrastructure — a potential phase shift in the structural landscape that would affect classification logic for other specimens.",
+    "[2026-02] The 'automation harder than expected' admission creates an interesting contrast with specimens like Duolingo (which deployed Birdbrain broadly despite uncertainty) and Chegg (which over-indexed on AI automation promises and suffered market consequences). Glean sits between these: they tried internal automation, it failed, but this didn't derail the company because their *external* product remained viable. This suggests a contingency factor we're not tracking: **internal vs. external AI deployment risk tolerance**. AI-native firms may have *lower* tolerance for internal AI automation risk because failure would undermine their external credibility, whereas non-AI firms (Duolingo) can experiment more freely because internal AI work doesn't threaten their market positioning."
+  ],
   "meta": {
     "status": "Stub",
     "created": "2026-01-31",

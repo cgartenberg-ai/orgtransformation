@@ -349,15 +349,21 @@ Write a JSON file to: {output-path}
     }
   ],
   "specimenEnrichment": {
-    "newSources": [],
-    "structuralFindings": [],
-    "leaderUpdates": {}
-  }
+    "keyFindings": ["3-5 analytical observations about this specimen's purpose rhetoric — what patterns, surprises, or distinctive features you noticed"],
+    "rhetoricalPatterns": ["2-4 named patterns in how leaders frame AI transformation — e.g., 'Two-register communication: epochal for employees, measured for investors'"],
+    "comparativeNotes": "1-2 paragraphs comparing this specimen's rhetorical profile to others in the collection. What makes it distinctive? What is the mirror image?",
+    "notableAbsences": "What claim types or speakers are missing, and why that matters analytically. 'None' is data.",
+    "correctedLeaderInfo": "Any corrections to leader names/titles in the specimen file. null if none.",
+    "claimTypeDistribution": { "utopian": 0, "teleological": 0, "higher-calling": 0, "identity": 0, "survival": 0, "commercial-success": 0 }
+  },
+  "scanNarrative": "2-4 paragraphs of markdown prose documenting your journey through the sources. Write in first person as a field researcher. Include: which searches yielded results, which URLs were blocked or empty, what surprised you, what patterns emerged mid-scan, what you would look for if scanning again. This becomes a field journal entry visible on the app."
 }
 
-**specimenEnrichment is optional.** Only populate if you notice significant structural findings (new C-suite AI roles, team sizes, org changes) while scanning. Don't spend time on this — claims are the priority.
+**specimenEnrichment is REQUIRED.** Always populate keyFindings and rhetoricalPatterns — they are displayed on the specimen card and purpose claims browser. Even for thin specimens, note what you observed (or didn't find). comparativeNotes and notableAbsences can be null if nothing noteworthy.
 
-If no qualifying claims found, write the file with claims: [] and quality: "none".
+**scanNarrative is REQUIRED.** This is your field notebook. Write it after completing the scan, reflecting on the research journey. It flows into the field journal and helps future researchers understand what was tried.
+
+If no qualifying claims found, write the file with claims: [] and quality: "none". Still write specimenEnrichment (noting what you searched and why nothing was found) and scanNarrative.
 ```
 
 ### Merge Protocol (run by orchestrator after all agents finish)
@@ -368,14 +374,13 @@ If no qualifying claims found, write the file with claims: [] and quality: "none
 2. Read each `pending/{specimen-id}.json` file
 3. Append all claims to `research/purpose-claims/registry.json` (single write)
 4. Update each specimen's entry in `research/purpose-claims/scan-tracker.json` (single write)
-5. **Process specimenEnrichment**: For each pending file with enrichment data:
-   - Add new sources to `research/queue.json` with tag `"source": "purpose-claims-enrichment"`
-   - Log structural findings in session file for next `/curate` pass
-   - Note leader updates (CEO changes, new CAIO roles) for specimen updates
-6. Write a session file to `research/purpose-claims/sessions/YYYY-MM-DD-batch-{description}.md`
-7. Read `research/purpose-claims/analytical-notes.md` and append any new patterns observed
-8. Update `HANDOFF.md` with results and next targets
-9. Delete processed `pending/*.json` files (or move to `pending/processed/`)
+5. **Write enrichment file**: For each pending file, normalize `specimenEnrichment` and write to `research/purpose-claims/enrichment/{specimen-id}.json`. This file is read by the site and displayed on the specimen card and purpose claims browser.
+6. **Write scan narrative to field journal**: If `scanNarrative` is present, write it as a markdown file to `research/purpose-claims/sessions/YYYY-MM-DD-scan-{specimen-id}.md`. This is automatically discovered by the field journal.
+7. **Process correctedLeaderInfo**: Note any leader corrections for specimen updates in the next `/curate` pass.
+8. Write a batch session file to `research/purpose-claims/sessions/YYYY-MM-DD-batch-{description}.md`
+9. Read `research/purpose-claims/analytical-notes.md` and append any new patterns observed
+10. Update `HANDOFF.md` with results and next targets
+11. Move processed `pending/*.json` files to `pending/processed/`
 
 ### Recommended Batch Sizes
 

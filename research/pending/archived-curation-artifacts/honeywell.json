@@ -1,0 +1,213 @@
+{
+  "company": "Honeywell",
+  "ticker": "HON",
+  "leader": "Vimal Kapur",
+  "leaderTitle": "Chairman and CEO",
+  "sector": "Industrials",
+  "quadrant": "Q4",
+  "scannedDate": "2026-02-08",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": ["startupnews.fyi - article body not accessible"],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "High",
+    "rationale": "Honeywell has a clear hub-and-spoke structure: a central gen AI program leader reporting to CDTO Sheila Jordan, with 'ambassadors' distributed across each function and strategic business unit. The six-chapter framework provides central standards while business units execute against their specific use cases. Clear structural separation between internal AI (Jordan's team) and product/go-to-market AI (CTO Venkatarayalu's team). Top-down governance with bottom-up execution through ambassador network.",
+    "aiTeamStructure": "Central gen AI program leader reports directly to CDTO Sheila Jordan. This leader has established 'ambassadors' within each function and strategic business unit who meet regularly with their groups about potential use cases. Jordan's team then meets every few weeks to discuss and prioritize ideas. CTO Suresh Venkatarayalu leads AI product efforts on the engineering/go-to-market side. They operate a six-chapter framework covering: (1) employee workflows, (2) engineering applications, (3) cognitive automation, (4) commercial platform integration, (5) product/service offerings, (6) sales effectiveness. Additionally, there is a dedicated Gen AI Academy for training both technical and business employees.",
+    "keyPeople": [
+      {"name": "Vimal Kapur", "title": "Chairman and CEO", "role": "Sets overall AI vision and strategy; emphasizes 'physical AI' and industrial autonomy"},
+      {"name": "Sheila Jordan", "title": "SVP and Chief Digital Technology Officer", "role": "Owns internal AI, applications, infrastructure, data (except go-to-market); gen AI program leader reports to her"},
+      {"name": "Suresh Venkatarayalu", "title": "SVP and Chief Technology and Innovation Officer", "role": "Leads AI product efforts on go-to-market and engineering side"},
+      {"name": "Joseph Lui", "title": "Head of Honeywell Robotics (Pittsburgh)", "role": "Leads robotics center of excellence; previously Director of Industrial IoT and Automation Technologies, Robotics at Amazon"}
+    ],
+    "investmentSignals": "600 engineers added to R&D workforce in 2025. Quantinuum (quantum computing subsidiary) raised $600M at $10B valuation in Sept 2025 with investors including NVIDIA, JPMorgan, Mitsui, Amgen. $10M investment in UNC Charlotte Innovation Hub for AI/STEM workforce development. Internship program doubled to 2,500 students in 2025. R&D investments 'significantly stepped up' in 2025 and continuing at same level in 2026. 24 gen AI initiatives in production with 12 more in development (up from 16 total a year prior).",
+    "observableMarkers": {
+      "reportingStructure": "Gen AI program leader → Sheila Jordan (CDTO). Jordan and CTO Venkatarayalu are peers, splitting internal AI vs product AI. Both appear to report to CEO Kapur.",
+      "resourceAllocation": "Dedicated gen AI program with central budget and ambassador network. Consolidated from 4,500 to ~1,000 applications before AI investment. Enterprise data warehouse (Snowflake) as foundation.",
+      "timeHorizons": "Short-term: 24+ production use cases available to all 95,000 employees. Medium-term: AI-embedded products launching late 2025-2026. Long-term: vision of fully 'autonomous' (vs. merely 'automated') industrial operations. Kapur: 'Awareness is high, adoption is low, but there will be an inflection point. I do believe 2025-2026 will be a big year for adoption of AI in the context of industrials.'",
+      "decisionRights": "Predominantly top-down. Jordan: prioritization happens at her team level after ambassadors surface use cases. Framework ensures consistent approach across business units.",
+      "metrics": "Track initiatives 'to the P&L' (Venkatarayalu). Monthly business results showcases. Value hypothesis tracking. Ranked #17 on Fortune AIQ 50 list for mature AI capabilities."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "Every function and every strategic business unit is now using gen AI.",
+      "speaker": "Sheila Jordan",
+      "speakerTitle": "SVP and Chief Digital Technology Officer",
+      "source": "Fortune - Honeywell's AI chiefs share strategies",
+      "sourceUrl": "https://fortune.com/2025/10/07/honeywell-international-artificial-intelligence-manufacturing-operations/",
+      "sourceDate": "2025-10",
+      "context": "Describing gen AI adoption breadth across Honeywell"
+    },
+    {
+      "text": "I think our chapters will work for any enterprise.",
+      "speaker": "Suresh Venkatarayalu",
+      "speakerTitle": "SVP and Chief Technology and Innovation Officer",
+      "source": "Fortune - Honeywell's AI chiefs share strategies",
+      "sourceUrl": "https://fortune.com/2025/10/07/honeywell-international-artificial-intelligence-manufacturing-operations/",
+      "sourceDate": "2025-10",
+      "context": "Describing the six-chapter AI framework"
+    },
+    {
+      "text": "This company looks at use cases first, value second.",
+      "speaker": "Suresh Venkatarayalu",
+      "speakerTitle": "SVP and Chief Technology and Innovation Officer",
+      "source": "Fortune - Honeywell's AI chiefs share strategies",
+      "sourceUrl": "https://fortune.com/2025/10/07/honeywell-international-artificial-intelligence-manufacturing-operations/",
+      "sourceDate": "2025-10",
+      "context": "Explaining Honeywell's prioritization approach"
+    },
+    {
+      "text": "You can't have a gen AI strategy without a data strategy.",
+      "speaker": "Sheila Jordan",
+      "speakerTitle": "SVP and Chief Digital Technology Officer",
+      "source": "CIO.com - Honeywell transforms with gen AI",
+      "sourceUrl": "https://www.cio.com/article/3816457/honeywell-transforms-with-gen-ai.html",
+      "sourceDate": "2024",
+      "context": "Explaining why Honeywell consolidated applications and invested in data infrastructure before AI"
+    },
+    {
+      "text": "If historically somebody said, 'This job requires 12 years or 15 years experience,' well, maybe you're going to be able to have someone do it with seven years experience.",
+      "speaker": "Vimal Kapur",
+      "speakerTitle": "Chairman and CEO",
+      "source": "Fortune - Honeywell CEO reveals AI strategy",
+      "sourceUrl": "https://fortune.com/2024/09/03/honeywell-ceo-vimal-kapur-ai-strategy/",
+      "sourceDate": "2024-09",
+      "context": "Explaining how AI copilots address skilled labor shortages"
+    },
+    {
+      "text": "The AI opportunity for Honeywell is creating a new labor pool that can learn and work alongside AI and accumulate and deploy institutional knowledge much faster.",
+      "speaker": "Vimal Kapur",
+      "speakerTitle": "Chairman and CEO",
+      "source": "CNBC interview on AI and labor",
+      "sourceUrl": "https://www.cnbc.com/2024/10/14/honeywells-ceo-says-the-big-ai-payoff-wont-come-from-productivity.html",
+      "sourceDate": "2024-10",
+      "context": "Explaining AI as workforce augmentation, not replacement"
+    },
+    {
+      "text": "The 15 years of experience traditionally required for a human to handle a complex role can be accomplished at the same level by someone with five years of experience working with two AI co-pilots.",
+      "speaker": "Vimal Kapur",
+      "speakerTitle": "Chairman and CEO",
+      "source": "CNBC interview on AI and labor",
+      "sourceUrl": "https://www.cnbc.com/2024/10/14/honeywells-ceo-says-the-big-ai-payoff-wont-come-from-productivity.html",
+      "sourceDate": "2024-10",
+      "context": "Quantifying AI's impact on workforce upskilling"
+    },
+    {
+      "text": "The key difference—the element that jumps the divide between automated and autonomous operations—is artificial intelligence.",
+      "speaker": "Vimal Kapur",
+      "speakerTitle": "Chairman and CEO",
+      "source": "Fortune - AI will transform industry at scale",
+      "sourceUrl": "https://fortune.com/2025/01/13/ai-business-autonomous-operations-honeywell-ceo/",
+      "sourceDate": "2025-01",
+      "context": "Distinguishing between deterministic automation and adaptive AI-powered autonomy"
+    },
+    {
+      "text": "Awareness is high, adoption is low, but there will be an inflection point. I do believe 2025-2026 will be a big year for adoption of AI in the context of industrials.",
+      "speaker": "Vimal Kapur",
+      "speakerTitle": "Chairman and CEO",
+      "source": "Media interview on industrial AI adoption",
+      "sourceUrl": "https://fortune.com/2025/01/13/ai-business-autonomous-operations-honeywell-ceo/",
+      "sourceDate": "2025-01",
+      "context": "Predicting AI adoption inflection point in industrial sector"
+    },
+    {
+      "text": "AI and automation are already reshaping the future of work. Our collective choices will determine whether the disruption leads to decline or renewal.",
+      "speaker": "Vimal Kapur",
+      "speakerTitle": "Chairman and CEO",
+      "source": "Fortune - CEOs must rethink workforce preparation",
+      "sourceUrl": "https://fortune.com/2025/11/12/ai-reimagining-work-ceos-must-rethink-honeywell-vimal-kapur/",
+      "sourceDate": "2025-11",
+      "context": "Op-ed on CEO responsibility for workforce development"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Fortune - Honeywell's AI chiefs share strategies",
+      "url": "https://fortune.com/2025/10/07/honeywell-international-artificial-intelligence-manufacturing-operations/",
+      "type": "Press",
+      "date": "2025-10-07",
+      "notes": "Key source for six-chapter framework, ambassador model, Jordan/Venkatarayalu split, 24 production use cases"
+    },
+    {
+      "name": "CIO.com - Honeywell transforms with gen AI",
+      "url": "https://www.cio.com/article/3816457/honeywell-transforms-with-gen-ai.html",
+      "type": "Press",
+      "date": "2024",
+      "notes": "Details on tech stack (Microsoft Copilot, GitHub Copilot, Moveworks, Snowflake), ambassador structure, Gen AI Academy"
+    },
+    {
+      "name": "Fortune - Honeywell CEO reveals AI strategy",
+      "url": "https://fortune.com/2024/09/03/honeywell-ceo-vimal-kapur-ai-strategy/",
+      "type": "Interview",
+      "date": "2024-09-03",
+      "notes": "Kapur's three-pronged AI strategy: internal (table stakes), industrial copilots (strategic), AI-embedded products"
+    },
+    {
+      "name": "Fortune - AI will transform industry at scale in 2025",
+      "url": "https://fortune.com/2025/01/13/ai-business-autonomous-operations-honeywell-ceo/",
+      "type": "Interview",
+      "date": "2025-01-13",
+      "notes": "Kapur's 'technology trifecta' (cloud/5G/AI), automated vs autonomous distinction, Qualcomm/Google partnerships"
+    },
+    {
+      "name": "Fortune - CEOs must rethink workforce preparation",
+      "url": "https://fortune.com/2025/11/12/ai-reimagining-work-ceos-must-rethink-honeywell-vimal-kapur/",
+      "type": "Interview",
+      "date": "2025-11-12",
+      "notes": "Workforce development investments: 2,500 interns, FIRST Robotics, $10M UNC Charlotte hub"
+    },
+    {
+      "name": "Honeywell Investor Relations - Q4 2025 earnings",
+      "url": "https://investor.honeywell.com/news-releases/news-release-details/honeywell-reports-fourth-quarter-2025-results-with-adjusted-sales-and-adjusted-earnings-above-high-end-of-guidance-issues-2026-outlook",
+      "type": "Earnings Call",
+      "date": "2026-01-29",
+      "notes": "600 engineers added in 2025, R&D stepped up significantly, aerospace spin-off Q3 2026"
+    },
+    {
+      "name": "Honeywell Robotics Hub announcement",
+      "url": "https://www.honeywell.com/us/en/press/2019/10/honeywell-establishes-robotics-innovation-hub-for-next-generation-distribution-centers",
+      "type": "Blog",
+      "date": "2019-10",
+      "notes": "Pittsburgh robotics center of excellence, led by Joseph Lui (ex-Amazon), Carnegie Mellon partnership"
+    },
+    {
+      "name": "Honeywell Singapore Center of Excellence",
+      "url": "https://www.automation.com/en-us/articles/february-2025/honeywell-center-excellence-singapore-carbon-ai",
+      "type": "Blog",
+      "date": "2025-02",
+      "notes": "Singapore CoE for AI/ML building technologies, EDB partnership, opens 2025, expands to SE Asia 2026"
+    },
+    {
+      "name": "UNC Charlotte Innovation Hub announcement",
+      "url": "https://inside.charlotte.edu/2025/09/22/unc-charlotte-honeywell-partner-to-launch-innovation-hub-and-fuel-the-stem-workforce/",
+      "type": "Blog",
+      "date": "2025-09-22",
+      "notes": "$10M investment, opens 2027, 48 Honeywell scholars, 4 endowed faculty positions"
+    },
+    {
+      "name": "Quantinuum $600M raise announcement",
+      "url": "https://www.quantinuum.com/press-releases/honeywell-announces-600-million-capital-raise-for-quantinuum-at-10b-pre-money-equity-valuation-to-advance-quantum-computing-at-scale",
+      "type": "Blog",
+      "date": "2025-09",
+      "notes": "$10B valuation, investors include NVIDIA, JPMorgan, Mitsui, Amgen"
+    }
+  ],
+
+  "summary": "Honeywell operates a Hybrid/Hub-and-Spoke AI structure with clear separation between internal AI (CDTO Sheila Jordan) and product AI (CTO Suresh Venkatarayalu). A central gen AI program leader manages an 'ambassador' network across all functions and business units, governed by a 'six-chapter framework' covering employee workflows through sales effectiveness. CEO Vimal Kapur frames AI as solving industrial labor shortages rather than replacing workers, with a strategic vision of moving from 'automated' to 'autonomous' operations through what he calls 'physical AI.'",
+
+  "openQuestions": [
+    "Exact size of central AI team vs. distributed ambassadors",
+    "Specific budget allocation for AI initiatives",
+    "How AI organization will change post-3-way split (Aerospace, Automation, Advanced Materials)",
+    "Details on the gen AI Academy curriculum and scale",
+    "Quantinuum's role in overall AI strategy (quantum vs. classical AI)"
+  ],
+
+  "conferenceFindings": "No specific AI conference appearances found. Kapur spoke at Davos 2026 about 'automation, data, and physical AI' as core pillars. No evidence of major AI-specific conference keynotes (NeurIPS, AI Summit, etc.)."
+}

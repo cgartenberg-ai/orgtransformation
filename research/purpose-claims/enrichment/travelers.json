@@ -1,0 +1,26 @@
+{
+  "specimenId": "travelers",
+  "scannedDate": "2026-02-09",
+  "quality": "rich",
+  "claimCount": 9,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 1,
+    "higher-calling": 0,
+    "identity": 3,
+    "survival": 3,
+    "commercial-success": 0
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.ciodive.com/news/travelers-insurance-cloud-ai-modernization-investments/738171/",
+    "https://www.insidermonkey.com/blog/the-travelers-companies-inc-nysetrv-q4-2025-earnings-call-transcript-1679566/"
+  ]
+}

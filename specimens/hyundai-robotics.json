@@ -91,21 +91,25 @@
     }
   ],
   "contingencies": {
-    "regulatoryIntensity": null,
-    "timeToObsolescence": null,
-    "ceoTenure": null,
-    "talentMarketPosition": null,
-    "technicalDebt": null
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
   },
   "tensionPositions": {
-    "structuralVsContextual": "Structural. Named lab with dedicated mandate and resources.",
-    "speedVsDepth": null,
-    "centralVsDistributed": null,
-    "namedVsQuiet": null,
-    "longVsShortHorizon": "Long horizon. Physical AI and robotics are long-cycle R&D investments. Edge brain chip just entering mass production."
+    "structuralVsContextual": -0.8,
+    "speedVsDepth": -0.5,
+    "centralVsDistributed": -0.4,
+    "namedVsQuiet": -0.6,
+    "longVsShortHorizon": -0.6
   },
   "openQuestions": [],
-  "taxonomyFeedback": [],
+  "taxonomyFeedback": [
+    "[2026-02] This specimen reveals an unusual M1 variant where the research lab is vertically integrated across the hardware-software stack rather than focused on algorithmic breakthroughs. Unlike typical software-centric M1 labs (e.g., Google Brain, Meta FAIR) that treat hardware as commodity infrastructure, Hyundai's lab co-develops custom silicon ('edge brain' chip with DEEPX) as part of its research mandate. This reflects an automotive industry logic where control of physical components is strategically essential—the lab's research outputs are not just models or techniques but complete embodied systems. This hardware integration likely increases capital requirements and cycle times compared to pure software M1 labs, but creates defensibility through physical-digital integration.",
+    "[2026-02] The 'Robotics Total Solution' framing signals a strategic shift from product-level AI features to platform-level infrastructure—a trajectory that could evolve this M1 lab toward M5c (Platform-to-Product). The Boston Dynamics acquisition provides an existing product portfolio that this lab's platform could enable, suggesting Hyundai may be building the architectural layer beneath multiple robot products rather than optimizing individual robots. This platform ambition is organizationally significant: if the lab succeeds, it may need to spawn a separate commercialization structure (M5) to manage platform adoption across business units, creating a succession challenge typical of successful M1 labs.",
+    "[2026-02] The edge/on-device AI architecture is structurally revealing: it suggests Hyundai is optimizing for deployment environments where cloud connectivity is unreliable or latency-sensitive (factory floors, logistics facilities, outdoor mobility). This is not just a technical choice but an organizational signal about target markets and use cases. Most M1 labs implicitly assume abundant compute and connectivity (the cloud-native default); Hyundai's constraint-driven architecture indicates they're solving for physical-world deployment from the start. This embodied constraint likely shapes the lab's talent profile (roboticists and embedded systems engineers, not just ML researchers) and success metrics (deployment robustness, not benchmark performance)—a distinctive M1 operating model tied to automotive industry realities."
+  ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",

@@ -2,15 +2,16 @@
 
 import { useState, useMemo, useCallback, useEffect } from "react";
 import Link from "next/link";
-import type { PurposeClaim, ClaimType } from "@/lib/types/purpose-claims";
+import type { PurposeClaim, ClaimType, SpecimenEnrichment } from "@/lib/types/purpose-claims";
 import {
   CLAIM_TYPE_LABELS,
   CLAIM_TYPE_COLORS,
   CLAIM_TYPES_ORDER,
   type SpecimenInfo,
 } from "./claim-constants";
-import { ClaimsHeatmap } from "./ClaimsHeatmap";
+import { ClaimsSpiderGrid } from "./ClaimsSpiderGrid";
 import { ClaimsDotMap } from "./ClaimsDotMap";
+import { EnrichmentCompact } from "../specimens/EnrichmentSummary";
 
 type ViewMode = "by-specimen" | "by-type" | "heatmap" | "dotmap";
 
@@ -42,7 +43,7 @@ function useStarredClaims() {
 const VIEW_MODES: { key: ViewMode; label: string }[] = [
   { key: "by-specimen", label: "By Specimen" },
   { key: "by-type", label: "By Type" },
-  { key: "heatmap", label: "Heatmap" },
+  { key: "heatmap", label: "Profiles" },
   { key: "dotmap", label: "Dot Map" },
 ];
 
@@ -51,11 +52,13 @@ export function PurposeClaimsBrowser({
   claimTypeDefinitions,
   specimens,
   initialSpecimen = null,
+  enrichments = {},
 }: {
   claims: PurposeClaim[];
   claimTypeDefinitions: Record<ClaimType, string>;
   specimens: SpecimenInfo[];
   initialSpecimen?: string | null;
+  enrichments?: Record<string, SpecimenEnrichment>;
 }) {
   const [viewMode, setViewMode] = useState<ViewMode>(
     initialSpecimen ? "by-specimen" : "by-specimen"
@@ -135,14 +138,6 @@ export function PurposeClaimsBrowser({
   }, [filteredClaims, viewMode]);
 
   // Handlers for viz drill-down
-  const handleHeatmapCellClick = useCallback((...args: [string, ClaimType]) => {
-    setViewMode("by-specimen");
-    setSelectedSpecimen(args[0]);
-    setSelectedType(null);
-    setSearchQuery("");
-    setStarredOnly(false);
-  }, []);
-
   const handleDotMapSpecimenClick = useCallback((specimenId: string) => {
     setViewMode("by-specimen");
     setSelectedSpecimen(specimenId);
@@ -190,10 +185,11 @@ export function PurposeClaimsBrowser({
 
       {/* Visualization views (full width, no sidebar) */}
       {viewMode === "heatmap" && (
-        <ClaimsHeatmap
+        <ClaimsSpiderGrid
           claims={claims}
           specimens={specimensForViz}
-          onCellClick={handleHeatmapCellClick}
+          enrichments={enrichments}
+          onSpecimenClick={handleDotMapSpecimenClick}
         />
       )}
 
@@ -258,20 +254,26 @@ export function PurposeClaimsBrowser({
                     All specimens
                     <span className="ml-1 opacity-60">({claims.length})</span>
                   </button>
-                  {specimensWithClaims.map((s) => (
-                    <button
-                      key={s.id}
-                      onClick={() => setSelectedSpecimen(s.id)}
-                      className={`w-full rounded px-2 py-1.5 text-left text-xs transition-colors ${
-                        selectedSpecimen === s.id
-                          ? "bg-forest text-cream"
-                          : "text-charcoal-600 hover:bg-sage-100"
-                      }`}
-                    >
-                      {s.name}
-                      <span className="ml-1 opacity-60">({s.count})</span>
-                    </button>
-                  ))}
+                  {specimensWithClaims.map((s) => {
+                    const hasRichEnrichment = enrichments[s.id]?.keyFindings?.length > 0;
+                    return (
+                      <button
+                        key={s.id}
+                        onClick={() => setSelectedSpecimen(s.id)}
+                        className={`w-full rounded px-2 py-1.5 text-left text-xs transition-colors ${
+                          selectedSpecimen === s.id
+                            ? "bg-forest text-cream"
+                            : "text-charcoal-600 hover:bg-sage-100"
+                        }`}
+                      >
+                        {hasRichEnrichment && (
+                          <span className="mr-1 text-forest" title="Has analytical enrichment">&#9679;</span>
+                        )}
+                        {s.name}
+                        <span className="ml-1 opacity-60">({s.count})</span>
+                      </button>
+                    );
+                  })}
                 </div>
               </div>
             )}
@@ -338,6 +340,7 @@ export function PurposeClaimsBrowser({
             {/* Header context */}
             {viewMode === "by-specimen" && selectedSpecimen && (() => {
               const info = specimenMap.get(selectedSpecimen);
+              const enrichment = enrichments[selectedSpecimen];
               return info ? (
                 <div className="mb-6 rounded-xl border border-sage-200 bg-white p-5 shadow-sm">
                   <Link
@@ -355,6 +358,11 @@ export function PurposeClaimsBrowser({
                       </>
                     )}
                   </div>
+                  {enrichment && enrichment.keyFindings.length > 0 && (
+                    <div className="mt-3 border-t border-sage-100 pt-3">
+                      <EnrichmentCompact enrichment={enrichment} />
+                    </div>
+                  )}
                 </div>
               ) : null;
             })()}

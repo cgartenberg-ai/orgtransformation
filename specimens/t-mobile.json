@@ -1,0 +1,221 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "t-mobile",
+  "name": "T-Mobile",
+  "title": "Network AI Hub with Distributed Customer Experience Teams",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "T-Mobile exhibits clear hub-and-spoke characteristics: a centralized AI-RAN Innovation Center in Bellevue (the hub) with NVIDIA supercomputer and major vendor partnerships handles network AI exploration, while customer-facing AI (IntentCX) is distributed across product teams reporting to CIO, CPO, and President of Innovation. The absence of a CAIO and the explicit distribution of AI responsibilities across multiple executives confirms this is not M2 (pure center of excellence). The structural separation between network AI (long-horizon exploration) and customer AI (near-term execution) indicates Structural orientation rather than Contextual.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Telecommunications",
+    "sector": "Wireless Carrier",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Bellevue, WA",
+    "geography": "United States"
+  },
+  "description": "T-Mobile operates a Hybrid/Hub-and-Spoke AI model that separates network infrastructure AI from customer-facing AI applications. The central hub is the AI-RAN Innovation Center in Bellevue, WA, established in partnership with NVIDIA, Ericsson, and Nokia. This center houses NVIDIA's ARC-1 supercomputer and focuses on long-horizon network optimization—what Sievert calls the '5G Advanced era and beyond.' The company plans 60 edge data centers for AI-RAN virtualization, signaling substantial infrastructure investment.\n\nCustomer-facing AI is distributed across the executive team rather than centralized under a CAIO. The CIO (Jeff Simon) leads transformation to a 'data-informed, AI-enabled, digital-first company,' the CPO (Omar Tazi) delivers 'AI-enabled, digital-first experiences,' and the President of Innovation (Mike Katz) oversees 'data and AI' capabilities. This distributed accountability suggests AI is embedded in functional leadership rather than isolated in a separate organization.\n\nThe company's IntentCX platform, developed with OpenAI, represents the customer experience AI track—targeting 75% reduction in customer service interactions within three years. Meanwhile, AI-RAN represents the exploration track with multi-year horizons. The November 2025 leadership transition from Sievert to Gopalan is explicitly framed as a shift toward 'AI-driven digital transformation,' suggesting AI will become even more central to strategy.",
+  "observableMarkers": {
+    "reportingStructure": "No CAIO - AI reports through CIO (Jeff Simon), CPO (Omar Tazi), and President of Innovation (Mike Katz). Network AI (AI-RAN) likely reports through CTO (John Saw).",
+    "resourceAllocation": "Significant external partnerships (NVIDIA, OpenAI, Ericsson, Nokia) rather than building all capabilities in-house. Dedicated Innovation Center with NVIDIA supercomputer. Ring-fenced innovation center for AI-RAN.",
+    "timeHorizons": "Mixed: IntentCX launched 2025 (near-term); AI-RAN is '5G Advanced era and beyond' (3-5+ years); Satellite connectivity with SpaceX (multi-year).",
+    "decisionRights": "Centralized for network AI (Innovation Center); distributed for customer-facing AI (product teams).",
+    "metrics": "Customer service interaction reduction (target: 75% reduction within 3 years); network performance; customer experience ratings."
+  },
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "The AI-RAN Innovation Center is structurally separated from day-to-day operations, with dedicated facilities, a ring-fenced NVIDIA supercomputer, and multi-year horizons ('5G Advanced era and beyond'). This protects long-horizon network AI exploration from quarterly pressures.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Just like T-Mobile led in 5G, we intend to lead in the next wave of network technology, for the benefit of our customers.",
+      "speaker": "Mike Sievert",
+      "speakerTitle": "CEO (at time of quote)",
+      "date": "2024-09-18",
+      "source": "T-Mobile Newsroom - AI-RAN Innovation Center Announcement",
+      "sourceUrl": "https://www.t-mobile.com/news/business/t-mobile-launches-ai-ran-innovation-center-with-nvidia",
+      "context": "Announcement of AI-RAN Innovation Center partnership with NVIDIA, Ericsson, Nokia"
+    },
+    {
+      "text": "AI-RAN has tremendous potential to completely transform the future of mobile networks, but it will be difficult to get right.",
+      "speaker": "Mike Sievert",
+      "speakerTitle": "CEO (at time of quote)",
+      "date": "2024-09-18",
+      "source": "T-Mobile Newsroom - AI-RAN Innovation Center Announcement",
+      "sourceUrl": "https://www.t-mobile.com/news/business/t-mobile-launches-ai-ran-innovation-center-with-nvidia",
+      "context": "Discussing the challenges and potential of AI-RAN"
+    },
+    {
+      "text": "We are a technology leader who's transformed from a telecommunications company to a tech company.",
+      "speaker": "Mike Sievert",
+      "speakerTitle": "CEO (at time of quote)",
+      "date": "2024-12",
+      "source": "TIME Magazine Interview",
+      "sourceUrl": "https://time.com/7203701/t-mobile-us-mike-sievert-interview/",
+      "context": "Discussing T-Mobile's strategic positioning and partnerships with OpenAI and NVIDIA"
+    },
+    {
+      "text": "AI will radically increase the demands on our network, so it's going to become increasingly important that we stay ahead of that rapidly rising demand.",
+      "speaker": "Mike Sievert",
+      "speakerTitle": "CEO (at time of quote)",
+      "date": "2024-12",
+      "source": "TIME Magazine Interview",
+      "sourceUrl": "https://time.com/7203701/t-mobile-us-mike-sievert-interview/",
+      "context": "Discussing AI's impact on network infrastructure"
+    },
+    {
+      "text": "We have data from 115 million customers and we're working with Salesforce to help us create a curated experience for every single one of them.",
+      "speaker": "Mike Sievert",
+      "speakerTitle": "CEO (at time of quote)",
+      "date": "2024-09",
+      "source": "Salesforce Interview with Marc Benioff",
+      "sourceUrl": "https://www.salesforce.com/news/stories/tmobile-marc-benioff-interview/",
+      "context": "Discussing data-driven personalization and AI"
+    },
+    {
+      "text": "With new technology, we have to think about how to do it safely. Companies need to be in control, or we operate with laws that say we have to have controls, and we have to have safety and security and we have to know facts from not facts.",
+      "speaker": "Mike Sievert",
+      "speakerTitle": "CEO (at time of quote)",
+      "date": "2024-09",
+      "source": "Salesforce Interview with Marc Benioff",
+      "sourceUrl": "https://www.salesforce.com/news/stories/tmobile-marc-benioff-interview/",
+      "context": "Discussing responsible AI deployment and safety"
+    },
+    {
+      "text": "There's no question that we're just in an unprecedented moment in technology history.",
+      "speaker": "Mike Sievert",
+      "speakerTitle": "CEO (at time of quote)",
+      "date": "2024-01",
+      "source": "Yahoo Finance Interview",
+      "sourceUrl": "https://finance.yahoo.com/video/t-mobile-ceo-unprecedented-moment-002859413.html",
+      "context": "Discussing the current technology landscape including AI"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Hub-and-Spoke with AI-RAN Center and Distributed CX AI",
+      "summary": "T-Mobile operates a hybrid model with a central AI-RAN Innovation Center in Bellevue (NVIDIA/Ericsson/Nokia partnership, ARC-1 supercomputer) for long-horizon network AI, while customer-facing AI (IntentCX with OpenAI) is distributed across CIO, CPO, and President of Innovation. No CAIO exists. Leadership transition from Sievert to Gopalan (Nov 2025) signals intensified AI focus. Key targets include 75% customer interaction reduction and 60 edge data centers for AI-RAN.",
+      "sourceRefs": [
+        "t-mobile-exec-team-2026",
+        "t-mobile-ai-ran-announcement",
+        "t-mobile-time-interview-2024",
+        "t-mobile-salesforce-interview-2024"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "t-mobile-exec-team-2026",
+      "type": "Company Website",
+      "name": "T-Mobile Executive Leadership Team",
+      "url": "https://www.t-mobile.com/our-story/executive-leadership-team",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-09",
+      "notes": "Official executive bios showing AI responsibilities distributed across CIO, CPO, and President of Innovation"
+    },
+    {
+      "id": "t-mobile-ai-ran-announcement",
+      "type": "Press Release",
+      "name": "T-Mobile AI-RAN Innovation Center Announcement",
+      "url": "https://www.t-mobile.com/news/business/t-mobile-launches-ai-ran-innovation-center-with-nvidia",
+      "sourceDate": "2024-09-18",
+      "collectedDate": "2026-02-09",
+      "notes": "Key source for AI-RAN Innovation Center, partnership with NVIDIA/Ericsson/Nokia, Mike Sievert quotes on AI vision"
+    },
+    {
+      "id": "t-mobile-time-interview-2024",
+      "type": "Interview",
+      "name": "TIME Magazine - T-Mobile CEO Interview",
+      "url": "https://time.com/7203701/t-mobile-us-mike-sievert-interview/",
+      "sourceDate": "2024-12",
+      "collectedDate": "2026-02-09",
+      "notes": "Sievert discusses IntentCX, AI-RAN, 60 edge data centers, transformation from telecom to tech company"
+    },
+    {
+      "id": "t-mobile-salesforce-interview-2024",
+      "type": "Interview",
+      "name": "Salesforce - Marc Benioff Interview with Mike Sievert",
+      "url": "https://www.salesforce.com/news/stories/tmobile-marc-benioff-interview/",
+      "sourceDate": "2024-09",
+      "collectedDate": "2026-02-09",
+      "notes": "AI safety, Einstein AI implementation, 115M customer data personalization"
+    },
+    {
+      "id": "t-mobile-leadership-handoff-2025",
+      "type": "Press",
+      "name": "Techi - T-Mobile Leadership Handoff",
+      "url": "https://www.techi.com/t-mobile-leadership-change-ai-telecom-transformation/",
+      "sourceDate": "2025-10",
+      "collectedDate": "2026-02-09",
+      "notes": "Leadership transition from Sievert to Gopalan, framing as shift to 'AI-driven digital transformation'"
+    },
+    {
+      "id": "t-mobile-ceo-succession-2025",
+      "type": "Press Release",
+      "name": "T-Mobile CEO Succession Announcement",
+      "url": "https://www.t-mobile.com/news/business/srini-gopalan-new-ceo",
+      "sourceDate": "2025-09-21",
+      "collectedDate": "2026-02-09",
+      "notes": "Official announcement of Gopalan as CEO effective Nov 1, 2025; Sievert to Vice Chairman"
+    },
+    {
+      "id": "ericsson-ai-ran-blog-2024",
+      "type": "Blog",
+      "name": "Ericsson AI-RAN Blog",
+      "url": "https://www.ericsson.com/en/blog/2024/9/ericsson-joins-in-creation-of-ai-ran-innovation-center",
+      "sourceDate": "2024-09",
+      "collectedDate": "2026-02-09",
+      "notes": "Partner perspective on AI-RAN Innovation Center; NVIDIA ARC-1 supercomputer shipped to Bellevue"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Short",
+    "talentMarketPosition": "Mixed",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": 0.0,
+    "centralVsDistributed": 0.2,
+    "namedVsQuiet": -0.4,
+    "longVsShortHorizon": -0.3
+  },
+  "openQuestions": [
+    "What is the exact size of T-Mobile's internal AI/ML team? (Job postings suggest teams exist but headcount unclear)",
+    "How does the AI-RAN Innovation Center report into the corporate structure?",
+    "What is the total investment level in AI initiatives?",
+    "What is the status of IntentCX deployment since 2025 launch?",
+    "How does Gopalan's AI strategy differ from Sievert's?",
+    "What metrics does T-Mobile use internally to track AI initiative success beyond the 75% customer interaction reduction target?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] T-Mobile's M4 classification is distinctive because the 'hub' is explicitly an Innovation Center for network AI (AI-RAN) rather than a typical CoE for governance/standards. This is exploration-focused hub, not enablement-focused—closer to M1 Research Lab in function but organizationally M4 in structure because customer AI is distributed to product teams.",
+    "[2026-02] The absence of a CAIO with explicit distribution of AI across CIO, CPO, and President of Innovation is notable. This 'no single throat to choke' model may reflect telecom's infrastructure-heavy nature where AI touches multiple domains (network, customer, operations) that don't naturally report to one function.",
+    "[2026-02] T-Mobile's framing of itself as 'transformed from a telecommunications company to a tech company' (Sievert) combined with major partnerships (NVIDIA, OpenAI) suggests a buy-vs-build strategy that may be distinctive for telecom. The reliance on external partners for core AI capabilities contrasts with tech companies building in-house."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

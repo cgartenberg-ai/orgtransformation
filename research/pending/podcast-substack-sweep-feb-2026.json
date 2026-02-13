@@ -1,0 +1,215 @@
+{
+  "taskId": "podcast-substack-sweep-feb-2026",
+  "taskType": "podcast-deep-scan",
+  "scannedDate": "2026-02-12",
+  "sourceScanned": {
+    "sourceId": "tier-1-podcasts-substacks",
+    "name": "Tier 1 Podcasts + Substacks (No Priors, Acquired, BG2, Latent Space, Stratechery, Mollick, Pragmatic Engineer)",
+    "type": "Podcast + Substack",
+    "scannedThrough": "Feed check Feb 3-12, 2026",
+    "scannedThroughDate": "2026-02-12"
+  },
+  "searchesCompleted": 10,
+  "urlsFetched": 10,
+  "searchFailures": [
+    {
+      "query": "site:nopriorspod.com 2026",
+      "reason": "No results returned; site may not be indexed well. Used Apple Podcasts listing instead."
+    }
+  ],
+  "fetchFailures": [
+    {
+      "url": "https://stratechery.com/2026/an-interview-with-benedict-evans-about-ai-and-software/",
+      "reason": "Paywalled — CSS/shell only, no article content returned"
+    },
+    {
+      "url": "https://businesschief.com/news/inside-rivian-ceos-bets-on-ai-autonomy-and-total-control",
+      "reason": "403 Forbidden"
+    }
+  ],
+  "feedStatus": [
+    {
+      "sourceId": "no-priors",
+      "name": "No Priors (Sarah Guo & Elad Gil)",
+      "newContentFound": true,
+      "newEpisodes": [
+        "Ep 151 (Feb 12, 2026): Rivian's Roadmap to AI Architecture and Autonomy with Founder and CEO RJ Scaringe (~32 min)",
+        "Ep 150 (Feb 5, 2026): Introducing 4D Creation Open Beta: NPCs, 4D Worlds, and the Future of Gaming with Roblox CEO Dave Baszucki (~44 min)",
+        "Ep 149 (Jan 29, 2026): Why Cryopreservation is No Longer Science Fiction with Until Co-founder and CEO Laura Deming (~31 min)"
+      ],
+      "triageRating": "MEDIUM",
+      "notes": "Rivian/Scaringe episode (Feb 12) has some org-structural relevance: Rivian has VP of Autonomy and AI (James Philbin), SVP of Electrical Hardware (Vidya Rajagopalan), and is building in-house chips (RAP1) — vertical integration as structural choice for AI exploration while manufacturing vehicles. Roblox/Baszucki episode (Feb 5) is about AI-powered gaming creation tools — less org-structural. Deming episode is biotech, not relevant."
+    },
+    {
+      "sourceId": "acquired",
+      "name": "Acquired (Ben Gilbert & David Rosenthal)",
+      "newContentFound": false,
+      "newEpisodes": [],
+      "triageRating": "LOW",
+      "notes": "No new full episode since NFL 2026 Update (Jan 26). However, Acquired hosted the inaugural Super Bowl Innovation Summit at SFMOMA on Feb 6, 2026 — an invite-only event with ~600 leaders across tech, sport, investment, media, government. Speakers included YouTube CEO Neal Mohan, FanDuel CEO Amy Howe, Meta CTO Andrew Bosworth, and Perplexity AI. Content focused on fan engagement, global expansion, and gambling integration — NOT org-structural AI topics. No new podcast episode released from it yet."
+    },
+    {
+      "sourceId": "bg2pod",
+      "name": "BG2 Pod (Brad Gerstner & Bill Gurley)",
+      "newContentFound": false,
+      "newEpisodes": [],
+      "triageRating": "NONE",
+      "notes": "Could not find any new episodes since Dec 23, 2025 (AI Enterprise - Databricks & Glean). The podcast appears to be on hiatus or publishing less frequently. Checked bg2pod.com, Apple Podcasts, and Spotify — no 2026 episodes found."
+    },
+    {
+      "sourceId": "latent-space",
+      "name": "Latent Space (swyx & Alessio)",
+      "newContentFound": true,
+      "newEpisodes": [
+        "Feb 10, 2026: 'The Scientist and the Simulator' — AI for Science essay",
+        "Feb 10-11, 2026: AI News — Context Graphs and Agent Traces",
+        "Feb 7, 2026: 'Experts Have World Models. LLMs Have Word Models.' — adversarial reasoning essay by Ankit Maloo",
+        "Recent: 'Artificial Analysis: Independent LLM Evals as a Service' — with George Cameron and Micah-Hill Smith"
+      ],
+      "triageRating": "LOW",
+      "notes": "Active publishing but content is heavily technical/research-oriented, not org-structural. 'The Scientist and the Simulator' (Feb 10) touches on structural models for AI science (AI Science Factories like Lila Sciences, Periodic Labs) and the $111B capital allocation gap between foundation models vs. domain-specific AI — interesting for resource allocation framing but thin on organizational detail. The other articles are purely technical (adversarial reasoning, LLM evaluation benchmarking)."
+    },
+    {
+      "sourceId": "stratechery",
+      "name": "Stratechery (Ben Thompson)",
+      "newContentFound": true,
+      "newEpisodes": [
+        "Feb 11, 2026: 'AI and the Human Condition'",
+        "Feb 9, 2026: 'AI Power, Now and In 100 Years' (interview with analysts on AI infrastructure)",
+        "Feb 5, 2026: 'An Interview with Benedict Evans About AI and Software'",
+        "Feb 2026: 'Technology Doings' — includes Meta Compute announcement (Zuckerberg betting that winning AI = winning infrastructure, retreat from Reality Labs)",
+        "Feb 2026: 'The Chip Fly in the AI Ointment' — chip shortage projections for AI"
+      ],
+      "triageRating": "HIGH",
+      "notes": "Very active. Two pieces with org-structural relevance: (1) Benedict Evans interview (Feb 5) on 'the crisis facing software, the future of the corporation, OpenAI' — HIGH potential but paywalled, could not fetch content. (2) 'Technology Doings' mentions Meta Compute — Zuckerberg announced Meta is betting winning in AI = winning with infrastructure, which means retreating from Reality Labs. This is a significant structural reallocation signal for Meta (already a specimen). Both pieces behind paywall — recommend manual review."
+    },
+    {
+      "sourceId": "one-useful-thing",
+      "name": "One Useful Thing (Ethan Mollick)",
+      "newContentFound": false,
+      "newEpisodes": [],
+      "triageRating": "NONE",
+      "notes": "No new posts since 'Management as AI superpower' (Jan 27, 2026). That article (already fetched) argues that management 101 skills become the key differentiator for AI delegation — interesting framing but focuses on individual/team level, not enterprise org structure. No February 2026 content found."
+    },
+    {
+      "sourceId": "pragmatic-engineer",
+      "name": "The Pragmatic Engineer (Gergely Orosz)",
+      "newContentFound": true,
+      "newEpisodes": [
+        "Feb 12, 2026: 'The programming language after Kotlin' — podcast with Kotlin creator Andrey Breslav on keeping humans in control in the age of AI",
+        "Feb 10, 2026: Steve Yegge podcast on AI agents and software engineering's future",
+        "Feb 4, 2026: Grady Booch on 'the third golden age of software engineering' through AI",
+        "Feb 3, 2026: Deep dive on how 10 tech companies evaluate development tools"
+      ],
+      "triageRating": "MEDIUM",
+      "notes": "Active publishing. The Feb 3 article on how 10 tech companies evaluate dev tools could have org-structural content (which companies, how they decide). Pragmatic Summit held Feb 11 in SF with 400 engineers/leaders exploring 'How is AI reshaping software engineering, dev workflows, and the modern engineering stack?' — speakers included Chip Huyen, Martin Fowler, Nicole Forsgren, Kent Beck. Summit content not yet published as articles. Mostly paywalled — recommend monitoring for post-summit writeups."
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Rivian",
+      "existingSpecimen": false,
+      "structuralModel": "M5 (Vertical Integration)",
+      "orientation": "Structural",
+      "relevance": "MEDIUM",
+      "findings": [
+        {
+          "finding": "Rivian has dedicated AI/autonomy leadership: James Philbin as VP of Autonomy and AI, Vidya Rajagopalan as SVP of Electrical Hardware. Building custom in-house silicon (RAP1, 5nm processor) for autonomy compute — ACM3 processes 5 billion pixels/second. Data flywheel strategy using deployed Gen 2 R1 fleet to train Large Driving Model (LDM). Autonomous features monetized via subscription ($2,500 one-time or $49.99/month).",
+          "sourceUrl": "https://fortune.com/2025/12/15/rivian-ceo-ev-maker-new-chips-autonomous-driving-robotaxi/",
+          "sourceDate": "2025-12-15",
+          "collectedDate": "2026-02-12",
+          "relevanceTest": "Structural: dedicated AI leadership roles, in-house chip design team, vertical integration strategy. Specificity: VP name, chip specs, pricing."
+        }
+      ],
+      "notes": "Interesting case of vertical integration as exploration strategy — Rivian controls chips, sensors, software, and data pipeline to pursue autonomy while manufacturing/selling vehicles. Similar structural logic to Tesla but at smaller scale. No Priors episode (Feb 12, 2026) with Scaringe likely has more detail but is audio-only.",
+      "purposeClaimsFound": [
+        {
+          "quote": "Directly controlling our network architecture and our software platforms in our vehicles has of course created an opportunity for us to deliver amazingly rich software",
+          "speaker": "RJ Scaringe",
+          "title": "CEO and Founder, Rivian",
+          "sourceUrl": "https://fortune.com/2025/12/15/rivian-ceo-ev-maker-new-chips-autonomous-driving-robotaxi/",
+          "sourceDate": "2025-12-15",
+          "rhetoricalFunction": "Justifying vertical integration investment by linking control of technical platform to software quality — framing structural choice (build in-house) as enabling capability."
+        }
+      ]
+    },
+    {
+      "name": "Meta",
+      "existingSpecimen": true,
+      "specimenId": "meta-ai",
+      "relevance": "HIGH",
+      "findings": [
+        {
+          "finding": "Mark Zuckerberg announced Meta Compute — a bet that winning in AI means winning with infrastructure. This represents a structural pivot: investing heavily in AI compute infrastructure while retreating from Reality Labs (VR/AR). Signals a resource reallocation from one exploration frontier (metaverse/VR) to another (AI infrastructure).",
+          "sourceUrl": "https://stratechery.com/2026/technology-doings/",
+          "sourceDate": "2026-02-01",
+          "collectedDate": "2026-02-12",
+          "relevanceTest": "Structural: resource reallocation between two exploration frontiers. Tension: abandoning one bet (Reality Labs) to double down on another (AI compute). Specificity: named initiative (Meta Compute), CEO decision."
+        }
+      ],
+      "notes": "Significant evolution for existing Meta AI specimen. The retreat from Reality Labs + launch of Meta Compute represents a structural reallocation. Full details behind Stratechery paywall — recommend manual review of 'Technology Doings' article."
+    },
+    {
+      "name": "Lila Sciences",
+      "existingSpecimen": false,
+      "structuralModel": "M7 (AI-Native Startup)",
+      "orientation": "Structural",
+      "relevance": "LOW",
+      "findings": [
+        {
+          "finding": "Described as 'AI Science Factories' — automated labs with feedback loops between AI design and robotic execution. Represents a structural model where AI is not a department but the entire operating model.",
+          "sourceUrl": "https://www.latent.space/p/scientist-simulator",
+          "sourceDate": "2026-02-10",
+          "collectedDate": "2026-02-12",
+          "relevanceTest": "Structural: AI-native operating model. Thin on specifics — no headcount, leadership, or governance details."
+        }
+      ],
+      "notes": "Mentioned in Latent Space essay. Interesting as a pure AI-native science company but very thin on organizational details."
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "Capital allocation gap in AI: Foundation models ($111B in 2024-2025) vs. AI drug discovery ($7.6B) vs. materials/climate AI ($500M-$1B)",
+      "source": "Latent Space 'The Scientist and the Simulator' (Feb 10, 2026)",
+      "sourceUrl": "https://www.latent.space/p/scientist-simulator",
+      "relevance": "Shows where organizational resources are flowing — frontier labs prioritize general intelligence over domain-specific applications, creating structural opportunities for specialist firms."
+    },
+    {
+      "trend": "Pragmatic Summit (Feb 11, 2026): 400 senior engineers/leaders convened in SF to discuss 'How is AI reshaping software engineering, dev workflows, and the modern engineering stack?' — speakers included Chip Huyen, Martin Fowler, Nicole Forsgren, Kent Beck",
+      "source": "Pragmatic Engineer newsletter + pragmaticsummit.com",
+      "sourceUrl": "https://www.pragmaticsummit.com/",
+      "relevance": "Signals that AI's impact on engineering org structure is a top-of-mind concern for engineering leadership. Post-summit writeups may contain org-structural insights. Monitor for published content."
+    },
+    {
+      "trend": "Meta pivoting from Reality Labs (VR/AR) to Meta Compute (AI infrastructure) — resource reallocation between exploration frontiers",
+      "source": "Stratechery 'Technology Doings' (Feb 2026)",
+      "sourceUrl": "https://stratechery.com/2026/technology-doings/",
+      "relevance": "HIGH — illustrates how organizations make structural bets between competing exploration frontiers. Zuckerberg framing AI infrastructure as the winning strategy while retreating from metaverse bet."
+    }
+  ],
+  "newSourcesDiscovered": [],
+  "purposeClaimsDiscovered": [
+    {
+      "quote": "Directly controlling our network architecture and our software platforms in our vehicles has of course created an opportunity for us to deliver amazingly rich software",
+      "speaker": "RJ Scaringe",
+      "title": "CEO and Founder, Rivian",
+      "company": "Rivian",
+      "sourceUrl": "https://fortune.com/2025/12/15/rivian-ceo-ev-maker-new-chips-autonomous-driving-robotaxi/",
+      "sourceDate": "2025-12-15",
+      "collectedDate": "2026-02-12",
+      "rhetoricalFunction": "Justifying vertical integration investment by linking control of technical platform to software quality",
+      "notes": "Thin as a standalone purpose claim — more of a strategic rationale than a mission/identity invocation. The No Priors episode (Feb 12) likely has richer quotes."
+    },
+    {
+      "quote": "With our in-house silicon development, we're able to start our software development almost a year ahead",
+      "speaker": "Vidya Rajagopalan",
+      "title": "SVP of Electrical Hardware, Rivian",
+      "company": "Rivian",
+      "sourceUrl": "https://fortune.com/2025/12/15/rivian-ceo-ev-maker-new-chips-autonomous-driving-robotaxi/",
+      "sourceDate": "2025-12-15",
+      "collectedDate": "2026-02-12",
+      "rhetoricalFunction": "Justifying in-house chip development by emphasizing speed-to-capability advantage — structural choice (vertical integration) framed as time-to-market accelerator",
+      "notes": "Operational claim rather than purpose/identity claim. Included for completeness."
+    }
+  ]
+}

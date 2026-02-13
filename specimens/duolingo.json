@@ -124,7 +124,11 @@
     "longVsShortHorizon": null
   },
   "openQuestions": [],
-  "taxonomyFeedback": [],
+  "taxonomyFeedback": [
+    "[2026-02] Duolingo reveals an M3 edge case where AI *is* the product core rather than being embedded *in* the product. Most M3 specimens show AI teams adding features to existing products (recommendation engines, chatbots, search improvements). Here, Birdbrain processes 1.25B daily exercises to personalize learning—the AI isn't a feature layer, it's the pedagogical engine itself. This raises a classification boundary question: when does deeply-embedded AI stop being M3 and become M9 (AI-native)? The 2018 timing suggests Duolingo transformed into AI-centricity rather than being born that way, but the structural outcome resembles M9 more than typical M3.",
+    "[2026-02] The 2023 GPT-4 integration pattern is structurally interesting: Duolingo added frontier model capabilities (Explain My Answer, Roleplay) without creating new organizational structure. Most specimens show that adopting frontier models triggers structural change—new teams, governance bodies, or at minimum tiger teams (M7). Duolingo absorbed GPT-4 into existing product workflows with no visible structural adjustment. This suggests a contingency hypothesis: organizations where AI is already core to the product can integrate new AI capabilities contextually, while organizations where AI is peripheral require structural accommodation. Scale matters too—at 800 employees with $700M revenue, Duolingo may be small enough to avoid the coordination costs that force larger orgs into M2/M4 governance structures.",
+    "[2026-02] Mechanism 4 (Consumer-Grade UX) is mislabeled here. The mechanism is 'Consumer-Grade UX for *Employee* Tools'—the insight being that internal tools should be as polished as consumer products. Duolingo's AI *is* consumer-facing, so this isn't the mechanism at work. What's actually visible is an unnamed mechanism about data flywheel economics: Birdbrain updates daily from 1.25B exercises completed by 31M+ MAU, creating a compounding advantage where scale → data → personalization → engagement → more scale. This is closer to 'Productize Internal Advantages' (M10) but external-facing. The absence of a named mechanism here suggests a gap in the taxonomy for externally-facing AI flywheels that are core product rather than internal tooling."
+  ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",

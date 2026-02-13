@@ -1,0 +1,23 @@
+{
+  "specimenId": "walmart",
+  "scannedDate": "2026-02-07",
+  "quality": "rich",
+  "claimCount": 13,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 1,
+    "higher-calling": 1,
+    "identity": 4,
+    "survival": 3,
+    "commercial-success": 3
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

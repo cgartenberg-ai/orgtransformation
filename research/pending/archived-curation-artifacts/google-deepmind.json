@@ -1,0 +1,61 @@
+{
+  "company": "Google DeepMind",
+  "ticker": "GOOGL",
+  "sector": "Technology",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 1,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 1,
+    "suggestedModelName": "Research Lab",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "I do [expect] to go through the year in a supply constrained way.",
+      "speaker": "Sundar Pichai",
+      "speakerTitle": "CEO",
+      "source": "earnings-q4-2025-amazon-google.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Q&A, Q4 2025 earnings call \u2014 on whether AI compute capacity will be sufficient in 2026"
+    },
+    {
+      "text": "Our AI investments and infrastructure drive revenue and growth across the board.",
+      "speaker": "Sundar Pichai",
+      "speakerTitle": "CEO",
+      "source": "earnings-q4-2025-amazon-google.json",
+      "sourceUrl": "https://9to5google.com/2026/02/04/alphabet-q4-2025-earnings/",
+      "sourceDate": "",
+      "context": "Prepared remarks, Q4 2025 earnings call"
+    },
+    {
+      "text": "We're also planning to continue hiring in key investment areas such as AI and cloud.",
+      "speaker": "Anat Ashkenazi",
+      "speakerTitle": "CFO",
+      "source": "earnings-q4-2025-amazon-google.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Prepared remarks, Q4 2025 earnings call"
+    }
+  ],
+  "sources": [
+    {
+      "name": "$175-185B 2026 CapEx guidance \u2014 nearly doubling 2025 spend",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2026-02-04",
+      "notes": "$175-185B 2026 CapEx guidance \u2014 nearly doubling 2025 spend"
+    }
+  ],
+  "summary": "$175-185B 2026 CapEx guidance \u2014 nearly doubling 2025 spend: Alphabet plans $175-185 billion in 2026 capital expenditures, up from $91.4B in 2025 \u2014 nearly doubling. Breakdown: 60% servers/compute, 40% data centers/networking. Half of ML compute is allocated to  50% of Google's code now written by AI agents: CFO Anat Ashkenazi revealed that approximately 50% of Google's code is now written by AI agents, with human engineers reviewing the output. This is a major structural finding \u2014 it implies a fundamenta Gemini reaches 750M MAU, up from 650M in Q3 \u2014 Gemini 3 Pro processes 3x daily tokens: Gemini app reached 750 million monthly active users (+100M in Q4, up from 650M reported in Q3). Gemini 3 Pro processes 3x daily tokens vs. Gemini 2.5 Pro. The platform now processes over 10 billion to Gemini serving costs reduced 78% in 2025: Pichai announced that Gemini serving unit costs were lowered by 78% over 2025 through model optimizations, efficiency improvements, and utilization improvements. This dramatic cost reduction is a crit",
+  "openQuestions": [],
+  "splitFrom": "earnings-q4-2025-amazon-google.json"
+}

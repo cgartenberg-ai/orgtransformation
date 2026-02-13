@@ -1,0 +1,246 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "mount-sinai-health-system",
+  "name": "Mount Sinai Health System",
+  "title": "Academic Health System Pioneers Hub-and-Spoke AI with Dedicated Research Department",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 2,
+    "secondaryModelName": "Center of Excellence",
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "High",
+    "classificationRationale": "Mount Sinai exhibits textbook M4 Hybrid/Hub-and-Spoke structure: the Hamilton and Amabel James Center for AI and Human Health serves as the central hub (65,000 sq ft, 12-story dedicated facility with 40+ PIs and 250+ staff), while distributed teams deploy AI across the eight-hospital system. The Windreich Department creates enterprise 'AI Fabric' infrastructure centrally, while Clinical Data Science and Digital Technology Partners teams execute in specific clinical contexts. CAIO Nadkarni explicitly advocates for 'infrastructure that spans the enterprise' with a 'hub-and-satellite model.' M2 Center of Excellence is secondary because the Windreich Department also provides governance, standards, and enablement functions. Orientation is clearly Structural—exploration (research department with 3-10 year horizons) and execution (clinical deployment with 6-24 month horizons) are housed in distinct organizational units.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Healthcare",
+    "sector": "Academic Health System",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "New York, NY",
+    "geography": "Regional (New York metropolitan area)"
+  },
+  "description": "Mount Sinai Health System operates one of the most mature hub-and-spoke AI structures in healthcare, anchored by the Hamilton and Amabel James Center for AI and Human Health—a 65,000 square foot, 12-story facility that houses the first dedicated AI department in a US medical school. The Windreich Department of AI and Human Health, led by Chief AI Officer Girish Nadkarni, serves as the central hub providing enterprise AI infrastructure, fundamental research, and governance standards. Satellite teams in Digital Technology Partners (under CDTO Robbie Freeman) and Clinical Data Science deploy AI solutions across the eight-hospital system.\n\nThe organization emphasizes a philosophy of 'culture over cutting-edge models,' with leaders explicitly stating that AI work is '5% technology and 95% the people, process, and change management.' Governance follows a centralized-intake, distributed-execution model: anyone can submit AI ideas through centralized intake, which are then evaluated on four dimensions (decision-making speed, reversibility, criticality, proximity to patient care) with calibrated assurance requirements. All clinical AI maintains human-in-the-loop design principles.\n\nMount Sinai demonstrates clear structural ambidexterity with the research function operating on 3-10 year horizons (fundamental AI research, genomics, drug discovery) while clinical deployment teams work on 6-24 month cycles. The system has deployed 17 AI products for clinical use, including malnutrition identification tools that improved detection 2.5-3x and documentation tools saving 20 minutes per 12-hour nursing shift.",
+  "observableMarkers": {
+    "reportingStructure": "NO SINGLE CAIO — distributed leadership across specialized roles: Lisa Stump (EVP, Chief Digital Information Officer and Dean of IT at Icahn School of Medicine), Robbie Freeman (VP for Digital Experience and Chief Nursing Informatics Officer), Nicholas Gavin (VP, Chief Clinical Innovation Officer, Associate CMIO for Digital Health) [mount-sinai-dragon-copilot-2025]. AI leadership distributed across CDIO, CNIO, CCIO roles rather than unified under single CAIO. Windreich Department of AI and Human Health led by Girish Nadkarni (Chief AI Officer for academic function) [mount-sinai-ortho-spine-2025]. Domain-specific AI sub-centers: Center for AI in Children's Health (indicating segmentation by patient population) [mount-sinai-newsroom-2024]. Microsoft Dragon Copilot rolled out system-wide — major ambient clinical AI vendor partnership [mount-sinai-dragon-copilot-2025].",
+    "resourceAllocation": "Dedicated 12-story facility [mount-sinai-newsroom-2024]; philanthropic funding for research center; ring-fenced AI department with full academic resources [mount-sinai-newsroom-2024]. Experience-led model considers build/buy/partner for each use case [mount-sinai-health-system-cio-2025].",
+    "timeHorizons": "Mixed: research function has 3-10 year horizon (fundamental AI research, genomics, drug discovery) [mount-sinai-ortho-spine-2025]; clinical deployment has 6-24 month horizon (17 AI products deployed) [mount-sinai-health-system-cio-2025]; immediate-term workflow improvements (NutriScan, pressure injury prediction) [mount-sinai-health-system-cio-2025].",
+    "decisionRights": "Centralized governance with distributed idea generation. Anyone can submit AI ideas through centralized intake [mount-sinai-ortho-spine-2025]. Risk scoring and guardrails calibrate assurance requirements to use case (lighter for back-office, heavier for clinical decision support) [mount-sinai-ortho-spine-2025]. Always human-in-the-loop for clinical tools [mount-sinai-healthcare-brew-2024].",
+    "metrics": "Four-dimension evaluation: decision-making speed, reversibility, criticality, proximity to patient care [mount-sinai-ortho-spine-2025]. Also track quality ratings, reimbursement improvements (e.g., malnutrition identification 2.5-3x improvement), and documentation burden reduction (20 min per 12-hour shift) [mount-sinai-health-system-cio-2025]."
+  },
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "The Windreich Department operates with dedicated philanthropic funding and academic ring-fencing, allowing fundamental research on 3-10 year horizons separate from operational pressures. The 12-story dedicated facility provides physical and organizational separation for exploration work.",
+      "strength": "Strong"
+    },
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "CDTO Freeman emphasizes 'experience-led' approach across three journeys (patient, clinician, workforce), treating internal users with product-grade attention. The myMountSinai app and employee digital front door reflect this consumer-grade mindset for internal tools.",
+      "strength": "Moderate"
+    },
+    {
+      "id": 8,
+      "name": "Turn Compliance Into Deployment Advantage",
+      "evidence": "Mount Sinai uses a four-dimension risk framework (decision-making speed, reversibility, criticality, proximity to patient care) that calibrates assurance requirements proportionally—enabling faster deployment for low-risk use cases while maintaining rigor for clinical decision support. This governance approach turns healthcare's regulatory burden into a structured deployment advantage.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Think about building infrastructure that spans the enterprise, not just point solutions, and build to scale, not to pilot.",
+      "speaker": "Girish Nadkarni",
+      "speakerTitle": "Chair, Windreich Department of AI and Human Health; Chief AI Officer",
+      "source": "Ortho Spine News",
+      "sourceUrl": "https://orthospinenews.com/2025/10/03/mount-sinais-dr-girish-nadkarni-reveals-the-blueprint-for-healthcare-ai/",
+      "sourceDate": "2025-10",
+      "context": "Advice for fellow Chief AI Officers on enterprise AI strategy"
+    },
+    {
+      "text": "If you sort of meet people where they are and include them in the change management process, that becomes this self-perpetuating flywheel where people who adopted it tell other people about it.",
+      "speaker": "Girish Nadkarni",
+      "speakerTitle": "Chair, Windreich Department of AI and Human Health; Chief AI Officer",
+      "source": "CAIO Connect Podcast / Ortho Spine News",
+      "sourceUrl": "https://orthospinenews.com/2025/10/03/mount-sinais-dr-girish-nadkarni-reveals-the-blueprint-for-healthcare-ai/",
+      "sourceDate": "2025-10",
+      "context": "On user adoption and change management for AI initiatives"
+    },
+    {
+      "text": "We can't offer Silicon Valley salaries, but health systems are the place to make an immediate, measurable, and visible impact on care because health systems treat millions of patients per year.",
+      "speaker": "Girish Nadkarni",
+      "speakerTitle": "Chair, Windreich Department of AI and Human Health; Chief AI Officer",
+      "source": "American Bazaar / Healthcare Industry Today",
+      "sourceUrl": "https://healthcareindustrytoday.com/article/854976127-mount-sinai-s-dr-girish-nadkarni-reveals-the-blueprint-for-healthcare-ai",
+      "sourceDate": "2025-11",
+      "context": "On attracting AI talent to healthcare vs. tech industry"
+    },
+    {
+      "text": "Our projects, this work, is just 5% technology and 95% the people, process, and change management.",
+      "speaker": "Robbie Freeman",
+      "speakerTitle": "Chief Digital Transformation Officer",
+      "source": "Health System CIO",
+      "sourceUrl": "https://healthsystemcio.com/2025/11/12/mount-sinais-freeman-lays-out-keys-for-moving-ai-initiatives-from-pilots-to-scale/",
+      "sourceDate": "2025-11",
+      "context": "On the relative importance of technology vs. organizational factors in AI success"
+    },
+    {
+      "text": "It never works when we just flip the switch and turn it on.",
+      "speaker": "Robbie Freeman",
+      "speakerTitle": "Chief Digital Transformation Officer",
+      "source": "Health System CIO",
+      "sourceUrl": "https://healthsystemcio.com/2025/11/12/mount-sinais-freeman-lays-out-keys-for-moving-ai-initiatives-from-pilots-to-scale/",
+      "sourceDate": "2025-11",
+      "context": "On the importance of preparation and change management before AI rollouts"
+    },
+    {
+      "text": "That is not the case. We always keep the human in the loop—the clinician in the loop. These are tools, but it's not meant to replace clinical decision-making.",
+      "speaker": "Robbie Freeman",
+      "speakerTitle": "Chief Digital Transformation Officer",
+      "source": "Healthcare Brew",
+      "sourceUrl": "https://www.healthcare-brew.com/stories/2024/05/09/mount-sinai-s-chief-nursing-informatics-officer-talks-leveraging-tech-to-improve-patient-safety",
+      "sourceDate": "2024-05",
+      "context": "Addressing misconception that AI runs autonomously in clinical settings"
+    },
+    {
+      "text": "Investing in AI research and development within academic institutions is essential [for using AI] for the greater good.",
+      "speaker": "Dennis S. Charney",
+      "speakerTitle": "Anne and Joel Ehrenkranz Dean, Icahn School of Medicine at Mount Sinai",
+      "source": "Mount Sinai Newsroom",
+      "sourceUrl": "https://www.mountsinai.org/about/newsroom/2024/mount-sinai-opens-the-hamilton-and-amabel-james-center-for-artificial-intelligence-and-human-health-to-transform-health-care-by-spearheading-the-ai-revolution",
+      "sourceDate": "2024-11",
+      "context": "On why academic health systems should lead AI development"
+    },
+    {
+      "text": "Mount Sinai is revolutionizing doctors' capacity to diagnose and treat patients, reshaping the future of health care.",
+      "speaker": "Eric Nestler",
+      "speakerTitle": "Director, Friedman Brain Institute; Dean for Academic and Scientific Affairs",
+      "source": "Mount Sinai Newsroom",
+      "sourceUrl": "https://www.mountsinai.org/about/newsroom/2024/mount-sinai-opens-the-hamilton-and-amabel-james-center-for-artificial-intelligence-and-human-health-to-transform-health-care-by-spearheading-the-ai-revolution",
+      "sourceDate": "2024-11",
+      "context": "On the transformative potential of the new AI center"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "Initial specimen collection",
+      "summary": "Mount Sinai operates a mature M4 hub-and-spoke AI structure with the Hamilton and Amabel James Center (65,000 sq ft, 12-story facility opened 2024) as the central hub housing the first AI department in a US medical school. Three-pillar structure: Windreich Department (research/infrastructure under CAIO Nadkarni), Digital Technology Partners (deployment under CDTO Freeman), and Clinical Data Science. 17 AI products deployed with explicit 'culture over cutting-edge' and human-in-the-loop philosophy. Philanthropic funding from Blackstone's Hamilton James.",
+      "sourceRefs": [
+        "mount-sinai-health-system-cio-2025",
+        "mount-sinai-newsroom-2024",
+        "mount-sinai-ortho-spine-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "mount-sinai-health-system-cio-2025",
+      "name": "Health System CIO - Freeman interview",
+      "url": "https://healthsystemcio.com/2025/11/12/mount-sinais-freeman-lays-out-keys-for-moving-ai-initiatives-from-pilots-to-scale/",
+      "type": "Interview",
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-09",
+      "notes": "Excellent detail on governance model, three journeys framework, experience-led approach, pilot-to-scale methodology"
+    },
+    {
+      "id": "mount-sinai-newsroom-2024",
+      "name": "Mount Sinai Newsroom - AI Center Opening",
+      "url": "https://www.mountsinai.org/about/newsroom/2024/mount-sinai-opens-the-hamilton-and-amabel-james-center-for-artificial-intelligence-and-human-health-to-transform-health-care-by-spearheading-the-ai-revolution",
+      "type": "Press",
+      "sourceDate": "2024-11",
+      "collectedDate": "2026-02-09",
+      "notes": "Official announcement of 12-story AI center; investment details; philanthropic support from Blackstone's Tony James"
+    },
+    {
+      "id": "mount-sinai-ortho-spine-2025",
+      "name": "Ortho Spine News - Nadkarni Blueprint",
+      "url": "https://orthospinenews.com/2025/10/03/mount-sinais-dr-girish-nadkarni-reveals-the-blueprint-for-healthcare-ai/",
+      "type": "Press",
+      "sourceDate": "2025-10",
+      "collectedDate": "2026-02-09",
+      "notes": "Key strategic quotes from CAIO; four-dimension evaluation framework; culture-first philosophy"
+    },
+    {
+      "id": "mount-sinai-caio-podcast-2025",
+      "name": "CAIO Connect Podcast",
+      "url": "https://the-caio-podcast-with-sanjay-pu.cohostpodcasting.com/episodes/scaling-ai-in-health-systems-lessons-from-mount-sinai-with-dr-girish-nadkarni-caio-connect-podcast",
+      "type": "Interview",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-09",
+      "notes": "Podcast with Dr. Nadkarni on scaling AI in health systems; mentions graph learning, agentic AI, small language models"
+    },
+    {
+      "id": "mount-sinai-icahn-overview-2025",
+      "name": "Icahn School of Medicine - AI at Mount Sinai",
+      "url": "https://icahn.mssm.edu/about/artificial-intelligence",
+      "type": "Blog",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-09",
+      "notes": "Official overview of Windreich Department and AI initiatives"
+    },
+    {
+      "id": "mount-sinai-healthcare-brew-2024",
+      "name": "Healthcare Brew - Freeman Interview",
+      "url": "https://www.healthcare-brew.com/stories/2024/05/09/mount-sinai-s-chief-nursing-informatics-officer-talks-leveraging-tech-to-improve-patient-safety",
+      "type": "Interview",
+      "sourceDate": "2024-05",
+      "collectedDate": "2026-02-09",
+      "notes": "Human-in-the-loop philosophy; national advocacy work with ANA"
+    },
+    {
+      "id": "mount-sinai-dragon-copilot-2025",
+      "name": "Mount Sinai Health System — Microsoft Dragon Copilot Rollout",
+      "type": "press-release",
+      "url": "https://www.mountsinai.org/about/newsroom/2025/mount-sinai-health-system-to-roll-out-microsoft-dragon-copilot",
+      "publicationDate": "2025",
+      "collectedDate": "2026-02-10",
+      "notes": "System-wide Dragon Copilot deployment. Named leaders: Stump (CDIO), Freeman (CNIO), Gavin (CCIO)."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Non-traditional",
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.7,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": -0.4,
+    "namedVsQuiet": -0.8,
+    "longVsShortHorizon": -0.4
+  },
+  "openQuestions": [
+    "Specific budget/investment figures for AI initiatives",
+    "Total AI headcount across the three pillars (Windreich, DTP, Clinical Data Science)",
+    "Details on the relationship between CEO Brendan Carr and AI leadership",
+    "Specific HIMSS 2026 presentation content on nursing informatics and human-AI partnership"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Mount Sinai represents an unusually clean M4 specimen in healthcare—most health systems lack both the philanthropic funding and academic structure to create a true research hub. The Blackstone-funded James Center provides physical and financial separation that enables structural ambidexterity rarely seen in the sector. This may be a distinctive 'academic health system' variant of M4 where the hub is explicitly academic rather than corporate.",
+    "[2026-02] The dual CAIO/CDTO structure is notable: Nadkarni owns research and infrastructure, Freeman owns deployment and experience. This separation of 'build the platform' from 'deploy the applications' creates clear swim lanes that may be essential in high-regulatory environments where accountability must be unambiguous.",
+    "[2026-02] Nadkarni's framing of 'infrastructure that spans the enterprise, not point solutions' and Freeman's '5% technology, 95% people/process' suggest healthcare AI leaders are converging on a shared playbook that prioritizes organizational change over technical sophistication. This may be a sector-specific adaptation to high regulatory intensity."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

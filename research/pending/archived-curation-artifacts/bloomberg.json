@@ -1,0 +1,187 @@
+{
+  "company": "Bloomberg",
+  "ticker": "PRIVATE",
+  "leader": "Michael Bloomberg",
+  "leaderTitle": "Founder and CEO",
+  "sector": "Media / Financial Data",
+  "quadrant": "Q3",
+  "scannedDate": "2026-02-09",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://pro.bloombergtax.com/insights/company-news/new-bloomberg-tax-ai-lab-enables-ai-functions-for-bloomberg-tax-research/ (403 Forbidden)"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Contextual",
+    "confidence": "High",
+    "rationale": "Bloomberg has a central AI Strategy & Research team in the Office of the CTO (hub), led by Amanda Stent, that sets strategy and breaks down barriers, while 350+ AI experts are distributed across engineering teams (AI Search Engineering, AI Enrichment Engineering, AI Finance Engineering) in multiple locations (NYC, London, Princeton, Toronto). The 'hammers looking for nails' philosophy indicates contextual orientation—AI experts are embedded and looking for problems to solve within their domains, rather than operating in a separate research silo. The 15-year track record of pragmatic AI application (since 2009) and domain-expert-led product development reinforces the hybrid model with strong integration into business units.",
+    "aiTeamStructure": "Central hub: AI Strategy & Research team in Office of the CTO, led by Amanda Stent. Distributed spokes: AI Engineering group with 350+ researchers and engineers across 4 locations (NYC, London, Princeton, Toronto), organized into specialized teams—AI Search Engineering (Terminal search), AI Enrichment Engineering (document parsing, entity extraction), AI Finance Engineering (time-series prediction, pricing, dividend forecasting). Teams collaborate closely with Core Product, Data, Enterprise Data, Enterprise Products, CTO Office, and application development teams. Human-in-the-loop approach with Bloomberg Intelligence analysts training LLMs.",
+    "keyPeople": [
+      {"name": "Shawn Edwards", "title": "Chief Technology Officer", "role": "Sets global technology strategy, drives AI transformation, recognized on Constellation Research AI150 list 2024-2025"},
+      {"name": "Amanda Stent", "title": "Head of AI Strategy & Research, Office of the CTO", "role": "Leads AI strategy across 25,000+ employee organization, works across engineering, product, data science, legal, and external partners"},
+      {"name": "Ania Musial", "title": "Product Team Lead, Machine Learning Platforms, CTO AI Strategy & Research", "role": "Leads ML platform products"},
+      {"name": "Andrew Skala", "title": "Global Head of Research", "role": "Oversees AI-powered research products including earnings call summaries"}
+    ],
+    "investmentSignals": "350+ AI researchers and engineers (per Stent) or 300+ (per Edwards). Large GPU cluster for deep learning/neural network training. 15+ years of AI investment since 2009. AWS partnership for LLM training on historical financial data. Tetrate partnership on Envoy AI Gateway (open-source infrastructure for multi-LLM management). No specific budget/CapEx figures disclosed (private company).",
+    "observableMarkers": {
+      "reportingStructure": "AI Strategy & Research reports to CTO (Shawn Edwards). AI Engineering teams distributed across product groups. Human-in-the-loop approach with domain experts (Bloomberg Intelligence analysts) training and reviewing AI outputs.",
+      "resourceAllocation": "Dedicated AI headcount (350+), dedicated GPU infrastructure, dedicated partnerships (AWS, Tetrate). Ring-fenced AI team with cross-functional collaboration model.",
+      "timeHorizons": "Mixed. Long-term: 15-year track record of incremental AI building since 2009. Medium-term: product releases like earnings call summaries (2024), news summaries (2025). Near-term: quarterly product enhancements and new feature launches.",
+      "decisionRights": "Centralized strategy (CTO office sets direction), distributed execution (AI engineers work with domain teams). Pragmatic filter: 'figure out what our clients' needs are, and then how we can address those needs, using AI if necessary.'",
+      "metrics": "Client needs and value-add are primary metrics. Responsible AI pillars: protection, transparency, reproducibility, robustness. Accuracy and source traceability (all AI outputs link back to original sources). Risk governance: regular security assessments, pen testing, red teaming."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "For more than a decade, Bloomberg has been leading the charge when it comes to the innovative and pragmatic use of AI in the finance sector. This award underscores the fact that we have a dedicated team of more than 300 AI researchers and engineers that is thoughtfully considering how AI can best be implemented to add value to our financial products.",
+      "speaker": "Shawn Edwards",
+      "speakerTitle": "Chief Technology Officer",
+      "source": "Bloomberg Press Release",
+      "sourceUrl": "https://www.bloomberg.com/company/press/bloomberg-cto-shawn-edwards-constellation-research-ai150/",
+      "sourceDate": "2024",
+      "context": "Recognition on Constellation Research AI150 list"
+    },
+    {
+      "text": "Generative AI illustrates all of these challenges. It is not a silly fad. It's one of the most exciting advancements we've seen in decades and we're already finding this incredibly powerful tool useful in real products.",
+      "speaker": "Shawn Edwards",
+      "speakerTitle": "Chief Technology Officer",
+      "source": "Fast Company Middle East",
+      "sourceUrl": "https://fastcompanyme.com/technology/this-is-what-bloombergs-cto-thinks-of-ai-and-the-future-of-technological-experimentation/",
+      "sourceDate": "2024",
+      "context": "Discussion of balancing innovation with pragmatism"
+    },
+    {
+      "text": "Finance is an industry that relies on facts to make mission-critical decisions. So, one crucial principle we think about when designing solutions using Generative AI is that we derive answers from trusted sources.",
+      "speaker": "Shawn Edwards",
+      "speakerTitle": "Chief Technology Officer",
+      "source": "Fast Company Middle East",
+      "sourceUrl": "https://fastcompanyme.com/technology/this-is-what-bloombergs-cto-thinks-of-ai-and-the-future-of-technological-experimentation/",
+      "sourceDate": "2024",
+      "context": "Bloomberg's approach to trusted data in AI"
+    },
+    {
+      "text": "We have more than 350 AI experts at the company.",
+      "speaker": "Amanda Stent",
+      "speakerTitle": "Head of AI Strategy & Research, Office of the CTO",
+      "source": "Computing UK",
+      "sourceUrl": "https://www.computing.co.uk/interview/2025/bloomberg-all-our-ai-experts-are-hammers-looking-for-nails",
+      "sourceDate": "2025",
+      "context": "Describing Bloomberg's AI workforce scale"
+    },
+    {
+      "text": "All those people [350 AI experts] are hammers looking for nails.",
+      "speaker": "Amanda Stent",
+      "speakerTitle": "Head of AI Strategy & Research, Office of the CTO",
+      "source": "Computing UK",
+      "sourceUrl": "https://www.computing.co.uk/interview/2025/bloomberg-all-our-ai-experts-are-hammers-looking-for-nails",
+      "sourceDate": "2025",
+      "context": "Describing Bloomberg's distributed AI expertise model"
+    },
+    {
+      "text": "Figure out what our clients' needs are, and then how we can address those needs, using AI if necessary.",
+      "speaker": "Amanda Stent",
+      "speakerTitle": "Head of AI Strategy & Research, Office of the CTO",
+      "source": "Computing UK",
+      "sourceUrl": "https://www.computing.co.uk/interview/2025/bloomberg-all-our-ai-experts-are-hammers-looking-for-nails",
+      "sourceDate": "2025",
+      "context": "Bloomberg's needs-driven AI philosophy"
+    },
+    {
+      "text": "Many people think you can just lay AI on top like icing on a cake, but to make it work you must reorganise all your data and redo your technology infrastructure.",
+      "speaker": "Amanda Stent",
+      "speakerTitle": "Head of AI Strategy & Research, Office of the CTO",
+      "source": "Tech Monitor",
+      "sourceUrl": "https://www.techmonitor.ai/ai-and-automation/bloombergs-ai-powered-earnings-call-summaries/",
+      "sourceDate": "2024",
+      "context": "On the requirements for successful AI implementation"
+    },
+    {
+      "text": "We're going to see an increasing focus on these new AI techniques, not just for language, but also for images, music, sequences of genomes, any kind of data.",
+      "speaker": "Amanda Stent",
+      "speakerTitle": "Head of AI Strategy & Research, Office of the CTO",
+      "source": "University of Rochester",
+      "sourceUrl": "https://www.rochester.edu/newscenter/amanda-stent-bloomberg-artificial-intelligence-industry-academia-636112/",
+      "sourceDate": "2025",
+      "context": "Bloomberg's expanding AI focus beyond NLP"
+    },
+    {
+      "text": "There's an idea that we should just reopen all of our nuclear power plants to fuel bigger models that don't really have more explanatory power.",
+      "speaker": "Amanda Stent",
+      "speakerTitle": "Head of AI Strategy & Research, Office of the CTO",
+      "source": "University of Rochester",
+      "sourceUrl": "https://www.rochester.edu/newscenter/amanda-stent-bloomberg-artificial-intelligence-industry-academia-636112/",
+      "sourceDate": "2025",
+      "context": "Critique of unsustainable AI expansion"
+    },
+    {
+      "text": "With our release of AI-Powered Earnings Call Summaries, we continue to revolutionize the research process by serving customers solutions that combine deep financial domain knowledge, technology expertise and world-class content.",
+      "speaker": "Andrew Skala",
+      "speakerTitle": "Global Head of Research",
+      "source": "PRNewswire / Bloomberg Press Release",
+      "sourceUrl": "https://www.prnewswire.com/news-releases/bloomberg-launches-ai-powered-earnings-call-summaries-302040670.html",
+      "sourceDate": "2024-01-22",
+      "context": "Launch of AI-Powered Earnings Call Summaries"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Bloomberg CTO Shawn Edwards AI150 Recognition",
+      "url": "https://www.bloomberg.com/company/press/bloomberg-cto-shawn-edwards-constellation-research-ai150/",
+      "type": "Press",
+      "date": "2024",
+      "notes": "CTO recognition, AI team size (300+), decade of AI leadership claim"
+    },
+    {
+      "name": "Amanda Stent - University of Rochester Profile",
+      "url": "https://www.rochester.edu/newscenter/amanda-stent-bloomberg-artificial-intelligence-industry-academia-636112/",
+      "type": "Interview",
+      "date": "2025",
+      "notes": "Role description, team scope (25,000+ employees), AI strategy focus areas"
+    },
+    {
+      "name": "Computing UK - Bloomberg AI Strategy Interview",
+      "url": "https://www.computing.co.uk/interview/2025/bloomberg-all-our-ai-experts-are-hammers-looking-for-nails",
+      "type": "Interview",
+      "date": "2025",
+      "notes": "350+ AI experts, 'hammers looking for nails' philosophy, responsible AI pillars, deployed products list"
+    },
+    {
+      "name": "Tech Monitor - Bloomberg AI Earnings Call Summaries",
+      "url": "https://www.techmonitor.ai/ai-and-automation/bloombergs-ai-powered-earnings-call-summaries/",
+      "type": "Press",
+      "date": "2024",
+      "notes": "Decade of AI development, human-in-the-loop approach, AWS partnership, infrastructure reorganization quote"
+    },
+    {
+      "name": "PRNewswire - Bloomberg AI Earnings Call Launch",
+      "url": "https://www.prnewswire.com/news-releases/bloomberg-launches-ai-powered-earnings-call-summaries-302040670.html",
+      "type": "Press",
+      "date": "2024-01-22",
+      "notes": "AI since 2009, product launch details, domain expertise integration approach"
+    },
+    {
+      "name": "The Org - Bloomberg Leadership Team",
+      "url": "https://theorg.com/org/bloomberg/teams/leadership-team-1",
+      "type": "Report",
+      "date": "2026",
+      "notes": "Org chart context, ML Platforms team lead identification"
+    }
+  ],
+
+  "summary": "Bloomberg operates a mature Hybrid/Hub-and-Spoke AI model with 350+ AI experts distributed across specialized engineering teams (Search, Enrichment, Finance) in 4 global locations, coordinated by a central AI Strategy & Research function in the CTO's office. The 15-year AI journey (since 2009) emphasizes pragmatic, needs-driven deployment with human-in-the-loop approaches and domain expert involvement. As a private company, Bloomberg is notably transparent about structure and philosophy while remaining silent on investment figures.",
+
+  "openQuestions": [
+    "No direct quotes from Michael Bloomberg on AI strategy—founder appears removed from day-to-day AI messaging",
+    "Specific AI investment levels (budget, CapEx, % of R&D) not disclosed due to private company status",
+    "Details on AWS re:Invent 2025 NL-to-video generation presentation not found in public sources",
+    "Whether Bloomberg has a formal CAIO role or if CTO/Head of AI Strategy covers this function",
+    "Size and scope of Bloomberg Tax AI Lab vs. main Terminal AI team"
+  ],
+
+  "conferenceFindings": "Could not locate specific information about Bloomberg's AWS re:Invent 2025 presentation on natural language-to-video generation. This may be an emerging capability not yet publicly documented, or the reference may need verification."
+}

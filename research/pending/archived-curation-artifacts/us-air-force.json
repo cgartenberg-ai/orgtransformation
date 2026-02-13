@@ -1,0 +1,36 @@
+{
+  "company": "U.S. Air Force",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.techrepublic.com/article/news-washington-post-layoffs-ai-restructuring/ (403)",
+    "https://www.crowe.com/news/crowe-expands-ai-center-of-excellence-appoints-firmwide-ai-leader (403)"
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "The Department of the Air Force is establishing an AI Center of Excellence, with Air Force Chief Data and AI Officer Susan Davenport overseeing the center. The CoE will leverage Microsoft infrastructu",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "Air Force establishes AI Center of Excellence",
+      "url": "https://www.airandspaceforces.com/air-force-launching-new-artificial-intelligence-center-of-excellence/",
+      "type": "Press",
+      "date": "2026",
+      "notes": "Air Force establishes AI Center of Excellence"
+    }
+  ],
+  "summary": "Air Force establishes AI Center of Excellence: The Department of the Air Force is establishing an AI Center of Excellence, with Air Force Chief Data and AI Officer Susan Davenport overseeing the center. The CoE will leverage Microsoft infrastructu",
+  "openQuestions": [],
+  "splitFrom": "general-sweep-feb-2026-v2.json"
+}

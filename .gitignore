@@ -20,5 +20,18 @@ site/out/
 *.swp
 *.swo
 
+# Python cache
+__pycache__/
+**/__pycache__/
+
+# Log files
+*.log
+
+# Word temp files
+~$*
+
+# Ephemeral session artifacts
+plan.md
+
 # Claude Code plans (ephemeral)
 # Note: .claude/skills/ and .claude/settings.local.json ARE tracked

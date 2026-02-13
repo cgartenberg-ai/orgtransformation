@@ -1,0 +1,38 @@
+{
+  "specimenId": "cognizant",
+  "scannedDate": "2026-02-13",
+  "claimCount": 16,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": 1,
+  "keyFindings": [
+    "Kumar runs a dual-register narrative: 'digital labor' and 'broader pyramid' (candid replacement language) for investors vs. 'amplifier of human potential' for public/employee audiences. This is the clearest audience-segmented rhetoric in our IT services collection.",
+    "The 'Hollywood model' — making AI capital permanent and humans variable — is a radical inversion of the labor arbitrage model that built Indian IT services. It openly acknowledges the end of the body-shop era.",
+    "'Context engineering' as a named discipline is Kumar's answer to the commoditization threat: AI is only as good as your understanding of the organization it serves. This positions tacit client knowledge as an irreplaceable competitive moat.",
+    "Kumar's 'we own the stack again' claim argues that probabilistic AI software reverses the power shift to SaaS vendors (SAP, Salesforce) by making context-dependent integration more valuable than standardized products.",
+    "The fresher hiring expansion (24K-25K in 2026) combined with non-STEM hiring signals a fundamental redefinition of what an IT services employee is — from coder to 'purposeful problem finder.'"
+  ],
+  "rhetoricalPatterns": [
+    "Dual-register narration: 'digital labor' (investor) vs. 'amplifier of human potential' (public). Kumar systematically adjusts his framing based on audience — more candid about replacement on earnings calls, more humanistic in press interviews.",
+    "Stack reclamation narrative: 'we own the stack again' frames AI not as disruption but as restoration of IT services firms' historical role as outcome owners, lost to SaaS vendors in the 2010s.",
+    "Pyramid inversion: 'broader and shorter' pyramid reframes workforce compression as democratization — more entry points, faster expertise paths, rather than job elimination.",
+    "Hollywood model as structural blueprint: project-based assembly with permanent AI infrastructure and variable human teams — a named organizational archetype for the AI era."
+  ],
+  "comparativeNotes": "Cognizant's rhetoric is substantially more candid than its IT services peers. Where Accenture (Julie Sweet) emphasizes reskilling obligations and presents a 'learn or leave' ultimatum, Kumar openly names 'digital labor' as a product category and describes humans as 'the variable component.' Infosys's 100K Cursor CoE is a tool-adoption story; Cognizant's Hollywood model is a structural-transformation story. Genpact focuses on specific process automation; Kumar operates at the level of industry architecture ('every industry is going to be a tech industry'). The most distinctive element is the 'broader pyramid' — while other IT services CEOs carefully avoid discussing workforce shape, Kumar directly addresses it, arguing AI makes the pyramid wider at the base rather than narrower. This may be partly tactical: Cognizant's fresher hiring numbers are a competitive advantage in India's labor market, and Kumar is signaling stability to a workforce anxious about AI displacement. But the Fortune interview reveals a genuine intellectual framework — if 'intelligence is not the asymmetry, applying intelligence is,' then the entire value proposition of IT services shifts from providing smart engineers to providing contextual judgment.",
+  "notableAbsences": "No higher-calling or teleological claims found. Kumar's rhetoric is almost entirely commercial-success and identity-focused, with some survival and utopian elements. There is no moral duty framing ('we must do this for society'), no civilizational destiny claims beyond 'every industry becomes tech.' No other Cognizant executives besides Kumar appear in the claims — no CTO, no Chief AI Officer, no board members. This is a single-voice specimen. The Surya Gummadi (President, Americas) quote on insurance underwriting was context-only, not a purpose claim.",
+  "correctedLeaderInfo": null,
+  "claimTypeDistribution": {
+    "utopian": 3,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 5,
+    "survival": 1,
+    "commercial-success": 7,
+    "secondaryType_counts": {
+      "utopian": 2,
+      "identity": 2,
+      "commercial-success": 2,
+      "survival": 1
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "company": "Uber",
+  "ticker": "UBER",
+  "leader": "Dara Khosrowshahi",
+  "leaderTitle": "CEO",
+  "sector": "Transportation / Mobility",
+  "quadrant": "Q4",
+  "scannedDate": "2026-02-09",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://stratechery.com/2025/an-interview-with-uber-ceo-dara-khosrowshahi-about-aggregation-and-autonomy/ (paywall/JS-rendered)",
+    "https://investor.uber.com/news-events/news/press-release-details/2025/Uber-Expands-AI-Data-Platform-to-Power-Next-Gen-Enterprise-and-AI-Lab-Needs/default.aspx (403)",
+    "https://writer.com/blog/uber-empowering-teams/ (JS-rendered)",
+    "https://www.goldmansachs.com/insights/talks-at-gs/dara-khosrowshahi0 (JS-rendered, transcript PDF exists)"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Uber has a central AI Labs research function (founded 2016) that conducts fundamental research while also connecting with product/operational teams. This 'Core and Connections' model is explicitly hub-and-spoke: central standards with distributed execution. Additionally, Uber AI Solutions (formerly Scaled Solutions) operates as a semi-independent unit commercializing AI data services externally. AV work is handled via partnerships (Waymo, Aurora) rather than internal build, suggesting they divested from the skunkworks model (ATG) and moved to partnership-based execution.",
+    "aiTeamStructure": "Uber AI Labs serves as the central research hub (founded Dec 2016), structured with two programs: 'Core' for fundamental research and 'Connections' for working with product teams across rideshare, Eats, freight, and self-driving. The lab was seeded by acquiring Geometric Intelligence (15-person team). Additionally, Uber AI Solutions (rebranded from Scaled Solutions) is a data labeling/annotation business unit serving both internal needs and external clients (Aurora, Niantic). The broader Uber AI group has ~96 employees across 5 teams. Toronto hub exists for AV-focused AI research. No CAIO role exists; AI reports through engineering/product leadership.",
+    "keyPeople": [
+      {"name": "Dara Khosrowshahi", "title": "CEO", "role": "Sets AI strategy, articulates vision at Davos/conferences"},
+      {"name": "Zoubin Ghahramani", "title": "Chief Scientist", "role": "Leads Uber AI Labs, former Cambridge professor"},
+      {"name": "Gary Marcus", "title": "Former Director, Uber AI Labs", "role": "Founded Geometric Intelligence, led initial AI Labs team (2016-2017)"},
+      {"name": "Raquel Urtasun", "title": "Former Head of Toronto AI Hub", "role": "U of T professor, led AV-focused AI research (departed)"},
+      {"name": "Jeff Holden", "title": "Former Chief Product Officer", "role": "Announced AI Labs creation (no longer at Uber)"}
+    ],
+    "investmentSignals": "$5M investment in Vector Institute (Toronto). No disclosed AI-specific budget. Heavy investment in AV partnerships: NVIDIA partnership for 3M+ hours of real-world AV data collection. $8.7B adjusted EBITDA (2025) and $9.8B free cash flow suggest capacity for AI investment. AI efficiency built into core platform: 30M rides/day rely on AI for routing, matching, pricing.",
+    "observableMarkers": {
+      "reportingStructure": "No CAIO. Chief Scientist leads AI Labs. AI work embedded in product/engineering. AV strategy reports to CEO given strategic importance.",
+      "resourceAllocation": "AI Labs appears to have dedicated budget. AI Solutions unit has independent P&L serving external clients. Core AI (routing, pricing) embedded in platform engineering.",
+      "timeHorizons": "Mixed: Core AI (routing, pricing) operates on quarterly product cycles. AI Labs conducts multi-year fundamental research. AV timeline is 10-20 years for full scaling per Khosrowshahi.",
+      "decisionRights": "Centralized for fundamental research (AI Labs). Distributed for applied AI (product teams embed AI engineers). AV decisions highly centralized given CEO involvement in partnership deals.",
+      "metrics": "Trips/vehicle/day for AV (30% higher on Uber vs standalone). Customer satisfaction for AI customer service. Efficiency gains for AI-enabled merchant recruitment. Category growth in AV markets (Austin, Atlanta accelerating)."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "Play-acting is how many businesses approach AI... saying the right words about AI without changing how their operations function.",
+      "speaker": "Dara Khosrowshahi",
+      "speakerTitle": "CEO",
+      "source": "World Economic Forum Davos 2026",
+      "sourceUrl": "https://finance.yahoo.com/news/uber-ceo-dara-khosrowshahi-says-203121736.html",
+      "sourceDate": "2026-01",
+      "context": "Davos panel on AI adoption, distinguishing real transformation from 'AI veneer'"
+    },
+    {
+      "text": "Allowing the AI actually to reason through that and throwing away all of the old policies is turning out to be the most promising way forward.",
+      "speaker": "Dara Khosrowshahi",
+      "speakerTitle": "CEO",
+      "source": "World Economic Forum Davos 2026",
+      "sourceUrl": "https://www.aol.com/news/uber-ceo-most-promising-way-161507362.html",
+      "sourceDate": "2026-01",
+      "context": "Explaining Uber's breakthrough in AI customer service by abandoning old rules"
+    },
+    {
+      "text": "You have to survive through a bunch of car crashes internally to do so.",
+      "speaker": "Dara Khosrowshahi",
+      "speakerTitle": "CEO",
+      "source": "World Economic Forum Davos 2026",
+      "sourceUrl": "https://www.benzinga.com/news/topics/26/02/50351517/uber-ceo-dara-khosrowshahi-says-companies-are-play-acting-with-ai-even-as-90-plan-to-spend-more-the-real-work-means-breaking-down-the-rules",
+      "sourceDate": "2026-02",
+      "context": "On the difficulty of getting AI adoption right internally"
+    },
+    {
+      "text": "AI is not going to replace you. The thing that's going to replace you is a human who knows how to use AI.",
+      "speaker": "Dara Khosrowshahi",
+      "speakerTitle": "CEO",
+      "source": "Brown University SPS 10th Anniversary Event",
+      "sourceUrl": "https://www.browndailyherald.com/article/2025/04/uber-ceo-dara-khosrowshahi-91-p27-discusses-curiosity-ai-at-sps-10th-anniversary-event",
+      "sourceDate": "2025-04",
+      "context": "Discussing AI's impact on employment and the importance of AI skills"
+    },
+    {
+      "text": "By 2029, we intend to be the largest facilitator of AV trips in the world.",
+      "speaker": "Dara Khosrowshahi",
+      "speakerTitle": "CEO",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/uber-uber-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-04",
+      "context": "Articulating Uber's AV strategy and timeline"
+    },
+    {
+      "text": "The formation of Uber AI Labs represents Uber's commitment to advancing the state of the art.",
+      "speaker": "Jeff Holden",
+      "speakerTitle": "Chief Product Officer (former)",
+      "source": "Uber Newsroom - Founding Uber AI Labs",
+      "sourceUrl": "https://www.uber.com/newsroom/ailabs/",
+      "sourceDate": "2016-12-05",
+      "context": "Announcing creation of Uber AI Labs"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Uber Q4 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/04/uber-uber-q4-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2026-02-04",
+      "notes": "Limited AI discussion; focused on AV partnerships (NVIDIA data collection), merchant recruitment efficiency via AI. $8.7B EBITDA, $9.8B FCF. AV trips in 15 cities by end of 2026."
+    },
+    {
+      "name": "Founding Uber AI Labs - Uber Newsroom",
+      "url": "https://www.uber.com/newsroom/ailabs/",
+      "type": "Blog",
+      "date": "2016-12-05",
+      "notes": "Founding announcement. Acquired Geometric Intelligence (15 people). Core + Connections model. Focus on routing, delivery time, autonomous vehicles."
+    },
+    {
+      "name": "Uber CEO on AI at Davos 2026 - Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/uber-ceo-dara-khosrowshahi-says-203121736.html",
+      "type": "Press",
+      "date": "2026-02",
+      "notes": "Key quotes on 'play-acting' AI vs. real transformation. Rebuilt customer service from scratch with AI reasoning. Breakthrough came from throwing away old policies."
+    },
+    {
+      "name": "Uber CEO on AI adoption - AOL/Fortune",
+      "url": "https://www.aol.com/news/uber-ceo-most-promising-way-161507362.html",
+      "type": "Press",
+      "date": "2026-01",
+      "notes": "Customer service AI transformation story. Initial efforts followed old policies and failed. Success came from letting AI reason independently."
+    },
+    {
+      "name": "Khosrowshahi at Brown University SPS Event",
+      "url": "https://www.browndailyherald.com/article/2025/04/uber-ceo-dara-khosrowshahi-91-p27-discusses-curiosity-ai-at-sps-10th-anniversary-event",
+      "type": "Interview",
+      "date": "2025-04",
+      "notes": "AI as 'bedrock' of Uber's operations. 30M rides/day powered by AI. Growth mindset over technical training. 'AI won't replace you, people who use AI will.'"
+    },
+    {
+      "name": "The Org - Uber AI Structure",
+      "url": "https://theorg.com/org/uber",
+      "type": "Report",
+      "date": "2026-02",
+      "notes": "Uber AI group: 5 teams, 96 employees. Chief Scientist Zoubin Ghahramani leads. Research areas: NLP, Bayesian optimization, neuroevolution, RL, deep learning, computer vision."
+    },
+    {
+      "name": "Uber AI Solutions Expansion - Investor Relations",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2025/Uber-Expands-AI-Data-Platform-to-Power-Next-Gen-Enterprise-and-AI-Lab-Needs/default.aspx",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Fetch failed (403). Per search results: AI Solutions expanded to 30 countries. Serves external AI labs. Global talent network for annotation, translation, coding, finance, law, science, linguistics tasks."
+    },
+    {
+      "name": "Uber AI Hub Toronto - Vice",
+      "url": "https://www.vice.com/en/article/ubers-ai-hub-in-pittsburgh-gutted-a-university-lab-now-its-in-toronto/",
+      "type": "Press",
+      "date": "2017",
+      "notes": "Toronto AI hub for self-driving. $5M investment in Vector Institute. Raquel Urtasun (U of T, Vector co-founder) led hub."
+    },
+    {
+      "name": "Goldman Sachs Talks at GS - Khosrowshahi",
+      "url": "https://www.goldmansachs.com/insights/talks-at-gs/dara-khosrowshahi0",
+      "type": "Interview",
+      "date": "2025-11-12",
+      "notes": "Fetch returned JS-only. Transcript PDF exists. Topic: 'Unlocking a Trillion-Dollar Opportunity' - AV and AI driving growth."
+    }
+  ],
+
+  "summary": "Uber operates a Hybrid/Hub-and-Spoke model for AI: Uber AI Labs (founded 2016, ~96 people across 5 teams) serves as the central research hub with explicit 'Core' (fundamental research) and 'Connections' (product integration) programs, while AI for routing, pricing, and matching is embedded in platform engineering. Autonomous vehicle work has shifted from internal build (ATG divested 2020) to partnership model (Waymo, Aurora, NVIDIA). Uber AI Solutions is a distinct business unit that commercializes data labeling capabilities externally. CEO Khosrowshahi articulates a vision of 'real' AI transformation (not 'play-acting'), exemplified by rebuilding customer service from scratch to let AI 'reason' rather than follow rigid rules.",
+
+  "openQuestions": [
+    "What is Zoubin Ghahramani's current scope and reporting relationship? Is AI Labs still active under that name or evolved?",
+    "How large is the AI Solutions (data labeling) business unit? Revenue? Headcount?",
+    "Did Raquel Urtasun and the Toronto hub remain after ATG divestiture, or did they move to Aurora?",
+    "What is the budget allocation between internal AI R&D vs. AV partnership investments?",
+    "How is the Conversational AI team (hands-free voice assistant) structured relative to AI Labs?"
+  ],
+
+  "conferenceFindings": "No specific AI/tech conference presence identified in search. Key public appearances for AI topics: World Economic Forum Davos 2026 (Khosrowshahi on AI adoption philosophy), Brown University SPS event (April 2025), Goldman Sachs Talks at GS (Nov 2025). Earnings calls remain primary source for AV strategy updates."
+}

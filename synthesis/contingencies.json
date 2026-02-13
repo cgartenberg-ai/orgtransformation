@@ -1,6 +1,6 @@
 {
-  "description": "Living document \u2014 key contingencies that determine which structural approach is appropriate. Updated during Phase 3 synthesis sessions.",
-  "lastUpdated": "2026-02-04",
+  "description": "Living document — key contingencies that determine which structural approach is appropriate. Updated during Phase 3 synthesis sessions.",
+  "lastUpdated": "2026-02-13",
   "contingencies": [
     {
       "id": "regulatoryIntensity",
@@ -22,8 +22,6 @@
           "pfizer",
           "wells-fargo",
           "commonwealth-bank",
-          "nasa",
-          "us-cyber-command",
           "fda",
           "eli-lilly",
           "bank-of-america",
@@ -42,9 +40,34 @@
           "invent-advisory",
           "pwc",
           "travelers",
-          "pentagon-cdao",
-          "new-york-state",
-          "rwjbarnabas-health"
+          "rwjbarnabas-health",
+          "goldman-sachs",
+          "morgan-stanley",
+          "bloomberg",
+          "visa",
+          "mayo-clinic",
+          "mount-sinai-health-system",
+          "sutter-health",
+          "cvs-health",
+          "progressive",
+          "anduril",
+          "blue-origin",
+          "lockheed-martin",
+          "delta-air-lines",
+          "uber",
+          "thomson-reuters",
+          "sk-telecom",
+          "unitedhealth-group",
+          "bmw",
+          "mercedes-benz",
+          "toyota",
+          "honda",
+          "ford",
+          "general-motors",
+          "exxonmobil",
+          "tesla",
+          "hyundai-robotics",
+          "bosch-bcai"
         ]
       },
       "medium": {
@@ -73,7 +96,23 @@
           "ntt-data",
           "servicenow",
           "nokia",
-          "sk-telecom"
+          "sk-telecom",
+          "fedex",
+          "kyndryl",
+          "panasonic",
+          "t-mobile",
+          "genpact",
+          "deere-and-co",
+          "honeywell",
+          "dow-chemical",
+          "disney",
+          "netflix",
+          "lionsgate",
+          "kroger",
+          "google-deepmind",
+          "intel",
+          "apple",
+          "crowdstrike"
         ]
       },
       "low": {
@@ -108,7 +147,19 @@
           "publicis-groupe",
           "stagwell",
           "accenture-openai",
-          "workday"
+          "workday",
+          "chegg",
+          "recruit-holdings",
+          "servicenow",
+          "accenture",
+          "cognizant",
+          "washington-post",
+          "lowes",
+          "nike",
+          "pepsico",
+          "ulta-beauty",
+          "salesforce",
+          "hp-inc"
         ]
       }
     },
@@ -153,7 +204,9 @@
           "servicenow",
           "accenture-openai",
           "sk-telecom",
-          "workday"
+          "workday",
+          "accenture",
+          "cognizant"
         ]
       },
       "medium": {
@@ -179,7 +232,31 @@
           "indostar-capital",
           "invent-advisory",
           "nokia",
-          "pentagon-cdao"
+          "goldman-sachs",
+          "morgan-stanley",
+          "bloomberg",
+          "cvs-health",
+          "progressive",
+          "t-mobile",
+          "jpmorgan",
+          "wells-fargo",
+          "ubs",
+          "genpact",
+          "bmw",
+          "mercedes-benz",
+          "honda",
+          "general-motors",
+          "tesla",
+          "anduril",
+          "fedex",
+          "disney",
+          "lionsgate",
+          "kroger",
+          "nike",
+          "pepsico",
+          "ulta-beauty",
+          "thomson-reuters",
+          "hp-inc"
         ]
       },
       "low": {
@@ -207,8 +284,42 @@
           "ups",
           "coca-cola",
           "travelers",
-          "new-york-state",
-          "rwjbarnabas-health"
+          "rwjbarnabas-health",
+          "visa",
+          "mayo-clinic",
+          "mount-sinai-health-system",
+          "sutter-health",
+          "unitedhealth-group",
+          "toyota",
+          "ford",
+          "deere-and-co",
+          "honeywell",
+          "exxonmobil",
+          "hyundai-robotics",
+          "bosch-bcai",
+          "dow-chemical",
+          "blue-origin",
+          "lockheed-martin",
+          "delta-air-lines",
+          "lowes",
+          "panasonic"
+        ]
+      },
+      "fast": {
+        "specimens": [
+          "chegg",
+          "servicenow",
+          "uber",
+          "netflix",
+          "washington-post",
+          "kyndryl",
+          "recruit-holdings",
+          "google-deepmind",
+          "intel",
+          "salesforce",
+          "crowdstrike",
+          "pinterest",
+          "workday"
         ]
       }
     },
@@ -236,7 +347,18 @@
           "stagwell",
           "travelers",
           "servicenow",
-          "sk-telecom"
+          "sk-telecom",
+          "bloomberg",
+          "jpmorgan",
+          "pfizer",
+          "unitedhealth-group",
+          "sanofi",
+          "general-motors",
+          "exxonmobil",
+          "delta-air-lines",
+          "netflix",
+          "kroger",
+          "recruit-holdings"
         ]
       },
       "founder": {
@@ -246,7 +368,7 @@
           "AI-first mandates",
           "Top-down transformation"
         ],
-        "notes": "Founders can impose structural changes that hired CEOs cannot \u2014 critical for AI-first transformations",
+        "notes": "Founders can impose structural changes that hired CEOs cannot — critical for AI-first transformations",
         "mechanisms": [
           7
         ],
@@ -258,7 +380,14 @@
           "thinking-machines-lab",
           "mercor",
           "sierra-ai",
-          "ssi"
+          "ssi",
+          "bloomberg",
+          "moderna",
+          "tesla",
+          "anduril",
+          "ami-labs",
+          "salesforce",
+          "crowdstrike"
         ]
       },
       "medium": {
@@ -278,7 +407,31 @@
           "siemens",
           "nokia",
           "accenture-openai",
-          "workday"
+          "workday",
+          "goldman-sachs",
+          "cvs-health",
+          "visa",
+          "wells-fargo",
+          "ubs",
+          "roche-genentech",
+          "accenture",
+          "cognizant",
+          "genpact",
+          "infosys",
+          "bmw",
+          "mercedes-benz",
+          "honda",
+          "ford",
+          "deere-and-co",
+          "hyundai-robotics",
+          "bosch-bcai",
+          "dow-chemical",
+          "lockheed-martin",
+          "lowes",
+          "pepsico",
+          "panasonic",
+          "uber",
+          "thomson-reuters"
         ]
       },
       "low": {
@@ -290,7 +443,17 @@
         ],
         "mechanisms": [],
         "specimens": [
-          "snowflake"
+          "snowflake",
+          "morgan-stanley",
+          "toyota",
+          "honeywell",
+          "blue-origin",
+          "fedex",
+          "disney",
+          "nike",
+          "ulta-beauty",
+          "kyndryl",
+          "t-mobile"
         ]
       },
       "new": {
@@ -305,8 +468,9 @@
         ],
         "specimens": [
           "coca-cola",
-          "pentagon-cdao",
-          "new-york-state"
+          "intel",
+          "mount-sinai-health-system",
+          "novo-nordisk"
         ]
       },
       "critical": {
@@ -315,7 +479,7 @@
           "Concentration risk",
           "Strategy depends on individual conviction"
         ],
-        "notes": "AI strategy is entirely CEO-dependent \u2014 succession risk is high",
+        "notes": "AI strategy is entirely CEO-dependent — succession risk is high",
         "mechanisms": [],
         "specimens": [
           "klarna"
@@ -363,7 +527,18 @@
           "pwc",
           "servicenow",
           "accenture-openai",
-          "workday"
+          "workday",
+          "goldman-sachs",
+          "morgan-stanley",
+          "bloomberg",
+          "visa",
+          "jpmorgan",
+          "eli-lilly",
+          "unitedhealth-group",
+          "accenture",
+          "cognizant",
+          "genpact",
+          "t-mobile"
         ]
       },
       "low": {
@@ -377,7 +552,6 @@
         "specimens": [
           "ubs",
           "commonwealth-bank",
-          "us-cyber-command",
           "fda",
           "bank-of-america",
           "coca-cola",
@@ -401,9 +575,11 @@
           "travelers",
           "nokia",
           "sk-telecom",
-          "pentagon-cdao",
-          "new-york-state",
-          "rwjbarnabas-health"
+          "rwjbarnabas-health",
+          "sutter-health",
+          "cvs-health",
+          "progressive",
+          "wells-fargo"
         ]
       },
       "nonTraditional": {
@@ -418,9 +594,80 @@
         "specimens": [
           "pg-chatpg",
           "recursion",
-          "waystar"
+          "waystar",
+          "mayo-clinic",
+          "mount-sinai-health-system",
+          "kyndryl"
         ]
-      }
+      },
+      "non-traditional": {
+        "specimens": [
+          "anduril",
+          "fedex",
+          "deere-and-co",
+          "kroger",
+          "lowes",
+          "pepsico"
+        ]
+      },
+      "talent-rich": {
+        "specimens": [
+          "blue-origin",
+          "bmw",
+          "mercedes-benz",
+          "google-deepmind",
+          "intel",
+          "tesla",
+          "bosch-bcai",
+          "disney",
+          "netflix",
+          "lionsgate",
+          "nike",
+          "uber",
+          "thomson-reuters",
+          "recruit-holdings",
+          "apple",
+          "salesforce",
+          "sap",
+          "crowdstrike"
+        ]
+      },
+      "talent-constrained": {
+        "specimens": [
+          "lockheed-martin",
+          "delta-air-lines",
+          "ford",
+          "general-motors",
+          "honda",
+          "toyota",
+          "deere-and-co",
+          "honeywell",
+          "exxonmobil",
+          "hyundai-robotics",
+          "dow-chemical",
+          "ulta-beauty",
+          "kyndryl",
+          "panasonic",
+          "intel",
+          "hp-inc",
+          "pinterest",
+          "workday"
+        ]
+      },
+      "evidence": [
+        {
+          "specimenId": "mayo-clinic",
+          "note": "Halamka: 'We have to use AI' — driven by generational healthcare workforce shortage. Ross: 'generational shortage of healthcare professionals.' Labor deficit makes AI adoption morally obligatory (Ross: 'it's a hero job'), inverting displacement anxiety."
+        },
+        {
+          "specimenId": "cedars-sinai",
+          "note": "Odeh: triple-threat survival narrative (aging demand + cost pressure + workforce shortage). CAIO role created specifically to address labor market constraint."
+        },
+        {
+          "specimenId": "mount-sinai-health-system",
+          "note": "Nadkarni reframes talent competition with Silicon Valley: 'We can't offer Silicon Valley salaries, but health systems are the place to make immediate, measurable impact.' Purpose as talent arbitrage."
+        }
+      ]
     },
     {
       "id": "technicalDebt",
@@ -438,7 +685,6 @@
         "specimens": [
           "ubs",
           "microsoft",
-          "us-cyber-command",
           "fda",
           "allianz-anthropic",
           "sap",
@@ -448,9 +694,26 @@
           "dow",
           "ups",
           "nokia",
-          "pentagon-cdao",
-          "new-york-state",
-          "rwjbarnabas-health"
+          "rwjbarnabas-health",
+          "cvs-health",
+          "delta-air-lines",
+          "fedex",
+          "bmw",
+          "ford",
+          "general-motors",
+          "honda",
+          "mercedes-benz",
+          "toyota",
+          "deere-and-co",
+          "honeywell",
+          "dow-chemical",
+          "exxonmobil",
+          "kyndryl",
+          "intel",
+          "wells-fargo",
+          "bosch-bcai",
+          "pepsico",
+          "panasonic"
         ]
       },
       "medium": {
@@ -482,7 +745,27 @@
           "indostar-capital",
           "ntt-data",
           "travelers",
-          "sk-telecom"
+          "sk-telecom",
+          "goldman-sachs",
+          "morgan-stanley",
+          "mayo-clinic",
+          "sutter-health",
+          "lockheed-martin",
+          "uber",
+          "t-mobile",
+          "mount-sinai-health-system",
+          "jpmorgan",
+          "unitedhealth-group",
+          "genpact",
+          "bmw",
+          "hyundai-robotics",
+          "disney",
+          "kroger",
+          "lowes",
+          "nike",
+          "ulta-beauty",
+          "thomson-reuters",
+          "recruit-holdings"
         ]
       },
       "low": {
@@ -519,7 +802,79 @@
           "stagwell",
           "servicenow",
           "accenture-openai",
-          "workday"
+          "workday",
+          "bloomberg",
+          "visa",
+          "progressive",
+          "anduril",
+          "blue-origin",
+          "eli-lilly",
+          "accenture",
+          "cognizant",
+          "tesla",
+          "netflix",
+          "google-deepmind",
+          "apple"
+        ]
+      }
+    },
+    {
+      "id": "environmentalAiPull",
+      "name": "Environmental AI Pull",
+      "whatItDetermines": "How strongly the external environment (competitors, adversaries, customers, regulators) demands AI adoption, independent of internal leadership conviction. Predicts whether the primary organizational risk is the original Grove (too slow in high-pull environments) or the inverse Grove (too fast in low-pull environments).",
+      "high": {
+        "label": "High environmental AI pull (adversaries/competitors actively using AI, customers demanding AI)",
+        "favors": [
+          "Fast iteration cycles",
+          "Embedded AI (M3) for tight feedback loops",
+          "Speed over depth in tension resolution",
+          "Original Grove risk (org may be too slow)"
+        ],
+        "mechanisms": [
+          3,
+          5
+        ],
+        "specimens": [
+          "crowdstrike",
+          "anduril",
+          "lockheed-martin",
+          "goldman-sachs",
+          "morgan-stanley",
+          "jpmorgan"
+        ]
+      },
+      "medium": {
+        "label": "Medium environmental AI pull (industry in transition, mixed customer readiness)",
+        "favors": [
+          "Hub-and-spoke (M4) with both exploration and execution",
+          "Balanced speed-depth tradeoff",
+          "Risk of either Grove variant depending on leadership"
+        ],
+        "specimens": [
+          "salesforce",
+          "sap",
+          "hp-inc",
+          "pfizer",
+          "roche-genentech",
+          "bmw",
+          "toyota"
+        ]
+      },
+      "low": {
+        "label": "Low environmental AI pull (customers don't demand AI, competitors not yet AI-driven)",
+        "favors": [
+          "Infrastructure positioning (AI-as-invisible)",
+          "Contextual integration over structural separation",
+          "Inverse Grove risk (leadership may outrun market)",
+          "AI-washing risk (announcements without structural change)"
+        ],
+        "specimens": [
+          "nike",
+          "pinterest",
+          "workday",
+          "kroger",
+          "ulta-beauty",
+          "ford"
         ]
       }
     }

@@ -1,0 +1,56 @@
+{
+  "company": "SAP SE",
+  "ticker": null,
+  "sector": "Enterprise Software",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    {
+      "url": "https://www.insidermonkey.com/blog/thomson-reuters-corporation-nasdaqtri-q4-2025-earnings-call-transcript-1690317/",
+      "reason": "JS-rendered, no transcript content returned"
+    },
+    {
+      "url": "https://www.metaintro.com/blog/dow-layoffs-ai-automation-transform-outperform",
+      "reason": "JS-rendered, no article content returned"
+    },
+    {
+      "url": "https://futurumgroup.com/insights/sap-q4-fy-2025-earnings-cloud-erp-strength-ai-traction/",
+      "reason": "JS-rendered, no article content returned"
+    }
+  ],
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "Q4 was a strong cloud quarter, with bookings resulting in 30% Total Cloud Backlog growth to a record 77 billion Euros. The significant Current Cloud Backlog growth in Q4 has laid a strong foundation for accelerating Total Revenue growth through 2027. SAP Business AI has become a main driver for growth as it was included in two thirds of our Q4 cloud order entry, combined with strong AI adoption across the ERP Suite.",
+      "speaker": "Christian Klein",
+      "speakerTitle": "CEO",
+      "source": "earnings-discovery-q4-2025.json",
+      "sourceUrl": "https://news.sap.com/2026/01/sap-announces-q4-and-fy-2025-results/",
+      "sourceDate": "",
+      "context": "Q4 FY2025 earnings announcement, describing AI adoption acceleration"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Business AI included in two-thirds of Q4 cloud order entry",
+      "url": "https://news.sap.com/2026/01/sap-announces-q4-and-fy-2025-results/",
+      "type": "Press",
+      "date": "2026-01-29",
+      "notes": "Business AI included in two-thirds of Q4 cloud order entry"
+    }
+  ],
+  "summary": "Business AI included in two-thirds of Q4 cloud order entry: SAP Business AI was included in two-thirds of Q4 cloud order entry \u2014 up more than 20 percentage points from Q3. 90% of the 50 largest Q4 deals included AI or SAP Business Data Cloud. Total Cloud Backl",
+  "openQuestions": [],
+  "splitFrom": "earnings-discovery-q4-2025.json"
+}

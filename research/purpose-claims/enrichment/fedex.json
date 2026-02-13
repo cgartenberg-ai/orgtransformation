@@ -1,0 +1,32 @@
+{
+  "specimenId": "fedex",
+  "scannedDate": "2026-02-12",
+  "claimCount": 14,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": 3,
+  "keyFindings": [
+    "Subramaniam is overwhelmingly commercial-success oriented — the dominant claim type. FedEx has almost no utopian or survival rhetoric; AI is framed as a tool for efficiency, cost reduction, and competitive differentiation, not civilizational transformation or existential threat.",
+    "Unusually concrete quantification: $1.8B of $4B DRIVE savings attributed to technology, $180M annualized from AI image capture, $6B total cost reductions 'mostly from technology.' This level of dollar-figure attribution is rare in the specimen collection.",
+    "The DRIVE cost-reduction program has been rhetorically elevated from a savings initiative to an organizational identity — 'a new data and technology driven business architecture that has changed how we work.' This is subtle but significant identity work.",
+    "Brie Carere (CCO) provides important non-CEO AI claims focused on customer/revenue applications. Having the CCO speak to AI signals that it's not just a tech initiative but embedded in the commercial function.",
+    "Vishal Talwar (CDIO) is relatively muted in public claims — only one formal quote found despite being the top tech executive. This may reflect his recent hiring (Aug 2025) or FedEx's preference for CEO-centric messaging."
+  ],
+  "rhetoricalPatterns": [
+    "Backward-looking credibility: Subramaniam consistently frames FedEx as having built data infrastructure BEFORE AI arrived — 'that work did not anticipate the advent of AI.' This positions AI adoption as natural evolution, not reactive scramble.",
+    "Dollar-figure legitimation: Unlike many CEOs who make aspirational AI claims, Subramaniam anchors in specific numbers ($1.8B, $180M, $6B). This is an engineer's approach to purpose rhetoric — show the math.",
+    "Augmentation not replacement: On workforce concerns, the consistent frame is 'makes their job easier' and 'people remain at the heart.' For a 500K-employee company facing real automation anxiety, this is careful rhetorical management.",
+    "Data-first, AI-second: FedEx consistently leads with data language ('petabytes,' 'data infrastructure,' 'fuel for AI is data') before AI language. AI is the application; data is the asset. This reflects genuine organizational priority — Dataworks was originally a data platform."
+  ],
+  "comparativeNotes": "FedEx stands out in the collection for its overwhelmingly commercial-success orientation. Unlike pharma companies (Sanofi, Pfizer) that invoke higher-calling or teleological claims about curing diseases, or tech companies (Google, Meta) that reach for utopian rhetoric about transforming civilization, Subramaniam is almost purely instrumental. AI is for cost reduction, network optimization, and competitive advantage. The closest parallel is Klarna's Sebastian Siemiatkowski, but even Klarna invokes some survival rhetoric. FedEx's rhetorical register is engineer-CEO pragmatism: show the savings, demonstrate the capability, avoid grand claims. This may reflect Subramaniam's engineering background (IIT, chemical engineering) and FedEx's operations-first culture.\n\nThe one exception is the 'future of business is being shaped by data and AI' statement from the AI education press release, which edges toward utopian. But even this is immediately anchored in workforce empowerment rather than allowed to float as epochal prophecy.",
+  "notableAbsences": "No survival rhetoric whatsoever — no adapt-or-die, no 'if we don't transform we'll be disrupted.' No teleological claims about logistics serving a higher social purpose (e.g., connecting communities, enabling commerce). No significant claims from other C-suite beyond Carere and Talwar. Fred Smith (founder/executive chairman) is completely absent from AI rhetoric. No discussion of AI ethics, responsible AI governance, or societal concerns — purely operational framing.",
+  "correctedLeaderInfo": null,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 4,
+    "survival": 0,
+    "commercial-success": 9
+  }
+}

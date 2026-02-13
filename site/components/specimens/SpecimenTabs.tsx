@@ -3,7 +3,7 @@
 import { useState } from "react";
 import type { Specimen } from "@/lib/types/specimen";
 import type { ConfirmedMechanism } from "@/lib/types/synthesis";
-import type { PurposeClaim, ClaimType } from "@/lib/types/purpose-claims";
+import type { PurposeClaim, ClaimType, SpecimenEnrichment } from "@/lib/types/purpose-claims";
 import { OverviewTab } from "./OverviewTab";
 import { MechanismsTab } from "./MechanismsTab";
 import { EvolutionTab } from "./EvolutionTab";
@@ -28,12 +28,14 @@ export function SpecimenTabs({
   mechanismDefinitions,
   purposeClaims = [],
   claimTypeDefinitions = {} as Record<ClaimType, string>,
+  enrichment = null,
 }: {
   specimen: Specimen;
   related: Specimen[];
   mechanismDefinitions: ConfirmedMechanism[];
   purposeClaims?: PurposeClaim[];
   claimTypeDefinitions?: Record<ClaimType, string>;
+  enrichment?: SpecimenEnrichment | null;
 }) {
   const [activeTab, setActiveTab] = useState<TabId>("overview");
 
@@ -90,6 +92,7 @@ export function SpecimenTabs({
             claims={purposeClaims}
             claimTypeDefinitions={claimTypeDefinitions}
             specimenId={specimen.id}
+            enrichment={enrichment}
           />
         )}
         {activeTab === "evolution" && <EvolutionTab specimen={specimen} />}

@@ -1,0 +1,23 @@
+{
+  "specimenId": "abb",
+  "scannedDate": "2026-02-09",
+  "quality": "rich",
+  "claimCount": 6,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 1,
+    "higher-calling": 0,
+    "identity": 0,
+    "survival": 1,
+    "commercial-success": 3
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

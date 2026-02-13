@@ -1,0 +1,23 @@
+{
+  "specimenId": "salesforce",
+  "scannedDate": "2026-02-04",
+  "quality": "rich",
+  "claimCount": 5,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 0,
+    "survival": 0,
+    "commercial-success": 3
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

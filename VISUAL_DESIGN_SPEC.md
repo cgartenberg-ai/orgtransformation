@@ -21,7 +21,7 @@ This spec transforms the site into a **Digital Nature Documentary** — where ev
 Before implementing, read these files in order:
 
 1. `CLAUDE.md` — Project bootstrap, structure, session protocol
-2. `APP_STATE.md` — Current state: 85 specimens, 12 mechanisms, site status
+2. `APP_STATE.md` — Current state: specimen count, mechanisms, site status
 3. `SW_ARCHITECTURE.md` — Next.js 14 architecture, component patterns, data layer
 4. `UI_Spec.md` — Original UI design (this spec extends it visually)
 5. `Ambidexterity_Field_Guide_Spec.md` — Domain context: 7 models, 3 orientations, taxonomy

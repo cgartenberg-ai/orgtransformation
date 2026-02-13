@@ -1,0 +1,23 @@
+{
+  "specimenId": "hyundai-robotics",
+  "scannedDate": "2026-02-09",
+  "quality": "rich",
+  "claimCount": 9,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 2,
+    "higher-calling": 0,
+    "identity": 2,
+    "survival": 3,
+    "commercial-success": 0
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

@@ -1,6 +1,6 @@
 # Project Workflow: Complete Command Reference
 
-## Last Updated: February 6, 2026
+## Last Updated: February 12, 2026
 
 This document is the single source of truth for **all research workflows and commands** in the Ambidexterity Field Guide project.
 
@@ -15,9 +15,9 @@ The project has **two parallel research tracks**, each with its own pipeline:
 │                         TRACK 1: STRUCTURAL RESEARCH                            │
 │              "How do organizations structure AI work?"                          │
 │                                                                                 │
-│   /research → /curate → /synthesize → [insights.json, mechanisms.json, etc.]   │
+│   /research → /curate → interactive synthesis → [insights.json, etc.]          │
 │                                                                                 │
-│   Output: 93 specimen cards, 9 mechanisms, 13 insights, 5 tensions              │
+│   Output: Specimen cards, mechanisms, field insights, tensions                   │
 └─────────────────────────────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────────────────────────────┐
@@ -31,7 +31,7 @@ The project has **two parallel research tracks**, each with its own pipeline:
 ```
 
 Both tracks share:
-- The same 93 specimens as subjects
+- The same specimen collection as subjects
 - The Transcript Discovery Protocol for finding interview sources
 - The source registry (`specimens/source-registry.json`)
 
@@ -105,35 +105,93 @@ Both tracks share:
 
 ---
 
-### Phase 3: `/synthesize` — Pattern Analysis
+### Phase 3: Synthesis — Interactive Botanist Mode (REQUIRED)
 
-**What it does:** Identifies cross-cutting patterns across specimens.
+> **DEPRECATED: Automated `/synthesize` and `overnight-synthesis.py`.**
+> The overnight synthesis pipeline (Sessions 8-10) proved that synthesis CANNOT be reliably automated. Agents systematically dropped tension/contingency data, produced format divergence, and — most importantly — missed the analytical discoveries that make this work valuable. Synthesis requires the botanist's eye: reading each specimen, noticing what doesn't fit, spotting patterns across specimens, and pausing to develop theoretical connections. This is the intellectual core of the project, not a data migration task.
 
-**When to use:** After `/curate` has processed specimens.
+**What it does:** Interactive, collaborative analysis of specimens in batches — scoring tensions, placing contingencies, and watching for cross-cutting discoveries.
 
-**Invocation:**
-```
-/synthesize                  # Process pending items in synthesis queue
-/synthesize [specimen-id]    # Analyze a specific specimen
-```
+**When to use:** After `/curate` has processed specimens. This is always done interactively in conversation, never via background agents.
+
+**How it works:**
+
+1. **Read specimens in sector/theme batches** (8-15 at a time, grouped by industry or structural similarity)
+2. **Score all 5 tensions** (T1-T5, positions from -1.0 to +1.0) with evidence strings
+3. **Assign all 5 contingencies** (C1-C5, categorical levels)
+4. **Watch for discoveries** — this is the critical step:
+   - Patterns across 3+ specimens in the batch → potential new insight
+   - Specimens that don't fit any tension pole → possible new tension or redefinition
+   - Evidence that strengthens/weakens existing hypotheses → maturity promotion
+   - Contingency levels that don't exist → possible new contingency
+   - Model classifications that seem wrong → flag for taxonomy review
+5. **PRESENT observations to collaborator and WAIT for discussion** — this is NON-NEGOTIABLE. Do NOT skip to the patch script. Present proposed tension/contingency scores, any patterns or discoveries, and any questions. Wait for the collaborator's response. The most valuable analytical insights emerge from back-and-forth discussion, not from unilateral analysis. If you find yourself writing the patch script without having presented observations and received feedback, you have broken the protocol.
+6. **Write Python patch script** per batch (never edit JSON directly) — ONLY after discussion
+7. **Validate** after each batch: `node scripts/validate-workflow.js`
+8. **Update field journal with ALL substantive observations** — see Field Journal Protocol below. Include observations from BOTH collaborators and the discussion that shaped them.
+9. **Update `synthesis/insights.json`** if the batch produced new evidence, boundary conditions, or refinements for existing insights, or if a new insight emerged — see Insight Update Protocol below. Discuss with collaborator before promoting maturity levels.
+
+**Discovery protocol during placement:**
+When a discovery surfaces, STOP placement work. Present finding with evidence. Discuss together. Decide:
+- Add to taxonomy (new insight, maturity promotion, etc.)
+- Flag for later (note in session log, don't promote yet)
+- Dismiss (interesting but insufficient evidence)
+
+**Field Journal Protocol (MANDATORY):**
+The field journal (`synthesis/sessions/YYYY-MM-DD-*.md`) must capture ALL substantive analytical observations from the batch, including:
+- Observations the botanist notices during the specimen read-through
+- Decisions made during discussion (e.g., removing specimens, reclassifying)
+- Connections to existing hypotheses raised by either collaborator
+- Observations that emerge from the back-and-forth discussion, even if they don't rise to the level of a new insight
+- Cross-specimen comparisons proposed by the user
+- Refinements, boundary conditions, or moderating variables identified for existing hypotheses
+
+The field journal is the primary analytical record of this project. If something substantive was discussed during a batch session, it belongs in the journal. Write it up before moving to the next batch or ending the session.
+
+**Insight Update Protocol (MANDATORY):**
+After each batch, check whether `synthesis/insights.json` needs updating. This is as important as the field journal — insights.json is the structured analytical output that feeds into writing. Update when:
+- A batch provided **new supporting or counter-evidence** for an existing insight → add specimens, update evidence string
+- Discussion identified **new boundary conditions or moderating variables** → update finding/implication text
+- An insight's **maturity should change** (hypothesis → emerging → confirmed) based on accumulated evidence
+- A **new insight emerged** from the batch → add new entry
+- **Research targets changed** (e.g., a cluster was tested, shift targets to next untested cluster)
+
+Insights are NEVER deleted, only updated or added. The insight update should reflect the full discussion, not just the read-through observations.
+
+**Scoring guides:**
+
+| Tension | ID | Negative Pole (-1) | Positive Pole (+1) | Key Question |
+|---------|----|---------------------|---------------------|--------------|
+| T1 | structuralVsContextual | Structural separation | Contextual integration | Separate AI unit, or everyone does AI? |
+| T2 | speedVsDepth | Deep pilots | Wide deployment | Deploy broadly fast, or pilot deeply first? |
+| T3 | centralVsDistributed | Centralized | Distributed | One hub controls, or BUs have autonomy? |
+| T4 | namedVsQuiet | Named lab | Quiet transformation | Branded AI org/role, or no formal branding? |
+| T5 | longVsShortHorizon | Long horizons | Short accountability | Multi-year R&D, or quarterly pressure? |
+
+| Contingency | ID | Valid Levels |
+|-------------|----|-------------|
+| C1 | regulatoryIntensity | high, medium, low |
+| C2 | timeToObsolescence | high (threatened), medium (augmented), low (stable), fast (rare) |
+| C3 | ceoTenure | high (long), founder, medium, low (short), new, critical |
+| C4 | talentMarketPosition | high, low, nonTraditional, talent-rich, talent-constrained |
+| C5 | technicalDebt | high, medium, low |
+
+**Stub policy:** If a specimen has insufficient data to score, skip that dimension and note "insufficient data — needs enrichment." Do NOT invent data.
 
 **Inputs:**
-- `curation/synthesis-queue.json` — pending specimens
-- `specimens/*.json` — full specimen data
-- `synthesis/*.json` — existing patterns
+- `specimens/*.json` — full specimen data (primary)
+- `synthesis/*.json` — existing patterns (cross-reference)
+- `synthesis/PLACEMENT-COMPLETION-PLAN.md` — batch breakdown and progress
 
 **Outputs:**
-- `synthesis/mechanisms.json` — confirmed patterns
-- `synthesis/tensions.json` — structural tensions
-- `synthesis/contingencies.json` — contextual factors
-- `synthesis/insights.json` — cross-cutting findings (NEVER deleted)
+- `synthesis/mechanisms.json` — updated mechanism evidence
+- `synthesis/tensions.json` — specimen placements with evidence
+- `synthesis/contingencies.json` — specimen level assignments
+- `synthesis/insights.json` — cross-cutting findings (NEVER deleted, only added/updated)
+- `synthesis/sessions/*.md` — session journals with discoveries
+- `scripts/patch-batch*.py` — patch scripts (one per batch, kept for audit trail)
 
-**Key protocol steps:**
-1. Read specimen data
-2. Match to existing mechanisms
-3. Check tension placement
-4. Identify contingency factors
-5. Update or add insights
+**Why interactive matters:** Sessions 11-12 demonstrated the value. Batch 3 yielded the UnitedHealth "scale without signal" observation and IT services divergence. A re-examination of Batch 2 led to the mRNA-AI modularity fit idea, which connected to Nadella's Coase reference, producing the `modularity-predicts-ai-structure` hypothesis — the kind of theoretical chain that no automated pipeline would ever produce. Batch 4 revealed the automotive M4 convergence (10/13 specimens), GM's CAIO failure as natural experiment, and the "data foundation first" sequencing pattern. Every batch has been analytically productive when approached with curiosity rather than as rote data entry.
 
 ---
 
@@ -162,16 +220,17 @@ Both tracks share:
 - `research/purpose-claims/registry.json` — merged claim registry
 - Updates to `scan-tracker.json`
 
-**Claim Type Taxonomy (v1.0 — 7 types):**
+**Claim Type Taxonomy (v2.0 — 6 types):**
 | Type | Core Question |
 |------|---------------|
 | `utopian` | "What future are we building?" — grandiose, unfalsifiable |
-| `identity` | "Who are we?" — character, values, culture |
 | `teleological` | "What outcome justifies our existence?" — specific, falsifiable |
-| `transformation-framing` | "What are we becoming?" — org changing form |
-| `employee-deal` | "What do we expect from people?" — employment contract reset |
-| `sacrifice-justification` | "Why is this pain worth it?" — cost + purpose |
-| `direction-under-uncertainty` | "Why are we betting on this?" — no clear ROI |
+| `higher-calling` | "What duty calls us?" — moral/ethical imperative |
+| `identity` | "Who are we?" — character, values, culture |
+| `survival` | "What threatens us if we don't act?" — existential urgency |
+| `commercial-success` | "How will this create value?" — business case framing |
+
+*v2.0 revision (Feb 8): reorganized around what END the claim invokes. Dropped employee-deal (not purpose claims), dissolved transformation-framing/sacrifice-justification/direction-under-uncertainty, added higher-calling/survival/commercial-success.*
 
 **Quality filters (all three required):**
 1. Verbatim exact words only
@@ -189,6 +248,36 @@ Both tracks share:
 
 **Full spec:** `research/purpose-claims/PURPOSE-CLAIMS-SPEC.md`
 
+### Purpose Claims Visualization Infrastructure
+
+The purpose claims pipeline now includes visual analytics and enrichment display:
+
+**Enrichment files** (`research/purpose-claims/enrichment/{specimen-id}.json`):
+- Generated by purpose claims agents (required output since Session 7)
+- Contains `claimTypeDistribution`, `keyFindings`, `rhetoricalPatterns`, `comparativeNotes`, `notableAbsences`, `quality`, metadata
+- 100 enrichment files currently exist (backfilled + agent-generated)
+- Loaded by `getSpecimenEnrichment()` / `getAllEnrichments()` in `site/lib/data/purpose-claims.ts`
+
+**Spider/Radar Charts** (`site/components/visualizations/SpiderChart.tsx`):
+- Pure React SVG, no D3 — 6 axes (one per claim type at 60° intervals), concentric grid rings, optional comparison overlay
+- Normalization: `normalizeDistribution()` in `site/lib/utils/spider-data.ts` — proportional values rescaled so max axis reaches 0.85 of radius
+- Used in 3 contexts: EnrichmentSummary (220px, interactive), EnrichmentCompact (140px, sidebar), ClaimsSpiderGrid (100px small multiples + 180px group averages)
+
+**Spider Grid** (`site/components/purpose-claims/ClaimsSpiderGrid.tsx`):
+- Replaces the Heatmap view on `/purpose-claims` page (view mode label: "Profiles")
+- Groups by structural model or industry (toggle)
+- Per-group: large average spider + small individual specimen spiders
+- Hover shows comparison overlay (specimen vs. group average)
+- Click drills into by-specimen view
+
+**Citation System** (auditability infrastructure):
+- `site/lib/utils/citations.ts` — Parses `[source-id]` markers in text strings
+- `site/components/shared/CitedText.tsx` — Renders as superscript numbered links
+- Wired into `OverviewTab.tsx` for specimen description and observable markers
+- Source IDs must match entries in specimen's `sources[]` array
+- **Curation protocol updated**: all new specimens should include `[source-id]` markers in observable markers
+- **Only Apple backfilled** so far — more specimens need citation backfill
+
 ---
 
 ## Shared Infrastructure: Transcript Discovery
@@ -202,7 +291,7 @@ Both `/research` and `/purpose-claims` use this protocol to systematically find 
 **Data files:**
 | File | Purpose |
 |------|---------|
-| `research/transcript-sources.json` | Registry of 13+ transcript sources |
+| `research/transcript-sources.json` | Registry of transcript sources |
 | `research/transcript-gap-queue.json` | Specimen × source pairs with scan status |
 
 **Phase 1: Quick Discovery (run for any specimen)**
@@ -248,7 +337,7 @@ Both `/research` and `/purpose-claims` use this protocol to systematically find 
 | Find new organizational AI structure data | `/research` | 1 |
 | Scan earnings calls for structural signals | `/research` (earnings mode) | 1 |
 | Create/update a specimen card | `/curate` | 1 |
-| Analyze patterns across specimens | `/synthesize` | 1 |
+| Analyze patterns across specimens | Interactive synthesis (see Phase 3) | 1 |
 | Find purpose claims for a specimen | `/purpose-claims [id]` | 2 |
 | Find transcripts for deep scanning | Follow TRANSCRIPT-DISCOVERY-PROTOCOL.md | Both |
 | Add papers to literature review | `/update-literature` | Support |
@@ -266,11 +355,13 @@ research/
 ├── transcript-sources.json        # Source registry
 ├── transcript-gap-queue.json      # Specimen × source tracking
 ├── purpose-claims/
-│   ├── registry.json              # All collected claims
+│   ├── registry.json              # All collected claims (v2.0 taxonomy)
 │   ├── scan-tracker.json          # What's been scanned
 │   ├── PURPOSE-CLAIMS-SPEC.md     # Full spec
 │   ├── analytical-notes.md        # Patterns observed
 │   ├── pending/                   # Claims pending merge
+│   ├── enrichment/                # Per-specimen enrichment files (100 files)
+│   │   └── {specimen-id}.json     # claimTypeDistribution, keyFindings, etc.
 │   └── sessions/                  # Scanning session logs
 ├── literature/
 │   └── registry.json              # Academic literature
@@ -279,13 +370,13 @@ research/
 specimens/
 ├── registry.json                  # Master specimen list
 ├── source-registry.json           # Source scanning status
-└── *.json                         # 93 specimen files
+└── *.json                         # Specimen files (see registry.json for count)
 
 synthesis/
-├── mechanisms.json                # 9 confirmed mechanisms
+├── mechanisms.json                # Confirmed + candidate mechanisms
 ├── tensions.json                  # 5 structural tensions
 ├── contingencies.json             # 5 contingency factors
-└── insights.json                  # 13 field insights
+└── insights.json                  # Field insights (growing collection)
 
 curation/
 ├── synthesis-queue.json           # Specimens pending synthesis
@@ -307,12 +398,13 @@ curation/
 2. /curate
    - Process pending items
    - Create/update specimens
-   - Queue for synthesis
 
-3. /synthesize
-   - Match to mechanisms
-   - Place in tensions
-   - Update insights
+3. Interactive synthesis (botanist hat ON)
+   - Read specimens in sector batches
+   - Score tensions + contingencies with evidence
+   - Watch for discoveries — pause, discuss, decide
+   - Write patch script, validate
+   - Log discoveries in session journal
 
 4. Update APP_STATE.md
 5. Run validation: node scripts/validate-workflow.js
@@ -338,3 +430,5 @@ curation/
 | Date | Change |
 |------|--------|
 | 2026-02-06 | Created WORKFLOW.md. Consolidated all command documentation. Added Transcript Discovery Protocol integration. |
+| 2026-02-09 | **DEPRECATED automated `/synthesize` and `overnight-synthesis.py`.** Replaced with Interactive Botanist Mode. Added tension scoring guide, contingency level guide, stub policy, and discovery protocol. Documented why interactive synthesis is required (Sessions 11-12 demonstrated that every batch yields analytical discoveries when approached with curiosity). |
+| 2026-02-12 | Updated claim type taxonomy to v2.0 (6 types). Added Purpose Claims Visualization Infrastructure section (enrichment files, spider charts, spider grid, citation system). Updated file map with enrichment directory. |

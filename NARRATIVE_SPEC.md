@@ -8,7 +8,7 @@ This spec describes how the field guide's **field insights** serve as **citable 
 
 ## The Problem
 
-The field guide contains rich data — 85 specimens, 9 confirmed mechanisms, 13 cross-cutting insights, 5 tensions — but this data currently lives in JSON files and a reference site. To become a published field guide (book, report, or article), this data must be transformed into narrative prose that:
+The field guide contains rich data — specimens, confirmed mechanisms, field insights, tensions (see `APP_STATE.md` for current counts) — but this data currently lives in JSON files and a reference site. To become a published field guide (book, report, or article), this data must be transformed into narrative prose that:
 
 1. Makes empirical claims grounded in evidence
 2. Cites specific specimens as support
@@ -78,13 +78,15 @@ Clearly flagged as preliminary:
 
 Insights group naturally by theme, which maps to potential chapter structure:
 
-| Theme | Potential Chapter | Insight Count |
-|-------|------------------|---------------|
-| `convergence` | "Convergent Evolution: When Different Organizations Arrive at the Same Structure" | 5 |
-| `organizational-form` | "The Forms That AI Creates: New Organizational Species" | 2 |
-| `mechanism` | "What Works and What Doesn't: Cautionary Tales and Counter-Evidence" | 3 |
-| `workforce` | "The Human Side: How AI Reshapes Who Works and How" | 2 |
-| `methodology` | "The Observer's Dilemma: Methodological Notes" | 1 |
+| Theme | Potential Chapter |
+|-------|------------------|
+| `convergence` | "Convergent Evolution: When Different Organizations Arrive at the Same Structure" |
+| `organizational-form` | "The Forms That AI Creates: New Organizational Species" |
+| `mechanism` | "What Works and What Doesn't: Cautionary Tales and Counter-Evidence" |
+| `workforce` | "The Human Side: How AI Reshapes Who Works and How" |
+| `methodology` | "The Observer's Dilemma: Methodological Notes" |
+
+*Note: See `synthesis/insights.json` for current insight counts per theme. The collection grows with each synthesis session.*
 
 ### Within Each Chapter
 

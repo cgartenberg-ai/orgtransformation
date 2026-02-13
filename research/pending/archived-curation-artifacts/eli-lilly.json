@@ -1,0 +1,52 @@
+{
+  "company": "Eli Lilly",
+  "ticker": "LLY",
+  "sector": "Pharmaceuticals",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 1,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "High",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "Two new presidents joined the leadership team: Dr. Carole Ho (President of Lilly Neuroscience) and Anne White (President of Lilly Immunology), participating in their first earnings call. No specific A",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "We recently announced a new collaboration with NVIDIA to open a co-innovation AI lab.",
+      "speaker": "David Ricks",
+      "speakerTitle": "CEO",
+      "source": "pharma-earnings-q4-2025.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Q4 2025 earnings call, discussing AI investments"
+    },
+    {
+      "text": "This project will combine Lilly's scientific expertise with NVIDIA's leading technology to accelerate drug discovery.",
+      "speaker": "David Ricks",
+      "speakerTitle": "CEO",
+      "source": "pharma-earnings-q4-2025.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Describing the NVIDIA co-innovation lab purpose"
+    }
+  ],
+  "sources": [
+    {
+      "name": "NVIDIA co-innovation AI lab announced",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2026-02-04",
+      "notes": "NVIDIA co-innovation AI lab announced"
+    }
+  ],
+  "summary": "NVIDIA co-innovation AI lab announced: Eli Lilly announced a new collaboration with NVIDIA to open a co-innovation AI lab combining Lilly's scientific expertise with NVIDIA's leading technology to accelerate drug discovery. The partnership New therapeutic area president structure: Two new presidents joined the leadership team: Dr. Carole Ho (President of Lilly Neuroscience) and Anne White (President of Lilly Immunology), participating in their first earnings call. No specific A Massive R&D pipeline acceleration: Daniel Skovronsky highlighted 36 active Phase III programs and 14 new Phase III programs initiated recently. 39 business development transactions completed in 2025. AI investment framed as supporting  $55B+ manufacturing expansion since 2020: Over $55 billion committed to manufacturing expansion since 2020, with AI as a separate innovation priority. New manufacturing sites in Wisconsin and North Carolina beginning production.",
+  "openQuestions": [],
+  "splitFrom": "pharma-earnings-q4-2025.json"
+}

@@ -1,0 +1,46 @@
+{
+  "company": "Dow Chemical",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.techrepublic.com/article/news-washington-post-layoffs-ai-restructuring/ (403)",
+    "https://www.crowe.com/news/crowe-expands-ai-center-of-excellence-appoints-firmwide-ai-leader (403)"
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "reducing complexity, adopting the best-available technologies",
+      "speaker": "Jim Fitterling",
+      "speakerTitle": "CEO, Dow Chemical",
+      "source": "general-sweep-feb-2026-v2.json",
+      "sourceUrl": "https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs",
+      "sourceDate": "",
+      "context": ""
+    }
+  ],
+  "sources": [
+    {
+      "name": "Dow cuts 4,500 jobs (13% of workforce) citing AI and automation adoption",
+      "url": "https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs",
+      "type": "Press",
+      "date": "2026-01-29",
+      "notes": "Dow cuts 4,500 jobs (13% of workforce) citing AI and automation adoption"
+    }
+  ],
+  "summary": "Dow cuts 4,500 jobs (13% of workforce) citing AI and automation adoption: On January 29, 2026, Dow Chemical announced cutting approximately 4,500 jobs \u2014 13% of its 36,000-person workforce. CEO Jim Fitterling framed the restructuring around 'reducing complexity' and adopting",
+  "openQuestions": [],
+  "splitFrom": "general-sweep-feb-2026-v2.json"
+}

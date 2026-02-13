@@ -1,0 +1,298 @@
+Total claims: 294
+
+specimen | speaker | type | claimText (first 150 chars)
+--- | --- | --- | ---
+meta-ai | Mark Zuckerberg | utopian | As the pace of AI progress accelerates, developing superintelligence is coming into sight. I believe this will be the beginning of a new era for human
+meta-ai | Mark Zuckerberg | identity | For our superintelligence effort, I'm focused on building the most elite and talent-dense team in the industry.
+meta-ai | Alexandr Wang | transformation-framing | By reducing the size of our team, fewer conversations will be required to make a decision, and each person will be more load-bearing and have more sco
+meta-ai | Alexandr Wang | sacrifice-justification | I recognize that org changes can be disruptive. But I truly believe that taking the time to get this structure right now will allow us to reach superi
+meta-ai | Mark Zuckerberg | employee-deal | I think that 2026 is going to be the year that AI starts to dramatically change the way we work. As we navigate this, our north star is building the b
+meta-ai | Mark Zuckerberg | employee-deal | We're starting to see projects that used to require big teams now be accomplished by a single very talented person.
+meta-ai | Mark Zuckerberg | utopian | This is going to be a big year for delivering personal superintelligence, accelerating our business, building infrastructure for the future, and shapi
+meta-ai | Mark Zuckerberg | utopian | Meta's vision is to bring personal superintelligence to everyone. We believe in putting this power in people's hands to direct it towards what they va
+meta-ai | Mark Zuckerberg | direction-under-uncertainty | Being able to make a significantly larger investment here is very likely to be a profitable thing over, over some period.
+meta-ai | Mark Zuckerberg | identity | I think we have the most talent-dense research effort in the industry and some of the early indicators look positive.
+meta-ai | Mark Zuckerberg | direction-under-uncertainty | At Meta, we have the resources to build the massive infrastructure required, and the ability to deliver new technology to billions of people.
+amazon-agi | Andy Jassy | sacrifice-justification | It's not financially driven, not AI-driven... it's culture.
+amazon-agi | Beth Galetti | identity | As I shared in October, we've been working to strengthen our organization by reducing layers, increasing ownership, and removing bureaucracy.
+amazon-agi | Andy Jassy | identity | It's culture.
+amazon-agi | Andy Jassy | direction-under-uncertainty | Efficiency gains from AI would likely cause Amazon's corporate head count to fall in coming years.
+amazon-agi | Beth Galetti | employee-deal | We're not trying to create a new rhythm of broad layoffs.
+anthropic | Dario Amodei | identity | I started a company not because I was initially excited about selling things or business or any of that. I'd seen the way that some of the other compa
+anthropic | Dario Amodei | identity | it felt like having at least one player that had a strong compass in how we do things could have positive effects on the ecosystem.
+anthropic | Dario Amodei | identity | We would build things in a different way, we would deploy them in a different way, and above all, we would have a, again, sometimes short list of prin
+anthropic | Dario Amodei | sacrifice-justification | we work on things like science and biomedical out of proportion to its immediate profitability.
+anthropic | Dario Amodei | sacrifice-justification | Getting another $200 million from some coding startup would take an order of magnitude less effort than getting that contract.
+anthropic | Dario Amodei | identity | the things we prioritize are things that we think are good, not necessarily things that feel good or that we think external buzz will be positive. We 
+anthropic | Dario Amodei | utopian | in one or two or three years, I don't know exactly how long it's going to be, we'll have what I've described as a country of geniuses in a data center
+anthropic | Dario Amodei | direction-under-uncertainty | every couple of weeks I get up in front of the organization and describe my vision, and I think one of the purposes of that is to keep people focused 
+anthropic | Dario Amodei | employee-deal | I think what I'm trying to fight against is the idea of employees who join and they're like, 'Oh, I worked in this industry. I've worked at this kind 
+anthropic | Dario Amodei | direction-under-uncertainty | up and down the organization, we want to make sure that when our finance people think about financial projections, they understand this. Not that ther
+anthropic | Dario Amodei | direction-under-uncertainty | a big part of my job is keeping the coherence of the organization around this central thesis. Not that everyone has to believe the thesis, right? Ther
+anthropic | Dario Amodei | employee-deal | It's like a mixture of true belief in the mission and belief in the upside of the equity. I think Anthropic has developed a reputation for doing what 
+anthropic | Dario Amodei | identity | the idea that you have seven people who really carry the values of the company and project them to a wide set of people, it allows you to scale the co
+anthropic | Dario Amodei | transformation-framing | I don't want to stop the reaction, I want to focus it. That's how I think about it.
+eli-lilly | Dave Ricks | identity | Scale's bad. And I think our idea was three or 400 people, about right, with a focused mission allow for some deviation.
+eli-lilly | Dave Ricks | employee-deal | We don't manage the budgets down to the nickel at these sites. And if you get good people, it's like let them do their thing, let them cook and let's 
+eli-lilly | Dave Ricks | identity | There is a long list of pretty compelling inventions that came out of Lilly that were not sanctioned projects.
+eli-lilly | Dave Ricks | identity | We have this allowable variation idea. Where skunk— ... basically you just turn away and see what happens.
+eli-lilly | Dave Ricks | direction-under-uncertainty | We probably make three or four important decisions a year and they're all science.
+eli-lilly | Dave Ricks | direction-under-uncertainty | We've been on this story for a long time and it was protein engineering and making better molecules that could be dosed higher that led us to get to m
+eli-lilly | Dave Ricks | sacrifice-justification | They said, 'Don't. This is a threat to our model.' I don't care. We have a higher calling.
+microsoft | Satya Nadella | identity | growth mindset or learn-it-all versus know-it-all has been super helpful for us as just a frame because nobody thinks of it as my dogma, right? Thank 
+microsoft | Satya Nadella | direction-under-uncertainty | I don't have a utilization problem. I may have a PUE. I want higher utilization, mostly because it's memory bottleneck or what have you. But there is 
+microsoft | Satya Nadella | identity | social cohesion is not a goal. Winning in the marketplace is a goal
+microsoft | Satya Nadella | transformation-framing | We have to be fantastic at building what I'll call the token factory. This is the tokens per dollar per watt, really being super efficient at that.
+microsoft | Satya Nadella | identity | the sovereignty that matters is your company's sovereignty in an age where there are continual learning increasing returns to a model
+microsoft | Satya Nadella | identity | the future of a company is that company has its own foundation model that captures essentially the tacit knowledge that makes the transactional costs 
+microsoft | Satya Nadella | transformation-framing | I am lingering around Teams channels and they're most helpful. In fact, if anything I learn the most there. I meet most people there.
+microsoft | Satya Nadella | direction-under-uncertainty | One is to get the paradigm right. Then it's not clear. Even if you get the paradigm right, that you may not get what is the killer app or even the bus
+microsoft | Satya Nadella | identity | Making sure that AI is getting diffused inside of the enterprise... not to just admire somebody else's AI factory or AI agent, but how to build your o
+microsoft | Satya Nadella | direction-under-uncertainty | We have to use our knowledge to increase the ROIC on the capital spend.
+microsoft | Satya Nadella | transformation-framing | The power is a lot more diffused and distributed... Micro-cultures and they can be shaped.
+microsoft | Satya Nadella | transformation-framing | We will have access to OpenAI models...And we'll build our own models with MAI. So we will always have a model level. And then we'll build — whether i
+microsoft | Satya Nadella | employee-deal | work and act like Individual Contributors in our own orgs, constantly learning and unlearning
+microsoft | Satya Nadella | employee-deal | move with greater speed, rethink entrenched practices
+microsoft | Satya Nadella | direction-under-uncertainty | Think in decades, execute in quarters.
+servicenow | Bill McDermott | utopian | We need to have those 20th century org charts obliterated... we now need to work in teams. Teams need to work across processes, and the agents need to
+servicenow | Bill McDermott | identity | AI Control Tower for the global enterprise.
+shopify | Tobi Lutke | employee-deal | Before asking for more headcount or resources, teams must demonstrate why the work cannot be done with AI. What would this area look like if autonomou
+shopify | Tobi Lutke | employee-deal | Reflexive AI usage is now a baseline expectation at Shopify.
+shopify | Tobi Lutke | employee-deal | I use it as a thought partner, deep researcher, critic, tutor, or pair programmer.
+shopify | Tobi Lutke | transformation-framing | It's the most rapid shift to how work is done that I've seen in my career, and I've been in this for a while.
+shopify | Tobi Lutke | employee-deal | Learning to use AI well is genuinely fun. I believe mastering the skill of applying AI to your work is now the most impactful one can develop.
+accenture-openai | Julie Sweet | employee-deal | We are exiting on a compressed timeline people where reskilling, based on our experience, is not a viable path for the skills we need.
+accenture-openai | Julie Sweet | direction-under-uncertainty | value realization has been underwhelming for many
+accenture-openai | Julie Sweet | transformation-framing | This change is so big, this is reversing five decades of how we're working.
+accenture-openai | Julie Sweet | identity | CEOs have identified that AI is simple to try and hard to scale, and that's why they come to Accenture.
+accenture-openai | Julie Sweet | identity | Excellence, confidence, and humility. That is my North Star, because the moment I lose sight of that, I may not be challenging myself and our company 
+accenture-openai | Julie Sweet | employee-deal | Every leader needs to think of themselves as a reinventor.
+accenture-openai | Julie Sweet | direction-under-uncertainty | Most CEOs I talk to feel like their organizations have over-tilted toward productivity... and they're missing the growth opportunities from AI.
+accenture-openai | Julie Sweet | sacrifice-justification | For our people and our clients, it was hard... How do you have the courage to do that? That's where you have the humility, but also this idea of embra
+salesforce | Marc Benioff | identity | No business is better positioned than Salesforce to guide customers through the digital labour revolution.
+salesforce | Marc Benioff | transformation-framing | the quarter of Agentforce
+salesforce | Marc Benioff | utopian | Digital labor is a new horizon for business... How we architect our businesses and run our businesses and staff our businesses and think about our bus
+salesforce | Marc Benioff | utopian | We are the last generation of CEOs to manage only humans. I believe that every CEO in the future will manage both humans and agents together.
+salesforce | Marc Benioff | employee-deal | I've reduced it from 9,000 heads to about 5,000, because I need less heads.
+salesforce | Marc Benioff | employee-deal | We're not adding any more software engineers next year because we have increased the productivity this year with Agentforce — and with other AI techno
+salesforce | Marc Benioff | direction-under-uncertainty | I think AI augments people, but I don't know if it necessarily replaces them.
+salesforce | Marc Benioff | identity | Agentforce 2.0 cements our position as the leader in digital labor solutions, allowing any company to build a limitless workforce that can truly trans
+salesforce | Marc Benioff | sacrifice-justification | I don't think it's dystopian at all. This is reality, at least for me.
+salesforce | Marc Benioff | direction-under-uncertainty | You need the human in the loop. The humans are not going away. We're being augmented by these technologies. We're getting more productivity.
+klarna | Sebastian Siemiatkowski | sacrifice-justification | As cost unfortunately seems to have been a too predominant evaluation factor when organizing this, what you end up having is lower quality.
+klarna | Sebastian Siemiatkowski | direction-under-uncertainty | Really investing in the quality of human support is the way of the future for us.
+klarna | Sebastian Siemiatkowski | employee-deal | From a brand perspective, a company perspective, I just think it's so critical that you are clear to your customer that there will always be a human i
+klarna | Sebastian Siemiatkowski | direction-under-uncertainty | I feel a lot of my tech bros are being slightly not to the point on this topic. I think there is a massive shift coming to knowledge work. And it's no
+klarna | Sebastian Siemiatkowski | sacrifice-justification | Society will have to figure out what are we going to do because yes, new jobs will be created, but in the shorter term, that doesn't help the Brussels
+klarna | Klarna (corporate press release) | transformation-framing | doing the equivalent work of 700 full-time agents
+klarna | Sebastian Siemiatkowski | transformation-framing | Uber type of setup
+sk-telecom | SK Telecom | identity | the main driver of SK's AI business and, furthermore, the core that leads the AI business for the entire SK Group
+sk-telecom | Ryu Young-sang | transformation-framing | We will leap into SKT's version of a distinguished AI company that combines AI with connective technologies based on our main business of telecommunic
+sk-telecom | Ryu Young-sang | utopian | golden era of AI
+sk-telecom | Ryu Young-sang | identity | customer trust has been and will be our most valuable asset
+sk-telecom | Jung Jai-hun | direction-under-uncertainty | We cannot create real change by simply working harder while relying on old ways of thinking.
+google-deepmind | Demis Hassabis | teleological | I think that's within reach. Maybe within the next decade or so, I don't see why not.
+google-deepmind | Demis Hassabis | teleological | revolutionize human health, and I think one day maybe we can cure all disease with the help of AI
+google-deepmind | Demis Hassabis | identity | build what I think is the ultimate tool for advancing human knowledge, which is-- which is AI
+google-deepmind | Demis Hassabis | utopian | radical abundance
+google-deepmind | Demis Hassabis | identity | I want us to move away, as a field, from a sort of 'move fast and break things attitude'...we want to be bold with the positive things that it can do 
+google-deepmind | Demis Hassabis | direction-under-uncertainty | It's going to be one of the most important technologies humanity will ever invent. So we've got to put all our efforts into getting this right.
+google-deepmind | Demis Hassabis | identity | Our kind of mantra is to try and be bold and responsible with these systems.
+google-deepmind | Demis Hassabis | identity | this is my whole reason why I worked on AI and AGI my whole life, because I think it can be the ultimate tool to help us as scientists answer these ki
+google-deepmind | Demis Hassabis | identity | I pride ourselves on having the broadest and deepest research bench
+google-deepmind | Demis Hassabis | direction-under-uncertainty | when the terrain gets harder, right? Because then it veers more from just engineering to true research, and research plus engineering, and that's our 
+ssi | SSI | teleological | Building safe superintelligence (SSI) is the most important technical problem of our time.
+ssi | Ilya Sutskever | identity | We are squarely an 'age of research' company.
+ssi | SSI | identity | SSI is our mission, our name, and our entire product roadmap, because it is our sole focus.
+ssi | SSI | identity | We have started the world's first straight-shot SSI lab, with one goal and one product: a safe superintelligence.
+ssi | Ilya Sutskever | teleological | I maintain that there is something that's better to build, and I think that everyone will want that. It's the AI that's robustly aligned to care about
+ssi | Ilya Sutskever | direction-under-uncertainty | The way I would describe it is that there are some ideas that I think are promising and I want to investigate them and see if they are indeed promisin
+ssi | SSI | identity | We are assembling a lean, cracked team of the world's best engineers and researchers dedicated to focusing on SSI and nothing else.
+ssi | SSI | direction-under-uncertainty | Our singular focus means no distraction by management overhead or product cycles, and our business model means safety, security, and progress are all 
+sierra-ai | Bret Taylor | utopian | This was an inflection point in society and technology...as significant as the advent of the internet.
+sierra-ai | Bret Taylor | identity | I didn't know what I was going to do, but now I know I'm going to work on this.
+sierra-ai | Clay Bavor | teleological | We think in the future, your AI agent will be more important than your website and more important than your app.
+sierra-ai | Bret Taylor | identity | The word agent will stick...A little bit like app, the word app will become just a noun that describes a packaging.
+sierra-ai | Clay Bavor | identity | We only charge our customers when their agent successfully completes the task that it's set out to do.
+sierra-ai | Bret Taylor | direction-under-uncertainty | We're taking on the risk, but I also think as a consequence we're making something more valuable.
+pfizer | Albert Bourla | transformation-framing | The winners in that field will be separated from the losers, not by their ability to select the right technology or the right vendor, but their abilit
+pfizer | Albert Bourla | utopian | I truly believe that we are about to enter a scientific renaissance in life sciences, because of this coexistence of advancements in technology and bi
+pfizer | Albert Bourla | direction-under-uncertainty | Four years to four months, that's dramatic, and that has translated to hundreds of thousands of lives.
+pfizer | Albert Bourla | transformation-framing | The main lever was the successful deployment of AI.
+pfizer | Albert Bourla | teleological | We saved the world from COVID, now we'll save the world from cancer.
+pfizer | Albert Bourla | teleological | I think we should be able to cure [some cancers]. The remaining ones that are not cured will become chronic diseases: You can live with your cancer li
+pfizer | Berta Rodriguez-Hervas | identity | I am incredibly inspired by the shared vision I have with Lidia Fonseca regarding the future of AI at Pfizer, and the immense impact we will bring to 
+pfizer | Lidia Fonseca | transformation-framing | I am confident that Berta's leadership and fresh perspective will continue to take our enterprise AI strategies and capabilities to the next level to 
+pfizer | Albert Bourla | transformation-framing | We touched the lives of hundreds of millions of patients and strengthened Pfizer in a year of execution and transformation.
+pfizer | Albert Bourla | utopian | We are experiencing a scientific renaissance, with previously unimaginable technology and advances in science.
+novo-nordisk | Anja Leth Zimmer | teleological | Ultimately, it's about using data and AI to drive real change and improve the lives of patients around the world.
+novo-nordisk | Anja Leth Zimmer | identity | I take on this role with humility – and with strong confidence that our company, built on more than a century of science and data‑driven innovation, w
+novo-nordisk | Anders Romare | transformation-framing | AI and machine learning have been integral to our industry for years. However, Generative AI represents a significant leap forward, enabling us to acc
+novo-nordisk | Anders Romare | direction-under-uncertainty | Potentially, we can go from five years of drug discovery to maybe three years.
+novo-nordisk | Anders Romare | sacrifice-justification | It's natural to worry about job displacement, but history shows that technology shifts lead to new opportunities. Generative AI will certainly lead to
+novo-nordisk | Anders Romare | transformation-framing | Traditionally, software played a supporting role, but with the advent of Generative AI, it's becoming central to how we develop and deliver drugs.
+novo-nordisk | Karin Conde-Knape | teleological | Using data with AI to define patients' risk of developing diseases will help us provide better treatments. This is precision medicine, and it's going 
+novo-nordisk | Lars Fogh Iversen | direction-under-uncertainty | Together, we are on a path to enable faster and scaled use of AI in drug discovery, ultimately leading to more breakthrough innovations and efficiency
+novo-nordisk | Lars Fogh Iversen | direction-under-uncertainty | Gefion will allow us to tackle compute-heavy challenges, like AI-based protein engineering and biological models. AI models can now be created and use
+novo-nordisk | Louise Lind Skov | transformation-framing | We've consistently been one of the first movers when it comes to document and content automation in pharma development. Our work with Anthropic and Cl
+novo-nordisk | Seth Freund | direction-under-uncertainty | If it was just about taking a process today and making it a little more efficient, that's probably not a super compelling reason to invest in making a
+roche-genentech | Aviv Regev | transformation-framing | If we proceed with everything in this stepwise, bespoke, almost handcrafted way as we have, we won't move fast enough and address enough problems.
+roche-genentech | Aviv Regev | transformation-framing | We have to find ways to work at a different scale and AI is helping us do this.
+roche-genentech | Aviv Regev | sacrifice-justification | This is a long game and it's a deep investment. Decorating what you currently do with some additions is not going to be enough. This lab in the loop r
+roche-genentech | Aviv Regev | utopian | For the very first time in our history, in human history, biology has the opportunity to be engineering, not science.
+roche-genentech | Aviv Regev | employee-deal | Making sure they feel they are on an equal footing is essential and extremely important.
+roche-genentech | Aviv Regev | employee-deal | Everyone should feel very comfortable talking with an accent. We don't expect our computational scientists to start behaving like they were actually b
+roche-genentech | Aviv Regev | teleological | If we just do twofold better, that is a dramatic, radical shift for the betterment of human lives.
+roche-genentech | Aviv Regev | teleological | We owe it to each and every one of our patients to be the absolute best.
+roche-genentech | Aviv Regev | direction-under-uncertainty | I plan to be here for the very long term. There is no Plan B.
+roche-genentech | Aviv Regev | sacrifice-justification | Those might not look great for our molecule team. They're like, 'This is never going to be a drug.' Maybe it won't. But it will make an algorithm that
+roche-genentech | Aviv Regev | direction-under-uncertainty | People think it will work immediately. No, no, no. It's a set of multiple difficult problems, and you have to tackle all of them, and you're only as g
+roche-genentech | Aviv Regev | direction-under-uncertainty | You cannot judge success three years in, in this particular field. Unfortunately, still, it's too slow.
+roche-genentech | Aviv Regev | employee-deal | Agents can't replace our scientists, but they actually boost our scientists.
+roche-genentech | Aviv Regev | employee-deal | The really cool part happens when you let the agent and our top performing scientists work together. They then perform together far better than our be
+roche-genentech | Aviv Regev | identity | We're testing AI on the real thing — patients. It's not just a paper or fun science.
+roche-genentech | Aviv Regev | identity | By harnessing the power of AI models and algorithms, with our unique data and experiments, we're unlocking scientific discoveries with incredible spee
+roche-genentech | Thomas Schinecker | transformation-framing | With the speed of technology and its strategic importance to our business now and for the future, I am thrilled to have Wafaa Mamilli joining us. She 
+roche-genentech | Thomas Schinecker | teleological | Our investments of USD 50 billion over the next five years will lay the foundation for our next era of innovation and growth, benefiting patients in t
+sanofi | Paul Hudson | utopian | Our ambition is to become the first pharma company powered by artificial intelligence at scale, giving our people tools and technologies that focus on
+sanofi | Paul Hudson | utopian | We have just scratched the surface as to how we embrace these disruptive technologies to achieve our ambition of transforming the practice of medicine
+sanofi | Paul Hudson | direction-under-uncertainty | You don't delegate the revolution.
+sanofi | Paul Hudson | transformation-framing | We don't have a choice. It's the fourth industrial revolution.
+sanofi | Paul Hudson | employee-deal | The adoption of AI in particular is not about jobs...more meaningful work is created.
+sanofi | Paul Hudson | transformation-framing | We just picked one person who didn't know anything about AI from each major function and put them in a room together and said, 'OK, disrupt yourselves
+sanofi | Paul Hudson | sacrifice-justification | People are often shocked that you may get the insight at the same time as somebody lower down the organization.
+sanofi | Paul Hudson | direction-under-uncertainty | The younger talent...are saying, 'You didn't see AI, old man...I have a better insight than you do.'
+sanofi | Paul Hudson | transformation-framing | I have a chance to disrupt structural biology...invent medicines and druggable targets that were never touched before.
+sanofi | Paul Hudson | identity | We aim to be the world's leading pharmaceutical company using AI at scale.
+sanofi | Paul Hudson | sacrifice-justification | The jobs that go are the people that refuse to use AI.
+sanofi | Paul Hudson | direction-under-uncertainty | The agent doesn't have a career at stake.
+sanofi | Paul Hudson | transformation-framing | We made significant progress in 2024 toward becoming a focused science-driven biopharma company.
+sanofi | Houman Ashrafian | utopian | I'm optimistic that the impact of talented science-focused teams, coupled with our increasing exposure to breathtaking digital technologies, will driv
+google-x | Astro Teller | teleological | We use the word moonshots to remind us to keep our visions big, to keep dreaming.
+google-x | Astro Teller | identity | We spend most of our time breaking things and trying to prove that we're wrong.
+google-x | Astro Teller | sacrifice-justification | Run at all the hardest parts of the problem first. Get excited and cheer, 'Hey! How are we going to kill our project today?'
+google-x | Astro Teller | employee-deal | We have bonused every single person on teams that ended their projects.
+google-x | Astro Teller | sacrifice-justification | This team has done more to further innovation at X by ending their project than any one of you.
+google-x | Astro Teller | identity | The only way to get people to work on big, risky things -- audacious ideas -- and have them run at all the hardest parts of the problem first, is if y
+google-x | Astro Teller | direction-under-uncertainty | Enthusiastic skepticism is not the enemy of boundless optimism. It's optimism's perfect partner.
+google-x | Astro Teller | teleological | to invent and launch 'moonshot' technologies that we hope could someday make the world a radically better place
+google-x | Astro Teller | identity | innovation is a delicate thing. You can't over-process it; you have to respect weird creativity and serendipitous discovery
+google-x | Astro Teller | transformation-framing | We're trying to create the processes and culture that will help us systematize innovation
+google-x | Astro Teller | identity | We embrace failure as a powerful tool for learning and, counter-intuitively, making progress; this is one of our most important values
+google-x | Astro Teller | identity | We try to steer X to be 'responsibly irresponsible' as we develop new products
+google-x | Astro Teller | direction-under-uncertainty | I'm a firm believer that it's possible to make progress against previously intractable problems by being committed over the long term, and committed t
+google-x | Astro Teller | teleological | an X project must solve a problem that affects millions or billions of people; it has to have an audacious, sci-fi sounding technology; and there has 
+ubs | Sergio Ermotti | teleological | We are also preparing for the future by continuing to invest in our people, products and capabilities to strengthen our client offerings and position 
+ubs | Sergio Ermotti | identity | We are implementing the largest deployment of Copilot within the global financial services industry to date.
+ubs | Sergio Ermotti | direction-under-uncertainty | We are focused on responsible AI as we provide our people with tools that will help them better manage their businesses.
+ubs | Sergio Ermotti | employee-deal | Even as new technology is changing the way we work, our people will remain the most important driver of our success.
+ubs | Sergio Ermotti | transformation-framing | We now have 340 live AI use cases across the bank, increasing resilience and building the foundation to enhance the client experience and deliver mean
+ubs | Sergio Ermotti | identity | UBS has long been a pioneer in adopting new technology, including artificial intelligence, which we've been using for a decade.
+ubs | Sergio Ermotti | direction-under-uncertainty | Our focus is on further scaling generative AI throughout the firm.
+ubs | Mike Dargan | transformation-framing | Artificial intelligence is a top priority for UBS. I am delighted to welcome Daniele with his experience in embedding AI into business processes, driv
+ubs | Sergio Ermotti | teleological | We are positioning for long-term success by further enhancing our global capabilities, investing in our future infrastructure and AI, while actively e
+ubs | Sergio Ermotti | transformation-framing | Building on these strong foundations, we are investing in a portfolio of large-scale transformational AI programs designed to increase our operational
+ups | Carol Tomé | identity | Moving our world forward by delivering what matters. I love this because it's not just about moving goods; it's about doing good.
+ups | Carol Tomé | identity | Technology is just part of who we are.
+ups | Carol Tomé | transformation-framing | We're creating what we call 'operator of the future.'
+ups | Carol Tomé | sacrifice-justification | Will we have as many people working for us? No. We won't. But if you have a desire, we'll give you that opportunity to learn.
+ups | Carol Tomé | transformation-framing | We've got to up our digital fluency game.
+ups | Carol Tomé | direction-under-uncertainty | We don't really forecast anymore; we just build scenarios.
+ups | Carol Tomé | transformation-framing | Put the technology in. It will get better. And guess what? It's gotten better.
+ups | Carol Tomé | identity | We use artificial intelligence and machine learning to power the network.
+ups | Carol Tomé | teleological | Customer first, people led, innovation driven.
+ups | Carol Tomé | identity | We're not CEOs of companies. We're CEOs of community.
+ups | Carol Tomé | transformation-framing | We are proactively taking action to put our company on a much stronger footing.
+ups | Carol Tomé | direction-under-uncertainty | Our horizon is as distant as our mind's eye wishes it to be.
+ups | Carol Tomé | teleological | Our strategy is not a shrink-the-company strategy, but rather one where we grow in the best parts of the market, including enterprise, SMB, B2B, healt
+ups | Carol Tomé | transformation-framing | We're moving from a scanning to a sensing network.
+commonwealth-bank | Matt Comyn | utopian | To be globally competitive, Australia must embrace this new era of rapid technological change. Our strategic partnership with OpenAI reflects our comm
+commonwealth-bank | Matt Comyn | employee-deal | Equipping our people with the most advanced AI tools and capability is a key objective of this strategic partnership. We will continue to invest in ou
+commonwealth-bank | Matt Comyn | transformation-framing | As the rate of global innovation continues to accelerate, we increasingly believe that the bank's technology leadership will continue to provide a str
+commonwealth-bank | Matt Comyn | direction-under-uncertainty | I've been an early adopter of OpenAI and ChatGPT. And so I think, frankly, I think that helps. There's definitely an element of role modeling across t
+commonwealth-bank | Matt Comyn | teleological | We're really focused on making sure we're delivering a better customer experience across the whole organization.
+commonwealth-bank | Matt Comyn | teleological | respond to that customer experience in a way that really wows them
+commonwealth-bank | Matt Comyn | direction-under-uncertainty | We see it as being a cornerstone of being able to support a great customer proposition but also position the organisation competitively.
+commonwealth-bank | Matt Comyn | transformation-framing | accelerate the modernisation of our technology estate and the use of AI to drive better experiences for customers as well as quality and speed of exec
+commonwealth-bank | Matt Comyn | direction-under-uncertainty | speed of execution is going to really matter over the long term.
+commonwealth-bank | Matt Comyn | employee-deal | In the near term, just about across all parts of the organisation, we see an opportunity for all of our people to be using AI tools and we'd certainly
+commonwealth-bank | Matt Comyn | teleological | We're using AI to increase the speed and quality of code reviews, alert customers to suspicious activity, help process disputed transactions, and crea
+commonwealth-bank | Gavin Munroe | transformation-framing | The Seattle Tech Hub is part of our focus on fast-tracking how we're using new technologies like Agentic AI, while creating an environment where techn
+commonwealth-bank | CBA Spokesperson | sacrifice-justification | To meet the changing needs of our customers, like many organisations, we review the skills we need and how we're organised to deliver the best custome
+wells-fargo | Charlie Scharf | transformation-framing | Generative and agentic AI will reshape competitive dynamics across every industry, and we are embracing these tools as we have embraced robotic proces
+wells-fargo | Charlie Scharf | direction-under-uncertainty | Saul will partner with our business leaders to ensure they are leading their own transformation and will be accountable to me for consistent and meani
+wells-fargo | Charlie Scharf | utopian | Advances in AI present a unique opportunity to transform operations and enhance outcomes for employees, customers, and communities.
+wells-fargo | Saul Van Beurden | identity | I'm excited to lead Artificial Intelligence for Wells Fargo, and partner with Kleber Santos as co-CEOs of Wells Fargo's new Consumer Banking and Lendi
+wells-fargo | Charlie Scharf | sacrifice-justification | The opportunities that exist in AI are very significant, and anyone who sits here today and says that they don't think they'll have less head count be
+wells-fargo | Charlie Scharf | employee-deal | It's likely we'll have less headcount as we look forward ... we'd like to do much of it through attrition as possible.
+wells-fargo | Charlie Scharf | sacrifice-justification | The worst thing you can do is rehire someone and then have to terminate them because you find you can do the job with fewer people.
+wells-fargo | Charlie Scharf | transformation-framing | we think we have more tools on a going-forward basis to get more efficient than we've ever had and especially with AI.
+bank-of-america | Brian Moynihan | direction-under-uncertainty | We have to debate the future. As we look forward, you take something like Erica - it was developed when none of us knew what a Large Language or Small
+bank-of-america | Brian Moynihan | identity | We've got to be careful. It's got to be done right. The decisions we make are meaningful to people's lives.
+bank-of-america | Brian Moynihan | employee-deal | We also continue to invest in our teammates and are moving more money into the AI side and Machine Learning side.
+bank-of-america | Brian Moynihan | transformation-framing | 15 years ago the company had a headcount of 300,000. Today, we have 212,000. We did that with a relentless application of scalable, secure, resilient 
+bank-of-america | Brian Moynihan | identity | You can have great returns for your shareholders and do well for the communities you serve.
+bank-of-america | Brian Moynihan | transformation-framing | Take a company that was built on acquisitions and turn it into an organic growth engine, and a customer-focused organic growth engine that produces gr
+bank-of-america | Brian Moynihan | identity | We don't need additional regulation about AI. We are liable for that decision whether we made it by literally a person doing it, the current scoring m
+bank-of-america | Brian Moynihan | identity | If I turn down your loan, that's a life-changing experience. We have to make sure the decisions, the data was perfect, the interface was good, and the
+bank-of-america | Brian Moynihan | utopian | AI gives you a place to go that we've never been able to go before. In other words, they're jobs that take text, think about it, and produce it.
+bank-of-america | Brian Moynihan | employee-deal | The AI will be spent — the efficiencies from AI will be spent to keep growing the company, I think.
+bank-of-america | Brian Moynihan | sacrifice-justification | We've taken 30% out of the coding part of the stream. That saves us about 2,000 people.
+bank-of-america | Brian Moynihan | transformation-framing | We'll be applying more and more of automated intelligence — or augmented intelligence, as we call it, with a person using AI, using that to be more ef
+bank-of-america | Brian Moynihan | direction-under-uncertainty | The AI investment's been building during the year and is probably a bigger contributor next year and the years beyond.
+bank-of-america | Brian Moynihan | identity | We drive responsible growth. We have a balance in lending. We're not overlent in any one industry.
+pg-chatpg | Vittorio Cretella | transformation-framing | As a company, we are focused on becoming an 'AI-first' business.
+pg-chatpg | Vittorio Cretella | employee-deal | AI will augment, not replace, employees – providing we are able to combine unique human skills with the strength of machines.
+pg-chatpg | Vittorio Cretella | direction-under-uncertainty | The true impact of AI can only be felt when its used pervasively across the entire organization – when we step away from one-off initiatives.
+pg-chatpg | Vittorio Cretella | direction-under-uncertainty | Do not digitize for the sake of digitization. Always start with business value first.
+pg-chatpg | Vittorio Cretella | utopian | Companies that will realize full value from this opportunity are the ones embracing the game changing abilities of Data and AI at scale.
+pg-chatpg | Marc Pritchard | direction-under-uncertainty | Don't talk about the algorithms, don't talk about the technology, don't talk about AI… Talk about the outcome you want.
+pg-chatpg | Jeff Goldman | transformation-framing | With AI, the nature of questions we can ask and the depth of answers we can provide have expanded dramatically.
+pg-chatpg | Shailesh Jejurikar | transformation-framing | The consumer path to purchase is changing every day, is nonlinear and littered with millions of possible distractions.
+pg-chatpg | Vittorio Cretella | employee-deal | we should worry less about how AI will replace us but how we will leverage AI to scale ourselves, our teams, and companies
+databricks | Ali Ghodsi | direction-under-uncertainty | Now that we have it, it's kind of like, never meet your heroes. It's just like, okay, that's not that impressive.
+databricks | Ali Ghodsi | direction-under-uncertainty | If all AI progress was frozen today, I think we have what we need to proceed with what we are doing. Not trying to build super-God...
+databricks | Ali Ghodsi | teleological | We're much more focused on: how can we make AI useful today in organizations?
+databricks | Ali Ghodsi | identity | We can give you a good quality on the specific task, because we're cheating and we're doing boring AI, focusing just on specific tasks that you want h
+databricks | Ali Ghodsi | direction-under-uncertainty | I'm a little bit worried. There's definitely too much of everybody doing the same thing in general.
+databricks | Ali Ghodsi | sacrifice-justification | If I wanted to have a crazy, crazy valuation, we would have gone public in the last 12 months...As an AI company, valuation could have gone ahead of i
+databricks | Ali Ghodsi | direction-under-uncertainty | What's your business model?...If that's all you're doing, that's what everyone is doing.
+databricks | Ali Ghodsi | transformation-framing | If you look at the enterprise space today, especially since the pandemic started, everyone wants to quickly figure out how they can get AI into their 
+databricks | Ali Ghodsi | teleological | They would not be here today if they didn't have artificial intelligence and data as a strategic asset from the beginning.
+databricks | Ali Ghodsi | identity | We're the only company right now that combines massive data processing with AI.
+databricks | Ali Ghodsi | direction-under-uncertainty | 95% of AI projects fail.
+databricks | Ali Ghodsi | direction-under-uncertainty | LLMs are rapidly commoditizing.
+databricks | Ali Ghodsi | employee-deal | We all become supervisors.
+databricks | Ali Ghodsi | utopian | With this investment, we're deepening our commitment to help every organization innovate with AI on their own data.
+walmart | Doug McMillon | teleological | Our approach to new tools like generative AI is to focus on making shopping easier and more convenient for our customers and members and helping our a
+walmart | Doug McMillon | identity | We're people and tech, stores and e-commerce, innovation and execution…We're investing in and becoming stronger with regard to technology, while simul
+walmart | Doug McMillon | transformation-framing | We have the most capable group of technologists that we've ever had and a set of relationships with other companies that help us drive innovation with
+walmart | Doug McMillon | direction-under-uncertainty | The first thing that goes through my mind is the growth opportunity.
+walmart | Doug McMillon | identity | We're people-led and tech-powered. We want the tech to serve people.
+walmart | Doug McMillon | sacrifice-justification | Every job we've got is going to change in some way...It will eliminate some tasks and eliminate some roles.
+walmart | Doug McMillon | employee-deal | We want to equip everybody to be able to make the most of the new tools...learn, adapt, add value, drive growth.
+walmart | Doug McMillon | employee-deal | You've got to be really straightforward, really honest. Give people what they need, encourage them, support them, lean into change.
+walmart | Doug McMillon | direction-under-uncertainty | The thing that most of us regret is not going faster.
+walmart | Doug McMillon | transformation-framing | It's very clear that AI is going to change literally every job.
+walmart | Doug McMillon | sacrifice-justification | Our goal is to create the opportunity for everybody to make it to the other side. Some jobs and tasks at Walmart will be eliminated, but others will b
+walmart | Doug McMillon | employee-deal | How can I lean into the role that I have—whatever that role is—to adopt new tools, leverage them, and make things better than they would've otherwise 
+walmart | Greg Cathey | identity | AI is a key enabler in improving how we work, and we believe its full potential is unlocked only when paired with the strengths of our people. When yo
+walmart | David Guggina | transformation-framing | AI is changing how people shop, and customer expectations are higher than ever. But no one is more prepared to usher in the next era of retail.
+walmart | Doug McMillon | utopian | We have an opportunity to create an e-commerce experience that's multimedia, more personalized, contextual.
+moderna | Stéphane Bancel | utopian | We believe that AI will be as transformational to any business as the desktop computer was when it entered the corporate world.
+moderna | Stéphane Bancel | teleological | We have the platform, technology, resources and the team to establish a new era of medicine.
+moderna | Stéphane Bancel | identity | We will continue to lead with our Values, our Mindsets and a deep sense of purpose in everything we do.
+moderna | Stéphane Bancel | transformation-framing | Given the doubling of AI capabilities every 6 to 7 months, we are working hard to continue to reinvent our company across each business process, depar
+moderna | Stéphane Bancel | transformation-framing | Today, 100% of our knowledge workers are active daily users of ChatGPT.
+moderna | Stéphane Bancel | transformation-framing | We rolled out GPT Enterprise in 2024 and established widespread GPT literacy across the entire organization.
+moderna | Stéphane Bancel | employee-deal | As of 2023, AI training is required for all Moderna team members, and we facilitate this training at the corporate level through our AI academy.
+moderna | Stéphane Bancel | identity | AI has been part of the foundation of Moderna's research and development programs for several years. We have built our own AI models for protein and m
+moderna | Stéphane Bancel | transformation-framing | I'm happy to share our AI implementation is accelerating for Moderna. Around 50% of our employees use it already only 60 days after launch.
+moderna | Stéphane Bancel | transformation-framing | The team has already within 2000, GPTs within the company, and they are literally across everything.
+moderna | Stéphane Bancel | transformation-framing | We use it in science, we invent new molecule...We use it in manufacturing to improve process yield.
+moderna | Stéphane Bancel | identity | Our commitment to leveraging mRNA to deliver transformative medicines for patients has never been stronger.
+deloitte | Dan Helfrich | transformation-framing | We launched the Deloitte AI Academy to train our own individuals, but then we're finding ways to avail the broader world and our clients with some of 
+deloitte | Dan Helfrich | transformation-framing | The consultant, which connotes for most people...that you probably conjure up an image in your mind of what that person physically looks like. That pe
+deloitte | Dan Helfrich | employee-deal | We have far more people in the second, third, or fourth chapter of their career than 15 years ago...far more people who have highly technical degrees 
+deloitte | Deloitte (official statement) | transformation-framing | modernizing our talent architecture to provide a more tailored experience reflective of our professionals' broad range of skills and the work they do 
+deloitte | Joe Ucuzoglu | utopian | fundamentally alter the profession

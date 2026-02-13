@@ -1,6 +1,6 @@
 {
   "description": "Living document — confirmed and candidate mechanisms observed across specimens. Updated during Phase 3 synthesis sessions.",
-  "lastUpdated": "2026-02-04",
+  "lastUpdated": "2026-02-13",
   "confirmed": [
     {
       "id": 1,
@@ -17,7 +17,16 @@
         "samsung-c-lab",
         "ssi",
         "recursion",
-        "nokia"
+        "nokia",
+        "visa",
+        "mount-sinai-health-system",
+        "disney",
+        "toyota",
+        "ford",
+        "honda",
+        "deere-and-co",
+        "t-mobile",
+        "ami-labs"
       ],
       "evidence": [
         {
@@ -31,7 +40,7 @@
           "quote": null,
           "speaker": null,
           "source": "Anthropic case analysis",
-          "notes": "PBC/LTBT governance structure protects long-term safety mission from market pressures. Labs team operates independently from core product. 7 co-founders as distributed value-carriers. CEO/COO split maps to explore/execute."
+          "notes": "PBC/LTBT governance structure protects long-term safety mission from market pressures. Labs team operates independently from core product. 7 co-founders as distributed value-carriers. CEO/COO split maps to explore/execute. UPDATE: Krieger voluntarily stepped from CPO to hands-on builder in Labs incubator (Jan 2026). Structural protection taken to extreme: CPO role itself is a constraint on exploration, so Krieger exits it."
         },
         {
           "specimenId": "meta-ai",
@@ -81,6 +90,63 @@
           "speaker": null,
           "source": "Nokia Q4 2025 earnings / defense press coverage",
           "notes": "Nokia Defense incubation unit structurally shields defense/government AI exploration from telecom operations pressure. Potential M8 Skunkworks specimen — dedicated unit pursuing autonomous network management for defense applications with 96% downtime reduction claims."
+        },
+        {
+          "specimenId": "visa",
+          "quote": null,
+          "speaker": null,
+          "source": "Visa Research website",
+          "notes": "Visa Research operates as structurally separate research hub (24+ scientists) working on foundational AI (ML security, trustworthy AI, graph neural nets) distinct from product AI deployment."
+        },
+        {
+          "specimenId": "mount-sinai-health-system",
+          "quote": null,
+          "speaker": null,
+          "source": "Mount Sinai Newsroom",
+          "notes": "Windreich Department of AI and Human Health with 3-10 year research horizons, philanthropic funding, and 12-story dedicated facility. Physical and organizational separation from clinical deployment pressures."
+        },
+        "Disney Research Studios has operated for 16+ years in Zurich, physically and organizationally separate from commercial business units. This protected space allows fundamental research in visual computing and ML that may not have immediate commercial application but feeds long-term capability into all film studios.",
+        {
+          "specimenId": "toyota",
+          "quote": null,
+          "speaker": null,
+          "source": "Toyota specimen analysis",
+          "notes": "TRI operates as separate Silicon Valley entity with dedicated $1B funding, autonomous leadership under Gill Pratt, explicit mandate for long-horizon research. Structural separation from TMNA operations."
+        },
+        {
+          "specimenId": "ford",
+          "quote": null,
+          "speaker": null,
+          "source": "Ford specimen analysis",
+          "notes": "Latitude AI operates as wholly owned subsidiary (550 employees) with own C-suite (CEO Omari, CTO Carr, President Gollob). Pittsburgh HQ physically separated from Dearborn."
+        },
+        {
+          "specimenId": "honda",
+          "quote": null,
+          "speaker": null,
+          "source": "Honda specimen analysis",
+          "notes": "Honda Research Institutes maintain ring-fenced budgets and organizational separation from enterprise operations. New Ohio lab opening Q4 2025 expands protected research capacity."
+        },
+        {
+          "specimenId": "deere-and-co",
+          "quote": null,
+          "speaker": null,
+          "source": "Deere specimen analysis",
+          "notes": "Blue River Technology and Bear Flag Robotics operate as distinct units with concentrated AI talent, maintaining technical identity separate from Deere's traditional mechanical engineering culture."
+        },
+        {
+          "specimenId": "t-mobile",
+          "quote": "AI-RAN has tremendous potential to completely transform the future of mobile networks, but it will be difficult to get right.",
+          "speaker": "Mike Sievert",
+          "source": "T-Mobile Newsroom - AI-RAN Innovation Center Announcement",
+          "notes": "The AI-RAN Innovation Center is structurally separated from day-to-day operations, with dedicated facilities, a ring-fenced NVIDIA supercomputer, and multi-year horizons ('5G Advanced era and beyond'). This protects long-horizon network AI exploration from quarterly pressures."
+        },
+        {
+          "specimenId": "ami-labs",
+          "quote": null,
+          "speaker": null,
+          "source": "synthesis-agent",
+          "notes": "CONSEQUENCE: LeCun founded AMI Labs to pursue research agenda without product pressure. Natural experiment continuation."
         }
       ],
       "affinityProfile": {
@@ -150,7 +216,15 @@
         "anthropic",
         "eli-lilly",
         "pfizer",
-        "roche-genentech"
+        "roche-genentech",
+        "bloomberg",
+        "mayo-clinic",
+        "anduril",
+        "disney",
+        "netflix",
+        "toyota",
+        "deere-and-co",
+        "general-motors"
       ],
       "evidence": [
         {
@@ -178,6 +252,50 @@
           "speaker": null,
           "source": "Roche/Genentech case analysis",
           "notes": "'Lab in a Loop' concept directly embeds computational prediction into wet lab research. Each prediction cycle drives the next experiment. $12B commitment to computational sciences. Prescient Design acquisition added AI protein design research."
+        },
+        {
+          "specimenId": "bloomberg",
+          "quote": "All those people [350 AI experts] are hammers looking for nails.",
+          "speaker": "Amanda Stent",
+          "source": "Computing UK",
+          "notes": "350+ AI experts distributed across product-focused engineering teams (AI Search, AI Enrichment, AI Finance). Explicit 'hammers looking for nails' philosophy embeds researchers in product domains."
+        },
+        {
+          "specimenId": "mayo-clinic",
+          "quote": null,
+          "speaker": null,
+          "source": "Mayo Clinic / GovTech",
+          "notes": "AI Factory model embeds product development within clinical research. Physician-scientists lead both research and production algorithm development. CDAO provides consulting directly to clinical researchers building AI tools."
+        },
+        {
+          "specimenId": "anduril",
+          "quote": null,
+          "speaker": null,
+          "source": "CBS News 60 Minutes / Fortune",
+          "notes": "Lattice AI platform is both the core R&D asset and the production platform shipping in every product. No separation between research and productization — all AI development is immediately embedded in autonomous systems being deployed."
+        },
+        "Disney Research Studios explicitly serves all Disney film studios (WDAS, Pixar, ILM, Marvel) with its research output. The research lab is not isolated academia — has direct pathways to production pipelines.",
+        "Research teams work 'in close collaboration with business teams, engineering teams, and other researchers' — explicitly NOT centralized. AIMS handles both research and production systems for 325M+ members.",
+        {
+          "specimenId": "toyota",
+          "quote": null,
+          "speaker": null,
+          "source": "Toyota specimen analysis",
+          "notes": "GAIA explicitly bridges TRI research to production across 11 categories. Brian Kursar serves dual roles—Head of Enterprise AI and executive technical advisor at TRI for GAIA program."
+        },
+        {
+          "specimenId": "deere-and-co",
+          "quote": null,
+          "speaker": null,
+          "source": "Deere specimen analysis",
+          "notes": "Blue River's See & Spray technology moved from R&D to commercial deployment—5M acres covered in 2025, with 75% of machines being retrofits to existing equipment."
+        },
+        {
+          "specimenId": "general-motors",
+          "quote": null,
+          "speaker": null,
+          "source": "General Motors specimen analysis",
+          "notes": "Autonomous Robotics Center brings manufacturing AI research directly into production environments."
         }
       ],
       "affinityProfile": {
@@ -236,7 +354,18 @@
       "specimens": [
         "bank-of-america",
         "commonwealth-bank",
-        "duolingo"
+        "duolingo",
+        "goldman-sachs",
+        "morgan-stanley",
+        "mount-sinai-health-system",
+        "cvs-health",
+        "unitedhealth-group",
+        "blue-origin",
+        "delta-air-lines",
+        "fedex",
+        "netflix",
+        "honeywell",
+        "thomson-reuters"
       ],
       "evidence": [
         {
@@ -257,6 +386,77 @@
           "speaker": null,
           "source": "Duolingo case analysis",
           "notes": "AI embedded into consumer-facing learning product that employees also use. Consumer-grade UX is the product itself — no separate enterprise tool needed."
+        },
+        {
+          "specimenId": "goldman-sachs",
+          "quote": null,
+          "speaker": null,
+          "source": "Fox Business / Goldman Sachs",
+          "notes": "GS AI Assistant launched firmwide June 2025 integrating GPT-4, Gemini, Claude. Intuitive natural language interface for all 46K employees. CIO Argenti emphasizes seamless interaction."
+        },
+        {
+          "specimenId": "morgan-stanley",
+          "quote": "Everything more seamless by using just a command prompt. Or ultimately, you'll be able to use just your voice.",
+          "speaker": "Jed Finn",
+          "source": "Financial Planning",
+          "notes": "AI @ Morgan Stanley Assistant achieves 98% adoption among 16K+ financial advisors. Vision for voice-based interaction demonstrates consumer-grade UX ambition."
+        },
+        {
+          "specimenId": "mount-sinai-health-system",
+          "quote": null,
+          "speaker": null,
+          "source": "Health System CIO",
+          "notes": "CDTO Freeman emphasizes 'experience-led' approach across patient, clinician, and workforce journeys. myMountSinai app and employee digital front door reflect consumer-grade thinking for healthcare tools."
+        },
+        {
+          "specimenId": "cvs-health",
+          "quote": "AI allows us to take the stupid out of work and allows us to do the real value-added work.",
+          "speaker": "Tilak Mandadi",
+          "source": "Fortune",
+          "notes": "AI-native consumer platform launching 2026. Ambient AI scribes saving nurses 90 min/day. Tools designed for intuitive use by nurses, pharmacists, call center agents — consumer UX for healthcare workers."
+        },
+        {
+          "specimenId": "unitedhealth-group",
+          "quote": null,
+          "speaker": null,
+          "source": "synthesis-agent",
+          "notes": "65M chatbot interactions and 18M AI-enabled searches indicate mass internal adoption. 10,000+ employees enrolled in advanced AI learning course. 80%+ of member calls leverage AI tools. The scale of employee AI tool usage suggests consumer-grade accessibility, not specialist-only systems."
+        },
+        {
+          "specimenId": "blue-origin",
+          "quote": null,
+          "speaker": null,
+          "source": "AWS Case Study / AWS re:Invent 2025",
+          "notes": "BlueGPT platform provides a marketplace for agents with discovery and sharing capabilities, enabling 70% company-wide adoption. The platform abstracts away AI complexity, letting employees build and use agents without deep technical expertise."
+        },
+        {
+          "specimenId": "delta-air-lines",
+          "quote": null,
+          "speaker": null,
+          "source": "Delta News Hub CES 2025",
+          "notes": "Delta Concierge is described as bringing consumer-grade AI assistant experience to both customers and employees. The 'augmented intelligence' philosophy explicitly focuses on empowering frontline workers with AI tools."
+        },
+        {
+          "specimenId": "fedex",
+          "quote": null,
+          "speaker": null,
+          "source": "FedEx Newsroom",
+          "notes": "Enterprise-wide AI education program with Accenture LearnVantage platform provides role-based training accessible to all employees, making AI tools usable across the organization."
+        },
+        "AI tools for creators are explicitly framed as making their work 'better' — pre-vis, VFX sequence prep, shot planning tools designed for creative talent to use directly.",
+        {
+          "specimenId": "honeywell",
+          "quote": null,
+          "speaker": null,
+          "source": "Honeywell specimen analysis",
+          "notes": "24 gen AI initiatives deployed to all 95,000 employees via Microsoft Copilot, GitHub Copilot, and Moveworks. Consumer-grade experience for enterprise AI tools."
+        },
+        {
+          "specimenId": "thomson-reuters",
+          "quote": null,
+          "speaker": null,
+          "source": "Thomson Reuters Q4 2025 Earnings Call",
+          "notes": "Open Arena platform achieved 85%+ employee adoption across the organization, suggesting a user-friendly interface that drives organic adoption rather than mandated compliance."
         }
       ],
       "affinityProfile": {
@@ -316,7 +516,23 @@
         "infosys",
         "ntt-data",
         "travelers",
-        "accenture-openai"
+        "accenture-openai",
+        "goldman-sachs",
+        "morgan-stanley",
+        "citigroup",
+        "sutter-health",
+        "cvs-health",
+        "progressive",
+        "unitedhealth-group",
+        "blue-origin",
+        "fedex",
+        "bmw",
+        "honeywell",
+        "uber",
+        "thomson-reuters",
+        "salesforce",
+        "intuit",
+        "mayo-clinic"
       ],
       "evidence": [
         {
@@ -391,6 +607,118 @@
           "speaker": null,
           "source": "CNBC / FinancialContent",
           "notes": "550,000 employees trained in GenAI fundamentals, 70,000 in agentic AI. 40,000 ChatGPT Enterprise licenses deployed. Mass deployment across 779K-person organization — largest services firm AI deployment by headcount."
+        },
+        {
+          "specimenId": "goldman-sachs",
+          "quote": null,
+          "speaker": null,
+          "source": "Fox Business / Goldman Sachs",
+          "notes": "GS AI Assistant deployed firmwide to all 46K employees. 50% adoption by mid-2025. Devin autonomous coder deployed across 12K developer base. Scale-first philosophy."
+        },
+        {
+          "specimenId": "morgan-stanley",
+          "quote": null,
+          "speaker": null,
+          "source": "CDO Magazine / Morgan Stanley",
+          "notes": "AI Assistant deployed to 16K+ WM advisors with 98% adoption — one of the highest adoption rates in any enterprise AI deployment. Scale-first in regulated wealth management."
+        },
+        {
+          "specimenId": "citigroup",
+          "quote": null,
+          "speaker": null,
+          "source": "Citigroup Q4 2025 Earnings",
+          "notes": "70% AI adoption across 84 countries. 21M+ tool interactions. 175K employees completed mandatory AI training. Enterprise-wide deployment without CAIO or dedicated AI lab."
+        },
+        {
+          "specimenId": "sutter-health",
+          "quote": "We want to really position ourselves to be a leader in AI, and really applying AI so it gets at scale to all of our providers and to all of our patients.",
+          "speaker": "Laura Wilt",
+          "source": "Chief Healthcare Executive",
+          "notes": "3,200+ physicians on ambient documentation tools. Enterprise-wide Aidoc deployment across all 21 hospitals. Scale-first approach in healthcare."
+        },
+        {
+          "specimenId": "cvs-health",
+          "quote": null,
+          "speaker": null,
+          "source": "Constellation Research",
+          "notes": "Ambient AI scribes at 90% of Oak Street Health facilities. AI tools deployed across 300K employees and 185M consumer engagements. $1B operational savings from scaled deployment."
+        },
+        {
+          "specimenId": "progressive",
+          "quote": null,
+          "speaker": null,
+          "source": "Progressive Insurance case analysis",
+          "notes": "Tech-first insurer with 20+ year telematics data foundation (14B miles). Buy-over-build AI approach (H2O.ai, Claritas) deploys AI tools broadly across business functions rather than piloting narrowly."
+        },
+        {
+          "specimenId": "unitedhealth-group",
+          "quote": null,
+          "speaker": null,
+          "source": "synthesis-agent",
+          "notes": "1,000+ production use cases, 20,000 engineers leveraging AI tools, 65M chatbot interactions, 18M AI-enabled searches. 80%+ of member calls leverage AI tools."
+        },
+        {
+          "specimenId": "blue-origin",
+          "quote": null,
+          "speaker": null,
+          "source": "AWS Case Study",
+          "notes": "2,700+ agents deployed with 3.5 million monthly interactions. The agent marketplace model enables rapid proliferation—teams create and share agents across the organization without centralized approval bottlenecks."
+        },
+        {
+          "specimenId": "fedex",
+          "quote": "We can now say with more and more precision when that package is going to arrive",
+          "speaker": "Raj Subramaniam",
+          "source": "NYT Interview",
+          "notes": "Enterprise-wide AI literacy program launched December 2025—mass deployment of AI capability building before knowing exactly how each role will apply it. Iterative learning at scale."
+        },
+        {
+          "specimenId": "bmw",
+          "quote": "Nearly every process at the company will be supported by AI.",
+          "speaker": "Oliver Zipse",
+          "source": "BMW specimen analysis",
+          "notes": "40,000 users across the data/AI ecosystem with self-service GenAI platform. 450 DevOps teams building applications."
+        },
+        {
+          "specimenId": "honeywell",
+          "quote": "Every function and every strategic business unit is now using gen AI.",
+          "speaker": "Sheila Jordan",
+          "source": "Honeywell specimen analysis",
+          "notes": "24 gen AI initiatives available to all 95,000 employees via ambassador network."
+        },
+        {
+          "specimenId": "uber",
+          "quote": "You have to survive through a bunch of car crashes internally to do so.",
+          "speaker": "Dara Khosrowshahi",
+          "source": "World Economic Forum Davos 2026",
+          "notes": "Uber's customer service AI transformation explicitly involved abandoning old rule-based policies and letting AI 'reason' independently — deployment-driven learning through iteration rather than upfront specification."
+        },
+        {
+          "specimenId": "thomson-reuters",
+          "quote": null,
+          "speaker": null,
+          "source": "Thomson Reuters Q4 2025 Earnings Call",
+          "notes": "300+ AI use cases in development across the company while simultaneously achieving 85% Open Arena platform adoption; deploying broadly while still exploring applications."
+        },
+        {
+          "specimenId": "salesforce",
+          "quote": null,
+          "speaker": null,
+          "source": "synthesis-agent",
+          "notes": "Salesforce Agentforce provides strongest quantitative evidence: 18,500 customers, 9,500 paid deals, $500M ARR. The 84% AI resolution rate in support enables 4,000 contractor position cut—demonstrating the deploy-to-thousands mechanism working in practice."
+        },
+        {
+          "specimenId": "intuit",
+          "quote": "Just let them write code and experiment with customers.",
+          "speaker": "Ashok Srivastava",
+          "source": "Fortune (Sep 2025)",
+          "notes": "Dual AI tracks: Foresight unit for product AI + CoE for enterprise operations. Deployed AI across TurboTax, QuickBooks at scale before validating all use cases. Three-level goal framework (efficiency → product rethink → new business)."
+        },
+        {
+          "specimenId": "mayo-clinic",
+          "quote": "Think big, start small, move fast.",
+          "speaker": "John Halamka",
+          "source": "Chief Healthcare Executive (2025)",
+          "notes": "400+ AI models in clinical production. Ambient clinical documentation deployed across system. Platform approach enables rapid deployment across clinical specialties."
         }
       ],
       "affinityProfile": {
@@ -458,7 +786,11 @@
         "google-ai-infra",
         "amazon-agi",
         "sk-telecom",
-        "pentagon-cdao"
+        "pentagon-cdao",
+        "accenture-openai",
+        "general-motors",
+        "xai",
+        "salesforce"
       ],
       "evidence": [
         {
@@ -505,6 +837,34 @@
           "speaker": null,
           "source": "DefenseScoop / Pentagon AI Strategy memo",
           "notes": "6 innovation organizations (CDAO, DIU, SCO, DARPA, TRMC, OSC) consolidated under single R&E umbrella (Emil Michael). 3 overlapping oversight bodies dissolved, replaced by single Action Group. CDAO dual-hatted as Senior Official for Applied AI."
+        },
+        {
+          "specimenId": "accenture-openai",
+          "quote": null,
+          "speaker": null,
+          "source": "synthesis-agent",
+          "notes": "Multiple service lines consolidated into single 'Reinvention Services' business unit effective Sep 1, 2025. This is a structural merger of AI capabilities under one unit when coordination costs across service lines exceeded benefits of independence."
+        },
+        {
+          "specimenId": "general-motors",
+          "quote": null,
+          "speaker": null,
+          "source": "General Motors specimen analysis",
+          "notes": "Post-CAIO restructuring moved AI under manufacturing engineering. Sterling Anderson consolidating autonomous/software functions. CAIO departed after 8 months, leading to distributed model."
+        },
+        {
+          "specimenId": "xai",
+          "quote": "Because we've reached a certain scale, we're organizing the company to be more effective at this scale.",
+          "speaker": "Elon Musk",
+          "source": "xAI all-hands (Feb 2026)",
+          "notes": "Restructured from flat founder-led org to 4 divisions (Grok, Coding, Imagine, Macrohard) under single CEO. SpaceX merger forced consolidation. 6 of 12 co-founders departed. Musk frames as scaling necessity."
+        },
+        {
+          "specimenId": "salesforce",
+          "quote": null,
+          "speaker": null,
+          "source": "Salesforce evolution research (Feb 2026)",
+          "notes": "3 AI leaders in <3 years (Shih → Evans → Thattai) with narrowing scope each time. Inzerillo consolidates Agentforce + Slack under single leader. Repeated merging of AI teams under successive leaders."
         }
       ],
       "affinityProfile": {
@@ -570,7 +930,13 @@
         "nvidia",
         "commonwealth-bank",
         "jpmorgan",
-        "shopify"
+        "shopify",
+        "goldman-sachs",
+        "morgan-stanley",
+        "accenture-openai",
+        "blue-origin",
+        "delta-air-lines",
+        "fedex"
       ],
       "evidence": [
         {
@@ -617,6 +983,48 @@
           "speaker": null,
           "source": "Shopify case analysis",
           "notes": "CEO Tobi Lutke issued company-wide mandate requiring AI proficiency. Executive-driven cultural change — AI usage as expectation, not option."
+        },
+        {
+          "specimenId": "goldman-sachs",
+          "quote": "We're asking all of our people to rethink the human processes they go through.",
+          "speaker": "Denis Coleman",
+          "source": "Fortune",
+          "notes": "CEO Solomon and CFO Coleman personally speak about AI transformation in detailed operational terms. Solomon at Davos discussing specific enterprise challenges. Leadership demonstrates deep engagement."
+        },
+        {
+          "specimenId": "morgan-stanley",
+          "quote": "With each passing quarter, our confidence continues to increase in the potential for both the efficiency and the effectiveness of AI-related technologies.",
+          "speaker": "Ted Pick",
+          "source": "Q4 2025 Earnings",
+          "notes": "CEO Pick's increasing confidence expressed across earnings calls suggests growing executive engagement. However, evidence for personal tool usage is thin — classified as Emerging."
+        },
+        {
+          "specimenId": "accenture-openai",
+          "quote": null,
+          "speaker": null,
+          "source": "synthesis-agent",
+          "notes": "40,000 ChatGPT Enterprise licenses deployed to consultants with 'learn by doing' model — consultants become AI-fluent through daily usage before advising clients."
+        },
+        {
+          "specimenId": "blue-origin",
+          "quote": "You need to be world experts on how AI can be relevant for the field you're getting a degree in. There will be a lot of people out in the workforce that don't want to retrain themselves and they'll retire early.",
+          "speaker": "Dave Limp",
+          "source": "Vanderbilt Engineering Campus Event",
+          "notes": "CEO publicly emphasizes AI proficiency as mandatory workforce competence. His background leading Alexa at Amazon suggests hands-on AI fluency at the executive level."
+        },
+        {
+          "specimenId": "delta-air-lines",
+          "quote": "I think of AI more as augmented intelligence rather than artificial intelligence...ensuring that the human is still at the centerpiece of all the technology.",
+          "speaker": "Ed Bastian",
+          "source": "The Vertical Space Podcast",
+          "notes": "CEO Ed Bastian is personally visible as an AI evangelist—delivering the CES keynote, appearing on podcasts discussing AI use cases in detail, and framing the strategic vision personally."
+        },
+        {
+          "specimenId": "fedex",
+          "quote": "Truck unloading and truck loading are a very difficult problem for robotics to solve - packages come in every size, shape and weight. We're not looking for humanoid robots - we're looking for super humanoid robots.",
+          "speaker": "Raj Subramaniam",
+          "source": "NYT Interview",
+          "notes": "CEO Subramaniam discusses AI capabilities in specific technical terms (petabytes, ML models, humanoid robots). CDIO reports directly to CEO, keeping AI in executive view."
         }
       ],
       "affinityProfile": {
@@ -688,7 +1096,18 @@
         "adobe-firefly",
         "jpmorgan",
         "invent-advisory",
-        "travelers"
+        "travelers",
+        "goldman-sachs",
+        "bloomberg",
+        "visa",
+        "mayo-clinic",
+        "mount-sinai-health-system",
+        "sutter-health",
+        "cvs-health",
+        "progressive",
+        "unitedhealth-group",
+        "lockheed-martin",
+        "cedars-sinai"
       ],
       "evidence": [
         {
@@ -737,6 +1156,83 @@
           "speaker": null,
           "source": "Travelers Q4 2025 Earnings Call",
           "notes": "65 billion clean data points accumulated over decades — data discipline driven by insurance regulatory requirements now feeds AI precision. The regulated insurance environment creates a data moat that competitors without similar compliance infrastructure cannot replicate. 30% handle time reduction and 4→2 call center consolidation achieved in heavily regulated claims processing."
+        },
+        {
+          "specimenId": "goldman-sachs",
+          "quote": "You can delegate work, but you cannot delegate accountability.",
+          "speaker": "Marco Argenti",
+          "source": "Russell Reynolds Podcast",
+          "notes": "Six OneGS 3.0 workstreams include KYC and regulatory reporting. Compliance infrastructure enables deployment at scale in regulated financial services. Argenti's accountability principle builds compliance into governance."
+        },
+        {
+          "specimenId": "bloomberg",
+          "quote": "Finance is an industry that relies on facts to make mission-critical decisions.",
+          "speaker": "Shawn Edwards",
+          "source": "Fast Company ME",
+          "notes": "Responsible AI pillars (protection, transparency, reproducibility, robustness) and full source traceability. Compliance requirements drove infrastructure investment that became competitive advantage."
+        },
+        {
+          "specimenId": "visa",
+          "quote": "We are all in an arms race to protect this ecosystem.",
+          "speaker": "Ryan McInerney",
+          "source": "Legal Dive / Investor Conference",
+          "notes": "CEO frames AI-powered fraud prevention as 'arms race' requiring billions in investment. Regulatory compliance in payments becomes competitive moat — AI capabilities that protect the ecosystem enable new products."
+        },
+        {
+          "specimenId": "mayo-clinic",
+          "quote": "We need trust... I'm a big proponent for assurance labs.",
+          "speaker": "Gianrico Farrugia",
+          "source": "WEF 2025",
+          "notes": "Platform_Validate service turns clinical validation into competitive advantage. External partners use Mayo's infrastructure to certify algorithms as 'fit for use.' Healthcare regulatory burden becomes deployment moat."
+        },
+        {
+          "specimenId": "mount-sinai-health-system",
+          "quote": null,
+          "speaker": null,
+          "source": "Ortho Spine News",
+          "notes": "Four-dimension risk framework (decision speed, reversibility, criticality, patient proximity) calibrates assurance proportionally. Faster deployment for low-risk use cases while maintaining rigor for clinical decision support. Governance approach transforms regulatory burden into structured deployment advantage."
+        },
+        {
+          "specimenId": "sutter-health",
+          "quote": null,
+          "speaker": null,
+          "source": "Chief Healthcare Executive",
+          "notes": "Cross-functional governance vets AI for patient safety, privacy, accuracy, transparency. Built governance into deployment pipeline — safety review is systematic, not ad hoc — enabling faster enterprise rollout."
+        },
+        {
+          "specimenId": "cvs-health",
+          "quote": "Qualified humans always make health outcome decisions.",
+          "speaker": null,
+          "source": "Fortune / Constellation Research",
+          "notes": "Responsible AI framework guides deployment. Compliance constraints shape AI design rather than blocking it. Human-in-the-loop for clinical decisions; AI handles administrative burden."
+        },
+        {
+          "specimenId": "progressive",
+          "quote": null,
+          "speaker": null,
+          "source": "Progressive Insurance case analysis",
+          "notes": "20+ year telematics data discipline (14B miles) accumulated under actuarial regulatory requirements creates AI-ready data foundation. Insurance compliance history becomes unintentional AI data moat."
+        },
+        {
+          "specimenId": "unitedhealth-group",
+          "quote": null,
+          "speaker": null,
+          "source": "synthesis-agent",
+          "notes": "UnitedHealth has invested heavily in AI governance infrastructure—Responsible AI Board with 20-25 experts, Chief AI Scientist hired from Duke who co-founded Coalition for Health AI, explicit policy that AI is 'never used to deny a claim.' In a heavily regulated healthcare environment under DOJ scrutiny, this governance apparatus becomes a deployment enabler: they can scale to 1,000+ production use cases precisely because they've built compliance into the architecture."
+        },
+        {
+          "specimenId": "lockheed-martin",
+          "quote": "to be the AI leader in Aerospace and Defense, with our discriminator being trustworthy AI for mission assurance",
+          "speaker": "Mike Baylor",
+          "source": "DataIQ",
+          "notes": "Lockheed Martin's mission explicitly positions regulatory compliance (DoD requirements, security clearances, ethical AI frameworks) as a competitive moat. Their Ethical AI Advisory Committee alignment with DoD principles creates deployment advantages competitors cannot easily replicate."
+        },
+        {
+          "specimenId": "cedars-sinai",
+          "quote": "We've got to have governance and accountability mechanisms that give us the confidence we are deploying AI in a responsible way.",
+          "speaker": "Mouneer Odeh",
+          "source": "Healthcare IT News (2025)",
+          "notes": "AI Council as governance body enables deployment confidence. Dual-reporting CAIO (to CIO and CMO) bridges clinical and operational governance. Governance structures convert compliance burden into deployment enabler."
         }
       ],
       "affinityProfile": {
@@ -806,7 +1302,13 @@
         "mckinsey-quantumblack",
         "bytedance",
         "ntt-data",
-        "servicenow"
+        "servicenow",
+        "mayo-clinic",
+        "genpact",
+        "lockheed-martin",
+        "anduril",
+        "uber",
+        "sap"
       ],
       "evidence": [
         {
@@ -846,6 +1348,48 @@
           "speaker": null,
           "source": "ServiceNow Q4 2025 earnings / press coverage",
           "notes": "AI Control Tower and AI Agent Orchestrator productize internal workflow automation as enterprise products. Now Assist generating $600M+ revenue. McDermott: 'obliterate 20th century org charts.' Internal AI platform capabilities externalized as customer-facing agentic AI products."
+        },
+        {
+          "specimenId": "mayo-clinic",
+          "quote": "Nurses in Nigeria have been able to reduce mortality in pregnant women...",
+          "speaker": "Gianrico Farrugia",
+          "source": "WEF 2025",
+          "notes": "Mayo Clinic Platform explicitly commercializes internal capabilities: 50M+ patient records, 12M+ pathology slides, proprietary algorithms. Algorithms developed for Mayo patients adapted for global use (Nigeria, Peru). Platform_Validate certifies external algorithms."
+        },
+        {
+          "specimenId": "genpact",
+          "quote": null,
+          "speaker": null,
+          "source": "synthesis-agent",
+          "notes": "Genpact's three-pillar agentic operations model and AI Maestro platform convert internal BPO AI capabilities into externally sold products. The Advanced Technology Solutions unit generates 2x revenue per headcount by packaging domain expertise + AI into solutions rather than selling labor. 48% of Q4 revenue from non-FTE models."
+        },
+        {
+          "specimenId": "lockheed-martin",
+          "quote": "Lockheed Martin has made significant strides in AI/ML, and we're excited to apply these advancements to support our customers",
+          "speaker": "Greg Forrest",
+          "source": "Lockheed Martin Newsroom",
+          "notes": "December 2024 launch of Astris AI subsidiary directly commercializes internal AI Factory capabilities. The AI Factory built for internal defense programs is now offered externally."
+        },
+        {
+          "specimenId": "anduril",
+          "quote": "This is an open challenge. If you think you can build an autonomy stack that can out-fly the world's best, show us.",
+          "speaker": "Palmer Luckey",
+          "source": "Fortune",
+          "notes": "The Lattice platform, initially developed as Anduril's internal AI operating system, now powers products sold to military customers. The AI Grand Prix competition extends this by seeking external autonomy stacks that could be integrated into Anduril's product line."
+        },
+        {
+          "specimenId": "uber",
+          "quote": null,
+          "speaker": null,
+          "source": "Uber AI Solutions Expansion",
+          "notes": "Uber AI Solutions commercializes internal data labeling and annotation capabilities to external clients including Aurora and Niantic. The unit expanded to 30 countries and serves external AI labs, turning an internal operational function into a standalone business."
+        },
+        {
+          "specimenId": "sap",
+          "quote": null,
+          "speaker": null,
+          "source": "synthesis-agent",
+          "notes": "SAP Joule represents variant where 'internal advantage' is business process expertise, not just AI capability. Decades of ERP/HCM process knowledge becomes AI training ground. Consider subdividing: 10a Technical Productization (internal AI tools → products) vs 10b Domain Productization (internal domain expertise → AI training)."
         }
       ],
       "affinityProfile": {
@@ -909,7 +1453,10 @@
         "amazon",
         "meta-ai",
         "accenture-openai",
-        "servicenow"
+        "servicenow",
+        "moderna",
+        "wells-fargo",
+        "intel"
       ],
       "evidence": [
         {
@@ -950,6 +1497,27 @@
           "speaker": "Bill McDermott",
           "source": "Q4 2025 Earnings Call via CNBC",
           "notes": "CEO explicitly frames AI as enabling team-based work that replaces hierarchical org charts. Consumption-based pricing shift (seats→assist packs) reflects structural assumption that AI agents replace layers of human coordination."
+        },
+        {
+          "specimenId": "moderna",
+          "quote": null,
+          "speaker": null,
+          "source": "Moderna JP Morgan Conference Update / case analysis",
+          "notes": "Chief People and Digital Technology Officer role merges HR and tech departments — structural flattening of the HR/tech organizational divide. Enables 'work planning' instead of 'workforce planning.' $2B opex reduction with GPT tools contributing."
+        },
+        {
+          "specimenId": "wells-fargo",
+          "quote": null,
+          "speaker": null,
+          "source": "Wells Fargo Newsroom / Google partnership announcements",
+          "notes": "30-35% automation target with $612M severance costs signals management layer reduction through AI-enabled automation. Business leader (Van Beurden) atop AI function replaces traditional CTO/tech-leader hierarchy."
+        },
+        {
+          "specimenId": "intel",
+          "quote": null,
+          "speaker": null,
+          "source": "synthesis-agent",
+          "notes": "CEO Tan: 'Bureaucracy kills innovation.' Explicit rationale for org flattening after cutting bureaucratic layers."
         }
       ],
       "maturity": "confirmed",
@@ -1131,8 +1699,100 @@
         "pinterest",
         "dow",
         "salesforce",
-        "accenture-openai"
+        "accenture-openai",
+        "dow-chemical",
+        "xai"
       ]
+    },
+    {
+      "name": "Governance Hub + Vendor Spokes",
+      "observedIn": [
+        "Healthcare delivery systems",
+        "Large integrated health services"
+      ],
+      "hypothesis": "In heavily regulated industries with distributed operations, the central hub focuses on governance, standards, and integration rather than building AI capabilities, while external vendors provide the AI technology. This allows faster deployment velocity while concentrating internal resources on what matters most: ensuring quality and safety.",
+      "evidenceNeeded": "3+ specimens showing deliberate governance-hub with vendor-spoke pattern. Current evidence is 2 specimens (Sutter, CVS), need one more for confirmation.",
+      "specimens": [
+        "sutter-health",
+        "cvs-health"
+      ]
+    },
+    {
+      "name": "Pharma-NVIDIA Co-Innovation Partnership",
+      "observedIn": [
+        "Pharma R&D-intensive companies"
+      ],
+      "hypothesis": "In R&D-intensive pharma, the GPU infrastructure provider (NVIDIA) becomes a structural partner rather than a vendor — co-locating engineers with domain scientists and embedding computational capability into the research process.",
+      "evidenceNeeded": "3+ pharma or R&D-intensive specimens with structural NVIDIA partnerships (co-innovation labs, co-located teams, joint research programs). Currently 2 strong + 1 weak.",
+      "specimens": [
+        "eli-lilly",
+        "roche-genentech",
+        "pfizer"
+      ]
+    },
+    {
+      "name": "Government-Mandate-CAIO",
+      "observedIn": [
+        "Government",
+        "Defense",
+        "State Government"
+      ],
+      "hypothesis": "Federal/state government CAIO appointments are compliance-driven (White House EO #14110, OMB mandates) rather than capability-driven, creating a structurally different M2 pattern where the role exists to satisfy regulatory mandate rather than build organizational AI capability. These roles may be inherently unstable.",
+      "evidenceNeeded": "Track CAIO tenure across government agencies. Look for counter-examples of successful long-term government CAIO tenures with actual capability building.",
+      "specimens": [
+        "nasa",
+        "pentagon-cdao",
+        "us-air-force",
+        "us-cyber-command",
+        "new-york-state"
+      ]
+    },
+    {
+      "name": "Enterprise-AI-Literacy-Rollout",
+      "observedIn": [
+        "Aerospace",
+        "Logistics"
+      ],
+      "hypothesis": "Rather than creating separate AI teams or specialists, organizations pursue contextual ambidexterity through mass AI education—training the entire workforce to apply AI within their existing roles. This is about capability building (training), not just tool deployment.",
+      "evidenceNeeded": "Measure adoption rates pre/post training programs. Look for evidence that education-based distribution outperforms structural approaches in similar contexts.",
+      "specimens": [
+        "blue-origin",
+        "fedex"
+      ]
+    },
+    {
+      "name": "Data-Foundation-Before-AI-Scale",
+      "hypothesis": "Organizations that invest in enterprise data infrastructure (consolidation, ERP systems, data warehouses) before AI deployment achieve faster scaling once AI initiatives begin. The prerequisite is data readiness, not AI capability.",
+      "evidence": [
+        {
+          "specimenId": "honeywell",
+          "quote": "You can't have a gen AI strategy without a data strategy.",
+          "speaker": "Sheila Jordan",
+          "source": "CIO Magazine interview",
+          "notes": "Consolidated from 4,500 to ~1,000 applications and established Snowflake as enterprise data warehouse BEFORE scaling AI."
+        },
+        {
+          "specimenId": "exxonmobil",
+          "quote": "We can not scale anything up if we do not have a developed data foundation.",
+          "speaker": "Nancy Huang",
+          "source": "ExxonMobil specimen analysis",
+          "notes": "Corporate-wide ERP system to enable AI scaling by establishing common data foundation. Historical silos identified as binding constraint."
+        },
+        {
+          "specimenId": "bmw",
+          "quote": null,
+          "speaker": null,
+          "source": "BMW specimen analysis",
+          "notes": "Enterprise-wide data platform underlies 40K user AI ecosystem."
+        }
+      ],
+      "specimens": [
+        "honeywell",
+        "exxonmobil",
+        "bmw"
+      ],
+      "confidence": "Moderate",
+      "theoreticalConnection": "Addresses sequencing question in AI deployment: must organizations solve enterprise data integration before AI can move from pilots to platform? Related to IT infrastructure literature."
     }
   ]
 }

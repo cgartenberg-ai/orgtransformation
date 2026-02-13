@@ -32,8 +32,23 @@ Before analyzing anything:
 - [ ] Read `synthesis/insights.json` — load current cross-cutting insights. Note maturity levels and which specimens are already cited. **Remember: insights are NEVER deleted.**
 - [ ] Read `specimens/registry.json` — get the full specimen list for cross-referencing.
 - [ ] Check for previous synthesis session files in `synthesis/sessions/` — understand what was already processed in prior sessions.
-- [ ] Plan batch: If >15 specimens are pending, consider processing in batches (e.g., high-completeness first, then medium, then stubs). Stubs may have too little data for meaningful synthesis.
+- [ ] Plan batch: **Cap at 8-10 specimens per batch** for quality synthesis. Mix 2-3 sectors per batch so cross-cutting patterns are visible (don't process one sector at a time). Stubs may have too little data for meaningful synthesis — include them but don't force-fit.
+- [ ] **If running multiple batches in sequence:** Read the previous batch's session log before starting. Carry forward any "emerging sector trends" or "questions for the next batch" from the prior Botanist's Field Notes. The goal is cumulative pattern recognition across batches, not isolated analysis.
 - [ ] Record planned batch in session file frontmatter before starting.
+
+---
+
+## Analytical Depth Requirement
+
+**Go deeper than the obvious.** The first-pass observations (standard tension scores, routine mechanism matches, safe convergence patterns) are table stakes, not insights. After completing the mechanical scoring, pause and ask:
+
+1. **What is structurally *weird* about this specimen?** What doesn't fit the standard patterns? What would surprise a reader who knows the taxonomy?
+2. **What story do multiple specimens in this batch tell *together*?** Not just "3 firms did X" but "the sequence from A to B to C reveals a mechanism we haven't named."
+3. **What would an organizational economist find interesting here?** Think in terms of information costs, incentive design, coordination problems, property rights — not just structural labels.
+4. **What hypothesis could be falsified?** Every batch should produce at least one testable claim, not just pattern descriptions.
+5. **What are you least confident about?** The most interesting insights often live at the edge of certainty.
+
+The mechanical scoring (tension positions, contingency levels, mechanism matching) is *input* to the analysis, not the analysis itself. A batch placement session that produces only scores and no surprises has failed. Push past the first layer of "this is M4 with these tensions" to find the structural logic that makes each specimen interesting on its own terms.
 
 ---
 
@@ -213,6 +228,30 @@ Check evidence counts: if a `"hypothesis"` insight now has 2+ specimens → prom
 
 ---
 
+### Step 5c: Botanist's Field Notes (across batch)
+
+After the analytical steps above, pause and write **free-form reflections** on what you observed across this batch. These notes are the intellectual heart of the field journal — informal, honest, and speculative in ways the structured synthesis files can't be.
+
+Write a `## Botanist's Field Notes` section in the session log. Aim for 3-6 paragraphs covering:
+
+1. **What surprised you?** — Findings that contradicted your expectations or the existing taxonomy. Things that made you stop and think.
+2. **What patterns are emerging?** — Threads across specimens in this batch that don't yet fit neatly into the mechanism/tension/contingency framework. Half-formed ideas worth watching.
+3. **What's structurally interesting?** — Observations about *how* organizations are solving the exploration/execution problem that feel novel or underappreciated.
+4. **What's thin or suspicious?** — Where does the data feel weak? Which classifications are you least confident about? Where might we be pattern-matching on noise?
+5. **Questions for the next batch** — What would you specifically look for in the next batch to confirm or disconfirm what you're seeing here?
+
+**Tone:** Write as a fellow researcher thinking out loud — not as a report. These notes should read like a field biologist's journal entry after a day of observation. Candid > polished. Speculative > safe.
+
+Also write a `## Sector Trends` section tracking patterns **within** industries that accumulate across batches. For each sector represented in this batch:
+
+- **What structural pattern dominates?** (e.g., "All 4 automotive specimens are M4 Structural")
+- **How does this sector compare to others?** (e.g., "Financial services is splitting 3 ways on workforce strategy")
+- **What's the sector-specific tension?** (e.g., "Healthcare delivery orgs face a depth/speed tension pharma doesn't")
+
+This section is cumulative — later batches should reference and update sector trends from earlier batches.
+
+---
+
 ### Step 6: Taxonomy Refinement Check (across batch)
 
 Review all `taxonomyFeedback` fields from processed specimens:
@@ -339,6 +378,22 @@ After ALL pending specimens are processed:
   ## New Insights Discovered
   | Insight | Theme | Evidence Count | Maturity |
   |---------|-------|----------------|----------|
+
+  ## Botanist's Field Notes
+
+  [Free-form reflections: what surprised you, what patterns are emerging,
+  what's structurally interesting, what's thin or suspicious, questions
+  for the next batch. Write as a fellow researcher thinking out loud.
+  Candid > polished. Speculative > safe. Aim for 3-6 paragraphs.]
+
+  ## Sector Trends
+
+  [For each sector in this batch: dominant structural pattern, comparison
+  to other sectors, sector-specific tensions. Cumulative across batches —
+  reference and update trends noted in prior session logs.]
+
+  | Sector | Specimens This Batch | Dominant Pattern | Key Observation |
+  |--------|---------------------|-----------------|-----------------|
 
   ## Key Insights for Executives
   [2-3 bullet points: What should a leader making structural decisions take away?]

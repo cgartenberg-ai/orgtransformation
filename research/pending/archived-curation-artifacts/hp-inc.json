@@ -1,0 +1,46 @@
+{
+  "company": "HP Inc.",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    {
+      "url": "https://www.insidermonkey.com/blog/thomson-reuters-corporation-nasdaqtri-q4-2025-earnings-call-transcript-1690317/",
+      "reason": "JS-rendered, no transcript content returned"
+    },
+    {
+      "url": "https://www.metaintro.com/blog/dow-layoffs-ai-automation-transform-outperform",
+      "reason": "JS-rendered, no article content returned"
+    },
+    {
+      "url": "https://futurumgroup.com/insights/sap-q4-fy-2025-earnings-cloud-erp-strength-ai-traction/",
+      "reason": "JS-rendered, no article content returned"
+    }
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "4,000-6,000 job cuts to increase productivity through AI, targeting $1B savings by FY2028",
+      "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "type": "Press",
+      "date": "2026-02-05",
+      "notes": "4,000-6,000 job cuts to increase productivity through AI, targeting $1B savings by FY2028"
+    }
+  ],
+  "summary": "4,000-6,000 job cuts to increase productivity through AI, targeting $1B savings by FY2028: HP announced November 2025 it would reduce global headcount by 4,000-6,000 employees as part of an initiative to increase productivity using AI, targeting $1B in savings by fiscal year 2028.",
+  "openQuestions": [],
+  "splitFrom": "earnings-discovery-q4-2025.json"
+}

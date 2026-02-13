@@ -1,0 +1,186 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "deere-and-co",
+  "name": "Deere & Co",
+  "title": "Agriculture Giant Builds Hub-and-Spoke AI Through Strategic Acquisitions",
+
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "High",
+    "classificationRationale": "Deere exemplifies classic hub-and-spoke: CTO Jahmy Hindman provides central technology leadership and coordination, while specialized acquired units (Blue River Technology for computer vision, Bear Flag Robotics for autonomy) operate as distinct spokes with concentrated AI talent. The research explicitly notes Blue River has the 'largest concentration of AI talent' and these units maintain technical autonomy within the Deere umbrella. This is not M2 (pure CoE) because the spokes are autonomous execution units, not just enablement. The structural orientation is clear—exploration happens in dedicated acquired units with separate talent pools, while execution integrates into Deere's product lines.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Agriculture",
+    "sector": "Agriculture / Industrials",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": "$38.9B (2025 equipment operations)",
+    "headquarters": "Moline, Illinois, USA",
+    "geography": "Global"
+  },
+
+  "description": "Deere & Co has transformed from a 187-year-old agricultural equipment manufacturer into a technology company that now employs more software engineers than mechanical engineers. The company's AI strategy centers on a hub-and-spoke model where CTO Jahmy Hindman's organization sets standards and coordinates acquisitions, while specialized units execute domain-specific AI work with significant autonomy.\n\nThe key spokes are acquisition-funded: Blue River Technology ($305M, 2017) brings computer vision expertise for See & Spray precision agriculture, while Bear Flag Robotics ($250M, 2021) provides autonomous vehicle capabilities. These units retain their technical identity and talent concentration while integrating into Deere's product portfolio. The company supplements this with university innovation centers (Illinois, Iowa State) and a 285-acre Austin R&D hub for year-round testing.\n\nLeadership frames AI investment around purpose—solving labor shortages and sustainability challenges—rather than technology for its own sake. CEO John May's 2023 CES keynote (the first by an ag company) positioned Deere as a technology leader with a clear 2030 goal: fully autonomous corn/soybean production cycles. The structural separation allows deep technical work in acquired units while the central hub ensures coordination and commercialization.",
+
+  "observableMarkers": {
+    "reportingStructure": "AI reports to CTO (Jahmy Hindman), who reports to CEO. No separate CAIO role. Acquired companies (Blue River, Bear Flag) operate as distinct units under tech umbrella.",
+    "resourceAllocation": "Dedicated acquisition-funded units (Blue River, Bear Flag) operate with apparent autonomy. University partnerships and innovation centers suggest ring-fenced R&D investment. Three-quarters of See & Spray machines in 2025 were retrofits, indicating scaled commercialization path.",
+    "timeHorizons": "Mixed horizons: quarterly product improvements (See & Spray hit 5M acres in 2025) combined with long-term vision (fully autonomous corn/soybean cycle by 2030). 'Smart Industrial' strategy spans 2019-2030.",
+    "decisionRights": "Centralized technology strategy under CTO; distributed execution in specialized units. Blue River appears to retain technical autonomy within Deere.",
+    "metrics": "Herbicide reduction (59% average, 31M gallons saved in 2025). Acres covered by AI systems. Productivity gains (15-20% reported for autonomous). Fuel and labor reduction (6%). 20% operating return on sales target by 2030."
+  },
+
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "Blue River Technology and Bear Flag Robotics operate as distinct units with concentrated AI talent, maintaining technical identity separate from Deere's traditional mechanical engineering culture. University innovation centers at research parks provide additional protected spaces for exploration.",
+      "strength": "Moderate"
+    },
+    {
+      "id": 3,
+      "name": "Embed Product at Research Frontier",
+      "evidence": "Blue River's See & Spray technology moved from R&D to commercial deployment—5M acres covered in 2025, with 75% of machines being retrofits to existing equipment. The Austin R&D Center enables year-round product testing.",
+      "strength": "Strong"
+    }
+  ],
+
+  "quotes": [
+    {
+      "text": "Technology is core to Deere's DNA, but we don't create tech for tech's sake. There's purpose behind everything we do, so that our customers have the tools they need to tackle some of the world's greatest challenges.",
+      "speaker": "John May",
+      "speakerTitle": "CEO & Chairman",
+      "context": "First CES keynote ever by an agriculture company CEO",
+      "sourceId": "deere-and-co-ces-2023-keynote"
+    },
+    {
+      "text": "[CES] gives us a chance to show how our purpose-driven technology has a huge impact on our customers. Our goal is to make our customers more profitable, more productive, and help them do the jobs they do in a more sustainable way.",
+      "speaker": "John May",
+      "speakerTitle": "CEO & Chairman",
+      "context": "Interview during CES 2023",
+      "sourceId": "deere-and-co-gadgetmatch-2023"
+    },
+    {
+      "text": "Our agriculture, construction, and commercial landscaping customers all have work that must get done at certain times of the day and year, yet there is not enough available and skilled labor to do the work. Autonomy can help address this challenge.",
+      "speaker": "Jahmy Hindman",
+      "speakerTitle": "Chief Technology Officer",
+      "context": "Explaining strategic rationale for autonomy investment",
+      "sourceId": "deere-and-co-assembly-2025"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Initial specimen collection",
+      "summary": "Deere operates hub-and-spoke AI model with CTO Hindman coordinating central strategy while acquired units (Blue River, Bear Flag) execute domain-specific AI work. Company now employs more software engineers than mechanical engineers. See & Spray reached 5M acres in 2025. Targeting fully autonomous corn/soybean cycle by 2030.",
+      "sourceRefs": ["deere-and-co-emerj-2025", "deere-and-co-assembly-2025", "deere-and-co-ces-2023-keynote"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "deere-and-co-emerj-2025",
+      "name": "Emerj - Artificial Intelligence at John Deere",
+      "type": "Press",
+      "url": "https://emerj.com/artificial-intelligence-at-john-deere/",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "deere-and-co-ces-2023-keynote",
+      "name": "Deere - CES 2023 Keynote Announcement",
+      "type": "Blog",
+      "url": "https://www.deere.com/en/stories/featured/john-may-delivering-the-keynote-address-at-ces-2023/",
+      "sourceDate": "2023-01",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "deere-and-co-gadgetmatch-2023",
+      "name": "MachineFinder - CES 2023 Interview",
+      "type": "Press",
+      "url": "https://www.machinefinder.com/ww/en-US/articles/john-deere-ceo-john-may-to-give-livestreamed-keynote-address-at-ces-2023-11060",
+      "sourceDate": "2023-01",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "deere-and-co-assembly-2025",
+      "name": "Assembly Magazine - John Deere Prepares for Fully Autonomous Farm by 2030",
+      "type": "Press",
+      "url": "https://www.assemblymag.com/articles/98211-john-deere-invests-in-ai-prepares-for-a-fully-autonomous-farm-by-2030",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "deere-and-co-illinois-innovation",
+      "name": "Research Park Illinois - John Deere Technology Innovation Center",
+      "type": "Blog",
+      "url": "https://researchpark.illinois.edu/tenant_directory/john-deere-technology-innovation-center/",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "deere-and-co-iowa-state",
+      "name": "ISU Research Park - Deere & Company",
+      "type": "Blog",
+      "url": "https://www.isupark.org/tenant/deere-company/",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "deere-and-co-austin-rd",
+      "name": "Deere - Austin R&D Center",
+      "type": "Blog",
+      "url": "https://www.deere.com/en/stories/featured/research-dev-center/",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-08"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Non-traditional",
+    "technicalDebt": "High"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.7,
+    "speedVsDepth": 0.0,
+    "centralVsDistributed": 0.3,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": -0.4
+  },
+
+  "openQuestions": [
+    "Exact headcount of AI/ML engineers across all units (Blue River, Bear Flag, internal teams)",
+    "Whether Blue River and Bear Flag operate as distinct P&Ls or are fully integrated",
+    "Specific reporting relationship between CTO and the acquired company leaders",
+    "R&D budget breakdown between AI/software vs. traditional mechanical engineering",
+    "Whether 'DeereAI' (internal ChatGPT integration) represents a broader enterprise AI platform strategy"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] Deere represents a clean M4 case where the 'spokes' were explicitly acquired rather than organically developed. Blue River ($305M) and Bear Flag ($250M) provide concentrated AI talent pools that maintain technical identity within the Deere umbrella. This acquisition-based spoke creation may be a distinct pattern for legacy industrials that lack internal AI talent.",
+    "[2026-02] The 'more software engineers than mechanical engineers' observation marks a structural inflection point. This is not just adding AI capability—it's a fundamental rebalancing of organizational expertise. The hub-and-spoke model may be particularly suited for this transition because it allows legacy mechanical expertise to coexist with acquired software talent.",
+    "[2026-02] CEO May's CES keynote framing—'purpose-driven technology' rather than 'tech for tech's sake'—suggests how legacy industrials legitimate AI investment internally. The labor shortage and sustainability narratives provide economic and social justification that pure efficiency arguments might not."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

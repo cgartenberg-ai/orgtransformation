@@ -1,7 +1,10 @@
 {
+  "$schema": "./specimen-schema.json",
+
   "id": "klarna",
   "name": "Klarna",
-  "title": "AI Customer Service Experiment (and Correction)",
+  "title": "The AI Reversal: From 'AI Can Do All Jobs' to 'We Went Too Far' in Five Months",
+
   "classification": {
     "structuralModel": 6,
     "structuralModelName": "Unnamed/Informal",
@@ -10,38 +13,98 @@
     "secondaryModel": null,
     "secondaryModelName": null,
     "orientation": "Contextual",
-    "orientationName": "Contextual",
-    "confidence": "Medium",
-    "classificationRationale": "Klarna did not create a named AI unit or CoE. CEO Siemiatkowski drove enterprise-wide AI adoption directly: AI replaced 700 customer service agents, workforce shrank 40% from 5,000 to ~3,000. No formal AI organizational structure described—this is CEO-mandate-driven adoption, characteristic of Model 6a. Contextual orientation: AI was adopted across existing workflows without creating new structural entities. Notable as a reversal case: after going full-tilt AI, Klarna resumed human hiring acknowledging quality degradation.",
+    "orientationName": "Contextual Ambidexterity",
+    "confidence": "High",
+    "classificationRationale": "Decision tree: Formal AI unit=NO → Named AI initiative=NO → Enterprise-wide AI adoption=YES (CEO-mandated, 700 agent equivalents, 40% workforce reduction) → M6a. No CoE, no AI ethics board, no quality feedback loops. CEO Siemiatkowski drove adoption directly and personally drove the reversal. Contextual orientation confirmed: no structural separation between explore/execute — AI was adopted across existing workflows by CEO mandate, then reversed by CEO mandate. The absence of formal AI governance structure is itself the key finding — the lack of structural guardrails enabled both the rapid adoption and the quality degradation that followed. The post-correction 'Uber-style' hybrid model introduces new structural elements but still lacks formal AI organizational unit.",
     "typeSpecimen": false
   },
+
   "habitat": {
     "industry": "Financial Services",
     "sector": "Fintech / Buy-Now-Pay-Later",
     "orgSize": "Enterprise",
-    "employees": "~3,000",
+    "employees": "~3,000 (down from 5,500 in 2022)",
     "revenue": "~$2B",
     "headquarters": "Stockholm, Sweden",
-    "geography": "Global"
+    "geography": "Global (23+ markets, 35+ languages)"
   },
-  "description": "Klarna's AI experiment provides a rare honest case study of both AI's potential and its limits. They publicly reversed course after going 'full tilt toward AI-based support.'\n- February 2024: AI assistant announced as 'doing the equivalent work of 700 full-time agents' within first month\n- Initial results: 2.3 million conversations, matching human satisfaction scores\n- 25% drop in repeat inquiries, resolution time dropped from 11 minutes to under 2 minutes\n- $40 million annual savings projected; workforce shrank 40% from 5,000 to ~3,000\n- By 2025, Klarna reversed course, resuming human hiring after acknowledging 'a full tilt toward AI-based support roles resulted in lower quality work'\n- New model: Hybrid approach with AI handling simple inquiries, humans handling nuance and complexity",
+
+  "description": "Klarna is the single most valuable counter-example in our specimen collection. Where most specimens document AI adoption success stories, Klarna documents what happens when AI adoption goes too far, too fast, with the wrong metrics and no structural guardrails.\n\nThe timeline: In 2022, Klarna had 5,500+ employees. CEO Siemiatkowski committed to being OpenAI's 'favorite guinea pig.' A hiring freeze was imposed in December 2023. In early 2024, an OpenAI-powered AI assistant handled 2.3 million conversations in its first month — claimed equivalent to 700 FTEs, with resolution time dropping from 11 to 2 minutes and a 25% reduction in repeat contacts. The projected $40M annual savings validated further workforce cuts. By December 2024, Siemiatkowski publicly stated 'AI can already do all of the jobs that we, as humans, do' [futurism-reversal].\n\nWithin five months, he reversed. Customer satisfaction had dropped 22%, with over 900 Better Business Bureau complaints. Customers reported robotic responses, inability to handle nuance, and being trapped in loops. Internal reviews revealed the AI was functioning as a 'filter redirecting customers to human agents rather than genuinely resolving issues.' In May 2025, Siemiatkowski admitted: 'As cost unfortunately seems to have been a too predominant evaluation factor when organizing this, what you end up having is lower quality' [entrepreneur-reversal] [cresta-reversal].\n\nThe correction was dramatic: in September 2025, Klarna redeployed staff from marketing, engineering, legal, operations, and analytics into customer service roles — employees told their roles were 'no longer a priority' and reassigned. The company adopted an 'Uber-style' hybrid model: AI handles triage and routine queries, gig-worker humans handle complex cases, with 24/7 live chat and seamless escalation [cxtoday-redeployment] [gizmodo-rehiring].\n\nThe financial consequences compounded: Klarna IPO'd on NYSE September 10, 2025 (ticker KLAR, $40/share, raising $1.37B). But Q3 earnings revealed a 102% YoY increase in credit loss provisions and a $95M net loss. Stock fell below IPO price to ~$31. In January 2026, an investor class-action lawsuit was filed alleging the IPO prospectus was 'materially false and misleading' [cnbc-ipo] [fintechweekly-shares] [globenewswire-lawsuit].",
+
   "observableMarkers": {
-    "reportingStructure": null,
-    "resourceAllocation": null,
-    "timeHorizons": null,
-    "decisionRights": null,
-    "metrics": "CEO Siemiatkowski: 'It is important that customers always have a clear path to a human.' Company now recruits remote support staff in 'Uber type of setup.'"
+    "reportingStructure": "CEO Siemiatkowski drives AI strategy directly — no CAIO, no AI CoE, no AI governance board. All major AI decisions (adoption, freeze, reversal, redeployment) were CEO-mandated. No formal AI organizational structure documented.",
+    "resourceAllocation": "Workforce reduced from 5,500+ (2022) to ~3,000 (2024-25). $40M projected annual savings from AI. 700 FTE-equivalents replaced by AI assistant. Post-reversal: cross-functional redeployment from marketing/engineering/legal/operations into customer service. New 'Uber-style' gig-worker hiring for human support [entrepreneur-reversal] [cxtoday-redeployment].",
+    "timeHorizons": "Extremely compressed: hiring freeze (Dec 2023) → AI deployment + success claims (early 2024) → peak AI confidence with 'AI can do all jobs' claim (Dec 2024) → quality degradation acknowledged + reversal (May 2025) → emergency redeployment (Sep 2025) → IPO (Sep 2025) → credit losses + lawsuit (Nov 2025-Jan 2026). The entire cycle from deployment to reversal was approximately 15 months.",
+    "decisionRights": "Hyper-centralized in CEO. No evidence of distributed decision rights, quality feedback loops, or AI governance mechanisms. The absence of structural checks enabled both rapid adoption and rapid quality degradation. Layoffs executed via pre-recorded videos and blanket emails without frontline worker consultation [solutions-review-empathy].",
+    "metrics": "Initial (seemingly successful): 2.3M conversations in first month, resolution time 11→2 min, 25% reduction in repeat contacts, satisfaction 'on par' with humans. Post-correction: 22% drop in customer satisfaction, 900+ BBB complaints, AI functioning as filter not resolver. Financial: IPO at $40/share, stock fell to ~$31, 102% YoY increase in credit loss provisions, $95M net loss (vs $12M income prior year) [promptlayer-analysis] [fintechweekly-analysis] [cnbc-ipo]."
   },
+
   "mechanisms": [
     {
-      "id": 3,
+      "id": 2,
       "name": "Bonus Teams That Kill Projects",
-      "evidence": "Klarna reversed course after going full-tilt AI, resuming human hiring. This is the rare demonstrated willingness to kill an AI initiative when quality suffered. CEO publicly acknowledged the correction. While not literally a bonus, the organizational courage to reverse a high-profile AI strategy demonstrates the kill-discipline this mechanism describes.",
-      "strength": "Moderate"
+      "evidence": "Klarna reversed a high-profile AI-first strategy after quality degradation, publicly admitting failure. While not a formal kill mechanism, the organizational courage to reverse course — CEO publicly stating 'we focused too much on efficiency and cost' — demonstrates kill-discipline at the highest level. The reversal triggered cross-functional emergency redeployment, confirming the correction was genuine, not cosmetic.",
+      "strength": "Strong"
     }
   ],
-  "quotes": [],
+
+  "quotes": [
+    {
+      "speaker": "Sebastian Siemiatkowski",
+      "speakerTitle": "CEO, Klarna",
+      "quote": "AI can already do all of the jobs that we, as humans, do.",
+      "source": "Futurism",
+      "sourceUrl": "https://futurism.com/klarna-openai-humans-ai-back",
+      "date": "2024-12"
+    },
+    {
+      "speaker": "Sebastian Siemiatkowski",
+      "speakerTitle": "CEO, Klarna",
+      "quote": "As cost unfortunately seems to have been a too predominant evaluation factor when organizing this, what you end up having is lower quality.",
+      "source": "Cresta / Entrepreneur",
+      "sourceUrl": "https://cresta.com/news/klarna-shifts-focus-back-from-ai-to-human-interaction",
+      "date": "2025-05"
+    },
+    {
+      "speaker": "Sebastian Siemiatkowski",
+      "speakerTitle": "CEO, Klarna",
+      "quote": "From a brand perspective, a company perspective, I just think it is so critical that you are clear to your customer that there will always be a human if you want.",
+      "source": "Entrepreneur",
+      "sourceUrl": "https://www.entrepreneur.com/business-news/klarna-ceo-reverses-course-by-hiring-more-humans-not-ai/491396",
+      "date": "2025-05"
+    },
+    {
+      "speaker": "Sebastian Siemiatkowski",
+      "speakerTitle": "CEO, Klarna",
+      "quote": "We focused too much on efficiency and cost. The result was lower quality, and that is not sustainable.",
+      "source": "LaSoft",
+      "sourceUrl": "https://lasoft.org/blog/klarna-walks-back-ai-overhaul-rehires-staff-after-customer-service-backlash/",
+      "date": "2025"
+    },
+    {
+      "speaker": "Sebastian Siemiatkowski",
+      "speakerTitle": "CEO, Klarna",
+      "quote": "Really investing in the quality of human support is the way of the future for us.",
+      "source": "CX Today",
+      "sourceUrl": "https://www.cxtoday.com/contact-center/klarna-redeploys-staff-to-customer-service-pulls-from-marketing-engineering-and-legal-teams/",
+      "date": "2025-09"
+    }
+  ],
+
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Full Reversal Documentation + IPO Aftermath",
+      "summary": "Major specimen enrichment with full reversal timeline, 22% satisfaction drop, emergency cross-functional redeployment (Sep 2025), Uber-style hybrid model, IPO ($40/share Sep 2025), Q3 credit losses (102% YoY increase), investor class-action lawsuit (Jan 2026). CEO rhetorical arc from 'AI can do all jobs' (Dec 2024) to 'we went too far' (May 2025) documented with verbatim quotes. Key structural insight: initial AI metrics (cost savings, speed) systematically overstate success by measuring what AI does well while missing what it does poorly. Organizational knowledge destruction through layoffs is irreversible — the Uber-style rehiring brings in people without accumulated customer interaction knowledge. EU AI Act creates additional regulatory risk for AI in creditworthiness assessment.",
+      "classification": {
+        "structuralModel": 6,
+        "subType": "6a",
+        "orientation": "Contextual",
+        "confidence": "High",
+        "action": "enriched, confidence upgraded"
+      },
+      "sourceRefs": ["entrepreneur-reversal", "futurism-reversal", "cresta-reversal", "gizmodo-rehiring", "cxtoday-redeployment", "promptlayer-analysis", "fintechweekly-analysis", "cnbc-ipo", "fintechweekly-shares", "globenewswire-lawsuit", "solutions-review-empathy", "lasoft-reversal", "reworked-analysis", "inc-ipo"]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
@@ -60,91 +123,205 @@
       "label": "Initial Documentation",
       "summary": "Klarna's AI experiment provides a rare honest case study of both AI's potential and its limits. They publicly reversed course after going 'full tilt toward AI-based support.'",
       "classification": null,
-      "sourceRefs": [
-        "source-1",
-        "source-2",
-        "source-3",
-        "source-4",
-        "source-5"
-      ]
+      "sourceRefs": ["source-1", "source-2", "source-3", "source-4", "source-5"]
     }
   ],
+
   "sources": [
     {
       "id": "source-1",
       "type": "Press Release",
       "name": "Klarna Press",
       "url": null,
-      "timestamp": null,
       "sourceDate": null,
-      "collectedDate": "2026-01-20",
-      "notes": null
+      "collectedDate": "2026-01-20"
     },
     {
       "id": "source-2",
       "type": "Press",
       "name": "OpenAI",
       "url": null,
-      "timestamp": null,
       "sourceDate": null,
-      "collectedDate": "2026-01-20",
-      "notes": null
+      "collectedDate": "2026-01-20"
     },
     {
       "id": "source-3",
       "type": "Press",
       "name": "Fast Company",
       "url": null,
-      "timestamp": null,
       "sourceDate": null,
-      "collectedDate": "2026-01-20",
-      "notes": null
+      "collectedDate": "2026-01-20"
     },
     {
       "id": "source-4",
       "type": "Press",
       "name": "CNBC",
       "url": null,
-      "timestamp": null,
       "sourceDate": null,
-      "collectedDate": "2026-01-20",
-      "notes": null
+      "collectedDate": "2026-01-20"
     },
     {
       "id": "source-5",
       "type": "Podcast",
       "name": "Sequoia Podcast",
       "url": null,
-      "timestamp": null,
       "sourceDate": null,
-      "collectedDate": "2026-01-20",
-      "notes": null
+      "collectedDate": "2026-01-20"
+    },
+    {
+      "id": "entrepreneur-reversal",
+      "type": "Press",
+      "name": "Entrepreneur — Klarna CEO Reverses Course by Hiring More Humans, Not AI",
+      "url": "https://www.entrepreneur.com/business-news/klarna-ceo-reverses-course-by-hiring-more-humans-not-ai/491396",
+      "sourceDate": "2025-05",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "futurism-reversal",
+      "type": "Press",
+      "name": "Futurism — Klarna OpenAI Humans Back",
+      "url": "https://futurism.com/klarna-openai-humans-ai-back",
+      "sourceDate": "2025-05",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "cresta-reversal",
+      "type": "Press",
+      "name": "Cresta — Klarna Shifts Focus Back from AI to Human Interaction",
+      "url": "https://cresta.com/news/klarna-shifts-focus-back-from-ai-to-human-interaction",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "gizmodo-rehiring",
+      "type": "Press",
+      "name": "Gizmodo — Klarna Hiring Back Human Help After Going All-In on AI",
+      "url": "https://gizmodo.com/klarna-hiring-back-human-help-after-going-all-in-on-ai-2000600767",
+      "sourceDate": "2025-05",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "cxtoday-redeployment",
+      "type": "Press",
+      "name": "CX Today — Klarna Redeploys Staff to Customer Service",
+      "url": "https://www.cxtoday.com/contact-center/klarna-redeploys-staff-to-customer-service-pulls-from-marketing-engineering-and-legal-teams/",
+      "sourceDate": "2025-09",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "promptlayer-analysis",
+      "type": "Analysis",
+      "name": "PromptLayer Blog — Klarna Customer Service: AI-First to Human-Hybrid",
+      "url": "https://blog.promptlayer.com/klarna-customer-service-from-ai-first-to-human-hybrid-balance/",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "fintechweekly-analysis",
+      "type": "Press",
+      "name": "FinTech Weekly — Klarna Hires Customer Service After AI Pivot",
+      "url": "https://www.fintechweekly.com/magazine/articles/klarna-hires-customer-service-after-ai-pivot",
+      "sourceDate": "2025-05",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "cnbc-ipo",
+      "type": "Press",
+      "name": "CNBC — Klarna Stock Soars After US IPO",
+      "url": "https://www.cnbc.com/2025/09/10/klarna-klar-stock-soars-after-us-ipo.html",
+      "sourceDate": "2025-09-10",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "fintechweekly-shares",
+      "type": "Press",
+      "name": "FinTech Weekly — Klarna Shares Fall Below IPO Price",
+      "url": "https://www.fintechweekly.com/magazine/articles/klarna-shares-fall-below-ipo",
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "globenewswire-lawsuit",
+      "type": "Press Release",
+      "name": "GlobeNewsWire — KLAR Securities Class Action (Hagens Berman)",
+      "url": "https://www.globenewswire.com/news-release/2026/02/11/3236461/32716/en/KLAR-ALERT-Klarna-Group-KLAR-Facing-Securities-Class-Action-Amid-102-Spike-in-Credit-Loss-Provision-Questions-About-Risk-Related-Trends-Disclosures-Hagens-Berman.html",
+      "sourceDate": "2026-02-11",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "solutions-review-empathy",
+      "type": "Analysis",
+      "name": "Solutions Review — Klarna's AI Layoffs Exposed: The Missing Piece, Empathy",
+      "url": "https://solutionsreview.com/klarnas-ai-layoffs-exposed-the-missing-piece-empathy/",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "lasoft-reversal",
+      "type": "Press",
+      "name": "LaSoft — Klarna Walks Back AI Overhaul",
+      "url": "https://lasoft.org/blog/klarna-walks-back-ai-overhaul-rehires-staff-after-customer-service-backlash/",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "reworked-analysis",
+      "type": "Analysis",
+      "name": "Reworked — Klarna Claimed AI Was Doing Work of 700 People. Now It's Rehiring.",
+      "url": "https://www.reworked.co/employee-experience/klarna-claimed-ai-was-doing-the-work-of-700-people-now-its-rehiring/",
+      "sourceDate": "2025-05",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "inc-ipo",
+      "type": "Press",
+      "name": "Inc. — Klarna Billion-Dollar IPO Filing",
+      "url": "https://www.inc.com/tekendra-parmar/klarna-billion-dollar-ipo-filing/91237788",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-12"
     }
   ],
+
   "contingencies": {
-    "regulatoryIntensity": null,
-    "timeToObsolescence": null,
-    "ceoTenure": "Critical. AI strategy is entirely CEO-driven. Siemiatkowski's personal conviction drove both the AI push and the correction.",
-    "talentMarketPosition": null,
-    "technicalDebt": null
+    "regulatoryIntensity": "medium",
+    "timeToObsolescence": "medium",
+    "ceoTenure": "founder",
+    "talentMarketPosition": "talent-contested",
+    "technicalDebt": "medium"
   },
+
   "tensionPositions": {
-    "structuralVsContextual": "Contextual. CEO-driven mandate, no named AI structure.",
-    "speedVsDepth": "Initially Speed (full-tilt AI adoption), corrected to Depth (acknowledging need for human nuance).",
-    "centralVsDistributed": "Centralized decision, distributed impact. CEO made the call to go AI-first and to reverse.",
-    "namedVsQuiet": null,
-    "longVsShortHorizon": null
+    "structuralVsContextual": 0.7,
+    "speedVsDepth": 0.6,
+    "centralVsDistributed": -0.7,
+    "namedVsQuiet": 0.8,
+    "longVsShortHorizon": 0.5
   },
+
   "openQuestions": [
-    "What does the hybrid model look like now? How are AI and human agents coordinated in the corrected approach?",
-    "What organizational learning occurred from the reversal? Has Klarna created any formal AI governance since?"
+    "What does the post-correction hybrid model look like operationally? What is the AI-to-human handoff rate now?",
+    "Does the Uber-style gig-worker model create new coordination costs that offset AI efficiency gains?",
+    "Has Klarna created any formal AI governance structure (CoE, AI ethics board, quality feedback loops) since the reversal?",
+    "How did the IPO timeline (Sep 2025) interact with the reversal decision (May 2025)? Did IPO pressure delay the correction?",
+    "What is the credit loss trajectory post-IPO — is the 102% YoY increase in provisions related to the AI customer service degradation?",
+    "How does the EU AI Act's 'high-risk' classification of AI in creditworthiness assessment affect Klarna's AI strategy?"
   ],
-  "taxonomyFeedback": [],
+
+  "taxonomyFeedback": [
+    "[2026-02] Klarna reveals a critical boundary condition for M6a: the absence of formal structure becomes a liability when rapid correction is needed. Most M6a specimens succeed through gradual, emergent adoption. Klarna's CEO-driven mandate compressed adoption to weeks, achieved dramatic efficiency gains, then required public reversal within 12 months. The lack of an AI CoE or governance body meant no organizational mechanism existed to surface quality degradation signals until customer impact forced CEO intervention. This suggests M6a works best for gradual transformation, not shock therapy.",
+    "[2026-02] The specimen exposes an economic puzzle: if AI truly matched human satisfaction scores while cutting resolution time from 11 to 2 minutes, why did 'quality degradation' force reversal? Most likely explanation: satisfaction metrics were poorly specified, measuring speed/resolution but missing nuance, empathy, or complex problem-solving. The economic logic of customer service is not pure throughput optimization — there are option-value and insurance properties to human judgment that don't show up in first-order metrics.",
+    "[2026-02] Klarna's post-correction model ('Uber type of setup' for remote human support) suggests they're building a variable-cost hybrid architecture: AI handles volume, humans provide quality ceiling. This is structurally different from both the traditional model (fixed headcount) and the AI-only model (pure substitution). The interesting organizational question: does managing a gig-economy human layer require governance structure — potentially evolving Klarna from M6a toward M2 (CoE) or M4 (hub-and-spoke)?",
+    "[2026-02-13] Siemiatkowski's 'cost as predominant evaluation factor' admission is a rare CEO-level identification of the specific mechanism of failure. This is a bounded-rationality / measurement problem: what gets measured (cost reduction, resolution speed) gets optimized, at the expense of what doesn't get measured well (service quality, customer trust, empathy, complex problem-solving). The initial metrics systematically overstated success. This has general implications for AI transition measurement frameworks.",
+    "[2026-02-13] The destruction of institutional knowledge through layoffs is analytically significant. When Klarna reversed course, the 700+ customer service agents' accumulated interaction knowledge was gone. The Uber-style rehiring brings in new people without this knowledge. This is an irreversibility that should inform the taxonomy: AI workforce transitions that destroy human capital cannot be easily reversed. The option value of retaining human knowledge is not captured in the cost metrics that drove the initial decision.",
+    "[2026-02-13] The cross-functional emergency redeployment (engineers, lawyers, marketers into customer service roles) is a structural emergency response pattern. Its occurrence signals catastrophic failure of the original strategy. This could be a diagnostic marker: when organizations pull non-service staff into customer-facing roles, the AI substitution strategy has failed.",
+    "[2026-02-13] The augmentation-to-replacement-to-reversal rhetorical arc is the most complete in our collection: 'AI can do all jobs' (Dec 2024) → 'we went too far' (May 2025) → 'investing in human quality is the future' (Sep 2025). Compare with Salesforce's arc (augmentation → 'I need less heads') which has not yet reversed. Klarna's reversal suggests there may be a predictable correction cycle."
+  ],
+
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-13",
+    "completeness": "High",
     "convertedFrom": "library/cases/klarna.json"
   }
 }

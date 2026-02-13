@@ -1,0 +1,136 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "lionsgate",
+  "name": "Lionsgate Entertainment",
+  "title": "First Chief AI Officer Establishes AI Leadership in Hollywood Studio",
+
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "Low",
+    "classificationRationale": "Appointment of first-ever Chief AI Officer suggests establishing a central governance/enablement function. The mandate to 'provide AI tools to serve creative vision' and 'create efficiencies in production/marketing/distribution' indicates a CoE-style role: setting standards, enabling adoption across functions, not creating separate products. However, data is extremely thin — only a single press mention of the hire with truncated mandate description. Classification could shift with more evidence of actual structure.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Media & Entertainment",
+    "sector": "Film & Television Production/Distribution",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Santa Monica, California",
+    "geography": "North America"
+  },
+
+  "description": "Lionsgate Entertainment appointed Kathleen Grace as its first-ever Chief AI Officer in early 2026, signaling the Hollywood studio's formal commitment to AI transformation. The mandate as described focuses on providing AI tools to serve the creative vision of filmmakers while creating efficiencies across production, marketing, and distribution functions.\n\nThis C-suite AI appointment follows a pattern seen across industries where organizations create dedicated AI leadership to coordinate adoption. The emphasis on 'serving creative vision' suggests Lionsgate is positioning AI as an enablement function rather than a replacement for creative work — a framing likely intended to navigate the entertainment industry's acute sensitivity around AI and creative labor following recent strikes and ongoing tensions.",
+
+  "observableMarkers": {
+    "reportingStructure": "Chief AI Officer (Kathleen Grace) — reporting structure unknown",
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [],
+
+  "quotes": [
+    {
+      "speaker": "Jon Feltheimer",
+      "speakerTitle": "CEO, Lionsgate",
+      "quote": "Kathleen understands the AI ecosystem from the perspective of creators and IP holders alike, and she is the right person to lead our team forward in this exciting, complex and nuanced environment.",
+      "source": "MediaPlayNews",
+      "sourceUrl": "https://www.mediaplaynews.com/lionsgate-names-kathleen-grace-first-chief-ai-officer/",
+      "date": "2026-02"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "First Entertainment CAIO Appointment — Kathleen Grace",
+      "summary": "Kathleen Grace appointed as Lionsgate's first Chief AI Officer, reporting directly to CEO Jon Feltheimer and part of senior management team. Collaborates with Vice Chairman Michael Burns. Role spans AI strategy and execution across production, marketing, distribution, and administrative operations, plus IP protection. Grace previously was CSO at Vermillio (AI IP licensing platform) and led YouTube's global Spaces initiative. Lionsgate had previously partnered with Runway (September 2024) on a proprietary AI model. CEO Feltheimer: 'Kathleen understands the AI ecosystem from the perspective of creators and IP holders alike.' First entertainment studio CAIO appointment — the dual mandate (serve creative filmmakers AND drive operational efficiency AND protect IP) is a textbook exploration-execution tension.",
+      "classification": null,
+      "sourceRefs": ["variety-lionsgate-caio-2026", "mediaplaynews-lionsgate-2026"]
+    },
+    {
+      "date": "2026-02",
+      "label": "First Chief AI Officer Appointed",
+      "summary": "Lionsgate hired Kathleen Grace as its first-ever Chief AI Officer. Mandate includes providing AI tools to serve creative vision of filmmakers and creating efficiencies in production, marketing, and distribution.",
+      "sourceRefs": ["lionsgate-caio-announcement-2026"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "variety-lionsgate-caio-2026",
+      "type": "Press",
+      "name": "Variety — Lionsgate Hires First Chief AI Officer Kathleen Grace",
+      "url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "mediaplaynews-lionsgate-2026",
+      "type": "Press",
+      "name": "MediaPlayNews — Lionsgate Names Kathleen Grace First Chief AI Officer",
+      "url": "https://www.mediaplaynews.com/lionsgate-names-kathleen-grace-first-chief-ai-officer/",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "lionsgate-caio-announcement-2026",
+      "name": "First Chief AI Officer: Kathleen Grace appointed",
+      "url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+      "type": "Press",
+      "publicationDate": "2026-02-06",
+      "collectedDate": "2026-02-07",
+      "notes": "Primary source for CAIO appointment. Fetch failed (JS-rendered), data extracted from research summary."
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.5,
+    "speedVsDepth": null,
+    "centralVsDistributed": -0.5,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [
+    "What team/budget does the CAIO command?",
+    "How does AI strategy navigate SAG-AFTRA and WGA concerns post-2023 strikes?",
+    "Is the focus on generative AI for content or operational AI for efficiency?",
+    "What is Kathleen Grace's background and prior AI experience?",
+    "Does Lionsgate have existing AI initiatives the CAIO will oversee?"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] Entertainment industry CAIO appointments are structurally interesting because they must navigate unique labor relations dynamics — the 2023 strikes made AI a central bargaining issue. The framing of 'serving creative vision' rather than 'replacing creative work' may be as much a political positioning as a structural mandate.",
+    "[2026-02] This is an extremely early-stage specimen — we have a title and a truncated mandate description but no evidence of actual structure, team size, or operational model. Classification as M2 CoE is provisional based on the enablement-focused language, but could easily shift to M4 Hub-and-Spoke or even M6 Unnamed depending on how implementation unfolds.",
+    "[2026-02] Hollywood studios represent an underexplored habitat in our taxonomy. The tension between AI efficiency potential and creative labor concerns creates contingencies not well-captured in our current variables. Worth tracking whether media/entertainment specimens cluster differently than tech or financial services."
+  ],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-13",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "cognizant",
+  "name": "Cognizant Technology Solutions",
+  "title": "Three-Vector AI Strategy with Agentic Software and Digital Labor",
+
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 5,
+    "secondaryModelName": "Product/Venture Lab",
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "Cognizant has reorganized into three distinct AI-focused units: (1) Market-facing AI teams, (2) Integrated AI solutions unit, and (3) Centralized AI platforms and products unit. This three-unit structure represents classic hub-and-spoke: centralized platforms/products provide standards and tooling while market-facing teams and integrated solutions units execute distributed work. The 'three-vector' strategy (Vector One augments traditional delivery; Vectors Two/Three build agentic software and 'digital labor') suggests product creation ambitions warranting M5 as secondary model.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Information Technology Services",
+    "sector": "Technology",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Teaneck, New Jersey, USA",
+    "geography": "Global"
+  },
+
+  "description": "Cognizant has undertaken a significant AI-driven reorganization, restructuring its go-to-market operations into three distinct units: market-facing AI teams, an integrated AI solutions unit, and a centralized AI platforms and products unit. This three-pronged structure reflects a hub-and-spoke model where central platform capabilities support distributed market execution.\n\nCEO Ravi Kumar has articulated a 'three-vector' AI strategy. Vector One augments traditional software delivery with AI capabilities. Vectors Two and Three represent more ambitious bets on agentic software cycles and 'digital labor' — suggesting the company is building toward autonomous AI agents that can perform work traditionally done by humans. The company has invested in strategic partnerships with NVIDIA and Anthropic, along with proprietary capabilities like the BASIS framework and 'science of context engineering.'\n\nNotably, Cognizant is pursuing a 'broader pyramid' workforce strategy, planning to hire 24,000-25,000 freshers in 2026. The strategic logic: AI allows high-value technical work to be moved to entry-level roles, enabling a wider talent pyramid. This represents a deliberate attempt to use AI to reshape workforce structure and economics — not just automate existing work but restructure how work gets allocated across skill levels.",
+
+  "observableMarkers": {
+    "reportingStructure": "Three distinct AI-focused units: (1) Market-facing AI teams, (2) Integrated AI solutions unit, (3) Centralized AI platforms and products unit",
+    "resourceAllocation": "4,000+ AI practitioners; strategic partnerships with NVIDIA and Anthropic; proprietary BASIS framework",
+    "timeHorizons": "Mixed: Vector One augments current delivery (near-term); Vectors Two/Three build agentic software and digital labor (medium-to-long term)",
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Three-Unit AI Reorganization",
+      "summary": "Cognizant reorganized go-to-market into three AI-focused units and articulated three-vector AI strategy. CEO Kumar outlined broader pyramid workforce strategy to hire 24,000-25,000 freshers, using AI to move high-value work to entry-level roles. Company has 4,000+ AI practitioners and strategic partnerships with NVIDIA and Anthropic.",
+      "sourceRefs": ["cognizant-q4-2025-earnings", "cognizant-fresher-hiring-2026"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "cognizant-q4-2025-earnings",
+      "name": "Cognizant Q4 2025 Earnings Call",
+      "type": "Earnings Call",
+      "url": "https://www.dailypolitical.com/2026/02/05/cognizant-technology-solutions-q4-earnings-call-highlights.html",
+      "sourceDate": "2026-02-05",
+      "collectedDate": "2026-02-07",
+      "notes": "Three-unit AI go-to-market reorganization"
+    },
+    {
+      "id": "cognizant-fresher-hiring-2026",
+      "name": "Cognizant Fresher Hiring 2026 - AI Broader Pyramid Strategy",
+      "type": "Press",
+      "url": "https://www.ciol.com/news/ognizant-fresher-hiring-2026-ai-broader-pyramid-strategy-11081712",
+      "sourceDate": "2026-02-05",
+      "collectedDate": "2026-02-07",
+      "notes": "Broader pyramid workforce strategy — AI enables entry-level workers to do higher-value work"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low. IT services company with modern tech stack. 4,000+ AI practitioners and proprietary BASIS framework suggest contemporary infrastructure."
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": 0.0,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": 0.0
+  },
+
+  "openQuestions": [
+    "How do the three AI units coordinate? What are the handoff mechanisms between market-facing teams and centralized platforms?",
+    "What is the BASIS framework and how does it enable the three-vector strategy?",
+    "How is the 'broader pyramid' workforce strategy actually working — are freshers successfully doing higher-value work?",
+    "What does 'digital labor' mean in practice? How far along are Vectors Two and Three?"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] Cognizant's explicit three-unit AI reorganization is a clean M4 example: centralized platforms + distributed market-facing execution. The named structure (vs. quiet transformation) makes classification straightforward, though evidence is thin on actual coordination mechanisms.",
+    "[2026-02] The 'broader pyramid' workforce strategy is structurally fascinating — using AI not to reduce headcount but to reshape the skill distribution. This inverts the typical 'AI replaces workers' narrative with 'AI enables junior workers to do senior work.' Worth tracking whether this pattern appears elsewhere in IT services.",
+    "[2026-02] The three-vector framing (augment existing → agentic software → digital labor) maps to a temporal progression from exploitation to exploration. If Cognizant cycles between these vectors deliberately, it could shift toward Temporal orientation — but current data suggests parallel structural separation, not cycling."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

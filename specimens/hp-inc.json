@@ -1,0 +1,224 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "hp-inc",
+  "name": "HP Inc.",
+  "title": "Three-Pillar AI Structure with Acqui-Hire Lab, Legacy R&D, and Divisional Embedding",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 5,
+    "secondaryModelName": "Product/Venture Lab",
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "Reclassified from M6/Contextual/Low to M4/Structural/Medium after enrichment revealed three distinct AI pillars: (1) HP IQ — a new AI innovation lab formed from the $116M Humane acquisition (Cosmos AI platform, 300+ patents), operating under President of Technology & Innovation Tuan Tran; (2) HP Labs — HP's longstanding R&D arm under CTO Tolga Kurtoglu covering AI/ML, data science, and emerging tech; (3) Division-level AI embedding in Personal Systems (Ketan Patel) and Imaging/Printing (Anneliese Olson). A company-wide AI program reports directly to the CEO. Decision tree: formal AI unit? YES (HP IQ + HP Labs) → publishes academic research primarily? NO → central AI team? YES → builds or enables? BUILDS (HP IQ) + ENABLES (HP Labs) → M4 Hub-and-Spoke. Guardrail 2 confirms: 3+ semi-autonomous units coordinated by CEO-level program. Secondary M5a for HP IQ specifically (acqui-hire lab building new product capabilities). Structural orientation: HP IQ and HP Labs are ring-fenced from division quarterly cycles with separate leadership and mandates.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Personal Computers & Printers",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Palo Alto, California, USA",
+    "geography": "Global"
+  },
+  "description": "HP Inc. has a far richer AI organizational structure than its initial cost-restructuring framing suggested. Three distinct AI pillars operate under a company-wide AI program that reports directly to the CEO: HP IQ is a new AI innovation lab formed from HP's $116M acquisition of Humane in February 2025, bringing the Cosmos AI platform, 300+ patents, and technical talent (including co-founders Bethany Bongiorno and Imran Chaudhri). HP IQ focuses on building an intelligent ecosystem that orchestrates AI requests locally and in the cloud across PCs, printers, and conference rooms, operating within the Technology and Innovation Organization under President Tuan Tran. HP Labs is HP's longstanding R&D arm, led by CTO Tolga Kurtoglu, covering AI/ML, data science, photonics, quantum computing, cybersecurity, and additive manufacturing. The third pillar is division-level AI embedding, where Personal Systems (President Ketan Patel) and Imaging, Printing & Solutions (President Anneliese Olson) integrate AI into their respective product lines.\n\nThe AI transformation strategy under former CEO Enrique Lores was ambitious: a $1B savings target by FY2028 through 4,000-6,000 headcount reductions, combined with the $116M Humane acquisition and the launch of HP IQ. AI PCs reached 30%+ of shipments in Q4 FY2025, targeting 40-50% in FY2026. The Workforce Experience Platform manages 48M endpoints, 2.4M connected devices, and remediates 12M IT issues monthly, with a 16% productivity improvement from internal AI PC deployment.\n\nHowever, the CEO transition introduces significant structural uncertainty. Lores — who architected the AI transformation plan — stepped down February 3, 2026 to become CEO of PayPal. Bruce Broussard (former Humana CEO, HP board member since 2021) is serving as interim CEO while a search is underway. Whether the three-pillar AI structure and transformation plan survive the leadership transition is the central open question for this specimen.",
+  "observableMarkers": {
+    "reportingStructure": "Company-wide AI program → CEO. HP IQ (Tuan Tran, President Technology & Innovation) → CEO. HP Labs (CTO Tolga Kurtoglu) → CEO or Tuan Tran. Personal Systems (Ketan Patel) → CEO. Imaging/Printing (Anneliese Olson) → CEO. HP Solutions (Manoj Leelanivas) → CEO. Chief Strategy & Transformation Officer (Prakash Arunkundrum) → CEO.",
+    "resourceAllocation": "$116M Humane acquisition (300+ patents, Cosmos AI platform, technical talent). $1B savings target by FY2028. $650M restructuring charges over 3 years ($250M in FY2026). 4,000-6,000 headcount reduction. AI PCs at 30%+ of shipments Q4 FY2025, targeting 40-50% FY2026.",
+    "timeHorizons": "FY2028 savings target (3-year). HP Investor Day April 23, 2026 for full AI plan. AI PC penetration targets through FY2026. HP IQ product development on 1-2 year horizon.",
+    "decisionRights": "CEO-level AI program. Tuan Tran has authority over HP IQ and tech innovation. CTO Kurtoglu leads HP Labs R&D. Division presidents (Patel, Olson, Leelanivas) embed AI in product lines. Chief Strategy Officer Arunkundrum leads enterprise-wide transformation and M&A.",
+    "metrics": "$1B annualized savings target by FY2028. 4,000-6,000 headcount reduction. AI PC penetration 30%+ → 40-50% target. Workforce Experience Platform: 48M endpoints, 2.4M connected devices, 12M IT issues remediated monthly. 16% productivity improvement from internal AI PC deployment."
+  },
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "HP IQ was formed from the Humane acquisition and ring-fenced within the Technology & Innovation Organization under Tuan Tran, separate from the quarterly-cycle product divisions. The $116M investment and dedicated leadership protect this exploratory work from divisional efficiency pressures.",
+      "strength": "Moderate"
+    },
+    {
+      "id": 9,
+      "name": "Hire CAIOs from Consumer Tech",
+      "evidence": "HP acquired Humane — a consumer AI startup founded by former Apple designers Bethany Bongiorno and Imran Chaudhri — to staff HP IQ. This brings consumer product design DNA and the Cosmos AI platform into enterprise hardware. Both co-founders stated HP's 'scale, global reach, and operational excellence will redefine workforce productivity.'",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We have a significant opportunity to embed AI in everything we do and transform the company.",
+      "speaker": "Enrique Lores",
+      "speakerTitle": "Former President & CEO, HP Inc.",
+      "source": "HP Q4 FY2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2025/11/25/hp-hpq-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "date": "2025-11-25"
+    },
+    {
+      "text": "This investment will rapidly accelerate our ability to develop a new generation of devices that seamlessly orchestrate AI requests both locally and in the cloud.",
+      "speaker": "Tuan Tran",
+      "speakerTitle": "President, Technology and Innovation, HP Inc.",
+      "source": "HP IQ / Humane acquisition announcement",
+      "sourceUrl": "https://www.stocktitan.net/news/HPQ/hp-accelerates-ai-software-investments-to-transform-the-future-of-lnzdir0viebk.html",
+      "timestamp": null,
+      "date": "2025-02-18"
+    },
+    {
+      "text": "Doing AI locally on an AI PC is virtually free and virtually unlimited.",
+      "speaker": "Alex Thatcher",
+      "speakerTitle": "Senior Director of AI PC Experiences, HP Inc.",
+      "source": "Deloitte Insights",
+      "sourceUrl": "https://www.deloitte.com/us/en/insights/focus/tech-trends/2025/hp-transforms-work-with-ai-personal-computers.html",
+      "timestamp": null,
+      "date": "2025"
+    },
+    {
+      "text": "HP is translating AI into meaningful experiences that drive growth and fulfillment.",
+      "speaker": "Enrique Lores",
+      "speakerTitle": "Former President & CEO, HP Inc.",
+      "source": "HP Amplify 2025 Event",
+      "sourceUrl": "https://creativestrategies.com/hp-amplify-2025-ai-powered-productivity-takes-center-stage/",
+      "timestamp": null,
+      "date": "2025-03"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Three-pillar AI structure revealed: HP IQ, HP Labs, divisional AI embedding",
+      "summary": "Enrichment reveals rich three-pillar AI structure: (1) HP IQ innovation lab from $116M Humane acquisition (Cosmos AI platform, 300+ patents, under Tuan Tran); (2) HP Labs longstanding R&D arm (CTO Kurtoglu, AI/ML + emerging tech); (3) divisional AI embedding (Personal Systems, Imaging/Printing, HP Solutions). Company-wide AI program reports to CEO. 12 key leaders identified. CEO Lores departed Feb 3, 2026 for PayPal; Broussard interim CEO. AI PCs at 30%+ of shipments. $1B savings target + $116M acquisition = simultaneous cost-cutting and investment. Reclassified from M6/Contextual/Low to M4/Structural/Medium.",
+      "classification": "M4 Hub-and-Spoke + M5a (secondary)",
+      "sourceRefs": [
+        "hp-inc-q4-fy2025-earnings",
+        "hp-inc-humane-acquisition-2025",
+        "hp-inc-ces-2025",
+        "hp-inc-executive-team-page",
+        "hp-inc-deloitte-ai-pc-2025",
+        "hp-inc-amplify-2025",
+        "hp-inc-ceo-transition-2026",
+        "hp-inc-cfodive-restructuring"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "AI Productivity Restructuring Announced",
+      "summary": "HP Inc. announced workforce reduction of 4,000-6,000 employees tied to AI productivity initiative, targeting $1B savings by FY2028. No formal AI organizational structure identified.",
+      "classification": "M6 Unnamed/Informal (original — insufficient data)",
+      "sourceRefs": [
+        "hp-inc-cbs-2026-02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "hp-inc-cbs-2026-02",
+      "type": "Press",
+      "name": "CBS News - AI Layoffs 2026",
+      "url": "https://cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "sourceDate": "2026-02-05",
+      "collectedDate": "2026-02-07"
+    },
+    {
+      "id": "hp-inc-q4-fy2025-earnings",
+      "type": "Earnings Call",
+      "name": "HP Q4 FY2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2025/11/25/hp-hpq-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2025-11-25",
+      "collectedDate": "2026-02-10"
+    },
+    {
+      "id": "hp-inc-humane-acquisition-2025",
+      "type": "Press Release",
+      "name": "HP Acquires Humane AI Platform, Launches HP IQ",
+      "url": "https://www.stocktitan.net/news/HPQ/hp-accelerates-ai-software-investments-to-transform-the-future-of-lnzdir0viebk.html",
+      "sourceDate": "2025-02-18",
+      "collectedDate": "2026-02-10"
+    },
+    {
+      "id": "hp-inc-ces-2025",
+      "type": "Press Release",
+      "name": "HP CES 2025 Press Release - AI-Powered Experiences",
+      "url": "https://www.hp.com/us-en/newsroom/press-releases/2025/future-of-work.html",
+      "sourceDate": "2025-01-06",
+      "collectedDate": "2026-02-10"
+    },
+    {
+      "id": "hp-inc-executive-team-page",
+      "type": "Other",
+      "name": "HP Inc. Executive Team (Official)",
+      "url": "https://www.hp.com/us-en/hp-information/executive-team/team.html",
+      "sourceDate": "2026-02-10",
+      "collectedDate": "2026-02-10"
+    },
+    {
+      "id": "hp-inc-deloitte-ai-pc-2025",
+      "type": "Report",
+      "name": "Deloitte Insights: HP Transforms Work with AI PCs",
+      "url": "https://www.deloitte.com/us/en/insights/focus/tech-trends/2025/hp-transforms-work-with-ai-personal-computers.html",
+      "sourceDate": "2025-01-01",
+      "collectedDate": "2026-02-10"
+    },
+    {
+      "id": "hp-inc-amplify-2025",
+      "type": "Report",
+      "name": "Creative Strategies: HP Amplify 2025 AI-Powered Productivity",
+      "url": "https://creativestrategies.com/hp-amplify-2025-ai-powered-productivity-takes-center-stage/",
+      "sourceDate": "2025-03-01",
+      "collectedDate": "2026-02-10"
+    },
+    {
+      "id": "hp-inc-ceo-transition-2026",
+      "type": "Press Release",
+      "name": "HP Inc. Announces Leadership Transition",
+      "url": "https://www.hp.com/us-en/newsroom/press-releases/2026/hp-inc-announces-hp-leadership-transition.html",
+      "sourceDate": "2026-02-03",
+      "collectedDate": "2026-02-10"
+    },
+    {
+      "id": "hp-inc-cfodive-restructuring",
+      "type": "Press",
+      "name": "CFO Dive: HP cites AI in push to slash up to 6,000 jobs",
+      "url": "https://www.cfodive.com/news/hp-cites-ai-push-slash-6000-jobs-2028/806595/",
+      "sourceDate": "2025-11-26",
+      "collectedDate": "2026-02-10"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Short",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.3,
+    "speedVsDepth": 0.2,
+    "centralVsDistributed": -0.1,
+    "namedVsQuiet": -0.4,
+    "longVsShortHorizon": 0.1
+  },
+  "openQuestions": [
+    "Will the three-pillar AI structure survive the CEO transition from Lores to permanent successor?",
+    "What is the specific product roadmap for HP IQ's Cosmos AI platform — what does 'orchestrating AI requests locally and in the cloud' look like as shipped product?",
+    "How does the relationship between HP IQ (new acqui-hire lab) and HP Labs (longstanding R&D) work — are they collaborative or parallel?",
+    "What happens at the April 23, 2026 Investor Day — will interim CEO Broussard confirm or revise Lores' AI transformation plan?",
+    "How is the Humane team (consumer AI DNA) integrating with HP's enterprise hardware culture?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] HP Inc. dramatically illustrates why initial M6 classifications should be treated as provisional. One press article about layoffs yielded M6/Low; enrichment with 8 sources revealed M4 with three named AI pillars, 12 key leaders, and a $116M acquisition. The lesson: workforce reduction announcements are poor signals of organizational structure.",
+    "[2026-02] The CEO departure creates a natural experiment: will the AI structure Lores built persist under new leadership? This is relevant to the broader question of whether AI organizational structures are leader-dependent or institutionally embedded. The interim CEO (Broussard, former Humana CEO) comes from healthcare, not tech.",
+    "[2026-02] The simultaneous cost-cutting ($1B savings, 4-6K headcount reduction) and investment ($116M Humane acquisition, HP IQ lab) creates an unusual structural tension: the company is shrinking its legacy workforce while building a new AI capability. This is structural ambidexterity in action — the exploration investment is protected from the execution cost-cutting.",
+    "[2026-02] The acqui-hire-to-lab pipeline (Humane → HP IQ) is a variant of Mechanism #9 but at the team level rather than individual level. Compare to Thomson Reuters (ThoughtTrace → TR Labs → CTO). Both companies are using acquisitions to populate their exploration function with external talent.",
+    "[2026-02-12 M4 Audit] M4 classification under review (Audit 2026-02-12). Three-pillar AI structure (HP IQ lab, HP Labs, divisional embedding) could be genuine M4 or M1+M3. Needs enrichment to determine whether the lab functions as a hub coordinating shared infrastructure or as an independent research unit."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

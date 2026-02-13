@@ -1,0 +1,102 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "chegg",
+  "name": "Chegg",
+  "title": "AI Disruption Victim: Dramatic Workforce Reduction",
+
+  "classification": {
+    "structuralModel": null,
+    "structuralModelName": null,
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": null,
+    "orientationName": null,
+    "confidence": "Low",
+    "classificationRationale": "Insufficient data to classify AI organizational structure. The available data documents Chegg as a company disrupted BY AI (losing business to AI-powered alternatives) rather than one implementing AI internally. The 45% workforce reduction was a defensive response to AI competition, not evidence of how they structure AI work. No information available about internal AI teams, reporting structures, or transformation initiatives.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Education Technology",
+    "sector": "EdTech",
+    "orgSize": "Mid-market",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Santa Clara, California",
+    "geography": "North America"
+  },
+
+  "description": "Chegg represents a cautionary case of AI disruption rather than AI transformation. The education technology company, known for homework help and textbook rentals, has been severely impacted by generative AI tools like ChatGPT that can perform similar tutoring and homework assistance functions.\n\nIn October 2025, Chegg cut 45% of its workforce, explicitly citing the 'new realities of AI' alongside reduced Google traffic as the primary drivers. This represents one of the most dramatic AI-attributed workforce reductions in percentage terms among public companies. The layoffs signal a company in defensive retreat rather than offensive transformation.\n\nThe available data does not reveal how Chegg has structured any internal AI initiatives or whether they have an AI team, lab, or transformation strategy. This specimen documents the disruptive impact of AI on incumbent business models rather than organizational approaches to AI adoption.",
+
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": "Massive workforce reduction (45%) suggests defensive cost-cutting rather than AI investment reallocation",
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "AI Disruption Response",
+      "summary": "Chegg cuts 45% of workforce in October 2025, citing 'new realities of AI' and reduced Google traffic. One of the most dramatic AI-attributed workforce reductions in percentage terms.",
+      "sourceRefs": ["chegg-layoffs-2025-10"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "chegg-layoffs-2025-10",
+      "name": "Chegg cuts 45% of workforce citing 'new realities of AI'",
+      "type": "Press",
+      "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "sourceDate": "2025-10",
+      "collectedDate": "2026-02-07"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [
+    "Does Chegg have any internal AI team or transformation initiative?",
+    "What AI capabilities, if any, has Chegg developed to compete with ChatGPT and other AI tutoring tools?",
+    "Is there a strategic pivot underway, or is this purely defensive cost-cutting?",
+    "How does Chegg's board and leadership view the path forward in an AI-dominated education assistance market?"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] Chegg exposes a gap in our taxonomy: we classify HOW organizations structure AI work, but not organizations being disrupted BY AI without a clear transformation response. This specimen currently has no structural model because the data shows disruption impact, not organizational adaptation.",
+    "[2026-02] This case is structurally interesting as a 'negative specimen' — it documents what happens when AI disrupts a core business model and the organization's response is workforce reduction rather than structural transformation. Contrast with companies that responded to AI disruption by building M2 or M4 structures.",
+    "[2026-02] The 45% workforce cut is among the most dramatic AI-attributed reductions we've documented. Future research should track whether Chegg subsequently develops any AI transformation strategy or continues defensive contraction. May warrant reclassification if transformation data emerges."
+  ],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Low",
+    "convertedFrom": "general-sweep-feb-2026-v2.json"
+  }
+}

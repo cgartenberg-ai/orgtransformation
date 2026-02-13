@@ -1,0 +1,145 @@
+{
+  "company": "Honda",
+  "ticker": "HMC",
+  "leader": "Toshihiro Mibe",
+  "leaderTitle": "President and CEO",
+  "sector": "Automotive",
+  "quadrant": "Q2",
+  "scannedDate": "2026-02-09",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.ciodive.com/news/American-Honda-AI-governance-data-quality-adoption/746794/ - returned mostly tracking code, no article content",
+    "https://usa.honda-ri.com/ - returned mostly HTML/JS structure, no substantive content",
+    "https://global.honda/en/RandD/hgrx/ - JavaScript redirect only"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Honda operates a classic Hybrid/Hub-and-Spoke model with multiple distinct AI/research centers (Honda Research Institute USA, HRI Japan, HRI Europe, Honda R&D Innovation Lab Tokyo) that maintain regional specialization while sharing a global project management matrix. The Honda Research Institutes focus on fundamental AI research (autonomous driving, machine learning, robotics, quantum computing) while American Honda's IT organization under Bob Brizendine handles enterprise AI adoption (Copilot, generative AI for productivity). Additionally, the Sony Honda Mobility joint venture (AFEELA) represents a separate AI-focused venture structure. This multi-tiered approach — research institutes for exploration, IT for enterprise adoption, and JV for product-focused AI — is distinctly Structural in orientation with clear separation of units.",
+    "aiTeamStructure": "Multi-layered structure: (1) Honda Research Institutes (HRI) — global network with locations in USA (Silicon Valley, new Ohio lab opening Q4 2025), Japan, and Europe, focused on fundamental research in AI, robotics, autonomous vehicles, quantum computing; (2) Honda R&D Innovation Lab Tokyo (Akasaka Biz Tower) — product development for AI applications, part of R&D Center X focused on robotics, mobility services, AI, and energy; (3) American Honda IT — enterprise AI adoption led by SVP IT Bob Brizendine with CDO Arun Yarlagadda, handling generative AI governance and deployment; (4) Sony Honda Mobility (AFEELA JV) — dedicated to AI-powered mobility and software-defined vehicles; (5) Honda CI (Cooperative Intelligence) research — original Honda AI for human-machine understanding, with IIT Delhi/Bombay partnership.",
+    "keyPeople": [
+      {"name": "Toshihiro Mibe", "title": "President and CEO", "role": "Global CEO, sets AI vision at Japan Mobility Show speeches"},
+      {"name": "Bob Brizendine", "title": "SVP of IT, American Honda / Deputy Head Digital Unit", "role": "Leads enterprise generative AI strategy and governance for American Honda"},
+      {"name": "Arun Yarlagadda", "title": "Deputy GM Global Services & Data Platform / North American CDO", "role": "Chief Data Officer overseeing data foundation for AI"},
+      {"name": "Atsushi Ogawa", "title": "Managing Officer, Honda R&D", "role": "Leads Honda CI research partnerships with IIT Delhi/Bombay"}
+    ],
+    "investmentSignals": "No specific AI budget or headcount disclosed. Key investment signals: (1) New HRI lab opening at Ohio State University SciTech Campus Q4 2025 focused on quantum, nanotech, hydrogen, EV batteries; (2) Multi-year workforce training program on AI spanning executives through developers; (3) Partnership with Microsoft for Copilot/ChatGPT Enterprise across O365 users; (4) Sony Honda Mobility JV targeting AFEELA 1 deliveries in California late 2026, funded by both Sony and Honda. FY2026 guidance shows overall company operating profit target of ¥700 billion but AI-specific allocation not broken out.",
+    "observableMarkers": {
+      "reportingStructure": "AI research (HRI) reports through R&D organization. Enterprise AI at American Honda reports through IT (Bob Brizendine as SVP). No dedicated CAIO role identified — CDO (Yarlagadda) elevated to same level as CISO/CPO. Sony Honda Mobility is separate JV.",
+      "resourceAllocation": "Research labs appear to have ring-fenced R&D budgets. Enterprise AI uses vendor partnerships (Microsoft, ServiceNow, Salesforce, GitHub). HRI expansion to Ohio suggests continued R&D investment. AFEELA has dedicated JV capital structure.",
+      "timeHorizons": "Mixed: HRI focuses on long-term research (quantum, autonomous driving, robotics). Enterprise AI has near-term productivity focus. Honda CI proof-of-concept underway in Joso City. AFEELA targeting 2026-2028 production vehicles.",
+      "decisionRights": "Distributed across units. American Honda IT has autonomy over enterprise AI governance. HRI has research autonomy. Sony Honda Mobility has JV governance structure.",
+      "metrics": "Enterprise AI: workforce training completion, governance compliance, tool adoption. Research: not disclosed but likely publication/patent-focused. AFEELA: vehicle deliveries and customer adoption metrics."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "The biggest challenge we have is keeping up with the speed of change.",
+      "speaker": "Bob Brizendine",
+      "speakerTitle": "SVP of IT, American Honda",
+      "source": "CIO.com",
+      "sourceUrl": "https://www.cio.com/article/1309096/american-honda-it-to-fuel-innovation-with-generative-ai.html",
+      "sourceDate": "2024",
+      "context": "Discussing the challenge of organizational agility for generative AI adoption"
+    },
+    {
+      "text": "At Honda, we began using generative AI to support our designers' ability to demonstrate their creativity.",
+      "speaker": "Toshihiro Mibe",
+      "speakerTitle": "President and CEO",
+      "source": "Asia Manufacturing Review",
+      "sourceUrl": "https://www.asiamanufacturingreview.com/news/automaker-honda-staking-on-autonomous-driving-and-generative-ai-nwid-607.html",
+      "sourceDate": "2023",
+      "context": "Japan Mobility Show keynote on generative AI applications"
+    },
+    {
+      "text": "Generative AI will generate design drawings of future mobility.",
+      "speaker": "Toshihiro Mibe",
+      "speakerTitle": "President and CEO",
+      "source": "Asia Manufacturing Review",
+      "sourceUrl": "https://www.asiamanufacturingreview.com/news/automaker-honda-staking-on-autonomous-driving-and-generative-ai-nwid-607.html",
+      "sourceDate": "2023",
+      "context": "Japan Mobility Show on future AI applications in design"
+    },
+    {
+      "text": "The mobility products and services that embody Honda's dreams will enable people to transcend various constraints such as time and place and to augment their abilities and possibilities.",
+      "speaker": "Toshihiro Mibe",
+      "speakerTitle": "President and CEO",
+      "source": "Asia Manufacturing Review",
+      "sourceUrl": "https://www.asiamanufacturingreview.com/news/automaker-honda-staking-on-autonomous-driving-and-generative-ai-nwid-607.html",
+      "sourceDate": "2023",
+      "context": "Vision statement at Japan Mobility Show"
+    },
+    {
+      "text": "What kind of dreams do you have? To fly in the skies, to travel freely across the sea—Honda is a company that has always taken such 'Dreams' seriously and brought them to life.",
+      "speaker": "Toshihiro Mibe",
+      "speakerTitle": "President and CEO",
+      "source": "Honda Global Newsroom",
+      "sourceUrl": "https://global.honda/en/newsroom/news/2025/c251029eng.html",
+      "sourceDate": "2025-10-29",
+      "context": "Opening of Japan Mobility Show 2025 speech"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "American Honda IT to fuel innovation with generative AI",
+      "url": "https://www.cio.com/article/1309096/american-honda-it-to-fuel-innovation-with-generative-ai.html",
+      "type": "Press",
+      "date": "2024",
+      "notes": "Detailed 5-part generative AI strategy from Bob Brizendine. Covers Microsoft Copilot deployment, domain-specific environments, human-in-loop philosophy, vendor partnerships."
+    },
+    {
+      "name": "Honda Begins Joint Research on AI Technologies with IIT Delhi and Bombay",
+      "url": "https://global.honda/en/topics/2024/ct_2024-09-11eng.html",
+      "type": "Blog",
+      "date": "2024-09-11",
+      "notes": "Details on Honda CI (Cooperative Intelligence) research, IIT partnership structure, key executives involved including Atsushi Ogawa."
+    },
+    {
+      "name": "Automaker Honda Staking on Autonomous Driving and Generative AI",
+      "url": "https://www.asiamanufacturingreview.com/news/automaker-honda-staking-on-autonomous-driving-and-generative-ai-nwid-607.html",
+      "type": "Press",
+      "date": "2023",
+      "notes": "Mibe quotes on generative AI for design, broader mobility vision. Japan Mobility Show context."
+    },
+    {
+      "name": "Sony Honda Mobility World-Premieres AFEELA Prototype 2026 at CES 2026",
+      "url": "https://www.shm-afeela.com/en/news/2026-01-06/",
+      "type": "Conference",
+      "date": "2026-01-06",
+      "notes": "CES 2026 AFEELA announcement. Details on AI personal agent using Microsoft Azure OpenAI, Qualcomm Snapdragon Digital Chassis partnership."
+    },
+    {
+      "name": "Global Network Honda Research Institutes",
+      "url": "https://www.honda-ri.global/",
+      "type": "Blog",
+      "date": "2026",
+      "notes": "Overview of HRI global structure — Japan, Europe, USA locations with global project management matrix."
+    },
+    {
+      "name": "Overview of Honda CEO Speech at Japan Mobility Show 2025",
+      "url": "https://global.honda/en/newsroom/news/2025/c251029eng.html",
+      "type": "Conference",
+      "date": "2025-10-29",
+      "notes": "Mibe's Japan Mobility Show 2025 speech. Honda 0 α prototype, Super-ONE EV debut."
+    }
+  ],
+
+  "summary": "Honda operates a Hybrid/Hub-and-Spoke model with multiple distinct AI structures: (1) Honda Research Institutes (HRI) — a global network of fundamental AI research labs in USA, Japan, and Europe focusing on autonomous driving, robotics, machine learning, and quantum computing; (2) American Honda's IT organization handling enterprise generative AI adoption with a 5-part strategy emphasizing governance, domain-specific applications, and human-in-the-loop design; (3) The Sony Honda Mobility joint venture developing AI-powered AFEELA vehicles with integrated conversational AI agents. This structural separation allows exploration in research labs while enterprise IT focuses on near-term productivity gains and the JV pursues AI-native product development.",
+
+  "openQuestions": [
+    "What is the total AI/ML headcount across all Honda Research Institutes globally?",
+    "What portion of Honda's ~$8B annual R&D spend is allocated to AI specifically?",
+    "How do the HRI labs coordinate with American Honda's enterprise AI initiatives?",
+    "What is the governance relationship between Honda Motor and Honda Research Institutes?",
+    "Is there a central AI strategy committee or CAIO-equivalent at the Honda Motor corporate level in Japan?",
+    "What are the specific metrics Honda uses to evaluate Honda CI research progress?"
+  ],
+
+  "conferenceFindings": "At CES 2026, Sony Honda Mobility (the Honda-Sony JV) world-premiered the AFEELA Prototype 2026 and announced AFEELA 1 deliveries in California for late 2026. The AFEELA Personal Agent leverages Microsoft Azure OpenAI Service for conversational AI. SHM positions vehicles as 'Creative Entertainment Spaces' powered by vehicle AI that understands user preferences and emotions. Partnership with Qualcomm for Snapdragon Digital Chassis automotive computing platform. This represents Honda's AI-native product venture for next-generation mobility, separate from core Honda R&D. Note: The domain-specific automotive LLM mentioned in target context was not explicitly found — AFEELA uses Microsoft Azure OpenAI rather than a Honda-developed LLM."
+}

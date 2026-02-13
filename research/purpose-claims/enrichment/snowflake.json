@@ -1,0 +1,23 @@
+{
+  "specimenId": "snowflake",
+  "scannedDate": "2026-02-09",
+  "quality": "rich",
+  "claimCount": 12,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 2,
+    "higher-calling": 0,
+    "identity": 5,
+    "survival": 1,
+    "commercial-success": 3
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

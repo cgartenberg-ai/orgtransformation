@@ -2,10 +2,9 @@
   "id": "google-ai-infra",
   "name": "Google (AI & Infrastructure)",
   "title": "Project EAT — AI Infrastructure Consolidation",
-
   "classification": {
-    "structuralModel": 4,
-    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "structuralModel": 3,
+    "structuralModelName": "Embedded Teams",
     "subType": null,
     "subTypeName": null,
     "secondaryModel": null,
@@ -13,10 +12,9 @@
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Low",
-    "classificationRationale": "Consolidation of previously separate teams (Google Research, Cloud, hardware) into single 'AI and Infrastructure' (AI2) unit under Amin Vahdat. Hub-and-spoke: AI2 as central hub consolidating chip development, AI infrastructure, and developer tools. Low confidence — based on leaked memo, limited detail on actual org structure.",
+    "classificationRationale": "M4→M3 (Audit 2026-02-12). AI2 (Project EAT consolidation) is an engineering unit that builds AI infrastructure, not a hub that coordinates distributed spokes. The consolidation pulled teams FROM Research, Cloud, and hardware INTO a single engineering org. This is embedded engineering, not hub-spoke.",
     "typeSpecimen": false
   },
-
   "habitat": {
     "industry": "Technology",
     "sector": "Cloud/AI Infrastructure",
@@ -26,9 +24,7 @@
     "headquarters": "Mountain View, CA",
     "geography": "Global"
   },
-
   "description": "Project EAT is a comprehensive reorganization of Google's AI infrastructure, chip development, and developer tools inside the 'AI and Infrastructure' (AI2) unit. Led by Amin Vahdat, the project consolidates teams from Google Research, Cloud, and hardware divisions. Goals include competitive TPUs, consolidated AI teams, and a wholesale rethinking of Google's AI technology stack. Leaked memo dated Jan 30, 2026. Note: This specimen covers Google's AI infrastructure organization, separate from DeepMind and Google X specimens.",
-
   "observableMarkers": {
     "reportingStructure": "AI2 unit led by Amin Vahdat. Consolidates teams from Google Research, Cloud, and hardware.",
     "resourceAllocation": null,
@@ -36,21 +32,29 @@
     "decisionRights": null,
     "metrics": null
   },
-
   "mechanisms": [],
-
   "quotes": [],
-
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke → M3 Embedded Teams",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M3 Embedded Teams. AI2 consolidation created a unified engineering unit, not a hub coordinating spokes.",
+      "classification": "M4 Hybrid/Hub-and-Spoke",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
     {
       "date": "2026-01",
       "label": "Project EAT Leaked",
       "summary": "Leaked memo reveals Project EAT: comprehensive reorganization of AI infrastructure, chip development, and developer tools inside AI2 unit under Amin Vahdat. Consolidates teams from Google Research, Cloud, and hardware. Described as 'wholesale rethinking of Google's AI technology stack.'",
       "classification": null,
-      "sourceRefs": ["webpronews-2026-01", "linkedin-bi-2026-01"]
+      "sourceRefs": [
+        "webpronews-2026-01",
+        "linkedin-bi-2026-01"
+      ]
     }
   ],
-
   "sources": [
     {
       "id": "webpronews-2026-01",
@@ -73,7 +77,6 @@
       "notes": null
     }
   ],
-
   "contingencies": {
     "regulatoryIntensity": null,
     "timeToObsolescence": null,
@@ -81,7 +84,6 @@
     "talentMarketPosition": null,
     "technicalDebt": null
   },
-
   "tensionPositions": {
     "structuralVsContextual": -0.6,
     "speedVsDepth": null,
@@ -89,20 +91,22 @@
     "namedVsQuiet": -0.8,
     "longVsShortHorizon": null
   },
-
   "openQuestions": [
     "How does AI2 relate to DeepMind organizationally? Are there overlapping mandates?",
     "What specific teams were consolidated and what was the previous reporting structure?",
     "How does Project EAT affect Google Cloud's AI offerings vs. internal infrastructure?",
     "What is the TPU competitiveness timeline vs. NVIDIA?"
   ],
-
-  "taxonomyFeedback": [],
-
+  "taxonomyFeedback": [
+    "[2026-02] This specimen reveals an unusual M4 variant driven by infrastructure economics rather than product needs. Most M4 hub-and-spoke models organize around product lines or business units, but AI2 consolidates based on stack layers (chips → infrastructure → developer tools). The consolidation crosses the research/product boundary—pulling teams from Google Research into an infrastructure unit—which suggests Google is treating AI infrastructure as a first-class product outcome, not just internal capability. This blurs the typical M1/M4 boundary where research feeds product development.",
+    "[2026-02] The tension positions (-0.7 central, -0.8 named) reveal a structural paradox: Project EAT is aggressively centralizing (consolidating previously distributed teams) while maintaining low visibility externally. This differs from Meta's M6b centralized-but-unnamed FAIR reorganization, where the quiet transformation preserved distributed execution. Google appears to be using opacity strategically—centralizing control over AI infrastructure without triggering organizational resistance or competitive signaling. The leaked memo format (versus official announcement) may itself be a coordination mechanism.",
+    "[2026-02] The specimen's relationship to DeepMind (flagged in openQuestions) points to a potential multi-hub structure that the taxonomy doesn't cleanly capture. If AI2 handles infrastructure/tools and DeepMind handles frontier research, Google may be running parallel M4 systems with different time horizons—one optimizing for deployment speed (AI2), one for breakthrough depth (DeepMind). This would represent a structural hedge against the speedVsDepth tension rather than a forced choice, though the coordination costs between hubs could be substantial. Worth tracking whether specimens show hub proliferation as organizations scale AI investment.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M3. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — AI2 consolidation created a unified engineering unit, not a hub coordinating spokes."
+  ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-12",
     "completeness": "Low",
     "convertedFrom": null
   }

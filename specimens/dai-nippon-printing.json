@@ -100,7 +100,11 @@
     "What organizational structure (if any) coordinated the ChatGPT Enterprise deployment? Was there a central team or did divisions self-organize?",
     "Has DNP expanded beyond the initial ICT R&D use cases? What does the current AI footprint look like?"
   ],
-  "taxonomyFeedback": [],
+  "taxonomyFeedback": [
+    "[2026-02] DNP demonstrates an unusual M3 variant where embedded deployment achieves structural depth without structural formality. Most M3 specimens show AI teams embedded in product development with quarterly cadences; DNP embedded AI into knowledge-intensive back-office work (patent research, data architecture) with immediate, measurable productivity gains. This challenges the assumption that M3 is primarily a product-development pattern—it can also be a knowledge-work automation pattern where existing expertise domains (ICT R&D, data architecture) adopt AI tools to compress search and synthesis tasks.",
+    "[2026-02] The 90-day timeline and 90% success rate is structurally interesting because it suggests a selection mechanism operating upstream: DNP appears to have pre-filtered deployment opportunities for high task decomposability and clear measurability before embedding AI. This is not the 'deploy broadly and see what sticks' pattern (which would be M6a or weak M2); it's a targeted embedding strategy that trades breadth for depth. The economic logic: minimize coordination costs by avoiding cross-functional AI governance, maximize ROI by selecting tasks where AI can substitute for expensive search labor (patent research) or compress iteration cycles (data architecture).",
+    "[2026-02] The patent research application reveals a structurally distinctive pattern: AI used to expand search scope (10x coverage) rather than just accelerate existing workflows. This is not pure automation (replacing human labor on fixed tasks) but augmentation that changes the production function—more comprehensive prior art searches may shift patent filing strategy, competitive positioning, or even R&D portfolio decisions. Most M3 specimens focus on feature velocity or customer-facing AI; DNP's focus on knowledge infrastructure work (patents, data architecture) suggests a different embedded teams archetype that warrants taxonomic attention."
+  ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",

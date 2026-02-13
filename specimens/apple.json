@@ -1,0 +1,241 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "apple",
+  "name": "Apple",
+  "title": "Functional AI Distribution Under Central Research Coordination",
+  "classification": {
+    "structuralModel": 3,
+    "structuralModelName": "Embedded Teams",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "M4→M3 (Audit 2026-02-12). Apple's AI/ML is deeply embedded in product groups (Siri, Apple Intelligence, hardware ML). No evidence of a coordinating hub that provides shared AI infrastructure other product teams build upon. Apple's organizational secrecy makes structural data thin, but what we can observe is product-embedded AI, not hub-spoke.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Big Tech",
+    "orgSize": "Enterprise",
+    "employees": "~160,000",
+    "revenue": "$383B (FY2024)",
+    "headquarters": "Cupertino, California",
+    "geography": "Global (US, Zurich, Shenzhen research labs)"
+  },
+  "description": "Apple is restructuring its AI organization from a centralized model under former SVP John Giannandrea to a hybrid hub-and-spoke model aligned with the company's traditional functional structure. The new VP of AI, Amar Subramanya (hired from Microsoft/Google), reports to Craig Federighi and provides central coordination for ML research, AI safety, and evaluation across device, edge, and cloud environments. This 'hub' sets standards while execution is distributed across functional 'spokes' — Foundation Models and Siri under Federighi, robotics under hardware, services AI under Eddy Cue, and operations AI under Sabih Khan.\n\nInvestment signals are massive: $500B+ committed to US operations including AI-focused R&D and server infrastructure, custom AI chips in development (including 'Baltra' server processor), a dedicated AI server farm in Houston, and 12,000 hires in the past year with 40% in R&D 'many focused on AI.' Tim Cook has positioned AI as a 'once-in-a-generation shift' and stated Apple will 'spend what it takes to compete' — even signaling openness to acquisitions, a notable departure from Apple's traditional build-over-buy approach.\n\nThe structural reorganization reflects both opportunity and catch-up pressure. Craig Federighi acknowledged that a hybrid approach to Siri 'wasn't going to get us to Apple quality,' leading to a ground-up rebuild under Mike Rockwell. Apple maintains research presence through the Zurich Vision Lab (which has hired 36+ former Google AI researchers since 2018) and a new 20,000 square meter Shenzhen facility. Partnerships with Google on Foundation Models and OpenAI for ChatGPT integration in Siri supplement in-house capabilities.",
+  "observableMarkers": {
+    "reportingStructure": "AI VP (Subramanya) reports to Craig Federighi (Software SVP), not directly to CEO [apple-cook-push-2025]. This is a shift from Giannandrea's SVP-level reporting. AI work distributed across multiple SVPs (Federighi, Khan, Cue, hardware chief, Vision Pro) [apple-cook-push-2025].",
+    "resourceAllocation": "Dedicated and growing: $500B US operations investment, AI server farm, custom AI chips [apple-q1-fy2026-earnings]. R&D spend at record levels. Hiring heavily weighted toward AI (40% of new hires) [apple-cook-push-2025]. Ring-fenced major projects: Siri overhaul, Apple Foundation Models, Apple Intelligence [apple-cook-push-2025].",
+    "timeHorizons": "Mixed: Siri overhaul targeting Spring 2026 (12-18 month horizon) [apple-cook-push-2025]. Apple Intelligence rolling out 2025-2026 [apple-q1-fy2026-earnings]. Long-term research through Zurich Vision Lab and ML research publications [apple-zurich-lab-2024]. Cook frames AI as 'once-in-a-generation shift' — long-term strategic priority [apple-wwdc-2024].",
+    "decisionRights": "Historically centralized under Giannandrea; now distributed across functional leaders (Federighi, Khan, Cue, hardware) [apple-cook-push-2025]. Amar Subramanya provides central coordination for ML research and AI safety/evaluation [apple-cook-push-2025]. Product decisions likely with product leaders.",
+    "metrics": "Consumer adoption of Apple Intelligence features [apple-q1-fy2026-earnings]. iPhone upgrade cycles (FY2026 driven by iPhone 17 'AI supercycle') [apple-q1-fy2026-earnings]. Services revenue growth (14-15% YoY) [apple-q1-fy2026-earnings]. Device differentiation through on-device AI [apple-wired-2024]. Privacy and quality benchmarks — Cook and Federighi emphasize 'Apple quality' standards [apple-cook-push-2025]."
+  },
+  "mechanisms": [
+    {
+      "id": 6,
+      "name": "Merge Competing AI Teams Under Single Leader",
+      "evidence": "Apple consolidated its AI organization under Amar Subramanya for central coordination after Giannandrea's departure. While not merging 'competing' teams per se, the restructuring brought ML research, AI safety, and evaluation under unified leadership while distributing execution to functional heads.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We see AI as one of the most profound technologies of our lifetime. We are embedding it across our devices and platforms and across the company. We are also significantly growing our investments.",
+      "speaker": "Tim Cook",
+      "speakerTitle": "CEO",
+      "source": "Apple Q3 FY2025 Earnings Call",
+      "sourceUrl": "https://www.webpronews.com/apples-hidden-arsenal-tim-cook-signals-unprecedented-product-innovations-beyond-ai-for-2025/",
+      "sourceDate": "2025",
+      "context": "Earnings call discussing AI investments"
+    },
+    {
+      "text": "Apple must do this. Apple will do this. This is sort of ours to grab. We will make the investment to do it.",
+      "speaker": "Tim Cook",
+      "speakerTitle": "CEO",
+      "source": "Apple All-Hands Meeting (Cupertino)",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/inside-tim-cook-push-to-get-apple-back-in-the-ai-race/",
+      "sourceDate": "2025-08",
+      "context": "All-company gathering rallying around AI priority"
+    },
+    {
+      "text": "Apple has often shown up late to new technology—only to redefine it.",
+      "speaker": "Tim Cook",
+      "speakerTitle": "CEO",
+      "source": "Apple All-Hands Meeting",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/inside-tim-cook-push-to-get-apple-back-in-the-ai-race/",
+      "sourceDate": "2025-08",
+      "context": "Referencing Mac, iPhone, iPad as examples of Apple entering markets late but redefining them"
+    },
+    {
+      "text": "AI will reinvent and provide a new era and a new chapter for iPhone and iPad and the Mac and all of our products over time.",
+      "speaker": "Tim Cook",
+      "speakerTitle": "CEO",
+      "source": "WIRED Interview",
+      "sourceUrl": "https://www.macrumors.com/2024/12/04/apple-ceo-tim-cook-opens-up-in-new-interview/",
+      "sourceDate": "2024-12",
+      "context": "Interview discussing AI's impact on Apple products"
+    },
+    {
+      "text": "There is no project people are taking more seriously.",
+      "speaker": "Craig Federighi",
+      "speakerTitle": "SVP Software Engineering",
+      "source": "Inside Tim Cook's Push article",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/inside-tim-cook-push-to-get-apple-back-in-the-ai-race/",
+      "sourceDate": "2025",
+      "context": "Discussing the Siri overhaul project"
+    },
+    {
+      "text": "[The hybrid approach] wasn't going to get us to Apple quality.",
+      "speaker": "Craig Federighi",
+      "speakerTitle": "SVP Software Engineering",
+      "source": "Inside Tim Cook's Push article",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/inside-tim-cook-push-to-get-apple-back-in-the-ai-race/",
+      "sourceDate": "2025",
+      "context": "Explaining why merging old and new Siri versions failed and they're rebuilding from scratch"
+    },
+    {
+      "text": "We've been executing with AI for a long time... It's at the root of the watch.",
+      "speaker": "Tim Cook",
+      "speakerTitle": "CEO",
+      "source": "Post-WWDC Interview",
+      "sourceUrl": "https://www.powerpage.org/wwdc-tim-cook-discusses-apple-intelligence-in-post-keynote-speech/",
+      "sourceDate": "2024-06",
+      "context": "WWDC 2024 interview discussing Apple's long-standing use of AI"
+    },
+    {
+      "text": "We already view privacy as a fundamental human right, and so that's the lens that we see it at, and given that we're doing those things, personal context and privacy, we wanted to integrate it at a deep level.",
+      "speaker": "Tim Cook",
+      "speakerTitle": "CEO",
+      "source": "Post-WWDC Interview",
+      "sourceUrl": "https://www.powerpage.org/wwdc-tim-cook-discusses-apple-intelligence-in-post-keynote-speech/",
+      "sourceDate": "2024-06",
+      "context": "Explaining Apple's privacy-first approach to AI"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke → M3 Embedded Teams",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M3 Embedded Teams. AI/ML embedded in product groups without centralized hub coordination.",
+      "classification": "M4 Hybrid/Hub-and-Spoke",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Hub-and-Spoke Restructure",
+      "summary": "Apple restructured AI from centralized (Giannandrea) to hub-and-spoke model. New VP of AI Amar Subramanya provides central ML research/safety coordination under Federighi; execution distributed across functional SVPs. Major investment: $500B+ US operations, custom AI chips, 12K hires (40% R&D). Siri ground-up rebuild underway. Google/OpenAI partnerships supplement in-house capabilities.",
+      "sourceRefs": [
+        "apple-cook-push-2025",
+        "apple-q1-fy2026-earnings",
+        "apple-zurich-lab-2024",
+        "apple-wired-2024"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "apple-ml-research",
+      "name": "Apple Machine Learning Research",
+      "type": "Blog",
+      "url": "https://machinelearning.apple.com/",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "apple-cook-push-2025",
+      "name": "Inside Tim Cook's Push to Get Apple Back in the AI Race",
+      "type": "Press",
+      "url": "https://www.artificialintelligence-news.com/news/inside-tim-cook-push-to-get-apple-back-in-the-ai-race/",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "apple-ma-ai-2025",
+      "name": "Tim Cook Says Apple is Open to M&A on the AI Front",
+      "type": "Press",
+      "url": "https://techcrunch.com/2025/10/31/tim-cook-says-apple-is-open-to-ma-on-the-ai-front/",
+      "sourceDate": "2025-10-31",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "apple-zurich-lab-2024",
+      "name": "Apple's Zurich AI Lab Coverage",
+      "type": "Press",
+      "url": "https://www.macrumors.com/2024/04/30/apple-hired-ai-google-experts-zurich-lab/",
+      "sourceDate": "2024-04-30",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "apple-q1-fy2026-earnings",
+      "name": "Apple Q1 FY2026 Earnings Coverage",
+      "type": "Earnings Call",
+      "url": "https://variety.com/2026/digital/news/apple-earnings-q1-2026-iphone-sales-services-1236644631/",
+      "sourceDate": "2026-01-30",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "apple-wired-2024",
+      "name": "Apple CEO Tim Cook WIRED Interview",
+      "type": "Interview",
+      "url": "https://www.macrumors.com/2024/12/04/apple-ceo-tim-cook-opens-up-in-new-interview/",
+      "sourceDate": "2024-12-04",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "apple-shenzhen-2024",
+      "name": "Apple Shenzhen Research Lab",
+      "type": "Press",
+      "url": "https://www.macrumors.com/2024/10/11/apple-opens-research-lab-shenzhen-china/",
+      "sourceDate": "2024-10-11",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "apple-wwdc-2024",
+      "name": "WWDC Tim Cook Post-Keynote Speech",
+      "type": "Conference",
+      "url": "https://www.powerpage.org/wwdc-tim-cook-discusses-apple-intelligence-in-post-keynote-speech/",
+      "sourceDate": "2024-06",
+      "collectedDate": "2026-02-08"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": 0.4,
+    "namedVsQuiet": -0.1,
+    "longVsShortHorizon": -0.4
+  },
+  "openQuestions": [
+    "Exact size of Apple's AI team (estimates of 200+ researchers, but unclear)",
+    "Specific R&D budget allocation to AI vs. other areas",
+    "How decision rights work between Subramanya's central ML research role and distributed product teams",
+    "Whether the Zurich Vision Lab and Shenzhen lab will gain or lose prominence under the new structure",
+    "Details on the 'Baltra' custom AI server chip timeline and capabilities",
+    "How the Google Foundation Models partnership will affect in-house model development",
+    "Specific metrics Apple uses to measure AI success internally"
+  ],
+  "taxonomyFeedback": [
+    "Apple's restructure is a clean M4 Hub-and-Spoke case: central standards/research coordination (Subramanya) with distributed execution across functional SVPs. The functional organizational structure (vs. product divisions) creates an interesting variant where 'spokes' are expertise-based rather than product-based.",
+    "The transition from Giannandrea's centralized SVP-level team to Subramanya's VP-level hub under Federighi may signal reduced organizational prominence for AI-as-separate-function in favor of AI-as-embedded-capability.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M3. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — AI/ML embedded in product groups without centralized hub coordination."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

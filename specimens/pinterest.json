@@ -47,6 +47,20 @@
   "layers": [
     {
       "date": "2026-02",
+      "label": "AI-Forward Layoffs + Dissent Suppression",
+      "summary": "Pinterest cut ~780 employees (<15% of 5,200 workforce) in January 2026, explicitly citing 'AI-forward strategy.' Restructuring reallocates resources to AI-focused roles and teams. Two engineers fired in February for building unauthorized internal tool to track laid-off colleagues. CEO Bill Ready told dissenting employees to 'consider finding another job.' Chief Security Officer cited privacy violation for the tracker tool. $35-45M restructuring charges, through September 2026. AI integration accelerated across platform: personalization, discovery, Pinterest Assistant.",
+      "classification": null,
+      "sourceRefs": ["fortune-pinterest-dissent-2026", "cbs-ai-layoffs-2026"]
+    },
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Additional source confirming 'AI-forward strategy' framing of the 15% workforce cut. No new structural details or quotes found. Classification unchanged.",
+      "classification": null,
+      "sourceRefs": ["cbs-ai-layoffs-2026"]
+    },
+    {
+      "date": "2026-02",
       "label": "Session 002 Update — Additional Sources & Quote",
       "summary": "Added CEO Bill Ready verbatim quote on AI-powered shopping assistant. Added additional source URLs (Yahoo Finance, Retail Dive, CBS News). Confirmed ~780 specific headcount (~15% of 5,200). Added AI-powered boards and Pinterest Assistant product details.",
       "classification": null,
@@ -135,6 +149,24 @@
       "sourceDate": "2026-01-27",
       "collectedDate": "2026-02-03",
       "notes": "AI-powered boards, Pinterest Assistant details."
+    },
+    {
+      "id": "cbs-ai-layoffs-2026",
+      "type": "Press",
+      "name": "CBS News — AI Layoffs 2026 Overview",
+      "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "timestamp": null,
+      "sourceDate": "2026-02-05",
+      "collectedDate": "2026-02-07",
+      "notes": "Confirms 'AI-forward strategy' framing for Pinterest 15% workforce cut."
+    },
+    {
+      "id": "fortune-pinterest-dissent-2026",
+      "type": "Press",
+      "name": "Fortune — Pinterest Cracks Down on Dissent, Fires Engineers for Internal Layoff Tool",
+      "url": "https://fortune.com/2026/02/04/pinterest-layoffs-employee-dissent-ai-tools-future-of-work-ceo-bill-ready/",
+      "sourceDate": "2026-02-04",
+      "collectedDate": "2026-02-12"
     }
   ],
   "contingencies": {
@@ -162,12 +194,14 @@
   "taxonomyFeedback": [
     "Pinterest's self-described risks ('may not deliver intended benefits') are rare transparency about AI restructuring uncertainty. Most companies present AI pivots as certain.",
     "'AI-washing' critique (Axios) raises question: how do we distinguish genuine AI organizational transformation from cost-cutting framed as AI?",
-    "Pinterest is the most explicit case yet of tying workforce cuts to AI pivot via SEC filing. The formal, on-the-record nature of the SEC language makes this a stronger data point than CEO interviews alone."
+    "Pinterest is the most explicit case yet of tying workforce cuts to AI pivot via SEC filing. The formal, on-the-record nature of the SEC language makes this a stronger data point than CEO interviews alone.",
+    "[2026-02] Minimal new data from overnight scan. Additional CBS News article from Feb 2026 confirms 'AI-forward strategy' language but no new structural details. Classification remains M6a/Low confidence until we observe actual post-restructuring org structure.",
+    "[2026-02-13] The dissent suppression pattern (firing engineers who built a layoff tracker, CEO telling dissenters to leave) reveals a tension between AI transformation transparency and organizational control. This is a governance dimension our taxonomy doesn't capture: how organizations manage internal resistance to AI-driven restructuring."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-04",
+    "lastUpdated": "2026-02-13",
     "completeness": "Low",
     "convertedFrom": null
   }

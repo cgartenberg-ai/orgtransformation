@@ -1,0 +1,79 @@
+{
+  "company": "Pfizer",
+  "ticker": "PFE",
+  "sector": "Pharmaceuticals",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 1,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "over the next two years, we are expanding to more than 1,200 GPUs, largely driven by R&D application of AI.",
+      "speaker": "Albert Bourla",
+      "speakerTitle": "CEO",
+      "source": "pharma-earnings-q4-2025.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Q4 2025 earnings call, discussing AI infrastructure investment"
+    },
+    {
+      "text": "in discovery, medical, regulatory, safety, pharmacovigilance, clinical trial execution...embedding AI engineers in each function.",
+      "speaker": "Chris Boshoff",
+      "speakerTitle": "CSO and President of R&D",
+      "source": "pharma-earnings-q4-2025.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Describing M4-style structural deployment of AI talent"
+    },
+    {
+      "text": "the main lever was the successful deployment of AI",
+      "speaker": "Albert Bourla",
+      "speakerTitle": "CEO",
+      "source": "pharma-earnings-q4-2025.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Explaining how cost reductions were achieved"
+    },
+    {
+      "text": "reducing the cost without that being seen in the activity.",
+      "speaker": "Albert Bourla",
+      "speakerTitle": "CEO",
+      "source": "pharma-earnings-q4-2025.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Framing AI as enabling efficiency without reducing output"
+    },
+    {
+      "text": "AI allows us to do that instantly. In all those markets...massive impact on productivity and speed to market.",
+      "speaker": "Alexandre de Germay",
+      "speakerTitle": "President of International",
+      "source": "pharma-earnings-q4-2025.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Describing AI impact on international market operations"
+    }
+  ],
+  "sources": [
+    {
+      "name": "1,200 GPU deployment for R&D AI",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/03/pfizer-pfe-q4-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2026-02-03",
+      "notes": "1,200 GPU deployment for R&D AI"
+    }
+  ],
+  "summary": "1,200 GPU deployment for R&D AI: Pfizer is expanding to more than 1,200 GPUs over the next two years, largely driven by R&D application of AI. This represents a significant infrastructure investment in computational capacity for drug AI engineers embedded across every R&D function: Chris Boshoff (CSO/President R&D) described embedding AI engineers in each function: discovery, medical, regulatory, safety, pharmacovigilance, and clinical trial execution. This is a textbook hub-and AI as primary lever for cost reduction without activity loss: Bourla stated the main lever for cost reduction was 'the successful deployment of AI' enabling 'reducing the cost without that being seen in the activity.' AI explicitly positioned as the mechanism fo $600M manufacturing savings via AI, $1.5B target by 2027: The company achieved $600 million in manufacturing savings in 2025, with $1.5 billion projected by 2027. AI is a contributor to the manufacturing optimization program achieving these savings.",
+  "openQuestions": [],
+  "splitFrom": "pharma-earnings-q4-2025.json"
+}

@@ -1,0 +1,95 @@
+{
+  "company": "Amazon",
+  "ticker": "AMZN",
+  "sector": "Technology",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 2,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "Amazon recorded $730 million in estimated severance costs in Q4 2025, affecting all three business segments (AWS, North America, International). This follows the 16,000-person layoff announced in Janu",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "We will need fewer people doing some of the jobs that are being done today, and more people doing other types of jobs.",
+      "speaker": "Andy Jassy",
+      "speakerTitle": "CEO",
+      "source": "earnings-q4-2025-amazon-google.json",
+      "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "sourceDate": "",
+      "context": "Statement on AI-driven workforce changes (memo/interview, cited in CBS News coverage)"
+    },
+    {
+      "text": "In 2025, AWS added more data center capacity than any other company in the world.",
+      "speaker": "Andy Jassy",
+      "speakerTitle": "CEO",
+      "source": "earnings-q4-2025-amazon-google.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Prepared remarks, Q4 2025 earnings call"
+    },
+    {
+      "text": "Every customer experience that we know of today is gonna be reinvented. With AI, there are gonna be a whole bunch of customer experience none of us ever imagined that are gonna become the norms of how we operate.",
+      "speaker": "Andy Jassy",
+      "speakerTitle": "CEO",
+      "source": "earnings-q4-2025-amazon-google.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Prepared remarks, Q4 2025 earnings call"
+    },
+    {
+      "text": "Trainium has 30% to 40% better price performance than comparable GPUs, so it's very compelling to customers.",
+      "speaker": "Andy Jassy",
+      "speakerTitle": "CEO",
+      "source": "earnings-q4-2025-amazon-google.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Q&A response to Douglas Anmuth, Q4 2025 earnings call"
+    },
+    {
+      "text": "We see strong return on invested capital. We see strong demand for these services, and we continue to like the investments in this area.",
+      "speaker": "Brian Olsavsky",
+      "speakerTitle": "CFO",
+      "source": "earnings-q4-2025-amazon-google.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Q&A on returns on invested capital, Q4 2025 earnings call"
+    },
+    {
+      "text": "We are putting into service with customers all capacity that we are getting, and it's immediately useful.",
+      "speaker": "Brian Olsavsky",
+      "speakerTitle": "CFO",
+      "source": "earnings-q4-2025-amazon-google.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Prepared remarks, Q4 2025 earnings call"
+    }
+  ],
+  "sources": [
+    {
+      "name": "$200B 2026 CapEx plan \u2014 largest single-year corporate infrastructure commitment",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2026-02-05",
+      "notes": "$200B 2026 CapEx plan \u2014 largest single-year corporate infrastructure commitment"
+    },
+    {
+      "name": "Jassy frames workforce reduction as structural shift: fewer people in some jobs, more in others",
+      "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "type": "Press",
+      "date": "2026-02-06",
+      "notes": "Jassy frames workforce reduction as structural shift: fewer people in some jobs, more in others"
+    }
+  ],
+  "summary": "$200B 2026 CapEx plan \u2014 largest single-year corporate infrastructure commitment: Amazon announced approximately $200 billion in planned 2026 capital expenditures, predominantly for AWS. This represents an unprecedented corporate infrastructure commitment, driven by AI compute dema AWS added more data center capacity than any other company in 2025: Amazon added 3.99 gigawatts of power capacity in 2025 \u2014 twice what they had in 2022 \u2014 and expects to double it again by 2027. Added 1.2 gigawatts in Q4 alone (quarter over quarter). All new capacity i $730M Q4 severance charge across all three segments: Amazon recorded $730 million in estimated severance costs in Q4 2025, affecting all three business segments (AWS, North America, International). This follows the 16,000-person layoff announced in Janu Jassy frames workforce reduction as structural shift: fewer people in some jobs, more in others: Andy Jassy stated the company would shrink white-collar jobs as it invests in AI agents, framing it not as a temporary cut but a permanent structural reallocation. The 30,000 total cuts (16K Jan 2026 ",
+  "openQuestions": [],
+  "splitFrom": "earnings-q4-2025-amazon-google.json"
+}

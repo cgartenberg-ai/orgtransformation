@@ -1,0 +1,326 @@
+{
+  "company": "Goldman Sachs",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 11,
+  "urlsFetched": 14,
+  "fetchFailures": [
+    {
+      "url": "https://www.goldmansachs.com/pressroom/press-releases/2025/daniel-marcu-joins-gs-as-partner-and-global-head-of-ai-engineering-and-science",
+      "reason": "JS-rendered page returned only CSS/metadata, no article body"
+    },
+    {
+      "url": "https://www.cnbc.com/2025/07/11/goldman-sachs-autonomous-coder-pilot-marks-major-ai-milestone.html",
+      "reason": "JS-rendered page returned only CSS styling, no article content"
+    },
+    {
+      "url": "https://www.goldmansachs.com/insights/goldman-sachs-exchanges/ai-exchanges-cio-marco-argenti-on-the-future-of-ai-in-the-workplace",
+      "reason": "JS-rendered page returned only CSS/metadata"
+    },
+    {
+      "url": "https://www.cnn.com/2025/11/03/business/david-solomon-goldman-sachs-ai",
+      "reason": "HTTP 451 - content unavailable"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/goldman-sachs-hires-amazon-exec-190739008.html",
+      "reason": "Decompression error (incorrect header check)"
+    }
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "Daniel Marcu joined Goldman Sachs in March 2025 as Partner in the Engineering division and Global Head of AI Engineering and Science. He oversees AI platform and product development, working alongside Goldman Sachs does NOT have a Chief AI Officer. Instead, CIO Marco Argenti (former Amazon VP/CTO) serves as the de facto AI strategy leader, driving firmwide AI deployment including the GS AI Assistan Goldman's ~12,000 developers use AI coding assistants (GitHub Copilot and similar tools) integrated into VS Code and JetBrains IDEs. Productivity gains reported at 20-40% for standard coding tasks. In CIO Argenti argues that 'AI natives' (generation entering workforce who grew up with generative AI) are uniquely positioned to lead AI transformation. Rather than displacing junior roles, agentic AI e A Goldman Sachs survey of 100+ investment bankers in late October 2025 found that 37% of clients are using AI for regular production, with adoption expected to hit 50% next year and 74% within three y",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "We're asking all of our people to rethink the human processes they go through. And then we're making investments in AI and agentic AI to accelerate change.",
+      "speaker": "Denis Coleman",
+      "speakerTitle": "CFO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://fortune.com/2025/12/10/goldman-sachs-cfo-on-the-companys-ai-reboot-talent-and-growth/",
+      "sourceDate": "2025-12-10",
+      "context": "Describing OneGS 3.0 approach to AI-driven process transformation"
+    },
+    {
+      "text": "This is a fundamental rethinking of how we expect our people to operate at Goldman Sachs.",
+      "speaker": "Denis Coleman",
+      "speakerTitle": "CFO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://fortune.com/2025/12/10/goldman-sachs-cfo-on-the-companys-ai-reboot-talent-and-growth/",
+      "sourceDate": "2025-12-10",
+      "context": "Describing the scope of OneGS 3.0"
+    },
+    {
+      "text": "We don't want to simply add more manual processes to drive growth. We need to convert some of that effort into digitized and automated systems -- and rethink how those engines work.",
+      "speaker": "Denis Coleman",
+      "speakerTitle": "CFO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://fortune.com/2025/12/10/goldman-sachs-cfo-on-the-companys-ai-reboot-talent-and-growth/",
+      "sourceDate": "2025-12-10",
+      "context": "Explaining the shift from manual scaling to AI-enabled scaling"
+    },
+    {
+      "text": "At its core, it's an effort to drive more scale and more growth.",
+      "speaker": "Denis Coleman",
+      "speakerTitle": "CFO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://fortune.com/2025/12/10/goldman-sachs-cfo-on-the-companys-ai-reboot-talent-and-growth/",
+      "sourceDate": "2025-12-10",
+      "context": "Framing OneGS 3.0 as growth-oriented rather than cost-cutting"
+    },
+    {
+      "text": "We are focused on efficiency and leveraging AI to meaningfully transform the firm.",
+      "speaker": "Denis Coleman",
+      "speakerTitle": "CFO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://www.constellationr.com/blog-news/insights/goldman-sachs-eyes-next-ai-transformation-position-strength",
+      "sourceDate": "2025-10-01",
+      "context": "Summarizing AI transformation philosophy"
+    },
+    {
+      "text": "One Goldman Sachs 3.0, our new operating model propelled by Ella AI.",
+      "speaker": "David Solomon",
+      "speakerTitle": "CEO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/01/15/goldman-sachs-gs-q4-2025-earnings-transcript/",
+      "sourceDate": "2026-01-15",
+      "context": "Announcing OneGS 3.0 at Q4 2025 earnings call"
+    },
+    {
+      "text": "If we get this right, I don't think it significantly lowers the number of people we have.",
+      "speaker": "David Solomon",
+      "speakerTitle": "CEO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://fortune.com/2026/01/23/no-job-apocalypse-goldman-sachs-ceo-david-solomon-ai-hiring-nightmare/",
+      "sourceDate": "2026-01-23",
+      "context": "Framing AI as capacity expansion not headcount reduction"
+    },
+    {
+      "text": "I'm not in the job apocalypse camp.",
+      "speaker": "David Solomon",
+      "speakerTitle": "CEO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://fortune.com/2026/01/23/no-job-apocalypse-goldman-sachs-ceo-david-solomon-ai-hiring-nightmare/",
+      "sourceDate": "2026-01-23",
+      "context": "Rejecting AI-driven mass unemployment narrative"
+    },
+    {
+      "text": "Technology has been disrupting jobs, changing the way people work, destroying jobs, and forcing us as a vibrant economy to create new jobs for decades. It's no different this time.",
+      "speaker": "David Solomon",
+      "speakerTitle": "CEO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://fortune.com/2026/01/23/no-job-apocalypse-goldman-sachs-ceo-david-solomon-ai-hiring-nightmare/",
+      "sourceDate": "2026-01-23",
+      "context": "Normalizing AI disruption as continuation of historical pattern"
+    },
+    {
+      "text": "Changing processes in a big enterprise is hard work. And it's going to take some time.",
+      "speaker": "David Solomon",
+      "speakerTitle": "CEO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://fortune.com/2026/01/23/no-job-apocalypse-goldman-sachs-ceo-david-solomon-ai-hiring-nightmare/",
+      "sourceDate": "2026-01-23",
+      "context": "Acknowledging difficulty of enterprise AI transformation"
+    },
+    {
+      "text": "How do you take this technology and embed it in the enterprise to reimagine processes...often with fundamentally less people.",
+      "speaker": "David Solomon",
+      "speakerTitle": "CEO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://time.com/collections/davos-2026/7339215/goldman-sachs-ceo-david-solomon-us-economy-ai-outlook-2026/",
+      "sourceDate": "2026-01-01",
+      "context": "Davos 2026, describing AI's transformative potential (note: tension with 'no job apocalypse' framing)"
+    },
+    {
+      "text": "Over the next five to 10 years, how is this going to affect the economy, it's hugely constructive, and the productivity gains are going to be enormous.",
+      "speaker": "David Solomon",
+      "speakerTitle": "CEO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://time.com/collections/davos-2026/7339215/goldman-sachs-ceo-david-solomon-us-economy-ai-outlook-2026/",
+      "sourceDate": "2026-01-01",
+      "context": "Davos 2026, on long-term AI economic impact"
+    },
+    {
+      "text": "I can't find a CEO that I'm talking to, in any industry, that is not focused on how they can reimagine and automate processes.",
+      "speaker": "David Solomon",
+      "speakerTitle": "CEO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://fortune.com/2025/10/23/goldman-sachs-ceo-david-solomon-says-ai-will-change-jobs-but-he-is-excited-employment-careers-human-workers-tech-displacement-automation/",
+      "sourceDate": "2025-10-23",
+      "context": "Observing universal CEO focus on AI-driven process automation"
+    },
+    {
+      "text": "If you take a three to five year view, it's giving us more capacity to invest in our business.",
+      "speaker": "David Solomon",
+      "speakerTitle": "CEO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://fortune.com/2025/10/23/goldman-sachs-ceo-david-solomon-says-ai-will-change-jobs-but-he-is-excited-employment-careers-human-workers-tech-displacement-automation/",
+      "sourceDate": "2025-10-23",
+      "context": "Framing AI as investment in growth capacity"
+    },
+    {
+      "text": "Devin is going to be like our new employee, who's going to start doing stuff on the behalf of our developers.",
+      "speaker": "Marco Argenti",
+      "speakerTitle": "CIO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://www.ibm.com/think/news/goldman-sachs-first-ai-employee-devin",
+      "sourceDate": "2025-07-11",
+      "context": "Announcing Devin autonomous AI coder deployment"
+    },
+    {
+      "text": "Engineers are going to be expected to have the ability to really describe problems in a coherent way and turn it into prompts, and then be able to supervise the work of those agents.",
+      "speaker": "Marco Argenti",
+      "speakerTitle": "CIO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://www.ibm.com/think/news/goldman-sachs-first-ai-employee-devin",
+      "sourceDate": "2025-07-11",
+      "context": "Describing how developer roles evolve with AI agents"
+    },
+    {
+      "text": "Today marks an important moment in our AI journey as we are excited to announce the firmwide launch of the GS AI Assistant -- the first generative AI-powered tool to reach this scale.",
+      "speaker": "Marco Argenti",
+      "speakerTitle": "CIO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://www.foxbusiness.com/technology/goldman-sachs-announces-firmwide-launch-ai-assistant",
+      "sourceDate": "2025-06-23",
+      "context": "Announcing firmwide GS AI Assistant rollout"
+    },
+    {
+      "text": "We have the entire organization that needs to re-tune and re-tool itself for AI.",
+      "speaker": "Marco Argenti",
+      "speakerTitle": "CIO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://fortune.com/2025/03/19/goldman-sachs-cio-ai/",
+      "sourceDate": "2025-03-19",
+      "context": "On the organizational transformation required for AI"
+    },
+    {
+      "text": "You can delegate work, but you cannot delegate accountability.",
+      "speaker": "Marco Argenti",
+      "speakerTitle": "CIO, Goldman Sachs",
+      "source": "goldman-sachs-deep-scan.json",
+      "sourceUrl": "https://www.russellreynolds.com/en/insights/podcasts/how-goldman-sachs-cio-marco-argenti-is-rewriting-the-ai-playbook",
+      "sourceDate": "2025-01-01",
+      "context": "On human-AI collaboration and oversight"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Fortune - Goldman Sachs CFO on AI reboot, talent, and growth",
+      "url": "https://fortune.com/2025/12/10/goldman-sachs-cfo-on-the-companys-ai-reboot-talent-and-growth/",
+      "type": "Press",
+      "date": "2025-12-10",
+      "notes": "Key Denis Coleman interview on OneGS 3.0 details"
+    },
+    {
+      "name": "Motley Fool - Goldman Sachs Q4 2025 Earnings Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/01/15/goldman-sachs-gs-q4-2025-earnings-transcript/",
+      "type": "earnings-transcript",
+      "date": "2026-01-15",
+      "notes": "Q4 2025 earnings call with OneGS 3.0 launch, Ella AI mention, six workstreams"
+    },
+    {
+      "name": "Digital Watch - Goldman advances AI goals with new global head",
+      "url": "https://dig.watch/updates/goldman-advances-ai-goals-with-new-global-head-of-ai",
+      "type": "Press",
+      "date": "2025-03-17",
+      "notes": "Marcu appointment, reporting lines (Sharma, Xiang)"
+    },
+    {
+      "name": "Fortune - Goldman Sachs CIO measured AI approach",
+      "url": "https://fortune.com/2025/03/19/goldman-sachs-cio-ai/",
+      "type": "Press",
+      "date": "2025-03-19",
+      "notes": "Argenti on AI governance, steering group, 50% employee access, multi-model strategy"
+    },
+    {
+      "name": "IBM Think - Goldman Sachs deploys Devin AI",
+      "url": "https://www.ibm.com/think/news/goldman-sachs-first-ai-employee-devin",
+      "type": "press-analysis",
+      "date": "2025-07-11",
+      "notes": "Devin autonomous coder, hybrid workforce concept, 12K developers"
+    },
+    {
+      "name": "Fortune - David Solomon AI and jobs",
+      "url": "https://fortune.com/2025/10/23/goldman-sachs-ceo-david-solomon-says-ai-will-change-jobs-but-he-is-excited-employment-careers-human-workers-tech-displacement-automation/",
+      "type": "Press",
+      "date": "2025-10-23",
+      "notes": "Solomon on 13K engineers, AI job impact, economic flexibility"
+    },
+    {
+      "name": "TIME - David Solomon Davos 2026 AI outlook",
+      "url": "https://time.com/collections/davos-2026/7339215/goldman-sachs-ceo-david-solomon-us-economy-ai-outlook-2026/",
+      "type": "Press",
+      "date": "2026-01-01",
+      "notes": "Solomon at Davos on AI workforce impact, hiring slowdown, enterprise AI harder than expected"
+    },
+    {
+      "name": "Fortune - Solomon 'no job apocalypse'",
+      "url": "https://fortune.com/2026/01/23/no-job-apocalypse-goldman-sachs-ceo-david-solomon-ai-hiring-nightmare/",
+      "type": "Press",
+      "date": "2026-01-23",
+      "notes": "Solomon rejecting job apocalypse narrative, OneGS 3.0 as capacity expansion"
+    },
+    {
+      "name": "Fortune - Goldman CIO on AI natives",
+      "url": "https://fortune.com/2025/07/03/goldman-sachs-cio-ai-natives-future-of-work/",
+      "type": "Press",
+      "date": "2025-07-03",
+      "notes": "Argenti on AI natives, player-coach model, junior role evolution"
+    },
+    {
+      "name": "Diginomica - Workforces rethinking AI futures",
+      "url": "https://diginomica.com/role-workforces-re-thinking-their-own-futures-ai-efficient-world-wells-fargo-and-goldman-sachs-have",
+      "type": "press-analysis",
+      "date": "2025-12-01",
+      "notes": "Coleman on six workstreams, data foundation, workforce rethinking"
+    },
+    {
+      "name": "Fox Business - GS AI Assistant firmwide launch",
+      "url": "https://www.foxbusiness.com/technology/goldman-sachs-announces-firmwide-launch-ai-assistant",
+      "type": "Press",
+      "date": "2025-06-23",
+      "notes": "Firmwide rollout details, model integrations, Argenti quote"
+    },
+    {
+      "name": "Nanonets - Goldman Sachs AI platform deep dive",
+      "url": "https://nanonets.com/blog/goldman-sachs-ai-platform/",
+      "type": "press-analysis",
+      "date": "2025-01-01",
+      "notes": "Platform architecture, security model, productivity numbers, adoption data"
+    },
+    {
+      "name": "Fox Business - Argenti on AI transforming workflows",
+      "url": "https://www.foxbusiness.com/technology/ai-transform-business-workflows-productivity-goldman-sachs-cio-says",
+      "type": "Press",
+      "date": "2025-01-01",
+      "notes": "Argenti on 20-40% developer productivity gains, LLM capabilities, future interfaces"
+    },
+    {
+      "name": "Constellation Research - Goldman Sachs AI transformation",
+      "url": "https://www.constellationr.com/blog-news/insights/goldman-sachs-eyes-next-ai-transformation-position-strength",
+      "type": "analyst-report",
+      "date": "2025-10-01",
+      "notes": "Six strategic goals, use case priorities, transformation from position of strength"
+    }
+  ],
+  "summary": "OneGS 3.0: Firmwide AI-driven operating model overhaul: Goldman Sachs launched 'One Goldman Sachs 3.0' (OneGS 3.0) as a multiyear overhaul of its operating model, announced at Q4 2025 earnings (Jan 15, 2026). The initiative is described as 'propelled by El Six OneGS 3.0 workstreams target specific operational processes: The six workstreams target processes including: client onboarding, KYC (know your customer), sales enablement, lending processes, regulatory reporting, and vendor management. Solomon described these a AI leadership troika: Marcu (AI Engineering & Science), Sharma (AI Platform), Xiang (AI Research): Daniel Marcu joined Goldman Sachs in March 2025 as Partner in the Engineering division and Global Head of AI Engineering and Science. He oversees AI platform and product development, working alongside CIO Marco Argenti as de facto AI strategy lead (no Chief AI Officer title): Goldman Sachs does NOT have a Chief AI Officer. Instead, CIO Marco Argenti (former Amazon VP/CTO) serves as the de facto AI strategy leader, driving firmwide AI deployment including the GS AI Assistan",
+  "openQuestions": [
+    "What is the actual annual technology spend? The known '$6B' figure needs verification -- Bank Automation News reported $1.9B tech spend in 2023. Is $6B total including compensation, or just non-comp tech spend? Or has it grown substantially?",
+    "Who does Daniel Marcu report to? Most likely Marco Argenti (CIO) but not explicitly confirmed in any source",
+    "What is 'Ella AI' exactly? Solomon named it at Q4 earnings as propelling OneGS 3.0, but no details found on whether it's a rebrand of GS AI Assistant, a new agentic platform, or an internal codename",
+    "What are all six operational workstreams? We confirmed: onboarding, KYC, sales enablement, lending, regulatory reporting, vendor management -- but different sources give slightly different lists",
+    "How does Dinesh Gupta (global head of AI and digitization since 2022) relate to Daniel Marcu (global head of AI engineering and science since 2025)? Potential overlap or supersession?",
+    "What is the AI steering group composition? Argenti mentioned it evaluates 'dozens of proposals' but no detail on membership or governance structure",
+    "50% of 46,000 employees had AI access by mid-2025 -- what's the current adoption rate as of Q4 2025/Q1 2026?",
+    "The 'Shark Tank'-style developer innovation competitions -- how are these structured, how often, who judges, what happens to winning ideas?"
+  ],
+  "splitFrom": "goldman-sachs-deep-scan.json"
+}

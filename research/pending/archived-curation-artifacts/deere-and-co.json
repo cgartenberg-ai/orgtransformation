@@ -1,0 +1,134 @@
+{
+  "company": "Deere & Co",
+  "ticker": "DE",
+  "leader": "John May",
+  "leaderTitle": "CEO & Chairman",
+  "sector": "Agriculture / Industrials",
+  "quadrant": "Q4",
+  "scannedDate": "2026-02-08",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://openai.com/index/john-deere-justin-rose/ (403 Forbidden)",
+    "https://venturebeat.com/ai/how-john-deere-grew-data-seeds-into-an-ai-powerhouse (429 Rate Limited)"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "High",
+    "rationale": "Deere operates with central technology leadership under CTO Jahmy Hindman, while AI capabilities are distributed across specialized units: Blue River Technology (See & Spray/computer vision), Bear Flag Robotics (autonomy), and embedded data science teams in digital tools. The 'hub' is the CTO organization setting standards and coordinating acquisitions; the 'spokes' are domain-specific teams with concentrated AI talent (Blue River has 'largest concentration of AI talent'). This is classic hub-and-spoke: central standards + distributed execution across autonomous tractors, precision spraying, and operations centers.",
+    "aiTeamStructure": "AI work organized under CTO umbrella with multiple specialized units: (1) Autonomy and automation group with Blue River Technology — largest concentration of AI talent; (2) Digital tools organization managing cloud, mobile apps, and data science; (3) Technology Innovation Centers at university research parks (Illinois, Iowa State); (4) Austin R&D Center for year-round testing. CTO Jahmy Hindman noted the company now employs more software engineers than mechanical engineers.",
+    "keyPeople": [
+      {"name": "John May", "title": "CEO & Chairman", "role": "Strategic vision, delivered CES 2023 keynote on purpose-driven technology"},
+      {"name": "Jahmy Hindman", "title": "Senior Vice President & Chief Technology Officer", "role": "Oversees all AI and technology initiatives, leads company-wide tech strategy"},
+      {"name": "Justin Rose", "title": "President of Lifecycle Solutions", "role": "Business model transformation, AI-enabled subscription services"},
+      {"name": "Chris Padwick", "title": "Director of Computer Vision and Machine Learning, Blue River Technology", "role": "Leads See & Spray technical development"},
+      {"name": "Jesse Haecker", "title": "Autonomy Leader (exact title unclear)", "role": "Featured in autonomy strategy interviews"},
+      {"name": "Sarah Schnickel", "title": "Director of Emerging Technologies", "role": "Machine learning and future farming technologies"}
+    ],
+    "investmentSignals": "Blue River acquisition: $305M (2017). Bear Flag acquisition: $250M (2021). Now employs more software engineers than mechanical engineers. 285-acre Austin R&D Center. Technology Innovation Centers at University of Illinois and Iowa State. Targeting 10% net sales CAGR 2025-2030 with tech-driven growth. Equipment operations projected to grow from $38.9B (2025) to $63B (2030).",
+    "observableMarkers": {
+      "reportingStructure": "AI reports to CTO (Jahmy Hindman), who reports to CEO. No separate CAIO role. Acquired companies (Blue River, Bear Flag) operate as distinct units under tech umbrella.",
+      "resourceAllocation": "Dedicated acquisition-funded units (Blue River, Bear Flag) operate with apparent autonomy. University partnerships and innovation centers suggest ring-fenced R&D investment. Three-quarters of See & Spray machines in 2025 were retrofits, indicating scaled commercialization path.",
+      "timeHorizons": "Mixed horizons: quarterly product improvements (See & Spray hit 5M acres in 2025) combined with long-term vision (fully autonomous corn/soybean cycle by 2030). 'Smart Industrial' strategy spans 2019-2030.",
+      "decisionRights": "Centralized technology strategy under CTO; distributed execution in specialized units. Blue River appears to retain technical autonomy within Deere.",
+      "metrics": "Herbicide reduction (59% average, 31M gallons saved in 2025). Acres covered by AI systems. Productivity gains (15-20% reported for autonomous). Fuel and labor reduction (6%). 20% operating return on sales target by 2030."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "Technology is core to Deere's DNA, but we don't create tech for tech's sake. There's purpose behind everything we do, so that our customers have the tools they need to tackle some of the world's greatest challenges.",
+      "speaker": "John May",
+      "speakerTitle": "CEO & Chairman",
+      "source": "CES 2023 Keynote",
+      "sourceUrl": "https://www.deere.com/en/stories/featured/john-may-delivering-the-keynote-address-at-ces-2023/",
+      "sourceDate": "2023-01",
+      "context": "First CES keynote ever by an agriculture company CEO"
+    },
+    {
+      "text": "[CES] gives us a chance to show how our purpose-driven technology has a huge impact on our customers. Our goal is to make our customers more profitable, more productive, and help them do the jobs they do in a more sustainable way.",
+      "speaker": "John May",
+      "speakerTitle": "CEO & Chairman",
+      "source": "GadgetMatch Interview at CES",
+      "sourceUrl": "https://www.machinefinder.com/ww/en-US/articles/john-deere-ceo-john-may-to-give-livestreamed-keynote-address-at-ces-2023-11060",
+      "sourceDate": "2023-01",
+      "context": "Interview during CES 2023"
+    },
+    {
+      "text": "Our agriculture, construction, and commercial landscaping customers all have work that must get done at certain times of the day and year, yet there is not enough available and skilled labor to do the work. Autonomy can help address this challenge.",
+      "speaker": "Jahmy Hindman",
+      "speakerTitle": "Chief Technology Officer",
+      "source": "John Deere autonomy announcement",
+      "sourceUrl": "https://www.assemblymag.com/articles/98211-john-deere-invests-in-ai-prepares-for-a-fully-autonomous-farm-by-2030",
+      "sourceDate": "2025",
+      "context": "Explaining strategic rationale for autonomy investment"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Emerj - Artificial Intelligence at John Deere",
+      "url": "https://emerj.com/artificial-intelligence-at-john-deere/",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Best overview of AI applications, acquisitions, and some leadership quotes. Details on See & Spray and autonomous tractor technology. Justin Rose and Jahmy Hindman quotes."
+    },
+    {
+      "name": "Deere - CES 2023 Keynote Announcement",
+      "url": "https://www.deere.com/en/stories/featured/john-may-delivering-the-keynote-address-at-ces-2023/",
+      "type": "Blog",
+      "date": "2023-01",
+      "notes": "John May's landmark CES keynote - first by ag company. Key quote on purpose-driven tech."
+    },
+    {
+      "name": "Assembly Magazine - John Deere Prepares for Fully Autonomous Farm by 2030",
+      "url": "https://www.assemblymag.com/articles/98211-john-deere-invests-in-ai-prepares-for-a-fully-autonomous-farm-by-2030",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Hindman quote on labor challenges driving autonomy. 2030 fully autonomous goal."
+    },
+    {
+      "name": "Research Park Illinois - John Deere Technology Innovation Center",
+      "url": "https://researchpark.illinois.edu/tenant_directory/john-deere-technology-innovation-center/",
+      "type": "Blog",
+      "date": "2025",
+      "notes": "Details on university R&D partnership structure and multi-departmental organization."
+    },
+    {
+      "name": "ISU Research Park - Deere & Company",
+      "url": "https://www.isupark.org/tenant/deere-company/",
+      "type": "Blog",
+      "date": "2025",
+      "notes": "Iowa State partnership, John Deere Technology Innovation Center - Ames Lab opened 2019."
+    },
+    {
+      "name": "Deere - Austin R&D Center",
+      "url": "https://www.deere.com/en/stories/featured/research-dev-center/",
+      "type": "Blog",
+      "date": "2024",
+      "notes": "285-acre Austin hub for year-round testing. Grew from 40 acres in 2022."
+    },
+    {
+      "name": "Still TBD Podcast - Interview with Sarah Schnickel",
+      "url": "https://stilltbd.fm/episodes/194-the-power-of-ai-farming-interview-with-john-deere/",
+      "type": "Interview",
+      "date": "2023",
+      "notes": "Interview with Director of Emerging Technologies on machine learning in farming."
+    }
+  ],
+
+  "summary": "Deere & Co operates a Hybrid/Hub-and-Spoke model with AI capabilities distributed across specialized units (Blue River for computer vision, Bear Flag for autonomy, internal data science teams) all reporting to CTO Jahmy Hindman. Major acquisitions ($555M+ for Blue River and Bear Flag) provide concentrated AI talent, while university innovation centers and the Austin R&D hub enable long-term research. The company now employs more software engineers than mechanical engineers, signaling a structural shift. Leadership frames AI around purpose—solving labor shortages and sustainability challenges—with a clear 2030 goal: fully autonomous corn/soybean production cycles.",
+
+  "openQuestions": [
+    "Exact headcount of AI/ML engineers across all units (Blue River, Bear Flag, internal teams)",
+    "Whether Blue River and Bear Flag operate as distinct P&Ls or are fully integrated",
+    "Specific reporting relationship between CTO and the acquired company leaders",
+    "R&D budget breakdown between AI/software vs. traditional mechanical engineering",
+    "Whether 'DeereAI' (internal ChatGPT integration) represents a broader enterprise AI platform strategy"
+  ],
+
+  "conferenceFindings": "John May delivered the first-ever CES keynote by an agriculture company CEO in January 2023. This was significant for positioning Deere as a technology company. Key theme was 'purpose-driven technology' rather than 'tech for tech's sake.' No other major AI conference presentations identified in scanning. The company appears to favor industry events and product launches over academic/tech conferences."
+}

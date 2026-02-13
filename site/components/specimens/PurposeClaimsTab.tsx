@@ -2,7 +2,8 @@
 
 import { useState, useCallback, useEffect } from "react";
 import Link from "next/link";
-import type { PurposeClaim, ClaimType } from "@/lib/types/purpose-claims";
+import type { PurposeClaim, ClaimType, SpecimenEnrichment } from "@/lib/types/purpose-claims";
+import { EnrichmentSummary } from "./EnrichmentSummary";
 import {
   CLAIM_TYPE_LABELS,
   CLAIM_TYPE_COLORS,
@@ -38,10 +39,12 @@ export function PurposeClaimsTab({
   claims,
   claimTypeDefinitions,
   specimenId,
+  enrichment = null,
 }: {
   claims: PurposeClaim[];
   claimTypeDefinitions: Record<ClaimType, string>;
   specimenId: string;
+  enrichment?: SpecimenEnrichment | null;
 }) {
   const { starred, toggle: toggleStar } = useStarredClaims();
 
@@ -79,6 +82,10 @@ export function PurposeClaimsTab({
           View in full browser &rarr;
         </Link>
       </div>
+
+      {enrichment && (
+        <EnrichmentSummary enrichment={enrichment} specimenId={specimenId} />
+      )}
 
       {CLAIM_TYPES_ORDER.filter((t) => grouped.has(t)).map((type) => {
         const typeClaims = grouped.get(type)!;

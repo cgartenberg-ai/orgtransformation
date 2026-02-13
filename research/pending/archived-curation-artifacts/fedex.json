@@ -1,0 +1,224 @@
+{
+  "company": "FedEx",
+  "ticker": "FDX",
+  "leader": "Raj Subramaniam",
+  "leaderTitle": "CEO",
+  "sector": "Logistics",
+  "quadrant": "Q4",
+  "scannedDate": "2026-02-09",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": ["businesschief.com (403)", "supplychaindive.com (JS-only)"],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Contextual",
+    "confidence": "Medium",
+    "rationale": "FedEx has a clear central hub (FedEx Dataworks) led by the Chief Digital and Information Officer, but is pushing AI adoption across the entire enterprise through role-based training. The model combines centralized data/AI platform governance with distributed execution across business units. The enterprise-wide AI education program (launched Dec 2025) suggests a contextual orientation where individuals balance AI within their existing roles, rather than structural separation. FedEx Dataworks sets standards and provides the data platform, while business functions apply AI to their specific domains (logistics optimization, customer service, etc.).",
+    "aiTeamStructure": "FedEx Dataworks is the central data intelligence arm, led by the Chief Digital and Information Officer (currently Vishal Talwar, effective August 2025). Senior leaders of Data and Technology and Dataworks organizations report directly to the CDIO, who reports to the CEO. The FedEx Innovation Lab (FIL) handles external startup investments. Additionally, FedEx funds the Centre of Excellence at IIT Bombay and IIT Madras in India for research and talent development.",
+    "keyPeople": [
+      {"name": "Raj Subramaniam", "title": "President and CEO", "role": "Sets AI vision, champions 'super humanoid robots' and data monetization strategy"},
+      {"name": "Vishal Talwar", "title": "EVP, Chief Digital and Information Officer, President of FedEx Dataworks", "role": "Leads all data, AI, technology, and cybersecurity initiatives (effective Aug 2025)"},
+      {"name": "Sriram Krishnasamy", "title": "Former CDIO and Chief Transformation Officer", "role": "Previous AI/digital leader (stepped down July 2025)"},
+      {"name": "Adam Smith", "title": "CTO", "role": "Discussed generative AI at AI Summit NY 2023"},
+      {"name": "Kawal Preet", "title": "President, FedEx Express (AMEA)", "role": "Leads FedEx Innovation Lab investments in Asia"},
+      {"name": "Kami Viswanathan", "title": "SVP, FedEx Express (Middle East, Indian Subcontinent, Africa)", "role": "Drives India innovation partnerships"}
+    ],
+    "investmentSignals": "$10 million committed to IIT Bombay and IIT Madras Centre of Excellence. $4.5 billion annual CapEx target for FY2026 (includes hub modernization, Network 2.0 facilities, but not AI-specific). Investment in FedEx Innovation Lab (amount undisclosed). Partnership with Accenture for LearnVantage AI training platform. Acquired RouteSmart Technologies for route optimization AI.",
+    "observableMarkers": {
+      "reportingStructure": "CDIO (Vishal Talwar) reports directly to CEO (Raj Subramaniam). All Data and Technology and Dataworks senior leaders report to CDIO.",
+      "resourceAllocation": "FedEx Dataworks is a dedicated internal unit. CapEx includes AI-related hub modernization. External partnerships (Accenture, startup investments) supplement internal capabilities.",
+      "timeHorizons": "Mixed: Short-term operational AI (delivery time estimation, package routing) already deployed. Medium-term enterprise AI education rollout (2025-2026). Long-term R&D through academic partnerships (IIT) and humanoid robotics exploration (not yet 'prime time').",
+      "decisionRights": "Centralized platform and standards through Dataworks, but AI application decisions distributed to business functions. Enterprise-wide education suggests push for contextual ambidexterity.",
+      "metrics": "Recognized in Fortune AIQ 50 using ServiceNow's Enterprise AI Maturity Index. Internal metrics likely include delivery time estimate accuracy, package sorting accuracy (>99% with robotic systems), processing speed (1,300 parcels/hour per robot)."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "The future of business is being shaped by data and AI more than ever before.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "source": "FedEx Newsroom - AI Education Program",
+      "sourceUrl": "https://newsroom.fedex.com/newsroom/global-english/fedex-empowers-global-workforce-with-ai-education-and-literacy-program",
+      "sourceDate": "2025-12",
+      "context": "Announcing enterprise-wide AI education and literacy program"
+    },
+    {
+      "text": "We move 17 million packages per day through the global system. That generates multiple petabytes of data. We realised that the data is valuable in its own right.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "source": "New York Times Interview",
+      "sourceUrl": "https://finance.yahoo.com/news/not-ready-prime-time-yet-010121938.html",
+      "sourceDate": "2025-01-18",
+      "context": "Discussing data strategy and AI in interview with NYT"
+    },
+    {
+      "text": "The fuel for AI is data. If you don't have your data appropriately organised, then there are limits of what you can do with it. We're using AI to make supply chains smarter for everyone. We can now say with more and more precision when that package is going to arrive.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "source": "New York Times Interview",
+      "sourceUrl": "https://finance.yahoo.com/news/not-ready-prime-time-yet-010121938.html",
+      "sourceDate": "2025-01-18",
+      "context": "Discussing AI for supply chain optimization"
+    },
+    {
+      "text": "Truck unloading and truck loading are a very difficult problem for robotics to solve - packages come in every size, shape and weight. We're not looking for humanoid robots - we're looking for super humanoid robots, because maybe they need to have a couple of elbows. More degrees of freedom.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "source": "New York Times Interview",
+      "sourceUrl": "https://finance.yahoo.com/news/not-ready-prime-time-yet-010121938.html",
+      "sourceDate": "2025-01-18",
+      "context": "Discussing need for advanced robotics in logistics"
+    },
+    {
+      "text": "It is not ready for prime time yet.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "source": "New York Times Interview",
+      "sourceUrl": "https://finance.yahoo.com/news/not-ready-prime-time-yet-010121938.html",
+      "sourceDate": "2025-01-18",
+      "context": "On current state of humanoid robotics - still in pilot stage"
+    },
+    {
+      "text": "Vishal has a proven track record in accelerating business growth through forward-thinking strategies and transformative digital solutions.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "source": "FedEx Newsroom - Talwar Appointment",
+      "sourceUrl": "https://newsroom.fedex.com/newsroom/global-english/fedex-appoints-vishal-talwar-as-executive-vice-president-chief-digital-and-information-officer-and-president-of-fedex-dataworks",
+      "sourceDate": "2025-08",
+      "context": "Announcing new Chief Digital and Information Officer"
+    },
+    {
+      "text": "I am honored to join FedEx during such a transformative period as the company leverages the power of technology, data, and AI to make supply chains smarter for everyone.",
+      "speaker": "Vishal Talwar",
+      "speakerTitle": "EVP, Chief Digital and Information Officer, President of FedEx Dataworks",
+      "source": "FedEx Newsroom - Talwar Appointment",
+      "sourceUrl": "https://newsroom.fedex.com/newsroom/global-english/fedex-appoints-vishal-talwar-as-executive-vice-president-chief-digital-and-information-officer-and-president-of-fedex-dataworks",
+      "sourceDate": "2025-08",
+      "context": "Upon joining FedEx"
+    },
+    {
+      "text": "Innovation is embedded in our business strategy...We are committed to using advanced technology and data-driven insights to create smarter supply chains.",
+      "speaker": "Kawal Preet",
+      "speakerTitle": "President, FedEx Express (AMEA)",
+      "source": "FedEx Newsroom - Innovation Lab Launch",
+      "sourceUrl": "https://newsroom.fedex.com/fedex-launches-fedex-innovation-lab-to-fuel-digital-capabilities-for-whats-next",
+      "sourceDate": "2023-05",
+      "context": "Launching FedEx Innovation Lab"
+    },
+    {
+      "text": "India is at the core of innovation strategies for global technology leaders...There is much mutual benefit that can be gained as well as a tremendous opportunity to help transform the global logistics industry.",
+      "speaker": "Kami Viswanathan",
+      "speakerTitle": "SVP, FedEx Express (Middle East, Indian Subcontinent, Africa)",
+      "source": "FedEx Newsroom - Innovation Lab Launch",
+      "sourceUrl": "https://newsroom.fedex.com/fedex-launches-fedex-innovation-lab-to-fuel-digital-capabilities-for-whats-next",
+      "sourceDate": "2023-05",
+      "context": "Discussing India innovation partnerships"
+    },
+    {
+      "text": "We need to have data platforms that these models can run on so that we can create insights.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "source": "CNBC Evolve Global Summit",
+      "sourceUrl": "https://www.cnbcevents.com/news/cnbc-transcript-fedex-ceo-raj-subramaniam-speaks-with-frank-holland-from-the-cnbc-evolve-global-summit/",
+      "sourceDate": "2023-11",
+      "context": "Discussing AI platform strategy at CNBC Evolve Summit"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "FedEx Newsroom - AI Education Program",
+      "url": "https://newsroom.fedex.com/newsroom/global-english/fedex-empowers-global-workforce-with-ai-education-and-literacy-program",
+      "type": "Blog",
+      "date": "2025-12",
+      "notes": "Announced enterprise-wide AI education with Accenture LearnVantage. Key quote from Subramaniam on AI importance."
+    },
+    {
+      "name": "FedEx Newsroom - Vishal Talwar Appointment",
+      "url": "https://newsroom.fedex.com/newsroom/global-english/fedex-appoints-vishal-talwar-as-executive-vice-president-chief-digital-and-information-officer-and-president-of-fedex-dataworks",
+      "type": "Press",
+      "date": "2025-08",
+      "notes": "Key leadership appointment. Clarifies reporting structure - all data/tech leaders report to CDIO."
+    },
+    {
+      "name": "FedEx Newsroom - Innovation Lab Launch",
+      "url": "https://newsroom.fedex.com/fedex-launches-fedex-innovation-lab-to-fuel-digital-capabilities-for-whats-next",
+      "type": "Press",
+      "date": "2023-05",
+      "notes": "Launched FedEx Innovation Lab, first investment in Mad Street Den (AI/computer vision)."
+    },
+    {
+      "name": "FedEx Newsroom - Fortune AIQ 50 Recognition",
+      "url": "https://newsroom.fedex.com/fedex-recognized-for-ai-excellence-in-fortune-aiq-50",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Only logistics company in Fortune AIQ 50. Assessed via ServiceNow Enterprise AI Maturity Index."
+    },
+    {
+      "name": "New York Times Interview (via Yahoo Finance)",
+      "url": "https://finance.yahoo.com/news/not-ready-prime-time-yet-010121938.html",
+      "type": "Interview",
+      "date": "2025-01-18",
+      "notes": "Rich source of Subramaniam quotes on data, AI, and humanoid robots. 'Super humanoid robots' framing. Pilot stage admission."
+    },
+    {
+      "name": "FedEx Q1 FY26 Earnings Call Transcript",
+      "url": "https://s21.q4cdn.com/665674268/files/doc_financials/2026/q1/FDX-Q1-FY26-Earnings-Call-Transcript.pdf",
+      "type": "Earnings Call",
+      "date": "2025-09-18",
+      "notes": "PDF transcript available. $4.5B CapEx target. Mentions Vishal Talwar hire."
+    },
+    {
+      "name": "FedEx Investors - Earnings Releases",
+      "url": "https://investors.fedex.com/news-and-events/earnings-releases/default.aspx",
+      "type": "Report",
+      "date": "2025-12",
+      "notes": "Q2 FY26 results. EPS $4.82 beat. Did not fetch full content."
+    },
+    {
+      "name": "CNBC Evolve Global Summit Transcript",
+      "url": "https://www.cnbcevents.com/news/cnbc-transcript-fedex-ceo-raj-subramaniam-speaks-with-frank-holland-from-the-cnbc-evolve-global-summit/",
+      "type": "Conference",
+      "date": "2023-11",
+      "notes": "Subramaniam discussed ML model for delivery estimates, 'head start' on data platforms."
+    },
+    {
+      "name": "FedEx Newsroom - IIT Investment",
+      "url": "https://newsroom.fedex.com/newsroom/amea/fedex-commits-usd10-million-to-iit-bombay-and-iit-madras",
+      "type": "Press",
+      "date": "2024",
+      "notes": "$10M to IIT Bombay and IIT Madras for Centre of Excellence in logistics research."
+    },
+    {
+      "name": "NRF 2024 Keynote Announcement",
+      "url": "https://nrf.com/media-center/press-releases/nrf-announces-fedex-ceo-raj-subramaniam-keynote-speaker-retails-big",
+      "type": "Conference",
+      "date": "2024-01",
+      "notes": "Subramaniam keynote on digital transformation and data-driven supply chains."
+    },
+    {
+      "name": "CIO Dive - Talwar Appointment",
+      "url": "https://www.ciodive.com/news/fedex-chief-digital-information-officer-vishar-talwar/757619/",
+      "type": "Press",
+      "date": "2025-08",
+      "notes": "Additional context on Talwar background (27 years, Accenture, IBM, Dell)."
+    }
+  ],
+
+  "summary": "FedEx operates a Hybrid/Hub-and-Spoke model with FedEx Dataworks as the central AI/data platform, led by Chief Digital and Information Officer Vishal Talwar (reporting to CEO Subramaniam). The company is pursuing enterprise-wide AI literacy through contextual ambidexterity—training all employees in their existing roles rather than separating AI exploration into distinct units. CEO Subramaniam frames AI as enabling 'smarter supply chains for everyone,' with current operational AI deployed for delivery time estimation and package routing, while longer-horizon bets like humanoid robotics remain in pilot stage.",
+
+  "openQuestions": [
+    "What is the headcount of FedEx Dataworks specifically?",
+    "What percentage of total R&D budget goes to AI initiatives?",
+    "How is the relationship structured between FedEx Dataworks and business unit AI applications?",
+    "What specific metrics does FedEx use to measure AI ROI internally?",
+    "Who reports to Vishal Talwar specifically (direct reports)?",
+    "What happened to Adam Smith (CTO from 2023) - still at FedEx?",
+    "What is the budget for the Accenture LearnVantage AI education partnership?"
+  ],
+
+  "conferenceFindings": "Raj Subramaniam has been active on the conference circuit: keynote at NRF 2024 Retail's Big Show (discussed data-driven supply chains with Sara Eisen), speaker at CNBC Evolve Global Summit 2023 (discussed ML models and data platforms), and confirmed for India AI Impact Summit 2026 in February. CTO Adam Smith presented at AI Summit New York 2023 on generative AI. FedEx is also participating in The Conference Board discussions and Asia Society events."
+}

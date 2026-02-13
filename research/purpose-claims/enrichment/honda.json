@@ -1,0 +1,32 @@
+{
+  "specimenId": "honda",
+  "scannedDate": "2026-02-13",
+  "claimCount": 14,
+  "searchesCompleted": 7,
+  "urlsFetched": 8,
+  "fetchFailures": 3,
+  "keyFindings": [
+    "Mibe's rhetorical register is unusually philosophical for a Japanese automotive CEO — he operates primarily in identity and utopian modes rather than the commercial-success framing typical of automotive leaders",
+    "The 'second founding' metaphor is Mibe's central rhetorical device: it reframes organizational discontinuity as rebirth rather than abandonment, giving permission to depart from Honda's legendary engine heritage",
+    "Honda shows a clear two-tier rhetorical structure: Mibe speaks in visionary/identity/survival registers about civilizational mobility transformation, while Brizendine translates this into commercial-success language about digital threads and human-in-the-loop deployment — the CEO authorizes the dream, the IT leader operationalizes it",
+    "The 'augment' keyword bridges both tiers: Mibe uses it at the civilizational level (augment human possibilities), Brizendine at the enterprise level (augment human creativity and productivity). This shared vocabulary creates rhetorical coherence across hierarchical levels.",
+    "Honda's survival claims are concentrated at the CEO inauguration moment (2021) and then give way to identity and utopian claims as the transformation becomes established — suggesting survival rhetoric is deployed at inflection points and then retired"
+  ],
+  "rhetoricalPatterns": [
+    "Founder-mythology invocation: Mibe repeatedly channels Soichiro Honda's 'Power of Dreams' while adding AI/technology dimensions, using founder legacy to authorize technological discontinuity",
+    "Asset-as-liability reversal: Mibe explicitly warns that Honda's profitable stable businesses 'could hamper us' — converting organizational strengths into threats to authorize resource redirection",
+    "Identity expansion over identity replacement: Rather than declaring Honda a 'tech company,' Mibe expands Honda's identity to encompass all mobility domains (ground, sea, sky, space), making AI and robotics natural extensions rather than foreign additions",
+    "Augmentation consensus: Both CEO-level and IT-level rhetoric converge on 'augment' rather than 'replace' as the verb of AI adoption, creating organizational reassurance that AI is additive to Honda's engineering culture"
+  ],
+  "comparativeNotes": "Honda fills a critical gap in our automotive purpose claims collection. Compared to Toyota (cautious, production-system-centric AI framing), Honda's Mibe is dramatically more visionary and philosophically ambitious — the 'second founding' and 'transcend constraints' language has no Toyota equivalent. Compared to BMW (technology-partnership-centric) and Mercedes-Benz (luxury-differentiation-centric), Honda's rhetoric is more identity-driven and less commercially grounded. Compared to Ford (Farley's aggressive commercial restructuring), Honda's claims are softer, more culturally inflected, and more concerned with organizational character than financial performance.\n\nMost distinctively, Honda's purpose rhetoric draws heavily on Japanese founder mythology in a way that European and American automakers cannot replicate. The 'Power of Dreams' serves as a cultural foundation that makes AI investment legible as continuity rather than disruption — Mibe is saying 'we always dreamed big, AI is just the next dream.' This is closer to how Tesla's Musk frames AI (civilizational mission) than how traditional automakers frame it (competitive necessity), but without Musk's personal-brand centrality.",
+  "notableAbsences": "No claims from Honda Research Institute leadership (Keiji Ohtsu or HRI directors) despite HRI being the organizational center of Honda's AI research. No claims from Sony Honda Mobility executives (Yasuhide Mizuno, Izumi Kawanishi) despite AFEELA being Honda's most AI-intensive product. No earnings call transcripts found with AI-specific executive commentary — Japanese earnings calls may be less quote-rich than American ones. No claims from Honda's CDO (Yarlagadda) or from Japanese-market IT leadership. The collection is heavily Mibe-centric with one supplementary voice (Brizendine).",
+  "correctedLeaderInfo": "Bob Brizendine's title appears as both 'SVP of IT' and 'VP of IT' across sources — the CIO.com article uses 'VP of IT' while the specimen file uses 'SVP of IT'. The higher title may reflect a promotion or source inconsistency.",
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 6,
+    "survival": 3,
+    "commercial-success": 3
+  }
+}

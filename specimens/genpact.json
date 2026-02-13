@@ -1,0 +1,117 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "genpact",
+  "name": "Genpact Limited",
+  "title": "BPO Pioneer Productizing AI-Led Transformation Services",
+
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5c",
+    "subTypeName": "Platform-to-Product",
+    "secondaryModel": 2,
+    "secondaryModelName": "Center of Excellence",
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "Genpact's Advanced Technology Solutions unit operates as a distinct productized AI business (24% of revenue, 2x revenue per headcount) that externalizes internal AI capabilities to clients. The three-pillar agentic model and AI Maestro platform represent internal operational capabilities being sold externally—classic M5c Platform-to-Product. The 7,000 AI builders and 20,000 practitioners suggest a secondary M2 CoE function for training and enablement. Structural orientation because AI work is clearly separated into the Advanced Technology Solutions unit rather than distributed across all services.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Business Process Outsourcing",
+    "sector": "Professional Services",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": "$5B+ (implied from $1.2B being 24%)",
+    "headquarters": "New York, NY",
+    "geography": "Global"
+  },
+
+  "description": "Genpact represents a fascinating case of a traditional BPO company undergoing fundamental business model transformation through AI. The company has created a distinct Advanced Technology Solutions unit that generated $1.2B in 2025 revenue (up 17% YoY), representing 24% of total revenue and over one-third of total bookings. This unit delivers more than 2x the revenue per headcount compared to traditional BPO services—a striking productivity differential that signals genuine structural separation.\n\nThe company has developed a 'three-pillar agentic operations model' consisting of: (1) domain-specific agents executing tasks autonomously, (2) last-mile experts validating exceptions and training models, and (3) clear governance roles. This architecture productizes what would otherwise be internal AI enablement into a client-facing offering. With over 7,000 AI builders trained, nearly 20,000 AI practitioners, and 400+ GenAI solutions deployed or going live (nearly tripled from prior year), Genpact has built substantial AI capability at scale.\n\nMost structurally significant is the revenue model shift: 48% of Q4 revenue came from non-FTE (non-headcount-based) revenue models. For a BPO company historically selling labor, this represents a fundamental transformation—moving from selling people to selling AI-powered solutions. The AI Maestro platform for embedding AI across operations codifies this productization.",
+
+  "observableMarkers": {
+    "reportingStructure": "Advanced Technology Solutions as distinct business unit; AI builders and practitioners organized separately from traditional BPO delivery",
+    "resourceAllocation": "Advanced Technology Solutions: $1.2B revenue (24% of total), >33% of bookings; 7,000+ AI builders, 20,000 AI practitioners trained",
+    "timeHorizons": "Quarterly accountability visible (17% YoY growth), but building long-term platform (AI Maestro, agentic operations framework)",
+    "decisionRights": null,
+    "metrics": "Revenue per headcount (2x in ATS unit); non-FTE revenue percentage (48% in Q4); GenAI solutions deployed (400+, tripled YoY); $200M total contract value mentioned"
+  },
+
+  "mechanisms": [
+    {
+      "id": 10,
+      "name": "Productize Internal Operational Advantages",
+      "evidence": "Genpact's three-pillar agentic operations model and AI Maestro platform convert internal BPO AI capabilities into externally sold products. The Advanced Technology Solutions unit generates 2x revenue per headcount by packaging domain expertise + AI into solutions rather than selling labor.",
+      "strength": "Strong"
+    }
+  ],
+
+  "quotes": [
+    {
+      "text": "We are setting the standard for AI-led transformation...connecting deep functional understanding, proprietary data, AI, and agentic systems to truly integrate AI.",
+      "speaker": "Balkrishan Kalra",
+      "speakerTitle": "CEO",
+      "source": "genpact-q4-2025-earnings",
+      "context": "Q4 2025 earnings call, describing Genpact's strategic positioning in agentic AI"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Agentic Operations Framework",
+      "summary": "Advanced Technology Solutions unit at $1.2B revenue (24% of total, 17% YoY growth), with 2x revenue per headcount. Three-pillar agentic model deployed. 48% of Q4 revenue from non-FTE models. 7,000 AI builders, 20,000 practitioners trained. 400+ GenAI solutions live. AI Maestro platform launched.",
+      "sourceRefs": ["genpact-q4-2025-earnings"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "genpact-q4-2025-earnings",
+      "name": "Genpact Q4 2025 Earnings Call",
+      "type": "Earnings Call",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/06/genpact-g-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-06",
+      "collectedDate": "2026-02-07"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Medium. Balkrishan Kalra CEO since 2024. Relatively new but driving AI transformation agenda.",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": -0.4,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": 0.2
+  },
+
+  "openQuestions": [
+    "How does Genpact manage the transition for traditional BPO employees as AI automates tasks?",
+    "What is the governance relationship between Advanced Technology Solutions and traditional service lines?",
+    "How do clients choose between FTE and non-FTE engagement models?",
+    "What is the organizational structure within the AI Maestro platform team?"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] Genpact challenges the M5c 'Platform-to-Product' model in an interesting way: rather than a tech company externalizing a capability (like Walmart with GoLocal), this is a services company productizing AI to escape its own labor-based business model. The 48% non-FTE revenue metric is a structural signal worth tracking across BPO/services specimens.",
+    "[2026-02] The 2x revenue-per-headcount differential between Advanced Technology Solutions and traditional BPO is an unusually clean marker of structural separation's economic value. This could become a diagnostic metric for M5 specimens generally.",
+    "[2026-02] The 'three-pillar agentic operations model' (autonomous agents + human validators + governance) may represent an emerging architectural pattern for how enterprises operationalize agentic AI. Worth watching if similar structures appear in other specimens."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

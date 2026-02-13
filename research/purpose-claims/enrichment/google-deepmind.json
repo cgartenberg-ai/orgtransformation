@@ -1,0 +1,23 @@
+{
+  "specimenId": "google-deepmind",
+  "scannedDate": "2026-02-06",
+  "quality": "rich",
+  "claimCount": 10,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 2,
+    "higher-calling": 0,
+    "identity": 6,
+    "survival": 0,
+    "commercial-success": 0
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

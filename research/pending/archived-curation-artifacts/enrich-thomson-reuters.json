@@ -1,0 +1,149 @@
+{
+  "specimenId": "thomson-reuters",
+  "researchDate": "2026-02-10",
+  "findings": {
+    "aiLeadership": "Joel Hron serves as CTO (appointed July 2024), overseeing Thomson Reuters Labs and all AI initiatives. Previously VP of Technology after TR acquired his startup ThoughtTrace in 2022, then became Head of AI and Thomson Reuters Labs in 2023 before being elevated to CTO. No dedicated CAIO role exists — AI leadership is consolidated under the CTO. Steve Hasker (CEO) is the external AI strategy voice. David Wong is Chief Product Officer. Mary-Alice Vuicic (Chief People Officer) co-leads internal AI adoption alongside the head of technology. Raghu Ramanathan is President of Legal Professionals (joined Feb 2024). Laura Skylaki leads the Enterprise AI Platform team. Rawia Ashraf heads product for CoCounsel transactional and GCO.",
+    "teamStructure": "Thomson Reuters Labs is a decades-old applied R&D group that reports directly to CTO Joel Hron. This is the core AI research engine. The organization has 1,000+ data scientists and AI/ML experts. Separately, 4,000+ subject matter experts conduct benchmarking and human evaluation of AI models before deployment. Open Arena (internal LLM platform) was built by TR Labs in 6 weeks, now has 20,000+ active internal users. The GenAI product teams (CoCounsel Legal, CoCounsel Tax, Westlaw) appear to sit within their respective business segments (Legal, Tax & Accounting) but build on a shared 'Generative AI Platform' infrastructure. Eight AI-related acquisitions in 2 years: Casetext (legal AI, became CoCounsel), Materia (agentic AI for tax/accounting), Additive AI (tax document processing), ThoughtTrace (contract analytics), and others. Engineering has 2,000+ developers using GitHub Copilot with 46% faster task completion.",
+    "reportingLines": "CTO Joel Hron → CEO Steve Hasker (inferred, standard C-suite). Thomson Reuters Labs → CTO Joel Hron (confirmed). Enterprise AI Platform (Laura Skylaki) → likely under CTO/TR Labs. Product teams (CoCounsel, Westlaw) → likely under Chief Product Officer David Wong and respective segment presidents (e.g., Raghu Ramanathan for Legal). Internal AI adoption co-led by CPO Mary-Alice Vuicic and head of technology. The structure appears to be a 'shared platform + embedded product teams' model: TR Labs builds the horizontal AI platform and capabilities, while vertical product teams in each business segment build domain-specific AI products on top of it.",
+    "keyPeople": [
+      {
+        "name": "Joel Hron",
+        "title": "Chief Technology Officer",
+        "role": "Oversees Thomson Reuters Labs, all AI initiatives, M&A integration for AI acquisitions",
+        "appointed": "July 2024 (previously VP Technology from 2022, Head of AI & TR Labs from 2023)",
+        "background": "Former CTO/co-founder of ThoughtTrace (acquired by TR in 2022)"
+      },
+      {
+        "name": "Steve Hasker",
+        "title": "CEO",
+        "role": "External AI strategy voice, sets overall direction, authorized $200M+ annual AI spend",
+        "background": "Former McKinsey, chartered accountant, CEO since 2020"
+      },
+      {
+        "name": "David Wong",
+        "title": "Chief Product Officer",
+        "role": "Product strategy including AI-powered products"
+      },
+      {
+        "name": "Mary-Alice Vuicic",
+        "title": "Chief People Officer",
+        "role": "Co-leads internal AI adoption and workforce transformation"
+      },
+      {
+        "name": "Raghu Ramanathan",
+        "title": "President, Legal Professionals",
+        "role": "Oversees legal segment including CoCounsel Legal and Westlaw",
+        "appointed": "February 2024"
+      },
+      {
+        "name": "Laura Skylaki",
+        "title": "Head of Enterprise AI Platform",
+        "role": "Leads GenAI platform services for internal AI solution development and deployment"
+      },
+      {
+        "name": "Rawia Ashraf",
+        "title": "Head of Product, CoCounsel Transactional & GCO",
+        "role": "Product leadership for CoCounsel in transactional law and general counsel workflows"
+      },
+      {
+        "name": "Mike Dahn",
+        "title": "Head of Westlaw",
+        "role": "Leads Westlaw product including AI-enhanced research capabilities"
+      }
+    ],
+    "newQuotes": [
+      {
+        "speaker": "Joel Hron",
+        "role": "CTO",
+        "quote": "AI didn't shrink our roadmap; it made it bigger.",
+        "source": "SiliconANGLE, Nov 2025",
+        "sourceUrl": "https://siliconangle.com/2025/11/01/thomson-reuters-playbook-ai-everywhere/"
+      },
+      {
+        "speaker": "Joel Hron",
+        "role": "CTO",
+        "quote": "We don't acquire just to scale up what they've done; we acquire to learn from them.",
+        "source": "SiliconANGLE, Nov 2025",
+        "sourceUrl": "https://siliconangle.com/2025/11/01/thomson-reuters-playbook-ai-everywhere/"
+      },
+      {
+        "speaker": "Mary-Alice Vuicic",
+        "role": "Chief People Officer",
+        "quote": "People are nervous... they're wondering, 'Am I going to have a job?'",
+        "source": "Fortune, Jul 2024",
+        "sourceUrl": "https://fortune.com/2024/07/01/how-this-startup-cto-went-on-to-lead-technology-and-ai-for-thomson-reuters/"
+      },
+      {
+        "speaker": "Steve Hasker",
+        "role": "CEO",
+        "quote": "Our bet is that we can take our content and our expertise and our leadership position in research and know-how and use that to drive a leadership position in the legal AI-driven workflows.",
+        "source": "Globe and Mail interview, 2025"
+      }
+    ],
+    "newSources": [
+      {
+        "title": "How this startup CTO went on to lead technology and AI for Thomson Reuters",
+        "url": "https://fortune.com/2025/10/01/how-this-startup-cto-went-on-to-lead-technology-and-ai-for-thomson-reuters/",
+        "date": "2025-10-01",
+        "type": "executive profile",
+        "keyDetail": "Joel Hron CTO appointment, ThoughtTrace acquisition backstory, TR Labs reports to CTO, 7 GenAI products in 18 months"
+      },
+      {
+        "title": "Thomson Reuters' playbook is AI everywhere",
+        "url": "https://siliconangle.com/2025/11/01/thomson-reuters-playbook-ai-everywhere/",
+        "date": "2025-11-01",
+        "type": "interview/analysis",
+        "keyDetail": "20,000 Open Arena users, 4,000 SMEs for AI evaluation, 8 acquisitions in 2 years, Hron on acquisition strategy"
+      },
+      {
+        "title": "How Thomson Reuters Chief People Officer sold employees on AI",
+        "url": "https://fortune.com/2024/07/01/how-thomson-reuters-chief-people-officer-sold-employees-on-ai/",
+        "date": "2024-07-01",
+        "type": "executive interview",
+        "keyDetail": "Mary-Alice Vuicic co-leads AI adoption, 6,000 employees in first learning day, 10,000 watched AI 101, CPO role in transformation"
+      },
+      {
+        "title": "How Thomson Reuters successfully adopted AI (GitHub case study)",
+        "url": "https://resources.github.com/enterprise/thomson-reuters-ai-adoption/",
+        "date": "2024",
+        "type": "case study",
+        "keyDetail": "2,000+ developer seats on GitHub Copilot, 46% faster task completion, 39% code quality improvement"
+      },
+      {
+        "title": "Democratizing AI: How Thomson Reuters Open Arena supports no-code AI",
+        "url": "https://aws.amazon.com/blogs/machine-learning/democratizing-ai-how-thomson-reuters-open-arena-supports-no-code-ai-for-every-professional-with-amazon-bedrock/",
+        "date": "2024",
+        "type": "technical case study",
+        "keyDetail": "Open Arena built on Amazon Bedrock, Laura Skylaki leads Enterprise AI Platform"
+      },
+      {
+        "title": "Thomson Reuters Advances AI Market Leadership with New Agentic AI Solutions",
+        "url": "https://www.prnewswire.com/news-releases/thomson-reuters-advances-ai-market-leadership-with-new-agentic-ai-solutions-302603228.html",
+        "date": "2025-11",
+        "type": "press release",
+        "keyDetail": "ONESOURCE+ and next-gen agentic CoCounsel for Tax, Audit, Accounting and Legal"
+      },
+      {
+        "title": "Thomson Reuters Convenes Global AI Leaders - Trust in AI Alliance",
+        "url": "https://www.prnewswire.com/news-releases/thomson-reuters-convenes-global-ai-leaders-to-advance-trust-in-the-age-of-intelligent-systems-302659492.html",
+        "date": "2026-01",
+        "type": "press release",
+        "keyDetail": "Trust in AI Alliance launched through TR Labs"
+      }
+    ],
+    "observableMarkers": {
+      "dedicatedUnit": true,
+      "unitName": "Thomson Reuters Labs (decades-old R&D group, now AI-focused under CTO)",
+      "headcount": "1,000+ data scientists and AI/ML experts; 4,000+ subject matter experts for AI evaluation; 2,000+ developers on Copilot; 26,000 total employees",
+      "cSuiteSponsor": "CEO Steve Hasker (external strategy voice) + CTO Joel Hron (operational AI lead)",
+      "investmentScale": "$200M+ annually on AI upgrades (2025 and 2026)",
+      "acquisitionStrategy": "8 AI acquisitions in 2 years (Casetext, Materia, Additive AI, ThoughtTrace, others)",
+      "internalPlatform": "Open Arena — 20,000+ active internal users, built on Amazon Bedrock, launched in 6 weeks",
+      "productPortfolio": "CoCounsel Legal, CoCounsel Tax/Audit/Accounting, Westlaw Advantage, ONESOURCE+",
+      "employeeEngagement": "85%+ of employees actively engaged with AI tools; 300+ AI use cases in development",
+      "workforceTransformation": "$39M+ severance for AI-driven restructuring; CPO co-leads change management; 6,000 employees in first AI learning day"
+    },
+    "classificationNotes": "Current classification M6a/Contextual (Low completeness) needs significant upgrade. The evidence now reveals a much more complete picture: Thomson Reuters Labs is a long-standing dedicated AI R&D unit (M3-like center of excellence) that serves as a horizontal platform, while AI products are built within vertical business segments (Legal, Tax & Accounting). The CTO oversees both the platform and acquisition integration. This is closer to M5 (Dual Engine) or possibly M7 (Platform + Embedded): a central AI platform (TR Labs + Open Arena) providing shared capabilities, with embedded product teams in each business segment building domain-specific AI applications. The 8 acquisitions in 2 years add an M8 (Acquisition Integration) dimension. Completeness should move to Medium-High given the named leadership, team structure, platform details, and financial commitments now documented."
+  },
+  "enrichmentSummary": "Significant structural detail uncovered. Joel Hron (CTO, appointed July 2024) oversees Thomson Reuters Labs — a decades-old R&D group now focused on AI — and leads AI M&A integration (8 acquisitions in 2 years including Casetext and Materia). The organization uses a platform-plus-embedded model: TR Labs and the Enterprise AI Platform (led by Laura Skylaki) provide shared AI infrastructure, while product teams in Legal (under Raghu Ramanathan) and Tax segments build domain-specific products like CoCounsel and Westlaw. Open Arena has 20,000+ internal users. Annual AI investment exceeds $200M. Classification should be upgraded from M6a/Low to reflect the Dual Engine or Platform + Embedded structure with Medium-High completeness."
+}

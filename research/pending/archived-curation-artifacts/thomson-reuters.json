@@ -1,0 +1,46 @@
+{
+  "company": "Thomson Reuters Corporation",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    {
+      "url": "https://www.insidermonkey.com/blog/thomson-reuters-corporation-nasdaqtri-q4-2025-earnings-call-transcript-1690317/",
+      "reason": "JS-rendered, no transcript content returned"
+    },
+    {
+      "url": "https://www.metaintro.com/blog/dow-layoffs-ai-automation-transform-outperform",
+      "reason": "JS-rendered, no article content returned"
+    },
+    {
+      "url": "https://futurumgroup.com/insights/sap-q4-fy-2025-earnings-cloud-erp-strength-ai-traction/",
+      "reason": "JS-rendered, no article content returned"
+    }
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "Open Arena internal AI platform with 85%+ employee adoption",
+      "url": "https://www.defenseworld.net/2026/02/07/thomson-reuters-q4-earnings-call-highlights.html",
+      "type": "Earnings Call",
+      "date": "2026-02-07",
+      "notes": "Open Arena internal AI platform with 85%+ employee adoption"
+    }
+  ],
+  "summary": "Open Arena internal AI platform with 85%+ employee adoption: Thomson Reuters has established Open Arena, an internal AI platform with over 85% employee adoption across the organization. More than 300 AI use cases are currently in development across the company. AI-enabled products at 28% of ACV and growing \u2014 CoCounsel, deep research, agentic features: GenAI-enabled products represented 28% of annualized contract value (ACV) by Q4, up from 24% the prior quarter. Products include Westlaw Advantage, CoCounsel Legal, CoCounsel for Tax and Audit. Deep r AI productivity displacement \u2014 $19M severance in Q4, $20M more in 2026: CEO Steve Hasker described initiatives to 'reimagine how we work.' Severance expenses totaled $19M in Q4 2025, with $10M expected in Q1 2026 and approximately $10M remaining through Q2-Q4 2026. CFO Mi Measurable AI productivity gains in customer support and content operations: Customer support: 15% reduction in average handle time and 10% increase in first-call resolution. Content operations: 25% acceleration in U.S. content delivery to Westlaw.",
+  "openQuestions": [],
+  "splitFrom": "earnings-discovery-q4-2025.json"
+}

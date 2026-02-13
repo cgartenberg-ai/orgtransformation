@@ -24,17 +24,24 @@
     "headquarters": "Paris, France",
     "geography": "Global"
   },
-  "description": "Sanofi operates a centralized 'AI Research Factory' model with dedicated AI scientists working on internal tools and models specific to drug discovery. The factory develops proprietary models like CodonBERT for understanding genetic code, and has identified 7 drug targets through AI approaches.\n\nThe plai platform serves as the internal AI deployment mechanism, enabling therapeutic area teams to leverage centralized AI capabilities without building their own. This hub-and-spoke arrangement allows the central factory to maintain cutting-edge AI research while therapeutic areas focus on domain-specific drug development.\n\nThe centralized model ensures consistency in AI governance and quality while the spoke deployment enables domain-specific application across Sanofi's therapeutic portfolio.",
+  "description": "Sanofi operates a centralized 'AI Research Factory' model with dedicated AI scientists working on internal tools and models specific to drug discovery. The factory develops proprietary models like CodonBERT for understanding genetic code, and has identified 7 drug targets through AI approaches.\n\nThe plai platform serves as the internal AI deployment mechanism, enabling therapeutic area teams to leverage centralized AI capabilities without building their own. This hub-and-spoke arrangement allows the central factory to maintain cutting-edge AI research while therapeutic areas focus on domain-specific drug development.\n\nThe centralized model ensures consistency in AI governance and quality while the spoke deployment enables domain-specific application across Sanofi's therapeutic portfolio.\n\nCEO Paul Hudson has elevated AI to a core identity claim, framing Sanofi as an 'R&D-driven, AI-powered biopharma company.' Hudson has also introduced the ROAI (Return on AI Investment) framework as a measurement approach, noting that 95% of AI pilot projects fail industry-wide—positioning Sanofi as moving beyond pilots to scaled deployment.",
   "observableMarkers": {
     "reportingStructure": "Centralized AI Research Factory serves therapeutic area business units",
-    "resourceAllocation": null,
+    "resourceAllocation": "Opella divestiture completed; reinvestment in AI and M&A; 5B euro share buyback indicates strategic portfolio simplification",
     "timeHorizons": "Multi-year drug discovery; medium-term platform development",
     "decisionRights": "Central factory builds models and platforms; therapeutic areas define application domains",
-    "metrics": "7 AI-identified drug targets in pipeline. Proprietary models: CodonBERT. Internal platform: plai."
+    "metrics": "7 AI-identified drug targets in pipeline. Proprietary models: CodonBERT. Internal platform: plai. ROAI (Return on AI Investment) framework introduced for measuring AI value."
   },
   "mechanisms": [],
   "quotes": [],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Added CEO Hudson's framing of Sanofi as 'R&D-driven, AI-powered biopharma company' from Q4 2025 results. Added ROAI (Return on AI Investment) framework as measurement approach. Added Opella divestiture context showing reinvestment in AI and M&A. Two new sources with URLs.",
+      "classification": null,
+      "sourceRefs": ["source-3", "source-4"]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
@@ -70,12 +77,32 @@
       "sourceDate": null,
       "collectedDate": "2026-01-20",
       "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press Release",
+      "name": "Sanofi Q4 2025 Results - Hudson frames as 'R&D-driven, AI-powered biopharma company'",
+      "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-01-29-06-30-00-3228191",
+      "timestamp": null,
+      "sourceDate": "2026-01-29",
+      "collectedDate": "2026-02-07",
+      "notes": "CEO Paul Hudson described Sanofi's strategic identity as 'R&D-driven, AI-powered biopharma company' during Q4 2025 results. Elevates AI from tool to core identity claim."
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "STAT News - ROAI framework introduction",
+      "url": "https://www.statnews.com/2025/11/17/roai-return-investment-ai-sanofi-paul-hudson/",
+      "timestamp": null,
+      "sourceDate": "2025-11-17",
+      "collectedDate": "2026-02-07",
+      "notes": "Hudson published STAT article introducing ROAI (Return on AI Investment) as measurement framework for AI value. Notes 95% of AI pilot projects fail (citing MIT), positioning Sanofi as moving beyond pilots."
     }
   ],
   "contingencies": {
     "regulatoryIntensity": "High",
     "timeToObsolescence": "Slow",
-    "ceoTenure": null,
+    "ceoTenure": "High. Paul Hudson CEO since 2019 (~7 years). Strong mandate — framed Sanofi as 'R&D-driven, AI-powered biopharma company.' Introduced ROAI measurement framework.",
     "talentMarketPosition": "Talent-constrained",
     "technicalDebt": "Medium"
   },
@@ -83,21 +110,29 @@
     "structuralVsContextual": -0.6,
     "speedVsDepth": -0.4,
     "centralVsDistributed": -0.5,
-    "namedVsQuiet": -0.5,
+    "namedVsQuiet": -0.3,
     "longVsShortHorizon": -0.5
   },
   "openQuestions": [
     "How large is the AI Research Factory team?",
     "What is the reporting line for the AI Research Factory (CTO, CSO, CAIO)?",
     "How does CodonBERT compare to external models — why build proprietary?",
-    "What percentage of Sanofi's pipeline has AI involvement?"
+    "What percentage of Sanofi's pipeline has AI involvement?",
+    "What specific metrics comprise the ROAI framework — how is 'return on AI' calculated?",
+    "How has the Opella divestiture specifically enabled AI investment — what portion of proceeds went to AI?"
   ],
-  "taxonomyFeedback": [],
+  "taxonomyFeedback": [
+    "[2026-02] Sanofi's M4 variant reveals a distinctive trade-off in pharma AI: the decision to build proprietary domain models (CodonBERT) rather than fine-tune general-purpose LLMs suggests the hub is doing genuine research work, not just MLOps. This positions the 'AI Research Factory' closer to M1 Research Lab territory than typical M4 hubs, which usually focus on standards and enablement. The economic logic: when domain-specific training data is proprietary and core to competitive advantage (genetic sequences, drug interaction data), centralizing model development prevents duplication while protecting IP. But this raises coordination costs—therapeutic area teams can't easily experiment with alternative approaches, creating potential brittleness if the central models underperform.",
+    "[2026-02] The 'plai platform' as deployment mechanism is structurally interesting because it inverts the typical M4 hub-spoke relationship. Rather than the hub setting governance standards for distributed AI development (the usual M4 pattern), here the hub builds the actual AI capabilities and the platform mediates access. This is more akin to an internal AI product company serving business units as customers. The structural question this raises: what happens when a therapeutic area needs AI capabilities the platform doesn't provide? In standard M4, spokes have autonomy to build within guardrails. Here, the spoke may be dependent on the hub's roadmap, potentially creating bottlenecks. The '7 AI-identified drug targets' metric suggests this is working, but without knowing total pipeline size or therapeutic area satisfaction, we can't assess whether centralization is constraining or enabling.",
+    "[2026-02] The tension scores suggest centralization across all dimensions (all negative), but the 'talent-constrained' contingency raises a key structural question: is this M4 configuration a choice or a constraint? Pharma AI talent is scarce, and Sanofi may be centralizing because they can't staff AI teams in each therapeutic area. If true, this specimen demonstrates M4 as a response to talent market failure rather than a deliberate architectural choice about coordination. This would predict that as AI talent becomes more available (or as foundation models reduce need for specialized AI scientists), we might see Sanofi drift toward M3 Embedded Teams or M6a Enterprise-Wide Adoption. The proprietary model investment (CodonBERT) could be a hedge—building IP assets that justify continued centralization even if talent constraints ease.",
+    "[2026-02] Hudson's framing of Sanofi as 'R&D-driven, AI-powered biopharma company' is taxonomically significant—it elevates AI from infrastructure (M4's typical positioning) to core identity. This rhetorical move is interesting because it doesn't change the underlying structure (still centralized hub serving therapeutic areas), but it signals top-level commitment that could affect resource allocation and organizational attention. The namedVsQuiet tension score adjusted slightly (from -0.5 to -0.3) because this identity claim is louder than typical M4 positioning, though still not as performative as M5/M6 specimens.",
+    "[2026-02] The ROAI (Return on AI Investment) framework is the most structurally interesting signal in this scan. Hudson's MIT citation that '95% of AI pilot projects fail' paired with introducing a measurement framework suggests Sanofi is trying to institutionalize AI accountability—moving from pilot-stage experimentation to scaled, measured deployment. This is a coordination mechanism: ROAI creates a common language for evaluating AI investments across therapeutic areas, potentially reducing coordination costs between the central hub and business unit spokes. The question is whether ROAI measures hub outputs (model quality, platform usage) or spoke outcomes (drug discovery acceleration). If the latter, it could shift power toward therapeutic areas by making them arbiters of AI value."
+  ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Medium",
     "convertedFrom": "library/cases/sanofi.json"
   }
 }

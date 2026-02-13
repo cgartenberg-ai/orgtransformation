@@ -3,16 +3,16 @@
   "name": "Meta",
   "title": "Meta Superintelligence Labs — Serial Restructuring & AI-First Pivot",
   "classification": {
-    "structuralModel": 4,
-    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
     "subType": null,
     "subTypeName": null,
-    "secondaryModel": 1,
-    "secondaryModelName": "Research Lab",
+    "secondaryModel": 3,
+    "secondaryModelName": "Embedded Teams",
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "High",
-    "classificationRationale": "RECLASSIFIED from Model 1 (Research Lab) to Model 4 (Hybrid/Hub-and-Spoke). The Oct 2025 restructuring consolidated Meta's AI into a 4-unit Meta Superintelligence Labs (MSL) under Alexandr Wang: (1) TBD Lab (LLMs), (2) FAIR (long-term research), (3) Products & Applied Research, (4) MSL Infra. This is a classic hub-and-spoke with MSL as the hub and 4 specialized units as spokes. FAIR retains as secondary Model 1 element but is now subordinated to product-driven leadership. The departure of chief scientist LeCun signals that pure research autonomy was sacrificed for product coordination. High confidence: 15+ sources with detailed structural information across 3 research sessions.",
+    "classificationRationale": "M4→M1+M3 (Audit 2026-02-12). MSL under Wang is a consolidated research organization (M1) formed from FAIR+GenAI merger. Product teams (Instagram AI, WhatsApp AI) embed AI independently (M3). The meta-exploration-failure insight confirms: FAIR autonomy was sacrificed in consolidation, making this a research-subordinated-to-product structure, not a hub coordinating spokes. LeCun's departure is the clearest signal.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -26,11 +26,11 @@
   },
   "description": "Meta reorganized its AI division into Meta Superintelligence Labs (MSL) with 4 units: (1) TBD Lab (frontier models including Llama, led by Shengjia Zhao), (2) FAIR (long-term research), (3) Products & Applied Research (led by Nat Friedman, former GitHub CEO), and (4) MSL Infrastructure (led by Aparna Ramani). The consolidation is led by Alexandr Wang (28, founder/former CEO of Scale AI), whom Meta appointed as Chief AI Officer after acquiring a 49% stake in Scale AI for $14.3 billion.\n\nIn October 2025, Meta cut approximately 600 positions from MSL but notably spared the TBD Lab unit. Wang's internal memo described the restructuring as 'disruptive,' aimed at eliminating bureaucracy. The restructuring triggered the departure of Yann LeCun (Turing Award winner, Meta's Chief AI Scientist for 12 years), who publicly stated his disagreement with the new reporting structure and left to found AMI Labs.\n\nIn January 2026, Meta cut another 1,500 positions from Reality Labs (~10% of its ~15,000 workforce), closing three VR game studios (Armature, Sanzaru, Twisted Pixel) while protecting AR/wearables teams (Ray-Ban smart glasses). CFO Susan Li guided that Reality Labs losses would peak in 2026 then gradually decline. Cumulative Reality Labs losses since 2020 exceed $70 billion.\n\nMeta's Q4 2025 earnings revealed $59.89B revenue (beating estimates) and extraordinary 2026 CapEx guidance of $115-135B — nearly double 2025's $72.2B — the single largest AI investment commitment by any company. Zuckerberg described MSL as 'the most talent-dense research effort in the industry' six months after formation, and articulated a vision for 'personal superintelligence' — AI that understands personal context, history, interests, and relationships. He stated that 'what many big teams at Meta do can now be accomplished by a single, very talented person,' signaling explicit commitment to flattening teams and AI-native tooling that elevates individual contributors.",
   "observableMarkers": {
-    "reportingStructure": "4-unit MSL under Alexandr Wang (CAIO). FAIR, TBD Lab, Products & Applied Research, MSL Infra. Wang reports to Zuckerberg.",
-    "resourceAllocation": "$14.3B for 49% Scale AI stake. ~600 positions cut Oct 2025 (TBD Lab spared). 1,500 Reality Labs cuts Jan 2026. $115-135B 2026 CapEx guidance. Aggressive 7-9 figure talent packages. $70B+ cumulative Reality Labs losses.",
-    "timeHorizons": "Shifted from long-term research (FAIR era) toward product delivery (MSL era). Mango + Avocado models for H1 2026. 'Personal superintelligence' as long-term vision.",
-    "decisionRights": "Consolidated under Wang. Wang memo: 'fewer conversations... each person more load-bearing.' Zuckerberg: 'single talented person' replacing big teams, flattening org structure.",
-    "metrics": "$59.89B Q4 2025 revenue. $14.3B Scale AI acquisition. ~600 AI layoffs. 1,500 Reality Labs layoffs. 3.5B daily users across apps. $115-135B 2026 CapEx."
+    "reportingStructure": "4-unit MSL under Alexandr Wang (CAIO) [mlq-reorg-2025]. FAIR, TBD Lab, Products & Applied Research, MSL Infra [mlq-reorg-2025]. Wang reports to Zuckerberg [storyboard-wang-2025].",
+    "resourceAllocation": "$14.3B for 49% Scale AI stake [storyboard-wang-2025]. ~600 positions cut Oct 2025 (TBD Lab spared) [axios-layoffs-2025]. 1,500 Reality Labs cuts Jan 2026 [cnbc-msl-layoffs-2025]. $115-135B 2026 CapEx guidance [cnbc-meta-q4-2026]. Aggressive 7-9 figure talent packages [mlq-reorg-2025]. $70B+ cumulative Reality Labs losses [cnbc-meta-rl-2026].",
+    "timeHorizons": "Shifted from long-term research (FAIR era) toward product delivery (MSL era) [puck-reorg-2025]. Mango + Avocado models for H1 2026 [mlq-models-2026]. \"Personal superintelligence\" as long-term vision [cnbc-meta-q4-2026].",
+    "decisionRights": "Consolidated under Wang [mlq-reorg-2025]. Wang memo: \"fewer conversations... each person more load-bearing\" [axios-layoffs-2025]. Zuckerberg: \"single talented person\" replacing big teams, flattening org structure [cnbc-meta-q4-2026].",
+    "metrics": "$59.89B Q4 2025 revenue [meta-ir-q4-2026]. $14.3B Scale AI acquisition [storyboard-wang-2025]. ~600 AI layoffs [axios-layoffs-2025]. 1,500 Reality Labs layoffs [cnbc-msl-layoffs-2025]. 3.5B daily users across apps [cnbc-meta-q4-2026]. $115-135B 2026 CapEx [cnbc-meta-q4-2026]."
   },
   "mechanisms": [
     {
@@ -110,39 +110,94 @@
   ],
   "layers": [
     {
+      "date": "2026-02",
+      "label": "Meta Compute Infrastructure Pivot + Reality Labs Retreat",
+      "summary": "Zuckerberg announced Meta Compute — a strategic bet that winning in AI requires winning with infrastructure. This represents a structural resource reallocation from one exploration frontier (Reality Labs VR/AR) to another (AI compute infrastructure). Signals a retreat from the metaverse bet to double down on AI infrastructure. Full details behind Stratechery paywall but the strategic direction is confirmed.",
+      "classification": null,
+      "sourceRefs": ["stratechery-meta-compute-2026"]
+    },
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke + M1 → M1 Research Lab + M3 Embedded Teams",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M1 Research Lab + M3 Embedded. MSL is consolidated research (FAIR+GenAI), product teams embed AI independently. No hub-spoke infrastructure sharing.",
+      "classification": "M4 Hybrid/Hub-and-Spoke + M1",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
+    {
       "date": "2026-01",
       "label": "Q4 2025 Earnings — CapEx Surge & Org Flattening",
       "summary": "Q4 2025 earnings: $59.89B revenue, EPS $8.88. 2026 CapEx guidance $115-135B (nearly double 2025). Zuckerberg describes MSL as 'most talent-dense research effort in the industry.' Articulates 'personal superintelligence' vision. Explicitly commits to flattening teams, AI-native tooling, elevating individual contributors. 'What many big teams do can now be accomplished by a single, very talented person.'",
       "classification": null,
-      "sourceRefs": ["cnbc-meta-q4-2026", "fortune-meta-q4-2026", "yahoo-meta-q4-2026", "bestmediainfo-meta-q4-2026", "webpronews-meta-q4-2026", "meta-ir-q4-2026"]
+      "sourceRefs": [
+        "cnbc-meta-q4-2026",
+        "fortune-meta-q4-2026",
+        "yahoo-meta-q4-2026",
+        "bestmediainfo-meta-q4-2026",
+        "webpronews-meta-q4-2026",
+        "meta-ir-q4-2026"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Reality Labs Retreat — 1,500 Cuts, VR Studio Closures",
       "summary": "Reality Labs cut 1,500 jobs (~10% of ~15,000 workforce). Three VR game studios closed (Armature, Sanzaru, Twisted Pixel). Five studios retained. AR/wearables teams (Ray-Ban smart glasses) protected. Exploring doubling smart glasses production to 20M units/year. $70B+ cumulative Reality Labs losses since 2020. CFO Susan Li guided losses peak in 2026, gradual reduction from 2027.",
       "classification": null,
-      "sourceRefs": ["cnbc-meta-rl-2026", "storyboard-meta-rl-2026", "geekwire-meta-rl-2026", "trendforce-meta-rl-2026", "sfchronicle-meta-rl-2026"]
+      "sourceRefs": [
+        "cnbc-meta-rl-2026",
+        "storyboard-meta-rl-2026",
+        "geekwire-meta-rl-2026",
+        "trendforce-meta-rl-2026",
+        "sfchronicle-meta-rl-2026"
+      ]
     },
     {
       "date": "2025-10",
       "label": "MSL 4-Unit Consolidation & Wang CAIO",
       "summary": "5th major AI restructuring. All AI teams consolidated under MSL with 4 units: TBD Lab (frontier models, Shengjia Zhao), FAIR (research), Products & Applied Research (Nat Friedman), MSL Infra (Aparna Ramani). Alexandr Wang (28, Scale AI founder) appointed CAIO via $14.3B deal. ~600 positions cut (TBD Lab spared). Wang memo described restructuring as 'disruptive.' LeCun departed Nov 2025 — tension over reporting lines. 8 researchers poached from OpenAI, DeepMind, Anthropic. Zuckerberg personally recruiting with 7-9 figure packages.",
       "classification": "Model 1 (Research Lab) → reclassified to Model 4 (Hybrid/Hub-and-Spoke)",
-      "sourceRefs": ["yahoo-wang-2025", "storyboard-msl-2025", "americanbazaar-wang-2025", "cnbc-msl-layoffs-2025", "decoder-lecun-2025", "wikipedia-msl-2025", "mlq-reorg-2025", "storyboard-wang-2025", "axios-layoffs-2025", "puck-reorg-2025"]
+      "sourceRefs": [
+        "yahoo-wang-2025",
+        "storyboard-msl-2025",
+        "americanbazaar-wang-2025",
+        "cnbc-msl-layoffs-2025",
+        "decoder-lecun-2025",
+        "wikipedia-msl-2025",
+        "mlq-reorg-2025",
+        "storyboard-wang-2025",
+        "axios-layoffs-2025",
+        "puck-reorg-2025"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Meta Compute & Reality Labs Retreat",
       "summary": "Stratechery reported Meta retreating from Reality Labs to fund AI infrastructure ('Meta Compute'). Zuckerberg bet: winning in AI means winning with infrastructure.",
       "classification": null,
-      "sourceRefs": ["stratechery-meta-compute-2026"]
+      "sourceRefs": [
+        "stratechery-meta-compute-2026"
+      ]
     },
     {
       "date": "2025-10",
       "label": "MSL Consolidation & Layoffs",
       "summary": "EVOLUTION: Previous dual-track (GenAI under Chris Cox + FAIR under LeCun) → consolidated 4-unit MSL under Alexandr Wang. ~600 positions cut (TBD Lab spared). Wang appointed CAIO via $14.3B Scale AI deal. Mango + Avocado models for H1 2026. LeCun departed to found AMI Labs. 11 researchers poached from DeepMind, OpenAI, Anthropic.",
       "classification": "Model 1 (Research Lab) → reclassified to Model 4 (Hybrid/Hub-and-Spoke)",
-      "sourceRefs": ["mlq-reorg-2025", "storyboard-wang-2025", "axios-layoffs-2025", "puck-reorg-2025", "mlq-models-2026"]
+      "sourceRefs": [
+        "mlq-reorg-2025",
+        "storyboard-wang-2025",
+        "axios-layoffs-2025",
+        "puck-reorg-2025",
+        "mlq-models-2026"
+      ]
     },
     {
       "date": "2026-01",
@@ -268,12 +323,12 @@
     },
     {
       "id": "stratechery-meta-compute-2026",
-      "type": "Substack",
-      "name": "Stratechery — Meta Compute, The Meta-OpenAI Battle, The Reality Labs Sacrifice",
-      "url": "https://stratechery.com/2026/meta-compute-the-meta-openai-battle-the-reality-labs-sacrifice/",
+      "type": "Analysis",
+      "name": "Stratechery — Technology Doings (Meta Compute)",
+      "url": "https://stratechery.com/2026/technology-doings/",
       "timestamp": null,
-      "sourceDate": "2026-01-14",
-      "collectedDate": "2026-01-31",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-12",
       "notes": "[paywall] Zuckerberg bet on AI infrastructure over Reality Labs."
     },
     {
@@ -445,6 +500,16 @@
       "sourceDate": "2026-01-28",
       "collectedDate": "2026-02-03",
       "notes": "Official press release."
+    },
+    {
+      "id": "informationweek-meta-rl-2026",
+      "type": "Press",
+      "name": "InformationWeek — 2026 Tech Company Layoffs (Meta Reality Labs)",
+      "url": "https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-12",
+      "notes": "Merged from deprecated meta-reality-labs specimen. Reality Labs ~1,500 cuts as part of broader AI pivot."
     }
   ],
   "contingencies": {
@@ -480,12 +545,14 @@
     "Meta is a powerful counter-example for Mechanism #1 (Protect Off-Strategy Work): when the CEO stops protecting research autonomy, the chief scientist leaves and the research lab loses its independence.",
     "The 'repeated reorgs' pattern (Puck: 'Why Did Meta Reorganize Its AI Unit... Again?') suggests organizational instability as a cost of rapid strategic pivots. The taxonomy doesn't capture the costs of excessive structural flexibility.",
     "Zuckerberg's 'single talented person' statement is the most explicit CEO endorsement of AI-driven management delayering we've documented. Combined with similar statements from Jassy (Amazon) and Nadella (Microsoft), this represents a cross-industry convergence on org flattening.",
-    "The Reality Labs retreat pattern — $70B cumulative exploration losses followed by pivot to AI wearables — is a case study in how structural ambidexterity fails when the exploration bet doesn't deliver within the organization's tolerance window."
+    "The Reality Labs retreat pattern — $70B cumulative exploration losses followed by pivot to AI wearables — is a case study in how structural ambidexterity fails when the exploration bet doesn't deliver within the organization's tolerance window.",
+    "[2026-02-12] meta-reality-labs specimen merged into this specimen. Reality Labs is a division of Meta, not an independent organizational unit. All RL data (sources, layers, taxonomy observations) is already captured here. The RL specimen was a Stub with a single source; this specimen covers RL comprehensively across multiple layers and sources.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M1+M3. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — MSL is consolidated research (FAIR+GenAI), product teams embed AI independently. No hub-spoke infrastructure sharing."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-04",
+    "lastUpdated": "2026-02-13",
     "completeness": "High",
     "convertedFrom": "library/cases/meta-ai.json"
   }

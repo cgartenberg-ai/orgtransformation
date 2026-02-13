@@ -1,0 +1,144 @@
+{
+  "company": "Toyota",
+  "ticker": "TM",
+  "leader": "Koji Sato (transitioning to Kenta Kon April 2026)",
+  "leaderTitle": "CEO",
+  "sector": "Automotive",
+  "quadrant": "Q2",
+  "scannedDate": "2026-02-08",
+  "searchesCompleted": 5,
+  "urlsFetched": 5,
+  "fetchFailures": ["https://en.wikipedia.org/wiki/Toyota_Research_Institute (403)"],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "High",
+    "rationale": "Toyota has a multi-layered AI structure with clear structural separation: (1) Toyota Research Institute (TRI) serves as the pure research hub focused on long-horizon breakthroughs in autonomous driving, robotics, materials science, and AI; (2) Enterprise AI organization within TMNA's OneTech IT division handles near-term enterprise-wide AI adoption and productivity; (3) Global AI Accelerator (GAIA) bridges research and production; (4) Five Toyota Group companies collaborate through the Toyota Software Academy. This is a classic hub-and-spoke model with TRI as the research hub, Enterprise AI as the execution hub, and GAIA as the bridge mechanism.",
+    "aiTeamStructure": "Toyota has a distinctly layered AI structure: (1) Toyota Research Institute (TRI) - Silicon Valley-based R&D subsidiary founded 2016 with $1B initial investment, led by CEO Gill Pratt (Chief Scientist), focused on autonomous driving, robotics, materials science, and fundamental AI research. TRI has offices in Los Altos (HQ) and Cambridge. (2) Enterprise AI organization - newly formed within TMNA's OneTech IT division, led by Brian Kursar (Group VP, Head of Enterprise AI), focused on enterprise-wide AI adoption for productivity, manufacturing, and customer experience. (3) Global AI Accelerator (GAIA) - bridges TRI research to production across 11 categories including autonomous driving, manufacturing, robotics, and in-vehicle agents. (4) Toyota Software Academy - joint initiative across 5 Toyota Group companies (Toyota, AISIN, DENSO, Toyota Tsusho, Woven by Toyota) for AI/software training. (5) Woven by Toyota - software and high-tech startup focusing on automated driving and next-gen mobility.",
+    "keyPeople": [
+      {"name": "Gill Pratt", "title": "Chief Scientist / CEO of Toyota Research Institute", "role": "Leads TRI, drives global AI strategy, roboticist and former DARPA official"},
+      {"name": "Brian Kursar", "title": "Group Vice President, Head of Enterprise AI at TMNA", "role": "Leads enterprise-wide AI strategy, executive technical advisor at TRI for GAIA program, co-leads In-Vehicle AI agent development"},
+      {"name": "Koji Sato", "title": "CEO (until April 2026)", "role": "Led company transformation, transitioning to Vice Chairman and Chief Industry Officer"},
+      {"name": "Kenta Kon", "title": "Incoming CEO (from April 2026), previously CFO", "role": "Previously led Woven by Toyota, brings automated driving and finance expertise"},
+      {"name": "Dave Tsai", "title": "CTO, Toyota Connected North America", "role": "Leads connected vehicle platforms and telematics AI integration"},
+      {"name": "Eric Krotkov", "title": "COO, Toyota Research Institute", "role": "Former DARPA Program Manager, operational leadership at TRI"},
+      {"name": "James Kuffner", "title": "Cloud Computing Lead at TRI", "role": "Former Google Robotics, CMU professor"}
+    ],
+    "investmentSignals": "Initial $1 billion investment in TRI over 5 years (2016-2021). $50 million for university partnerships at Stanford and MIT over 5 years. GAIA represents 'significant expansion' of AI R&D investment. FY2026 guidance shows JPY 3.8 trillion operating income despite tariff headwinds, suggesting continued capacity for R&D investment. Toyota sold 10.5 million vehicles in 2025, providing substantial cash flow for AI investment.",
+    "observableMarkers": {
+      "reportingStructure": "TRI reports to Toyota corporate as R&D subsidiary. Enterprise AI sits within TMNA's OneTech IT division. GAIA bridges TRI research to production across Toyota Group. Incoming CEO Kenta Kon has direct experience with Woven by Toyota (automated driving startup), suggesting AI will have CEO attention.",
+      "resourceAllocation": "Dedicated budgets for TRI ($1B initial), university partnerships ($50M), and GAIA. Enterprise AI has dedicated organization within OneTech IT. Multiple AI-focused entities (TRI, Woven, Toyota Connected) operate with independent budgets.",
+      "timeHorizons": "Multi-horizon approach: TRI pursues long-term research (3-10 year breakthroughs in autonomy and robotics). Enterprise AI focuses on near-term productivity (20%+ developer productivity gains). GAIA bridges research to production (1-3 year technology transfer). Manufacturing AI already deployed (troubleshooting reduced from 7 hours to 15 seconds).",
+      "decisionRights": "Federated model - TRI has research autonomy, Enterprise AI has TMNA-wide mandate, GAIA coordinates cross-entity technology transfer. Five Toyota Group companies collaborate through Toyota Software Academy. Kursar emphasizes 'guardrails' and measurement for AI quality.",
+      "metrics": "ROI and TCO (Kursar emphasizes avoiding 'tech for the sake of tech'). Developer productivity (20%+ improvement with AI coding tools). Time savings (manufacturing diagnosis: 7 hours → 15 seconds). Code coverage improvements. Customer-facing safety metrics (Toyota Safety Sense adoption)."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "There is tremendous enthusiasm across global Toyota for leveraging AI to improve speed and efficiency in everything from manufacturing to design to office work, and to create new products that utilize AI... By working together as one team, transcending organizational boundaries and national borders, we will provide greater value to our customers through AI.",
+      "speaker": "Gill Pratt",
+      "speakerTitle": "Chief Scientist, Toyota Motor Corporation / CEO, Toyota Research Institute",
+      "source": "Toyota Global Newsroom - Five Toyota Group Companies to Accelerate Skill Development and Innovation in AI and Software",
+      "sourceUrl": "https://global.toyota/en/newsroom/corporate/42805724.html",
+      "sourceDate": "2025-05",
+      "context": "Announcement of Toyota Software Academy and Global AI Accelerator (GAIA)"
+    },
+    {
+      "text": "We're now able to analyze and leverage all forms of content — structured and unstructured.",
+      "speaker": "Brian Kursar",
+      "speakerTitle": "Group Vice President, Head of Enterprise AI, Toyota Motor North America",
+      "source": "CDO Magazine - GenAI Is Changing Everything at Toyota",
+      "sourceUrl": "https://www.cdomagazine.tech/opinion-analysis/genai-is-changing-everything-at-toyota-ai-chief-brian-kursar-explains-how",
+      "sourceDate": "2025",
+      "context": "Interview about Toyota's AI transformation and data strategy evolution"
+    },
+    {
+      "text": "Our AI-powered coding tools have boosted developer productivity by at least 20%.",
+      "speaker": "Brian Kursar",
+      "speakerTitle": "Group Vice President, Head of Enterprise AI, Toyota Motor North America",
+      "source": "CDO Magazine - GenAI Is Changing Everything at Toyota",
+      "sourceUrl": "https://www.cdomagazine.tech/opinion-analysis/genai-is-changing-everything-at-toyota-ai-chief-brian-kursar-explains-how",
+      "sourceDate": "2025",
+      "context": "Discussing GenAI productivity gains for developers"
+    },
+    {
+      "text": "Toyota is not as advanced as early entrants using AI- and machine-learning-based systems, such as Tesla and certain other players, and Toyota can learn from them.",
+      "speaker": "Kenta Kon",
+      "speakerTitle": "Incoming CEO (previously CFO), Toyota Motor Corporation",
+      "source": "Toyota Q3 Earnings Briefing",
+      "sourceUrl": "https://www.defenseworld.net/2026/02/07/toyota-motor-q3-earnings-call-highlights.html",
+      "sourceDate": "2026-02",
+      "context": "Q3 earnings briefing addressing Toyota's AI positioning relative to competitors"
+    },
+    {
+      "text": "Software and data are increasingly essential to mobility.",
+      "speaker": "Gill Pratt",
+      "speakerTitle": "CEO, Toyota Research Institute",
+      "source": "Toyota USA Newsroom - TRI Leadership Team Announcement",
+      "sourceUrl": "https://pressroom.toyota.com/tri-leadership-team-artificial-intelligence-robotics-research/",
+      "sourceDate": "2016-01",
+      "context": "TRI leadership team announcement, founding vision"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "CDO Magazine - GenAI Is Changing Everything at Toyota",
+      "url": "https://www.cdomagazine.tech/opinion-analysis/genai-is-changing-everything-at-toyota-ai-chief-brian-kursar-explains-how",
+      "type": "Interview",
+      "date": "2025",
+      "notes": "Excellent source on Brian Kursar's role, Enterprise AI organization, productivity metrics, manufacturing AI applications, and strategic philosophy"
+    },
+    {
+      "name": "Toyota Global Newsroom - Five Toyota Group Companies AI/Software Initiative",
+      "url": "https://global.toyota/en/newsroom/corporate/42805724.html",
+      "type": "Press",
+      "date": "2025-05",
+      "notes": "Details on Toyota Software Academy, GAIA, 11 AI focus categories, key quote from Gill Pratt"
+    },
+    {
+      "name": "Toyota USA Newsroom - TRI Leadership Team Announcement",
+      "url": "https://pressroom.toyota.com/tri-leadership-team-artificial-intelligence-robotics-research/",
+      "type": "Press",
+      "date": "2016-01",
+      "notes": "Foundational TRI information: $1B investment, leadership team, university partnerships, research mandate"
+    },
+    {
+      "name": "CEOWORLD Magazine - Toyota CEO Transition",
+      "url": "https://ceoworld.biz/2026/02/06/toyotas-boardroom-bombshell-cfo-kenta-kon-elevated-to-ceo-as-koji-sato-steps-aside/",
+      "type": "Press",
+      "date": "2026-02-06",
+      "notes": "Leadership transition from Sato to Kon, Kon's background with Woven by Toyota"
+    },
+    {
+      "name": "Defense World - Toyota Q3 Earnings Call Highlights",
+      "url": "https://www.defenseworld.net/2026/02/07/toyota-motor-q3-earnings-call-highlights.html",
+      "type": "Earnings Call",
+      "date": "2026-02",
+      "notes": "Kon's candid assessment of Toyota's AI position vs Tesla, data scale advantages"
+    },
+    {
+      "name": "Toyota Research Institute Homepage",
+      "url": "https://www.tri.global/",
+      "type": "Blog",
+      "date": "2026",
+      "notes": "TRI vision, mission, and human-centered AI focus areas"
+    }
+  ],
+
+  "summary": "Toyota operates a multi-layered Hybrid/Hub-and-Spoke AI structure with clear structural separation between exploration and execution. Toyota Research Institute (TRI) serves as the research hub ($1B initial investment, led by Chief Scientist Gill Pratt) focusing on autonomous driving, robotics, and fundamental AI breakthroughs. Enterprise AI within TMNA (led by Brian Kursar) handles near-term enterprise adoption, achieving 20%+ developer productivity gains and manufacturing diagnosis improvements from 7 hours to 15 seconds. The Global AI Accelerator (GAIA) bridges research to production across 11 categories. The incoming CEO Kenta Kon (April 2026) brings direct experience from Woven by Toyota and candidly acknowledges Toyota is 'not as advanced as Tesla' in AI while pointing to Toyota's scale (10M annual sales, 150M vehicles in operation) as a data advantage.",
+
+  "openQuestions": [
+    "What is TRI's current headcount and budget (post-initial $1B investment)?",
+    "How many people are in the Enterprise AI organization?",
+    "What is the total AI R&D spend across Toyota Group companies?",
+    "How does GAIA prioritize which technologies move from TRI to production?",
+    "What specific AI capabilities is Woven by Toyota developing?",
+    "How will the Sato → Kon CEO transition affect AI investment priorities?"
+  ],
+
+  "conferenceFindings": "The research task mentioned AWS re:Invent 2025 with Toyota presenting on Enterprise AI and dealer assistants. While we did not find direct conference transcript content, Brian Kursar's role description mentions 'In-Vehicle AI agent development initiatives' and customer-facing AI applications. The Enterprise AI organization's focus on 'real-time equipment health monitoring,' personalized customer service, and 'driver preferences' adjustment aligns with the conference topics. The dealer assistant capability likely connects to their knowledge accelerator work that provides new employees with 'expertise comparable to veterans with decades of experience.'"
+}

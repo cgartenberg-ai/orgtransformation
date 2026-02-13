@@ -1,0 +1,33 @@
+{
+  "specimenId": "hp-inc",
+  "scannedDate": "2026-02-13",
+  "claimCount": 14,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": 1,
+  "keyFindings": [
+    "Lores is overwhelmingly the dominant rhetorical voice — 12 of 14 claims are his. The only other speaker is Tuan Tran (2 claims), and his register is notably more commercial/technical than Lores's humanistic framing. This creates acute leadership-purpose coupling risk.",
+    "The central rhetorical move is identity-shedding: 'We are not a PC or printer vendor but focused on the future of work.' This single claim (hp-inc--003) is the foundation on which the entire AI transformation narrative rests — without it, the Humane acquisition, HP IQ, and $1B savings program would appear incoherent.",
+    "Lores's purpose rhetoric exhibits a sharp internal tension: AI simultaneously enables worker 'fulfillment' (thinking, creating) AND eliminates 4,000-6,000 jobs. Claims hp-inc--007 and hp-inc--010 sit in direct contradiction. The 'most difficult decisions we need to make' framing attempts to manage this tension through moral seriousness.",
+    "No claims found from interim CEO Bruce Broussard, CTO Tolga Kurtoglu, or division presidents Ketan Patel and Anneliese Olson. This is a significant absence — the AI transformation narrative is a one-man show.",
+    "The CEO departure is the most significant finding: Lores architected and narrated the entire AI transformation, then left for PayPal before it was executed. This is a natural experiment in whether purpose claims can survive the departure of the leader who made them."
+  ],
+  "rhetoricalPatterns": [
+    "Growth-and-fulfillment duality: Lores consistently frames AI as achieving both organizational productivity and individual worker fulfillment simultaneously — a dual-optimization claim that positions HP at the 'intersection' of competing stakeholder needs.",
+    "Identity shedding: Explicit rejection of legacy hardware identity ('PC or printer vendor') in favor of purpose-oriented identity ('future of work'). This is the foundational rhetorical move.",
+    "Liberation-from-drudgery: AI frees workers from 'mechanical tasks' to do what they 'enjoy' — 'thinking, creating.' Classic humanistic framing of automation.",
+    "Civilizational scale claims: 'Every knowledge worker,' 'most fundamental,' 'totally changing' — Lores regularly elevates HP-specific product claims to universal transformation claims."
+  ],
+  "comparativeNotes": "HP is a hardware company using AI purpose claims to execute a strategic identity transformation — from 'PC and printer vendor' to 'future of work company.' This is structurally similar to other hardware companies in the collection that use AI narratives to escape commodity traps (compare Siemens's 'technology company' identity). However, HP's case is unique in three ways. First, the CEO who architected the transformation departed before execution — making this the only specimen in the collection where the purpose-claim author is no longer present to sustain the narrative. Second, the rhetorical concentration is extreme: 12 of 14 claims come from a single speaker. Third, the tension between liberation rhetoric ('thinking, creating') and elimination reality (4,000-6,000 job cuts) is unusually explicit — Lores doesn't hide the layoffs but frames them as 'the most difficult decisions we need to make,' performing reluctant necessity rather than denying the contradiction. Compared to other tech specimens, HP's claims are notably more humanistic and less technically oriented — Lores talks about fulfillment, enjoyment, and human interaction rather than model parameters or inference speed.",
+  "notableAbsences": "The most significant absence is interim CEO Bruce Broussard — no AI purpose claims found. This is the critical empirical question: does the transformation narrative survive the leadership transition, or does it go dark during the interim period? Also absent: CTO Tolga Kurtoglu (no public AI purpose claims despite leading HP Labs), division presidents Ketan Patel and Anneliese Olson (no claims despite leading AI embedding in their divisions), and Chief Strategy Officer Prakash Arunkundrum (no claims despite leading enterprise transformation). The AI purpose narrative at HP is entirely Lores-dependent, which makes his departure potentially devastating for the rhetorical infrastructure of the transformation.",
+  "correctedLeaderInfo": null,
+  "claimTypeDistribution": {
+    "utopian": 3,
+    "teleological": 3,
+    "higher-calling": 0,
+    "identity": 1,
+    "survival": 0,
+    "commercial-success": 7,
+    "note": "Some claims have secondary types: 2 commercial-success claims have utopian secondary; 1 has survival secondary; 1 teleological has higher-calling secondary. Primary types counted here."
+  }
+}

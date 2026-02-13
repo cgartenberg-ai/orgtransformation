@@ -1,0 +1,230 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "uber",
+  "name": "Uber",
+  "title": "Hub-and-Spoke AI Labs with Partnership-Based AV Strategy",
+  "classification": {
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 5,
+    "secondaryModelName": "Product/Venture Lab",
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "M4→M1+M5 (Audit 2026-02-12). Uber AI Labs operates as a research lab with 'Core' (fundamental research) and 'Connections' (product integration) programs — this is M1 with a product bridge, not a hub coordinating shared infrastructure. AV partnerships (Aurora, Wayve) represent M5 venture-style exploration. Per HANDOFF item #36: 'AI Labs looks more like M1 Research Lab + M3 Embedded than true hub-spoke coordination.' Keeping M5 secondary (AV ventures) rather than M3 since the product embedding evidence is weaker.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Transportation / Mobility",
+    "sector": "Technology / Platform",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "San Francisco, CA",
+    "geography": "Global"
+  },
+  "description": "Uber structures AI work through a classic hub-and-spoke architecture centered on Uber AI Labs, founded in December 2016 through the acquisition of Geometric Intelligence. The lab operates two explicit programs: 'Core' for fundamental research in areas like Bayesian optimization, neuroevolution, and reinforcement learning, and 'Connections' for integrating AI capabilities with product teams across rideshare, Eats, freight, and formerly autonomous vehicles. Chief Scientist Zoubin Ghahramani (formerly Cambridge professor) leads approximately 96 employees across 5 teams.\n\nBeyond the research hub, Uber embeds AI deeply into its core platform operations—30 million rides per day rely on AI for routing, matching, and pricing. This operational AI sits within platform engineering, separate from the research function. A third structural element is Uber AI Solutions, a distinct business unit (formerly Scaled Solutions) that commercializes data annotation and labeling capabilities to external clients including Aurora and Niantic, operating across 30 countries.\n\nUber's autonomous vehicle strategy has evolved from internal build (ATG, divested to Aurora in 2020) to a partnership-based approach with Waymo, Aurora, and NVIDIA. CEO Khosrowshahi articulates a 10-20 year timeline for full AV scaling, with an explicit goal to be 'the largest facilitator of AV trips in the world' by 2029. The shift from skunkworks to partnerships represents a strategic re-allocation of exploration activity from internal R&D to external partners while retaining the platform coordination layer.",
+  "observableMarkers": {
+    "reportingStructure": "No CAIO. Chief Scientist leads AI Labs. AI work embedded in product/engineering. AV strategy reports to CEO given strategic importance.",
+    "resourceAllocation": "AI Labs appears to have dedicated budget. AI Solutions unit has independent P&L serving external clients. Core AI (routing, pricing) embedded in platform engineering.",
+    "timeHorizons": "Mixed: Core AI (routing, pricing) operates on quarterly product cycles. AI Labs conducts multi-year fundamental research. AV timeline is 10-20 years for full scaling per Khosrowshahi.",
+    "decisionRights": "Centralized for fundamental research (AI Labs). Distributed for applied AI (product teams embed AI engineers). AV decisions highly centralized given CEO involvement in partnership deals.",
+    "metrics": "Trips/vehicle/day for AV (30% higher on Uber vs standalone). Customer satisfaction for AI customer service. Efficiency gains for AI-enabled merchant recruitment. Category growth in AV markets (Austin, Atlanta accelerating)."
+  },
+  "mechanisms": [
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Uber's customer service AI transformation explicitly involved abandoning old rule-based policies and letting AI 'reason' independently. Khosrowshahi describes 'surviving a bunch of car crashes internally' to get there—indicating deployment-driven learning through iteration rather than upfront specification.",
+      "strength": "Moderate"
+    },
+    {
+      "id": 10,
+      "name": "Productize Internal Operational Advantages",
+      "evidence": "Uber AI Solutions commercializes internal data labeling and annotation capabilities to external clients including Aurora and Niantic. The unit expanded to 30 countries and serves external AI labs, turning an internal operational function into a standalone business.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Play-acting is how many businesses approach AI... saying the right words about AI without changing how their operations function.",
+      "speaker": "Dara Khosrowshahi",
+      "speakerTitle": "CEO",
+      "source": "World Economic Forum Davos 2026",
+      "sourceUrl": "https://finance.yahoo.com/news/uber-ceo-dara-khosrowshahi-says-203121736.html",
+      "sourceDate": "2026-01",
+      "context": "Davos panel on AI adoption, distinguishing real transformation from 'AI veneer'"
+    },
+    {
+      "text": "Allowing the AI actually to reason through that and throwing away all of the old policies is turning out to be the most promising way forward.",
+      "speaker": "Dara Khosrowshahi",
+      "speakerTitle": "CEO",
+      "source": "World Economic Forum Davos 2026",
+      "sourceUrl": "https://www.aol.com/news/uber-ceo-most-promising-way-161507362.html",
+      "sourceDate": "2026-01",
+      "context": "Explaining Uber's breakthrough in AI customer service by abandoning old rules"
+    },
+    {
+      "text": "You have to survive through a bunch of car crashes internally to do so.",
+      "speaker": "Dara Khosrowshahi",
+      "speakerTitle": "CEO",
+      "source": "World Economic Forum Davos 2026",
+      "sourceUrl": "https://www.benzinga.com/news/topics/26/02/50351517/uber-ceo-dara-khosrowshahi-says-companies-are-play-acting-with-ai-even-as-90-plan-to-spend-more-the-real-work-means-breaking-down-the-rules",
+      "sourceDate": "2026-02",
+      "context": "On the difficulty of getting AI adoption right internally"
+    },
+    {
+      "text": "AI is not going to replace you. The thing that's going to replace you is a human who knows how to use AI.",
+      "speaker": "Dara Khosrowshahi",
+      "speakerTitle": "CEO",
+      "source": "Brown University SPS 10th Anniversary Event",
+      "sourceUrl": "https://www.browndailyherald.com/article/2025/04/uber-ceo-dara-khosrowshahi-91-p27-discusses-curiosity-ai-at-sps-10th-anniversary-event",
+      "sourceDate": "2025-04",
+      "context": "Discussing AI's impact on employment and the importance of AI skills"
+    },
+    {
+      "text": "By 2029, we intend to be the largest facilitator of AV trips in the world.",
+      "speaker": "Dara Khosrowshahi",
+      "speakerTitle": "CEO",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/uber-uber-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-04",
+      "context": "Articulating Uber's AV strategy and timeline"
+    },
+    {
+      "text": "The formation of Uber AI Labs represents Uber's commitment to advancing the state of the art.",
+      "speaker": "Jeff Holden",
+      "speakerTitle": "Chief Product Officer (former)",
+      "source": "Uber Newsroom - Founding Uber AI Labs",
+      "sourceUrl": "https://www.uber.com/newsroom/ailabs/",
+      "sourceDate": "2016-12-05",
+      "context": "Announcing creation of Uber AI Labs"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke + M5 → M1 Research Lab + M5 Product/Venture Lab",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M1 Research Lab + M5 Product/Venture. AI Labs is research; AV partnerships are venture exploration.",
+      "classification": "M4 Hybrid/Hub-and-Spoke + M5",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Initial Research Collection",
+      "summary": "Uber operates a hub-and-spoke AI model with AI Labs (founded 2016, ~96 employees, 5 teams) conducting Core research and Connections with product teams. CEO Khosrowshahi articulates philosophy of 'real' AI transformation vs 'play-acting', exemplified by customer service rebuild. AV strategy shifted from internal ATG (divested 2020) to partnership model with Waymo, Aurora, NVIDIA. AI Solutions unit commercializes data labeling externally.",
+      "sourceRefs": [
+        "uber-q4-2025-earnings",
+        "uber-ai-labs-founding",
+        "uber-davos-2026-yahoo",
+        "uber-davos-2026-aol",
+        "uber-brown-2025",
+        "uber-theorg-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "uber-q4-2025-earnings",
+      "name": "Uber Q4 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/04/uber-uber-q4-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "sourceDate": "2026-02-04",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "uber-ai-labs-founding",
+      "name": "Founding Uber AI Labs - Uber Newsroom",
+      "url": "https://www.uber.com/newsroom/ailabs/",
+      "type": "Blog",
+      "sourceDate": "2016-12-05",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "uber-davos-2026-yahoo",
+      "name": "Uber CEO on AI at Davos 2026 - Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/uber-ceo-dara-khosrowshahi-says-203121736.html",
+      "type": "Press",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "uber-davos-2026-aol",
+      "name": "Uber CEO on AI adoption - AOL/Fortune",
+      "url": "https://www.aol.com/news/uber-ceo-most-promising-way-161507362.html",
+      "type": "Press",
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "uber-brown-2025",
+      "name": "Khosrowshahi at Brown University SPS Event",
+      "url": "https://www.browndailyherald.com/article/2025/04/uber-ceo-dara-khosrowshahi-91-p27-discusses-curiosity-ai-at-sps-10th-anniversary-event",
+      "type": "Interview",
+      "sourceDate": "2025-04",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "uber-theorg-2026",
+      "name": "The Org - Uber AI Structure",
+      "url": "https://theorg.com/org/uber",
+      "type": "Report",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "uber-ai-solutions-2025",
+      "name": "Uber AI Solutions Expansion - Investor Relations",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2025/Uber-Expands-AI-Data-Platform-to-Power-Next-Gen-Enterprise-and-AI-Lab-Needs/default.aspx",
+      "type": "Press",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "uber-toronto-hub-2017",
+      "name": "Uber AI Hub Toronto - Vice",
+      "url": "https://www.vice.com/en/article/ubers-ai-hub-in-pittsburgh-gutted-a-university-lab-now-its-in-toronto/",
+      "type": "Press",
+      "sourceDate": "2017",
+      "collectedDate": "2026-02-09"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": 0.4,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.7,
+    "longVsShortHorizon": 0.0
+  },
+  "openQuestions": [
+    "What is Zoubin Ghahramani's current scope and reporting relationship? Is AI Labs still active under that name or evolved?",
+    "How large is the AI Solutions (data labeling) business unit? Revenue? Headcount?",
+    "Did Raquel Urtasun and the Toronto hub remain after ATG divestiture, or did they move to Aurora?",
+    "What is the budget allocation between internal AI R&D vs. AV partnership investments?",
+    "How is the Conversational AI team (hands-free voice assistant) structured relative to AI Labs?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Uber's explicit 'Core and Connections' naming for AI Labs programs is a rare case of self-aware hub-and-spoke design—most M4 specimens evolve into this structure accidentally. The nomenclature suggests deliberate organizational design thinking.",
+    "[2026-02] The ATG divestiture (2020) and shift to AV partnerships represents an interesting structural evolution: from M8 Skunkworks to what might be called 'externalized exploration'—keeping platform coordination internally while outsourcing the hardest R&D to partners. This pattern may warrant a new subtype for M4.",
+    "[2026-02] Uber AI Solutions productizing internal data labeling capabilities (M10 mechanism) is structurally similar to Walmart GoLocal and Amazon AWS—platform companies monetizing operational capabilities. But unlike those cases where the product targets external logistics/compute buyers, Uber is selling to other AI labs, creating an unusual B2B-AI-services revenue stream.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M1+M5. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — AI Labs is research; AV partnerships are venture exploration."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

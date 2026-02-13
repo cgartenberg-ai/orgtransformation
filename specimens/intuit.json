@@ -1,0 +1,237 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "intuit",
+  "name": "Intuit",
+  "title": "Dual AI Tracks: Foresight for Products, CoE for Operations, GenOS Mediating Both",
+
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 2,
+    "secondaryModelName": "Center of Excellence",
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "High",
+    "classificationRationale": "Decision tree: Formal AI unit=YES (Intuit Foresight) → Publishes research=NO (platform/product AI is primary output) → Central team=YES → Builds+Enables=YES → Shared AI infrastructure (GenOS) with bidirectional flow=YES → 3+ domain spokes (TurboTax, QuickBooks, Credit Karma, Mailchimp)=YES → M4. Secondary M2: Ivan Lazarov's 'How Intuit Works' CoE is a separate inward-facing AI transformation track with cross-functional teams and three-level goal framework. G8 checked: true bidirectional hub-spoke — hub provides GenOS platform/standards/models, spokes feed back domain requirements and data. VP of AI (Nhung Ho) sits on spoke side leading applied AI in product groups, confirming spoke-level AI capacity.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Financial Technology / Software",
+    "sector": "Consumer Finance / Tax / SMB",
+    "orgSize": "Large",
+    "employees": "18,000+",
+    "revenue": null,
+    "headquarters": "Mountain View, CA",
+    "geography": "US (CA, NY, TX), Israel, India"
+  },
+
+  "description": "Intuit operates a well-developed hub-and-spoke AI structure anchored by two distinct organizational mechanisms. The hub is 'Intuit Foresight,' a few-hundred-person unit created in mid-2025 when CAIO Ashok Srivastava merged the existing AI/ML team with the Futures team (quantum computing, blockchain, emerging tech). Foresight has three functional pillars — analytics, data infrastructure, and AI/ML — and builds the GenOS platform that product teams across TurboTax, QuickBooks, Credit Karma, and Mailchimp depend on for AI development [intuit-genos-press-release] [hdsr-srivastava-interview].\n\nSeparately, VP of Technology Ivan Lazarov leads the 'How Intuit Works' initiative through a Center of Excellence model focused on internal AI transformation — automating operations, changing how Intuit itself works [bain-lazarov-interview]. This creates a dual AI structure: outward-facing product AI innovation (Foresight under CAIO) and inward-facing operational AI transformation (CoE under VP Technology). Lazarov's three-level goal framework (Level 1: commitments with accountability, Level 2: aspirational with flexible timelines, Level 3: 'big and audacious' moonshot thinking) is a contextual ambidexterity mechanism that legitimizes speculative exploration within an accountability-driven culture [bain-lazarov-interview].\n\nGenOS — Intuit's proprietary generative AI operating system — mediates between hub and spokes. Its four components (GenStudio sandbox, GenRuntime orchestration with embedded security/risk/fraud framework, GenUX component library, AI Workbench with LLM leaderboard) enable product teams to go from idea to live customer experiment 'in just days' [intuit-genos-press-release]. The platform supports a multi-model strategy: proprietary models alongside Claude, Gemini, LLaMA, Mistral, and a $100M+ OpenAI partnership that also serves as a distribution channel (TurboTax advice inside ChatGPT reaches OpenAI's 800M weekly users) [fortune-openai-deal].",
+
+  "observableMarkers": {
+    "reportingStructure": "CAIO Srivastava reports to CTO Alex Balazs (not CEO). Srivastava leads Intuit Foresight (few hundred employees). VP of AI Nhung Ho leads applied AI teams for QuickBooks, TurboTax, Customer Success — sits on spoke side. VP Technology Ivan Lazarov leads internal CoE ('How Intuit Works'). CEO Goodarzi sets strategic direction, works directly with CAIO on key initiatives [fortune-caio-appointment] [hdsr-srivastava-interview] [bain-lazarov-interview].",
+    "resourceAllocation": "8,000+ technologists out of 18,000+ total employees (nearly half). $100M+ OpenAI partnership. $20B+ MACROHARDRR data center investment (N/A — that's xAI). Foresight unit: few hundred employees across 5+ locations. July 2024 restructuring cut 1,800 (10% of workforce) while simultaneously hiring for AI roles [fortune-caio-profile] [intuit-restructuring].",
+    "timeHorizons": "Lazarov's three-level framework: Level 1 = achievable commitments with accountability, Level 2 = aspirational with flexible timelines acknowledging technology evolution, Level 3 = 'big and audacious' magic-wand thinking. Foresight incorporates Futures function (quantum, blockchain) with multi-year horizons alongside near-term GenOS platform development [bain-lazarov-interview].",
+    "decisionRights": "GenOS enables self-serve onboarding — product teams can launch AI experiments without approval gates. Governance embedded in platform (GenSRF security/risk/fraud framework) rather than committee-based review processes. CTO-CAIO pair develops AI roadmap collaboratively. Srivastava's guidance for agent teams: 'Just let them write code and experiment with customers' [fortune-caio-appointment] [intuit-genos-press-release].",
+    "metrics": "60 billion ML predictions daily [hdsr-srivastava-interview]. 3,500 generative AI use cases (internal + external) in FY2025 [fortune-caio-profile]. 2M+ customers engaged with AI agents since July 2025 launch, 80%+ repeat engagement [fortune-caio-profile]. Developer velocity: 40% faster coding, 39% more code per developer YoY, 8x increase in production releases per engineer per week [fortune-caio-profile] [bain-lazarov-interview]. 11% reduction in customer support contacts via AI self-help [bain-lazarov-interview]. 7,500+ participants in biannual Global Engineering Days, ~500 GED projects using GenAI [fortune-caio-profile]."
+  },
+
+  "mechanisms": [
+    {
+      "id": 10,
+      "name": "Productize Internal Operational Advantages",
+      "evidence": "GenOS platform built for internal product teams also underpins TurboTax-inside-ChatGPT distribution deal ($100M+ OpenAI partnership). Internal AI capability becomes external distribution channel.",
+      "strength": "Moderate"
+    },
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "GenOS enables product teams to go from idea to live customer experiment 'in just days' via self-serve onboarding. 3,500 GenAI use cases in FY2025. Global Engineering Days (7,500+ participants) as mass experimentation events.",
+      "strength": "Strong"
+    }
+  ],
+
+  "quotes": [
+    {
+      "speaker": "Sasan Goodarzi",
+      "speakerTitle": "Chairman and CEO",
+      "quote": "Companies that aren't prepared to take advantage of this AI revolution will fall behind and, over time, will no longer exist.",
+      "source": "AI Innovision",
+      "sourceUrl": "https://aiinnovision.com/intuits-ai-restructuring-lessons-for-businesses-embracing-the-ai-revolution/",
+      "date": "2024-07"
+    },
+    {
+      "speaker": "Sasan Goodarzi",
+      "speakerTitle": "Chairman and CEO",
+      "quote": "Six years ago, we shared that we're betting the entire company on data and AI.",
+      "source": "Diginomica",
+      "sourceUrl": "https://diginomica.com/disrupting-or-disrupted-ceo-sasan-goodarzi-intuits-response-taxing-questions-saas-vendors-around-ai",
+      "date": "2025-12"
+    },
+    {
+      "speaker": "Sasan Goodarzi",
+      "speakerTitle": "Chairman and CEO",
+      "quote": "To try to break out what's AI-driven is a meaningless exercise because the whole company is fueled by data and AI.",
+      "source": "Diginomica",
+      "sourceUrl": "https://diginomica.com/disrupting-or-disrupted-ceo-sasan-goodarzi-intuits-response-taxing-questions-saas-vendors-around-ai",
+      "date": "2025-12"
+    },
+    {
+      "speaker": "Ashok Srivastava",
+      "speakerTitle": "SVP & Chief AI and Data Officer",
+      "quote": "We're not just taking AI or machine learning off the shelf and deploying it.",
+      "source": "Harvard Data Science Review",
+      "sourceUrl": "https://hdsr.mitpress.mit.edu/pub/5bupaly7/release/1",
+      "date": "2025-01"
+    },
+    {
+      "speaker": "Ashok Srivastava",
+      "speakerTitle": "SVP & Chief AI and Data Officer",
+      "quote": "Just let them write code and experiment with customers.",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/09/03/chief-ai-officer-alliancebernstein-gen-digital/",
+      "date": "2025-09-03"
+    },
+    {
+      "speaker": "Ivan Lazarov",
+      "speakerTitle": "VP of Technology",
+      "quote": "Mere efficiency is just AI table stakes.",
+      "source": "Bain & Company",
+      "sourceUrl": "https://www.bain.com/insights/beyond-ai-efficiency-a-conversation-with-intuits-ivan-lazarov/",
+      "date": "2025-11"
+    },
+    {
+      "speaker": "Sandeep Aujla",
+      "speakerTitle": "CFO",
+      "quote": "It's the customer's data, and it remains on our platform. Our standards for stewardship haven't changed one bit.",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/11/21/intuit-cfo-talks-100-million-openai-deal-innovation-road-ahead/",
+      "date": "2025-11-21"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2025-08",
+      "label": "CAIO Appointment + Intuit Foresight Creation",
+      "summary": "Srivastava promoted from CDO (8-year tenure) to CAIO. Combined AI/ML team with Futures team into Intuit Foresight. GenOS platform enhanced with AI Workbench and multi-model support. $100M+ OpenAI partnership. Lazarov's CoE running parallel internal transformation track.",
+      "classification": null,
+      "sourceRefs": ["fortune-caio-profile", "fortune-caio-appointment", "hdsr-srivastava-interview", "bain-lazarov-interview", "intuit-genos-press-release", "fortune-openai-deal"]
+    },
+    {
+      "date": "2024-07",
+      "label": "AI Restructuring",
+      "summary": "1,800 employees laid off (10% of workforce). 1,050 for performance, 300 for operational streamlining, 10% reduction in executive roles. Simultaneously hiring for AI expertise. CEO frames as existential: companies that don't embrace AI 'will no longer exist.'",
+      "classification": null,
+      "sourceRefs": ["intuit-restructuring"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "fortune-caio-profile",
+      "type": "Press",
+      "name": "Fortune — How Intuit's chief AI officer supercharged the company's emerging technologies teams",
+      "url": "https://fortune.com/2025/12/05/how-intuits-chief-ai-officer-supercharged-the-companys-emerging-technologies-teams-and-why-not-every-company-should-follow-his-lead/",
+      "sourceDate": "2025-12-05",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "fortune-caio-appointment",
+      "type": "Press",
+      "name": "Fortune — Chief AI Officer Appointments (AllianceBernstein, Gen Digital, Intuit)",
+      "url": "https://fortune.com/2025/09/03/chief-ai-officer-alliancebernstein-gen-digital/",
+      "sourceDate": "2025-09-03",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "hdsr-srivastava-interview",
+      "type": "Academic/Interview",
+      "name": "Harvard Data Science Review — Ashok Srivastava Interview",
+      "url": "https://hdsr.mitpress.mit.edu/pub/5bupaly7/release/1",
+      "sourceDate": "2025-01",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "bain-lazarov-interview",
+      "type": "Interview",
+      "name": "Bain & Company — Beyond AI Efficiency: A Conversation with Intuit's Ivan Lazarov",
+      "url": "https://www.bain.com/insights/beyond-ai-efficiency-a-conversation-with-intuits-ivan-lazarov/",
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "intuit-genos-press-release",
+      "type": "Press Release",
+      "name": "Intuit Investor Relations — GenOS Enhancements Announcement",
+      "url": "https://investors.intuit.com/news-events/press-releases/detail/1210/intuit-accelerates-development-velocity-with-major-enhancements-to-proprietary-generative-ai-operating-system-genos",
+      "sourceDate": "2024-10-30",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "fortune-openai-deal",
+      "type": "Press",
+      "name": "Fortune — Intuit CFO Talks $100 Million OpenAI Deal",
+      "url": "https://fortune.com/2025/11/21/intuit-cfo-talks-100-million-openai-deal-innovation-road-ahead/",
+      "sourceDate": "2025-11-21",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "intuit-restructuring",
+      "type": "Press",
+      "name": "AI Innovision — Intuit's AI Restructuring: Lessons for Businesses",
+      "url": "https://aiinnovision.com/intuits-ai-restructuring-lessons-for-businesses-embracing-the-ai-revolution/",
+      "sourceDate": "2024-07",
+      "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "diginomica-goodarzi",
+      "type": "Press",
+      "name": "Diginomica — CEO Goodarzi on Intuit's Response to SaaS AI Disruption",
+      "url": "https://diginomica.com/disrupting-or-disrupted-ceo-sasan-goodarzi-intuits-response-taxing-questions-saas-vendors-around-ai",
+      "sourceDate": "2025-12",
+      "collectedDate": "2026-02-12"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "medium",
+    "timeToObsolescence": "high",
+    "ceoTenure": "medium",
+    "talentMarketPosition": "talent-rich",
+    "technicalDebt": "low"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.4,
+    "speedVsDepth": 0.5,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": -0.2
+  },
+
+  "openQuestions": [
+    "How does the CAIO→CTO reporting line affect Foresight's latitude for long-horizon exploration vs. nearer-term technology delivery?",
+    "Does the dual AI track (Foresight for products, CoE for operations) create coordination overhead or productive specialization?",
+    "How does GenOS handle the tension between self-serve speed (product teams launch experiments in days) and risk governance (GenSRF framework)?",
+    "What happens to the Futures function (quantum, blockchain) now that it's merged with operational AI — does it retain exploratory latitude?"
+  ],
+
+  "taxonomyFeedback": [
+    "The dual AI track (outward-facing Foresight + inward-facing CoE) is the clearest evidence yet for the two-dimensions-of-tacit-information hypothesis. Foresight acquires NEW knowledge (AI frontiers, emerging tech). CoE embeds EXISTING knowledge (operational AI adoption). GenOS mediates between them.",
+    "Platform-mediated governance (GenSRF embedded in GenOS) vs. committee-based governance is an unnamed mechanism. The platform carries both enabling and constraining functions — governance as code rather than governance as process.",
+    "CAIO reporting to CTO rather than CEO is analytically significant. Compare: JPMorgan CDAO on Operating Committee (CEO-level), Salesforce AI leader reporting structure changed 3 times in 3 years, SK Telecom AI CIC head promoted to CTO (dual hat). The reporting line signals whether AI is treated as technology capability or strategic function.",
+    "Srivastava's explicit caution against premature AI lab creation — 'organized data, established AI platforms, and talent' as prerequisites — is the data-foundation-sequencing-constraint articulated from the inside."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-13",
+    "lastUpdated": "2026-02-13",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

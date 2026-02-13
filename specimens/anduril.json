@@ -1,0 +1,240 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "anduril",
+  "name": "Anduril",
+  "title": "Born-AI Defense Company Building Autonomous Weapons Systems",
+  "classification": {
+    "structuralModel": 9,
+    "structuralModelName": "AI-Native",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural Separation",
+    "confidence": "High",
+    "classificationRationale": "Anduril is the definitional M9 AI-Native organization. Founded in 2017 specifically to build AI-powered defense technology, there is no legacy transformation or AI adoption story — AI is the foundational DNA. The Lattice AI platform powers all products from drones to submarines. No CAIO role exists because AI is not treated as a separate discipline requiring special leadership; it's the baseline assumption. The structural orientation reflects that AI capabilities are embedded in distinct product divisions (Air Dominance, Maritime, Integrated Systems for Space/Intelligence) rather than contextually balanced within individual roles.",
+    "typeSpecimen": true
+  },
+  "habitat": {
+    "industry": "Defense & Aerospace",
+    "sector": "Defense Technology",
+    "orgSize": "Scaleup",
+    "employees": null,
+    "revenue": "$1B (2024), projected $2B (2025)",
+    "headquarters": "Costa Mesa, California",
+    "geography": "United States"
+  },
+  "description": "Anduril Industries represents the paradigm case of an AI-Native organization in the defense sector. Founded in 2017 by Palmer Luckey (Oculus founder), Brian Schimpf, and others, the company was built from day one around the Lattice AI platform — an operating system that powers all Anduril products including autonomous drones (Ghost, Fury), counter-UAS systems (Roadrunner), submarines (Dive XL), and mixed reality systems (EagleEye).\n\nUnlike traditional defense primes attempting AI transformation, Anduril has no legacy systems to modernize. AI is not a separate function or team — it is the foundational layer of every product line. Engineering is distributed across product divisions with AI/ML capabilities embedded in each, supported by an Internal Tools team (~280 people) serving 35+ product lines. The company's $30.5B valuation (Series G, June 2025), $1B+ revenue trajectory, and takeover of the $22B IVAS contract from Microsoft validate the AI-native defense model.\n\nLuckey serves as the primary vision-setter and external spokesperson, frequently benchmarking Anduril's autonomous systems against consumer AI (Tesla autopilot, Roomba autonomy) to argue that defense systems lag behind. His philosophy — 'The future of warfare will be superficially hardware-driven with a buttload of software smarts under the hood' — captures Anduril's core thesis: AI-powered autonomous systems as the foundation, not an enhancement, of modern defense.",
+  "observableMarkers": {
+    "reportingStructure": "No separate AI reporting structure — AI capability is embedded in product divisions [anduril-sacra-2026-02]. CEO Brian Schimpf oversees all operations. Luckey serves as primary vision-setter and external spokesperson but is not operational CEO [anduril-60minutes-2025-02].",
+    "resourceAllocation": "100% of R&D is AI-related because all products are AI-powered autonomous systems [anduril-sacra-2026-02]. Arsenal-1 ($1B manufacturing facility in Ohio) is being built for AI-enabled manufacturing [anduril-fortune-2026-02]. Lattice is the common AI platform across all products [anduril-60minutes-2025-02].",
+    "timeHorizons": "Mixed: Some products ship in months (Ghost drones, Sentry towers), but major programs like YFQ-44A Fury CCA and Arsenal-1 are multi-year [anduril-sacra-2026-02]. Luckey emphasizes 'months not years' compared to traditional defense primes [anduril-fortune-2026-02].",
+    "decisionRights": "Highly centralized around founding team. Small founder group (Luckey, Schimpf, Grimm, Stephens, Chen) makes strategic decisions [anduril-wikipedia-2026-02]. Product teams have autonomy in execution.",
+    "metrics": "Contracts won, production speed, cost vs. traditional defense primes. Luckey frequently benchmarks against consumer AI (Tesla autopilot, Roomba autonomy) to argue defense systems lag [anduril-60minutes-2025-02]."
+  },
+  "mechanisms": [
+    {
+      "id": 3,
+      "name": "Embed Product at Research Frontier",
+      "evidence": "Lattice AI platform is both the core R&D asset and the production platform shipping in every product. No separation between research and productization — all AI development is immediately embedded in autonomous systems being deployed.",
+      "strength": "Strong"
+    },
+    {
+      "id": 10,
+      "name": "Productize Internal Operational Advantages",
+      "evidence": "The Lattice platform, initially developed as Anduril's internal AI operating system, now powers products sold to military customers. The AI Grand Prix competition (Fall 2026) extends this by seeking external autonomy stacks that could be integrated into Anduril's product line.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The United States needs to arm our allies and partners around the world so that they can be prickly porcupines that nobody wants to step on.",
+      "speaker": "Palmer Luckey",
+      "speakerTitle": "Founder",
+      "source": "CBS News 60 Minutes",
+      "sourceUrl": "https://www.cbsnews.com/news/palmer-luckey-ai-powered-autonomous-weapons-future-of-warfare-60-minutes-transcript/",
+      "sourceDate": "2025-02",
+      "context": "Explaining philosophy on autonomous weapons as deterrence"
+    },
+    {
+      "text": "The future of warfare will be superficially hardware-driven with a buttload of software smarts under the hood making it all actually work.",
+      "speaker": "Palmer Luckey",
+      "speakerTitle": "Founder",
+      "source": "CBS News 60 Minutes",
+      "sourceUrl": "https://www.cbsnews.com/news/palmer-luckey-ai-powered-autonomous-weapons-future-of-warfare-60-minutes-transcript/",
+      "sourceDate": "2025-02",
+      "context": "Describing the role of AI in defense hardware"
+    },
+    {
+      "text": "AI in warfare is no longer hypothetical; it's inevitable.",
+      "speaker": "Palmer Luckey",
+      "speakerTitle": "Founder",
+      "source": "TED Talks Daily",
+      "sourceUrl": "https://open.spotify.com/episode/6iRXdn0SiWv02VX3LVnSRa",
+      "sourceDate": "2025-04",
+      "context": "TED Talk on AI-powered weapons"
+    },
+    {
+      "text": "This is what I mean when I say we don't need technological breakthrough so much as we need to just do things. The tech to do this is going to catch up.",
+      "speaker": "Palmer Luckey",
+      "speakerTitle": "Founder",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/02/04/who-is-palmer-luckey-anduril-founder-ai-hardware-cheap-manufacturing/",
+      "sourceDate": "2026-02-04",
+      "context": "On applying existing AI to manufacturing at scale"
+    },
+    {
+      "text": "AI is going to make it easier for resource extraction, processing, and manufacturing.",
+      "speaker": "Palmer Luckey",
+      "speakerTitle": "Founder",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/02/04/who-is-palmer-luckey-anduril-founder-ai-hardware-cheap-manufacturing/",
+      "sourceDate": "2026-02-04",
+      "context": "Describing AI's impact on industrial processes"
+    },
+    {
+      "text": "This is an open challenge. If you think you can build an autonomy stack that can out-fly the world's best, show us.",
+      "speaker": "Palmer Luckey",
+      "speakerTitle": "Founder",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/02/05/anduril-defense-tech-startup-ai-grand-prix-autonomous-drone-competition-job-fast-track-for-gen-z-palmer-luckey/",
+      "sourceDate": "2026-02-05",
+      "context": "Announcing AI Grand Prix autonomous drone competition"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "AI-Native at Scale",
+      "summary": "Anduril has validated the AI-native defense model at scale: $30.5B valuation, $1B+ revenue, takeover of $22B IVAS contract from Microsoft, and $1B Arsenal-1 manufacturing facility under construction. The Lattice AI platform powers all products across drones, counter-UAS, submarines, and mixed reality. AI Grand Prix competition announced to recruit autonomous systems talent.",
+      "sourceRefs": [
+        "anduril-60minutes-2025-02",
+        "anduril-fortune-2026-02",
+        "anduril-sacra-2026-02"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "anduril-60minutes-2025-02",
+      "name": "CBS News 60 Minutes - Palmer Luckey Interview",
+      "type": "Interview",
+      "url": "https://www.cbsnews.com/news/palmer-luckey-ai-powered-autonomous-weapons-future-of-warfare-60-minutes-transcript/",
+      "sourceDate": "2025-02",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "anduril-fortune-2026-02",
+      "name": "Fortune - Palmer Luckey AI Manufacturing",
+      "type": "Press",
+      "url": "https://fortune.com/2026/02/04/who-is-palmer-luckey-anduril-founder-ai-hardware-cheap-manufacturing/",
+      "sourceDate": "2026-02-04",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "anduril-fortune-grandprix-2026-02",
+      "name": "Fortune - AI Grand Prix Announcement",
+      "type": "Press",
+      "url": "https://fortune.com/2026/02/05/anduril-defense-tech-startup-ai-grand-prix-autonomous-drone-competition-job-fast-track-for-gen-z-palmer-luckey/",
+      "sourceDate": "2026-02-05",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "anduril-sacra-2026-02",
+      "name": "Sacra - Anduril Revenue Analysis",
+      "type": "Report",
+      "url": "https://sacra.com/c/anduril/",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "anduril-wikipedia-2026-02",
+      "name": "Wikipedia - Anduril Industries",
+      "type": "Reference",
+      "url": "https://en.wikipedia.org/wiki/Anduril_Industries",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "anduril-acquinox-2025",
+      "name": "Acquinox Capital - Anduril Investor Insights",
+      "type": "Report",
+      "url": "https://acquinox.capital/blog/anduril-industries-investor-insights-rewriting-the-defence-industrial-base-at-a-30-5-billion-valuation",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "anduril-ted-2025-04",
+      "name": "TED Talks Daily - AI Arsenal That Could Stop WW3",
+      "type": "Conference",
+      "url": "https://open.spotify.com/episode/6iRXdn0SiWv02VX3LVnSRa",
+      "sourceDate": "2025-04",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "anduril-diamandis-2025-03",
+      "name": "Moonshots with Peter Diamandis EP #158",
+      "type": "Interview",
+      "url": "https://www.diamandis.com/podcast/palmer-luckey-next-wave-of-military-tech",
+      "sourceDate": "2025-03",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "anduril-a16z-2026-01",
+      "name": "a16z Podcast - From Oculus to Anduril",
+      "type": "Interview",
+      "url": "https://a16zcrypto.com/posts/podcast/palmer-luckey-anduril-oculus/",
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "anduril-shawnryan-2025-02",
+      "name": "Shawn Ryan Show #171",
+      "type": "Interview",
+      "url": "https://podcasts.apple.com/us/podcast/171-palmer-luckey-superhuman-soldiers-ai-missiles-and/id1492197877?i=1000692197877",
+      "sourceDate": "2025-02",
+      "collectedDate": "2026-02-08"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Non-traditional",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": 0.5,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.8,
+    "longVsShortHorizon": 0.3
+  },
+  "openQuestions": [
+    "What is the internal AI/ML team structure within product divisions?",
+    "How is the OpenAI partnership structured operationally?",
+    "What specific AI/ML talent pipeline and hiring practices does Anduril use?",
+    "How does Lattice platform governance work across product lines?",
+    "What are the specific AI R&D budget allocations vs. manufacturing/production?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Anduril is the clearest type specimen for M9 AI-Native — there is no transformation story because AI was the founding premise. This makes it uniquely valuable for contrast: what does AI structure look like when there's no legacy to overcome? The absence of a CAIO role is telling; AI leadership is unnecessary when AI is assumed, not added.",
+    "[2026-02] The 'no separate AI team' structure at Anduril challenges a core assumption in the taxonomy: most models assume AI is a *function* that must be positioned somewhere. For AI-native orgs, this framing may not apply. Lattice is more like an operating system than a team — it's infrastructure that all product divisions build on, similar to how no one asks 'where is the electricity team?'",
+    "[2026-02] The AI Grand Prix competition represents a novel talent acquisition mechanism that sidesteps traditional AI hiring. By running a competition ('If you think you can build an autonomy stack that can out-fly the world's best, show us'), Anduril turns hiring into product development. This suggests AI-native orgs may develop different organizational forms for talent acquisition, not just product development."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

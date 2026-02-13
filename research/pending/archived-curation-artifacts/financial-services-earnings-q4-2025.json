@@ -1,0 +1,384 @@
+{
+  "taskId": "financial-services-earnings-q4-2025",
+  "scannedDate": "2026-02-07",
+  "sessionType": "earnings",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    {
+      "url": "https://www.cnbc.com/2026/01/13/jpmorgan-chase-jpm-earnings-q4-2025.html",
+      "reason": "JS-rendered page returned CSS-only content"
+    }
+  ],
+  "companies": [
+    {
+      "id": "jpmorgan-chase",
+      "ticker": "JPM",
+      "specimenSlug": "jpmorgan",
+      "quarter": "Q4 2025",
+      "earningsDate": "2026-01-13",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "AI separated from Technology as distinct organizational function",
+          "detail": "Dimon confirmed JPMorgan 'took AI, slash data, out of technology' — a deliberate structural reorganization to elevate AI's strategic importance. Teresa Heitsenrether serves as Chief Data & Analytics Officer on the firm's Operating Committee, with authority across all lines of business for AI adoption, data governance, and productivity improvement.",
+          "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+          "sourceDate": "2026-01-13",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "$2B annual AI investment yielding $2B in benefits",
+          "detail": "Dimon stated 'For $2 billion of expense, we have about $2 billion of benefit' from AI. This represents a break-even point with the bank viewing current returns as 'just the tip of the iceberg.' Cash flow intelligence tool alone reduced manual work by ~90%.",
+          "sourceUrl": "https://www.entrepreneur.com/business-news/jpmorgan-ceo-jamie-dimon-ai-saves-the-bank-billions-a-year/498115",
+          "sourceDate": "2025-10-08",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "150K weekly active AI users and 2K AI specialists",
+          "detail": "Approximately 150,000 employees per week use JPMorgan's internal AI model. The bank employs around 2,000 AI and machine learning experts. Bank has used AI since 2012, with use cases spanning risk management, customer service, marketing, fraud detection, contract scanning, report summarization, and research assistance.",
+          "sourceUrl": "https://www.entrepreneur.com/business-news/jpmorgan-ceo-jamie-dimon-ai-saves-the-bank-billions-a-year/498115",
+          "sourceDate": "2025-10-08",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "2026 expense guidance: $105B total, 'meaningful' growth driven by tech/AI",
+          "detail": "CFO Jeremy Barnum described 2026 as 'meaningful expense growth in both dollar and percentage terms' — boosting spending by more than $9B to ~$105B. Barnum said the environment is 'only getting more competitive' making it 'critical to ensure that we are making the necessary investments to secure our position against both traditional and non-traditional competitors.' Dimon explicitly framed competition against fintechs: 'Your competitors include all the FinTech. You have Stripe, you have SoFi, you have Revolut, you have Schwab.'",
+          "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+          "sourceDate": "2026-01-13",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "AI efficiency gains expected but not yet major revenue driver",
+          "detail": "Dimon acknowledged AI is not currently a major revenue driver but expressed confidence: 'it'll be driving more efficiency down the road... [that] will eventually be passed on to the customer.' Framing is efficiency-first, revenue-later.",
+          "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+          "sourceDate": "2026-01-13",
+          "keywordCategory": "deployment"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "We will be spending more in AI.",
+          "speaker": "Jamie Dimon, CEO",
+          "context": "Q4 2025 earnings call, confirming increased AI investment in 2026",
+          "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/"
+        },
+        {
+          "text": "it'll be driving more efficiency down the road... [that] will eventually be passed on to the customer.",
+          "speaker": "Jamie Dimon, CEO",
+          "context": "Describing AI's expected trajectory from internal efficiency to customer benefit",
+          "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/"
+        },
+        {
+          "text": "Your competitors include all the FinTech. You have Stripe, you have SoFi, you have Revolut, you have Schwab.",
+          "speaker": "Jamie Dimon, CEO",
+          "context": "Framing JPMorgan's tech spending as competitive necessity against non-traditional competitors",
+          "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/"
+        },
+        {
+          "text": "only getting more competitive",
+          "speaker": "Jeremy Barnum, CFO",
+          "context": "Justifying meaningful expense growth in 2026, particularly technology spending",
+          "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/"
+        },
+        {
+          "text": "For $2 billion of expense, we have about $2 billion of benefit.",
+          "speaker": "Jamie Dimon, CEO",
+          "context": "October 2025 remarks on AI investment ROI, calling it 'just the tip of the iceberg'",
+          "sourceUrl": "https://www.entrepreneur.com/business-news/jpmorgan-ceo-jamie-dimon-ai-saves-the-bank-billions-a-year/498115"
+        }
+      ],
+      "keyFindings": "JPMorgan has structurally separated AI/data from technology under CDAO Teresa Heitsenrether on the Operating Committee — a M4-style elevation. $2B annual AI spend is now break-even ($2B benefit), with 150K weekly active users and 2K AI specialists. 2026 expense guidance of $105B (+$9B) is heavily AI/tech-driven, framed against fintech competition."
+    },
+    {
+      "id": "ubs",
+      "ticker": "UBS",
+      "specimenSlug": "ubs",
+      "quarter": "Q4 2025",
+      "earningsDate": "2026-02-04",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "First Chief AI Officer appointed, reporting to Group COO/CTO",
+          "detail": "Daniele Magazzeni appointed as UBS's first Chief AI Officer effective January 1, 2026. Based in London, reports to Mike Dargan (Group Chief Operations and Technology Officer). Magazzeni was previously Chief Analytics Officer for EMEA and CIB at JP Morgan and Associate Professor of AI at King's College London. He heads a new 'Chief AI Office' responsible for deploying AI-powered tools at scale.",
+          "sourceUrl": "https://www.wealthbriefing.com/html/article.php/ubs-signals-ai-ambitions-with-top-hire",
+          "sourceDate": "2025-10-17",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "300+ live AI use cases with firm-wide tool rollout",
+          "detail": "UBS has over 300 live AI use cases. AI-powered tools being rolled out to all employees including Microsoft M365 Copilot and in-house AI Assistant called 'Red.' Strategic 'Big Rocks' transformational AI projects designed to increase process efficiency across the firm.",
+          "sourceUrl": "https://www.wealthbriefing.com/html/article.php/ubs-signals-ai-ambitions-with-top-hire",
+          "sourceDate": "2025-10-17",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "CAIO mandate spans traditional, generative, and agentic AI",
+          "detail": "Dargan framed the CAIO role as covering three AI modalities: 'further optimise our use of traditional, generative and agentic AI capabilities to transform our end-to-end operations and deliver cutting-edge solutions to our clients.' This three-mode framing (traditional ML + GenAI + agentic) is unusual specificity for a C-suite mandate.",
+          "sourceUrl": "https://www.wealthbriefing.com/html/article.php/ubs-signals-ai-ambitions-with-top-hire",
+          "sourceDate": "2025-10-17",
+          "keywordCategory": "governance"
+        },
+        {
+          "title": "Credit Suisse integration 85% complete, enabling AI focus",
+          "detail": "85% of Swiss-booked client accounts migrated by end of Q4 2025, with Swiss booking center migrations on track to complete by end of Q1 2026. The near-completion of the Credit Suisse integration frees organizational bandwidth for AI transformation — timing of CAIO appointment (Jan 2026) aligns with integration completion.",
+          "sourceUrl": "https://www.ubs.com/global/en/media/display-page-ndp/en-20260204-4q25-quarterly-result.html",
+          "sourceDate": "2026-02-04",
+          "keywordCategory": "structural"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Artificial intelligence is a top priority for UBS.",
+          "speaker": "Mike Dargan, Group Chief Operations and Technology Officer",
+          "context": "Announcing Magazzeni's appointment as first CAIO",
+          "sourceUrl": "https://www.wealthbriefing.com/html/article.php/ubs-signals-ai-ambitions-with-top-hire"
+        },
+        {
+          "text": "further optimise our use of traditional, generative and agentic AI capabilities to transform our end-to-end operations and deliver cutting-edge solutions to our clients.",
+          "speaker": "Mike Dargan, Group Chief Operations and Technology Officer",
+          "context": "Describing CAIO Magazzeni's mandate — notable for explicit three-mode AI taxonomy",
+          "sourceUrl": "https://www.wealthbriefing.com/html/article.php/ubs-signals-ai-ambitions-with-top-hire"
+        }
+      ],
+      "keyFindings": "UBS appointed its first CAIO (Daniele Magazzeni, ex-JPMorgan, ex-King's College) effective Jan 2026, reporting to Group COO/CTO Dargan. A new Chief AI Office oversees 300+ use cases, M365 Copilot rollout, and in-house 'Red' assistant. Mandate explicitly covers traditional ML, generative AI, and agentic AI. CAIO appointment timing coincides with Credit Suisse integration nearing completion (85% migrated)."
+    },
+    {
+      "id": "citigroup",
+      "ticker": "C",
+      "specimenSlug": "citigroup",
+      "quarter": "Q4 2025",
+      "earningsDate": "2026-01-14",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "20K headcount reduction target with 10K+ already cut",
+          "detail": "Under 'Project Bora Bora' restructuring unveiled early 2024, Citi targets up to 20,000 role eliminations (~8% of global workforce) by 2026 to simplify management layers and streamline businesses. Over 10,000 roles already shed. An additional ~1,000 cuts announced alongside Q4 earnings in January 2026. Program is 80%+ complete.",
+          "sourceUrl": "https://fortune.com/2026/01/14/citigroup-ceo-jane-fraser-job-cuts-ai-bad-old-ways-restructuring/",
+          "sourceDate": "2026-01-14",
+          "keywordCategory": "workforce"
+        },
+        {
+          "title": "$2.5B annualized cost savings target from AI and automation",
+          "detail": "AI initiatives on track to deliver up to $2.5 billion in annualized cost savings. Specific metrics: 9% increase in software developer productivity, 2.6 million customer interactions automated per month via AI agents.",
+          "sourceUrl": "https://markets.financialcontent.com/stocks/article/finterra-2026-1-14-citigroup-nyse-c-q4-2025-earnings-research-deep-dive",
+          "sourceDate": "2026-01-14",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "70% AI adoption across 84 countries, 21M+ tool interactions",
+          "detail": "Colleagues in 84 countries have interacted with Citi's proprietary AI tools more than 21 million times. AI adoption rate now above 70%. Fraser confirmed 175K employees completed mandatory AI training (previously reported). Scale of adoption across geographies is notable for a bank of Citi's operational complexity.",
+          "sourceUrl": "https://markets.financialcontent.com/stocks/article/finterra-2026-1-14-citigroup-nyse-c-q4-2025-earnings-research-deep-dive",
+          "sourceDate": "2026-01-14",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "Fraser frames AI restructuring as cultural transformation",
+          "detail": "Fraser used Q4 earnings to declare 'the last vestiges of old, bad habits' must disappear, demanding a 'more commercial mindset.' She stated 'We are not graded on effort. We are judged on our results.' Frames 2026 as emergence year for 'more disciplined, more confident, winning Citi.' AI is intertwined with cultural reset — technology and mindset change are inseparable in her framing.",
+          "sourceUrl": "https://fortune.com/2026/01/14/citigroup-ceo-jane-fraser-job-cuts-ai-bad-old-ways-restructuring/",
+          "sourceDate": "2026-01-14",
+          "keywordCategory": "governance"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "We are not graded on effort. We are judged on our results.",
+          "speaker": "Jane Fraser, CEO",
+          "context": "Internal memo to staff coinciding with Q4 earnings and ~1,000 additional cuts",
+          "sourceUrl": "https://fortune.com/2026/01/14/citigroup-ceo-jane-fraser-job-cuts-ai-bad-old-ways-restructuring/"
+        },
+        {
+          "text": "The last vestiges of old, bad habits",
+          "speaker": "Jane Fraser, CEO",
+          "context": "Describing what must be eliminated as part of restructuring — framing AI adoption as inseparable from cultural transformation",
+          "sourceUrl": "https://fortune.com/2026/01/14/citigroup-ceo-jane-fraser-job-cuts-ai-bad-old-ways-restructuring/"
+        }
+      ],
+      "keyFindings": "Citigroup's 'Project Bora Bora' restructuring is 80%+ complete with 10K+ of targeted 20K roles eliminated. AI drives $2.5B in annualized cost savings, 2.6M automated customer interactions/month, and 9% developer productivity gains. Adoption at 70% across 84 countries with 21M+ tool interactions. Fraser explicitly intertwines AI with cultural transformation — 'not graded on effort' — framing technology adoption as inseparable from organizational identity change."
+    },
+    {
+      "id": "wells-fargo",
+      "ticker": "WFC",
+      "specimenSlug": "wells-fargo",
+      "quarter": "Q4 2025",
+      "earningsDate": "2026-01-14",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "Senior executive redeployed from consumer banking CEO to lead AI scaling",
+          "detail": "Saul Van Beurden, previously CEO of consumer and small business banking, was reassigned to scale AI across the bank. Kleber Santos (consumer lending CEO) took on expanded responsibilities as co-CEO of consumer lending and banking, formally combining businesses to free Van Beurden for AI focus. This is a notable structural move: a sitting business-line CEO redeployed to a technology/AI mandate.",
+          "sourceUrl": "https://www.bankingdive.com/news/wells-fargo-saul-van-beurden-ai-kleber-santos-expanded-responsibilities/806195/",
+          "sourceDate": "2025-12-01",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "Google Agentspace partnership for agentic AI platform",
+          "detail": "Wells Fargo adopted Google Agentspace to develop custom AI agents. Deep Research and NotebookLM deployed to ~2,000 employees with plans to expand. Early agent use cases: vendor contract review, KYC requirement identification, post-trade inquiry assistance, customer service (debit card replacements). All agents operate under human supervision.",
+          "sourceUrl": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows",
+          "sourceDate": "2025-12-01",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "30-35% automation target for engineering and admin tasks",
+          "detail": "Wells Fargo's restructuring includes a bet that AI can automate 30-35% of its engineering and administrative tasks. Headcount declined 6% to 205,000 by year-end 2025. $612M severance charge in Q4 ($0.14/share impact) signals continued aggressive workforce reduction.",
+          "sourceUrl": "https://markets.financialcontent.com/stocks/article/marketminute-2026-1-20-wells-fargo-q4-2025-earnings-restructuring-costs-lead-to-eps-miss",
+          "sourceDate": "2026-01-20",
+          "keywordCategory": "workforce"
+        },
+        {
+          "title": "Dedicated Head of Consumer Technology and Generative AI role",
+          "detail": "Tracy Kerrins serves as Head of Consumer Technology and Generative AI, overseeing the agentic AI platform strategy. Kerrins described approach: 'We've broken our strategy into a couple key focus areas. We've had a developer platform... The portion we're partnering with Google on is the employee capability.' Strategy distinguishes between developer-facing and employee-facing AI platforms.",
+          "sourceUrl": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows",
+          "sourceDate": "2025-12-01",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "Compliance-first AI governance in regulated environment",
+          "detail": "Wells Fargo and Google Cloud engineering teams co-design the AI platform to conform with internal governance and risk management protocols, ensuring regulatory and data-privacy compliance. Google's Rohit Bhat noted: 'It's not just about the fun and cool stuff... but making sure it is adoptable in financial services.' Human supervision required for all agent deployments.",
+          "sourceUrl": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows",
+          "sourceDate": "2025-12-01",
+          "keywordCategory": "governance"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "We've broken our strategy into a couple key focus areas. We've had a developer platform that we've been working on... The portion we're partnering with Google on is the employee capability.",
+          "speaker": "Tracy Kerrins, Head of Consumer Technology and Generative AI",
+          "context": "Describing Wells Fargo's dual-track AI platform strategy: developer tools vs. employee-facing capabilities",
+          "sourceUrl": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows"
+        },
+        {
+          "text": "It's not just about the fun and cool stuff... but making sure it is adoptable in financial services.",
+          "speaker": "Rohit Bhat, Google Cloud",
+          "context": "Describing the compliance-first approach to building agentic AI for Wells Fargo",
+          "sourceUrl": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows"
+        }
+      ],
+      "keyFindings": "Wells Fargo made a structurally notable move: redeploying consumer banking CEO Saul Van Beurden to lead AI scaling, combining consumer businesses under co-CEO Santos to free bandwidth. Partnered with Google on Agentspace for agentic AI with ~2K early users. Targeting 30-35% automation of engineering/admin tasks. Headcount down 6% to 205K with $612M severance charge. Tracy Kerrins leads dedicated GenAI function. Compliance-first governance framework co-designed with Google."
+    },
+    {
+      "id": "bank-of-america",
+      "ticker": "BAC",
+      "specimenSlug": "bank-of-america",
+      "quarter": "Q4 2025",
+      "earningsDate": "2026-01-14",
+      "status": "existing-enrichment",
+      "observations": [
+        {
+          "title": "Erica evolved from chatbot to agentic AI financial coach",
+          "detail": "Erica has 20.6M users (up from 19.7M YoY), logging 169M interactions in Q4 2025. Evolved from simple chatbot to proactive financial coach using predictive analytics to help customers avoid overdrafts and optimize savings. Moynihan referred to Erica as 'our AI agent' — explicit agentic framing. CashPro platform integrated agentic AI in late 2025 for corporate treasury automation (cash-flow forecasting, cross-border settlements).",
+          "sourceUrl": "https://www.pymnts.com/earnings/2026/erica-ai-and-digital-drive-operating-leverage-at-bank-of-america",
+          "sourceDate": "2026-01-14",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "$14B technology budget with $4.5B allocated to AI",
+          "detail": "Moynihan outlined BofA's $14 billion technology budget, with roughly $4.5 billion specifically allocated to AI initiatives. This $4.5B AI allocation is the largest disclosed AI-specific budget among the five banks scanned.",
+          "sourceUrl": "https://startupnews.fyi/2026/01/25/bank-of-america-ceo-says-ai-spending-will-drive-returns-in-2026-bullish-on-india-growth/",
+          "sourceDate": "2026-01-25",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "AI enables flat headcount with redeployment to client-facing roles",
+          "detail": "CFO Alastair Borthwick: 'We saw productivity improvements through AI and digitalization more generally, and those enabled us to add client-facing associates as we eliminated work and roles.' Bank maintained flat headcount while using AI to eliminate operational support positions and redirect resources to client-facing roles — redeployment rather than reduction.",
+          "sourceUrl": "https://www.pymnts.com/earnings/2026/erica-ai-and-digital-drive-operating-leverage-at-bank-of-america",
+          "sourceDate": "2026-01-14",
+          "keywordCategory": "workforce"
+        },
+        {
+          "title": "Agentic AI expected to lower efficiency ratio 100-200bps over 24 months",
+          "detail": "Management expects agentic AI to lower the bank's efficiency ratio by 100-200 basis points over the next 24 months through automated back-office operations. This is a concrete, quantified efficiency target tied to a specific AI modality (agentic).",
+          "sourceUrl": "https://markets.financialcontent.com/stocks/article/finterra-2026-1-16-bank-of-america-bac-a-deep-dive-into-the-fortress-of-responsible-growth",
+          "sourceDate": "2026-01-16",
+          "keywordCategory": "investment"
+        },
+        {
+          "title": "Co-president succession structure signals operational maturity",
+          "detail": "Dean Athanasia (Consumer/Wealth) and Jim DeMare (Markets/Banking) appointed as co-presidents in late 2025. Represents the two operational halves of the bank and signals formal succession planning under Moynihan. This structural move provides stable senior leadership for sustained AI transformation.",
+          "sourceUrl": "https://markets.financialcontent.com/stocks/article/finterra-2026-1-16-bank-of-america-bac-a-deep-dive-into-the-fortress-of-responsible-growth",
+          "sourceDate": "2026-01-16",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "Digital banking dominance: 69% of consumer sales via digital channels",
+          "detail": "Digital channels captured 69% of consumer sales. 41.4M active mobile banking users (up from 40M). Combined credit/debit card volumes: $255B in Q4 (up 6% YoY). Zelle volumes: $144B in Q4 (vs. $127B prior year). The digital infrastructure provides the foundation for AI deployment at scale.",
+          "sourceUrl": "https://www.pymnts.com/earnings/2026/erica-ai-and-digital-drive-operating-leverage-at-bank-of-america",
+          "sourceDate": "2026-01-14",
+          "keywordCategory": "deployment"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "You should note the impact of Zelle and the continued user growth, and also the impact of Erica, our AI agent.",
+          "speaker": "Brian Moynihan, CEO",
+          "context": "Q4 2025 earnings call — notable for explicitly calling Erica an 'AI agent' (agentic framing)",
+          "sourceUrl": "https://www.pymnts.com/earnings/2026/erica-ai-and-digital-drive-operating-leverage-at-bank-of-america"
+        },
+        {
+          "text": "We saw productivity improvements through AI and digitalization more generally, and those enabled us to add client-facing associates as we eliminated work and roles.",
+          "speaker": "Alastair Borthwick, CFO",
+          "context": "Explaining how AI-driven productivity allows redeployment to client-facing roles while keeping headcount flat",
+          "sourceUrl": "https://www.pymnts.com/earnings/2026/erica-ai-and-digital-drive-operating-leverage-at-bank-of-america"
+        }
+      ],
+      "keyFindings": "BofA has the largest disclosed AI budget ($4.5B of $14B tech spend) and the most mature customer-facing AI (Erica: 20.6M users, 169M Q4 interactions). Moynihan explicitly calls Erica 'our AI agent.' CashPro added agentic AI for corporate treasury. CFO Borthwick described a redeployment model: AI eliminates operational roles, freeing headcount for client-facing positions (flat total). Agentic AI expected to lower efficiency ratio 100-200bps over 24 months. Co-president succession (Athanasia/DeMare) provides stable leadership for sustained transformation."
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "CAIO role emerging as standard in banking",
+      "detail": "UBS appointed first CAIO (Magazzeni, Jan 2026). JPMorgan has CDAO (Heitsenrether) on Operating Committee. Both reporting into Operations/Technology C-suite. Pattern: AI leadership elevated to dedicated C-suite or near-C-suite role, separated from general technology function.",
+      "evidence": ["UBS CAIO appointment", "JPMorgan CDAO on Operating Committee"]
+    },
+    {
+      "trend": "Convergence on 'agentic AI' framing across major banks",
+      "detail": "All five banks now use agentic AI language: UBS CAIO mandate explicitly covers 'agentic AI capabilities,' BofA's Moynihan calls Erica 'our AI agent,' Wells Fargo building agentic AI via Google Agentspace, Citi automating 2.6M customer interactions/month via 'AI agents.' This represents a sector-wide shift from chatbot/copilot framing to agent framing.",
+      "evidence": ["UBS Dargan quote on agentic AI", "Moynihan 'our AI agent' quote", "Wells Fargo Agentspace", "Citi AI agents"]
+    },
+    {
+      "trend": "Three workforce strategies diverging: reduction, redeployment, or flat-with-reallocation",
+      "detail": "Citi: aggressive reduction (20K target, 10K+ cut). Wells Fargo: reduction (6% decline to 205K, $612M severance). BofA: flat headcount with redeployment to client-facing roles. JPMorgan: net hiring while acknowledging some roles eliminated. Banks are choosing different workforce strategies despite similar AI adoption levels.",
+      "evidence": ["Citi 20K target", "WFC 205K headcount (-6%)", "BofA flat headcount + redeployment", "JPM continued hiring"]
+    },
+    {
+      "trend": "AI investment scale: $2B-$4.5B annual AI-specific budgets",
+      "detail": "JPMorgan: $2B AI investment. BofA: $4.5B AI allocation (within $14B tech budget). Citi: targeting $2.5B in AI-driven cost savings. These are the largest disclosed AI-specific budgets in any industry sector.",
+      "evidence": ["JPM $2B", "BofA $4.5B", "Citi $2.5B savings target"]
+    },
+    {
+      "trend": "Compliance-first governance as banking-specific AI constraint",
+      "detail": "Wells Fargo co-designs AI platform with Google to conform to regulatory and data-privacy requirements. All WFC agents require human supervision. UBS CAIO mandate emphasizes governance. This compliance constraint shapes how banks deploy AI differently from tech companies — human-in-the-loop is non-negotiable, slowing agentic autonomy.",
+      "evidence": ["WFC-Google governance co-design", "WFC human supervision requirement", "UBS CAIO governance mandate"]
+    },
+    {
+      "trend": "Senior executive redeployment to AI roles signals strategic priority escalation",
+      "detail": "Wells Fargo redeployed a sitting business-line CEO (Van Beurden) from consumer banking to lead AI scaling — restructuring consumer business leadership to free him. JPMorgan separated AI/data from technology to elevate it. UBS hired CAIO from outside. Pattern: banks are willing to disrupt existing org charts to create dedicated AI leadership.",
+      "evidence": ["WFC Van Beurden redeployment", "JPM AI separated from tech", "UBS CAIO hire"]
+    }
+  ],
+  "purposeClaimsDiscovered": [
+    {
+      "specimenSlug": "jpmorgan",
+      "speaker": "Jamie Dimon",
+      "claimType": "competitive-necessity",
+      "preview": "Framing AI/tech spend against fintech competition (Stripe, SoFi, Revolut, Schwab) — investment as existential competitive necessity"
+    },
+    {
+      "specimenSlug": "citigroup",
+      "speaker": "Jane Fraser",
+      "claimType": "cultural-transformation",
+      "preview": "AI restructuring inseparable from cultural reset — 'not graded on effort, judged on results' — purpose-as-discipline framing"
+    },
+    {
+      "specimenSlug": "bank-of-america",
+      "speaker": "Brian Moynihan",
+      "claimType": "customer-empowerment",
+      "preview": "Erica as 'our AI agent' — customer empowerment framing through proactive financial coaching"
+    },
+    {
+      "specimenSlug": "bank-of-america",
+      "speaker": "Alastair Borthwick",
+      "claimType": "workforce-redeployment",
+      "preview": "AI enables adding client-facing associates by eliminating operational work — redeployment rather than reduction framing"
+    }
+  ]
+}

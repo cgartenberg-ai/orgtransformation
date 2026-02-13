@@ -1,0 +1,32 @@
+{
+  "specimenId": "exxonmobil",
+  "scannedDate": "2026-02-12",
+  "claimCount": 12,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": 1,
+  "keyFindings": [
+    "Woods uses an unusually restrained rhetorical register — no utopian grandeur, no existential urgency. AI is consistently framed as an operational tool that improves existing business performance. The dominant claim type is commercial-success (8 of 12).",
+    "The most distinctive rhetorical move is Woods' inversion of the standard AI narrative: rather than positioning ExxonMobil within the AI story, he positions AI within ExxonMobil's story. AI is 'an accelerant, a catalyst' for energy issues, not the main event.",
+    "Woods' strongest competitive assertion — 'I don't think there's a company out there that can match what we're trying to accomplish here' — is about data unification, not AI capability. The competitive moat is framed as data infrastructure, not algorithms.",
+    "CFO Mikells and CEO Woods are tightly synchronized on the 'free humans for higher-value work' frame, suggesting this is a rehearsed organizational narrative rather than spontaneous executive rhetoric.",
+    "ExxonMobil has a dual AI identity: internal AI adopter (operational efficiency) and external AI enabler (data center power). These two roles use different rhetorical registers — internal is commercial-success, external is teleological/utopian."
+  ],
+  "rhetoricalPatterns": [
+    "Domestication pattern: AI is consistently domesticated — made smaller, more familiar, less disruptive. It is a 'catalyst' for already-existing energy challenges, an 'accelerant' not a revolution. This is the opposite of tech-sector utopian framing.",
+    "Data-over-algorithms pattern: The competitive advantage is always data ('one data construct,' 'data foundation,' 'data speaks louder') rather than AI models or algorithms. This reflects the M6b structure where the bottleneck is data integration, not AI talent.",
+    "Human elevation pattern: Both Woods and Mikells frame automation as restoring humans to their proper role — 'unique value,' 'higher level activity,' 'insights and actions.' This is a well-rehearsed workforce narrative that avoids job-threat language.",
+    "Scale-as-identity pattern: DiTullio's 'we talk in B's not M's' and Woods' 'I don't think there's a company' both invoke organizational scale as a source of pride and competitive advantage rather than bureaucratic liability."
+  ],
+  "comparativeNotes": "ExxonMobil's rhetorical profile is strikingly different from tech-sector specimens and even from other industrial adopters. Where pharma CEOs like Sanofi's Hudson invoke 'AI Fight Club' and agency problems, and tech CEOs invoke civilizational transformation, Woods' register is that of an industrial engineer who sees AI as the latest in a long line of efficiency tools. The commercial-success dominance (8/12) puts ExxonMobil alongside financial services specimens like JPMorgan in pragmatic framing, but without JPMorgan's talent-war survival urgency.\n\nThe dual-identity phenomenon — internal adopter vs. external enabler — is relatively unique in the collection. Most specimens are pure adopters. ExxonMobil's 'we power the AI revolution' positioning creates a second layer of purpose claims that are teleological (enabling civilizational progress through energy) rather than commercial. This dual identity may warrant separate analytical treatment in the purpose claims paper.",
+  "notableAbsences": "No higher-calling claims at all — there is no invocation of moral duty or obligation-overrides-economics logic. No survival framing from the CEO (only mild survival-adjacent from CFO about IT complexity). No identity claims about ExxonMobil as an 'AI company' or 'technology company' — the identity remains firmly energy/molecules. No claims from the ~668 data scientists or from Dr. Xiaojung Huang (Digital Transformation Lead) about AI purpose — technical leaders are absent from the purpose claims record despite appearing in the specimen's operational quotes.",
+  "correctedLeaderInfo": null,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 1,
+    "higher-calling": 0,
+    "identity": 2,
+    "survival": 1,
+    "commercial-success": 7
+  }
+}

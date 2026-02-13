@@ -1,0 +1,40 @@
+{
+  "company": "Sanofi",
+  "ticker": "SNY",
+  "sector": "Pharmaceuticals",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 2,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "Hudson frames Sanofi as 'R&D-driven, AI-powered biopharma company'",
+      "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-01-29-06-30-00-3228191",
+      "type": "Press",
+      "date": "2026-01-29",
+      "notes": "Hudson frames Sanofi as 'R&D-driven, AI-powered biopharma company'"
+    },
+    {
+      "name": "ROAI (Return on AI Investment) framework introduced",
+      "url": "https://www.statnews.com/2025/11/17/roai-return-investment-ai-sanofi-paul-hudson/",
+      "type": "Press",
+      "date": "2025-11-17",
+      "notes": "ROAI (Return on AI Investment) framework introduced"
+    }
+  ],
+  "summary": "Hudson frames Sanofi as 'R&D-driven, AI-powered biopharma company': CEO Paul Hudson described Sanofi's strategic identity as an 'R&D-driven, AI-powered biopharma company' during Q4 2025 results. This framing elevates AI from a tool to a core identity claim, consistent ROAI (Return on AI Investment) framework introduced: Hudson published a STAT article introducing ROAI as a measurement framework for AI value. The article notes 95% of AI pilot projects fail (citing MIT), positioning Sanofi as moving beyond pilots. Full Opella divestiture completed, reinvestment in AI and M&A: The completion of the Opella consumer health transaction enabled reinvestment into business development and M&A. Combined with a 5 billion euro share buyback, this represents strategic portfolio simpl",
+  "openQuestions": [],
+  "splitFrom": "pharma-earnings-q4-2025.json"
+}

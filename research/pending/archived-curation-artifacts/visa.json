@@ -1,0 +1,128 @@
+{
+  "company": "Visa",
+  "ticker": "V",
+  "leader": "Ryan McInerney",
+  "leaderTitle": "CEO",
+  "sector": "Fintech / Payments",
+  "quadrant": "Q3",
+  "scannedDate": "2026-02-09",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "legaldive.com - page content not accessible (JS-only rendering)",
+    "finance.yahoo.com - incorrect header check error",
+    "investor.visa.com - 403 forbidden"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Visa appears to have a distinct centralized research function (Visa Research) with dedicated AI scientists, while also embedding AI capabilities across products (fraud detection, agentic commerce, VisaNet). The presence of both a dedicated research organization and distributed product AI suggests a hub-and-spoke model. Visa Research sets standards and conducts foundational work, while product teams deploy AI in specific domains. However, full organizational clarity is limited — we didn't find a Chief AI Officer or clear reporting lines for AI leadership.",
+    "aiTeamStructure": "Visa Research is the central AI research organization, staffed with dedicated research scientists working on AI, ML, cryptography, and security. Led by Senior Directors (Yiwei Cai for Trustworthy AI, Anderson Nascimento for Security Research). Approximately 24+ research scientists identified in the AI/ML team. Sam Hamilton serves as SVP, Head of Data & AI Platforms. Wang Min has been SVP of Visa Research Labs since 2015. Technology overall reports to Rajat Taneja (President of Technology). No dedicated Chief AI Officer (CAIO) role identified.",
+    "keyPeople": [
+      {"name": "Ryan McInerney", "title": "CEO", "role": "Sets AI strategy at executive level, emphasizes data as AI foundation"},
+      {"name": "Rajat Taneja", "title": "President of Technology", "role": "Oversees technology organization including AI"},
+      {"name": "Sam Hamilton", "title": "SVP, Head of Data & AI Platforms", "role": "Leads data and AI platform infrastructure"},
+      {"name": "Wang Min", "title": "SVP, Visa Research Labs", "role": "Leads research organization (since April 2015)"},
+      {"name": "Yiwei Cai", "title": "Senior Director, Trustworthy AI", "role": "Leads responsible/trustworthy AI research"},
+      {"name": "Anderson Nascimento", "title": "Senior Director, Security Research", "role": "Leads security research including ML security"}
+    ],
+    "investmentSignals": "McInerney stated Visa has spent 'billions of dollars' and 'will spend billions of dollars protecting the network.' Visa ranked #2 on Fortune's AIQ 50 list for 2025. Company touts a 'decade-long commitment to AI.' Over 700 billion API calls across 3,700+ endpoints in FY2025. Specific AI headcount and R&D percentage not disclosed.",
+    "observableMarkers": {
+      "reportingStructure": "AI research reports through Visa Research (SVP Wang Min) and Data & AI Platforms (SVP Sam Hamilton). Technology overall under President Rajat Taneja. No dedicated CAIO.",
+      "resourceAllocation": "Dedicated research organization with 24+ scientists. Billions in cybersecurity/AI investment. Appears to be ring-fenced research budget.",
+      "timeHorizons": "Mixed: Visa Research focuses on longer-term fundamental research, while product AI (fraud detection, agentic commerce) operates on quarterly product cycles.",
+      "decisionRights": "Centralized research and standards through Visa Research, but AI deployment appears distributed across products (fraud, payments, commerce).",
+      "metrics": "Fortune AIQ 50 ranking (#2 in 2025). API call volume (700B+). Network size (12B endpoints). Transaction fraud prevention rates (not disclosed but referenced)."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "What powers generative AI is data. We have arguably the largest global payments data set that exists.",
+      "speaker": "Ryan McInerney",
+      "speakerTitle": "CEO",
+      "source": "Legal Dive / Investor Conference",
+      "sourceUrl": "https://www.legaldive.com/news/visa-investment-cybersecurity-threats-fraud-scams/710070/",
+      "sourceDate": "2024-03",
+      "context": "Discussing Visa's AI foundation and competitive advantage in data"
+    },
+    {
+      "text": "We are all in an arms race to protect this ecosystem, to protect the network.",
+      "speaker": "Ryan McInerney",
+      "speakerTitle": "CEO",
+      "source": "Investor Conference",
+      "sourceUrl": "https://www.legaldive.com/news/visa-investment-cybersecurity-threats-fraud-scams/710070/",
+      "sourceDate": "2024-03",
+      "context": "Discussing cybersecurity and AI-powered fraud prevention"
+    },
+    {
+      "text": "We've spent billions of dollars, we'll spend billions of dollars protecting the network of networks that we built on behalf of our clients and the ecosystem.",
+      "speaker": "Ryan McInerney",
+      "speakerTitle": "CEO",
+      "source": "Investor Conference",
+      "sourceUrl": "https://www.legaldive.com/news/visa-investment-cybersecurity-threats-fraud-scams/710070/",
+      "sourceDate": "2024-03",
+      "context": "Quantifying investment in AI/cybersecurity"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Visa Research - About",
+      "url": "https://usa.visa.com/about-visa/visa-research.html",
+      "type": "Blog",
+      "date": "2026-02",
+      "notes": "Overview of Visa Research mission, focus areas including ML security, deep learning, explainable AI, graph neural networks"
+    },
+    {
+      "name": "Visa Research - People",
+      "url": "https://usa.visa.com/about-visa/visa-research/people.html",
+      "type": "Blog",
+      "date": "2026-02",
+      "notes": "Full listing of AI research team: 24+ research scientists, led by Yiwei Cai (Trustworthy AI) and Anderson Nascimento (Security)"
+    },
+    {
+      "name": "Legal Dive - Visa Cybersecurity Investment",
+      "url": "https://www.legaldive.com/news/visa-investment-cybersecurity-threats-fraud-scams/710070/",
+      "type": "Press",
+      "date": "2024-03",
+      "notes": "McInerney quotes on billions in investment, data as AI foundation, synthetic datasets for fraud detection"
+    },
+    {
+      "name": "Visa Q4 2025 Earnings Call Highlights",
+      "url": "https://finance.yahoo.com/news/visa-inc-v-q4-2025-192741394.html",
+      "type": "Earnings Call",
+      "date": "2025-10",
+      "notes": "References agentic commerce, AI-driven stablecoins, 700B API calls, 12B endpoints. Fetch failed but search results captured key points."
+    },
+    {
+      "name": "LinkedIn - Sam Hamilton Profile",
+      "url": "https://www.linkedin.com/in/samhton",
+      "type": "Press",
+      "date": "2026-02",
+      "notes": "Identifies SVP Head of Data & AI Platforms role"
+    },
+    {
+      "name": "Visa Management Team",
+      "url": "https://investor.visa.com/corporate-governance/management-team/default.aspx",
+      "type": "Report",
+      "date": "2026-02",
+      "notes": "Identifies Rajat Taneja as President of Technology"
+    }
+  ],
+
+  "summary": "Visa operates a Hybrid/Hub-and-Spoke model for AI, with a dedicated Visa Research organization (~24+ scientists) conducting foundational AI research alongside distributed AI deployment in products (fraud detection, agentic commerce, VisaNet). CEO McInerney frames AI as powered by Visa's data advantage ('arguably the largest global payments data set') and has committed billions to AI-driven cybersecurity. No Chief AI Officer exists; AI leadership is distributed across Data & AI Platforms (Sam Hamilton, SVP), Visa Research Labs (Wang Min, SVP), and Technology (Rajat Taneja, President).",
+
+  "openQuestions": [
+    "Specific AI headcount beyond the ~24 research scientists",
+    "What percentage of R&D budget goes to AI specifically",
+    "How AI decisions are governed across research vs. product teams",
+    "Whether there are plans to create a Chief AI Officer role",
+    "How the 'Visa Intelligent Commerce' initiative is organizationally structured"
+  ],
+
+  "conferenceFindings": "McInerney has presented at JPMorgan Global Technology Media & Communications Conference (May 2025), Bernstein Strategic Decisions Conference (May 2024), and Goldman Sachs Communacopia (September 2023). Bloomberg Talks podcast featured him discussing AI's impact on advertising and agentic commerce. CNBC interviews at Visa Payments Forum covered AI-powered products."
+}

@@ -1,0 +1,199 @@
+{
+  "company": "Apple",
+  "ticker": "AAPL",
+  "leader": "Tim Cook",
+  "leaderTitle": "CEO",
+  "sector": "Big Tech",
+  "quadrant": "Q1",
+  "scannedDate": "2026-02-08",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://appleinsider.com/articles/25/12/23/apples-ai-team-is-bigger-than-reported-strategy-reinforced-with-latest-restructure",
+    "https://businesschief.com/news/why-is-apple-restructuring-its-ai-leadership-team",
+    "https://appleinsider.com/articles/26/01/30/amid-record-revenue-apples-q1-2026-rd-spend-reveals-its-ai-ambitions"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Apple is reorganizing AI work along functional lines — splitting what was John Giannandrea's centralized AI team across multiple divisions (robotics under hardware, Siri under Vision Pro team, Foundation Models under Craig Federighi, other AI work under Sabih Khan and Eddy Cue). This is a classic hub-and-spoke model: central standards and research (now under Amar Subramanya for ML research, AI safety, and evaluation) with distributed execution in product groups. The Zurich Vision Lab and Shenzhen research facility suggest a geographically distributed research operation. Apple's functional organizational structure (organized around expertise rather than products) reinforces this hybrid model.",
+    "aiTeamStructure": "Apple restructured its AI organization in late 2025. John Giannandrea (SVP Machine Learning & AI Strategy) stepped down, moving to an advisory role before retirement in Spring 2026. Amar Subramanya (former Microsoft AI VP and Google Gemini engineering head) became VP of AI, reporting to Craig Federighi. Subramanya's remit includes ML research, AI safety, and evaluation across device, edge, and cloud environments. Robotics moved under hardware chief (likely John Ternus), Siri under Vision Pro team (Mike Rockwell leading Siri redesign), and Foundation Models under Craig Federighi. Operations and Services elements moved under Sabih Khan and Eddy Cue respectively. Research labs in Zurich (Vision Lab), Shenzhen (China hub), and main operations in California and Seattle.",
+    "keyPeople": [
+      {"name": "Tim Cook", "title": "CEO", "role": "Sets AI as strategic priority; rallied company around AI at all-hands meeting"},
+      {"name": "Craig Federighi", "title": "Senior Vice President, Software Engineering", "role": "Now oversees Apple Foundation Models, platform integration, client-side operations, server-assisted inference. Leading Siri overhaul."},
+      {"name": "Amar Subramanya", "title": "Vice President of AI", "role": "New AI leader (2025). Reports to Federighi. Manages ML research, AI safety, evaluation across device/edge/cloud."},
+      {"name": "John Giannandrea", "title": "Former SVP Machine Learning & AI Strategy", "role": "Stepped down Dec 2025, advisory role until Spring 2026 retirement. Previously led centralized AI team."},
+      {"name": "Mike Rockwell", "title": "Executive (formerly Vision Pro)", "role": "Leading Siri ground-up redesign, expected Spring 2026."},
+      {"name": "Samy Bengio", "title": "Senior Director of AI and ML Research", "role": "Former Google AI scientist, now Apple's AI research leadership."},
+      {"name": "Ruoming Pang", "title": "Director, Foundation Models", "role": "Leads Apple Foundation Models team for LLMs. Former Google speech recognition research head."},
+      {"name": "Sabih Khan", "title": "SVP Operations", "role": "Now oversees some former Giannandrea AI team elements."},
+      {"name": "Eddy Cue", "title": "SVP Services", "role": "Now oversees some former Giannandrea AI team elements."}
+    ],
+    "investmentSignals": "Massive investment: $500B+ in US operations including AI-focused R&D and server infrastructure in 2025. New AI server farm in Houston using custom Apple silicon. Custom AI chips in development including 'Baltra' server processor. 12,000 hires in past year, 40% in R&D with 'many focused on AI.' Cook stated Apple will 'spend what it takes to compete.' FY2026 record R&D spending. Tim Cook is open to AI acquisitions — a notable shift for Apple which historically preferred building. Partnership with Google on next-gen Apple Foundation models and OpenAI for ChatGPT integration in Siri.",
+    "observableMarkers": {
+      "reportingStructure": "AI VP (Subramanya) reports to Craig Federighi (Software SVP), not directly to CEO. This is a shift from Giannandrea's SVP-level reporting. AI work distributed across multiple SVPs (Federighi, Khan, Cue, hardware chief, Vision Pro).",
+      "resourceAllocation": "Dedicated and growing: $500B US operations investment, AI server farm, custom AI chips. R&D spend at record levels. Hiring heavily weighted toward AI (40% of new hires). Ring-fenced major projects: Siri overhaul, Apple Foundation Models, Apple Intelligence.",
+      "timeHorizons": "Mixed: Siri overhaul targeting Spring 2026 (12-18 month horizon). Apple Intelligence rolling out 2025-2026. Long-term research through Zurich Vision Lab and ML research publications. Cook frames AI as 'once-in-a-generation shift' — long-term strategic priority.",
+      "decisionRights": "Historically centralized under Giannandrea; now distributed across functional leaders (Federighi, Khan, Cue, hardware). Amar Subramanya provides central coordination for ML research and AI safety/evaluation. Product decisions likely with product leaders.",
+      "metrics": "Consumer adoption of Apple Intelligence features. iPhone upgrade cycles (FY2026 driven by iPhone 17 'AI supercycle'). Services revenue growth (14-15% YoY). Device differentiation through on-device AI. Privacy and quality benchmarks — Cook and Federighi emphasize 'Apple quality' standards."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "We see AI as one of the most profound technologies of our lifetime. We are embedding it across our devices and platforms and across the company. We are also significantly growing our investments.",
+      "speaker": "Tim Cook",
+      "speakerTitle": "CEO",
+      "source": "Apple Q3 FY2025 Earnings Call",
+      "sourceUrl": "https://www.webpronews.com/apples-hidden-arsenal-tim-cook-signals-unprecedented-product-innovations-beyond-ai-for-2025/",
+      "sourceDate": "2025",
+      "context": "Earnings call discussing AI investments"
+    },
+    {
+      "text": "Apple must do this. Apple will do this. This is sort of ours to grab. We will make the investment to do it.",
+      "speaker": "Tim Cook",
+      "speakerTitle": "CEO",
+      "source": "Apple All-Hands Meeting (Cupertino)",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/inside-tim-cook-push-to-get-apple-back-in-the-ai-race/",
+      "sourceDate": "2025-08",
+      "context": "All-company gathering rallying around AI priority"
+    },
+    {
+      "text": "Apple has often shown up late to new technology—only to redefine it.",
+      "speaker": "Tim Cook",
+      "speakerTitle": "CEO",
+      "source": "Apple All-Hands Meeting",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/inside-tim-cook-push-to-get-apple-back-in-the-ai-race/",
+      "sourceDate": "2025-08",
+      "context": "Referencing Mac, iPhone, iPad as examples of Apple entering markets late but redefining them"
+    },
+    {
+      "text": "AI will reinvent and provide a new era and a new chapter for iPhone and iPad and the Mac and all of our products over time.",
+      "speaker": "Tim Cook",
+      "speakerTitle": "CEO",
+      "source": "WIRED Interview",
+      "sourceUrl": "https://www.macrumors.com/2024/12/04/apple-ceo-tim-cook-opens-up-in-new-interview/",
+      "sourceDate": "2024-12",
+      "context": "Interview discussing AI's impact on Apple products"
+    },
+    {
+      "text": "There is no project people are taking more seriously.",
+      "speaker": "Craig Federighi",
+      "speakerTitle": "SVP Software Engineering",
+      "source": "Inside Tim Cook's Push article",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/inside-tim-cook-push-to-get-apple-back-in-the-ai-race/",
+      "sourceDate": "2025",
+      "context": "Discussing the Siri overhaul project"
+    },
+    {
+      "text": "[The hybrid approach] wasn't going to get us to Apple quality.",
+      "speaker": "Craig Federighi",
+      "speakerTitle": "SVP Software Engineering",
+      "source": "Inside Tim Cook's Push article",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/inside-tim-cook-push-to-get-apple-back-in-the-ai-race/",
+      "sourceDate": "2025",
+      "context": "Explaining why merging old and new Siri versions failed and they're rebuilding from scratch"
+    },
+    {
+      "text": "We've been executing with AI for a long time... It's at the root of the watch.",
+      "speaker": "Tim Cook",
+      "speakerTitle": "CEO",
+      "source": "Post-WWDC Interview",
+      "sourceUrl": "https://www.powerpage.org/wwdc-tim-cook-discusses-apple-intelligence-in-post-keynote-speech/",
+      "sourceDate": "2024-06",
+      "context": "WWDC 2024 interview discussing Apple's long-standing use of AI"
+    },
+    {
+      "text": "We already view privacy as a fundamental human right, and so that's the lens that we see it at, and given that we're doing those things, personal context and privacy, we wanted to integrate it at a deep level.",
+      "speaker": "Tim Cook",
+      "speakerTitle": "CEO",
+      "source": "Post-WWDC Interview",
+      "sourceUrl": "https://www.powerpage.org/wwdc-tim-cook-discusses-apple-intelligence-in-post-keynote-speech/",
+      "sourceDate": "2024-06",
+      "context": "Explaining Apple's privacy-first approach to AI"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Apple Machine Learning Research",
+      "url": "https://machinelearning.apple.com/",
+      "type": "Blog",
+      "date": "2026-02",
+      "notes": "Official Apple ML research page. Shows research focus areas, conference sponsorships (NeurIPS 2025, EMNLP 2025), and PhD fellowship/residency programs."
+    },
+    {
+      "name": "Inside Tim Cook's Push to Get Apple Back in the AI Race",
+      "url": "https://www.artificialintelligence-news.com/news/inside-tim-cook-push-to-get-apple-back-in-the-ai-race/",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Key source for Tim Cook all-hands meeting quotes, Craig Federighi on Siri overhaul, Mike Rockwell leading Siri, hiring data (12K hires, 40% R&D). AKI team development."
+    },
+    {
+      "name": "Tim Cook Says Apple is Open to M&A on the AI Front",
+      "url": "https://techcrunch.com/2025/10/31/tim-cook-says-apple-is-open-to-ma-on-the-ai-front/",
+      "type": "Press",
+      "date": "2025-10-31",
+      "notes": "Cook signaling openness to acquisitions for AI — notable shift for Apple. OpenAI partnership confirmation."
+    },
+    {
+      "name": "Apple AI Leadership Restructure Coverage",
+      "url": "https://appleinsider.com/articles/25/12/23/apples-ai-team-is-bigger-than-reported-strategy-reinforced-with-latest-restructure",
+      "type": "Press",
+      "date": "2025-12-23",
+      "notes": "Blocked (403) but search snippet provided details: Giannandrea stepping down, Amar Subramanya as new VP of AI, reporting to Federighi, AI team ~200+ researchers, team redistribution across functional leaders."
+    },
+    {
+      "name": "Apple's Zurich AI Lab Coverage",
+      "url": "https://www.macrumors.com/2024/04/30/apple-hired-ai-google-experts-zurich-lab/",
+      "type": "Press",
+      "date": "2024-04-30",
+      "notes": "Details on Zurich Vision Lab, 36+ Google AI hires since 2018, focus on Vision Pro, Apple Car, Siri."
+    },
+    {
+      "name": "Apple Q1 FY2026 Earnings Coverage",
+      "url": "https://variety.com/2026/digital/news/apple-earnings-q1-2026-iphone-sales-services-1236644631/",
+      "type": "Earnings Call",
+      "date": "2026-01-30",
+      "notes": "Record quarter: $143.8B revenue (+16%), iPhone 17 driven 'AI supercycle', services $30B. Google partnership on Foundation Models."
+    },
+    {
+      "name": "Apple CEO Tim Cook WIRED Interview",
+      "url": "https://www.macrumors.com/2024/12/04/apple-ceo-tim-cook-opens-up-in-new-interview/",
+      "type": "Interview",
+      "date": "2024-12-04",
+      "notes": "Cook on AI reinventing all products, never planned to charge for Apple Intelligence, personal use of AI for email summarization."
+    },
+    {
+      "name": "Apple Shenzhen Research Lab",
+      "url": "https://www.macrumors.com/2024/10/11/apple-opens-research-lab-shenzhen-china/",
+      "type": "Press",
+      "date": "2024-10-11",
+      "notes": "20,000 sq meter facility, 'most extensive' lab outside US, Greater Bay Area R&D hub."
+    },
+    {
+      "name": "WWDC Tim Cook Post-Keynote Speech",
+      "url": "https://www.powerpage.org/wwdc-tim-cook-discusses-apple-intelligence-in-post-keynote-speech/",
+      "type": "Conference",
+      "date": "2024-06",
+      "notes": "Cook quotes on privacy-first AI approach, AI embedded in Apple Watch."
+    }
+  ],
+
+  "summary": "Apple is restructuring its AI organization from a centralized model under John Giannandrea to a hybrid/hub-and-spoke model with AI work distributed across functional leaders (Federighi for Foundation Models/Siri, hardware for robotics, services under Cue, operations under Khan). The new VP of AI (Amar Subramanya, ex-Microsoft/Google) reports to Craig Federighi and provides central coordination for ML research, AI safety, and evaluation. This reflects Apple's traditional functional organizational structure applied to AI. Investment is massive ($500B+ US operations, custom AI chips, 12K hires with 40% in R&D focused on AI), and Cook has positioned AI as a 'once-in-a-generation shift' requiring Apple to 'spend what it takes to compete.'",
+
+  "openQuestions": [
+    "Exact size of Apple's AI team (estimates of 200+ researchers, but unclear)",
+    "Specific R&D budget allocation to AI vs. other areas",
+    "How decision rights work between Subramanya's central ML research role and distributed product teams",
+    "Whether the Zurich Vision Lab and Shenzhen lab will gain or lose prominence under the new structure",
+    "Details on the 'Baltra' custom AI server chip timeline and capabilities",
+    "How the Google Foundation Models partnership will affect in-house model development",
+    "Specific metrics Apple uses to measure AI success internally"
+  ],
+
+  "conferenceFindings": "Apple sponsors major ML conferences (NeurIPS 2025, EMNLP 2025) and publishes research openly through machinelearning.apple.com. No evidence of Apple executives giving keynotes at AI/ML conferences — consistent with Apple's historically secretive approach. Key executives (Cook, Federighi) discuss AI in product launch keynotes (WWDC) and earnings calls rather than research conferences."
+}

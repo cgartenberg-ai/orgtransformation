@@ -1,0 +1,188 @@
+{
+  "company": "Lowe's",
+  "ticker": "LOW",
+  "leader": "Marvin Ellison",
+  "leaderTitle": "Chairman, President and CEO",
+  "sector": "Retail / Home Improvement",
+  "quadrant": "Q4",
+  "scannedDate": "2026-02-09",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://theaiinnovator.com/lowes-svp-of-ai-the-inside-story-of-the-retailers-ai-transformation/ - returned only markup, no article content",
+    "https://www.ciodive.com/news/Lowes-AI-strategy-tool-roll-out-stakeholder-feedback/753391/ - returned only markup, no article content"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "High",
+    "rationale": "Lowe's has a clear hybrid structure: (1) Lowe's Innovation Labs in Kirkland, WA handles long-horizon exploration (spatial computing, digital twins, Vision Pro), (2) an AI Transformation Office drives enterprise-wide adoption and governance, (3) a central Charlotte Tech Hub houses 2,000 tech associates as a 'center of excellence', and (4) embedded teams deploy AI into stores (Mylow Companion on Zebra devices). This hub-and-spoke model has central standards via the Transformation Office but distributed execution across Innovation Labs, engineering, and store operations.",
+    "aiTeamStructure": "Multi-layered structure: (1) Lowe's Innovation Labs (Kirkland, WA) - exploration arm exploring spatial computing, AI, digital twins; subsidiary-like independence. (2) AI Transformation Office - governance body that vets use cases on ROI, tech investment, business readiness, brand risk. (3) Charlotte Tech Hub - 'center of excellence' for up to 2,000 tech associates. (4) Core AI/Data team under SVP Chandhu Nair focused on platform and scaling. CIO Seemantini Godbole oversees digital strategy; Nair reports into tech organization. Partnership with OpenAI provides foundational LLM capabilities.",
+    "keyPeople": [
+      {"name": "Marvin Ellison", "title": "Chairman, President and CEO", "role": "Sets AI productivity vision; emphasizes AI as productivity tool, not job replacement"},
+      {"name": "Seemantini Godbole", "title": "Chief Digital and Information Officer, EVP", "role": "Oversees digital strategy; joined 2018 to modernize tech; Forbes Top 50 CIO; organizes GenAI around 'how we shop, sell, work'"},
+      {"name": "Chandhu Nair", "title": "Senior Vice President of AI, Data and Innovation", "role": "Leads AI platform and scaling; built team to abstract AI complexity for developers; emphasizes stakeholder feedback loops"}
+    ],
+    "investmentSignals": "Enterprise-scale AI adoption evidenced by: 100-billion-token milestone with OpenAI (recognized by OpenAI with award); Charlotte Tech Hub designed for 2,000 tech associates; Mylow handling ~1 million questions/month; partnership with OpenAI predating ChatGPT by nearly a year. Digital Commerce 360 projects $12.17B in ecommerce sales for 2025 (Lowe's ranks #11 among North American online retailers). No specific AI budget disclosed but multiple GenAI tools in production across customer-facing, associate-facing, and engineering use cases.",
+    "observableMarkers": {
+      "reportingStructure": "Chandhu Nair (SVP AI, Data, Innovation) sits in tech organization; Seemantini Godbole (CDIO) reports to CEO. AI Transformation Office provides cross-functional governance. Innovation Labs operates as semi-independent subsidiary in Kirkland, WA.",
+      "resourceAllocation": "Charlotte Tech Hub is dedicated facility with up to 2,000 tech roles; Innovation Labs is separate Kirkland facility; explicit investment in OpenAI partnership infrastructure. Multiple pilots running simultaneously (14 stores for ChatGPT-style tool, 50 stores for dwell alerts).",
+      "timeHorizons": "Mixed: Innovation Labs works on 2-5 year horizon (Vision Pro, digital twins, spatial commerce); AI Transformation Office works quarterly to annual cadence; store rollouts measured in months (Style Your Space launched Sept, expanding through 2025-2026).",
+      "decisionRights": "Centralized governance through AI Transformation Office with four-metric framework (ROI, tech investment, business readiness, brand/reputation risk). Distributed execution to Innovation Labs for exploration, engineering for internal tools, and store ops for associate-facing tools.",
+      "metrics": "Leading indicators: adoption rates, daily usage, weekly active users, feedback metrics. Lagging indicators: revenue growth, conversion uplift. Specific KPIs mentioned: 80% accuracy target for associate tool (aiming for 85-90%); 2x conversion when customers engage Mylow; 200 basis point improvement in CSAT with in-store Mylow Companion; double-digit productivity gains from GenAI in code review."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "Rather than thinking about it solely as a job replacement tool, how do you think about reducing someone's workload by 50%?",
+      "speaker": "Marvin Ellison",
+      "speakerTitle": "Chairman, President and CEO",
+      "source": "Morgan Stanley Consumer and Retail Conference",
+      "sourceUrl": "https://aimmediahouse.com/ai-retail/lowes-ceo-marvin-ellison-wants-ai-everywhere-just-not-in-place-of-workers",
+      "sourceDate": "2025",
+      "context": "Explaining Lowe's philosophy on AI as productivity enhancer rather than labor replacement"
+    },
+    {
+      "text": "Achieving this milestone places Lowe's in an elite tier of companies that are not just experimenting with AI, but operating at a true enterprise scale.",
+      "speaker": "Marvin Ellison",
+      "speakerTitle": "Chairman, President and CEO",
+      "source": "Q3 2025 Earnings Call / Press Coverage",
+      "sourceUrl": "https://www.digitalcommerce360.com/2025/11/20/lowes-ai-ecommerce-2026-growth/",
+      "sourceDate": "2025-11",
+      "context": "Announcing OpenAI's 100-billion-token milestone recognition"
+    },
+    {
+      "text": "When our customers engage with Mylow online, the conversion rate more than doubles.",
+      "speaker": "Marvin Ellison",
+      "speakerTitle": "Chairman, President and CEO",
+      "source": "Q3 2025 Earnings Call",
+      "sourceUrl": "https://www.digitalcommerce360.com/2025/11/20/lowes-ai-ecommerce-2026-growth/",
+      "sourceDate": "2025-11",
+      "context": "Quantifying business impact of AI virtual advisor"
+    },
+    {
+      "text": "AI resources enable store employees to be more helpful on the sales floor.",
+      "speaker": "Marvin Ellison",
+      "speakerTitle": "Chairman, President and CEO",
+      "source": "Morgan Stanley Consumer and Retail Conference",
+      "sourceUrl": "https://aimmediahouse.com/ai-retail/lowes-ceo-marvin-ellison-wants-ai-everywhere-just-not-in-place-of-workers",
+      "sourceDate": "2025",
+      "context": "Explaining productivity-focused AI deployment philosophy"
+    },
+    {
+      "text": "AI isn't going to fix a hole in your roof.",
+      "speaker": "Marvin Ellison",
+      "speakerTitle": "Chairman, President and CEO",
+      "source": "Business Roundtable CEO Workforce Forum",
+      "sourceUrl": "https://fortune.com/2025/06/30/lowes-ceo-marvin-ellison-ai-impact-workforce-gen-z-customers/",
+      "sourceDate": "2025-06",
+      "context": "Advising young workers about durable career opportunities in skilled trades"
+    },
+    {
+      "text": "We don't want to give a pass to generative AI. We want to hold you to the same rigorous standards.",
+      "speaker": "Seemantini Godbole",
+      "speakerTitle": "Chief Digital and Information Officer, EVP",
+      "source": "Fortune Profile",
+      "sourceUrl": "https://fortune.com/2024/12/18/lowes-cio-ai-tech/",
+      "sourceDate": "2024-12",
+      "context": "Describing evaluation framework for GenAI investments"
+    },
+    {
+      "text": "Home improvement is inherently complex and can feel overwhelming even for the most experienced DIYer – that's why Lowe's has invested in AI and emerging technologies.",
+      "speaker": "Seemantini Godbole",
+      "speakerTitle": "Chief Digital and Information Officer, EVP",
+      "source": "Lowe's Newsroom Press Release",
+      "sourceUrl": "https://corporate.lowes.com/newsroom/press-releases/lowes-launches-first-ai-powered-home-improvement-virtual-advisor-03-05-25",
+      "sourceDate": "2025-03-05",
+      "context": "Announcing Mylow virtual advisor launch"
+    },
+    {
+      "text": "We're doubling down with emerging technology collaborators like OpenAI to solve problems for our customers.",
+      "speaker": "Chandhu Nair",
+      "speakerTitle": "Senior Vice President of Technology",
+      "source": "Lowe's Newsroom Press Release",
+      "sourceUrl": "https://corporate.lowes.com/newsroom/press-releases/lowes-launches-first-ai-powered-home-improvement-virtual-advisor-03-05-25",
+      "sourceDate": "2025-03-05",
+      "context": "Announcing Mylow virtual advisor launch and OpenAI partnership"
+    },
+    {
+      "text": "We built a team, hired some specialists to build a platform through which we can scale. That way, we'll abstract all of the engineers, all the other developers, all the application builders, from having to worry about what protocols to use.",
+      "speaker": "Chandhu Nair",
+      "speakerTitle": "SVP of AI, Data and Innovation",
+      "source": "The AI Innovator (via web search summary)",
+      "sourceUrl": "https://theaiinnovator.com/lowes-svp-of-ai-the-inside-story-of-the-retailers-ai-transformation/",
+      "sourceDate": "2026-01",
+      "context": "Describing platform approach to scaling AI across the enterprise"
+    },
+    {
+      "text": "One thing that we do consistently as an AI team is we are on the floor.",
+      "speaker": "Chandhu Nair",
+      "speakerTitle": "SVP of AI, Data and Innovation",
+      "source": "CIO Dive (via web search summary)",
+      "sourceUrl": "https://www.ciodive.com/news/Lowes-AI-strategy-tool-roll-out-stakeholder-feedback/753391/",
+      "sourceDate": "2025-07",
+      "context": "Emphasizing stakeholder feedback and floor-level engagement as AI team practice"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Fortune - How Lowe's is trying to spruce up shopping with AI",
+      "url": "https://fortune.com/2024/12/18/lowes-cio-ai-tech/",
+      "type": "Press",
+      "date": "2024-12-18",
+      "notes": "Detailed profile of CIO Godbole; three-pillar framework (shop, sell, work); specific AI initiatives (dwell alerts, Style Your Space, Vision Pro pilot); accuracy metrics (80% target)"
+    },
+    {
+      "name": "Digital Commerce 360 - Lowe's leans on AI and ecommerce to drive 2026 growth",
+      "url": "https://www.digitalcommerce360.com/2025/11/20/lowes-ai-ecommerce-2026-growth/",
+      "type": "Press",
+      "date": "2025-11-20",
+      "notes": "Q3 2025 earnings coverage; OpenAI milestone; Mylow handling 1M questions/month; conversion and CSAT metrics; 2026 roadmap including agentic commerce"
+    },
+    {
+      "name": "Lowe's Newsroom - Mylow Launch Press Release",
+      "url": "https://corporate.lowes.com/newsroom/press-releases/lowes-launches-first-ai-powered-home-improvement-virtual-advisor-03-05-25",
+      "type": "Blog",
+      "date": "2025-03-05",
+      "notes": "Official announcement of Mylow; quotes from Godbole and Nair; OpenAI partnership; planned voice capabilities"
+    },
+    {
+      "name": "Lowe's Innovation Labs Website",
+      "url": "https://www.lowesinnovationlabs.com/",
+      "type": "Blog",
+      "date": "2026-02",
+      "notes": "Innovation Labs structure and projects; focus areas (democratization of expertise, spatial commerce, future stores); Apple Vision Pro, digital twin projects"
+    },
+    {
+      "name": "The AI Innovator - Lowe's SVP of AI Inside Story",
+      "url": "https://theaiinnovator.com/lowes-svp-of-ai-the-inside-story-of-the-retailers-ai-transformation/",
+      "type": "Interview",
+      "date": "2026-01-08",
+      "notes": "Profile of Chandhu Nair; content not fully accessible but search snippets provided platform scaling approach quotes"
+    },
+    {
+      "name": "AIM Media House - Lowe's CEO Wants AI Everywhere",
+      "url": "https://aimmediahouse.com/ai-retail/lowes-ceo-marvin-ellison-wants-ai-everywhere-just-not-in-place-of-workers",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Coverage of Morgan Stanley conference; Ellison's 50% workload reduction framing; AI as productivity not job replacement"
+    }
+  ],
+
+  "summary": "Lowe's has built a sophisticated hybrid/hub-and-spoke AI structure with multiple specialized units: Lowe's Innovation Labs (Kirkland, WA) handles long-horizon exploration in spatial computing and digital twins, an AI Transformation Office provides centralized governance using a four-metric vetting framework, a Charlotte Tech Hub serves as a center of excellence for up to 2,000 tech roles, and SVP Chandhu Nair leads the AI/Data platform team that abstracts complexity for developers across the enterprise. Under CEO Marvin Ellison and CDIO Seemantini Godbole, Lowe's has achieved enterprise-scale AI adoption (100-billion-token OpenAI milestone), with Mylow handling nearly 1 million customer questions monthly and driving 2x conversion rates online and 200 basis point CSAT improvements in stores.",
+
+  "openQuestions": [
+    "Specific size of Chandhu Nair's AI/Data team and exact reporting relationship to Godbole",
+    "AI headcount vs. total tech headcount (2,000 in Tech Hub but unclear how many focus on AI)",
+    "Specific CapEx or OpEx allocation to AI initiatives",
+    "How Innovation Labs coordinates with the AI Transformation Office on project handoffs",
+    "Whether the AI Transformation Office has dedicated headcount or is a governance committee",
+    "Long-term roadmap for 'agentic commerce' mentioned in 2026 plans"
+  ],
+
+  "conferenceFindings": "NRF 2026 presence confirmed through search results indicating Lowe's showcased Mylow (AI virtual advisor) and visualization services. The Mylow chatbot is the centerpiece customer-facing AI, while visualization refers to tools like Style Your Space (GenAI room visualization) and the Apple Vision Pro kitchen remodel experience. Lowe's Innovation Labs' digital twin work (Babylon) demonstrated at NVIDIA GTC with Jensen Huang present. Ellison spoke at Morgan Stanley Consumer and Retail Conference and Business Roundtable CEO Workforce Forum in 2025."
+}

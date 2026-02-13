@@ -1,0 +1,23 @@
+{
+  "specimenId": "anthropic",
+  "scannedDate": "2026-02-03",
+  "quality": "rich",
+  "claimCount": 14,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 5,
+    "survival": 0,
+    "commercial-success": 0
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

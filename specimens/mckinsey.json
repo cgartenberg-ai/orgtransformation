@@ -1,0 +1,130 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "mckinsey",
+  "name": "McKinsey & Company",
+  "title": "25,000 AI Agents as Organizational Members",
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5a",
+    "subTypeName": "Internal Incubator",
+    "secondaryModel": 2,
+    "secondaryModelName": "Center of Excellence",
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "M4→M5a+M2 (Audit 2026-02-12). QuantumBlack (1,700 people) is primarily a product lab that builds AI products (Lilli, 25K AI agents) absorbed into McKinsey's consulting practice (M5a). It also enables consultants to use AI (M2). The 'hub' doesn't coordinate semi-autonomous domain spokes building on shared infrastructure — it builds products consultants consume. The consulting-dual-identity insight confirms: QuantumBlack is a product vendor to its own firm.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Professional Services",
+    "sector": "Management Consulting",
+    "orgSize": "Enterprise",
+    "employees": 40000,
+    "revenue": null,
+    "headquarters": "New York, NY",
+    "geography": "Global"
+  },
+  "description": "McKinsey has become the most extreme case of human-AI organizational composition in our collection. At CES 2026, Global Managing Partner Bob Sternfels revealed that McKinsey now operates with 60,000 total 'employees' — 40,000 humans and approximately 25,000 AI agents. This expanded rapidly from 'a few thousand agents' roughly 18 months prior, and Sternfels expects parity (as many agents as humans) by end of 2026. The decision to count AI agents as organizational members is itself a structural statement: McKinsey is redesigning its organizational identity around human-agent hybrid teams.\n\nThe AI capability is centered in QuantumBlack, McKinsey's 1,700-person AI division that now drives 40% of firm revenue — a remarkable transformation from a specialized analytics acquisition to the firm's largest revenue engine. QuantumBlack serves as the central hub: it builds AI capabilities, sets standards, and increasingly defines how consulting engagements are structured. Meanwhile, the firm is executing a deliberate 25%/25% organizational rebalancing — increasing client-facing employees by 25% while reducing back-office roles by 25%. This is not net headcount reduction but structural reallocation: AI automates execution-oriented internal operations, freeing resources for higher-value client delivery.\n\nThe business model is transforming in parallel. McKinsey is shifting from fee-for-service advisory (selling slide decks) toward outcome-based partnerships where the firm co-invests in client outcomes and underwrites results. This transition is enabled by AI capabilities — the firm can now own outcomes, not just recommendations. Hiring criteria reflect this shift: McKinsey now recruits hybrid candidates who function as both traditional consultants and technologists, signaling that the boundary between 'AI unit' (QuantumBlack) and 'core business' (consulting) is dissolving.",
+  "observableMarkers": {
+    "reportingStructure": "QuantumBlack (1,700 people) as central AI division. Bob Sternfels (Global Managing Partner) as firm leader. Specific reporting lines between QuantumBlack leadership and firm management not publicly detailed.",
+    "resourceAllocation": "QuantumBlack: 1,700 people, 40% of firm revenue. 25% increase in client-facing staff, 25% reduction in back-office roles. ~25,000 AI agents deployed across the firm, targeting 1:1 agent-to-human ratio by end of 2026.",
+    "timeHorizons": "Client engagements shifting from project-based (weeks-months) to multi-year outcome-based partnerships. Internal AI adoption on rapid cycle (few thousand to 25,000 agents in ~18 months).",
+    "decisionRights": "Sternfels drives transformation at firm level. QuantumBlack holds AI capability authority. Individual consultants increasingly expected to work with AI agents in daily delivery.",
+    "metrics": "60,000 total 'employees' (40K human + ~25K AI agents). QuantumBlack = 40% of firm revenue. 25/25 rebalancing ratio. Target: 1:1 agent-to-human by end 2026."
+  },
+  "mechanisms": [
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Scaled from 'a few thousand' to ~25,000 AI agents in approximately 18 months. The mass-deployment-first approach mirrors McKinsey's advice to clients: rapid scaling with learning in production rather than careful piloting.",
+      "strength": "Strong"
+    },
+    {
+      "id": 10,
+      "name": "Productize Internal Operational Advantages",
+      "evidence": "McKinsey is transitioning from advisory to outcome-based partnerships — using AI capabilities developed internally (QuantumBlack) to co-invest in and underwrite client outcomes. Internal AI capability becomes the basis for a new business model.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Transform or die.",
+      "speaker": "Bob Sternfels",
+      "speakerTitle": "Global Managing Partner, McKinsey",
+      "source": "CES 2026",
+      "sourceUrl": "https://dnyuz.com/2026/01/12/ceo-bob-sternfels-says-mckinsey-now-has-60000-employees-25000-of-them-are-ai-agents/",
+      "timestamp": null,
+      "date": "2026-01-07"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke + M2 → M5 Product/Venture Lab + M2 Center of Excellence",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M5a Internal Incubator + M2 CoE. QuantumBlack builds AI products for internal consumption; also enables consultants.",
+      "classification": "M4 Hybrid/Hub-and-Spoke + M2",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
+    {
+      "date": "2026-01",
+      "label": "60K 'Employees' — 25K AI Agents",
+      "summary": "CES 2026 keynote: Sternfels reveals 60,000 total 'employees' (40K humans + ~25K AI agents), up from 'a few thousand agents' ~18 months ago. QuantumBlack drives 40% of revenue. 25/25 rebalancing: +25% client-facing, -25% back-office. Shift to outcome-based partnerships. Hybrid hiring (consultant+technologist). Target: 1:1 agent-to-human by end 2026.",
+      "classification": null,
+      "sourceRefs": [
+        "dnyuz-mckinsey-ces-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "dnyuz-mckinsey-ces-2026",
+      "type": "Press",
+      "name": "DNyuz (mirror) — McKinsey's CEO says the firm now has 60,000 employees. 25,000 of them are AI agents.",
+      "url": "https://dnyuz.com/2026/01/12/ceo-bob-sternfels-says-mckinsey-now-has-60000-employees-25000-of-them-are-ai-agents/",
+      "timestamp": null,
+      "sourceDate": "2026-01-12",
+      "collectedDate": "2026-02-10",
+      "notes": "Mirror of original article (Yahoo Finance redirect failed). Covers CES 2026 keynote appearance with Jason Calacanis and Hemant Taneja."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [
+    "What does '25,000 AI agents' actually mean in practice? Are these autonomous task-completers, or is this a generous counting of API calls and automated workflows?",
+    "How does QuantumBlack's organizational relationship to the rest of McKinsey work? Is it a separate P&L, or fully integrated?",
+    "What's the breakdown of QuantumBlack's 40% revenue contribution — is this AI consulting to clients, or internal AI-driven efficiency gains?",
+    "How are outcome-based partnerships structured? What does McKinsey underwrite, and what are the risk-sharing mechanisms?",
+    "What happened to the back-office employees in the 25% reduction? Attrition, redeployment, or layoffs?",
+    "How does McKinsey's partnership governance structure (elected Managing Partner, senior partners) interact with rapid AI transformation? Does the partnership model constrain or enable speed?",
+    "What specific AI agents are consultants using in day-to-day delivery? Slide generation, analysis, client communication?"
+  ],
+  "taxonomyFeedback": [
+    "McKinsey's counting of AI agents as 'employees' is a rhetorical and potentially structural innovation. If taken literally, the 1:1 agent-to-human target implies a fundamentally new organizational form where the 'workforce' includes non-human members with distinct capabilities and limitations. This maps to our field signal 'ai-agents-as-org-members' and connects to Mollick's management-as-superpower thesis.",
+    "QuantumBlack at 40% of revenue challenges our M2 classification for internal AI divisions. Most M2 Centers of Excellence are cost centers that enable the core business. QuantumBlack IS becoming the core business. This may be the clearest case of an AI division outgrowing its original organizational container.",
+    "The professional services structural pattern (McKinsey, Accenture, BCG, Deloitte) may deserve its own treatment. These firms are simultaneously: (1) transforming their own organizations with AI, (2) selling AI transformation advice to clients, and (3) using their own transformation as a credential for client work. This creates a self-reinforcing cycle that doesn't exist in manufacturing, healthcare, or financial services.",
+    "timeToObsolescence rated 'Fast' because AI threatens the core consulting value proposition: if clients can access AI-powered analysis directly, the information asymmetry that justifies consulting fees collapses. McKinsey's shift to outcome-based partnerships is the structural response to this existential threat.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M5+M2. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — QuantumBlack builds AI products for internal consumption; also enables consultants."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-12",
+    "lastUpdated": "2026-02-12",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

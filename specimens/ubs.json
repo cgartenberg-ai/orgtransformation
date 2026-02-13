@@ -33,8 +33,8 @@
     "reportingStructure": "CAIO reports to Group Chief CTO (Mike Dargan, transitioning from Group COTO to Group CTO).",
     "resourceAllocation": null,
     "timeHorizons": null,
-    "decisionRights": "Dedicated Chief AI Office responsible for deployment, standards, and foundations.",
-    "metrics": "300+ live AI use cases. 'Big Rocks' large-scale AI initiatives. M365 Copilot and in-house 'Red' AI Assistant rolling out to all employees."
+    "decisionRights": "Dedicated Chief AI Office responsible for deployment, standards, and foundations. CAIO mandate spans traditional, generative, and agentic AI modalities.",
+    "metrics": "300+ live AI use cases. 'Big Rocks' large-scale AI initiatives. M365 Copilot and in-house 'Red' AI Assistant rolling out to all employees. Credit Suisse integration 85% complete by Q4 2025."
   },
 
   "mechanisms": [
@@ -46,9 +46,31 @@
     }
   ],
 
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Artificial intelligence is a top priority for UBS.",
+      "speaker": "Mike Dargan",
+      "speakerTitle": "Group Chief Operations and Technology Officer",
+      "context": "Announcing Magazzeni's appointment as first CAIO",
+      "sourceRef": "wealthbriefing-ubs-2025"
+    },
+    {
+      "text": "further optimise our use of traditional, generative and agentic AI capabilities to transform our end-to-end operations and deliver cutting-edge solutions to our clients.",
+      "speaker": "Mike Dargan",
+      "speakerTitle": "Group Chief Operations and Technology Officer",
+      "context": "Describing CAIO Magazzeni's mandate — notable for explicit three-mode AI taxonomy",
+      "sourceRef": "wealthbriefing-ubs-2025"
+    }
+  ],
 
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Q4 2025 earnings and additional press coverage. Credit Suisse integration 85% complete by Q4 2025 — near-completion frees capacity for AI focus. Dargan's framing of CAIO mandate reveals three-mode AI taxonomy: traditional, generative, and agentic AI. Two executive quotes added.",
+      "classification": null,
+      "sourceRefs": ["wealthbriefing-ubs-2025", "ubs-q4-2025-earnings"]
+    },
     {
       "date": "2026-02",
       "label": "Tier 1 Press Broad Scan — Source Enrichment",
@@ -177,6 +199,26 @@
       "sourceDate": "2025-10",
       "collectedDate": "2026-02-01",
       "notes": "JPMorgan provenance detail. 12+ years academic career, 100+ publications."
+    },
+    {
+      "id": "wealthbriefing-ubs-2025",
+      "type": "Press",
+      "name": "WealthBriefing — UBS Signals AI Ambitions with Top Hire",
+      "url": "https://www.wealthbriefing.com/html/article.php/ubs-signals-ai-ambitions-with-top-hire",
+      "timestamp": null,
+      "sourceDate": "2025-10-17",
+      "collectedDate": "2026-02-09",
+      "notes": "Mike Dargan quotes on AI priority and three-mode AI taxonomy."
+    },
+    {
+      "id": "ubs-q4-2025-earnings",
+      "type": "Earnings",
+      "name": "UBS Q4 2025 Quarterly Results",
+      "url": "https://www.ubs.com/global/en/media/display-page-ndp/en-20260204-4q25-quarterly-result.html",
+      "timestamp": null,
+      "sourceDate": "2026-02-04",
+      "collectedDate": "2026-02-09",
+      "notes": "Credit Suisse integration 85% complete, enabling AI focus."
     }
   ],
 
@@ -204,13 +246,14 @@
 
   "taxonomyFeedback": [
     "UBS exemplifies the 'academic → CoE leader → CAIO' career pipeline (Magazzeni: King's College professor → JPM XAI CoE head → UBS CAIO). This is a distinct pattern from Mechanism #9 (Hire CAIOs from Consumer Tech).",
-    "The concurrent CAIO appointment and Credit Suisse integration suggests a pattern: major M&A or restructuring events create windows for formalizing AI governance."
+    "The concurrent CAIO appointment and Credit Suisse integration suggests a pattern: major M&A or restructuring events create windows for formalizing AI governance.",
+    "[2026-02] Dargan's framing of CAIO mandate as spanning 'traditional, generative and agentic AI' suggests emerging executive taxonomy for AI modalities. This three-mode framing may become standard for how CAIO scope is communicated."
   ],
 
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-02",
+    "lastUpdated": "2026-02-09",
     "completeness": "Medium",
     "convertedFrom": "library/cases/ubs.json"
   }

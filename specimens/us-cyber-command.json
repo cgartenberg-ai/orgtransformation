@@ -46,9 +46,24 @@
     }
   ],
 
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "a pivotal moment in world history",
+      "speaker": "Reid Novotny",
+      "speakerTitle": "Chief AI Officer, U.S. Cyber Command",
+      "context": "Describing the significance of AI adoption in military cyber operations",
+      "sourceRef": "cdo-magazine-cybercom-2026"
+    }
+  ],
 
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Re-scan of existing source. Added verbatim quote from Novotny on AI as 'pivotal moment in world history.' Novotny also holds DoW Cyber Force Generation lead role. No new structural details surfaced.",
+      "classification": null,
+      "sourceRefs": ["cdo-magazine-cybercom-2026"]
+    },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
@@ -90,17 +105,19 @@
   "openQuestions": [
     "What is the size and structure of the CAIO's team?",
     "How does the CAIO role interact with existing cyber operations divisions?",
-    "What AI use cases is Cyber Command prioritizing?"
+    "What AI use cases is Cyber Command prioritizing?",
+    "What does the 'DoW Cyber Force Generation lead' role entail and how does it interact with CAIO responsibilities?"
   ],
 
   "taxonomyFeedback": [
-    "Government/military CAIO appointments may warrant their own sub-pattern within Model 2. The mandate-driven nature (White House EO) differs from organic CoE formation."
+    "Government/military CAIO appointments may warrant their own sub-pattern within Model 2. The mandate-driven nature (White House EO) differs from organic CoE formation.",
+    "[2026-02] Re-scan yielded minimal new data. Novotny's dual role (CAIO + DoW Cyber Force Generation lead) suggests potential for Model 3 (Business Unit AI) characteristics if force generation responsibilities include operational AI deployment. Still need more structural detail to assess."
   ],
 
   "meta": {
     "status": "Stub",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-09",
     "completeness": "Low",
     "convertedFrom": null
   }

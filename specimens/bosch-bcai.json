@@ -3,16 +3,16 @@
   "name": "Bosch",
   "title": "Cross-Divisional AI Network (BCAI)",
   "classification": {
-    "structuralModel": 4,
-    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
     "subType": null,
     "subTypeName": null,
-    "secondaryModel": null,
-    "secondaryModelName": null,
+    "secondaryModel": 3,
+    "secondaryModelName": "Embedded Teams",
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Medium",
-    "classificationRationale": "BCAI is explicitly described as a network of experts from both Bosch Research AND business divisions—not a traditional centralized lab. This network structure with central coordination is the defining pattern of Model 4 (Hub-and-Spoke). Structural orientation: BCAI is a named, formally-resourced entity with board-level leadership (Dr. Kessler).",
+    "classificationRationale": "M4→M1+M3 (Audit 2026-02-12). BCAI (Bosch Center for AI) is a dedicated research center with academic publications and long-horizon R&D (M1). Product divisions embed AI for specific applications (M3). The 'hub' is a research lab, not a shared infrastructure coordinator.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -35,6 +35,15 @@
   "mechanisms": [],
   "quotes": [],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke → M1 Research Lab + M3 Embedded Teams",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M1 Research Lab + M3 Embedded. BCAI is a research center; product divisions embed AI independently.",
+      "classification": "M4 Hybrid/Hub-and-Spoke",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
@@ -103,25 +112,30 @@
     }
   ],
   "contingencies": {
-    "regulatoryIntensity": null,
-    "timeToObsolescence": null,
-    "ceoTenure": null,
-    "talentMarketPosition": null,
-    "technicalDebt": null
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "High"
   },
   "tensionPositions": {
-    "structuralVsContextual": null,
-    "speedVsDepth": null,
-    "centralVsDistributed": "Distributed-leaning. BCAI is explicitly \"not a traditional centralized lab\" but a network spanning research and business divisions.",
-    "namedVsQuiet": "Named. BCAI is a branded, visible entity with public presence at CES.",
-    "longVsShortHorizon": null
+    "structuralVsContextual": -0.4,
+    "speedVsDepth": 0.0,
+    "centralVsDistributed": 0.3,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": -0.3
   },
   "openQuestions": [],
-  "taxonomyFeedback": [],
+  "taxonomyFeedback": [
+    "[2026-02] BCAI's explicit rejection of 'traditional centralized lab' structure reveals an important M4 design principle in German industrial contexts: the hub isn't a command center but a coordination mechanism. Where American M4 specimens (Meta AI, Google DeepMind) position the hub as a capability concentrator that broadcasts to spokes, Bosch's network model appears more federated—experts remain embedded in business divisions while BCAI provides connective tissue. This likely reflects Bosch's diversified business structure (automotive, industrial, consumer goods have fundamentally different AI use cases) and suggests M4 effectiveness may depend on whether the hub aggregates or orchestrates capability.",
+    "[2026-02] The €2.5B investment coupled with board-level AI leadership (Dr. Kessler) signals genuine strategic commitment, yet the specimen shows zero evidence of actual coordination mechanisms—no mention of shared platforms, talent rotation, standards bodies, or resource allocation processes. This is a structurally interesting gap: BCAI may be solving the political economy problem (legitimizing AI investment across divisions, creating executive sponsorship) without solving the coordination problem. If so, it suggests M4 structures can serve dual functions: operational coordination AND political air cover for distributed AI work that would happen anyway.",
+    "[2026-02] Bosch's 'AI in virtually every product' aspiration combined with M4 structure raises a taxonomic edge case: at what point does pervasive AI adoption collapse the distinction between M4 and M6a (Enterprise-Wide Adoption)? If AI is embedded everywhere via a named coordinating body (BCAI), is that still M4, or is it M6a with visible scaffolding? The CES demos (AI cockpits, manufacturing agents, connected appliances) suggest breadth over depth—many shallow integrations rather than frontier research. This may represent M4's evolution in manufacturing contexts: not a hub pushing breakthroughs to spokes, but a network enabling baseline AI competence across product lines. Worth tracking whether BCAI is better classified as M2 (Center of Excellence for enablement) rather than true M4.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M1+M3. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — BCAI is a research center; product divisions embed AI independently."
+  ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-12",
     "completeness": "Low",
     "convertedFrom": "library/cases/bosch-bcai.json"
   }

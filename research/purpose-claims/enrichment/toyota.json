@@ -1,0 +1,38 @@
+{
+  "specimenId": "toyota",
+  "scannedDate": "2026-02-12",
+  "claimCount": 14,
+  "quality": "rich",
+  "searchesCompleted": 6,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "spectrum.ieee.org (JS-rendered, no content returned)",
+    "cnbc.com (paywall/auth wall, CSS only returned)"
+  ],
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 4,
+    "higher-calling": 1,
+    "identity": 2,
+    "survival": 1,
+    "commercial-success": 5
+  },
+  "keyFindings": [
+    "Gill Pratt is Toyota's dominant purpose-claim voice, with a highly consistent 'amplify not replace' philosophy that has been articulated since at least 2019 and continues through 2024-25.",
+    "Toyota's purpose claims split cleanly between two leaders with distinct rhetorical registers: Pratt (exploration side) speaks in teleological and higher-calling terms about human autonomy and moral obligation; Kursar (execution side) speaks in commercial-success terms about productivity metrics and organizational bridging.",
+    "Incoming CEO Kenta Kon's most notable AI statement is a survival-type competitive-gap admission — unusually honest for an automotive CEO, and structurally revealing about Toyota's self-perception despite $1B+ AI investment.",
+    "The CES 2019 Pratt speech is the richest single source, yielding 5 distinct purpose claims including the signature 'autonomy of people, not autonomy of cars' reframing."
+  ],
+  "rhetoricalPatterns": [
+    "AMPLIFICATION-VS-REPLACEMENT BINARY: Pratt consistently deploys a binary frame where Toyota 'amplifies' rather than 'replaces' — this appears in CES 2019, TRI robotics announcements, and Dallas Innovates interview. It functions as a persistent identity anchor that distinguishes Toyota from competitors pursuing full autonomy/automation.",
+    "MORAL OBLIGATION AUTHORIZATION: Pratt uniquely uses explicit moral duty language ('we have a moral obligation') to authorize incremental AI safety deployment, framing Toyota's slower-than-competitors autonomous driving timeline as ethically superior.",
+    "METRIC-GROUNDED EXECUTION: Kursar's claims are consistently metric-grounded (20% productivity, 7 hours to 15 seconds) — no utopian or identity-level framing. This mirrors the structural separation between exploration (Pratt/TRI) and execution (Kursar/Enterprise AI).",
+    "COMPETITIVE HUMILITY: Kon's Tesla acknowledgment is structurally rare — most incoming CEOs claim confidence and vision. The admission of trailing competitors does legitimacy work by signaling awareness and creating mandate for change."
+  ],
+  "comparativeNotes": "Toyota's purpose-claim pattern is distinctive compared to tech companies: instead of utopian/epochal framing (common in Google, OpenAI, Salesforce), Toyota's signature claim is teleological — 'autonomy of people.' The moral-obligation framing is rare across the collection; most companies frame AI as opportunity, not duty. Kursar's 'bridge research and production' claim is a rare structural purpose claim — most claims are about what AI does, not how it flows through the organization. The exploration-execution rhetorical split (Pratt: purpose; Kursar: metrics) mirrors the M4 structural model itself.",
+  "notableAbsences": "Koji Sato, the outgoing CEO, has very few AI-specific purpose claims in publicly available English-language sources. His leadership narrative centered on EV transformation ('becoming a mobility company') rather than AI specifically. No direct quotes from Akio Toyoda (Chairman, former CEO) on AI strategy were found. No Kenta Kon quotes on AI beyond the competitive-gap admission. No purpose claims from Woven by Toyota leadership. Japanese-language sources (untapped) may contain richer CEO-level AI purpose framing.",
+  "correctedLeaderInfo": {
+    "gillPratt": "Title should be 'Chief Scientist and Executive Fellow for Research, Toyota Motor Corporation / CEO, Toyota Research Institute' per Toyota global website. He is NOT just TRI CEO."
+  },
+  "scanNarrative": "Toyota's purpose-claim landscape reveals a striking structural mirror: the organizational separation between exploration (TRI) and execution (Enterprise AI) is replicated in the rhetorical registers of its two primary AI spokespeople. Gill Pratt, leading the exploration side, speaks in the language of purpose — human autonomy, moral obligation, amplification over replacement, democratization of safety. Brian Kursar, leading the execution side, speaks in the language of performance — productivity metrics, bridging research to production, data strategy expansion. Neither leader crosses into the other's register, suggesting these rhetorical identities are deeply embedded in the structural roles themselves.\n\nThe CES 2019 speech stands out as Toyota's richest single source of purpose claims. Pratt's reframing — 'the most important benefit of automated driving is not about the autonomy of cars, it's about the autonomy of people' — is one of the most conceptually sophisticated purpose claims in the entire collection. It does genuine strategic work: it converts Toyota's competitive disadvantage in full autonomous driving into a philosophical advantage, positioning human amplification as the morally superior goal. The 'Guardian for all' claim further extends this by offering Toyota's safety AI to competitors, an unusual move that elevates the claim from commercial strategy to public good.\n\nThe most revealing claim may be incoming CEO Kenta Kon's candid earnings-call admission that Toyota trails Tesla in AI. For the CEO-designate of the world's largest automaker to publicly acknowledge a competitive gap is organizationally costly — it signals that the survival-type pressure is real, not rhetorical. Combined with the existing specimen's structural analysis showing elaborate M4 architecture with $1B+ investment, this suggests Toyota may face an exploration-execution gap: world-class research infrastructure that hasn't yet translated into competitive AI deployment. The purpose claims from Pratt (teleological, higher-calling) may have been too successful at protecting exploratory work, while the execution-side claims from Kursar (commercial-success) remain localized to North American IT operations rather than permeating global manufacturing."
+}

@@ -1,0 +1,32 @@
+{
+  "specimenId": "crowdstrike",
+  "scannedDate": "2026-02-12",
+  "claimCount": 16,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": 3,
+  "keyFindings": [
+    "Kurtz dominates the purpose-claims landscape completely — no other CrowdStrike executive produces claims of this type. CTO Zaitsev and CPEO Kulkarni speak in technical/product terms, not purpose language.",
+    "CrowdStrike's rhetorical repertoire is unusually militarized: 'AI war,' 'weapons,' 'adversaries,' 'double-edged sword,' 'fight.' This is habitat-driven — cybersecurity's adversarial nature naturalizes martial language that would sound overwrought in pharma or banking.",
+    "The May 2025 layoff memo and the September 2025 Fal.Con keynote represent a deliberate rhetorical arc: layoffs justified by survival/efficiency (May) → reassurance that humans are 'moving up, not out' (September). The 4-month gap matters — Kurtz had time to calibrate the follow-up message.",
+    "The 'security AGI' aspiration is distinctive: Kurtz uses the autonomous vehicle stages metaphor (Level 1–5 autonomy) to make AGI seem like a graded, manageable progression rather than a binary transformation. This is unusually sophisticated framing.",
+    "CrowdStrike exhibits a rare dual posture: it simultaneously sells AI to customers (Charlotte AI) and uses AI to restructure its own workforce (layoffs). This creates rhetorical tension that Kurtz manages by keeping the two narratives in separate venues."
+  ],
+  "rhetoricalPatterns": [
+    "Survival-through-arms-race: Unlike tech companies that frame AI as opportunity, Kurtz consistently frames it as a war where CrowdStrike and its customers must keep pace with adversaries who also use AI. This makes adoption not optional but existential.",
+    "Elevation-not-displacement: The 'operators to orchestrators' and 'moving up, not out' language is a deliberate counter-narrative to the layoff story. Kurtz addresses the displacement fear directly and repositions it as professional advancement.",
+    "Heritage legitimacy: 'We were doing AI before it was fashionable' establishes CrowdStrike as an authentic AI company, not a bandwagon joiner. This identity claim immunizes against skepticism about the AI pivot.",
+    "Inevitability closure: Claims like 'the agentic SOC isn't coming — it's here' and 'the question isn't whether... but how quickly' foreclose debate about direction and convert strategic choice into speed competition."
+  ],
+  "comparativeNotes": "CrowdStrike's claim profile is distinctive in the collection for its militarized register. Where pharma CEOs (Bourla, Hudson) invoke patient outcomes and teleological endpoints, and tech CEOs (Nadella, Pichai) invoke civilizational transformation, Kurtz consistently invokes adversarial combat. This is habitat-driven: cybersecurity is inherently adversarial, and the AI arms-race framing is both authentic and strategically useful — it creates urgency that justifies both customer spending and internal restructuring.\n\nThe claim-type distribution shows a balanced portfolio tilted toward survival and commercial-success, which distinguishes CrowdStrike from purpose-heavy specimens like Sanofi or Novo Nordisk. Kurtz's few higher-calling claims ('the world needs CrowdStrike more than ever,' 'human conscience of cyber defense') are notable for their intensity but represent a minority of his output — he is primarily making competitive and efficiency arguments, not moral ones.\n\nThe founder-CEO dynamic matters: Kurtz founded CrowdStrike in 2011, so his identity claims carry the weight of personal authorship. When he says 'it has to start with your DNA and your culture,' he is speaking as the person who set that DNA. This gives his identity claims more credibility than similar claims from hired-gun CEOs.",
+  "notableAbsences": "No claims from CTO Elia Zaitsev, CPEO Amol Kulkarni, or CTIO Alex Ionescu — the purpose-claims register is entirely Kurtz-dominated. This is consistent with the founder-CEO pattern but leaves the CTO's perspective on 'security AGI' uncollected. No claims from the July 2024 outage recovery period — Kurtz may have been in crisis-management mode with different rhetorical priorities. No claims from board communications or shareholder letters, which might reveal a different register than the earnings calls and keynotes.",
+  "correctedLeaderInfo": null,
+  "claimTypeDistribution": {
+    "utopian": 3,
+    "teleological": 1,
+    "higher-calling": 2,
+    "identity": 3,
+    "survival": 5,
+    "commercial-success": 5
+  }
+}

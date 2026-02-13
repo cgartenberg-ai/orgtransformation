@@ -1,5 +1,6 @@
-import { getPurposeClaims } from "@/lib/data/purpose-claims";
+import { getPurposeClaims, getAllEnrichments } from "@/lib/data/purpose-claims";
 import { getAllSpecimens } from "@/lib/data/specimens";
+import type { SpecimenEnrichment } from "@/lib/types/purpose-claims";
 import { PurposeClaimsBrowser } from "@/components/purpose-claims/PurposeClaimsBrowser";
 
 export const metadata = {
@@ -12,10 +13,17 @@ export default async function PurposeClaimsPage({
 }: {
   searchParams: { specimen?: string };
 }) {
-  const [claimsData, allSpecimens] = await Promise.all([
+  const [claimsData, allSpecimens, enrichmentsList] = await Promise.all([
     getPurposeClaims(),
     getAllSpecimens(),
+    getAllEnrichments(),
   ]);
+
+  // Build serializable enrichment map for client component
+  const enrichments: Record<string, SpecimenEnrichment> = {};
+  for (const e of enrichmentsList) {
+    enrichments[e.specimenId] = e;
+  }
 
   const specimens = allSpecimens.map((s) => ({
     id: s.id,
@@ -49,6 +57,7 @@ export default async function PurposeClaimsPage({
         claimTypeDefinitions={claimsData.claimTypeDefinitions}
         specimens={specimens}
         initialSpecimen={searchParams.specimen || null}
+        enrichments={enrichments}
       />
     </div>
   );

@@ -1,0 +1,103 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "us-air-force",
+  "name": "U.S. Air Force",
+  "title": "Defense Branch Establishing Centralized AI Center of Excellence",
+
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "Low",
+    "classificationRationale": "The Air Force is explicitly establishing an 'AI Center of Excellence' under the Chief Data and AI Officer, which directly maps to the M2 Center of Excellence model. The CoE structure suggests governance, standards, and enablement functions typical of M2. Structural orientation is indicated by the creation of a distinct organizational unit (the CoE) to handle AI work. However, confidence is Low because we have minimal detail on the CoE's actual responsibilities, relationship to operational units, or whether distributed AI teams exist.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Government/Defense",
+    "sector": "Military",
+    "orgSize": "Enterprise",
+    "employees": 689000,
+    "revenue": null,
+    "headquarters": "Washington, D.C.",
+    "geography": "United States"
+  },
+
+  "description": "The Department of the Air Force is establishing an AI Center of Excellence to centralize and coordinate artificial intelligence efforts across the service branch. The CoE will be overseen by Air Force Chief Data and AI Officer Susan Davenport, signaling senior leadership commitment to structured AI governance.\n\nThe center will leverage Microsoft infrastructure, suggesting a partnership approach to cloud and AI capabilities rather than building purely internal solutions. This aligns with broader federal government trends toward leveraging commercial AI platforms while maintaining military-specific applications and security requirements.\n\nAs a nascent initiative, the full scope and operating model of the CoE remains to be detailed. The establishment of a formal CoE structure—rather than distributed or informal approaches—reflects the Air Force's preference for centralized governance of emerging technology capabilities.",
+
+  "observableMarkers": {
+    "reportingStructure": "AI Center of Excellence reports to Chief Data and AI Officer Susan Davenport",
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "AI CoE Establishment",
+      "summary": "Air Force announces establishment of AI Center of Excellence under CDAO Susan Davenport, leveraging Microsoft infrastructure",
+      "sourceRefs": ["us-air-force-coe-announcement-2026"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "us-air-force-coe-announcement-2026",
+      "type": "Press",
+      "name": "Air Force establishes AI Center of Excellence",
+      "url": "https://www.airandspaceforces.com/air-force-launching-new-artificial-intelligence-center-of-excellence/",
+      "date": "2026",
+      "collected": "2026-02-07"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "High"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.7,
+    "speedVsDepth": null,
+    "centralVsDistributed": -0.8,
+    "namedVsQuiet": -0.9,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [
+    "What is the specific mandate and scope of the AI CoE?",
+    "How will the CoE interact with existing AI efforts across Air Force commands and bases?",
+    "What is the staffing model—military, civilian, or contractor personnel?",
+    "Beyond Microsoft infrastructure, what other technology partnerships are involved?",
+    "How does this CoE relate to broader DoD AI initiatives like the Chief Digital and AI Office (CDAO)?"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] The Air Force CoE represents a clear M2 specimen in the government/defense sector, where the 'Center of Excellence' label is being used explicitly rather than as an analyst categorization. This is notable because government agencies often have different structural constraints than private sector orgs—procurement rules, civilian-military workforce dynamics, and multi-year budget cycles may make the CoE model particularly attractive for its governance and standardization functions.",
+    "[2026-02] The Microsoft infrastructure partnership raises interesting questions about government AI structure. Unlike private sector M2s that might build proprietary platforms, defense CoEs may need to balance commercial partnerships with security requirements, potentially creating a distinct variant of the CoE model optimized for classified/sensitive workloads.",
+    "[2026-02] Data is thin—this specimen would benefit significantly from transcript discovery to understand how the CoE actually operates. The formal announcement tells us the 'what' but not the 'how' of Air Force AI governance."
+  ],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

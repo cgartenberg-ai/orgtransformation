@@ -1,0 +1,104 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "meta-reality-labs",
+  "name": "Meta (Reality Labs)",
+  "title": "Metaverse Lab Downsized to Fund AI Research Pivot",
+
+  "classification": {
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Temporal",
+    "orientationName": "Temporal Ambidexterity",
+    "confidence": "Low",
+    "classificationRationale": "Reality Labs functions as Meta's long-horizon research division focused on VR/AR/metaverse. The January 2026 restructuring—cutting ~1,500 employees and redirecting investment toward AI R&D—represents a temporal shift from metaverse exploration toward AI exploration. However, we only have one source documenting this pivot, and no details on the resulting AI structure. Classified as M1 Research Lab because Reality Labs has historically been a multi-year horizon research unit, though the pivot suggests temporal cycling between exploration domains rather than a pure M1.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Social Media / Consumer Technology",
+    "orgSize": "Enterprise",
+    "employees": 67000,
+    "revenue": "$135B",
+    "headquarters": "Menlo Park, CA",
+    "geography": "Global"
+  },
+
+  "description": "Meta's Reality Labs division has been the company's long-horizon bet on the metaverse—AR/VR hardware, software, and platforms. The unit operated as a structurally separated research lab with multi-year investment horizons, consuming tens of billions annually in pursuit of next-generation computing platforms.\n\nIn January 2026, Meta cut approximately 1,500 employees from Reality Labs and announced a strategic redirection of investment toward AI research and development. This marks a significant pivot from metaverse exploration to AI exploration, while maintaining the structural separation characteristic of a research lab model. The move signals Meta's recognition that generative AI represents a nearer-term strategic priority than metaverse infrastructure.\n\nThe restructuring exemplifies temporal ambidexterity at the division level—Reality Labs cycling its exploration focus from one frontier technology (metaverse) to another (AI). However, the thin data available provides no visibility into how the redirected AI R&D is being structured, what teams are being built, or how this relates to Meta's existing AI infrastructure (FAIR, applied AI in apps).",
+
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": "Significant reallocation from metaverse to AI R&D following ~1,500 layoffs in Reality Labs",
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+
+  "mechanisms": [],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Reality Labs Restructuring",
+      "summary": "Meta cuts ~1,500 employees from Reality Labs division and redirects investment toward AI R&D, marking strategic shift from metaverse to AI exploration.",
+      "sourceRefs": ["meta-reality-labs-layoffs-2026"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "meta-reality-labs-layoffs-2026",
+      "name": "Meta cuts ~1,500 from Reality Labs, redirects investment toward AI R&D",
+      "type": "Press",
+      "url": "https://www.informationweek.com/it-staffing-careers/2026-tech-company-layoffs",
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-07"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": -0.8,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": -0.9,
+    "longVsShortHorizon": -0.7
+  },
+
+  "openQuestions": [
+    "How does the redirected AI R&D investment relate to Meta's existing AI infrastructure (FAIR, applied AI teams)?",
+    "What is the resulting organizational structure of AI R&D after the Reality Labs cuts?",
+    "Is this a full pivot away from metaverse, or a rebalancing of the exploration portfolio?",
+    "How many of the 1,500 cut employees were researchers vs. support staff?"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] This specimen represents an interesting edge case: a research lab pivoting its exploration domain rather than its relationship to execution. Reality Labs remains structurally separated, but the 'what' of exploration shifts from metaverse to AI. This is temporal cycling within a structurally separated unit—a pattern the taxonomy captures across units but perhaps less clearly within a single unit.",
+    "[2026-02] The thin data makes classification difficult. A single press mention of layoffs and investment redirection gives us the strategic signal but none of the structural details we'd need for confident classification. This is a 'Stub' specimen that needs enrichment from earnings calls or executive interviews.",
+    "[2026-02] Meta's broader AI structure (FAIR as M1, applied AI across apps as M3/M4) makes this specimen potentially just one piece of a more complex multi-model configuration. A 'meta' (lowercase) specimen covering Meta's full AI organizational architecture would be valuable."
+  ],
+
+  "meta": {
+    "status": "Deprecated",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "Low",
+    "convertedFrom": null,
+    "deprecatedReason": "Merged into meta-ai specimen. Reality Labs is a division of Meta, not an independent organizational unit. All data preserved in meta-ai.",
+    "mergedInto": "meta-ai"
+  }
+}

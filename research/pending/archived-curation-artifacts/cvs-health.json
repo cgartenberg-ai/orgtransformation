@@ -1,0 +1,141 @@
+{
+  "company": "CVS Health",
+  "ticker": "CVS",
+  "leader": "David Joyner",
+  "leaderTitle": "CEO",
+  "sector": "Healthcare",
+  "quadrant": "Q2",
+  "scannedDate": "2026-02-08",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://fortune.com/company/cvs-health/earnings/q2-2025/ - transcript content not accessible"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Contextual",
+    "confidence": "High",
+    "rationale": "CVS has a clear central data/AI leadership (Ali Keshavarz as Chief Data Analytics & AI Officer) with standards and governance, while AI is deployed across all business units (Aetna, CVS Caremark, CVS Pharmacy, Oak Street Health) through embedded teams. The Chief Experience and Technology Officer (Tilak Mandadi) explicitly rejected creating a separate CAIO role, arguing 'that is mistaking a tool for a solution.' Instead, AI is embedded as a capability across all business functions. This is classic hub-and-spoke: central standards/platforms plus distributed execution. The contextual orientation is evidenced by individual roles (nurses, pharmacists, call center agents) being expected to work with AI tools within their existing jobs, not in separate AI units.",
+    "aiTeamStructure": "Dual-leadership model: Ali Keshavarz as Chief Data Analytics & AI Officer leads the data strategy and AI capability-building since September 2021. Tilak Mandadi as EVP Ventures and Chief Experience and Technology Officer leads the technology platform and customer experience transformation. AI is deployed across all four main business units: Aetna (insurance), CVS Caremark (PBM), CVS Pharmacy (retail), and Health Care Delivery (Oak Street Health, MinuteClinic). No standalone AI lab or research unit - AI is embedded in operations. The organization has a Continuous Learning Academy focused on AI and data science skills for workforce upskilling.",
+    "keyPeople": [
+      {"name": "David Joyner", "title": "CEO", "role": "Sets strategic vision for AI-driven transformation; became CEO October 2024"},
+      {"name": "Ali Keshavarz", "title": "Chief Data Analytics & AI Officer", "role": "Leads enterprise data strategy, AI capability building since September 2021; drives ML/AI implementation across all business units"},
+      {"name": "Tilak Mandadi", "title": "Executive Vice President of Ventures and Chief Experience and Technology Officer", "role": "Leads technology platform, AI-native consumer platform, interoperability initiatives; joined CVS 2022 from MGM/Disney/AmEx"}
+    ],
+    "investmentSignals": "$20 billion technology modernization plan over 10 years announced June 2025. Saved $1+ billion through AI-driven efficiencies which is being reinvested in growth and AI initiatives. No specific AI-only budget disclosed but AI positioned as central to the $20B tech spend. Ambient AI scribe tools deployed at 90% of Oak Street Health facilities. Acquisitions include Oak Street Health ($10.6B) which brought the Canopy AI platform.",
+    "observableMarkers": {
+      "reportingStructure": "Chief Data Analytics & AI Officer (Keshavarz) and Chief Experience & Technology Officer (Mandadi) both report to CEO. AI leadership split between data/analytics and technology/platform functions rather than unified under a single AI czar. Mandadi explicitly rejected creating a CAIO role, preferring embedding AI across functions.",
+      "resourceAllocation": "$20B tech modernization over 10 years with AI central. $1B in operational savings reinvested. Ring-fenced technology investments but AI embedded across business units rather than separate budget.",
+      "timeHorizons": "Mixed - 2026 positioned as pivotal year for 'tinkering becomes transformation.' Building AI-native consumer platform launched December 2025. $20B is 10-year horizon. CEO projects healthcare 'unrecognizable in 5 years.'",
+      "decisionRights": "Centralized standards through CDAIO but distributed execution. 'Qualified humans always make health outcome decisions' - AI decision rights constrained in clinical domains. AI supports but does not replace human judgment.",
+      "metrics": "$1B+ operational cost savings; 90 minutes/day saved per nurse; 30% reduction in Aetna call center volume; 99% first-call resolution at Caremark; 300+ claims/second processing; 1.6% improvement in medication adherence."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "The absolute worst thing that companies can do is create a chief AI officer role. That is by far the worst thing that companies can do. Did we create a chief cellular phone officer for the company when the mobile phone became ubiquitous? That is mistaking a tool for a solution. I think companies should create the chief experience officer role.",
+      "speaker": "Tilak Mandadi",
+      "speakerTitle": "EVP Ventures and Chief Experience and Technology Officer",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/07/09/inside-cvs-ai-health-care-tech-warning/",
+      "sourceDate": "2025-07",
+      "context": "Discussing organizational approach to AI leadership"
+    },
+    {
+      "text": "AI allows us to take the stupid out of work and allows us to do the real value-added work.",
+      "speaker": "Tilak Mandadi",
+      "speakerTitle": "EVP Ventures and Chief Experience and Technology Officer",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/07/09/inside-cvs-ai-health-care-tech-warning/",
+      "sourceDate": "2025-07",
+      "context": "Explaining philosophy of human-centered AI deployment"
+    },
+    {
+      "text": "If we give the ownership of health care data to the patient, to the member, to the consumer, nobody else should have control of it.",
+      "speaker": "Tilak Mandadi",
+      "speakerTitle": "EVP Ventures and Chief Experience and Technology Officer",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/07/09/inside-cvs-ai-health-care-tech-warning/",
+      "sourceDate": "2025-07",
+      "context": "Discussing data ownership and interoperability vision"
+    },
+    {
+      "text": "Building a simpler, more connected and more affordable health care experience for consumers, health care professionals, and payors.",
+      "speaker": "David Joyner",
+      "speakerTitle": "CEO",
+      "source": "Constellation Research",
+      "sourceUrl": "https://constellationr.com/blog-news/insights/cvs-health-outlines-ai-driven-engagement-service-plan",
+      "sourceDate": "2025-12",
+      "context": "Describing CVS Health's strategic focus at Investor Day"
+    },
+    {
+      "text": "It is no secret that our industry faces significant and dynamic challenges, and that CVS Health must make financial and operational improvements to drive elite execution and maintain our position as a leading healthcare company.",
+      "speaker": "David Joyner",
+      "speakerTitle": "CEO",
+      "source": "Inc.",
+      "sourceUrl": "https://www.inc.com/reuters/this-1-challenge-will-test-new-cvs-health-ceo-david-joyner/90991869",
+      "sourceDate": "2024-10",
+      "context": "Memo to employees upon becoming CEO"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Fortune - Inside CVS's Bold AI Health Care Plan",
+      "url": "https://fortune.com/2025/07/09/inside-cvs-ai-health-care-tech-warning/",
+      "type": "Press",
+      "date": "2025-07-09",
+      "notes": "Detailed profile of Tilak Mandadi and CVS AI philosophy. Key quotes about rejecting CAIO role, human-centered AI. Discusses responsible AI framework and interoperability vision."
+    },
+    {
+      "name": "Emerj - Artificial Intelligence at CVS Health",
+      "url": "https://emerj.com/artificial-intelligence-at-cvs-health/",
+      "type": "Report",
+      "date": "2024",
+      "notes": "Detailed operational AI applications: Databricks ML platform for medication adherence (1.6% improvement), DataRobot for COVID vaccine logistics (59M doses). No leadership quotes."
+    },
+    {
+      "name": "Constellation Research - CVS Health AI-Driven Engagement Plan",
+      "url": "https://constellationr.com/blog-news/insights/cvs-health-outlines-ai-driven-engagement-service-plan",
+      "type": "Press",
+      "date": "2025-12",
+      "notes": "Investor Day coverage. $1B savings reinvested. Aetna 90-min/nurse savings, 30% call volume reduction. 300K employees, 185M consumer engagements."
+    },
+    {
+      "name": "Larridin AI Adoption Tracker - CVS",
+      "url": "https://data.larridin.com/data/ai-tracker/company/cvs/",
+      "type": "Report",
+      "date": "2025",
+      "notes": "$20B 10-year tech investment. Ali Keshavarz as CDAIO. Microsoft Azure and Databricks partnerships. 'Tinkering becomes transformation' 2026 framing."
+    },
+    {
+      "name": "IMD - CVS Health AI Maturity 2025",
+      "url": "https://www.imd.org/entity-profile/cvs-health-ai-maturity-2025/",
+      "type": "Report",
+      "date": "2025",
+      "notes": "Confirms Ali Keshavarz as Chief Data & AI Officer. $20B tech modernization plan. AI maturity assessment context."
+    },
+    {
+      "name": "CVS Health Investor Day Press Release",
+      "url": "https://www.cvshealth.com/news/company-news/cvs-health-updates-to-uniquely-reimagine-health-care-at-investor-day-event.html",
+      "type": "Blog",
+      "date": "2025-12-09",
+      "notes": "Official announcement: 2025 revenue guidance $400B+, 2026 EPS $7.00-7.20. AI-native platform launch, Aetna AI assistant."
+    }
+  ],
+
+  "summary": "CVS Health operates a Hybrid/Hub-and-Spoke model with strong central AI leadership (Ali Keshavarz as CDAIO since 2021, Tilak Mandadi as Chief Experience/Technology Officer) but distributed AI execution across all four business units. The company explicitly rejected creating a standalone CAIO role, with Mandadi calling it 'mistaking a tool for a solution.' A $20B 10-year tech modernization plan announced in June 2025 positions AI as central to transformation, with $1B+ in operational savings already achieved and reinvested. AI is embedded into operational workflows across pharmacy, PBM, insurance, and care delivery rather than isolated in labs - ambient AI scribes at 90% of Oak Street facilities, ML-driven medication adherence systems, and an AI-native consumer platform launching in 2026.",
+
+  "openQuestions": [
+    "What is the size of Keshavarz's AI/data team? Headcount not disclosed.",
+    "How does AI governance work between Keshavarz (data/AI) and Mandadi (technology/experience)? Reporting lines unclear.",
+    "What is the breakdown of the $20B between AI specifically vs. broader tech modernization?",
+    "How does the Canopy platform from Oak Street Health integrate with enterprise AI strategy?",
+    "What happened to the Boston Digital Innovation Lab mentioned in earlier coverage? Is it still operating?"
+  ],
+
+  "conferenceFindings": "No known major AI conference presentations identified. CVS leadership primarily communicates through investor day presentations, earnings calls, and press interviews rather than tech/AI conferences."
+}

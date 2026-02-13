@@ -259,9 +259,9 @@ HOME
 │  │                                                             │   │
 │  └─────────────────────────────────────────────────────────────┘   │
 │                                                                     │
-│  ┌─── TABS ────────────────────────────────────────────────────┐   │
-│  │ [Overview] [Mechanisms] [Evolution] [Sources] [Related]     │   │
-│  └─────────────────────────────────────────────────────────────┘   │
+│  ┌─── TABS ──────────────────────────────────────────────────────────┐   │
+│  │ [Overview] [Purpose Claims] [Mechanisms] [Evolution] [Sources] [Related] │   │
+│  └───────────────────────────────────────────────────────────────────┘   │
 │                                                                     │
 │  OVERVIEW                                                           │
 │  ─────────────────────────────────────────────────────────────      │
@@ -676,7 +676,88 @@ Clickable — navigates to mechanism detail
 └────────────────────────────────────────────────────────┘
 ```
 
-### 5.5 Evolution Layer
+### 5.5 Inline Citation (CitedText)
+
+**Implemented:** `site/components/shared/CitedText.tsx`
+
+Renders text containing `[source-id]` markers with superscript numbered links. Backward compatible — text without markers renders as plain text.
+
+```
+"Hub reports to R&D leadership [apple-cook-push-2025], with quarterly reviews [apple-q1-fy2026-earnings]."
+→  Hub reports to R&D leadership¹, with quarterly reviews².
+   (¹ links to source URL, shows "Tim Cook AI Push 2025 (press)" on hover)
+```
+
+- Source IDs must match entries in specimen's `sources[]` array
+- Numbers assigned in order of first appearance
+- Unknown source IDs render as gray bracketed text
+- Used in: OverviewTab (description, observable markers)
+- **Curation protocol updated** to require `[source-id]` markers in all new/updated observable markers
+
+### 5.6 Spider/Radar Chart
+
+**Implemented:** `site/components/visualizations/SpiderChart.tsx`
+
+Pure React SVG radar chart for rhetorical profile visualization. No D3 dependency — all geometry computed in React.
+
+```
+          Utopian
+            ▲
+           /|\
+          / | \
+  Comm.  /  |  \ Teleological
+  Succ. /   ●   \
+        \  /|\  /
+         \/ | \/
+  Surv.  /\ | /\  Higher-Calling
+        /  \|/  \
+            ▼
+         Identity
+```
+
+**Props:**
+- `values`: Display-ready 0-1 values (rescaled via `normalizeDistribution()`)
+- `rawProportions`: Optional un-rescaled values for accurate tooltip %
+- `comparison`: Optional overlay polygon (e.g., model average) with dashed stroke
+- `size`: Diameter in pixels (200 default)
+- `showLabels`, `showGrid`, `interactive`: Progressive disclosure
+
+**Normalization:** Values are proportionally normalized (count/total) then rescaled so max axis reaches 0.85 of radius. This preserves shape (relative proportions) while filling visual space. Without rescaling, balanced 6-type distributions produce values ~0.17 and charts are unreadably small.
+
+**Three usage contexts:**
+| Context | Size | Labels | Grid | Interactive | Location |
+|---------|------|--------|------|-------------|----------|
+| EnrichmentSummary (full) | 220px | Full | Yes | Yes (tooltips) | Specimen page, Purpose Claims tab |
+| EnrichmentCompact (sidebar) | 140px | Abbreviated | No | No | Purpose Claims browser sidebar |
+| ClaimsSpiderGrid (small multiples) | 100px | No | No | No (hover shows comparison) | Purpose Claims page, Profiles view |
+| ClaimsSpiderGrid (group average) | 180px | Full | Yes | Yes | Purpose Claims page, Profiles view |
+
+### 5.7 Purpose Claims Browser
+
+**Implemented:** `site/components/purpose-claims/PurposeClaimsBrowser.tsx` + supporting components
+
+Full-featured browser for the verbatim purpose claims registry. Four view modes:
+
+| View | Key | Component | What It Shows |
+|------|-----|-----------|---------------|
+| By Specimen | `specimen` | Sidebar + claim list | Browse claims grouped by organization |
+| By Type | `type` | Claim type filter + list | Browse claims by rhetorical function |
+| Profiles | `heatmap` | `ClaimsSpiderGrid` | Spider diagram small multiples, grouped by model/industry |
+| Dot Map | `dotmap` | `ClaimsDotMap` | Geographic/scatter visualization |
+
+**Profiles view (ClaimsSpiderGrid):**
+- Group-by toggle: Structural Model (default) or Industry
+- Per group: Large average spider (180px) + small individual spiders (100px)
+- Hover over individual spider → shows dashed comparison overlay against group average
+- Click specimen → drills into By Specimen view
+- Legend at bottom
+
+**Sidebar enrichment display:**
+- Green dot indicator on specimens with enrichment data
+- `EnrichmentCompact` component in sidebar header when specimen selected
+- Mini spider chart (140px) + first key finding + pattern tags
+
+### 5.9 Evolution Layer
 
 ```
 ┌────────────────────────────────────────────────────────┐
@@ -722,8 +803,11 @@ Clickable — navigates to mechanism detail
 **D3.js** for:
 - Tension Map (2D scatter plot with force simulation)
 - Evolution Timeline (custom timeline visualization)
-- Taxonomy matrix (interactive heatmap)
-- Any data-driven visualizations
+- Any data-driven visualizations requiring DOM manipulation
+
+**Pure React SVG** for:
+- Spider/Radar Charts (6-axis rhetorical profiles) — no D3, computed SVG geometry in React
+- Citation superscript rendering
 
 **Why this combination:**
 - Framer Motion handles UI animation elegantly in React

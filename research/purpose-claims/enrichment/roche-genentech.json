@@ -1,0 +1,23 @@
+{
+  "specimenId": "roche-genentech",
+  "scannedDate": "2026-02-07",
+  "quality": "rich",
+  "claimCount": 18,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 3,
+    "higher-calling": 1,
+    "identity": 5,
+    "survival": 5,
+    "commercial-success": 3
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

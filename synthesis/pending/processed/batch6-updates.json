@@ -1,0 +1,350 @@
+{
+  "batchId": "batch6",
+  "date": "2026-02-09",
+  "theme": "Media + Retail/Consumer",
+  "specimensAnalyzed": [
+    "disney",
+    "netflix",
+    "lionsgate",
+    "publicis-groupe",
+    "washington-post",
+    "kroger",
+    "lowes",
+    "nike",
+    "pepsico",
+    "ulta-beauty"
+  ],
+
+  "mechanismUpdates": {
+    "newEvidence": [
+      {
+        "mechanismId": 1,
+        "mechanismName": "Protect Off-Strategy Work",
+        "specimenId": "disney",
+        "evidence": "Disney Research Studios has operated for 16+ years in Zurich, physically and organizationally separate from commercial business units. This protected space allows fundamental research in visual computing and ML that may not have immediate commercial application but feeds long-term capability into all film studios.",
+        "strength": "Strong"
+      },
+      {
+        "mechanismId": 3,
+        "mechanismName": "Embed Product at Research Frontier",
+        "specimenId": "disney",
+        "evidence": "Disney Research Studios explicitly serves all Disney film studios (WDAS, Pixar, ILM, Marvel) with its research output. The research lab is not isolated academia — has direct pathways to production pipelines.",
+        "strength": "Moderate"
+      },
+      {
+        "mechanismId": 3,
+        "mechanismName": "Embed Product at Research Frontier",
+        "specimenId": "netflix",
+        "evidence": "Research teams work 'in close collaboration with business teams, engineering teams, and other researchers' — explicitly NOT centralized. AIMS handles both research and production systems for 325M+ members.",
+        "strength": "Strong"
+      },
+      {
+        "mechanismId": 4,
+        "mechanismName": "Consumer-Grade UX for Employee Tools",
+        "specimenId": "netflix",
+        "evidence": "AI tools for creators are explicitly framed as making their work 'better' — pre-vis, VFX sequence prep, shot planning tools designed for creative talent to use directly.",
+        "strength": "Moderate"
+      }
+    ],
+    "candidatePromotions": [],
+    "newCandidates": []
+  },
+
+  "tensionUpdates": {
+    "specimenPositions": [
+      {
+        "specimenId": "disney",
+        "positions": {
+          "structuralVsContextual": -0.6,
+          "speedVsDepth": 0.2,
+          "centralVsDistributed": 0.3,
+          "namedVsQuiet": -0.4,
+          "longVsShortHorizon": -0.3
+        },
+        "rationale": "Three formally-structured layers (Research Studios, OTE, OpenAI partnership). Very structural orientation. OTE explicitly does NOT take over business unit AI — coordination without command. Named/visible AI structures. Long-horizon research lab (16+ years)."
+      },
+      {
+        "specimenId": "netflix",
+        "positions": {
+          "structuralVsContextual": 0.6,
+          "speedVsDepth": 0.3,
+          "centralVsDistributed": 0.4,
+          "namedVsQuiet": 0.2,
+          "longVsShortHorizon": 0.0
+        },
+        "rationale": "Explicit 'NOT centralized' philosophy with cultural coordination. Research distributed across 9 areas. AIMS and Eyeline hubs exist but not heavily branded. Mixed time horizons (production + VFX research)."
+      },
+      {
+        "specimenId": "lionsgate",
+        "positions": {
+          "structuralVsContextual": -0.5,
+          "speedVsDepth": null,
+          "centralVsDistributed": -0.5,
+          "namedVsQuiet": -0.5,
+          "longVsShortHorizon": null
+        },
+        "rationale": "CAIO appointment is structural signal suggesting central coordination role. Named/visible (announced appointment). Data too thin for speed/depth and time horizon assessment."
+      },
+      {
+        "specimenId": "publicis-groupe",
+        "positions": {
+          "structuralVsContextual": -0.3,
+          "speedVsDepth": 0.3,
+          "centralVsDistributed": -0.4,
+          "namedVsQuiet": -0.5,
+          "longVsShortHorizon": 0.3
+        },
+        "rationale": "CoreAI as formal central platform built by Publicis Sapient. Heavily branded in investor communications. Speed-oriented (73% AI-powered operating model). Short-horizon focus on operational leverage."
+      },
+      {
+        "specimenId": "washington-post",
+        "positions": {
+          "structuralVsContextual": 0.6,
+          "speedVsDepth": 0.2,
+          "centralVsDistributed": 0.5,
+          "namedVsQuiet": 0.7,
+          "longVsShortHorizon": 0.0
+        },
+        "rationale": "No AI team, AI embedded as infrastructure (Zeus). Fully distributed with no central AI function. No AI branding — AI as invisible infrastructure. Owner (Bezos) provides informal context."
+      },
+      {
+        "specimenId": "kroger",
+        "positions": {
+          "structuralVsContextual": -0.3,
+          "speedVsDepth": 0.2,
+          "centralVsDistributed": -0.2,
+          "namedVsQuiet": -0.2,
+          "longVsShortHorizon": 0.2
+        },
+        "rationale": "84labs as formal innovation hub with retail operations as spokes. Named but not heavily marketed. Operational focus (supply chain, pricing)."
+      },
+      {
+        "specimenId": "lowes",
+        "positions": {
+          "structuralVsContextual": 0.4,
+          "speedVsDepth": 0.3,
+          "centralVsDistributed": 0.5,
+          "namedVsQuiet": 0.5,
+          "longVsShortHorizon": 0.3
+        },
+        "rationale": "AI embedded in existing tech and store teams without separate AI organization. No named AI capability. Operational focus on customer experience and associate tools."
+      },
+      {
+        "specimenId": "nike",
+        "positions": {
+          "structuralVsContextual": -0.2,
+          "speedVsDepth": 0.1,
+          "centralVsDistributed": 0.0,
+          "namedVsQuiet": 0.1,
+          "longVsShortHorizon": 0.1
+        },
+        "rationale": "Technology Center as hub with ML/AI distributed to spokes. Balanced central-distributed. Technology capabilities not AI-branded. Mixed horizons (DTC operations + athlete data)."
+      },
+      {
+        "specimenId": "pepsico",
+        "positions": {
+          "structuralVsContextual": -0.2,
+          "speedVsDepth": 0.2,
+          "centralVsDistributed": -0.1,
+          "namedVsQuiet": 0.0,
+          "longVsShortHorizon": 0.2
+        },
+        "rationale": "Digital Hub as center with brand teams as spokes. Standard CPG hub-and-spoke structure. Digital Hub exists but not AI-specific branding. Operational focus."
+      },
+      {
+        "specimenId": "ulta-beauty",
+        "positions": {
+          "structuralVsContextual": 0.3,
+          "speedVsDepth": 0.3,
+          "centralVsDistributed": 0.4,
+          "namedVsQuiet": 0.4,
+          "longVsShortHorizon": 0.4
+        },
+        "rationale": "AI embedded in existing e-commerce and store systems without separate AI organization. Virtual try-on exists but not branded as AI. Short-horizon operational focus."
+      }
+    ]
+  },
+
+  "contingencyUpdates": {
+    "newPatterns": [
+      {
+        "pattern": "Media regulatory intensity driven by labor relations",
+        "description": "Media/entertainment specimens (Disney, Netflix, Lionsgate) face 'Medium' regulatory intensity driven not by government regulation but by SAG-AFTRA and WGA labor relations post-2023 strikes. AI is a bargaining issue, creating de facto regulation through collective bargaining.",
+        "evidence": ["disney", "netflix", "lionsgate"],
+        "contingencyVariable": "regulatoryIntensity"
+      },
+      {
+        "pattern": "Retail AI adoption without talent constraint",
+        "description": "Retail/consumer specimens (Kroger, Lowe's, Ulta) are 'Talent-constrained' for AI specialists but successfully adopt AI anyway through embedded teams and hub-and-spoke models. Operational AI may have lower talent requirements than research AI.",
+        "evidence": ["kroger", "lowes", "ulta-beauty"],
+        "contingencyVariable": "talentMarketPosition"
+      }
+    ]
+  },
+
+  "insightUpdates": {
+    "newInsights": [
+      {
+        "id": "media-serve-creativity-framing",
+        "title": "Media/Entertainment AI Framing Converges on 'Serve Creativity'",
+        "theme": "convergence",
+        "maturity": "emerging",
+        "finding": "Three media/entertainment specimens (Disney, Netflix, Lionsgate) independently use nearly identical language framing AI as 'serving' or 'empowering' human creativity rather than replacing it. This convergent framing emerges from the unique labor relations context post-2023 Hollywood strikes, where AI became a central bargaining issue with SAG-AFTRA and WGA. The framing is both genuine structural philosophy (AI as tool) and political positioning (assuring talent that AI won't replace them).",
+        "evidence": [
+          {
+            "specimenId": "disney",
+            "note": "Iger: 'human beings generating creativity... never gets replaced.' Three guardrails: IP protection, creator respect, customer value."
+          },
+          {
+            "specimenId": "netflix",
+            "note": "Sarandos: 'better, not just cheaper' and 'great artist' requirement. AI as tool for creators."
+          },
+          {
+            "specimenId": "lionsgate",
+            "note": "CAIO mandate to 'provide AI tools to serve creative vision of filmmakers.'"
+          }
+        ],
+        "theoreticalConnection": "DiMaggio & Powell's coercive isomorphism: external pressure (SAG-AFTRA, WGA) shapes organizational AI discourse. Also connects to Mechanism #1 in reverse — protecting human creativity as the core capability while treating AI as supporting tool.",
+        "relatedMechanisms": [1],
+        "relatedTensions": []
+      },
+      {
+        "id": "retail-no-caio-pattern",
+        "title": "Retail/Consumer Sector Deploys AI Without CAIOs",
+        "theme": "organizational-form",
+        "maturity": "hypothesis",
+        "finding": "Five retail/consumer specimens (Kroger, Lowe's, Nike, PepsiCo, Ulta Beauty) deploy AI successfully without Chief AI Officers. This sector-wide pattern suggests retail treats AI as operational enhancement (supply chain, pricing, customer experience) rather than strategic transformation requiring C-suite attention. AI leadership remains embedded in existing tech functions.",
+        "evidence": [
+          {
+            "specimenId": "kroger",
+            "note": "84labs as innovation hub, no CAIO. AI for supply chain, pricing, inventory."
+          },
+          {
+            "specimenId": "lowes",
+            "note": "Embedded AI in tech and store teams. No CAIO, no separate AI organization."
+          },
+          {
+            "specimenId": "nike",
+            "note": "Technology Center coordinates ML/AI. No CAIO."
+          },
+          {
+            "specimenId": "pepsico",
+            "note": "Digital Hub for AI. No CAIO."
+          },
+          {
+            "specimenId": "ulta-beauty",
+            "note": "AI embedded in e-commerce. No CAIO."
+          }
+        ],
+        "theoreticalConnection": "Extends the anti-CAIO thesis to an entire sector. When AI is operational enhancement rather than strategic transformation, dedicated AI leadership may be unnecessary. The relevant question becomes: what determines whether AI is 'operational' vs. 'strategic' for a given organization?",
+        "relatedMechanisms": [],
+        "relatedTensions": [4]
+      }
+    ],
+    "extendedInsights": [
+      {
+        "insightId": "anti-caio-thesis",
+        "newEvidence": [
+          {
+            "specimenId": "washington-post",
+            "note": "No CAIO, no AI lab, no AI team. Zeus recommendation engine operates as infrastructure. Owner (Bezos) context enables AI adoption without dedicated leadership. Extends anti-CAIO pattern to media/journalism sector."
+          }
+        ]
+      },
+      {
+        "insightId": "pharma-hub-and-spoke-divergence",
+        "extension": "The Media + Retail batch extends this insight. Media M4 (Disney, Netflix) hubs serve research + governance (exploration-oriented). Retail M4 (Kroger, Nike, PepsiCo) hubs serve operational enablement (execution-oriented). Same M4 structure, different functional orientation following industry economics.",
+        "newEvidence": [
+          {
+            "specimenId": "disney",
+            "note": "Media M4: Hub = Research Studios + OTE (exploration/governance)."
+          },
+          {
+            "specimenId": "netflix",
+            "note": "Media M4: Hub = AIMS + research areas (exploration with contextual operation)."
+          },
+          {
+            "specimenId": "kroger",
+            "note": "Retail M4: Hub = 84labs (operational enablement)."
+          },
+          {
+            "specimenId": "nike",
+            "note": "Retail M4: Hub = Technology Center (operational enablement)."
+          },
+          {
+            "specimenId": "pepsico",
+            "note": "Retail M4: Hub = Digital Hub (operational enablement)."
+          }
+        ]
+      }
+    ]
+  },
+
+  "taxonomyFeedback": [
+    {
+      "observation": "Netflix's M4-Contextual orientation challenges taxonomy assumption",
+      "detail": "Netflix is M4 Hub-and-Spoke with CONTEXTUAL orientation — explicit 'NOT centralized' philosophy with cultural coordination. This challenges the assumption that M4 must be structurally oriented. Should we allow M4-Contextual as a distinct subtype? Or is the structural-model-to-orientation mapping looser than assumed?",
+      "specimens": ["netflix"]
+    },
+    {
+      "observation": "M4 hub function varies by sector — consider sub-classification",
+      "detail": "Six M4 specimens in this batch have dramatically different hub functions: Media hubs (Disney, Netflix) serve research/governance. Retail hubs (Kroger, Nike, PepsiCo) serve operational enablement. Consider whether M4 needs sub-classifications (M4-Research, M4-Governance, M4-Enablement) or whether hub function is a separate dimension.",
+      "specimens": ["disney", "netflix", "kroger", "nike", "pepsico", "publicis-groupe"]
+    },
+    {
+      "observation": "Media/entertainment 'serve creativity' framing is sector-specific purpose claim",
+      "detail": "The convergent 'serve creativity' framing across Disney, Netflix, Lionsgate is a sector-specific pattern worth tracking in the purpose-claims track. It emerges from unique labor relations context (SAG-AFTRA, WGA).",
+      "specimens": ["disney", "netflix", "lionsgate"]
+    },
+    {
+      "observation": "Retail sector is M4/M3 only — no M1, M2, M5+ specimens",
+      "detail": "All five retail/consumer specimens are M4 (Kroger, Nike, PepsiCo) or M3 (Lowe's, Ulta). No research labs (M1), no pure CoEs (M2), no product labs (M5). Retail AI structure may be constrained to operational models.",
+      "specimens": ["kroger", "lowes", "nike", "pepsico", "ulta-beauty"]
+    }
+  ],
+
+  "openQuestions": [
+    "Will other Hollywood studios appoint CAIOs following Lionsgate?",
+    "Does Bezos ownership at Washington Post substitute for formal AI leadership?",
+    "Why no retail CAIOs — is retail AI less strategic, or are there alternative coordination mechanisms?",
+    "Is Netflix's contextual M4 replicable, or does it require unique conditions (tech culture, experimentation history)?",
+    "Will media 'serve creativity' framing persist, or is it temporary political positioning?"
+  ],
+
+  "specimenMechanismUpdates": [
+    {
+      "specimenId": "disney",
+      "mechanisms": [
+        {
+          "id": 1,
+          "name": "Protect Off-Strategy Work",
+          "evidence": "Disney Research Studios has operated for 16+ years in Zurich, physically and organizationally separate from the commercial business units. This protected space allows fundamental research in visual computing and ML that may not have immediate commercial application but feeds long-term capability into all film studios.",
+          "strength": "Strong"
+        },
+        {
+          "id": 3,
+          "name": "Embed Product at Research Frontier",
+          "evidence": "Disney Research Studios explicitly serves all Disney film studios (WDAS, Pixar, ILM, Marvel) with its research output. The research lab is not isolated academia—it has direct pathways to production pipelines.",
+          "strength": "Moderate"
+        }
+      ]
+    },
+    {
+      "specimenId": "netflix",
+      "mechanisms": [
+        {
+          "id": 3,
+          "name": "Embed Product at Research Frontier",
+          "evidence": "Research teams work 'in close collaboration with business teams, engineering teams, and other researchers' — explicitly NOT centralized. AIMS handles both research and production systems for 325M+ members.",
+          "strength": "Strong"
+        },
+        {
+          "id": 4,
+          "name": "Consumer-Grade UX for Employee Tools",
+          "evidence": "AI tools for creators are explicitly framed as making their work 'better' — pre-vis, VFX sequence prep, shot planning tools designed for creative talent to use directly.",
+          "strength": "Moderate"
+        }
+      ]
+    }
+  ]
+}

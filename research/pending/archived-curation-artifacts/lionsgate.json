@@ -1,0 +1,42 @@
+{
+  "company": "Lionsgate Entertainment",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 4,
+  "fetchFailures": [
+    {
+      "url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+      "reason": "JS-rendered, CSS-only content returned"
+    },
+    {
+      "url": "https://www.bankingdive.com/news/bank-of-america-citi-wells-fargo-headcount-banking-job-cuts-2026/809756/",
+      "reason": "JS-rendered, no article body returned"
+    }
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "Lionsgate hired Kathleen Grace as its first-ever Chief AI Officer. Mandate includes: providing AI tools to serve creative vision of filmmakers, creating efficiencies in production/marketing/distributi",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "First Chief AI Officer: Kathleen Grace appointed",
+      "url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+      "type": "Press",
+      "date": "2026-02-06",
+      "notes": "First Chief AI Officer: Kathleen Grace appointed"
+    }
+  ],
+  "summary": "First Chief AI Officer: Kathleen Grace appointed: Lionsgate hired Kathleen Grace as its first-ever Chief AI Officer. Mandate includes: providing AI tools to serve creative vision of filmmakers, creating efficiencies in production/marketing/distributi",
+  "openQuestions": [],
+  "splitFrom": "general-sweep-feb-2026.json"
+}

@@ -3,16 +3,16 @@
   "name": "Amazon",
   "title": "AGI Frontier Model Research: Parallel Moonshot Organization",
   "classification": {
-    "structuralModel": 4,
-    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
     "subType": null,
     "subTypeName": null,
-    "secondaryModel": 1,
-    "secondaryModelName": "Research Lab",
+    "secondaryModel": 3,
+    "secondaryModelName": "Embedded Teams",
     "orientation": "Structural",
     "orientationName": "Structural",
-    "confidence": "Medium",
-    "classificationRationale": "Reclassified from Model 1 to Model 4 + secondary Model 1. Amazon's AGI organization under Peter DeSantis unites research (AGI SF Lab), infrastructure (Trainium/Inferentia chips), and quantum computing — functioning as a hub. AWS AI services (30+ services) serve as execution spokes bringing AI capabilities to customers. The AGI SF Lab has research lab characteristics (Pieter Abbeel, world models), but the broader org is structured as a hub serving multiple execution channels. Structural orientation: research and product/infrastructure are in distinct units with different timelines.",
+    "confidence": "High",
+    "classificationRationale": "M4→M1+M3 (Audit 2026-02-12). AGI org under DeSantis is a consolidated research lab (M1), not a hub that coordinates shared infrastructure for product teams. Product teams (Alexa, AWS AI services) operate independently as embedded AI (M3). The consolidation-arc insight confirms: parallel structures were merged, but the result is unified research + independent product embedding, not hub-spoke coordination.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -24,13 +24,13 @@
     "headquarters": "Seattle, WA",
     "geography": "Global"
   },
-  "description": "Amazon operates a dual-track AI transformation: (1) the AGI organization under Peter DeSantis unites frontier model research (AGI SF Lab, seeded by Adept acqui-hire), custom silicon (Trainium/Inferentia), and quantum computing as a structurally separated exploration hub; (2) simultaneously, the corporate organization is undergoing massive delayering \u2014 ~30,000 corporate layoffs (Oct 2025 - Jan 2026), with SVP Beth Galetti describing 'reducing layers, increasing ownership, and removing bureaucracy.'\n\nThe structural tension is sharp: CEO Jassy frames the 30K cuts as 'culture, not AI' \u2014 claiming Amazon 'grew too fast' \u2014 but separately acknowledges AI efficiency gains will reduce corporate headcount, and internal reports confirm AI agents already replacing repetitive tasks in engineering, product management, and operations. This contradiction between the public narrative and internal reality is a significant data point for understanding how executives manage AI-driven restructuring narratives.\n\nCapEx is accelerating dramatically: $125B in 2025, projected >$150B in 2026, primarily directed at AWS AI infrastructure. AWS carries a $200B backlog with 34.6% operating margins, benefiting from proprietary silicon and AI workload scaling. The AGI SF Lab (Pieter Abbeel, world models, embodied AI) remains structurally separate from AWS commercial AI services, preserving different timelines and risk profiles.",
+  "description": "Amazon operates a dual-track AI transformation: (1) the AGI organization under Peter DeSantis unites frontier model research (AGI SF Lab, seeded by Adept acqui-hire), custom silicon (Trainium/Inferentia), and quantum computing as a structurally separated exploration hub; (2) simultaneously, the corporate organization is undergoing massive delayering — ~30,000 corporate layoffs (Oct 2025 - Jan 2026), with $730M in severance costs recorded in Q4 2025 alone.\n\nThe structural tension is now explicit: CEO Jassy previously framed the 30K cuts as 'culture, not AI' — but in Q4 2025 earnings, he stated directly: 'We will need fewer people doing some of the jobs that are being done today, and more people doing other types of jobs.' This confirms AI is driving permanent structural workforce reallocation, not temporary efficiency cuts. Jassy frames it as 'every customer experience is gonna be reinvented' with AI.\n\nCapEx has accelerated to unprecedented levels: $200B planned for 2026 (up from $125B in 2025) — the largest single-year corporate infrastructure commitment ever. AWS added 3.99 GW of power capacity in 2025 (twice what they had in 2022), with 1.2 GW added in Q4 alone. All capacity is immediately utilized. Trainium chips now offer '30-40% better price performance than comparable GPUs' per Jassy, and CFO Olsavsky confirms 'strong return on invested capital' with all new capacity put into service immediately.",
   "observableMarkers": {
-    "reportingStructure": "CEO Andy Jassy driving corporate restructuring. SVP Beth Galetti (People Experience & Technology) leading delayering initiative.",
-    "resourceAllocation": "$125B CapEx full year 2025, >$150B projected 2026 — primarily AWS AI infrastructure. 3.8 GW data center capacity added past year, expects to double by end of 2027. ~30,000 corporate layoffs (Oct 2025 - Jan 2026).",
+    "reportingStructure": "CEO Andy Jassy driving corporate restructuring [cbs-ai-layoffs-2026]. SVP Beth Galetti (People Experience & Technology) leading delayering initiative [hrdigest-amazon-30k-2026].",
+    "resourceAllocation": "$200B CapEx planned for 2026 (largest single-year corporate infrastructure commitment) [fool-amazon-q4-2025]. 3.99 GW data center capacity added in 2025 (twice 2022 levels), 1.2 GW in Q4 alone [fool-amazon-q4-2025]. Expects to double capacity again by 2027 [fool-amazon-q4-2025]. $730M severance charge in Q4 2025 [fool-amazon-q4-2025]. ~30,000 corporate layoffs (Oct 2025 - Jan 2026) [crn-layoffs-2026, hrdigest-amazon-30k-2026].",
     "timeHorizons": null,
-    "decisionRights": "Jassy framing restructuring as 'culture' not AI — but internal reports indicate AI agents replacing tasks in engineering, PM, and operations.",
-    "metrics": "AWS offers 30+ AI/ML services. AWS $200B backlog. AWS operating margin: 34.6% (Q3 2025). ~350,000 corporate workforce (pre-cuts). ~30K corporate layoffs (~9% of corporate workforce). Q4 revenue guidance: $206-213B. 2026 Amazon Nova AI Challenge focuses on 'Trusted Software Agents'."
+    "decisionRights": "Jassy explicitly framing AI workforce shift as permanent structural change: 'fewer people doing some jobs, more people doing other types of jobs' [fool-amazon-q4-2025].",
+    "metrics": "AWS offers 30+ AI/ML services. AWS $244B backlog (+40% YoY) [fool-amazon-q4-2025]. AWS operating margin: 34.6% (Q3 2025) [ig-amazon-preview-2026]. Custom silicon (Trainium/Graviton): $10B+ ARR, triple-digit growth [fool-amazon-q4-2025]. Bedrock: multibillion-dollar ARR, +60% QoQ [fool-amazon-q4-2025]. AWS: $142B ARR [fool-amazon-q4-2025]. ~350,000 corporate workforce (pre-cuts) [hrdigest-amazon-30k-2026]. ~30K corporate layoffs (~9% of corporate workforce) [crn-layoffs-2026]. 2026 Amazon Nova AI Challenge focuses on 'Trusted Software Agents' [amazon-q4-announcement]."
   },
   "mechanisms": [
     {
@@ -55,15 +55,103 @@
       "sourceUrl": "https://www.crn.com.au/news-network/cloud/2026/amazon-layoffs-5-key-takeaways-on-ai",
       "timestamp": null,
       "date": "2026-01"
+    },
+    {
+      "text": "We will need fewer people doing some of the jobs that are being done today, and more people doing other types of jobs.",
+      "speaker": "Andy Jassy",
+      "speakerTitle": "CEO, Amazon",
+      "source": "CBS News",
+      "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "timestamp": null,
+      "date": "2026-02"
+    },
+    {
+      "text": "In 2025, AWS added more data center capacity than any other company in the world.",
+      "speaker": "Andy Jassy",
+      "speakerTitle": "CEO, Amazon",
+      "source": "Motley Fool — Q4 2025 Earnings Call Transcript",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "date": "2026-02-05"
+    },
+    {
+      "text": "Every customer experience that we know of today is gonna be reinvented. With AI, there are gonna be a whole bunch of customer experience none of us ever imagined that are gonna become the norms of how we operate.",
+      "speaker": "Andy Jassy",
+      "speakerTitle": "CEO, Amazon",
+      "source": "Motley Fool — Q4 2025 Earnings Call Transcript",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "date": "2026-02-05"
+    },
+    {
+      "text": "Trainium has 30% to 40% better price performance than comparable GPUs, so it's very compelling to customers.",
+      "speaker": "Andy Jassy",
+      "speakerTitle": "CEO, Amazon",
+      "source": "Motley Fool — Q4 2025 Earnings Call Transcript",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "date": "2026-02-05"
+    },
+    {
+      "text": "We see strong return on invested capital. We see strong demand for these services, and we continue to like the investments in this area.",
+      "speaker": "Brian Olsavsky",
+      "speakerTitle": "CFO, Amazon",
+      "source": "Motley Fool — Q4 2025 Earnings Call Transcript",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "date": "2026-02-05"
+    },
+    {
+      "text": "We are putting into service with customers all capacity that we are getting, and it's immediately useful.",
+      "speaker": "Brian Olsavsky",
+      "speakerTitle": "CFO, Amazon",
+      "source": "Motley Fool — Q4 2025 Earnings Call Transcript",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/amazon-amzn-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "date": "2026-02-05"
     }
   ],
   "layers": [
     {
       "date": "2026-02",
+      "label": "Largest Corporate Layoffs in History — 30K Cuts Targeting Management Layers",
+      "summary": "Amazon cut 16,000 corporate positions in January 2026 (on top of 14,000 in October 2025), totaling ~30,000 — the largest workforce reduction in company history. Cuts explicitly target management layers: Manager III and principal-level roles eliminated. Affected divisions include AWS, Prime Video, retail operations, HR. Software development roles are the largest share. Simultaneously investing $200B in capex (60% increase), largely for AI data centers. Jassy developing 1,000+ GenAI applications and investing in agentic AI. Jassy: 'We will need fewer people doing some of the jobs that are being done today, and more people doing other types of jobs.'",
+      "classification": null,
+      "sourceRefs": ["ts2-amazon-layoffs-2026", "cbsnews-ai-layoffs-2026"]
+    },
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke + M1 → M1 Research Lab + M3 Embedded Teams",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M1 Research Lab + M3 Embedded. AGI org is consolidated research, product teams are independently embedded. No bidirectional hub-spoke coordination.",
+      "classification": "M4 Hybrid/Hub-and-Spoke + M1",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Additional detail from Q4 2025 earnings: Jassy explicitly confirms AI is driving permanent structural workforce reallocation ('fewer people doing some jobs, more people doing other types'). $730M severance charge in Q4 2025 across all three segments. Data center capacity refined: 3.99 GW added in 2025 (1.2 GW in Q4 alone). All new capacity is 'immediately useful' per CFO Olsavsky. Trainium positioned as 30-40% better price performance vs GPUs. Jassy frames AI transformation as 'every customer experience is gonna be reinvented.' This resolves the 'Jassy Contradiction' — he's now explicitly connecting AI to workforce changes.",
+      "classification": null,
+      "sourceRefs": [
+        "cbs-ai-layoffs-2026"
+      ]
+    },
+    {
+      "date": "2026-02",
       "label": "Q4 2025 Earnings — Custom Silicon + Bedrock Surge",
       "summary": "Q4 2025 (reported Feb 5): AWS $35.6B revenue (+24% YoY — highest growth in 13 quarters). AWS backlog: $244B (+40% YoY). **Custom silicon breakthrough: Trainium/Graviton chips now $10B+ ARR**, growing triple-digit YoY. 1.4M Trainium2 chips deployed (fastest chip ramp ever). Trainium3 launched: 40% more price-performant, nearly all supply committed by mid-2026. **Bedrock: multibillion-dollar ARR**, customer spend +60% QoQ. NovaForge launched (early Nova model checkpoints). Project Rainier (Anthropic partnership): 'going very well.' **2026 CapEx: $200B** — up from prior $125B guidance, predominantly for AWS. AWS now a $142B ARR business.",
       "classification": null,
-      "sourceRefs": ["fool-amazon-q4-2025"]
+      "sourceRefs": [
+        "fool-amazon-q4-2025"
+      ]
     },
     {
       "date": "2026-02",
@@ -139,7 +227,7 @@
     {
       "id": "crn-layoffs-2026",
       "type": "Press",
-      "name": "CRN \u2014 Amazon Layoffs: 5 Key Takeaways on AI",
+      "name": "CRN — Amazon Layoffs: 5 Key Takeaways on AI",
       "url": "https://www.crn.com.au/news-network/cloud/2026/amazon-layoffs-5-key-takeaways-on-ai",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -149,7 +237,7 @@
     {
       "id": "afrotech-jassy-culture-2026",
       "type": "Press",
-      "name": "AfroTech \u2014 Jassy: Layoffs Are Culture, Not Costs or AI",
+      "name": "AfroTech — Jassy: Layoffs Are Culture, Not Costs or AI",
       "url": "https://afrotech.com/amazon-ceo-andy-jassy-layoffs-culture-not-costs-or-ai",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -159,7 +247,7 @@
     {
       "id": "hrdigest-amazon-30k-2026",
       "type": "Press",
-      "name": "HR Digest \u2014 Why Amazon Layoffs Could Hit 30,000 Roles by May 2026",
+      "name": "HR Digest — Why Amazon Layoffs Could Hit 30,000 Roles by May 2026",
       "url": "https://www.thehrdigest.com/why-amazon-layoffs-could-hit-30000-roles-by-may-2026",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -169,7 +257,7 @@
     {
       "id": "advbiz-amazon-capex-2026",
       "type": "Press",
-      "name": "Advertising Business \u2014 Amazon AI Strategy 2025, Win 2026 Risk Explained",
+      "name": "Advertising Business — Amazon AI Strategy 2025, Win 2026 Risk Explained",
       "url": "https://www.advertisingbusiness.org/amazon-ai-strategy-2025-win-2026-risk-explained/",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -179,7 +267,7 @@
     {
       "id": "ig-amazon-preview-2026",
       "type": "Press",
-      "name": "IG International \u2014 Amazon Q4 2025 Earnings Preview",
+      "name": "IG International — Amazon Q4 2025 Earnings Preview",
       "url": "https://www.ig.com/en/news-and-trade-ideas/Amazon-4Q25-earnings-preview-260128",
       "timestamp": null,
       "sourceDate": "2026-01-28",
@@ -205,6 +293,24 @@
       "sourceDate": "2026-02-05",
       "collectedDate": "2026-02-06",
       "notes": "$200B CapEx 2026. AWS $35.6B (+24%). Chips $10B+ ARR. Bedrock multibillion ARR. Project Rainier update."
+    },
+    {
+      "id": "cbs-ai-layoffs-2026",
+      "type": "Press",
+      "name": "CBS News — AI Layoffs 2026",
+      "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "timestamp": null,
+      "sourceDate": "2026-02-06",
+      "collectedDate": "2026-02-07",
+      "notes": "Jassy direct quote: 'fewer people doing some jobs, more people doing other types.' Confirms AI-driven workforce structural shift."
+    },
+    {
+      "id": "ts2-amazon-layoffs-2026",
+      "type": "Press",
+      "name": "TS2 — Amazon Layoffs 2026: 16,000 More Jobs Cut",
+      "url": "https://ts2.tech/en/amazon-layoffs-2026-16000-more-jobs-cut-as-ai-push-and-anti-bureaucracy-drive-deepen/",
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-02-12"
     }
   ],
   "contingencies": {
@@ -226,22 +332,22 @@
     "What is the size of the AGI SF Lab team vs. the broader DeSantis organization?",
     "How do Amazon Nova foundation models relate to the AGI research agenda vs. AWS product needs?",
     "What is the relationship between Amazon's robotics AI work and the AGI org?",
-    "Feb 5 Q4 2025 earnings: Does AI come up as structural driver in Jassy's remarks?",
     "How does the 30K cut map to specific functions? Engineering vs. management vs. operations?",
-    "What does 'removing bureaucracy' look like structurally? Fewer VPs? Wider spans of control?",
-    "Jassy claims culture, not AI \u2014 but internal reports say AI agents are replacing tasks. Which is it? (The Jassy Contradiction)"
+    "What does 'removing bureaucracy' look like structurally? Fewer VPs? Wider spans of control?"
   ],
   "taxonomyFeedback": [
     "Amazon's AGI org tests the Model 1 vs Model 4 boundary. The AGI SF Lab has clear research lab characteristics, but the broader org (research + chips + quantum) is a hub serving multiple execution channels. The reclassification to Model 4 + secondary Model 1 captures this better than pure Model 1.",
     "The Adept acquisition (talent acqui-hire) represents a mechanism not yet in the taxonomy: acquiring external teams to seed internal research.",
-    "The 'Jassy Contradiction' \u2014 publicly framing 30K cuts as culture while internally deploying AI agents to replace tasks \u2014 is a narrative management pattern that may warrant taxonomy attention. CEOs hedging between 'restructuring for culture/efficiency' and 'AI is changing everything' appears to be a convergent pattern across Big Tech (Amazon, Meta, Microsoft).",
-    "Amazon's management delayering ('reducing layers, increasing ownership, removing bureaucracy') combined with AI agent deployment internally suggests a structural evolution: the hub-and-spoke model may be flattening as AI agents reduce the need for middle-management coordination."
+    "The 'Jassy Contradiction' — publicly framing 30K cuts as culture while internally deploying AI agents to replace tasks — is a narrative management pattern that may warrant taxonomy attention. CEOs hedging between 'restructuring for culture/efficiency' and 'AI is changing everything' appears to be a convergent pattern across Big Tech (Amazon, Meta, Microsoft).",
+    "Amazon's management delayering ('reducing layers, increasing ownership, removing bureaucracy') combined with AI agent deployment internally suggests a structural evolution: the hub-and-spoke model may be flattening as AI agents reduce the need for middle-management coordination.",
+    "[2026-02] The 'Jassy Contradiction' has been partially resolved: Jassy now explicitly states 'fewer people doing some jobs, more people doing other types' — directly linking AI to permanent workforce reallocation. This represents an evolution in CEO AI communication: from hedging ('it's culture, not AI') to explicit acknowledgment of structural AI workforce impact. The $730M Q4 severance charge and $200B CapEx commitment make the structural duality unmistakable: massive layoffs + massive AI infrastructure investment are two sides of the same coin.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M1+M3. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — AGI org is consolidated research, product teams are independently embedded. No bidirectional hub-spoke coordination."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-04",
-    "completeness": "Medium",
+    "lastUpdated": "2026-02-13",
+    "completeness": "High",
     "convertedFrom": "library/cases/amazon-agi.json"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "specimenId": "citigroup",
+  "scannedDate": "2026-02-09",
+  "quality": "rich",
+  "claimCount": 12,
+  "claimTypeDistribution": {
+    "utopian": 3,
+    "teleological": 1,
+    "higher-calling": 1,
+    "identity": 4,
+    "survival": 2,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://fosterfletcher.com/spotlight-on-citis-ai-journey-navigating-complexity-under-ceo-jane-fraser/ (no direct quotes, only paraphrasing)"
+  ]
+}

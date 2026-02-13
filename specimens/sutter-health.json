@@ -1,0 +1,270 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "sutter-health",
+  "name": "Sutter Health",
+  "title": "Healthcare System with CAIO-Led Hybrid AI Governance",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 2,
+    "secondaryModelName": "Center of Excellence",
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "High",
+    "classificationRationale": "Sutter Health exhibits a clear hub-and-spoke model: the SF Pier 1 Innovation Center serves as a physical hub for experimentation and partnerships, while a dedicated CAIO (Ashley Beecy) provides enterprise-wide governance. Multiple C-suite AI-adjacent roles (CDO, CIO, CCIO, CDAO) coordinate distributed implementation across 21 hospitals. The cross-functional governance structure vets each AI use case centrally, while deployment happens at the edges through vendor partnerships (Aidoc, Abridge, Hyro). Secondary M2 classification reflects the strong AI Center of Excellence characteristics with Aidoc partnership. Structural orientation is clear: exploration (Innovation Center, VC investments) and execution (enterprise AI deployment) occur in distinct organizational units.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Healthcare",
+    "sector": "Health Systems",
+    "orgSize": "Enterprise",
+    "employees": 53000,
+    "revenue": null,
+    "headquarters": "Sacramento, CA",
+    "geography": "Northern California"
+  },
+  "description": "Sutter Health has constructed one of the more mature AI organizational structures in non-profit healthcare, anchored by the May 2025 appointment of Ashley Beecy, MD as Chief AI Officer — a dedicated C-suite AI role still rare in the sector. The structure follows a hub-and-spoke model: a physical Innovation Center at San Francisco's Pier 1 (11,000 sq ft, 7-year lease signed January 2024) serves as the exploration hub for partnerships, pilots, and emerging technology evaluation, while enterprise deployment flows through distributed channels across 21 hospitals.\n\nThe governance layer is notably robust. A cross-functional structure brings together clinical and operational experts to vet each AI use case, with explicit criteria around patient safety, privacy, accuracy, and transparency. Rather than building extensive in-house AI capabilities, Sutter has pursued a platform partnership strategy — Aidoc for clinical imaging AI, Abridge for ambient documentation, Hyro for conversational AI, Ferrum Health for diagnostic safety nets. This buy-versus-build approach allows faster deployment while the governance structure maintains quality control.\n\nThe scale of deployment is substantial: over 3,200 physicians now use ambient documentation tools, and enterprise-wide Aidoc deployment across all 21 hospitals is targeted for completion by early 2026. CEO Warner Thomas has explicitly stated the goal to be 'a leader in health care AI,' with CDO Laura Wilt emphasizing scale: 'We want to really position ourselves to be a leader in AI, and really applying AI so it gets at scale to all of our providers and to all of our patients.'",
+  "observableMarkers": {
+    "reportingStructure": "CAIO (Ashley Beecy, MD — cardiologist by training, appointed May 2025) [sutter-health-chargeai-2025]. CLINICIAN-CAIO variant: physician background rather than technologist — one of three healthcare CAIO variants identified (clinician-CAIO, technologist-CAIO, dual-hat CMIO/CAIO). CDO (Laura Wilt) handles digital deployment [sutter-health-che-2025]. CIO, CCIO, CDAO also present — multiple C-suite AI-adjacent roles suggest high organizational priority [sutter-health-advisory-2023]. Beecy: 'Working to responsibly operationalize clinical AI at scale, while staying grounded in what matters most, better care and meaningful support for both clinicians and patients' [sutter-health-chargeai-2025].",
+    "resourceAllocation": "Dedicated Innovation Center at Pier 1, SF (11,000 sq ft, 7-year lease signed January 2024) [sutter-health-dhn-2024]. Enterprise-wide AI platform deployment through vendor partnerships (Aidoc, Abridge, Hyro, Ferrum Health) [sutter-health-che-2025]. Multiple vendor partnerships rather than building in-house [sutter-health-che-2025].",
+    "timeHorizons": "Mixed horizons: Near-term ambient documentation rollout (3,200+ physicians) [sutter-health-che-2025], medium-term Aidoc enterprise deployment across all 21 hospitals (end of 2025/early 2026) [sutter-health-che-2025], longer-term vision of 'dozens of AI use cases in rapid implementation' [sutter-health-che-2025].",
+    "decisionRights": "Cross-functional governance structure for AI vetting [sutter-health-che-2025]. Each use case is 'carefully vetted to prioritize patient safety, protect privacy, ensure accuracy, and maintain transparency' [sutter-health-che-2025]. Centralized governance with distributed implementation.",
+    "metrics": "1.5 million hours saved in 2025 via automation, AI-powered tools, enhanced technology, and workflow improvements [sutter-health-vizient-2025]. Patient safety, privacy protection, accuracy, transparency for direct care AI [sutter-health-che-2025]. Physician adoption: 3,200+ on ambient docs [sutter-health-che-2025]. Diagnostic improvement: Ferrum platform 430,000 records processed, 1,850 missed pulmonary nodules caught [sutter-aidoc-prnewswire-2025]."
+  },
+  "mechanisms": [
+    {
+      "id": 8,
+      "name": "Turn Compliance Into Deployment Advantage",
+      "evidence": "Cross-functional governance structure explicitly vets AI for patient safety, privacy, accuracy, and transparency. Rather than treating regulatory requirements as friction, Sutter has built governance into their deployment pipeline, enabling faster enterprise rollout because safety review is systematic rather than ad hoc.",
+      "strength": "Strong"
+    },
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "3,200+ physicians on ambient documentation tools with enterprise-wide Aidoc deployment across all 21 hospitals targeted. CDO Wilt emphasizes scale: 'applying AI so it gets at scale to all of our providers and to all of our patients.'",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "One of our goals is to be a leader in health care AI.",
+      "speaker": "Warner Thomas",
+      "speakerTitle": "President and CEO",
+      "source": "Chief Healthcare Executive",
+      "sourceUrl": "https://www.chiefhealthcareexecutive.com/view/sutter-health-partners-with-aidoc-to-expand-ai-in-treating-patients",
+      "sourceDate": "2025",
+      "context": "Discussing Aidoc partnership and AI strategy"
+    },
+    {
+      "text": "We want to really position ourselves to be a leader in AI, and really applying AI so it gets at scale to all of our providers and to all of our patients.",
+      "speaker": "Laura Wilt",
+      "speakerTitle": "Chief Digital Officer",
+      "source": "Chief Healthcare Executive",
+      "sourceUrl": "https://www.chiefhealthcareexecutive.com/view/sutter-health-partners-with-aidoc-to-expand-ai-in-treating-patients",
+      "sourceDate": "2025",
+      "context": "Discussing AI deployment strategy"
+    },
+    {
+      "text": "It's not one single algorithm. It's really this platform that we can apply across all types of imaging.",
+      "speaker": "Laura Wilt",
+      "speakerTitle": "Chief Digital Officer",
+      "source": "Chief Healthcare Executive",
+      "sourceUrl": "https://www.chiefhealthcareexecutive.com/view/sutter-health-partners-with-aidoc-to-expand-ai-in-treating-patients",
+      "sourceDate": "2025",
+      "context": "Explaining multi-algorithm AI platform approach"
+    },
+    {
+      "text": "Now, how do we do the right follow up? How do we make sure that the patient's care is closed loop?",
+      "speaker": "Laura Wilt",
+      "speakerTitle": "Chief Digital Officer",
+      "source": "Chief Healthcare Executive",
+      "sourceUrl": "https://www.chiefhealthcareexecutive.com/view/sutter-health-partners-with-aidoc-to-expand-ai-in-treating-patients",
+      "sourceDate": "2025",
+      "context": "Describing vision beyond problem identification to comprehensive care"
+    },
+    {
+      "text": "We need to be studying this question all the time and learning from how other industries use this technology.",
+      "speaker": "Warner Thomas",
+      "speakerTitle": "CEO",
+      "source": "Advisory Board",
+      "sourceUrl": "https://www.advisory.com/topics/strategy-planning-and-growth/2023/07/digital-transformation-at-sutter-health",
+      "sourceDate": "2023-07",
+      "context": "Describing deliberately measured AI philosophy"
+    },
+    {
+      "text": "DAX Express is a pilot going on between Microsoft and five health systems around how to use a combination...of ambient AI and GPT-4 to try and automate clinical documentation.",
+      "speaker": "Warner Thomas",
+      "speakerTitle": "CEO",
+      "source": "Advisory Board",
+      "sourceUrl": "https://www.advisory.com/topics/strategy-planning-and-growth/2023/07/digital-transformation-at-sutter-health",
+      "sourceDate": "2023-07",
+      "context": "Describing participation in Microsoft DAX pilot"
+    },
+    {
+      "text": "It's not just going to come to you...you've got to build a capability inside your organization that's always looking for ways to capitalize on opportunities.",
+      "speaker": "Warner Thomas",
+      "speakerTitle": "CEO",
+      "source": "Advisory Board",
+      "sourceUrl": "https://www.advisory.com/topics/strategy-planning-and-growth/2023/07/digital-transformation-at-sutter-health",
+      "sourceDate": "2023-07",
+      "context": "Emphasizing building internal digital capability"
+    },
+    {
+      "text": "Systems that act quickly and courageously will define the future of healthcare.",
+      "speaker": "Warner Thomas",
+      "speakerTitle": "President and CEO",
+      "source": "Vizient Connections Summit",
+      "sourceUrl": "https://www.vizientinc.com/insights/all/2025/connections-summit-day-1",
+      "sourceDate": "2025",
+      "context": "Keynote on self-disruption and organizational transformation"
+    },
+    {
+      "text": "Working to responsibly operationalize clinical AI at scale, while staying grounded in what matters most, better care and meaningful support for both clinicians and patients.",
+      "speaker": "Dr. Ashley Beecy",
+      "speakerTitle": "Chief AI Officer, Sutter Health",
+      "source": "Sutter Health Vitals Blog",
+      "sourceUrl": "https://vitals.sutterhealth.org/practical-progress-building-the-future-of-care-through-digital-health/",
+      "sourceDate": "2025-12-22",
+      "context": "Describing CAIO role and governance-first philosophy"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "CAIO-led hybrid structure with Innovation Center hub",
+      "summary": "Sutter Health operates a mature hub-and-spoke AI structure: Ashley Beecy, MD serves as CAIO (appointed May 2025) overseeing enterprise AI governance, the SF Pier 1 Innovation Center (11,000 sq ft, 7-year lease) serves as exploration hub, and enterprise deployment flows through partnerships (Aidoc, Abridge, Hyro) across 21 hospitals. Cross-functional governance vets each AI use case. 3,200+ physicians on ambient documentation tools. CEO Warner Thomas has stated explicit goal to be 'a leader in health care AI.'",
+      "sourceRefs": [
+        "sutter-health-che-2025",
+        "sutter-health-advisory-2023",
+        "sutter-health-vizient-2025",
+        "sutter-health-chargeai-2025",
+        "sutter-health-dhn-2024"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "sutter-health-che-2025",
+      "name": "Chief Healthcare Executive - Sutter/Aidoc Partnership",
+      "type": "Press",
+      "url": "https://www.chiefhealthcareexecutive.com/view/sutter-health-partners-with-aidoc-to-expand-ai-in-treating-patients",
+      "publicationDate": "2025",
+      "collectedDate": "2026-02-09",
+      "notes": "Key quotes from Laura Wilt on AI strategy and platform approach. Details on Aidoc partnership."
+    },
+    {
+      "id": "sutter-health-advisory-2023",
+      "name": "Advisory Board - Warner Thomas Interview",
+      "type": "Interview",
+      "url": "https://www.advisory.com/topics/strategy-planning-and-growth/2023/07/digital-transformation-at-sutter-health",
+      "publicationDate": "2023-07",
+      "collectedDate": "2026-02-09",
+      "notes": "Detailed leadership team structure. DAX pilot participation. Philosophy on measured AI adoption."
+    },
+    {
+      "id": "sutter-health-vizient-2025",
+      "name": "Vizient Connections Summit Keynote",
+      "type": "Conference",
+      "url": "https://www.vizientinc.com/insights/all/2025/connections-summit-day-1",
+      "publicationDate": "2025",
+      "collectedDate": "2026-02-09",
+      "notes": "Warner Thomas keynote on digital transformation saving millions of hours."
+    },
+    {
+      "id": "sutter-health-tiecon-2025",
+      "name": "TiECon 2025 Keynote Preview",
+      "type": "Conference",
+      "url": "https://darshanavnadkarni.wordpress.com/2025/03/27/warner-thomas-ceo-sutter-health-grand-keynote-at-tiecon2025/",
+      "publicationDate": "2025-03",
+      "collectedDate": "2026-02-09",
+      "notes": "Organization size: 53,000 employees. 2% physician turnover."
+    },
+    {
+      "id": "sutter-health-chargeai-2025",
+      "name": "ChargeAI - 48 Hospital CAIOs to Know",
+      "type": "Report",
+      "url": "https://www.chargeai.org/post/48-hospital-and-health-system-chief-ai-officers-to-know",
+      "publicationDate": "2025",
+      "collectedDate": "2026-02-09",
+      "notes": "Confirms Ashley Beecy as CAIO. Notes she joined end of May 2025."
+    },
+    {
+      "id": "sutter-health-annual-2024",
+      "name": "Sutter 2024 Annual Report",
+      "type": "Report",
+      "url": "https://campaign.sutterhealth.org/annualreport-2024/",
+      "publicationDate": "2024",
+      "collectedDate": "2026-02-09",
+      "notes": "Operating income $142M, 0.8% operating margin, 3.5M patients served."
+    },
+    {
+      "id": "sutter-health-dhn-2024",
+      "name": "Digital Health News - Innovation Hub",
+      "type": "Press",
+      "url": "https://www.digitalhealthnews.com/us-based-sutter-health-to-establish-innovation-hub-for-advancing-healthcare-technologies",
+      "publicationDate": "2024",
+      "collectedDate": "2026-02-09",
+      "notes": "Details on SF Pier 1 Innovation Center, 11,000 sq ft, 7-year lease signed January 2024."
+    },
+    {
+      "id": "sutter-health-ama-2025",
+      "name": "AMA - AI-enabled cameras article",
+      "type": "Press",
+      "url": "https://www.ama-assn.org/practice-management/digital-health/sutter-health-s-use-ai-enabled-cameras-gets-eye-opening-results",
+      "publicationDate": "2025-06",
+      "collectedDate": "2026-02-09",
+      "notes": "Diabetic retinopathy screening pilot with AI cameras."
+    },
+    {
+      "id": "sutter-aidoc-prnewswire-2025",
+      "name": "PRNewswire — Sutter Health and Aidoc AI Partnership",
+      "type": "Press Release",
+      "url": "https://www.prnewswire.com/news-releases/sutter-health-and-aidoc-team-up-to-transform-patient-care-with-advanced-clinical-ai-302488965.html",
+      "publicationDate": "2025-06",
+      "collectedDate": "2026-02-10",
+      "notes": "Aidoc aiOS real-time AI operating system embedded across Sutter's care system."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.4,
+    "longVsShortHorizon": 0.2
+  },
+  "openQuestions": [
+    "What is Ashley Beecy's direct reporting structure — does she report to CEO Warner Thomas directly?",
+    "What is Sutter's total AI investment budget or CapEx commitment?",
+    "How does the cross-functional governance group make decisions — unanimous consent, executive override, etc.?",
+    "What is the specific content of the AWS re:Invent 2025 presentation on clinical AI governance that prompted this scan?",
+    "What is the size of the dedicated AI/innovation team at the Pier 1 Innovation Center?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Sutter represents an unusually mature M4 implementation for healthcare — a sector where regulatory complexity often pushes orgs toward slower, more centralized M2 structures. The physical Innovation Center hub combined with CAIO-led governance creates clear structural separation between exploration and execution, making this a strong healthcare exemplar of hub-and-spoke ambidexterity.",
+    "[2026-02] The CAIO role (Ashley Beecy) is notable: a physician-informaticist with prior industry experience at IBM and Citibank. This hybrid clinical-technical background may be a pattern worth tracking for healthcare AI leadership — the role requires fluency in both clinical safety reasoning and technology deployment.",
+    "[2026-02] Sutter's buy-versus-build partnership strategy (Aidoc, Abridge, Hyro, Ferrum) is structurally interesting — it allows faster deployment velocity while concentrating internal resources on governance and integration rather than algorithm development. This may be an emerging M4 variant for regulated industries: 'governance hub + vendor spokes' rather than 'R&D hub + product spokes.'"
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

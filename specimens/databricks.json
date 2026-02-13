@@ -1,7 +1,7 @@
 {
   "id": "databricks",
   "name": "Databricks",
-  "title": "Data/AI Platform \u2014 95% of AI Projects Fail",
+  "title": "Data/AI Platform — 95% of AI Projects Fail",
   "classification": {
     "structuralModel": 9,
     "structuralModelName": "Hybrid/Hub-and-Spoke",
@@ -12,7 +12,7 @@
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Low",
-    "classificationRationale": "Data platform company. CEO Ali Ghodsi's commentary on AI adoption challenges (95% failure rate, LLM commoditization). Very limited org structure data \u2014 classification is provisional.",
+    "classificationRationale": "Data platform company. CEO Ali Ghodsi's commentary on AI adoption challenges (95% failure rate, LLM commoditization). Very limited org structure data — classification is provisional.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -51,7 +51,7 @@
     {
       "id": "bg2-pod-2025-12",
       "type": "Podcast",
-      "name": "BG2 Pod \u2014 AI Enterprise: Databricks, Glean",
+      "name": "BG2 Pod — AI Enterprise: Databricks, Glean",
       "url": "https://podcasts.apple.com/ca/podcast/ai-enterprise-databricks-glean-bg2-guest-interview/id1727278168?i=1000742526917",
       "timestamp": null,
       "sourceDate": "2025-12-23",
@@ -61,7 +61,7 @@
     {
       "id": "dnyuz-2025-12",
       "type": "Press",
-      "name": "AOL/DNYUZ \u2014 AI CEOs Say Automation with AI Is Harder Than It Looks",
+      "name": "AOL/DNYUZ — AI CEOs Say Automation with AI Is Harder Than It Looks",
       "url": "https://dnyuz.com/2025/12/24/ai-ceos-say-automation-with-ai-is-harder-than-it-looks/",
       "timestamp": null,
       "sourceDate": "2025-12-24",
@@ -88,7 +88,11 @@
     "How does the 95% AI project failure rate claim map to their customers?",
     "What does 'we all become supervisors' mean for Databricks' own product strategy?"
   ],
-  "taxonomyFeedback": [],
+  "taxonomyFeedback": [
+    "[2026-02] Classification error: Specimen is marked M9 (AI-Native) but filed as M4 (Hybrid/Hub-and-Spoke) in structuralModel field. The habitat correctly identifies orgType='AI-native' and the title suggests Databricks is a born-AI platform company, which should map to M9, not M4. This inconsistency creates confusion about what the specimen is demonstrating. Needs reclassification once structural data is obtained.",
+    "[2026-02] The '95% of AI projects fail' claim is analytically interesting because it comes from a platform vendor whose business model depends on AI adoption success. This creates a principal-agent tension: Databricks profits from selling infrastructure to AI projects, yet its CEO publicly signals low success rates. This is either honest signaling to build credibility (reducing information asymmetry) or positioning Databricks as the solution to the failure problem. Compare to how Palantir positions itself as solving 'why AI projects fail in enterprises' — similar market positioning strategy.",
+    "[2026-02] The 'we all become supervisors' framing reveals an implicit theory of AI-era organizational structure that's distinct from most specimens in the collection. Rather than debating centralized vs. distributed AI teams, Ghodsi is proposing a world where the fundamental coordination problem changes: humans shift from doers to monitors. This is a Coasean view of the firm where AI agents become the primary production unit and human role becomes contract enforcement and quality control. This mental model may explain why we observe so little internal structure data — if Databricks operates on this logic internally, traditional org chart analysis may miss the real coordination mechanisms (agent oversight protocols, escalation paths from AI to human decision-makers)."
+  ],
   "meta": {
     "status": "Stub",
     "created": "2026-01-31",

@@ -1,0 +1,210 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "mayo-clinic",
+  "name": "Mayo Clinic",
+  "title": "Multi-Hub Healthcare AI with Clinician-Led Distributed Execution",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 5,
+    "secondaryModelName": "Product/Venture Lab",
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "High",
+    "classificationRationale": "Mayo Clinic has a clear multi-hub structure with distinct central functions: CAIO (Tripathi) for implementation governance, CDAO (Sehgal) for AI enablement and the 'AI Factory', and Mayo Clinic Platform (Halamka) for external innovation and commercialization. AI execution is distributed across clinical departments (Neurology AI, Digital Pathology, Cardiovascular, Radiology) led by physician-scientists. The Platform unit has M5 characteristics—productizing internal capabilities (algorithms, data assets) for external partners and startups—but the dominant pattern is hub-and-spoke coordination across the enterprise. Strong structural separation between exploration (Platform, research) and execution (clinical deployment).",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Healthcare",
+    "sector": "Nonprofit Academic Medical Center",
+    "orgSize": "Enterprise",
+    "employees": 83000,
+    "revenue": null,
+    "headquarters": "Rochester, Minnesota",
+    "geography": "United States (with global AI applications)"
+  },
+  "description": "Mayo Clinic operates a sophisticated multi-hub AI architecture designed to enable both clinical AI deployment and external innovation. Three distinct C-suite leaders coordinate different aspects: the Chief AI Implementation Officer (Micky Tripathi) governs enterprise AI implementation and safety; the Chief Data and Analytics Officer (Ajai Sehgal) runs the 'AI Factory' for rapid model development and internal enablement; and the President of Mayo Clinic Platform (John Halamka) manages external partnerships, startup acceleration, and algorithm commercialization.\n\nAI execution is distributed across clinical departments, each led by physician-scientists who drive domain-specific applications. This clinician-led model ensures algorithms are developed by practitioners who understand clinical workflows. The organization has 320+ algorithms in production with 200+ use cases in the AI Factory pipeline. A $9 billion infrastructure investment explicitly ties physical and digital transformation together, including healthcare's first supercomputing cluster using Nvidia technology.\n\nThe Mayo Clinic Platform represents a novel approach to healthcare AI: it provides external innovators access to 50+ million anonymized patient records, 12+ million digitized pathology slides, and validation services ('Platform_Validate') to certify algorithms as 'fit for use.' This platform architecture enables Mayo to extend its clinical expertise globally while maintaining rigorous safety standards. The nonprofit mission frames all AI work in service terms—'the needs of the patient come first'—rather than shareholder returns.",
+  "observableMarkers": {
+    "reportingStructure": "CAIO (Tripathi) and CDAO (Sehgal) are distinct C-suite roles [mayo-clinic-oncodaily-2025, mayo-clinic-govtech-2025]. Mayo Clinic Platform (Halamka) is a separate commercialization unit [mayo-clinic-msft-podcast-2025]. DEPARTMENT of AI and Informatics (not a center or initiative) — has permanent budget authority and academic standing within the research division, giving AI research organizational permanence [mayo-clinic-msft-podcast-2025]. Mayo Clinic Platform has three sub-units: Platform_Accelerate (startup incubator), Platform_Insights (quality improvement for other health systems), Platform_Orchestrate (clinical trials acceleration) [mayo-clinic-wef-2025]. Clinical AI execution is clinician-led with department heads driving domain-specific AI [mayo-clinic-msft-podcast-2025]. Multi-agent research system using tournament framework (Generation, Reflection, Ranking, Evolution, Proximity agents) for hypothesis generation [mayo-clinic-msft-podcast-2025].",
+    "resourceAllocation": "Dedicated, ring-fenced: AI Factory is a formal capability, Mayo Clinic Platform is a separate unit with its own accelerator and partnerships [mayo-clinic-msft-podcast-2025]. $9B infrastructure investment explicitly tied to AI/digital transformation [mayo-clinic-msft-podcast-2025]. Nvidia supercomputer cluster is dedicated AI infrastructure [mayo-clinic-govtech-2025].",
+    "timeHorizons": "Mixed horizons consistent with hub-and-spoke: (1) Near-term: ~100 algorithms in production, clinical deployment focus [mayo-clinic-govtech-2025], (2) Medium-term: 200+ use cases in AI Factory pipeline, accelerator cohorts [mayo-clinic-msft-podcast-2025], (3) Long-term: 10-year Google partnership, 'Bold Forward' strategic plan, platform architecture for global scale [mayo-clinic-msft-podcast-2025].",
+    "decisionRights": "Hybrid: Central governance for standards, security, privacy vetting (all algorithms must pass review) [mayo-clinic-govtech-2025]. Distributed execution via clinical departments. Sehgal's team provides consulting before development [mayo-clinic-msft-podcast-2025]. Halamka's Platform enables external innovation with guardrails [mayo-clinic-wef-2025].",
+    "metrics": "Clinical outcomes emphasized over administrative efficiency. 320 AI algorithms cited by CEO [mayo-clinic-msft-podcast-2025]. 'Fit for use' validation via Platform_Validate [mayo-clinic-wef-2025]. Publications in Mayo Clinic Proceedings. Patient safety as primary constraint [mayo-clinic-govtech-2025]."
+  },
+  "mechanisms": [
+    {
+      "id": 8,
+      "name": "Turn Compliance Into Deployment Advantage",
+      "evidence": "Mayo's Platform_Validate service turns rigorous clinical validation requirements into a competitive advantage—external partners gain access to Mayo's validation infrastructure to certify their algorithms as 'fit for use.' Farrugia explicitly advocates for 'assurance labs' as public-private partnerships for algorithm certification. The heavy regulatory environment becomes a moat rather than a constraint.",
+      "strength": "Strong"
+    },
+    {
+      "id": 10,
+      "name": "Productize Internal Operational Advantages",
+      "evidence": "Mayo Clinic Platform explicitly commercializes internal capabilities: 50+ million patient records, 12+ million pathology slides, 7+ million ECG datasets, and proprietary algorithms. Algorithms developed for Mayo patients are adapted for global use (e.g., echocardiogram algorithms reducing maternal mortality in Nigeria, diagnosing heart failure in Peru).",
+      "strength": "Strong"
+    },
+    {
+      "id": 3,
+      "name": "Embed Product at Research Frontier",
+      "evidence": "The 'AI Factory' model embeds product development within clinical research. Physician-scientists like Paul Friedman (Cardiovascular) and David Jones (Neurology) lead both research and production algorithm development. The CDAO's team provides consulting and enablement directly to clinical researchers building AI tools.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "We knew that we could incorporate AI and make it better.",
+      "speaker": "Gianrico Farrugia",
+      "speakerTitle": "President and CEO, Mayo Clinic",
+      "context": "Discussing Mayo Clinic's decision to build AI into healthcare architecture",
+      "sourceId": "mayo-clinic-msft-podcast-2025"
+    },
+    {
+      "text": "Let's create a different architecture. And that architecture had to be very closely linked to artificial intelligence.",
+      "speaker": "Gianrico Farrugia",
+      "speakerTitle": "President and CEO, Mayo Clinic",
+      "context": "Explaining the strategic vision behind Mayo Clinic Platform",
+      "sourceId": "mayo-clinic-msft-podcast-2025"
+    },
+    {
+      "text": "AI is not about replacing the human touch in healthcare. It's about enhancing it—giving doctors and nurses better tools so they can spend more time where they're needed most: with patients.",
+      "speaker": "Micky Tripathi",
+      "speakerTitle": "Chief Artificial Intelligence Implementation Officer, Mayo Clinic",
+      "context": "Articulating AI implementation philosophy upon appointment as CAIO",
+      "sourceId": "mayo-clinic-oncodaily-2025"
+    },
+    {
+      "text": "Technology should always serve the people who serve others.",
+      "speaker": "Micky Tripathi",
+      "speakerTitle": "Chief Artificial Intelligence Implementation Officer, Mayo Clinic",
+      "context": "On the role of AI in healthcare",
+      "sourceId": "mayo-clinic-oncodaily-2025"
+    },
+    {
+      "text": "If you're not getting it in the hands of the clinicians who are working directly with patients, it doesn't matter.",
+      "speaker": "Micky Tripathi",
+      "speakerTitle": "Chief Artificial Intelligence Implementation Officer, Mayo Clinic",
+      "context": "Emphasizing implementation over development",
+      "sourceId": "mayo-clinic-govtech-2025"
+    },
+    {
+      "text": "There are always fears that we all ought to have, with respect to the unintended consequences of technology that isn't appropriately managed. But we're spending a lot of time on doing that.",
+      "speaker": "Micky Tripathi",
+      "speakerTitle": "Chief Artificial Intelligence Implementation Officer, Mayo Clinic",
+      "context": "On AI governance and risk management",
+      "sourceId": "mayo-clinic-govtech-2025"
+    },
+    {
+      "text": "We need trust, and we have to do a better job of defining what that means. I'm a big proponent for assurance labs. Private [and] public partnerships that come together, that allow anyone to take their algorithm and say that it's fit for use, and that it does what it says it's going to do. In our platform, we called that Validate.",
+      "speaker": "Gianrico Farrugia",
+      "speakerTitle": "President and CEO, Mayo Clinic",
+      "context": "On AI validation and the need for assurance labs at the World Economic Forum",
+      "sourceId": "mayo-clinic-wef-2025"
+    },
+    {
+      "text": "Nurses in Nigeria have been able to reduce mortality in pregnant women... that algorithm taken by others and making it country appropriate has been able to diagnose heart failure in kids in Peru.",
+      "speaker": "Gianrico Farrugia",
+      "speakerTitle": "President and CEO, Mayo Clinic",
+      "context": "On global AI applications and echocardiogram algorithms in developing countries",
+      "sourceId": "mayo-clinic-wef-2025"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "Multi-Hub AI Architecture with CAIO Appointment",
+      "summary": "Mayo Clinic operates a sophisticated multi-hub AI structure: CAIO (Tripathi, appointed early 2025) for implementation governance, CDAO (Sehgal) for AI enablement and the 'AI Factory', and Mayo Clinic Platform (Halamka) for external innovation. 320+ algorithms in production with 200+ in pipeline. $9B infrastructure investment includes Nvidia supercomputer. Platform_Validate provides external algorithm certification. Global AI applications extend Mayo algorithms to developing countries.",
+      "sourceRefs": [
+        "mayo-clinic-msft-podcast-2025",
+        "mayo-clinic-govtech-2025",
+        "mayo-clinic-oncodaily-2025",
+        "mayo-clinic-wef-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "mayo-clinic-msft-podcast-2025",
+      "name": "Microsoft Research Podcast: The AI Revolution in Medicine, Revisited",
+      "type": "Interview",
+      "url": "https://www.microsoft.com/en-us/research/podcast/reimagining-healthcare-delivery-and-public-health-with-ai/",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "mayo-clinic-oncodaily-2025",
+      "name": "OncoDaily: Mayo Clinic Appoints Micky Tripathi as Chief AI Implementation Officer",
+      "type": "Press",
+      "url": "https://oncodaily.com/blog/mayo-clinic-293649",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "mayo-clinic-govtech-2025",
+      "name": "GovTech: Mayo Clinic Pushing to Become AI Health-Care Leader",
+      "type": "Press",
+      "url": "https://www.govtech.com/artificial-intelligence/mayo-clinic-pushing-to-become-ai-health-care-leader",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "mayo-clinic-wef-2025",
+      "name": "KTTC: Mayo Clinic CEO discusses AI impact on healthcare at World Economic Forum",
+      "type": "Conference",
+      "url": "https://www.kttc.com/2025/01/24/mayo-clinic-ceo-discusses-ai-impact-healthcare-world-economic-forum/",
+      "sourceDate": "2025-01",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "mayo-clinic-cdo-2025",
+      "name": "CDO Magazine: Mayo Clinic Appoints Micky Tripathi as Chief AI Implementation Officer",
+      "type": "Press",
+      "url": "https://www.cdomagazine.tech/leadership-moves/mayo-clinic-appoints-micky-tripathi-as-chief-ai-implementation-officer",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-08"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.7,
+    "speedVsDepth": -0.4,
+    "centralVsDistributed": 0.2,
+    "namedVsQuiet": -0.6,
+    "longVsShortHorizon": -0.5
+  },
+  "openQuestions": [
+    "Exact size of centralized AI teams vs. embedded clinical AI staff",
+    "Specific budget allocation to AI vs. overall R&D spending",
+    "Governance relationship between CAIO and CDAO roles—how do they coordinate?",
+    "Details on the 'AI Factory' operating model and cycle time for use case development",
+    "Multi-agentic AI initiative mentioned at HIMSS 2026—specifics not yet found",
+    "Google Cloud partnership (announced 2019)—current status and outcomes"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Mayo represents a rare 'multi-hub' M4 variant where multiple C-suite leaders coordinate distinct AI functions (CAIO for governance, CDAO for enablement, Platform for commercialization). Most M4 specimens have a single central hub with distributed spokes—Mayo has three specialized hubs. This may warrant a sub-type for 'federated hub' architectures in highly regulated industries.",
+    "[2026-02] The nonprofit mission framing creates interesting structural constraints: Farrugia and Tripathi consistently frame AI in service terms ('serve the people who serve others') rather than efficiency or shareholder value. This purpose orientation may explain why Mayo invests heavily in validation infrastructure (Platform_Validate) and global health applications rather than purely internal cost reduction.",
+    "[2026-02] The 'AI Factory' concept under CDAO Sehgal deserves closer examination—it appears to be a standardized development capability that sits between research (Department of AI & Informatics) and clinical deployment (embedded teams). This middle layer for rapid prototyping may be a structural innovation worth tracking across other healthcare specimens."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

@@ -106,15 +106,28 @@ Ask these questions in order:
    └─ YES → Continue...
 
 4. Does central team BUILD products or ENABLE others?
-   └─ ENABLE → Model 2 (Center of Excellence)
-   └─ BUILD → Are outputs new products/companies?
+   └─ ENABLE only (standards, training, governance) → Model 2 (Center of Excellence)
+   └─ BUILD → Continue...
+
+5. Does central team build SHARED AI INFRASTRUCTURE that distributed
+   business units DEPEND ON and BUILD UPON? (bidirectional: hub provides
+   infrastructure/standards/models; spokes feed back domain requirements/data)
+   └─ NO → Are outputs new products/companies?
       ├─ YES → Model 5 (Product/Venture Lab)
       │   ├─ Products stay in parent? → 5a
       │   ├─ Spin-offs become independent? → 5b
       │   └─ Internal tools sold externally? → 5c
-      └─ NO → Model 4 (Hybrid/Hub-and-Spoke)
+      └─ NO → Do business units have their own AI teams?
+         ├─ YES → Model 3 (Embedded Teams) — consider M2 secondary if CoE also exists
+         └─ NO → Is there mass adoption (>50%) without formal spoke structure?
+            ├─ YES → Model 6a (Enterprise-Wide Adoption)
+            └─ NO → Model 2 (Center of Excellence)
+   └─ YES → Are there 3+ semi-autonomous units building domain-specific
+            AI applications on the shared infrastructure?
+      ├─ YES → Model 4 (Hybrid/Hub-and-Spoke)  ← TRUE M4
+      └─ NO → Model 2 + secondary (M3 or M5 depending on outputs)
 
-5. Is there a time-boxed team structure?
+6. Is there a time-boxed team structure?
    └─ YES → Is it a permanent program (3+ years) with a pipeline?
       ├─ YES → Model 5 (Product/Venture Lab) — temporal cycling is orientation, not structure
       │   ├─ Is the unit building something *adjacent* to the core business? → 5a/5b/5c
@@ -148,6 +161,13 @@ If you assigned Temporal orientation, ask: Is the organization *cycling* between
 
 **Guardrail 7: Adjacent Venture vs. Core Replacement (M5 vs. M8)**
 If you classified as M5, ask: Is the unit building something *adjacent* to the core business, or *reimagining* a core business line with the structural potential to absorb or replace legacy operations? No company will publicly frame this as cannibalization — look for structural signals: the unit mirrors an existing function, operates at scale, and has a pathway to become the primary way work gets done. If you see this pattern, flag as potential M8 (Skunkworks) in Taxonomy Feedback. Classify as M5 for now until M8 has confirmed specimens.
+
+**Guardrail 8: Hub-and-Spoke vs. Enterprise Deployment (M4 trap)**
+If you classified as M4 (Hub-and-Spoke), ask: Does the "hub" provide *shared AI infrastructure* that distributed units *build upon*, with *bidirectional coordination* (hub→spokes: infrastructure, standards, models; spokes→hub: domain data, requirements, use cases)? If the hub just deploys tools enterprise-wide without spoke-specific customization or feedback loops, it's M2+M6a (CoE + Enterprise Adoption), not M4. True M4 requires BOTH (a) a coordinating hub that builds shared infrastructure AND (b) 3+ semi-autonomous spokes with domain-specific AI applications built on that infrastructure. Common false M4 patterns:
+- Central team + mass deployment = M2+M6a (not M4)
+- Research lab + independent product teams = M1+M3 (not M4)
+- AI product embedded in platform + enterprise mandate = M5+M6a (not M4)
+- CoE that sets standards + embedded teams that build independently = M2+M3 (not M4)
 
 ### Step 3: Assign Ambidexterity Orientation
 

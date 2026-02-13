@@ -7,7 +7,7 @@
 | **1. Research Lab** | Publishes papers, 3-10 year horizon | DeepMind, FAIR |
 | **2. Center of Excellence** | Enables others, doesn't build products | Many bank AI CoEs |
 | **3. Embedded Teams** | AI built into product teams, no central | Product-specific AI |
-| **4. Hybrid/Hub-and-Spoke** | Central + distributed execution | Novo Nordisk, Eli Lilly |
+| **4. Hybrid/Hub-and-Spoke** | Hub builds shared AI infra + 3+ domain spokes build on it (bidirectional) | Novo Nordisk, Eli Lilly, JPMorgan |
 | **5. Product/Venture Lab** | Builds products/companies from AI | Google X, Anthropic |
 | **6. Unnamed/Informal** | No formal structure, quiet adoption | P&G ChatPG, BofA |
 | **7. Tiger Teams** | Time-boxed sprints, people return | [TBD — need ad hoc example] |

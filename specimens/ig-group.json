@@ -87,7 +87,11 @@
     "Only one source (Anthropic customer story). Need independent sources to validate claims and understand organizational structure more deeply.",
     "Has IG Group expanded beyond the initial three use cases? What does broader adoption look like?"
   ],
-  "taxonomyFeedback": [],
+  "taxonomyFeedback": [
+    "[2026-02] IG Group's 3-month ROI achievement reveals an unusual M3 variant where speed-to-value, not structural innovation, is the defining characteristic. Most M3 specimens embed AI into product development cycles; here, AI is embedded into internal operations (analytics, HR) with explicit focus on high-frequency, measurable tasks. This suggests M3 can succeed through optimization of existing workflows rather than new product creation—a pattern worth tracking as a distinct 'operational M3' subtype.",
+    "[2026-02] The specimen's use case selection (analytics automation, HR feedback, multilingual content) is structurally revealing: all three are bounded, repeatable tasks with clear before/after metrics. This contrasts with M3 specimens that embed AI into uncertain, creative work (product design, strategic analysis). The economic logic here is classical transaction cost economics—AI reduces coordination costs in well-defined, high-volume tasks. This may explain the rapid ROI: lower information asymmetry and easier measurement reduce organizational friction to adoption.",
+    "[2026-02] Financial services context matters more than the specimen acknowledges. Online trading firms like IG Group face intense regulatory scrutiny and operate on thin margins with high automation needs. The choice of internal-facing use cases (not customer-facing trading tools) suggests regulatory caution may be shaping structural choices. This specimen may exemplify how M3 adoption in regulated industries begins with low-risk internal operations before moving to revenue-generating customer applications—a contingency pattern we should test across other financial services specimens."
+  ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",

@@ -1,0 +1,252 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "disney",
+  "name": "Disney",
+  "title": "Research Lab Plus Governance Layer Plus Strategic AI Partnership",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 1,
+    "secondaryModelName": "Research Lab",
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "High",
+    "classificationRationale": "Disney exhibits classic M4 Hybrid/Hub-and-Spoke: (1) Disney Research Studios in Zurich provides fundamental research capability (16+ years, led by Chief Scientist Markus Gross), (2) the new Office of Technology Enablement provides central governance/standards without centralizing execution, and (3) business units (Disney+, Parks, Studios) retain decision rights on their AI projects. The OTE explicitly 'does NOT take over or centralize' business unit AI—this is coordination and enablement, not command. The $1B OpenAI partnership adds a strategic external layer. Structural orientation because exploration (Research Studios, OTE) and execution (business unit AI) are organizationally distinct. Secondary M1 classification reflects the genuine research lab component in Zurich.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Media / Entertainment",
+    "sector": "Entertainment",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Burbank, California",
+    "geography": "Global"
+  },
+  "description": "Disney operates a sophisticated three-layer AI structure that combines fundamental research, governance/enablement, and distributed business unit execution. At the research frontier, Disney Research Studios in Zurich (established 16+ years ago) conducts world-class research in visual computing, machine learning, and AI for filmmaking, with close ties to ETH Zürich and additional locations in Los Angeles and Pittsburgh. This research feeds into all Disney film studios including WDAS, Pixar, ILM, and Marvel.\n\nThe governance layer is the Office of Technology Enablement (OTE), established November 2024 under Jamie Voris (former 14-year CTO of Walt Disney Studios). Reporting to Alan Bergman (Co-chairman, Disney Entertainment), OTE is expected to grow to ~100 employees with a mission to establish Disney as a 'progressive, innovative, and responsible leader' in AI and Mixed Reality. Crucially, OTE provides governance and standards across Entertainment, ESPN, and Parks without centralizing or taking over business unit AI projects—business units retain decision rights on their initiatives.\n\nThe third layer is strategic external partnership, exemplified by the $1B equity investment in OpenAI (December 2025) as part of a 3-year licensing agreement. This partnership enables Sora integration into Disney+ for short-form content, representing a 'buy vs. build' decision for generative video capabilities. CEO Bob Iger frames AI as 'the most powerful technology' Disney has ever seen while maintaining three guardrails: IP protection, creator respect, and customer value.",
+  "observableMarkers": {
+    "reportingStructure": "Office of Technology Enablement reports to Alan Bergman (Co-chairman, Disney Entertainment) [variety-ote-2024]. Disney Research Studios appears to operate semi-independently with Chief Scientist Markus Gross [disney-research-about]. OTE has 'accountability to all business segments' and partners with leaders across the company [variety-ote-2024].",
+    "resourceAllocation": "OTE is a dedicated unit with growth budget to ~100 employees [variety-ote-2024]. $1B OpenAI investment is ring-fenced strategic capital [fortune-openai-2025]. Research Studios has dedicated facility in Zurich with academic partnerships [disney-research-about]. Not clear if there's a centralized AI budget beyond these structures.",
+    "timeHorizons": "Mixed horizons: Disney Research Studios has 16+ year track record and focuses on fundamental research (multi-year horizon) [disney-research-about]. OTE focuses on 'agility, speed, and consistency' (medium-term) [variety-ote-2024]. OpenAI Sora partnership has 3-year term with immediate FY2026 rollout of short-form content on Disney+ (short-term) [fortune-openai-2025].",
+    "decisionRights": "OTE explicitly does NOT 'take over or centralize' AI projects in business units [variety-ote-2024]. Instead provides governance and enablement. Business units retain decision rights on their AI initiatives [variety-ote-2024]. This is a coordination/standards model, not a command model.",
+    "metrics": "Streaming margin (target 10% in FY2026) [disney-q1-fy2026-earnings], engagement (especially with younger users for Sora content) [fortune-openai-2025], and efficiency gains mentioned. OpenAI partnership framed around consumer engagement, not cost reduction [fortune-openai-2025]."
+  },
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "Disney Research Studios has operated for 16+ years in Zurich, physically and organizationally separate from the commercial business units. This protected space allows fundamental research in visual computing and ML that may not have immediate commercial application but feeds long-term capability into all film studios.",
+      "strength": "Strong"
+    },
+    {
+      "id": 3,
+      "name": "Embed Product at Research Frontier",
+      "evidence": "Disney Research Studios explicitly serves all Disney film studios (WDAS, Pixar, ILM, Marvel) with its research output. The research lab is not isolated academia—it has direct pathways to production pipelines.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "This deal does is by giving us the ability to curate what has been basically created by Sora onto Disney Plus is it jump starts our ability to have short form video on Disney Plus.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "date": "2026-02-02",
+      "source": "disney-q1-fy2026-earnings",
+      "context": "Explaining the OpenAI Sora partnership during Q1 earnings call"
+    },
+    {
+      "text": "We'd rather participate in the rather dramatic growth, rather than just watching it happen.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "date": "2025-12-11",
+      "source": "fortune-openai-2025",
+      "context": "Explaining strategic rationale for OpenAI investment"
+    },
+    {
+      "text": "Creativity is the new productivity, and I think you're starting to see that more and more.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "date": "2025-12-11",
+      "source": "fortune-openai-2025",
+      "context": "Explaining his philosophy on AI and creative work"
+    },
+    {
+      "text": "No human generation has ever stood in the way of technological advance, and we don't intend to try.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "date": "2025-12-11",
+      "source": "fortune-openai-2025",
+      "context": "Explaining Disney's embrace of AI technology"
+    },
+    {
+      "text": "The reason this company is so special is because of how creative we are, and human beings that are generating that creativity, in my mind, that never gets replaced.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "date": "2026-02",
+      "source": "abc-news-ceo-interview-2026",
+      "context": "First joint interview with incoming CEO Josh D'Amaro about Disney's AI approach"
+    },
+    {
+      "text": "AI to Bob's point is here, and it's something that we're embracing. You're seeing it's supercharged these creatives in amazing ways.",
+      "speaker": "Josh D'Amaro",
+      "speakerTitle": "Chairman, Disney Experiences (incoming CEO)",
+      "date": "2026-02",
+      "source": "abc-news-ceo-interview-2026",
+      "context": "First joint interview with Iger about Disney's AI approach"
+    },
+    {
+      "text": "Walt Disney himself was a big believer in using technology in the early days to tell better stories. And he thought that technology in the hands of a great storyteller was unbelievably powerful.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "date": "2024-05",
+      "source": "variety-canva-2024",
+      "context": "Keynote speech at Canva Create event, discussing technology and storytelling"
+    },
+    {
+      "text": "You're never going to get in the way of it. There isn't a generation of human beings that has ever been able to stand the way of technological advancement...What we try to do is embrace the change that technology has created, and use it as the wind behind our backs instead of wind in our faces.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "date": "2024-05",
+      "source": "variety-canva-2024",
+      "context": "Keynote speech at Canva Create event on embracing technological change"
+    },
+    {
+      "text": "AI may, in fact, be the most powerful technology that our company has ever seen, including its ability to enhance and enable consumers to access, experience and enjoy our entertainment.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "date": "2025-03",
+      "source": "geektyrant-shareholder-2025",
+      "context": "Annual shareholder meeting remarks on AI"
+    },
+    {
+      "text": "Given the speed that it is developing, we're taking precautions to make sure of three things: One, that our IP is being protected. That's incredibly important. Second, that our creators are being respected, and last, that our customers are being considered and valued.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "date": "2025-03",
+      "source": "geektyrant-shareholder-2025",
+      "context": "Annual shareholder meeting on AI guardrails"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "Three-Layer AI Structure with OpenAI Partnership",
+      "summary": "Disney operates three distinct AI structures: (1) Disney Research Studios in Zurich (16+ years, fundamental research in visual computing/ML/AI), (2) Office of Technology Enablement led by Jamie Voris (est. Nov 2024, ~100 employees, governance/enablement without centralizing execution), and (3) $1B OpenAI strategic partnership (Dec 2025) for Sora integration into Disney+. CEO Bob Iger frames AI as 'most powerful technology' company has seen while maintaining guardrails for IP, creators, and customers. CEO transition to Josh D'Amaro (from Parks/Experiences) planned for March 2026.",
+      "sourceRefs": [
+        "disney-q1-fy2026-earnings",
+        "fortune-openai-2025",
+        "disney-research-about",
+        "variety-ote-2024"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "disney-q1-fy2026-earnings",
+      "name": "Disney Q1 FY2026 Earnings Call Transcript",
+      "type": "Earnings Call",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/disney-dis-q1-2026-earnings-call-transcript/",
+      "sourceDate": "2026-02-02",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "fortune-openai-2025",
+      "name": "Fortune - Creativity is the New Productivity",
+      "type": "Press",
+      "url": "https://fortune.com/2025/12/11/iger-altman-disney-openai-1-billion-creativity-new-productivity/",
+      "sourceDate": "2025-12-11",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "disney-research-about",
+      "name": "Disney Research Studios - About Us",
+      "type": "Company",
+      "url": "https://studios.disneyresearch.com/about-us/",
+      "sourceDate": "2026-02-08",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "variety-ote-2024",
+      "name": "Variety - Disney Establishes AI/XR Office",
+      "type": "Press",
+      "url": "https://variety.com/2024/digital/news/disney-ai-mixed-reality-office-technology-enablement-1236197936/",
+      "sourceDate": "2024-11",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "variety-canva-2024",
+      "name": "Variety - Iger Canva Keynote",
+      "type": "Conference",
+      "url": "https://variety.com/2024/tv/news/bob-iger-canva-ai-tech-embrace-change-melanie-perkins-1236015176/",
+      "sourceDate": "2024-05",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "abc-news-ceo-interview-2026",
+      "name": "ABC News - Iger/D'Amaro CEO Transition Interview",
+      "type": "Interview",
+      "url": "https://blogmickey.com/2026/02/bob-iger-josh-damaro-ceo-interview-abc-news/",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "geektyrant-shareholder-2025",
+      "name": "GeekTyrant - AI at Shareholder Meeting",
+      "type": "Press",
+      "url": "https://geektyrant.com/news/bob-iger-says-ai-generated-content-is-coming-to-disney-as-disney-embraces-ai-tech",
+      "sourceDate": "2025-03",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "wikipedia-disney-research",
+      "name": "Wikipedia - Disney Research",
+      "type": "Report",
+      "url": "https://en.wikipedia.org/wiki/Disney_Research",
+      "sourceDate": "2026-02-08",
+      "collectedDate": "2026-02-08"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Short",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": 0.2,
+    "centralVsDistributed": 0.3,
+    "namedVsQuiet": -0.4,
+    "longVsShortHorizon": -0.3
+  },
+  "openQuestions": [
+    "What is the budget/headcount for Disney Research Studios?",
+    "How does AI work integrate between Research Studios and the new Office of Technology Enablement?",
+    "What specific AI capabilities has Disney deployed in Parks/Experiences beyond announced initiatives?",
+    "How did SAG-AFTRA AI negotiations shape Disney's structural approach to AI governance?",
+    "What is the role of Imagineering in AI development for park experiences?",
+    "How will the CEO transition to Josh D'Amaro affect AI strategy and investment levels?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Disney presents an unusually mature M4 variant where the 'hub' is actually bifurcated: Disney Research Studios (16+ years, fundamental research) and Office of Technology Enablement (new, governance/enablement) serve different functions. Research Studios is almost M1-like in character, while OTE is pure M2 governance. The combination creates a sophisticated capability stack that few organizations achieve.",
+    "[2026-02] The explicit design principle that OTE 'does NOT take over or centralize' business unit AI projects is structurally interesting—it's a conscious rejection of the command-and-control model that many enterprises default to. This suggests an intentional architectural choice to preserve business unit autonomy while providing coordination and standards.",
+    "[2026-02] The $1B OpenAI partnership reveals a 'buy vs. build' decision at the generative AI frontier—Disney is buying Sora capability rather than trying to build it internally. This is economically rational given Disney's core competency is IP/storytelling not foundation model development, but it creates an interesting dependency on an external partner for a potentially strategic capability."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

@@ -32,3 +32,21 @@ export interface PurposeClaimsData {
   claimTypeDefinitions: Record<ClaimType, string>;
   claims: PurposeClaim[];
 }
+
+/** Per-specimen enrichment from purpose claims scanning. */
+export interface SpecimenEnrichment {
+  specimenId: string;
+  scannedDate: string;
+  quality: string;
+  claimCount: number;
+  claimTypeDistribution: Partial<Record<ClaimType, number>>;
+  keyFindings: string[];
+  rhetoricalPatterns: string[];
+  comparativeNotes: string | null;
+  notableAbsences: string | null;
+  correctedLeaderInfo: string | null;
+  scanNarrative: string | null;
+  searchesCompleted: number;
+  urlsFetched: number;
+  fetchFailures: string[];
+}

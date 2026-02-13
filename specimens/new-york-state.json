@@ -45,6 +45,13 @@
 
   "layers": [
     {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Additional press coverage confirming Fournier-Tombs appointment as CAIO. CDO Magazine describes the role as guiding AI strategy across ITS. No new structural details beyond existing documentation.",
+      "classification": null,
+      "sourceRefs": ["cdomagazine-caio-2026"]
+    },
+    {
       "date": "2026-01",
       "label": "Initial Documentation — Second CAIO Appointment",
       "summary": "Eleonore Fournier-Tombs appointed as NY State's 2nd CAIO (Jan 9, 2026), replacing Shreya Amin who left after <1 year. Fournier-Tombs background: UN University AI policy lab founder. Priorities: expand AI tools, refine acceptable use policy. AI training pilot completed for ~1,000 employees. Empire AI consortium provides infrastructure. Part of broader state-level CAIO wave.",
@@ -83,6 +90,16 @@
       "sourceDate": "2024-01-01",
       "collectedDate": "2026-02-03",
       "notes": "Empire AI statewide supercomputing consortium for university AI research"
+    },
+    {
+      "id": "cdomagazine-caio-2026",
+      "type": "Press",
+      "name": "CDO Magazine — New York State Appoints Eleonore Fournier-Tombs as Chief AI Officer",
+      "url": "https://www.cdomagazine.tech/leadership-moves/new-york-state-appoints-eleonore-fournier-tombs-as-chief-ai-officer",
+      "timestamp": null,
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-07",
+      "notes": "Additional press coverage of CAIO appointment"
     }
   ],
 
@@ -113,13 +130,14 @@
   "taxonomyFeedback": [
     "New York State is a Stub specimen — thin on structural detail but valuable as one of the first state-government AI governance specimens. The CAIO role in government may be structurally different from corporate CAIO roles: more governance/policy, less product/technical.",
     "CAIO turnover (<1 year tenure for first appointee) is a potentially important signal about government CAIO role stability. Worth tracking across other state-level CAIOs (OK, MT, TX, NC, AR, IL).",
-    "The academic/international-to-government CAIO pipeline (Fournier-Tombs: UN University -> NY State) is distinct from the corporate-to-corporate pipelines documented elsewhere. May be a government-specific variant worth noting in Mechanism #9 (Hire CAIOs)."
+    "The academic/international-to-government CAIO pipeline (Fournier-Tombs: UN University -> NY State) is distinct from the corporate-to-corporate pipelines documented elsewhere. May be a government-specific variant worth noting in Mechanism #9 (Hire CAIOs).",
+    "[2026-02] Overnight scan added one additional press source but no new structural data. Specimen remains a Stub — need deeper sources (budget docs, org charts, legislative testimony) to move beyond surface-level CAIO appointment coverage."
   ],
 
   "meta": {
     "status": "Stub",
     "created": "2026-02-04",
-    "lastUpdated": "2026-02-04",
+    "lastUpdated": "2026-02-09",
     "completeness": "Stub",
     "convertedFrom": null
   }

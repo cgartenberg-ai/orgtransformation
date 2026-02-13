@@ -1,0 +1,243 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "lockheed-martin",
+  "name": "Lockheed Martin",
+  "title": "Defense Giant's AI Factory Hub Serving 7,000 Engineers",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 5,
+    "secondaryModelName": "Product/Venture Lab",
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "High",
+    "classificationRationale": "Lockheed Martin exemplifies the hub-and-spoke model: the Lockheed Martin AI Center (LAIC) serves as a centralized hub providing compute infrastructure (NVIDIA DGX SuperPOD), MLOps tools, training, and governance standards. The 7,000 engineers across all business areas act as spokes, accessing the AI Factory for their domain-specific applications. The December 2024 launch of Astris AI subsidiary adds an M5c (Platform-to-Product) secondary dimension, but the core operating model remains hub-and-spoke with structural separation between the central AI capability and distributed execution teams.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Aerospace & Defense",
+    "sector": "Defense",
+    "orgSize": "Enterprise",
+    "employees": 122000,
+    "revenue": "$71B (2025)",
+    "headquarters": "Bethesda, Maryland",
+    "geography": "Global"
+  },
+  "description": "Lockheed Martin operates a mature Hybrid/Hub-and-Spoke AI model anchored by the Lockheed Martin AI Center (LAIC), established in 2021. The hub provides centralized infrastructure—an NVIDIA DGX SuperPOD processing over 1 billion tokens per week—along with MLOps tooling, training programs, and enterprise-wide governance. Mike Baylor serves as VP and Chief Digital and AI Officer, leading a 300+ person data and analytics function that sets standards and enables capability across the enterprise.\n\nThe spokes comprise 7,000 engineers across all Lockheed Martin business areas who access the AI Factory for domain-specific applications. This includes hundreds of active projects spanning classified and unclassified environments, with edge-running models deployed across defense programs. The June 2025 appointment of Craig Martell (former DoD Chief Digital and AI Officer) as CTO signals continued investment in AI leadership.\n\nCEO Jim Taiclet's '21st Century Security' vision explicitly frames AI as central to national defense transformation. Rather than building everything in-house, Taiclet emphasizes partnerships with NVIDIA, Meta, IBM, Microsoft, and others. The December 2024 launch of Astris AI subsidiary extends internal AI Factory capabilities to commercial markets, representing an M5c pattern layered onto the core hub-and-spoke structure.",
+  "observableMarkers": {
+    "reportingStructure": "CDAIO Mike Baylor reports to corporate leadership (likely CEO given strategic importance) [lockheed-martin-dataiq-baylor-2024]. CTO Craig Martell reports to SVP John Clark [lockheed-martin-cto-appointment-2025]. CIO Maria Demaree appears peer to CDAIO. This is a dual-track structure: CDAIO owns AI strategy/capability, CTO owns technology innovation, CIO owns operational integration [lockheed-martin-dataiq-baylor-2024].",
+    "resourceAllocation": "Dedicated budget with $5B planned for 2026 CapEx/IR&D (up from $3.6B in 2025) [lockheed-martin-q4-2025-earnings]. Ring-fenced AI Factory infrastructure (NVIDIA DGX SuperPOD) [lockheed-martin-nvidia-case-study-2024]. 300+ professionals in centralized data/analytics function [lockheed-martin-dataiq-baylor-2024]. AI Factory supports 7,000 engineers enterprise-wide [lockheed-martin-nvidia-case-study-2024].",
+    "timeHorizons": "Mixed horizons consistent with hub-and-spoke. LAIC supports near-term product integration (quarterly), mid-term capability development (1-2 years), and longer-term research through Advanced Technology Laboratories [lockheed-martin-capabilities-page-2024]. Taiclet's '21st Century Security' vision is multi-decade [lockheed-martin-csis-interview-2023].",
+    "decisionRights": "Centralized AI governance: Data council and governance board with cross-organizational participation [lockheed-martin-dataiq-baylor-2024]. Data steward network enforces consistency. Ethical AI Advisory Committee aligned with DoD principles [lockheed-martin-capabilities-page-2024]. Standards flow from hub to spokes.",
+    "metrics": "Taiclet focuses on backlog ($194B record), production increases (191 F-35s in 2025), capability delivery speed (six-month update cycles vs. multi-year) [lockheed-martin-q4-2025-earnings]. AI Factory metrics: tokens processed, projects supported, time-to-deployment, users served [lockheed-martin-nvidia-case-study-2024]."
+  },
+  "mechanisms": [
+    {
+      "id": 8,
+      "name": "Turn Compliance Into Deployment Advantage",
+      "evidence": "Lockheed Martin's mission to be 'the AI leader in Aerospace and Defense, with our discriminator being trustworthy AI for mission assurance' explicitly positions regulatory compliance (DoD requirements, security clearances, ethical AI frameworks) as a competitive moat. Their Ethical AI Advisory Committee alignment with DoD principles creates deployment advantages competitors cannot easily replicate.",
+      "strength": "Strong"
+    },
+    {
+      "id": 10,
+      "name": "Productize Internal Operational Advantages",
+      "evidence": "The December 2024 launch of Astris AI subsidiary directly commercializes internal AI Factory capabilities. As Greg Forrest stated: 'Lockheed Martin has made significant strides in AI/ML, and we're excited to apply these advancements to support our customers.' The AI Factory built for internal defense programs is now offered externally.",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "AI that's secure and reliable is critical to the success of complex missions in defense of freedom",
+      "speaker": "Jim Taiclet",
+      "speakerTitle": "Chairman, President and CEO",
+      "date": "2024",
+      "context": "Announcing AI initiatives alongside NVIDIA CEO Jensen Huang",
+      "sourceId": "lockheed-martin-linkedin-nvidia-2024"
+    },
+    {
+      "text": "we don't have to write all the AI software that we'll ever need",
+      "speaker": "Jim Taiclet",
+      "speakerTitle": "Chairman, President and CEO",
+      "date": "2023",
+      "context": "On partnership model with technology companies rather than building everything in-house",
+      "sourceId": "lockheed-martin-csis-interview-2023"
+    },
+    {
+      "text": "to be the AI leader in Aerospace and Defense, with our discriminator being trustworthy AI for mission assurance",
+      "speaker": "Mike Baylor",
+      "speakerTitle": "VP and Chief Digital and AI Officer",
+      "date": "2024",
+      "context": "Articulating Lockheed Martin's AI mission and competitive positioning",
+      "sourceId": "lockheed-martin-dataiq-baylor-2024"
+    },
+    {
+      "text": "data is the new oil",
+      "speaker": "Mike Baylor",
+      "speakerTitle": "VP and Chief Digital and AI Officer",
+      "date": "2024",
+      "context": "Vision for data strategy requiring proper discovery, extraction, refinement, and consumption",
+      "sourceId": "lockheed-martin-dataiq-baylor-2024"
+    },
+    {
+      "text": "Lockheed Martin has made significant strides in AI/ML, and we're excited to apply these advancements to support our customers",
+      "speaker": "Greg Forrest",
+      "speakerTitle": "Director of AI Foundations",
+      "date": "2024-12-16",
+      "context": "Launch of Astris AI subsidiary",
+      "sourceId": "lockheed-martin-astris-ai-launch-2024"
+    },
+    {
+      "text": "I look at DOGE as an opportunity because as far back as 2021, I've been advocating for a systemic change in the way that the defense enterprise operates, and that's meaning Congress, executive branch, Pentagon, aerospace and defense industry, commercial tech startups",
+      "speaker": "Jim Taiclet",
+      "speakerTitle": "Chairman, President and CEO",
+      "date": "2025-01",
+      "context": "Interview on government efficiency reform and defense industry transformation",
+      "sourceId": "lockheed-martin-washington-tech-2025"
+    },
+    {
+      "text": "With a record $194 billion backlog, 6% year-over-year sales growth, and free cash flow generation above our prior expectation, 2025 marked a year of unprecedented demand for Lockheed Martin capabilities",
+      "speaker": "Jim Taiclet",
+      "speakerTitle": "Chairman, President and CEO",
+      "date": "2026-01-29",
+      "context": "Fourth quarter and full-year 2025 earnings announcement",
+      "sourceId": "lockheed-martin-q4-2025-earnings"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "Mature Hub-and-Spoke with Commercial Spinout",
+      "summary": "LAIC established 2021 as central hub; AI Factory serves 7,000 engineers; $5B CapEx/IR&D planned for 2026; Craig Martell (former DoD CDAO) appointed CTO June 2025; Astris AI subsidiary launched December 2024 to commercialize AI Factory capabilities.",
+      "sourceRefs": [
+        "lockheed-martin-dataiq-baylor-2024",
+        "lockheed-martin-nvidia-case-study-2024",
+        "lockheed-martin-astris-ai-launch-2024",
+        "lockheed-martin-cto-appointment-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "lockheed-martin-dataiq-baylor-2024",
+      "name": "DataIQ - Mike Baylor CDAIO Profile",
+      "type": "Press",
+      "url": "https://www.dataiq.global/dataiq100/mike-baylor-chief-digital-and-artificial-intelligence-officer-lockheed-martin/",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "lockheed-martin-nvidia-case-study-2024",
+      "name": "NVIDIA Case Study - AI Factory with DGX SuperPOD",
+      "type": "Report",
+      "url": "https://www.nvidia.com/en-us/case-studies/lockheed-martin-ai-factory-with-dgx-superpod/",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "lockheed-martin-astris-ai-launch-2024",
+      "name": "Lockheed Martin Newsroom - Astris AI Launch",
+      "type": "Blog",
+      "url": "https://news.lockheedmartin.com/Lockheed-Martin-Launches-Astris-AI-to-Enable-Secure-AI-Solutions-Across-Industries",
+      "sourceDate": "2024-12-16",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "lockheed-martin-csis-interview-2023",
+      "name": "CSIS - Twenty-First Century Warfare Conversation with Jim Taiclet",
+      "type": "Interview",
+      "url": "https://www.csis.org/analysis/twenty-first-century-warfare-conversation-jim-taiclet",
+      "sourceDate": "2023",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "lockheed-martin-capabilities-page-2024",
+      "name": "Lockheed Martin - AI and Machine Learning Capabilities",
+      "type": "Blog",
+      "url": "https://www.lockheedmartin.com/en-us/capabilities/artificial-intelligence-machine-learning.html",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "lockheed-martin-q4-2025-earnings",
+      "name": "Q4 2025 Earnings Transcript - Motley Fool",
+      "type": "Earnings Call",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/01/29/lockheed-martin-lmt-q4-2025-earnings-transcript/",
+      "sourceDate": "2026-01-29",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "lockheed-martin-cto-appointment-2025",
+      "name": "Lockheed Martin Newsroom - New CTO Appointment",
+      "type": "Blog",
+      "url": "https://news.lockheedmartin.com/2025-06-16-lockheed-martin-appoints-new-chief-technology-officer",
+      "sourceDate": "2025-06-16",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "lockheed-martin-washington-tech-2025",
+      "name": "Washington Technology - Taiclet on Efficiency",
+      "type": "Interview",
+      "url": "https://www.washingtontechnology.com/companies/2025/01/lockheeds-ceo-efficiency-push-opportunity-both-industry-and-customer/402556/",
+      "sourceDate": "2025-01",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "lockheed-martin-fox-missile-2026",
+      "name": "Fox Business - Missile Investment",
+      "type": "Interview",
+      "url": "https://www.foxbusiness.com/media/lockheed-martin-ceo-company-pouring-billion-missile-output-after-trump-defense-push",
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "lockheed-martin-linkedin-nvidia-2024",
+      "name": "LinkedIn / NVIDIA partnership announcement",
+      "type": "Press",
+      "url": "https://www.linkedin.com/in/james-taiclet/",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-08"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.7,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": -0.4,
+    "namedVsQuiet": -0.6,
+    "longVsShortHorizon": -0.5
+  },
+  "openQuestions": [
+    "How does AI work flow between classified and unclassified environments? The AI Factory handles both, but the governance mechanisms are unclear.",
+    "What is the precise reporting relationship between CDAIO Baylor and CEO Taiclet? Is Baylor C-suite or VP level?",
+    "How does the new CTO Craig Martell's role interact with CDAIO Baylor's? Is there a division between AI/digital (Baylor) and broader tech (Martell)?",
+    "What specific AI capabilities are deployed in programs like F-35, Aegis, or missile defense? Details are classified.",
+    "What is the budget breakdown between AI Factory infrastructure, AI research, and AI product integration?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Lockheed Martin presents a textbook M4 hub-and-spoke with an interesting secondary M5c pattern. The Astris AI spinout (December 2024) commercializes internal AI Factory capabilities—a direct example of Mechanism 10 (Productize Internal Operational Advantages). This dual structure (M4 primary, M5c secondary) may be common in regulated industries where internal capability building precedes external productization.",
+    "[2026-02] The defense sector's unique regulatory environment creates a 'compliance-as-moat' dynamic (Mechanism 8). Taiclet explicitly frames 'trustworthy AI for mission assurance' as a competitive discriminator. This suggests regulated industries may develop different AI structural patterns than tech-native firms—compliance requirements shape the hub's governance role more heavily.",
+    "[2026-02] The Craig Martell appointment (former DoD CDAO) alongside existing CDAIO Mike Baylor creates an interesting dual-executive structure: CTO for technology innovation, CDAIO for AI strategy/capability, CIO for operational integration. This three-way split is unusual and worth tracking—it may indicate defense-sector-specific complexity in AI governance."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

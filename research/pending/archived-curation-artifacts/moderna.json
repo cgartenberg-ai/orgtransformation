@@ -1,0 +1,50 @@
+{
+  "company": "Moderna",
+  "ticker": "MRNA",
+  "sector": "Pharmaceuticals",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 2,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 6,
+    "suggestedModelName": "Unnamed/Informal",
+    "suggestedOrientation": "Contextual",
+    "confidence": "Medium",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "Tracey Franklin's role expanded from CHRO to Chief People and Digital Technology Officer, signaling organizational importance of digital/AI but details came from a JP Morgan conference presentation, n",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "driving productivity, including by the use of more digital tools, including a large number of GPTs.",
+      "speaker": "Stephane Bancel",
+      "speakerTitle": "CEO",
+      "source": "pharma-earnings-q4-2025.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2025/12/11/moderna-mrna-q3-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Q3 2025 earnings call, discussing cost reduction levers"
+    }
+  ],
+  "sources": [
+    {
+      "name": "GPT tools referenced for productivity but no structural AI discussion",
+      "url": "https://www.fool.com/earnings/call-transcripts/2025/12/11/moderna-mrna-q3-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2025-12-11",
+      "notes": "GPT tools referenced for productivity but no structural AI discussion"
+    },
+    {
+      "name": "Chief People and Digital Technology Officer role created",
+      "url": "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/moderna-provides-business-and-pipeline-updates-at-44th-annual-j.p.-mo-1125969",
+      "type": "Press",
+      "date": "2026-01-13",
+      "notes": "Chief People and Digital Technology Officer role created"
+    }
+  ],
+  "summary": "GPT tools referenced for productivity but no structural AI discussion: In Q3 2025 earnings (latest available; Q4 2025 reports Feb 13, 2026), CEO Bancel mentioned 'driving productivity, including by the use of more digital tools, including a large number of GPTs' but prov Chief People and Digital Technology Officer role created: Tracey Franklin's role expanded from CHRO to Chief People and Digital Technology Officer, signaling organizational importance of digital/AI but details came from a JP Morgan conference presentation, n Aggressive cost reduction: $2B annual opex reduction: Moderna reduced annual operating expenses by approximately $2 billion, exceeding commitments. The GPT reference suggests AI tools contribute to this cost reduction, but no explicit quantification of A",
+  "openQuestions": [],
+  "splitFrom": "pharma-earnings-q4-2025.json"
+}

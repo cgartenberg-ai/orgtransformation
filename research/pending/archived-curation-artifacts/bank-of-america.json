@@ -1,0 +1,66 @@
+{
+  "company": "Bank of America",
+  "ticker": "BAC",
+  "sector": "Financial Services",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 3,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 6,
+    "suggestedModelName": "Unnamed/Informal",
+    "suggestedOrientation": "Contextual",
+    "confidence": "High",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "You should note the impact of Zelle and the continued user growth, and also the impact of Erica, our AI agent.",
+      "speaker": "Brian Moynihan",
+      "speakerTitle": "CEO",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://www.pymnts.com/earnings/2026/erica-ai-and-digital-drive-operating-leverage-at-bank-of-america",
+      "sourceDate": "",
+      "context": "Q4 2025 earnings call \u2014 notable for explicitly calling Erica an 'AI agent' (agentic framing)"
+    },
+    {
+      "text": "We saw productivity improvements through AI and digitalization more generally, and those enabled us to add client-facing associates as we eliminated work and roles.",
+      "speaker": "Alastair Borthwick",
+      "speakerTitle": "CFO",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://www.pymnts.com/earnings/2026/erica-ai-and-digital-drive-operating-leverage-at-bank-of-america",
+      "sourceDate": "",
+      "context": "Explaining how AI-driven productivity allows redeployment to client-facing roles while keeping headcount flat"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Erica evolved from chatbot to agentic AI financial coach",
+      "url": "https://www.pymnts.com/earnings/2026/erica-ai-and-digital-drive-operating-leverage-at-bank-of-america",
+      "type": "Earnings Call",
+      "date": "2026-01-14",
+      "notes": "Erica evolved from chatbot to agentic AI financial coach"
+    },
+    {
+      "name": "$14B technology budget with $4.5B allocated to AI",
+      "url": "https://startupnews.fyi/2026/01/25/bank-of-america-ceo-says-ai-spending-will-drive-returns-in-2026-bullish-on-india-growth/",
+      "type": "Press",
+      "date": "2026-01-25",
+      "notes": "$14B technology budget with $4.5B allocated to AI"
+    },
+    {
+      "name": "Agentic AI expected to lower efficiency ratio 100-200bps over 24 months",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-1-16-bank-of-america-bac-a-deep-dive-into-the-fortress-of-responsible-growth",
+      "type": "Press",
+      "date": "2026-01-16",
+      "notes": "Agentic AI expected to lower efficiency ratio 100-200bps over 24 months"
+    }
+  ],
+  "summary": "Erica evolved from chatbot to agentic AI financial coach: Erica has 20.6M users (up from 19.7M YoY), logging 169M interactions in Q4 2025. Evolved from simple chatbot to proactive financial coach using predictive analytics to help customers avoid overdrafts  $14B technology budget with $4.5B allocated to AI: Moynihan outlined BofA's $14 billion technology budget, with roughly $4.5 billion specifically allocated to AI initiatives. This $4.5B AI allocation is the largest disclosed AI-specific budget among t AI enables flat headcount with redeployment to client-facing roles: CFO Alastair Borthwick: 'We saw productivity improvements through AI and digitalization more generally, and those enabled us to add client-facing associates as we eliminated work and roles.' Bank main Agentic AI expected to lower efficiency ratio 100-200bps over 24 months: Management expects agentic AI to lower the bank's efficiency ratio by 100-200 basis points over the next 24 months through automated back-office operations. This is a concrete, quantified efficiency t",
+  "openQuestions": [],
+  "splitFrom": "financial-services-earnings-q4-2025.json"
+}

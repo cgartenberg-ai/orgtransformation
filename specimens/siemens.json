@@ -47,25 +47,97 @@
       "label": "Curation Review",
       "summary": "Validated Model 4 classification. Fixed industry from Industrial to Industrial Technology. Added Mechanism #9 (Hire from Consumer Tech — Philomin from AWS). Removed spurious 'blueprint' quote fragment. Added habitat, observable markers, classification rationale.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Siemens CEO and NVIDIA CEO present AI as 'operating system for the industrial sector' at CES 2026. Vasi Philomin (ex-AWS) hired as EVP and Head of Data & AI.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     }
   ],
   "sources": [
-    {"id": "source-1", "type": "Press Release", "name": "Siemens Press", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-2", "type": "Press", "name": "Engineering.com", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-3", "type": "Press", "name": "Fortune", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-4", "type": "Press", "name": "CIO Magazine", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+    {
+      "id": "source-1",
+      "type": "Press Release",
+      "name": "Siemens Press",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Engineering.com",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Fortune",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "CIO Magazine",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL — legacy conversion]"
+    }
   ],
-  "contingencies": {"regulatoryIntensity": "Medium", "timeToObsolescence": "Slow", "ceoTenure": "Medium", "talentMarketPosition": "Talent-constrained", "technicalDebt": "High"},
-  "tensionPositions": {"structuralVsContextual": -0.4, "speedVsDepth": -0.3, "centralVsDistributed": -0.3, "namedVsQuiet": -0.5, "longVsShortHorizon": -0.4},
-  "openQuestions": ["How does Philomin's Data & AI function interact with Siemens' business divisions?", "What is the Erlangen AI factory's current deployment status?", "How does Siemens' proprietary industrial data advantage translate to AI model performance?"],
-  "taxonomyFeedback": ["Siemens represents the industrial sector's hub-and-spoke pattern well. The 'AI as industrial OS' framing positions AI as infrastructure rather than a separate function.", "The Philomin hire (AWS → Siemens) is a clear example of Mechanism #9 and demonstrates the consumer-to-industrial tech talent pipeline."],
-  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/siemens.json"}
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "High"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.4,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.5,
+    "longVsShortHorizon": -0.4
+  },
+  "openQuestions": [
+    "How does Philomin's Data & AI function interact with Siemens' business divisions?",
+    "What is the Erlangen AI factory's current deployment status?",
+    "How does Siemens' proprietary industrial data advantage translate to AI model performance?"
+  ],
+  "taxonomyFeedback": [
+    "Siemens represents the industrial sector's hub-and-spoke pattern well. The 'AI as industrial OS' framing positions AI as infrastructure rather than a separate function.",
+    "The Philomin hire (AWS → Siemens) is a clear example of Mechanism #9 and demonstrates the consumer-to-industrial tech talent pipeline.",
+    "[2026-02-12 M4 Audit] M4 classification under review (Audit 2026-02-12). Xcelerator platform + Industrial Copilot under EVP Head of Data & AI could be genuine M4 or M2+M5. Needs enrichment to determine coordination depth between central AI and industrial BUs."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-02-12",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/siemens.json"
+  }
 }

@@ -1,0 +1,236 @@
+{
+  "company": "Morgan Stanley",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 9,
+  "urlsFetched": 12,
+  "fetchFailures": [
+    "https://openai.com/index/morgan-stanley/ (403 - blocked)",
+    "https://www.efinancialcareers.com/news/morgan-stanley-s-2026-md-list-ai-experts-ex-hedge-fund-traders (403)",
+    "https://eightfold.ai/blog/morgan-stanley-adopting-scaling-ai/ (404 - dead link)",
+    "https://cw39.com/business/press-releases/ein-presswire/874537348/beyond-the-code-morgan-stanleys-human-first-approach-to-ai-governance-ft-jeff-mcmillan-on-the-regulatingai-podcast/ (403)",
+    "https://bankautomationnews.com/allposts/ai/5-questions-with-morgan-stanley-head-of-ai-jeff-mcmillan/ (403)",
+    "https://www.cnbc.com/2024/03/14/morgan-stanley-names-head-of-artificial-intelligence-jeff-mcmillan.html (JS-rendered, no article content)",
+    "https://www.bankingdive.com/news/morgan-stanley-ceo-ted-pick-ai-banking-investment-wealth-dan-simkowitz/718571/ (JS-rendered)",
+    "https://www.insidermonkey.com/blog/morgan-stanley-nysems-q4-2025-earnings-call-transcript-1675960/ (JS-rendered)"
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "With each passing quarter, our confidence continues to increase in the potential for both the efficiency and the effectiveness of AI-related technologies.",
+      "speaker": "Ted Pick",
+      "speakerTitle": "Chairman and CEO",
+      "source": "https://www.fool.com/earnings/call-transcripts/2026/01/15/morgan-stanley-ms-q4-2025-earnings-transcript/",
+      "sourceUrl": "",
+      "sourceDate": "",
+      "context": "Q4 2025 earnings call, January 15, 2026"
+    },
+    {
+      "text": "It will be like having our Chief Investment Strategist, Chief Global Economist, and Global Equities Strategist on call for every Financial Advisor 24/7.",
+      "speaker": "Jeff McMillan",
+      "speakerTitle": "Head of Firmwide AI (then titled Head of Analytics, Data & Innovation)",
+      "source": "https://www.morganstanley.com/press-releases/key-milestone-in-innovation-journey-with-openai",
+      "sourceUrl": "",
+      "sourceDate": "",
+      "context": "March 2023 OpenAI partnership announcement"
+    },
+    {
+      "text": "We aim to leverage OpenAI's breakthrough technology into a competitive advantage in how our Financial Advisors can harness Morgan Stanley's knowledge.",
+      "speaker": "Andy Saperstein",
+      "speakerTitle": "Co-President and Head of Wealth Management",
+      "source": "https://www.morganstanley.com/press-releases/key-milestone-in-innovation-journey-with-openai",
+      "sourceUrl": "",
+      "sourceDate": "",
+      "context": "March 2023 OpenAI partnership announcement"
+    },
+    {
+      "text": "Everything more seamless by using just a command prompt. Or ultimately, you'll be able to use just your voice.",
+      "speaker": "Jed Finn",
+      "speakerTitle": "Head of Wealth Management",
+      "source": "https://www.financial-planning.com/news/morgan-stanley-gives-ai-even-bigger-role-with-new-appointment",
+      "sourceUrl": "",
+      "sourceDate": "",
+      "context": "Describing vision for AI-powered advisor workflow"
+    },
+    {
+      "text": "Seemingly overnight, every firm has become an agentic one. Much of that is aspirational. We've already built several true agents that are able to plan and act and reason on their own and execute tasks multi-threaded, with humans still in the loop.",
+      "speaker": "Jeff McMillan",
+      "speakerTitle": "Head of Firmwide AI",
+      "source": "https://www.morganstanley.com/insights/topics/artificial-intelligence",
+      "sourceUrl": "",
+      "sourceDate": "",
+      "context": "Early 2026 comments on agentic AI trends"
+    },
+    {
+      "text": "AI serving as a vital efficiency-enhancing layer that connects our colleagues to a range of essential applications including execution systems, customer relationship management tools, and risk analysis platforms.",
+      "speaker": "Jeff McMillan",
+      "speakerTitle": "Head of Firmwide AI",
+      "source": "https://www.morganstanley.com/insights/topics/artificial-intelligence",
+      "sourceUrl": "",
+      "sourceDate": "",
+      "context": "Describing AI's role in firm operations, early 2026"
+    },
+    {
+      "text": "An enormous flywheel of activity.",
+      "speaker": "Ted Pick",
+      "speakerTitle": "Chairman and CEO",
+      "source": "https://www.bankingdive.com/news/morgan-stanley-ceo-ted-pick-ai-banking-investment-wealth-dan-simkowitz/718571/",
+      "sourceUrl": "",
+      "sourceDate": "",
+      "context": "Describing AI-driven investment banking deal flow opportunity"
+    }
+  ],
+  "sources": [
+    {
+      "name": "",
+      "url": "https://www.morganstanley.com/about-us/technology/artificial-intelligence-firmwide-team",
+      "type": "corporate-website",
+      "date": null,
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.cnbc.com/2024/03/14/morgan-stanley-names-head-of-artificial-intelligence-jeff-mcmillan.html",
+      "type": "Press",
+      "date": "2024-03-14",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.bankingdive.com/news/morgan-stanley-jeff-mcmillan-head-firmwide-ai-generative-saperstein-simkowitz-huberty-pizzi/710451/",
+      "type": "Press",
+      "date": "2024-03-15",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.financial-planning.com/news/morgan-stanley-gives-ai-even-bigger-role-with-new-appointment",
+      "type": "Press",
+      "date": "2024-03-14",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.morganstanley.com/press-releases/key-milestone-in-innovation-journey-with-openai",
+      "type": "press-release",
+      "date": "2023-03-14",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://siliconvalley.um.dk/insights/engaging-in-the-evolution-of-generative-ai-morgan-stanleys-partnership-with-openai",
+      "type": "analysis",
+      "date": null,
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.morganstanley.com/press-releases/ai-at-morgan-stanley-debrief-launch",
+      "type": "press-release",
+      "date": "2024-06-01",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.morganstanley.com/press-releases/morgan-stanley-research-announces-askresearchgpt",
+      "type": "press-release",
+      "date": "2024-10-23",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/01/15/morgan-stanley-ms-q4-2025-earnings-transcript/",
+      "type": "earnings-transcript",
+      "date": "2026-01-15",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://ctomagazine.com/ai-in-morgan-stanley-shaping-the-future-of-financial-services/",
+      "type": "Press",
+      "date": null,
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://reruption.com/en/knowledge/industry-cases/morgan-stanleys-ai-debrief-98-advisor-adoption-boost",
+      "type": "analysis",
+      "date": null,
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.cdomagazine.tech/aiml/98-of-morgan-stanley-wealth-management-advisors-use-its-ai-chatbot-with-improved-productivity-cao-explains-how",
+      "type": "Press",
+      "date": null,
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.entrepreneur.com/business-news/morgan-stanley-plans-to-cut-2000-workers-partly-due-to-ai/488752",
+      "type": "Press",
+      "date": "2025-03-01",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.eurasiareview.com/29012026-wall-streets-maverick-ted-picks-unconventional-approach-analysis/",
+      "type": "analysis",
+      "date": "2026-01-29",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.investmentnews.com/fintech/morgan-stanley-rolls-out-ai-tools-throughout-its-wealth-management-division/261418",
+      "type": "Press",
+      "date": "2025-07-01",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.marketscreener.com/quote/stock/MORGAN-STANLEY-13654/news/Morgan-Stanley-CEO-says-AI-could-save-financial-advisers-10-to-15-hours-a-week-46941427/",
+      "type": "Press",
+      "date": "2024-06-10",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://www.efinancialcareers.com/news/morgan-stanley-s-2026-md-list-ai-experts-ex-hedge-fund-traders",
+      "type": "Press",
+      "date": "2026-01-01",
+      "notes": ""
+    },
+    {
+      "name": "",
+      "url": "https://fortune.com/2025/12/04/morgan-stanley-significant-risk-transfer-loans-data-center-ai-infrastructure-exposure/",
+      "type": "Press",
+      "date": "2025-12-04",
+      "notes": ""
+    }
+  ],
+  "summary": "Firmwide AI Head role created \u2014 reports to co-presidents AI Steering Group co-chaired by AI Head and Research Head Distributed AI leadership across business lines with named domain heads 2026 MD promotions reveal deep AI organizational embedding",
+  "openQuestions": [
+    "What is the total size of the Firmwide AI team? No headcount has been disclosed.",
+    "What is Morgan Stanley's annual technology/AI spend? No dollar figures have been made public for internal AI investment.",
+    "How does the AI Steering Group actually make decisions? Formal governance process is described but detailed decision-making mechanics are opaque.",
+    "What happened to McMillan's old Chief Analytics and Data Officer role? Was it filled or folded into the AI head role?",
+    "What is the specific relationship between McMillan's firmwide team and division-specific AI leads like Koren Maranca? Dotted line? Hard line?",
+    "Does Dan Simkowitz (now CEO of Institutional Securities, formerly co-president) still co-supervise McMillan after the Jan 2024 leadership transition?",
+    "What specific roles were eliminated by AI in the March 2025 layoffs? Only known: dual document-checking teams replaced with one human + one AI team.",
+    "What is the scope of Morgan Stanley's data center lending exposure that they considered SRT offloading?",
+    "How does the eval framework governance committee relate to the AI Steering Group? Same body or separate?",
+    "What is the status of the Machine Learning Research team that publishes academic papers? Size, mandate, relationship to the firmwide AI team?"
+  ],
+  "splitFrom": "morgan-stanley-deep-scan.json"
+}

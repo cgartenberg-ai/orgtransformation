@@ -2,41 +2,36 @@
   "id": "wells-fargo",
   "name": "Wells Fargo",
   "title": "Business Leader as AI Chief — Dual-Role Hub",
-
   "classification": {
-    "structuralModel": 4,
-    "structuralModelName": "Hybrid/Hub-and-Spoke",
-    "subType": null,
-    "subTypeName": null,
-    "secondaryModel": null,
-    "secondaryModelName": null,
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
+    "secondaryModel": 6,
+    "secondaryModelName": "Unnamed/Informal",
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Medium",
-    "classificationRationale": "Business leader (Saul Van Beurden, co-CEO Consumer Banking) named Head of AI, with tech exec (Faraz Shafiq from AWS) as Head of AI Products underneath. Dual-role structure bridges business and technology. Hub (AI leadership) with spokes (business units). Distinct pattern: business-leader-as-AI-chief rather than technologist-as-AI-chief.",
+    "classificationRationale": "M4→M2+M6a (Audit 2026-02-12). Head of AI (Van Beurden) + Head of AI Products (Shafiq) form a CoE-style governance structure (M2). 180K desktops equipped with AI tools and 90K employees trained represents enterprise-wide adoption (M6a). No evidence of semi-autonomous business units building domain-specific AI on shared hub infrastructure. The pharma-hub-divergence insight confirms: finance 'hubs' that serve deployment/governance are CoEs, not true hub-and-spoke.",
     "typeSpecimen": false
   },
-
   "habitat": {
     "industry": "Financial Services",
     "sector": "Consumer Banking",
     "orgSize": "Enterprise",
-    "employees": null,
+    "employees": 205000,
     "revenue": null,
     "headquarters": "San Francisco, CA",
     "geography": "North America"
   },
-
-  "description": "Wells Fargo named Saul Van Beurden as Head of AI (Nov 2025). Van Beurden was previously CEO of Consumer and Small Business Banking — a business leader, not a consumer technologist. He continues in a dual role as co-CEO of Consumer Banking. Background: joined WF in 2019 as head of technology, previously CIO at JPMorgan Chase. Wells Fargo also hired Faraz Shafiq from AWS as Head of AI Products (Feb 2026). The bank has trained 90,000 employees and deployed AI tools to 180,000 desktops. CEO Charlie Scharf has framed AI as a competitive imperative across all industries.",
-
+  "description": "Wells Fargo named Saul Van Beurden as Head of AI (Nov 2025). Van Beurden was previously CEO of Consumer and Small Business Banking — a business leader, not a consumer technologist. He continues in a dual role as co-CEO of Consumer Banking. Background: joined WF in 2019 as head of technology, previously CIO at JPMorgan Chase. Wells Fargo also hired Faraz Shafiq from AWS as Head of AI Products (Feb 2026). The bank has trained 90,000 employees and deployed AI tools to 180,000 desktops. CEO Charlie Scharf has framed AI as a competitive imperative across all industries. In late 2025, Wells Fargo partnered with Google Cloud on agentic AI via Google Agentspace, deploying Deep Research and NotebookLM to ~2,000 employees. Tracy Kerrins serves as Head of Consumer Technology and Generative AI, overseeing a dual-track platform strategy. The bank has set a 30-35% automation target for engineering and admin tasks as part of restructuring.",
   "observableMarkers": {
-    "reportingStructure": "Head of AI (Van Beurden) holds dual role as co-CEO of Consumer Banking. Head of AI Products (Shafiq) reports into AI organization. Business leader atop AI function, tech exec underneath.",
-    "resourceAllocation": "90,000 employees trained on AI; 180,000 desktops equipped with AI tools.",
+    "reportingStructure": "Head of AI (Van Beurden) holds dual role as co-CEO of Consumer Banking. Head of AI Products (Shafiq) reports into AI organization. Tracy Kerrins serves as Head of Consumer Technology and Generative AI. Business leader atop AI function, tech exec underneath.",
+    "resourceAllocation": "90,000 employees trained on AI; 180,000 desktops equipped with AI tools. Google Agentspace deployed to ~2,000 employees (Deep Research, NotebookLM). $612M severance charge in Q4 2025.",
     "timeHorizons": null,
     "decisionRights": null,
-    "metrics": null
+    "metrics": "30-35% automation target for engineering and administrative tasks. Headcount declined 6% to 205,000 by year-end 2025."
   },
-
   "mechanisms": [
     {
       "id": 9,
@@ -47,11 +42,10 @@
     {
       "id": 7,
       "name": "Mass Deployment / Saturation",
-      "evidence": "90,000 employees trained on AI; 180,000 desktops with AI tools deployed across the enterprise.",
+      "evidence": "90,000 employees trained on AI; 180,000 desktops with AI tools deployed across the enterprise. Google Agentspace deployed to ~2,000 employees with plans to expand.",
       "strength": "Strong"
     }
   ],
-
   "quotes": [
     {
       "text": "Generative and agentic AI will reshape competitive dynamics across every industry, and we are embracing these tools as we have embraced robotic process automation and machine learning for years.",
@@ -61,26 +55,69 @@
       "sourceUrl": null,
       "timestamp": null,
       "date": "2025-11"
+    },
+    {
+      "text": "We've broken our strategy into a couple key focus areas. We've had a developer platform that we've been working on... The portion we're partnering with Google on is the employee capability.",
+      "speaker": "Tracy Kerrins",
+      "speakerTitle": "Head of Consumer Technology and Generative AI",
+      "source": "American Banker",
+      "sourceUrl": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows",
+      "timestamp": null,
+      "date": "2025-12"
+    },
+    {
+      "text": "It's not just about the fun and cool stuff... but making sure it is adoptable in financial services.",
+      "speaker": "Rohit Bhat",
+      "speakerTitle": "Google Cloud",
+      "source": "American Banker",
+      "sourceUrl": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows",
+      "timestamp": null,
+      "date": "2025-12"
     }
   ],
-
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke → M2 Center of Excellence + M6 Unnamed/Informal",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M2 CoE + M6a Enterprise-Wide Adoption. Central leadership governs and enables mass deployment, but no hub-spoke infrastructure coordination.",
+      "classification": "M4 Hybrid/Hub-and-Spoke",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Added Google Agentspace partnership details, Tracy Kerrins role as Head of Consumer Technology and Generative AI, 30-35% automation target, headcount data (205K employees), and dual-track platform strategy (developer tools vs. employee capabilities).",
+      "classification": null,
+      "sourceRefs": [
+        "american-banker-agentic-2025-12",
+        "banking-dive-2025-12",
+        "earnings-q4-2026-01"
+      ]
+    },
     {
       "date": "2025-11",
       "label": "Van Beurden Named Head of AI",
       "summary": "Wells Fargo names Saul Van Beurden (co-CEO Consumer Banking) as Head of AI. Kleber Santos expands responsibilities as co-CEO of Consumer Banking and Lending.",
       "classification": null,
-      "sourceRefs": ["wf-newsroom-2025-11", "cdo-magazine-2025-11", "american-banker-2025-11"]
+      "sourceRefs": [
+        "wf-newsroom-2025-11",
+        "cdo-magazine-2025-11",
+        "american-banker-2025-11"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Shafiq Hired as Head of AI Products",
       "summary": "Wells Fargo hires Faraz Shafiq from AWS as Head of AI Products, expanding AI leadership team under Van Beurden.",
       "classification": null,
-      "sourceRefs": ["yahoo-finance-2026-01", "bloomberg-2026-01"]
+      "sourceRefs": [
+        "yahoo-finance-2026-01",
+        "bloomberg-2026-01"
+      ]
     }
   ],
-
   "sources": [
     {
       "id": "wf-newsroom-2025-11",
@@ -131,17 +168,45 @@
       "sourceDate": "2026-01-26",
       "collectedDate": "2026-01-31",
       "notes": null
+    },
+    {
+      "id": "banking-dive-2025-12",
+      "type": "Press",
+      "name": "Banking Dive — Wells Fargo Van Beurden AI Kleber Santos",
+      "url": "https://www.bankingdive.com/news/wells-fargo-saul-van-beurden-ai-kleber-santos-expanded-responsibilities/806195/",
+      "timestamp": null,
+      "sourceDate": "2025-12-01",
+      "collectedDate": "2026-02-07",
+      "notes": "Senior executive redeployed from consumer banking CEO to lead AI scaling"
+    },
+    {
+      "id": "american-banker-agentic-2025-12",
+      "type": "Press",
+      "name": "American Banker — How Wells Fargo Is Building Agentic AI",
+      "url": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows",
+      "timestamp": null,
+      "sourceDate": "2025-12-01",
+      "collectedDate": "2026-02-07",
+      "notes": "Google Agentspace partnership for agentic AI platform; Tracy Kerrins quotes on dual-track strategy"
+    },
+    {
+      "id": "earnings-q4-2026-01",
+      "type": "Earnings Call",
+      "name": "Wells Fargo Q4 2025 Earnings — Automation Targets",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-1-20-wells-fargo-q4-2025-earnings-restructuring-costs-lead-to-eps-miss",
+      "timestamp": null,
+      "sourceDate": "2026-01-20",
+      "collectedDate": "2026-02-07",
+      "notes": "30-35% automation target for engineering and admin tasks; headcount declined 6% to 205,000"
     }
   ],
-
   "contingencies": {
     "regulatoryIntensity": "High",
-    "timeToObsolescence": null,
-    "ceoTenure": null,
-    "talentMarketPosition": null,
-    "technicalDebt": null
+    "timeToObsolescence": "Medium. Banking not threatened by AI but fintechs create competitive pressure. Scharf frames AI as reshaping every industry.",
+    "ceoTenure": "Medium. Charlie Scharf CEO since 2019 (~6 years). Post-scandal rebuilding mandate. Not a founder, not brand-new.",
+    "talentMarketPosition": "Low. Hired Shafiq from AWS externally. 90K trained but that's upskilling existing workforce, not attracting AI researchers.",
+    "technicalDebt": "High. Legacy banking systems. Google Agentspace deployed to only ~2K employees initially. Dual-track platform strategy suggests significant infrastructure challenges."
   },
-
   "tensionPositions": {
     "structuralVsContextual": -0.5,
     "speedVsDepth": null,
@@ -149,21 +214,22 @@
     "namedVsQuiet": -0.7,
     "longVsShortHorizon": null
   },
-
   "openQuestions": [
     "How does Van Beurden's dual role (co-CEO Consumer Banking + Head of AI) work in practice? Does the AI mandate get secondary attention?",
     "What is Shafiq's reporting relationship to Van Beurden vs. CTO?",
-    "How does the 90K training / 180K desktop deployment compare to JPMorgan's LLM Suite rollout?"
+    "How does the 90K training / 180K desktop deployment compare to JPMorgan's LLM Suite rollout?",
+    "What are the early results from the agentic AI use cases (vendor contract review, KYC review)?",
+    "How will the 30-35% automation target be measured and tracked?"
   ],
-
   "taxonomyFeedback": [
-    "Giving the consumer banking CEO the AI mandate (rather than CTO/CAIO) is a distinct pattern — business-leader-as-AI-chief rather than technologist-as-AI-chief. May warrant its own sub-type or marker."
+    "Giving the consumer banking CEO the AI mandate (rather than CTO/CAIO) is a distinct pattern — business-leader-as-AI-chief rather than technologist-as-AI-chief. May warrant its own sub-type or marker.",
+    "[2026-02] New data reveals a dual-track platform strategy: developer tools internally vs. employee-facing capabilities via Google partnership. Tracy Kerrins role as 'Head of Consumer Technology and Generative AI' suggests functional specialization within the AI organization. The 30-35% automation target is a rare quantified commitment — worth tracking as a marker of AI-driven restructuring ambition.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M2+M6. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — Central leadership governs and enables mass deployment, but no hub-spoke infrastructure coordination."
   ],
-
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-12",
     "completeness": "Medium",
     "convertedFrom": null
   }

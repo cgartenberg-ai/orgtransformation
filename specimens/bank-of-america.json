@@ -26,11 +26,11 @@
   },
   "description": "Rather than building a separate innovation lab, Bank of America treated enterprise AI deployment as a consumer product problem. The key insight was to extend Erica — their customer-facing virtual assistant launched in 2018 — internally as 'Erica for Employees' in 2020, leveraging existing brand recognition, user familiarity, and proven conversational patterns.\n\nThe pandemic timing was crucial: rapid adoption occurred when employees needed technology support for remote work. Starting with IT support, the system expanded to health benefits, payroll, and tax forms — each expansion building on proven interaction patterns. The approach drove adoption that most enterprise tools never achieve: over 90% of 213,000 employees actively use AI tools daily.\n\nThe result over 15 years has been structural transformation without a formal transformation program: headcount reduced from 300,000 to 212,000 while deposits doubled, producing $6 billion in expense savings. Developer efficiency increased 20% through coding assistants. IT service desk calls were reduced by more than 50%.",
   "observableMarkers": {
-    "reportingStructure": "No separate AI organization. AI tools embedded in existing functional structures.",
-    "resourceAllocation": "Investment through technology budget, not ring-fenced AI budget. Over 15 years of sustained technology investment.",
-    "timeHorizons": "Incremental expansion of consumer-proven interfaces. Quarterly feature additions building on established patterns.",
-    "decisionRights": "Technology leadership drives platform; adoption is expected across all roles.",
-    "metrics": "Over 90% of 213,000 employees use AI tools daily. IT service desk calls reduced 50%+. Developer efficiency up 20%. Headcount from 300K to 212K over 15 years. $6B expense savings."
+    "reportingStructure": "No separate AI organization. AI tools embedded in existing functional structures [bofa-newsroom].",
+    "resourceAllocation": "$14B technology budget with $4.5B specifically allocated to AI — the largest disclosed AI-specific budget among traditional banks [startupnews-ai-spending]. Investment through technology budget, not a separate ring-fenced AI organization [bofa-newsroom].",
+    "timeHorizons": "Incremental expansion of consumer-proven interfaces. Quarterly feature additions building on established patterns [bofa-newsroom]. Management expects agentic AI to lower efficiency ratio 100-200bps over next 24 months [finterra-agentic-ai].",
+    "decisionRights": "Technology leadership drives platform; adoption is expected across all roles [bofa-newsroom].",
+    "metrics": "Erica: 20.6M users (up from 19.7M YoY), 169M interactions in Q4 2025 [pymnts-q4-2025-earnings]. Over 90% of 213,000 employees use AI tools daily [bofa-newsroom]. IT service desk calls reduced 50%+ [cto-magazine]. Developer efficiency up 20% [cto-magazine]. Headcount from 300K to 212K over 15 years [bofa-newsroom]. $6B expense savings [bofa-newsroom]."
   },
   "mechanisms": [
     {
@@ -40,8 +40,41 @@
       "strength": "Strong"
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "You should note the impact of Zelle and the continued user growth, and also the impact of Erica, our AI agent.",
+      "speaker": "Brian Moynihan",
+      "speakerTitle": "CEO",
+      "source": "pymnts-q4-2025-earnings",
+      "context": "Q4 2025 earnings call — notable for explicitly calling Erica an 'AI agent' (agentic framing)"
+    },
+    {
+      "text": "We saw productivity improvements through AI and digitalization more generally, and those enabled us to add client-facing associates as we eliminated work and roles.",
+      "speaker": "Alastair Borthwick",
+      "speakerTitle": "CFO",
+      "source": "pymnts-q4-2025-earnings",
+      "context": "Explaining how AI-driven productivity allows redeployment to client-facing roles while keeping headcount flat"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Q4 2025 earnings data reveals massive AI investment: $4.5B of $14B tech budget allocated to AI. Erica now has 20.6M users with 169M Q4 interactions. CEO Moynihan explicitly calls Erica an 'AI agent' — agentic framing. CFO confirms AI enables headcount redeployment to client-facing roles. Management projects 100-200bps efficiency ratio improvement from agentic AI over 24 months.",
+      "classification": "Model 6a",
+      "sourceRefs": [
+        "pymnts-q4-2025-earnings",
+        "startupnews-ai-spending",
+        "finterra-agentic-ai"
+      ]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
@@ -100,6 +133,36 @@
       "sourceDate": null,
       "collectedDate": "2026-01-20",
       "notes": null
+    },
+    {
+      "id": "pymnts-q4-2025-earnings",
+      "type": "Earnings Call",
+      "name": "PYMNTS - Erica AI and Digital Drive Operating Leverage at Bank of America",
+      "url": "https://www.pymnts.com/earnings/2026/erica-ai-and-digital-drive-operating-leverage-at-bank-of-america",
+      "timestamp": null,
+      "sourceDate": "2026-01-14",
+      "collectedDate": "2026-02-07",
+      "notes": "Q4 2025 earnings coverage. Erica evolved from chatbot to agentic AI financial coach. 20.6M users, 169M interactions in Q4."
+    },
+    {
+      "id": "startupnews-ai-spending",
+      "type": "Press",
+      "name": "Startup News - Bank of America CEO Says AI Spending Will Drive Returns",
+      "url": "https://startupnews.fyi/2026/01/25/bank-of-america-ceo-says-ai-spending-will-drive-returns-in-2026-bullish-on-india-growth/",
+      "timestamp": null,
+      "sourceDate": "2026-01-25",
+      "collectedDate": "2026-02-07",
+      "notes": "$14B technology budget with $4.5B allocated to AI — largest disclosed AI-specific budget among traditional banks."
+    },
+    {
+      "id": "finterra-agentic-ai",
+      "type": "Press",
+      "name": "Finterra - Bank of America Deep Dive",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-1-16-bank-of-america-bac-a-deep-dive-into-the-fortress-of-responsible-growth",
+      "timestamp": null,
+      "sourceDate": "2026-01-16",
+      "collectedDate": "2026-02-07",
+      "notes": "Agentic AI expected to lower efficiency ratio 100-200bps over 24 months through automated back-office operations."
     }
   ],
   "contingencies": {
@@ -117,18 +180,19 @@
     "longVsShortHorizon": 0.2
   },
   "openQuestions": [
-    "What is BofA's total AI investment relative to technology budget?",
     "How is Erica's internal deployment governed — is there a central product team?",
-    "What does the developer coding assistant rollout look like in detail?"
+    "What does the developer coding assistant rollout look like in detail?",
+    "How is the $4.5B AI budget allocated across different initiatives (Erica vs. internal tools vs. coding assistants)?"
   ],
   "taxonomyFeedback": [
-    "BofA blurs the line between 6a (Enterprise-Wide Adoption) and a de facto Center of Excellence (Model 2). There may be an internal technology team functioning as a CoE without the label. Worth investigating whether 6a specimens typically have hidden CoE structures."
+    "BofA blurs the line between 6a (Enterprise-Wide Adoption) and a de facto Center of Excellence (Model 2). There may be an internal technology team functioning as a CoE without the label. Worth investigating whether 6a specimens typically have hidden CoE structures.",
+    "[2026-02] New earnings data strongly reinforces 6a classification. The $4.5B AI budget is substantial but channeled through existing technology organization, not a named AI unit. CEO's explicit 'AI agent' framing for Erica signals evolution toward agentic capabilities while maintaining contextual deployment pattern. The redeployment narrative (eliminating roles while adding client-facing associates) is a mature 6a outcome — AI enabling structural transformation without formal transformation program."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Medium",
+    "lastUpdated": "2026-02-12",
+    "completeness": "High",
     "convertedFrom": "library/cases/bank-of-america.json"
   }
 }

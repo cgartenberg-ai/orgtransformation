@@ -1,0 +1,268 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "fedex",
+  "name": "FedEx",
+  "title": "Central Dataworks Platform with Enterprise-Wide AI Literacy Push",
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
+    "secondaryModel": 6,
+    "secondaryModelName": "Unnamed/Informal",
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "M4→M2+M6a (Audit 2026-02-12). FedEx Dataworks is a central data/AI platform team that provides standards and capabilities (M2 CoE). The enterprise-wide AI education program (Accenture LearnVantage, Dec 2025) is a mass adoption push (M6a). The 'spokes' are training recipients, not semi-autonomous units building domain-specific AI on shared infrastructure. The contextual-via-education insight directly supports this: FedEx pursues contextual ambidexterity through education, not hub-spoke structural separation.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Logistics",
+    "sector": "Transportation & Logistics",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Memphis, Tennessee, USA",
+    "geography": "Global"
+  },
+  "description": "FedEx has built its AI capability around FedEx Dataworks, an internal data intelligence arm that serves as the central hub for data platform development, AI model training, and technology standards. The unit is led by the Chief Digital and Information Officer (CDIO), who reports directly to CEO Raj Subramaniam and oversees all data, technology, and cybersecurity functions. This consolidation under a single executive reflects FedEx's view that 'the fuel for AI is data'—the company processes 17 million packages daily, generating multiple petabytes of data that Subramaniam describes as 'valuable in its own right.'\n\nRather than creating separate AI teams within business units, FedEx is pursuing contextual ambidexterity through an enterprise-wide AI education program launched in December 2025 in partnership with Accenture's LearnVantage platform. The program provides role-based training, enabling employees across functions to apply AI within their existing work rather than siloing AI expertise. Current operational AI deployments include delivery time estimation and package routing, while longer-horizon bets like humanoid robotics remain in pilot stage—with Subramaniam candidly admitting these are 'not ready for prime time yet.'\n\nFedEx supplements its internal capabilities through the FedEx Innovation Lab, which makes strategic investments in startups (first investment: Mad Street Den for AI/computer vision), and academic partnerships including a $10 million commitment to IIT Bombay and IIT Madras for logistics research. This multi-pronged approach—centralized platform governance, distributed execution through contextual training, and external innovation sourcing—represents a mature hybrid model for a traditional logistics company navigating AI transformation.",
+  "observableMarkers": {
+    "reportingStructure": "CDIO (Vishal Talwar) reports directly to CEO (Raj Subramaniam). All Data and Technology and Dataworks senior leaders report to CDIO.",
+    "resourceAllocation": "FedEx Dataworks is a dedicated internal unit. CapEx includes AI-related hub modernization. External partnerships (Accenture, startup investments) supplement internal capabilities.",
+    "timeHorizons": "Mixed: Short-term operational AI (delivery time estimation, package routing) already deployed. Medium-term enterprise AI education rollout (2025-2026). Long-term R&D through academic partnerships (IIT) and humanoid robotics exploration (not yet 'prime time').",
+    "decisionRights": "Centralized platform and standards through Dataworks, but AI application decisions distributed to business functions. Enterprise-wide education suggests push for contextual ambidexterity.",
+    "metrics": "Recognized in Fortune AIQ 50 using ServiceNow's Enterprise AI Maturity Index. Internal metrics likely include delivery time estimate accuracy, package sorting accuracy (>99% with robotic systems), processing speed (1,300 parcels/hour per robot)."
+  },
+  "mechanisms": [
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "Enterprise-wide AI education program with Accenture LearnVantage platform provides role-based training accessible to all employees, suggesting investment in making AI tools usable across the organization.",
+      "strength": "Emerging"
+    },
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Enterprise-wide AI literacy program launched December 2025 represents a mass deployment of AI capability building before knowing exactly how each role will apply it. CEO Subramaniam: 'We can now say with more and more precision when that package is going to arrive' suggests iterative learning at scale.",
+      "strength": "Moderate"
+    },
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "evidence": "CEO Subramaniam frequently discusses AI capabilities in specific technical terms ('petabytes of data', ML models, 'super humanoid robots'), suggests hands-on engagement with the technology. CDIO reports directly to CEO, keeping AI in executive view.",
+      "strength": "Emerging"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "The future of business is being shaped by data and AI more than ever before.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "context": "Announcing enterprise-wide AI education and literacy program",
+      "sourceId": "fedex-ai-education-2025"
+    },
+    {
+      "text": "We move 17 million packages per day through the global system. That generates multiple petabytes of data. We realised that the data is valuable in its own right.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "context": "Discussing data strategy and AI in interview with NYT",
+      "sourceId": "fedex-nyt-interview-2025"
+    },
+    {
+      "text": "The fuel for AI is data. If you don't have your data appropriately organised, then there are limits of what you can do with it. We're using AI to make supply chains smarter for everyone. We can now say with more and more precision when that package is going to arrive.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "context": "Discussing AI for supply chain optimization",
+      "sourceId": "fedex-nyt-interview-2025"
+    },
+    {
+      "text": "Truck unloading and truck loading are a very difficult problem for robotics to solve - packages come in every size, shape and weight. We're not looking for humanoid robots - we're looking for super humanoid robots, because maybe they need to have a couple of elbows. More degrees of freedom.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "context": "Discussing need for advanced robotics in logistics",
+      "sourceId": "fedex-nyt-interview-2025"
+    },
+    {
+      "text": "It is not ready for prime time yet.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "context": "On current state of humanoid robotics - still in pilot stage",
+      "sourceId": "fedex-nyt-interview-2025"
+    },
+    {
+      "text": "Vishal has a proven track record in accelerating business growth through forward-thinking strategies and transformative digital solutions.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "context": "Announcing new Chief Digital and Information Officer",
+      "sourceId": "fedex-talwar-appointment-2025"
+    },
+    {
+      "text": "I am honored to join FedEx during such a transformative period as the company leverages the power of technology, data, and AI to make supply chains smarter for everyone.",
+      "speaker": "Vishal Talwar",
+      "speakerTitle": "EVP, Chief Digital and Information Officer, President of FedEx Dataworks",
+      "context": "Upon joining FedEx",
+      "sourceId": "fedex-talwar-appointment-2025"
+    },
+    {
+      "text": "Innovation is embedded in our business strategy...We are committed to using advanced technology and data-driven insights to create smarter supply chains.",
+      "speaker": "Kawal Preet",
+      "speakerTitle": "President, FedEx Express (AMEA)",
+      "context": "Launching FedEx Innovation Lab",
+      "sourceId": "fedex-innovation-lab-2023"
+    },
+    {
+      "text": "India is at the core of innovation strategies for global technology leaders...There is much mutual benefit that can be gained as well as a tremendous opportunity to help transform the global logistics industry.",
+      "speaker": "Kami Viswanathan",
+      "speakerTitle": "SVP, FedEx Express (Middle East, Indian Subcontinent, Africa)",
+      "context": "Discussing India innovation partnerships",
+      "sourceId": "fedex-innovation-lab-2023"
+    },
+    {
+      "text": "We need to have data platforms that these models can run on so that we can create insights.",
+      "speaker": "Raj Subramaniam",
+      "speakerTitle": "President and CEO",
+      "context": "Discussing AI platform strategy at CNBC Evolve Summit",
+      "sourceId": "fedex-cnbc-evolve-2023"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke → M2 Center of Excellence + M6 Unnamed/Informal",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M2 CoE + M6a Enterprise-Wide. Dataworks provides central capabilities; AI education drives mass adoption.",
+      "classification": "M4 Hybrid/Hub-and-Spoke",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Initial specimen with hub-and-spoke AI structure",
+      "summary": "FedEx Dataworks serves as central AI/data platform under CDIO Vishal Talwar (hired August 2025). Enterprise-wide AI literacy program launched December 2025. CEO Subramaniam champions data monetization and 'smarter supply chains' while acknowledging humanoid robotics 'not ready for prime time.' Innovation Lab handles external startup investments.",
+      "sourceRefs": [
+        "fedex-ai-education-2025",
+        "fedex-talwar-appointment-2025",
+        "fedex-nyt-interview-2025",
+        "fedex-innovation-lab-2023"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "fedex-ai-education-2025",
+      "name": "FedEx Newsroom - AI Education Program",
+      "type": "Blog",
+      "url": "https://newsroom.fedex.com/newsroom/global-english/fedex-empowers-global-workforce-with-ai-education-and-literacy-program",
+      "sourceDate": "2025-12",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "fedex-talwar-appointment-2025",
+      "name": "FedEx Newsroom - Vishal Talwar Appointment",
+      "type": "Press Release",
+      "url": "https://newsroom.fedex.com/newsroom/global-english/fedex-appoints-vishal-talwar-as-executive-vice-president-chief-digital-and-information-officer-and-president-of-fedex-dataworks",
+      "sourceDate": "2025-08",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "fedex-innovation-lab-2023",
+      "name": "FedEx Newsroom - Innovation Lab Launch",
+      "type": "Press Release",
+      "url": "https://newsroom.fedex.com/fedex-launches-fedex-innovation-lab-to-fuel-digital-capabilities-for-whats-next",
+      "sourceDate": "2023-05",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "fedex-fortune-aiq-2025",
+      "name": "FedEx Newsroom - Fortune AIQ 50 Recognition",
+      "type": "Press Release",
+      "url": "https://newsroom.fedex.com/fedex-recognized-for-ai-excellence-in-fortune-aiq-50",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "fedex-nyt-interview-2025",
+      "name": "New York Times Interview (via Yahoo Finance)",
+      "type": "Interview",
+      "url": "https://finance.yahoo.com/news/not-ready-prime-time-yet-010121938.html",
+      "sourceDate": "2025-01-18",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "fedex-q1-fy26-earnings",
+      "name": "FedEx Q1 FY26 Earnings Call Transcript",
+      "type": "Earnings Call",
+      "url": "https://s21.q4cdn.com/665674268/files/doc_financials/2026/q1/FDX-Q1-FY26-Earnings-Call-Transcript.pdf",
+      "sourceDate": "2025-09-18",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "fedex-cnbc-evolve-2023",
+      "name": "CNBC Evolve Global Summit Transcript",
+      "type": "Conference",
+      "url": "https://www.cnbcevents.com/news/cnbc-transcript-fedex-ceo-raj-subramaniam-speaks-with-frank-holland-from-the-cnbc-evolve-global-summit/",
+      "sourceDate": "2023-11",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "fedex-iit-investment-2024",
+      "name": "FedEx Newsroom - IIT Investment",
+      "type": "Press Release",
+      "url": "https://newsroom.fedex.com/newsroom/amea/fedex-commits-usd10-million-to-iit-bombay-and-iit-madras",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "fedex-nrf-keynote-2024",
+      "name": "NRF 2024 Keynote Announcement",
+      "type": "Conference",
+      "url": "https://nrf.com/media-center/press-releases/nrf-announces-fedex-ceo-raj-subramaniam-keynote-speaker-retails-big",
+      "sourceDate": "2024-01",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "fedex-ciodive-talwar-2025",
+      "name": "CIO Dive - Talwar Appointment",
+      "type": "Press",
+      "url": "https://www.ciodive.com/news/fedex-chief-digital-information-officer-vishar-talwar/757619/",
+      "sourceDate": "2025-08",
+      "collectedDate": "2026-02-09"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Short",
+    "talentMarketPosition": "Non-traditional",
+    "technicalDebt": "High"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.6,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.2,
+    "longVsShortHorizon": 0.2
+  },
+  "openQuestions": [
+    "What is the headcount of FedEx Dataworks specifically?",
+    "What percentage of total R&D budget goes to AI initiatives?",
+    "How is the relationship structured between FedEx Dataworks and business unit AI applications?",
+    "What specific metrics does FedEx use to measure AI ROI internally?",
+    "Who reports to Vishal Talwar specifically (direct reports)?",
+    "What happened to Adam Smith (CTO from 2023) - still at FedEx?",
+    "What is the budget for the Accenture LearnVantage AI education partnership?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] FedEx represents a clean M4 Hybrid/Hub-and-Spoke with unusually explicit contextual orientation. The December 2025 enterprise-wide AI education program is a deliberate bet that AI capability should be distributed through training rather than organizational restructuring—individuals balance exploration and execution in their existing roles. This is rare to see stated so explicitly; most M4 specimens have structural spokes.",
+    "[2026-02] The 'FedEx Dataworks' naming is interesting—it's not called an 'AI Lab' or 'AI Center,' but a 'data intelligence arm.' This reflects Subramaniam's 'fuel for AI is data' philosophy and may explain why they avoided the M2 Center of Excellence trap: they frame it as platform/infrastructure rather than governance/standards, even though it performs both functions.",
+    "[2026-02] Subramaniam's candor about humanoid robotics being 'not ready for prime time' is structurally significant—it suggests temporal separation within the portfolio (operational AI now, frontier robotics later) while maintaining contextual integration for the mature AI tools. This could be an emerging pattern: contextual orientation for proven AI, temporal orientation for speculative bets.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M2+M6. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — Dataworks provides central capabilities; AI education drives mass adoption."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

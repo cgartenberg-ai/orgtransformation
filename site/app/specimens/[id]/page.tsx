@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAllSpecimens, getSpecimenById } from "@/lib/data/specimens";
 import { getMechanisms, getInsights } from "@/lib/data/synthesis";
-import { getPurposeClaims } from "@/lib/data/purpose-claims";
+import { getPurposeClaims, getSpecimenEnrichment } from "@/lib/data/purpose-claims";
 import { ClassificationBadge } from "@/components/shared/ClassificationBadge";
 import { SpecimenTabs } from "@/components/specimens/SpecimenTabs";
 import type { Specimen } from "@/lib/types/specimen";
@@ -30,12 +30,13 @@ export default async function SpecimenPage({
 }: {
   params: { id: string };
 }) {
-  const [specimen, allSpecimens, mechanismData, insightData, claimsData] = await Promise.all([
+  const [specimen, allSpecimens, mechanismData, insightData, claimsData, enrichment] = await Promise.all([
     getSpecimenById(params.id),
     getAllSpecimens(),
     getMechanisms(),
     getInsights(),
     getPurposeClaims(),
+    getSpecimenEnrichment(params.id),
   ]);
 
   const specimenClaims = claimsData.claims.filter((c) => c.specimenId === params.id);
@@ -129,6 +130,7 @@ export default async function SpecimenPage({
         mechanismDefinitions={mechanismData.confirmed}
         purposeClaims={specimenClaims}
         claimTypeDefinitions={claimsData.claimTypeDefinitions}
+        enrichment={enrichment}
       />
 
       {/* Cross-cutting insights this specimen appears in */}

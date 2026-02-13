@@ -1,0 +1,37 @@
+{
+  "specimenId": "apple",
+  "scannedDate": "2026-02-12",
+  "quality": "rich",
+  "claimCount": 16,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 1,
+    "higher-calling": 2,
+    "identity": 3,
+    "survival": 2,
+    "commercial-success": 6
+  },
+  "keyFindings": [
+    "Cook's purpose rhetoric follows a distinctive two-register pattern: utopian/epochal framing at all-hands meetings (survival + identity), measured commercial-success framing on earnings calls. The all-hands claims ('Apple must do this,' 'once-in-a-generation') are far more urgent than anything he says to analysts.",
+    "Apple's unique higher-calling claim — privacy as fundamental human right — does real organizational work by authorizing slower, more controlled AI rollout. It transforms competitive disadvantage (late to market) into moral superiority (we care about your rights).",
+    "The identity claims (PC before Mac, smartphone before iPhone) construct a historical pattern that reframes 'late' as 'deliberate.' This is a distinctively Apple rhetorical move with no equivalent in other specimens — no other CEO invokes three decades of corporate history to justify current AI timing.",
+    "Only one non-CEO claim (Federighi). Apple's purpose rhetoric is overwhelmingly Cook-centric, reflecting the company's centralized communication culture. Even on AI, Apple controls the message tightly.",
+    "Cook's tone shifted between Q3 FY2025 ('most profound technologies of our lifetime') and Q1 FY2026 ('creates great value'). The earlier framing was more epochal; the later is more commercial. This may reflect growing confidence in execution — less need for transformation rhetoric."
+  ],
+  "rhetoricalPatterns": [
+    "Two-register communication: epochal for employees, measured for investors",
+    "Privacy-as-moral-obligation deployed as competitive differentiator",
+    "Historical identity claims neutralize 'late to AI' narrative",
+    "Tight CEO-centric messaging — minimal other executive claims public"
+  ],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 8,
+  "fetchFailures": [
+    "cnbc.com/2025/07/31/tim-cook-apple-ai-acquisitions.html (paywalled, CSS only)",
+    "cultofmac.com/news/tim-cook-wired-interview (content truncated, no article body)"
+  ]
+}

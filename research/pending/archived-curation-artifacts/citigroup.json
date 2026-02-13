@@ -1,0 +1,59 @@
+{
+  "company": "Citigroup",
+  "ticker": "C",
+  "sector": "Financial Services",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 2,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 6,
+    "suggestedModelName": "Unnamed/Informal",
+    "suggestedOrientation": "Contextual",
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "We are not graded on effort. We are judged on our results.",
+      "speaker": "Jane Fraser",
+      "speakerTitle": "CEO",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://fortune.com/2026/01/14/citigroup-ceo-jane-fraser-job-cuts-ai-bad-old-ways-restructuring/",
+      "sourceDate": "",
+      "context": "Internal memo to staff coinciding with Q4 earnings and ~1,000 additional cuts"
+    },
+    {
+      "text": "The last vestiges of old, bad habits",
+      "speaker": "Jane Fraser",
+      "speakerTitle": "CEO",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://fortune.com/2026/01/14/citigroup-ceo-jane-fraser-job-cuts-ai-bad-old-ways-restructuring/",
+      "sourceDate": "",
+      "context": "Describing what must be eliminated as part of restructuring \u2014 framing AI adoption as inseparable from cultural transformation"
+    }
+  ],
+  "sources": [
+    {
+      "name": "20K headcount reduction target with 10K+ already cut",
+      "url": "https://fortune.com/2026/01/14/citigroup-ceo-jane-fraser-job-cuts-ai-bad-old-ways-restructuring/",
+      "type": "Press",
+      "date": "2026-01-14",
+      "notes": "20K headcount reduction target with 10K+ already cut"
+    },
+    {
+      "name": "$2.5B annualized cost savings target from AI and automation",
+      "url": "https://markets.financialcontent.com/stocks/article/finterra-2026-1-14-citigroup-nyse-c-q4-2025-earnings-research-deep-dive",
+      "type": "Earnings Call",
+      "date": "2026-01-14",
+      "notes": "$2.5B annualized cost savings target from AI and automation"
+    }
+  ],
+  "summary": "20K headcount reduction target with 10K+ already cut: Under 'Project Bora Bora' restructuring unveiled early 2024, Citi targets up to 20,000 role eliminations (~8% of global workforce) by 2026 to simplify management layers and streamline businesses. Over $2.5B annualized cost savings target from AI and automation: AI initiatives on track to deliver up to $2.5 billion in annualized cost savings. Specific metrics: 9% increase in software developer productivity, 2.6 million customer interactions automated per mont 70% AI adoption across 84 countries, 21M+ tool interactions: Colleagues in 84 countries have interacted with Citi's proprietary AI tools more than 21 million times. AI adoption rate now above 70%. Fraser confirmed 175K employees completed mandatory AI training  Fraser frames AI restructuring as cultural transformation: Fraser used Q4 earnings to declare 'the last vestiges of old, bad habits' must disappear, demanding a 'more commercial mindset.' She stated 'We are not graded on effort. We are judged on our results.'",
+  "openQuestions": [],
+  "splitFrom": "financial-services-earnings-q4-2025.json"
+}

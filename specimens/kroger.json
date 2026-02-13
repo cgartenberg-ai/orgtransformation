@@ -1,0 +1,201 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "kroger",
+  "name": "Kroger",
+  "title": "84.51° AI Factory Powers Hub-and-Spoke Grocery Transformation",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "High",
+    "classificationRationale": "Kroger operates an explicit Hub+Spoke model through their 'AI Factory' platform. The hub (84.51°) provides shared infrastructure, reusable components, base models, and governance, while business 'spokes' execute AI development closest to operational problems. This is textbook M4: central capability-building (governance, tooling, accelerators) with distributed execution (business units deploying AI to their specific domains). The structural separation between 84.51° as a distinct subsidiary and Kroger business units confirms Structural orientation.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Retail",
+    "sector": "Grocery",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Cincinnati, Ohio",
+    "geography": "United States"
+  },
+  "description": "Kroger structures its AI work through 84.51°, a data science subsidiary that operates the 'AI Factory' platform. This platform functions as a centralized hub providing shared infrastructure, governance frameworks, and reusable accelerators. Business units across the grocery chain operate as spokes, developing and deploying AI solutions closest to their operational problems while leveraging hub resources.\n\nThe governance structure includes an AI Governance Council with representation from technology, legal, privacy, security, HR, and business partners. The Kroger Privacy Office plays a critical role in responsible AI deployment. Leadership comes through SVP of Data Science and AI Kristin Foster at 84.51°, who emphasizes that 'Responsible AI is not a checkbox, instead it is something that should be embedded into how we build, deploy and scale AI.'\n\nInfrastructure investments include a dedicated AI lab at Cincinnati headquarters built in partnership with NVIDIA (9 DGX A100 systems), plus an innovation lab at University of Cincinnati's 1819 Innovation Hub. AI deployment has yielded operational wins in shrink reduction, competitive pricing, and faster fulfillment, with e-commerce expected to add ~$400M in profitability improvements by 2026.",
+  "observableMarkers": {
+    "reportingStructure": "AI reports through 84.51° (data science subsidiary) [kroger-cdo-magazine-2025]. SVP of Data Science and AI (Kristin Foster) leads [kroger-cdo-magazine-2025]. AI Governance Council includes technology, legal, privacy, security, HR, and business partners [kroger-cdo-magazine-2025]. Kroger Privacy Office plays critical role [kroger-cdo-magazine-2025].",
+    "resourceAllocation": "Dedicated infrastructure through AI Factory platform [kroger-cdo-magazine-2025]. Ring-fenced investment in NVIDIA partnership and AI lab [kroger-nvidia-2022]. Shared services model for business units [kroger-p2pi-2025].",
+    "timeHorizons": "Mixed — quarterly operational wins (shrink, pricing, fulfillment) [kroger-q2-2025-earnings] + 3-5 year strategic vision (connected intelligence, personal AI agents) [kroger-p2pi-2025]. Agentic AI initiatives like 'Agent Barney' suggest medium-term innovation [kroger-p2pi-2025].",
+    "decisionRights": "Hybrid — central hub sets governance, standards, tooling; spokes have autonomy to develop AI closest to their problems within guardrails [kroger-cdo-magazine-2025]. 'Balance bottom-up innovation with top-down guardrails' [kroger-cdo-magazine-2025].",
+    "metrics": "Shrink improvements, competitive pricing, faster fulfillment, e-commerce profitability [kroger-q2-2025-earnings], onboarding time (reduced from weeks to <1 day) [kroger-cdo-magazine-2025], development timelines, duplicative work reduction [kroger-p2pi-2025]."
+  },
+  "mechanisms": [
+    {
+      "id": 8,
+      "name": "Turn Compliance Into Deployment Advantage",
+      "evidence": "AI Governance Council with cross-functional representation (legal, privacy, security, HR) embeds responsible AI practices into the development process. Kroger Privacy Office plays critical role. Foster explicitly states 'Responsible AI is not a checkbox' — governance becomes an accelerator rather than a barrier.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Accelerating our AI efforts is a natural step for Kroger, given our long history of leadership in data and machine learning. Where we've implemented AI in different parts of the organization, we're seeing results with more competitive pricing, shrink improvements and faster fulfillment.",
+      "speaker": "Ron Sargent",
+      "speakerTitle": "Chairman and Interim CEO",
+      "source": "Q2 2025 Earnings Call",
+      "sourceUrl": "https://www.ciodive.com/news/kroger-tech-AI-strategy-lower-costs-efficiency-earnings/760040/",
+      "sourceDate": "2025-09",
+      "context": "Q2 2025 earnings call discussing AI acceleration"
+    },
+    {
+      "text": "Our collaboration with NVIDIA supports Kroger's 'Fresh for Everyone' commitment. We look forward to learning more about how AI and data analytics will further our journey to provide our customers with anything, anytime, anywhere.",
+      "speaker": "Wesley Rhodes",
+      "speakerTitle": "VP of Technology Transformation & R&D",
+      "source": "NVIDIA Newsroom",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/kroger-and-nvidia-to-reinvent-the-shopping-experience-through-state-of-the-art-ai-enabled-applications-and-services",
+      "sourceDate": "2022",
+      "context": "Announcing NVIDIA partnership and AI lab"
+    },
+    {
+      "text": "Responsible AI is not a checkbox, instead it is something that should be embedded into how we build, deploy and scale AI.",
+      "speaker": "Kristin Foster",
+      "speakerTitle": "SVP of Data Science and AI, 84.51°",
+      "source": "CDO Magazine",
+      "sourceUrl": "https://www.cdomagazine.tech/opinion-analysis/inside-84-51%CB%9As-ai-factory-how-kroger-builds-responsible-ai-that-doesnt-break-at-scale",
+      "sourceDate": "2025",
+      "context": "Discussing responsible AI governance"
+    },
+    {
+      "text": "For us, we're constantly focusing on how are we using technology to make it easier for the customer to inspire them on what's for dinner... And then for our associates, all the things that you've talked about, AI or machine learning, affects most of the things you do.",
+      "speaker": "Rodney McMullen",
+      "speakerTitle": "Chairman and CEO",
+      "source": "NRF 2023 Keynote",
+      "sourceUrl": "https://nationalretailfederation.smugmug.com/2023-Events-Public/NRF-2023-Retails-Big-Show/Keynote-Sessions/i-FWmb47D",
+      "sourceDate": "2023-01",
+      "context": "NRF 2023 keynote on technology and customer experience"
+    },
+    {
+      "text": "I think about one of our berry suppliers who does a ton of work with AI and supply chain, and the customer is beginning to realize that that product will taste better more consistently. When you accomplish that, it also allows the customer to have a better value, and the products they get at home will have more shelf life.",
+      "speaker": "Rodney McMullen",
+      "speakerTitle": "Chairman and CEO",
+      "source": "Global Produce & Floral Show",
+      "sourceUrl": "https://theshelbyreport.com/2024/12/05/kroger-ceo-mcmullen-discusses-navigating-bifurcated-market-future-of-food/",
+      "sourceDate": "2024-12",
+      "context": "Discussing AI in supply chain at industry conference"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
+    {
+      "date": "2026-02",
+      "label": "AI Factory Hub-and-Spoke Model",
+      "summary": "Kroger operates AI through 84.51° subsidiary's 'AI Factory' platform serving as hub, with business units as spokes. Governance Council provides cross-functional oversight. NVIDIA-powered AI lab at Cincinnati HQ. E-commerce AI expected to drive $400M profitability improvement by 2026.",
+      "sourceRefs": [
+        "kroger-cdo-magazine-2025",
+        "kroger-nvidia-2022",
+        "kroger-q2-2025-earnings"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "kroger-cdo-magazine-2025",
+      "name": "CDO Magazine - Inside 84.51°'s AI Factory",
+      "type": "Press",
+      "url": "https://www.cdomagazine.tech/opinion-analysis/inside-84-51%CB%9As-ai-factory-how-kroger-builds-responsible-ai-that-doesnt-break-at-scale",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "kroger-nvidia-2022",
+      "name": "NVIDIA Newsroom - Kroger Partnership",
+      "type": "Press",
+      "url": "https://nvidianews.nvidia.com/news/kroger-and-nvidia-to-reinvent-the-shopping-experience-through-state-of-the-art-ai-enabled-applications-and-services",
+      "sourceDate": "2022",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "kroger-p2pi-2025",
+      "name": "Path to Purchase Institute - Kroger's AI Factory",
+      "type": "Press",
+      "url": "https://p2pi.com/how-krogers-ai-factory-accelerating-ai-adoption",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "kroger-q2-2025-earnings",
+      "name": "CIO Dive - Kroger AI Acceleration",
+      "type": "Earnings Call",
+      "url": "https://www.ciodive.com/news/kroger-tech-AI-strategy-lower-costs-efficiency-earnings/760040/",
+      "sourceDate": "2025-09",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "kroger-yahoo-q2-2025",
+      "name": "Yahoo Finance - Q2 2025 Earnings Call Highlights",
+      "type": "Earnings Call",
+      "url": "https://finance.yahoo.com/news/kroger-co-kr-q2-2025-070230294.html",
+      "sourceDate": "2025-09",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "kroger-innovation-lab-2018",
+      "name": "Grocery Dive - Innovation Lab at UC",
+      "type": "Press",
+      "url": "https://www.grocerydive.com/news/kroger-opens-innovation-lab-at-the-university-of-cincinnati/533722/",
+      "sourceDate": "2018",
+      "collectedDate": "2026-02-09"
+    },
+    {
+      "id": "kroger-nrf-2023",
+      "name": "NRF 2023 Keynote",
+      "type": "Conference",
+      "url": "https://nationalretailfederation.smugmug.com/2023-Events-Public/NRF-2023-Retails-Big-Show/Keynote-Sessions/i-FWmb47D",
+      "sourceDate": "2023-01",
+      "collectedDate": "2026-02-09"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Non-traditional",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": 0.0,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": 0.2
+  },
+  "openQuestions": [
+    "What is Rodney McMullen's current status? Ron Sargent was listed as interim CEO in Q2 2025 earnings materials.",
+    "Specific AI headcount and budget figures not disclosed.",
+    "How does the AI Governance Council interact with business unit decision-making in practice?",
+    "What is the full scope of 84.51° vs. internal Kroger Technology teams?",
+    "Details on 'agentic search' and Agent Barney initiatives mentioned in research."
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Kroger's use of a data science subsidiary (84.51°) as the hub is an interesting M4 variant. Unlike tech companies where central AI teams are internal, Kroger's hub is a legally distinct entity that also serves external clients. This 'subsidiary-as-hub' pattern may offer stronger ring-fencing of AI capability and clearer P&L accountability than typical corporate CoEs.",
+    "[2026-02] The 'AI Factory' naming and explicit Hub+Spoke terminology suggest Kroger has internalized platform thinking for AI capability-building. This self-awareness about organizational structure is relatively rare — most M4 specimens evolve into hub-spoke naturally without explicitly architecting it. Worth tracking whether deliberate structural design yields better outcomes than organic evolution.",
+    "[2026-02] Grocery retail may be an underappreciated sector for AI structural innovation. Like Walmart (M5c platform-to-product), Kroger has decades of loyalty data and operational complexity that create unique AI opportunities. The 84.51° model of monetizing retail data science externally while also serving the parent suggests an interesting blended M4/M5 potential that the current taxonomy may not fully capture."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

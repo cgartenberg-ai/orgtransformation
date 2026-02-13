@@ -122,12 +122,13 @@
   ],
   "taxonomyFeedback": [
     "CDO vs. CAIO distinction matters: a CDO covers broader digital transformation while a CAIO focuses specifically on AI. Coca-Cola's choice of CDO suggests AI is embedded within a broader digital mandate rather than separated.",
-    "CPG industry pattern: Coca-Cola, Nestlé, Kraft Heinz, Unilever, Mars all restructuring simultaneously around AI. Industry-level wave worth tracking."
+    "CPG industry pattern: Coca-Cola, Nestlé, Kraft Heinz, Unilever, Mars all restructuring simultaneously around AI. Industry-level wave worth tracking.",
+    "[2026-02-12 M4 Audit] M4 classification under review (Audit 2026-02-12). Almost no structural data beyond CDO appointment and Microsoft partnership. Current M4 classification is poorly supported at Low completeness/Low confidence. Needs enrichment or reclassification to Unclassified/Stub."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-12",
     "completeness": "Low",
     "convertedFrom": null
   }

@@ -1,0 +1,172 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "progressive",
+  "name": "Progressive",
+  "title": "Tech-First Insurer with Embedded AI, No Named Lab",
+
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6b",
+    "subTypeName": "Centralized-but-Unnamed",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "Progressive demonstrates sophisticated AI capability across claims, pricing, marketing, and fraud detection without any formal AI organization, named lab, or dedicated CAIO. Their 20+ year telematics heritage (14 billion miles of Snapshot data) shows organic, bottom-up capability development rather than a top-down transformation initiative. AI appears distributed across business functions with external partnerships (H2O.ai, Claritas) providing platform infrastructure. This is classic 6b: real AI capability without organizational theater. Contextual orientation fits because individuals across claims, underwriting, and marketing balance AI exploitation within their operational roles — there's no structural separation between AI exploration and execution.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Insurance",
+    "sector": "Property & Casualty Insurance",
+    "orgSize": "Enterprise",
+    "employees": 40000,
+    "revenue": null,
+    "headquarters": "Mayfield Village, Ohio, USA",
+    "geography": "United States"
+  },
+
+  "description": "Progressive operates as a data-driven 'tech-first insurer' with AI deeply embedded across operations — claims processing, risk pricing, marketing personalization, and fraud detection — but without a formally branded AI organization or dedicated Chief AI Officer. Their structural approach is invisible by design: AI capability is distributed across functional areas rather than housed in a central research unit.\n\nThe company's 20+ year investment in telematics through the Snapshot program (14 billion miles of driving data collected) created organic ML capability that predates the current AI wave. This foundation enables sophisticated applications: image recognition for claims assessment (2.5x adjuster productivity), ML-enhanced risk models (9% more accurate pricing), generative AI for marketing (120 personalized audio ad variations), and pattern analysis for fraud detection (14% expense reduction). External partnerships with H2O.ai for ML platform capabilities and Claritas for generative AI marketing suggest a buy-and-embed approach over pure in-house research.\n\nThis represents a mature M6b pattern where AI is simply how Progressive operates — not a separate strategic initiative requiring its own organizational identity. The absence of AI-specific conference presence or CEO commentary on AI reinforces this: they don't promote AI capability as a distinct narrative because it's not distinct from their core operations.",
+
+  "observableMarkers": {
+    "reportingStructure": "Unknown. No CAIO or dedicated AI executive identified. AI capabilities appear distributed across business units (claims, underwriting, marketing).",
+    "resourceAllocation": "Embedded within existing business functions. No evidence of ring-fenced AI budget or separate AI P&L. Technology spending aggregated within $2.2B ICT budget.",
+    "timeHorizons": "Mixed. Snapshot telematics represents 20+ year long-term investment. Current AI initiatives (claims automation, marketing GenAI) focused on immediate operational efficiency — quarterly to 1-2 year payback.",
+    "decisionRights": "Appears decentralized. Individual business units (claims, marketing, underwriting) deploy AI for their specific needs. External partnerships (H2O.ai, Claritas) suggest buy-over-build approach for AI infrastructure.",
+    "metrics": "Operationally focused: 9% more accurate risk pricing, 15% faster claims processing, 14% reduction in fraud-related expenses, 2.5x adjuster productivity with AI tools. Combined ratio improvement (90.9 in Q1 2024 → 86.1 in Q1 2025). No explicit AI-specific KPIs mentioned."
+  },
+
+  "mechanisms": [
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "Claims adjusters using AI-powered image recognition tools achieve 2.5x productivity improvement, suggesting well-designed internal tooling that employees actually adopt.",
+      "strength": "Moderate"
+    },
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Snapshot telematics deployed broadly to collect 14 billion miles of data over 20+ years, building ML capability through scale before full applications were clear. GenAI marketing deployed with 120 ad variations testing personalization at scale.",
+      "strength": "Moderate"
+    }
+  ],
+
+  "quotes": [
+    {
+      "text": "given us access to segments of the auto insurance markets that we normally did not attract",
+      "speaker": "Ray Voelker",
+      "speakerTitle": "CIO",
+      "context": "Discussing the Snapshot telematics program and its impact on customer acquisition — NOTE: historical quote, dated",
+      "sourceId": "progressive-cio-magazine-2014"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Initial specimen from research scan",
+      "summary": "Progressive identified as M6b (Centralized-but-Unnamed) with Contextual orientation. Sophisticated AI embedded across claims, pricing, marketing, and fraud detection without formal AI organization. 20+ year telematics data foundation (14B miles) enables current ML applications. External partnerships (H2O.ai, Claritas) for platform capabilities. No CAIO, no named AI lab, no AI-specific conference presence — AI is operational infrastructure, not strategic theater.",
+      "sourceRefs": ["progressive-emerj-2024", "progressive-ainvest-2025-12", "progressive-ainvest-2025-05", "progressive-pitchgrade-2024"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "progressive-emerj-2024",
+      "name": "Emerj - Artificial Intelligence at Progressive Insurance",
+      "type": "Report",
+      "url": "https://emerj.com/artificial-intelligence-at-progressive-insurance/",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-09",
+      "notes": "Most comprehensive source. Details $2.2B ICT spending, H2O.ai partnership, 14B miles telematics data, GenAI marketing with Claritas (52% conversion lift, 197% campaign improvement)."
+    },
+    {
+      "id": "progressive-ainvest-2025-12",
+      "name": "Ainvest - Progressive Insurance: Tech-Driven Efficiency and Innovation Power Sustained Growth in 2025",
+      "type": "Analysis",
+      "url": "https://www.ainvest.com/news/progressive-insurance-tech-driven-efficiency-innovation-power-sustained-growth-2025-2512/",
+      "sourceDate": "2025-12",
+      "collectedDate": "2026-02-09",
+      "notes": "Details claims processing with image recognition, SLM use for niche tasks vs LLMs, blockchain exploration, IoT investments. Mentions 12,000 hires planned for 2025."
+    },
+    {
+      "id": "progressive-ainvest-2025-05",
+      "name": "Ainvest - Progressive Insurance: Leading the AI Revolution in Insurance",
+      "type": "Analysis",
+      "url": "https://www.ainvest.com/news/progressive-insurance-leading-ai-revolution-insurance-defensive-growth-play-2025-2505/",
+      "sourceDate": "2025-05",
+      "collectedDate": "2026-02-09",
+      "notes": "GenAI marketing details: 120 personalized audio ad variations, 31% quote starts increase. 15% faster claims processing, 9% more accurate risk pricing, 14% fraud expense reduction."
+    },
+    {
+      "id": "progressive-pitchgrade-2024",
+      "name": "PitchGrade - Progressive Corporation AI Use Cases 2024",
+      "type": "Report",
+      "url": "https://pitchgrade.com/companies/progressive-corporation-ai-use-cases",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-09",
+      "notes": "Catalogs 8 AI use cases: risk assessment, fraud detection, claims processing, customer service, predictive analytics, telematics, marketing, compliance. Notes talent acquisition challenge."
+    },
+    {
+      "id": "progressive-cio-magazine-2014",
+      "name": "CIO Magazine - How Progressive Uses Telematics and Analytics to Price Car Insurance",
+      "type": "Press",
+      "url": "https://www.cio.com/article/288907/how-progressive-uses-telematics-and-analytics-to-price-car-insuranc.html",
+      "sourceDate": "2014-01",
+      "collectedDate": "2026-02-09",
+      "notes": "Historical source on Snapshot development. Contains Ray Voelker (CIO) quote. Dated but shows long history of data-driven approach."
+    },
+    {
+      "id": "progressive-investor-relations-2026",
+      "name": "Progressive Investor Relations",
+      "type": "Corporate",
+      "url": "https://investors.progressive.com/home/default.aspx",
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-09",
+      "notes": "Q3 2025 earnings: 89.5 combined ratio, 10% premium growth, 12% policies in force growth. YTD combined ratio 87.3, 37.1% trailing ROE. No specific AI commentary found in public summaries."
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Low"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": 0.7,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": 0.4,
+    "namedVsQuiet": 0.9,
+    "longVsShortHorizon": -0.2
+  },
+
+  "openQuestions": [
+    "Who leads AI/ML capability at Progressive? Is there a head of data science or analytics?",
+    "How is the H2O.ai partnership structured? Is there an internal team that manages it?",
+    "What is Tricia Griffith's actual position on AI? No public quotes from her on the topic were found.",
+    "Is there a dedicated AI/ML budget within the $2.2B ICT spending?",
+    "How do claims, underwriting, and marketing teams coordinate on AI initiatives — is there a shared capability team?",
+    "What is Progressive's approach to GenAI beyond marketing (e.g., underwriting, customer service)?",
+    "How do they balance telematics data advantages with privacy concerns?"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] Progressive exemplifies 'AI as infrastructure' rather than 'AI as strategy' — the absence of organizational theater (no CAIO, no named lab, no conference presence) paired with substantial operational AI deployment challenges our taxonomy's implicit assumption that sophisticated AI requires visible structural commitment. This may be the mature end-state that named labs evolve toward.",
+    "[2026-02] The 20+ year telematics data foundation creates an interesting path dependency: Progressive's AI capability emerged organically from data assets rather than from an AI strategy. This 'data-first, AI-second' trajectory may be common in insurance but is underrepresented in our specimen collection which skews toward tech-forward announcements.",
+    "[2026-02] The buy-over-build approach (H2O.ai for ML platform, Claritas for GenAI) suggests a variant of 6b where the 'central team' is actually external partners managed by distributed business units. This partnership-centric model deserves more taxonomic attention — it may be how many incumbents actually operationalize AI."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

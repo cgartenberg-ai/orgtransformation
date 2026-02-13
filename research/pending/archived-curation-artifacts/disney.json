@@ -1,0 +1,223 @@
+{
+  "company": "Disney",
+  "ticker": "DIS",
+  "leader": "Bob Iger",
+  "leaderTitle": "CEO",
+  "sector": "Media / Entertainment",
+  "quadrant": "Q3",
+  "scannedDate": "2026-02-08",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.cnbc.com/2025/12/11/cnbc-exclusive-transcript-disney-ceo-bob-iger-and-openai-ceo-sam-altman-speak-with-cnbcs-squawk-on-the-street-today.html",
+    "https://variety.com/2024/digital/news/disney-ai-mixed-reality-office-technology-enablement-1236197936/",
+    "https://www.hollywoodreporter.com/business/business-news/bob-iger-disney-ai-use-comments-1236169173/"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "High",
+    "rationale": "Disney has a multi-layered AI structure: (1) Disney Research Studios in Zurich (16+ years, fundamental research in visual computing/ML/AI), (2) Office of Technology Enablement led by Jamie Voris (new in 2024, ~100 employees, governance/enablement layer), and (3) distributed AI work in business units (Disney+, Parks, Studios). This is classic hub-and-spoke: central standards and research capability with distributed execution. The $1B OpenAI partnership adds a strategic external partnership layer. Structural orientation because exploration (Research Studios, OTE) and execution (business unit AI) are in distinct organizational units.",
+    "aiTeamStructure": "Three distinct AI-related structures: (1) DISNEY RESEARCH STUDIOS - 16+ year old research lab in Zurich, Switzerland with additional locations in Los Angeles and Pittsburgh. Led by Chief Scientist Markus Gross. World-class research in visual computing, machine learning, and AI for filmmaking. Close partnership with ETH Zürich. Research feeds into all Disney film studios (WDAS, Pixar, ILM, Marvel). (2) OFFICE OF TECHNOLOGY ENABLEMENT (OTE) - New unit established November 2024. Led by Jamie Voris (former 14-year CTO of Walt Disney Studios). Reports to Alan Bergman (Co-chairman, Disney Entertainment). Expected to grow to ~100 employees. Mission: establish Disney as 'progressive, innovative, and responsible leader' in AI and Mixed Reality. Does NOT centralize or take over business unit AI projects; instead provides governance, standards, and enablement across Entertainment, ESPN, and Parks. (3) STUDIOLAB - Facility on Walt Disney Studio Lot for exploring cutting-edge tech, with Accenture as founding Innovation Partner.",
+    "keyPeople": [
+      {"name": "Bob Iger", "title": "CEO", "role": "Sets overall AI strategy and vision; secured $1B OpenAI partnership; departing March 2026"},
+      {"name": "Josh D'Amaro", "title": "Chairman, Disney Experiences (incoming CEO March 2026)", "role": "Will succeed Iger as CEO; already integrating AI tools in Experiences division"},
+      {"name": "Jamie Voris", "title": "Head, Office of Technology Enablement", "role": "Former 14-year CTO of Walt Disney Studios; now leads AI/XR governance across company; reports to Alan Bergman"},
+      {"name": "Alan Bergman", "title": "Co-chairman, Disney Entertainment", "role": "Direct supervisor of Office of Technology Enablement"},
+      {"name": "Markus Gross", "title": "Chief Scientist, Disney Research Studios", "role": "Leads 16+ year research operation in Zurich; oversees visual computing, ML, and AI research"},
+      {"name": "Hugh Johnston", "title": "CFO", "role": "Articulates financial strategy including AI investments"},
+      {"name": "Eddie Drake", "title": "CTO, Walt Disney Studios", "role": "Succeeded Voris as Studios CTO when Voris moved to OTE"}
+    ],
+    "investmentSignals": "$1 billion equity investment in OpenAI (December 2025) as part of 3-year licensing agreement. Office of Technology Enablement expected to grow to ~100 employees. Disney Research Studios has operated 16+ years with world-class research talent. Technology investments described as 'increasingly central' to growth strategy. Company achieved $10B net profit in FY2025 (+36%) and expects double-digit EPS growth in FY2026.",
+    "observableMarkers": {
+      "reportingStructure": "Office of Technology Enablement reports to Alan Bergman (Co-chairman, Disney Entertainment). Disney Research Studios appears to operate semi-independently with Chief Scientist Markus Gross. OTE has 'accountability to all business segments' and partners with leaders across the company.",
+      "resourceAllocation": "OTE is a dedicated unit with growth budget to ~100 employees. $1B OpenAI investment is ring-fenced strategic capital. Research Studios has dedicated facility in Zurich with academic partnerships. Not clear if there's a centralized AI budget beyond these structures.",
+      "timeHorizons": "Mixed horizons: Disney Research Studios has 16+ year track record and focuses on fundamental research (multi-year horizon). OTE focuses on 'agility, speed, and consistency' (medium-term). OpenAI Sora partnership has 3-year term with immediate FY2026 rollout of short-form content on Disney+ (short-term).",
+      "decisionRights": "OTE explicitly does NOT 'take over or centralize' AI projects in business units. Instead provides governance and enablement. Business units retain decision rights on their AI initiatives. This is a coordination/standards model, not a command model.",
+      "metrics": "Streaming margin (target 10% in FY2026), engagement (especially with younger users for Sora content), and efficiency gains mentioned. OpenAI partnership framed around consumer engagement, not cost reduction."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "This deal does is by giving us the ability to curate what has been basically created by Sora onto Disney Plus is it jump starts our ability to have short form video on Disney Plus.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "source": "Disney Q1 FY2026 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/02/disney-dis-q1-2026-earnings-call-transcript/",
+      "sourceDate": "2026-02-02",
+      "context": "Explaining the OpenAI Sora partnership during Q1 earnings call"
+    },
+    {
+      "text": "We'd rather participate in the rather dramatic growth, rather than just watching it happen.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/12/11/iger-altman-disney-openai-1-billion-creativity-new-productivity/",
+      "sourceDate": "2025-12-11",
+      "context": "Explaining strategic rationale for OpenAI investment"
+    },
+    {
+      "text": "Creativity is the new productivity, and I think you're starting to see that more and more.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/12/11/iger-altman-disney-openai-1-billion-creativity-new-productivity/",
+      "sourceDate": "2025-12-11",
+      "context": "Explaining his philosophy on AI and creative work"
+    },
+    {
+      "text": "No human generation has ever stood in the way of technological advance, and we don't intend to try.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/12/11/iger-altman-disney-openai-1-billion-creativity-new-productivity/",
+      "sourceDate": "2025-12-11",
+      "context": "Explaining Disney's embrace of AI technology"
+    },
+    {
+      "text": "The reason this company is so special is because of how creative we are, and human beings that are generating that creativity, in my mind, that never gets replaced.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "source": "ABC News Interview",
+      "sourceUrl": "https://blogmickey.com/2026/02/bob-iger-josh-damaro-ceo-interview-abc-news/",
+      "sourceDate": "2026-02",
+      "context": "First joint interview with incoming CEO Josh D'Amaro about Disney's AI approach"
+    },
+    {
+      "text": "AI to Bob's point is here, and it's something that we're embracing. You're seeing it's supercharged these creatives in amazing ways.",
+      "speaker": "Josh D'Amaro",
+      "speakerTitle": "Chairman, Disney Experiences (incoming CEO)",
+      "source": "ABC News Interview",
+      "sourceUrl": "https://blogmickey.com/2026/02/bob-iger-josh-damaro-ceo-interview-abc-news/",
+      "sourceDate": "2026-02",
+      "context": "First joint interview with Iger about Disney's AI approach"
+    },
+    {
+      "text": "Walt Disney himself was a big believer in using technology in the early days to tell better stories. And he thought that technology in the hands of a great storyteller was unbelievably powerful.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "source": "Variety - Canva Create Keynote",
+      "sourceUrl": "https://variety.com/2024/tv/news/bob-iger-canva-ai-tech-embrace-change-melanie-perkins-1236015176/",
+      "sourceDate": "2024-05",
+      "context": "Keynote speech at Canva Create event, discussing technology and storytelling"
+    },
+    {
+      "text": "You're never going to get in the way of it. There isn't a generation of human beings that has ever been able to stand the way of technological advancement...What we try to do is embrace the change that technology has created, and use it as the wind behind our backs instead of wind in our faces.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "source": "Variety - Canva Create Keynote",
+      "sourceUrl": "https://variety.com/2024/tv/news/bob-iger-canva-ai-tech-embrace-change-melanie-perkins-1236015176/",
+      "sourceDate": "2024-05",
+      "context": "Keynote speech at Canva Create event on embracing technological change"
+    },
+    {
+      "text": "AI may, in fact, be the most powerful technology that our company has ever seen, including its ability to enhance and enable consumers to access, experience and enjoy our entertainment.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "source": "Disney Annual Shareholder Meeting",
+      "sourceUrl": "https://geektyrant.com/news/bob-iger-says-ai-generated-content-is-coming-to-disney-as-disney-embraces-ai-tech",
+      "sourceDate": "2025-03",
+      "context": "Annual shareholder meeting remarks on AI"
+    },
+    {
+      "text": "Given the speed that it is developing, we're taking precautions to make sure of three things: One, that our IP is being protected. That's incredibly important. Second, that our creators are being respected, and last, that our customers are being considered and valued.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "source": "Disney Annual Shareholder Meeting",
+      "sourceUrl": "https://geektyrant.com/news/bob-iger-says-ai-generated-content-is-coming-to-disney-as-disney-embraces-ai-tech",
+      "sourceDate": "2025-03",
+      "context": "Annual shareholder meeting on AI guardrails"
+    },
+    {
+      "text": "It's harder today to tell the story of Tomorrowland...We have AI, which maybe that's even endless in terms of what the future looks like, boundless, I think it just gets harder.",
+      "speaker": "Bob Iger",
+      "speakerTitle": "CEO",
+      "source": "The Rest Is History Podcast",
+      "sourceUrl": "https://www.hollywoodreporter.com/business/business-news/bob-iger-successors-legacy-podcast-1236420559/",
+      "sourceDate": "2025-11",
+      "context": "Podcast discussion about AI and the future"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Disney Q1 FY2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/disney-dis-q1-2026-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2026-02-02",
+      "notes": "Key source for OpenAI Sora partnership details, streaming strategy, and AI content plans. Iger quote on Sora jump-starting short-form video on Disney+."
+    },
+    {
+      "name": "Fortune - Creativity is the New Productivity",
+      "url": "https://fortune.com/2025/12/11/iger-altman-disney-openai-1-billion-creativity-new-productivity/",
+      "type": "Press",
+      "date": "2025-12-11",
+      "notes": "Details on $1B OpenAI investment, 3-year partnership, 200 character license. Key Iger quotes on participation vs disruption and creativity as new productivity."
+    },
+    {
+      "name": "Disney Research Studios - About Us",
+      "url": "https://studios.disneyresearch.com/about-us/",
+      "type": "Blog",
+      "date": "2026-02-08",
+      "notes": "16+ year research operation in Zurich led by Chief Scientist Markus Gross. Visual computing, ML, AI research. ETH Zürich partnership."
+    },
+    {
+      "name": "Variety - Disney Establishes AI/XR Office",
+      "url": "https://variety.com/2024/digital/news/disney-ai-mixed-reality-office-technology-enablement-1236197936/",
+      "type": "Press",
+      "date": "2024-11",
+      "notes": "Announcement of Office of Technology Enablement led by Jamie Voris, reporting to Alan Bergman. ~100 employee target. Did not fetch successfully but key details in search results."
+    },
+    {
+      "name": "Variety - Iger Canva Keynote",
+      "url": "https://variety.com/2024/tv/news/bob-iger-canva-ai-tech-embrace-change-melanie-perkins-1236015176/",
+      "type": "Conference",
+      "date": "2024-05",
+      "notes": "Iger keynote on embracing technological change. Key quote about using technology as 'wind behind our backs'."
+    },
+    {
+      "name": "ABC News - Iger/D'Amaro CEO Transition Interview",
+      "url": "https://blogmickey.com/2026/02/bob-iger-josh-damaro-ceo-interview-abc-news/",
+      "type": "Interview",
+      "date": "2026-02",
+      "notes": "First joint interview since CEO transition announcement. D'Amaro on AI 'supercharging creatives'. Iger on human creativity never being replaced."
+    },
+    {
+      "name": "Disney Q1 FY2026 Earnings - Official",
+      "url": "https://thewaltdisneycompany.com/news/disney-q1-earnings-2026/",
+      "type": "Report",
+      "date": "2026-02",
+      "notes": "Official Disney earnings release with high-level commentary."
+    },
+    {
+      "name": "GeekTyrant - AI at Shareholder Meeting",
+      "url": "https://geektyrant.com/news/bob-iger-says-ai-generated-content-is-coming-to-disney-as-disney-embraces-ai-tech",
+      "type": "Press",
+      "date": "2025-03",
+      "notes": "Iger's March 2025 shareholder meeting remarks on AI as 'most powerful technology' and three guardrails (IP, creators, customers)."
+    },
+    {
+      "name": "Wikipedia - Disney Research",
+      "url": "https://en.wikipedia.org/wiki/Disney_Research",
+      "type": "Report",
+      "date": "2026-02-08",
+      "notes": "Background on Disney Research network: Zurich, LA, Pittsburgh locations. Research areas include computer graphics, vision, robotics, ML."
+    }
+  ],
+
+  "summary": "Disney operates a sophisticated Hybrid/Hub-and-Spoke AI structure with three main layers: (1) Disney Research Studios, a 16+ year fundamental research operation in Zurich led by Chief Scientist Markus Gross, focused on visual computing, ML, and AI for filmmaking; (2) the new Office of Technology Enablement led by Jamie Voris (~100 employees), providing AI/XR governance and enablement across all business segments without centralizing execution; and (3) the $1B OpenAI partnership (December 2025) for Sora integration into Disney+. CEO Bob Iger is extremely vocal about AI as 'the most powerful technology' Disney has seen, framing it as 'wind behind our backs' rather than a threat, while maintaining three guardrails: IP protection, creator respect, and customer value.",
+
+  "openQuestions": [
+    "What is the budget/headcount for Disney Research Studios?",
+    "How does AI work integrate between Research Studios and the new Office of Technology Enablement?",
+    "What specific AI capabilities has Disney deployed in Parks/Experiences beyond announced initiatives?",
+    "How did SAG-AFTRA AI negotiations shape Disney's structural approach to AI governance?",
+    "What is the role of Imagineering in AI development for park experiences?",
+    "How will the CEO transition to Josh D'Amaro affect AI strategy and investment levels?"
+  ],
+
+  "conferenceFindings": "No major AI-focused conference presentations found. Iger spoke at Canva Create (May 2024) where he was an investor/board member - discussed technology embracing philosophy. No dedicated Disney AI conference presence identified in tech/AI conference circuit."
+}

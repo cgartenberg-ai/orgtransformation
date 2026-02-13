@@ -1,0 +1,23 @@
+{
+  "specimenId": "uk-government",
+  "scannedDate": "2026-02-09",
+  "quality": "rich",
+  "claimCount": 12,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 2,
+    "higher-calling": 1,
+    "identity": 4,
+    "survival": 3,
+    "commercial-success": 0
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 0,
+  "urlsFetched": 0,
+  "fetchFailures": []
+}

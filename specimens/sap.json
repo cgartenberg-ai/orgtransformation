@@ -3,16 +3,16 @@
   "name": "SAP",
   "title": "No Apps, No Data, No AI — Embedded AI Philosophy",
   "classification": {
-    "structuralModel": 4,
-    "structuralModelName": "Hybrid/Hub-and-Spoke",
-    "subType": null,
-    "subTypeName": null,
-    "secondaryModel": null,
-    "secondaryModelName": null,
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5a",
+    "subTypeName": "Internal Incubator",
+    "secondaryModel": 2,
+    "secondaryModelName": "Center of Excellence",
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Medium",
-    "classificationRationale": "Validated Model 4 (Hub-and-Spoke). SAP builds Joule (AI copilot) centrally as a horizontal capability, then embeds it across product lines (S/4HANA, SuccessFactors, Ariba, etc.). The central AI team develops the copilot and AI stack; product teams (spokes) integrate AI into specific business processes. CEO Klein's philosophy ('no apps, no data, no AI') demands tight integration between central AI and product delivery. Structural orientation: central AI capability development is separated from product-line integration.",
+    "classificationRationale": "M4→M5a+M2 (Audit 2026-02-12). Joule is an AI product embedded in SAP's cloud suite — a product/venture that stays in the parent (M5a). Internal AI governance and Business AI unit provide CoE-style enablement (M2). No hub-spoke coordination across distributed semi-autonomous units.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -24,30 +24,66 @@
     "headquarters": "Walldorf, Germany",
     "geography": "Global"
   },
-  "description": "SAP CEO Christian Klein articulated a distinctive AI philosophy that challenges standalone AI tools: AI must be deeply embedded in business processes, not treated as standalone technology. The three-pillar architecture — modern cloud software + modern data management + consistent AI stack — demands tight coupling between AI capability and business application.\n\nJoule, SAP's AI copilot, is built centrally and deployed across the product portfolio, delivering claimed 30-40% productivity increases. The EU AI Cloud launched with sovereign data guarantees addresses regulatory requirements while enabling AI deployment. Real customer results include Johnson Controls (3,000 hours/year saved), Bosch (2,500 hours per service center per year), and JK Cement (50% faster purchasing).\n\nThe vision is transformative: within 2 years, SAP users will no longer manually enter data, with all tasks processed via natural language. This represents a fundamental shift from data entry to AI-mediated business process management.",
+  "description": "SAP CEO Christian Klein articulated a distinctive AI philosophy that challenges standalone AI tools: AI must be deeply embedded in business processes, not treated as standalone technology. The three-pillar architecture — modern cloud software + modern data management + consistent AI stack — demands tight coupling between AI capability and business application.\n\nJoule, SAP's AI copilot, is built centrally and deployed across the product portfolio, delivering claimed 30-40% productivity increases. The EU AI Cloud launched with sovereign data guarantees addresses regulatory requirements while enabling AI deployment. Real customer results include Johnson Controls (3,000 hours/year saved), Bosch (2,500 hours per service center per year), and JK Cement (50% faster purchasing).\n\nThe vision is transformative: within 2 years, SAP users will no longer manually enter data, with all tasks processed via natural language. This represents a fundamental shift from data entry to AI-mediated business process management.\n\nQ4 FY2025 results show accelerating AI adoption: SAP Business AI was included in two-thirds of Q4 cloud order entry (up 20+ percentage points from Q3), and 90% of the 50 largest Q4 deals included AI or SAP Business Data Cloud. Total Cloud Backlog grew 30% to a record €77 billion.",
   "observableMarkers": {
     "reportingStructure": null,
     "resourceAllocation": "RISE deals pulled forward as customers demand SAP Business AI. EU AI Cloud investment for sovereign deployment.",
     "timeHorizons": "2-year vision for no-manual-data-entry. Quarterly product releases with AI integration.",
     "decisionRights": null,
-    "metrics": "Joule: 30-40% productivity increase. Johnson Controls: 3,000 hrs/yr saved. Bosch: 2,500 hrs/service center/yr. JK Cement: 50% faster purchasing."
+    "metrics": "Joule: 30-40% productivity increase. Johnson Controls: 3,000 hrs/yr saved. Bosch: 2,500 hrs/service center/yr. JK Cement: 50% faster purchasing. Q4 FY2025: AI included in 2/3 of cloud order entry (up 20+ pts from Q3). 90% of top 50 Q4 deals included AI/Data Cloud. Total Cloud Backlog: €77B (+30% YoY)."
   },
   "mechanisms": [],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Q4 was a strong cloud quarter, with bookings resulting in 30% Total Cloud Backlog growth to a record 77 billion Euros. The significant Current Cloud Backlog growth in Q4 has laid a strong foundation for accelerating Total Revenue growth through 2027. SAP Business AI has become a main driver for growth as it was included in two thirds of our Q4 cloud order entry, combined with strong AI adoption across the ERP Suite.",
+      "speaker": "Christian Klein",
+      "speakerTitle": "CEO",
+      "source": "source-5",
+      "context": "Q4 FY2025 earnings announcement, describing AI adoption acceleration"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke → M5 Product/Venture Lab + M2 Center of Excellence",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M5a Internal Incubator + M2 CoE. Joule is an AI product; Business AI provides governance/enablement.",
+      "classification": "M4 Hybrid/Hub-and-Spoke",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Added Q4 FY2025 earnings data showing accelerating AI adoption: Business AI included in 2/3 of Q4 cloud order entry (up 20+ pts from Q3), 90% of top 50 deals included AI. Added Christian Klein quote on AI as main growth driver. Updated metrics with cloud backlog (€77B, +30%).",
+      "classification": null,
+      "sourceRefs": [
+        "source-5"
+      ]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
       "summary": "Validated Model 4 classification. Fixed industry from Technology to Enterprise Software. Added habitat data (Walldorf HQ). Removed spurious 'apps + data + AI' quote fragment. Added observable markers, classification rationale. Enriched description.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "SAP's AI philosophy under CEO Christian Klein: AI must be embedded in business processes. Joule AI copilot deployed across product portfolio.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     }
   ],
   "sources": [
@@ -90,6 +126,16 @@
       "sourceDate": null,
       "collectedDate": "2026-01-20",
       "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-5",
+      "type": "Press",
+      "name": "SAP Q4 FY2025 Results Announcement",
+      "url": "https://news.sap.com/2026/01/sap-announces-q4-and-fy-2025-results/",
+      "timestamp": null,
+      "sourceDate": "2026-01-29",
+      "collectedDate": "2026-02-07",
+      "notes": "Business AI included in two-thirds of Q4 cloud order entry"
     }
   ],
   "contingencies": {
@@ -109,18 +155,19 @@
   "openQuestions": [
     "What is the size and structure of SAP's central AI team building Joule?",
     "How does AI integration vary across SAP's product lines (S/4HANA, SuccessFactors, Ariba)?",
-    "How does the EU AI Cloud sovereign data approach affect AI deployment capabilities?",
-    "What is the customer adoption rate for Joule across the installed base?"
+    "How does the EU AI Cloud sovereign data approach affect AI deployment capabilities?"
   ],
   "taxonomyFeedback": [
     "SAP's 'no apps, no data, no AI' philosophy is a strong articulation of why embedded AI (vs. standalone AI) matters. This framing could inform how we describe the tension between centralized AI units and embedded integration.",
-    "Enterprise software vendors have a unique structural challenge: they build AI centrally but must embed it across dozens of distinct product lines. This is a variant of Hub-and-Spoke specific to platform companies."
+    "Enterprise software vendors have a unique structural challenge: they build AI centrally but must embed it across dozens of distinct product lines. This is a variant of Hub-and-Spoke specific to platform companies.",
+    "[2026-02] Q4 FY2025 earnings provide concrete adoption metrics: AI included in 2/3 of cloud order entry, up 20+ pts quarter-over-quarter. This rapid acceleration suggests embedded AI strategy is gaining traction with enterprise customers. The 90% inclusion of AI/Data Cloud in top 50 deals indicates AI becoming table-stakes for large enterprise sales.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M5+M2. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — Joule is an AI product; Business AI provides governance/enablement."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-12",
+    "completeness": "Medium",
     "convertedFrom": "library/cases/sap.json"
   }
 }

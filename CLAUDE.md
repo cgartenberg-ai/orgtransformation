@@ -28,7 +28,7 @@ You are a colleague and collaborator on this project — not an assistant. We ar
 
 ## Required Reading (Every Session)
 
-1. **`APP_STATE.md`** — Read FIRST. Current state of everything: what's built, data counts, pipeline status, session log.
+1. **`APP_STATE.md`** — Read FIRST. Current state of everything: what's built, data counts, pipeline status. Session log is in `SESSION_LOG.md` (read only when needed for historical context).
 2. **`WORKFLOW.md`** — Complete command reference. **Read when running any research workflow.** Documents both research tracks, all skills, transcript discovery protocol, and file maps.
 3. **`Ambidexterity_Field_Guide_Spec.md`** — Product spec (v1.3): taxonomy (9 models × 3 orientations), specimen cards, mechanisms, tensions, contingencies, insights. Read when doing research/curation/synthesis.
 4. **`SW_ARCHITECTURE.md`** — Software architecture for the Next.js site. Read when doing site development.
@@ -54,7 +54,7 @@ The project has **two parallel research tracks**:
 | 2. Curation | `/curate` | Creates specimen cards → `specimens/*.json` |
 | 3. Synthesis | `/synthesize` | Identifies patterns → `synthesis/*.json` |
 
-**Output:** 93 specimens, 9 mechanisms, 13 insights, 5 tensions
+**Output:** Specimen cards, confirmed mechanisms, field insights, tensions (see APP_STATE.md for current counts)
 
 ### Track 2: Purpose Claims — "How do leaders use purpose to authorize transformation?"
 
@@ -66,7 +66,7 @@ The project has **two parallel research tracks**:
 |-------|--------------|
 | `/purpose-claims [id]` | Collects verbatim claims → `research/purpose-claims/registry.json` |
 
-**Output:** Claim registry for academic paper (89 claims across 11 specimens so far)
+**Output:** Claim registry for academic paper (see APP_STATE.md for current counts)
 
 **Full workflow details:** See `WORKFLOW.md`
 
@@ -79,7 +79,7 @@ Both tracks use the **Transcript Discovery Protocol** to find interview transcri
 | File | Purpose |
 |------|---------|
 | `research/TRANSCRIPT-DISCOVERY-PROTOCOL.md` | Protocol for finding transcripts |
-| `research/transcript-sources.json` | Registry of 13+ transcript sources |
+| `research/transcript-sources.json` | Registry of transcript sources |
 | `research/transcript-gap-queue.json` | Specimen × source tracking |
 
 **Core principle:** Be creative and energetic about finding transcripts. Don't limit to hardcoded lists.
@@ -98,18 +98,19 @@ orgtransformation/
 ├── UI_Spec.md                   # UI/UX design spec
 ├── NARRATIVE_SPEC.md            # Narrative creation spec
 ├── LITERATURE_SPEC.md           # Literature matching spec
+├── SESSION_LOG.md               # Full session history (updated each session)
 ├── HANDOFF.md                   # Session handoff for continuity
 │
 ├── specimens/                   # THE HERBARIUM
 │   ├── registry.json            # Master specimen list
 │   ├── source-registry.json     # Source scanning status
-│   └── *.json                   # 93 specimen files
+│   └── *.json                   # Specimen files (see registry.json for count)
 │
 ├── synthesis/                   # CROSS-CUTTING PATTERNS
-│   ├── mechanisms.json          # 9 confirmed mechanisms
+│   ├── mechanisms.json          # Confirmed + candidate mechanisms
 │   ├── tensions.json            # 5 structural tensions
 │   ├── contingencies.json       # 5 contingency factors
-│   └── insights.json            # 13 field insights
+│   └── insights.json            # Field insights (growing collection)
 │
 ├── research/                    # TRACK 1 + SHARED
 │   ├── sessions/                # Research session files
@@ -132,8 +133,8 @@ orgtransformation/
 │   └── sessions/                # Curation session logs
 │
 ├── site/                        # Next.js 14 prototype
-│   ├── app/                     # Routes (~15 pages)
-│   ├── components/              # React components (~30)
+│   ├── app/                     # Routes
+│   ├── components/              # React components
 │   └── lib/                     # Types, data access
 │
 ├── scripts/                     # Utilities
@@ -175,7 +176,7 @@ orgtransformation/
 
 Before ending any session that modified files:
 
-1. **Update `APP_STATE.md`** — Add row to session log table: date + what changed
+1. **Update `SESSION_LOG.md`** — Add row to session log table: date + what changed
 2. **If specimens changed:** Run `node scripts/validate-workflow.js` from project root
 3. **If site code changed:** Run `cd site && npm run build` to verify no breakage
 

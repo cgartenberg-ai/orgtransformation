@@ -1,0 +1,122 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "cedars-sinai",
+  "name": "Cedars-Sinai",
+  "title": "Dual-Reporting CAIO with AI Council Governance",
+
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 1,
+    "secondaryModelName": "Research Lab",
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Medium",
+    "classificationRationale": "Decision tree: Formal AI unit? YES (CAIRE research center + CAIO office). Publishes research? YES (CAIRE is research-focused), but primary output is clinical integration, not publications alone. Central team? YES (CAIO office). Builds or enables? Both — CAIO office enables clinical AI adoption while CAIRE builds research capabilities. Central + distributed = M4. Secondary M1 for CAIRE's dedicated research mission. Structural orientation: CAIO is structurally separated from clinical operations with dual reporting lines (CIO for operations, CMO for clinical integration). Guardrails checked: G2 (federation) — not a federation, single hub with research arm; G4 (prestige bias) — CAIRE is genuinely research-focused but not ring-fenced from clinical timelines.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Healthcare",
+    "sector": "Academic Medical Center",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Los Angeles, CA",
+    "geography": "North America"
+  },
+
+  "description": "Cedars-Sinai has built the most explicitly documented dual-reporting AI governance structure in healthcare. Chief Data and AI Officer Mouneer Odeh reports to the CIO for operational technology decisions while being embedded in the Chief Medical Officer's office for clinical AI integration. This dual-reporting solves healthcare's central AI governance problem: technical decisions require IT authority (CIO) while clinical AI decisions require clinical authority (CMO).\n\nThe AI governance infrastructure includes an AI Council — a cross-functional governance body that evaluates and approves clinical AI deployments — and CAIRE (Center for AI Research and Education), which serves as the dedicated research arm. In 2025, Cedars-Sinai created three new informatics leadership positions: Chief Health Information Officer (CHIO), Chief Nursing Informatics Officer (CNIO), and Chief Medical Information Officer (CMIO), building out a distributed informatics leadership structure beneath the CAIO. A new Vice Dean and Chief AI Health Research Officer role bridges the academic and clinical missions.\n\nThis structure represents a healthcare-specific variant of hub-and-spoke: the CAIO office serves as the central hub coordinating AI strategy, while the distributed informatics officers (CHIO, CNIO, CMIO) embed AI governance into their respective clinical domains. The dual-reporting mechanism is the distinctive feature — it institutionalizes the recognition that healthcare AI is inherently dual-domain (technical + clinical) and cannot be governed from either side alone.",
+
+  "observableMarkers": {
+    "reportingStructure": "CAIO (Mouneer Odeh) dual-reports to CIO (operational) and CMO office (clinical integration). CHIO, CNIO, CMIO report into their respective clinical domains. Vice Dean and Chief AI Health Research Officer bridges academic/clinical. AI Council as cross-functional governance body.",
+    "resourceAllocation": null,
+    "timeHorizons": "Mixed: CAIRE operates on research timelines (multi-year), clinical AI deployments on operational timelines (quarterly-annual), AI Council evaluations on per-project basis.",
+    "decisionRights": "AI Council holds approval authority for clinical AI deployments. CAIO coordinates strategy. CIO controls operational infrastructure. CMO office holds clinical validation authority.",
+    "metrics": null
+  },
+
+  "mechanisms": [
+    {
+      "id": 8,
+      "name": "Turn Compliance Into Deployment Advantage",
+      "evidence": "Dual-reporting structure and AI Council governance create built-in clinical validation and compliance infrastructure. The CHIO/CNIO/CMIO informatics layer ensures AI deployments pass through domain-specific clinical oversight before reaching patients.",
+      "strength": "Moderate"
+    }
+  ],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2025",
+      "label": "CAIO + Informatics Leadership Build-Out",
+      "summary": "Mouneer Odeh serves as Chief Data and AI Officer with dual CIO/CMO reporting. Three new informatics leadership positions created (CHIO, CNIO, CMIO). CAIRE research center operational. AI Council governs clinical AI approvals. Vice Dean and Chief AI Health Research Officer role created.",
+      "classification": null,
+      "sourceRefs": ["healthcare-it-news-cedars-caio-2025", "healthcare-deep-dive-2026"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "healthcare-it-news-cedars-caio-2025",
+      "type": "Press",
+      "name": "Healthcare IT News — Cedars-Sinai CAIO: AI transforming relationship between caregivers and IT",
+      "url": "https://www.healthcareitnews.com/news/cedars-sinai-caio-ai-transforming-relationship-between-caregivers-and-it",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-10",
+      "notes": "Primary source on dual-reporting structure and governance model"
+    },
+    {
+      "id": "healthcare-deep-dive-2026",
+      "type": "Report",
+      "name": "Healthcare Sector Deep Dive — Research Agent Output",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": "2026-02-10",
+      "collectedDate": "2026-02-12",
+      "notes": "Synthesized from multiple search results during healthcare sector research session"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+
+  "openQuestions": [
+    "What specific AI tools/systems has the AI Council approved or rejected? What's the approval rate?",
+    "How does CAIRE's research agenda connect to clinical deployment timelines?",
+    "What's the budget allocation between research (CAIRE) and operational AI (CAIO office)?",
+    "Who does the Vice Dean and Chief AI Health Research Officer report to — the Dean of Medicine or the CAIO?",
+    "How do the CHIO, CNIO, and CMIO coordinate with each other on cross-domain AI initiatives?"
+  ],
+
+  "taxonomyFeedback": [
+    "The dual-reporting CAIO model may be a healthcare-specific structural innovation that doesn't map cleanly to our general taxonomy. It's M4-like (central hub + distributed spokes) but the hub itself has a split governance mechanism — CIO side for technology, CMO side for clinical validity. This dual-authority hub is distinctive.",
+    "Healthcare's requirement for clinical validation creates a structural layer (AI Council, informatics officers) that doesn't exist in other sectors. This is regulatory-driven structural complexity that goes beyond our C1 (regulatory intensity) contingency — it shapes the actual organizational form, not just the pace of deployment."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-12",
+    "lastUpdated": "2026-02-12",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

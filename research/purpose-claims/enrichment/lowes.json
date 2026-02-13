@@ -1,0 +1,35 @@
+{
+  "specimenId": "lowes",
+  "scannedDate": "2026-02-13",
+  "claimCount": 16,
+  "searchesCompleted": 6,
+  "urlsFetched": 6,
+  "fetchFailures": 1,
+  "keyFindings": [
+    "Ellison's anti-displacement rhetoric is the most concrete in the collection — anchored to physical reality ('fix a hole in your roof') rather than abstract reassurance. He delimits AI's domain by the nature of the product, not by moral principle.",
+    "Lowe's has a distinctly layered speaker architecture: Ellison handles the workforce/social narrative, Nair handles the technical/operational narrative, Godbole handles the customer narrative, and McFarland handles the adoption-metrics narrative. Each speaker stays in lane.",
+    "Chandhu Nair's '70% change management, 30% technology' claim — made at NVIDIA GTC, a tech conference — is a striking inversion that positions organizational capability as the primary constraint, not technology.",
+    "The 'couldn't print receipts' to '100B OpenAI tokens' arc is the specimen's origin story. Nair uses it to frame current AI sophistication as earned through foundational work, not purchased.",
+    "Notable absence of utopian or higher-calling claims. The entire rhetorical register is practical, commercial, and grounded in specific customer/associate outcomes."
+  ],
+  "rhetoricalPatterns": [
+    "Physical-world delimitation: Ellison draws AI's boundary at physical reality — roofs, electrical work, water heaters. This is unique to home improvement retail and more convincing than abstract 'AI augments not replaces' claims.",
+    "Foundations-first sequencing: Nair consistently frames AI capability as contingent on prior infrastructure work (data consolidation, semantic layers, edge computing). This patience narrative justifies years of non-glamorous investment.",
+    "Metric-anchored proof: Every AI claim is tethered to a specific number — 50% workload reduction, 2x conversion, 200 bps CSAT, 1M questions/month, 1,700 stores, 100B tokens. The density of metrics is higher than any other retail specimen.",
+    "Anti-displacement through product specificity: Unlike tech companies that make moral arguments about human dignity, Ellison argues from product logic — AI can't do what our customers need done, so our workers are safe."
+  ],
+  "comparativeNotes": "Lowe's rhetorical register is strikingly similar to Kroger's in its practical, metric-anchored grounding, but with a unique twist: Ellison's anti-displacement argument is product-specific rather than data-specific. Where Kroger anchors to '84.51° knows berry freshness at the store level,' Ellison anchors to 'AI can't fix your roof.' Both use domain specificity to bound AI's scope, but Lowe's version is more visceral and memorable. Compared to Ulta Beauty's Project SOAR (beauty advisor empowerment), Lowe's Mylow Companion serves a parallel function — AI as associate augmentation — but Ellison frames it through workload reduction rather than skill enhancement. The absence of utopian or higher-calling claims places Lowe's firmly in the retail-sector pattern of practical/commercial rhetoric, contrasting sharply with pharma (Sanofi's 'AI Fight Club') or tech (Google's 'AI for everyone'). PepsiCo's 'pep+' purpose framing is leagues away from Lowe's deliberately modest register.",
+  "notableAbsences": "Zero utopian claims — no 'new era' or 'transformation of society.' Zero higher-calling claims — no moral duty language despite Ellison's personal background in DEI leadership. The skilled trades investment ($50M) comes closest to higher-calling but is framed teleologically (workforce outcomes) rather than morally. Seemantini Godbole is underrepresented — only press-release quotes, no interviews or earnings-call remarks found. No board-level or investor-day AI strategy commentary. No Q3 2025 or Q4 2025 earnings transcript quotes extracted (PDF format blocked direct extraction).",
+  "correctedLeaderInfo": {
+    "chandhuNairTitle": "Senior Vice President of Data, AI & Innovation (per CDO Magazine, Dec 2025)",
+    "joeMcFarland": "Executive Vice President, Stores — notable as a non-tech leader making AI claims on earnings calls"
+  },
+  "claimTypeDistribution": {
+    "utopian": 0,
+    "teleological": 1,
+    "higher-calling": 0,
+    "identity": 2,
+    "survival": 1,
+    "commercial-success": 12
+  }
+}

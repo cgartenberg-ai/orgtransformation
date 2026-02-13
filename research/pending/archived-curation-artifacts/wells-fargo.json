@@ -1,0 +1,66 @@
+{
+  "company": "Wells Fargo",
+  "ticker": "WFC",
+  "sector": "Financial Services",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 3,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "We've broken our strategy into a couple key focus areas. We've had a developer platform that we've been working on... The portion we're partnering with Google on is the employee capability.",
+      "speaker": "Tracy Kerrins",
+      "speakerTitle": "Head of Consumer Technology and Generative AI",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows",
+      "sourceDate": "",
+      "context": "Describing Wells Fargo's dual-track AI platform strategy: developer tools vs. employee-facing capabilities"
+    },
+    {
+      "text": "It's not just about the fun and cool stuff... but making sure it is adoptable in financial services.",
+      "speaker": "Rohit Bhat",
+      "speakerTitle": "Google Cloud",
+      "source": "financial-services-earnings-q4-2025.json",
+      "sourceUrl": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows",
+      "sourceDate": "",
+      "context": "Describing the compliance-first approach to building agentic AI for Wells Fargo"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Senior executive redeployed from consumer banking CEO to lead AI scaling",
+      "url": "https://www.bankingdive.com/news/wells-fargo-saul-van-beurden-ai-kleber-santos-expanded-responsibilities/806195/",
+      "type": "Press",
+      "date": "2025-12-01",
+      "notes": "Senior executive redeployed from consumer banking CEO to lead AI scaling"
+    },
+    {
+      "name": "Google Agentspace partnership for agentic AI platform",
+      "url": "https://www.americanbanker.com/news/how-wells-fargo-is-building-agentic-ai-into-its-workflows",
+      "type": "Press",
+      "date": "2025-12-01",
+      "notes": "Google Agentspace partnership for agentic AI platform"
+    },
+    {
+      "name": "30-35% automation target for engineering and admin tasks",
+      "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-1-20-wells-fargo-q4-2025-earnings-restructuring-costs-lead-to-eps-miss",
+      "type": "Earnings Call",
+      "date": "2026-01-20",
+      "notes": "30-35% automation target for engineering and admin tasks"
+    }
+  ],
+  "summary": "Senior executive redeployed from consumer banking CEO to lead AI scaling: Saul Van Beurden, previously CEO of consumer and small business banking, was reassigned to scale AI across the bank. Kleber Santos (consumer lending CEO) took on expanded responsibilities as co-CEO of Google Agentspace partnership for agentic AI platform: Wells Fargo adopted Google Agentspace to develop custom AI agents. Deep Research and NotebookLM deployed to ~2,000 employees with plans to expand. Early agent use cases: vendor contract review, KYC re 30-35% automation target for engineering and admin tasks: Wells Fargo's restructuring includes a bet that AI can automate 30-35% of its engineering and administrative tasks. Headcount declined 6% to 205,000 by year-end 2025. $612M severance charge in Q4 ($0. Dedicated Head of Consumer Technology and Generative AI role: Tracy Kerrins serves as Head of Consumer Technology and Generative AI, overseeing the agentic AI platform strategy. Kerrins described approach: 'We've broken our strategy into a couple key focus areas",
+  "openQuestions": [],
+  "splitFrom": "financial-services-earnings-q4-2025.json"
+}

@@ -1,0 +1,56 @@
+{
+  "company": "Genpact Limited",
+  "ticker": null,
+  "sector": "",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    {
+      "url": "https://www.insidermonkey.com/blog/thomson-reuters-corporation-nasdaqtri-q4-2025-earnings-call-transcript-1690317/",
+      "reason": "JS-rendered, no transcript content returned"
+    },
+    {
+      "url": "https://www.metaintro.com/blog/dow-layoffs-ai-automation-transform-outperform",
+      "reason": "JS-rendered, no article content returned"
+    },
+    {
+      "url": "https://futurumgroup.com/insights/sap-q4-fy-2025-earnings-cloud-erp-strength-ai-traction/",
+      "reason": "JS-rendered, no article content returned"
+    }
+  ],
+  "structuralFindings": {
+    "suggestedModel": null,
+    "suggestedModelName": null,
+    "suggestedOrientation": null,
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [
+    {
+      "text": "We are setting the standard for AI-led transformation...connecting deep functional understanding, proprietary data, AI, and agentic systems to truly integrate AI.",
+      "speaker": "Balkrishan Kalra",
+      "speakerTitle": "CEO",
+      "source": "earnings-discovery-q4-2025.json",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/06/genpact-g-q4-2025-earnings-call-transcript/",
+      "sourceDate": "",
+      "context": "Q4 2025 earnings call, describing Genpact's strategic positioning in agentic AI"
+    }
+  ],
+  "sources": [
+    {
+      "name": "Advanced Technology Solutions unit \u2014 2x revenue per headcount, 24% of total revenue",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/06/genpact-g-q4-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2026-02-06",
+      "notes": "Advanced Technology Solutions unit \u2014 2x revenue per headcount, 24% of total revenue"
+    }
+  ],
+  "summary": "Advanced Technology Solutions unit \u2014 2x revenue per headcount, 24% of total revenue: Genpact's Advanced Technology Solutions unit generated $1.2B in 2025 revenue (up 17% YoY), representing 24% of total revenue and over one-third of total bookings. Delivers more than 2x the revenue per Three-pillar agentic operations model: Genpact defines 'agentic operations' through three pillars: (1) Domain-specific agents executing tasks autonomously, (2) Last-mile experts validating exceptions and training models, (3) Clear roles, g 7,000 AI builders, 20,000 AI practitioners, 400+ GenAI solutions: Over 7,000 AI builders trained, nearly 20,000 AI practitioners trained. More than 400 GenAI solutions deployed or going live (nearly tripled from prior year). Launched AI Maestro platform for embeddin Revenue model shift: 48% of Q4 revenue is non-FTE (recurring, not headcount-based): 48% of Q4 revenue came from non-FTE revenue models. This is a fundamental structural shift for a BPO company \u2014 moving from selling labor to selling AI-powered solutions. $200M total contract value in ",
+  "openQuestions": [],
+  "splitFrom": "earnings-discovery-q4-2025.json"
+}

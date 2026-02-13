@@ -1,0 +1,299 @@
+{
+  "taskId": "earnings-discovery-q4-2025",
+  "scannedDate": "2026-02-07",
+  "sessionType": "earnings-discovery",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    {"url": "https://www.insidermonkey.com/blog/thomson-reuters-corporation-nasdaqtri-q4-2025-earnings-call-transcript-1690317/", "reason": "JS-rendered, no transcript content returned"},
+    {"url": "https://www.metaintro.com/blog/dow-layoffs-ai-automation-transform-outperform", "reason": "JS-rendered, no article content returned"},
+    {"url": "https://futurumgroup.com/insights/sap-q4-fy-2025-earnings-cloud-erp-strength-ai-traction/", "reason": "JS-rendered, no article content returned"}
+  ],
+  "organizations": [
+    {
+      "id": "cognizant",
+      "name": "Cognizant Technology Solutions",
+      "ticker": "CTSH",
+      "industry": "IT Services / Consulting",
+      "status": "new",
+      "specimenSlug": null,
+      "quarter": "Q4 2025",
+      "observations": [
+        {
+          "title": "Three-unit AI go-to-market reorganization",
+          "detail": "Cognizant has reorganized its go-to-market operations into three distinct AI-focused units: (1) Market-facing AI teams, (2) Integrated AI solutions unit, (3) Centralized AI platforms and products unit. This is a structural reorganization of how the firm delivers AI services.",
+          "sourceUrl": "https://www.dailypolitical.com/2026/02/05/cognizant-technology-solutions-q4-earnings-call-highlights.html",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "Three-vector AI strategy with agentic software and digital labor",
+          "detail": "CEO Ravi Kumar outlined a three-vector strategy: Vector One augments traditional software delivery with AI; Vectors Two and Three build new agentic software cycles and 'digital labor.' Company has 4,000+ active AI engagements. Over 30% of developer effort in software development cycles is AI-assisted and agentic.",
+          "sourceUrl": "https://www.dailypolitical.com/2026/02/05/cognizant-technology-solutions-q4-earnings-call-highlights.html",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "Broader pyramid workforce strategy — AI enables entry-level workers to do higher-value work",
+          "detail": "CEO Ravi Kumar described a 'broader pyramid' workforce strategy. Plans to hire 24,000-25,000 freshers in 2026. AI allows high-value technical work to be moved to entry-level roles. Combined with pyramid mix adjustments, utilization optimization, offshoring, and AI-driven productivity gains.",
+          "sourceUrl": "https://www.ciol.com/news/ognizant-fresher-hiring-2026-ai-broader-pyramid-strategy-11081712",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "workforce"
+        },
+        {
+          "title": "Strategic partnerships with NVIDIA and Anthropic",
+          "detail": "Cognizant maintains strategic partnerships with NVIDIA and Anthropic to support AI capabilities, along with its proprietary BASIS framework and 'science of context engineering.'",
+          "sourceUrl": "https://www.dailypolitical.com/2026/02/05/cognizant-technology-solutions-q4-earnings-call-highlights.html",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "deployment"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "HIGH — Cognizant shows a clear structural reorganization into three AI-focused units, a novel workforce strategy ('broader pyramid' where AI enables junior workers to perform senior tasks), and a three-vector strategic framework. The tension between augmenting existing services (Vector 1) and building entirely new agentic/digital-labor services (Vectors 2-3) is a textbook explore/execute tension. Strong candidate for Model 4 (Hub-and-Spoke) or Model 7 (Dual Operating System) classification."
+    },
+    {
+      "id": "thomson-reuters",
+      "name": "Thomson Reuters Corporation",
+      "ticker": "TRI",
+      "industry": "Professional Information Services",
+      "status": "new",
+      "specimenSlug": null,
+      "quarter": "Q4 2025",
+      "observations": [
+        {
+          "title": "Open Arena internal AI platform with 85%+ employee adoption",
+          "detail": "Thomson Reuters has established Open Arena, an internal AI platform with over 85% employee adoption across the organization. More than 300 AI use cases are currently in development across the company.",
+          "sourceUrl": "https://www.defenseworld.net/2026/02/07/thomson-reuters-q4-earnings-call-highlights.html",
+          "sourceDate": "2026-02-07",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "AI-enabled products at 28% of ACV and growing — CoCounsel, deep research, agentic features",
+          "detail": "GenAI-enabled products represented 28% of annualized contract value (ACV) by Q4, up from 24% the prior quarter. Products include Westlaw Advantage, CoCounsel Legal, CoCounsel for Tax and Audit. Deep research capabilities and agentic features planned for CoCounsel Legal by mid-year.",
+          "sourceUrl": "https://www.defenseworld.net/2026/02/07/thomson-reuters-q4-earnings-call-highlights.html",
+          "sourceDate": "2026-02-07",
+          "keywordCategory": "deployment"
+        },
+        {
+          "title": "AI productivity displacement — $19M severance in Q4, $20M more in 2026",
+          "detail": "CEO Steve Hasker described initiatives to 'reimagine how we work.' Severance expenses totaled $19M in Q4 2025, with $10M expected in Q1 2026 and approximately $10M remaining through Q2-Q4 2026. CFO Mike Eastwood noted costs are spread across segments and functions — no specific headcount reductions disclosed.",
+          "sourceUrl": "https://www.defenseworld.net/2026/02/07/thomson-reuters-q4-earnings-call-highlights.html",
+          "sourceDate": "2026-02-07",
+          "keywordCategory": "workforce"
+        },
+        {
+          "title": "Measurable AI productivity gains in customer support and content operations",
+          "detail": "Customer support: 15% reduction in average handle time and 10% increase in first-call resolution. Content operations: 25% acceleration in U.S. content delivery to Westlaw.",
+          "sourceUrl": "https://www.defenseworld.net/2026/02/07/thomson-reuters-q4-earnings-call-highlights.html",
+          "sourceDate": "2026-02-07",
+          "keywordCategory": "deployment"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "HIGH — Thomson Reuters shows the rare combination of (1) enterprise-wide AI adoption via internal platform (Open Arena, 85% adoption), (2) customer-facing AI products growing as share of ACV, AND (3) quantified workforce displacement costs ($39M+ severance). This is one of the clearest cases of AI productivity displacement being publicly quantified with dollar figures. The dual deployment — internal productivity platform plus external AI products — creates a structural tension between using AI to cut costs vs. using AI to grow revenue. Strong candidate for Model 6a (Enterprise-Wide Adoption) or Model 4 (Hub-and-Spoke)."
+    },
+    {
+      "id": "genpact",
+      "name": "Genpact Limited",
+      "ticker": "G",
+      "industry": "IT Services / Business Process Outsourcing",
+      "status": "new",
+      "specimenSlug": null,
+      "quarter": "Q4 2025",
+      "observations": [
+        {
+          "title": "Advanced Technology Solutions unit — 2x revenue per headcount, 24% of total revenue",
+          "detail": "Genpact's Advanced Technology Solutions unit generated $1.2B in 2025 revenue (up 17% YoY), representing 24% of total revenue and over one-third of total bookings. Delivers more than 2x the revenue per headcount compared to company average. Expected to grow at least high teens in 2026.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/06/genpact-g-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-06",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "Three-pillar agentic operations model",
+          "detail": "Genpact defines 'agentic operations' through three pillars: (1) Domain-specific agents executing tasks autonomously, (2) Last-mile experts validating exceptions and training models, (3) Clear roles, governance underpinned by responsible AI. This is a structural framework for how humans and AI agents work together.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/06/genpact-g-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-06",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "7,000 AI builders, 20,000 AI practitioners, 400+ GenAI solutions",
+          "detail": "Over 7,000 AI builders trained, nearly 20,000 AI practitioners trained. More than 400 GenAI solutions deployed or going live (nearly tripled from prior year). Launched AI Maestro platform for embedding AI into processes. Data and AI pipeline up 50% YoY.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/06/genpact-g-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-06",
+          "keywordCategory": "workforce"
+        },
+        {
+          "title": "Revenue model shift: 48% of Q4 revenue is non-FTE (recurring, not headcount-based)",
+          "detail": "48% of Q4 revenue came from non-FTE revenue models. This is a fundamental structural shift for a BPO company — moving from selling labor to selling AI-powered solutions. $200M total contract value in accounts payable agentic solutions alone, with 40%+ from new clients.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/06/genpact-g-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-06",
+          "keywordCategory": "structural"
+        },
+        {
+          "title": "Partner ecosystem revenue grew 50% — AWS, Microsoft, GCP, Databricks",
+          "detail": "Partner-related revenue grew nearly 50% YoY, supported by collaborations with AWS, Microsoft, GCP, and Databricks.",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/06/genpact-g-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-06",
+          "keywordCategory": "deployment"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "We are setting the standard for AI-led transformation...connecting deep functional understanding, proprietary data, AI, and agentic systems to truly integrate AI.",
+          "speaker": "Balkrishan Kalra, CEO",
+          "context": "Q4 2025 earnings call, describing Genpact's strategic positioning in agentic AI",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/06/genpact-g-q4-2025-earnings-call-transcript/"
+        }
+      ],
+      "specimenRelevance": "HIGH — Genpact is possibly the most structurally interesting find in this sweep. A BPO company that has created a separate high-margin AI unit (Advanced Technology Solutions) generating 2x revenue per headcount, while fundamentally shifting its business model from FTE-based to non-FTE recurring revenue (48% of Q4). The three-pillar agentic operations model (autonomous agents + last-mile human experts + governance) is a concrete structural framework for human-AI collaboration. Strong candidate for Model 7 (Dual Operating System) — running the traditional BPO business alongside a fast-growing AI services business with a completely different economic model."
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest Inc.",
+      "ticker": "PINS",
+      "industry": "Social Media / Technology",
+      "status": "new",
+      "specimenSlug": null,
+      "quarter": "Q4 2025",
+      "observations": [
+        {
+          "title": "15% workforce cut to hire AI-proficient talent",
+          "detail": "Pinterest cut 15% of its workforce in January 2026, explicitly framing it as organizational changes to deliver on its 'AI-forward strategy,' which includes hiring AI-proficient talent to replace those let go.",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "workforce"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "MEDIUM — The 15% cut with explicit AI-talent replacement framing is notable as a workforce restructuring case, but we have limited structural detail about how AI work is organized at Pinterest."
+    },
+    {
+      "id": "hp-inc",
+      "name": "HP Inc.",
+      "ticker": "HPQ",
+      "industry": "Technology / Hardware",
+      "status": "new",
+      "specimenSlug": null,
+      "quarter": "Q4 2025",
+      "observations": [
+        {
+          "title": "4,000-6,000 job cuts to increase productivity through AI, targeting $1B savings by FY2028",
+          "detail": "HP announced November 2025 it would reduce global headcount by 4,000-6,000 employees as part of an initiative to increase productivity using AI, targeting $1B in savings by fiscal year 2028.",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "workforce"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "LOW — Workforce reduction with AI rationale but no structural detail about how AI work is organized. Insufficient for specimen creation without additional research."
+    },
+    {
+      "id": "accenture",
+      "name": "Accenture plc",
+      "ticker": "ACN",
+      "industry": "Professional Services / Consulting",
+      "status": "new",
+      "specimenSlug": null,
+      "quarter": "Q4 2025",
+      "observations": [
+        {
+          "title": "11,000 role cuts tied to AI-driven work changes, reskilling-or-exit approach",
+          "detail": "Accenture announced December 2025 it would cut roughly 11,000 roles as part of restructuring tied to how work is changing. CEO Julie Sweet stated that 'those we cannot reskill will be exited.' This represents a reskilling-first, then-exit approach to AI workforce transformation.",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "workforce"
+        }
+      ],
+      "quotes": [],
+      "specimenRelevance": "MEDIUM — Accenture is already partially covered via accenture-openai specimen. The 11,000 cuts and reskilling-or-exit framing is new enrichment data. Worth adding as a stratigraphy layer."
+    },
+    {
+      "id": "sap",
+      "name": "SAP SE",
+      "ticker": "SAP",
+      "industry": "Enterprise Software",
+      "status": "existing-enrichment",
+      "specimenSlug": "sap",
+      "quarter": "Q4 2025",
+      "observations": [
+        {
+          "title": "Business AI included in two-thirds of Q4 cloud order entry",
+          "detail": "SAP Business AI was included in two-thirds of Q4 cloud order entry — up more than 20 percentage points from Q3. 90% of the 50 largest Q4 deals included AI or SAP Business Data Cloud. Total Cloud Backlog grew 30% to a record 77 billion euros.",
+          "sourceUrl": "https://news.sap.com/2026/01/sap-announces-q4-and-fy-2025-results/",
+          "sourceDate": "2026-01-29",
+          "keywordCategory": "deployment"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Q4 was a strong cloud quarter, with bookings resulting in 30% Total Cloud Backlog growth to a record 77 billion Euros. The significant Current Cloud Backlog growth in Q4 has laid a strong foundation for accelerating Total Revenue growth through 2027. SAP Business AI has become a main driver for growth as it was included in two thirds of our Q4 cloud order entry, combined with strong AI adoption across the ERP Suite.",
+          "speaker": "Christian Klein, CEO",
+          "context": "Q4 FY2025 earnings announcement, describing AI adoption acceleration",
+          "sourceUrl": "https://news.sap.com/2026/01/sap-announces-q4-and-fy-2025-results/"
+        }
+      ],
+      "specimenRelevance": "MEDIUM — Enrichment for existing SAP specimen. The 2/3 AI inclusion rate in cloud orders is a significant acceleration from prior quarters. Mostly deployment/commercial data, not new structural information."
+    },
+    {
+      "id": "workday",
+      "name": "Workday Inc.",
+      "ticker": "WDAY",
+      "industry": "Enterprise Software / HCM",
+      "status": "new",
+      "specimenSlug": null,
+      "quarter": "Q4 2025",
+      "observations": [
+        {
+          "title": "1,750 job cuts to realign resources for AI opportunity",
+          "detail": "Workday cut approximately 1,750 jobs in February 2025. CEO Carl Eschenbach framed it as resource realignment for AI-driven customer needs.",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+          "sourceDate": "2026-02-05",
+          "keywordCategory": "workforce"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "This creates a massive opportunity for us, but we need to make some changes to better align our resources with our customers' evolving needs",
+          "speaker": "Carl Eschenbach, CEO",
+          "context": "Announcing workforce reduction tied to AI strategy realignment",
+          "sourceUrl": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/"
+        }
+      ],
+      "specimenRelevance": "LOW — Workforce cut with AI rationale but no structural detail about AI organization."
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "AI-attributed layoffs reached 55,000 in 2025 — 12x the number from two years prior",
+      "detail": "Companies increasingly cite AI explicitly in layoff announcements. However, economists suggest some firms may use AI as cover for cuts related to past overhiring rather than genuine technological displacement.",
+      "evidence": "CBS News analysis of 2025-2026 layoff announcements across tech, manufacturing, and professional services. Source: https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/"
+    },
+    {
+      "trend": "BPO/IT services firms are the structural canary — shifting from FTE-based to non-FTE revenue models",
+      "detail": "Genpact (48% non-FTE revenue), Cognizant ('digital labor' as Vector 3), and Accenture (reskill-or-exit) all show the same pattern: traditional labor-arbitrage business models being restructured around AI-powered delivery. The structural tension is between the existing FTE-based revenue model and the emerging non-FTE model where AI agents do the work.",
+      "evidence": "Genpact Q4 2025 earnings (48% non-FTE), Cognizant Q4 2025 earnings (three-vector strategy), Accenture December 2025 restructuring announcement"
+    },
+    {
+      "trend": "Professional information companies are simultaneously displacing their own workforce and selling AI products",
+      "detail": "Thomson Reuters shows a particularly clear dual dynamic: spending $39M+ on severance for AI-displaced workers while also growing AI-enabled product revenue (28% of ACV). The internal productivity platform (Open Arena) and external products (CoCounsel) create parallel deployment tracks.",
+      "evidence": "Thomson Reuters Q4 2025 earnings: $19M Q4 severance + $20M planned 2026 severance; 28% ACV from GenAI products; Open Arena at 85% adoption"
+    },
+    {
+      "trend": "Agentic AI is the dominant framing in Q4 2025 earnings — replacing 'copilot' language",
+      "detail": "Multiple companies across sectors (Genpact, Cognizant, Thomson Reuters, AGCO) used 'agentic' to describe their AI strategy. Genpact formalized it as 'agentic operations' with three pillars. This suggests a shift from augmentation framing (copilot) to autonomous task execution (agents).",
+      "evidence": "Genpact three-pillar agentic operations model; Cognizant 30% agentic developer effort; Thomson Reuters agentic features for CoCounsel; AGCO 160 agentic AI projects"
+    }
+  ],
+  "purposeClaimsDiscovered": [
+    {
+      "note": "Genpact CEO Balkrishan Kalra — 'setting the standard for AI-led transformation' language worth investigating for purpose claims if Genpact becomes a specimen",
+      "specimenId": "genpact",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/06/genpact-g-q4-2025-earnings-call-transcript/"
+    },
+    {
+      "note": "Thomson Reuters CEO Steve Hasker — 'reimagine how we work' framing while announcing severance costs. Potential purpose-as-authorization for workforce displacement.",
+      "specimenId": "thomson-reuters",
+      "sourceUrl": "https://www.defenseworld.net/2026/02/07/thomson-reuters-q4-earnings-call-highlights.html"
+    }
+  ]
+}

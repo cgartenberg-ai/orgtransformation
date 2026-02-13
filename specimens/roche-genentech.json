@@ -11,8 +11,8 @@
     "secondaryModelName": null,
     "orientation": "Structural",
     "orientationName": "Structural",
-    "confidence": "Low",
-    "classificationRationale": "Reclassified from M1 (Research Lab) to M3 (Embedded Teams). The 'Lab in a Loop' concept embeds computational prediction directly into wet lab research cycles rather than operating as a separate AI research unit. The description explicitly states 'rather than treating AI as a separate function' — this anti-separation pattern is M3, not M1. Confidence lowered to Low due to thin evidence base (legacy sources without URLs, sparse organizational structure details). Added to low-confidence research queue for deeper investigation.",
+    "confidence": "Medium",
+    "classificationRationale": "Reclassified from M1 (Research Lab) to M3 (Embedded Teams). The 'Lab in a Loop' concept embeds computational prediction directly into wet lab research cycles rather than operating as a separate AI research unit. Aviv Regev (Head of gRED) explicitly describes this as an 'inflection point' where AI redefines drug discovery through tight integration. The NVIDIA partnership and Recursion collaboration (up to $12B) further demonstrate embedded computational capability within research workflows. Confidence upgraded to Medium with new primary source evidence.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -24,24 +24,31 @@
     "headquarters": "Basel, Switzerland (Roche) / South San Francisco, CA (Genentech)",
     "geography": "Global"
   },
-  "description": "Roche's gRED Computational Sciences group pioneered the 'Lab in a Loop' concept — integrating computational prediction with wet lab validation in tight cycles. Rather than treating AI as a separate function, the model creates a continuous feedback loop where in silico predictions drive wet lab experiments, and experimental results improve the models.\n\nThe Prescient Design acquisition brought dedicated AI protein design capabilities, complementing internal computational sciences. The $12B commitment to computational sciences signals the scale of investment in this research-first approach.\n\nThe structural arrangement maintains the computational sciences group as a distinct research entity within Roche's broader R&D organization (gRED), while requiring tight integration with wet lab teams. This creates a productive tension between computational exploration and experimental validation.",
+  "description": "Roche's gRED Computational Sciences group pioneered the 'Lab in a Loop' concept — integrating computational prediction with wet lab validation in tight cycles. Rather than treating AI as a separate function, the model creates a continuous feedback loop where in silico predictions drive wet lab experiments, and experimental results improve the models.\n\nThe Prescient Design acquisition brought dedicated AI protein design capabilities, complementing internal computational sciences. The $12B commitment to computational sciences signals the scale of investment in this research-first approach.\n\nThe structural arrangement maintains the computational sciences group as a distinct research entity within Roche's broader R&D organization (gRED), while requiring tight integration with wet lab teams. This creates a productive tension between computational exploration and experimental validation.\n\nRecent expansion includes the Roche Genentech Innovation Center Boston at Harvard's Enterprise Research Campus (March 2025), focusing on Cardiovascular and Renal research. Strategic partnerships with NVIDIA (multi-year AI research collaboration) and Recursion (up to $12B AI drug discovery effort) demonstrate the embedded computational approach scaling through external collaboration.",
   "observableMarkers": {
-    "reportingStructure": "gRED Computational Sciences group within Roche's R&D organization. Prescient Design integrated as acquisition.",
-    "resourceAllocation": "$12B committed to computational sciences",
+    "reportingStructure": "gRED Computational Sciences group within Roche's R&D organization, led by Aviv Regev (Head of gRED). Prescient Design integrated as acquisition. New Innovation Center in Boston.",
+    "resourceAllocation": "Up to $12B committed through Recursion partnership; multi-year NVIDIA collaboration",
     "timeHorizons": "Multi-year drug discovery timelines with tight iterative cycles within projects",
     "decisionRights": null,
-    "metrics": "$12B committed to computational sciences"
+    "metrics": "Up to $12B partnership with Recursion for AI drug discovery"
   },
   "mechanisms": [
     {
       "id": 3,
       "name": "Embed Product at Research Frontier",
-      "evidence": "The 'Lab in a Loop' concept directly embeds computational prediction into the wet lab research process — each prediction cycle drives the next experiment, creating tight integration between AI capability and research frontier.",
+      "evidence": "The 'Lab in a Loop' concept directly embeds computational prediction into the wet lab research process — each prediction cycle drives the next experiment, creating tight integration between AI capability and research frontier. Aviv Regev describes this as an 'inflection point' where AI redefines drug discovery.",
       "strength": "Strong"
     }
   ],
   "quotes": [],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Added 4 new sources with URLs including first primary source (Aviv Regev on 'lab in a loop'). Confirmed NVIDIA partnership, Boston Innovation Center launch, and Recursion $12B deal. Upgraded confidence from Low to Medium.",
+      "classification": "Model 3",
+      "sourceRefs": ["source-3", "source-4", "source-5", "source-6"]
+    },
     {
       "date": "2026-02",
       "label": "Reclassification: M1 → M3, Confidence Lowered",
@@ -90,12 +97,52 @@
       "sourceDate": null,
       "collectedDate": "2026-01-20",
       "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Roche Genentech Innovation Center Boston launched",
+      "url": "https://www.roche.com/media/releases/med-cor-2025-03-07",
+      "timestamp": null,
+      "sourceDate": "2025-03-07",
+      "collectedDate": "2026-02-07",
+      "notes": "New Innovation Center at Harvard's Enterprise Research Campus in Allston, focusing on Cardiovascular and Renal research"
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "Genentech-NVIDIA multi-year AI research collaboration",
+      "url": "https://www.roche.com/investors/updates/inv-update-2023-11-21",
+      "timestamp": null,
+      "sourceDate": "2023-11-21",
+      "collectedDate": "2026-02-07",
+      "notes": "Strategic collaboration coupling Genentech's AI capabilities with NVIDIA's accelerated computing"
+    },
+    {
+      "id": "source-5",
+      "type": "Press",
+      "name": "Aviv Regev's 'lab in a loop' mechanism at Genentech",
+      "url": "https://www.roche.com/stories/ai-revolutionising-drug-discovery-and-transforming-patient-care",
+      "timestamp": null,
+      "sourceDate": "2025-01-01",
+      "collectedDate": "2026-02-07",
+      "notes": "Aviv Regev (Head of gRED) describes 'inflection point' where AI redefines drug discovery through 'lab in a loop' mechanism"
+    },
+    {
+      "id": "source-6",
+      "type": "Press",
+      "name": "Roche-Genentech-Recursion up to $12B AI drug discovery partnership",
+      "url": "https://www.genengnews.com/news/roche-genentech-recursion-launch-up-to-12b-ai-drug-discovery-effort/",
+      "timestamp": null,
+      "sourceDate": "2025-01-01",
+      "collectedDate": "2026-02-07",
+      "notes": "One of the largest pharma-AI partnerships by total deal value"
     }
   ],
   "contingencies": {
     "regulatoryIntensity": "High",
     "timeToObsolescence": "Slow",
-    "ceoTenure": null,
+    "ceoTenure": "Medium. Thomas Schinecker became CEO in 2023 (~3 years). Brought in for transformation after Schwan. Not yet long-tenured but has board mandate.",
     "talentMarketPosition": "Talent-rich",
     "technicalDebt": "Medium"
   },
@@ -110,17 +157,18 @@
     "How large is the gRED Computational Sciences group (headcount)?",
     "How does the Lab in a Loop model differ between small molecule and biologics discovery?",
     "What is the Prescient Design team's current integration status within Roche?",
-    "How does Roche's approach compare to other pharma AI labs (Recursion, Sanofi)?"
+    "What specific AI capabilities does the Boston Innovation Center house?"
   ],
   "taxonomyFeedback": [
     "Roche was reclassified from M1 to M3. The 'Lab in a Loop' tight integration pattern is the opposite of ring-fenced separation. Key lesson: the nature of the work (research) doesn't determine the model — the organizational structure does.",
-    "Roche's dual-site structure (Basel + South San Francisco/Genentech) adds geographic complexity to the AI organizational model."
+    "Roche's dual-site structure (Basel + South San Francisco/Genentech) adds geographic complexity to the AI organizational model.",
+    "[2026-02] New primary source confirms Aviv Regev's leadership and 'lab in a loop' framing. The NVIDIA and Recursion partnerships strengthen M3 classification — computational capability is embedded into research workflows rather than separated. Boston expansion suggests geographic scaling of the embedded model."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-02",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Medium",
     "convertedFrom": "library/cases/roche-genentech.json"
   }
 }

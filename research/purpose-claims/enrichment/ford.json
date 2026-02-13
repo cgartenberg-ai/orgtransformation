@@ -1,0 +1,38 @@
+{
+  "specimenId": "ford",
+  "scannedDate": "2026-02-12",
+  "claimCount": 12,
+  "quality": "rich",
+  "searchesCompleted": 6,
+  "urlsFetched": 7,
+  "fetchFailures": [
+    "gurufocus.com (403)",
+    "fordauthority.com (403)",
+    "biztechweekly.com (403)",
+    "axios.com (403)"
+  ],
+  "claimTypeDistribution": {
+    "utopian": 0,
+    "teleological": 3,
+    "higher-calling": 2,
+    "identity": 1,
+    "survival": 5,
+    "commercial-success": 1
+  },
+  "keyFindings": [
+    "Farley's AI discourse is almost entirely workforce-centric, not product-centric. He rarely discusses AI in vehicles or manufacturing AI tools; instead he speaks about what AI does to workers and what society owes displaced workers. This is unique among Fortune 500 CEOs.",
+    "The 'essential economy' thesis—that everything moved, built, or fixed matters more than knowledge work—is Farley's signature contribution to the AI discourse. It functions as both a moral claim (higher-calling) and a strategic positioning device (identity). Larry Summers endorsed it at Aspen.",
+    "Ford's purpose claims cluster heavily in survival and higher-calling types with almost no utopian or commercial-success claims. This is the inverse of tech company CEOs (Nadella, Pichai, Huang) who lead with utopian/commercial-success framing.",
+    "Doug Field is virtually absent from AI purpose discourse despite leading Ford's most advanced AI work (Latitude AI, skunkworks). His only purpose claim is a single press release quote from 2023. This suggests a deliberate division of rhetorical labor: Farley owns the public narrative, Field builds in silence."
+  ],
+  "rhetoricalPatterns": [
+    "Anti-hype positioning: Farley consistently refuses to make optimistic AI predictions ('it's hard to say that today,' 'it's not going to be 80%'). This epistemic humility is rare and functions as a credibility-building device.",
+    "Paradox surfacing: Farley repeatedly identifies structural contradictions in AI discourse—data centers need electricians, reshoring needs workers who don't exist, AI creates wealth for some while leaving others behind. This 'irony of the irony' rhetoric positions him as the only clear-eyed observer.",
+    "Moral obligation framing: Multiple claims use 'we have to' or 'we need to' language that frames workforce investment as duty, not choice. This is higher-calling rhetoric even when the surface claim is about strategy.",
+    "Historical anchoring: Farley cites past automation waves as cautionary precedent, breaking from the standard CEO narrative that technology creates more jobs than it destroys."
+  ],
+  "comparativeNotes": "Farley is a rhetorical outlier in the CEO AI discourse. Where Nadella speaks in utopian terms about empowerment, Pichai in teleological terms about responsible AI, and Huang in commercial-success terms about accelerated computing, Farley speaks in survival + higher-calling terms about human dignity in the face of displacement. He is closer to Pope Francis than to Jensen Huang. The Aspen Ideas Festival is his primary venue—not earnings calls or tech conferences—which signals that his audience is policymakers and public intellectuals, not investors. This is a CEO using the bully pulpit for social advocacy, not shareholder reassurance.",
+  "notableAbsences": "Almost no commercial-success claims about AI at Ford specifically. Farley does not say 'AI will make our cars better' or 'AI is improving our margins.' The Q3/Q4 2025 earnings calls apparently discuss AI deployment across the industrial system (900 cameras, CAD improvements), but Farley's public-facing purpose claims are exclusively about workforce and society. This is a striking gap—he cedes the 'AI makes us more competitive' narrative to let the numbers speak. Also notable: no utopian claims whatsoever. Farley never says AI will transform civilization for the better.",
+  "correctedLeaderInfo": null,
+  "scanNarrative": "Jim Farley's AI purpose claims are among the most distinctive in our collection—not for their ambition, but for their restraint and moral seriousness. Where most Fortune 500 CEOs treat AI as a commercial opportunity wrapped in utopian language, Farley treats it as a societal rupture that demands an ethical response. His signature contribution to the AI discourse is the 'essential economy' concept: the idea that the 95 million Americans who move, build, and fix things have been systematically undervalued by a society that fetishizes knowledge work, and that AI's displacement of white-collar workers will only deepen this distortion unless we intervene.\n\nThe rhetorical structure of Farley's claims follows a consistent pattern: establish threat (survival), assert obligation (higher-calling), specify remedy (teleological). He opens with shock quantification ('literally half of all white-collar workers'), moves to moral language ('valuable humans,' 'we have to have a plan'), and lands on policy prescription ('trade schools,' 'vocational education,' 'essential economy investment'). This three-step sequence appears across multiple venues—Aspen Ideas Festival, Bloomberg TV, Fortune interviews—suggesting a deliberately constructed narrative rather than ad hoc commentary.\n\nWhat makes Ford's purpose claims collection particularly interesting for our project is the near-total absence of the claim types that dominate tech-sector specimens. There are no utopian claims about AI transforming civilization. There are no commercial-success claims about AI improving Ford's competitive position. The single commercial-success-adjacent claim ('I hope that it will be a help, but it's hard to say that today') is actually an anti-claim—a deliberate refusal to make the standard CEO promise. This inversion is analytically valuable: it shows that purpose claims are not just about what leaders say, but about what they conspicuously refuse to say.\n\nDoug Field's virtual absence from purpose discourse is equally telling. As the executive who leads Ford's most advanced AI work (Latitude AI, the affordable EV skunkworks), Field would be the natural voice for product-centric AI claims. His silence—broken only by a single 2023 press release quote about 'redefining the relationship between people and their vehicles'—suggests a deliberate division of rhetorical labor at Ford. Farley speaks to society about what AI means; Field builds in silence. This pattern echoes the structural ambidexterity of Ford+ itself: the public narrative and the technical work are organizationally separated."
+}

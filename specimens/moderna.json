@@ -26,8 +26,8 @@
   },
   "description": "Moderna exemplifies the enterprise-wide adoption model where the 'lab' is the entire organization. The company set a goal of achieving 100% AI proficiency across all employees with access to digital solutions within six months, supported by a structured three-layer change management approach.\n\nThe three layers operate as: Individual (in-depth research, listening programs, trainings), Collective (AI prompt contest identified top 100 power users who became 'Generative AI Champions'), and Structural (AI Academy evolved from educational content to an innovation incubator for AI capability, projects, and ideas). mChat, Moderna's internal chatbot on OpenAI's API, achieved 80%+ employee adoption. Since deploying ChatGPT Enterprise, the company has generated 750+ custom GPTs.\n\nAfter reporting a $1B quarterly loss in 2025, Moderna restructured to treat AI as a collaborator rather than a tool, creating a new role of Chief People and Digital Technology Officer overseeing merged HR and tech departments. This enables 'work planning' instead of 'workforce planning' — managing work outputs rather than headcount. The informational nature of mRNA technology provides natural AI-biology fit.",
   "observableMarkers": {
-    "reportingStructure": "New Chief People and Digital Technology Officer role merges HR and tech departments. AI Champions serve as distributed enablers.",
-    "resourceAllocation": null,
+    "reportingStructure": "New Chief People and Digital Technology Officer role merges HR and tech departments. AI Champions serve as distributed enablers. Tracey Franklin's role expanded from CHRO to Chief People and Digital Technology Officer (confirmed Jan 2026).",
+    "resourceAllocation": "$2B annual opex reduction achieved, with GPT tools contributing to productivity gains.",
     "timeHorizons": "6-month proficiency targets; continuous evolution of AI Academy",
     "decisionRights": null,
     "metrics": "80%+ mChat adoption. 750+ custom GPTs. 100% proficiency target. Top 100 AI Champions identified through prompt contest."
@@ -40,8 +40,23 @@
       "strength": "Strong"
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "driving productivity, including by the use of more digital tools, including a large number of GPTs.",
+      "speaker": "Stephane Bancel",
+      "speakerTitle": "CEO",
+      "context": "Q3 2025 earnings call, discussing cost reduction levers",
+      "sourceRef": "source-5"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Added Q3 2025 earnings quote from CEO Bancel linking GPTs to productivity and cost reduction. Confirmed Tracey Franklin's expanded role as Chief People and Digital Technology Officer (from CHRO). Added $2B opex reduction context showing AI tools contributing to aggressive cost management.",
+      "classification": null,
+      "sourceRefs": ["source-5", "source-6"]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
@@ -104,12 +119,32 @@
       "sourceDate": null,
       "collectedDate": "2026-01-20",
       "notes": "[no URL — legacy conversion]"
+    },
+    {
+      "id": "source-5",
+      "type": "Earnings Call",
+      "name": "Moderna Q3 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2025/12/11/moderna-mrna-q3-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "sourceDate": "2025-12-11",
+      "collectedDate": "2026-02-07",
+      "notes": "GPT tools referenced for productivity but no detailed structural AI discussion"
+    },
+    {
+      "id": "source-6",
+      "type": "Press",
+      "name": "Moderna JP Morgan Conference Update",
+      "url": "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/moderna-provides-business-and-pipeline-updates-at-44th-annual-j.p.-mo-1125969",
+      "timestamp": null,
+      "sourceDate": "2026-01-13",
+      "collectedDate": "2026-02-07",
+      "notes": "Chief People and Digital Technology Officer role confirmed — Tracey Franklin's expanded role"
     }
   ],
   "contingencies": {
     "regulatoryIntensity": "High",
     "timeToObsolescence": "Medium",
-    "ceoTenure": null,
+    "ceoTenure": "Founder-era. Stéphane Bancel CEO since 2011 (15 years). Built the company from near-scratch. Unique authority to mandate 100% AI adoption.",
     "talentMarketPosition": "Talent-rich",
     "technicalDebt": "Low"
   },
@@ -121,20 +156,21 @@
     "longVsShortHorizon": 0.3
   },
   "openQuestions": [
-    "How has the $1B loss affected AI investment and adoption momentum?",
     "What specific AI applications are being used in mRNA drug design vs. corporate functions?",
     "How does the merged HR/Tech department under Chief People and Digital Technology Officer work in practice?",
-    "What happened after the 6-month proficiency deadline — was 100% adoption achieved?"
+    "What happened after the 6-month proficiency deadline — was 100% adoption achieved?",
+    "How much of the $2B opex reduction is directly attributable to AI/GPT tools vs. other cost cuts?"
   ],
   "taxonomyFeedback": [
     "Moderna's three-layer change management (Individual, Collective, Structural) is a well-articulated framework for enterprise-wide AI adoption that could inform taxonomy descriptions of Model 6a.",
-    "The mRNA-AI fit ('informational nature of mRNA lends itself to AI') suggests industry-specific habitat conditions that make certain models more natural."
+    "The mRNA-AI fit ('informational nature of mRNA lends itself to AI') suggests industry-specific habitat conditions that make certain models more natural.",
+    "[2026-02] Earnings call language is notably thin on AI structure — CEO mentions 'a large number of GPTs' but no details on how these are governed or coordinated. This supports classification as 6a (informal/contextual) rather than a more structured model. The Chief People and Digital Technology Officer role is interesting structurally — merging HR and Tech suggests Moderna is treating AI adoption as fundamentally a people/change management challenge, not a technology problem."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Medium",
     "convertedFrom": "library/cases/moderna.json"
   }
 }

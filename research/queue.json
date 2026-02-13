@@ -1,11 +1,11 @@
 {
-  "description": "Curation queue \u2014 research sessions awaiting Phase 2 processing. Updated by Phase 1 (add entries) and Phase 2 (mark curated).",
-  "lastUpdated": "2026-02-04",
+  "description": "Curation queue — research sessions awaiting Phase 2 processing. Updated by Phase 1 (add entries) and Phase 2 (mark curated).",
+  "lastUpdated": "2026-02-12",
   "queue": [
     {
       "sessionFile": "2026-01-31-no-priors-jensen-huang.md",
       "sessionDate": "2026-01-31",
-      "source": "No Priors \u2014 Jensen Huang (2026-01-08)",
+      "source": "No Priors — Jensen Huang (2026-01-08)",
       "organizationsFound": [
         "nvidia"
       ],
@@ -30,7 +30,7 @@
         "harvey-ai"
       ],
       "status": "curated",
-      "curatedIn": "2026-01-31-curation.md"
+      "curatedIn": "2026-02-09-overnight-curate.md"
     },
     {
       "sessionFile": "2026-01-31-substacks-bg2-press.md",
@@ -52,12 +52,12 @@
         "tesla"
       ],
       "status": "curated",
-      "curatedIn": "2026-01-31-curation.md"
+      "curatedIn": "2026-02-09-overnight-curate.md"
     },
     {
       "sessionFile": "2026-01-31-bulk-review-batch1.md",
       "sessionDate": "2026-01-31",
-      "source": "Bulk curation review \u2014 legacy specimens (batch 1/4: High + Medium + first Low)",
+      "source": "Bulk curation review — legacy specimens (batch 1/4: High + Medium + first Low)",
       "organizationsFound": [
         "google-x",
         "bank-of-america",
@@ -71,12 +71,12 @@
         "bcg-trailblazers"
       ],
       "status": "curated",
-      "curatedIn": "2026-01-31-batch1-curation.md"
+      "curatedIn": "2026-02-09-overnight-curate.md"
     },
     {
       "sessionFile": "2026-01-31-bulk-review-batch2.md",
       "sessionDate": "2026-01-31",
-      "source": "Bulk curation review \u2014 legacy specimens (batch 2/4)",
+      "source": "Bulk curation review — legacy specimens (batch 2/4)",
       "organizationsFound": [
         "bosch-bcai",
         "bytedance",
@@ -91,12 +91,12 @@
         "lg-electronics"
       ],
       "status": "curated",
-      "curatedIn": "2026-01-31-batch2-curation.md"
+      "curatedIn": "2026-02-09-overnight-curate.md"
     },
     {
       "sessionFile": "2026-01-31-bulk-review-batch3.md",
       "sessionDate": "2026-01-31",
-      "source": "Bulk curation review \u2014 legacy specimens (batch 3/4)",
+      "source": "Bulk curation review — legacy specimens (batch 3/4)",
       "organizationsFound": [
         "mckinsey-quantumblack",
         "mckinsey-workforce",
@@ -111,12 +111,12 @@
         "sap"
       ],
       "status": "curated",
-      "curatedIn": "2026-01-31-batch3-curation.md"
+      "curatedIn": "2026-02-09-overnight-curate.md"
     },
     {
       "sessionFile": "2026-01-31-bulk-review-batch4.md",
       "sessionDate": "2026-01-31",
-      "source": "Bulk curation review \u2014 legacy specimens (batch 4/4)",
+      "source": "Bulk curation review — legacy specimens (batch 4/4)",
       "organizationsFound": [
         "schneider-electric",
         "servier",
@@ -164,7 +164,7 @@
         "citigroup"
       ],
       "status": "curated",
-      "curatedIn": "2026-01-31-deep-scan-curation.md"
+      "curatedIn": "2026-02-09-overnight-curate.md"
     },
     {
       "sessionFile": "2026-01-31-tier2-podcasts-press-session.md",
@@ -181,7 +181,7 @@
         "ups"
       ],
       "status": "curated",
-      "curatedIn": "2026-01-31-tier2-curation.md"
+      "curatedIn": "2026-02-09-overnight-curate.md"
     },
     {
       "sessionFile": "2026-02-01-001-research-press-podcasts-reports.md",
@@ -209,7 +209,7 @@
         "amazon"
       ],
       "status": "curated",
-      "curatedIn": "2026-02-02-curation.md"
+      "curatedIn": "2026-02-09-overnight-curate.md"
     },
     {
       "sessionFile": "2026-02-03-001-research-podcasts-press-substacks.md",
@@ -223,7 +223,7 @@
         "microsoft"
       ],
       "status": "curated",
-      "curatedIn": "2026-02-04-curation.md"
+      "curatedIn": "2026-02-09-overnight-curate.md"
     },
     {
       "sessionFile": "2026-02-03-002-research-press-podcasts-ai-labs.md",
@@ -238,7 +238,7 @@
         "eli-lilly-nvidia"
       ],
       "status": "curated",
-      "curatedIn": "2026-02-04-curation.md"
+      "curatedIn": "2026-02-09-overnight-curate.md"
     },
     {
       "sessionFile": "2026-02-03-003-research-earnings-calls-press.md",
@@ -252,7 +252,7 @@
         "salesforce"
       ],
       "status": "curated",
-      "curatedIn": "2026-02-04-curation.md"
+      "curatedIn": "2026-02-09-overnight-curate.md"
     },
     {
       "sessionFile": "2026-02-04-001-earnings-q4-2025-wide-net.md",
@@ -268,7 +268,439 @@
         "rwjbarnabas-health"
       ],
       "status": "curated",
-      "curatedIn": "2026-02-04-curation.md"
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/apple.json",
+      "sessionDate": "2026-02-08",
+      "source": "overnight-research.py — Apple (Big Tech)",
+      "organizationsFound": [
+        "apple"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/anduril.json",
+      "sessionDate": "2026-02-08",
+      "source": "overnight-research.py — Anduril (Defense)",
+      "organizationsFound": [
+        "anduril"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/ford.json",
+      "sessionDate": "2026-02-08",
+      "source": "overnight-research.py — Ford (Automotive)",
+      "organizationsFound": [
+        "ford"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/general-motors.json",
+      "sessionDate": "2026-02-08",
+      "source": "overnight-research.py — General Motors (Automotive)",
+      "organizationsFound": [
+        "general-motors"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/lockheed-martin.json",
+      "sessionDate": "2026-02-08",
+      "source": "overnight-research.py — Lockheed Martin (Defense)",
+      "organizationsFound": [
+        "lockheed-martin"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/mayo-clinic.json",
+      "sessionDate": "2026-02-08",
+      "source": "overnight-research.py — Mayo Clinic (Healthcare)",
+      "organizationsFound": [
+        "mayo-clinic"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/toyota.json",
+      "sessionDate": "2026-02-08",
+      "source": "overnight-research.py — Toyota (Automotive)",
+      "organizationsFound": [
+        "toyota"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/unitedhealth-group.json",
+      "sessionDate": "2026-02-08",
+      "source": "overnight-research.py — UnitedHealth Group (Healthcare)",
+      "organizationsFound": [
+        "unitedhealth-group"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/disney.json",
+      "sessionDate": "2026-02-08",
+      "source": "overnight-research.py — Disney (Media / Entertainment)",
+      "organizationsFound": [
+        "disney"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/deere-and-co.json",
+      "sessionDate": "2026-02-08",
+      "source": "overnight-research.py — Deere & Co (Agriculture / Industrials)",
+      "organizationsFound": [
+        "deere-and-co"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/honeywell.json",
+      "sessionDate": "2026-02-08",
+      "source": "overnight-research.py — Honeywell (Industrials)",
+      "organizationsFound": [
+        "honeywell"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/bmw.json",
+      "sessionDate": "2026-02-08",
+      "source": "overnight-research.py — BMW (Automotive)",
+      "organizationsFound": [
+        "bmw"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/cvs-health.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — CVS Health (Healthcare)",
+      "organizationsFound": [
+        "cvs-health"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/mercedes-benz.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Mercedes-Benz (Automotive)",
+      "organizationsFound": [
+        "mercedes-benz"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/mount-sinai-health-system.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Mount Sinai Health System (Healthcare)",
+      "organizationsFound": [
+        "mount-sinai-health-system"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/sutter-health.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Sutter Health (Healthcare)",
+      "organizationsFound": [
+        "sutter-health"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/bloomberg.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Bloomberg (Media / Financial Data)",
+      "organizationsFound": [
+        "bloomberg"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/netflix.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Netflix (Media / Entertainment)",
+      "organizationsFound": [
+        "netflix"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/progressive.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Progressive (Insurance)",
+      "organizationsFound": [
+        "progressive"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/t-mobile.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — T-Mobile (Telecom)",
+      "organizationsFound": [
+        "t-mobile"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/visa.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Visa (Fintech / Payments)",
+      "organizationsFound": [
+        "visa"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/fedex.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — FedEx (Logistics)",
+      "organizationsFound": [
+        "fedex"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/kroger.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Kroger (Retail / Grocery)",
+      "organizationsFound": [
+        "kroger"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/nike.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Nike (Consumer / Retail)",
+      "organizationsFound": [
+        "nike"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/pepsico.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — PepsiCo (Consumer Goods / Manufacturing)",
+      "organizationsFound": [
+        "pepsico"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/uber.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Uber (Transportation / Mobility)",
+      "organizationsFound": [
+        "uber"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/blue-origin.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Blue Origin (Aerospace)",
+      "organizationsFound": [
+        "blue-origin"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/honda.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Honda (Automotive)",
+      "organizationsFound": [
+        "honda"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/lowes.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Lowe's (Retail / Home Improvement)",
+      "organizationsFound": [
+        "lowes"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/ulta-beauty.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Ulta Beauty (Retail / Beauty)",
+      "organizationsFound": [
+        "ulta-beauty"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/intel.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — Intel (Semiconductors)",
+      "organizationsFound": [
+        "intel"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/exxonmobil.json",
+      "sessionDate": "2026-02-09",
+      "source": "overnight-research.py — ExxonMobil (Energy)",
+      "organizationsFound": [
+        "exxonmobil"
+      ],
+      "status": "curated",
+      "curatedIn": "2026-02-09-overnight-curate.md"
+    },
+    {
+      "sessionFile": "research/pending/podcast-deep-scan-feb-2026.json",
+      "sessionDate": "2026-02-07",
+      "source": "Dwarkesh Podcast — Elon Musk (Feb 5, 2026)",
+      "organizationsFound": [
+        "xai",
+        "spacex-xai"
+      ],
+      "status": "pending",
+      "curatedIn": null,
+      "notes": "xAI: engineering-not-researcher identity, several hundred employees, Grok as Optimus orchestration layer. SpaceX-xAI: $1.25T merger, personal conglomerate model, infrastructure-sharing rationale. Both thin on internal org structure — may need additional research before curating."
+    },
+    {
+      "sessionFile": "research/pending/podcast-substack-sweep-feb-2026.json",
+      "sessionDate": "2026-02-12",
+      "source": "Tier 1 Podcasts + Substacks feed check (No Priors, Acquired, BG2, Latent Space, Stratechery, Mollick, Pragmatic Engineer) — Feb 3-12 window",
+      "organizationsFound": [
+        "rivian",
+        "meta-ai"
+      ],
+      "status": "pending",
+      "curatedIn": null,
+      "notes": "Rivian (new, MEDIUM priority — VP Autonomy, in-house silicon, vertical integration). Meta Compute pivot (HIGH — structural reallocation from Reality Labs to AI infra, update existing specimen). Lila Sciences (LOW, thin). BG2 on hiatus. Acquired no new eps."
+    },
+    {
+      "sessionFile": "research/pending/press-sweep-feb-2026.json",
+      "sessionDate": "2026-02-12",
+      "source": "Tier 1 Press keyword sweep (WSJ, FT, Reuters, Bloomberg, CNBC, Fortune) — Feb 1-12, 2026",
+      "organizationsFound": [
+        "xai",
+        "salesforce",
+        "amazon-agi",
+        "pinterest",
+        "workday",
+        "dow-chemical",
+        "klarna",
+        "lionsgate",
+        "kyndryl",
+        "infosys",
+        "asml"
+      ],
+      "status": "pending",
+      "curatedIn": null,
+      "notes": "xAI (new specimen — 4 divisions, SpaceX merger, co-founder exodus). Salesforce (major update — 5 departures, Inzerillo consolidation). Amazon (30K total cuts, management delayering). Pinterest (15% layoffs + internal dissent). Workday (founder return as CEO). Dow 'Transform to Outperform'. ASML (counter-example: restructuring NOT AI-driven). 5 broader trends: AI-washing debate, CAIO institutionalization, sequential layoff waves, Deloitte AI-native framework, management layer elimination. 5 purpose claims."
+    },
+    {
+      "sessionFile": "research/pending/caio-reorg-discovery-feb-2026.json",
+      "sessionDate": "2026-02-12",
+      "source": "CAIO Appointments + AI Restructuring Discovery — Feb 1-12, 2026",
+      "organizationsFound": [
+        "xai",
+        "lionsgate",
+        "fda-hhs",
+        "sk-telecom",
+        "columbia-group",
+        "anthropic",
+        "amazon-agi",
+        "dow-chemical",
+        "hp",
+        "intuit",
+        "uk-government",
+        "liverpool-city-region",
+        "verses-ai"
+      ],
+      "status": "pending",
+      "curatedIn": null,
+      "notes": "Anthropic Labs reshuffle (Krieger→Labs, Vora new product head, Sharma safety departure — HIGH). SK Telecom CIC→CTO promotion (HIGH). Intuit Foresight unit discovery (HIGH — led to deep scan). Lionsgate first entertainment CAIO. FDA/HHS federal CAIO appointments. UK govt + Liverpool regional CAIO. VERSES AI founder-to-operator transition. 7 purpose claims."
+    },
+    {
+      "sessionFile": "research/pending/xai-deep-scan-feb-2026.json",
+      "sessionDate": "2026-02-12",
+      "source": "xAI Deep Structural Scan — post-restructuring Feb 2026",
+      "organizationsFound": [
+        "xai"
+      ],
+      "status": "pending",
+      "curatedIn": null,
+      "notes": "Deep scan: 4 product divisions (Grok, Coding, Imagine, Macrohard), SpaceX acquisition ($1T+$250B), 6/12 co-founders departed, Macrohard 'AI-agent software company' division, 1000+ employees, MACROHARDRR $20B data center, public all-hands video. 8 rich purpose claims including departing co-founders. Musk explicitly frames explore→execute transition."
+    },
+    {
+      "sessionFile": "research/pending/intuit-caio-deep-scan-feb-2026.json",
+      "sessionDate": "2026-02-12",
+      "source": "Intuit CAIO Deep Scan — Intuit Foresight, GenOS, three-pillar AI org",
+      "organizationsFound": [
+        "intuit"
+      ],
+      "status": "pending",
+      "curatedIn": null,
+      "notes": "NEW specimen candidate — richest new discovery. M4 hub-spoke with 'Intuit Foresight' unit (merged AI + Futures teams), GenOS platform (4 components), 3-pillar AI org, dual AI tracks (outward Foresight + inward CoE), three-level goal framework. Key leaders: Srivastava (CAIO), Balazs (CTO), Lazarov (VP Tech), Ho (VP AI), Goodarzi (CEO). Reconstructed org chart, $100M+ OpenAI deal, multi-model strategy. 9 purpose claims from 4 different leaders. Assessment: HIGH — ready for curation."
+    },
+    {
+      "sessionFile": "research/pending/klarna-ai-backfire-feb-2026.json",
+      "sessionDate": "2026-02-12",
+      "source": "Klarna AI Backfire Deep Scan — complete reversal timeline 2022-2026",
+      "organizationsFound": [
+        "klarna"
+      ],
+      "status": "pending",
+      "curatedIn": null,
+      "notes": "Complete reversal timeline: 22% customer satisfaction drop, emergency cross-functional redeployment (engineers to call centers), 'Uber-style' hybrid rehiring model, IPO at $40 → stock below $31, investor class-action lawsuit, EU AI Act regulatory risk. CEO admission: 'cost unfortunately seems to have been a too predominant evaluation factor'. 5 purpose claims showing rhetorical arc from 'AI can do all jobs' to 'we went too far'. Agent notes: 'the single most valuable counter-example in our entire specimen collection.'"
+    },
+    {
+      "sessionFile": "research/pending/salesforce-evolution-feb-2026.json",
+      "sessionDate": "2026-02-12",
+      "source": "Salesforce Evolution Deep Scan — executive exodus + Agentforce consolidation Feb 2026",
+      "organizationsFound": [
+        "salesforce"
+      ],
+      "status": "pending",
+      "curatedIn": null,
+      "notes": "5 executive departures in 3 months (Dresser→OpenAI, Arkin, Aytay, Evans→startups, Kelman→AMD). 6 replacements. Inzerillo promoted to President Enterprise & AI Technology (consolidating Agentforce + Slack). Slack demoted from CEO-led to EVP/GM-led. 3 AI leaders in <3 years: Shih→Evans→Thattai (narrowing scope each time). Customer Zero model. Feb 2026 layoffs hitting Agentforce team itself. Benioff augmentation→replacement rhetorical arc. 12 rich purpose claims."
     }
   ]
 }

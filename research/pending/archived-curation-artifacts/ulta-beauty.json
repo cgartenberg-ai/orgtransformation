@@ -1,0 +1,170 @@
+{
+  "company": "Ulta Beauty",
+  "ticker": "ULTA",
+  "leader": "Kecia Steelman",
+  "leaderTitle": "CEO",
+  "sector": "Retail / Beauty",
+  "quadrant": "Q4",
+  "scannedDate": "2026-02-09",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.ciodive.com/news/Ulta-Beauty-AI-Agents-transformation-strategy/753994/ - returned JavaScript/tracking code only, no article content",
+    "https://wwd.com/beauty-industry-news/beauty-features/ulta-beauty-kecia-steelman-nrf-ai-international-1238452701/ - returned CSS/metadata only, no article content"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Contextual",
+    "confidence": "High",
+    "rationale": "Ulta Beauty has established a formal AI Center of Excellence led by CTTO Mike Maresca that brings together AI/ML engineers from across the organization. This central hub sets standards and develops capabilities while distributed teams (Digital Innovation, Supply Chain, Marketing) apply AI to their specific domains. The Virtual Beauty Advisor AI tool shows a hub-and-spoke model where central AI expertise produces customer-facing tools used across channels. Prisma Ventures provides an innovation arm. The orientation is Contextual because AI adoption is being embedded across all functions (associates using AI tools, marketing personalization, supply chain optimization) rather than isolated to a separate exploration unit.",
+    "aiTeamStructure": "AI Center of Excellence (central hub) created by CTTO Mike Maresca, pulling together AI/ML engineers from across the organization. Separate Digital Innovation team led by Juan Cardelino (Director of Computer Vision and Digital Innovation) handles consumer-facing AI like GlamLab and Virtual Try-On. Corporate venture arm Prisma Ventures invests in AI startups (Haut.ai, Adeptmind, Iterate.ai). No dedicated Chief AI Officer — AI reports through CTTO Mike Maresca and CDO Prama Bhatt.",
+    "keyPeople": [
+      {"name": "Kecia Steelman", "title": "President & CEO", "role": "Sets AI vision as part of Ulta Beauty Unleashed strategy; speaks publicly about AI personalization and agentic AI"},
+      {"name": "Mike Maresca", "title": "Chief Technology and Transformation Officer", "role": "Leads AI Center of Excellence; oversees technology modernization (Project SOAR); drives agentic AI adoption"},
+      {"name": "Prama Bhatt", "title": "Chief Digital Officer", "role": "Leads digital innovation including AI personalization, Quazi decisioning engine, generative AI exploration"},
+      {"name": "Juan Cardelino", "title": "Director of Computer Vision and Digital Innovation", "role": "Leads consumer-facing AI including GlamLab virtual try-on, skin analysis tools"}
+    ],
+    "investmentSignals": "Multi-year SAP modernization (Project SOAR) costing 'tens of millions of dollars' completed 2025. Prisma Ventures corporate venture fund investing in AI startups. 25-30% productivity improvement from AI coding tools (Gemini Code Assist). Leadership stated 2026 'will not be another big heavy investment year' — suggesting heavy investment period 2024-2025. CFO noted 'While these investments create near-term pressure, we expect they will support long-term revenue and market share growth.'",
+    "observableMarkers": {
+      "reportingStructure": "AI reports through CTTO (Mike Maresca) and CDO (Prama Bhatt). No dedicated CAIO. Both report to CEO Kecia Steelman.",
+      "resourceAllocation": "Dedicated AI Center of Excellence with cross-functional AI/ML engineers. Prisma Ventures for external AI investments. Significant CapEx in technology modernization through Project SOAR.",
+      "timeHorizons": "Mixed: Near-term AI deployment (supply chain, payroll tools) + longer-term agentic AI development. CEO: 'There is no finish line in our technology and our investments.'",
+      "decisionRights": "Centralized AI capability development (Center of Excellence) with distributed application (each function applies AI tools). Evaluating whether to deploy single unified AI assistant vs. specialized agents.",
+      "metrics": "Measuring: IT productivity (25-30% improvement from AI coding tools), e-commerce growth (double-digit for 3 quarters), loyalty members (46.3M), app penetration (65% of online member sales), ship-from-store expansion (1,000+ locations)."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "Our teams are adapting well to our new ways of working and we are steadily advancing our optimization efforts. During the quarter, we leveraged new AI and machine learning capabilities to drive supply chain efficiencies and launched scheduling and enhanced payroll management tools to optimize our efforts and support our cost saving goals.",
+      "speaker": "Kecia Steelman",
+      "speakerTitle": "President & CEO",
+      "source": "Q1 FY2025 Earnings Call",
+      "sourceUrl": "https://www.digitalcommerce360.com/2025/09/11/how-ulta-beauty-is-using-ai/",
+      "sourceDate": "2025-05",
+      "context": "Discussing AI's impact during fiscal Q1 2025 earnings call"
+    },
+    {
+      "text": "There is no finish line in our technology and our investments.",
+      "speaker": "Kecia Steelman",
+      "speakerTitle": "President & CEO",
+      "source": "PYMNTS",
+      "sourceUrl": "https://www.pymnts.com/artificial-intelligence-2/2025/ultas-digital-and-ai-investments-drive-growth-in-beauty-sales/",
+      "sourceDate": "2025",
+      "context": "Emphasizing ongoing commitment to technology investments"
+    },
+    {
+      "text": "Our investments to elevate the digital experience and accelerate personalization are really driving both channels up.",
+      "speaker": "Kecia Steelman",
+      "speakerTitle": "President & CEO",
+      "source": "PYMNTS",
+      "sourceUrl": "https://www.pymnts.com/artificial-intelligence-2/2025/ultas-digital-and-ai-investments-drive-growth-in-beauty-sales/",
+      "sourceDate": "2025",
+      "context": "Discussing digital and AI investments impact on sales"
+    },
+    {
+      "text": "It's not just a strategy, it's a way of being and you can feel it through the entire organization.",
+      "speaker": "Kecia Steelman",
+      "speakerTitle": "President & CEO",
+      "source": "NRF Big Show 2026",
+      "sourceUrl": "https://nrfbigshow.nrf.com/session/2370",
+      "sourceDate": "2026-01",
+      "context": "Discussing Ulta Beauty Unleashed strategy at NRF Big Show keynote"
+    },
+    {
+      "text": "The irony of generative AI is my hope that it actually becomes the most human thing that we do together because it allows people to leverage tools in a way that helps them do what they do even better and drive even more human connection.",
+      "speaker": "Prama Bhatt",
+      "speakerTitle": "Chief Digital Officer",
+      "source": "NRF Blog",
+      "sourceUrl": "https://nrf.com/blog/how-ulta-beauty-leverages-digital-innovation-customer-connection-and-personalization",
+      "sourceDate": "2025",
+      "context": "Discussing philosophy on AI and human connection"
+    },
+    {
+      "text": "The power of agents is really going to come to life next year as part of the Ulta Beauty story.",
+      "speaker": "Mike Maresca",
+      "speakerTitle": "Chief Technology and Transformation Officer",
+      "source": "Digital Commerce 360",
+      "sourceUrl": "https://www.digitalcommerce360.com/2025/09/11/how-ulta-beauty-is-using-ai/",
+      "sourceDate": "2025-09",
+      "context": "Discussing future agentic AI deployment plans"
+    },
+    {
+      "text": "Shoppers need to try out hair and makeup styles before they purchase.",
+      "speaker": "Juan Cardelino",
+      "speakerTitle": "Director of Computer Vision and Digital Innovation",
+      "source": "Digital Commerce 360",
+      "sourceUrl": "https://www.digitalcommerce360.com/2025/09/11/how-ulta-beauty-is-using-ai/",
+      "sourceDate": "2025-09",
+      "context": "Explaining the rationale for AI-powered virtual try-on"
+    },
+    {
+      "text": "While these investments create near-term pressure, we expect they will support long-term revenue and market share growth.",
+      "speaker": "Chris Lialios",
+      "speakerTitle": "Interim CFO",
+      "source": "PYMNTS",
+      "sourceUrl": "https://www.pymnts.com/artificial-intelligence-2/2025/ultas-digital-and-ai-investments-drive-growth-in-beauty-sales/",
+      "sourceDate": "2025",
+      "context": "Discussing AI investment strategy and ROI expectations"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Fortune - Ulta Beauty AI IT Systems",
+      "url": "https://fortune.com/2025/04/23/ulta-beauty-ai-it-systems/",
+      "type": "Press",
+      "date": "2025-04-23",
+      "notes": "Rich structural detail: AI Center of Excellence, Project SOAR, 25-30% productivity from AI coding, Adobe partnership, agentic AI plans"
+    },
+    {
+      "name": "NRF Blog - Digital Innovation and Personalization",
+      "url": "https://nrf.com/blog/how-ulta-beauty-leverages-digital-innovation-customer-connection-and-personalization",
+      "type": "Blog",
+      "date": "2025",
+      "notes": "CDO Prama Bhatt interview with key quote on AI and human connection; Quazi platform details"
+    },
+    {
+      "name": "PYMNTS - AI Investments Drive Growth",
+      "url": "https://www.pymnts.com/artificial-intelligence-2/2025/ultas-digital-and-ai-investments-drive-growth-in-beauty-sales/",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Q3 earnings details, virtual beauty adviser AI, CEO and CFO quotes on investment"
+    },
+    {
+      "name": "Digital Commerce 360 - How Ulta Beauty is Using AI",
+      "url": "https://www.digitalcommerce360.com/2025/09/11/how-ulta-beauty-is-using-ai/",
+      "type": "Press",
+      "date": "2025-09-11",
+      "notes": "GlamLab history, Prisma Ventures investments, agentic AI timeline, Juan Cardelino quote"
+    },
+    {
+      "name": "NRF Big Show 2026 - Kecia Steelman Session",
+      "url": "https://nrfbigshow.nrf.com/session/2370",
+      "type": "Conference",
+      "date": "2026-01",
+      "notes": "CEO keynote on Ulta Beauty Unleashed strategy; 'way of being' quote"
+    },
+    {
+      "name": "Glossy Podcast - CEO 2026 Goals",
+      "url": "https://www.glossy.co/podcasts/ulta-beauty-ceo-kecia-steelman-unpacks-her-first-year-in-charge-and-2026-goals-plus-news/",
+      "type": "Interview",
+      "date": "2025-12",
+      "notes": "Podcast interview with CEO on first year and 2026 outlook"
+    }
+  ],
+
+  "summary": "Ulta Beauty operates a Hybrid/Hub-and-Spoke model (M4) with a formal AI Center of Excellence led by CTTO Mike Maresca that develops capabilities deployed across business functions. AI adoption is Contextually oriented — embedded throughout operations (supply chain, personalization, associate tools) rather than isolated in an exploration unit. The company has made significant multi-year investments (Project SOAR, Prisma Ventures) and is actively deploying agentic AI for 2026, with CEO Kecia Steelman championing AI as central to their 'Ulta Beauty Unleashed' transformation strategy.",
+
+  "openQuestions": [
+    "Exact size/headcount of AI Center of Excellence team",
+    "Specific budget allocation for AI vs. broader technology investments",
+    "Reporting structure details — whether AI CoE reports through CTTO, CDO, or matrix structure",
+    "Decision on unified AI assistant vs. specialized agents (noted as under evaluation)",
+    "Full scope of Prisma Ventures AI portfolio and investment amounts"
+  ],
+
+  "conferenceFindings": "CEO Kecia Steelman delivered a keynote at NRF 2026 Big Show in Manhattan (January 2026) titled 'Ulta Beauty Unleashed: Shaping the future of beauty.' In conversation with Deloitte Digital's Bobby Stephens, she discussed how the Ulta Beauty Unleashed strategy has already shown results in her first year as CEO. Key quote: 'It's not just a strategy, it's a way of being and you can feel it through the entire organization.' The session focused on bold vision, strategic innovation, people-forward leadership, and driving profitable growth through personalization and omnichannel expansion."
+}

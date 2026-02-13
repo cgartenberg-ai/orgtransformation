@@ -1,0 +1,191 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "recruit-holdings",
+  "name": "Recruit Holdings (Indeed / Glassdoor)",
+  "title": "Dual-Hat CEO Drives AI Transformation via Subsidiary Takeover and Consolidation",
+
+  "classification": {
+    "structuralModel": 3,
+    "structuralModelName": "Embedded Teams",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "Reclassified from M6 (Unnamed/Informal) to M3 (Embedded Teams) after enrichment. AI capabilities at Indeed are embedded within product/engineering (led by EVP Raj Mukherjee for Marketplace Product & UX) rather than housed in a separate AI division — no Chief AI Officer or named AI lab exists. The Responsible AI team is a governance function (interdisciplinary: CS, sociology, astrophysics), not a development unit. AI matching runs on centralized HDFS in Austin with a hybrid offline/online pipeline, but this is infrastructure, not organizational structure. Decision tree: formal AI unit? No → M3 (Embedded Teams). Contextual orientation because AI proficiency is expected across the organization (AI writes 1/3 of code targeting 50%, assists job seekers every 2.2 seconds), and the dual-hat CEO move signals a universal AI mandate rather than structural separation. Guardrail 6 confirms: the Idekoba takeover is a one-time pivot, not temporal cycling.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Technology",
+    "sector": "HR Technology / Job Platforms",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Tokyo, Japan",
+    "geography": "Global"
+  },
+
+  "description": "Recruit Holdings presents a structurally distinctive case: the parent company CEO personally took over the subsidiary CEO role to drive AI transformation. Hisayuki 'Deko' Idekoba — who originally led Indeed's acquisition in 2012 and served as Indeed CEO from 2013-2019 — returned as Indeed CEO in June 2025 while retaining his parent company CEO role. This dual-hat structure centralizes AI transformation authority at the very top, creating direct alignment between parent strategy and subsidiary execution. Chris Hyams, the outgoing Indeed CEO, stepped down after six years.\n\nThe restructuring that accompanied this leadership change was aggressive: Glassdoor was absorbed into Indeed's operational framework, eliminating its independent CEO (Christian Sutherland-Wong departed October 2025) and consolidating its 50 million reviews with Indeed's job listing and applicant data. Approximately 4,500 employees were cut across three waves (2023-2025), with R&D, tech, and HR/sustainability functions primarily affected. The July 2025 wave alone eliminated 1,300 positions (6% of the HR tech division).\n\nAI at Indeed is embedded in product engineering rather than housed in a separate unit. EVP Raj Mukherjee leads product, AI innovation, and UX teams for the marketplace. The AI matching system runs on a centralized HDFS repository in Austin, processing billions of input signals daily from 200 million monthly unique visitors — the recommendation engine evolved from Apache Mahout to a hybrid offline/online pipeline. Indeed partnered with OpenAI to add contextual 'why' explanations to job recommendations, with rigorous A/B testing since 2023. AI now writes one-third of Indeed's new code, with a target of 50% by 2026. A dedicated Responsible AI team provides governance with an interdisciplinary composition (computer science, sociology, astrophysics). By December 2025, Idekoba reported AI agents were being deployed to customers for talent acquisition, compensation analysis, and job qualification adjustment.",
+
+  "observableMarkers": {
+    "reportingStructure": "Idekoba dual-hats as CEO of both Recruit Holdings and Indeed. Glassdoor absorbed into Indeed (no independent CEO). Raj Mukherjee (EVP Marketplace Product & UX) leads AI product innovation, reporting to Indeed CEO. Responsible AI team operates as governance function.",
+    "resourceAllocation": "~4,500 employees cut over 3 years while investing billions in AI. Glassdoor's 50M reviews consolidated as data asset. 200M monthly unique visitors, 300M job seekers, 3M employers monthly. Trading at 25x forward earnings in $300B industry.",
+    "timeHorizons": "Sequential: first cut and consolidate (2023-2025), then rebuild with AI. AI code generation target (50% by 2026) on 1-2 year horizon. Agent deployment to customers beginning December 2025.",
+    "decisionRights": "Dual-hat CEO controls both parent strategy and subsidiary execution. EVP Mukherjee leads AI product decisions within Indeed. No CAIO — AI authority is distributed through product/engineering leadership.",
+    "metrics": "AI assists job seekers every 2.2 seconds. AI writes 1/3 of new code (targeting 50% by 2026). 200M monthly unique visitors. Glassdoor: 50M reviews integrated. ~4,500 total employees cut over 3 years."
+  },
+
+  "mechanisms": [
+    {
+      "id": 6,
+      "name": "Merge Competing AI Teams Under Single Leader",
+      "evidence": "Glassdoor absorbed into Indeed's operational framework, eliminating independent CEO and consolidating two separate HR tech platforms under Idekoba's direct leadership. This is subsidiary merger to reduce coordination costs and unify AI data assets (Indeed job listings + Glassdoor reviews).",
+      "strength": "Strong"
+    },
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "evidence": "Parent CEO Idekoba personally assumed subsidiary CEO role to drive AI transformation — this is the most extreme form of executive engagement: the top leader directly running the subsidiary rather than delegating. Previously led Indeed's acquisition and served as CEO 2013-2019.",
+      "strength": "Strong"
+    }
+  ],
+
+  "quotes": [
+    {
+      "text": "AI is changing the world, and we must adapt by ensuring our product delivers truly great experiences",
+      "speaker": "Hisayuki Idekoba",
+      "speakerTitle": "President & CEO, Recruit Holdings AND Indeed",
+      "source": "TechCrunch",
+      "sourceUrl": "https://techcrunch.com/2025/07/11/indeed-glassdoor-to-lay-off-1300-staff/",
+      "timestamp": null,
+      "date": "2025-07-11"
+    },
+    {
+      "text": "We're gradually starting to deploy solutions such as AI agents to customers",
+      "speaker": "Hisayuki Idekoba",
+      "speakerTitle": "President & CEO, Recruit Holdings AND Indeed",
+      "source": "Japan Times",
+      "sourceUrl": "https://www.japantimes.co.jp/business/2025/12/17/companies/recruit-ceo-ai-assisted-hiring/",
+      "timestamp": null,
+      "date": "2025-12-17"
+    }
+  ],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Dual-hat CEO structure, Glassdoor absorption, product-embedded AI",
+      "summary": "Enrichment reveals Idekoba returned as Indeed CEO (June 2025) while retaining parent CEO role — dual-hat structure centralizes AI authority. Glassdoor absorbed into Indeed, losing independent CEO. ~4,500 employees cut over 3 years. AI embedded in product/engineering under EVP Mukherjee — no separate AI division. AI writes 1/3 of code (targeting 50%). Responsible AI team for governance. OpenAI partnership for contextual matching. AI agents being deployed to customers December 2025. Reclassified from M6 to M3 (Embedded Teams) / Contextual.",
+      "classification": "M3 Embedded Teams / Contextual",
+      "sourceRefs": ["rh-techcrunch-layoffs-2025", "rh-idekoba-return-2025", "rh-japantimes-ai-hiring-2025", "rh-ainvest-ai-overhaul-2025", "rh-indeed-ai-matching-2024", "rh-indeed-leadership-2025"]
+    },
+    {
+      "date": "2026-02",
+      "label": "AI-Driven Workforce Reduction",
+      "summary": "Recruit Holdings cut ~1,300 jobs across Indeed and Glassdoor, with CEO explicitly citing AI transformation as rationale. No structural details about AI organization available.",
+      "classification": "M6 Unnamed/Informal (original — insufficient data)",
+      "sourceRefs": ["recruit-holdings-cbsnews-2025"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "recruit-holdings-cbsnews-2025",
+      "type": "Press",
+      "name": "Indeed and Glassdoor cut ~1,300 jobs citing AI transformation",
+      "url": "https://www.cbsnews.com/news/ai-layoffs-2026-artificial-intelligence-amazon-pinterest/",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-07"
+    },
+    {
+      "id": "rh-techcrunch-layoffs-2025",
+      "type": "Press",
+      "name": "Indeed, Glassdoor to lay off 1,300 staff amid AI push",
+      "url": "https://techcrunch.com/2025/07/11/indeed-glassdoor-to-lay-off-1300-staff/",
+      "sourceDate": "2025-07-11",
+      "collectedDate": "2026-02-10"
+    },
+    {
+      "id": "rh-idekoba-return-2025",
+      "type": "Press Release",
+      "name": "Idekoba Returns as CEO of Indeed",
+      "url": "https://recruit-holdings.com/en/newsroom/20250603_0001/",
+      "sourceDate": "2025-06-03",
+      "collectedDate": "2026-02-10"
+    },
+    {
+      "id": "rh-japantimes-ai-hiring-2025",
+      "type": "Press",
+      "name": "AI-assisted hiring will drive Indeed's growth, Recruit CEO says",
+      "url": "https://www.japantimes.co.jp/business/2025/12/17/companies/recruit-ceo-ai-assisted-hiring/",
+      "sourceDate": "2025-12-17",
+      "collectedDate": "2026-02-10"
+    },
+    {
+      "id": "rh-ainvest-ai-overhaul-2025",
+      "type": "Report",
+      "name": "Recruit Holdings' AI Overhaul: A Blueprint for Dominance",
+      "url": "https://www.ainvest.com/news/recruit-holdings-ai-overhaul-blueprint-dominance-evolving-job-market-2507/",
+      "sourceDate": "2025-07",
+      "collectedDate": "2026-02-10"
+    },
+    {
+      "id": "rh-indeed-ai-matching-2024",
+      "type": "Blog",
+      "name": "How Indeed Uses AI to Provide Better Job-Matching Context",
+      "url": "https://www.indeed.com/lead/how-indeed-uses-ai-to-provide-better-matching-context-for-job-seekers",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-10"
+    },
+    {
+      "id": "rh-indeed-leadership-2025",
+      "type": "Other",
+      "name": "Indeed Leadership Page",
+      "url": "https://www.indeed.com/about/leadership",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-10"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": 0.5,
+    "speedVsDepth": 0.4,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": 0.6,
+    "longVsShortHorizon": 0.3
+  },
+
+  "openQuestions": [
+    "What is the size and structure of Indeed's AI/ML engineering team vs. general product engineering?",
+    "How is the Glassdoor data integration progressing — is the 50M reviews dataset being used for AI training?",
+    "Will Idekoba eventually install a dedicated Indeed CEO and return to a parent-only role, or is the dual-hat structure permanent?",
+    "What is the Responsible AI team's actual influence on product decisions vs. advisory only?"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] The dual-hat CEO pattern (parent CEO personally takes subsidiary CEO role) is structurally rare and significant. This is the most aggressive form of Mechanism #7 (Put Executives on the Tools) — the top executive doesn't just use AI, he takes operational control of the subsidiary to force AI transformation. Worth tracking whether this pattern appears elsewhere.",
+    "[2026-02] The sequential restructuring (cut → consolidate → rebuild with AI) superficially resembles Temporal orientation, but Guardrail 6 applies: this is a one-time pivot, not cycling. The end state is Contextual — everyone is expected to work with AI.",
+    "[2026-02] HR tech as habitat creates existential AI tension: these companies' core product matches humans to jobs, yet AI threatens the human labor they facilitate. Indeed's response (embedding AI deeply in matching) accelerates this tension rather than resolving it.",
+    "[2026-02] The subsidiary absorption pattern (Glassdoor losing independence) is a form of M6 consolidation — multiple informal units being merged under unified leadership. The parent-subsidiary dynamic adds complexity that the taxonomy doesn't fully capture for conglomerate structures."
+  ],
+
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

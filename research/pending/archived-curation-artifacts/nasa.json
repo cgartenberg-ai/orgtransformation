@@ -1,0 +1,36 @@
+{
+  "company": "NASA",
+  "ticker": null,
+  "sector": "Government",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.techrepublic.com/article/news-washington-post-layoffs-ai-restructuring/ (403)",
+    "https://www.crowe.com/news/crowe-expands-ai-center-of-excellence-appoints-firmwide-ai-leader (403)"
+  ],
+  "structuralFindings": {
+    "suggestedModel": 2,
+    "suggestedModelName": "Center of Excellence",
+    "suggestedOrientation": "Structural",
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": "Kevin Murphy has taken over as NASA's new acting chief AI officer and chief data officer. Details from FedScoop article not fetched (URL budget exhausted). The combined CAIO/CDO role is notable \u2014 sugg",
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "NASA appoints new acting AI and data chief",
+      "url": "https://fedscoop.com/nasa-has-new-acting-ai-data-chief/",
+      "type": "Press",
+      "date": "2026",
+      "notes": "NASA appoints new acting AI and data chief"
+    }
+  ],
+  "summary": "NASA appoints new acting AI and data chief: Kevin Murphy has taken over as NASA's new acting chief AI officer and chief data officer. Details from FedScoop article not fetched (URL budget exhausted). The combined CAIO/CDO role is notable \u2014 sugg",
+  "openQuestions": [],
+  "splitFrom": "general-sweep-feb-2026-v2.json"
+}

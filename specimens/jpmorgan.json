@@ -12,7 +12,7 @@
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "High",
-    "classificationRationale": "Textbook Hub-and-Spoke (Model 4): centralized ML CoE (200+ ML scientists, software engineers, product managers across 3 continents) serves as the hub, distributing LLM Suite to 250K employees across all business divisions (spokes). Led by Chief Analytics Officer Derek Waldron. 8-week iteration cadence for platform updates. Multi-model architecture (OpenAI + Anthropic). Structural orientation: named CoE with dedicated C-suite leadership, formal budget ($18B tech investment), and explicit mandate.",
+    "classificationRationale": "Textbook Hub-and-Spoke (Model 4): centralized ML CoE (200+ ML scientists, software engineers, product managers across 3 continents) serves as the hub, distributing LLM Suite to 250K employees across all business divisions (spokes). Q4 2025 earnings reveal AI/data was deliberately separated from Technology as a distinct organizational function ('took AI, slash data, out of technology'). Teresa Heitsenrether now serves as Chief Data & Analytics Officer. $2B annual AI investment yielding $2B in benefits. 150K weekly active AI users and 2K AI/ML specialists. Structural orientation: named function with dedicated C-suite leadership, formal budget, and explicit mandate.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -24,19 +24,19 @@
     "headquarters": "New York, NY",
     "geography": "Global"
   },
-  "description": "A centralized Machine Learning Center of Excellence with 200+ ML scientists, software engineers, and product managers positioned globally across three continents. Distinctive for its rapid iteration cadence.\n- LLM Suite deployed to 250,000 employees (entire workforce except branch and call center staff)\n- Half use it roughly every day\n- 'Every eight weeks, LLM Suite is updated as the bank feeds it more from the vast databases and software applications of its major businesses, giving the platform more abilities'\n- Multi-model architecture using both OpenAI and Anthropic—creating optionality and avoiding vendor lock-in\n- Led by Chief Analytics Officer Derek Waldron (former McKinsey partner with PhD in computational physics)",
+  "description": "A centralized Machine Learning Center of Excellence with 200+ ML scientists, software engineers, and product managers positioned globally across three continents. Distinctive for its rapid iteration cadence.\n- LLM Suite deployed to 250,000 employees (entire workforce except branch and call center staff)\n- Half use it roughly every day; ~150K weekly active users\n- 'Every eight weeks, LLM Suite is updated as the bank feeds it more from the vast databases and software applications of its major businesses, giving the platform more abilities'\n- Multi-model architecture using both OpenAI and Anthropic—creating optionality and avoiding vendor lock-in\n- AI/data deliberately separated from Technology as distinct organizational function (Dimon: 'took AI, slash data, out of technology')\n- $2B annual AI investment yielding $2B in benefits ('just the tip of the iceberg')\n- 2,000 AI and machine learning experts employed\n- Teresa Heitsenrether serves as Chief Data & Analytics Officer",
   "observableMarkers": {
-    "reportingStructure": null,
-    "resourceAllocation": null,
+    "reportingStructure": "DUAL-TRACK AI LEADERSHIP (unique among top 3 banks): (1) Teresa Heitsenrether as Chief Data & Analytics Officer — applied AI/data/analytics, sits on Operating Committee, reports to President Daniel Pinto. Background: 8 years heading securities services ($29.7T AUC) — business/ops leader, not technologist. (2) Dr. Manuela Veloso as Head of AI Research — academic research function, reports directly to Dimon/president level. SEPARATE reporting line from Heitsenrether. A.J. Lang named CIO for data/analytics org, matrix-reporting to both Heitsenrether and firm CIO Lori Beer. David Wu as Head of Firmwide AI Product & Architecture Strategy. Dimon: 'We took AI and data out of technology. It's too important.' AI head attends every management meeting.",
+    "resourceAllocation": "$2B annual AI investment within $18B total IT budget (11% of IT spend). 600 active AI use cases deployed, expecting to double within a year. Investments across 100 different companies for testing and learning (venture-style scanning). 2,000 AI/ML specialists across 3 continents. 2026 total expense guidance: $105B with 'meaningful growth' driven by tech/AI spending.",
     "timeHorizons": null,
-    "decisionRights": null,
-    "metrics": "Vision: 'The JPMorgan Chase of the future is going to be a fully AI-connected enterprise.' Plans include AI agents for every employee, automation of every behind-the-scenes process, and AI concierges for every client experience."
+    "decisionRights": "AI head attends every management meeting (Dimon mandate). Operating Committee membership for CDAO = same organizational authority as business line heads. Matrix reporting between new AI/data org and existing CIO org (A.J. Lang dual reports). LLM Suite updated on 8-week cycle with expanding capabilities.",
+    "metrics": "Vision: 'The JPMorgan Chase of the future is going to be a fully AI-connected enterprise.' Plans include AI agents for every employee, automation of every behind-the-scenes process, and AI concierges for every client experience. Current AI ROI: $2B benefit for $2B investment."
   },
   "mechanisms": [
     {
       "id": 5,
       "name": "Deploy to Thousands Before You Know What Works",
-      "evidence": "LLM Suite deployed to 250,000 employees (entire workforce except branch/call center). Updated every 8 weeks with new capabilities. Half the workforce uses it roughly every day. This is massive-scale deployment with rapid iteration—deploying first, then feeding more data and capabilities iteratively.",
+      "evidence": "LLM Suite deployed to 250,000 employees (entire workforce except branch/call center). Updated every 8 weeks with new capabilities. Half the workforce uses it roughly every day (~150K weekly active users). This is massive-scale deployment with rapid iteration—deploying first, then feeding more data and capabilities iteratively.",
       "strength": "Strong"
     },
     {
@@ -46,8 +46,117 @@
       "strength": "Moderate"
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "We will be spending more in AI.",
+      "speaker": "Jamie Dimon",
+      "speakerTitle": "CEO",
+      "source": "PYMNTS Q4 2025 Earnings Coverage",
+      "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+      "context": "Q4 2025 earnings call, confirming increased AI investment in 2026"
+    },
+    {
+      "text": "it'll be driving more efficiency down the road... [that] will eventually be passed on to the customer.",
+      "speaker": "Jamie Dimon",
+      "speakerTitle": "CEO",
+      "source": "PYMNTS Q4 2025 Earnings Coverage",
+      "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+      "context": "Describing AI's expected trajectory from internal efficiency to customer benefit"
+    },
+    {
+      "text": "Your competitors include all the FinTech. You have Stripe, you have SoFi, you have Revolut, you have Schwab.",
+      "speaker": "Jamie Dimon",
+      "speakerTitle": "CEO",
+      "source": "PYMNTS Q4 2025 Earnings Coverage",
+      "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+      "context": "Framing JPMorgan's tech spending as competitive necessity against non-traditional competitors"
+    },
+    {
+      "text": "only getting more competitive",
+      "speaker": "Jeremy Barnum",
+      "speakerTitle": "CFO",
+      "source": "PYMNTS Q4 2025 Earnings Coverage",
+      "sourceUrl": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+      "context": "Justifying meaningful expense growth in 2026, particularly technology spending"
+    },
+    {
+      "text": "For $2 billion of expense, we have about $2 billion of benefit.",
+      "speaker": "Jamie Dimon",
+      "speakerTitle": "CEO",
+      "source": "Entrepreneur",
+      "sourceUrl": "https://www.entrepreneur.com/business-news/jpmorgan-ceo-jamie-dimon-ai-saves-the-bank-billions-a-year/498115",
+      "context": "October 2025 remarks on AI investment ROI, calling it 'just the tip of the iceberg'"
+    },
+    {
+      "text": "We took AI and data out of technology. It's too important.",
+      "speaker": "Jamie Dimon",
+      "speakerTitle": "CEO, JPMorgan Chase",
+      "sourceId": "constellation-dimon-ai-2025",
+      "context": "Explaining why JPMorgan structurally separated AI/data from the technology org and elevated it to Operating Committee level"
+    },
+    {
+      "text": "The head of AI is at every single meeting he has with management teams.",
+      "speaker": "Jamie Dimon",
+      "speakerTitle": "CEO, JPMorgan Chase",
+      "sourceId": "constellation-dimon-ai-2025",
+      "context": "Describing how AI leadership is embedded in all management conversations despite structural separation — structural separation with contextual integration"
+    },
+    {
+      "text": "There will be no job, no process, no function that won't be affected by AI -- mostly for the positive.",
+      "speaker": "Jamie Dimon",
+      "speakerTitle": "CEO, JPMorgan Chase",
+      "sourceId": "constellation-dimon-ai-2025",
+      "context": "Justifying universal AI impact as rationale for organizational elevation to Operating Committee"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Dual-Track AI Leadership Confirmed",
+      "summary": "Financial services comparative research (Feb 10, 2026) reveals JPMorgan has a UNIQUE dual-track AI leadership structure among top 3 US banks: (1) Heitsenrether (CDAO, applied) on Operating Committee reporting to President Pinto, and (2) Veloso (AI Research, academic) reporting directly to Dimon/president level. These are SEPARATE reporting lines — textbook Tushman & O'Reilly ambidextrous design applied to AI. Dimon's rationale: 'We took AI and data out of technology. It's too important.' 600 active use cases, $2B AI spend within $18B IT budget. AI head attends every management meeting. Key contrast: Goldman embeds AI in CIO office, Morgan Stanley created single firmwide AI head — only JPMorgan structurally separates exploration (Veloso) from exploitation (Heitsenrether) at the C-suite level.",
+      "classification": {
+        "structuralModel": 4,
+        "orientation": "Structural",
+        "confidence": "High",
+        "action": "enriched"
+      },
+      "sourceRefs": [
+        "constellation-dimon-ai-2025",
+        "pymnts-heitsenrether-2023",
+        "evident-bank-ai-talent-2025"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Dual-Track AI Leadership Confirmed",
+      "summary": "Financial services comparative research (Feb 10, 2026) reveals JPMorgan has a UNIQUE dual-track AI leadership structure among top 3 US banks: (1) Heitsenrether (CDAO, applied) on Operating Committee reporting to President Pinto, and (2) Veloso (AI Research, academic) reporting directly to Dimon/president level. These are SEPARATE reporting lines — textbook Tushman & O'Reilly ambidextrous design applied to AI. Dimon's rationale: 'We took AI and data out of technology. It's too important.' 600 active use cases, $2B AI spend within $18B IT budget. AI head attends every management meeting. Key contrast: Goldman embeds AI in CIO office, Morgan Stanley created single firmwide AI head — only JPMorgan structurally separates exploration (Veloso) from exploitation (Heitsenrether) at the C-suite level.",
+      "classification": {
+        "structuralModel": 4,
+        "orientation": "Structural",
+        "confidence": "High",
+        "action": "enriched"
+      },
+      "sourceRefs": [
+        "constellation-dimon-ai-2025",
+        "pymnts-heitsenrether-2023",
+        "evident-bank-ai-talent-2025"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Overnight research scan",
+      "summary": "Q4 2025 earnings reveal critical structural development: AI/data deliberately separated from Technology as distinct organizational function ('took AI, slash data, out of technology'). This confirms the Structural orientation with even stronger evidence of formal organizational design. New quantified metrics: $2B AI investment with $2B ROI, 150K weekly active AI users, 2K AI/ML specialists. Teresa Heitsenrether identified as Chief Data & Analytics Officer. 2026 expense guidance shows 'meaningful growth' in tech/AI spending (total ~$105B). Dimon frames AI investment as competitive necessity against fintechs (Stripe, SoFi, Revolut).",
+      "classification": {
+        "structuralModel": 4,
+        "orientation": "Structural",
+        "confidence": "High",
+        "action": "strengthened"
+      },
+      "sourceRefs": [
+        "source-5",
+        "source-6"
+      ]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
@@ -120,29 +229,91 @@
       "sourceDate": null,
       "collectedDate": "2026-01-20",
       "notes": null
+    },
+    {
+      "id": "source-5",
+      "type": "Earnings Call",
+      "name": "PYMNTS Q4 2025 Earnings Coverage",
+      "url": "https://www.pymnts.com/earnings/2026/jpmorgan-jamie-dimon-tech-ai-apple-card-buildout-begins/",
+      "timestamp": null,
+      "sourceDate": "2026-01-13",
+      "collectedDate": "2026-02-07",
+      "notes": "AI separated from Technology as distinct organizational function"
+    },
+    {
+      "id": "source-6",
+      "type": "Press",
+      "name": "Entrepreneur",
+      "url": "https://www.entrepreneur.com/business-news/jpmorgan-ceo-jamie-dimon-ai-saves-the-bank-billions-a-year/498115",
+      "timestamp": null,
+      "sourceDate": "2025-10-08",
+      "collectedDate": "2026-02-07",
+      "notes": "$2B annual AI investment yielding $2B in benefits"
+    },
+    {
+      "id": "constellation-dimon-ai-2025",
+      "type": "analyst-report",
+      "name": "Constellation Research — JPMorgan Chase Dimon on AI, Data, Cybersecurity",
+      "url": "https://www.constellationr.com/blog-news/insights/jpmorgan-chases-dimon-ai-data-cybersecurity-and-managing-tech-shifts",
+      "timestamp": null,
+      "sourceDate": "2025-01-01",
+      "collectedDate": "2026-02-10",
+      "notes": "Dimon: 'We took AI and data out of technology. It's too important.' Veloso as AI Research head. 600 use cases. $2B AI spend / $18B IT budget."
+    },
+    {
+      "id": "pymnts-heitsenrether-2023",
+      "type": "press",
+      "name": "PYMNTS — JPMorgan names Heitsenrether as head of new AI unit",
+      "url": "https://www.pymnts.com/artificial-intelligence-2/2023/jpmorgan-names-exec-teresa-heitsenrether-as-head-of-new-unit-in-ai-push/",
+      "timestamp": null,
+      "sourceDate": "2023-06-21",
+      "collectedDate": "2026-02-10",
+      "notes": "Heitsenrether appointed first CDAO. Background: 8 years heading securities services ($29.7T AUC). Reports to President Daniel Pinto."
+    },
+    {
+      "id": "evident-bank-ai-talent-2025",
+      "type": "analyst-report",
+      "name": "Evident Insights — Who is poaching whom in AI talent",
+      "url": "https://evidentinsights.com/bankingbrief/who-is-poaching-whom-ai/",
+      "timestamp": null,
+      "sourceDate": "2025-01-01",
+      "collectedDate": "2026-02-10",
+      "notes": "JPMorgan talent dynamics: lost quantum computing leaders (Pistoia, Lim), AI research director Lecue to Wells Fargo. 70% of new AI hires from academia."
     }
   ],
   "contingencies": {
     "regulatoryIntensity": "High. Banking is heavily regulated; AI deployment must navigate compliance, risk, and audit requirements. Remarkable that JPMorgan achieves 8-week cycles despite this.",
-    "timeToObsolescence": null,
-    "ceoTenure": null,
-    "talentMarketPosition": null,
-    "technicalDebt": null
+    "timeToObsolescence": "Medium. Core banking business durable but delivery layer and back-office under genuine augmentation pressure from fintechs (Stripe, SoFi, Revolut). Dimon frames AI as competitive necessity, not existential.",
+    "ceoTenure": "High. Dimon CEO since 2005 (21 years). Among the most powerful CEOs in American business. Accumulated authority enables bold structural moves like separating AI from Technology.",
+    "talentMarketPosition": "Strong. 2,000 AI/ML specialists across 3 continents. $2B annual investment. Competes directly with tech firms for talent. JPMorgan prestige + compensation make it a credible AI talent destination.",
+    "technicalDebt": "Medium. Legacy financial institution with decades of systems, but $18B technology spend and ability to deploy LLM Suite to 250K employees with 8-week update cycles suggests reasonably modern infrastructure."
   },
   "tensionPositions": {
-    "structuralVsContextual": "Structural. Named CoE with C-suite leadership and formal mandate.",
+    "structuralVsContextual": "Structural. Named function with C-suite leadership (Teresa Heitsenrether as CDAO) and formal mandate. AI/data deliberately separated from Technology org.",
     "speedVsDepth": "Speed. 8-week iteration cadence is remarkably fast for a regulated financial institution.",
     "centralVsDistributed": "Centralized. ML CoE is a strong central hub distributing capability enterprise-wide.",
-    "namedVsQuiet": null,
-    "longVsShortHorizon": null
+    "namedVsQuiet": "Named. Explicit organizational separation of AI/data function with dedicated leadership.",
+    "longVsShortHorizon": "Both. Current ROI ($2B benefit for $2B spend) but Dimon calls this 'just the tip of the iceberg' — investing for long-term transformation."
   },
-  "openQuestions": [],
-  "taxonomyFeedback": [],
+  "openQuestions": [
+    "How do Heitsenrether (applied CDAO) and Veloso (AI Research) coordinate? Is there a formal mechanism or is it through Dimon's management meetings?",
+    "What happened to Derek Waldron (previously CAO)? Did Heitsenrether's appointment supersede or restructure that role?",
+    "What is the composition of the 100-company AI investment portfolio? Is this managed through JPMorgan's venture arm or the CDAO org?",
+    "How does the branch/call center exclusion from LLM Suite get resolved? Is there a timeline for customer-facing AI deployment?",
+    "JPMorgan lost key AI talent (Pistoia, Lim, Lecue) — is the dual-track structure a retention response, or did the losses trigger the restructuring?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] JPMorgan's M4 structure reveals an unusual hybrid between Model 2 (Center of Excellence) and Model 4 (Hub-and-Spoke) that challenges the taxonomy's clean boundaries. The ML CoE functions simultaneously as a platform distributor (classic M4) AND as a governance/standards body (classic M2). The 8-week iteration cadence suggests the CoE retains product ownership of the LLM Suite itself, rather than merely enabling business units to build their own AI products—this is more centralized than typical M4 specimens where spokes have greater autonomy. The taxonomy may need a more explicit way to capture 'platform-as-product' variants where the hub doesn't just enable but actively operates the AI infrastructure.",
+    "[2026-02] The regulatory intensity contingency creates an economically fascinating paradox: JPMorgan achieves 8-week deployment cycles in one of the most heavily regulated industries (banking), while many tech companies with minimal regulatory constraints move slower. This suggests regulatory pressure may actually accelerate centralization as a coordination mechanism—when compliance costs are high, the transaction costs of distributed AI experimentation become prohibitive, making the M4 hub-and-spoke structure not just viable but economically necessary. This inverts the usual assumption that regulation slows innovation; instead, regulation may force structural choices that enable speed through reduced coordination costs.",
+    "[2026-02] The exclusion of 'branch and call center staff' from the 250K LLM Suite deployment is a structurally revealing choice that exposes a tacit organizational theory. These are the employees with highest customer contact and potentially highest value from AI augmentation, yet they're systematically excluded—likely due to compliance risk, liability concerns, or assumptions about capability/training. This suggests JPMorgan's M4 structure has an implicit boundary: AI for knowledge workers (internal efficiency) but not for customer-facing operations (external risk). This contradicts the stated vision of 'AI concierges for every client experience' and may indicate a temporal staging strategy where internal deployment precedes customer-facing deployment, or a deeper structural tension between AI ambition and risk management that the current M4 model cannot resolve.",
+    "[2026-02] Q4 2025 earnings reveal that JPMorgan 'took AI, slash data, out of technology' — a deliberate structural separation that strengthens the M4 classification. This is not just a CoE within Technology; it's a distinct organizational function with its own C-suite leadership. This suggests JPMorgan has moved beyond the typical M4 hub-and-spoke to something closer to Model 6 (Parallel Dual Structure) — a formal AI organization operating alongside the core Technology org. However, since the AI function appears to serve the entire enterprise rather than operating as an autonomous unit, M4 remains the better fit. The structural separation may be JPMorgan's solution to the taxonomy's noted M2/M4 ambiguity: by separating AI from Technology, they clarify that AI is not merely a support function (M2) but an enterprise-serving capability hub (M4).",
+    "[2026-02] Dimon's competitive framing ('Your competitors include all the FinTech. You have Stripe, you have SoFi, you have Revolut') reveals the economic logic driving JPMorgan's AI structural choices. The bank isn't just competing with other banks; it's competing with digital-native firms that have no legacy technology debt. This competitive pressure may explain why JPMorgan achieves faster deployment cycles than many tech companies — the transaction costs of NOT moving fast (competitive displacement) outweigh the transaction costs of rapid centralized deployment. This is a contingency factor worth tracking: competitive intensity from digital-native entrants may drive incumbents toward more aggressive AI structuring."
+  ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-10",
+    "completeness": "High",
     "convertedFrom": "library/cases/jpmorgan.json"
   }
 }

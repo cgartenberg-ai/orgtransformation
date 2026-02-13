@@ -1,0 +1,167 @@
+{
+  "specimenId": "kyndryl",
+  "researchDate": "2026-02-10",
+  "findings": {
+    "aiLeadership": "No Chief AI Officer. AI falls under Michael Bradshaw, SVP & Global Practice Leader for Applications, Data and AI (appointed July 2024, previously Kyndryl CIO). Antoine Shagoury is Global CTO. CEO Martin Schroeter sets AI-as-infrastructure strategic narrative. Ismail Amla (SVP Kyndryl Consult) leads agentic AI workforce transformation services. Nel Akoth is Chief Transformation Officer. Giovanni Carraro (SVP Global Strategic Alliances) leads partner-facing AI agent work (e.g., 100 agents in 100 days with Google Cloud). Dennis Perpetua is CTO for Digital Workplace Services. Kristi Cunningham is US CTO.",
+    "teamStructure": "Kyndryl organizes AI work through a practice-based model, not a centralized AI unit. Five Global Practice areas: (1) Applications, Data and AI (Bradshaw), (2) Cloud (Nicolas Sekkaki), (3) Core Enterprise and zCloud (Hassan Zamat), (4) Cyber Security and Resiliency, Network and Edge (Paul Savill), (5) Digital Workplace (Ivan Dopple). Kyndryl Consult (Amla) is the consulting/advisory arm that delivers agentic AI organizational change management. Kyndryl Bridge is the AI-powered IT management platform (1,200+ customers, 190 services) — it is the operational backbone, not a separate AI team. A cross-functional governance committee evaluates and approves AI use cases for regulatory/risk alignment. AI Innovation Labs established in Liverpool and Singapore.",
+    "reportingLines": "Practice leaders (Bradshaw, Sekkaki, Zamat, Savill, Dopple) appear to report to Group President Elly Keinan or directly to CEO Schroeter. CTO Shagoury is a separate technology leadership role. CIO Kim Basile (appointed July 2024, replacing Bradshaw) handles internal IT. The July 2024 reshuffle was significant: Bradshaw moved from CIO to lead the new Applications, Data and AI practice; Sekkaki moved from Applications/Data/AI to Cloud. This swap suggests Schroeter wanted Bradshaw's operational CIO experience applied to AI commercialization.",
+    "keyPeople": [
+      {
+        "name": "Martin Schroeter",
+        "title": "Chairman and CEO",
+        "role": "Sets AI-as-infrastructure strategic narrative. Former IBM CFO. Frames Kyndryl as the bridge between line-of-business AI ambitions and CIO/CTO operational realities.",
+        "source": "https://www.kyndryl.com/us/en/about-us/leadership"
+      },
+      {
+        "name": "Michael Bradshaw",
+        "title": "SVP, Global Practice Leader for Applications, Data and AI",
+        "role": "De facto AI leader. Moved from CIO role in July 2024. Prior: CIO at NBCUniversal, VP at Lockheed Martin. Leads customer-facing AI modernization and agentic AI guardrails messaging.",
+        "source": "https://www.kyndryl.com/us/en/about-us/news/2024/07/names-new-cio-and-announces-leadership-changes-for-cloud-data-and-ai-practices"
+      },
+      {
+        "name": "Antoine Shagoury",
+        "title": "Chief Technology Officer",
+        "role": "Global CTO. Leads Kyndryl Bridge platform development and Advanced Delivery initiative.",
+        "source": "https://www.kyndryl.com/us/en/about-us/leadership"
+      },
+      {
+        "name": "Ismail Amla",
+        "title": "SVP, Kyndryl Consult",
+        "role": "Leads consulting arm including agentic AI workforce transformation and organizational change management services.",
+        "source": "https://www.kyndryl.com/us/en/about-us/news/2025/11/agentic-ai-organizational-change-management"
+      },
+      {
+        "name": "Nel Akoth",
+        "title": "Chief Transformation Officer",
+        "role": "Internal transformation leadership. Exact AI remit unclear.",
+        "source": "https://www.kyndryl.com/us/en/about-us/leadership"
+      },
+      {
+        "name": "Giovanni Carraro",
+        "title": "SVP, Global Strategic Alliances",
+        "role": "Leads partner-facing AI work (Google Cloud 100 agents in 100 days, NVIDIA, Microsoft alliances).",
+        "source": "https://www.kyndryl.com/in/en/about-us/news/2025/08/building-enterprise-ai-agents"
+      },
+      {
+        "name": "Kim Basile",
+        "title": "Chief Information Officer",
+        "role": "Internal IT leader (replaced Bradshaw July 2024). Prior: Lockheed Martin, Leidos, Vanguard.",
+        "source": "https://www.kyndryl.com/us/en/about-us/news/2024/07/names-new-cio-and-announces-leadership-changes-for-cloud-data-and-ai-practices"
+      },
+      {
+        "name": "Elly Keinan",
+        "title": "Group President",
+        "role": "Oversees practice areas and delivery operations.",
+        "source": "https://www.kyndryl.com/us/en/about-us/leadership"
+      },
+      {
+        "name": "Kris Lovejoy",
+        "title": "Global Head, Strategy",
+        "role": "Enterprise strategy including AI positioning.",
+        "source": "https://www.kyndryl.com/us/en/about-us/leadership"
+      }
+    ],
+    "newQuotes": [
+      {
+        "speaker": "Ismail Amla",
+        "title": "SVP, Kyndryl Consult",
+        "quote": "Agentic AI will rapidly reshape job roles, ways of working, and how enterprises are organized.",
+        "context": "Launch of agentic AI organizational change management services, November 2025",
+        "source": "https://www.kyndryl.com/us/en/about-us/news/2025/11/agentic-ai-organizational-change-management",
+        "sourceDate": "2025-11-17"
+      },
+      {
+        "speaker": "Martin Schroeter",
+        "title": "Chairman and CEO",
+        "quote": "Each of these appointments align well with our strategy, market demand and secular trends.",
+        "context": "July 2024 leadership reshuffle creating Applications, Data and AI practice under Bradshaw",
+        "source": "https://www.kyndryl.com/us/en/about-us/news/2024/07/names-new-cio-and-announces-leadership-changes-for-cloud-data-and-ai-practices",
+        "sourceDate": "2024-07-01"
+      },
+      {
+        "speaker": "Giovanni Carraro",
+        "title": "SVP, Global Strategic Alliances",
+        "quote": "We're working with our partners to design AI agents to solve industry-specific challenges.",
+        "context": "100 AI agents in 100 days initiative with Google Cloud, August 2025",
+        "source": "https://www.kyndryl.com/in/en/about-us/news/2025/08/building-enterprise-ai-agents",
+        "sourceDate": "2025-08-01"
+      }
+    ],
+    "newSources": [
+      {
+        "url": "https://www.kyndryl.com/us/en/about-us/leadership",
+        "title": "Kyndryl Leadership Page",
+        "sourceDate": "2026-02-10",
+        "collectedDate": "2026-02-10",
+        "type": "company-website",
+        "relevance": "Full C-suite and practice leader roster. Confirms no CAIO role."
+      },
+      {
+        "url": "https://www.kyndryl.com/us/en/about-us/news/2024/07/names-new-cio-and-announces-leadership-changes-for-cloud-data-and-ai-practices",
+        "title": "Kyndryl appoints new CIO and announces practice leadership transitions",
+        "sourceDate": "2024-07-01",
+        "collectedDate": "2026-02-10",
+        "type": "press-release",
+        "relevance": "Key structural change: Bradshaw moved from CIO to lead new Applications, Data and AI practice. Sekkaki moved from AI to Cloud."
+      },
+      {
+        "url": "https://www.kyndryl.com/us/en/about-us/news/2025/11/agentic-ai-organizational-change-management",
+        "title": "Kyndryl launches agentic AI services for organizational change management",
+        "sourceDate": "2025-11-17",
+        "collectedDate": "2026-02-10",
+        "type": "press-release",
+        "relevance": "Agentic AI Framework details, Kyndryl Consult role, workforce transformation services."
+      },
+      {
+        "url": "https://www.kyndryl.com/in/en/about-us/news/2025/08/building-enterprise-ai-agents",
+        "title": "Kyndryl built 100 AI agents in 100 days (with Google Cloud)",
+        "sourceDate": "2025-08-01",
+        "collectedDate": "2026-02-10",
+        "type": "press-release",
+        "relevance": "Shows alliance-driven AI agent development model. 100 agents across multiple countries."
+      },
+      {
+        "url": "https://siliconangle.com/2025/11/04/kyndryl-revenue-declines-profits-beat-expectations-shift-higher-margin-services-continues/",
+        "title": "Kyndryl revenue declines but profits beat expectations (Q2 FY2026)",
+        "sourceDate": "2025-11-04",
+        "collectedDate": "2026-02-10",
+        "type": "news-article",
+        "relevance": "Q2 FY2026 financials. 25% of new contracts include AI. Hyperscaler revenue up 65%."
+      },
+      {
+        "url": "https://www.kyndryl.com/us/en/about-us/news/2026/02/kyndryl-earnings-statement-q3-2026",
+        "title": "Kyndryl Q3 FY2026 Earnings Statement",
+        "sourceDate": "2026-02-07",
+        "collectedDate": "2026-02-10",
+        "type": "earnings-release",
+        "relevance": "Most recent financials. Revenue $3.9B. Hyperscaler $500M (+58% YoY). Consult +24%. Guidance lowered. Leadership turnover (interim CFO, interim GC)."
+      },
+      {
+        "url": "https://www.channele2e.com/news/agentic-ai-needs-guardrails-not-hype-kyndryls-michael-bradshaw-on-whats-really-holding-enterprises-back",
+        "title": "Agentic AI Needs Guardrails, Not Hype: Kyndryl's Michael Bradshaw",
+        "sourceDate": "2025-12-01",
+        "collectedDate": "2026-02-10",
+        "type": "interview",
+        "relevance": "Bradshaw interview on agentic AI guardrails. Not fetched but noted for future enrichment."
+      },
+      {
+        "url": "https://techpost.bsa.org/2024/10/16/aiwork-kyndryls-cto-discusses-embracing-ai/",
+        "title": "AI@Work: Kyndryl's Digital Workplace CTO Discusses Embracing AI",
+        "sourceDate": "2024-10-16",
+        "collectedDate": "2026-02-10",
+        "type": "interview",
+        "relevance": "Dennis Perpetua (CTO Digital Workplace) on internal AI usage: meeting summaries, knowledge search."
+      }
+    ],
+    "observableMarkers": {
+      "headcount": "~60,000-73,000 employees (declining from 90,000 at 2021 spinoff; sources vary by date — approximately 60,000 as of late 2025)",
+      "revenue": "$15.1B FY2025 (annualized); Q3 FY2026 revenue $3.9B; 9-month FY2026 revenue $11.3B",
+      "financialHealth": "Profitable but under pressure. Adjusted pretax income $168M (Q3). FY2026 guidance lowered to $575-600M adjusted pretax (from $725M). Free cash flow guidance cut to $325-375M (from $550M). Stock plunged ~25% after Q3 miss (Feb 2026). Interim CFO and GC suggest leadership instability. Revenue declining in constant currency (-2-3% FY2026 guidance).",
+      "aiInvestments": "Kyndryl Bridge platform (1,200+ customers, 190 services). AI Innovation Labs in Liverpool and Singapore. 100 AI agents built in 100 days with Google Cloud. AgenTeq agentic AI framework. SAP Center of Excellence for agentic AI. 25% of new contracts include AI-related services. Hyperscaler revenue $500M/quarter (58% YoY growth).",
+      "ibmHeritage": "Spun off from IBM Global Technology Services in Nov 2021. IBM heritage visible in mainframe expertise (launched Agentic AI Framework for Mainframe, Feb 2026), large enterprise customer base, practice-based organizational structure. Schroeter was IBM CFO. The '3 As' strategy (Advanced Delivery, Alliances, Focus Accounts) represents deliberate break from IBM's managed infrastructure model toward higher-margin consulting and AI services.",
+      "partnerEcosystem": "Major alliances: Microsoft (first global alliance; Microsoft Acceleration Hub; Azure/Copilot integration; 16,000+ employees with 26,000+ Microsoft certifications), Google Cloud (100 AI agents in 100 days), NVIDIA (NeMo platform, NIM inference microservices), SAP, AWS, VMware, Cisco, Red Hat. 30,000+ employees with partner certifications."
+    },
+    "classificationNotes": "Current classification M2/Structural (Stub) needs significant upgrade. The practice-based model with a dedicated Applications, Data and AI practice under Bradshaw is more sophisticated than a single CoE. However, Kyndryl's AI structure is heavily customer-facing — their AI work is primarily about helping clients adopt AI, not about internal AI transformation of their own operations. The Kyndryl Bridge platform is an AI-powered product (operational AI), not an exploratory AI research unit. Recommend reclassifying to M2/Structural or possibly M5 (Practice-Embedded) at Medium completeness. Key structural features: (1) Practice-based model with AI distributed across practices rather than centralized, (2) Agentic AI Framework as horizontal methodology, (3) Cross-functional governance committee for use case approval, (4) Alliance-driven agent development model. The July 2024 leadership swap (Bradshaw CIO→AI, Sekkaki AI→Cloud) is a telling structural signal — putting an operator in charge of AI commercialization."
+  },
+  "enrichmentSummary": "Kyndryl's AI structure is far richer than the stub suggested. No CAIO exists; AI is led by Michael Bradshaw (SVP, Applications Data and AI practice, appointed July 2024 after serving as CIO). The company organizes AI through five practice areas plus Kyndryl Consult, with a cross-functional governance committee and the Bridge platform (1,200+ customers) as operational backbone. Financially, the company is profitable but under significant pressure — Q3 FY2026 missed estimates, stock fell 25%, guidance was cut, and interim CFO/GC appointments signal leadership instability. Headcount has declined from ~90,000 at spinoff to ~60,000. Hyperscaler revenue ($500M/quarter, +58% YoY) and AI-inclusive contracts (25% of signings) are the main growth story."
+}

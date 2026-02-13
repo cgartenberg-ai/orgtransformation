@@ -1,0 +1,103 @@
+{
+  "$schema": "./specimen-schema.json",
+
+  "id": "washington-post",
+  "name": "The Washington Post",
+  "title": "AI-Oriented Restructuring with Major Workforce Reduction",
+
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Temporal",
+    "orientationName": "Temporal Ambidexterity",
+    "confidence": "Low",
+    "classificationRationale": "The Washington Post is undergoing a major restructuring that cuts ~1/3 of its workforce including 300+ journalists, reorienting around subscriptions and AI. However, the research data provides almost no detail on the actual AI structure being implemented—only that the restructuring is 'AI-oriented.' Without evidence of a named AI lab, center of excellence, or specific team structure, this appears to be an organization-wide transformation without formal AI branding (M6). The temporal orientation reflects that this is a discrete phase of transformation—a pivot from traditional newsroom to AI-augmented operations—rather than an ongoing structural separation or contextual integration.",
+    "typeSpecimen": false
+  },
+
+  "habitat": {
+    "industry": "Media",
+    "sector": "News Publishing",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Washington, D.C., USA",
+    "geography": "United States"
+  },
+
+  "description": "The Washington Post is undergoing one of the most dramatic AI-oriented restructurings in the media industry, cutting roughly one-third of its overall workforce including more than 300 journalists. The restructuring explicitly reorients the organization around subscriptions and AI-enhanced operations.\n\nThe available data reveals the magnitude of the transformation but provides limited visibility into the specific AI organizational structure being implemented. What is clear is that this represents a fundamental pivot rather than an incremental adoption—the scale of workforce reduction suggests the organization is rebuilding its operational model around AI capabilities rather than layering AI onto existing structures.\n\nThis case is notable for its transparency about AI as a driver of workforce restructuring, which contrasts with many organizations that downplay AI's role in headcount decisions. The subscription focus suggests AI may be deployed for personalization, reader engagement, and content optimization rather than (or in addition to) content generation.",
+
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": "Major workforce reduction (~1/3 of staff, 300+ journalists) as part of AI-oriented restructuring",
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "Reorientation around subscription metrics"
+  },
+
+  "mechanisms": [],
+
+  "quotes": [],
+
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Major AI-Oriented Restructuring",
+      "summary": "Washington Post cuts approximately one-third of workforce including 300+ journalists in restructuring that reorients the organization around subscriptions and AI capabilities.",
+      "sourceRefs": ["washington-post-techrepublic-2026-01"]
+    }
+  ],
+
+  "sources": [
+    {
+      "id": "washington-post-techrepublic-2026-01",
+      "name": "Washington Post cuts ~1/3 of workforce in AI-oriented restructuring",
+      "url": "https://www.techrepublic.com/article/news-washington-post-layoffs-ai-restructuring/",
+      "type": "Press",
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-07"
+    }
+  ],
+
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null
+  },
+
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": 0.7,
+    "centralVsDistributed": null,
+    "namedVsQuiet": 0.5,
+    "longVsShortHorizon": 0.5
+  },
+
+  "openQuestions": [
+    "What is the specific AI team structure being implemented post-restructuring?",
+    "Is AI being used primarily for content personalization, content generation, or operational efficiency?",
+    "How does the AI strategy relate to Jeff Bezos's ownership and Amazon's AI capabilities?",
+    "What subscription/engagement metrics are being prioritized in the AI-oriented model?",
+    "Are remaining journalists expected to integrate AI tools contextually, or is there a separate AI team?"
+  ],
+
+  "taxonomyFeedback": [
+    "[2026-02] This specimen exposes a gap in the taxonomy: organizations undergoing AI-driven workforce reduction as a restructuring mechanism. The ~1/3 headcount cut suggests AI is being used to fundamentally reshape the labor model, not just augment existing workers. This 'AI as replacement driver' pattern may warrant tracking separately from 'AI as augmentation' approaches.",
+    "[2026-02] Classified as M6 with temporal orientation due to lack of evidence for named AI structure, but this feels like an uncomfortable fit. The scale of transformation suggests something more deliberate than 'informal' adoption, yet we have no visibility into actual structure. May need a 'Restructuring/Pivot' sub-type for M6 that captures organizations using AI as catalyst for fundamental operational change.",
+    "[2026-02] Media industry specimens like Washington Post face unusually fast obsolescence timelines as generative AI directly threatens core content production. This makes them a useful contrast to regulated industries where AI adoption is constrained. The aggressive restructuring may reflect existential urgency rather than strategic choice."
+  ],
+
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-09",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

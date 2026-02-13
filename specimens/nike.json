@@ -1,0 +1,168 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "nike",
+  "name": "Nike",
+  "title": "CDAIO Plus Embedded AI, Tech Moving Under Operations",
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 3,
+    "secondaryModelName": "Embedded Teams",
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "M4→M2+M3 (Audit 2026-02-12). CDAIO (Alan John) runs a central data/AI function that sets standards and builds capabilities (M2 CoE). AI is embedded in supply chain, Nike Sport Research Lab, and consumer apps (M3). December 2025 reorg moved tech under operations — the trend is toward embedding, not hub-spoke coordination. The retail-no-caio-pattern insight notes Nike deploys AI without the hub infrastructure pattern seen in pharma/automotive M4s.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Consumer / Retail",
+    "sector": "Apparel & Footwear",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Beaverton, Oregon, USA",
+    "geography": "Global"
+  },
+  "description": "Nike operates a hybrid AI structure with a central Data & AI team led by Chief Data and AI Officer Alan John, responsible for AI innovation strategy, data platform modernization, and cloud infrastructure. This central capability enables hyper-personalized consumer experiences, operational intelligence, and digital growth at scale. The Nike Sport Research Lab (NSRL) in Beaverton serves as a specialized facility using AI for athlete performance research, motion capture analysis, and product design.\n\nThe December 2025 restructuring marks a significant organizational shift: Nike eliminated the standalone CTO role and moved technology oversight under the new COO (Venky Alagirisamy), a 20-year Nike veteran. This consolidation signals a move toward operational integration of AI/tech rather than treating it as a separate strategic function. The departure of VP of Enterprise AI/ML Engineering Jason Loveland in 2025, who had led Nike's 'Transformational Generative AI Initiative,' adds to the transitional nature of Nike's current AI leadership structure.\n\nNike has built AI capabilities through acquisition (Zodiac 2018, Celect 2019, Invertex 2018, Datalogue 2021) and operational deployment (1,000+ cobots in distribution centers). CEO Elliott Hill's emphasis on becoming 'more agile, tech-enabled Nike' while focusing on sport/athlete roots suggests AI is viewed as an operational enabler rather than a standalone strategic differentiator.",
+  "observableMarkers": {
+    "reportingStructure": "Chief Data and AI Officer (Alan John) exists as Global VP role. As of Dec 2025, technology reports to the COO (Alagirisamy) rather than having standalone CTO. This suggests integration of AI/tech into operations rather than separate tech leadership.",
+    "resourceAllocation": "Significant acquisition activity (4 data/AI companies 2018-2021). Capital deployed into fulfillment automation (1,000+ cobots). Nike Sport Research Lab is a dedicated, world-class facility. No ring-fenced AI budget disclosed.",
+    "timeHorizons": "Mixed. Supply chain AI and personalization = quarterly/operational cadence. NSRL research = longer-term product innovation. No evidence of 3-10 year fundamental research lab orientation.",
+    "decisionRights": "Dec 2025 restructuring elevated regional leaders to senior leadership team to give 'sales and Nike Direct an even stronger voice in how we set strategy and invest.' Suggests distributed decision-making with insights flowing from stores, digital, wholesale into corporate planning.",
+    "metrics": "Focus on operational metrics: digital order capacity, consumer personalization, demand forecasting accuracy. No explicit AI-specific success metrics disclosed."
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "text": "experience, innovative mindset and team-first leadership style will be key as we continue to evolve into a more agile, tech-enabled Nike",
+      "speaker": "Elliott Hill",
+      "speakerTitle": "CEO",
+      "source": "Consumer Goods Technology",
+      "sourceUrl": "https://consumergoods.com/nike-leadership-consolidation-cto-out-tech-oversight-moved-new-coo",
+      "sourceDate": "2025-12",
+      "context": "Announcement of Venky Alagirisamy's elevation to COO role overseeing technology"
+    },
+    {
+      "text": "We're getting sharper on innovative product. Emotionally inspiring storytelling. And we're paying it off in an integrated, elevated marketplace. Not just Nike direct, but also wholesale digital and physical as well.",
+      "speaker": "Elliott Hill",
+      "speakerTitle": "CEO",
+      "source": "CNBC Interview",
+      "sourceUrl": "https://www.cnbc.com/video/2025/10/06/watch-cnbcs-full-interview-with-nike-ceo-elliott-hill.html",
+      "sourceDate": "2025-10-06",
+      "context": "First TV interview as CEO discussing marketplace strategy"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke → M2 Center of Excellence + M3 Embedded Teams",
+      "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M2 CoE + M3 Embedded. CDAIO provides governance/enablement; AI increasingly embedded in operations.",
+      "classification": "M4 Hybrid/Hub-and-Spoke",
+      "sourceRefs": [
+        "m4-taxonomy-audit-2026-02-12"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Post-CTO Restructuring Phase",
+      "summary": "Nike eliminated standalone CTO role in December 2025, moving technology oversight under new COO Venky Alagirisamy. CDAIO Alan John leads central AI function while VP of AI/ML Engineering departed. Organization in transition toward operational integration of AI capabilities.",
+      "sourceRefs": [
+        "nike-cgt-restructuring-2025",
+        "nike-sgb-ai-vp-departure-2025",
+        "nike-dataiq-alan-john-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "nike-dataiq-alan-john-2025",
+      "name": "DataIQ - Alan John Profile",
+      "type": "Profile",
+      "url": "https://www.dataiq.global/dataiq100/alan-john-global-vice-president-chief-data-and-ai-officer-nike/",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-09",
+      "notes": "Key source for Alan John's role and responsibilities as CDAIO. Mentions AI innovation, data platform modernization, cloud infrastructure, hyper-personalized consumer experiences."
+    },
+    {
+      "id": "nike-cgt-restructuring-2025",
+      "name": "Consumer Goods Technology - Nike Leadership Consolidation",
+      "type": "Press",
+      "url": "https://consumergoods.com/nike-leadership-consolidation-cto-out-tech-oversight-moved-new-coo",
+      "sourceDate": "2025-12",
+      "collectedDate": "2026-02-09",
+      "notes": "Critical source for Dec 2025 restructuring: CTO eliminated, tech moves under new COO. Contains Elliott Hill quote about tech-enabled Nike."
+    },
+    {
+      "id": "nike-sgb-ai-vp-departure-2025",
+      "name": "SGB Media - VP AI Departing",
+      "type": "Press",
+      "url": "https://sgbonline.com/nikes-artificial-intelligence-vp-is-departing/",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-09",
+      "notes": "Source for Jason Loveland departure and his role building Nike's AI/ML engineering team."
+    },
+    {
+      "id": "nike-cnbc-hill-interview-2025",
+      "name": "CNBC - Elliott Hill Interview",
+      "type": "Interview",
+      "url": "https://www.cnbc.com/video/2025/10/06/watch-cnbcs-full-interview-with-nike-ceo-elliott-hill.html",
+      "sourceDate": "2025-10-06",
+      "collectedDate": "2026-02-09",
+      "notes": "Elliott Hill's first TV interview as CEO. Discussed digital and physical marketplace integration."
+    },
+    {
+      "id": "nike-q1-fy2026-earnings",
+      "name": "Nike Investor Relations - Q1 FY2026",
+      "type": "Earnings",
+      "url": "https://investors.nike.com/investors/news-events-and-reports/default.aspx",
+      "sourceDate": "2025-09",
+      "collectedDate": "2026-02-09",
+      "notes": "Q1 FY2026 results. Digital declined 12%, Nike Direct down 5%. Limited AI-specific commentary in earnings materials."
+    },
+    {
+      "id": "nike-careers-nsrl-2025",
+      "name": "Nike Careers - NSRL Data Scientist",
+      "type": "Job Posting",
+      "url": "https://careers.nike.com/principal-data-scientist-nike-sport-research-lab/job/R-77368",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-09",
+      "notes": "Evidence of Nike Sport Research Lab's data science capabilities and active hiring."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Short",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.4,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": 0.2,
+    "namedVsQuiet": 0.3,
+    "longVsShortHorizon": 0.2
+  },
+  "openQuestions": [
+    "Where does Alan John (CDAIO) report — to the COO, CEO, or elsewhere after the Dec 2025 restructuring?",
+    "What is the size of Nike's central Data & AI team?",
+    "What happened to the 'Transformational Generative AI Initiative' after Loveland's departure?",
+    "Does Nike have explicit AI budget or R&D allocation metrics?",
+    "How does AI work in NSRL coordinate with the central Data & AI team?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Nike's December 2025 restructuring — eliminating the CTO and moving tech under the COO — represents an interesting organizational choice that challenges the assumption that AI leadership requires standalone C-suite representation. This may signal a broader trend of AI becoming 'infrastructure' (like IT) rather than a strategic function.",
+    "[2026-02] The coexistence of a CDAIO (Alan John) with technology reporting to the COO creates an ambiguous reporting structure. This specimen would benefit from clarity on whether the CDAIO is the 'hub' or whether the COO now owns the hub, with CDAIO as one spoke among many.",
+    "[2026-02] Nike's M4 classification is complicated by the NSRL, which operates with research lab characteristics (motion capture, biomechanics, long-term product innovation) but isn't positioned as an AI lab per se. It's a performance science lab that uses AI as a tool — a distinction worth tracking as other companies may embed AI in domain-specific research facilities rather than creating AI-branded labs.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M2+M3. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — CDAIO provides governance/enablement; AI increasingly embedded in operations."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-09",
+    "lastUpdated": "2026-02-12",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

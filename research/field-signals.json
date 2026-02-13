@@ -1,6 +1,6 @@
 {
   "description": "Field Signals Registry — macro observations and cross-cutting patterns noticed during research sessions. These are the precursors to formal insights (synthesis/insights.json). Signals accumulate evidence across sessions; when a signal has 3+ specimen evidence, it can be promoted to a formal insight. Append-only: signals are never deleted, only updated or promoted.",
-  "lastUpdated": "2026-02-04T12:00:00Z",
+  "lastUpdated": "2026-02-10T16:30:00Z",
   "schema": {
     "id": "Unique slug",
     "signal": "Short title (5-10 words)",
@@ -33,7 +33,17 @@
         "2026-02-03-002-research-press-podcasts-ai-labs.md",
         "2026-02-04-001-earnings-q4-2025-wide-net.md"
       ],
-      "relatedSpecimens": ["amazon-agi", "salesforce", "klarna", "meta-ai", "microsoft", "ups", "pinterest", "accenture-openai", "nokia"],
+      "relatedSpecimens": [
+        "amazon-agi",
+        "salesforce",
+        "klarna",
+        "meta-ai",
+        "microsoft",
+        "ups",
+        "pinterest",
+        "accenture-openai",
+        "nokia"
+      ],
       "dataPoints": [
         "55K AI-attributed US layoffs in 2025 (Challenger, Gray & Christmas)",
         "25K tech jobs cut in January 2026 across 27 companies (Layoffs.fyi)",
@@ -63,7 +73,10 @@
         "2026-02-03-002-research-press-podcasts-ai-labs.md",
         "2026-02-04-001-earnings-q4-2025-wide-net.md"
       ],
-      "relatedSpecimens": ["pinterest", "workday"],
+      "relatedSpecimens": [
+        "pinterest",
+        "workday"
+      ],
       "dataPoints": [
         "TechCrunch Feb 1 2026: 'AI layoffs or AI-washing?'",
         "Oxford Economics: firms not replacing workers with AI at scale",
@@ -91,7 +104,14 @@
         "2026-02-03-003-research-earnings-calls-press.md",
         "2026-02-04-001-earnings-q4-2025-wide-net.md"
       ],
-      "relatedSpecimens": ["amazon-agi", "microsoft", "ups", "meta-ai", "salesforce", "servicenow"],
+      "relatedSpecimens": [
+        "amazon-agi",
+        "microsoft",
+        "ups",
+        "meta-ai",
+        "salesforce",
+        "servicenow"
+      ],
       "dataPoints": [
         "UPS: targeting management layers specifically, 48K+ jobs confirmed 2025",
         "Microsoft Nadella: 30% of code AI-written, targeting layers between ICs and senior execs",
@@ -141,7 +161,12 @@
         "2026-02-03-001-research-podcasts-press-substacks.md",
         "2026-02-04-001-earnings-q4-2025-wide-net.md"
       ],
-      "relatedSpecimens": ["ubs", "commonwealth-bank", "stagwell", "uk-government"],
+      "relatedSpecimens": [
+        "ubs",
+        "commonwealth-bank",
+        "stagwell",
+        "uk-government"
+      ],
       "dataPoints": [
         "40%+ Fortune 500 expected to have CAIO by end of 2026",
         "48% of FTSE 100 now have CAIOs",
@@ -166,7 +191,12 @@
         "2026-02-01-001-research-press-podcasts-reports.md",
         "2026-02-03-001-research-podcasts-press-substacks.md"
       ],
-      "relatedSpecimens": ["ubs", "commonwealth-bank", "uk-government", "salesforce"],
+      "relatedSpecimens": [
+        "ubs",
+        "commonwealth-bank",
+        "uk-government",
+        "salesforce"
+      ],
       "dataPoints": [
         "UBS Magazzeni: King's College AI professor → JPMorgan Explainable AI CoE → UBS CAIO",
         "CBA Boteju: Lloyds CDO → CBA CAIO",
@@ -191,7 +221,10 @@
         "2026-02-01-001-research-press-podcasts-reports.md",
         "2026-01-31-tier2-podcasts-press-session.md"
       ],
-      "relatedSpecimens": ["salesforce", "pwc"],
+      "relatedSpecimens": [
+        "salesforce",
+        "pwc"
+      ],
       "dataPoints": [
         "PwC 2026 framework: CAIO → portfolio of accountable owners",
         "Salesforce: dual AI leadership (Agentforce product AI + Hysen as transformation officer)",
@@ -231,7 +264,10 @@
       "sessions": [
         "2026-01-31-substacks-bg2-press.md"
       ],
-      "relatedSpecimens": ["databricks", "glean"],
+      "relatedSpecimens": [
+        "databricks",
+        "glean"
+      ],
       "dataPoints": [
         "Databricks CEO: 95% of AI projects fail",
         "Glean CEO: internal AI automation harder than expected, custom fine-tuning fell short",
@@ -271,7 +307,10 @@
       "sessions": [
         "2026-02-01-002-research-tier1-press-broad-scan.md"
       ],
-      "relatedSpecimens": ["pg-chatpg", "commonwealth-bank"],
+      "relatedSpecimens": [
+        "pg-chatpg",
+        "commonwealth-bank"
+      ],
       "dataPoints": [
         "EY CEO Outlook: broad experimentation → targeted scaling",
         "P&G deployed to 30K before knowing what works, now concentrating on high-value uses"
@@ -292,7 +331,12 @@
         "2026-01-31-multi-source-session.md",
         "2026-02-01-002-research-tier1-press-broad-scan.md"
       ],
-      "relatedSpecimens": ["jpmorgan", "ubs", "commonwealth-bank", "wells-fargo"],
+      "relatedSpecimens": [
+        "jpmorgan",
+        "ubs",
+        "commonwealth-bank",
+        "wells-fargo"
+      ],
       "dataPoints": [
         "Citigroup CFO: expects -20K headcount via AI automation of middle office",
         "UBS: first CAIO, 300+ live AI use cases",
@@ -334,7 +378,10 @@
       "sessions": [
         "2026-01-31-tier2-podcasts-press-session.md"
       ],
-      "relatedSpecimens": ["atlassian", "mercor"],
+      "relatedSpecimens": [
+        "atlassian",
+        "mercor"
+      ],
       "dataPoints": [
         "Atlassian: 3.5M AI users, Teamwork Graph maps all org knowledge, Rovo agents as teammates",
         "Mercor: 30K contractors, $1.5M+ daily distributed, connecting experts with AI labs",
@@ -354,7 +401,10 @@
       "sessions": [
         "2026-01-31-tier2-podcasts-press-session.md"
       ],
-      "relatedSpecimens": ["anthropic", "mercor"],
+      "relatedSpecimens": [
+        "anthropic",
+        "mercor"
+      ],
       "dataPoints": [
         "Clark: 'managing fleets of AI agents is going to make people incredibly powerful'",
         "Mercor CEO Foody: 'humans become bottleneck for remaining 10%' — 10x leverage per unit of output",
@@ -396,7 +446,11 @@
         "2026-01-31-gap-coverage-session.md",
         "2026-02-03-002-research-press-podcasts-ai-labs.md"
       ],
-      "relatedSpecimens": ["ami-labs", "world-labs", "ssi"],
+      "relatedSpecimens": [
+        "ami-labs",
+        "world-labs",
+        "ssi"
+      ],
       "dataPoints": [
         "LeCun (Meta, 12 years) → AMI Labs (€500M raise, €3-3.5B valuation, world models via V-JEPA, Paris HQ, Alex LeBrun as CEO)",
         "Fei-Fei Li (Stanford) → World Labs (Marble generative world model)",
@@ -419,7 +473,10 @@
         "2026-01-31-substacks-bg2-press.md",
         "2026-02-03-002-research-press-podcasts-ai-labs.md"
       ],
-      "relatedSpecimens": ["openai-microsoft", "anthropic"],
+      "relatedSpecimens": [
+        "openai-microsoft",
+        "anthropic"
+      ],
       "dataPoints": [
         "OpenAI: PBC restructured Oct 2025, potential $1T valuation, H2 2026 filing",
         "Anthropic: $350B valuation after $10B Jan 2026 round, LTBT/Class T governance, Wilson Sonsini hired",
@@ -446,7 +503,10 @@
         "2026-02-03-001-research-podcasts-press-substacks.md",
         "2026-02-03-003-research-earnings-calls-press.md"
       ],
-      "relatedSpecimens": ["microsoft", "openai-microsoft"],
+      "relatedSpecimens": [
+        "microsoft",
+        "openai-microsoft"
+      ],
       "dataPoints": [
         "Stratechery Feb 3 2026: OpenAI = 45% of Azure RPO",
         "Market sentiment reversal: biggest winner → strategic risk",
@@ -472,7 +532,9 @@
       "sessions": [
         "2026-02-03-001-research-podcasts-press-substacks.md"
       ],
-      "relatedSpecimens": ["pentagon-cdao"],
+      "relatedSpecimens": [
+        "pentagon-cdao"
+      ],
       "dataPoints": [
         "Hegseth: 'AI-first warfighting force across all components'",
         "30-day model deployment mandate (unprecedented for government)",
@@ -496,7 +558,10 @@
         "2026-02-03-001-research-podcasts-press-substacks.md",
         "2026-02-03-002-research-press-podcasts-ai-labs.md"
       ],
-      "relatedSpecimens": ["meta-ai", "ami-labs"],
+      "relatedSpecimens": [
+        "meta-ai",
+        "ami-labs"
+      ],
       "dataPoints": [
         "Reality Labs: $70B+ cumulative losses since 2020",
         "1,500 cuts (10% of 15K workforce), 3 VR studios closed",
@@ -528,7 +593,12 @@
       "sessions": [
         "2026-02-03-003-research-earnings-calls-press.md"
       ],
-      "relatedSpecimens": ["microsoft", "meta-ai", "amazon-agi", "google-deepmind"],
+      "relatedSpecimens": [
+        "microsoft",
+        "meta-ai",
+        "amazon-agi",
+        "google-deepmind"
+      ],
       "dataPoints": [
         "Meta: $115-135B 2026 CapEx guidance (nearly 2x 2025's $72.2B)",
         "Amazon: $150B+ 2026 CapEx (up from $125B in 2025)",
@@ -552,7 +622,9 @@
       "sessions": [
         "2026-02-03-001-research-podcasts-press-substacks.md"
       ],
-      "relatedSpecimens": ["sk-telecom"],
+      "relatedSpecimens": [
+        "sk-telecom"
+      ],
       "dataPoints": [
         "SK Telecom AI CIC: CEO-led, $3.6B/5yr, all AI functions consolidated",
         "Business split: MNO (legacy telecom) vs. AI (new growth)",
@@ -574,7 +646,10 @@
         "2026-02-03-002-research-press-podcasts-ai-labs.md",
         "2026-02-04-001-earnings-q4-2025-wide-net.md"
       ],
-      "relatedSpecimens": ["infosys", "accenture-openai"],
+      "relatedSpecimens": [
+        "infosys",
+        "accenture-openai"
+      ],
       "dataPoints": [
         "Infosys-Cursor CoE: 100K+ engineers equipped with AI coding tools (Jan 27, 2026)",
         "Cursor trusted by 64% of Fortune 1000, 39% avg increase in shipped PRs",
@@ -599,7 +674,10 @@
       "sessions": [
         "2026-02-03-002-research-press-podcasts-ai-labs.md"
       ],
-      "relatedSpecimens": ["anthropic", "pinterest"],
+      "relatedSpecimens": [
+        "anthropic",
+        "pinterest"
+      ],
       "dataPoints": [
         "Anthropic LTBT: independent technical/safety experts gain escalating board-election rights over time",
         "No dual-class founder structure — unusual for tech IPOs",
@@ -621,7 +699,9 @@
       "sessions": [
         "2026-02-04-001-earnings-q4-2025-wide-net.md"
       ],
-      "relatedSpecimens": ["travelers"],
+      "relatedSpecimens": [
+        "travelers"
+      ],
       "dataPoints": [
         "Travelers TravAI: in-house agentic AI platform, 20K+ active users (company-wide adoption, not pilot)",
         "Anthropic/Claude partnership for 10K customer-facing staff — chose Anthropic for safety/responsibility framing",
@@ -645,7 +725,12 @@
       "sessions": [
         "2026-02-04-001-earnings-q4-2025-wide-net.md"
       ],
-      "relatedSpecimens": ["servicenow", "travelers", "salesforce", "accenture-openai"],
+      "relatedSpecimens": [
+        "servicenow",
+        "travelers",
+        "salesforce",
+        "accenture-openai"
+      ],
       "dataPoints": [
         "ServiceNow CEO McDermott: 'obliterate 20th century org charts' — most explicit articulation of agentic AI as structural transformation",
         "ServiceNow: 'AI Agent Orchestrator' + 'AI Control Tower' — organizational metaphors, not tool metaphors",
@@ -656,6 +741,247 @@
         "Microsoft: from 'Copilot' to '3M user-created agents' — even Copilot becoming agent platform"
       ],
       "counterEvidence": "Could be marketing relabeling rather than genuine structural shift. 'Copilot' may just be unfashionable. Need to verify whether 'agentic' deployments actually differ structurally from 'copilot' ones.",
+      "promotedTo": null
+    },
+    {
+      "id": "saasmageddon-enterprise-restructuring",
+      "signal": "SaaSmageddon: AI agents trigger enterprise software model collapse",
+      "description": "On Feb 4, 2026, Nasdaq Cloud Index plummeted $285B as AI agents demonstrated ability to replace SaaS workflows. IDC predicts 70% of software vendors abandon seat-based pricing by 2028. Enterprises shifting from 'managing human workers who use software' to 'managing AI agents that orchestrate workflows.' Forces procurement, IT architecture, and process team restructuring.",
+      "theme": "structural-form",
+      "firstObserved": "2026-02-07",
+      "lastUpdated": "2026-02-10",
+      "status": "active",
+      "sessions": [
+        "podcast-substack-feed-check.json",
+        "podcast-conference-sweep-feb-10.json"
+      ],
+      "relatedSpecimens": [
+        "salesforce",
+        "workday",
+        "sap",
+        "servicenow"
+      ],
+      "dataPoints": [
+        "$285B wiped from Nasdaq Cloud Index on Feb 4, 2026",
+        "IDC: 70% of software vendors abandon seat-based pricing by 2028",
+        "Triggered by wave of disappointing SaaS earnings + Anthropic automation demos",
+        "Thompson (Stratechery): moats exist but corrections coming — more graduated than 'SaaS is dead'",
+        "Agent-per-app vs cross-app orchestration as key structural question (who owns intelligence layer?)",
+        "Microsoft Work IQ: using M365 data to create 'most valuable stateful agent'"
+      ],
+      "counterEvidence": "Some argue this is temporary valuation correction, not structural shift. Enterprise switching costs remain high.",
+      "promotedTo": null
+    },
+    {
+      "id": "management-as-ai-superpower",
+      "signal": "Management skills (not technical AI) as binding constraint on AI adoption",
+      "description": "Mollick's Wharton MBA experiment: students built functional startup prototypes in 4 days using AI tools. Key finding: management training (scoping, delegation, evaluation) predicted success, not AI expertise. Goldman's Argenti independently argues junior workers need 'player-coach' skills (articulating tasks, delegating to agents, supervising results). Both converge: the scarce resource is 'knowing what good looks like,' not technical AI capability.",
+      "theme": "talent",
+      "firstObserved": "2026-02-07",
+      "lastUpdated": "2026-02-10",
+      "status": "active",
+      "sessions": [
+        "podcast-deep-scan-feb-2026.json",
+        "goldman-sachs-deep-scan.json",
+        "podcast-conference-sweep-feb-10.json"
+      ],
+      "relatedSpecimens": [
+        "goldman-sachs"
+      ],
+      "dataPoints": [
+        "Wharton MBA class: functional startup prototypes in 4 days (Mollick: 'order of magnitude further along than full semester before AI')",
+        "Goldman Argenti: three competencies for AI era — articulating tasks, delegating to agents, supervising results",
+        "Mollick: 'The people who thrive will be the ones who know what good looks like'",
+        "Elite AI lab developers shifting from programming to management of AI agents",
+        "Mollick full thesis: delegation to AI follows same frameworks as delegation to humans (Five Paragraph Order, PRDs, shot lists)",
+        "Organizations with strong delegation cultures may adapt to AI faster (testable hypothesis)"
+      ],
+      "counterEvidence": "Selection bias: Wharton MBAs are already high-capability individuals. May not generalize to broader workforce.",
+      "promotedTo": null
+    },
+    {
+      "id": "ai-agent-to-human-ratio-as-metric",
+      "signal": "AI agent-to-human ratio emerging as trackable organizational metric",
+      "description": "McKinsey disclosed 25,000 AI agents alongside 40,000 human employees (0.625:1 ratio), targeting 1:1 by year-end 2026. First major professional services firm to publicly report this metric. Client-facing roles grew ~25%, non-client-facing roles shrank ~25%. Signals organizations moving from 'AI as tool' to 'AI as workforce member' with implications for org charts, resource allocation, and governance.",
+      "theme": "structural-form",
+      "firstObserved": "2026-02-07",
+      "lastUpdated": "2026-02-10",
+      "status": "active",
+      "sessions": [
+        "podcast-substack-feed-check.json",
+        "podcast-conference-sweep-feb-10.json"
+      ],
+      "relatedSpecimens": [],
+      "dataPoints": [
+        "McKinsey: 25,000 AI agents + 40,000 humans = 0.625:1 ratio",
+        "Target: 1:1 human-to-agent ratio by end of 2026",
+        "Client-facing roles grew ~25%; non-client-facing roles shrank ~25%",
+        "Sternfels: three irreplaceable human capabilities — creativity, judgment, interpersonal acumen",
+        "Saved 1.5 million hours in search/synthesis work in 2025",
+        "SaaStr/Lemkin: 10 SDRs/AEs → 20 AI agents + 1.2 humans (management ratio ~1:17)",
+        "Lemkin predicts 'most SDRs and BDRs will be extinct within a year'"
+      ],
+      "counterEvidence": "Definition of 'AI agent' is vague — could be inflated by counting simple automation as 'agents.' No external verification of the 25K number.",
+      "promotedTo": null
+    },
+    {
+      "id": "ai-agents-as-org-members",
+      "signal": "AI agents formally counted as organizational members",
+      "description": "McKinsey now counts 25,000 AI agents as part of its 60,000-person 'workforce' — not metaphorically, but literally in their organizational headcount. CEO targets 1:1 human-agent parity by end of 2026. This challenges traditional assumptions about what constitutes an 'organization member' with implications for spans of control, governance, and resource allocation.",
+      "theme": "structural-form",
+      "firstObserved": "2026-02-07",
+      "lastUpdated": "2026-02-10",
+      "status": "active",
+      "sessions": [
+        "podcast-conference-sweep-feb-10.json"
+      ],
+      "relatedSpecimens": [],
+      "dataPoints": [
+        "McKinsey: 40K humans + ~25K AI agents = 60K total 'employees' (CES 2026, Sternfels)",
+        "Up from 'a few thousand agents' 18 months prior",
+        "Target: 1:1 human-agent parity by end of 2026",
+        "QuantumBlack (1,700-person AI division) drives 40% of firm revenue",
+        "SaaStr: 10 SDRs/AEs replaced by 20 AI agents managed by 1.2 humans (Lemkin)"
+      ],
+      "counterEvidence": "Definition of 'AI agent' is vague — could be inflated by counting simple automation. No external verification of the 25K number. Merges with existing ai-agent-to-human-ratio signal.",
+      "promotedTo": null
+    },
+    {
+      "id": "management-scarcity-inversion",
+      "signal": "AI inverts resource scarcity: management skills become the bottleneck",
+      "description": "Mollick (Wharton) argues that AI inverts traditional resource scarcity: execution talent becomes abundant and cheap, while judgment/domain knowledge/delegation ability becomes scarce. Senior developers at AI labs report their jobs shifting 'from mostly programming to mostly management of AI agents.' Delegation to AI follows the same frameworks as delegation to humans (military Five Paragraph Order, PRDs, shot lists). If true, organizations built around managing scarce talent need fundamental structural redesign.",
+      "theme": "talent",
+      "firstObserved": "2026-02-10",
+      "lastUpdated": "2026-02-10",
+      "status": "active",
+      "sessions": [
+        "podcast-conference-sweep-feb-10.json"
+      ],
+      "relatedSpecimens": [
+        "goldman-sachs"
+      ],
+      "dataPoints": [
+        "Mollick: 'Now the talent is abundant and cheap. What is scarce is knowing what to ask for.'",
+        "AI lab developers shifting 'from mostly programming to mostly management of AI agents'",
+        "Delegation frameworks (Five Paragraph Order, PRDs, shot lists) apply to AI delegation",
+        "Goldman Argenti: junior workers as 'player-coaches' managing AI agents (independent convergence)",
+        "Implication: organizations with strong delegation cultures may adapt to AI faster"
+      ],
+      "counterEvidence": "Wharton MBA sample may not generalize. Management skills are hard to define and measure. Many routine management tasks (scheduling, status tracking) ARE automatable.",
+      "promotedTo": null
+    },
+    {
+      "id": "cio-ceo-governance-tension",
+      "signal": "CIO-CEO tension: competing decision rights over AI adoption pace",
+      "description": "NRF 2026 surfaced a specific structural tension: 'CEOs are hungry to implement and drive change — but CIOs are saddled with tempering the speed of implementation and managing expectations.' AI deployment requires multi-year rollouts, not 'flip-the-switch' deployment. This maps the explore-execute tension to specific C-suite roles: CEO as exploration champion vs. CIO as execution guardian.",
+      "theme": "governance",
+      "firstObserved": "2026-02-10",
+      "lastUpdated": "2026-02-10",
+      "status": "active",
+      "sessions": [
+        "podcast-conference-sweep-feb-10.json"
+      ],
+      "relatedSpecimens": [],
+      "dataPoints": [
+        "NRF 2026: 'CEOs are hungry to implement — CIOs are saddled with tempering speed'",
+        "68% of retailers planning agentic AI deployment in 12-24 months",
+        "NRF added dedicated 'AI Stage' for 2026 (structural separation at industry level)",
+        "AI deployment entails multi-year rollouts, not 'flip-the-switch' technology"
+      ],
+      "counterEvidence": "May be sector-specific to retail. In tech firms, CTO/CIO may be the AI champion. Tension may resolve as boards develop AI competence.",
+      "promotedTo": null
+    },
+    {
+      "id": "davos-org-design-bottleneck",
+      "signal": "Global CEO consensus: organizational design is THE AI bottleneck",
+      "description": "Multiple Davos 2026 sessions converged on the view that 'adoption is ultimately where success is measured' and that moving beyond AI pilots requires 'new strategies, capabilities, and organizational designs.' Accenture CEO: 'Human in the lead, not human in the loop.' Technology is no longer the constraint — organization is. Validates our entire research premise.",
+      "theme": "convergence",
+      "firstObserved": "2026-02-10",
+      "lastUpdated": "2026-02-10",
+      "status": "active",
+      "sessions": [
+        "podcast-conference-sweep-feb-10.json"
+      ],
+      "relatedSpecimens": [],
+      "dataPoints": [
+        "Davos 2026: 'adoption is ultimately where success is measured'",
+        "Accenture CEO (Sweet): 'Human in the lead, not human in the loop'",
+        "Amodei (Anthropic): engineers 'use AI to write code, and then edit it themselves'",
+        "AI cost management as new governance challenge: usage-based consumption models",
+        "Fink (BlackRock): 'Hundreds of billions needed to build this out'"
+      ],
+      "counterEvidence": "Davos is notoriously susceptible to consensus thinking. CEOs may be post-rationalizing past decisions. The 'organizational design' framing may be vaguer than it sounds.",
+      "promotedTo": null
+    },
+    {
+      "id": "ai-governance-maturity-gap",
+      "signal": "80% of companies lack mature AI agent governance models",
+      "description": "Deloitte 2026 report: only 1 in 5 companies has a mature governance model for autonomous AI agents. Companies report stronger strategic alignment (42% highly prepared) than operational readiness in 'infrastructure, data, risk, and talent.' Education — not role or workflow redesign — remains the #1 talent adjustment strategy, suggesting most orgs are training people for the old structure, not redesigning the structure for AI.",
+      "theme": "governance",
+      "firstObserved": "2026-02-10",
+      "lastUpdated": "2026-02-10",
+      "status": "active",
+      "sessions": [
+        "podcast-conference-sweep-feb-10.json"
+      ],
+      "relatedSpecimens": [],
+      "dataPoints": [
+        "Deloitte 2026: only 1 in 5 companies has mature AI agent governance",
+        "42% highly prepared on strategic alignment vs. much lower on operational readiness",
+        "Education (not workflow/role redesign) is #1 talent adjustment strategy",
+        "Gap between strategic intent and operational capability in infrastructure, data, risk, talent"
+      ],
+      "counterEvidence": "Self-reported survey data. 'Mature governance' may be defined differently across firms. Deloitte has consulting business interest in finding governance gaps.",
+      "promotedTo": null
+    },
+    {
+      "id": "professional-services-dual-restructuring",
+      "signal": "Professional services firms restructuring both internally and as AI transformation advisors",
+      "description": "McKinsey (25K agents, QuantumBlack at 40% revenue), BCG (multi-year embedded AI transformation), PwC, Accenture all restructuring around AI both internally (how they work) and externally (what they sell). Their dual role — restructuring themselves while advising others on restructuring — creates interesting selection effects and potential conflicts of interest. Professional services is a distinct structural pattern we haven't documented.",
+      "theme": "structural-form",
+      "firstObserved": "2026-02-10",
+      "lastUpdated": "2026-02-10",
+      "status": "active",
+      "sessions": [
+        "podcast-conference-sweep-feb-10.json"
+      ],
+      "relatedSpecimens": [
+        "accenture-openai"
+      ],
+      "dataPoints": [
+        "McKinsey: 25% client-facing growth / 25% back-office cuts",
+        "McKinsey: outcome-based partnerships replacing fee-for-service advisory",
+        "QuantumBlack: 1,700-person AI division = 40% of McKinsey revenue",
+        "Sternfels (CES 2026): 'Transform or die'",
+        "BCG: multi-year AI transformation engagements with embedded tools",
+        "Accenture: $5.9B GenAI bookings while $865M own restructuring"
+      ],
+      "counterEvidence": "Conflict of interest: consultants recommending AI restructuring they can sell. McKinsey 25K agent count may be inflated for CES presentation impact.",
+      "promotedTo": null
+    },
+    {
+      "id": "saas-to-agent-orchestration-structural-question",
+      "signal": "Agent-per-app vs cross-app orchestration as fundamental structural choice",
+      "description": "Thompson (Stratechery) argues every SaaS app will have its own agent, but agents will be 'bound by the borders of the application.' The key structural question: who owns the intelligence/orchestration layer? If agents are app-bound, SaaS vendors retain control. If a horizontal orchestrator (Microsoft Work IQ) spans apps, it captures the coordination layer. This is the organizational governance equivalent of 'make vs buy' for AI intelligence.",
+      "theme": "structural-form",
+      "firstObserved": "2026-02-10",
+      "lastUpdated": "2026-02-10",
+      "status": "active",
+      "sessions": [
+        "podcast-conference-sweep-feb-10.json"
+      ],
+      "relatedSpecimens": [
+        "microsoft",
+        "salesforce"
+      ],
+      "dataPoints": [
+        "Thompson: 'SaaSmageddon' — AI agents disrupting SaaS business models",
+        "Thompson: 'painful corrections to valuation, consolidation, and substantial layoffs' expected",
+        "Microsoft Work IQ: using M365 data for 'most valuable stateful agent'",
+        "Each SaaS app agent 'definitionally bound by the borders of the application'",
+        "Cross-app agent orchestration as the new coordination layer"
+      ],
+      "counterEvidence": "Thompson argues moats exist and transition will be more graduated than 'SaaS is dead' narrative. Enterprise switching costs remain very high.",
       "promotedTo": null
     }
   ]

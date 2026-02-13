@@ -26,11 +26,11 @@
   },
   "description": "Google X (now simply 'X') is Alphabet's dedicated 'moonshot factory' — an organization that pursues radical, high-risk innovations with potential for 10x impact. It operates on deliberately different rules than the rest of Google, with its own incentive systems, time horizons, and success metrics.\n\nThe core innovation is structural: X launches 100+ experiments annually with a 2% graduation rate. Projects that survive 5-6 years of rigorous testing can become independent companies (Waymo, Verily, Wing) or get absorbed into Alphabet. Critically, X has inverted the usual corporate incentive structure — teams receive bonuses, applause, and promotions for killing their own projects early. This eliminates the sunk cost fallacy and prevents political protection of zombie projects. Before projects even begin, teams run 'pre-mortems' to predict how they'll fail, then 'run at all the hardest parts of the problem first.'\n\nMore recently, X has shifted toward spinning out projects as independent companies rather than keeping them within Alphabet. Series X Capital ($500M+ fund run by former YouTube exec Gideon Yu) invests in X spinouts with Alphabet as minority investor. Recent moonshots include Anori (AI for real estate), Tapestry (AI-powered electric grid), and Project Bellwether (wildfire/flood prediction).",
   "observableMarkers": {
-    "reportingStructure": "Reports to Alphabet CEO. Structurally separated from Google product organization.",
-    "resourceAllocation": "Surviving projects (2% graduation rate) consume 44% of X's entire budget. Series X Capital: $500M+ fund for spinouts.",
-    "timeHorizons": "5-6 year graduation timeline. 100+ experiments at any given time.",
-    "decisionRights": "X leadership decides project continuation/termination. Kill decisions are celebrated, not punished.",
-    "metrics": "100+ experiments annually, 2% graduation rate, 44% budget concentration on graduates. Graduated companies: Waymo, Verily, Wing, Loon, Chronicle."
+    "reportingStructure": "Reports to Alphabet CEO. Structurally separated from Google product organization [techcrunch-disrupt-2025].",
+    "resourceAllocation": "Surviving projects (2% graduation rate) consume 44% of X's entire budget [techcrunch-disrupt-2025]. Series X Capital: $500M+ fund for spinouts [techcrunch-2025-nov].",
+    "timeHorizons": "5-6 year graduation timeline. 100+ experiments at any given time [techcrunch-disrupt-2025, hbr-podcast].",
+    "decisionRights": "X leadership decides project continuation/termination. Kill decisions are celebrated, not punished [techcrunch-disrupt-2025].",
+    "metrics": "100+ experiments annually, 2% graduation rate, 44% budget concentration on graduates [techcrunch-disrupt-2025]. Graduated companies: Waymo, Verily, Wing, Loon, Chronicle [hbr-podcast]."
   },
   "mechanisms": [
     {
@@ -58,6 +58,13 @@
     }
   ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Citation Backfill",
+      "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
+      "classification": null,
+      "sourceRefs": []
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
@@ -154,7 +161,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
+    "lastUpdated": "2026-02-12",
     "completeness": "High",
     "convertedFrom": "library/cases/google-x.json"
   }

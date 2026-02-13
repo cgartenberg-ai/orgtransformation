@@ -1,0 +1,54 @@
+{
+  "company": "Roche / Genentech",
+  "ticker": "RHHBY",
+  "sector": "Pharmaceuticals",
+  "scannedDate": "2026-02-07",
+  "searchesCompleted": 0,
+  "urlsFetched": 4,
+  "fetchFailures": [],
+  "structuralFindings": {
+    "suggestedModel": 3,
+    "suggestedModelName": "Embedded Teams",
+    "suggestedOrientation": "Structural",
+    "confidence": "Low",
+    "rationale": "Based on existing specimen classification. New observations from earnings/research session.",
+    "aiTeamStructure": null,
+    "keyPeople": null,
+    "investmentSignals": null,
+    "observableMarkers": {}
+  },
+  "quotes": [],
+  "sources": [
+    {
+      "name": "Roche Genentech Innovation Center Boston launched",
+      "url": "https://www.roche.com/media/releases/med-cor-2025-03-07",
+      "type": "Press",
+      "date": "2025-03-07",
+      "notes": "Roche Genentech Innovation Center Boston launched"
+    },
+    {
+      "name": "Genentech-NVIDIA multi-year AI research collaboration",
+      "url": "https://www.roche.com/investors/updates/inv-update-2023-11-21",
+      "type": "Press",
+      "date": "2023-11-21",
+      "notes": "Genentech-NVIDIA multi-year AI research collaboration"
+    },
+    {
+      "name": "Aviv Regev's 'lab in a loop' mechanism at Genentech",
+      "url": "https://www.roche.com/stories/ai-revolutionising-drug-discovery-and-transforming-patient-care",
+      "type": "Press",
+      "date": "2025-01-01",
+      "notes": "Aviv Regev's 'lab in a loop' mechanism at Genentech"
+    },
+    {
+      "name": "Roche-Genentech-Recursion up to $12B AI drug discovery partnership",
+      "url": "https://www.genengnews.com/news/roche-genentech-recursion-launch-up-to-12b-ai-drug-discovery-effort/",
+      "type": "Press",
+      "date": "2025-01-01",
+      "notes": "Roche-Genentech-Recursion up to $12B AI drug discovery partnership"
+    }
+  ],
+  "summary": "Roche Genentech Innovation Center Boston launched: Roche announced the launch of the Roche Genentech Innovation Center Boston, based at Harvard's Enterprise Research Campus in Allston (announced March 2025). The center invests in a Cardiovascular, Ren Genentech-NVIDIA multi-year AI research collaboration: Genentech entered a multi-year strategic research collaboration with NVIDIA coupling Genentech's AI capabilities, extensive biological and molecular datasets, and research expertise with NVIDIA's acce Aviv Regev's 'lab in a loop' mechanism at Genentech: Aviv Regev (Head of gRED \u2014 Genentech Research and Early Development) describes reaching an 'inflection point' where AI and machine learning redefine drug discovery through a 'lab in a loop' mechanism. Roche-Genentech-Recursion up to $12B AI drug discovery partnership: Roche, Genentech, and Recursion launched an up-to-$12 billion AI drug discovery effort. This represents one of the largest pharma-AI partnerships by total deal value.",
+  "openQuestions": [],
+  "splitFrom": "pharma-earnings-q4-2025.json"
+}

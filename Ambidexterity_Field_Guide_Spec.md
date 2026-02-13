@@ -1,6 +1,6 @@
 # Ambidexterity in the AI Era: A Field Guide
-## Product Specification v1.3
-### Updated February 3, 2026
+## Product Specification v1.4
+### Updated February 12, 2026
 
 ---
 
@@ -64,7 +64,7 @@ This field guide focuses primarily on **structural approaches** — how organiza
 
 ## 4. The Taxonomy
 
-The taxonomy builds on empirical research originally documenting 285+ organizational cases. As of February 3, 2026, **85 organizations** have been fully structured as specimens with classification, sourcing, and stratigraphic layers. Specimens are classified along two dimensions: **primary structural model** and **ambidexterity orientation**.
+The taxonomy builds on empirical research originally documenting 285+ organizational cases. Specimens are continuously curated and classified along two dimensions: **primary structural model** and **ambidexterity orientation**. See `APP_STATE.md` for current specimen count and model distribution.
 
 ### Dimension 1: Structural Model
 *What is the organizational structure for AI?*
@@ -165,6 +165,9 @@ Each organizational specimen is documented with a standard structure:
 │  • Resource allocation patterns                                 │
 │  • Time horizons                                                │
 │  • Decision rights                                              │
+│  • Metrics — KPIs the organization announces it tracks,         │
+│    with specific targets, numbers, and framing                  │
+│  (All facts include [source-id] citations for auditability)     │
 │                                                                 │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
@@ -330,7 +333,7 @@ The reference site is organized for browsing and discovery:
 - Each specimen card expandable to full detail
 
 ### Principles (Mechanisms)
-Cross-cutting patterns observed across multiple specimens. After a rigorous audit (Feb 3, 2026), **9 confirmed mechanisms** remain, each with scholarly anchors grounding them in organizational economics:
+Cross-cutting patterns observed across multiple specimens. After a rigorous audit (Feb 3, 2026), the following **confirmed mechanisms** remain, each with scholarly anchors grounding them in organizational economics (see `synthesis/mechanisms.json` for current confirmed and candidate lists):
 
 1. **Protect Off-Strategy Work** — Structure to let deviations survive. *Scholarly anchor: March (1991) on exploitation driving out exploration.* (Eli Lilly)
 3. **Embed Product at Research Frontier** — Product teams work directly with researchers. *Scholarly anchor: Henderson & Clark (1990) on architectural innovation.* (Anthropic)
@@ -344,20 +347,15 @@ Cross-cutting patterns observed across multiple specimens. After a rigorous audi
 
 **Mechanism maturity lifecycle**: emerging → confirmed → widespread → deprecated. Mechanisms #2, #9, #12 were demoted to candidate status during the Feb 3 audit for insufficient evidence or definitional issues.
 
-9 candidate mechanisms remain under observation. Each mechanism links to specimens that demonstrate it.
+Additional candidate mechanisms remain under observation. Each mechanism links to specimens that demonstrate it.
 
 ### Field Insights
 
 Cross-cutting findings that span multiple specimens, industries, or mechanisms. These are the field guide's key empirical contributions — **insights are never deleted**, only updated with new evidence or new insights added.
 
-**13 insights** organized by theme:
-- **Convergence patterns** (5): Hub-and-spoke in R&D-intensive industries, management delayering convergence, AI team consolidation arc, CAIO industry waves, Google's 25-year structural evolution
-- **Organizational form** (2): AI-native orgs don't face classic ambidexterity tension, founder authority determines accessible models
-- **Mechanism insights** (3): Meta as exploration failure natural experiment, speed without depth is a trap, regulation means expensive not slow
-- **Workforce** (2): AI-driven restructuring convergent across industries, entry-level elimination creates talent hollow
-- **Methodology** (1): Consulting dual-identity problem
+Insights are organized by theme (convergence, organizational-form, mechanism, workforce, methodology). See `synthesis/insights.json` for the current collection, which grows with each synthesis session.
 
-**Insight maturity lifecycle**: hypothesis (1 specimen) → emerging (2 specimens) → confirmed (3+ specimens). Current distribution: 7 confirmed, 3 emerging, 3 hypothesis.
+**Insight maturity lifecycle**: hypothesis (1 specimen) → emerging (2 specimens) → confirmed (3+ specimens).
 
 ### Tensions & Contingencies
 
@@ -446,6 +444,9 @@ Each specimen should feel like encountering a real organization. Specific mechan
 ### Sources Are Sacred
 Every claim needs a source. Undated or unverifiable claims don't make it into the field guide.
 
+### Every Fact Is Auditable
+Observable markers and other specimen facts include inline `[source-id]` citations that link directly to the source. Readers can verify any claim by clicking through to the original source URL. The same standard applies to purpose claims (verbatim with source URL) and to observable markers (cited with `[source-id]`). Only synthesis-level insights (our own analytical observations) may be uncited.
+
 ### Let the Taxonomy Breathe
 The classification system should help users navigate, not force specimens into ill-fitting boxes. "Hybrid" is a valid classification. Edge cases are noted.
 
@@ -470,7 +471,7 @@ Light on jargon, heavy on practical detail. Theoretical connections available bu
 ## 11. Open Questions
 
 1. **Scope**: Should we include contextual ambidexterity specimens, or focus exclusively on structural approaches?
-   - *Status: RESOLVED — We include all three orientations (Structural, Contextual, Temporal). Current distribution: 60 Structural, 24 Contextual, 1 Temporal across 85 specimens.*
+   - *Status: RESOLVED — We include all three orientations (Structural, Contextual, Temporal). See `APP_STATE.md` for current orientation distribution.*
 
 2. **Recency**: How do we handle specimens that may have evolved since documentation? Living documents vs. point-in-time snapshots?
    - *Status: RESOLVED — Stratigraphy model implemented. Specimens have `layers[]` array preserving historical evolution. Each layer is dated and sourced.*
@@ -486,61 +487,40 @@ Light on jargon, heavy on practical detail. Theoretical connections available bu
 
 ---
 
-## 12. Current State (as of February 3, 2026)
+## 12. Current State
+
+> **⚠️ This section is intentionally sparse. For current counts (specimens, mechanisms, insights, model distribution, orientation distribution, source coverage, validation status), see `APP_STATE.md` — that file is updated at the end of every session and serves as the single source of truth for collection state.**
 
 ### Infrastructure Built
 
-The three-phase workflow is fully operational. All queues are empty (no pending work).
+The three-phase workflow is fully operational, plus a fourth parallel track for purpose claims.
 
-| Component | Status | Location |
-|-----------|--------|----------|
-| **Specimen collection** | 85 structured specimens | `specimens/*.json` |
-| **Specimen registry** | Tracking all 85 with model/orientation distribution | `specimens/registry.json` |
-| **Source registry** | 41 sources (18 Tier 1, 23 Tier 2) | `specimens/source-registry.json` |
-| **Research sessions** | 12 sessions completed | `research/sessions/` |
-| **Research queue** | 12 entries (all pending new research) | `research/queue.json` |
-| **Curation sessions** | 11 completed | `curation/sessions/` |
-| **Synthesis queue** | 110 entries (all synthesized, 0 pending) | `curation/synthesis-queue.json` |
-| **Mechanisms** | 9 confirmed + 9 candidate (audited Feb 3) | `synthesis/mechanisms.json` |
-| **Insights** | 13 cross-cutting field insights (7 confirmed, 3 emerging, 3 hypothesis) | `synthesis/insights.json` |
-| **Tensions** | 5 core tensions | `synthesis/tensions.json` |
-| **Contingencies** | 5 key contingencies | `synthesis/contingencies.json` |
-| **Validation** | 0 errors, 60 warnings (mostly null URLs from legacy data) | `scripts/validate-workflow.js` |
-| **Skills** | 3 phase skills (`/research`, `/curate`, `/synthesize`) + curation guardrails | `.claude/skills/` |
-| **Reference site** | Working Next.js prototype (15 routes incl. insights, taxonomy detail, mechanism detail; Claude chat matcher) | `site/` |
-| **Classification guardrails** | 7 guardrails embedded in curation protocol | `skills/ambidexterity-curation/SKILL.md` |
-| **Low-confidence queue** | 2 specimens queued for deeper research | `research/low-confidence-queue.json` |
-
-### Specimen Distribution
-
-| Structural Model | Count | Type Specimen |
-|-----------------|-------|---------------|
-| Model 1: Research Lab | 6 | Google DeepMind |
-| Model 2: Center of Excellence | 17 | — |
-| Model 3: Embedded Teams | 9 | — |
-| Model 4: Hub-and-Spoke | 22 | Novo Nordisk |
-| Model 5: Product/Venture Lab | 9 | Google X (5b), Samsung C-Lab (5a) |
-| Model 6: Unnamed/Informal | 13 | P&G (ChatPG), Bank of America |
-| Model 7: Tiger Teams | 0 | — (no confirmed specimens after taxonomy audit) |
-| Model 8: Skunkworks (Emerging) | 0 | — (predicted model, no confirmed specimens yet) |
-| Model 9: AI-Native | 10 | — (born-AI organizations, no legacy to transform) |
-
-**Orientation distribution**: 50 Structural, 24 Contextual, 1 Temporal (M9 AI-Native: 9 Structural, 1 Contextual)
-
-**AI-native specimens (M9)**: 10 (harvey-ai, mercor, sierra-ai, glean, ssi, ami-labs, thinking-machines-lab, world-labs, databricks, snowflake)
-
-### Source Coverage
-
-- **18 Tier 1 sources**: All scanned at least once (11 podcast/substack + 7 press)
-- **23 Tier 2 sources**: 8 podcasts, 4 substacks, 4 reports, 2 press, 2 filings, plus ad-age, digiday
-- **Deep-scan backlog**: 4 HIGH, 5 MEDIUM priority podcast episodes (see research session 002)
+| Component | Location | Notes |
+|-----------|----------|-------|
+| **Specimen collection** | `specimens/*.json` | See `specimens/registry.json` for current count and model distribution |
+| **Source registry** | `specimens/source-registry.json` | Tier 1 and Tier 2 sources tracked |
+| **Research sessions** | `research/sessions/` | Growing with each research run |
+| **Curation sessions** | `curation/sessions/` | Growing with each curation run |
+| **Synthesis queue** | `curation/synthesis-queue.json` | Tracks specimens pending synthesis |
+| **Mechanisms** | `synthesis/mechanisms.json` | Confirmed + candidate, with maturity lifecycle |
+| **Insights** | `synthesis/insights.json` | Growing collection, never deleted (guardrail) |
+| **Tensions** | `synthesis/tensions.json` | 5 core tensions (definitional) |
+| **Contingencies** | `synthesis/contingencies.json` | 5 key contingencies (definitional) |
+| **Skills** | `.claude/skills/` | `/research`, `/curate`, `/synthesize`, `/purpose-claims` |
+| **Reference site** | `site/` | Working Next.js prototype with field journal |
+| **Classification guardrails** | `skills/ambidexterity-curation/SKILL.md` | 7 guardrails in curation protocol |
+| **Purpose claims** | `research/purpose-claims/registry.json` | Verbatim claim registry with v2.0 taxonomy (6 types) |
+| **Purpose claims enrichment** | `research/purpose-claims/enrichment/*.json` | Per-specimen rhetorical profiles (100 files): claim type distribution, key findings, rhetorical patterns |
+| **Spider/radar charts** | `site/components/visualizations/SpiderChart.tsx` | Visual rhetorical profiles on specimen pages and purpose claims browser |
+| **Citation system** | `site/lib/utils/citations.ts` + `site/components/shared/CitedText.tsx` | Inline `[source-id]` markers for fact-level auditability |
 
 ### What Remains to Build
 
-1. **Source URL backfill** — 169 sources across specimens have null URLs (legacy data)
-2. **Legacy case conversion** — 55 old-format files in `library/cases/` can be batch-converted via `scripts/convert-cases.js`
-3. **Ongoing research** — Deep-scan backlog, Tier 2 sources
-4. **Low-confidence specimens** — roche-genentech (M3, Low) and lg-electronics (M2) need deeper evidence
+1. **Source URL backfill** — Many legacy sources have null URLs (see validator warnings for current count)
+2. **Legacy case conversion** — Old-format files in `library/cases/` can be batch-converted via `scripts/convert-cases.js`
+3. **Ongoing research** — Deep-scan backlog, Tier 2 sources, sector-specific deep dives
+4. **Low-confidence specimens** — See `research/low-confidence-queue.json` for current queue
+5. **Interactive synthesis** — Remaining specimen batches need collaborative placement (see `HANDOFF.md`)
 5. **Site deployment** — Not yet deployed (runs locally only)
 6. **Site Phase 4-6** — User features, research integration, polish (see APP_STATE.md)
 
@@ -606,4 +586,4 @@ The three-phase workflow is fully operational. All queues are empty (no pending 
 
 ---
 
-*This spec builds on empirical research originally documenting 285+ organizational cases. As of February 3, 2026, 85 organizations have been fully structured as specimens with 9 confirmed cross-cutting mechanisms (each grounded in scholarly anchors) and 13 cross-cutting field insights. The field guide is developed iteratively through the three-phase skill workflow, with the taxonomy refined as specimens are documented and synthesized.*
+*This spec builds on empirical research originally documenting 285+ organizational cases. The specimen collection, confirmed mechanisms (each grounded in scholarly anchors), and field insights grow continuously through the three-phase skill workflow. A parallel purpose claims track collects verbatim leadership statements (v2.0 taxonomy: 6 types), with spider/radar chart visualizations for rhetorical profile comparison. Inline `[source-id]` citations provide fact-level auditability. See `APP_STATE.md` for current counts. The taxonomy is refined as specimens are documented and synthesized.*

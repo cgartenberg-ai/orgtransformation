@@ -1,0 +1,200 @@
+{
+  "company": "Mayo Clinic",
+  "ticker": "PRIVATE",
+  "leader": "Gianrico Farrugia",
+  "leaderTitle": "President and CEO",
+  "sector": "Healthcare",
+  "quadrant": "Q2",
+  "scannedDate": "2026-02-08",
+  "searchesCompleted": 5,
+  "urlsFetched": 5,
+  "fetchFailures": [
+    "https://sloanreview.mit.edu/article/mayo-clinics-healthy-model-for-ai-success/ (returned minified JS, no content)",
+    "https://www.mayo.edu/research/departments-divisions/artificial-intelligence-informatics/overview (403 Forbidden)",
+    "https://www.mayoclinicplatform.org/our-team/ (403 Forbidden)"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Structural",
+    "confidence": "High",
+    "rationale": "Mayo Clinic has a clear hub-and-spoke structure: central AI governance and enablement functions (CAIO, CDAO, Center for Digital Health, AI Factory) provide standards and capabilities, while AI execution is distributed across clinical departments (Neurology AI, Digital Pathology, Cardiovascular, Radiology). The Mayo Clinic Platform serves as an additional hub for external innovation and partnerships. Multiple distinct units handle different aspects: Department of AI & Informatics (research), Center for Digital Health (transformation), Mayo Clinic Platform (external innovation/commercialization). Strong structural ambidexterity with separation between exploration (Platform, research lab) and execution (clinical AI deployment).",
+    "aiTeamStructure": "Multi-hub structure with clear role differentiation: (1) Chief AI Implementation Officer (Micky Tripathi) leads enterprise AI implementation and governance, (2) Chief Data and Analytics Officer (Ajai Sehgal) leads AI enablement, consulting, education, and the 'AI Factory' for rapid model development, (3) Mayo Clinic Platform (John Halamka) handles external innovation, partnerships, and commercialization, (4) Department of AI & Informatics conducts fundamental research, (5) Center for Digital Health drives digital transformation. Clinical AI is embedded in departments (Neurology, Pathology, Radiology, Cardiovascular). An 'AI Factory' approach launched in 2021 standardizes development processes across 200+ use cases.",
+    "keyPeople": [
+      {"name": "Gianrico Farrugia", "title": "President and CEO", "role": "Strategic vision, platform architecture, Bold Forward strategic plan, AI ethics/governance (co-chairs NAM AI Code of Conduct)"},
+      {"name": "Micky Tripathi", "title": "Chief Artificial Intelligence Implementation Officer", "role": "Enterprise AI implementation, governance, safety, clinical deployment (appointed early 2025, former HHS National Coordinator for Health IT)"},
+      {"name": "Ajai Sehgal", "title": "Chief Data and Analytics Officer (CDAO)", "role": "AI enablement, consulting, education, AI Factory, internal use case development"},
+      {"name": "John Halamka", "title": "President, Mayo Clinic Platform", "role": "External innovation, partnerships, startup accelerator, platform commercialization"},
+      {"name": "Bhavik Patel", "title": "Director, Mayo Clinic Arizona; Leader, AI Innovation and Enablement", "role": "Overall AI innovation leadership, radiology AI"},
+      {"name": "Matthew Callstrom", "title": "Medical Director, Strategy Department", "role": "Generative AI Program lead"},
+      {"name": "David Jones", "title": "Director, Neurology AI Program", "role": "Neurology AI applications"},
+      {"name": "Matt Redlon", "title": "Vice President, Digital Biology", "role": "Digital pathology and 3D pathology slides"},
+      {"name": "Paul Friedman", "title": "Chair, Cardiovascular Medicine", "role": "ECG algorithms, cardiovascular AI"}
+    ],
+    "investmentSignals": "$9 billion infrastructure investment for physical and digital rearchitecture. 83,000 total staff. Several thousand physicians and scientists. Recently launched healthcare's first supercomputing cluster using Nvidia's latest AI technology (investment undisclosed). 50+ million anonymized patient records. 12+ million digitized 3D pathology slides. 7+ million ECG datasets. 10-year Google Cloud partnership (announced 2019).",
+    "observableMarkers": {
+      "reportingStructure": "CAIO (Tripathi) and CDAO (Sehgal) are distinct C-suite roles. Mayo Clinic Platform is a separate unit under Halamka. All appear to report up to CEO Farrugia. AI innovation is clinician-led with department heads (Jones, Callstrom, Friedman) driving domain-specific AI.",
+      "resourceAllocation": "Dedicated, ring-fenced: AI Factory is a formal capability, Mayo Clinic Platform is a separate unit with its own accelerator and partnerships. $9B infrastructure investment explicitly tied to AI/digital transformation. Nvidia supercomputer cluster is dedicated AI infrastructure.",
+      "timeHorizons": "Mixed horizons consistent with hub-and-spoke: (1) Near-term: ~100 algorithms in production, clinical deployment focus, (2) Medium-term: 200+ use cases in AI Factory pipeline, accelerator cohorts, (3) Long-term: 10-year Google partnership, 'Bold Forward' strategic plan, platform architecture for global scale.",
+      "decisionRights": "Hybrid: Central governance for standards, security, privacy vetting (all algorithms must pass review). Distributed execution via clinical departments. Sehgal's team provides consulting before development. Halamka's Platform enables external innovation with guardrails.",
+      "metrics": "Clinical outcomes emphasized over administrative efficiency. 320 AI algorithms cited by CEO. 'Fit for use' validation via Platform_Validate. Publications in Mayo Clinic Proceedings. Patient safety as primary constraint."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "We knew that we could incorporate AI and make it better.",
+      "speaker": "Gianrico Farrugia",
+      "speakerTitle": "President and CEO, Mayo Clinic",
+      "source": "Microsoft Research Podcast: The AI Revolution in Medicine, Revisited",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/podcast/reimagining-healthcare-delivery-and-public-health-with-ai/",
+      "sourceDate": "2025",
+      "context": "Discussing Mayo Clinic's decision to build AI into healthcare architecture"
+    },
+    {
+      "text": "Let's create a different architecture. And that architecture had to be very closely linked to artificial intelligence.",
+      "speaker": "Gianrico Farrugia",
+      "speakerTitle": "President and CEO, Mayo Clinic",
+      "source": "Microsoft Research Podcast: The AI Revolution in Medicine, Revisited",
+      "sourceUrl": "https://www.microsoft.com/en-us/research/podcast/reimagining-healthcare-delivery-and-public-health-with-ai/",
+      "sourceDate": "2025",
+      "context": "Explaining the strategic vision behind Mayo Clinic Platform"
+    },
+    {
+      "text": "AI is not about replacing the human touch in healthcare. It's about enhancing it—giving doctors and nurses better tools so they can spend more time where they're needed most: with patients.",
+      "speaker": "Micky Tripathi",
+      "speakerTitle": "Chief Artificial Intelligence Implementation Officer, Mayo Clinic",
+      "source": "OncoDaily",
+      "sourceUrl": "https://oncodaily.com/blog/mayo-clinic-293649",
+      "sourceDate": "2025",
+      "context": "Articulating AI implementation philosophy upon appointment as CAIO"
+    },
+    {
+      "text": "Technology should always serve the people who serve others.",
+      "speaker": "Micky Tripathi",
+      "speakerTitle": "Chief Artificial Intelligence Implementation Officer, Mayo Clinic",
+      "source": "OncoDaily",
+      "sourceUrl": "https://oncodaily.com/blog/mayo-clinic-293649",
+      "sourceDate": "2025",
+      "context": "On the role of AI in healthcare"
+    },
+    {
+      "text": "We have always prided ourselves on being the No. 1 organization. That's what we want to be.",
+      "speaker": "Micky Tripathi",
+      "speakerTitle": "Chief Artificial Intelligence Implementation Officer, Mayo Clinic",
+      "source": "GovTech",
+      "sourceUrl": "https://www.govtech.com/artificial-intelligence/mayo-clinic-pushing-to-become-ai-health-care-leader",
+      "sourceDate": "2025",
+      "context": "On Mayo Clinic's AI leadership ambitions"
+    },
+    {
+      "text": "If you're not getting it in the hands of the clinicians who are working directly with patients, it doesn't matter.",
+      "speaker": "Micky Tripathi",
+      "speakerTitle": "Chief Artificial Intelligence Implementation Officer, Mayo Clinic",
+      "source": "GovTech",
+      "sourceUrl": "https://www.govtech.com/artificial-intelligence/mayo-clinic-pushing-to-become-ai-health-care-leader",
+      "sourceDate": "2025",
+      "context": "Emphasizing implementation over development"
+    },
+    {
+      "text": "There are always fears that we all ought to have, with respect to the unintended consequences of technology that isn't appropriately managed. But we're spending a lot of time on doing that.",
+      "speaker": "Micky Tripathi",
+      "speakerTitle": "Chief Artificial Intelligence Implementation Officer, Mayo Clinic",
+      "source": "GovTech",
+      "sourceUrl": "https://www.govtech.com/artificial-intelligence/mayo-clinic-pushing-to-become-ai-health-care-leader",
+      "sourceDate": "2025",
+      "context": "On AI governance and risk management"
+    },
+    {
+      "text": "We need trust, and we have to do a better job of defining what that means. I'm a big proponent for assurance labs. Private [and] public partnerships that come together, that allow anyone to take their algorithm and say that it's fit for use, and that it does what it says it's going to do. In our platform, we called that Validate.",
+      "speaker": "Gianrico Farrugia",
+      "speakerTitle": "President and CEO, Mayo Clinic",
+      "source": "KTTC / World Economic Forum 2025",
+      "sourceUrl": "https://www.kttc.com/2025/01/24/mayo-clinic-ceo-discusses-ai-impact-healthcare-world-economic-forum/",
+      "sourceDate": "2025-01",
+      "context": "On AI validation and the need for assurance labs at the World Economic Forum"
+    },
+    {
+      "text": "Nurses in Nigeria have been able to reduce mortality in pregnant women... that algorithm taken by others and making it country appropriate has been able to diagnose heart failure in kids in Peru.",
+      "speaker": "Gianrico Farrugia",
+      "speakerTitle": "President and CEO, Mayo Clinic",
+      "source": "KTTC / World Economic Forum 2025",
+      "sourceUrl": "https://www.kttc.com/2025/01/24/mayo-clinic-ceo-discusses-ai-impact-healthcare-world-economic-forum/",
+      "sourceDate": "2025-01",
+      "context": "On global AI applications and echocardiogram algorithms in developing countries"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Microsoft Research Podcast: The AI Revolution in Medicine, Revisited",
+      "url": "https://www.microsoft.com/en-us/research/podcast/reimagining-healthcare-delivery-and-public-health-with-ai/",
+      "type": "Interview",
+      "date": "2025",
+      "notes": "Rich interview with Farrugia on AI architecture, Mayo Clinic Platform launch, clinician-led AI development, three strategic pillars (Cure, Connect, Transform)"
+    },
+    {
+      "name": "OncoDaily: Mayo Clinic Appoints Micky Tripathi as Chief AI Implementation Officer",
+      "url": "https://oncodaily.com/blog/mayo-clinic-293649",
+      "type": "Press",
+      "date": "2025",
+      "notes": "CAIO appointment announcement, Tripathi's background (HHS, Harvard PhD), AI philosophy quotes"
+    },
+    {
+      "name": "GovTech: Mayo Clinic Pushing to Become AI Health-Care Leader",
+      "url": "https://www.govtech.com/artificial-intelligence/mayo-clinic-pushing-to-become-ai-health-care-leader",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Most comprehensive source on AI team structure, key leaders by department, algorithm portfolio, data assets, Nvidia supercomputer, governance approach"
+    },
+    {
+      "name": "KTTC: Mayo Clinic CEO discusses AI impact on healthcare at World Economic Forum",
+      "url": "https://www.kttc.com/2025/01/24/mayo-clinic-ceo-discusses-ai-impact-healthcare-world-economic-forum/",
+      "type": "Conference",
+      "date": "2025-01",
+      "notes": "Farrugia at WEF 2025, quotes on trust, assurance labs, global AI applications, agentic AI vision"
+    },
+    {
+      "name": "CDO Magazine: Mayo Clinic Appoints Micky Tripathi as Chief AI Implementation Officer",
+      "url": "https://www.cdomagazine.tech/leadership-moves/mayo-clinic-appoints-micky-tripathi-as-chief-ai-implementation-officer",
+      "type": "Press",
+      "date": "2025",
+      "notes": "CAIO appointment, confirms title and role"
+    },
+    {
+      "name": "Health Evolution Summit Spotlight: Gianrico Farrugia",
+      "url": "https://www.healthevolution.com/insider/summit-spotlight-with-mayo-clinics-gianrico-farrugia-md/",
+      "type": "Conference",
+      "date": "2025",
+      "notes": "Search result indicated conference participation, not fetched"
+    },
+    {
+      "name": "Becker's Healthcare Podcast: Charting the Future of Healthcare",
+      "url": "https://www.beckershospitalreview.com/podcasts/podcasts-beckers-hospital-review/charting-the-future-of-healthcare-with-mayo-clinic-s-ceo-dr-gianrico-farrugia-118750149/",
+      "type": "Interview",
+      "date": "2023",
+      "notes": "Search result indicated interview on generative AI and platform thinking, not fetched"
+    },
+    {
+      "name": "Kearney Podcast: The Future of Healthcare with Mayo Clinic CEO",
+      "url": "https://www.kearney.com/service/global-business-policy-council/reimagining-future-podcast/episode-10-the-future-of-healthcare-with-mayo-clinic-ceo-gianrico-farrugia",
+      "type": "Interview",
+      "date": "2023-2024",
+      "notes": "Search result indicated podcast interview, not fetched"
+    }
+  ],
+
+  "summary": "Mayo Clinic operates a sophisticated Hybrid/Hub-and-Spoke model with multiple specialized hubs: a CAIO (Tripathi) for implementation governance, a CDAO (Sehgal) for AI enablement and the 'AI Factory,' and Mayo Clinic Platform (Halamka) for external innovation and commercialization. AI execution is distributed across clinical departments led by physician-scientists. The organization demonstrates strong structural ambidexterity—separating exploration (Platform, research) from execution (clinical deployment)—with $9B infrastructure investment and 320+ algorithms in production. As a nonprofit, Mayo frames AI in service-mission terms ('the needs of the patient come first') rather than shareholder value.",
+
+  "openQuestions": [
+    "Exact size of centralized AI teams vs. embedded clinical AI staff",
+    "Specific budget allocation to AI vs. overall R&D spending",
+    "Governance relationship between CAIO and CDAO roles—how do they coordinate?",
+    "Details on the 'AI Factory' operating model and cycle time for use case development",
+    "Multi-agentic AI initiative mentioned at HIMSS 2026—specifics not yet found",
+    "Google Cloud partnership (announced 2019)—current status and outcomes"
+  ],
+
+  "conferenceFindings": "Strong presence at AI/healthcare conferences. Farrugia keynoted HIMSS22 on healthcare transformation and participated in WEF 2025's 'Fixing Healthcare, Digitally' panel discussing agentic AI and assurance labs. Reference to HIMSS 2026 multi-agentic AI initiative in target context, but no detailed findings on that specific presentation yet. Mayo hosts its own annual AI Summit. Farrugia also keynoted the 10th Annual Individualizing Medicine Conference on AI/genomics integration."
+}

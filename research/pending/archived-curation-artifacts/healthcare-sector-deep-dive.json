@@ -1,0 +1,308 @@
+{
+  "taskId": "healthcare-sector-deep-dive",
+  "scannedDate": "2026-02-10",
+  "researchQuestion": "How do health systems structure AI work, and does the payer/provider distinction shape structural choices?",
+  "searchesCompleted": 8,
+  "urlsFetched": 8,
+  "fetchSuccesses": 4,
+  "fetchFailures": [
+    {"url": "https://www.chargeai.org/post/48-hospital-and-health-system-chief-ai-officers-to-know", "reason": "JS-rendered Wix page, no article content extractable"},
+    {"url": "https://www.healthcaredive.com/news/optum-real-ai-speed-claims-review-united-health/803448/", "reason": "JS-rendered page, no article body text extractable"},
+    {"url": "https://ai.nejm.org/doi/abs/10.1056/AIp2400109", "reason": "403 Forbidden - paywalled"},
+    {"url": "https://www.mayo.edu/research/departments-divisions/artificial-intelligence-informatics/overview", "reason": "403 Forbidden"}
+  ],
+  "organizations": {
+    "mayo-clinic": {
+      "newFindings": [
+        {
+          "finding": "Mayo Clinic has a formal Department of Artificial Intelligence and Informatics, a dedicated research department that leverages biomedical informatics with AI to improve human health. This is unusual - it is a research DEPARTMENT, not a center or initiative, giving it permanence and budget authority within the academic structure.",
+          "source": "https://www.mayo.edu/research/departments-divisions/artificial-intelligence-informatics/overview",
+          "sourceDate": "2025",
+          "structuralDetail": "Department-level organizational unit within research division"
+        },
+        {
+          "finding": "Mayo Clinic Platform is a multi-component external-facing AI infrastructure: Platform_Accelerate (startup incubator for health tech AI startups), Platform_Insights (quality improvement and digital innovation for other health systems), Platform_Orchestrate (clinical trials acceleration). This is a commercialization arm that licenses Mayo's AI capabilities to lower-resourced providers.",
+          "source": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-launches-mayo-clinic-platform_insights-to-advance-digital-innovation-and-quality-improvement-across-healthcare/",
+          "sourceDate": "2025",
+          "structuralDetail": "Three-pronged platform model: incubate startups, export capabilities to other health systems, accelerate clinical trials"
+        },
+        {
+          "finding": "Mayo is working on multi-agent AI systems using a tournament framework with agents for Generation, Reflection, Ranking, Evolution, Proximity, and meta-review to continuously generate, debate, and evolve research hypotheses. This is a research-grade AI architecture, not just operational deployment.",
+          "source": "https://www.mayoclinicplatform.org/2025/07/02/the-growing-power-of-ai-agents/",
+          "sourceDate": "2025-07-02",
+          "structuralDetail": "Multi-agent research system architecture - tournament-based hypothesis generation"
+        }
+      ],
+      "quotes": [],
+      "structuralModel": "Academic research department + external platform commercialization arm. Classic academic medical center model: research generates capabilities, platform arm exports them. No named CAIO found - AI leadership appears embedded in department structure rather than C-suite title."
+    },
+    "mount-sinai": {
+      "newFindings": [
+        {
+          "finding": "Mount Sinai has the FIRST Department of AI and Human Health at any academic medical system. This is distinct from a center or institute - it carries department-level authority. Additionally, the Hamilton and Amabel James Center for Artificial Intelligence and Human Health is a named center (donor-funded) dedicated to research, development, and application of AI tools.",
+          "source": "https://www.mountsinai.org/about/newsroom/2024/mount-sinai-opens-the-hamilton-and-amabel-james-center-for-artificial-intelligence-and-human-health-to-transform-health-care-by-spearheading-the-ai-revolution",
+          "sourceDate": "2024",
+          "structuralDetail": "Dual structure: Department (academic authority) + Named Center (donor-funded research)"
+        },
+        {
+          "finding": "Mount Sinai has launched a specialized Center for AI in Children's Health, indicating sub-specialization of AI by patient population. This suggests AI governance may be segmented by clinical domain rather than centralized.",
+          "source": "https://www.mountsinai.org/about/newsroom/2025/mount-sinai-launches-center-for-artificial-intelligence-in-childrens-health-to-advance-ai-driven-outcomes-in-children",
+          "sourceDate": "2025",
+          "structuralDetail": "Domain-specific AI centers within health system"
+        },
+        {
+          "finding": "Key leadership structure: Lisa Stump is EVP, Chief Digital Information Officer and Dean of IT at Icahn School of Medicine. Robbie Freeman is VP for Digital Experience and Chief Nursing Informatics Officer. Nicholas Gavin is VP, Chief Clinical Innovation Officer, and Associate Chief Medical Information Officer for Digital Health. CEO Brendan Carr is NOT the AI leader - he is system CEO. AI leadership is distributed across digital, nursing informatics, and clinical innovation roles.",
+          "source": "https://www.mountsinai.org/about/newsroom/2025/mount-sinai-health-system-to-roll-out-microsoft-dragon-copilot",
+          "sourceDate": "2025",
+          "structuralDetail": "No single CAIO - distributed leadership across CDIO, CNIO, CCIO roles"
+        },
+        {
+          "finding": "Mount Sinai rolled out Microsoft Dragon Copilot system-wide, indicating a major vendor partnership with Microsoft for ambient clinical AI.",
+          "source": "https://www.mountsinai.org/about/newsroom/2025/mount-sinai-health-system-to-roll-out-microsoft-dragon-copilot",
+          "sourceDate": "2025",
+          "structuralDetail": "Microsoft partnership for clinical ambient AI"
+        }
+      ],
+      "quotes": [],
+      "structuralModel": "Academic medical center with department-level AI unit (first in the country) + named donor-funded center + domain-specific sub-centers. Leadership is distributed across CDIO, CNIO, CCIO roles rather than a single CAIO. Research-embedded model where academic department generates capabilities."
+    },
+    "sutter-health": {
+      "newFindings": [
+        {
+          "finding": "Dr. Ashley Beecy joined Sutter Health at the end of May 2025 as Chief AI Officer. She oversees strategy for AI and advanced analytics to improve outcomes for patients, support clinicians, and strengthen operations. She is a physician (cardiologist) by training, making her a clinician-CAIO rather than a technologist-CAIO.",
+          "source": "https://vitals.sutterhealth.org/practical-progress-building-the-future-of-care-through-digital-health/",
+          "sourceDate": "2025-12-22",
+          "structuralDetail": "Dedicated CAIO role, clinician-background (cardiologist), joined May 2025"
+        },
+        {
+          "finding": "Sutter Health partnered with Aidoc to embed Aidoc's real-time AI operating system (aiOS) across Sutter's comprehensive care system for earlier identification of critical findings, faster intervention, and better connected care. Announced June 2025.",
+          "source": "https://www.prnewswire.com/news-releases/sutter-health-and-aidoc-team-up-to-transform-patient-care-with-advanced-clinical-ai-302488965.html",
+          "sourceDate": "2025-06",
+          "structuralDetail": "Vendor partnership: Aidoc for clinical imaging AI"
+        },
+        {
+          "finding": "Automation, AI-powered tools, enhanced technology, and workflow improvements saved care teams an estimated 1.5 million hours in 2025. This is a concrete adoption metric.",
+          "source": "https://vitals.sutterhealth.org/practical-progress-building-the-future-of-care-through-digital-health/",
+          "sourceDate": "2025-12-22",
+          "structuralDetail": "1.5M hours saved in 2025 - quantified operational impact"
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Dr. Ashley Beecy",
+          "title": "Chief AI Officer, Sutter Health",
+          "quote": "Working to responsibly operationalize clinical AI at scale, while staying grounded in what matters most, better care and meaningful support for both clinicians and patients.",
+          "source": "https://vitals.sutterhealth.org/practical-progress-building-the-future-of-care-through-digital-health/",
+          "sourceDate": "2025-12-22"
+        }
+      ],
+      "structuralModel": "Community health system with dedicated CAIO (clinician-background). Clinician-CAIO model is distinctive - many health systems put a technologist in this role. Vendor partnership model for clinical AI (Aidoc) rather than building in-house. Emphasis on 'responsible operationalization' suggests governance-first approach."
+    },
+    "cvs-health": {
+      "newFindings": [
+        {
+          "finding": "Tilak Mandadi is EVP and Chief Experience and Technology Officer - the top digital/AI leader. This is NOT a CAIO but a broader C-suite role that embeds AI within customer experience and technology. The title signals that AI is framed as a CX tool, not a standalone function.",
+          "source": "https://www.digitalcommerce360.com/2026/01/05/cvs-health-ai-digital-strategy/",
+          "sourceDate": "2026-01-05",
+          "structuralDetail": "No CAIO - AI under Chief Experience and Technology Officer"
+        },
+        {
+          "finding": "CVS built an AI-native consumer engagement platform that connects CVS Pharmacy, CVS Caremark, Aetna, and health care delivery businesses into a single digital interface. This is a unifying platform across four distinct business models. AI is 'embedded end to end' rather than siloed by business unit.",
+          "source": "https://www.digitalcommerce360.com/2026/01/05/cvs-health-ai-digital-strategy/",
+          "sourceDate": "2026-01-05",
+          "structuralDetail": "Cross-business-unit AI platform architecture - unified rather than federated"
+        },
+        {
+          "finding": "Business-unit-specific AI metrics: Aetna saved 90 minutes/day per nurse via consolidated clinical documentation, reduced call center volume 30%, consolidated 4 care management systems into 1. CVS Caremark processes 300+ claims/second at peak. Oak Street Health has ambient AI scribe tools at 90% of facilities.",
+          "source": "https://www.constellationr.com/insights/news/cvs-health-outlines-ai-driven-engagement-service-plan",
+          "sourceDate": "2025-12",
+          "structuralDetail": "Different AI use cases per business unit despite unified platform"
+        },
+        {
+          "finding": "CVS Health's $20 billion multi-year digital investment includes generative AI features launched to initial population expanding in early 2026. The 'engagement as a service' framing positions AI as a horizontal capability that connects pharmacy, insurance, and clinical businesses.",
+          "source": "https://www.digitalcommerce360.com/2026/01/05/cvs-health-ai-digital-strategy/",
+          "sourceDate": "2026-01-05",
+          "structuralDetail": "$20B digital investment, 'engagement as a service' strategy"
+        }
+      ],
+      "quotes": [
+        {
+          "speaker": "Tilak Mandadi",
+          "title": "EVP, Chief Experience and Technology Officer, CVS Health",
+          "quote": "AI is not an add-on to this platform. It is embedded end to end - from personalization to workflow automation.",
+          "source": "https://www.digitalcommerce360.com/2026/01/05/cvs-health-ai-digital-strategy/",
+          "sourceDate": "2026-01-05"
+        }
+      ],
+      "structuralModel": "Multi-business-model conglomerate using unified AI platform to connect pharmacy, insurance (Aetna), PBM (Caremark), and clinical delivery (Oak Street Health). No CAIO - AI under Chief Experience and Technology Officer. The payer/provider/pharmacy trifecta creates unique structural challenge: AI must span clinical (Oak Street), administrative (Aetna claims), and retail (pharmacy) domains. CVS solved this with a horizontal platform rather than vertical AI teams per business unit."
+    },
+    "unitedhealth-group": {
+      "newFindings": [
+        {
+          "finding": "Optum's AI capabilities are organizationally split: Optum Insight (data analytics and technology, built the Optum Real system), Optum Health (care delivery), and Optum Rx (pharmacy benefits). The Optum Real pre-authorization AI system was developed by Optum Insight and connects with UnitedHealthcare's insurance division. The former naviHealth subsidiary (which built the controversial claims denial algorithm) was absorbed into Optum - no longer a named subsidiary.",
+          "source": "https://www.healthcaredive.com/news/optum-real-ai-speed-claims-review-united-health/803448/",
+          "sourceDate": "2025-10-22",
+          "structuralDetail": "Optum tripartite structure: Insight (tech/data), Health (care delivery), Rx (pharmacy). naviHealth absorbed."
+        },
+        {
+          "finding": "Dennis Chornenky was formerly Chief AI Officer at UnitedHealth Group's Optum business, and is now Chief AI Adviser at UC Davis Health. This confirms UnitedHealth HAD a CAIO-level role at Optum, and shows talent flow from payer to provider systems.",
+          "source": "https://www.healthcareitnews.com/news/newest-member-health-system-c-suite-chief-ai-officer",
+          "sourceDate": "2025",
+          "structuralDetail": "Former Optum CAIO moved to academic medical center - talent flow pattern"
+        },
+        {
+          "finding": "The Optum Real system uses AI for pre-service authorization - reviewing medical claims BEFORE treatment occurs. This represents a structural shift from retrospective claims denial to prospective gatekeeping. A Minnesota federal court ruled in Feb 2025 that breach of contract claims can proceed because UHG's insurance contracts specified coverage decisions would be made by clinical staff or physicians, not by an AI algorithm.",
+          "source": "https://www.bankinfosecurity.com/court-unitedhealth-must-answer-for-ai-based-claim-denials-a-27534",
+          "sourceDate": "2025",
+          "structuralDetail": "AI pre-authorization system, court challenge over human-vs-algorithm decision authority"
+        },
+        {
+          "finding": "UnitedHealthcare's denial rate for post-hospital care more than doubled between 2020 and 2022 after implementing algorithmic review. Approximately 90% of denials were overturned on appeal by federal administrative law judges. This suggests the AI governance structure was optimized for efficiency over accuracy.",
+          "source": "https://www.wbur.org/onpoint/2024/12/18/unitedhealth-ai-insurance-claims-healthcare",
+          "sourceDate": "2024-12-18",
+          "structuralDetail": "90% denial overturn rate on appeal - governance failure metric"
+        }
+      ],
+      "quotes": [],
+      "structuralModel": "Massive payer-provider conglomerate. Optum's tripartite structure (Insight/Health/Rx) means AI is built in one division (Insight) and deployed across others. The naviHealth absorption shows how controversial AI subsidiaries get structurally hidden. The 90% appeal overturn rate is a governance failure - the AI system was structurally optimized for denial throughput rather than clinical accuracy. Former CAIO left for academic medicine, suggesting possible talent exodus from payer AI."
+    },
+    "rwjbarnabas-health": {
+      "newFindings": [],
+      "quotes": [],
+      "structuralModel": "No new findings from this research scan. Remains a stub specimen."
+    }
+  },
+  "sectorObservations": [
+    {
+      "observation": "The CAIO role in healthcare has three distinct variants: (1) Clinician-CAIO (physician who leads AI, e.g., Ashley Beecy at Sutter Health - cardiologist), (2) Technologist-CAIO (data/technology background, e.g., Mouneer Odeh at Cedars-Sinai), (3) Dual-hat CAIO (CMIO who adds AI to existing role, e.g., Ainsley MacLean at Kaiser Permanente as both CMIO and CAIO). The clinician-CAIO variant is unique to healthcare and does not appear in other sectors.",
+      "source": "Multiple search results, synthesized",
+      "implication": "Healthcare CAIO role requires clinical credibility in ways that financial services or tech CAIOs do not. The reporting line question (CIO vs. CMO vs. CEO) maps to which variant is chosen."
+    },
+    {
+      "observation": "Academic medical centers (Mayo Clinic, Mount Sinai, Mass General Brigham) structure AI as DEPARTMENTS or CENTERS within their research enterprise - permanent organizational units with academic authority, faculty appointments, and research funding. Community health systems (Sutter, Hackensack Meridian) structure AI as C-SUITE ROLES reporting to the CEO or CIO. This is a fundamental structural difference: research-embedded vs. executive-led.",
+      "source": "Mayo Department of AI and Informatics, Mount Sinai Department of AI and Human Health, MGB AI center, vs. Sutter CAIO, Hackensack Meridian CAIO",
+      "implication": "The academic vs. community distinction shapes whether AI is organized as a research function or an operational function. Academic centers have built-in translational pathways (research -> clinical deployment) that community systems lack."
+    },
+    {
+      "observation": "Payers (UnitedHealth, CVS/Aetna) structure AI for THROUGHPUT and EFFICIENCY - claims processing speed, denial automation, call center volume reduction. Providers (Mayo, Sutter, Mount Sinai) structure AI for CLINICAL DECISION SUPPORT and RESEARCH. The governance failure at UnitedHealth (90% denial overturn rate) suggests payer AI governance optimizes for the wrong objective function.",
+      "source": "UnitedHealth Optum Real, CVS Aetna metrics, vs. provider AI structures",
+      "implication": "The payer vs. provider distinction creates fundamentally different AI objective functions, which in turn shapes governance structures. Payer AI faces adversarial dynamics (denying claims that patients appeal) while provider AI faces collaborative dynamics (supporting clinical decisions)."
+    },
+    {
+      "observation": "Healthcare AI governance is converging on a cross-functional committee model: clinical champions + IT/data science + legal/compliance + quality/safety + business leadership. The Joint Commission and Coalition for Health AI (CHAI) released guidance in September 2025 providing a national model, with a voluntary AI certification program planned for 2026. This is the most externally-standardized AI governance framework of any sector we have studied.",
+      "source": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/the-emerging-ai-governance-leaders-inside-health-systems/",
+      "implication": "Healthcare AI governance is being shaped by external regulatory bodies (Joint Commission, CHAI) in ways that financial services AI is not. This creates a sector-specific governance infrastructure that does not exist in tech or financial services."
+    },
+    {
+      "observation": "Cedars-Sinai has the most explicitly documented dual-reporting CAIO structure: Mouneer Odeh reports to the CIO operationally while being embedded in the Chief Medical Officer's office for clinical integration. This dual-reporting solves the central problem of healthcare AI governance: technical decisions need operational authority (CIO) while clinical decisions need clinical authority (CMO).",
+      "source": "https://www.healthcareitnews.com/news/cedars-sinai-caio-ai-transforming-relationship-between-caregivers-and-it",
+      "implication": "The dual-reporting CAIO model may be the healthcare-specific solution to the general problem of where AI leadership sits in the org chart. It acknowledges that healthcare AI is inherently dual-domain (technical + clinical)."
+    },
+    {
+      "observation": "Vendor partnerships in healthcare AI follow a pattern: Microsoft (Dragon Copilot for ambient clinical AI - Mount Sinai), Google Cloud (Gemini for clinical note summarization - Hackensack Meridian), Aidoc (imaging AI operating system - Sutter Health), Epic (EHR-embedded AI). Unlike financial services where firms build proprietary AI, healthcare providers are more dependent on vendor ecosystems because clinical AI requires FDA clearance and clinical validation that vendors can provide.",
+      "source": "Multiple search results",
+      "implication": "The vendor dependency creates a different structural dynamic: health systems need vendor management capabilities and clinical validation teams rather than large in-house AI engineering teams."
+    },
+    {
+      "observation": "The human-in-the-loop requirement is structurally mandated in healthcare in ways it is not in other sectors. Regulators are reinforcing that AI must be a decision-support tool that augments but does not replace clinical judgment. Texas requires written AI disclosure to patients starting January 2026. This creates a structural requirement for clinical oversight roles (CMIO, CNIO, CCIO) that other sectors do not have.",
+      "source": "https://www.jimersonfirm.com/blog/2026/02/healthcare-ai-regulation-2025-new-compliance-requirements-every-provider-must-know/",
+      "implication": "Healthcare AI governance is uniquely shaped by the human-in-the-loop mandate. This is not just a best practice but a legal requirement, which forces structural investment in clinical oversight positions."
+    }
+  ],
+  "newSpecimenCandidates": [
+    {
+      "organization": "Cedars-Sinai",
+      "specimenId": "cedars-sinai",
+      "rationale": "Most explicitly documented dual-reporting CAIO structure in healthcare. Mouneer Odeh reports to CIO while embedded in CMO office. Has AI Council (cross-functional governance body), Center for AI Research and Education (CAIRE), and recently created Vice Dean and Chief AI Health Research Officer role. Plus three new informatics leadership appointments in 2025 (CHIO, CNIO, CMIO). Best-documented healthcare AI governance structure.",
+      "keyLeaders": ["Mouneer Odeh (Chief Data and AI Officer)", "Unnamed Vice Dean and Chief AI Health Research Officer"],
+      "structuralModel": "M4-like hub with dual CIO/CMO reporting, AI Council as governance body, CAIRE as research arm",
+      "priority": "HIGH"
+    },
+    {
+      "organization": "Hackensack Meridian Health",
+      "specimenId": "hackensack-meridian",
+      "rationale": "First health system to deploy Google Gemini AI agent at scale (7,000 clinicians, 18 hospitals, 500 sites). Has both a Chief AI and Insights Officer (Sameer Sethi, SVP) and a Chief Digital Information Officer (Dr. Joel Klein, reports to CEO). Interesting dual-leadership model where CAIO and CDIO coexist. Google Cloud as primary vendor partner.",
+      "keyLeaders": ["Sameer Sethi (SVP, Chief AI and Insights Officer)", "Dr. Joel Klein (Chief Digital Information Officer, reports to CEO)"],
+      "structuralModel": "Dual AI leadership: CAIO (Sethi) for AI strategy + CDIO (Klein) for broader digital. Google Cloud partnership.",
+      "priority": "MEDIUM"
+    },
+    {
+      "organization": "Mass General Brigham",
+      "specimenId": "mass-general-brigham",
+      "rationale": "Major academic medical center with dedicated AI center. Jane Moran is CDIO leading 1,800+ digital staff. Has spun out a separate AI company (AIwithCare) for clinical trial screening - rare commercialization move for an academic medical center. AI team composed of clinicians, data scientists, product managers, TPMs, and software engineers. Serves as bridge between academic research and product development.",
+      "keyLeaders": ["Jane Moran (Chief Information and Digital Officer, 1,800+ staff)"],
+      "structuralModel": "Academic research-to-product bridge model with spinout company. Largest named digital team (1,800+).",
+      "priority": "HIGH"
+    },
+    {
+      "organization": "Cleveland Clinic",
+      "specimenId": "cleveland-clinic",
+      "rationale": "Called an 'unconventional AI leadership move' by Health Management Academy. Rohit Chandra is Chief Digital Officer focused on AI as catalyst for quality and safety. Worth investigating what makes their approach 'unconventional'.",
+      "keyLeaders": ["Rohit Chandra (Chief Digital Officer)"],
+      "structuralModel": "Unconventional - needs deeper investigation",
+      "priority": "MEDIUM"
+    },
+    {
+      "organization": "Kaiser Permanente",
+      "specimenId": "kaiser-permanente",
+      "rationale": "Unique integrated payer-provider model (both insurer and health system). Ainsley MacLean serves dual role as CMIO and CAIO - the dual-hat model. As the largest integrated health system, Kaiser's structure is the natural experiment for what happens when payer and provider AI governance are unified rather than separate.",
+      "keyLeaders": ["Ainsley MacLean (CMIO + CAIO dual role)"],
+      "structuralModel": "Integrated payer-provider with dual-hat CMIO/CAIO. Natural experiment on unified governance.",
+      "priority": "HIGH"
+    },
+    {
+      "organization": "UC Davis Health",
+      "specimenId": "uc-davis-health",
+      "rationale": "Dennis Chornenky moved from Chief AI Officer at Optum (payer) to Chief AI Adviser at UC Davis Health (academic provider). This talent flow from payer to provider is structurally interesting. Worth tracking what structural choices he makes differently in a provider context.",
+      "keyLeaders": ["Dennis Chornenky (Chief AI Adviser, formerly Optum CAIO)"],
+      "structuralModel": "Payer-to-provider talent transfer. Advisory model rather than officer model.",
+      "priority": "LOW"
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "Healthcare AI structural models are converging on a spectrum from research-embedded (academic medical centers) to executive-led (community health systems) to platform-integrated (multi-business payers). This maps loosely to our M3/M4/M5 taxonomy but with healthcare-specific variants.",
+      "evidence": "Mayo/Mount Sinai/MGB = research departments (M3-like embedded). Sutter/Hackensack = CAIO-led hub (M4-like). CVS = cross-business platform (M5-like integration).",
+      "researchImplication": "Healthcare may need its own sub-taxonomy within our structural models, or it demonstrates that the same structural archetypes manifest differently by sector."
+    },
+    {
+      "trend": "The payer vs. provider AI governance gap is widening. Providers are building clinical validation committees, human-in-the-loop mandates, and safety-first governance. Payers (UnitedHealth) have been caught automating clinical decisions without adequate clinical oversight, leading to litigation and regulatory action. This is a structural tension: the same AI technology (claims processing, clinical decision support) is governed very differently depending on which side of the payer-provider divide deploys it.",
+      "evidence": "UnitedHealth 90% denial overturn rate, class action lawsuit, DOJ scrutiny. Meanwhile providers building CHAI-aligned governance committees.",
+      "researchImplication": "This is potentially a paper-worthy finding: the same technology, same sector, different governance outcomes based on organizational form (payer vs. provider). Information asymmetry and misaligned incentives (payer profits from denials, provider profits from approvals) create structurally different AI objective functions."
+    },
+    {
+      "trend": "The Joint Commission and Coalition for Health AI (CHAI) are creating sector-level AI governance standards that do not exist in any other sector we have studied. A voluntary AI certification program is planned for 2026. This represents external governance infrastructure that shapes internal organizational structure.",
+      "evidence": "September 2025 Joint Commission/CHAI guidance, voluntary certification program for 2026, Texas TRAIGA AI disclosure requirements effective January 2026.",
+      "researchImplication": "Healthcare may be the first sector where AI governance is standardized by external regulatory bodies rather than developed internally by each organization. This is a fundamentally different structural dynamic than tech or financial services."
+    },
+    {
+      "trend": "Healthcare CAIO role is evolving faster than any other sector's AI leadership. The role has three variants (clinician-CAIO, technologist-CAIO, dual-hat CMIO/CAIO), dual-reporting structures (CIO + CMO), and sector-specific governance requirements (clinical validation, FDA clearance, human-in-the-loop mandates). The NEJM AI published a perspective on 'The Chief Health AI Officer' as a distinct role, suggesting the academic community sees this as requiring sector-specific organizational design.",
+      "evidence": "NEJM AI article on Chief Health AI Officer, Cedars-Sinai dual-reporting, Kaiser dual-hat CMIO/CAIO, Sutter clinician-CAIO.",
+      "researchImplication": "The healthcare CAIO may be the best-documented example of how sector-specific requirements shape AI leadership design. Useful comparison case against financial services CAIO models."
+    },
+    {
+      "trend": "Talent flow between payer and provider AI: Dennis Chornenky (Optum CAIO -> UC Davis Health Chief AI Adviser) suggests that AI leaders who build capabilities in payer organizations are being recruited by provider organizations. The advisory (not officer) title at UC Davis suggests academic medical centers may resist giving external hires full authority.",
+      "evidence": "Dennis Chornenky career path: Optum CAIO -> UC Davis Chief AI Adviser",
+      "researchImplication": "Cross-organizational AI talent flow as a mechanism for structural knowledge transfer. The title downgrade (Officer -> Adviser) may reflect academic organizational politics."
+    }
+  ],
+  "methodNotes": {
+    "searchStrategy": "5 initial queries + 3 supplementary queries targeting gaps (Mount Sinai, governance structures, Cedars-Sinai/Cleveland Clinic/Kaiser/MGB). 8 URL fetches attempted, 4 successful. JS-rendered healthcare sites (ChargeAI, Healthcare Dive, Sutter Vitals) consistently failed to return content. Paywalled academic sources (NEJM AI, Mayo research site) returned 403.",
+    "dataQuality": "Search result snippets provided substantial structural data even when full article fetches failed. The ChargeAI list of 48 healthcare CAIOs would be extremely valuable if accessible - recommend manual review. The NEJM AI perspective on Chief Health AI Officer is likely the most rigorous source and should be accessed through institutional subscription.",
+    "gaps": [
+      "RWJBarnabas Health - zero new findings. Needs targeted research or may be too thin to maintain as specimen.",
+      "Mayo Clinic AI leadership names - we know the department exists but do not have named leaders or reporting lines.",
+      "Mount Sinai specific AI governance committees - we know the structure but not how clinical AI validation works internally.",
+      "Sutter Health reporting lines - we know Beecy is CAIO but not who she reports to (CEO, CIO, CMO?).",
+      "CVS Health clinical AI governance - how does AI governance differ between Aetna (insurance) and Oak Street Health (clinical)?",
+      "UnitedHealth current AI leadership - Chornenky left, who replaced him as Optum CAIO?"
+    ],
+    "recommendedFollowUp": [
+      "Access ChargeAI list of 48 healthcare CAIOs manually - richest single source for CAIO landscape",
+      "Access NEJM AI article on Chief Health AI Officer via institutional subscription",
+      "Deep dive on Kaiser Permanente as integrated payer-provider natural experiment",
+      "Deep dive on Cedars-Sinai governance structure - best-documented in sector",
+      "Purpose claims scan for healthcare AI leaders (Beecy, Sethi, Stump, Mandadi)"
+    ]
+  }
+}
