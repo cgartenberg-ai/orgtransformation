@@ -485,6 +485,232 @@ if (synthQueueData) {
   }
 }
 
+// ── 12. Purpose Claims Provenance ──
+
+section('12. Purpose Claims Provenance');
+
+const claimsRegistryPath = path.join(RESEARCH_DIR, 'purpose-claims', 'registry.json');
+const claimsRegistry = loadJSON(claimsRegistryPath);
+if (claimsRegistry) {
+  const claims = claimsRegistry.claims || [];
+  ok(`Purpose claims registry: ${claims.length} claims`);
+
+  let nullSourceUrl = 0;
+  let nullSourceDate = 0;
+  let orphanedClaims = 0;
+  const claimIds = new Set();
+  let duplicateIds = 0;
+
+  for (const claim of claims) {
+    // Check for duplicate claim IDs
+    if (claim.id) {
+      if (claimIds.has(claim.id)) {
+        duplicateIds++;
+      }
+      claimIds.add(claim.id);
+    }
+
+    // Check sourceUrl
+    if (!claim.sourceUrl) {
+      nullSourceUrl++;
+    }
+
+    // Check sourceDate
+    if (!claim.sourceDate) {
+      nullSourceDate++;
+    }
+
+    // Check specimenId references real specimen
+    if (claim.specimenId && !allSpecimenIds.has(claim.specimenId)) {
+      orphanedClaims++;
+    }
+  }
+
+  if (duplicateIds > 0) error(`${duplicateIds} duplicate claim IDs in purpose claims registry`);
+  else ok('No duplicate claim IDs');
+
+  if (orphanedClaims > 0) error(`${orphanedClaims} claims reference specimens not in specimens/`);
+  else ok('All claims reference valid specimen IDs');
+
+  if (nullSourceUrl > 0) warn(`${nullSourceUrl} claims with null sourceUrl`);
+  else ok('All claims have sourceUrl');
+
+  if (nullSourceDate > 0) warn(`${nullSourceDate} claims with null sourceDate`);
+  else ok('All claims have sourceDate');
+}
+
+// ── 13. Tension/Contingency Specimen Coverage ──
+
+section('13. Tension/Contingency Specimen Coverage');
+
+// Build set of active specimen IDs (exclude Inactive)
+const activeSpecimenIds = new Set();
+if (registry) {
+  for (const s of registry.specimens) {
+    if (s.status !== 'Inactive') {
+      activeSpecimenIds.add(s.id);
+    }
+  }
+}
+
+// Check which active specimens appear in tensions
+if (tensionsData && activeSpecimenIds.size > 0) {
+  const specimensInTensions = new Set();
+  for (const t of (tensionsData.tensions || [])) {
+    for (const s of (t.specimens || [])) {
+      if (s.specimenId) specimensInTensions.add(s.specimenId);
+    }
+  }
+
+  const notInTensions = [...activeSpecimenIds].filter(id => !specimensInTensions.has(id));
+  if (notInTensions.length === 0) {
+    ok(`All ${activeSpecimenIds.size} active specimens placed in tensions`);
+  } else {
+    warn(`${notInTensions.length} active specimens not placed in any tension`);
+  }
+}
+
+// Check which active specimens appear in contingencies
+if (contingenciesData && activeSpecimenIds.size > 0) {
+  const specimensInContingencies = new Set();
+  for (const c of (contingenciesData.contingencies || [])) {
+    // Check all keys that might have specimens arrays (high, medium, low, nonTraditional, etc.)
+    for (const [key, value] of Object.entries(c)) {
+      if (value && typeof value === 'object' && !Array.isArray(value) && value.specimens) {
+        for (const specId of value.specimens) {
+          specimensInContingencies.add(specId);
+        }
+      }
+    }
+  }
+
+  const notInContingencies = [...activeSpecimenIds].filter(id => !specimensInContingencies.has(id));
+  if (notInContingencies.length === 0) {
+    ok(`All ${activeSpecimenIds.size} active specimens placed in contingencies`);
+  } else {
+    warn(`${notInContingencies.length} active specimens not placed in any contingency`);
+  }
+}
+
+// ── 14. Insight Evidence Audit ──
+
+section('14. Insight Evidence Audit');
+
+const insightsPath = path.join(SYNTHESIS_DIR, 'insights.json');
+const insightsData = loadJSON(insightsPath);
+if (insightsData) {
+  const insights = insightsData.insights || [];
+  ok(`Insights: ${insights.length} total`);
+
+  let thinEvidence = 0;
+  let orphanedInsightEvidence = 0;
+  let nullDiscoveredIn = 0;
+
+  for (const insight of insights) {
+    const evidence = insight.evidence || [];
+
+    // Thin evidence check
+    if (evidence.length < 2) {
+      warn(`Insight "${insight.id}": only ${evidence.length} evidence entries (thin)`);
+      thinEvidence++;
+    }
+
+    // Evidence specimen references
+    for (const ev of evidence) {
+      if (ev.specimenId && !allSpecimenIds.has(ev.specimenId)) {
+        warn(`Insight "${insight.id}": evidence references unknown specimen "${ev.specimenId}"`);
+        orphanedInsightEvidence++;
+      }
+    }
+
+    // discoveredIn check
+    if (!insight.discoveredIn) {
+      warn(`Insight "${insight.id}": null discoveredIn`);
+      nullDiscoveredIn++;
+    }
+  }
+
+  if (thinEvidence === 0) ok('All insights have ≥2 evidence entries');
+  if (orphanedInsightEvidence === 0) ok('All insight evidence references valid specimens');
+  if (nullDiscoveredIn === 0) ok('All insights have discoveredIn populated');
+}
+
+// ── 15. Enrichment Completeness ──
+
+section('15. Enrichment Completeness');
+
+const scanTrackerPath = path.join(RESEARCH_DIR, 'purpose-claims', 'scan-tracker.json');
+const scanTracker = loadJSON(scanTrackerPath);
+const enrichmentDir = path.join(RESEARCH_DIR, 'purpose-claims', 'enrichment');
+
+if (scanTracker && fs.existsSync(enrichmentDir)) {
+  const scannedSpecimens = (scanTracker.specimens || []).map(s => s.specimenId);
+  const enrichmentFiles = fs.readdirSync(enrichmentDir)
+    .filter(f => f.endsWith('.json'))
+    .map(f => f.replace('.json', ''));
+
+  // Scanned but no enrichment file
+  const scannedNoEnrichment = scannedSpecimens.filter(id => !enrichmentFiles.includes(id));
+  // Enrichment file but not in registry
+  const enrichmentNoRegistry = enrichmentFiles.filter(id => !allSpecimenIds.has(id));
+
+  ok(`${scannedSpecimens.length} specimens scanned, ${enrichmentFiles.length} enrichment files`);
+
+  if (scannedNoEnrichment.length > 0) {
+    warn(`${scannedNoEnrichment.length} scanned specimens without enrichment files`);
+  } else {
+    ok('All scanned specimens have enrichment files');
+  }
+
+  if (enrichmentNoRegistry.length > 0) {
+    warn(`${enrichmentNoRegistry.length} enrichment files for specimens not in registry: ${enrichmentNoRegistry.join(', ')}`);
+  } else {
+    ok('All enrichment files correspond to registered specimens');
+  }
+}
+
+// ── 16. Registry Freshness ──
+
+section('16. Registry Freshness');
+
+if (registry) {
+  // Compare totalFiles vs actual file count
+  const actualFiles = fs.readdirSync(SPECIMENS_DIR)
+    .filter(f => f.endsWith('.json') && !SKIP_FILES.has(f));
+
+  const regTotalFiles = registry.totalFiles || registry.totalSpecimens;
+  if (regTotalFiles !== actualFiles.length) {
+    error(`Registry totalFiles (${regTotalFiles}) doesn't match actual file count (${actualFiles.length}). Run: node scripts/rebuild-registry.js`);
+  } else {
+    ok(`Registry totalFiles (${regTotalFiles}) matches actual files`);
+  }
+
+  // Compare byModel counts vs actual
+  const actualModelCounts = {};
+  for (const file of actualFiles) {
+    const spec = loadJSON(path.join(SPECIMENS_DIR, file));
+    if (!spec || (spec.meta && spec.meta.status === 'Inactive')) continue;
+    const model = String(spec.classification && spec.classification.structuralModel ? spec.classification.structuralModel : 'null');
+    actualModelCounts[model] = (actualModelCounts[model] || 0) + 1;
+  }
+
+  let modelFreshness = true;
+  for (const [model, count] of Object.entries(registry.byModel || {})) {
+    if ((actualModelCounts[model] || 0) !== count) {
+      warn(`Registry byModel["${model}"] = ${count}, but actual count = ${actualModelCounts[model] || 0}. Run: node scripts/rebuild-registry.js`);
+      modelFreshness = false;
+    }
+  }
+  // Check reverse: actual models not in registry
+  for (const [model, count] of Object.entries(actualModelCounts)) {
+    if (!registry.byModel || !(model in registry.byModel)) {
+      warn(`Model "${model}" has ${count} specimens but not in registry.byModel. Run: node scripts/rebuild-registry.js`);
+      modelFreshness = false;
+    }
+  }
+  if (modelFreshness) ok('Registry byModel counts match actual specimen files');
+}
+
 // ── Summary ──
 
 console.log('\n══════════════════════════════');
