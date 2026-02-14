@@ -8,7 +8,7 @@ export type Confidence = "High" | "Medium" | "Low";
 
 export type MechanismStrength = "Strong" | "Moderate" | "Emerging";
 
-export type SpecimenStatus = "Active" | "Stub" | "Archived";
+export type SpecimenStatus = "Active" | "Stub" | "Archived" | "Inactive";
 
 export type Completeness = "High" | "Medium" | "Low";
 
@@ -114,12 +114,15 @@ export interface Source {
   notes?: string | null;
 }
 
+export type EnvironmentalAiPull = "High" | "Medium" | "Low";
+
 export interface Contingencies {
   regulatoryIntensity: RegulatoryIntensity | null;
   timeToObsolescence: TimeToObsolescence | null;
   ceoTenure: CeoTenure | null;
   talentMarketPosition: TalentMarketPosition | null;
   technicalDebt: TechnicalDebt | null;
+  environmentalAiPull?: EnvironmentalAiPull | null;
 }
 
 export interface TensionPositions {

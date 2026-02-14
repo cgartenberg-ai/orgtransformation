@@ -90,9 +90,15 @@ export interface TensionData {
 }
 
 export interface ContingencyState {
-  label: string;
-  favors: string[];
-  mechanisms: number[];
+  label?: string;
+  favors?: string[];
+  mechanisms?: number[];
+  specimens: string[];
+  notes?: string;
+}
+
+export interface ContingencyEvidence {
+  finding: string;
   specimens: string[];
 }
 
@@ -100,8 +106,13 @@ export interface ContingencyDefinition {
   id: string;
   name: string;
   whatItDetermines: string;
-  high: ContingencyState;
-  low: ContingencyState;
+  evidence?: ContingencyEvidence[];
+  // Standard levels (most contingencies have these)
+  high?: ContingencyState;
+  medium?: ContingencyState;
+  low?: ContingencyState;
+  // Dynamic levels for specific contingencies (e.g., founder, nonTraditional, fast, new, critical)
+  [key: string]: ContingencyState | ContingencyEvidence[] | string | undefined;
 }
 
 export interface ContingencyData {
