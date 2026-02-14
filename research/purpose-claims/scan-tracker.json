@@ -330,12 +330,6 @@
       "quality": "rich"
     },
     {
-      "specimenId": "hp",
-      "lastScanned": "2026-02-09",
-      "claimsFound": 5,
-      "quality": "rich"
-    },
-    {
       "specimenId": "hp-inc",
       "lastScanned": "2026-02-13",
       "claimsFound": 14,

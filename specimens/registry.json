@@ -1,8 +1,8 @@
 {
   "description": "Specimen Registry — tracks all specimens in the herbarium. Auto-rebuilt by rebuild-registry.js.",
   "lastUpdated": "2026-02-14",
-  "totalSpecimens": 144,
-  "totalFiles": 149,
+  "totalSpecimens": 143,
+  "totalFiles": 148,
   "inactiveCount": 5,
   "byModel": {
     "1": 12,
@@ -10,12 +10,12 @@
     "3": 14,
     "4": 47,
     "5": 16,
-    "6": 24,
+    "6": 23,
     "9": 10
   },
   "byOrientation": {
     "Structural": 94,
-    "Contextual": 44,
+    "Contextual": 43,
     "Temporal": 4
   },
   "typeSpecimens": [
@@ -821,21 +821,6 @@
       "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
-    },
-    {
-      "id": "hp",
-      "name": "HP Inc.",
-      "structuralModel": 6,
-      "subType": "6a",
-      "secondaryModel": null,
-      "orientation": "Contextual",
-      "typeSpecimen": false,
-      "status": "Stub",
-      "created": "2026-01-31",
-      "lastUpdated": "2026-02-13",
-      "layerCount": 2,
-      "completeness": "Low",
-      "confidence": "Low"
     },
     {
       "id": "hp-inc",
