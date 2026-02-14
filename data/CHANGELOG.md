@@ -17,3 +17,12 @@ Format: `## YYYY-MM-DD HH:MM:SS — script-name` followed by bullet points.
 - Moved 14 talent-constrained-only specimens to low: ['delta-air-lines', 'dow-chemical', 'exxonmobil', 'ford', 'general-motors', 'honda', 'honeywell', 'hp-inc', 'hyundai-robotics', 'intel', 'lockheed-martin', 'panasonic', 'toyota', 'ulta-beauty']
 - Removed redundant talent-rich and talent-constrained keys
 
+
+## 2026-02-14 13:49:02 — fix-registry-gov-specimens
+- nasa: Active -> Inactive
+- new-york-state: Stub -> Inactive
+- pentagon-cdao: Active -> Inactive
+- us-air-force: Stub -> Inactive
+- us-cyber-command: Stub -> Inactive
+- Registry totalSpecimens: 149 -> 144 (excluding 5 inactive)
+
