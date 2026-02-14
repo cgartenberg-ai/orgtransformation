@@ -92,29 +92,32 @@ Both tracks use the **Transcript Discovery Protocol** to find interview transcri
 orgtransformation/
 ├── CLAUDE.md                    # THIS FILE — auto-read at session start
 ├── APP_STATE.md                 # Current state (updated each session)
-├── WORKFLOW.md                  # Complete command reference (NEW)
+├── WORKFLOW.md                  # Complete command reference
 ├── Ambidexterity_Field_Guide_Spec.md  # Product spec (v1.3)
 ├── SW_ARCHITECTURE.md           # Site software architecture
 ├── UI_Spec.md                   # UI/UX design spec
 ├── NARRATIVE_SPEC.md            # Narrative creation spec
 ├── LITERATURE_SPEC.md           # Literature matching spec
 ├── SESSION_LOG.md               # Full session history (updated each session)
-├── HANDOFF.md                   # Session handoff for continuity
+├── HANDOFF.md                   # Session handoff (lean, current session only)
+├── HANDOFF_ARCHIVE.md           # Historical handoff content (Sessions 11+)
 │
 ├── specimens/                   # THE HERBARIUM
-│   ├── registry.json            # Master specimen list
+│   ├── registry.json            # Master specimen list (144 active, 5 inactive)
 │   ├── source-registry.json     # Source scanning status
 │   └── *.json                   # Specimen files (see registry.json for count)
 │
 ├── synthesis/                   # CROSS-CUTTING PATTERNS
 │   ├── mechanisms.json          # Confirmed + candidate mechanisms
 │   ├── tensions.json            # 5 structural tensions
-│   ├── contingencies.json       # 5 contingency factors
-│   └── insights.json            # Field insights (growing collection)
+│   ├── contingencies.json       # 6 contingency factors
+│   ├── insights.json            # Field insights (growing collection)
+│   └── sessions/                # Synthesis session notes
 │
 ├── research/                    # TRACK 1 + SHARED
 │   ├── sessions/                # Research session files
 │   ├── queue.json               # Orgs pending curation
+│   ├── sources.md               # Full source list + refresh protocol
 │   ├── SESSION-PROTOCOL.md      # Research protocol
 │   ├── TRANSCRIPT-DISCOVERY-PROTOCOL.md  # Shared protocol
 │   ├── transcript-sources.json  # Source registry
@@ -123,6 +126,7 @@ orgtransformation/
 │   ├── purpose-claims/          # TRACK 2
 │   │   ├── registry.json        # All collected claims
 │   │   ├── scan-tracker.json    # What's been scanned
+│   │   ├── enrichment/          # Specimen enrichment data
 │   │   ├── PURPOSE-CLAIMS-SPEC.md # Full spec
 │   │   └── pending/             # Claims pending merge
 │   └── literature/
@@ -132,13 +136,31 @@ orgtransformation/
 │   ├── synthesis-queue.json     # Specimens pending synthesis
 │   └── sessions/                # Curation session logs
 │
+├── data/                        # GENERATED OUTPUTS
+│   ├── CHANGELOG.md             # Append-only audit log
+│   ├── specimen-lifecycle-status.json  # Lifecycle dashboard (machine)
+│   └── specimen-lifecycle-status.md    # Lifecycle dashboard (human)
+│
 ├── site/                        # Next.js 14 prototype
 │   ├── app/                     # Routes
 │   ├── components/              # React components
 │   └── lib/                     # Types, data access
 │
-├── scripts/                     # Utilities
-│   └── validate-workflow.js     # Consistency checker
+├── scripts/                     # ACTIVE UTILITIES (see scripts/README.md)
+│   ├── lib/                     # Shared Python library (atomic writes, locks, logging)
+│   │   ├── __init__.py
+│   │   └── utils.py             # save_json, load_json, acquire_lock, etc.
+│   ├── validate-workflow.js     # Consistency checker (16 sections)
+│   ├── rebuild-registry.js      # Rebuild registry from specimen files
+│   ├── specimen-lifecycle-status.js  # Pipeline dashboard generator
+│   ├── check-source-freshness.js    # Source staleness alerter
+│   ├── compute-mechanism-affinity.js # Analysis utility
+│   ├── overnight-research.py    # Overnight research automation
+│   ├── overnight-purpose-claims.py  # Overnight claims automation
+│   ├── overnight-curate.py      # Overnight curation automation
+│   └── archive/                 # 43 historical one-off scripts
+│
+├── docs/archive/                # Historical design docs
 │
 └── .claude/skills/              # SKILL DEFINITIONS
     ├── research/SKILL.md        # /research
@@ -159,6 +181,7 @@ orgtransformation/
 | Analyze patterns | `/synthesize` |
 | Collect purpose claims | `/purpose-claims [specimen-id]` |
 | Find transcripts | Follow `TRANSCRIPT-DISCOVERY-PROTOCOL.md` |
+| End a session | `/handoff` |
 
 ---
 
@@ -176,7 +199,7 @@ orgtransformation/
 
 Before ending any session that modified files:
 
-1. **Update `SESSION_LOG.md`** — Add row to session log table: date + what changed
+1. **Run `/handoff`** — Archives previous session, writes fresh HANDOFF.md, updates SESSION_LOG.md. See `.claude/skills/handoff/SKILL.md` for the full protocol.
 2. **If specimens changed:** Run `node scripts/validate-workflow.js` from project root
 3. **If site code changed:** Run `cd site && npm run build` to verify no breakage
 
@@ -193,5 +216,5 @@ Before ending any session that modified files:
 | Source provenance | Required for all facts: URL + source date + collected date |
 | Data format | One JSON file per specimen with embedded layers |
 | Insights guardrail | Insights in `synthesis/insights.json` are **never deleted** — they can be updated with new evidence or new insights can be added, but existing insights are permanent records of research findings |
-| HANDOFF.md | Updated at end of each session for next-session continuity context |
+| HANDOFF.md | Updated via `/handoff` skill at end of each session; previous content archived to `HANDOFF_ARCHIVE.md` |
 | Two research tracks | Track 1 (structural) and Track 2 (purpose claims) are parallel, share specimens and transcript infrastructure |
