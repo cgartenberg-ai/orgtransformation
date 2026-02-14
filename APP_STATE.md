@@ -175,8 +175,8 @@ site/lib/
 
 ### Purpose Claims Data
 
-- **1,522 purpose claims** across 145 scanned specimens (v2.0 taxonomy: 6 types)
-- **130 enrichment files** in `research/purpose-claims/enrichment/` with rhetorical profiles (claimTypeDistribution, keyFindings, rhetoricalPatterns)
+- **1,522 purpose claims** across 145 specimens (v2.0 taxonomy: 6 types). 142 tracked in scan-tracker; 7 unscanned (citigroup, disney, harvey-ai, meta-reality-labs, morgan-stanley, netflix, travelers)
+- **130 enrichment files** in `research/purpose-claims/enrichment/` with rhetorical profiles (claimTypeDistribution, keyFindings, rhetoricalPatterns). 21 scanned specimens still need enrichment.
 - **Visual analytics**: Spider/radar charts on specimen pages and purpose claims browser (Profiles view)
 - **Citation system**: `[source-id]` inline markers → `CitedText.tsx` superscript links. **30 High-completeness specimens** backfilled with citations across all observable markers.
 
@@ -229,7 +229,7 @@ site/lib/
 - 6 insights with thin evidence (only 1 specimen) — need more cases
 - Low-confidence specimens: see `research/low-confidence-queue.json`
 - **Citation backfill**: ✅ 30 High-completeness specimens now have `[source-id]` markers. Remaining specimens (Medium/Low completeness) can be backfilled as they're enriched.
-- **Purpose claims coverage**: 141/144 active specimens have claims. 3 remain unscanned.
+- **Purpose claims coverage**: 140/144 active specimens have claims. 7 unscanned in tracker; 2 scanned with 0 claims (ig-group, indostar-capital).
 
 ---
 
