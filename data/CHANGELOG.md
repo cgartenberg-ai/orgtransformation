@@ -26,3 +26,11 @@ Format: `## YYYY-MM-DD HH:MM:SS — script-name` followed by bullet points.
 - us-cyber-command: Stub -> Inactive
 - Registry totalSpecimens: 149 -> 144 (excluding 5 inactive)
 
+
+## 2026-02-14 13:50:09 — fix-gov-specimen-files
+- nasa.json: meta.status Active -> Inactive
+- us-cyber-command.json: meta.status Stub -> Inactive
+- new-york-state.json: meta.status Stub -> Inactive
+- us-air-force.json: meta.status Stub -> Inactive
+- pentagon-cdao.json: meta.status Active -> Inactive
+

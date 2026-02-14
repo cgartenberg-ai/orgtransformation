@@ -2,7 +2,6 @@
   "id": "us-cyber-command",
   "name": "US Cyber Command",
   "title": "First Military CAIO",
-
   "classification": {
     "structuralModel": 2,
     "structuralModelName": "Center of Excellence",
@@ -16,7 +15,6 @@
     "classificationRationale": "Limited data. CAIO appointment suggests a governance/enablement role (Model 2) rather than a product-building function. Military organizations typically centralize standards and distribute execution. Low confidence due to single thin source with minimal structural detail.",
     "typeSpecimen": false
   },
-
   "habitat": {
     "industry": "Government",
     "sector": "Defense / Cyber Operations",
@@ -26,9 +24,7 @@
     "headquarters": "Fort Meade, MD",
     "geography": "North America"
   },
-
   "description": "US Cyber Command named Reid Novotny as its first Chief AI Officer, tasked with accelerating AI adoption across cyber operations. Novotny brings 24+ years of service in the US Air Force and Maryland Air National Guard, spanning intelligence, cyber defense, and policy. This appointment follows the White House OMB mandate (March 2024) requiring all executive departments to appoint a CAIO within 60 days.\n\nThe military-to-CAIO career pipeline is a distinct pattern: operational experience in intelligence and cyber defense provides domain expertise that academic or commercial AI leaders typically lack. The CAIO role at Cyber Command represents the formalization of AI governance within the defense establishment.",
-
   "observableMarkers": {
     "reportingStructure": null,
     "resourceAllocation": null,
@@ -36,7 +32,6 @@
     "decisionRights": null,
     "metrics": null
   },
-
   "mechanisms": [
     {
       "id": 8,
@@ -45,7 +40,6 @@
       "strength": "Emerging"
     }
   ],
-
   "quotes": [
     {
       "text": "a pivotal moment in world history",
@@ -55,24 +49,26 @@
       "sourceRef": "cdo-magazine-cybercom-2026"
     }
   ],
-
   "layers": [
     {
       "date": "2026-02",
       "label": "Overnight research scan",
       "summary": "Re-scan of existing source. Added verbatim quote from Novotny on AI as 'pivotal moment in world history.' Novotny also holds DoW Cyber Force Generation lead role. No new structural details surfaced.",
       "classification": null,
-      "sourceRefs": ["cdo-magazine-cybercom-2026"]
+      "sourceRefs": [
+        "cdo-magazine-cybercom-2026"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Reid Novotny appointed as first CAIO of US Cyber Command. 24+ years military career spanning intelligence, cyber defense, and policy.",
       "classification": null,
-      "sourceRefs": ["cdo-magazine-cybercom-2026"]
+      "sourceRefs": [
+        "cdo-magazine-cybercom-2026"
+      ]
     }
   ],
-
   "sources": [
     {
       "id": "cdo-magazine-cybercom-2026",
@@ -85,7 +81,6 @@
       "notes": null
     }
   ],
-
   "contingencies": {
     "regulatoryIntensity": "High",
     "timeToObsolescence": "Slow",
@@ -93,7 +88,6 @@
     "talentMarketPosition": "Talent-constrained",
     "technicalDebt": "High"
   },
-
   "tensionPositions": {
     "structuralVsContextual": -0.7,
     "speedVsDepth": -0.6,
@@ -101,21 +95,18 @@
     "namedVsQuiet": -0.3,
     "longVsShortHorizon": null
   },
-
   "openQuestions": [
     "What is the size and structure of the CAIO's team?",
     "How does the CAIO role interact with existing cyber operations divisions?",
     "What AI use cases is Cyber Command prioritizing?",
     "What does the 'DoW Cyber Force Generation lead' role entail and how does it interact with CAIO responsibilities?"
   ],
-
   "taxonomyFeedback": [
     "Government/military CAIO appointments may warrant their own sub-pattern within Model 2. The mandate-driven nature (White House EO) differs from organic CoE formation.",
     "[2026-02] Re-scan yielded minimal new data. Novotny's dual role (CAIO + DoW Cyber Force Generation lead) suggests potential for Model 3 (Business Unit AI) characteristics if force generation responsibilities include operational AI deployment. Still need more structural detail to assess."
   ],
-
   "meta": {
-    "status": "Stub",
+    "status": "Inactive",
     "created": "2026-01-31",
     "lastUpdated": "2026-02-09",
     "completeness": "Low",

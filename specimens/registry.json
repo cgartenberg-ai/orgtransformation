@@ -1,12 +1,14 @@
 {
-  "description": "Specimen Registry — tracks all specimens in the herbarium. Updated whenever specimens are created or modified.",
+  "description": "Specimen Registry — tracks all specimens in the herbarium. Auto-rebuilt by rebuild-registry.js.",
   "lastUpdated": "2026-02-14",
   "totalSpecimens": 144,
+  "totalFiles": 149,
+  "inactiveCount": 5,
   "byModel": {
     "1": 12,
-    "2": 19,
+    "2": 20,
     "3": 14,
-    "4": 48,
+    "4": 47,
     "5": 16,
     "6": 24,
     "9": 10
@@ -17,7 +19,9 @@
     "Temporal": 4
   },
   "typeSpecimens": [
+    "anduril",
     "bank-of-america",
+    "blue-origin",
     "google-x",
     "pg-chatpg",
     "samsung-c-lab"
@@ -33,7 +37,7 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
+      "lastUpdated": "2026-02-12",
       "layerCount": 2,
       "completeness": "Low",
       "confidence": "Medium"
@@ -109,7 +113,7 @@
       "status": "Active",
       "created": "2026-01-31",
       "lastUpdated": "2026-02-02",
-      "layerCount": 2,
+      "layerCount": 3,
       "completeness": "Low",
       "confidence": "Medium"
     },
@@ -123,8 +127,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-12",
-      "layerCount": 7,
+      "lastUpdated": "2026-02-13",
+      "layerCount": 9,
       "completeness": "High",
       "confidence": "High"
     },
@@ -138,7 +142,7 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-04",
+      "lastUpdated": "2026-02-12",
       "layerCount": 4,
       "completeness": "Medium",
       "confidence": "Medium"
@@ -153,8 +157,8 @@
       "typeSpecimen": true,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -168,8 +172,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-04",
-      "layerCount": 5,
+      "lastUpdated": "2026-02-13",
+      "layerCount": 6,
       "completeness": "Medium",
       "confidence": "High"
     },
@@ -213,8 +217,8 @@
       "typeSpecimen": true,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 4,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 5,
       "completeness": "High",
       "confidence": "High"
     },
@@ -243,8 +247,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -258,8 +262,8 @@
       "typeSpecimen": true,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -273,8 +277,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -393,7 +397,7 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
+      "lastUpdated": "2026-02-12",
       "layerCount": 1,
       "completeness": "Low",
       "confidence": "Low"
@@ -454,7 +458,7 @@
       "status": "Active",
       "created": "2026-02-09",
       "lastUpdated": "2026-02-12",
-      "layerCount": 2,
+      "layerCount": 3,
       "completeness": "High",
       "confidence": "High"
     },
@@ -543,8 +547,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -573,8 +577,8 @@
       "typeSpecimen": false,
       "status": "Stub",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-13",
+      "layerCount": 2,
       "completeness": "Low",
       "confidence": "Low"
     },
@@ -603,8 +607,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 5,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 6,
       "completeness": "High",
       "confidence": "High"
     },
@@ -678,8 +682,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -723,8 +727,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 4,
       "completeness": "High",
       "confidence": "High"
     },
@@ -753,8 +757,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 6,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 7,
       "completeness": "High",
       "confidence": "Medium"
     },
@@ -768,8 +772,8 @@
       "typeSpecimen": true,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
-      "layerCount": 3,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 4,
       "completeness": "High",
       "confidence": "High"
     },
@@ -813,8 +817,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -828,8 +832,8 @@
       "typeSpecimen": false,
       "status": "Stub",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-13",
+      "layerCount": 2,
       "completeness": "Low",
       "confidence": "Low"
     },
@@ -903,8 +907,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-04",
-      "layerCount": 2,
+      "lastUpdated": "2026-02-13",
+      "layerCount": 3,
       "completeness": "Low",
       "confidence": "Medium"
     },
@@ -918,8 +922,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "Medium"
     },
@@ -945,10 +949,13 @@
       "subType": null,
       "secondaryModel": 2,
       "orientation": "Structural",
-      "confidence": "High",
-      "industry": "Financial Technology / Software",
+      "typeSpecimen": false,
+      "status": "Active",
+      "created": "2026-02-13",
+      "lastUpdated": "2026-02-13",
+      "layerCount": 2,
       "completeness": "High",
-      "status": "Active"
+      "confidence": "High"
     },
     {
       "id": "invent-advisory",
@@ -975,9 +982,9 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 4,
-      "completeness": "Medium",
+      "lastUpdated": "2026-02-10",
+      "layerCount": 6,
+      "completeness": "High",
       "confidence": "High"
     },
     {
@@ -1005,10 +1012,10 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
-      "layerCount": 2,
-      "completeness": "Low",
-      "confidence": "Medium"
+      "lastUpdated": "2026-02-13",
+      "layerCount": 3,
+      "completeness": "High",
+      "confidence": "High"
     },
     {
       "id": "kroger",
@@ -1020,8 +1027,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -1035,8 +1042,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-12",
-      "layerCount": 2,
+      "lastUpdated": "2026-02-13",
+      "layerCount": 3,
       "completeness": "Medium",
       "confidence": "Medium"
     },
@@ -1065,8 +1072,8 @@
       "typeSpecimen": false,
       "status": "Stub",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-13",
+      "layerCount": 2,
       "completeness": "Low",
       "confidence": "Low"
     },
@@ -1080,8 +1087,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -1095,8 +1102,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -1125,14 +1132,14 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
     {
       "id": "mckinsey",
-      "name": "McKinsey",
+      "name": "McKinsey & Company",
       "structuralModel": 5,
       "subType": "5a",
       "secondaryModel": 2,
@@ -1200,8 +1207,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -1230,8 +1237,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-12",
-      "layerCount": 8,
+      "lastUpdated": "2026-02-13",
+      "layerCount": 10,
       "completeness": "High",
       "confidence": "High"
     },
@@ -1248,8 +1255,7 @@
       "lastUpdated": "2026-02-12",
       "layerCount": 1,
       "completeness": "Low",
-      "confidence": "Low",
-      "mergedInto": "meta-ai"
+      "confidence": "Low"
     },
     {
       "id": "microsoft",
@@ -1291,8 +1297,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 3,
       "completeness": "High",
       "confidence": "High"
     },
@@ -1306,8 +1312,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -1337,7 +1343,7 @@
       "status": "Active",
       "created": "2026-02-09",
       "lastUpdated": "2026-02-12",
-      "layerCount": 2,
+      "layerCount": 3,
       "completeness": "High",
       "confidence": "Medium"
     },
@@ -1516,8 +1522,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -1561,8 +1567,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 3,
+      "lastUpdated": "2026-02-13",
+      "layerCount": 4,
       "completeness": "Low",
       "confidence": "Low"
     },
@@ -1681,9 +1687,9 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-12",
-      "layerCount": 6,
-      "completeness": "Medium",
+      "lastUpdated": "2026-02-13",
+      "layerCount": 7,
+      "completeness": "High",
       "confidence": "Medium"
     },
     {
@@ -1801,7 +1807,7 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
+      "lastUpdated": "2026-02-12",
       "layerCount": 2,
       "completeness": "Low",
       "confidence": "Medium"
@@ -1831,8 +1837,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-04",
-      "lastUpdated": "2026-02-04",
-      "layerCount": 2,
+      "lastUpdated": "2026-02-13",
+      "layerCount": 3,
       "completeness": "Medium",
       "confidence": "Medium"
     },
@@ -1891,8 +1897,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -1936,9 +1942,9 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
-      "layerCount": 3,
-      "completeness": "Low",
+      "lastUpdated": "2026-02-10",
+      "layerCount": 4,
+      "completeness": "Medium",
       "confidence": "Medium"
     },
     {
@@ -1981,15 +1987,15 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
     {
       "id": "travelers",
       "name": "Travelers",
-      "structuralModel": 4,
+      "structuralModel": 2,
       "subType": null,
       "secondaryModel": null,
       "orientation": "Contextual",
@@ -1999,7 +2005,7 @@
       "lastUpdated": "2026-02-04",
       "layerCount": 1,
       "completeness": "Medium",
-      "confidence": "High"
+      "confidence": "Medium"
     },
     {
       "id": "uber",
@@ -2056,8 +2062,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 2,
       "completeness": "High",
       "confidence": "High"
     },
@@ -2071,8 +2077,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 1,
+      "lastUpdated": "2026-02-12",
+      "layerCount": 3,
       "completeness": "High",
       "confidence": "High"
     },
@@ -2221,8 +2227,8 @@
       "typeSpecimen": false,
       "status": "Stub",
       "created": "2026-02-04",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 2,
+      "lastUpdated": "2026-02-13",
+      "layerCount": 3,
       "completeness": "Low",
       "confidence": "Low"
     },
@@ -2248,10 +2254,13 @@
       "subType": "5b",
       "secondaryModel": 1,
       "orientation": "Temporal",
-      "confidence": "High",
-      "industry": "Artificial Intelligence",
+      "typeSpecimen": false,
+      "status": "Active",
+      "created": "2026-02-13",
+      "lastUpdated": "2026-02-13",
+      "layerCount": 3,
       "completeness": "High",
-      "status": "Active"
+      "confidence": "High"
     }
   ]
 }

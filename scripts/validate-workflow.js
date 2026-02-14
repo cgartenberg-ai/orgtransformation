@@ -61,11 +61,20 @@ if (registry) {
     fileIds.add(file.replace('.json', ''));
   }
 
-  // Check registry count matches
-  if (registry.totalSpecimens === files.length) {
-    ok(`Registry count (${registry.totalSpecimens}) matches file count (${files.length})`);
+  // Check registry count matches (totalFiles includes inactive, totalSpecimens is active only)
+  const expectedFileCount = registry.totalFiles || registry.totalSpecimens;
+  if (expectedFileCount === files.length) {
+    ok(`Registry file count (${expectedFileCount}) matches actual files (${files.length})`);
   } else {
-    error(`Registry says ${registry.totalSpecimens} specimens but found ${files.length} files`);
+    error(`Registry says ${expectedFileCount} files but found ${files.length} files`);
+  }
+
+  const activeCount = registry.totalSpecimens || 0;
+  const inactiveCount = registry.inactiveCount || 0;
+  if (activeCount + inactiveCount === files.length) {
+    ok(`Active (${activeCount}) + Inactive (${inactiveCount}) = ${files.length} files`);
+  } else if (inactiveCount > 0) {
+    warn(`Active (${activeCount}) + Inactive (${inactiveCount}) = ${activeCount + inactiveCount}, but ${files.length} files exist`);
   }
 
   // Check every registry ID has a file
@@ -111,9 +120,11 @@ if (registry) {
 
   section('3. Registry Aggregates');
 
+  // Count only active specimens for aggregate validation
+  const activeSpecimens = registry.specimens.filter(s => s.status !== 'Inactive');
   const modelCounts = {};
   const orientationCounts = {};
-  for (const s of registry.specimens) {
+  for (const s of activeSpecimens) {
     const m = String(s.structuralModel);
     modelCounts[m] = (modelCounts[m] || 0) + 1;
     const o = s.orientation || 'Unknown';
