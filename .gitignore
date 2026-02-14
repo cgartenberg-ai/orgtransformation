@@ -34,4 +34,11 @@ __pycache__/
 plan.md
 
 # Claude Code plans (ephemeral)
+.claude/plans/
 # Note: .claude/skills/ and .claude/settings.local.json ARE tracked
+
+# Lock files (runtime only)
+scripts/.locks/
+
+# Backup files from atomic writes
+*.bak
