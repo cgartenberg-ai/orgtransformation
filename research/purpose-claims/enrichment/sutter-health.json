@@ -1,0 +1,25 @@
+{
+  "specimenId": "sutter-health",
+  "scannedDate": "2026-02-13",
+  "quality": "rich",
+  "claimCount": 11,
+  "claimTypeDistribution": {
+    "utopian": 0,
+    "teleological": 1,
+    "higher-calling": 1,
+    "identity": 4,
+    "survival": 4,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.chiefhealthcareexecutive.com/view/sutter-health-partners-with-aidoc-to-expand-ai-in-treating-patients"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "specimenId": "progressive",
+  "scannedDate": "2026-02-13",
+  "quality": "rich",
+  "claimCount": 5,
+  "claimTypeDistribution": {
+    "utopian": 0,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 4,
+    "survival": 0,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": []
+}

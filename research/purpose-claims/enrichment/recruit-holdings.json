@@ -1,0 +1,26 @@
+{
+  "specimenId": "recruit-holdings",
+  "scannedDate": "2026-02-13",
+  "quality": "rich",
+  "claimCount": 7,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 2,
+    "survival": 2,
+    "commercial-success": 2
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.indeed.com/news/releases/deko-return-ceo-indeed-new-chapter?co=US",
+    "https://recruit-holdings.com/en/blog/post_20250328_0001/"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "specimenId": "blue-origin",
+  "scannedDate": "2026-02-13",
+  "quality": "rich",
+  "claimCount": 9,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 2,
+    "higher-calling": 0,
+    "identity": 3,
+    "survival": 1,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://finance.yahoo.com/news/blue-origin-ceo-says-data-centers-are-headed-to-space-in-our-lifetime-172346722.html"
+  ]
+}

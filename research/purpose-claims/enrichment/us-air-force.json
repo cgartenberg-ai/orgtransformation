@@ -1,0 +1,26 @@
+{
+  "specimenId": "us-air-force",
+  "scannedDate": "2026-02-13",
+  "quality": "rich",
+  "claimCount": 6,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 2,
+    "survival": 3,
+    "commercial-success": 0
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.spaceforce.mil/News/Article-Display/Article/3604801/daf-leaders-emphasize-adapting-ai-for-warfighting-success/",
+    "https://www.dau.edu/library/damag/sept-oct2024/kendallinterview"
+  ]
+}

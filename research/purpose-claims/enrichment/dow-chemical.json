@@ -1,0 +1,25 @@
+{
+  "specimenId": "dow-chemical",
+  "scannedDate": "2026-02-13",
+  "quality": "rich",
+  "claimCount": 4,
+  "claimTypeDistribution": {
+    "utopian": 0,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 1,
+    "survival": 1,
+    "commercial-success": 2
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://abcnews.com/Business/wireStory/dow-cut-4500-jobs-emphasis-shifts-ai-automation-129665080"
+  ]
+}

@@ -445,4 +445,6 @@ This file is the intellectual spine of the purpose claims project. It accumulate
 - **Don't force-fit.** If a quote doesn't clearly fit one of the six types, note it in `notes` with your reasoning and assign the closest type. Some claims may genuinely be ambiguous.
 - **"None" is data.** A specimen with zero purpose claims after thorough scanning is an interesting finding — it may indicate purely technocratic leadership or a different authorization mechanism.
 
+**Session end:** When done with purpose claims scanning, run `/handoff` to update the handoff document and session log.
+
 $ARGUMENTS

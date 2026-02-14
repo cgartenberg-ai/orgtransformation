@@ -1,0 +1,26 @@
+{
+  "specimenId": "kaiser-permanente",
+  "scannedDate": "2026-02-13",
+  "quality": "rich",
+  "claimCount": 7,
+  "claimTypeDistribution": {
+    "utopian": 0,
+    "teleological": 2,
+    "higher-calling": 1,
+    "identity": 1,
+    "survival": 2,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 6,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://venturebeat.com/ai/how-kaiser-permanente-is-using-gen-ai-to-paradoxically-make-care-more-human-again (429 rate limit)",
+    "https://www.salesforce.com/content/blogs/us/en/2018/02/kaiser-permanente-ceo-fourth-industrial-revolution.html (404 not found)"
+  ]
+}

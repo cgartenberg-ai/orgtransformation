@@ -94,9 +94,9 @@
     },
     {
       "specimenId": "blue-origin",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-13",
+      "claimsFound": 9,
+      "quality": "rich"
     },
     {
       "specimenId": "bmw",
@@ -130,9 +130,9 @@
     },
     {
       "specimenId": "chegg",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-13",
+      "claimsFound": 9,
+      "quality": "rich"
     },
     {
       "specimenId": "ci-med",
@@ -225,8 +225,8 @@
     {
       "specimenId": "dow-chemical",
       "lastScanned": "2026-02-13",
-      "claimsFound": 1,
-      "quality": "unscanned"
+      "claimsFound": 4,
+      "quality": "rich"
     },
     {
       "specimenId": "duolingo",
@@ -272,9 +272,9 @@
     },
     {
       "specimenId": "genpact",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-13",
+      "claimsFound": 7,
+      "quality": "rich"
     },
     {
       "specimenId": "glean",
@@ -394,9 +394,9 @@
     },
     {
       "specimenId": "kaiser-permanente",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-13",
+      "claimsFound": 7,
+      "quality": "rich"
     },
     {
       "specimenId": "klarna",
@@ -412,9 +412,9 @@
     },
     {
       "specimenId": "kyndryl",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-13",
+      "claimsFound": 7,
+      "quality": "rich"
     },
     {
       "specimenId": "lg-electronics",
@@ -442,9 +442,9 @@
     },
     {
       "specimenId": "mass-general-brigham",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-13",
+      "claimsFound": 5,
+      "quality": "adequate"
     },
     {
       "specimenId": "mayo-clinic",
@@ -454,9 +454,9 @@
     },
     {
       "specimenId": "mckinsey",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-13",
+      "claimsFound": 9,
+      "quality": "rich"
     },
     {
       "specimenId": "mckinsey-quantumblack",
@@ -634,9 +634,9 @@
     },
     {
       "specimenId": "progressive",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-13",
+      "claimsFound": 5,
+      "quality": "rich"
     },
     {
       "specimenId": "publicis-groupe",
@@ -652,9 +652,9 @@
     },
     {
       "specimenId": "recruit-holdings",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-13",
+      "claimsFound": 7,
+      "quality": "rich"
     },
     {
       "specimenId": "recursion",
@@ -765,9 +765,9 @@
     },
     {
       "specimenId": "sutter-health",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-13",
+      "claimsFound": 11,
+      "quality": "rich"
     },
     {
       "specimenId": "t-mobile",
@@ -857,9 +857,9 @@
     },
     {
       "specimenId": "us-air-force",
-      "lastScanned": null,
-      "claimsFound": 0,
-      "quality": "unscanned"
+      "lastScanned": "2026-02-13",
+      "claimsFound": 6,
+      "quality": "rich"
     },
     {
       "specimenId": "us-cyber-command",

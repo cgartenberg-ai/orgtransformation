@@ -473,3 +473,5 @@ For each completed session:
   node scripts/validate-workflow.js
   ```
   Fix any issues before completing.
+
+- [ ] **Run `/handoff`** to update the handoff document and session log.

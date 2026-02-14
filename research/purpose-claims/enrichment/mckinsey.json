@@ -1,0 +1,26 @@
+{
+  "specimenId": "mckinsey",
+  "scannedDate": "2026-02-13",
+  "quality": "rich",
+  "claimCount": 9,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 1,
+    "higher-calling": 0,
+    "identity": 5,
+    "survival": 1,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 5,
+  "fetchFailures": [
+    "https://finance.yahoo.com/news/ceo-bob-sternfels-says-mckinsey-104101601.html",
+    "https://www.inc.com/leila-sheridan/mckinsey-boss-shares-3-ai-proof-skills-for-young-professionals/91286271"
+  ]
+}
