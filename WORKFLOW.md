@@ -1,6 +1,6 @@
 # Project Workflow: Complete Command Reference
 
-## Last Updated: February 12, 2026
+## Last Updated: February 14, 2026
 
 This document is the single source of truth for **all research workflows and commands** in the Ambidexterity Field Guide project.
 
@@ -425,6 +425,72 @@ curation/
 
 ---
 
+## Operational Infrastructure
+
+### Running Overnight Automation
+
+**Prerequisites:**
+- Claude CLI installed and configured
+- All required data files exist and parse as valid JSON
+- No other overnight script running (PID-based lock check)
+
+**Execution:**
+```bash
+# Always use --dry-run first to preview
+python3 scripts/overnight-research.py --dry-run
+python3 scripts/overnight-purpose-claims.py --dry-run
+python3 scripts/overnight-curate.py --dry-run
+
+# Then run for real
+python3 scripts/overnight-research.py
+python3 scripts/overnight-purpose-claims.py
+python3 scripts/overnight-curate.py
+```
+
+**Safety features:**
+- Atomic writes: data written to `.tmp` → validated → backup created → atomic rename
+- Lock files: `scripts/.locks/` prevents concurrent runs (PID-based, stale-lock detection)
+- Preflight checks: all required files validated before expensive agent runs
+- Changelog: every data modification logged to `data/CHANGELOG.md`
+
+### Post-Run Verification
+
+After any overnight run or data modification:
+
+```bash
+# 1. Check consistency (REQUIRED — 0 errors expected)
+node scripts/validate-workflow.js
+
+# 2. Verify site builds (REQUIRED)
+cd site && npm run build
+
+# 3. Review what changed
+# Check data/CHANGELOG.md for timestamped entries
+
+# 4. Update lifecycle dashboard (recommended)
+node scripts/specimen-lifecycle-status.js
+
+# 5. Check source freshness (recommended)
+node scripts/check-source-freshness.js
+```
+
+### When to Run Specific Scripts
+
+| Script | When to Run |
+|--------|-------------|
+| `validate-workflow.js` | After ANY data change. Must show 0 errors. |
+| `rebuild-registry.js` | After adding/removing specimen files, or if validator reports registry mismatch |
+| `specimen-lifecycle-status.js` | Before synthesis sessions (to see which specimens need attention) |
+| `check-source-freshness.js` | Before research sessions (to prioritize stale sources) |
+
+### Lock and Backup File Conventions
+
+- **Lock files:** `scripts/.locks/{script-name}.lock` — contains PID. Git-ignored.
+- **Backup files:** `*.bak` created by `save_json()` before overwriting. Git-ignored.
+- **Stale locks:** If a script crashes without releasing its lock, the next run detects the dead PID and warns. Remove manually if needed: `rm scripts/.locks/*.lock`
+
+---
+
 ## Version History
 
 | Date | Change |
@@ -432,3 +498,4 @@ curation/
 | 2026-02-06 | Created WORKFLOW.md. Consolidated all command documentation. Added Transcript Discovery Protocol integration. |
 | 2026-02-09 | **DEPRECATED automated `/synthesize` and `overnight-synthesis.py`.** Replaced with Interactive Botanist Mode. Added tension scoring guide, contingency level guide, stub policy, and discovery protocol. Documented why interactive synthesis is required (Sessions 11-12 demonstrated that every batch yields analytical discoveries when approached with curiosity). |
 | 2026-02-12 | Updated claim type taxonomy to v2.0 (6 types). Added Purpose Claims Visualization Infrastructure section (enrichment files, spider charts, spider grid, citation system). Updated file map with enrichment directory. |
+| 2026-02-14 | Added Operational Infrastructure section: overnight automation procedures, post-run verification checklist, lock/backup conventions. |
