@@ -648,78 +648,43 @@ def main():
             log.error(f"LOCK FAIL: {e}")
             sys.exit(1)
 
-    # Load and filter queue
-    queue = load_targets(
-        quadrant=args.quadrant,
-        priority=args.priority,
-        company=args.company,
-    )
+    try:  # ← ensures lock is released even on unexpected exceptions
 
-    log.info(f"Queue: {len(queue)} targets")
+        # Load and filter queue
+        queue = load_targets(
+            quadrant=args.quadrant,
+            priority=args.priority,
+            company=args.company,
+        )
 
-    if args.limit > 0:
-        queue = queue[:args.limit]
-        log.info(f"Limited to {args.limit}")
+        log.info(f"Queue: {len(queue)} targets")
 
-    # Dry run
-    if args.dry_run:
-        log.info("\n--- DRY RUN — Target queue ---")
-        for i, t in enumerate(queue, 1):
-            conf = " ★" if t.get("conference") else ""
-            pub = "PUB" if t.get("public", True) else "PVT"
-            log.info(
-                f"  {i:2d}. [{t['priority']:6s}] {t['company']:30s} | "
-                f"{t['quadrant']} | {t['sector']:25s} | {t['leader']:25s} | {pub}{conf}"
-            )
-        log.info(f"\nTotal: {len(queue)} targets")
-        log.info("Run without --dry-run to execute.")
-        return
+        if args.limit > 0:
+            queue = queue[:args.limit]
+            log.info(f"Limited to {args.limit}")
 
-    # ─── Run Loop ─────────────────────────────────────────────────────
-    start_time = datetime.now()
-    results = []
-    failed = []
+        # Dry run
+        if args.dry_run:
+            log.info("\n--- DRY RUN — Target queue ---")
+            for i, t in enumerate(queue, 1):
+                conf = " ★" if t.get("conference") else ""
+                pub = "PUB" if t.get("public", True) else "PVT"
+                log.info(
+                    f"  {i:2d}. [{t['priority']:6s}] {t['company']:30s} | "
+                    f"{t['quadrant']} | {t['sector']:25s} | {t['leader']:25s} | {pub}{conf}"
+                )
+            log.info(f"\nTotal: {len(queue)} targets")
+            log.info("Run without --dry-run to execute.")
+            return
 
-    for i, target in enumerate(queue, 1):
-        log.info(f"\n--- [{i}/{len(queue)}] {target['company']} ({target['quadrant']}) ---")
+        # ─── Run Loop ─────────────────────────────────────────────────────
+        start_time = datetime.now()
+        results = []
+        failed = []
 
-        prompt = build_research_prompt(target)
-        agent_start = time.time()
-        success = run_agent(target, prompt, args.skip_permissions)
-        agent_elapsed = time.time() - agent_start
+        for i, target in enumerate(queue, 1):
+            log.info(f"\n--- [{i}/{len(queue)}] {target['company']} ({target['quadrant']}) ---")
 
-        if success:
-            slug = get_slug(target["company"])
-            pending_file = PENDING_DIR / f"{slug}.json"
-            with open(pending_file) as f:
-                data = json.load(f)
-            results.append({
-                "company": target["company"],
-                "quadrant": target["quadrant"],
-                "success": True,
-                "model": data.get("structuralFindings", {}).get("suggestedModel", "?"),
-                "quotes": len(data.get("quotes", [])),
-                "elapsed": agent_elapsed,
-            })
-            append_to_curation_queue(target, slug)
-        else:
-            results.append({
-                "company": target["company"],
-                "quadrant": target["quadrant"],
-                "success": False,
-                "model": "?",
-                "quotes": 0,
-                "elapsed": agent_elapsed,
-            })
-            failed.append(target)
-
-        if i < len(queue):
-            time.sleep(PAUSE_BETWEEN)
-
-    # ─── Retry Failed ────────────────────────────────────────────────
-    if failed and MAX_RETRIES > 0:
-        log.info(f"\n--- RETRYING {len(failed)} failed targets ---")
-        for target in failed:
             prompt = build_research_prompt(target)
             agent_start = time.time()
             success = run_agent(target, prompt, args.skip_permissions)
@@ -728,57 +693,112 @@ def main():
             if success:
                 slug = get_slug(target["company"])
                 pending_file = PENDING_DIR / f"{slug}.json"
-                with open(pending_file) as f:
-                    data = json.load(f)
-                for r in results:
-                    if r["company"] == target["company"]:
-                        r["success"] = True
-                        r["model"] = data.get("structuralFindings", {}).get("suggestedModel", "?")
-                        r["quotes"] = len(data.get("quotes", []))
-                        r["elapsed"] += agent_elapsed
-                        break
+                try:
+                    with open(pending_file) as f:
+                        data = json.load(f)
+                except (FileNotFoundError, json.JSONDecodeError) as e:
+                    log.error(f"Cannot read pending file {pending_file}: {e}")
+                    results.append({
+                        "company": target["company"],
+                        "quadrant": target["quadrant"],
+                        "success": False,
+                        "model": "?",
+                        "quotes": 0,
+                        "elapsed": agent_elapsed,
+                    })
+                    failed.append(target)
+                    continue
+                results.append({
+                    "company": target["company"],
+                    "quadrant": target["quadrant"],
+                    "success": True,
+                    "model": data.get("structuralFindings", {}).get("suggestedModel", "?"),
+                    "quotes": len(data.get("quotes", [])),
+                    "elapsed": agent_elapsed,
+                })
                 append_to_curation_queue(target, slug)
+            else:
+                results.append({
+                    "company": target["company"],
+                    "quadrant": target["quadrant"],
+                    "success": False,
+                    "model": "?",
+                    "quotes": 0,
+                    "elapsed": agent_elapsed,
+                })
+                failed.append(target)
 
-            time.sleep(PAUSE_BETWEEN)
+            if i < len(queue):
+                time.sleep(PAUSE_BETWEEN)
 
-    # ─── Summary ──────────────────────────────────────────────────────
-    elapsed_total = datetime.now() - start_time
-    succeeded = [r for r in results if r["success"]]
-    failed_final = [r for r in results if not r["success"]]
+        # ─── Retry Failed ────────────────────────────────────────────────
+        if failed and MAX_RETRIES > 0:
+            log.info(f"\n--- RETRYING {len(failed)} failed targets ---")
+            for target in failed:
+                prompt = build_research_prompt(target)
+                agent_start = time.time()
+                success = run_agent(target, prompt, args.skip_permissions)
+                agent_elapsed = time.time() - agent_start
 
-    log.info("\n" + "=" * 60)
-    log.info("RUN COMPLETE")
-    log.info("=" * 60)
-    log.info(f"Duration: {elapsed_total.total_seconds() / 60:.0f} minutes")
-    log.info(f"Targets scanned: {len(results)}")
-    log.info(f"Succeeded: {len(succeeded)}")
-    log.info(f"Failed: {len(failed_final)}")
+                if success:
+                    slug = get_slug(target["company"])
+                    pending_file = PENDING_DIR / f"{slug}.json"
+                    try:
+                        with open(pending_file) as f:
+                            data = json.load(f)
+                    except (FileNotFoundError, json.JSONDecodeError) as e:
+                        log.error(f"Cannot read pending file on retry {pending_file}: {e}")
+                        continue
+                    for r in results:
+                        if r["company"] == target["company"]:
+                            r["success"] = True
+                            r["model"] = data.get("structuralFindings", {}).get("suggestedModel", "?")
+                            r["quotes"] = len(data.get("quotes", []))
+                            r["elapsed"] += agent_elapsed
+                            break
+                    append_to_curation_queue(target, slug)
 
-    if succeeded:
-        from collections import Counter
-        models = Counter(r["model"] for r in succeeded)
-        log.info(f"\nModel distribution:")
-        for m, c in models.most_common():
-            log.info(f"  M{m}: {c}")
+                time.sleep(PAUSE_BETWEEN)
 
-    if failed_final:
-        log.info(f"\nFailed: {[r['company'] for r in failed_final]}")
+        # ─── Summary ──────────────────────────────────────────────────────
+        elapsed_total = datetime.now() - start_time
+        succeeded = [r for r in results if r["success"]]
+        failed_final = [r for r in results if not r["success"]]
 
-    write_session_log(results, start_time)
+        log.info("\n" + "=" * 60)
+        log.info("RUN COMPLETE")
+        log.info("=" * 60)
+        log.info(f"Duration: {elapsed_total.total_seconds() / 60:.0f} minutes")
+        log.info(f"Targets scanned: {len(results)}")
+        log.info(f"Succeeded: {len(succeeded)}")
+        log.info(f"Failed: {len(failed_final)}")
 
-    # Audit log
-    if succeeded:
-        write_changelog("overnight-research.py", [
-            f"Scanned {len(succeeded)} targets: {', '.join(r['company'] for r in succeeded)}",
-            f"Total quotes found: {sum(r.get('quotes', 0) for r in succeeded)}",
-        ])
+        if succeeded:
+            from collections import Counter
+            models = Counter(r["model"] for r in succeeded)
+            log.info(f"\nModel distribution:")
+            for m, c in models.most_common():
+                log.info(f"  M{m}: {c}")
 
-    # ─── Release Lock ─────────────────────────────────────────────────
-    if lock_path:
-        release_lock(lock_path)
-        log.info("Lock released")
+        if failed_final:
+            log.info(f"\nFailed: {[r['company'] for r in failed_final]}")
 
-    log.info("\nPending files in research/pending/ — run /curate to create specimens.")
+        write_session_log(results, start_time)
+
+        # Audit log
+        if succeeded:
+            write_changelog("overnight-research.py", [
+                f"Scanned {len(succeeded)} targets: {', '.join(r['company'] for r in succeeded)}",
+                f"Total quotes found: {sum(r.get('quotes', 0) for r in succeeded)}",
+            ])
+
+        log.info("\nPending files in research/pending/ — run /curate to create specimens.")
+
+    finally:
+        # ─── Release Lock ─────────────────────────────────────────────────
+        if lock_path:
+            release_lock(lock_path)
+            log.info("Lock released")
 
 
 if __name__ == "__main__":

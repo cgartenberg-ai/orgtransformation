@@ -22,6 +22,11 @@ const RESEARCH_DIR = path.join(ROOT, 'research');
 const CURATION_DIR = path.join(ROOT, 'curation');
 const DATA_DIR = path.join(ROOT, 'data');
 
+// Ensure data directory exists before writing
+if (!fs.existsSync(DATA_DIR)) {
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+}
+
 const SKIP_FILES = new Set(['_template.json', 'specimen-schema.json', 'registry.json', 'source-registry.json']);
 
 function loadJSON(filePath) {

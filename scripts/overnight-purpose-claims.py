@@ -64,8 +64,12 @@ def load_specimen_context(specimen_id: str) -> dict | None:
         log.warning(f"No specimen file: {path}")
         return None
 
-    with open(path) as f:
-        spec = json.load(f)
+    try:
+        with open(path) as f:
+            spec = json.load(f)
+    except (json.JSONDecodeError, OSError) as e:
+        log.error(f"Cannot parse specimen file {path}: {e}")
+        return None
 
     # Extract CEO/leader from quotes
     leader_name = None
@@ -495,20 +499,26 @@ def merge_pending_into_registry() -> tuple[int, list[str]]:
         if scan_narrative:
             _write_scan_narrative(specimen_id, data, scan_narrative)
 
-        # Move pending file to processed/ BEFORE writing registry.
-        # This prevents duplicates on crash: if registry write fails,
-        # the pending file is already moved so re-run won't re-merge it.
-        processed_dir = PENDING_DIR / "processed"
-        processed_dir.mkdir(parents=True, exist_ok=True)
-        pf.rename(processed_dir / pf.name)
-
-    # Write updated registry (atomic — crash won't corrupt)
+    # Write updated registry FIRST (atomic — crash won't corrupt).
+    # This must happen before moving pending files to processed/,
+    # so a crash between write and move just causes a harmless re-merge
+    # (duplicate-ID check skips already-merged claims).
     registry["lastUpdated"] = str(date.today())
     save_json(REGISTRY_PATH, registry)
 
     # Write updated scan-tracker (atomic)
     tracker["lastUpdated"] = str(date.today())
     save_json(SCAN_TRACKER_PATH, tracker)
+
+    # Now move pending files to processed/ (safe — registry is already written)
+    processed_dir = PENDING_DIR / "processed"
+    processed_dir.mkdir(parents=True, exist_ok=True)
+    for pf in pending_files:
+        if pf.exists():  # may have been skipped due to JSON error
+            try:
+                pf.rename(processed_dir / pf.name)
+            except OSError as e:
+                log.warning(f"Could not move {pf.name} to processed/: {e}")
 
     # Audit log
     write_changelog("overnight-purpose-claims.py", [
@@ -748,121 +758,56 @@ def main():
             log.error(f"LOCK FAIL: {e}")
             sys.exit(1)
 
-    # Build queue
-    if args.specimen:
-        queue = [args.specimen]
-        log.info(f"Single specimen mode: {args.specimen}")
-    else:
-        queue = get_priority_queue()
-        log.info(f"Queue: {len(queue)} unscanned specimens")
 
-    if args.limit > 0:
-        queue = queue[: args.limit]
-        log.info(f"Limited to {args.limit} specimens")
-
-    # Dry run — just show the queue
-    if args.dry_run:
-        log.info("\n--- DRY RUN — Queue order ---")
-        for i, sid in enumerate(queue, 1):
-            ctx = load_specimen_context(sid)
-            if ctx:
-                leader = ctx["leader_name"] or "(no leader found)"
-                log.info(
-                    f"  {i:2d}. {sid:30s} | {ctx['name']:25s} | "
-                    f"{ctx['industry']:20s} | M{ctx['structuralModel']} | {leader}"
-                )
-            else:
-                log.info(f"  {i:2d}. {sid:30s} | NO SPECIMEN FILE")
-        log.info(f"\nTotal: {len(queue)} specimens")
-        log.info("Run without --dry-run to execute.")
-        return
-
-    # ─── Run Loop ─────────────────────────────────────────────────────────
-    start_time = datetime.now()
-    results = []
-    failed = []
-    cumulative_claims = 0
-
-    for i, specimen_id in enumerate(queue, 1):
-        log.info(f"\n--- [{i}/{len(queue)}] {specimen_id} ---")
-
-        ctx = load_specimen_context(specimen_id)
-        if not ctx:
-            results.append({
-                "specimen_id": specimen_id,
-                "success": False,
-                "claims": 0,
-                "quality": "no-file",
-                "elapsed": 0,
-            })
-            failed.append(specimen_id)
-            continue
-
-        prompt = build_agent_prompt(specimen_id, ctx)
-        agent_start = time.time()
-        success = run_agent(specimen_id, prompt, args.skip_permissions)
-        agent_elapsed = time.time() - agent_start
-
-        if success:
-            # Read the output to get claim count and rich content
-            pending_file = PENDING_DIR / f"{specimen_id}.json"
-            with open(pending_file) as f:
-                data = json.load(f)
-            claims_list = data.get("claims", [])
-            # Capture rich content before merge deletes the file
-            type_breakdown = {}
-            notable_claims = []
-            for claim in claims_list:
-                ct = claim.get("claimType", "unknown")
-                type_breakdown[ct] = type_breakdown.get(ct, 0) + 1
-                # Capture claims with interesting rhetorical functions
-                rf = claim.get("rhetoricalFunction", "")
-                if rf and len(rf) > 20:
-                    notable_claims.append({
-                        "text": claim.get("text", "")[:120],
-                        "speaker": claim.get("speaker", ""),
-                        "claimType": ct,
-                        "rhetoricalFunction": rf,
-                        "notes": claim.get("notes", ""),
-                    })
-            results.append({
-                "specimen_id": specimen_id,
-                "success": True,
-                "claims": data.get("claimsFound", len(claims_list)),
-                "quality": data.get("quality", "unknown"),
-                "elapsed": agent_elapsed,
-                "type_breakdown": type_breakdown,
-                "notable_claims": notable_claims[:5],  # top 5 most interesting
-            })
+    try:  # ensures lock is released even on unexpected exceptions
+        # Build queue
+        if args.specimen:
+            queue = [args.specimen]
+            log.info(f"Single specimen mode: {args.specimen}")
         else:
-            results.append({
-                "specimen_id": specimen_id,
-                "success": False,
-                "claims": 0,
-                "quality": "failed",
-                "elapsed": agent_elapsed,
-            })
-            failed.append(specimen_id)
+            queue = get_priority_queue()
+            log.info(f"Queue: {len(queue)} unscanned specimens")
 
-        # Merge after every 4 specimens (or at the end)
-        if not args.no_merge and (i % 4 == 0 or i == len(queue)):
-            added, merged = merge_pending_into_registry()
-            cumulative_claims += added
-            if merged:
-                log.info(f"Merged {len(merged)} specimens (+{added} claims)")
+        if args.limit > 0:
+            queue = queue[: args.limit]
+            log.info(f"Limited to {args.limit} specimens")
 
-        # Pause between agents
-        if i < len(queue):
-            time.sleep(PAUSE_BETWEEN)
+        # Dry run — just show the queue
+        if args.dry_run:
+            log.info("\n--- DRY RUN — Queue order ---")
+            for i, sid in enumerate(queue, 1):
+                ctx = load_specimen_context(sid)
+                if ctx:
+                    leader = ctx["leader_name"] or "(no leader found)"
+                    log.info(
+                        f"  {i:2d}. {sid:30s} | {ctx['name']:25s} | "
+                        f"{ctx['industry']:20s} | M{ctx['structuralModel']} | {leader}"
+                    )
+                else:
+                    log.info(f"  {i:2d}. {sid:30s} | NO SPECIMEN FILE")
+            log.info(f"\nTotal: {len(queue)} specimens")
+            log.info("Run without --dry-run to execute.")
+            return
 
-    # ─── Retry Failed ────────────────────────────────────────────────────
-    if failed and MAX_RETRIES > 0:
-        log.info(f"\n--- RETRYING {len(failed)} failed specimens ---")
-        retry_results = []
+        # ─── Run Loop ─────────────────────────────────────────────────────────
+        start_time = datetime.now()
+        results = []
+        failed = []
+        cumulative_claims = 0
 
-        for specimen_id in failed:
+        for i, specimen_id in enumerate(queue, 1):
+            log.info(f"\n--- [{i}/{len(queue)}] {specimen_id} ---")
+
             ctx = load_specimen_context(specimen_id)
             if not ctx:
+                results.append({
+                    "specimen_id": specimen_id,
+                    "success": False,
+                    "claims": 0,
+                    "quality": "no-file",
+                    "elapsed": 0,
+                })
+                failed.append(specimen_id)
                 continue
 
             prompt = build_agent_prompt(specimen_id, ctx)
@@ -871,6 +816,7 @@ def main():
             agent_elapsed = time.time() - agent_start
 
             if success:
+                # Read the output to get claim count and rich content
                 pending_file = PENDING_DIR / f"{specimen_id}.json"
                 with open(pending_file) as f:
                     data = json.load(f)
@@ -881,6 +827,7 @@ def main():
                 for claim in claims_list:
                     ct = claim.get("claimType", "unknown")
                     type_breakdown[ct] = type_breakdown.get(ct, 0) + 1
+                    # Capture claims with interesting rhetorical functions
                     rf = claim.get("rhetoricalFunction", "")
                     if rf and len(rf) > 20:
                         notable_claims.append({
@@ -890,56 +837,122 @@ def main():
                             "rhetoricalFunction": rf,
                             "notes": claim.get("notes", ""),
                         })
-                # Update the result
-                for r in results:
-                    if r["specimen_id"] == specimen_id:
-                        r["success"] = True
-                        r["claims"] = data.get("claimsFound", len(claims_list))
-                        r["quality"] = data.get("quality", "unknown") + " (retry)"
-                        r["elapsed"] += agent_elapsed
-                        r["type_breakdown"] = type_breakdown
-                        r["notable_claims"] = notable_claims[:5]
-                        break
+                results.append({
+                    "specimen_id": specimen_id,
+                    "success": True,
+                    "claims": data.get("claimsFound", len(claims_list)),
+                    "quality": data.get("quality", "unknown"),
+                    "elapsed": agent_elapsed,
+                    "type_breakdown": type_breakdown,
+                    "notable_claims": notable_claims[:5],  # top 5 most interesting
+                })
+            else:
+                results.append({
+                    "specimen_id": specimen_id,
+                    "success": False,
+                    "claims": 0,
+                    "quality": "failed",
+                    "elapsed": agent_elapsed,
+                })
+                failed.append(specimen_id)
 
-            time.sleep(PAUSE_BETWEEN)
+            # Merge after every 4 specimens (or at the end)
+            if not args.no_merge and (i % 4 == 0 or i == len(queue)):
+                added, merged = merge_pending_into_registry()
+                cumulative_claims += added
+                if merged:
+                    log.info(f"Merged {len(merged)} specimens (+{added} claims)")
 
-        # Final merge
+            # Pause between agents
+            if i < len(queue):
+                time.sleep(PAUSE_BETWEEN)
+
+        # ─── Retry Failed ────────────────────────────────────────────────────
+        if failed and MAX_RETRIES > 0:
+            log.info(f"\n--- RETRYING {len(failed)} failed specimens ---")
+            retry_results = []
+
+            for specimen_id in failed:
+                ctx = load_specimen_context(specimen_id)
+                if not ctx:
+                    continue
+
+                prompt = build_agent_prompt(specimen_id, ctx)
+                agent_start = time.time()
+                success = run_agent(specimen_id, prompt, args.skip_permissions)
+                agent_elapsed = time.time() - agent_start
+
+                if success:
+                    pending_file = PENDING_DIR / f"{specimen_id}.json"
+                    with open(pending_file) as f:
+                        data = json.load(f)
+                    claims_list = data.get("claims", [])
+                    # Capture rich content before merge deletes the file
+                    type_breakdown = {}
+                    notable_claims = []
+                    for claim in claims_list:
+                        ct = claim.get("claimType", "unknown")
+                        type_breakdown[ct] = type_breakdown.get(ct, 0) + 1
+                        rf = claim.get("rhetoricalFunction", "")
+                        if rf and len(rf) > 20:
+                            notable_claims.append({
+                                "text": claim.get("text", "")[:120],
+                                "speaker": claim.get("speaker", ""),
+                                "claimType": ct,
+                                "rhetoricalFunction": rf,
+                                "notes": claim.get("notes", ""),
+                            })
+                    # Update the result
+                    for r in results:
+                        if r["specimen_id"] == specimen_id:
+                            r["success"] = True
+                            r["claims"] = data.get("claimsFound", len(claims_list))
+                            r["quality"] = data.get("quality", "unknown") + " (retry)"
+                            r["elapsed"] += agent_elapsed
+                            r["type_breakdown"] = type_breakdown
+                            r["notable_claims"] = notable_claims[:5]
+                            break
+
+                time.sleep(PAUSE_BETWEEN)
+
+            # Final merge
+            if not args.no_merge:
+                added, merged = merge_pending_into_registry()
+                cumulative_claims += added
+
+        # ─── Summary ──────────────────────────────────────────────────────────
+        elapsed_total = datetime.now() - start_time
+        succeeded = [r for r in results if r["success"]]
+        failed_final = [r for r in results if not r["success"]]
+
+        log.info("\n" + "=" * 60)
+        log.info("RUN COMPLETE")
+        log.info("=" * 60)
+        log.info(f"Duration: {elapsed_total.total_seconds() / 60:.0f} minutes")
+        log.info(f"Specimens attempted: {len(results)}")
+        log.info(f"Succeeded: {len(succeeded)}")
+        log.info(f"Failed: {len(failed_final)}")
+        log.info(f"Total claims added: {cumulative_claims}")
+
+        if failed_final:
+            log.info(f"Failed specimens: {[r['specimen_id'] for r in failed_final]}")
+
+        # Write session log
+        write_session_log(results, cumulative_claims, start_time)
+
+        # Print final type distribution
         if not args.no_merge:
-            added, merged = merge_pending_into_registry()
-            cumulative_claims += added
+            registry = load_json(REGISTRY_PATH)
+            type_counts = Counter(c["claimType"] for c in registry["claims"])
+            log.info(f"\nRegistry: {len(registry['claims'])} total claims")
+            for t in CLAIM_TYPES:
+                log.info(f"  {t}: {type_counts.get(t, 0)}")
 
-    # ─── Summary ──────────────────────────────────────────────────────────
-    elapsed_total = datetime.now() - start_time
-    succeeded = [r for r in results if r["success"]]
-    failed_final = [r for r in results if not r["success"]]
-
-    log.info("\n" + "=" * 60)
-    log.info("RUN COMPLETE")
-    log.info("=" * 60)
-    log.info(f"Duration: {elapsed_total.total_seconds() / 60:.0f} minutes")
-    log.info(f"Specimens attempted: {len(results)}")
-    log.info(f"Succeeded: {len(succeeded)}")
-    log.info(f"Failed: {len(failed_final)}")
-    log.info(f"Total claims added: {cumulative_claims}")
-
-    if failed_final:
-        log.info(f"Failed specimens: {[r['specimen_id'] for r in failed_final]}")
-
-    # Write session log
-    write_session_log(results, cumulative_claims, start_time)
-
-    # Print final type distribution
-    if not args.no_merge:
-        registry = load_json(REGISTRY_PATH)
-        type_counts = Counter(c["claimType"] for c in registry["claims"])
-        log.info(f"\nRegistry: {len(registry['claims'])} total claims")
-        for t in CLAIM_TYPES:
-            log.info(f"  {t}: {type_counts.get(t, 0)}")
-
-    # ─── Release Lock ─────────────────────────────────────────────────
-    if lock_path:
-        release_lock(lock_path)
-        log.info("Lock released")
+    finally:
+        # ─── Release Lock ─────────────────────────────────────────────────
+        if lock_path:
+            release_lock(lock_path)
+            log.info("Lock released")
 
 
 if __name__ == "__main__":

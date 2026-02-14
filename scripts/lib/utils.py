@@ -169,8 +169,10 @@ def acquire_lock(name: str) -> Path:
     """
     Acquire a named lock. Writes PID to scripts/.locks/{name}.lock.
 
+    Uses O_CREAT | O_EXCL for atomic creation (no TOCTOU race).
+
     If a lock file exists:
-      - If the PID is dead, warns and removes the stale lock.
+      - If the PID is dead, warns and removes the stale lock, then retries.
       - If the PID is alive, raises RuntimeError (another instance is running).
 
     Returns the lock file path (pass to release_lock when done).
@@ -178,28 +180,36 @@ def acquire_lock(name: str) -> Path:
     LOCKS_DIR.mkdir(parents=True, exist_ok=True)
     lock_path = LOCKS_DIR / f"{name}.lock"
 
-    if lock_path.exists():
+    for attempt in range(2):  # At most one retry after clearing a stale lock
         try:
-            existing_pid = int(lock_path.read_text().strip())
-        except (ValueError, OSError):
-            existing_pid = -1
+            # Atomic lock creation — O_EXCL fails if file already exists
+            fd = os.open(str(lock_path), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+            os.write(fd, str(os.getpid()).encode())
+            os.close(fd)
+            return lock_path
+        except FileExistsError:
+            # Lock file exists — check if it's stale
+            try:
+                existing_pid = int(lock_path.read_text().strip())
+            except (ValueError, OSError):
+                existing_pid = -1
 
-        if existing_pid > 0 and _is_pid_alive(existing_pid):
-            raise RuntimeError(
-                f"Lock '{name}' held by PID {existing_pid} (still running). "
-                f"If this is stale, delete: {lock_path}"
-            )
-        else:
-            # Stale lock — PID is dead
-            log = logging.getLogger("lib.utils")
-            log.warning(
-                f"Removing stale lock '{name}' (PID {existing_pid} is dead)"
-            )
-            lock_path.unlink(missing_ok=True)
+            if existing_pid > 0 and _is_pid_alive(existing_pid):
+                raise RuntimeError(
+                    f"Lock '{name}' held by PID {existing_pid} (still running). "
+                    f"If this is stale, delete: {lock_path}"
+                )
+            else:
+                # Stale lock — PID is dead
+                log = logging.getLogger("lib.utils")
+                log.warning(
+                    f"Removing stale lock '{name}' (PID {existing_pid} is dead)"
+                )
+                lock_path.unlink(missing_ok=True)
+                # Loop will retry with atomic creation
 
-    # Write our PID
-    lock_path.write_text(str(os.getpid()))
-    return lock_path
+    # Should not reach here, but just in case
+    raise RuntimeError(f"Failed to acquire lock '{name}' after stale-lock cleanup")
 
 
 def release_lock(lock_path: str | Path) -> None:

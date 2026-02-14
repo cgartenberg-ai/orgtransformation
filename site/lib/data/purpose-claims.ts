@@ -10,8 +10,13 @@ const ENRICHMENT_DIR = path.join(DATA_ROOT, "research", "purpose-claims", "enric
  * Load the full purpose claims registry.
  */
 export async function getPurposeClaims(): Promise<PurposeClaimsData> {
-  const raw = await fs.readFile(CLAIMS_FILE, "utf-8");
-  return JSON.parse(raw) as PurposeClaimsData;
+  try {
+    const raw = await fs.readFile(CLAIMS_FILE, "utf-8");
+    return JSON.parse(raw) as PurposeClaimsData;
+  } catch (e) {
+    console.error("[purpose-claims] Failed to load registry:", e);
+    return { claims: [], claimTypes: [], claimTypeDefinitions: {} } as unknown as PurposeClaimsData;
+  }
 }
 
 /**

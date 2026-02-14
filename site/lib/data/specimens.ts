@@ -22,14 +22,22 @@ export async function getAllSpecimens(): Promise<Specimen[]> {
     (f) => f.endsWith(".json") && !EXCLUDED_FILES.has(f)
   );
 
-  const specimens = await Promise.all(
+  const results = await Promise.all(
     jsonFiles.map(async (file) => {
-      const raw = await fs.readFile(path.join(SPECIMENS_DIR, file), "utf-8");
-      return JSON.parse(raw) as Specimen;
+      try {
+        const raw = await fs.readFile(path.join(SPECIMENS_DIR, file), "utf-8");
+        return JSON.parse(raw) as Specimen;
+      } catch (e) {
+        console.error(`[specimens] Failed to parse ${file}:`, e);
+        return null;
+      }
     })
   );
 
-  return specimens.sort((a, b) => a.name.localeCompare(b.name));
+  const specimens = results.filter((s): s is Specimen => s !== null);
+  return specimens.sort((a, b) =>
+    (a.name || "").localeCompare(b.name || "")
+  );
 }
 
 /**
@@ -59,28 +67,28 @@ export async function getSpecimenIds(): Promise<string[]> {
  */
 export async function getComputedStats() {
   const specimens = await getAllSpecimens();
-  const active = specimens.filter((s) => s.meta.status !== "Archived");
+  const active = specimens.filter((s) => s.meta?.status !== "Archived");
 
   return {
     totalSpecimens: active.length,
     byModel: countBy(active, (s) =>
-      s.classification.structuralModel != null
+      s.classification?.structuralModel != null
         ? String(s.classification.structuralModel)
         : "Unknown"
     ),
     byOrientation: countBy(
       active,
-      (s) => s.classification.orientation ?? "Unknown"
+      (s) => s.classification?.orientation ?? "Unknown"
     ),
-    typeSpecimens: active.filter((s) => s.classification.typeSpecimen),
-    byCompleteness: countBy(active, (s) => s.meta.completeness),
-    byIndustry: countBy(active, (s) => s.habitat.industry || "Unknown"),
+    typeSpecimens: active.filter((s) => s.classification?.typeSpecimen),
+    byCompleteness: countBy(active, (s) => s.meta?.completeness ?? "Unknown"),
+    byIndustry: countBy(active, (s) => s.habitat?.industry || "Unknown"),
     industries: Array.from(
-      new Set(active.map((s) => s.habitat.industry).filter(Boolean))
+      new Set(active.map((s) => s.habitat?.industry).filter(Boolean))
     ).sort(),
     lastUpdated: active.reduce(
       (latest, s) =>
-        s.meta.lastUpdated > latest ? s.meta.lastUpdated : latest,
+        (s.meta?.lastUpdated || "") > latest ? s.meta.lastUpdated : latest,
       ""
     ),
   };

@@ -38,7 +38,7 @@ for (const file of files) {
     const meta = data.meta || {};
 
     specimens.push({
-      id: data.id,
+      id: data.id || file.replace(".json", ""),
       name: data.name,
       structuralModel: cls.structuralModel || null,
       subType: cls.subType || null,
@@ -143,6 +143,9 @@ if (inactive.length > 0) {
 if (dryRun) {
   console.log("\n[DRY RUN] No changes written.");
 } else {
-  fs.writeFileSync(registryPath, JSON.stringify(registry, null, 2) + "\n");
+  // Atomic write: write to temp file first, then rename
+  const tmpPath = registryPath + ".tmp";
+  fs.writeFileSync(tmpPath, JSON.stringify(registry, null, 2) + "\n");
+  fs.renameSync(tmpPath, registryPath);
   console.log(`\n✅ Registry written: ${registryPath}`);
 }

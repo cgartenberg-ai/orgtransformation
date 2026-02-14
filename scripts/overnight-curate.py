@@ -233,8 +233,12 @@ def build_curate_queue(company_filter: str | None = None) -> tuple[list[dict], l
             except (json.JSONDecodeError, KeyError):
                 pass
 
-        with open(filepath) as f:
-            data = json.load(f)
+        try:
+            with open(filepath) as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, OSError) as e:
+            log.error(f"Cannot parse pending file {filepath}: {e}")
+            continue
 
         queue.append({
             "slug": slug,
@@ -444,13 +448,40 @@ def run_agent(slug: str, prompt: str, skip_permissions: bool = False) -> bool:
         cmd.append("--dangerously-skip-permissions")
 
     try:
-        result = subprocess.run(
+        # Use Popen with process group for clean timeout kill
+        # (subprocess.run only kills the direct child, leaving orphaned grandchildren)
+        proc = subprocess.Popen(
             cmd,
-            capture_output=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
             text=True,
-            timeout=TIMEOUT_SECONDS,
             cwd=str(PROJECT_ROOT),
+            start_new_session=True,  # creates new process group
         )
+        try:
+            stdout, stderr = proc.communicate(timeout=TIMEOUT_SECONDS)
+        except subprocess.TimeoutExpired:
+            # Kill the entire process group (including child processes)
+            import signal
+            os.killpg(os.getpgid(proc.pid), signal.SIGTERM)
+            try:
+                proc.wait(timeout=10)
+            except subprocess.TimeoutExpired:
+                os.killpg(os.getpgid(proc.pid), signal.SIGKILL)
+                proc.wait()
+
+            elapsed = time.time() - start
+            log.error(f"✗ {slug}: TIMEOUT after {elapsed:.0f}s")
+            # Clean up partially written file
+            specimen_file = SPECIMENS_DIR / f"{slug}.json"
+            if specimen_file.exists():
+                try:
+                    json.loads(specimen_file.read_text())
+                except (json.JSONDecodeError, Exception):
+                    log.warning(f"  Removing partial file: {specimen_file.name}")
+                    specimen_file.unlink()
+            return False
+
         elapsed = time.time() - start
 
         specimen_file = SPECIMENS_DIR / f"{slug}.json"
@@ -473,14 +504,6 @@ def run_agent(slug: str, prompt: str, skip_permissions: bool = False) -> bool:
                     f"{n_quotes}q {n_sources}s in {elapsed:.0f}s"
                 )
 
-                # Parse CURATE_RESULT line from stdout for session log
-                curate_result = ""
-                if result.stdout:
-                    for line in result.stdout.splitlines():
-                        if line.startswith("CURATE_RESULT:"):
-                            curate_result = line
-                            break
-
                 return True
 
             except json.JSONDecodeError:
@@ -488,28 +511,16 @@ def run_agent(slug: str, prompt: str, skip_permissions: bool = False) -> bool:
                 specimen_file.unlink()
                 return False
         else:
-            stdout_preview = result.stdout[:500] if result.stdout else "(empty)"
-            stderr_preview = result.stderr[:300] if result.stderr else "(empty)"
+            stdout_preview = stdout[:500] if stdout else "(empty)"
+            stderr_preview = stderr[:300] if stderr else "(empty)"
             log.error(
                 f"✗ {slug}: No specimen file after {elapsed:.0f}s "
-                f"(exit={result.returncode})\n"
+                f"(exit={proc.returncode})\n"
                 f"  stdout: {stdout_preview}\n"
                 f"  stderr: {stderr_preview}"
             )
             return False
 
-    except subprocess.TimeoutExpired:
-        elapsed = time.time() - start
-        log.error(f"✗ {slug}: TIMEOUT after {elapsed:.0f}s")
-        # Clean up partially written file
-        specimen_file = SPECIMENS_DIR / f"{slug}.json"
-        if specimen_file.exists():
-            try:
-                json.loads(specimen_file.read_text())
-            except (json.JSONDecodeError, Exception):
-                log.warning(f"  Removing partial file: {specimen_file.name}")
-                specimen_file.unlink()
-        return False
     except Exception as e:
         log.error(f"✗ {slug}: Exception: {e}")
         return False
@@ -968,279 +979,287 @@ def main():
             log.error(f"LOCK FAIL: {e}")
             sys.exit(1)
 
-    # Snapshot existing registry for session log comparison
-    try:
-        with open(REGISTRY_FILE) as f:
-            existing_registry = json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        existing_registry = {"byModel": {}, "byOrientation": {}, "totalSpecimens": 0}
 
-    # Build queue
-    queue, skipped_files = build_curate_queue(company_filter=args.company)
-
-    if skipped_files:
-        log.info(f"Skipped {len(skipped_files)} multi-company files: {', '.join(skipped_files)}")
-
-    log.info(f"Queue: {len(queue)} specimens to curate")
-
-    if args.limit > 0:
-        queue = queue[:args.limit]
-        log.info(f"Limited to {args.limit}")
-
-    # Dry run
-    if args.dry_run:
-        log.info("\n--- DRY RUN — Curation queue ---")
-        for i, item in enumerate(queue, 1):
-            retry_tag = " [RETRY]" if item["isRetry"] else ""
-            log.info(
-                f"  {i:2d}. {item['slug']:35s} | {item['company']:30s} "
-                f"| {item['sector']:20s}{retry_tag}"
-            )
-        log.info(f"\nTotal: {len(queue)} to curate")
-        if skipped_files:
-            log.info(f"Skipped (multi-company): {len(skipped_files)} files")
-            for sf in skipped_files:
-                log.info(f"  - {sf}")
-        log.info("Run without --dry-run to execute.")
-        return
-
-    # ─── Run Loop ─────────────────────────────────────────────────────
-    start_time = datetime.now()
-    results = []
-    failed = []
-    session_name = f"{date.today().isoformat()}-overnight-curate.md"
-
-    for i, item in enumerate(queue, 1):
-        slug = item["slug"]
-        retry_tag = " [RETRY]" if item["isRetry"] else ""
-        log.info(f"\n--- [{i}/{len(queue)}] {item['company']}{retry_tag} ---")
-
-        # Load research data
-        pending_path = Path(item["pendingFile"])
+    try:  # ensures lock is released even on unexpected exceptions
+        # Snapshot existing registry for session log comparison
         try:
-            with open(pending_path) as f:
-                pending_data = json.load(f)
-        except (FileNotFoundError, json.JSONDecodeError) as e:
-            log.error(f"✗ {slug}: Cannot read pending file: {e}")
-            failed.append({"slug": slug, "error": f"Bad pending file: {e}",
-                           "priorFailCount": item.get("failCount", 0)})
-            results.append({"slug": slug, "company": item["company"],
-                            "sector": item["sector"], "success": False, "elapsed": 0})
-            continue
+            with open(REGISTRY_FILE) as f:
+                existing_registry = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            existing_registry = {"byModel": {}, "byOrientation": {}, "totalSpecimens": 0}
 
-        # Check for existing specimen (ADD LAYER vs CREATE)
-        specimen_path = SPECIMENS_DIR / f"{slug}.json"
-        existing_specimen = None
-        action = "new"
-        if specimen_path.exists():
+        # Build queue
+        queue, skipped_files = build_curate_queue(company_filter=args.company)
+
+        if skipped_files:
+            log.info(f"Skipped {len(skipped_files)} multi-company files: {', '.join(skipped_files)}")
+
+        log.info(f"Queue: {len(queue)} specimens to curate")
+
+        if args.limit > 0:
+            queue = queue[:args.limit]
+            log.info(f"Limited to {args.limit}")
+
+        # Dry run
+        if args.dry_run:
+            log.info("\n--- DRY RUN — Curation queue ---")
+            for i, item in enumerate(queue, 1):
+                retry_tag = " [RETRY]" if item["isRetry"] else ""
+                log.info(
+                    f"  {i:2d}. {item['slug']:35s} | {item['company']:30s} "
+                    f"| {item['sector']:20s}{retry_tag}"
+                )
+            log.info(f"\nTotal: {len(queue)} to curate")
+            if skipped_files:
+                log.info(f"Skipped (multi-company): {len(skipped_files)} files")
+                for sf in skipped_files:
+                    log.info(f"  - {sf}")
+            log.info("Run without --dry-run to execute.")
+            return
+
+        # ─── Run Loop ─────────────────────────────────────────────────────
+        start_time = datetime.now()
+        results = []
+        failed = []
+        session_name = f"{date.today().isoformat()}-overnight-curate.md"
+
+        for i, item in enumerate(queue, 1):
+            slug = item["slug"]
+            retry_tag = " [RETRY]" if item["isRetry"] else ""
+            log.info(f"\n--- [{i}/{len(queue)}] {item['company']}{retry_tag} ---")
+
+            # Load research data
+            pending_path = Path(item["pendingFile"])
             try:
-                with open(specimen_path) as f:
-                    existing_specimen = json.load(f)
-                action = "updated"
-            except (json.JSONDecodeError, KeyError):
-                existing_specimen = None
-
-        # Build prompt and run agent
-        prompt = build_curate_prompt(slug, pending_data, existing_specimen)
-        agent_start = time.time()
-        success = run_agent(slug, prompt, args.skip_permissions)
-        agent_elapsed = time.time() - agent_start
-
-        if success:
-            # Validate
-            valid, issues = validate_specimen(slug)
-            if not valid:
-                log.warning(f"  Validation issues for {slug}: {issues}")
-                # Still count as success if file exists — issues are warnings
-
-            # Read specimen for result data
-            with open(specimen_path) as f:
-                spec_data = json.load(f)
-
-            cls = spec_data.get("classification", {})
-            meta = spec_data.get("meta", {})
-
-            result = {
-                "slug": slug,
-                "company": item["company"],
-                "sector": item["sector"],
-                "success": True,
-                "action": action,
-                "model": cls.get("structuralModel", "?"),
-                "orientation": cls.get("orientation", "?"),
-                "confidence": cls.get("confidence", "?"),
-                "completeness": meta.get("completeness", "?"),
-                "n_quotes": len(spec_data.get("quotes", [])),
-                "n_sources": len(spec_data.get("sources", [])),
-                "elapsed": agent_elapsed,
-            }
-            results.append(result)
-
-            # Post-agent updates
-            try:
-                update_specimen_registry(slug, spec_data)
-                log.info(f"  → Registry updated for {slug}")
-            except Exception as e:
-                log.error(f"  Registry update failed for {slug}: {e}")
-
-            try:
-                mark_curated_in_queue(slug, session_name)
-            except Exception as e:
-                log.error(f"  Queue update failed for {slug}: {e}")
-
-            try:
-                model_name = MODEL_NAMES.get(cls.get("structuralModel"), "Unknown")
-                notes = f"M{cls.get('structuralModel', '?')} {model_name}, {cls.get('orientation', '?')}"
-                add_to_synthesis_queue(slug, action, notes)
-                log.info(f"  → Queued for synthesis")
-            except Exception as e:
-                log.error(f"  Synthesis queue update failed for {slug}: {e}")
-
-        else:
-            results.append({
-                "slug": slug,
-                "company": item["company"],
-                "sector": item["sector"],
-                "success": False,
-                "action": action,
-                "elapsed": agent_elapsed,
-            })
-            failed.append({
-                "slug": slug,
-                "error": "Agent failed or timed out",
-                "priorFailCount": item.get("failCount", 0),
-            })
-
-        if i < len(queue):
-            time.sleep(PAUSE_BETWEEN)
-
-    # ─── Retry Failed ────────────────────────────────────────────────
-    if failed and MAX_RETRIES > 0:
-        log.info(f"\n--- RETRYING {len(failed)} failed specimens ---")
-        still_failed = []
-        for fail_item in failed:
-            slug = fail_item["slug"]
-            pending_path = PENDING_DIR / f"{slug}.json"
-            if not pending_path.exists():
-                still_failed.append(fail_item)
+                with open(pending_path) as f:
+                    pending_data = json.load(f)
+            except (FileNotFoundError, json.JSONDecodeError) as e:
+                log.error(f"✗ {slug}: Cannot read pending file: {e}")
+                failed.append({"slug": slug, "error": f"Bad pending file: {e}",
+                               "priorFailCount": item.get("failCount", 0)})
+                results.append({"slug": slug, "company": item["company"],
+                                "sector": item["sector"], "success": False, "elapsed": 0})
                 continue
 
-            with open(pending_path) as f:
-                pending_data = json.load(f)
-
+            # Check for existing specimen (ADD LAYER vs CREATE)
             specimen_path = SPECIMENS_DIR / f"{slug}.json"
             existing_specimen = None
+            action = "new"
             if specimen_path.exists():
                 try:
                     with open(specimen_path) as f:
                         existing_specimen = json.load(f)
+                    action = "updated"
                 except (json.JSONDecodeError, KeyError):
-                    pass
+                    existing_specimen = None
 
+            # Build prompt and run agent
             prompt = build_curate_prompt(slug, pending_data, existing_specimen)
             agent_start = time.time()
             success = run_agent(slug, prompt, args.skip_permissions)
             agent_elapsed = time.time() - agent_start
 
             if success:
+                # Validate
+                valid, issues = validate_specimen(slug)
+                if not valid:
+                    log.warning(f"  Validation issues for {slug}: {issues}")
+                    # Still count as success if file exists — issues are warnings
+
+                # Read specimen for result data
                 with open(specimen_path) as f:
                     spec_data = json.load(f)
+
                 cls = spec_data.get("classification", {})
                 meta = spec_data.get("meta", {})
 
-                # Update the result in place
-                for r in results:
-                    if r["slug"] == slug:
-                        r["success"] = True
-                        r["model"] = cls.get("structuralModel", "?")
-                        r["orientation"] = cls.get("orientation", "?")
-                        r["confidence"] = cls.get("confidence", "?")
-                        r["completeness"] = meta.get("completeness", "?")
-                        r["n_quotes"] = len(spec_data.get("quotes", []))
-                        r["n_sources"] = len(spec_data.get("sources", []))
-                        r["elapsed"] += agent_elapsed
-                        break
+                result = {
+                    "slug": slug,
+                    "company": item["company"],
+                    "sector": item["sector"],
+                    "success": True,
+                    "action": action,
+                    "model": cls.get("structuralModel", "?"),
+                    "orientation": cls.get("orientation", "?"),
+                    "confidence": cls.get("confidence", "?"),
+                    "completeness": meta.get("completeness", "?"),
+                    "n_quotes": len(spec_data.get("quotes", [])),
+                    "n_sources": len(spec_data.get("sources", [])),
+                    "elapsed": agent_elapsed,
+                }
+                results.append(result)
 
+                # Post-agent updates
                 try:
                     update_specimen_registry(slug, spec_data)
-                    action = "updated" if existing_specimen else "new"
-                    mark_curated_in_queue(slug, session_name)
-                    model_name = MODEL_NAMES.get(cls.get("structuralModel"), "Unknown")
-                    notes = f"M{cls.get('structuralModel', '?')} {model_name}"
-                    add_to_synthesis_queue(slug, action, notes)
+                    log.info(f"  → Registry updated for {slug}")
                 except Exception as e:
-                    log.error(f"  Post-retry update failed for {slug}: {e}")
+                    log.error(f"  Registry update failed for {slug}: {e}")
+
+                try:
+                    mark_curated_in_queue(slug, session_name)
+                except Exception as e:
+                    log.error(f"  Queue update failed for {slug}: {e}")
+
+                try:
+                    model_name = MODEL_NAMES.get(cls.get("structuralModel"), "Unknown")
+                    notes = f"M{cls.get('structuralModel', '?')} {model_name}, {cls.get('orientation', '?')}"
+                    add_to_synthesis_queue(slug, action, notes)
+                    log.info(f"  → Queued for synthesis")
+                except Exception as e:
+                    log.error(f"  Synthesis queue update failed for {slug}: {e}")
+
             else:
-                still_failed.append(fail_item)
+                results.append({
+                    "slug": slug,
+                    "company": item["company"],
+                    "sector": item["sector"],
+                    "success": False,
+                    "action": action,
+                    "elapsed": agent_elapsed,
+                })
+                failed.append({
+                    "slug": slug,
+                    "error": "Agent failed or timed out",
+                    "priorFailCount": item.get("failCount", 0),
+                })
 
-            time.sleep(PAUSE_BETWEEN)
+            if i < len(queue):
+                time.sleep(PAUSE_BETWEEN)
 
-        failed = still_failed
+        # ─── Retry Failed ────────────────────────────────────────────────
+        if failed and MAX_RETRIES > 0:
+            log.info(f"\n--- RETRYING {len(failed)} failed specimens ---")
+            still_failed = []
+            for fail_item in failed:
+                slug = fail_item["slug"]
+                pending_path = PENDING_DIR / f"{slug}.json"
+                if not pending_path.exists():
+                    still_failed.append(fail_item)
+                    continue
 
-    # ─── Update Retry Queue ──────────────────────────────────────────
-    succeeded_slugs = [r["slug"] for r in results if r["success"]]
-    update_retry_queue(failed, succeeded_slugs)
+                try:
+                    with open(pending_path) as f:
+                        pending_data = json.load(f)
+                except (json.JSONDecodeError, OSError) as e:
+                    log.error(f"Cannot parse pending file on retry {pending_path}: {e}")
+                    still_failed.append(fail_item)
+                    continue
 
-    # ─── Summary ─────────────────────────────────────────────────────
-    elapsed_total = datetime.now() - start_time
-    succeeded = [r for r in results if r["success"]]
-    failed_final = [r for r in results if not r["success"]]
+                specimen_path = SPECIMENS_DIR / f"{slug}.json"
+                existing_specimen = None
+                if specimen_path.exists():
+                    try:
+                        with open(specimen_path) as f:
+                            existing_specimen = json.load(f)
+                    except (json.JSONDecodeError, KeyError):
+                        pass
 
-    log.info("\n" + "=" * 60)
-    log.info("RUN COMPLETE")
-    log.info("=" * 60)
-    log.info(f"Duration: {elapsed_total.total_seconds() / 60:.0f} minutes")
-    log.info(f"Specimens curated: {len(succeeded)}")
-    log.info(f"New: {len([r for r in succeeded if r.get('action') == 'new'])}")
-    log.info(f"Updated: {len([r for r in succeeded if r.get('action') == 'updated'])}")
-    log.info(f"Failed: {len(failed_final)}")
+                prompt = build_curate_prompt(slug, pending_data, existing_specimen)
+                agent_start = time.time()
+                success = run_agent(slug, prompt, args.skip_permissions)
+                agent_elapsed = time.time() - agent_start
 
-    if succeeded:
-        models = Counter(str(r.get("model", "?")) for r in succeeded)
-        log.info("\nModel distribution:")
-        for m, c in models.most_common():
-            name = MODEL_NAMES.get(int(m), "?") if str(m).isdigit() else "?"
-            log.info(f"  M{m} {name}: {c}")
+                if success:
+                    with open(specimen_path) as f:
+                        spec_data = json.load(f)
+                    cls = spec_data.get("classification", {})
+                    meta = spec_data.get("meta", {})
 
-        orientations = Counter(r.get("orientation", "?") for r in succeeded)
-        log.info("\nOrientation distribution:")
-        for o, c in orientations.most_common():
-            log.info(f"  {o}: {c}")
+                    # Update the result in place
+                    for r in results:
+                        if r["slug"] == slug:
+                            r["success"] = True
+                            r["model"] = cls.get("structuralModel", "?")
+                            r["orientation"] = cls.get("orientation", "?")
+                            r["confidence"] = cls.get("confidence", "?")
+                            r["completeness"] = meta.get("completeness", "?")
+                            r["n_quotes"] = len(spec_data.get("quotes", []))
+                            r["n_sources"] = len(spec_data.get("sources", []))
+                            r["elapsed"] += agent_elapsed
+                            break
 
-    if failed_final:
-        log.info(f"\nFailed: {[r['slug'] for r in failed_final]}")
-        log.info(f"Written to: {RETRY_QUEUE_FILE}")
+                    try:
+                        update_specimen_registry(slug, spec_data)
+                        action = "updated" if existing_specimen else "new"
+                        mark_curated_in_queue(slug, session_name)
+                        model_name = MODEL_NAMES.get(cls.get("structuralModel"), "Unknown")
+                        notes = f"M{cls.get('structuralModel', '?')} {model_name}"
+                        add_to_synthesis_queue(slug, action, notes)
+                    except Exception as e:
+                        log.error(f"  Post-retry update failed for {slug}: {e}")
+                else:
+                    still_failed.append(fail_item)
 
-    # New total
-    try:
-        with open(REGISTRY_FILE) as f:
-            final_registry = json.load(f)
-        log.info(f"\nRegistry total: {final_registry.get('totalSpecimens', '?')} specimens "
-                 f"(was {existing_registry.get('totalSpecimens', '?')})")
-    except (FileNotFoundError, json.JSONDecodeError):
-        pass
+                time.sleep(PAUSE_BETWEEN)
 
-    # Write session log
-    write_session_log(
-        results=results,
-        skipped_files=skipped_files,
-        failed_final=[{"slug": r["slug"], "error": "Agent failed"} for r in failed_final],
-        start_time=start_time,
-        existing_registry=existing_registry,
-    )
+            failed = still_failed
 
-    # Audit log
-    if succeeded:
-        write_changelog("overnight-curate.py", [
-            f"Curated {len(succeeded)} specimens: {', '.join(r['slug'] for r in succeeded)}",
-            f"New: {len([r for r in succeeded if r.get('action') == 'new'])}, "
-            f"Updated: {len([r for r in succeeded if r.get('action') == 'updated'])}",
-        ])
+        # ─── Update Retry Queue ──────────────────────────────────────────
+        succeeded_slugs = [r["slug"] for r in results if r["success"]]
+        update_retry_queue(failed, succeeded_slugs)
 
-    # ─── Release Lock ─────────────────────────────────────────────────
-    if lock_path:
-        release_lock(lock_path)
-        log.info("Lock released")
+        # ─── Summary ─────────────────────────────────────────────────────
+        elapsed_total = datetime.now() - start_time
+        succeeded = [r for r in results if r["success"]]
+        failed_final = [r for r in results if not r["success"]]
+
+        log.info("\n" + "=" * 60)
+        log.info("RUN COMPLETE")
+        log.info("=" * 60)
+        log.info(f"Duration: {elapsed_total.total_seconds() / 60:.0f} minutes")
+        log.info(f"Specimens curated: {len(succeeded)}")
+        log.info(f"New: {len([r for r in succeeded if r.get('action') == 'new'])}")
+        log.info(f"Updated: {len([r for r in succeeded if r.get('action') == 'updated'])}")
+        log.info(f"Failed: {len(failed_final)}")
+
+        if succeeded:
+            models = Counter(str(r.get("model", "?")) for r in succeeded)
+            log.info("\nModel distribution:")
+            for m, c in models.most_common():
+                name = MODEL_NAMES.get(int(m), "?") if str(m).isdigit() else "?"
+                log.info(f"  M{m} {name}: {c}")
+
+            orientations = Counter(r.get("orientation", "?") for r in succeeded)
+            log.info("\nOrientation distribution:")
+            for o, c in orientations.most_common():
+                log.info(f"  {o}: {c}")
+
+        if failed_final:
+            log.info(f"\nFailed: {[r['slug'] for r in failed_final]}")
+            log.info(f"Written to: {RETRY_QUEUE_FILE}")
+
+        # New total
+        try:
+            with open(REGISTRY_FILE) as f:
+                final_registry = json.load(f)
+            log.info(f"\nRegistry total: {final_registry.get('totalSpecimens', '?')} specimens "
+                     f"(was {existing_registry.get('totalSpecimens', '?')})")
+        except (FileNotFoundError, json.JSONDecodeError):
+            pass
+
+        # Write session log
+        write_session_log(
+            results=results,
+            skipped_files=skipped_files,
+            failed_final=[{"slug": r["slug"], "error": "Agent failed"} for r in failed_final],
+            start_time=start_time,
+            existing_registry=existing_registry,
+        )
+
+        # Audit log
+        if succeeded:
+            write_changelog("overnight-curate.py", [
+                f"Curated {len(succeeded)} specimens: {', '.join(r['slug'] for r in succeeded)}",
+                f"New: {len([r for r in succeeded if r.get('action') == 'new'])}, "
+                f"Updated: {len([r for r in succeeded if r.get('action') == 'updated'])}",
+            ])
+
+    finally:
+        # ─── Release Lock ─────────────────────────────────────────────────
+        if lock_path:
+            release_lock(lock_path)
+            log.info("Lock released")
 
     log.info("\nSpecimens queued for synthesis — run /synthesize next.")
 
