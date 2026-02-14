@@ -682,7 +682,8 @@
       ],
       "theoreticalConnection": "In high-regulatory-intensity environments, governance infrastructure is not a constraint on deployment — it is the precondition for deployment. Organizations that invest in governance can move faster because approval pathways are clear and liability is managed.",
       "relatedMechanisms": [],
-      "relatedTensions": []
+      "relatedTensions": [],
+      "discoveredIn": "synthesis/sessions/2026-02-09-synthesis-batch3.md"
     },
     {
       "id": "services-business-model-crisis",
@@ -714,7 +715,8 @@
       ],
       "theoreticalConnection": "The labor arbitrage model that built the IT services industry (arbitraging wage differentials across geographies) is under pressure as AI automates routine work. Services firms are racing to find new sources of margin: productized AI solutions, pyramid restructuring, workforce triage.",
       "relatedMechanisms": [],
-      "relatedTensions": []
+      "relatedTensions": [],
+      "discoveredIn": "synthesis/sessions/2026-02-09-synthesis-batch3.md"
     },
     {
       "id": "ai-chief-scientist-governance-signal",
@@ -734,7 +736,8 @@
       ],
       "theoreticalConnection": "In heavily regulated industries, hiring an academically-credentialed Chief AI Scientist signals governance seriousness to regulators and the public. The role legitimizes AI deployment by associating it with scientific rigor and external standards-setting organizations.",
       "relatedMechanisms": [],
-      "relatedTensions": []
+      "relatedTensions": [],
+      "discoveredIn": "synthesis/sessions/2026-02-09-synthesis-batch3.md"
     },
     {
       "id": "aero-defense-structural-divergence",
@@ -760,7 +763,8 @@
       "relatedMechanisms": [],
       "relatedTensions": [
         1
-      ]
+      ],
+      "discoveredIn": "synthesis/sessions/2026-02-09-synthesis-batch5.md"
     },
     {
       "id": "contextual-via-education",
@@ -784,7 +788,8 @@
       ],
       "relatedTensions": [
         1
-      ]
+      ],
+      "discoveredIn": "synthesis/sessions/2026-02-09-synthesis-batch5.md"
     },
     {
       "id": "government-caio-instability",
@@ -818,7 +823,8 @@
       "relatedMechanisms": [],
       "relatedTensions": [
         4
-      ]
+      ],
+      "discoveredIn": "synthesis/sessions/2026-02-09-synthesis-batch5.md"
     },
     {
       "id": "ai-native-no-structure-paradox",
@@ -836,7 +842,8 @@
       "relatedMechanisms": [],
       "relatedTensions": [
         4
-      ]
+      ],
+      "discoveredIn": "synthesis/sessions/2026-02-09-synthesis-batch5.md"
     },
     {
       "id": "automotive-m4-uniformity",
@@ -955,7 +962,8 @@
       "relatedMechanisms": [
         1
       ],
-      "relatedTensions": []
+      "relatedTensions": [],
+      "discoveredIn": "synthesis/sessions/2026-02-09-synthesis-batch6.md"
     },
     {
       "id": "retail-no-caio-pattern",
@@ -989,7 +997,8 @@
       "relatedMechanisms": [],
       "relatedTensions": [
         4
-      ]
+      ],
+      "discoveredIn": "curation/sessions/2026-02-12-m4-taxonomy-audit.md"
     },
     {
       "id": "telecom-structural-divergence",
@@ -1015,7 +1024,8 @@
       "relatedTensions": [
         1,
         3
-      ]
+      ],
+      "discoveredIn": "pre-session-tracking"
     },
     {
       "id": "ai-cic-intermediate-form",
@@ -1033,7 +1043,8 @@
       "relatedMechanisms": [
         1,
         6
-      ]
+      ],
+      "discoveredIn": "pre-session-tracking"
     },
     {
       "id": "ai-disruption-negative-specimens",
@@ -1050,7 +1061,8 @@
       "theoreticalConnection": "March's (1991) exploration-exploitation framework assumes organizations choose how to balance. These cases suggest a third outcome: organizations that fail to explore fast enough are structurally disrupted before they can adapt. The 'speed' side of Speed vs. Depth has existential implications.",
       "relatedTensions": [
         2
-      ]
+      ],
+      "discoveredIn": "synthesis/sessions/2026-02-12-batch7-placement.md"
     },
     {
       "id": "ai-code-generation-internal-transformation",
@@ -1073,7 +1085,8 @@
         "Does this apply uniformly across all engineering roles or concentrated in certain types?",
         "What review/oversight structure exists for AI-generated code?",
         "What happens to the junior engineer career pipeline when AI writes the code?"
-      ]
+      ],
+      "discoveredIn": "synthesis/sessions/2026-02-09-synthesis-batch8.md"
     },
     {
       "id": "capex-commitment-device",
@@ -1099,7 +1112,8 @@
           "note": "$200B+ CapEx implied from AWS AI infrastructure buildout."
         }
       ],
-      "theoreticalConnection": "Commitment device economics: massive sunk cost investments signal credibility and make strategic reversals prohibitively expensive. Combined 2026 Big Tech AI CapEx exceeds GDP of most countries. This creates structural barriers to entry and demonstrates that AI is viewed as existential by these organizations."
+      "theoreticalConnection": "Commitment device economics: massive sunk cost investments signal credibility and make strategic reversals prohibitively expensive. Combined 2026 Big Tech AI CapEx exceeds GDP of most countries. This creates structural barriers to entry and demonstrates that AI is viewed as existential by these organizations.",
+      "discoveredIn": "pre-session-tracking"
     },
     {
       "title": "AI-Washing as Classification Signal",
@@ -1134,7 +1148,8 @@
       "theme": "convergence",
       "theoreticalConnection": "When coding organizational AI transformation, researchers should require structural evidence (named units, leadership roles, resource allocation) rather than accepting narrative claims at face value.",
       "relatedMechanisms": [],
-      "relatedTensions": []
+      "relatedTensions": [],
+      "discoveredIn": "pre-session-tracking"
     },
     {
       "title": "Customer Adoption as AI Structural Maturity Indicator",
@@ -1159,7 +1174,8 @@
       "theme": "convergence",
       "theoreticalConnection": "Customer-facing AI metrics may be a better indicator of genuine AI organizational transformation than internal restructuring announcements.",
       "relatedMechanisms": [],
-      "relatedTensions": []
+      "relatedTensions": [],
+      "discoveredIn": "synthesis/sessions/2026-02-09-synthesis-batch9.md"
     },
     {
       "id": "modularity-predicts-ai-structure",
@@ -2379,7 +2395,8 @@
       "testableImplications": [
         "Japanese M4 specimens will show more identity-type claims and fewer survival-type claims than Western M4 peers with similar industry constraints",
         "Heritage invocation should correlate with lower internal resistance to AI transformation (measurable via employee sentiment or adoption rates)"
-      ]
+      ],
+      "discoveredIn": "research/purpose-claims/sessions/2026-02-13-batch-13-14-insights.md"
     },
     {
       "id": "audience-dependent-claim-ordering",
@@ -2405,7 +2422,8 @@
       "testableImplications": [
         "Earnings call claim ordering will systematically differ from press/conference claim ordering for the same leader",
         "Industries with strong labor constituencies (entertainment, services) will show larger audience-dependent framing gaps than industries without (finance, tech)"
-      ]
+      ],
+      "discoveredIn": "research/purpose-claims/sessions/2026-02-13-batch-13-14-insights.md"
     },
     {
       "id": "ceo-departure-natural-experiment",
@@ -2429,7 +2447,8 @@
         "If HP Inc's new permanent CEO adopts different rhetorical register, watch whether structural commitments (Humane integration, HP IQ) are maintained or abandoned",
         "Compare HP Inc's transformation trajectory to other 'orphaned narrative' cases (if any emerge) to test whether purpose-claim survival depends on structural lock-in"
       ],
-      "watchFor": "Track HP Inc quarterly: does Broussard (or successor) adopt Lores's rhetoric? Abandon it? Substitute different framing? The time-to-rhetorical-replacement is itself a datum about how organizational purpose claims are (or aren't) institutionalized beyond individual leaders."
+      "watchFor": "Track HP Inc quarterly: does Broussard (or successor) adopt Lores's rhetoric? Abandon it? Substitute different framing? The time-to-rhetorical-replacement is itself a datum about how organizational purpose claims are (or aren't) institutionalized beyond individual leaders.",
+      "discoveredIn": "research/purpose-claims/sessions/2026-02-13-batch-13-14-insights.md"
     },
     {
       "id": "mission-identity-anodyne-rhetoric",
@@ -2461,7 +2480,8 @@
         "Strong-mission specimens (healthcare, nonprofits, Japanese heritage firms) will show higher identity-type claim ratios and lower survival/commercial-success ratios than weak-mission specimens in same structural model",
         "Rhetorical effort (measured by claim specificity, novelty of framing, dramatic register) should be inversely correlated with pre-existing mission strength",
         "The anodyne-vs-authentic question could be disambiguated by checking whether mission-anchored AI claims predict actual adoption rates — authentic mission alignment should predict faster adoption, formulaic messaging should not"
-      ]
+      ],
+      "discoveredIn": "synthesis/sessions/2026-02-13-finserv-healthcare-botanist.md"
     }
   ]
 }

@@ -39,3 +39,26 @@ Format: `## YYYY-MM-DD HH:MM:SS — script-name` followed by bullet points.
 - Tagged 172 null-URL sources across 55 specimens
 -   [paywall]: 5, [no URL]: 167
 
+
+## 2026-02-14 13:53:07 — backfill-insight-sessions
+- healthcare-governance-enables-scale: discoveredIn -> synthesis/sessions/2026-02-09-synthesis-batch3.md
+- services-business-model-crisis: discoveredIn -> synthesis/sessions/2026-02-09-synthesis-batch3.md
+- ai-chief-scientist-governance-signal: discoveredIn -> synthesis/sessions/2026-02-09-synthesis-batch3.md
+- aero-defense-structural-divergence: discoveredIn -> synthesis/sessions/2026-02-09-synthesis-batch5.md
+- contextual-via-education: discoveredIn -> synthesis/sessions/2026-02-09-synthesis-batch5.md
+- government-caio-instability: discoveredIn -> synthesis/sessions/2026-02-09-synthesis-batch5.md
+- ai-native-no-structure-paradox: discoveredIn -> synthesis/sessions/2026-02-09-synthesis-batch5.md
+- media-serve-creativity-framing: discoveredIn -> synthesis/sessions/2026-02-09-synthesis-batch6.md
+- retail-no-caio-pattern: discoveredIn -> curation/sessions/2026-02-12-m4-taxonomy-audit.md
+- telecom-structural-divergence: discoveredIn -> pre-session-tracking
+- ai-cic-intermediate-form: discoveredIn -> pre-session-tracking
+- ai-disruption-negative-specimens: discoveredIn -> synthesis/sessions/2026-02-12-batch7-placement.md
+- ai-code-generation-internal-transformation: discoveredIn -> synthesis/sessions/2026-02-09-synthesis-batch8.md
+- capex-commitment-device: discoveredIn -> pre-session-tracking
+- ai-washing-as-classification-signal: discoveredIn -> pre-session-tracking
+- customer-adoption-as-ai-structural-maturity-indicator: discoveredIn -> synthesis/sessions/2026-02-09-synthesis-batch9.md
+- heritage-as-authorization: discoveredIn -> research/purpose-claims/sessions/2026-02-13-batch-13-14-insights.md
+- audience-dependent-claim-ordering: discoveredIn -> research/purpose-claims/sessions/2026-02-13-batch-13-14-insights.md
+- ceo-departure-natural-experiment: discoveredIn -> research/purpose-claims/sessions/2026-02-13-batch-13-14-insights.md
+- mission-identity-anodyne-rhetoric: discoveredIn -> synthesis/sessions/2026-02-13-finserv-healthcare-botanist.md
+
