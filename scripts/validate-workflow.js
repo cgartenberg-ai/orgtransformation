@@ -711,6 +711,80 @@ if (registry) {
   if (modelFreshness) ok('Registry byModel counts match actual specimen files');
 }
 
+// ── 17. Specimen ID/Filename Mismatch ──
+
+section('17. Specimen ID/Filename Consistency');
+
+if (registry) {
+  const specimenFiles = fs.readdirSync(SPECIMENS_DIR).filter(f => f.endsWith('.json') && !SKIP_FILES.has(f));
+  let mismatches = 0;
+  for (const file of specimenFiles) {
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(SPECIMENS_DIR, file), 'utf8'));
+      const expectedId = file.replace('.json', '');
+      if (data.id && data.id !== expectedId) {
+        error(`ID mismatch: file "${file}" has id="${data.id}" (expected "${expectedId}")`);
+        mismatches++;
+      }
+    } catch (e) {
+      // Already caught in section 1
+    }
+  }
+  if (mismatches === 0) ok(`All specimen file IDs match their filenames`);
+}
+
+// ── 18. Specimen Schema Validation ──
+
+section('18. Specimen Schema Validation');
+
+if (registry) {
+  const VALID_MODELS = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const VALID_ORIENTATIONS = ['Structural', 'Contextual', 'Temporal'];
+  const VALID_STATUSES = ['Active', 'Stub', 'Inactive', 'Deprecated'];
+  let schemaIssues = 0;
+
+  const specimenFiles = fs.readdirSync(SPECIMENS_DIR).filter(f => f.endsWith('.json') && !SKIP_FILES.has(f));
+  for (const file of specimenFiles) {
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(SPECIMENS_DIR, file), 'utf8'));
+      const id = file.replace('.json', '');
+
+      // Check structuralModel
+      const model = data.classification?.structuralModel;
+      if (model != null && !VALID_MODELS.includes(model)) {
+        warn(`${id}: structuralModel=${model} is not a valid integer 1-9`);
+        schemaIssues++;
+      }
+
+      // Check orientation
+      const orientation = data.classification?.orientation;
+      if (orientation != null && !VALID_ORIENTATIONS.includes(orientation)) {
+        warn(`${id}: orientation="${orientation}" is not valid (expected Structural/Contextual/Temporal)`);
+        schemaIssues++;
+      }
+
+      // Check status
+      const status = data.meta?.status;
+      if (status != null && !VALID_STATUSES.includes(status)) {
+        warn(`${id}: status="${status}" is not valid (expected Active/Stub/Inactive/Deprecated)`);
+        schemaIssues++;
+      }
+
+      // Check for duplicate source IDs within specimen
+      const sourceIds = (data.sources || []).map(s => s.id).filter(Boolean);
+      const dupes = sourceIds.filter((id, i) => sourceIds.indexOf(id) !== i);
+      if (dupes.length > 0) {
+        warn(`${id}: duplicate source IDs: ${[...new Set(dupes)].join(', ')}`);
+        schemaIssues++;
+      }
+    } catch (e) {
+      // Parse errors already caught in section 1
+    }
+  }
+  if (schemaIssues === 0) ok(`All specimens pass schema validation`);
+  else ok(`${specimenFiles.length - schemaIssues} specimens clean, ${schemaIssues} with issues`);
+}
+
 // ── Summary ──
 
 console.log('\n══════════════════════════════');

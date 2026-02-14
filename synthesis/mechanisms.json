@@ -105,7 +105,11 @@
           "source": "Mount Sinai Newsroom",
           "notes": "Windreich Department of AI and Human Health with 3-10 year research horizons, philanthropic funding, and 12-story dedicated facility. Physical and organizational separation from clinical deployment pressures."
         },
-        "Disney Research Studios has operated for 16+ years in Zurich, physically and organizationally separate from commercial business units. This protected space allows fundamental research in visual computing and ML that may not have immediate commercial application but feeds long-term capability into all film studios.",
+        {
+          "specimenId": "disney",
+          "source": "curator observation",
+          "notes": "Disney Research Studios has operated for 16+ years in Zurich, physically and organizationally separate from commercial business units. This protected space allows fundamental research in visual computing and ML that may not have immediate commercial application but feeds long-term capability into all film studios."
+        },
         {
           "specimenId": "toyota",
           "quote": null,
@@ -274,8 +278,16 @@
           "source": "CBS News 60 Minutes / Fortune",
           "notes": "Lattice AI platform is both the core R&D asset and the production platform shipping in every product. No separation between research and productization — all AI development is immediately embedded in autonomous systems being deployed."
         },
-        "Disney Research Studios explicitly serves all Disney film studios (WDAS, Pixar, ILM, Marvel) with its research output. The research lab is not isolated academia — has direct pathways to production pipelines.",
-        "Research teams work 'in close collaboration with business teams, engineering teams, and other researchers' — explicitly NOT centralized. AIMS handles both research and production systems for 325M+ members.",
+        {
+          "specimenId": "disney",
+          "source": "curator observation",
+          "notes": "Disney Research Studios explicitly serves all Disney film studios (WDAS, Pixar, ILM, Marvel) with its research output. The research lab is not isolated academia — has direct pathways to production pipelines."
+        },
+        {
+          "specimenId": "netflix",
+          "source": "curator observation",
+          "notes": "Research teams work 'in close collaboration with business teams, engineering teams, and other researchers' — explicitly NOT centralized. AIMS handles both research and production systems for 325M+ members."
+        },
         {
           "specimenId": "toyota",
           "quote": null,
@@ -443,7 +455,11 @@
           "source": "FedEx Newsroom",
           "notes": "Enterprise-wide AI education program with Accenture LearnVantage platform provides role-based training accessible to all employees, making AI tools usable across the organization."
         },
-        "AI tools for creators are explicitly framed as making their work 'better' — pre-vis, VFX sequence prep, shot planning tools designed for creative talent to use directly.",
+        {
+          "specimenId": "netflix",
+          "source": "curator observation",
+          "notes": "AI tools for creators are explicitly framed as making their work 'better' — pre-vis, VFX sequence prep, shot planning tools designed for creative talent to use directly."
+        },
         {
           "specimenId": "honeywell",
           "quote": null,

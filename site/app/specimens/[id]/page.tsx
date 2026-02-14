@@ -35,11 +35,17 @@ export default async function SpecimenPage({
     getAllSpecimens(),
     getMechanisms(),
     getInsights(),
-    getPurposeClaims(),
-    getSpecimenEnrichment(params.id),
+    getPurposeClaims().catch((e) => {
+      console.error("[specimen page] Failed to load purpose claims:", e);
+      return { description: "", lastUpdated: "", taxonomyVersion: "", claims: [], claimTypes: [], claimTypeDefinitions: {} } as unknown as Awaited<ReturnType<typeof getPurposeClaims>>;
+    }),
+    getSpecimenEnrichment(params.id).catch((e) => {
+      console.error("[specimen page] Failed to load enrichment:", e);
+      return null;
+    }),
   ]);
 
-  const specimenClaims = claimsData.claims.filter((c) => c.specimenId === params.id);
+  const specimenClaims = (claimsData?.claims ?? []).filter((c) => c.specimenId === params.id);
 
   if (!specimen) notFound();
 
@@ -129,8 +135,8 @@ export default async function SpecimenPage({
         related={related}
         mechanismDefinitions={mechanismData.confirmed}
         purposeClaims={specimenClaims}
-        claimTypeDefinitions={claimsData.claimTypeDefinitions}
-        enrichment={enrichment}
+        claimTypeDefinitions={claimsData?.claimTypeDefinitions ?? {}}
+        enrichment={enrichment ?? undefined}
       />
 
       {/* Cross-cutting insights this specimen appears in */}
@@ -212,6 +218,8 @@ function findRelated(
     let score = 0;
     // Same primary model
     if (
+      other.classification?.structuralModel != null &&
+      specimen.classification?.structuralModel != null &&
       other.classification.structuralModel ===
       specimen.classification.structuralModel
     ) {
@@ -219,17 +227,19 @@ function findRelated(
     }
     // Same orientation
     if (
+      other.classification?.orientation &&
+      specimen.classification?.orientation &&
       other.classification.orientation === specimen.classification.orientation
     ) {
       score += 2;
     }
     // Shared mechanisms
-    const sharedMechs = other.mechanisms.filter((m) =>
-      specimen.mechanisms.some((sm) => sm.id === m.id)
+    const sharedMechs = (other.mechanisms ?? []).filter((m) =>
+      (specimen.mechanisms ?? []).some((sm) => sm.id === m.id)
     ).length;
     score += sharedMechs * 2;
     // Same industry
-    if (other.habitat.industry === specimen.habitat.industry) {
+    if (other.habitat?.industry && other.habitat.industry === specimen.habitat?.industry) {
       score += 1;
     }
     return { specimen: other, score };
