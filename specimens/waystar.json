@@ -40,25 +40,96 @@
       "label": "Curation Review",
       "summary": "Validated Model 3 Contextual classification. Fixed industry from Automotive to Healthcare Technology. Removed spurious 'autonomous' quote fragment. Added habitat, observable markers, classification rationale.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Waystar's agentic intelligence vision for autonomous healthcare revenue cycle management. 150+ AI models. $15.5B in prevented denials.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     }
   ],
   "sources": [
-    {"id": "source-1", "type": "Press", "name": "PR Newswire", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-2", "type": "Press", "name": "Fierce Healthcare", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-3", "type": "Press", "name": "TechTarget", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-4", "type": "Press", "name": "HIT Consultant", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "PR Newswire",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Fierce Healthcare",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "TechTarget",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "HIT Consultant",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    }
   ],
-  "contingencies": {"regulatoryIntensity": "High", "timeToObsolescence": "Medium", "ceoTenure": null, "talentMarketPosition": "Non-traditional", "technicalDebt": "Medium"},
-  "tensionPositions": {"structuralVsContextual": 0.6, "speedVsDepth": 0.3, "centralVsDistributed": 0.5, "namedVsQuiet": 0.3, "longVsShortHorizon": 0.3},
-  "openQuestions": ["What is Waystar's internal AI team structure?", "How does the regulatory environment (HIPAA, healthcare compliance) shape AI deployment decisions?", "How does the acquisition of Iodine Software integrate with existing AI capabilities?"],
-  "taxonomyFeedback": ["Waystar illustrates how healthcare AI companies embed AI directly into domain-specific products rather than maintaining separate AI functions.", "The agentic AI vision (autonomous revenue cycle) represents an evolution beyond copilot-style AI assistance — worth tracking as a structural trend."],
-  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/waystar.json"}
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": "Non-traditional",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.6,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": 0.5,
+    "namedVsQuiet": 0.3,
+    "longVsShortHorizon": 0.3
+  },
+  "openQuestions": [
+    "What is Waystar's internal AI team structure?",
+    "How does the regulatory environment (HIPAA, healthcare compliance) shape AI deployment decisions?",
+    "How does the acquisition of Iodine Software integrate with existing AI capabilities?"
+  ],
+  "taxonomyFeedback": [
+    "Waystar illustrates how healthcare AI companies embed AI directly into domain-specific products rather than maintaining separate AI functions.",
+    "The agentic AI vision (autonomous revenue cycle) represents an evolution beyond copilot-style AI assistance — worth tracking as a structural trend."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/waystar.json"
+  }
 }

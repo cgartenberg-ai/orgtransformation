@@ -40,21 +40,30 @@
       "label": "Overnight research scan",
       "summary": "Added CEO Hudson's framing of Sanofi as 'R&D-driven, AI-powered biopharma company' from Q4 2025 results. Added ROAI (Return on AI Investment) framework as measurement approach. Added Opella divestiture context showing reinvestment in AI and M&A. Two new sources with URLs.",
       "classification": null,
-      "sourceRefs": ["source-3", "source-4"]
+      "sourceRefs": [
+        "source-3",
+        "source-4"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Curation Review",
       "summary": "Validated Model 4 classification. Added habitat data (Paris HQ). Added observable markers and classification rationale. Enriched description with hub-spoke dynamics.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2"]
+      "sourceRefs": [
+        "source-1",
+        "source-2"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Sanofi's centralized AI Research Factory developing proprietary models (CodonBERT) and plai platform for drug discovery.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2"]
+      "sourceRefs": [
+        "source-1",
+        "source-2"
+      ]
     }
   ],
   "sources": [
@@ -66,7 +75,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-2",
@@ -76,7 +85,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-3",

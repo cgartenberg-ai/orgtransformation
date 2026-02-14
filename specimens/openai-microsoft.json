@@ -57,7 +57,14 @@
       "label": "PBC Restructuring & IPO Path",
       "summary": "EVOLUTION: OpenAI completed restructuring from capped-profit nonprofit subsidiary → Public Benefit Corporation ('OpenAI Group PBC') on Oct 28, 2025. Nonprofit → 'OpenAI Foundation' holds equity ~$130B, commits $25B to health/curing diseases. Microsoft holds $135B/27% equity with tech rights through 2032. SoftBank invested $40B (half conditional on lifting profit cap). Independent AGI verification panel created. On path to IPO potentially valued at $1T, H2 2026. Hired Krishna Rao (former Airbnb, key to 2020 IPO).",
       "classification": "Model 5b (Venture Builder) — governance evolution, not structural model change",
-      "sourceRefs": ["openai-pbc-2025", "builtin-structure-2025", "openai-structure-2025", "empower-softbank-2025", "cnbc-ipo-2025", "time-timeline-2025"]
+      "sourceRefs": [
+        "openai-pbc-2025",
+        "builtin-structure-2025",
+        "openai-structure-2025",
+        "empower-softbank-2025",
+        "cnbc-ipo-2025",
+        "time-timeline-2025"
+      ]
     },
     {
       "date": "2026-01",
@@ -88,7 +95,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-2",
@@ -98,7 +105,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-3",
@@ -108,7 +115,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-4",
@@ -118,7 +125,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[paywall]"
     },
     {
       "id": "openai-pbc-2025",

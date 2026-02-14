@@ -1,10 +1,8 @@
 {
   "$schema": "./specimen-schema.json",
-
   "id": "mass-general-brigham",
   "name": "Mass General Brigham",
   "title": "Academic AI Powerhouse with Spinout Commercialization",
-
   "classification": {
     "structuralModel": 4,
     "structuralModelName": "Hybrid/Hub-and-Spoke",
@@ -18,7 +16,6 @@
     "classificationRationale": "Decision tree: Formal AI unit? YES (dedicated AI center, 1,800+ digital staff under CDIO). Publishes research? YES (academic medical center), but primary output is clinical tools and infrastructure. Central team? YES (CDIO's 1,800+ person organization). Builds or enables? Both — builds clinical AI tools and enables research-to-product translation. Central + distributed = M4. Secondary M5 for AIwithCare spinout (commercialization of clinical trial screening AI — rare for an academic medical center). Structural orientation: AI organized as a separate division under CDIO, distinct from clinical operations. Guardrails: G4 (prestige bias) — 1,800+ staff is genuinely a large dedicated organization, not just a prestigious label; G7 (M5 vs M8) — AIwithCare is adjacent commercialization, not core replacement, confirmed M5.",
     "typeSpecimen": false
   },
-
   "habitat": {
     "industry": "Healthcare",
     "sector": "Academic Medical Center",
@@ -28,9 +25,7 @@
     "headquarters": "Boston, MA",
     "geography": "North America"
   },
-
   "description": "Mass General Brigham operates one of the largest named digital and AI organizations in healthcare, with 1,800+ staff under Chief Information and Digital Officer Jane Moran. This scale rivals dedicated AI divisions at major technology companies and dwarfs the AI teams at most health systems, reflecting MGB's position as a leading academic medical center with deep research capabilities.\n\nWhat distinguishes MGB structurally is the research-to-product bridge model. The AI team combines clinicians, data scientists, product managers, technical program managers, and software engineers — a deliberately cross-functional composition designed to translate research discoveries into deployable clinical tools. This translation pipeline produced AIwithCare, a rare spinout company from an academic medical center that commercializes clinical trial screening AI. The spinout represents a structural decision: rather than keeping the commercialization capability internal (M5a) or licensing it (M5c), MGB created an independent entity to bring clinical AI to market.\n\nThe dual identity — world-class academic research institution and increasingly product-oriented AI organization — creates a structural tension that most academic medical centers don't face at this scale. MGB must balance the academic incentives (publications, grants, tenure) with product incentives (clinical deployment, commercial viability, user adoption). The 1,800+ person digital organization is large enough to sustain both missions, but the governance challenge is directing resources between pure research and applied clinical AI.",
-
   "observableMarkers": {
     "reportingStructure": "Jane Moran (CDIO) leads 1,800+ digital staff. AI team is cross-functional: clinicians, data scientists, PMs, TPMs, software engineers.",
     "resourceAllocation": "1,800+ digital staff — among the largest named digital organizations in healthcare. Sufficient scale to sustain both research and product development.",
@@ -38,7 +33,6 @@
     "decisionRights": "CDIO controls digital/AI strategy. Research faculty retain academic freedom. AIwithCare operates as independent entity with own governance.",
     "metrics": null
   },
-
   "mechanisms": [
     {
       "id": 10,
@@ -47,19 +41,18 @@
       "strength": "Moderate"
     }
   ],
-
   "quotes": [],
-
   "layers": [
     {
       "date": "2025",
       "label": "1,800+ Digital Staff + AIwithCare Spinout",
       "summary": "Jane Moran leads 1,800+ digital staff as CDIO. Cross-functional AI team (clinicians, data scientists, PMs, TPMs, engineers) bridges research and clinical deployment. AIwithCare spun out as independent company for clinical trial screening AI commercialization.",
       "classification": null,
-      "sourceRefs": ["healthcare-deep-dive-2026"]
+      "sourceRefs": [
+        "healthcare-deep-dive-2026"
+      ]
     }
   ],
-
   "sources": [
     {
       "id": "healthcare-deep-dive-2026",
@@ -69,10 +62,9 @@
       "timestamp": null,
       "sourceDate": "2026-02-10",
       "collectedDate": "2026-02-12",
-      "notes": "Synthesized from multiple search results during healthcare sector research session. Primary structural data from search snippets — full articles not all accessible."
+      "notes": "[no URL] Synthesized from multiple search results during healthcare sector research session. Primary structural data from search snippets — full articles not all accessible."
     }
   ],
-
   "contingencies": {
     "regulatoryIntensity": "High",
     "timeToObsolescence": "Medium",
@@ -80,7 +72,6 @@
     "talentMarketPosition": "Talent-rich",
     "technicalDebt": "Medium"
   },
-
   "tensionPositions": {
     "structuralVsContextual": null,
     "speedVsDepth": null,
@@ -88,7 +79,6 @@
     "namedVsQuiet": null,
     "longVsShortHorizon": null
   },
-
   "openQuestions": [
     "What is AIwithCare's governance relationship back to MGB? Does MGB retain equity, board seats, or IP rights?",
     "How does the 1,800+ digital staff break down between infrastructure/operations vs. AI/ML-specific roles?",
@@ -96,12 +86,10 @@
     "How does the CDIO relate to the academic research leadership (Dean of Medicine, department chairs)?",
     "What vendor partnerships does MGB maintain, or is the 1,800-person team primarily building in-house?"
   ],
-
   "taxonomyFeedback": [
     "MGB's 1,800+ digital staff makes it one of the largest dedicated AI/digital organizations in healthcare — comparable in scale to some tech company AI divisions. This challenges the assumption that healthcare AI is primarily vendor-dependent.",
     "The AIwithCare spinout is structurally unusual for an academic medical center. Most academic institutions license IP or publish research; creating a commercial spinout is a Silicon Valley structural pattern transplanted to academic medicine. Worth tracking whether other academic medical centers follow."
   ],
-
   "meta": {
     "status": "Active",
     "created": "2026-02-12",

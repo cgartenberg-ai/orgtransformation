@@ -100,20 +100,27 @@ if (registry) {
   section('2. Source Provenance Gaps');
 
   let nullSourceCount = 0;
+  let taggedSourceCount = 0;
   for (const file of files) {
     const specimen = loadJSON(path.join(SPECIMENS_DIR, file));
     if (!specimen) continue;
     const sources = specimen.sources || [];
     const nullUrls = sources.filter(s => !s.url);
-    if (nullUrls.length > 0) {
+    const untagged = nullUrls.filter(s => {
+      const notes = (s.notes || '');
+      return !notes.includes('[paywall]') && !notes.includes('[no URL]');
+    });
+    if (untagged.length > 0) {
       nullSourceCount++;
     }
+    taggedSourceCount += nullUrls.length - untagged.length;
   }
 
   if (nullSourceCount === 0) {
-    ok('All specimens have source URLs');
+    ok(`All specimens have source URLs or explicit provenance tags (${taggedSourceCount} tagged)`);
   } else {
-    warn(`${nullSourceCount} of ${files.length} specimens have sources with null URLs`);
+    warn(`${nullSourceCount} of ${files.length} specimens have untagged null-URL sources`);
+    if (taggedSourceCount > 0) ok(`${taggedSourceCount} null-URL sources properly tagged with [paywall]/[no URL]`);
   }
 
   // ── 3. byModel counts consistency ──

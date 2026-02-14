@@ -12,7 +12,7 @@
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Medium",
-    "classificationRationale": "Validated Model 1 (Research Lab) with secondary Model 5 (Product/Venture Lab). Like Recursion, the company IS the lab \u2014 Mira Murati's startup focuses on efficient, customizable AI models. Primary classification as Research Lab reflects the focus on fundamental model efficiency research. Secondary Model 5 reflects Tinker product (fine-tuning tool) that commercializes research. Structural: research and product development in separate functions within the startup.",
+    "classificationRationale": "Validated Model 1 (Research Lab) with secondary Model 5 (Product/Venture Lab). Like Recursion, the company IS the lab — Mira Murati's startup focuses on efficient, customizable AI models. Primary classification as Research Lab reflects the focus on fundamental model efficiency research. Secondary Model 5 reflects Tinker product (fine-tuning tool) that commercializes research. Structural: research and product development in separate functions within the startup.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -25,7 +25,7 @@
     "geography": "North America",
     "orgType": "AI-native"
   },
-  "description": "Founded by former OpenAI CTO Mira Murati after her departure in September 2025, Thinking Machines Lab focuses on making AI models more efficient and customizable \u2014 positioning as an alternative to the 'scale is all you need' approach. The startup raised a $2B seed round at $12B valuation within its first 5 months, one of the largest seed rounds in Silicon Valley history.\n\nThe company launched Tinker, a tool that simplifies fine-tuning open models using techniques like LoRA (Low-Rank Adaptation). This product commercializes the research thesis that smaller, customized models can outperform larger general-purpose ones for specific applications.\n\nThe team includes other former OpenAI researchers, reflecting the AI talent diaspora pattern where researchers leave large labs to pursue alternative approaches. The efficiency-first thesis directly challenges the scaling paradigm that dominated Murati's former employer.",
+  "description": "Founded by former OpenAI CTO Mira Murati after her departure in September 2025, Thinking Machines Lab focuses on making AI models more efficient and customizable — positioning as an alternative to the 'scale is all you need' approach. The startup raised a $2B seed round at $12B valuation within its first 5 months, one of the largest seed rounds in Silicon Valley history.\n\nThe company launched Tinker, a tool that simplifies fine-tuning open models using techniques like LoRA (Low-Rank Adaptation). This product commercializes the research thesis that smaller, customized models can outperform larger general-purpose ones for specific applications.\n\nThe team includes other former OpenAI researchers, reflecting the AI talent diaspora pattern where researchers leave large labs to pursue alternative approaches. The efficiency-first thesis directly challenges the scaling paradigm that dominated Murati's former employer.",
   "observableMarkers": {
     "reportingStructure": "Founder-led startup. Team includes former OpenAI researchers.",
     "resourceAllocation": "$2B seed round at $12B valuation",
@@ -68,7 +68,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL \u2014 legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-2",
@@ -78,7 +78,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL \u2014 legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-3",
@@ -88,7 +88,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL \u2014 legacy conversion]"
+      "notes": "[paywall] [no URL — legacy conversion]"
     }
   ],
   "contingencies": {
@@ -112,7 +112,7 @@
   ],
   "taxonomyFeedback": [
     "Like Recursion, this is an AI-native company where the 'lab' IS the company. The taxonomy's assumption that labs exist within larger organizations doesn't capture this startup pattern.",
-    "The AI talent diaspora (OpenAI \u2192 independent labs) is a structural phenomenon worth tracking \u2014 it creates new specimens through organizational fission."
+    "The AI talent diaspora (OpenAI → independent labs) is a structural phenomenon worth tracking — it creates new specimens through organizational fission."
   ],
   "meta": {
     "status": "Active",

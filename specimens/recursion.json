@@ -40,14 +40,24 @@
       "label": "Curation Review",
       "summary": "Validated Model 1 classification. Fixed industry from Pharmaceuticals to include AI-First Drug Discovery sector. Removed weakly-evidenced Mechanism #5 (rapid iteration is about experimental speed, not mass deployment). Removed spurious 'self-driving lab.' quote fragment. Added habitat, classification rationale.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Recursion as an automated drug discovery platform where the entire company is an AI research lab running 2.2M experiments weekly.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     }
   ],
   "sources": [
@@ -59,7 +69,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-2",
@@ -69,7 +79,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-3",
@@ -79,7 +89,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-4",
@@ -89,7 +99,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     }
   ],
   "contingencies": {

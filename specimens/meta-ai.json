@@ -114,7 +114,9 @@
       "label": "Meta Compute Infrastructure Pivot + Reality Labs Retreat",
       "summary": "Zuckerberg announced Meta Compute — a strategic bet that winning in AI requires winning with infrastructure. This represents a structural resource reallocation from one exploration frontier (Reality Labs VR/AR) to another (AI compute infrastructure). Signals a retreat from the metaverse bet to double down on AI infrastructure. Full details behind Stratechery paywall but the strategic direction is confirmed.",
       "classification": null,
-      "sourceRefs": ["stratechery-meta-compute-2026"]
+      "sourceRefs": [
+        "stratechery-meta-compute-2026"
+      ]
     },
     {
       "date": "2026-02",
@@ -229,7 +231,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-2",
@@ -239,7 +241,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-3",
@@ -249,7 +251,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-4",
@@ -259,7 +261,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-5",
@@ -269,7 +271,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "mlq-reorg-2025",

@@ -55,14 +55,22 @@
       "label": "Overnight research scan",
       "summary": "Added Q3 2025 earnings quote from CEO Bancel linking GPTs to productivity and cost reduction. Confirmed Tracey Franklin's expanded role as Chief People and Digital Technology Officer (from CHRO). Added $2B opex reduction context showing AI tools contributing to aggressive cost management.",
       "classification": null,
-      "sourceRefs": ["source-5", "source-6"]
+      "sourceRefs": [
+        "source-5",
+        "source-6"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Curation Review",
       "summary": "Validated Model 6a classification. Fixed industry from Technology to Pharmaceuticals/Biotechnology. Added habitat data. Added Mechanism #5 (Deploy to Thousands). Removed spurious 'AI Champions' quote fragment. Enriched description with restructuring details. Added classification rationale.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     },
     {
       "date": "2026-01",
@@ -76,7 +84,12 @@
       "label": "Initial Documentation",
       "summary": "Moderna set a goal of 100% AI proficiency across all employees within 6 months, supported by a structured AI Academy. mChat adopted by 80%+ of employees.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     }
   ],
   "sources": [
@@ -88,7 +101,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-2",
@@ -98,7 +111,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-3",
@@ -108,7 +121,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-4",
@@ -118,7 +131,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-5",

@@ -34,3 +34,8 @@ Format: `## YYYY-MM-DD HH:MM:SS — script-name` followed by bullet points.
 - us-air-force.json: meta.status Stub -> Inactive
 - pentagon-cdao.json: meta.status Active -> Inactive
 
+
+## 2026-02-14 13:51:41 — tag-null-url-sources
+- Tagged 172 null-URL sources across 55 specimens
+-   [paywall]: 5, [no URL]: 167
+

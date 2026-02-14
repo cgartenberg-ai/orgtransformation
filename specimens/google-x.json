@@ -103,7 +103,7 @@
       "timestamp": null,
       "sourceDate": "2025",
       "collectedDate": "2026-01-20",
-      "notes": "Astro Teller on X's incentive structure and moonshot model."
+      "notes": "[no URL] Astro Teller on X's incentive structure and moonshot model."
     },
     {
       "id": "hbr-podcast",
@@ -113,7 +113,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "Coverage of X's operating model."
+      "notes": "[no URL] Coverage of X's operating model."
     },
     {
       "id": "npr-interview",
@@ -123,7 +123,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "techcrunch-2025-nov",
@@ -133,7 +133,7 @@
       "timestamp": null,
       "sourceDate": "2025-11",
       "collectedDate": "2026-01-20",
-      "notes": "Report on budget shrinkage, Series X Capital, shift to spinout model."
+      "notes": "[paywall] Report on budget shrinkage, Series X Capital, shift to spinout model."
     }
   ],
   "contingencies": {

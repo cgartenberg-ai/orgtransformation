@@ -65,14 +65,20 @@
       "label": "Tier 1 Press Broad Scan — Source Enrichment",
       "summary": "Additional context on Boteju's career: 'boomerang' hire — previously worked at CBA 2007-2010 as general manager for customer analysis. Also held roles at Standard Chartered and HSBC in Singapore and Hong Kong. Cross-bank CAIO pipeline: finance analytics → international banking CDO → CBA CAIO.",
       "classification": null,
-      "sourceRefs": ["capital-brief-cba-2025"]
+      "sourceRefs": [
+        "capital-brief-cba-2025"
+      ]
     },
     {
       "date": "2025-11",
       "label": "CAIO Appointment — Formalizing AI Governance",
       "summary": "CBA appointed Ranil Boteju as first CAIO (from Lloyds Banking Group, 2,000+ person data/analytics org, 50+ GenAI initiatives). Placed on Technology Leadership Team. Evolution: informal enterprise-wide adoption → formal structural AI leadership. CBA ranks 4th globally in Evident AI Index.",
       "classification": "Model 6a (Enterprise-Wide Adoption) — adding Model 2 (CoE) secondary",
-      "sourceRefs": ["cba-newsroom-2025", "banking-dive-cba-2025", "cdo-magazine-cba-2025"]
+      "sourceRefs": [
+        "cba-newsroom-2025",
+        "banking-dive-cba-2025",
+        "cdo-magazine-cba-2025"
+      ]
     },
     {
       "date": "2026-01",
@@ -95,7 +101,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-2",
@@ -105,7 +111,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-3",
@@ -115,7 +121,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "cba-newsroom-2025",

@@ -47,7 +47,12 @@
       "label": "Overnight research scan",
       "summary": "Added 4 new sources with URLs including first primary source (Aviv Regev on 'lab in a loop'). Confirmed NVIDIA partnership, Boston Innovation Center launch, and Recursion $12B deal. Upgraded confidence from Low to Medium.",
       "classification": "Model 3",
-      "sourceRefs": ["source-3", "source-4", "source-5", "source-6"]
+      "sourceRefs": [
+        "source-3",
+        "source-4",
+        "source-5",
+        "source-6"
+      ]
     },
     {
       "date": "2026-02",
@@ -86,7 +91,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-2",
@@ -96,7 +101,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-3",

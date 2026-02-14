@@ -101,7 +101,15 @@
       "label": "Executive Shakeup — Explorer Exits, Operator Inherits, Platform Consolidation",
       "summary": "5 senior departures in 3 months: Denise Dresser (Slack CEO → OpenAI CRO), Adam Evans (Agentforce builder → startups), Ryan Aytay (Tableau CEO, 19yr tenure), Ariel Kelman (CMO → AMD), Brad Arkin (CTO/CSO). Replaced by 6 appointments: Joe Inzerillo promoted to President of Enterprise & AI Technology (consolidating Agentforce + Slack), Madhav Thattai as EVP/GM Agentforce (operator replacing builder Evans), Rob Seaman as EVP/GM Slack (demoted from CEO-led), Dave Ward as Chief Architect (new role, ex-Lumen CTO), Iain Mulholland as CSO (ex-Google Cloud), Patrick Stokes as CMO. ~1,000 additional layoffs hit marketing, PM, data analytics, and Agentforce team itself. AI leadership succession: Clara Shih (CEO Salesforce AI, ~20mo) → Adam Evans (EVP/GM, ~15mo) → Madhav Thattai (EVP/GM, current) — 3 leaders in <3 years with narrowing scope. Customer Zero model formalized: Inzerillo runs Salesforce as internal test lab for Agentforce before external sales. Benioff's augmentation-to-replacement rhetorical arc: publicly said 'AI augments people' then months later 'I need less heads.'",
       "classification": null,
-      "sourceRefs": ["cio-exec-churn", "sfben-exec-shakeup", "dnyuz-exec-shakeup", "sfben-feb2026-layoffs", "fortune-benioff-less-heads", "diginomica-customer-zero", "cio-shih-departure"]
+      "sourceRefs": [
+        "cio-exec-churn",
+        "sfben-exec-shakeup",
+        "dnyuz-exec-shakeup",
+        "sfben-feb2026-layoffs",
+        "fortune-benioff-less-heads",
+        "diginomica-customer-zero",
+        "cio-shih-departure"
+      ]
     },
     {
       "date": "2026-02",
@@ -177,7 +185,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-2",
@@ -187,7 +195,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-3",
@@ -197,7 +205,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "uctoday-cuts-2026",

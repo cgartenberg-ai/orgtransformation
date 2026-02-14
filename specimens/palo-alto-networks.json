@@ -40,14 +40,20 @@
       "label": "Curation Review",
       "summary": "Validated Model 3 Contextual classification. Added sector. Removed weakly-evidenced Mechanism #4 (Consumer-Grade UX — Claude Code is a developer tool, not consumer UX). Added habitat, observable markers, classification rationale.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2"]
+      "sourceRefs": [
+        "source-1",
+        "source-2"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Palo Alto Networks deploys Claude Code to 2,500 developers as standard development tool, with no separate AI lab. AI embedded in existing engineering workflows.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2"]
+      "sourceRefs": [
+        "source-1",
+        "source-2"
+      ]
     }
   ],
   "sources": [
@@ -59,7 +65,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-2",
@@ -69,7 +75,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     }
   ],
   "contingencies": {

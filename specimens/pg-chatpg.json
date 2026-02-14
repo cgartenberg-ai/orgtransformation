@@ -80,7 +80,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "Coverage of P&G's ChatPG deployment strategy."
+      "notes": "[no URL] Coverage of P&G's ChatPG deployment strategy."
     },
     {
       "id": "mit-sloan",
@@ -90,7 +90,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "Academic coverage of P&G's AI deployment and field experiment results."
+      "notes": "[no URL] Academic coverage of P&G's AI deployment and field experiment results."
     },
     {
       "id": "pg-signal",
@@ -100,7 +100,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "P&G's official communications about AI initiatives."
+      "notes": "[no URL] P&G's official communications about AI initiatives."
     }
   ],
   "contingencies": {

@@ -40,25 +40,97 @@
       "label": "Curation Review",
       "summary": "Kept Model 4 but downgraded confidence to Low. Removed weakly-evidenced Mechanism #5. Data describes partnership strategy, not internal AI org structure. Downgraded to Stub. Added habitat data.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Servier signed two major AI drug discovery partnerships within four days, totaling nearly $2 billion in potential value.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     }
   ],
   "sources": [
-    {"id": "source-1", "type": "Press", "name": "Fierce Biotech", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-2", "type": "Press", "name": "Pharmaphorum", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-3", "type": "Press", "name": "PR Newswire", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-4", "type": "Press", "name": "European Biotechnology", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Fierce Biotech",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Pharmaphorum",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "PR Newswire",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "European Biotechnology",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    }
   ],
-  "contingencies": {"regulatoryIntensity": "High", "timeToObsolescence": "Slow", "ceoTenure": null, "talentMarketPosition": "Talent-constrained", "technicalDebt": null},
-  "tensionPositions": {"structuralVsContextual": null, "speedVsDepth": -0.4, "centralVsDistributed": null, "namedVsQuiet": null, "longVsShortHorizon": -0.5},
-  "openQuestions": ["What is Servier's internal AI team structure (if any)?", "How do the Insilico and Iktos partnerships integrate with internal R&D workflows?", "Does Servier have a CAIO or equivalent role?", "Is the dual-partnership approach a deliberate hedging strategy or opportunistic?"],
-  "taxonomyFeedback": ["Partnership-driven AI capability (outsourced AI rather than internal structure) is a common pharma pattern not well captured by the taxonomy. Servier may represent a distinct mode of AI organization: AI-by-partnership.", "The dual-partner hedging strategy (two different AI approaches simultaneously) deserves tracking as a structural pattern."],
-  "meta": {"status": "Stub", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/servier.json"}
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": -0.4,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": -0.5
+  },
+  "openQuestions": [
+    "What is Servier's internal AI team structure (if any)?",
+    "How do the Insilico and Iktos partnerships integrate with internal R&D workflows?",
+    "Does Servier have a CAIO or equivalent role?",
+    "Is the dual-partnership approach a deliberate hedging strategy or opportunistic?"
+  ],
+  "taxonomyFeedback": [
+    "Partnership-driven AI capability (outsourced AI rather than internal structure) is a common pharma pattern not well captured by the taxonomy. Servier may represent a distinct mode of AI organization: AI-by-partnership.",
+    "The dual-partner hedging strategy (two different AI approaches simultaneously) deserves tracking as a structural pattern."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/servier.json"
+  }
 }

@@ -2,7 +2,6 @@
   "id": "ubs",
   "name": "UBS",
   "title": "First CAIO from Academic-to-CoE Pipeline",
-
   "classification": {
     "structuralModel": 2,
     "structuralModelName": "Center of Excellence",
@@ -16,7 +15,6 @@
     "classificationRationale": "UBS created a dedicated Chief AI Office responsible for deployment at scale, consistent standards, and technological foundations. CAIO reports to Group Chief CTO — AI placed under technology, not strategy. With 300+ live AI use cases and a formalized governance role, this is a Center of Excellence pattern: central standards body enabling distributed AI deployment across business units. Orientation shifted from auto-classified 'Contextual' to 'Structural' based on explicit structural separation (Chief AI Office as distinct unit).",
     "typeSpecimen": false
   },
-
   "habitat": {
     "industry": "Financial Services",
     "sector": "Investment Banking / Wealth Management",
@@ -26,9 +24,7 @@
     "headquarters": "Zurich, Switzerland",
     "geography": "Global"
   },
-
   "description": "UBS appointed Daniele Magazzeni as its first Chief Artificial Intelligence Officer effective January 1, 2026, creating a dedicated Chief AI Office responsible for AI tool deployment at scale, maintaining consistent standards, and building technological foundations across the organization. The CAIO reports to the Group Chief CTO (Mike Dargan).\n\nMagazzeni's career represents a distinct CAIO pipeline: Associate Professor of AI at King's College London → JPMorgan global head of Explainable AI Center of Excellence (2021) → JPM Chief Analytics Officer for EMEA and CIB → UBS CAIO. This 'academic → CoE leader → CAIO' trajectory contrasts with the consumer tech pipeline (Mechanism #9).\n\nUBS already had 300+ active AI use cases and 'Big Rocks' large-scale AI initiatives when the CAIO was appointed, suggesting the role was layered on top of existing capability for governance and coordination. The appointment coincides with UBS finalizing the Credit Suisse integration and executive restructuring.",
-
   "observableMarkers": {
     "reportingStructure": "CAIO reports to Group Chief CTO (Mike Dargan, transitioning from Group COTO to Group CTO).",
     "resourceAllocation": null,
@@ -36,7 +32,6 @@
     "decisionRights": "Dedicated Chief AI Office responsible for deployment, standards, and foundations. CAIO mandate spans traditional, generative, and agentic AI modalities.",
     "metrics": "300+ live AI use cases. 'Big Rocks' large-scale AI initiatives. M365 Copilot and in-house 'Red' AI Assistant rolling out to all employees. Credit Suisse integration 85% complete by Q4 2025."
   },
-
   "mechanisms": [
     {
       "id": 8,
@@ -45,7 +40,6 @@
       "strength": "Strong"
     }
   ],
-
   "quotes": [
     {
       "text": "Artificial intelligence is a top priority for UBS.",
@@ -62,28 +56,38 @@
       "sourceRef": "wealthbriefing-ubs-2025"
     }
   ],
-
   "layers": [
     {
       "date": "2026-02",
       "label": "Overnight research scan",
       "summary": "Q4 2025 earnings and additional press coverage. Credit Suisse integration 85% complete by Q4 2025 — near-completion frees capacity for AI focus. Dargan's framing of CAIO mandate reveals three-mode AI taxonomy: traditional, generative, and agentic AI. Two executive quotes added.",
       "classification": null,
-      "sourceRefs": ["wealthbriefing-ubs-2025", "ubs-q4-2025-earnings"]
+      "sourceRefs": [
+        "wealthbriefing-ubs-2025",
+        "ubs-q4-2025-earnings"
+      ]
     },
     {
       "date": "2026-02",
       "label": "Tier 1 Press Broad Scan — Source Enrichment",
       "summary": "Additional sources confirm CAIO appointment details. Magazzeni's academic career quantified: 12+ years at King's College London with 100+ publications. Mandate framed as reshaping business capabilities, improving client experience, enhancing employee productivity. Fintech Futures source adds JPMorgan provenance detail.",
       "classification": null,
-      "sourceRefs": ["banking-dive-ubs-2025", "fintech-futures-ubs-2025"]
+      "sourceRefs": [
+        "banking-dive-ubs-2025",
+        "fintech-futures-ubs-2025"
+      ]
     },
     {
       "date": "2025-10",
       "label": "CAIO Appointment — Structural Evolution",
       "summary": "New data confirms CAIO appointment details: Magazzeni reports to Group Chief CTO, heads dedicated Chief AI Office, background includes JPM Explainable AI CoE leadership and academic AI professorship. 'Big Rocks' AI program named. Concurrent with Credit Suisse integration.",
       "classification": null,
-      "sourceRefs": ["ubs-pr-2025", "tech-magazine-2025", "cdo-magazine-ubs-2025", "finews-asia-2025"]
+      "sourceRefs": [
+        "ubs-pr-2025",
+        "tech-magazine-2025",
+        "cdo-magazine-ubs-2025",
+        "finews-asia-2025"
+      ]
     },
     {
       "date": "2026-01",
@@ -98,7 +102,6 @@
       ]
     }
   ],
-
   "sources": [
     {
       "id": "source-1",
@@ -108,7 +111,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-2",
@@ -128,7 +131,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-4",
@@ -138,7 +141,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "ubs-pr-2025",
@@ -221,7 +224,6 @@
       "notes": "Credit Suisse integration 85% complete, enabling AI focus."
     }
   ],
-
   "contingencies": {
     "regulatoryIntensity": "High",
     "timeToObsolescence": "Medium",
@@ -229,7 +231,6 @@
     "talentMarketPosition": "Talent-constrained",
     "technicalDebt": "High"
   },
-
   "tensionPositions": {
     "structuralVsContextual": -0.6,
     "speedVsDepth": -0.4,
@@ -237,19 +238,16 @@
     "namedVsQuiet": -0.3,
     "longVsShortHorizon": 0.0
   },
-
   "openQuestions": [
     "What's the size and structure of the Chief AI Office?",
     "How does the CAIO relate to individual business units' AI initiatives?",
     "What happened to the previous CTO Mike Sheridan who departed?"
   ],
-
   "taxonomyFeedback": [
     "UBS exemplifies the 'academic → CoE leader → CAIO' career pipeline (Magazzeni: King's College professor → JPM XAI CoE head → UBS CAIO). This is a distinct pattern from Mechanism #9 (Hire CAIOs from Consumer Tech).",
     "The concurrent CAIO appointment and Credit Suisse integration suggests a pattern: major M&A or restructuring events create windows for formalizing AI governance.",
     "[2026-02] Dargan's framing of CAIO mandate as spanning 'traditional, generative and agentic AI' suggests emerging executive taxonomy for AI modalities. This three-mode framing may become standard for how CAIO scope is communicated."
   ],
-
   "meta": {
     "status": "Active",
     "created": "2026-01-31",

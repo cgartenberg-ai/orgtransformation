@@ -53,24 +53,84 @@
       "label": "Curation Review",
       "summary": "Validated Model 4 classification. Fixed industry from Industrial to Technology. Added Mechanisms #6 (Merge Competing AI Teams) and #9 (Hire from External — Yao from OpenAI). Removed spurious 'hub-and-spoke' quote fragment. Added habitat and classification rationale.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Tencent consolidated scattered AI teams into unified TEG departments. Hired ex-OpenAI researcher as Chief AI Scientist in CEO's Office.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
     }
   ],
   "sources": [
-    {"id": "source-1", "type": "Report", "name": "36Kr exclusive report", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-2", "type": "Press", "name": "TechNode", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-3", "type": "Press", "name": "Tencent announcements", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+    {
+      "id": "source-1",
+      "type": "Report",
+      "name": "36Kr exclusive report",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "TechNode",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Tencent announcements",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    }
   ],
-  "contingencies": {"regulatoryIntensity": "High", "timeToObsolescence": "Fast", "ceoTenure": "Long", "talentMarketPosition": "Talent-rich", "technicalDebt": "Medium"},
-  "tensionPositions": {"structuralVsContextual": -0.6, "speedVsDepth": 0.3, "centralVsDistributed": -0.7, "namedVsQuiet": -0.4, "longVsShortHorizon": 0.2},
-  "openQuestions": ["How do the unified TEG departments interact with Tencent's business groups (gaming, social, fintech)?", "What specifically attracted Yao Shunyu from OpenAI to Tencent?", "How does Tencent's AI restructuring compare to ByteDance and Alibaba approaches?"],
-  "taxonomyFeedback": ["Tencent's evolution from scattered AI teams to unified hub is a well-documented example of Mechanism #6. The 'before and after' restructuring provides structural evidence often missing in other specimens.", "Chinese tech company AI restructurings (Tencent, ByteDance) represent a distinct pattern of competitive-pressure-driven consolidation."],
-  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/tencent.json"}
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": -0.7,
+    "namedVsQuiet": -0.4,
+    "longVsShortHorizon": 0.2
+  },
+  "openQuestions": [
+    "How do the unified TEG departments interact with Tencent's business groups (gaming, social, fintech)?",
+    "What specifically attracted Yao Shunyu from OpenAI to Tencent?",
+    "How does Tencent's AI restructuring compare to ByteDance and Alibaba approaches?"
+  ],
+  "taxonomyFeedback": [
+    "Tencent's evolution from scattered AI teams to unified hub is a well-documented example of Mechanism #6. The 'before and after' restructuring provides structural evidence often missing in other specimens.",
+    "Chinese tech company AI restructurings (Tencent, ByteDance) represent a distinct pattern of competitive-pressure-driven consolidation."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/tencent.json"
+  }
 }

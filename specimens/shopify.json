@@ -47,7 +47,12 @@
       "label": "Curation Review",
       "summary": "Validated Model 3 Contextual classification. Fixed industry from Technology to E-commerce. Added Mechanism #7 (Put Executives on the Tools — CEO mandate). Added habitat data (8,100 employees, Ottawa HQ). Added observable markers and classification rationale.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     },
     {
       "date": "2026-01",
@@ -61,18 +66,84 @@
       "label": "Initial Documentation",
       "summary": "CEO Tobi Lütke mandated AI proficiency as condition of employment and resource allocation. AI embedded across all roles.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     }
   ],
   "sources": [
-    {"id": "source-1", "type": "Press", "name": "CNBC", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-2", "type": "Press", "name": "Business Today", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-3", "type": "Blog", "name": "Shopify Blog", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-4", "type": "Press", "name": "X/Twitter", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "CNBC",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Business Today",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Blog",
+      "name": "Shopify Blog",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "X/Twitter",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    }
   ],
-  "contingencies": {"regulatoryIntensity": "Low", "timeToObsolescence": "Fast", "ceoTenure": "Founder", "talentMarketPosition": "Talent-rich", "technicalDebt": "Low"},
-  "tensionPositions": {"structuralVsContextual": 0.9, "speedVsDepth": 0.6, "centralVsDistributed": 0.7, "namedVsQuiet": 0.3, "longVsShortHorizon": 0.5},
-  "openQuestions": ["How is the 'prove AI can't do it' mandate enforced in practice — what evidence is required?", "Has Shopify's headcount reduction been primarily in AI-replaceable roles?", "How do Shopify's merchants respond to the AI-first product strategy?"],
-  "taxonomyFeedback": ["Shopify's 'prove AI can't do it' mandate is the strongest articulation of contextual ambidexterity in the herbarium. Could serve as a reference example for Contextual orientation.", "The boundary between Model 3 (Embedded) and Model 6c (Grassroots) is blurred here — the CEO mandate formalizes what may have been emerging grassroots AI adoption."],
-  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/shopify.json"}
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.9,
+    "speedVsDepth": 0.6,
+    "centralVsDistributed": 0.7,
+    "namedVsQuiet": 0.3,
+    "longVsShortHorizon": 0.5
+  },
+  "openQuestions": [
+    "How is the 'prove AI can't do it' mandate enforced in practice — what evidence is required?",
+    "Has Shopify's headcount reduction been primarily in AI-replaceable roles?",
+    "How do Shopify's merchants respond to the AI-first product strategy?"
+  ],
+  "taxonomyFeedback": [
+    "Shopify's 'prove AI can't do it' mandate is the strongest articulation of contextual ambidexterity in the herbarium. Could serve as a reference example for Contextual orientation.",
+    "The boundary between Model 3 (Embedded) and Model 6c (Grassroots) is blurred here — the CEO mandate formalizes what may have been emerging grassroots AI adoption."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/shopify.json"
+  }
 }

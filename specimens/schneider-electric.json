@@ -40,25 +40,95 @@
       "label": "Curation Review",
       "summary": "Validated Model 4 classification — Schneider explicitly uses hub-and-spoke terminology. Fixed industry from Industrial to Energy Management. Added habitat, observable markers, classification rationale. Removed spurious 'hub-and-spoke' quote fragment.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Schneider Electric announced a landmark multi-year initiative to build an integrated ecosystem for sustainability and energy management, backed by more than 2.5 billion euros AI investment by end of 2027.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3", "source-4"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4"
+      ]
     }
   ],
   "sources": [
-    {"id": "source-1", "type": "Press Release", "name": "Schneider Electric press releases", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-2", "type": "Press", "name": "TechPoint Africa", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-3", "type": "Press", "name": "Carbon Credits", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-4", "type": "Press", "name": "AI Magazine", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+    {
+      "id": "source-1",
+      "type": "Press Release",
+      "name": "Schneider Electric press releases",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "TechPoint Africa",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Carbon Credits",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-4",
+      "type": "Press",
+      "name": "AI Magazine",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    }
   ],
-  "contingencies": {"regulatoryIntensity": "Medium", "timeToObsolescence": "Slow", "ceoTenure": null, "talentMarketPosition": "Talent-constrained", "technicalDebt": "Medium"},
-  "tensionPositions": {"structuralVsContextual": -0.4, "speedVsDepth": -0.2, "centralVsDistributed": -0.3, "namedVsQuiet": -0.6, "longVsShortHorizon": -0.3},
-  "openQuestions": ["How does the AI Hub interact with Schneider's various business divisions (Energy Management, Industrial Automation)?", "What is CAIO Rambach's reporting line?", "How does the sustainability mission shape AI prioritization differently from purely commercial AI?"],
-  "taxonomyFeedback": ["Schneider is one of the few specimens that explicitly uses 'hub-and-spoke' terminology — valuable as self-described rather than analyst-imposed classification."],
-  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/schneider-electric.json"}
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.4,
+    "speedVsDepth": -0.2,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.6,
+    "longVsShortHorizon": -0.3
+  },
+  "openQuestions": [
+    "How does the AI Hub interact with Schneider's various business divisions (Energy Management, Industrial Automation)?",
+    "What is CAIO Rambach's reporting line?",
+    "How does the sustainability mission shape AI prioritization differently from purely commercial AI?"
+  ],
+  "taxonomyFeedback": [
+    "Schneider is one of the few specimens that explicitly uses 'hub-and-spoke' terminology — valuable as self-described rather than analyst-imposed classification."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/schneider-electric.json"
+  }
 }

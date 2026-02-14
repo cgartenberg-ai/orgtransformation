@@ -40,14 +40,22 @@
       "label": "Curation Review",
       "summary": "RECLASSIFIED: Model 2 (CoE) → Model 6a (Enterprise-Wide Adoption). Industry fixed from Technology to Professional Services. Specimen describes workforce transformation, not AI org structure. QuantumBlack specimen captures the structural AI approach; this captures the contextual workforce impact. Downgraded to Stub.",
       "classification": "Model 2 (Center of Excellence)",
-      "sourceRefs": ["source-1", "source-2", "source-3"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "McKinsey CEO Bob Sternfels articulated one of the most honest frameworks for AI's workforce impact: AI has 'fundamentally changed how McKinsey staffs its business, allowing it to add and cut jobs in equal measure'—approximately 25% growth in some roles and 25% cuts in others.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
     }
   ],
   "sources": [
@@ -59,7 +67,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-2",
@@ -69,7 +77,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-3",
@@ -79,7 +87,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     }
   ],
   "contingencies": {

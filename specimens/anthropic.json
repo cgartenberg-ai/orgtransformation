@@ -108,28 +108,40 @@
       "label": "Labs Incubator Expansion + Safety Lead Departure",
       "summary": "Leadership reshuffle (announced Jan 14, 2026): Mike Krieger (Instagram co-founder, CPO) stepped down as CPO to co-lead Labs incubator unit alongside Ben Mann, reporting to President Daniela Amodei. Labs launched mid-2024 with 2 people, now expanding (plan to double headcount within 6 months). Functions as internal incubator for experimental AI products freed from production constraints. Ami Vora (ex-Faire, WhatsApp, Facebook) took over as head of product, working with CTO Rahul Patil to scale Claude. Krieger: 'We've reached a watershed moment in AI — model capabilities are advancing so fast that the window to shape how they're used is now.' Separately, AI safety lead Mrinank Sharma resigned Feb 9, 2026 with public letter expressing concerns. Concurrent with $10B fundraise at $350B valuation.",
       "classification": null,
-      "sourceRefs": ["techbuzz-anthropic-reshuffle-2026", "americanbazaar-sharma-2026"]
+      "sourceRefs": [
+        "techbuzz-anthropic-reshuffle-2026",
+        "americanbazaar-sharma-2026"
+      ]
     },
     {
       "date": "2025-05",
       "label": "Co-Founder Culture & Manager Nerds Thesis",
       "summary": "Jack Clark on Conversations with Tyler: Anthropic office as 'cheerful blankness' — brand oriented toward being 'tasteful and thoughtful, not too flashy.' Inherited former Slack HQ. Clark predicts 'manager nerds' era: managing fleets of AI agents will make people 'incredibly powerful.' Observes startups operating with very small FTEs + many coding agents. AI monitoring paradox: monitoring chain of thought might create anti-goals. AI embeds cultural values creating 'soft power' effects.",
       "classification": null,
-      "sourceRefs": ["cwt-clark-2025"]
+      "sourceRefs": [
+        "cwt-clark-2025"
+      ]
     },
     {
       "date": "2025-12",
       "label": "IPO Preparation & Governance",
       "summary": "Hired Wilson Sonsini for IPO prep. PBC with LTBT/Class T governance structure. Valued at ~$350B+ after Microsoft ($5B) and Nvidia ($10B) investments. Projecting ~$26B annualized revenue. No dual-class founder structure — LTBT provides governance center of gravity. Krishna Rao hired from Airbnb.",
       "classification": null,
-      "sourceRefs": ["techcrunch-ipo-2025", "forem-ltbt-2026", "cnbc-valuation-2025", "yahoo-revenue-2025"]
+      "sourceRefs": [
+        "techcrunch-ipo-2025",
+        "forem-ltbt-2026",
+        "cnbc-valuation-2025",
+        "yahoo-revenue-2025"
+      ]
     },
     {
       "date": "2025-08",
       "label": "CEO/COO Structure & Co-Founder Model",
       "summary": "Dario Amodei on Cheeky Pint revealed: 7 co-founders with equal equity, CEO/COO explore/execute split, platform-first with strategic verticals, information compartmentalization within open culture, highest retention among AI companies, ~$5B ARR.",
       "classification": null,
-      "sourceRefs": ["cheeky-pint-dario-2025"]
+      "sourceRefs": [
+        "cheeky-pint-dario-2025"
+      ]
     },
     {
       "date": "2026-01",
@@ -161,7 +173,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-2",
@@ -171,7 +183,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-3",
@@ -181,7 +193,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-4",
@@ -191,7 +203,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "source-5",
@@ -201,7 +213,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": null
+      "notes": "[no URL]"
     },
     {
       "id": "cheeky-pint-dario-2025",

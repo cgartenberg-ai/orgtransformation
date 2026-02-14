@@ -55,21 +55,32 @@
       "label": "Overnight research scan",
       "summary": "Added Q4 2025 earnings data: CEO transition (Mike Doustdar replaced Lars Fruergaard Jorgensen in July 2025), company-wide transformation program with ~$1.12B in costs, DKK 60B manufacturing capex + DKK 30B R&D investment. Notably, no AI discussion in Q4 2025 earnings materials despite massive investment in manufacturing and R&D — AI appears decoupled from earnings narrative.",
       "classification": "Model 4, Structural",
-      "sourceRefs": ["source-4", "source-5"]
+      "sourceRefs": [
+        "source-4",
+        "source-5"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Curation Review",
       "summary": "Validated Model 4 classification. RECLASSIFIED orientation from Contextual to Structural (300-person hub is a distinct structural unit). Added Mechanism #5 (Deploy to Thousands — 20K Copilot rollout). Added habitat data. Removed spurious 'Make Your Time Count' quote (it's a slogan, not a leadership quote). Added classification rationale.",
       "classification": "Model 4, Contextual",
-      "sourceRefs": ["source-1", "source-2", "source-3"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Novo Nordisk's Enterprise AI organization with 300-person central AI team under CAIO, deploying Microsoft Copilot to 20,000 employees under 'Make Your Time Count' banner.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
     }
   ],
   "sources": [
@@ -81,7 +92,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-2",
@@ -91,7 +102,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-3",
@@ -101,7 +112,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-4",

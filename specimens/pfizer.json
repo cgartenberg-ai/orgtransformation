@@ -89,21 +89,31 @@
       "label": "Overnight research scan",
       "summary": "Q4 2025 earnings call adds significant structural detail: CSO Boshoff confirms AI engineers embedded in each R&D function, CEO Bourla announces 1,200 GPU deployment for R&D AI. AI positioned as main lever for cost savings ($600M achieved, $1.5B target). Upgraded confidence to High based on executive quotes explicitly describing hub-and-spoke deployment. Added Mechanism #2.",
       "classification": null,
-      "sourceRefs": ["source-4"]
+      "sourceRefs": [
+        "source-4"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Curation Review",
       "summary": "Validated Model 4 classification. Replaced weakly-evidenced Mechanism #5 with Mechanism #3 (Embed Product at Research Frontier — PACT partnership). Added habitat, observable markers, classification rationale. Enriched description.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Pfizer AI organization under CAIO Berta Rodriguez-Hervas with AI/ML Fab Lab, Predictive Analytics Incubator, and PACT partnership with AWS and Anthropic.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
     }
   ],
   "sources": [
@@ -115,7 +125,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-2",
@@ -125,7 +135,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-3",
@@ -135,7 +145,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL — legacy conversion]"
+      "notes": "[no URL] [no URL — legacy conversion]"
     },
     {
       "id": "source-4",

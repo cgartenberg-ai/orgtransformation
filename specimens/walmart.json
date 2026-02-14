@@ -47,24 +47,84 @@
       "label": "Curation Review",
       "summary": "Validated Model 5c classification. Fixed industry from Technology to Retail. Added Mechanism #10 (Productize Internal Advantages — Route Optimization, GoLocal). Removed spurious truncated quote. Added habitat, observable markers, classification rationale.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
     },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
       "summary": "Walmart's Platform-to-Product model: Route Optimization and GoLocal commercialize internal operational capabilities as external revenue streams.",
       "classification": null,
-      "sourceRefs": ["source-1", "source-2", "source-3"]
+      "sourceRefs": [
+        "source-1",
+        "source-2",
+        "source-3"
+      ]
     }
   ],
   "sources": [
-    {"id": "source-1", "type": "Press", "name": "Walmart Corporate News", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-2", "type": "Press", "name": "Supply Chain Dive", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"},
-    {"id": "source-3", "type": "Press", "name": "Franz Edelman Award 2023", "url": null, "timestamp": null, "sourceDate": null, "collectedDate": "2026-01-20", "notes": "[no URL — legacy conversion]"}
+    {
+      "id": "source-1",
+      "type": "Press",
+      "name": "Walmart Corporate News",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-2",
+      "type": "Press",
+      "name": "Supply Chain Dive",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    },
+    {
+      "id": "source-3",
+      "type": "Press",
+      "name": "Franz Edelman Award 2023",
+      "url": null,
+      "timestamp": null,
+      "sourceDate": null,
+      "collectedDate": "2026-01-20",
+      "notes": "[no URL] [no URL — legacy conversion]"
+    }
   ],
-  "contingencies": {"regulatoryIntensity": "Low", "timeToObsolescence": "Medium", "ceoTenure": null, "talentMarketPosition": "Talent-constrained", "technicalDebt": "High"},
-  "tensionPositions": {"structuralVsContextual": -0.5, "speedVsDepth": 0.2, "centralVsDistributed": -0.2, "namedVsQuiet": 0.0, "longVsShortHorizon": 0.0},
-  "openQuestions": ["How large is the Walmart Commerce Technologies team?", "What percentage of revenue comes from productized AI capabilities vs. core retail?", "How does Walmart's data advantage (scale of transactions) shape AI product development?"],
-  "taxonomyFeedback": ["Walmart is the type specimen for Model 5c (Platform-to-Product). The Route Optimization → SaaS path is the clearest documented example of this model.", "The corporate identity shift ('we're now a SaaS provider') suggests that Platform-to-Product can fundamentally change how an organization sees itself."],
-  "meta": {"status": "Active", "created": "2026-01-31", "lastUpdated": "2026-01-31", "completeness": "Low", "convertedFrom": "library/cases/walmart.json"}
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "High"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.5,
+    "speedVsDepth": 0.2,
+    "centralVsDistributed": -0.2,
+    "namedVsQuiet": 0.0,
+    "longVsShortHorizon": 0.0
+  },
+  "openQuestions": [
+    "How large is the Walmart Commerce Technologies team?",
+    "What percentage of revenue comes from productized AI capabilities vs. core retail?",
+    "How does Walmart's data advantage (scale of transactions) shape AI product development?"
+  ],
+  "taxonomyFeedback": [
+    "Walmart is the type specimen for Model 5c (Platform-to-Product). The Route Optimization → SaaS path is the clearest documented example of this model.",
+    "The corporate identity shift ('we're now a SaaS provider') suggests that Platform-to-Product can fundamentally change how an organization sees itself."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-01-31",
+    "lastUpdated": "2026-01-31",
+    "completeness": "Low",
+    "convertedFrom": "library/cases/walmart.json"
+  }
 }
