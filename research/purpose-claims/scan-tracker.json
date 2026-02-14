@@ -142,7 +142,7 @@
     },
     {
       "specimenId": "citigroup",
-      "lastScanned": null,
+      "lastScanned": "2026-02-09",
       "claimsFound": 12,
       "quality": "rich",
       "scanned": true,
@@ -210,7 +210,7 @@
     },
     {
       "specimenId": "disney",
-      "lastScanned": null,
+      "lastScanned": "2026-02-12",
       "claimsFound": 14,
       "quality": "rich",
       "scanned": true,
@@ -311,7 +311,7 @@
     },
     {
       "specimenId": "harvey-ai",
-      "lastScanned": null,
+      "lastScanned": "2026-02-09",
       "claimsFound": 12,
       "quality": "rich",
       "scanned": true,
@@ -496,7 +496,7 @@
     },
     {
       "specimenId": "meta-reality-labs",
-      "lastScanned": null,
+      "lastScanned": "2026-02-09",
       "claimsFound": 0,
       "quality": "deprecated",
       "note": "Merged into meta-ai specimen 2026-02-12"
@@ -515,7 +515,7 @@
     },
     {
       "specimenId": "morgan-stanley",
-      "lastScanned": null,
+      "lastScanned": "2026-02-12",
       "claimsFound": 16,
       "quality": "rich",
       "scanned": true,
@@ -535,7 +535,7 @@
     },
     {
       "specimenId": "netflix",
-      "lastScanned": null,
+      "lastScanned": "2026-02-12",
       "claimsFound": 14,
       "quality": "rich",
       "scanned": true,
@@ -755,7 +755,7 @@
       "claimsFound": 8,
       "quality": "rich",
       "transcriptAccess": "has-transcript",
-      "notes": "Rich scan: Dwarkesh Podcast (Nov 2025) + SSI website. Pure identity/teleological/direction-under-uncertainty mix \u2014 SSI's purpose IS their structure."
+      "notes": "Rich scan: Dwarkesh Podcast (Nov 2025) + SSI website. Pure identity/teleological/direction-under-uncertainty mix — SSI's purpose IS their structure."
     },
     {
       "specimenId": "stagwell",
@@ -807,7 +807,7 @@
     },
     {
       "specimenId": "travelers",
-      "lastScanned": null,
+      "lastScanned": "2026-02-09",
       "claimsFound": 9,
       "quality": "rich",
       "scanned": true,

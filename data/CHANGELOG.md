@@ -62,3 +62,8 @@ Format: `## YYYY-MM-DD HH:MM:SS — script-name` followed by bullet points.
 - ceo-departure-natural-experiment: discoveredIn -> research/purpose-claims/sessions/2026-02-13-batch-13-14-insights.md
 - mission-identity-anodyne-rhetoric: discoveredIn -> synthesis/sessions/2026-02-13-finserv-healthcare-botanist.md
 
+
+## 2026-02-14 14:29:23 — backfill-tracker-dates
+- Backfilled lastScanned dates for 7 specimens: citigroup, disney, harvey-ai, meta-reality-labs, morgan-stanley, netflix, travelers
+- These were scanned in earlier sessions before tracker recorded dates
+
