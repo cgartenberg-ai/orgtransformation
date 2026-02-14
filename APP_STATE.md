@@ -1,6 +1,6 @@
 # App State: Ambidexterity Field Guide
 
-## Last Updated: February 13, 2026
+## Last Updated: February 14, 2026
 
 ---
 
@@ -146,23 +146,25 @@ site/lib/
 
 ## Data Infrastructure Status
 
-### Specimens: ~99 structured (149 in registry including stubs)
+### Specimens: 144 active (149 total including 5 inactive)
 
 | Structural Model | Count | Type Specimen |
 |-----------------|-------|---------------|
-| Model 1: Research Lab | 7 | Google DeepMind |
-| Model 2: Center of Excellence | 25 | — |
-| Model 3: Embedded Teams | 16 | — |
-| Model 4: Hub-and-Spoke | 48 | Novo Nordisk |
+| Model 1: Research Lab | 12 | Google DeepMind |
+| Model 2: Center of Excellence | 20 | — |
+| Model 3: Embedded Teams | 14 | — |
+| Model 4: Hub-and-Spoke | 47 | Novo Nordisk |
 | Model 5: Product/Venture Lab | 16 | Google X (5b), Samsung C-Lab (5a) |
-| Model 6: Unnamed/Informal | 28 | P&G (ChatPG), Bank of America |
+| Model 6: Unnamed/Informal | 24 | P&G (ChatPG), Bank of America |
 | Model 7: Tiger Teams | 0 | — (no confirmed specimens after taxonomy audit) |
 | Model 8: Skunkworks (Emerging) | 0 | — (predicted model, no confirmed specimens) |
-| Model 9: AI-Native | 9 | — (born-AI organizations, no legacy to transform) |
+| Model 9: AI-Native | 10 | — (born-AI organizations, no legacy to transform) |
 
-**Orientation distribution**: 98 Structural, 45 Contextual, 4 Temporal (M9 AI-Native: 8 Structural, 1 Contextual)
+**Orientation distribution**: 94 Structural, 44 Contextual, 4 Temporal
 
 **AI-native specimens**: 10 tagged (harvey-ai, mercor, sierra-ai, glean, ssi, ami-labs, thinking-machines-lab, world-labs, databricks, snowflake)
+
+**Inactive specimens**: 5 government (nasa, us-cyber-command, new-york-state, us-air-force, pentagon-cdao) — excluded from all aggregates
 
 ### Synthesis Data
 
@@ -173,8 +175,8 @@ site/lib/
 
 ### Purpose Claims Data
 
-- **1,384 purpose claims** across ~72 scanned specimens (v2.0 taxonomy: 6 types)
-- **108 enrichment files** in `research/purpose-claims/enrichment/` with rhetorical profiles (claimTypeDistribution, keyFindings, rhetoricalPatterns)
+- **1,522 purpose claims** across 145 scanned specimens (v2.0 taxonomy: 6 types)
+- **130 enrichment files** in `research/purpose-claims/enrichment/` with rhetorical profiles (claimTypeDistribution, keyFindings, rhetoricalPatterns)
 - **Visual analytics**: Spider/radar charts on specimen pages and purpose claims browser (Profiles view)
 - **Citation system**: `[source-id]` inline markers → `CitedText.tsx` superscript links. **30 High-completeness specimens** backfilled with citations across all observable markers.
 
@@ -184,7 +186,12 @@ site/lib/
 
 ### Validation
 
-`node scripts/validate-workflow.js` — 0 errors, 67 warnings (mostly null URLs from legacy data)
+`node scripts/validate-workflow.js` — 0 errors, 27 warnings (16 sections including provenance checks, coverage gaps, enrichment completeness, registry freshness)
+
+**Additional operational scripts** (see `scripts/README.md`):
+- `node scripts/specimen-lifecycle-status.js` — Pipeline dashboard → `data/specimen-lifecycle-status.{md,json}`
+- `node scripts/check-source-freshness.js` — Source staleness alerter
+- `node scripts/rebuild-registry.js` — Rebuild registry from files
 
 ### Classification Guardrails
 
@@ -216,12 +223,13 @@ site/lib/
 - Search (Algolia or Supabase full-text — currently just client-side filter)
 
 ### Data Gaps
-- Many sources with null URLs across specimens (see validator warnings for count; legacy data)
+- 172 sources tagged as `[no URL]` or `[paywall]` (explicitly documented, no longer silent nulls)
 - Legacy cases in `library/cases/` not yet converted
-- ~23 specimens remaining for interactive placement (Batches 8-9)
+- 38 active specimens not placed in any tension; 22 not in any contingency (see lifecycle dashboard)
+- 6 insights with thin evidence (only 1 specimen) — need more cases
 - Low-confidence specimens: see `research/low-confidence-queue.json`
 - **Citation backfill**: ✅ 30 High-completeness specimens now have `[source-id]` markers. Remaining specimens (Medium/Low completeness) can be backfilled as they're enriched.
-- **Purpose claims coverage**: ~51 of ~93 structured specimens scanned. More scanning needed for spider grid to show meaningful cross-specimen patterns.
+- **Purpose claims coverage**: 141/144 active specimens have claims. 3 remain unscanned.
 
 ---
 
@@ -252,25 +260,12 @@ site/lib/
 
 ## Key File Locations
 
+See `CLAUDE.md` → Project Structure for the full directory tree. Key operational files:
+
 ```
-orgtransformation/
-├── CLAUDE.md                            # Session bootstrap (auto-read by Claude Code)
-├── APP_STATE.md                         # THIS FILE — current project state
-├── SESSION_LOG.md                       # Full session history — update at end of each session
-├── SW_ARCHITECTURE.md                   # Software architecture for the site
-├── Ambidexterity_Field_Guide_Spec.md    # Product spec (v1.2)
-├── UI_Spec.md                           # UI/UX spec (design source of truth)
-├── HANDOFF.md                           # SUPERSEDED by CLAUDE.md + APP_STATE.md
-├── site/                                # Next.js prototype
-│   ├── app/                             # Routes
-│   ├── components/                      # React components
-│   └── lib/                             # Types, data access, utils
-├── specimens/*.json                     # Specimen files (see registry.json for count)
-├── synthesis/                           # Mechanisms, tensions, contingencies
-├── research/                            # Session logs, queue
-├── curation/                            # Session logs, synthesis queue
-├── research/target-specimens.json        # Sector coverage targets (AI Exposure × Output Type)
-└── scripts/                             # validate-workflow.js, overnight-*.py
+scripts/README.md                        # Active scripts documentation
+data/CHANGELOG.md                        # Append-only audit log
+data/specimen-lifecycle-status.md        # Pipeline dashboard (run specimen-lifecycle-status.js to regenerate)
 ```
 
 ---
