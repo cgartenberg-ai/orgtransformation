@@ -232,7 +232,7 @@ The `date` field is when the org REVEALED this state, not when we collected it.
 - `collectedDate`: today's date
 - `timestamp`: from session if audio/video source
 
-**`contingencies`**: Assess the 5 contingency variables if data supports it. Use null when insufficient data. Don't guess.
+**`contingencies`**: Assess the 6 contingency variables (regulatoryIntensity, timeToObsolescence, ceoTenure, talentMarketPosition, technicalDebt, environmentalAiPull) if data supports it. Use null when insufficient data. Don't guess.
 
 **`tensionPositions`**: Score -1.0 to +1.0 on each tension axis where data exists. Use null when insufficient. Include rationale in taxonomyFeedback if scores are non-obvious.
 

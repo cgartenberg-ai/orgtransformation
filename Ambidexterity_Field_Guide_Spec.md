@@ -232,7 +232,7 @@ Our organizational herbarium follows the same principles.
 - *Detailed workflow: skills/ambidexterity-research/SKILL.md*
 
 **Phase 2: Curation (Classification)**
-- Apply the 7-model taxonomy to each organization
+- Apply the 9-model taxonomy to each organization
 - Assign ambidexterity orientation
 - Structure findings into specimen cards
 - Link to relevant mechanisms
@@ -380,6 +380,7 @@ Beyond mechanisms, the synthesis phase surfaces two additional analytical dimens
 | **CEO tenure** | Long tenure → can protect long-horizon exploration; short tenure → execution focus |
 | **Talent market position** | Talent-rich → can staff separate units; talent-scarce → contextual approaches |
 | **Technical debt** | High debt → AI initiatives often stall; may need separate "greenfield" structures |
+| **Environmental AI pull** | Strong external pressure (competitors, adversaries, customers) → faster adoption, more structural commitment; weak pull → risk of premature over-investment |
 
 These tensions and contingencies help answer "it depends on what?" — the conditions under which different structural approaches succeed or struggle.
 
@@ -396,7 +397,7 @@ The existing research provides a strong empirical foundation:
 
 ### AI_Organizational_Models_Complete.docx → Core Taxonomy
 The comprehensive reference document (285+ cases) provides:
-- **6-Model Taxonomy** with sub-types — becomes Dimension 1 (Structural Model), expanded to 7 models with addition of Tiger Teams
+- **6-Model Taxonomy** with sub-types — becomes Dimension 1 (Structural Model), expanded to 9 models with addition of Tiger Teams, Skunkworks, and AI-Native
 - **77+ Named Product/Venture Labs** — richly documented specimens
 - **50+ Unnamed/Informal cases** — the "quiet transformation" often missed
 - **100+ Traditional Model examples by sector** — broad coverage
@@ -505,7 +506,7 @@ The three-phase workflow is fully operational, plus a fourth parallel track for 
 | **Mechanisms** | `synthesis/mechanisms.json` | Confirmed + candidate, with maturity lifecycle |
 | **Insights** | `synthesis/insights.json` | Growing collection, never deleted (guardrail) |
 | **Tensions** | `synthesis/tensions.json` | 5 core tensions (definitional) |
-| **Contingencies** | `synthesis/contingencies.json` | 5 key contingencies (definitional) |
+| **Contingencies** | `synthesis/contingencies.json` | 6 key contingencies (definitional) |
 | **Skills** | `.claude/skills/` | `/research`, `/curate`, `/synthesize`, `/purpose-claims` |
 | **Reference site** | `site/` | Working Next.js prototype with field journal |
 | **Classification guardrails** | `skills/ambidexterity-curation/SKILL.md` | 7 guardrails in curation protocol |

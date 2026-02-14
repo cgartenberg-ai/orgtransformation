@@ -30,7 +30,7 @@ You are a colleague and collaborator on this project — not an assistant. We ar
 
 1. **`APP_STATE.md`** — Read FIRST. Current state of everything: what's built, data counts, pipeline status. Session log is in `SESSION_LOG.md` (read only when needed for historical context).
 2. **`WORKFLOW.md`** — Complete command reference. **Read when running any research workflow.** Documents both research tracks, all skills, transcript discovery protocol, and file maps.
-3. **`Ambidexterity_Field_Guide_Spec.md`** — Product spec (v1.3): taxonomy (9 models × 3 orientations), specimen cards, mechanisms, tensions, contingencies, insights. Read when doing research/curation/synthesis.
+3. **`Ambidexterity_Field_Guide_Spec.md`** — Product spec (v1.4): taxonomy (9 models × 3 orientations), specimen cards, mechanisms, tensions, contingencies, insights. Read when doing research/curation/synthesis.
 4. **`SW_ARCHITECTURE.md`** — Software architecture for the Next.js site. Read when doing site development.
 5. **`UI_Spec.md`** — UI/UX design spec. Read when building new screens or components.
 6. **`NARRATIVE_SPEC.md`** — Narrative creation spec: how insights serve as citable empirical claims for writing chapters/articles. Read when doing narrative writing.
@@ -93,7 +93,7 @@ orgtransformation/
 ├── CLAUDE.md                    # THIS FILE — auto-read at session start
 ├── APP_STATE.md                 # Current state (updated each session)
 ├── WORKFLOW.md                  # Complete command reference
-├── Ambidexterity_Field_Guide_Spec.md  # Product spec (v1.3)
+├── Ambidexterity_Field_Guide_Spec.md  # Product spec (v1.4)
 ├── SW_ARCHITECTURE.md           # Site software architecture
 ├── UI_Spec.md                   # UI/UX design spec
 ├── NARRATIVE_SPEC.md            # Narrative creation spec
@@ -166,7 +166,9 @@ orgtransformation/
     ├── research/SKILL.md        # /research
     ├── curate/SKILL.md          # /curate
     ├── synthesize/SKILL.md      # /synthesize
-    └── purpose-claims/SKILL.md  # /purpose-claims
+    ├── purpose-claims/SKILL.md  # /purpose-claims
+    ├── update-literature/SKILL.md  # /update-literature
+    └── handoff/SKILL.md         # /handoff
 ```
 
 ---
@@ -181,6 +183,7 @@ orgtransformation/
 | Analyze patterns | `/synthesize` |
 | Collect purpose claims | `/purpose-claims [specimen-id]` |
 | Find transcripts | Follow `TRANSCRIPT-DISCOVERY-PROTOCOL.md` |
+| Add papers to lit review | `/update-literature` |
 | End a session | `/handoff` |
 
 ---

@@ -34,16 +34,16 @@ The reference site is a working Next.js prototype in `site/`. It implements UI S
 |-------|---------------|----------------|--------|
 | `/` | `app/page.tsx` | Stats, featured specimens, orientation breakdown | Working |
 | `/specimens` | `app/specimens/page.tsx` | `SpecimenBrowser` — filter by model, orientation, industry, completeness; text search | Working |
-| `/specimens/[id]` | `app/specimens/[id]/page.tsx` | 5 tabs: `OverviewTab`, `MechanismsTab`, `EvolutionTab`, `SourcesTab`, `RelatedTab` | Working |
+| `/specimens/[id]` | `app/specimens/[id]/page.tsx` | 6 tabs: `OverviewTab`, `MechanismsTab`, `PurposeClaimsTab`, `EvolutionTab`, `SourcesTab`, `RelatedTab` | Working |
 | `/taxonomy` | `app/taxonomy/page.tsx` | `TaxonomyMatrix`, `ModelAccordion`, `OrientationAccordion` — matrix + accordion sections with insights | Working |
-| `/taxonomy/model/[id]` | `app/taxonomy/model/[id]/page.tsx` | Model detail with description, specimens, common principles | Working |
-| `/taxonomy/orientation/[id]` | `app/taxonomy/orientation/[id]/page.tsx` | Orientation detail with specimens, common principles | Working |
+| `/taxonomy/models/[id]` | `app/taxonomy/models/[id]/page.tsx` | Model detail with description, specimens, common principles | Working |
+| `/taxonomy/orientations/[id]` | `app/taxonomy/orientations/[id]/page.tsx` | Orientation detail with specimens, common principles | Working |
 | `/ai-native` | `app/ai-native/page.tsx` | AI-native org analysis: model/orientation distribution, specimen grid | Working |
 | `/mechanisms` | `app/mechanisms/page.tsx` | Confirmed + candidate mechanisms list with maturity badges | Working |
 | `/mechanisms/[id]` | `app/mechanisms/[id]/page.tsx` | Individual mechanism with linked specimens, scholarly anchor | Working |
 | `/insights` | `app/insights/page.tsx` | Cross-cutting field insights grouped by theme | Working |
 | `/tensions` | `app/tensions/page.tsx` | `TensionMap` + enriched tension cards (drivers, contingencies, model clustering, interpretive notes) | Working |
-| `/matcher` | `app/matcher/page.tsx` | `MatcherForm` — 5-dimension matching with transparent scoring | Working |
+| `/matcher` | `app/matcher/page.tsx` | `MatcherForm` — 6-dimension matching with transparent scoring | Working |
 | `/compare` | `app/compare/page.tsx` | `ComparisonView` — side-by-side up to 4 | Working |
 | `/about` | `app/about/page.tsx` | Methodology, taxonomy reference, academic foundation | Working |
 | `/purpose-claims` | `app/purpose-claims/page.tsx` | `PurposeClaimsBrowser` — 4 view modes (By Specimen, By Type, Profiles/Spider Grid, Dot Map), enrichment display, starred claims | Working |
@@ -55,7 +55,7 @@ The reference site is a working Next.js prototype in `site/`. It implements UI S
 ```
 site/components/
 ├── layout/
-│   ├── SiteHeader.tsx          # Nav bar with 7 links (Specimens, Taxonomy, Principles, Insights, Tensions, Compare, About)
+│   ├── SiteHeader.tsx          # Nav bar with links (Specimens, Taxonomy, Principles, Insights, Purpose Claims, Tensions, Field Journal, Compare, About)
 │   └── SiteFooter.tsx          # Footer
 ├── specimens/
 │   ├── SpecimenBrowser.tsx     # Client: filterable list with search
@@ -77,7 +77,7 @@ site/components/
 │   ├── MatcherTabs.tsx         # Tab toggle (Chat Advisor / Quick Match)
 │   └── MatcherForm.tsx         # Client: dimension-based situation matcher
 ├── taxonomy/
-│   ├── TaxonomyMatrix.tsx      # Client: interactive 7x3 matrix
+│   ├── TaxonomyMatrix.tsx      # Client: interactive 9x3 matrix
 │   ├── ModelAccordion.tsx      # Client: expandable model section with mechanisms
 │   ├── OrientationAccordion.tsx # Client: expandable orientation section with mechanisms
 │   ├── ModelDetailPage.tsx     # Individual model detail with specimens
@@ -119,7 +119,7 @@ site/lib/
 │   │   ├── getSpecimenById(id)
 │   │   ├── getSpecimenIds()        # For generateStaticParams
 │   │   ├── getComputedStats()      # Aggregate counts
-│   │   └── getSpecimensByTaxonomy() # 7x3 matrix grouping
+│   │   └── getSpecimensByTaxonomy() # 9x3 matrix grouping
 │   ├── synthesis.ts        # File-based: reads ../synthesis/*.json
 │   │   ├── getMechanisms()
 │   │   ├── getTensions()
@@ -178,15 +178,15 @@ site/lib/
 - **1,522 purpose claims** across 145 specimens (v2.0 taxonomy: 6 types). All 149 specimens tracked in scan-tracker (0 unscanned).
 - **130 enrichment files** in `research/purpose-claims/enrichment/` with rhetorical profiles (claimTypeDistribution, keyFindings, rhetoricalPatterns). 19 scanned specimens still need enrichment.
 - **Visual analytics**: Spider/radar charts on specimen pages and purpose claims browser (Profiles view)
-- **Citation system**: `[source-id]` inline markers → `CitedText.tsx` superscript links. **30 High-completeness specimens** backfilled with citations across all observable markers.
+- **Citation system**: `[source-id]` inline markers → `CitedText.tsx` superscript links. **34 specimens** backfilled with `[source-id]` citations across observable markers.
 
 ### Source Registry
 
-45 sources tracked (19 Tier 1, 26 Tier 2) in `specimens/source-registry.json`
+45 sources tracked (20 Tier 1, 25 Tier 2) in `specimens/source-registry.json`
 
 ### Validation
 
-`node scripts/validate-workflow.js` — 0 errors, 27 warnings (16 sections including provenance checks, coverage gaps, enrichment completeness, registry freshness)
+`node scripts/validate-workflow.js` — 0 errors, 27 warnings (18 sections including provenance checks, coverage gaps, enrichment completeness, registry freshness, ID/filename consistency, schema validation)
 
 **Additional operational scripts** (see `scripts/README.md`):
 - `node scripts/specimen-lifecycle-status.js` — Pipeline dashboard → `data/specimen-lifecycle-status.{md,json}`
@@ -228,7 +228,7 @@ site/lib/
 - 38 active specimens not placed in any tension; 22 not in any contingency (see lifecycle dashboard)
 - 6 insights with thin evidence (only 1 specimen) — need more cases
 - Low-confidence specimens: see `research/low-confidence-queue.json`
-- **Citation backfill**: ✅ 30 High-completeness specimens now have `[source-id]` markers. Remaining specimens (Medium/Low completeness) can be backfilled as they're enriched.
+- **Citation backfill**: ✅ 34 specimens now have `[source-id]` markers. Remaining specimens can be backfilled as they're enriched.
 - **Purpose claims coverage**: 141/144 active specimens have claims. 3 with 0 claims (ig-group, indostar-capital, meta-reality-labs [deprecated]).
 
 ---
@@ -237,7 +237,7 @@ site/lib/
 
 ### Research (Phase 1)
 - 16+ sessions completed (in `research/sessions/`)
-- **10 Group A files in `research/pending/`** — processed research agent outputs retained for reference (deep-scans, earnings, podcasts, sweeps). 70 Group B curation artifacts archived to `research/pending/archived-curation-artifacts/`.
+- **7 Group A files in `research/pending/`** — processed research agent outputs retained for reference (deep-scans, earnings, podcasts, sweeps). 89 Group B curation artifacts archived to `research/pending/archived-curation-artifacts/`.
 - **37 target specimens** in `research/target-specimens.json` for systematic sector coverage
 - **Overnight automation**: `scripts/overnight-research.py` ready for unattended runs
 - **Field signals**: 37 tracked in `research/field-signals.json` (7 added Session 15c from podcast sweep)
@@ -272,4 +272,4 @@ data/specimen-lifecycle-status.md        # Pipeline dashboard (run specimen-life
 
 ## Session Log
 
-See **`SESSION_LOG.md`** for full session history (57 entries, Feb 1–13, 2026). Updated at end of each session per the Session End Protocol in `CLAUDE.md`.
+See **`SESSION_LOG.md`** for full session history (60 entries, Feb 1–14, 2026). Updated at end of each session per the Session End Protocol in `CLAUDE.md`.

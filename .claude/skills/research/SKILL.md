@@ -248,7 +248,7 @@ The file should contain:
       "text": "EXACT VERBATIM QUOTE — the leader's actual words",
       "speaker": "Full Name",
       "speakerTitle": "Title, Organization",
-      "claimType": "utopian | identity | teleological | transformation-framing | employee-deal | sacrifice-justification | direction-under-uncertainty",
+      "claimType": "utopian | teleological | higher-calling | identity | survival | commercial-success",
       "context": "1-2 sentence description of the AI-adaptation context in which this claim was made",
       "sourceUrl": "URL where the quote was found",
       "sourceType": "Earnings Call | Podcast | Press | etc.",

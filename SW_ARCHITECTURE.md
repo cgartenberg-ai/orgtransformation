@@ -1,6 +1,6 @@
 # Software Architecture: Ambidexterity Field Guide Site
 
-## Last Updated: February 3, 2026
+## Last Updated: February 14, 2026
 
 ---
 
@@ -34,7 +34,10 @@ JSON files (../specimens/, ../synthesis/)
 | `MatcherForm` | Form state, real-time scoring |
 | `TaxonomyMatrix` | Click interactions, cell selection |
 | `ComparisonView` | Specimen add/remove state |
+| `PurposeClaimsBrowser` | Multi-view mode (heatmap/dot/spider), filter state |
+| `ClaimsSpiderGrid` | Spider chart interactions, group toggle |
 | `TensionMap` | D3 force simulation, hover state |
+| `SpiderChart` | Pure React SVG, hover interactions |
 | `EvolutionTimeline` | D3 SVG rendering, Framer Motion |
 | `AnimatedList`, `AnimatedCard` | Framer Motion wrappers |
 
@@ -54,7 +57,7 @@ site/
 │   ├── page.tsx                    # Home: stats, featured specimens, model distribution
 │   ├── specimens/
 │   │   ├── page.tsx                # Browse: SpecimenBrowser with filters + search
-│   │   └── [id]/page.tsx           # Detail: 5-tab view (Overview, Mechanisms, Evolution, Sources, Related)
+│   │   └── [id]/page.tsx           # Detail: 6-tab view (Overview, Mechanisms, Purpose Claims, Evolution, Sources, Related)
 │   ├── taxonomy/
 │   │   ├── page.tsx                # Matrix: 9x3 interactive grid with model/orientation accordions
 │   │   ├── models/[id]/page.tsx    # Model detail: description, specimens, common principles
@@ -63,16 +66,20 @@ site/
 │   │   ├── page.tsx                # All: confirmed + candidate mechanisms with maturity badges
 │   │   └── [id]/page.tsx           # Detail: single mechanism with specimens, scholarly anchor, affinity profile
 │   ├── insights/page.tsx           # Field insights grouped by theme with maturity badges
+│   ├── purpose-claims/page.tsx      # Purpose claims browser: heatmap, dot map, spider grid views
+│   ├── field-journal/
+│   │   ├── page.tsx                # Field journal list: all synthesis sessions
+│   │   └── [id]/page.tsx           # Field journal entry: single session details
 │   ├── ai-native/page.tsx          # AI-native org analysis: M9 specimens, model/orientation distribution
 │   ├── tensions/page.tsx           # Map: D3 force-directed scatter with enriched tension cards
-│   ├── matcher/page.tsx            # Matcher: 5-dimension contingency matching + Claude chat advisor
+│   ├── matcher/page.tsx            # Matcher: 6-dimension contingency matching + Claude chat advisor
 │   ├── compare/page.tsx            # Compare: side-by-side up to 4
 │   ├── about/page.tsx              # About: methodology, taxonomy reference
 │   └── api/chat/route.ts           # Streaming Claude API endpoint for chat matcher
 │
 ├── components/
 │   ├── layout/
-│   │   ├── SiteHeader.tsx          # Nav with 7 links (Specimens, Taxonomy, Principles, Insights, Tensions, Compare, About)
+│   │   ├── SiteHeader.tsx          # Nav with links (Specimens, Taxonomy, Principles, Insights, Purpose Claims, Tensions, Field Journal, Compare, About)
 │   │   └── SiteFooter.tsx          # Footer
 │   ├── specimens/
 │   │   ├── SpecimenBrowser.tsx     # Client: multi-filter list (model, orientation, industry, completeness) + text search
@@ -81,6 +88,8 @@ site/
 │   │   ├── OverviewTab.tsx         # Description, quotes, observable markers, contingency profile
 │   │   ├── MechanismsTab.tsx       # Linked mechanisms with evidence
 │   │   ├── EvolutionTab.tsx        # Stratigraphic layers (timeline)
+│   │   ├── PurposeClaimsTab.tsx    # Purpose claims per specimen with enrichment
+│   │   ├── EnrichmentSummary.tsx   # Enrichment display with spider chart
 │   │   ├── SourcesTab.tsx          # Source citations table
 │   │   └── RelatedTab.tsx          # Related specimens (scored by similarity)
 │   ├── mechanisms/
@@ -95,14 +104,21 @@ site/
 │   │   └── OrientationAccordion.tsx # Client: expandable orientation section
 │   ├── compare/
 │   │   └── ComparisonView.tsx      # Client: side-by-side comparison
+│   ├── purpose-claims/
+│   │   ├── PurposeClaimsBrowser.tsx # Client: multi-view browser (heatmap, dot map, spider grid)
+│   │   ├── ClaimsHeatmap.tsx       # Client: claim type × model heatmap
+│   │   ├── ClaimsDotMap.tsx        # Client: dot map per specimen
+│   │   └── ClaimsSpiderGrid.tsx    # Client: spider chart small multiples grouped by model/industry
 │   ├── visualizations/
 │   │   ├── TensionMap.tsx          # Client: D3 force simulation on SVG
+│   │   ├── SpiderChart.tsx         # Pure React SVG radar chart (6 axes, one per claim type)
 │   │   └── EvolutionTimeline.tsx   # Client: D3/SVG vertical timeline with Framer Motion
 │   ├── motion/
 │   │   ├── AnimatedList.tsx        # Framer Motion AnimatePresence list wrapper
 │   │   └── AnimatedCard.tsx        # Framer Motion hover/tap card wrapper
 │   └── shared/
 │       ├── ClassificationBadge.tsx # Model/sub-type/orientation badges with color coding
+│       ├── CitedText.tsx           # Renders [source-id] markers as superscript numbered links
 │       ├── QuoteBlock.tsx          # Styled blockquote with speaker and source
 │       └── SourceCitation.tsx      # Source name, type, dates, link
 │
@@ -110,12 +126,19 @@ site/
     ├── types/
     │   ├── specimen.ts             # Full type hierarchy (see Section 4)
     │   ├── taxonomy.ts             # STRUCTURAL_MODELS, SUB_TYPES, ORIENTATIONS constants
-    │   └── synthesis.ts            # MechanismData, TensionData, ContingencyData, InsightData types (incl. InsightMaturity, MechanismMaturity)
+    │   ├── synthesis.ts            # MechanismData, TensionData, ContingencyData, InsightData types (incl. InsightMaturity, MechanismMaturity)
+    │   └── purpose-claims.ts       # PurposeClaimsData, PurposeClaim, SpecimenEnrichment, ClaimType
     ├── data/
     │   ├── specimens.ts            # Data access: getAllSpecimens, getSpecimenById, getComputedStats, getSpecimensByTaxonomy
-    │   └── synthesis.ts            # Data access: getMechanisms, getTensions, getContingencies, getInsights
+    │   ├── synthesis.ts            # Data access: getMechanisms, getTensions, getContingencies, getInsights
+    │   └── purpose-claims.ts       # Data access: getPurposeClaims, getSpecimenEnrichment, getAllEnrichments
+    ├── matcher/
+    │   └── buildSystemPrompt.ts    # Builds dynamic system prompt for Claude chat matcher from live data
     ├── matching.ts                 # Situation matcher scoring algorithm
-    └── utils.ts                    # cn() — clsx + tailwind-merge helper
+    ├── utils.ts                    # cn() — clsx + tailwind-merge helper
+    └── utils/
+        ├── citations.ts            # Parses [source-id] markers in text strings for CitedText
+        └── spider-data.ts          # normalizeDistribution() for spider chart axis scaling
 ```
 
 ---
@@ -132,16 +155,16 @@ interface Specimen {
   id: string;                           // Filename slug (e.g., "eli-lilly")
   name: string;                         // Display name
   title: string;                        // Descriptive subtitle
-  classification: Classification;       // Model (1-7), sub-type, orientation, confidence, typeSpecimen flag
+  classification: Classification;       // Model (1-9), sub-type, orientation, confidence, typeSpecimen flag
   habitat: Habitat;                     // Industry, sector, orgSize, employees, revenue, HQ, geography
   description: string;                  // 2-3 paragraph narrative
   observableMarkers: ObservableMarkers; // Reporting, resources, time horizons, decision rights, metrics
-  mechanisms: SpecimenMechanism[];      // Which of the 10 mechanisms this org demonstrates (id, name, evidence, strength)
+  mechanisms: SpecimenMechanism[];      // Which of the 9 confirmed mechanisms this org demonstrates (id, name, evidence, strength)
   quotes: Quote[];                      // Verbatim with speaker, title, source, URL, date
   layers: Layer[];                      // Stratigraphic evolution (date, summary, sourceRefs)
   sources: Source[];                    // All sources with type, URL, sourceDate, collectedDate
-  contingencies: Contingencies;         // 5 dimensions: regulatory, obsolescence, CEO tenure, talent, debt
-  tensionPositions: TensionPositions;   // 5 tension scores: -1.0 to +1.0 continuous scales
+  contingencies: Contingencies;         // 6 dimensions: regulatory, obsolescence, CEO tenure, talent, debt, environmentalAiPull
+  tensionPositions: TensionPositions;   // 5 tension scores (-1.0 to +1.0 continuous scales)
   openQuestions?: string[];             // Unresolved research questions
   taxonomyFeedback?: string[];          // Edge case notes for taxonomy refinement
   meta: SpecimenMeta;                   // Status, created, lastUpdated, completeness
@@ -187,7 +210,7 @@ interface TensionData {
 **Contingencies** (`../synthesis/contingencies.json`):
 ```typescript
 interface ContingencyData {
-  contingencies: ContingencyDefinition[];  // 5 contingencies: id, name, whatItDetermines, high{}, low{}
+  contingencies: ContingencyDefinition[];  // 6 contingencies: id, name, whatItDetermines, high{}, low{}
 }
 ```
 
@@ -200,11 +223,18 @@ interface ContingencyData {
 - `getSpecimenById(id)` — reads `../specimens/{id}.json`
 - `getSpecimenIds()` — for `generateStaticParams` (all IDs from getAllSpecimens)
 - `getComputedStats()` — aggregates: totalSpecimens, byModel, byOrientation, typeSpecimens, byCompleteness, byIndustry, industries list, lastUpdated
-- `getSpecimensByTaxonomy()` — groups into `Record<model, Record<orientation, Specimen[]>>` (7x3 matrix)
+- `getSpecimensByTaxonomy()` — groups into `Record<model, Record<orientation, Specimen[]>>` (9x3 matrix)
 
 **`lib/data/synthesis.ts`:**
 - `SYNTHESIS_DIR = path.resolve(process.cwd(), "..", "synthesis")`
-- `getMechanisms()`, `getTensions()`, `getContingencies()`, `getInsights()` — simple file reads with type casting
+- `getMechanisms()`, `getTensions()`, `getContingencies()`, `getInsights()` — simple file reads with type casting; all wrapped in try/catch with console.error fallback
+
+**`lib/data/purpose-claims.ts`:**
+- `CLAIMS_FILE` → `../research/purpose-claims/registry.json`
+- `ENRICHMENT_DIR` → `../research/purpose-claims/enrichment/`
+- `getPurposeClaims()` — reads registry, returns `PurposeClaimsData`; try/catch with empty fallback
+- `getSpecimenEnrichment(id)` — reads `enrichment/{id}.json`, returns `SpecimenEnrichment | null`
+- `getAllEnrichments()` — reads all enrichment files for spider grid views
 
 **No caching layer.** Per-request reads in dev mode; build-time reads for static pages.
 
@@ -225,12 +255,13 @@ Used by `RelatedTab.tsx`. Scoring:
 
 The Situation Matcher lets users input their organizational context and find peer specimens.
 
-**Input:** 5 contingency dimensions (all nullable — user can select any subset):
+**Input:** 6 contingency dimensions (all nullable — user can select any subset):
 - `regulatoryIntensity`: Low / Medium / High
 - `timeToObsolescence`: Slow / Medium / Fast
 - `ceoTenure`: Short / Medium / Long (Founder normalized to Long)
 - `talentMarketPosition`: Talent-rich / Talent-constrained / Non-traditional
 - `technicalDebt`: Low / Medium / High
+- `environmentalAiPull`: Low / Medium / High
 
 **Scoring:** Ordinal distance matching per dimension:
 - Exact match = 1.0
@@ -341,13 +372,16 @@ Each color has a full scale (50-900) defined in `tailwind.config.ts`.
 |-------|----------------------|---------------------|---------|
 | `/` | `getAllSpecimens`, `getComputedStats`, `getMechanisms`, `getInsights` | (none — server rendered) | No |
 | `/specimens` | `getAllSpecimens` | `SpecimenBrowser` | No |
-| `/specimens/[id]` | `getSpecimenById`, `getAllSpecimens` (related), `getMechanisms`, `getInsights` | `SpecimenTabs` | Yes (generateStaticParams) |
+| `/specimens/[id]` | `getSpecimenById`, `getAllSpecimens` (related), `getMechanisms`, `getInsights`, `getPurposeClaims`, `getSpecimenEnrichment` | `SpecimenTabs` | Yes (generateStaticParams) |
 | `/taxonomy` | `getSpecimensByTaxonomy`, `getMechanisms` | `TaxonomyMatrix`, `ModelAccordion`, `OrientationAccordion` | No |
 | `/taxonomy/models/[id]` | `getAllSpecimens`, `getMechanisms` | (none) | Yes (generateStaticParams) |
 | `/taxonomy/orientations/[id]` | `getAllSpecimens`, `getMechanisms` | (none) | Yes (generateStaticParams) |
 | `/mechanisms` | `getMechanisms` | (none) | No |
 | `/mechanisms/[id]` | `getMechanisms`, `getAllSpecimens` | (none) | Yes (generateStaticParams) |
 | `/insights` | `getInsights`, `getAllSpecimens` | (none) | No |
+| `/purpose-claims` | `getPurposeClaims`, `getAllEnrichments`, `getAllSpecimens` | `PurposeClaimsBrowser` | No |
+| `/field-journal` | synthesis session files | (none) | No |
+| `/field-journal/[id]` | single session file | (none) | Yes (generateStaticParams) |
 | `/ai-native` | `getAllSpecimens`, `getMechanisms` | (none) | No |
 | `/tensions` | `getTensions`, `getAllSpecimens` | `TensionMap` | No |
 | `/matcher` | `getAllSpecimens`, `getContingencies` | `MatcherForm`, `ChatMatcher` | No |
@@ -391,7 +425,7 @@ npm run lint     # ESLint
 
 ### Validation
 
-- **Data integrity:** `node scripts/validate-workflow.js` (from project root) — checks JSON schema, queue consistency
+- **Data integrity:** `node scripts/validate-workflow.js` (from project root) — 18-section validator covering JSON schema, queue consistency, purpose claims provenance, tension/contingency coverage, insight evidence, enrichment completeness, registry freshness, ID/filename consistency, and specimen schema validation
 - **Build verification:** `npm run build` in `site/` — TypeScript compilation + static generation catches type errors and data issues
 
 ---
