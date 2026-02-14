@@ -225,7 +225,7 @@ Our organizational herbarium follows the same principles.
 ```
 
 **Phase 1: Field Work (Research)**
-- Scan sources systematically (see sources.md)
+- Scan sources systematically (see research/sources.md)
 - Gather observations about organizations — wide (many orgs) and deep (specifics about each)
 - Record raw findings with full source provenance
 - No classification yet — just observation

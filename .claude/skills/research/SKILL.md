@@ -77,7 +77,7 @@ Execute a complete research session following the protocol above:
 4. Deep-scan high-priority content, applying the Relevance Test to every finding
 5. Record findings in a new session file: `research/sessions/YYYY-MM-DD-{description}.md`
 6. Update source-registry.json, research/queue.json, SESSION-LOG.md
-7. If new sources discovered, add to sources.md AND source-registry.json
+7. If new sources discovered, add to research/sources.md AND source-registry.json
 8. Run `node scripts/validate-workflow.js` to confirm consistency
 
 $ARGUMENTS
@@ -345,7 +345,7 @@ Also note any NEW companies discovered that aren't in our specimen collection.
 6. **Update `source-registry.json`** — Set `scannedThrough` and `lastScanned` from each agent's `sourceScanned`
 7. **Update `field-signals.json`** — Process broader trends from all agents
 8. **Update `SESSION-LOG.md`** — Add summary entry
-9. **If new sources discovered** — Add to `sources.md` and `source-registry.json`
+9. **If new sources discovered** — Add to `research/sources.md` and `source-registry.json`
 10. **Route purpose claims** — If any agents captured `purposeClaimsDiscovered`, write them to `research/purpose-claims/pending/research-cross-pollination-{date}.json` in the purpose claims pending format. These become leads for the next `/purpose-claims` run — not final claims (the purpose claims skill will verify verbatim accuracy and apply its own quality filters). Include `"source": "research-cross-pollination"` so the purpose claims merge can track provenance.
 11. Delete processed `pending/*.json` files (or move to `pending/processed/`)
 12. Run `node scripts/validate-workflow.js` to confirm consistency

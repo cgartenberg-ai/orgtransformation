@@ -1,6 +1,6 @@
 # Sources Quick Reference
 
-Full source list: `../../sources.md`
+Full source list: `../../research/sources.md`
 
 ## Tier 1 Podcasts (Check Every Episode)
 | Podcast | Focus |

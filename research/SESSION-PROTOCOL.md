@@ -47,7 +47,7 @@ Before starting, determine the research path:
 Before scanning anything:
 
 - [ ] Read `specimens/source-registry.json` — identify which sources have `scannedThrough: null` (never scanned) and which have stale `scannedThroughDate` (not scanned recently)
-- [ ] Read `sources.md` "Research Refresh Protocol" section for current weekly/monthly priorities
+- [ ] Read `research/sources.md` "Research Refresh Protocol" section for current weekly/monthly priorities
 - [ ] Plan which sources to scan this session — aim for **multiple source types** (e.g., podcasts + substacks + press), prioritizing:
   1. Tier 1 sources never scanned
   2. Tier 1 sources with new content since `scannedThroughDate`
@@ -89,7 +89,7 @@ This step ensures we don't miss available transcripts and systematically track w
    - Web search: `[podcast name] latest episodes 2026`
    - Or fetch the podcast website / Apple Podcasts / Spotify listing
 
-2. **Triage episodes using show notes** — don't deep-scan everything. Use the Episode Evaluation Criteria from `sources.md`:
+2. **Triage episodes using show notes** — don't deep-scan everything. Use the Episode Evaluation Criteria from `research/sources.md`:
    - **High Priority** (deep-scan): Guest is AI lab founder/leader, CAIO, or CEO discussing AI org structure; topic mentions venture studios, spin-offs, reorganization
    - **Medium Priority** (scan if time): CEO discusses AI strategy, enterprise AI deployment case study
    - **Low Priority** (skip): General AI trends, pure technical capabilities, policy/regulation
@@ -117,7 +117,7 @@ This step ensures we don't miss available transcripts and systematically track w
 
 ### Press Keyword Searches
 
-Run these searches (from `sources.md` lines 401-410) and scan results:
+Run these searches (from `research/sources.md` lines 401-410) and scan results:
 
 ```
 "AI lab" + [company name]
@@ -142,7 +142,7 @@ For each relevant result: read the article, apply Relevance Test, record finding
 
 ### SEC Filings & Earnings
 
-1. Search EDGAR for key companies (list in `sources.md` lines 366-372)
+1. Search EDGAR for key companies (list in `research/sources.md` lines 366-372)
 2. Search filings for: "artificial intelligence", "machine learning", "R&D", "generative", "large language model"
 3. Extract structural details: investment levels, headcount, reporting lines, new units
 
@@ -219,7 +219,7 @@ Any company surfaced by discovery searches that passes the Relevance Test → re
 
 ## During Scanning: Source Discovery
 
-As you scan sources, watch for **new sources** not yet in `sources.md`:
+As you scan sources, watch for **new sources** not yet in `research/sources.md`:
 - New podcasts mentioned by guests or hosts
 - New substacks or newsletters referenced in articles
 - Reports or white papers cited
@@ -227,7 +227,7 @@ As you scan sources, watch for **new sources** not yet in `sources.md`:
 
 If you discover a new relevant source:
 - Note it in the session file under "New Sources Discovered"
-- Add it to `sources.md` in the appropriate tier/category
+- Add it to `research/sources.md` in the appropriate tier/category
 - Add it to `specimens/source-registry.json` with `scannedThrough: null`
 
 ---
@@ -250,7 +250,7 @@ Before wrapping up the session, review all findings:
 - [ ] Complete the session file with all sections (Sources Scanned table, Organizations Observed, Source Index, Notes for Next Session)
 - [ ] Update `specimens/source-registry.json` — set `scannedThrough` and `lastScanned` for each source covered
 - [ ] Add session to `research/queue.json` with all organizations found
-- [ ] If new sources were discovered, add them to **both** `sources.md` and `source-registry.json`
+- [ ] If new sources were discovered, add them to **both** `research/sources.md` and `source-registry.json`
 - [ ] **Update `research/SESSION-LOG.md`** — add a summary entry at the top with: sources scanned, orgs found (table with key finding per org), broader trends, new sources discovered, sources updated, follow-ups needed
 - [ ] **Update `research/field-signals.json`** — see Field Signal Tracking below
 - [ ] Run `node scripts/validate-workflow.js` to confirm consistency
@@ -358,3 +358,7 @@ curation_status: "pending"
 ```
 
 Then follow the output format from `skills/ambidexterity-research/SKILL.md` for the body content.
+
+---
+
+**Session end:** When done with research, run `/handoff` to update the handoff document and session log.

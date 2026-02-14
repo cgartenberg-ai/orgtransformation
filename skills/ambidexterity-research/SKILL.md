@@ -23,7 +23,7 @@ Organizations that reveal **how** they structure AI initiatives — not just tha
 
 ## Source Priority
 
-See `references/sources-quick-ref.md` for quick reference, or `../../sources.md` for full source list. Priority order:
+See `references/sources-quick-ref.md` for quick reference, or `../../research/sources.md` for full source list. Priority order:
 
 1. **Tier 1 podcasts**: Cheeky Pint, No Priors, BG2, Dwarkesh, Latent Space, Acquired
 2. **Tier 1 substacks**: Stratechery, One Useful Thing, Not Boring
