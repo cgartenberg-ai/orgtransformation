@@ -29,9 +29,17 @@ from datetime import date, datetime
 from pathlib import Path
 from textwrap import dedent
 
+# ─── Shared Library ─────────────────────────────────────────────────────────
+
+sys.path.insert(0, str(Path(__file__).parent))
+from lib.utils import (
+    save_json, load_json, acquire_lock, release_lock,
+    preflight_check, setup_logging, write_changelog,
+    PROJECT_ROOT, BLOCKED_DOMAINS, CLAIM_TYPES,
+)
+
 # ─── Configuration ───────────────────────────────────────────────────────────
 
-PROJECT_ROOT = Path(__file__).parent.parent
 REGISTRY_PATH = PROJECT_ROOT / "research" / "purpose-claims" / "registry.json"
 SCAN_TRACKER_PATH = PROJECT_ROOT / "research" / "purpose-claims" / "scan-tracker.json"
 PENDING_DIR = PROJECT_ROOT / "research" / "purpose-claims" / "pending"
@@ -39,31 +47,13 @@ ENRICHMENT_DIR = PROJECT_ROOT / "research" / "purpose-claims" / "enrichment"
 SPECIMENS_DIR = PROJECT_ROOT / "specimens"
 SESSION_DIR = PROJECT_ROOT / "research" / "purpose-claims" / "sessions"
 
-CLAIM_TYPES = ["utopian", "teleological", "higher-calling", "identity", "survival", "commercial-success"]
-
 TIMEOUT_SECONDS = 30 * 60   # 30 minutes per agent
 PAUSE_BETWEEN = 10           # seconds between agents
 MAX_RETRIES = 1              # retry failed specimens once
 
-# Domains that always 403 — skip them
-BLOCKED_DOMAINS = [
-    "bloomberg.com", "wsj.com", "ft.com", "seekingalpha.com",
-    "investing.com", "klover.ai", "aimagazine.com", "biopharmadive.com"
-]
-
 # ─── Logging ─────────────────────────────────────────────────────────────────
 
-LOG_FILE = PROJECT_ROOT / "overnight-purpose-claims.log"
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[
-        logging.FileHandler(LOG_FILE),
-        logging.StreamHandler(sys.stdout),
-    ],
-)
-log = logging.getLogger(__name__)
+log = setup_logging("overnight-purpose-claims")
 
 # ─── Specimen Context Extraction ─────────────────────────────────────────────
 
@@ -390,8 +380,7 @@ def _write_enrichment_file(specimen_id: str, data: dict, valid_claims: list):
     }
 
     out_path = ENRICHMENT_DIR / f"{specimen_id}.json"
-    with open(out_path, "w") as f:
-        json.dump(enrichment, f, indent=2, ensure_ascii=False)
+    save_json(out_path, enrichment, backup=False)
     log.info(f"  Wrote enrichment: {out_path.name}")
 
 
@@ -506,20 +495,26 @@ def merge_pending_into_registry() -> tuple[int, list[str]]:
         if scan_narrative:
             _write_scan_narrative(specimen_id, data, scan_narrative)
 
-        # Move pending file to processed/ (not delete — preserves data on crash)
+        # Move pending file to processed/ BEFORE writing registry.
+        # This prevents duplicates on crash: if registry write fails,
+        # the pending file is already moved so re-run won't re-merge it.
         processed_dir = PENDING_DIR / "processed"
         processed_dir.mkdir(parents=True, exist_ok=True)
         pf.rename(processed_dir / pf.name)
 
-    # Write updated registry
+    # Write updated registry (atomic — crash won't corrupt)
     registry["lastUpdated"] = str(date.today())
-    with open(REGISTRY_PATH, "w") as f:
-        json.dump(registry, f, indent=2)
+    save_json(REGISTRY_PATH, registry)
 
-    # Write updated scan-tracker
+    # Write updated scan-tracker (atomic)
     tracker["lastUpdated"] = str(date.today())
-    with open(SCAN_TRACKER_PATH, "w") as f:
-        json.dump(tracker, f, indent=2)
+    save_json(SCAN_TRACKER_PATH, tracker)
+
+    # Audit log
+    write_changelog("overnight-purpose-claims.py", [
+        f"Merged {len(merged_specimens)} specimens into registry: {', '.join(merged_specimens)}",
+        f"Registry now has {len(registry['claims'])} total claims (+{total_added})",
+    ])
 
     log.info(
         f"  Registry: {len(registry['claims'])} total claims "
@@ -731,8 +726,27 @@ def main():
     log.info("OVERNIGHT PURPOSE CLAIMS RUN")
     log.info("=" * 60)
 
-    # Ensure pending directory exists
-    PENDING_DIR.mkdir(parents=True, exist_ok=True)
+    # ─── Preflight Checks ─────────────────────────────────────────────
+    failures = preflight_check(
+        required_files=[REGISTRY_PATH, SCAN_TRACKER_PATH],
+        check_claude_cli=not args.dry_run,
+        required_dirs=[PENDING_DIR, ENRICHMENT_DIR, SESSION_DIR],
+    )
+    if failures:
+        for f in failures:
+            log.error(f"PREFLIGHT FAIL: {f}")
+        log.error("Fix the above before running. Aborting.")
+        sys.exit(1)
+
+    # ─── Lock ─────────────────────────────────────────────────────────
+    lock_path = None
+    if not args.dry_run:
+        try:
+            lock_path = acquire_lock("overnight-purpose-claims")
+            log.info("Lock acquired")
+        except RuntimeError as e:
+            log.error(f"LOCK FAIL: {e}")
+            sys.exit(1)
 
     # Build queue
     if args.specimen:
@@ -916,12 +930,16 @@ def main():
 
     # Print final type distribution
     if not args.no_merge:
-        with open(REGISTRY_PATH) as f:
-            registry = json.load(f)
+        registry = load_json(REGISTRY_PATH)
         type_counts = Counter(c["claimType"] for c in registry["claims"])
         log.info(f"\nRegistry: {len(registry['claims'])} total claims")
-        for t in ["utopian", "teleological", "higher-calling", "identity", "survival", "commercial-success"]:
+        for t in CLAIM_TYPES:
             log.info(f"  {t}: {type_counts.get(t, 0)}")
+
+    # ─── Release Lock ─────────────────────────────────────────────────
+    if lock_path:
+        release_lock(lock_path)
+        log.info("Lock released")
 
 
 if __name__ == "__main__":

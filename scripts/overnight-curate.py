@@ -40,9 +40,17 @@ from datetime import date, datetime
 from pathlib import Path
 from textwrap import dedent
 
+# ─── Shared Library ─────────────────────────────────────────────────────────
+
+sys.path.insert(0, str(Path(__file__).parent))
+from lib.utils import (
+    save_json, load_json, acquire_lock, release_lock,
+    preflight_check, setup_logging, write_changelog,
+    PROJECT_ROOT, BLOCKED_DOMAINS,
+)
+
 # ─── Configuration ───────────────────────────────────────────────────────────
 
-PROJECT_ROOT = Path(__file__).parent.parent
 PENDING_DIR = PROJECT_ROOT / "research" / "pending"
 SPECIMENS_DIR = PROJECT_ROOT / "specimens"
 REGISTRY_FILE = SPECIMENS_DIR / "registry.json"
@@ -59,17 +67,7 @@ MAX_RETRY_ATTEMPTS = 3       # across runs, give up after this many total failur
 
 # ─── Logging ─────────────────────────────────────────────────────────────────
 
-LOG_FILE = PROJECT_ROOT / "overnight-curate.log"
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[
-        logging.FileHandler(LOG_FILE),
-        logging.StreamHandler(sys.stdout),
-    ],
-)
-log = logging.getLogger(__name__)
+log = setup_logging("overnight-curate")
 
 # ─── Taxonomy & Reference Constants ─────────────────────────────────────────
 
@@ -629,9 +627,7 @@ def update_specimen_registry(slug: str, specimen_data: dict):
     registry["byOrientation"] = dict(orient_counts)
     registry["lastUpdated"] = date.today().isoformat()
 
-    with open(REGISTRY_FILE, "w") as f:
-        json.dump(registry, f, indent=2)
-        f.write("\n")
+    save_json(REGISTRY_FILE, registry)
 
 
 def mark_curated_in_queue(slug: str, session_name: str):
@@ -649,9 +645,7 @@ def mark_curated_in_queue(slug: str, session_name: str):
 
     queue_data["lastUpdated"] = date.today().isoformat()
 
-    with open(QUEUE_FILE, "w") as f:
-        json.dump(queue_data, f, indent=2)
-        f.write("\n")
+    save_json(QUEUE_FILE, queue_data)
 
 
 def add_to_synthesis_queue(slug: str, action: str, notes: str):
@@ -679,9 +673,7 @@ def add_to_synthesis_queue(slug: str, action: str, notes: str):
     })
     sq["lastUpdated"] = date.today().isoformat()
 
-    with open(SYNTHESIS_QUEUE_FILE, "w") as f:
-        json.dump(sq, f, indent=2)
-        f.write("\n")
+    save_json(SYNTHESIS_QUEUE_FILE, sq)
 
 
 # ─── Retry Queue ─────────────────────────────────────────────────────────────
@@ -727,9 +719,7 @@ def update_retry_queue(failed_slugs: list[dict], succeeded_slugs: list[str]):
         "queue": list(existing.values()),
     }
 
-    with open(RETRY_QUEUE_FILE, "w") as f:
-        json.dump(retry_data, f, indent=2)
-        f.write("\n")
+    save_json(RETRY_QUEUE_FILE, retry_data)
 
     abandoned = [e for e in existing.values() if e.get("failCount", 0) >= MAX_RETRY_ATTEMPTS]
     if abandoned:
@@ -956,8 +946,27 @@ def main():
     log.info("OVERNIGHT CURATE RUN")
     log.info("=" * 60)
 
-    SPECIMENS_DIR.mkdir(parents=True, exist_ok=True)
-    CURATE_SESSION_DIR.mkdir(parents=True, exist_ok=True)
+    # ─── Preflight Checks ─────────────────────────────────────────────
+    failures = preflight_check(
+        required_files=[REGISTRY_FILE],
+        check_claude_cli=not args.dry_run,
+        required_dirs=[PENDING_DIR, SPECIMENS_DIR, CURATE_SESSION_DIR],
+    )
+    if failures:
+        for f in failures:
+            log.error(f"PREFLIGHT FAIL: {f}")
+        log.error("Fix the above before running. Aborting.")
+        sys.exit(1)
+
+    # ─── Lock ─────────────────────────────────────────────────────────
+    lock_path = None
+    if not args.dry_run:
+        try:
+            lock_path = acquire_lock("overnight-curate")
+            log.info("Lock acquired")
+        except RuntimeError as e:
+            log.error(f"LOCK FAIL: {e}")
+            sys.exit(1)
 
     # Snapshot existing registry for session log comparison
     try:
@@ -1219,6 +1228,19 @@ def main():
         start_time=start_time,
         existing_registry=existing_registry,
     )
+
+    # Audit log
+    if succeeded:
+        write_changelog("overnight-curate.py", [
+            f"Curated {len(succeeded)} specimens: {', '.join(r['slug'] for r in succeeded)}",
+            f"New: {len([r for r in succeeded if r.get('action') == 'new'])}, "
+            f"Updated: {len([r for r in succeeded if r.get('action') == 'updated'])}",
+        ])
+
+    # ─── Release Lock ─────────────────────────────────────────────────
+    if lock_path:
+        release_lock(lock_path)
+        log.info("Lock released")
 
     log.info("\nSpecimens queued for synthesis — run /synthesize next.")
 

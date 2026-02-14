@@ -35,9 +35,17 @@ from datetime import date, datetime
 from pathlib import Path
 from textwrap import dedent
 
+# ─── Shared Library ─────────────────────────────────────────────────────────
+
+sys.path.insert(0, str(Path(__file__).parent))
+from lib.utils import (
+    save_json, load_json, acquire_lock, release_lock,
+    preflight_check, setup_logging, write_changelog,
+    PROJECT_ROOT, BLOCKED_DOMAINS,
+)
+
 # ─── Configuration ───────────────────────────────────────────────────────────
 
-PROJECT_ROOT = Path(__file__).parent.parent
 TARGET_LIST = PROJECT_ROOT / "research" / "target-specimens.json"
 PENDING_DIR = PROJECT_ROOT / "research" / "pending"
 SPECIMENS_DIR = PROJECT_ROOT / "specimens"
@@ -48,24 +56,9 @@ TIMEOUT_SECONDS = 25 * 60   # 25 minutes per agent
 PAUSE_BETWEEN = 10           # seconds between agents
 MAX_RETRIES = 1              # retry failed targets once
 
-BLOCKED_DOMAINS = [
-    "bloomberg.com", "wsj.com", "ft.com", "seekingalpha.com",
-    "investing.com", "klover.ai", "aimagazine.com", "biopharmadive.com"
-]
-
 # ─── Logging ─────────────────────────────────────────────────────────────────
 
-LOG_FILE = PROJECT_ROOT / "overnight-research.log"
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[
-        logging.FileHandler(LOG_FILE),
-        logging.StreamHandler(sys.stdout),
-    ],
-)
-log = logging.getLogger(__name__)
+log = setup_logging("overnight-research")
 
 # ─── Taxonomy Reference ─────────────────────────────────────────────────────
 
@@ -380,8 +373,7 @@ def append_to_curation_queue(target: dict, slug: str):
     queue_data["queue"].append(entry)
     queue_data["lastUpdated"] = today_str
 
-    with open(QUEUE_FILE, "w") as f:
-        json.dump(queue_data, f, indent=2)
+    save_json(QUEUE_FILE, queue_data)
 
     log.info(f"  → Added {target['company']} to research/queue.json")
 
@@ -634,7 +626,27 @@ def main():
     log.info("OVERNIGHT RESEARCH RUN")
     log.info("=" * 60)
 
-    PENDING_DIR.mkdir(parents=True, exist_ok=True)
+    # ─── Preflight Checks ─────────────────────────────────────────────
+    failures = preflight_check(
+        required_files=[TARGET_LIST],
+        check_claude_cli=not args.dry_run,
+        required_dirs=[PENDING_DIR, SESSION_DIR],
+    )
+    if failures:
+        for f in failures:
+            log.error(f"PREFLIGHT FAIL: {f}")
+        log.error("Fix the above before running. Aborting.")
+        sys.exit(1)
+
+    # ─── Lock ─────────────────────────────────────────────────────────
+    lock_path = None
+    if not args.dry_run:
+        try:
+            lock_path = acquire_lock("overnight-research")
+            log.info("Lock acquired")
+        except RuntimeError as e:
+            log.error(f"LOCK FAIL: {e}")
+            sys.exit(1)
 
     # Load and filter queue
     queue = load_targets(
@@ -753,6 +765,19 @@ def main():
         log.info(f"\nFailed: {[r['company'] for r in failed_final]}")
 
     write_session_log(results, start_time)
+
+    # Audit log
+    if succeeded:
+        write_changelog("overnight-research.py", [
+            f"Scanned {len(succeeded)} targets: {', '.join(r['company'] for r in succeeded)}",
+            f"Total quotes found: {sum(r.get('quotes', 0) for r in succeeded)}",
+        ])
+
+    # ─── Release Lock ─────────────────────────────────────────────────
+    if lock_path:
+        release_lock(lock_path)
+        log.info("Lock released")
+
     log.info("\nPending files in research/pending/ — run /curate to create specimens.")
 
 
