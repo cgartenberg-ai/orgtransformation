@@ -48,7 +48,9 @@ SCRIPTS_DIR = PROJECT_ROOT / "scripts"
 
 # ─── Logging ─────────────────────────────────────────────────────────────────
 
-log = setup_logging("overnight-pipeline")
+REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+_log_path = REPORTS_DIR / f"{date.today().isoformat()}-pipeline.log"
+log = setup_logging("overnight-pipeline", log_file=_log_path)
 
 
 # ─── Time Budget ─────────────────────────────────────────────────────────────
@@ -112,27 +114,52 @@ def _parse_count(output: str, pattern: str) -> int:
 
 def run_subprocess(cmd: list[str], label: str, timeout_seconds: int = 3600,
                    dry_run: bool = False) -> tuple[bool, str]:
-    """Run a subprocess with timeout. Returns (success, output_summary)."""
+    """Run a subprocess with timeout, streaming output in real-time.
+
+    Child process stdout/stderr are streamed line-by-line to our log AND
+    captured in a buffer so downstream parsers can extract counts.
+    Returns (success, captured_output_tail).
+    """
     if dry_run:
         log.info(f"  [DRY RUN] Would run: {' '.join(cmd)}")
         return True, "[dry run]"
 
     log.info(f"  Running: {' '.join(cmd[:6])}...")
+    captured_lines: list[str] = []
     try:
-        result = subprocess.run(
-            cmd, capture_output=True, text=True, timeout=timeout_seconds,
-            cwd=str(PROJECT_ROOT),
+        # Merge stderr into stdout to avoid deadlock from full pipe buffers
+        proc = subprocess.Popen(
+            cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
+            text=True, cwd=str(PROJECT_ROOT),
         )
-        output = result.stdout[-1000:] if result.stdout else ""
-        if result.returncode != 0:
-            log.error(f"  {label} failed (exit {result.returncode})")
-            if result.stderr:
-                log.error(f"  stderr: {result.stderr[-500:]}")
-            return False, f"Exit {result.returncode}: {result.stderr[-200:]}"
+        deadline = time.time() + timeout_seconds
+
+        # Stream stdout line-by-line (includes stderr via STDOUT merge)
+        while True:
+            if time.time() > deadline:
+                proc.kill()
+                proc.wait()
+                log.error(f"  {label} TIMEOUT ({timeout_seconds}s)")
+                return False, "TIMEOUT"
+
+            line = proc.stdout.readline()
+            if not line and proc.poll() is not None:
+                break
+            if line:
+                stripped = line.rstrip()
+                log.info(f"  [{label}] {stripped}")
+                captured_lines.append(stripped)
+
+        if proc.returncode != 0:
+            log.error(f"  {label} failed (exit {proc.returncode})")
+            # Last 10 captured lines likely contain the error
+            tail = "\n".join(captured_lines[-10:])
+            return False, f"Exit {proc.returncode}: {tail[-500:]}"
+
+        # Return last 50 lines of captured output for count parsing
+        output = "\n".join(captured_lines[-50:])
         return True, output
-    except subprocess.TimeoutExpired:
-        log.error(f"  {label} TIMEOUT ({timeout_seconds}s)")
-        return False, "TIMEOUT"
+
     except Exception as e:
         log.error(f"  {label} exception: {e}")
         return False, str(e)
