@@ -1,0 +1,259 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "palantir",
+  "name": "Palantir",
+  "title": "Data Infrastructure Incumbent Repositioning as AI Orchestration Layer",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6b",
+    "subTypeName": "Centralized-but-Unnamed",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "RECLASSIFIED from M9 (AI-Native) to M6b (Centralized-but-Unnamed). Palantir was founded in 2003 as a data integration and intelligence analysis company — not an AI company. Core products (Gotham, Foundry) were built on ontologies, data pipelines, and analytical workflows. The AIP platform launched in 2023 as a response to the GenAI wave, not evidence of being born-AI. Karp's 'two decades converging into this moment' is retrospective narrative construction. The GenAI shock was a genuine disruption to Palantir's existing platform, requiring them to layer LLM orchestration onto a pre-GenAI tech stack — the same transformation challenge facing any enterprise software incumbent. M9 requires being founded with AI as the core purpose (e.g., Anthropic, OpenAI); Palantir was founded to solve data integration problems for intelligence agencies. The M6b classification captures their actual structure: a Head of AI Systems (Matt Welsh) but no branded AI lab or CoE, AI capability distributed throughout operations via the Foundry/AIP platform, and an informal 'engineering commune' culture. Confidence is Medium because internal organizational structure is poorly visible — the 'no org chart' framing may obscure real structure.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Technology",
+    "sector": "Defense / Enterprise AI",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": "$4.48B (FY 2025)",
+    "headquarters": "Denver, Colorado",
+    "geography": "Global"
+  },
+  "description": "Palantir is a data infrastructure company founded in 2003 to solve intelligence analysis and data integration problems for government agencies. Its core products — Gotham (intelligence), Foundry (enterprise data operations), Apollo (deployment) — were built on ontologies, data pipelines, and analytical workflows, not on AI/ML as a founding technology. While ML was part of the toolkit, the company's competitive moat was data integration and ontological modeling, not artificial intelligence.\n\nThe 2023 launch of AIP (Artificial Intelligence Platform) represents Palantir's response to the GenAI wave — layering LLM orchestration capabilities onto their existing platform. Karp's distinction between 'commoditization of cognition' and 'scaling the leverage' is a defensive repositioning: it frames Palantir's pre-existing data infrastructure as uniquely valuable in the AI era, but AIP was built because foundation models threatened to commoditize the very orchestration layer Palantir had monopolized.\n\nStructurally, Palantir has no formal AI lab, CoE, or branded AI organization. CEO Karp describes the company as an 'engineering commune' with no formal org chart. Matt Welsh holds the title 'Head of AI Systems' but this appears to be a technical leadership role within an informally structured company, not a dedicated AI unit. The 97% internal Foundry adoption demonstrates contextual ambidexterity — everyone uses the platform in their daily work. AI capability is distributed throughout operations rather than concentrated in a named structural entity.",
+  "observableMarkers": {
+    "reportingStructure": "Flat, informal. Karp 'works closely with dozens of executives' without formal org chart. Matt Welsh is Head of AI Systems but no branded AI lab or CoE. No CAIO. AI capability distributed through Foundry/AIP platform usage.",
+    "resourceAllocation": "R&D focused on platform development (Foundry, AIP, Apollo). No ring-fenced AI budget visible — AI investment is embedded in platform investment. Investment language centers on 'AIP and elite technical hiring.'",
+    "timeHorizons": "Mixed. Defense contracts are multi-year, commercial AIP deployments show quarterly acceleration. Karp's vision is explicitly long-term ('two decades converging into this moment').",
+    "decisionRights": "Highly centralized around Karp and core leadership. The 'engineering commune' culture tolerates internal disagreement but Karp sets strategic direction.",
+    "metrics": "Revenue growth (70% YoY Q4), Rule of 40 (114% Q3), customer expansion (61 deals >$10M in Q4), contract wins, commercial adoption rates."
+  },
+  "mechanisms": [
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "97% of employees use Foundry daily — extreme internal adoption of their own AI platform suggests consumer-grade usability for internal tools",
+      "strength": "Moderate"
+    },
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "evidence": "The 'engineering commune' culture with no formal org chart and 97% Foundry usage implies leadership is embedded in the same tooling as everyone else",
+      "strength": "Emerging"
+    },
+    {
+      "id": 8,
+      "name": "Turn Compliance Into Deployment Advantage",
+      "evidence": "Palantir's deep government/defense relationships (Army, Navy, NGA contracts) and security clearance infrastructure create deployment moats that competitors cannot easily replicate",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Large language models alone will not lead us to salvation.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "Q4 2025 Shareholder Letter",
+      "sourceUrl": "https://www.palantir.com/q4-2025-letter/en/",
+      "sourceDate": "2026-02",
+      "context": "Explaining Palantir's distinctive approach to AI vs. commoditized LLM providers"
+    },
+    {
+      "text": "The next step is for the market to differentiate between those supplying commoditization of cognition and those scaling the leverage made possible by it.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-02",
+      "context": "Positioning Palantir against commoditized AI/LLM providers"
+    },
+    {
+      "text": "A gulf is emerging between those who perceive the preconditions for harnessing the power of artificial intelligence and others who are far more vulnerable and adrift.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "Q4 2025 Shareholder Letter",
+      "sourceUrl": "https://www.palantir.com/q4-2025-letter/en/",
+      "sourceDate": "2026-02",
+      "context": "Describing widening divide in AI adoption capabilities"
+    },
+    {
+      "text": "The route for us to something universal—a generalizable artificial intelligence platform—was made possible by an obsessive focus on the specific.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "Q3 2025 Shareholder Letter",
+      "sourceUrl": "https://www.palantir.com/q3-2025-letter/en/",
+      "sourceDate": "2025-11",
+      "context": "Explaining how Palantir's customer-focused approach led to universal AI platform"
+    },
+    {
+      "text": "Our reluctance to abandon constraints has been a principal and driving force of our continued rise.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "Q3 2025 Shareholder Letter",
+      "sourceUrl": "https://www.palantir.com/q3-2025-letter/en/",
+      "sourceDate": "2025-11",
+      "context": "Describing organizational philosophy on deliberate constraints"
+    },
+    {
+      "text": "97% of our employees use Foundry daily.",
+      "speaker": "Palantir Executive",
+      "speakerTitle": "Unknown",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-02",
+      "context": "Demonstrating internal dog-fooding of AI platform"
+    },
+    {
+      "text": "AI is going to help many people with vocational training, but no college degree, make a lot more money because of the value being created.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "The Axios Show",
+      "sourceUrl": "https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios",
+      "sourceDate": "2025-11",
+      "context": "On AI's impact on workforce and education"
+    },
+    {
+      "text": "Everything we've built over two decades is converging into this moment.",
+      "speaker": "Palantir",
+      "speakerTitle": "Corporate",
+      "source": "Company Statement",
+      "sourceUrl": "https://finance.yahoo.com/news/palantir-technologies-inc-pltr-q4-050032107.html",
+      "sourceDate": "2026-02",
+      "context": "Entering 2026 positioning"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Reclassification: M9 → M6b",
+      "classification": {
+        "previousModel": 9,
+        "previousModelName": "AI-Native",
+        "newModel": 6,
+        "newModelName": "Unnamed/Informal",
+        "newSubType": "6b"
+      },
+      "summary": "Reclassified from M9 (AI-Native) to M6b (Centralized-but-Unnamed). Palantir was founded in 2003 as a data integration/intelligence analysis company, not an AI company. AIP launched 2023 as a GenAI response, not evidence of being born-AI. Karp's retrospective framing ('two decades converging into this moment') is narrative construction — the GenAI shock was genuinely disruptive to their existing ontology-based platform. M9 requires founding purpose to be AI (e.g., Anthropic, OpenAI); Palantir's founding purpose was data infrastructure for intelligence agencies. Using ML in your product ≠ AI-native. The AI-native prestige trap (Guardrail 5) applies: companies that talk fluently about AI get over-classified into M9.",
+      "sourceRefs": [
+        "palantir-q4-2025-letter",
+        "palantir-q4-2025-earnings"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Initial observation",
+      "summary": "Palantir documented via overnight research scan. Engineering commune culture, no formal org chart, 97% internal Foundry adoption, Head of AI Systems (Matt Welsh). Major defense contracts ($10B Army, $646M NGA, $448M Navy) alongside rapid commercial growth (70% YoY). AIP platform launched 2023. Strategic positioning as 'orchestration layer' between raw AI and enterprise reality.",
+      "sourceRefs": [
+        "palantir-q4-2025-letter",
+        "palantir-q4-2025-earnings",
+        "palantir-q3-2025-letter",
+        "palantir-the-information-org"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "palantir-q4-2025-letter",
+      "name": "Q4 2025 Shareholder Letter",
+      "type": "Shareholder Letter",
+      "url": "https://www.palantir.com/q4-2025-letter/en/",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "palantir-q4-2025-earnings",
+      "name": "Q4 2025 Earnings Call Transcript",
+      "type": "Earnings Call",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-02",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "palantir-q3-2025-letter",
+      "name": "Q3 2025 Shareholder Letter",
+      "type": "Shareholder Letter",
+      "url": "https://www.palantir.com/q3-2025-letter/en/",
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "palantir-axios-2025",
+      "name": "The Axios Show - Alex Karp Interview",
+      "type": "Interview",
+      "url": "https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios",
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "palantir-acquirers-multiple-2025",
+      "name": "Palantir Q3 2025 Analysis - Acquirer's Multiple",
+      "type": "Press",
+      "url": "https://acquirersmultiple.com/2025/11/palantir-q3-2025-record-growth-114-rule-of-40-and-a-defining-moment-for-enterprise-ai/",
+      "sourceDate": "2025-11",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "palantir-the-information-org",
+      "name": "The Information Org Chart",
+      "type": "Report",
+      "url": "https://www.theinformation.com/org-charts/palantir",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "palantir-r1-ai-lab",
+      "name": "R1 + Palantir AI Lab Launch (R37)",
+      "type": "Press",
+      "url": "https://finance.yahoo.com/news/r1-launches-r37-ai-lab-105900620.html",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "palantir-hd-hyundai-coe",
+      "name": "HD Hyundai AI Center of Excellence Partnership",
+      "type": "Press",
+      "url": "https://finance.yahoo.com/news/palantir-deepens-global-ai-infrastructure-070635501.html",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low",
+    "environmentalAiPull": "Strong"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.8,
+    "speedVsDepth": 0.0,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.6,
+    "longVsShortHorizon": 0.0
+  },
+  "openQuestions": [
+    "What is Matt Welsh's (Head of AI Systems) specific scope vs. Shyam Sankar's product oversight?",
+    "How does the 'engineering commune' actually make decisions on major AI investments?",
+    "What is the internal structure of the AIP product team vs. Foundry vs. Gotham teams?",
+    "How autonomous are Forward Deployed Engineers in making AI decisions at customer sites?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] RECLASSIFIED M9→M6b. Palantir triggered the AI-native prestige trap: a data infrastructure company that talks fluently about AI was mistakenly classified as born-AI. The test for M9 is founding purpose, not current product capability. Palantir was founded for data integration and intelligence analysis (2003); AIP launched as a GenAI response (2023). Using ML ≠ AI-native. This case prompted hardening of Guardrail 5.",
+    "[2026-02] The deliberate absence of formal org structure is not organizational immaturity — it appears to be a designed mechanism for maintaining contextual ambidexterity. 'No one owns AI because everyone owns AI' via 97% Foundry adoption. This challenges the assumption that scaling requires formal structure; Palantir suggests informal structure can be a deliberate strategic choice at $4.5B revenue.",
+    "[2026-02] Palantir extends its own contextual model to customers through 'bootcamp' partnerships and embedded Centers of Excellence (HD Hyundai example). This is an interesting pattern: a platform company that helps traditional enterprises adopt M4 (Hub-and-Spoke) structures using Palantir as the hub infrastructure.",
+    "[2026-02] Karp's 'LLMs alone will not lead us to salvation' and 'commoditization of cognition vs. scaling leverage' rhetoric is defensive repositioning by an incumbent whose moat (ontologies, FDEs, data integration) is threatened by foundation models. This is analytically similar to incumbents in other industries framing disruption as opportunity rather than threat."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-14",
+    "lastUpdated": "2026-02-15",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

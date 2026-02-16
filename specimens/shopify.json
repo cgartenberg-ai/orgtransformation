@@ -1,51 +1,171 @@
 {
   "id": "shopify",
   "name": "Shopify",
-  "title": "AI as Baseline Expectation — Prove AI Can't Do It",
+  "title": "CEO Mandate Drives AI-First Behavioral Expectations",
   "classification": {
-    "structuralModel": 3,
-    "structuralModelName": "Embedded Teams",
-    "subType": null,
-    "subTypeName": null,
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
     "secondaryModel": null,
     "secondaryModelName": null,
     "orientation": "Contextual",
     "orientationName": "Contextual",
-    "confidence": "Medium",
-    "classificationRationale": "Validated Model 3 (Embedded Teams) with Contextual orientation. CEO Lütke's mandate ('prove AI can't do it before hiring') makes AI proficiency a condition of employment and resource allocation. No separate AI lab — AI tools embedded into every role. Contextual: individuals balance AI-assisted and traditional work within their roles. Strong Model 6c (Grassroots) elements as CEO mandate formalizes what employees were already doing.",
-    "typeSpecimen": false
+    "confidence": "High",
+    "classificationRationale": "Shopify exemplifies textbook contextual ambidexterity with M6 (6a) structure. No CAIO or dedicated AI org exists \u2014 ML is distributed across product teams with CEO mandate as the coordination mechanism. The key distinguishing features: (1) AI proficiency embedded in performance reviews, (2) tools universally provisioned to all employees, (3) headcount requests must justify why AI can't do the work, (4) explicit expectation that 'reflexive AI usage is now a baseline.' This is not structural separation but behavioral expectations applied organization-wide, making it 6a (Enterprise-Wide Adoption) rather than 6b (Centralized-but-Unnamed).",
+    "typeSpecimen": true
   },
   "habitat": {
     "industry": "E-commerce",
     "sector": "Commerce Platform / SaaS",
     "orgSize": "Enterprise",
     "employees": 8100,
-    "revenue": null,
+    "revenue": "$11.56B",
     "headquarters": "Ottawa, Canada",
     "geography": "Global"
   },
-  "description": "Shopify represents one of the clearest examples of contextual ambidexterity: CEO Tobi Lütke mandated that employees must 'show jobs can't be done by artificial intelligence before asking for more headcount and resources.' Rather than creating a separate AI lab, Shopify embedded AI capability expectations into every role — making AI proficiency a condition of employment and resource allocation.\n\nAI usage is now a 'baseline expectation' that influences performance reviews. Lütke expects employees to use AI as 'a thought partner, deep researcher, critic, tutor, or pair programmer.' Developers have access to Copilot, Cursor, and Claude Code 'all pre-tooled and ready to go.' AI integration is formally part of monthly business reviews and product development cycles.\n\nThe approach extends to products: Shopify Magic and Sidekick externalize this AI-first philosophy to merchants. The Winter 2025 'RenAIssance edition' contained 150+ AI-focused product updates. By Winter 2026, Shopify introduced 'Agentic Storefronts' — making every store agent-ready by default. Headcount dropped from 8,300 to 8,100 over the past year while output increased.",
+  "description": "Shopify represents a remarkably pure specimen of contextual ambidexterity. Rather than creating a dedicated AI unit or appointing a CAIO, CEO Tobias L\u00fctke has implemented AI transformation through behavioral expectations embedded in organizational norms. The April 2025 internal memo established that 'reflexive AI usage is now a baseline expectation' and that teams must demonstrate why AI cannot accomplish their goals before requesting additional headcount. This policy is enforced through performance reviews that now evaluate AI usage.\n\nThe infrastructure supports this contextual approach: AI tools (Copilot, Cursor, Claude Code) are pre-provisioned to all employees, and ML capabilities are distributed across functional areas rather than centralized. Teams work on product classification, fraud modeling, Sidekick development, search/discovery, and behavioral modeling without a unified AI organization coordinating them. The result is measurable: revenue per employee exceeds $1.3M (double prior levels) while headcount stays flat.\n\nL\u00fctke frames AI as a differentiator between high and low performers, citing that 'brilliant usage of AI is already helping high-achievers accomplish 100x the work.' This creates competitive pressure without structural change \u2014 exploration and execution happen within the same roles, not in separate units. The elimination of the Head of Localization role (after achieving 100x translation speedups) suggests this approach enables real workforce composition shifts, even if overall headcount appears stable.",
   "observableMarkers": {
-    "reportingStructure": "No separate AI team. CEO directly mandates AI proficiency for all roles.",
-    "resourceAllocation": "Headcount requests must prove AI can't do the job first. Tools (Copilot, Cursor, Claude Code) pre-provisioned.",
-    "timeHorizons": "Quarterly product cycles with continuous AI integration",
-    "decisionRights": "CEO sets AI-first mandate; individual teams decide implementation; performance reviews include AI usage",
-    "metrics": "Headcount: 8,300 → 8,100. 150+ AI product updates (Winter 2025). Agentic Storefronts (Winter 2026)."
+    "reportingStructure": "No CAIO or dedicated AI leadership. CEO L\u00fctke sets AI mandate directly. VP Product (Seidman) oversees AI-native platform. ML distributed across product teams, not centralized. Head of Localization role eliminated \u2014 localization now AI-driven.",
+    "resourceAllocation": "Infrastructure: GCP (primary), Nebius (training), CentML (GPU), Toloka (data labeling). Models: finetuned Qwen multimodal, LLaMA, Nomic embeddings. Tools: Copilot, Cursor, Claude Code pre-provisioned to all employees. No separate AI budget disclosed \u2014 AI spending embedded in platform development.",
+    "timeHorizons": "Executive framing: 'We think in decades, not in quarters.' FY 2025 was 'year of robust growth and investment, particularly in AI.' 2026 positioned as year 'AI era has reached commerce...at scale.' Q1 2026 guidance: low 30% revenue growth expected.",
+    "decisionRights": "CEO L\u00fctke: 'Before asking for more Headcount and resources, teams must demonstrate why they cannot get what they want done using AI.' Teams can opt out of AI training but L\u00fctke warned approach 'appears unsustainable.' Performance reviews now include AI usage evaluation.",
+    "metrics": "Sidekick (3 weeks): ~4,000 custom apps generated, 29,000+ automations via Flow, 1.2M photos edited. AI search orders: 15x growth since Jan 2025. Translations: 100x speedup achieved. High-achievers: '100x the work' per L\u00fctke. GMV: $378.4B (+29%). B2B GMV: +96% YoY. Revenue per employee: >$1.3M (more than double prior levels)."
   },
   "mechanisms": [
     {
       "id": 7,
       "name": "Put Executives on the Tools",
-      "evidence": "CEO Tobi Lütke personally uses AI tools and mandates company-wide AI proficiency as a condition of hiring and resource allocation. AI usage is part of performance reviews.",
+      "evidence": "L\u00fctke personally uses AI tools and cites specific examples (translations 100x faster, large-scale refactors) in internal memos. Executive credibility on AI comes from direct usage, not delegation.",
       "strength": "Strong"
+    },
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "Copilot, Cursor, and Claude Code pre-provisioned to all employees. AI tools treated as standard productivity infrastructure, not specialized equipment. Sidekick evolution from assistant to 'proactive collaborator' emphasizes ease of use.",
+      "strength": "Strong"
+    },
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Universal AI tool provisioning across all employees. Sidekick generated 4,000+ custom apps and 29,000+ automations in just 3 weeks. 'AI era has reached commerce...at scale' framing indicates prioritizing deployment breadth.",
+      "strength": "Moderate"
     }
   ],
-  "quotes": [],
+  "quotes": [
+    {
+      "text": "Reflexive AI usage is now a baseline expectation at Shopify.",
+      "speaker": "Tobias L\u00fctke",
+      "speakerTitle": "CEO",
+      "source": "X/Twitter (leaked internal memo)",
+      "sourceUrl": "https://x.com/tobi/status/1909251946235437514",
+      "date": "2025-04"
+    },
+    {
+      "text": "Before asking for more Headcount and resources, teams must demonstrate why they cannot get what they want done using AI.",
+      "speaker": "Tobias L\u00fctke",
+      "speakerTitle": "CEO",
+      "source": "Slator / Internal Memo",
+      "sourceUrl": "https://slator.com/in-internal-memo-shopify-ceo-says-ai-has-already-sped-up-translations-100x/",
+      "date": "2025-04"
+    },
+    {
+      "text": "brilliant usage of AI is already helping high-achievers accomplish 100x the work.",
+      "speaker": "Tobias L\u00fctke",
+      "speakerTitle": "CEO",
+      "source": "Slator / Internal Memo",
+      "sourceUrl": "https://slator.com/in-internal-memo-shopify-ceo-says-ai-has-already-sped-up-translations-100x/",
+      "date": "2025-04"
+    },
+    {
+      "text": "Our task here at Shopify is to make our software unquestionably the best canvas on which to develop the best businesses of the future. For that we need to be absolutely ahead.",
+      "speaker": "Tobias L\u00fctke",
+      "speakerTitle": "CEO",
+      "source": "Slator / Internal Memo",
+      "sourceUrl": "https://slator.com/in-internal-memo-shopify-ceo-says-ai-has-already-sped-up-translations-100x/",
+      "date": "2025-04"
+    },
+    {
+      "text": "Everywhere commerce is happening \u2014 we are in pole position on agentic commerce.",
+      "speaker": "Harley Finkelstein",
+      "speakerTitle": "President",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+      "date": "2026-02-11"
+    },
+    {
+      "text": "We have trillions of data points from billions of transactions across millions of merchants...we have a more diverse commerce data set than almost anyone else.",
+      "speaker": "Harley Finkelstein",
+      "speakerTitle": "President",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+      "date": "2026-02-11"
+    },
+    {
+      "text": "We are about to see more billion-dollar brands born in the next decade than we did in the last century, and our focus is on making sure that we will be the ones powering them.",
+      "speaker": "Harley Finkelstein",
+      "speakerTitle": "President",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+      "date": "2026-02-11"
+    },
+    {
+      "text": "We rewired the platform to be AI-first and instant...effectively eliminating the latency between having an idea and getting validated, working code.",
+      "speaker": "Eytan Seidman",
+      "speakerTitle": "VP of Product",
+      "source": "Shopify Winter '26 Edition",
+      "sourceUrl": "https://www.shopify.com/news/winter-26-edition-dev",
+      "date": "2026-02"
+    },
+    {
+      "text": "2026 is about to show the world what he meant by that. The AI era has now reached commerce, and you're about to see what that looks like at scale.",
+      "speaker": "Harley Finkelstein",
+      "speakerTitle": "President",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+      "date": "2026-02-11"
+    },
+    {
+      "text": "what I hope you've come to understand about Shopify is that we think in decades, not in quarters.",
+      "speaker": "Harley Finkelstein",
+      "speakerTitle": "President",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+      "date": "2026-02-11"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "MCP Everything + Unlimited AI Spending + 1K Intern Target",
+      "summary": "Shopify Q4 2025 earnings reveal massive AI integration: universal model access with unlimited AI spending authorized. MCP Everything initiative \u2014 Model Context Protocol adopted as organizational standard. AI embedded in performance reviews. 80% Copilot adoption in 1 year. 1,000 intern target framed as 'AI centaurs' (human+AI hybrids). Universal Commerce Protocol partnership with Google. Context engineering adopted as formal organizational practice. 14 total findings \u2014 richest earnings data in batch.",
+      "classification": null,
+      "sourceRefs": [
+        "shopify-q4-2025-earnings"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Enrichment: M3\u2192M6",
+      "summary": "Reclassified from M3 (Embedded Teams) Contextual to M6 (Unnamed/Informal) Contextual based on enrichment data. Confidence: Medium\u2192High.",
+      "classification": {
+        "previousModel": 3,
+        "previousModelName": "Embedded Teams",
+        "previousOrientation": "Contextual",
+        "newModel": 6,
+        "newModelName": "Unnamed/Informal",
+        "newOrientation": "Contextual"
+      },
+      "sourceRefs": [
+        "enrich-shopify-q4-2025-earnings",
+        "enrich-shopify-lutke-memo-2025",
+        "enrich-shopify-ml-engineering"
+      ]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
-      "summary": "Validated Model 3 Contextual classification. Fixed industry from Technology to E-commerce. Added Mechanism #7 (Put Executives on the Tools — CEO mandate). Added habitat data (8,100 employees, Ottawa HQ). Added observable markers and classification rationale.",
+      "summary": "Validated Model 3 Contextual classification. Fixed industry from Technology to E-commerce. Added Mechanism #7 (Put Executives on the Tools \u2014 CEO mandate). Added habitat data (8,100 employees, Ottawa HQ). Added observable markers and classification rationale.",
       "classification": null,
       "sourceRefs": [
         "source-1",
@@ -57,14 +177,14 @@
     {
       "date": "2026-01",
       "label": "Latest Update",
-      "summary": "Winter 2026 Edition introduced 'Agentic Storefronts' — making every Shopify store agent-ready by default.",
+      "summary": "Winter 2026 Edition introduced 'Agentic Storefronts' \u2014 making every Shopify store agent-ready by default.",
       "classification": null,
       "sourceRefs": []
     },
     {
       "date": "2025",
       "label": "Initial Documentation",
-      "summary": "CEO Tobi Lütke mandated AI proficiency as condition of employment and resource allocation. AI embedded across all roles.",
+      "summary": "CEO Tobi L\u00fctke mandated AI proficiency as condition of employment and resource allocation. AI embedded across all roles.",
       "classification": null,
       "sourceRefs": [
         "source-1",
@@ -83,7 +203,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL] [no URL — legacy conversion]"
+      "notes": "[no URL] [no URL \u2014 legacy conversion]"
     },
     {
       "id": "source-2",
@@ -93,7 +213,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL] [no URL — legacy conversion]"
+      "notes": "[no URL] [no URL \u2014 legacy conversion]"
     },
     {
       "id": "source-3",
@@ -103,7 +223,7 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL] [no URL — legacy conversion]"
+      "notes": "[no URL] [no URL \u2014 legacy conversion]"
     },
     {
       "id": "source-4",
@@ -113,15 +233,79 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[no URL] [no URL — legacy conversion]"
+      "notes": "[no URL] [no URL \u2014 legacy conversion]"
+    },
+    {
+      "id": "enrich-shopify-q4-2025-earnings",
+      "type": "Earnings Call",
+      "name": "Q4 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-11",
+      "collectedDate": "2026-02-14",
+      "notes": "Key source for financial metrics, Sidekick performance data, agentic commerce strategy quotes from Finkelstein"
+    },
+    {
+      "id": "enrich-shopify-lutke-memo-2025",
+      "type": "Press",
+      "name": "Slator - CEO Memo on AI and Translations",
+      "url": "https://slator.com/in-internal-memo-shopify-ceo-says-ai-has-already-sped-up-translations-100x/",
+      "sourceDate": "2025-04",
+      "collectedDate": "2026-02-14",
+      "notes": "Verbatim L\u00fctke quotes about AI mandate, 100x productivity claims, headcount policy"
+    },
+    {
+      "id": "enrich-shopify-ml-engineering",
+      "type": "Blog",
+      "name": "Shopify Engineering - Machine Learning at Shopify",
+      "url": "https://shopify.engineering/machine-learning-at-shopify",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14",
+      "notes": "Infrastructure details (GCP, Nebius, CentML, Toloka), model stack (Qwen, LLaMA, Nomic), distributed ML org structure"
+    },
+    {
+      "id": "enrich-shopify-winter-26-edition",
+      "type": "Press Release",
+      "name": "Winter '26 Edition - Developer Announcement",
+      "url": "https://www.shopify.com/news/winter-26-edition-dev",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-14",
+      "notes": "AI-native platform details, Dev MCP Server, Seidman quote, Sidekick evolution, Tangle platform"
+    },
+    {
+      "id": "enrich-shopify-dc360-2025-revenue",
+      "type": "Press",
+      "name": "Digital Commerce 360 - 2025 Revenue Analysis",
+      "url": "https://www.digitalcommerce360.com/2026/02/12/shopify-revenue-b2b-sales-ai-2025/",
+      "sourceDate": "2026-02-12",
+      "collectedDate": "2026-02-14",
+      "notes": "FY 2025 financial summary: $11.56B revenue, $1.47B operating income, B2B growth"
+    },
+    {
+      "id": "enrich-shopify-mit-cdo-2025",
+      "type": "Press",
+      "name": "MIT CDO - L\u00fctke AI Expectation Article",
+      "url": "https://cdo.mit.edu/blog/2025/04/11/shopify-ceo-tobi-lutke-ai-is-now-a-fundamental-expectation-for-employeeslutke-says-managers-asking-for-new-human-talent-will-have-to-explain-why-the-job-cant-be-done-by-ai/",
+      "sourceDate": "2025-04-11",
+      "collectedDate": "2026-02-14",
+      "notes": "Performance review integration, AI tools (Copilot, Cursor, Claude Code) pre-provisioned"
+    },
+    {
+      "id": "shopify-q4-2025-earnings",
+      "type": "Earnings Call",
+      "name": "Shopify Q4 2025 Earnings Coverage",
+      "url": null,
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-15",
+      "notes": "[no URL \u2014 research agent summary]"
     }
   ],
   "contingencies": {
     "regulatoryIntensity": "Low",
-    "timeToObsolescence": "Fast",
+    "timeToObsolescence": "Medium",
     "ceoTenure": "Founder",
     "talentMarketPosition": "Talent-rich",
-    "technicalDebt": "Low"
+    "technicalDebt": "Low",
+    "environmentalAiPull": "Strong"
   },
   "tensionPositions": {
     "structuralVsContextual": 0.9,
@@ -131,19 +315,27 @@
     "longVsShortHorizon": 0.5
   },
   "openQuestions": [
-    "How is the 'prove AI can't do it' mandate enforced in practice — what evidence is required?",
+    "How is the 'prove AI can't do it' mandate enforced in practice \u2014 what evidence is required?",
     "Has Shopify's headcount reduction been primarily in AI-replaceable roles?",
-    "How do Shopify's merchants respond to the AI-first product strategy?"
+    "How do Shopify's merchants respond to the AI-first product strategy?",
+    "What is the actual headcount of ML/AI practitioners at Shopify? (Not disclosed in any source)",
+    "Who leads the Sidekick product team specifically?",
+    "What percentage of R&D budget goes to AI vs. other development?",
+    "Has Shopify considered appointing a CAIO, or is the distributed model deliberate?",
+    "What happened to Head of Localization role (Giulia Greco) - was this AI-driven elimination?"
   ],
   "taxonomyFeedback": [
     "Shopify's 'prove AI can't do it' mandate is the strongest articulation of contextual ambidexterity in the herbarium. Could serve as a reference example for Contextual orientation.",
-    "The boundary between Model 3 (Embedded) and Model 6c (Grassroots) is blurred here — the CEO mandate formalizes what may have been emerging grassroots AI adoption."
+    "The boundary between Model 3 (Embedded) and Model 6c (Grassroots) is blurred here \u2014 the CEO mandate formalizes what may have been emerging grassroots AI adoption.",
+    "[2026-02] Shopify may be the purest M6/6a contextual specimen in the collection. The deliberate absence of a CAIO or AI org is not a gap but a design choice \u2014 the CEO mandate substitutes for structural coordination. This tests whether 6a requires formal structure or just behavioral norms.",
+    "[2026-02] The '100x productivity' framing creates an interesting selection mechanism: L\u00fctke explicitly frames AI usage as a test that differentiates high-achievers from others, creating internal competitive pressure without formal structural change. This is contextual ambidexterity enforced through social proof rather than org design.",
+    "[2026-02] Revenue per employee exceeding $1.3M (double prior levels) while headcount stays flat is rare quantitative evidence of contextual ambidexterity working at scale. Most specimens lack hard productivity metrics \u2014 Shopify provides measurable outcomes of the AI-substitution policy."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-15",
+    "completeness": "High",
     "convertedFrom": "library/cases/shopify.json"
   }
 }

@@ -40,9 +40,21 @@ Follow this protocol step by step. Do NOT skip steps.
 
 !`cat "/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/synthesis/contingencies.json"`
 
-## Current Insights (update with new evidence, add new insights — NEVER delete existing insights)
+## Current Insights (archived v1 collection — update with new evidence, NEVER delete)
 
 !`cat "/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/synthesis/insights.json"`
+
+## Analytical Primitives (5 primitives that predict structural choice — use as lens, not filter)
+
+!`cat "/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/synthesis/primitives.json"`
+
+## Core Findings (10 consolidated findings — evaluate evidence for/against in Step 5d)
+
+!`cat "/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/synthesis/findings.json"`
+
+## Field Signals (macro observations from research sessions — check for promotion to insights)
+
+!`cat "/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/research/field-signals.json"`
 
 ## Specimen Registry (for cross-referencing)
 

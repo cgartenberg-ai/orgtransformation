@@ -24,7 +24,7 @@
     "headquarters": "Redmond, WA",
     "geography": "Global"
   },
-  "description": "Microsoft CEO Satya Nadella has executed one of the most dramatic organizational transformations in big tech: restructuring executive ranks while demanding that all leaders 'work and act like Individual Contributors in our own orgs, constantly learning and unlearning.'\n\nNadella describes a three-tier AI structure: (1) Infrastructure/token factory (Azure compute), (2) Agent factory (platform for building AI agents), (3) Systems of intelligence / Copilot family (first-party AI products). Each layer should be independently usable but with 'integration benefits and platform effects' — a deliberate structural choice about modularity vs. bundling.\n\nNadella manages Microsoft's massive org through 'micro-cultures' rather than top-down directives: 'The power is a lot more diffused and distributed... Micro-cultures and they can be shaped.' He stays connected to innovation by 'lingering around Teams channels' — discovering emerging AI work organically. As he puts it, 'Teams is the new wandering the halls.'\n\nMicrosoft is expanding into vertical AI domains: DAX Copilot for physician note-taking (health), NLWeb for agentic commerce (in collaboration with Stripe). The framing of AI's core enterprise challenge: 'Making sure that AI is getting diffused inside of the enterprise... not to just admire somebody else's AI factory or AI agent, but how to build your own.'",
+  "description": "Microsoft CEO Satya Nadella has executed one of the most dramatic organizational transformations in big tech: restructuring executive ranks while demanding that all leaders 'work and act like Individual Contributors in our own orgs, constantly learning and unlearning.'\n\nNadella describes a three-tier AI structure: (1) Infrastructure/token factory (Azure compute), (2) Agent factory (platform for building AI agents), (3) Systems of intelligence / Copilot family (first-party AI products). Each layer should be independently usable but with 'integration benefits and platform effects' \u2014 a deliberate structural choice about modularity vs. bundling.\n\nNadella manages Microsoft's massive org through 'micro-cultures' rather than top-down directives: 'The power is a lot more diffused and distributed... Micro-cultures and they can be shaped.' He stays connected to innovation by 'lingering around Teams channels' \u2014 discovering emerging AI work organically. As he puts it, 'Teams is the new wandering the halls.'\n\nMicrosoft is expanding into vertical AI domains: DAX Copilot for physician note-taking (health), NLWeb for agentic commerce (in collaboration with Stripe). The framing of AI's core enterprise challenge: 'Making sure that AI is getting diffused inside of the enterprise... not to just admire somebody else's AI factory or AI agent, but how to build your own.'",
   "observableMarkers": {
     "reportingStructure": "CEO appointed Judson Althoff as CEO of commercial business to free time for hands-on technical work. Mustafa Suleyman as Microsoft AI CEO.",
     "resourceAllocation": "FY2025: $88B on AI development. $80B+ on AI-enabled datacenters. 400+ data centers in 70 regions. 15K+ jobs cut in 2025. Q2 FY2026: $37.5B quarterly CapEx (+77% YoY).",
@@ -95,9 +95,18 @@
   ],
   "layers": [
     {
+      "date": "2026-02",
+      "label": "MAI Self-Sufficiency + Copilot Scale + OpenAI Diversification",
+      "summary": "Suleyman's Microsoft AI (MAI) division pursues self-sufficiency from OpenAI. OpenAI represents 45% of $625B Microsoft backlog but diversification accelerating. $100-125B FY2026 CapEx. Copilot reaches 15M paid seats (but only 3.3% penetration of addressable market). Suleyman predicts 12-18 month timeline for full automation of certain enterprise workflows. The MAI-OpenAI structural tension is now a defining feature of Microsoft's AI organization.",
+      "classification": null,
+      "sourceRefs": [
+        "microsoft-q4-2025-earnings-enrichment"
+      ]
+    },
+    {
       "date": "2026-01-28",
-      "label": "Q2 FY2026 Earnings — AI Investment Reckoning",
-      "summary": "Q2 FY2026 earnings (Jan 28, 2026): $81.3B revenue (+17% YoY), EPS $4.14 (beat $3.91 estimate). Stock plunged 10.5% on Jan 29 — erased ~$375B market cap — one of largest shareholder value destructions in corporate history. Cause: Azure growth slowed (39%, down from 40%) and $37.5B quarterly CapEx (+77% YoY) alarmed investors. Copilot: 15M paid seats (out of 450M commercial M365 seats = 3.3% penetration), 100M+ MAU, 3M user-created agents via SharePoint/Copilot Studio. GitHub Copilot: 20M users, 90% Fortune 100. Deep reasoning agents (Researcher + Analyst) adopted by 'tens of thousands of organizations' in first weeks. Azure surpassed $75B annual revenue. Strategic tensions: OpenAI = 45% of Azure RPO (concentration risk), potential vertical integration of own silicon, narrative pivot toward 'AI Efficiency' — lowering cost of serving AI models. Market now questioning whether AI spending produces adequate returns.",
+      "label": "Q2 FY2026 Earnings \u2014 AI Investment Reckoning",
+      "summary": "Q2 FY2026 earnings (Jan 28, 2026): $81.3B revenue (+17% YoY), EPS $4.14 (beat $3.91 estimate). Stock plunged 10.5% on Jan 29 \u2014 erased ~$375B market cap \u2014 one of largest shareholder value destructions in corporate history. Cause: Azure growth slowed (39%, down from 40%) and $37.5B quarterly CapEx (+77% YoY) alarmed investors. Copilot: 15M paid seats (out of 450M commercial M365 seats = 3.3% penetration), 100M+ MAU, 3M user-created agents via SharePoint/Copilot Studio. GitHub Copilot: 20M users, 90% Fortune 100. Deep reasoning agents (Researcher + Analyst) adopted by 'tens of thousands of organizations' in first weeks. Azure surpassed $75B annual revenue. Strategic tensions: OpenAI = 45% of Azure RPO (concentration risk), potential vertical integration of own silicon, narrative pivot toward 'AI Efficiency' \u2014 lowering cost of serving AI models. Market now questioning whether AI spending produces adequate returns.",
       "classification": null,
       "sourceRefs": [
         "cnbc-q2-fy2026",
@@ -157,7 +166,7 @@
     {
       "id": "cnbc-q2-fy2026",
       "type": "Earnings Call",
-      "name": "CNBC — Microsoft Q2 FY2026 Results",
+      "name": "CNBC \u2014 Microsoft Q2 FY2026 Results",
       "url": "https://www.cnbc.com/2026/01/28/microsoft-msft-q2-earnings-report-2026.html",
       "timestamp": null,
       "sourceDate": "2026-01-28",
@@ -167,7 +176,7 @@
     {
       "id": "fc-375b-wipe-2026",
       "type": "Press",
-      "name": "FinancialContent — Microsoft $375B Market Cap Wipe",
+      "name": "FinancialContent \u2014 Microsoft $375B Market Cap Wipe",
       "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-2-microsofts-400-billion-reality-check-ai-spending-surge-and-azure-slowdown-send-shares-tumbling",
       "timestamp": null,
       "sourceDate": "2026-02-02",
@@ -177,7 +186,7 @@
     {
       "id": "fc-capex-reckoning-2026",
       "type": "Press",
-      "name": "FinancialContent — Microsoft AI Reckoning: CapEx and Market Skepticism",
+      "name": "FinancialContent \u2014 Microsoft AI Reckoning: CapEx and Market Skepticism",
       "url": "https://markets.financialcontent.com/stocks/article/marketminute-2026-2-2-microsofts-ai-reckoning-record-revenues-overshadowed-by-massive-capex-and-market-skepticism",
       "timestamp": null,
       "sourceDate": "2026-02-02",
@@ -187,7 +196,7 @@
     {
       "id": "fifthperson-q4-fy2025",
       "type": "Earnings Call",
-      "name": "Fifth Person — Microsoft Q4 FY2025 Earnings Call",
+      "name": "Fifth Person \u2014 Microsoft Q4 FY2025 Earnings Call",
       "url": "https://fifthperson.com/microsoft-q4-2025-earnings-call/",
       "timestamp": null,
       "sourceDate": "2025-08-05",
@@ -197,7 +206,7 @@
     {
       "id": "fool-q4-fy2025",
       "type": "Earnings Call",
-      "name": "Motley Fool — Microsoft Q4 FY2025 Earnings Call Transcript",
+      "name": "Motley Fool \u2014 Microsoft Q4 FY2025 Earnings Call Transcript",
       "url": "https://www.fool.com/earnings/call-transcripts/2025/08/05/microsoft-msft-q4-2025-earnings-call-transcript/",
       "timestamp": null,
       "sourceDate": "2025-08-05",
@@ -207,7 +216,7 @@
     {
       "id": "fortune-layoffs-2025",
       "type": "Press",
-      "name": "Fortune — Microsoft 9K July layoffs",
+      "name": "Fortune \u2014 Microsoft 9K July layoffs",
       "url": "https://fortune.com/2025/07/02/microsoft-layoffs-9000-ai/",
       "timestamp": null,
       "sourceDate": "2025-07-02",
@@ -217,7 +226,7 @@
     {
       "id": "cloudwars-2026",
       "type": "Press",
-      "name": "Cloud Wars — Microsoft AI-driven layoffs",
+      "name": "Cloud Wars \u2014 Microsoft AI-driven layoffs",
       "url": "https://cloudwars.com/ai/microsoft-ai-driven-layoffs-are-a-feature-not-a-bug/",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -227,7 +236,7 @@
     {
       "id": "tipranks-msft-2025",
       "type": "Press",
-      "name": "TipRanks — Microsoft AI spending",
+      "name": "TipRanks \u2014 Microsoft AI spending",
       "url": "https://www.tipranks.com/news/microsoft-msft-eyes-major-january-layoffs-as-ai-costs-rise",
       "timestamp": null,
       "sourceDate": "2025-12",
@@ -237,7 +246,7 @@
     {
       "id": "republic-world-2026",
       "type": "Press",
-      "name": "Republic World — Management delayering",
+      "name": "Republic World \u2014 Management delayering",
       "url": "https://www.republicworld.com/tech/after-15000-layoffs-microsoft-cuts-employee-library-and-newspaper-access-shifts-focus-to-ai-based-learning",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -247,7 +256,7 @@
     {
       "id": "fastcompany-2026",
       "type": "Press",
-      "name": "Fast Company — Shaw denial of 2026 layoff rumors",
+      "name": "Fast Company \u2014 Shaw denial of 2026 layoff rumors",
       "url": "https://www.fastcompany.com/91472257/microsoft-layoff-rumors-response",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -257,7 +266,7 @@
     {
       "id": "hrdigest-2026",
       "type": "Press",
-      "name": "HR Digest — Microsoft RTO enforcement",
+      "name": "HR Digest \u2014 Microsoft RTO enforcement",
       "url": "https://www.thehrdigest.com/is-microsoft-preparing-for-mass-layoffs-in-2026",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -307,7 +316,7 @@
     {
       "id": "dwarkesh-nadella-2025",
       "type": "Podcast",
-      "name": "Dwarkesh Podcast — Satya Nadella: How Microsoft is preparing for AGI",
+      "name": "Dwarkesh Podcast \u2014 Satya Nadella: How Microsoft is preparing for AGI",
       "url": "https://www.dwarkesh.com/p/satya-nadella-2",
       "timestamp": null,
       "sourceDate": "2025-11-12",
@@ -317,7 +326,7 @@
     {
       "id": "cheeky-pint-nadella-2025",
       "type": "Podcast",
-      "name": "Cheeky Pint — Satya Nadella Describes How Lessons...",
+      "name": "Cheeky Pint \u2014 Satya Nadella Describes How Lessons...",
       "url": "https://cheekypint.substack.com/p/satya-nadella-describes-how-lessons",
       "timestamp": null,
       "sourceDate": "2025-11-18",
@@ -327,12 +336,21 @@
     {
       "id": "stratechery-msft-survival-2026",
       "type": "Substack",
-      "name": "Stratechery — Microsoft and Software Survival",
+      "name": "Stratechery \u2014 Microsoft and Software Survival",
       "url": "https://stratechery.com/2026/microsoft-and-software-survival/",
       "timestamp": null,
       "sourceDate": "2026-02-03",
       "collectedDate": "2026-02-03",
       "notes": "OpenAI = 45% Azure RPO. Market sentiment reversal: OpenAI concentration now viewed as detriment, not asset. 'Full circle moment' from ChatGPT winner to existential software questions."
+    },
+    {
+      "id": "microsoft-q4-2025-earnings-enrichment",
+      "type": "Earnings Call",
+      "name": "Microsoft Q4 2025 Earnings \u2014 Additional Coverage",
+      "url": null,
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-15",
+      "notes": "[no URL \u2014 research agent summary]"
     }
   ],
   "contingencies": {
@@ -367,7 +385,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-04",
+    "lastUpdated": "2026-02-15",
     "completeness": "Medium",
     "convertedFrom": "library/cases/microsoft.json"
   }

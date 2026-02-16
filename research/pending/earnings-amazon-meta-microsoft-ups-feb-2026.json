@@ -1,0 +1,637 @@
+{
+  "taskId": "earnings-amazon-meta-microsoft-ups-feb-2026",
+  "taskType": "earnings",
+  "scannedDate": "2026-02-15",
+  "sourceScanned": {
+    "sourceId": null,
+    "name": "Q4 2025 / Recent Updates — Amazon, Meta, Microsoft, UPS",
+    "type": "Earnings Call",
+    "scannedThrough": "Q4 2025 earnings + Feb 2026 structural updates",
+    "scannedThroughDate": "2026-02-15"
+  },
+  "searchesCompleted": 13,
+  "urlsFetched": 12,
+  "searchFailures": [],
+  "fetchFailures": [
+    "geekwire.com (403)",
+    "eweek.com (403)",
+    "cnbc.com (403 — JS-only rendering)",
+    "mlq.ai/stocks (403)",
+    "fool.com/earnings-call-transcripts/amazon (JS-only rendering)",
+    "thestreet.com (403)",
+    "businessofapps.com (403)",
+    "windowscentral.com (JS-only rendering)",
+    "winbuzzer.com (403)",
+    "fortune.com (JS-only rendering)"
+  ],
+  "organizations": [
+    {
+      "name": "Amazon",
+      "existingSpecimenId": "amazon-agi",
+      "quarterScanned": "Q4 2025 (calendar year), reported Feb 5, 2026",
+      "findings": [
+        {
+          "type": "structural",
+          "category": "workforce",
+          "title": "30,000 corporate layoffs — largest in company history, 78%+ mid-level managers",
+          "detail": "Amazon confirmed 30,000 total corporate job cuts from Oct 2025 through Jan 2026. First wave: 14,000 roles (Oct 2025). Second wave: 16,000 roles (confirmed Jan 28, 2026). 78%+ of eliminated roles were held by mid-level managers, particularly L5-L7 in Amazon's retail division. Corporate workforce was ~350,000; 30,000 represents ~9%. Total corporate layoffs under Jassy's tenure: 57,000 since mid-2021.",
+          "relevanceTest": "Structural (management delayering), Tension (explore/execute via leaner structure), Specificity (30K number, L5-L7 levels, 78% managers)",
+          "sources": [
+            {
+              "url": "https://www.crn.com.au/news-network/cloud/2026/amazon-layoffs-5-key-takeaways-on-ai",
+              "sourceDate": "2026-01-28",
+              "collectedDate": "2026-02-15"
+            },
+            {
+              "url": "https://www.thehrdigest.com/why-amazon-layoffs-could-hit-30000-roles-by-may-2026",
+              "sourceDate": "2026-01",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "workforce",
+          "title": "Jassy frames layoffs as culture-driven delayering, not AI-driven — but narrative tension with earlier AI efficiency memos",
+          "detail": "Jassy stated: 'The announcement that we made a few days ago was not really financially driven, and it's not even really AI-driven, not right now at least. It's culture.' He explained rapid expansion created excessive management layers that weakened decision-making ownership: 'a lot more layers and a lot more people than necessary, sometimes unintentionally diminishing frontline accountability for two-way door decisions, the ones that should be made quickly and right at the front line.' Beth Galetti (SVP People Experience) framed differently: 'we've been working to strengthen our organization by reducing layers, increasing ownership, and removing bureaucracy.' However, Galetti also characterized the restructuring as adjustment to AI's 'transformative technology' — contradicting Jassy's insistence that AI wasn't the primary driver. Earlier June 2025 Jassy memo explicitly cited AI efficiency gains as necessitating workforce reductions.",
+          "relevanceTest": "Tension (the deliberate misalignment between Jassy's culture framing and AI reality), Specificity (direct quotes from CEO and SVP HR)",
+          "sources": [
+            {
+              "url": "https://afrotech.com/amazon-ceo-andy-jassy-layoffs-culture-not-costs-or-ai",
+              "sourceDate": "2026-01",
+              "collectedDate": "2026-02-15"
+            },
+            {
+              "url": "https://www.crn.com.au/news-network/cloud/2026/amazon-layoffs-5-key-takeaways-on-ai",
+              "sourceDate": "2026-01-28",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "investment",
+          "title": "$200B 2026 CapEx — predominantly AWS, with custom silicon generating $10B+ annual revenue",
+          "detail": "Jassy confirmed ~$200B in CapEx for 2026, predominantly AWS. Exceeded analyst expectations by $50B. Custom chips (Trainium + Graviton) expected to generate over $10B in revenue in 2026. AWS added more data center capacity than any other company in the world in 2025. $730M in severance charges recorded across segments.",
+          "relevanceTest": "Structural (resource allocation to AI infrastructure), Specificity ($200B, $10B custom silicon revenue)",
+          "sources": [
+            {
+              "url": "https://www.theglobeandmail.com/investing/markets/stocks/AMZN/pressreleases/61121/amazon-amzn-q4-2025-earnings-call-transcript/",
+              "sourceDate": "2026-02-05",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "deployment",
+          "title": "AWS AI stack: Bedrock at multi-billion run rate (60% QoQ growth), Trainium 2 at 1.4M chips, Trainium 3 nearly committed through mid-2026",
+          "detail": "From Q4 2025 earnings transcript: Bedrock is a 'multibillion-dollar annualized run rate business' with customer spend growing 60% quarter over quarter. Trainium 2: 1.4 million chips deployed, '30 to 40% more price performance than comparable GPUs,' over $10B annual revenue run rate growing at 'triple-digit percentages year over year.' Trainium 3: 'up to 40% more price performance than Trainium 2,' with 'nearly all of our Trainium 3 supply of chips to be committed by mid-2026.' Graviton: '40% more price per than leading x86 processors,' used by 'over 90% of AWS's top thousand customers,' also a multibillion-dollar run rate. Nova foundation models launched for lower cost/latency inference.",
+          "relevanceTest": "Structural (custom silicon as organizational choice vs. Nvidia dependency), Specificity (1.4M chips, 60% QoQ, $10B run rate)",
+          "sources": [
+            {
+              "url": "https://www.theglobeandmail.com/investing/markets/stocks/AMZN/pressreleases/61121/amazon-amzn-q4-2025-earnings-call-transcript/",
+              "sourceDate": "2026-02-05",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "deployment",
+          "title": "Agentic AI deployment: Bedrock Agent Corp, plus frontier autonomous agents (Kiro, DevOps, security)",
+          "detail": "Amazon launched Bedrock Agent Corp for enterprise agent deployment. Jassy noted 'enterprises are apprehensive about deploying to production' and Agent Corp addresses this. Agent portfolio: Curo (coding, 150%+ QoQ developer growth), Amazon Q (knowledge workers), AWS Transform (software migration), Amazon Connect (call center). Frontier autonomous agents: Kiro (coding tasks), AWS DevOps agents, AWS security agents. Rufus retail agent: 'more than 300 million customers used Rufus' with '60% lift in purchase likelihood among users.'",
+          "relevanceTest": "Structural (agentic deployment architecture), Specificity (300M Rufus users, 150% Curo growth, named agent products)",
+          "sources": [
+            {
+              "url": "https://www.theglobeandmail.com/investing/markets/stocks/AMZN/pressreleases/61121/amazon-amzn-q4-2025-earnings-call-transcript/",
+              "sourceDate": "2026-02-05",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "investment",
+          "title": "Anthropic partnership: 1.3+ GW of dedicated AWS campuses for Anthropic training",
+          "detail": "Three AWS campuses are in final stages of construction, boasting over 1.3GW of IT capacity for the sole purpose of serving Anthropic's training needs. Anthropic is described as 'all-in on the AGI race' with massive training spending planned on AWS infrastructure.",
+          "relevanceTest": "Structural (dedicated infrastructure for a single AI partner — unusual resource commitment), Specificity (1.3GW, 3 campuses)",
+          "sources": [
+            {
+              "url": "https://newsletter.semianalysis.com/p/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion",
+              "sourceDate": "2026-02",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "investment",
+          "title": "$244B AWS backlog, Trainium 4 in development with NVLink Fusion support",
+          "detail": "AWS has a $244B backlog driven by surging demand for cloud and generative AI. Trainium 3 on advanced 3nm node provides 2x compute performance (2.52 petaflops FP8). Trainium 3 servers slated for mass production Q2 2026. Trainium 4 already in development with NVLink Fusion high-speed chip interconnect (Nvidia compatibility). AWS operating margin: 35% through Q4, up 40bp YoY. Olsavsky: 'as fast as we install this capacity, this AI capacity, we are monetizing it.'",
+          "relevanceTest": "Structural (twin-engine chip strategy: custom + Nvidia compatibility), Specificity ($244B backlog, 3nm node, Trainium 4 roadmap)",
+          "sources": [
+            {
+              "url": "https://www.fiduciarytech.com/single-post/andy-jassy-reveals-244b-backlog-and-aggressive-ai-chip-roadmap-for-aws",
+              "sourceDate": "2026-02-11",
+              "collectedDate": "2026-02-15"
+            },
+            {
+              "url": "https://www.constellationr.com/blog-news/insights/aws-launches-ai-factory-service-trainium-3-trainium-4-deck",
+              "sourceDate": "2025-12",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "structural",
+          "title": "Jassy's 'world's largest startup' vision — flatten structure for speed",
+          "detail": "Jassy has set internal targets to slash management layers, seeking to reset Amazon's corporate culture so it can operate like the 'world's largest startup.' The vision: 'It's important to be lean, it's important to be flat, and it's important to move fast.' This is a deliberate structural philosophy: speed comes from fewer layers, not from matrix management or process guardrails. Galetti: 'reducing layers, increasing ownership, and removing bureaucracy.' The 78% manager cut rate (vs. IC rate) is structurally significant — it's not a general reduction, it's a targeted architectural decision about spans of control.",
+          "relevanceTest": "Structural (explicit management architecture philosophy), Tension (speed vs. depth — flatten for rapid AI deployment)",
+          "sources": [
+            {
+              "url": "https://afrotech.com/amazon-ceo-andy-jassy-layoffs-culture-not-costs-or-ai",
+              "sourceDate": "2026-01",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Meta",
+      "existingSpecimenId": "meta-ai",
+      "quarterScanned": "Update scan since Jan 29 Q4 2025 call",
+      "findings": [
+        {
+          "type": "structural",
+          "category": "structural",
+          "title": "Meta Compute: new top-level organization for AI infrastructure, led by Janardhan + Gross",
+          "detail": "Announced Jan 12, 2026. Meta Compute is a new top-level initiative created by Zuckerberg to lead AI infrastructure buildout at multi-gigawatt scale. Two co-leaders with distinct domains: Santosh Janardhan (Head of Global Infrastructure, co-head of Engineering) handles technical architecture — silicon program (MTIA accelerators), software stack, development tools, day-to-day datacenter operations. Daniel Gross (former co-founder of Safe Superintelligence Inc.) handles long-range capacity planning, supply chain, strategic supplier relationships, business modeling at multi-gigawatt scale. Dina Powell McCormick (President/Vice Chairman) handles government relations and sovereign fund partnerships. Goal: 'tens of gigawatts this decade and hundreds of gigawatts or more over time.' Each gigawatt costs $40-60B.",
+          "relevanceTest": "Structural (new top-level org with clear role separation), Specificity (named leaders, defined domains, GW targets)",
+          "sources": [
+            {
+              "url": "https://siliconangle.com/2026/01/12/meta-platforms-creates-new-organization-lead-ai-infrastructure-buildout/",
+              "sourceDate": "2026-01-12",
+              "collectedDate": "2026-02-15"
+            },
+            {
+              "url": "https://www.nextplatform.com/2026/01/22/meta-platforms-metamorphizing-into-an-ai-cloud-for-sovereigns/",
+              "sourceDate": "2026-01-22",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "structural",
+          "title": "Meta Superintelligence Labs: four-team structure under Alexandr Wang and Nat Friedman as co-Chief AI Officers",
+          "detail": "Meta AI restructured (as of Aug 2025 forward) into Superintelligence Labs with four teams: (1) TBD Lab led by Alexandr Wang — develops Llama language models powering Meta AI assistant; (2) FAIR (Fundamental AI Research) led by Rob Fergus — long-term 'advanced machine intelligence' projects; (3) Products and Applied Research led by Nat Friedman (former GitHub CEO) — integrates models into consumer products; (4) MSL Infra led by Aparna Ramani — manages AI infrastructure requirements. Wang recruited via $14.8B Scale AI acquihire (49% stake). Yann LeCun departed Nov 2025 to launch own AI startup focused on 'world models.' 600 jobs cut in Oct 2025 across FAIR, Products/Applied Research, and MSL Infra. Additional recruits: Andrew Tulloch (Thinking Machines Lab co-founder), Ke Yang (Apple ML director).",
+          "relevanceTest": "Structural (four-team internal structure with named leaders), Specificity (named team leads, $14.8B acquihire, 600 cuts, LeCun departure)",
+          "sources": [
+            {
+              "url": "https://builtin.com/artificial-intelligence/meta-superintelligence-labs",
+              "sourceDate": "2026-01",
+              "collectedDate": "2026-02-15"
+            },
+            {
+              "url": "https://www.nextplatform.com/2026/01/22/meta-platforms-metamorphizing-into-an-ai-cloud-for-sovereigns/",
+              "sourceDate": "2026-01-22",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "workforce",
+          "title": "Reality Labs: 1,000-1,500 cuts (10% of 15K division), VR studios shuttered, 30% metaverse budget cut",
+          "detail": "Meta confirmed ~1,000-1,500 Reality Labs cuts (Jan 13, 2026), roughly 10% of the 15,000-person division. Cuts disproportionately impact VR projects. Three VR studios closed: Twisted Pixel Games, Sanzaru Games, Armature Studio. Reality Labs has accumulated $70B+ in losses since late 2020. Metaverse investment slashed 30% in 2026. Resources reallocated toward AI smart glasses (production doubling) and AI infrastructure. CapEx guidance: $115-135B for 2026 (up from $72B in 2025).",
+          "relevanceTest": "Structural (resource reallocation from VR to AI), Tension (explore/execute — abandoning one exploration vector for another), Specificity ($70B losses, 30% cut, named studios closed)",
+          "sources": [
+            {
+              "url": "https://news.designrush.com/meta-job-cuts-reality-labs-shifts-budget-to-ai",
+              "sourceDate": "2026-01",
+              "collectedDate": "2026-02-15"
+            },
+            {
+              "url": "https://www.webpronews.com/meta-slashes-metaverse-investments-30-in-2026-pivots-to-ai-after-70b-losses/",
+              "sourceDate": "2026-01",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "structural",
+          "title": "Fourth restructuring of AI efforts in six months — organizational instability signal",
+          "detail": "The Information reported Meta is planning its fourth restructuring of AI efforts in six months (as of early 2026). This suggests significant organizational search costs — the company is experimenting with different structures for AI work at a pace that itself becomes a structural signal. The Superintelligence Labs formation, the Meta Compute launch, the Reality Labs cuts, and ongoing team shuffles all represent distinct organizational experiments happening in parallel.",
+          "relevanceTest": "Structural (frequency of reorgs as a signal), Tension (exploration through rapid structural experimentation)",
+          "sources": [
+            {
+              "url": "https://www.theinformation.com/articles/meta-plans-fourth-restructuring-ai-efforts-six-months",
+              "sourceDate": "2026-01",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "structural",
+          "title": "RIVOS acquihire and MTIA custom silicon program within Superintelligence Lab",
+          "detail": "Meta acquired RISC-V chip designer Rivos in fall 2025 to bolster its in-house silicon capabilities. The MTIA (Meta Training and Inference Accelerator) program sits within the broader Superintelligence Lab infrastructure. Daniel Gross is positioned to lead the capacity planning that determines how custom silicon vs. Nvidia GPUs are allocated — a structural decision about vertical integration of the AI stack.",
+          "relevanceTest": "Structural (vertical integration through acquihire + custom silicon), Specificity (Rivos acquisition, MTIA program)",
+          "sources": [
+            {
+              "url": "https://www.nextplatform.com/2026/01/22/meta-platforms-metamorphizing-into-an-ai-cloud-for-sovereigns/",
+              "sourceDate": "2026-01-22",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "investment",
+          "title": "$115-135B 2026 CapEx (up from $72B in 2025) — building sovereign AI cloud infrastructure",
+          "detail": "Meta's 2026 CapEx guidance is $115-135B, nearly doubling from $72B in 2025. The infrastructure is being built not just for internal use but as a sovereign AI cloud — Meta Compute is partnering with governments and sovereign wealth funds (McCormick's role). Zuckerberg's framing: 'How we engineer, invest, and partner to build this infra' represents strategic advantage toward 'personal superintelligence to billions.' Financial scale: ~$200B projected 2025 sales, ~$75B net earnings, ~$45B cash reserves.",
+          "relevanceTest": "Structural (infrastructure as platform strategy), Specificity ($115-135B guidance, sovereign partnerships)",
+          "sources": [
+            {
+              "url": "https://www.nextplatform.com/2026/01/22/meta-platforms-metamorphizing-into-an-ai-cloud-for-sovereigns/",
+              "sourceDate": "2026-01-22",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "existingSpecimenId": "microsoft",
+      "quarterScanned": "Update scan since Jan 28 Q2 FY2026 call",
+      "findings": [
+        {
+          "type": "structural",
+          "category": "structural",
+          "title": "Suleyman declares AI self-sufficiency mission — building MAI models to reduce OpenAI dependency",
+          "detail": "Mustafa Suleyman, CEO of Microsoft AI (division launched March 2024), told the Financial Times (Feb 13, 2026) that creating in-house superintelligence is his personal mission. Microsoft is actively pushing toward 'AI self-sufficiency' by building proprietary MAI models to reduce reliance on OpenAI. Internal MAI models expected to debut in 2026. Suleyman has unveiled a dedicated Microsoft AI Superintelligence Team focused on building systems that can 'eventually outperform humans across all tasks while maintaining strict safety protocols.' He defines the target as 'professional-grade AGI' — capable of performing most tasks typical professionals handle daily. He emphasizes 'containment' and human oversight as priorities. The division handles consumer tools: Copilot, Bing, Edge.",
+          "relevanceTest": "Structural (new internal AI development org parallel to OpenAI partnership), Tension (build vs. buy for AI capabilities)",
+          "sources": [
+            {
+              "url": "https://www.benzinga.com/markets/tech/26/02/50603846/microsoft-ai-chief-mustafa-suleyman-says-most-professional-taks-will-be-fully-automated-by-ai-within-12-18-months",
+              "sourceDate": "2026-02-13",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "structural",
+          "title": "Microsoft-OpenAI relationship restructured: OpenAI = 45% of $625B revenue backlog, but diversifying away",
+          "detail": "OpenAI represents 45% of Microsoft's $625B revenue backlog ($281.3B), much of it from a new $250B Azure services contract signed Oct 2025. OpenAI's $38B AWS deal formally ended exclusive Azure reliance. Microsoft holds 27% of OpenAI's new for-profit arm with IP rights through 2032. Amy Hood disclosed that substantial GPU capacity is consumed internally (for training proprietary models, running Copilot, operating Microsoft Foundry) rather than rented on Azure. GPUs being installed 'have already had allocations out to the end of their useful life' (~6 years). Non-OpenAI backlog grew 28% YoY. The structural implication: Microsoft is simultaneously the platform for OpenAI AND building its own competing AI capability — a dual-track strategy.",
+          "relevanceTest": "Structural (dual-track AI strategy: partner + build), Tension (dependency vs. self-sufficiency), Specificity ($281.3B, 27% stake, 45% of backlog)",
+          "sources": [
+            {
+              "url": "https://www.nextplatform.com/2026/01/29/microsoft-is-more-dependent-on-openai-than-the-converse/",
+              "sourceDate": "2026-01-29",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "investment",
+          "title": "Q2 FY2026: $37.5B CapEx, FY2026 projected $100-125B, goal to double datacenter capacity by end FY2027",
+          "detail": "Q2 FY2026 CapEx: $37.5B. FY2026 projected: $100-125B (up from $88.2B in FY2025). Goal: double datacenter capacity by end of FY2027. Amy Hood noted that without internal GPU consumption, Azure revenue growth could have exceeded 40%, but they prioritized internal AI capability development. Microsoft Cloud exceeded $50B revenue for first time ($51.51B, 26.2% growth). Azure operating income: $9.72B at 44.3% margin.",
+          "relevanceTest": "Structural (internal GPU consumption vs. external rental — resource allocation choice), Specificity ($37.5B, $100-125B, $50B+ cloud milestone)",
+          "sources": [
+            {
+              "url": "https://www.nextplatform.com/2026/01/29/microsoft-is-more-dependent-on-openai-than-the-converse/",
+              "sourceDate": "2026-01-29",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "deployment",
+          "title": "Copilot: 15M paid seats (3.3% of 450M M365 subscribers), 70% Fortune 500 piloted, GitHub Copilot at 4.7M",
+          "detail": "Microsoft 365 Copilot: 15M paid seats, up 160% YoY. But only 3.3% penetration of 450M total M365 subscribers. 70% of Fortune 500 have piloted or deployed. Average seats per deployment growing from pilot (50-200) to broader (1,000+). Several customers have 35,000+ seats (Fiserv, ING, University of Kentucky). Daily active users increased 10x YoY. Average conversations per user doubled. GitHub Copilot: 4.7M paid subscribers, up 75% YoY. New PowerPoint Agent Mode launched Feb 2026. Enterprise adoption projections: 25-35% of M365 enterprise by Q4 2026, 50%+ by 2027.",
+          "relevanceTest": "Structural (deployment scale as organizational adoption signal), Specificity (15M seats, 3.3% penetration, 4.7M GitHub)",
+          "sources": [
+            {
+              "url": "https://www.stackmatix.com/blog/copilot-market-adoption-trends",
+              "sourceDate": "2026-02",
+              "collectedDate": "2026-02-15"
+            },
+            {
+              "url": "https://www.fool.com/investing/2026/02/09/microsoft-finally-revealed-how-many-paying-copilot/",
+              "sourceDate": "2026-02-09",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "deployment",
+          "title": "Suleyman's 12-18 month automation prediction: structural implication for enterprise workforce",
+          "detail": "Suleyman predicted (Feb 13, 2026) that 'most, if not all, professional tasks' for lawyers, accountants, project managers, and marketing professionals will be 'fully automated by AI within the next 12 to 18 months.' He noted AI models 'can code better than the vast majority of human coders, maybe even all of them.' He cited 'a 1 trillionfold increase in training compute over the last 15 years' with an expected '1,000x increase in training compute in the next three years.' This is a structural claim from the head of Microsoft AI about the pace of organizational transformation — not a general prediction but one with product implications for Copilot deployment.",
+          "relevanceTest": "Tension (speed of AI capability vs. organizational adaptation), Specificity (12-18 months, named professions, compute scaling numbers)",
+          "sources": [
+            {
+              "url": "https://www.benzinga.com/markets/tech/26/02/50603846/microsoft-ai-chief-mustafa-suleyman-says-most-professional-taks-will-be-fully-automated-by-ai-within-12-18-months",
+              "sourceDate": "2026-02-13",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UPS",
+      "existingSpecimenId": "ups",
+      "quarterScanned": "Q4 2025 (reported Jan 27, 2026)",
+      "findings": [
+        {
+          "type": "structural",
+          "category": "workforce",
+          "title": "78,000 total positions eliminated by end 2026 — the largest AI-attributed workforce restructuring in logistics",
+          "detail": "UPS is executing a two-year restructuring: 48,000 positions eliminated in 2025 (34,000 operational + 14,000 management), with ~30,000 more planned in 2026. Of the management cuts: 12,000 of 85,000 management positions eliminated (~14% of managers). Total: 78,000 positions by end 2026. 26.9 million labor hours removed in 2025. CFO Brian Dykes confirmed compulsory redundancies are not planned — positions eliminated via attrition, voluntary buyouts, and voluntary driver separation programs. Carol Tome explained the cuts are made possible by 'new technologies, such as artificial intelligence' and 'will help ensure that those made redundant will not have to be rehired in the future.'",
+          "relevanceTest": "Structural (scale of AI-enabled workforce reduction), Tension (automation vs. labor), Specificity (78K total, 12K managers of 85K, 26.9M hours, $1B savings target)",
+          "sources": [
+            {
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/ups-ups-q4-2025-earnings-call-transcript/",
+              "sourceDate": "2026-01-27",
+              "collectedDate": "2026-02-15"
+            },
+            {
+              "url": "https://www.notebookcheck.net/UPS-lays-off-12-000-managers-as-AI-replaces-jobs.802229.0.html",
+              "sourceDate": "2026-01",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "structural",
+          "title": "Network automation: 127 automated buildings, 28% lower cost-per-piece, targeting 68% automated U.S. volume by end 2026",
+          "detail": "From Q4 2025 earnings transcript: 127 automated buildings currently operating. 57 facilities automated in 2025. Cost per piece in automated buildings is 28% less than conventional buildings. Target: 68% automated U.S. volume by end 2026 (up from 66.5%). 93 U.S. buildings closed in 2025. 24 buildings identified for closure in H1 2026, with additional 60-70 under evaluation. Nearly 120 locations consolidated over two years. UPS Velocity facility in Louisville: robots outnumber workers 15 to 1, reportedly boosting productivity by up to 300%. 400 truck-unloading robots planned for multiple facilities starting late 2026.",
+          "relevanceTest": "Structural (physical infrastructure transformation), Specificity (127 buildings, 28% cost reduction, 15:1 robot ratio, 400 new robots)",
+          "sources": [
+            {
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/ups-ups-q4-2025-earnings-call-transcript/",
+              "sourceDate": "2026-01-27",
+              "collectedDate": "2026-02-15"
+            },
+            {
+              "url": "https://www.traxtech.com/ai-in-supply-chain/ups-deploys-ai-automation-to-replace-43000-workers",
+              "sourceDate": "2026-01",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "deployment",
+          "title": "RFID smart facility rollout: all U.S. package cars equipped, processing 1.3M packages daily",
+          "detail": "All U.S. package cars now have RFID readers. 5,500 UPS Store locations equipped with RFID labeling. Processing 1.3 million packages daily with RFID. Digital Access Program revenue grew 25% YoY to $4.1B. AI-powered brokerage: 'processed nearly 90% of all cross-border transactions digitally.' This represents AI deployment at logistics scale — not a pilot but a network-wide system.",
+          "relevanceTest": "Structural (network-wide AI deployment, not pilot), Specificity (1.3M daily RFID, $4.1B digital revenue, 90% digital cross-border)",
+          "sources": [
+            {
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/ups-ups-q4-2025-earnings-call-transcript/",
+              "sourceDate": "2026-01-27",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "structural",
+          "title": "Amazon 'glide-down': strategic de-dependency driving $3B savings target and structural realignment to healthcare",
+          "detail": "UPS is deliberately halving its Amazon business ('Amazon glide-down'), targeting $3B in savings from this strategic shift. The company is reallocating capacity from Amazon's low-margin volume to higher-profit healthcare logistics. This is a structural pivot: changing the customer base changes the network architecture, automation requirements, and workforce skills needed. Carol Tome's 'better and bolder' strategy replaces the earlier 'better not bigger' approach. New USPS partnership for Groundsaver last-mile delivery improves unit economics. MD-11 fleet retired, replaced by Boeing 767s.",
+          "relevanceTest": "Structural (strategic customer portfolio change driving org restructuring), Tension (optimize for volume vs. margin)",
+          "sources": [
+            {
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/ups-ups-q4-2025-earnings-call-transcript/",
+              "sourceDate": "2026-01-27",
+              "collectedDate": "2026-02-15"
+            },
+            {
+              "url": "https://www.cnbc.com/2026/01/27/ups-job-cuts-amazon-unwind-turnaround-plan.html",
+              "sourceDate": "2026-01-27",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        },
+        {
+          "type": "structural",
+          "category": "structural",
+          "title": "No CAIO or formal AI leadership role mentioned — AI governance remains informal (M6)",
+          "detail": "The Q4 2025 earnings transcript contains no mention of a Chief AI Officer, AI governance committee, or dedicated AI leadership role. AI and automation are discussed as operational tools deployed by existing engineering and operations leadership. This reinforces UPS's M6 (Informal) classification — the company is achieving massive AI-driven transformation without a named AI org, relying instead on operational leaders deploying technology through existing structures.",
+          "relevanceTest": "Structural (absence of formal AI org is itself a structural finding for M6 classification)",
+          "sources": [
+            {
+              "url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/ups-ups-q4-2025-earnings-call-transcript/",
+              "sourceDate": "2026-01-27",
+              "collectedDate": "2026-02-15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "Management delayering as cross-industry structural pattern — Amazon (78% of 30K cuts are managers), UPS (12K of 85K managers cut), both explicitly framing AI as enabling permanent layer removal",
+      "companies": ["Amazon", "UPS"],
+      "detail": "Both Amazon and UPS are executing historically large management reductions and explicitly connecting AI capabilities to making these cuts permanent. Amazon's Jassy: 'reducing layers, increasing ownership' (though he frames it as culture, not AI). UPS's Tome: cuts 'made possible by new technologies, such as artificial intelligence' that will 'help ensure that those made redundant will not have to be rehired.' The structural pattern: AI doesn't just automate individual tasks — it enables organizations to remove entire management layers by replacing the coordination, monitoring, and information-processing functions that middle managers performed.",
+      "sources": [
+        {
+          "url": "https://www.crn.com.au/news-network/cloud/2026/amazon-layoffs-5-key-takeaways-on-ai",
+          "sourceDate": "2026-01-28",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://www.notebookcheck.net/UPS-lays-off-12-000-managers-as-AI-replaces-jobs.802229.0.html",
+          "sourceDate": "2026-01",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    },
+    {
+      "trend": "Custom silicon as organizational strategy — Amazon (Trainium/Graviton $10B+), Meta (MTIA + Rivos acquihire), both building vertical AI stacks to reduce Nvidia dependency",
+      "companies": ["Amazon", "Meta"],
+      "detail": "Both Amazon and Meta are investing heavily in custom AI silicon as a structural choice about vertical integration. Amazon's Trainium has achieved $10B+ annual revenue run rate. Meta acquired RISC-V designer Rivos and continues MTIA development. The organizational implication: building custom silicon requires creating chip design teams, integrating them with cloud/infrastructure ops, and making long-horizon investment decisions that traditional cloud/social companies never made. This is a structural expansion of organizational scope.",
+      "sources": [
+        {
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/AMZN/pressreleases/61121/amazon-amzn-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-05",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://www.nextplatform.com/2026/01/22/meta-platforms-metamorphizing-into-an-ai-cloud-for-sovereigns/",
+          "sourceDate": "2026-01-22",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    },
+    {
+      "trend": "AI self-sufficiency race: Microsoft building MAI models to reduce OpenAI dependency, while OpenAI diversifies away from Azure exclusivity ($38B AWS deal)",
+      "companies": ["Microsoft", "Amazon"],
+      "detail": "The Microsoft-OpenAI exclusive partnership is unwinding structurally. Microsoft (Suleyman) is building proprietary MAI models and a Superintelligence Team. OpenAI signed a $38B AWS deal, ending Azure exclusivity. Microsoft still holds 27% of OpenAI and maintains IP rights through 2032, but the structural trajectory is clear: both parties are hedging. This represents a fundamental tension in AI partnership structures — the original explore-through-partnership model is giving way to build-internally strategies.",
+      "sources": [
+        {
+          "url": "https://www.nextplatform.com/2026/01/29/microsoft-is-more-dependent-on-openai-than-the-converse/",
+          "sourceDate": "2026-01-29",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    },
+    {
+      "trend": "CapEx escalation arms race: Amazon ($200B), Meta ($115-135B), Microsoft ($100-125B) — combined $400-460B in 2026 AI infrastructure",
+      "companies": ["Amazon", "Meta", "Microsoft"],
+      "detail": "The three companies are collectively committing $400-460B in 2026 CapEx, predominantly for AI infrastructure. This represents a structural commitment that creates organizational path dependency — these investments require new infrastructure orgs (Meta Compute), custom silicon teams, and multi-year planning horizons that fundamentally change how these companies are organized.",
+      "sources": [
+        {
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/AMZN/pressreleases/61121/amazon-amzn-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-05",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://www.nextplatform.com/2026/01/22/meta-platforms-metamorphizing-into-an-ai-cloud-for-sovereigns/",
+          "sourceDate": "2026-01-22",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    },
+    {
+      "trend": "Agentic AI reaching production scale: Amazon deploying multiple agent types (Rufus: 300M users, Curo: 150% QoQ, Bedrock Agent Corp), UPS processing 90% cross-border digitally",
+      "companies": ["Amazon", "UPS"],
+      "detail": "Both Amazon and UPS show agentic AI moving from pilot to production at scale. Amazon's portfolio approach — separate agents for coding (Curo), knowledge work (Q), migration (Transform), customer service (Connect), retail (Rufus), plus frontier autonomous agents (Kiro, DevOps, security) — represents an organizational decision to deploy specialized agents rather than general-purpose AI. UPS's 90% digital cross-border processing shows industrial-scale AI deployment in logistics.",
+      "sources": [
+        {
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/AMZN/pressreleases/61121/amazon-amzn-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-05",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/ups-ups-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-01-27",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    }
+  ],
+  "newSourcesDiscovered": [
+    {
+      "name": "SemiAnalysis (Amazon AI Resurgence deep-dive)",
+      "url": "https://newsletter.semianalysis.com/p/amazons-ai-resurgence-aws-anthropics-multi-gigawatt-trainium-expansion",
+      "type": "Newsletter",
+      "relevance": "Deep technical analysis of AWS/Anthropic infrastructure partnership with GW-level capacity details"
+    },
+    {
+      "name": "The Information (Meta fourth restructuring)",
+      "url": "https://www.theinformation.com/articles/meta-plans-fourth-restructuring-ai-efforts-six-months",
+      "type": "Tech media (paywall)",
+      "relevance": "Detailed reporting on Meta's rapid AI org restructuring cadence — structural instability signal"
+    },
+    {
+      "name": "NextPlatform (Timothy Prickett Morgan analyses)",
+      "url": "https://www.nextplatform.com",
+      "type": "Tech analysis",
+      "relevance": "Consistently the richest source for infrastructure-level structural analysis of hyperscaler AI strategies. Multiple useful articles fetched successfully."
+    },
+    {
+      "name": "GeekWire (The Microsoft-OpenAI Files)",
+      "url": "https://www.geekwire.com/2026/the-microsoft-openai-files-internal-documents-reveal-the-realities-of-ais-defining-alliance/",
+      "type": "Tech media",
+      "relevance": "Internal documents about Microsoft-OpenAI relationship dynamics — could not access (403) but potentially very rich for structural analysis"
+    }
+  ],
+  "purposeClaimsDiscovered": [
+    {
+      "specimenId": "amazon-agi",
+      "leader": "Andy Jassy",
+      "claim": "It's important to be lean, it's important to be flat, and it's important to move fast.",
+      "context": "Explaining the rationale for 30,000 corporate layoffs and management delayering as part of AI-era organizational transformation",
+      "type": "identity",
+      "source": {
+        "url": "https://afrotech.com/amazon-ceo-andy-jassy-layoffs-culture-not-costs-or-ai",
+        "sourceDate": "2026-01",
+        "collectedDate": "2026-02-15"
+      }
+    },
+    {
+      "specimenId": "amazon-agi",
+      "leader": "Andy Jassy",
+      "claim": "The announcement that we made a few days ago was not really financially driven, and it's not even really AI-driven, not right now at least. It's culture.",
+      "context": "Framing the 14,000 job cuts as a cultural correction rather than cost or AI-driven, despite contradicting earlier AI efficiency memos",
+      "type": "identity",
+      "source": {
+        "url": "https://afrotech.com/amazon-ceo-andy-jassy-layoffs-culture-not-costs-or-ai",
+        "sourceDate": "2026-01",
+        "collectedDate": "2026-02-15"
+      }
+    },
+    {
+      "specimenId": "amazon-agi",
+      "leader": "Beth Galetti",
+      "claim": "We've been working to strengthen our organization by reducing layers, increasing ownership, and removing bureaucracy.",
+      "context": "SVP People Experience framing management delayering as organizational strengthening, used in connection with 30,000 corporate layoffs",
+      "type": "identity",
+      "source": {
+        "url": "https://www.crn.com.au/news-network/cloud/2026/amazon-layoffs-5-key-takeaways-on-ai",
+        "sourceDate": "2026-01-28",
+        "collectedDate": "2026-02-15"
+      }
+    },
+    {
+      "specimenId": "meta-ai",
+      "leader": "Mark Zuckerberg",
+      "claim": "How we engineer, invest, and partner to build this infra",
+      "context": "Framing Meta Compute infrastructure buildout as strategic advantage toward 'personal superintelligence to billions' — invoking universal access as purpose justification for $115-135B CapEx",
+      "type": "utopian",
+      "source": {
+        "url": "https://www.nextplatform.com/2026/01/22/meta-platforms-metamorphizing-into-an-ai-cloud-for-sovereigns/",
+        "sourceDate": "2026-01-22",
+        "collectedDate": "2026-02-15"
+      }
+    },
+    {
+      "specimenId": "microsoft",
+      "leader": "Mustafa Suleyman",
+      "claim": "Most, if not all, professional tasks will be fully automated by AI within the next 12 to 18 months.",
+      "context": "Microsoft AI CEO defining the pace of transformation — this is a structural claim about the speed at which organizations must adapt, made by the leader of Microsoft's consumer AI division",
+      "type": "utopian",
+      "source": {
+        "url": "https://www.benzinga.com/markets/tech/26/02/50603846/microsoft-ai-chief-mustafa-suleyman-says-most-professional-taks-will-be-fully-automated-by-ai-within-12-18-months",
+        "sourceDate": "2026-02-13",
+        "collectedDate": "2026-02-15"
+      }
+    },
+    {
+      "specimenId": "microsoft",
+      "leader": "Satya Nadella",
+      "claim": "We are in the beginning phases of AI diffusion and its broad GDP impact. Our TAM will grow substantially across every layer of the tech stack.",
+      "context": "Framing Microsoft's $100-125B CapEx as justified by macro-economic AI diffusion, during Q2 FY2026 earnings call",
+      "type": "commercial-success",
+      "source": {
+        "url": "https://www.nextplatform.com/2026/01/29/microsoft-is-more-dependent-on-openai-than-the-converse/",
+        "sourceDate": "2026-01-29",
+        "collectedDate": "2026-02-15"
+      }
+    },
+    {
+      "specimenId": "ups",
+      "leader": "Carol Tome",
+      "claim": "We're deploying state-of-the-art technology and automation across a smaller, nimbler network.",
+      "context": "Framing 78,000 position eliminations and 120 facility closures as technology-enabled network optimization, Q4 2025 earnings call",
+      "type": "commercial-success",
+      "source": {
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/01/27/ups-ups-q4-2025-earnings-call-transcript/",
+        "sourceDate": "2026-01-27",
+        "collectedDate": "2026-02-15"
+      }
+    }
+  ]
+}

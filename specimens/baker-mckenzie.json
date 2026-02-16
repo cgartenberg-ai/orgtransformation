@@ -1,0 +1,104 @@
+{
+  "id": "baker-mckenzie",
+  "name": "Baker McKenzie",
+  "title": "AI-Driven Support Staff Restructuring with Attorney Firewall",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Low",
+    "classificationRationale": "Decision tree: Formal AI unit? NO — no CAIO, no AI lab, no dedicated AI team described. The restructuring is enterprise-wide adoption of Anthropic Claude Cowork, deployed across support functions (research, marketing, knowledge management, secretarial) while explicitly excluding attorneys. This is mass adoption without formal structure = M6a. Contextual orientation: same organization deploys AI across functions without structural separation. Low confidence: single source, restructuring announcement rather than observed org structure. Guardrails checked: G5 (not AI-native — founded 1949 as law firm), G6 (one-time restructuring, not temporal cycling).",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Professional Services",
+    "sector": "Legal / Law Firm",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Chicago, IL (global)",
+    "geography": "Global"
+  },
+  "description": "Baker McKenzie announced cuts of 600-1,000 support positions as part of an AI-driven restructuring in February 2026, representing approximately 10% of its global workforce. Affected functions include research staff, marketing, knowledge management, and secretarial roles, while attorney positions were explicitly excluded from the cuts.\n\nThe restructuring is notable for citing Anthropic's Claude Cowork AI agent as a specific catalyst enabling automation of legal tasks and documentation. Geographic impact spans dozens of positions in London and Belfast with hundreds more across global operations. The firm framed the restructuring as 'rethinking the ways in which we work, including through our use of AI, introducing efficiencies, and investing in those roles that best serve our clients' needs.'\n\nThe attorney-exclusion firewall is structurally significant: it reveals a two-tier organizational response to AI where fee-earning professionals are protected while support functions absorb the displacement. This pattern may be characteristic of professional services firms where the core product is human expertise and judgment.",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": "600-1,000 support positions cut (~10% of global workforce). AI tool investment in Anthropic Claude Cowork [americanbazaar-baker-2026].",
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": "600-1,000 positions cut. Affected functions: research, marketing, knowledge management, secretarial. Attorneys explicitly excluded [americanbazaar-baker-2026]."
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "text": "This review was aimed at rethinking the ways in which we work, including through our use of AI, introducing efficiencies, and investing in those roles that best serve our clients' needs.",
+      "speaker": "Baker McKenzie spokesperson",
+      "speakerTitle": "Spokesperson",
+      "source": "American Bazaar",
+      "sourceUrl": "https://americanbazaaronline.com/2026/02/13/baker-mckenzie-to-cut-1000-roles-in-ai-driven-restructuring-475053/",
+      "timestamp": null,
+      "date": "2026-02-13"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "AI-Driven Support Staff Restructuring",
+      "summary": "Baker McKenzie cuts 600-1,000 support positions (~10% of global workforce) citing Anthropic Claude Cowork as catalyst. Affected functions: research, marketing, knowledge management, secretarial. Attorneys explicitly excluded. Geographic impact: dozens in London/Belfast, hundreds globally.",
+      "classification": null,
+      "sourceRefs": [
+        "americanbazaar-baker-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "americanbazaar-baker-2026",
+      "type": "Press",
+      "name": "American Bazaar — Baker McKenzie to cut 1,000 roles in AI-driven restructuring",
+      "url": "https://americanbazaaronline.com/2026/02/13/baker-mckenzie-to-cut-1000-roles-in-ai-driven-restructuring-475053/",
+      "timestamp": null,
+      "sourceDate": "2026-02-13",
+      "collectedDate": "2026-02-15",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Medium",
+    "environmentalAiPull": "Strong"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.5,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": null,
+    "namedVsQuiet": 0.8,
+    "longVsShortHorizon": 0.5
+  },
+  "openQuestions": [
+    "Does Baker McKenzie have a Chief AI Officer or dedicated AI leadership?",
+    "How is Claude Cowork specifically deployed — firm-wide or pilot-then-scale?",
+    "What is the timeline for the 600-1,000 position reductions?",
+    "Are other AI tools deployed beyond Anthropic Claude?",
+    "How does the attorney-exclusion firewall work in practice — are there AI-augmented attorney workflows?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Baker McKenzie's attorney-exclusion firewall is a structurally distinctive pattern: AI displacement concentrated in support functions while core fee-earners are explicitly protected. This may be a professional services variant where the product IS human judgment, creating a natural boundary for AI adoption that doesn't exist in tech or manufacturing.",
+    "[2026-02] The naming of a specific AI tool (Anthropic Claude Cowork) as restructuring catalyst is rare — most firms cite 'AI' generically. This specificity makes it a useful data point for tracking the agentic AI → structural change pipeline.",
+    "[2026-02] Part of a broader professional services restructuring wave (with Capgemini EUR 700M, Forrester 8% cut) in Feb 2026. Professional services firms are both sellers and consumers of AI transformation — they restructure themselves while advising clients on the same."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-15",
+    "lastUpdated": "2026-02-15",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

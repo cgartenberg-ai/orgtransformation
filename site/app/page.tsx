@@ -1,16 +1,16 @@
 import { getAllSpecimens, getComputedStats } from "@/lib/data/specimens";
-import { getMechanisms, getInsights } from "@/lib/data/synthesis";
+import { getMechanisms, getFindings } from "@/lib/data/synthesis";
 import { STRUCTURAL_MODELS } from "@/lib/types/taxonomy";
 import type { StructuralModel } from "@/lib/types/specimen";
 import { FieldObservation } from "@/components/home/FieldObservation";
 import Link from "next/link";
 
 export default async function HomePage() {
-  const [stats, specimens, mechanismData, insightData] = await Promise.all([
+  const [stats, specimens, mechanismData, findingData] = await Promise.all([
     getComputedStats(),
     getAllSpecimens(),
     getMechanisms(),
-    getInsights(),
+    getFindings(),
   ]);
 
   const typeSpecimens = specimens.filter((s) => s.classification.typeSpecimen);
@@ -230,7 +230,7 @@ export default async function HomePage() {
       </section>
 
       {/* ═══════════════════════════════════════════════════════════
-          Section: Key Field Insights
+          Section: Core Findings
           ═══════════════════════════════════════════════════════════ */}
       <section className="bg-cream-50 px-4 py-16 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
@@ -239,52 +239,71 @@ export default async function HomePage() {
               From the Field
             </p>
             <h2 className="mt-2 font-serif text-3xl font-semibold text-forest">
-              Key Findings
+              Core Findings
             </h2>
             <p className="mx-auto mt-3 max-w-lg text-charcoal-500">
-              Cross-cutting patterns discovered across the specimen collection.
+              10 consolidated findings from systematic observation of 157 specimens.
             </p>
           </div>
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {insightData.insights.slice(0, 6).map((insight) => (
-              <Link
-                key={insight.id}
-                href="/insights"
-                className="group rounded-xl border border-sage-200 bg-white p-5 transition-all hover:-translate-y-1 hover:shadow-md"
-              >
-                <p className="font-mono text-[10px] uppercase tracking-wide text-sage-500">
-                  {insight.theme.replace("-", " ")}
-                </p>
-                <p className="mt-2 font-serif text-base font-medium text-forest group-hover:text-forest-600">
-                  {insight.title}
-                </p>
-                <p className="mt-2 line-clamp-3 text-sm leading-snug text-charcoal-500">
-                  {insight.finding}
-                </p>
-                <div className="mt-3 flex flex-wrap gap-1">
-                  {insight.evidence.slice(0, 3).map((e) => (
-                    <span
-                      key={e.specimenId}
-                      className="rounded bg-sage-50 px-1.5 py-0.5 text-[10px] text-sage-600"
-                    >
-                      {e.specimenId}
+            {findingData.findings.slice(0, 6).map((finding) => {
+              const PRIMITIVE_COLORS: Record<string, string> = {
+                P1: "bg-forest-50 text-forest",
+                P2: "bg-amber-50 text-amber-700",
+                P3: "bg-violet-50 text-violet-700",
+                P4: "bg-sky-50 text-sky-700",
+                P5: "bg-rose-50 text-rose-700",
+              };
+              return (
+                <Link
+                  key={finding.id}
+                  href="/findings"
+                  className="group rounded-xl border border-sage-200 bg-white p-5 transition-all hover:-translate-y-1 hover:shadow-md"
+                >
+                  <div className="flex items-center gap-1.5">
+                    <span className="rounded bg-forest px-1.5 py-0.5 font-mono text-[10px] font-bold text-cream">
+                      F{finding.number}
                     </span>
-                  ))}
-                  {insight.evidence.length > 3 && (
-                    <span className="text-[10px] text-charcoal-400">
-                      +{insight.evidence.length - 3} more
-                    </span>
-                  )}
-                </div>
-              </Link>
-            ))}
+                    {finding.primitivesEngaged.map((pid) => (
+                      <span
+                        key={pid}
+                        className={`rounded px-1 py-0.5 font-mono text-[9px] font-bold ${PRIMITIVE_COLORS[pid] || "bg-sage-50 text-sage-700"}`}
+                      >
+                        {pid}
+                      </span>
+                    ))}
+                  </div>
+                  <p className="mt-2 font-serif text-base font-medium text-forest group-hover:text-forest-600">
+                    {finding.title}
+                  </p>
+                  <p className="mt-2 line-clamp-3 text-sm leading-snug text-charcoal-500">
+                    {finding.claim}
+                  </p>
+                  <div className="mt-3 flex flex-wrap gap-1">
+                    {finding.evidence.slice(0, 3).map((e) => (
+                      <span
+                        key={e.specimenId}
+                        className="rounded bg-sage-50 px-1.5 py-0.5 text-[10px] text-sage-600"
+                      >
+                        {e.specimenId}
+                      </span>
+                    ))}
+                    {finding.evidence.length > 3 && (
+                      <span className="text-[10px] text-charcoal-400">
+                        +{finding.evidence.length - 3} more
+                      </span>
+                    )}
+                  </div>
+                </Link>
+              );
+            })}
           </div>
           <div className="mt-8 text-center">
             <Link
-              href="/insights"
+              href="/findings"
               className="font-mono text-sm text-forest hover:underline"
             >
-              View all {insightData.insights.length} insights &rarr;
+              View all {findingData.findings.length} findings &rarr;
             </Link>
           </div>
         </div>

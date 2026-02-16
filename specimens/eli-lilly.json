@@ -8,11 +8,11 @@
     "subType": null,
     "subTypeName": null,
     "secondaryModel": 5,
-    "secondaryModelName": "Product/Venture Lab (5b: Venture Builder — NVIDIA partnership)",
+    "secondaryModelName": "Product/Venture Lab (5b: Venture Builder \u2014 NVIDIA partnership)",
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "High",
-    "classificationRationale": "Reclassified from M1 (Research Lab) to M4 (Hub-and-Spoke). Lilly's decentralized hub model — multiple 300-400 person hubs each focused on a therapeutic area, coordinated by central R&D leadership — is the Hub-and-Spoke pattern, not a single research lab. M1 implies a single, centralized research entity. Lilly has multiple distributed units with central coordination. The NVIDIA co-innovation lab adds another spoke. Secondary M5b retained for the NVIDIA partnership.",
+    "classificationRationale": "Reclassified from M1 (Research Lab) to M4 (Hub-and-Spoke). Lilly's decentralized hub model \u2014 multiple 300-400 person hubs each focused on a therapeutic area, coordinated by central R&D leadership \u2014 is the Hub-and-Spoke pattern, not a single research lab. M1 implies a single, centralized research entity. Lilly has multiple distributed units with central coordination. The NVIDIA co-innovation lab adds another spoke. Secondary M5b retained for the NVIDIA partnership.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -24,7 +24,7 @@
     "headquarters": "Indianapolis, IN",
     "geography": "Global"
   },
-  "description": "Approximately 15 years ago, Eli Lilly decentralized its R&D into smaller hubs of 300-400 people. Each hub operates like an internal biotech — focused on a specific therapeutic area or modality — but without the burden of fundraising or quarterly investor pressure. The hubs are small enough to maintain scientific intimacy and shared tacit knowledge, yet large enough to have critical mass of capability.\n\nThe structure enables extraordinarily long time horizons. The GLP-1 program ran 18+ years from first injection in 2006 to the launch of Mounjaro, with teams 'just grinding on a theme' rather than making big-bet single projects. CEO Dave Ricks explicitly shields these hubs from corporate optimization pressure, recognizing that middle management naturally squashes the off-strategy deviations that produce breakthroughs.\n\nIn January 2026, Lilly added a new dimension: a $1B co-innovation lab with NVIDIA in South San Francisco. This 'scientist-in-the-loop' AI capability co-locates Lilly domain experts with NVIDIA AI engineers, creating a continuous learning system connecting agentic wet labs with computational dry labs for 24/7 AI-assisted experimentation. The lab will also deploy a 1,016 Blackwell Ultra GPU supercomputer — the most powerful owned by a pharma company.",
+  "description": "Approximately 15 years ago, Eli Lilly decentralized its R&D into smaller hubs of 300-400 people. Each hub operates like an internal biotech \u2014 focused on a specific therapeutic area or modality \u2014 but without the burden of fundraising or quarterly investor pressure. The hubs are small enough to maintain scientific intimacy and shared tacit knowledge, yet large enough to have critical mass of capability.\n\nThe structure enables extraordinarily long time horizons. The GLP-1 program ran 18+ years from first injection in 2006 to the launch of Mounjaro, with teams 'just grinding on a theme' rather than making big-bet single projects. CEO Dave Ricks explicitly shields these hubs from corporate optimization pressure, recognizing that middle management naturally squashes the off-strategy deviations that produce breakthroughs.\n\nIn January 2026, Lilly added a new dimension: a $1B co-innovation lab with NVIDIA in South San Francisco. This 'scientist-in-the-loop' AI capability co-locates Lilly domain experts with NVIDIA AI engineers, creating a continuous learning system connecting agentic wet labs with computational dry labs for 24/7 AI-assisted experimentation. The lab will also deploy a 1,016 Blackwell Ultra GPU supercomputer \u2014 the most powerful owned by a pharma company.",
   "observableMarkers": {
     "reportingStructure": "Hubs report to R&D leadership, not business unit heads [cheeky-pint-2025]. NVIDIA lab is a joint venture structure [nvidia-newsroom-2026]. New therapeutic area presidents (Neuroscience, Immunology) added to leadership team in 2025 [lilly-earnings-q4-2025].",
     "resourceAllocation": "R&D investment target: 20-25% of sales [chief-exec-2025]. At $120B revenue, R&D budget approaches NIH scale. $1B committed to NVIDIA partnership over five years [nvidia-newsroom-2026]. $55B+ committed to manufacturing expansion since 2020 [lilly-earnings-q4-2025].",
@@ -81,6 +81,15 @@
   "layers": [
     {
       "date": "2026-02",
+      "label": "NVIDIA Co-Innovation Lab + TuneLab Platform",
+      "summary": "Eli Lilly and NVIDIA announced $1B, 5-year co-innovation lab in San Francisco Bay Area. Scientist-in-the-loop framework developed. TuneLab platform distributed to 1,300+ biotech customers \u2014 internal AI capability becoming external infrastructure. 'Artisanal to engineering' drug discovery reframe. Lilly Direct reaches 1M patients. The NVIDIA lab represents a new structural form: external AI lab as joint venture between pharma and AI chipmaker.",
+      "classification": null,
+      "sourceRefs": [
+        "lilly-nvidia-lab-2026"
+      ]
+    },
+    {
+      "date": "2026-02",
       "label": "Citation Backfill",
       "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
       "classification": null,
@@ -97,14 +106,14 @@
     },
     {
       "date": "2026-02",
-      "label": "Reclassification: M1 → M4",
+      "label": "Reclassification: M1 \u2192 M4",
       "summary": "Reclassified from Model 1 (Research Lab) to Model 4 (Hub-and-Spoke). The decentralized hub model (multiple 300-400 person hubs coordinated by central R&D leadership) is structurally a Hub-and-Spoke pattern, not a single research lab. Each hub operates like an internal biotech but reports to centralized R&D leadership. Secondary M5b retained for NVIDIA co-innovation lab. Type specimen status removed.",
       "classification": "Model 4 + Model 5b",
       "sourceRefs": []
     },
     {
       "date": "2026-01",
-      "label": "NVIDIA Co-Innovation Lab — Detailed Sources",
+      "label": "NVIDIA Co-Innovation Lab \u2014 Detailed Sources",
       "summary": "Multiple press sources confirm $1B co-innovation lab details: co-location model in South San Francisco, 24/7 experimentation loop connecting wet and dry labs, robotics and digital twins for production lines, extends beyond drug discovery to clinical development and manufacturing. Part of $50B US commitment.",
       "classification": null,
       "sourceRefs": [
@@ -138,7 +147,7 @@
     {
       "id": "cheeky-pint-2025",
       "type": "Podcast",
-      "name": "Cheeky Pint Podcast (Collison Brothers) — Dave Ricks interview",
+      "name": "Cheeky Pint Podcast (Collison Brothers) \u2014 Dave Ricks interview",
       "url": null,
       "timestamp": null,
       "sourceDate": "2025-11",
@@ -168,7 +177,7 @@
     {
       "id": "nvidia-newsroom-2026",
       "type": "Press Release",
-      "name": "NVIDIA Newsroom — Co-Innovation Lab Announcement",
+      "name": "NVIDIA Newsroom \u2014 Co-Innovation Lab Announcement",
       "url": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai",
       "timestamp": null,
       "sourceDate": "2026-01-12",
@@ -178,7 +187,7 @@
     {
       "id": "lilly-ir-2026",
       "type": "Press Release",
-      "name": "Eli Lilly Investor Relations — Co-Innovation Lab",
+      "name": "Eli Lilly Investor Relations \u2014 Co-Innovation Lab",
       "url": "https://investor.lilly.com/news-releases/news-release-details/nvidia-and-lilly-announce-co-innovation-ai-lab-reinvent-drug",
       "timestamp": null,
       "sourceDate": "2026-01-12",
@@ -188,7 +197,7 @@
     {
       "id": "fiercebiotech-2026",
       "type": "Press",
-      "name": "FierceBiotech — Lilly NVIDIA Partnership",
+      "name": "FierceBiotech \u2014 Lilly NVIDIA Partnership",
       "url": "https://www.fiercebiotech.com/biotech/lilly-nvidia-tag-partnership-new-ai-co-innovation-lab-1b-investment",
       "timestamp": null,
       "sourceDate": "2026-01-12",
@@ -198,7 +207,7 @@
     {
       "id": "drugdiscovery-2026",
       "type": "Press",
-      "name": "Drug Discovery Trends — Lilly and NVIDIA Unveil $1B Lab",
+      "name": "Drug Discovery Trends \u2014 Lilly and NVIDIA Unveil $1B Lab",
       "url": "https://www.drugdiscoverytrends.com/lilly-and-nvidia-unveil-1b-co-innovation-lab-in-sf/",
       "timestamp": null,
       "sourceDate": "2026-01-12",
@@ -214,6 +223,15 @@
       "sourceDate": "2026-02-04",
       "collectedDate": "2026-02-07",
       "notes": "CEO Dave Ricks discusses NVIDIA co-innovation lab. New therapeutic area presidents participate. 36 active Phase III programs, $55B manufacturing commitment."
+    },
+    {
+      "id": "lilly-nvidia-lab-2026",
+      "type": "Press",
+      "name": "Eli Lilly NVIDIA Co-Innovation Lab Announcement",
+      "url": null,
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-15",
+      "notes": "[no URL \u2014 research agent summary]"
     }
   ],
   "contingencies": {
@@ -237,13 +255,13 @@
   ],
   "taxonomyFeedback": [
     "Eli Lilly was reclassified from M1 to M4. The key insight: 'decentralized hubs' with central coordination is Hub-and-Spoke by definition, regardless of whether the hubs do research. M1 should mean a single, ring-fenced unit.",
-    "The NVIDIA partnership adds a Venture Builder (5b) element — hybrid classification (Model 1 + 5b) captures this but may need a cleaner notation.",
-    "[2026-02] Q4 earnings call shows emerging 'therapeutic area president' structure. Dr. Carole Ho (Neuroscience) and Anne White (Immunology) are new presidents participating at the executive level. This may indicate formalization of the hub-and-spoke model — presidents coordinating multiple hubs per therapeutic area. Worth watching whether this represents a new intermediate layer."
+    "The NVIDIA partnership adds a Venture Builder (5b) element \u2014 hybrid classification (Model 1 + 5b) captures this but may need a cleaner notation.",
+    "[2026-02] Q4 earnings call shows emerging 'therapeutic area president' structure. Dr. Carole Ho (Neuroscience) and Anne White (Immunology) are new presidents participating at the executive level. This may indicate formalization of the hub-and-spoke model \u2014 presidents coordinating multiple hubs per therapeutic area. Worth watching whether this represents a new intermediate layer."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-12",
+    "lastUpdated": "2026-02-15",
     "completeness": "High",
     "convertedFrom": "library/cases/eli-lilly.json"
   }

@@ -126,11 +126,11 @@ site/
     ├── types/
     │   ├── specimen.ts             # Full type hierarchy (see Section 4)
     │   ├── taxonomy.ts             # STRUCTURAL_MODELS, SUB_TYPES, ORIENTATIONS constants
-    │   ├── synthesis.ts            # MechanismData, TensionData, ContingencyData, InsightData types (incl. InsightMaturity, MechanismMaturity)
+    │   ├── synthesis.ts            # MechanismData, TensionData, ContingencyData, InsightData, PrimitiveData, FindingData types (incl. FrameworkStatus, FindingMaturity)
     │   └── purpose-claims.ts       # PurposeClaimsData, PurposeClaim, SpecimenEnrichment, ClaimType
     ├── data/
     │   ├── specimens.ts            # Data access: getAllSpecimens, getSpecimenById, getComputedStats, getSpecimensByTaxonomy
-    │   ├── synthesis.ts            # Data access: getMechanisms, getTensions, getContingencies, getInsights
+    │   ├── synthesis.ts            # Data access: getMechanisms, getTensions, getContingencies, getInsights, getPrimitives, getFindings
     │   └── purpose-claims.ts       # Data access: getPurposeClaims, getSpecimenEnrichment, getAllEnrichments
     ├── matcher/
     │   └── buildSystemPrompt.ts    # Builds dynamic system prompt for Claude chat matcher from live data
@@ -228,6 +228,9 @@ interface ContingencyData {
 **`lib/data/synthesis.ts`:**
 - `SYNTHESIS_DIR = path.resolve(process.cwd(), "..", "synthesis")`
 - `getMechanisms()`, `getTensions()`, `getContingencies()`, `getInsights()` — simple file reads with type casting; all wrapped in try/catch with console.error fallback
+- `getPrimitives()` — reads `primitives.json`, returns `PrimitiveData`; try/catch with empty fallback
+- `getFindings()` — reads `findings.json`, returns `FindingData`; try/catch with empty fallback
+- `getInsights()` — **DEPRECATED**: now reads from `insights-archive-v1.json` (frozen archive); new analytical output is in findings
 
 **`lib/data/purpose-claims.ts`:**
 - `CLAIMS_FILE` → `../research/purpose-claims/registry.json`
@@ -370,15 +373,17 @@ Each color has a full scale (50-900) defined in `tailwind.config.ts`.
 
 | Route | Page Data Dependencies | Key Client Component | Static? |
 |-------|----------------------|---------------------|---------|
-| `/` | `getAllSpecimens`, `getComputedStats`, `getMechanisms`, `getInsights` | (none — server rendered) | No |
+| `/` | `getAllSpecimens`, `getComputedStats`, `getMechanisms`, `getFindings` | (none — server rendered) | No |
 | `/specimens` | `getAllSpecimens` | `SpecimenBrowser` | No |
-| `/specimens/[id]` | `getSpecimenById`, `getAllSpecimens` (related), `getMechanisms`, `getInsights`, `getPurposeClaims`, `getSpecimenEnrichment` | `SpecimenTabs` | Yes (generateStaticParams) |
+| `/specimens/[id]` | `getSpecimenById`, `getAllSpecimens` (related), `getMechanisms`, `getFindings`, `getPurposeClaims`, `getSpecimenEnrichment` | `SpecimenTabs` | Yes (generateStaticParams) |
 | `/taxonomy` | `getSpecimensByTaxonomy`, `getMechanisms` | `TaxonomyMatrix`, `ModelAccordion`, `OrientationAccordion` | No |
 | `/taxonomy/models/[id]` | `getAllSpecimens`, `getMechanisms` | (none) | Yes (generateStaticParams) |
 | `/taxonomy/orientations/[id]` | `getAllSpecimens`, `getMechanisms` | (none) | Yes (generateStaticParams) |
 | `/mechanisms` | `getMechanisms` | (none) | No |
 | `/mechanisms/[id]` | `getMechanisms`, `getAllSpecimens` | (none) | Yes (generateStaticParams) |
-| `/insights` | `getInsights`, `getAllSpecimens` | (none) | No |
+| `/framework` | `getPrimitives`, `getTensions`, `getFindings` | (none) | No |
+| `/findings` | `getFindings`, `getAllSpecimens` | (none) | No |
+| `/insights` | — | Redirects to `/findings` | No |
 | `/purpose-claims` | `getPurposeClaims`, `getAllEnrichments`, `getAllSpecimens` | `PurposeClaimsBrowser` | No |
 | `/field-journal` | synthesis session files | (none) | No |
 | `/field-journal/[id]` | single session file | (none) | Yes (generateStaticParams) |

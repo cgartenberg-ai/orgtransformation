@@ -87,8 +87,17 @@ Both tracks share:
 /curate [specimen-id]        # Create or update a specific specimen
 ```
 
-**Inputs:**
-- `research/queue.json` — pending orgs from research
+**Inputs (two formats):**
+
+| Format | Source | How it works |
+|--------|--------|--------------|
+| **Multi-company session** | Interactive `/research` | Session file in `research/sessions/*.md` referenced by `research/queue.json`. Contains multiple orgs. Process via queue entries. |
+| **Single-company JSON** | `overnight-research.py` | Structured JSON in `research/pending/{slug}.json` with `"company"` field. `overnight-curate.py` consumes these directly — no queue.json entry needed. |
+
+Both formats converge to the same output: specimen files + synthesis queue entries.
+
+- `research/queue.json` — pending orgs from interactive research sessions
+- `research/pending/*.json` — single-company files from overnight research
 - `research/sessions/*.md` — session files with findings
 - Existing `specimens/*.json` if updating
 
@@ -98,7 +107,7 @@ Both tracks share:
 - `curation/sessions/*.md` — curation session log
 
 **Key protocol steps:**
-1. Read research findings for each org
+1. Read research findings for each org (from session file or pending JSON)
 2. Classify by model (M1-M9) and orientation
 3. Create/update specimen with layers
 4. Queue for synthesis
@@ -179,16 +188,47 @@ Insights are NEVER deleted, only updated or added. The insight update should ref
 
 **Stub policy:** If a specimen has insufficient data to score, skip that dimension and note "insufficient data — needs enrichment." Do NOT invent data.
 
+**Analytical Primitives (P1-P5) — predict structural choice:**
+
+| Primitive | ID | What It Captures |
+|-----------|----|------------------|
+| Work Architecture Modularity | P1 | Can the work be decomposed into discrete, independently optimizable tasks? |
+| Work Output Measurability | P2 | Can quality and outcomes be captured in quantitative metrics? |
+| Governance Structure | P3 | Who has formal and real authority over AI decisions? |
+| Competitive/Institutional Context | P4 | Competitive dynamics, regulation, industry norms, labor markets |
+| Organizational Endowment | P5 | Legacy systems, talent base, culture, prior AI investment |
+
+**Core Findings (F1-F10) — empirical claims under investigation:**
+
+| Finding | ID | Claim |
+|---------|----|-------|
+| Mirroring Thesis | F1 | Work architecture predicts structural model |
+| Overcorrection Trap | F2 | Measurable metrics hide quality degradation in AI transitions |
+| CEO Tenure Predicts Speed | F3 | Founder-CEOs mandate faster structural transformation |
+| Regulation Is Expensive Not Slow | F4 | Compliance infrastructure enables deployment speed |
+| Hub-Spoke Convergence | F5 | M4 dominates enterprise AI; industry > structure for rhetoric |
+| Named Labs Attract Talent | F6 | Visibility and branding drive AI talent acquisition |
+| Purpose Claims as Authorization | F7 | Leaders invoke purpose to legitimate structural change |
+| Two-Speed IT | F8 | Shadow AI creates ungoverned parallel infrastructure |
+| AI-Native Paradox | F9 | Born-AI firms face distinct coordination problems |
+| Merger Creates Coordination Crisis | F10 | Consolidating AI teams triggers authority conflicts |
+
+> **Exploration and Curiosity First.** These primitives and findings are analytical lenses, not filters. Evidence that contradicts or falls outside the framework receives the same analytical weight as confirming evidence. Novel patterns and surprises are just as important as framework-confirming observations.
+
+Full framework details: `synthesis/ANALYTICAL-FRAMEWORK.md`, `synthesis/primitives.json`, `synthesis/findings.json`
+
 **Inputs:**
 - `specimens/*.json` — full specimen data (primary)
 - `synthesis/*.json` — existing patterns (cross-reference)
-- `synthesis/PLACEMENT-COMPLETION-PLAN.md` — batch breakdown and progress
+- `synthesis/primitives.json` — 5 analytical primitives
+- `synthesis/findings.json` — 10 core findings + field observations
 
 **Outputs:**
 - `synthesis/mechanisms.json` — updated mechanism evidence
 - `synthesis/tensions.json` — specimen placements with evidence
 - `synthesis/contingencies.json` — specimen level assignments
-- `synthesis/insights.json` — cross-cutting findings (NEVER deleted, only added/updated)
+- `synthesis/findings.json` — core findings (evidence for/against, maturity changes)
+- `synthesis/insights.json` — cross-cutting insights archive (NEVER deleted, only added/updated)
 - `synthesis/sessions/*.md` — session journals with discoveries
 - `scripts/patch-batch*.py` — patch scripts (one per batch, kept for audit trail)
 
@@ -278,6 +318,29 @@ The purpose claims pipeline now includes visual analytics and enrichment display
 - Source IDs must match entries in specimen's `sources[]` array
 - **Curation protocol updated**: all new specimens should include `[source-id]` markers in observable markers
 - **34 specimens backfilled** so far — more specimens need citation backfill
+
+### Track 2 Architecture: Collect vs. Enrich (Design Note)
+
+**Current design (v1):** Collection and enrichment happen in a single agent pass. Each agent scans one specimen, collects claims, and generates `specimenEnrichment` (keyFindings, rhetoricalPatterns, comparativeNotes) — all in one output file. The overnight script merges claims into registry.json and writes enrichment to separate files.
+
+**Limitation:** Each agent can only see its own specimen. The `comparativeNotes` and `rhetoricalPatterns` fields are generated without access to the full claims registry. Cross-specimen patterns (e.g., "pharma CEOs cluster on teleological claims") are only visible post-hoc in analysis mode.
+
+**Future design (v2 — when needed):** Split into two phases:
+
+| Phase | Script | What it does |
+|-------|--------|--------------|
+| **Collect** | `overnight-purpose-claims.py` (current) | Scan specimens, collect verbatim claims, write to pending/ and merge to registry.json |
+| **Enrich** | `overnight-purpose-enrich.py` (new) | Read full registry + all specimens. Generate enrichment files with cross-specimen comparative analysis. Batch by structural model or industry. |
+
+**When to split:** When the enrichment quality noticeably suffers from single-specimen context. Current enrichment is adequate — agents often produce insightful comparative notes by drawing on their training knowledge of the companies. Split when we need enrichment for the paper.
+
+**What changes:**
+1. Agent prompt for collection drops the `specimenEnrichment` requirement (faster, simpler)
+2. New enrichment script reads full registry, groups by model/industry, generates richer comparative analysis
+3. Enrichment files get a `version` field to track whether they were v1 (per-agent) or v2 (cross-specimen)
+4. Scan-tracker gets a separate `enrichmentDate` field
+
+**What stays the same:** Registry.json structure, scan-tracker quality levels, claim schema, merge protocol.
 
 ---
 
@@ -386,6 +449,27 @@ curation/
 
 ---
 
+## Session File Naming (All Tracks)
+
+All session files across all tracks follow this pattern:
+
+```
+YYYY-MM-DD-{descriptor}.md
+```
+
+| Directory | Prefix convention | Examples |
+|-----------|-------------------|----------|
+| `research/sessions/` | Date + type + scope | `2026-02-14-research-podcasts-press.md`, `2026-02-14-earnings-q4-amazon.md` |
+| `curation/sessions/` | Date + "curation" + scope | `2026-02-14-curation-batch5.md` |
+| `synthesis/sessions/` | Date + "synthesis" + scope | `2026-02-14-synthesis-batch1.md` |
+| `research/purpose-claims/sessions/` | Date + type | `2026-02-14-batch-15-pharma.md`, `2026-02-14-scan-microsoft.md`, `2026-02-14-overnight-run.md` |
+
+**Overnight script sessions:** Overnight scripts name their sessions `YYYY-MM-DD-overnight-{track}.md` (e.g., `overnight-run.md` for purpose claims, `overnight-curate-run.md` for curation).
+
+**Historical files:** Pre-2026-02-14 files may not follow this convention. Don't rename them.
+
+---
+
 ## Typical Session Flow
 
 ### "I want to do a research session"
@@ -426,26 +510,82 @@ curation/
 
 ---
 
+## Specimen Lifecycle Gates
+
+Every specimen moves through a defined lifecycle. Each gate defines what "done" means at that stage. Use `data/specimen-lifecycle-status.json` to track progress programmatically.
+
+| Stage | Gate | How to verify |
+|-------|------|---------------|
+| **1. Researched** | Findings in `research/queue.json` with at least 1 structural observation | Check queue.json for specimen slug |
+| **2. Curated** | Specimen file exists in `specimens/{id}.json` with classification, ≥1 source, ≥1 layer | `meta.status` ∈ {Active, Stub}, classification populated |
+| **3. Placed** | Tension positions scored + contingencies assessed | ≥3 non-null `tensionPositions` fields, ≥3 non-null `contingencies` fields |
+| **4. Synthesized** | Appears in `synthesis-queue.json` with `status: synthesized` | Check synthesis-queue for specimenId |
+| **5. Claims collected** | Entry in `scan-tracker.json` with `quality` ≠ `unscanned` | `quality` ∈ {rich, adequate, thin, none} |
+| **6. Enriched** | Enrichment file exists at `research/purpose-claims/enrichment/{id}.json` with keyFindings + rhetoricalPatterns | File exists with non-empty arrays |
+| **7. Citation-ready** | All sources have `sourceUrl` + `sourceDate` + `collectedDate` | 0 warnings in validator Section 2 |
+
+**"Done" for research scale-up:** A specimen is considered research-complete when it reaches Stage 6 (Enriched). Stage 7 is aspirational and can be backfilled.
+
+**Stubs:** Remain at Stage 2 until sufficient data is found to progress. Stubs are legitimate — "not enough data yet" is a valid state.
+
+---
+
 ## Operational Infrastructure
 
-### Running Overnight Automation
+### Nightly Pipeline (Autonomous)
 
-**Prerequisites:**
-- Claude CLI installed and configured
-- All required data files exist and parse as valid JSON
-- No other overnight script running (PID-based lock check)
+The nightly pipeline runs research → curate → purpose claims → synthesis → validation → morning briefing on a 7-day themed rotation. Config: `scripts/pipeline-schedule.json`. All phases are **framework-aware** (Session 36): research agents carry P1-P5 primitive antenna, curation agents tag `primitiveIndicators` and `findingRelevance`, and synthesis evaluates evidence for/against findings F1-F10.
 
-**Execution:**
+**Running the pipeline:**
 ```bash
-# Always use --dry-run first to preview
+# Preview tonight's schedule
+python3 scripts/overnight-pipeline.py --dry-run
+
+# Run for real (unattended)
+python3 scripts/overnight-pipeline.py --skip-permissions
+
+# Force a specific day
+python3 scripts/overnight-pipeline.py --dry-run --day monday
+
+# Run a single phase
+python3 scripts/overnight-pipeline.py --phase 4 --skip-permissions  # synthesis only
+```
+
+**Weekly schedule (2-3 themed research batches per night):**
+
+| Day | Primary Theme | Secondary | Tertiary |
+|-----|--------------|-----------|----------|
+| Mon | Earnings sweep | Press keyword sweep | — |
+| Tue | Tier 1+2 podcasts | Tier 2.5 podcasts | Daily news scan |
+| Wed | Substacks (all tiers) | Enterprise reports | Target specimens (new) |
+| Thu | Stale refresh (oldest 8) | Target specimens (enrich) | Press keyword sweep |
+| Fri | Earnings follow-up | Low-confidence specimens | Taxonomy gap coverage |
+| Sat | Tier 3 podcasts | Industry discovery | — |
+| Sun | Source staleness audit | Catch-up (adaptive) | — |
+
+**Morning review workflow:**
+1. Check `pipeline-reports/YYYY-MM-DD-morning-briefing.md` — phase summary
+2. Check `pipeline-reports/YYYY-MM-DD-field-journal.md` — synthesis audit trail
+3. Review any new insights in `synthesis/insights.json`
+4. Adjust any autonomous placements if needed
+
+**Scheduling via launchd (7 PM daily):**
+```bash
+cp scripts/com.fieldguide.overnight-pipeline.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.fieldguide.overnight-pipeline.plist
+```
+
+### Running Individual Scripts
+
+```bash
+# Research with a specific theme
+python3 scripts/overnight-research.py --schedule-theme press-keyword --limit 4 --dry-run
+
+# Individual scripts (legacy mode)
 python3 scripts/overnight-research.py --dry-run
 python3 scripts/overnight-purpose-claims.py --dry-run
 python3 scripts/overnight-curate.py --dry-run
-
-# Then run for real
-python3 scripts/overnight-research.py
-python3 scripts/overnight-purpose-claims.py
-python3 scripts/overnight-curate.py
+python3 scripts/overnight-synthesis.py --dry-run
 ```
 
 **Safety features:**
@@ -453,6 +593,16 @@ python3 scripts/overnight-curate.py
 - Lock files: `scripts/.locks/` prevents concurrent runs (PID-based, stale-lock detection)
 - Preflight checks: all required files validated before expensive agent runs
 - Changelog: every data modification logged to `data/CHANGELOG.md`
+- Registry rebuild: `overnight-curate.py` automatically runs `rebuild-registry.js` after successful curation
+- Time-budget-aware: orchestrator tracks elapsed time, skips optional batches if running long
+- Field journal: autonomous synthesis writes full audit trail of every placement with rationale
+
+**What the pipeline updates:**
+- `research/pending/*.json` — Research findings
+- `specimens/*.json` — Specimen cards (via curate)
+- `purpose-claims/registry.json` — Purpose claims
+- `synthesis/*.json` — Tension scores, contingency placements, mechanism links, insights (via autonomous synthesis)
+- `pipeline-reports/*.md` — Morning briefings and field journals
 
 ### Post-Run Verification
 

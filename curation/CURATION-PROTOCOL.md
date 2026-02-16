@@ -179,12 +179,12 @@ Copy `specimens/_template.json` as the starting structure. Set:
 
 ### B. Classify Using Decision Tree
 
-Follow the classification decision tree in `skills/ambidexterity-curation/SKILL.md` Steps 2-3. **After walking the decision tree, run all 8 Classification Guardrails from SKILL.md before finalizing the classification.** Guardrails catch common misclassification patterns (M7 permanence trap, M1 prestige bias, temporal vs. one-time pivot, etc.).
+Follow the classification decision tree in `skills/ambidexterity-curation/SKILL.md` Steps 2-3. **After walking the decision tree, run all 9 Classification Guardrails from SKILL.md before finalizing the classification.** Guardrails catch common misclassification patterns (M7 permanence trap, M1 prestige bias, temporal vs. one-time pivot, etc.).
 
 For every classification:
 
 1. **Walk the decision tree explicitly** — start at "Is there a formal AI unit?" and follow the branches. **Record the path taken** (e.g., "Formal unit=YES → Publishes research=NO → Central team=YES → Builds+Enables → M4"). This reasoning goes into (a) the specimen's `classificationRationale` field and (b) the session log's "Classification Reasoning" table.
-2. **Run all 8 guardrails** and note which were triggered. Even "guardrail checked, not triggered" is useful — it shows the classification was tested.
+2. **Run all 9 guardrails** and note which were triggered. Even "guardrail checked, not triggered" is useful — it shows the classification was tested.
 3. **Assign confidence**: High = multiple confirming sources; Medium = reasonable from available data; Low = best guess from limited data
 4. **Write a classificationRationale** for EVERY specimen with Medium or Low confidence — explain what data drove the decision and what's missing
 5. **Check for secondary model** — many orgs combine models (e.g., "Model 1 + Model 5b"). If you see a clear secondary, record it.
@@ -236,11 +236,35 @@ The `date` field is when the org REVEALED this state, not when we collected it.
 
 **`tensionPositions`**: Score -1.0 to +1.0 on each tension axis where data exists. Use null when insufficient. Include rationale in taxonomyFeedback if scores are non-obvious.
 
+**`primitiveIndicators`** *(optional)*: An object with keys P1-P5. For each of the 5 analytical primitives (P1 Work Architecture Modularity, P2 Work Output Measurability, P3 Governance Structure, P4 Competitive/Institutional Context, P5 Organizational Endowment), write a short note if the data clearly speaks to that primitive. Use `null` for primitives where the data is silent. Example:
+```json
+"primitiveIndicators": {
+  "P1": "High modularity — API-driven platform, discrete services [source-id]",
+  "P2": "Low measurability — creative output, quality hard to quantify",
+  "P3": null,
+  "P4": "High competitive intensity — AI-native entrants threatening core business",
+  "P5": null
+}
+```
+Do NOT force-fit. `null` is the right answer when data doesn't speak to a primitive.
+
+**`findingRelevance`** *(optional)*: An array noting which of the 10 core findings (F1-F10) this specimen provides evidence for or against. Each entry has `findingId`, `direction` ("supports" or "challenges"), and a `note`. Example:
+```json
+"findingRelevance": [
+  {"findingId": "finding-1-mirroring", "direction": "supports", "note": "Modular software architecture maps to contextual AI adoption"},
+  {"findingId": "finding-2-overcorrection", "direction": "challenges", "note": "High measurability but no quality degradation observed — possible boundary condition"}
+]
+```
+Both directions carry equal analytical weight. A specimen that challenges a finding is just as valuable as one that supports it. Omit findings where the specimen has nothing to say.
+
+> **Exploration and Curiosity First.** The primitives and findings are analytical lenses, not filters. Evidence that contradicts or falls outside the framework receives the same analytical weight as confirming evidence. If a specimen reveals a pattern the framework can't explain, tag it prominently in `taxonomyFeedback` — novel patterns and surprises are just as analytically important. We are scientists exploring with curiosity, not advocates confirming a theory.
+
 **`openQuestions`**: Copy from session's "Open Questions" section for this org.
 
 **`taxonomyFeedback`**: Note any of:
 - Edge cases where the org doesn't fit the taxonomy cleanly
 - Patterns the taxonomy doesn't capture
+- Patterns that challenge or complicate the analytical framework (primitives, findings)
 - Potential type specimen candidacy
 - Reclassification considerations
 

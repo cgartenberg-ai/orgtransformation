@@ -1,6 +1,6 @@
 {
   "description": "Living document — core tensions organizations face when structuring for ambidexterity. Updated during Phase 3 synthesis sessions.",
-  "lastUpdated": "2026-02-13",
+  "lastUpdated": "2026-02-15",
   "tensions": [
     {
       "id": 1,
@@ -66,8 +66,8 @@
         },
         {
           "specimenId": "nvidia",
-          "position": 0.3,
-          "evidence": "No separate innovation function — 'the lab is the entire company.' 60 direct reports, flat structure."
+          "position": 0.5,
+          "evidence": "No separate innovation function — 'the lab is the entire company.' 60 direct reports, flat structure. [Feb 15 revision: Stronger contextual integration signal from M1+M9]"
         },
         {
           "specimenId": "commonwealth-bank",
@@ -136,8 +136,8 @@
         },
         {
           "specimenId": "shopify",
-          "position": 0.3,
-          "evidence": "No named AI lab. CEO mandate for AI proficiency across all roles. Contextual integration."
+          "position": 0.9,
+          "evidence": "Purest contextual specimen. No AI org, no CAIO. CEO mandate is sole coordination mechanism. 'Prove AI can't do it' headcount policy. [Feb 15: M3→M6 reclass correction]"
         },
         {
           "specimenId": "duolingo",
@@ -151,8 +151,8 @@
         },
         {
           "specimenId": "bosch-bcai",
-          "position": -0.5,
-          "evidence": "BCAI as dedicated research center serving BU spokes. Structural hub-and-spoke."
+          "position": -0.4,
+          "evidence": "BCAI as dedicated research center serving BU spokes. Structural hub-and-spoke. [Feb 15 revision: BCAI 'network' framing + embedded division experts = some contextual elements]"
         },
         {
           "specimenId": "sanofi",
@@ -396,8 +396,8 @@
         },
         {
           "specimenId": "nike",
-          "position": -0.2,
-          "evidence": "Technology Center as hub with ML/AI distributed to spokes. Balanced central-distributed. Technology capabilities not AI-branded. Mixed horizons (DTC operations + athlete data)."
+          "position": 0.4,
+          "evidence": "Technology Center as hub with ML/AI distributed to spokes. Balanced central-distributed. Technology capabilities not AI-branded. Mixed horizons (DTC operations + athlete data). [Feb 15 revision: M4→M2+M3 reclass. CTO eliminated. COO integration signals contextual.]"
         },
         {
           "specimenId": "pepsico",
@@ -511,8 +511,8 @@
         },
         {
           "specimenId": "apple",
-          "position": -0.6,
-          "evidence": "Hub-and-spoke with deliberately weak hub. VP-level coordinator (Subramanya) under Federighi, not SVP direct-to-CEO. Functional org design distributes AI execution across SVPs. Structural separation exists but is thinner than any other Big Tech M4."
+          "position": -0.4,
+          "evidence": "Hub-and-spoke with deliberately weak hub. VP-level coordinator (Subramanya) under Federighi, not SVP direct-to-CEO. Functional org design distributes AI execution across SVPs. Structural separation exists but is thinner than any other Big Tech M4. [Feb 15 revision: M3 weakens structural separation story]"
         },
         {
           "specimenId": "salesforce",
@@ -538,8 +538,86 @@
           "specimenId": "pinterest",
           "position": 0.5,
           "evidence": "No dedicated AI lab, CAIO, or CoE. M6a with low confidence. Contextual/undifferentiated."
+        },
+        {
+          "specimenId": "palantir",
+          "position": 0.8,
+          "evidence": "M6b Contextual: 97% Foundry adoption, no formal AI org, 'engineering commune.' Everyone owns AI because no one owns AI."
+        },
+        {
+          "specimenId": "asml",
+          "position": 0.7,
+          "evidence": "Contextual: same engineers do core lithography and AI optimization. No structural separation between exploration and execution."
+        },
+        {
+          "specimenId": "astrazeneca",
+          "position": -0.6,
+          "evidence": "Structural: federated hub-and-spoke with central enterprise data office. Business units have separate data offices."
+        },
+        {
+          "specimenId": "rivian",
+          "position": -0.7,
+          "evidence": "Structural: distinct AI/Autonomy team in Palo Alto, separate London/Atlanta/Belgrade hubs. Clear separation from EV manufacturing."
+        },
+        {
+          "specimenId": "comcast---nbcuniversal",
+          "position": -0.3,
+          "evidence": "Slightly structural: LIFT Labs is a distinct accelerator. But internal AI is distributed across business units."
+        },
+        {
+          "specimenId": "spotify",
+          "position": 0.6,
+          "evidence": "Contextual: Honk system, individual engineers balance AI exploration/execution. Squad autonomy means no central AI mandate needed."
+        },
+        {
+          "specimenId": "stripe",
+          "position": 0.7,
+          "evidence": "Contextual: AI capability deeply distributed. Minions emerged from financial ops, not a central lab. Nearly all employees use AI weekly."
+        },
+        {
+          "specimenId": "nextera-energy",
+          "position": 0.7,
+          "evidence": "Contextual: no AI org, no CAIO. AI through Google partnership and operational embedding."
+        },
+        {
+          "specimenId": "mckinsey",
+          "position": -0.3,
+          "evidence": "QuantumBlack (1,700 people) is structurally distinct. 40% of firm revenue from AI. Moderate structural separation."
+        },
+        {
+          "specimenId": "cedars-sinai",
+          "position": -0.5,
+          "evidence": "Dual-reporting CAIO creates structural separation. Distributed informatics officers (CHIO, CNIO, CMIO) embed governance."
+        },
+        {
+          "specimenId": "kaiser-permanente",
+          "position": 0.5,
+          "evidence": "Dual-hat CMIO/CAIO absorbs AI into existing role. No dedicated AI organization."
+        },
+        {
+          "specimenId": "mass-general-brigham",
+          "position": -0.6,
+          "evidence": "1,800+ digital staff under CDIO. AIwithCare spinout further separates commercialization."
+        },
+        {
+          "specimenId": "columbia-group",
+          "position": -0.3,
+          "evidence": "Head of AI appointed — structural intent. Early stage."
+        },
+        {
+          "specimenId": "coca-cola",
+          "position": 0.3,
+          "evidence": "M4→M6 reclass. '2 of 2,000 with AI in title'. CFO-chaired Digital Council. Contextual. [Feb 15 revision: M4→M6 reclass]"
         }
-      ]
+      ],
+      "derivedFrom": {
+        "primitives": [
+          "P1",
+          "P5"
+        ],
+        "explanation": "Generated by work modularity x organizational coupling. Modular work + loosely coupled org -> contextual feasible. Integral work + tightly coupled org -> structural separation required."
+      },
+      "masterTension": true
     },
     {
       "id": 2,
@@ -610,8 +688,8 @@
         },
         {
           "specimenId": "wells-fargo",
-          "position": 0.3,
-          "evidence": "180,000 desktops equipped with AI tools — broad deployment in regulated environment."
+          "position": -0.3,
+          "evidence": "180,000 desktops equipped with AI tools — broad deployment in regulated environment. [Feb 15 revision: Banking requires validation depth. Google Agentspace to only 2K initially. 30-35% automation target.]"
         },
         {
           "specimenId": "anthropic",
@@ -650,8 +728,8 @@
         },
         {
           "specimenId": "sap",
-          "position": 0.0,
-          "evidence": "Joule built centrally then embedded across product lines. Balanced depth-width."
+          "position": 0.1,
+          "evidence": "Joule built centrally then embedded across product lines. Balanced depth-width. [Feb 15 revision: AI in 2/3 of cloud order entry, up 20+ pts from Q3]"
         },
         {
           "specimenId": "infosys",
@@ -686,7 +764,7 @@
         {
           "specimenId": "servicenow",
           "position": 0.4,
-          "evidence": "$600M+ Now Assist revenue achieved quickly. Rapid product launches (AI Control Tower, AI Agent Orchestrator). Speed-oriented deployment."
+          "evidence": "$600M+ Now Assist revenue achieved quickly. Rapid product launches (AI Control Tower, AI Agent Orchestrator). Speed-oriented deployment. [Feb 15 revision: $600M+ Now Assist revenue achieved rapidly]"
         },
         {
           "specimenId": "nokia",
@@ -821,7 +899,7 @@
         {
           "specimenId": "google-deepmind",
           "position": 0.2,
-          "evidence": "Speed-leaning. Explicit mandate to 'accelerate research-to-product pipeline.' Supply-constrained through 2026 but deploying rapidly."
+          "evidence": "Speed-leaning. Explicit mandate to 'accelerate research-to-product pipeline.' Supply-constrained through 2026 but deploying rapidly. [Feb 15 revision: Accelerating deployment: 750M MAU, 8M Enterprise seats]"
         },
         {
           "specimenId": "intel",
@@ -987,6 +1065,86 @@
           "specimenId": "workday",
           "position": 0.5,
           "evidence": "Speed-oriented restructuring framing. No evidence of depth AI capability investment."
+        },
+        {
+          "specimenId": "palantir",
+          "position": 0.0,
+          "evidence": "Mixed: defense contracts require deep, long integration; commercial AIP enables rapid deployment. Balanced."
+        },
+        {
+          "specimenId": "asml",
+          "position": 0.0,
+          "evidence": "Balanced: AI optimization of 100K parameters is deep technical work; deployment is operational not experimental."
+        },
+        {
+          "specimenId": "astrazeneca",
+          "position": -0.3,
+          "evidence": "Depth: drug discovery requires 3-day→3-month antibody lead timelines. $13B annual R&D. $2.5B Beijing AI lab."
+        },
+        {
+          "specimenId": "rivian",
+          "position": -0.4,
+          "evidence": "Depth: custom silicon (RAP1), in-house Large Driving Model training. Multi-year autonomy development."
+        },
+        {
+          "specimenId": "comcast---nbcuniversal",
+          "position": 0.4,
+          "evidence": "Speed: 90% of accelerator startups convert to deals. Rapid startup-to-integration pipeline."
+        },
+        {
+          "specimenId": "spotify",
+          "position": 0.4,
+          "evidence": "Speed: AI DJ to 90M users, Prompted Playlists to 50M. Deploy at scale to learn from user behavior."
+        },
+        {
+          "specimenId": "stripe",
+          "position": 0.4,
+          "evidence": "Speed: minions generating 5% of all PRs. 30% of bugs fixed by AI in Fix-It Week. Deploy without ROI justification."
+        },
+        {
+          "specimenId": "nextera-energy",
+          "position": 0.0,
+          "evidence": "Balanced: partnership enables faster AI deployment than building in-house. Operational AI (drones, predictive maintenance) is incremental."
+        },
+        {
+          "specimenId": "mckinsey",
+          "position": 0.5,
+          "evidence": "Few-thousand to 25,000 agents in 18 months. Mass deployment at extreme speed."
+        },
+        {
+          "specimenId": "google-ai-infra",
+          "position": -0.2,
+          "evidence": "Deep infrastructure work (Project EAT 'wholesale rethinking'). Competitive urgency pushes toward speed."
+        },
+        {
+          "specimenId": "cedars-sinai",
+          "position": -0.3,
+          "evidence": "CAIRE on research timelines. AI Council vets clinical deployments. Governance favors deliberation."
+        },
+        {
+          "specimenId": "kaiser-permanente",
+          "position": 0.0,
+          "evidence": "Insufficient data to assess."
+        },
+        {
+          "specimenId": "mass-general-brigham",
+          "position": -0.4,
+          "evidence": "Academic research on multi-year grant cycles. Depth from academic research mission."
+        },
+        {
+          "specimenId": "bytedance",
+          "position": 0.5,
+          "evidence": "12x token growth. Rapid hardware proliferation. Heavily speed-biased."
+        },
+        {
+          "specimenId": "duolingo",
+          "position": -0.2,
+          "evidence": "Birdbrain developed since 2018. Patient deep integration. Daily model updates add speed."
+        },
+        {
+          "specimenId": "amazon-agi",
+          "position": -0.4,
+          "evidence": "AGI SF Lab focuses on frontier research (LLMs + reinforcement learning for reasoning, planning, world modeling) with long timelines, balanced by rapid AWS infrastructure scaling ($200B CapEx, 1.2 GW added in Q4 alone)."
         }
       ],
       "evidence": [
@@ -1002,7 +1160,15 @@
           "specimenId": "klarna",
           "note": "REVERSAL: Siemiatkowski's admission that 'cost was too predominant an evaluation factor' when speed of deployment outran depth of learning about quality implications."
         }
-      ]
+      ],
+      "derivedFrom": {
+        "primitives": [
+          "P4",
+          "P2"
+        ],
+        "explanation": "Generated by competitive dynamics x measurability. High competitive intensity + high measurability -> speed dominates. Low competitive intensity + low measurability -> depth dominates."
+      },
+      "masterTension": false
     },
     {
       "id": 3,
@@ -1164,7 +1330,7 @@
         {
           "specimenId": "servicenow",
           "position": -0.5,
-          "evidence": "AI Control Tower centralizes orchestration. AI Agent Orchestrator coordinates across enterprise. McDermott drives central AI strategy."
+          "evidence": "AI Control Tower centralizes orchestration. AI Agent Orchestrator coordinates across enterprise. McDermott drives central AI strategy. [Feb 15 revision: Centralized product development. AI Control Tower.]"
         },
         {
           "specimenId": "nokia",
@@ -1359,7 +1525,7 @@
         {
           "specimenId": "google-deepmind",
           "position": -0.6,
-          "evidence": "Consolidation explicitly designed to eliminate distributed coordination friction between Brain and DeepMind."
+          "evidence": "Consolidation explicitly designed to eliminate distributed coordination friction between Brain and DeepMind. [Feb 15 revision: 50% AI-generated code suggests distributed capability]"
         },
         {
           "specimenId": "intel",
@@ -1495,8 +1661,91 @@
           "specimenId": "workday",
           "position": 0.3,
           "evidence": "No observable central AI function."
+        },
+        {
+          "specimenId": "palantir",
+          "position": -0.3,
+          "evidence": "Slightly centralized: Karp and core leadership set direction despite flat structure. Head of AI Systems (Welsh) is a central point."
+        },
+        {
+          "specimenId": "asml",
+          "position": -0.3,
+          "evidence": "Slightly centralized: Head of AI Program and Strategy coordinates, but AI appears embedded in R&D functions."
+        },
+        {
+          "specimenId": "astrazeneca",
+          "position": 0.5,
+          "evidence": "Highly distributed: 'no central group determines what projects we will or won't do.' Business units retain full autonomy."
+        },
+        {
+          "specimenId": "rivian",
+          "position": -0.5,
+          "evidence": "Centralized: VP Autonomy & AI in Palo Alto as hub. Distributed execution in spokes but central coordination."
+        },
+        {
+          "specimenId": "comcast---nbcuniversal",
+          "position": 0.5,
+          "evidence": "Distributed: no CAIO, no cross-company AI coordination visible. Siloed by business function."
+        },
+        {
+          "specimenId": "spotify",
+          "position": 0.3,
+          "evidence": "Slightly distributed: squads have autonomy; central ML Platform provides infrastructure as a service."
+        },
+        {
+          "specimenId": "stripe",
+          "position": 0.5,
+          "evidence": "Distributed: innovation comes from domain teams. CRO of AI handles go-to-market, not central AI development."
+        },
+        {
+          "specimenId": "nextera-energy",
+          "position": 0.3,
+          "evidence": "Slightly distributed: AI comes via external partnership (Google), not centrally coordinated internally."
+        },
+        {
+          "specimenId": "mckinsey",
+          "position": -0.4,
+          "evidence": "QuantumBlack is centralized capability hub. Consultants use agents in distributed engagement teams."
+        },
+        {
+          "specimenId": "cedars-sinai",
+          "position": -0.2,
+          "evidence": "AI Council provides centralized governance. Three informatics officers distribute decision-making."
+        },
+        {
+          "specimenId": "kaiser-permanente",
+          "position": 0.0,
+          "evidence": "Unified payer-provider governance centralizes. Regional entities may federate. Insufficient data."
+        },
+        {
+          "specimenId": "mass-general-brigham",
+          "position": -0.3,
+          "evidence": "CDIO controls strategy centrally. Research faculty retain academic freedom. AIwithCare independent."
+        },
+        {
+          "specimenId": "columbia-group",
+          "position": -0.4,
+          "evidence": "'AI factory' concept implies centralized capability building. Head of AI as central coordinator."
+        },
+        {
+          "specimenId": "bytedance",
+          "position": -0.6,
+          "evidence": "Volcano Engine is central platform. Seed research centralized under Wu."
+        },
+        {
+          "specimenId": "amazon-agi",
+          "position": -0.3,
+          "evidence": "M3 embedded teams more autonomous than spokes. AGI org is central research, product teams are independent. [Feb 15 revision: M3 embedded teams more autonomous than spokes]"
         }
-      ]
+      ],
+      "derivedFrom": {
+        "primitives": [
+          "P3",
+          "P1"
+        ],
+        "explanation": "Generated by governance structure x modularity. Strong central authority + integral work -> centralized control. Weak authority + modular work -> distributed control."
+      },
+      "masterTension": false
     },
     {
       "id": 4,
@@ -2002,8 +2251,8 @@
         },
         {
           "specimenId": "apple",
-          "position": -0.1,
-          "evidence": "Subramanya is barely visible. VP-level, reports to Federighi, no public profile comparable to Hassabis/Wang/DeSantis. Apple's AI structure is the quietest in Big Tech — no named AI org, no CAIO title. Near the quiet end for a $383B company."
+          "position": 0.1,
+          "evidence": "Subramanya is barely visible. VP-level, reports to Federighi, no public profile comparable to Hassabis/Wang/DeSantis. Apple's AI structure is the quietest in Big Tech — no named AI org, no CAIO title. Near the quiet end for a $383B company. [Feb 15 revision: No named hub, AI structure invisible under M3]"
         },
         {
           "specimenId": "salesforce",
@@ -2017,10 +2266,84 @@
         },
         {
           "specimenId": "crowdstrike",
+          "position": -0.2,
+          "evidence": "Charlotte AI is named and branded, but no CAIO, no separate AI division. CTO carries AI mandate without AI-specific title. Moderately quiet. [Feb 15 revision: Charlotte AI is branded product. 'Security AGI' named aspiration. Fal.Con showcases AI.]"
+        },
+        {
+          "specimenId": "palantir",
+          "position": -0.8,
+          "evidence": "Quiet: no branded AI lab, no CAIO, no AI CoE. AI capability embedded invisibly in platform. [Feb 15 revision: Loudest AI brand in collection. Karp shareholder letters. AIP aggressively marketed.]"
+        },
+        {
+          "specimenId": "asml",
+          "position": 0.9,
+          "evidence": "Extremely quiet: no AI lab, no CAIO, no branded AI org. Most critical AI supply chain company with least visible AI structure."
+        },
+        {
+          "specimenId": "astrazeneca",
+          "position": -0.2,
+          "evidence": "Mixed: CDO role is visible but deliberately no CAIO. AI Accelerator is a process, not a branded org."
+        },
+        {
+          "specimenId": "rivian",
+          "position": -0.5,
+          "evidence": "Named: VP Autonomy & AI, Chief Software Officer, branded research hubs. Autonomy is front-and-center."
+        },
+        {
+          "specimenId": "comcast---nbcuniversal",
+          "position": 0.6,
+          "evidence": "Quiet-ish: LIFT Labs is branded but it's an accelerator, not an AI lab. Internal AI structure invisible."
+        },
+        {
+          "specimenId": "spotify",
+          "position": -0.4,
+          "evidence": "Named: Spotify Research, Creator Technology Research Lab, new Generative AI Research Lab. Multiple branded units."
+        },
+        {
+          "specimenId": "stripe",
           "position": 0.3,
-          "evidence": "Charlotte AI is named and branded, but no CAIO, no separate AI division. CTO carries AI mandate without AI-specific title. Moderately quiet."
+          "evidence": "Quiet: no CAIO, no AI lab. CRO of AI is commercial role, not technical. AI embedded invisibly in operations. [Feb 15 revision: CRO of AI role and Stripe Sessions somewhat public. No branded AI lab.]"
+        },
+        {
+          "specimenId": "nextera-energy",
+          "position": 0.8,
+          "evidence": "Extremely quiet: no AI org, no AI roles visible. 'Technology company that delivers electricity' rhetoric but zero tech officers."
+        },
+        {
+          "specimenId": "mckinsey",
+          "position": -0.5,
+          "evidence": "QuantumBlack is named, branded unit. 'Transform or die' rhetoric."
+        },
+        {
+          "specimenId": "cedars-sinai",
+          "position": -0.6,
+          "evidence": "CAIRE is named research center. CAIO is visible C-suite role. Formally titled positions."
+        },
+        {
+          "specimenId": "kaiser-permanente",
+          "position": 0.6,
+          "evidence": "Dual-hat model = no dedicated AI branding. Quiet transformation."
+        },
+        {
+          "specimenId": "mass-general-brigham",
+          "position": -0.5,
+          "evidence": "1,800+ person digital org is highly visible. AIwithCare spinout is named commercial entity."
+        },
+        {
+          "specimenId": "columbia-group",
+          "position": -0.3,
+          "evidence": "Named Head of AI role, public announcement. Not heavily branded."
         }
-      ]
+      ],
+      "derivedFrom": {
+        "primitives": [
+          "P4",
+          "P3"
+        ],
+        "explanation": "Generated by institutional context x governance. Interesting only when 'named' implies genuine structural separation; when it's just a title over distributed work, collapses into T1."
+      },
+      "masterTension": false,
+      "caveat": "T4 is theoretically interesting only insofar as 'named' implies structural separation (dedicated unit, ring-fenced resources, separate reporting line) and 'quiet' implies contextual integration (no separate structure). When a CAIO title is purely a coordination label over distributed work with no structural separation, T4 collapses into T1. The residual content -- organizational signaling about AI commitment without structural change -- is an institutional conformity observation, not an economic mechanism."
     },
     {
       "id": 5,
@@ -2076,8 +2399,8 @@
         },
         {
           "specimenId": "meta-ai",
-          "position": 0.4,
-          "evidence": "Shifted from long-term FAIR research to product-driven MSL."
+          "position": 0.5,
+          "evidence": "Shifted from long-term FAIR research to product-driven MSL. [Feb 15 revision: Compressed FAIR horizons + Reality Labs retreat]"
         },
         {
           "specimenId": "intercom",
@@ -2162,7 +2485,7 @@
         {
           "specimenId": "servicenow",
           "position": 0.3,
-          "evidence": "Rapid AI product launches. $600M+ Now Assist revenue in short window. Quarterly accountability to enterprise customers."
+          "evidence": "Rapid AI product launches. $600M+ Now Assist revenue in short window. Quarterly accountability to enterprise customers. [Feb 15 revision: Consumption pricing creates short accountability]"
         },
         {
           "specimenId": "nokia",
@@ -2346,8 +2669,8 @@
         },
         {
           "specimenId": "wells-fargo",
-          "position": 0.2,
-          "evidence": "30-35% automation target, $612M severance Q4 2025, headcount down 6%. Near-term restructuring pressure, but dual-role appointment signals longer-term investment."
+          "position": 0.3,
+          "evidence": "30-35% automation target, $612M severance Q4 2025, headcount down 6%. Near-term restructuring pressure, but dual-role appointment signals longer-term investment. [Feb 15 revision: 30-35% automation target and $612M severance charge signal short-to-medium efficiency focus.]"
         },
         {
           "specimenId": "ubs",
@@ -2488,6 +2811,76 @@
           "specimenId": "pinterest",
           "position": 0.5,
           "evidence": "Restructuring plan through Sept 2026. Short-horizon cost management framing."
+        },
+        {
+          "specimenId": "palantir",
+          "position": -0.3,
+          "evidence": "Mixed: defense contracts are multi-year; commercial growth shows quarterly acceleration. 'Two decades converging' rhetoric. [Feb 15 revision: Karp rhetoric consistently long-horizon. Defense contracts multi-year.]"
+        },
+        {
+          "specimenId": "asml",
+          "position": -0.6,
+          "evidence": "Long: chip cycle horizons (5nm→2nm) are multi-year. No quarterly AI deployment pressure."
+        },
+        {
+          "specimenId": "astrazeneca",
+          "position": -0.4,
+          "evidence": "Long: drug discovery timelines (10+ years). R&D investment horizon measures in decades."
+        },
+        {
+          "specimenId": "rivian",
+          "position": -0.7,
+          "evidence": "Long: '2030 inconceivable to buy car without self-driving.' Multi-year custom silicon and autonomy development."
+        },
+        {
+          "specimenId": "comcast---nbcuniversal",
+          "position": 0.3,
+          "evidence": "Slightly short: startup partnerships are 1-2 year conversion cycles. Roberts frames AI as 'more bits to consume' — near-term."
+        },
+        {
+          "specimenId": "spotify",
+          "position": 0.0,
+          "evidence": "Balanced: research labs work on longer-term generative AI; product squads deliver quarterly."
+        },
+        {
+          "specimenId": "stripe",
+          "position": -0.2,
+          "evidence": "Balanced: Payments Foundation Model is longer-term; minions and daily AI tooling are immediate. [Feb 15 revision: Payments Foundation Model multi-year. Agentic commerce protocol long-term.]"
+        },
+        {
+          "specimenId": "nextera-energy",
+          "position": -0.5,
+          "evidence": "Long: infrastructure investments are decades. 'Post-WWII industrial revolution' framing. Clean energy buildout is 20+ year horizon."
+        },
+        {
+          "specimenId": "mckinsey",
+          "position": 0.0,
+          "evidence": "Mixed: outcome-based partnerships (long) vs. quarterly revenue attribution (short)."
+        },
+        {
+          "specimenId": "google-ai-infra",
+          "position": -0.3,
+          "evidence": "AI infrastructure inherently medium-to-long horizon. Competitive pressure from NVIDIA creates short-term accountability."
+        },
+        {
+          "specimenId": "cedars-sinai",
+          "position": -0.3,
+          "evidence": "CAIRE multi-year research timelines. Clinical AI per-project basis. Academic mission leans long."
+        },
+        {
+          "specimenId": "kaiser-permanente",
+          "position": 0.0,
+          "evidence": "Insufficient data."
+        },
+        {
+          "specimenId": "mass-general-brigham",
+          "position": -0.5,
+          "evidence": "Academic research mission creates multi-year horizons. Grant cycles impose 3-5 year planning."
+        },
+        {
+          "specimenId": "amazon-agi",
+          "position": -0.5,
+          "evidence": "AGI research pursues multi-year horizons (world models, reasoning), while simultaneously executing quarterly-cycle Bedrock/Trainium deployment and $730M severance charges for immediate restructuring."
         }
       ],
       "evidence": [
@@ -2495,7 +2888,15 @@
           "specimenId": "intuit",
           "note": "Goodarzi: 'Six years ago, we bet the entire company on data and AI.' Temporal anchoring to 2019 — claims long time horizon while delivering quarterly. Three-level goal framework (efficiency now → product rethink → new business later) explicitly manages accountability cycles."
         }
-      ]
+      ],
+      "derivedFrom": {
+        "primitives": [
+          "P3",
+          "P4"
+        ],
+        "explanation": "Generated by governance incentive contracts x competitive dynamics. Founder governance + low urgency -> long horizons. Hired-CEO + high urgency -> short horizons."
+      },
+      "masterTension": false
     }
   ]
 }

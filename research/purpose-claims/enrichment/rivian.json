@@ -1,0 +1,27 @@
+{
+  "specimenId": "rivian",
+  "scannedDate": "2026-02-15",
+  "quality": "rich",
+  "claimCount": 7,
+  "claimTypeDistribution": {
+    "utopian": 3,
+    "teleological": 1,
+    "higher-calling": 0,
+    "identity": 1,
+    "survival": 1,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 5,
+  "fetchFailures": [
+    "https://stratechery.com/2025/an-interview-with-rivian-ceo-rj-scaringe-about-building-a-car-company-and-autonomy/ (content not accessible)",
+    "https://www.fastcompany.com/91459861/rivian-ai-autonomy-self-driving-lidar-rj-scaringe (403)",
+    "https://businesschief.com/news/inside-rivian-ceos-bets-on-ai-autonomy-and-total-control (403)"
+  ]
+}

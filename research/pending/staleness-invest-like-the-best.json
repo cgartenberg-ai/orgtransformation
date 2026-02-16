@@ -1,0 +1,53 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "invest-like-the-best",
+  "sourceName": "Invest Like the Best",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "Triaged through Ep 454 (Mar 2025 release). Ep 451 Gavin Baker (Dec 16, 2025) and Ep 450 David George/a16z (Dec 9, 2025) are high/medium priority for deep-scan. Ep 452 Ellenbogen (Jan 6, 2026) medium. Ep 453 Hastings low.",
+  "newScannedThrough": "Triaged through Ep 458 (Feb 10, 2026). Ep 456 Gokul Rajaram (Feb 3, 2026) is HIGH priority - AI agents revolutionizing product development. Ep 457 Ben Horowitz (Feb 10, 2026) HIGH priority - AI job destruction thesis. Ep 458 3G Capital (Feb 10, 2026) MEDIUM - talent frameworks. Prior deep-scan queue (Ep 450-452) still pending.",
+  "newContent": [
+    {
+      "title": "Ep 458: Alex Behring & Daniel Schwartz (3G Capital) - Fund Structure and Talent Frameworks",
+      "date": "2026-02-10",
+      "url": "https://colossus.com/series/invest-like-the-best/",
+      "relevance": "MEDIUM",
+      "notes": "Framework for attracting and empowering young talent. May have organizational design insights."
+    },
+    {
+      "title": "Ep 457: Ben Horowitz (a16z) - AI and Job Destruction",
+      "date": "2026-02-10",
+      "url": "https://colossus.com/series/invest-like-the-best/",
+      "relevance": "HIGH",
+      "notes": "Why job destruction and greater inequality aren't inevitable side effects of AI. a16z perspective on AI workforce transformation. Las Vegas Police Department AI deployment case study."
+    },
+    {
+      "title": "Ep 456: Gokul Rajaram (Marathon Management) - AI Agents in Product Development",
+      "date": "2026-02-03",
+      "url": "https://colossus.com/series/invest-like-the-best/",
+      "relevance": "HIGH",
+      "notes": "How AI agents are revolutionizing product development. Lessons from working with world's greatest builders. Software businesses facing greatest disruption risk. Legendary product exec perspective."
+    },
+    {
+      "title": "Ep 455: David Senra interviews Patrick O'Shaughnessy - Purpose and Principles",
+      "date": "2026-01-29",
+      "url": "https://colossus.com/series/invest-like-the-best/",
+      "relevance": "LOW",
+      "notes": "Meta episode about Patrick's journey. May have leadership philosophy content but not AI-structural."
+    },
+    {
+      "title": "Ep 454: Tom Digan & Greg Stewart (Ladder) - Startup Resilience",
+      "date": "2026-01-20",
+      "url": "https://colossus.com/series/invest-like-the-best/",
+      "relevance": "LOW",
+      "notes": "Fundraising lessons, TikTok algorithm mastery. Not AI-organizational."
+    },
+    {
+      "title": "Cursor Company Dispatch - Sixty Days with the AI Coding Decacorn",
+      "date": "2026-02-04",
+      "url": "https://colossus.com/article/cursor-sixty-days/",
+      "relevance": "HIGH",
+      "notes": "Inside look at Cursor (AI coding tool). Part of Colossus magazine. Company dispatch format suggests organizational/structural insights about an AI-native company."
+    }
+  ],
+  "summary": "4 new ILTB episodes since last scan (Ep 455-458). Two HIGH priority finds: (1) Ep 456 Gokul Rajaram on AI agents revolutionizing product development - direct relevance to AI-organizational structure; (2) Ep 457 Ben Horowitz on why AI job destruction isn't inevitable - a16z perspective on workforce transformation. Also notable: Cursor company dispatch in Colossus magazine (Feb 4) - inside look at AI coding decacorn operations. Prior deep-scan queue (Ep 450 a16z, Ep 451 Gavin Baker, Ep 452 Ellenbogen) remains pending."
+}

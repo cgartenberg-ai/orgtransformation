@@ -1,38 +1,51 @@
 {
   "id": "infosys",
   "name": "Infosys",
-  "title": "100K-Engineer AI Center of Excellence with Cursor",
+  "title": "Dual AI Leadership with Central Platform Fabric",
   "classification": {
-    "structuralModel": 2,
-    "structuralModelName": "Center of Excellence",
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
     "subType": null,
     "subTypeName": null,
-    "secondaryModel": null,
-    "secondaryModelName": null,
+    "secondaryModel": 2,
+    "secondaryModelName": "Center of Excellence",
     "orientation": "Structural",
-    "orientationName": "Structural",
+    "orientationName": "Structural Separation",
     "confidence": "Medium",
-    "classificationRationale": "Model 2 (Center of Excellence). Infosys established a formal AI CoE with Cursor for software engineering, integrated into Topaz Fabric platform. The CoE provides centralized AI capability, governance, and an 'AI Engineering Experience Zone' for client demonstrations. 100,000 engineers receive standardized AI tooling through the central CoE. Structural orientation: the CoE is a named, formally announced entity with distinct leadership.",
+    "classificationRationale": "Infosys demonstrates M4 Hub-and-Spoke: central Topaz platform provides unified AI infrastructure (the hub) while multiple distributed labs and CoEs (Living Labs, London AI Lab, Cognition co-innovation labs, Cursor CoE) serve as spokes. The dual-leadership structure—Sunil Senan for AI strategy/capability, Bali DR for AI deployment/service lines—reflects hub-and-spoke coordination. Secondary M2 reflects strong CoE characteristics: standards, enablement, governance (ISO 42001 certification), tiered training (270K 'AI Aware' certifications). Not M6 Portfolio because there's clear central coordination through Topaz, not autonomous parallel experiments.",
     "typeSpecimen": false
   },
   "habitat": {
     "industry": "IT Services",
     "sector": "IT Consulting / Outsourcing",
     "orgSize": "Enterprise",
-    "employees": "~300,000",
+    "employees": 323788,
     "revenue": null,
     "headquarters": "Bengaluru, India",
     "geography": "Global"
   },
-  "description": "Infosys and Cursor announced a strategic collaboration to establish an AI Center of Excellence for software engineering (January 27, 2026). The CoE equips over 100,000 Infosys software engineers with Cursor's agentic coding platform, integrated into Infosys Topaz Fabric (an agentic services suite combining infrastructure, models, data, applications, and workflows).\n\nThe CoE features an 'AI Engineering Experience Zone' for client demonstrations, positioning the capability as both internal enablement and external sales tool. Cursor reports enterprises using its platform saw a 39% increase in shipped pull requests.\n\nThis represents the largest announced AI developer tools CoE by engineer count (100,000), making it a significant data point for the Model 2 pattern at massive scale.",
+  "description": "Infosys structures AI through a hub-and-spoke model centered on its Topaz platform—a unified AI infrastructure comprising 12,000+ AI assets, 150+ pre-trained models, and 10+ specialized platforms. The hub provides standards, governance, and shared capability; the spokes include 12+ Living Labs globally, the London AI Lab (partnership with Cambridge), Cognition co-innovation labs (for Devin deployment), and specialized centers like the Cursor CoE.\n\nAI leadership is distributed across two EVP-level roles rather than a single CAIO: Sunil Senan (Global Head of Data and AI) owns AI-first strategy and portfolio, while Balakrishna 'Bali' DR (EVP, AI and Industry Verticals) drives AI adoption across service lines and internal operations. This matrix structure—one leader for capability, one for deployment—enables scaling AI across a 324K workforce while maintaining strategic coherence.\n\nThe organization follows a deliberate three-wave adoption strategy: Wave 1 (Nov 2022-24 months) focused on pilots and productivity; Wave 2 (current) addresses IT operations and business processes; Wave 3 (next 6-12 months) targets process and experience improvement. This measured rollout is reflected in metrics: 4,600 active AI projects with 90% of top 200 clients, 28M lines of AI-generated code, 500+ agents built, and workforce transformation evidenced by 12,506 headcount reduction alongside 20K planned FY27 hires.",
   "observableMarkers": {
-    "reportingStructure": "CoE announced at company level. CEO Salil Parekh involved in announcement.",
-    "resourceAllocation": null,
-    "timeHorizons": null,
-    "decisionRights": "Central CoE provides standardized AI tooling to 100K engineers",
-    "metrics": "100,000 engineers equipped. 39% increase in shipped PRs (Cursor claim). 64% of Fortune 1000 use Cursor."
+    "reportingStructure": "AI leadership reports through two EVP-level roles (Sunil Senan and Bali DR), not a unified CAIO. CEO Salil Parekh's term extended through 2027.",
+    "resourceAllocation": "$500M innovation fund. 323,788 total employees (as of June 2025) with 270,000+ certified as 'AI Aware.' 28M+ lines of code generated via AI. 500+ agents built.",
+    "timeHorizons": "Three-wave AI adoption strategy: Wave 1 (Nov 2022-24 months): Pilots, productivity. Wave 2 (current): IT ops, business processes. Wave 3 (next 6-12 months): Process/experience improvement, design, implementation.",
+    "decisionRights": "Central Topaz Fabric platform provides unified AI infrastructure across company. Infosys Generative AI Labs, part of Topaz, coordinates industry solutions and partner ecosystem.",
+    "metrics": "4,600 AI projects active with 90% of top 200 clients. 2,500+ generative AI projects and 200+ agentic AI projects for clients. 12 industry analyst leadership ratings in FY2026. 18,000 of 20,000 planned freshers onboarded in current fiscal. Total headcount reduced by 12,506 over past two years."
   },
-  "mechanisms": [],
+  "mechanisms": [
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "270,000+ employees (84% of workforce) certified as 'AI Aware' suggests accessible, well-designed internal tools that achieve mass adoption. The Topaz platform's design for workforce-wide use indicates consumer-grade accessibility.",
+      "strength": "Moderate"
+    },
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Three-wave strategy explicitly starts with 'pilots, productivity' (Wave 1) before scaling. However, the 28M lines of AI-generated code and 500+ agents built suggest rapid internal deployment. CEO Parekh's quote about 'real projects... being used at scale today' in financial services indicates large-scale deployment.",
+      "strength": "Moderate"
+    }
+  ],
   "quotes": [
     {
       "text": "redefining how global enterprises build and scale AI-powered digital solutions",
@@ -42,22 +55,90 @@
       "sourceUrl": "https://www.infosys.com/newsroom/press-releases/2026/accelerate-software-engineering-global-enterprises.html",
       "timestamp": null,
       "date": "2026-01-27"
+    },
+    {
+      "text": "We will have our people working and these software agents, which make the overall economics for the client much better",
+      "speaker": "Salil Parekh",
+      "speakerTitle": "CEO and Managing Director",
+      "source": "Business Today",
+      "sourceUrl": "https://www.businesstoday.in/technology/news/story/indian-its-hiring-model-is-changingand-ai-is-the-reason-512582-2026-01-23",
+      "timestamp": null,
+      "date": "2026-01-23"
+    },
+    {
+      "text": "In financial services, (out of) 25 of our largest clients, (in) 15 we are the AI partner of choice… These are real projects. This is not proof of concept. These are projects in banks, which are being used at scale today.",
+      "speaker": "Salil Parekh",
+      "speakerTitle": "CEO and Managing Director",
+      "source": "Davos 2026 interviews (multiple outlets)",
+      "sourceUrl": "https://www.niftytrader.in/markets/infosys-plans-to-hire-20000-graduates-in-fy27-ceo-sees-ai-as-next-big-growth-engine/",
+      "timestamp": null,
+      "date": "2026-01"
+    },
+    {
+      "text": "We see some places where there's compression and some places where there's growth. And we see the growth a little bit more than what we see on the compression.",
+      "speaker": "Salil Parekh",
+      "speakerTitle": "CEO and Managing Director",
+      "source": "Davos 2026 interviews",
+      "sourceUrl": "https://www.niftytrader.in/markets/infosys-plans-to-hire-20000-graduates-in-fy27-ceo-sees-ai-as-next-big-growth-engine/",
+      "timestamp": null,
+      "date": "2026-01"
+    },
+    {
+      "text": "We believe we are uniquely positioned to capture market share across these value pools and emerge as the leading AI value creator for global enterprises.",
+      "speaker": "Salil Parekh",
+      "speakerTitle": "CEO and Managing Director",
+      "source": "Q3 FY26 Earnings Call",
+      "sourceUrl": "https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q3/documents/transcripts/earningscall.pdf",
+      "timestamp": null,
+      "date": "2026-01-14"
+    },
+    {
+      "text": "Opportunities around agentic AI require a rigorous data and governance strategy",
+      "speaker": "Sunil Senan",
+      "speakerTitle": "Global Head of Data and AI",
+      "source": "TBRI Special Report",
+      "sourceUrl": "https://tbri.com/special-reports/infosys-readies-to-deliver-outcomes-at-scale-through-ai/",
+      "timestamp": null,
+      "date": "2025"
     }
   ],
   "layers": [
     {
       "date": "2026-02",
+      "label": "Enrichment: M2→M4",
+      "summary": "Reclassified from M2 (Center of Excellence) Structural to M4 (Hybrid/Hub-and-Spoke) Structural based on enrichment data. Confidence: Medium→Medium.",
+      "classification": {
+        "previousModel": 2,
+        "previousModelName": "Center of Excellence",
+        "previousOrientation": "Structural",
+        "newModel": 4,
+        "newModelName": "Hybrid/Hub-and-Spoke",
+        "newOrientation": "Structural"
+      },
+      "sourceRefs": [
+        "enrich-infosys-tbri-2025",
+        "enrich-infosys-business-today-2026-01",
+        "enrich-infosys-scanx-davos-2026-01"
+      ]
+    },
+    {
+      "date": "2026-02",
       "label": "Cursor AI Center of Excellence Partnership",
       "summary": "Infosys partnered with Cursor (AI coding platform) to launch a Center of Excellence for AI-native software development on Jan 27, 2026. The CoE helps companies adopt AI coding agents and build AI-native products. Includes a demo space for clients to test Infosys' Topaz Fabric (cloud/data/AI platform). Cursor's AI coding tools being rolled out to Infosys developers worldwide. This is a dual-purpose CoE: client-facing capability building AND internal developer productivity transformation.",
       "classification": null,
-      "sourceRefs": ["ciol-infosys-cursor-2026"]
+      "sourceRefs": [
+        "ciol-infosys-cursor-2026"
+      ]
     },
     {
       "date": "2026-02",
       "label": "Session 002 Enrichment — Additional Sources & CEO Quote",
       "summary": "Added CEO Salil Parekh quote on AI-first organization. Added additional sources (IndianWeb2, India Infoline). Confirmed Topaz Fabric integration as agentic services suite. Cursor CEO Michael Truell: 'Infosys' commitment to building an AI-first organization makes them a natural collaborator.' Stock rose ~1% on announcement.",
       "classification": null,
-      "sourceRefs": ["indianweb2-infosys-2026", "indiainfoline-infosys-2026"]
+      "sourceRefs": [
+        "indianweb2-infosys-2026",
+        "indiainfoline-infosys-2026"
+      ]
     },
     {
       "date": "2026-01",
@@ -129,14 +210,95 @@
       "sourceDate": "2026-01-27",
       "collectedDate": "2026-02-03",
       "notes": "CEO quotes, stock impact."
+    },
+    {
+      "id": "enrich-infosys-tbri-2025",
+      "type": "Report",
+      "name": "TBRI Special Report - Infosys Readies to Deliver Outcomes at Scale Through AI",
+      "url": "https://tbri.com/special-reports/infosys-readies-to-deliver-outcomes-at-scale-through-ai/",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14",
+      "notes": "Key source for AI leadership names (Sunil Senan), $500M innovation fund, three-wave adoption strategy, ISO certification, and Topaz portfolio details"
+    },
+    {
+      "id": "enrich-infosys-business-today-2026-01",
+      "type": "Press",
+      "name": "Business Today - Indian IT's hiring model is changing...and AI is the reason",
+      "url": "https://www.businesstoday.in/technology/news/story/indian-its-hiring-model-is-changingand-ai-is-the-reason-512582-2026-01-23",
+      "timestamp": null,
+      "sourceDate": "2026-01-23",
+      "collectedDate": "2026-02-14",
+      "notes": "Salil Parekh quote on human-agent model, 18K of 20K freshers onboarded"
+    },
+    {
+      "id": "enrich-infosys-scanx-davos-2026-01",
+      "type": "Press",
+      "name": "Scanx Trade - Infosys CEO at Davos 2026",
+      "url": "https://scanx.trade/stock-market-news/stocks/infosys-ceo-salil-parekh-sees-ai-led-growth-opportunities-outweighing-industry-headwinds-at-davos-2026/30534686",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-14",
+      "notes": "4,600 AI projects with 90% of top 200 clients, 20K FY27 hires confirmed"
+    },
+    {
+      "id": "enrich-infosys-davos-2026-01",
+      "type": "Press",
+      "name": "NiftyTrader - Infosys Plans to Hire 20,000 Graduates in FY27",
+      "url": "https://www.niftytrader.in/markets/infosys-plans-to-hire-20000-graduates-in-fy27-ceo-sees-ai-as-next-big-growth-engine/",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-14",
+      "notes": "Davos 2026 quotes on financial services AI adoption and growth vs compression"
+    },
+    {
+      "id": "enrich-infosys-headcount-2025",
+      "type": "Press",
+      "name": "Storyboard18 - TCS, Infosys, Wipro and HCL Tech headcount reduces by over 42,000",
+      "url": "https://www.storyboard18.com/how-it-works/tcs-infosys-wipro-and-hcl-tech-headcount-reduces-by-over-42000-in-two-years-77264.htm",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14",
+      "notes": "323,788 total employees as of June 2025, 12,506 headcount reduction over two years"
+    },
+    {
+      "id": "enrich-infosys-london-lab-2025",
+      "type": "Press",
+      "name": "IT Pro - Infosys announces plans to open London AI lab",
+      "url": "https://www.itpro.com/business/infosys-announces-plans-to-open-london-ai-lab",
+      "timestamp": null,
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14",
+      "notes": "London AI Lab with Cambridge, 25K sq ft, 200-person capacity, Living Labs network (12+ globally)"
+    },
+    {
+      "id": "enrich-infosys-q3-earnings-2026-01",
+      "type": "Earnings Call",
+      "name": "Infosys Q3 FY26 Earnings Call Transcript",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q3/documents/transcripts/earningscall.pdf",
+      "timestamp": null,
+      "sourceDate": "2026-01-14",
+      "collectedDate": "2026-02-14",
+      "notes": "28M lines of code generated via AI, 500+ agents built, 12 analyst leadership ratings"
+    },
+    {
+      "id": "enrich-infosys-manufacturing-2026-02",
+      "type": "Report",
+      "name": "StartupNews - AI Becomes Core to Manufacturing Strategy (Infosys Knowledge Institute)",
+      "url": "https://startupnews.fyi/2026/02/14/infosys-manufacturing-tech-index-ai/",
+      "timestamp": null,
+      "sourceDate": "2026-02-14",
+      "collectedDate": "2026-02-14",
+      "notes": "Infosys Knowledge Institute research: 75% of manufacturers formally integrated AI into roadmaps"
     }
   ],
   "contingencies": {
-    "regulatoryIntensity": "Low",
+    "regulatoryIntensity": "Medium",
     "timeToObsolescence": "Fast",
-    "ceoTenure": "Medium. Salil Parekh CEO since 2018 (~8 years). Stable leadership driving AI-first positioning.",
+    "ceoTenure": "Long",
     "talentMarketPosition": "Talent-rich",
-    "technicalDebt": "Medium"
+    "technicalDebt": "Medium",
+    "environmentalAiPull": "Strong"
   },
   "tensionPositions": {
     "structuralVsContextual": -0.4,
@@ -150,17 +312,23 @@
     "What metrics is Infosys tracking? Cursor reports 39% increase in shipped PRs — is Infosys measuring similarly?",
     "Is this primarily a marketing/sales partnership or a genuine structural transformation?",
     "How does this compare to TCS, Wipro, Accenture AI augmentation approaches?",
-    "What is the internal org structure of the CoE? Dedicated team or distributed?"
+    "What is the internal org structure of the CoE? Dedicated team or distributed?",
+    "Exact reporting relationship between Sunil Senan and Bali DR - are they peers or is there hierarchy?",
+    "What percentage of the $500M innovation fund is allocated specifically to AI vs other initiatives?",
+    "Specific headcount for the Topaz team or AI-dedicated employees (as opposed to AI-trained)"
   ],
   "taxonomyFeedback": [
     "At 100,000 engineers, this is the largest announced CoE by headcount. Scale may change the CoE dynamics — governance at 100K is different from governance at 100.",
-    "The dual purpose (internal enablement + client demo) blurs the line between CoE and product. The 'AI Engineering Experience Zone' is a sales tool."
+    "The dual purpose (internal enablement + client demo) blurs the line between CoE and product. The 'AI Engineering Experience Zone' is a sales tool.",
+    "[2026-02] Infosys exhibits an interesting 'matrix hub-and-spoke' variant: the hub is not a single team but rather a platform (Topaz) combined with dual leadership roles that split strategy from deployment. This may warrant discussion of whether M4 should recognize platform-as-hub versus team-as-hub structures.",
+    "[2026-02] The dual-leadership model (Senan for capability, Bali for deployment) represents a sophisticated organizational design for scaling AI across 324K employees. This contrasts with the single-CAIO model seen in many M4 specimens and may offer a template for very large enterprises where AI touches both internal operations and client delivery.",
+    "[2026-02] The workforce recomposition pattern—12,506 headcount reduction paired with 20K new hires—combined with 270K employees being AI-certified suggests a full-workforce transformation rather than isolated AI teams. This blurs the M4/M6 boundary: is it hub-and-spoke governance, or is it enterprise-wide adoption (M6a) with strong central coordination? The three-wave strategy's explicit phasing tips toward M4, but this edge case merits tracking."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-13",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-15",
+    "completeness": "High",
     "convertedFrom": null
   }
 }

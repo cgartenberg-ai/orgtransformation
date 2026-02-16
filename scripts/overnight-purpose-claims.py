@@ -192,6 +192,15 @@ def build_agent_prompt(specimen_id: str, ctx: dict) -> str:
     2. Made in context of AI adaptation — not generic mission statements
     3. Traceable source with URL — no URL, no claim
 
+    ## Analytical Context (for awareness, not scoring)
+
+    Purpose claims often relate to governance structure (P3 — who has authority to mandate
+    transformation) and competitive/institutional context (P4 — what external forces shape
+    the rhetoric). If you notice patterns in how claim types cluster around governance
+    structure (e.g., founder-CEOs use more utopian/identity claims, hired CEOs use more
+    commercial-success/survival claims), note this observation at the end of your output.
+    This is optional context — your primary job is collecting verbatim claims.
+
     ## Search Queries — Run ALL 5
 
     1. "{leader_name}" AI purpose OR mission OR vision OR strategy OR transformation
@@ -377,6 +386,7 @@ def _write_enrichment_file(specimen_id: str, data: dict, valid_claims: list):
         "comparativeNotes": se.get("comparativeNotes"),
         "notableAbsences": se.get("notableAbsences") or se.get("notableAbsence"),
         "correctedLeaderInfo": se.get("correctedLeaderInfo"),
+        "primitiveRelevance": se.get("primitiveRelevance"),
         "scanNarrative": data.get("scanNarrative"),
         "searchesCompleted": data.get("searchesCompleted", 0),
         "urlsFetched": data.get("urlsFetched", 0),
@@ -441,6 +451,16 @@ def merge_pending_into_registry() -> tuple[int, list[str]]:
 
     existing_ids = {c["id"] for c in registry["claims"]}
     valid_types = set(registry["claimTypes"])
+
+    # Content-based dedup: fingerprint = specimenId + first 100 chars of text + speaker
+    def _content_fingerprint(c):
+        text = (c.get("text") or "")[:100].strip().lower()
+        speaker = (c.get("speaker") or "").strip().lower()
+        sid = (c.get("specimenId") or "").strip().lower()
+        return f"{sid}|{speaker}|{text}"
+
+    existing_fingerprints = {_content_fingerprint(c) for c in registry["claims"]}
+
     total_added = 0
     merged_specimens = []
 
@@ -465,6 +485,11 @@ def merge_pending_into_registry() -> tuple[int, list[str]]:
             if claim_id in existing_ids:
                 log.warning(f"Duplicate ID {claim_id}, skipping")
                 continue
+            # Content-based dedup: skip if same text from same speaker for same specimen
+            fp = _content_fingerprint(claim)
+            if fp in existing_fingerprints:
+                log.warning(f"Content duplicate {claim_id} (same text+speaker already in registry), skipping")
+                continue
             # Validate claim type
             if claim.get("claimType") not in valid_types:
                 log.warning(
@@ -476,6 +501,7 @@ def merge_pending_into_registry() -> tuple[int, list[str]]:
                 claim["secondaryType"] = None
             valid_claims.append(claim)
             existing_ids.add(claim_id)
+            existing_fingerprints.add(fp)
 
         registry["claims"].extend(valid_claims)
         total_added += len(valid_claims)
@@ -486,7 +512,21 @@ def merge_pending_into_registry() -> tuple[int, list[str]]:
                 spec_entry["lastScanned"] = str(date.today())
                 spec_entry["claimsFound"] = len(valid_claims)
                 spec_entry["quality"] = data.get("quality", "unknown")
+                # Clear rescanReason after successful rescan
+                if spec_entry.get("rescanReason"):
+                    log.info(f"  Cleared rescanReason for {specimen_id}")
+                    spec_entry["rescanReason"] = None
                 break
+        else:
+            # Specimen not in tracker — add it (e.g. newly created specimen)
+            tracker["specimens"].append({
+                "specimenId": specimen_id,
+                "lastScanned": str(date.today()),
+                "claimsFound": len(valid_claims),
+                "quality": data.get("quality", "unknown"),
+                "rescanReason": None,
+            })
+            log.info(f"  Added {specimen_id} to scan-tracker (was missing)")
 
         merged_specimens.append(specimen_id)
         log.info(f"  Merged {specimen_id}: +{len(valid_claims)} claims")
@@ -657,23 +697,46 @@ def write_session_log(
 
 # ─── Priority Queue ──────────────────────────────────────────────────────────
 
-def get_priority_queue() -> list[str]:
+def get_priority_queue(include_stale: bool = False, stale_days: int = 60) -> list[str]:
     """
     Get unscanned specimens ordered by expected richness.
     Priority: High completeness > Medium > Low, then alphabetical.
+
+    If include_stale=True, also includes specimens with rescanReason set
+    or those scanned more than stale_days ago with quality != "rich".
     """
     with open(SCAN_TRACKER_PATH) as f:
         tracker = json.load(f)
 
-    unscanned = [
-        s["specimenId"]
-        for s in tracker["specimens"]
-        if s["quality"] == "unscanned"
-    ]
+    candidates = []
+    for s in tracker["specimens"]:
+        sid = s["specimenId"]
+        quality = s.get("quality", "unscanned")
+
+        # Always include unscanned
+        if quality == "unscanned":
+            candidates.append(sid)
+            continue
+
+        # Include if rescanReason is set (manually flagged for rescan)
+        if s.get("rescanReason"):
+            candidates.append(sid)
+            continue
+
+        # Include stale specimens if flag is set
+        if include_stale and quality != "rich":
+            last_scanned = s.get("lastScanned")
+            if last_scanned:
+                try:
+                    scanned_date = date.fromisoformat(last_scanned)
+                    if (date.today() - scanned_date).days > stale_days:
+                        candidates.append(sid)
+                except ValueError:
+                    pass
 
     # Score by completeness from specimen files
     scored = []
-    for sid in unscanned:
+    for sid in candidates:
         path = SPECIMENS_DIR / f"{sid}.json"
         score = 0
         if path.exists():
@@ -730,6 +793,11 @@ def main():
         action="store_true",
         help="Don't merge results into registry (leave in pending/)",
     )
+    parser.add_argument(
+        "--rescan-stale",
+        action="store_true",
+        help="Include non-rich specimens scanned >60 days ago and specimens with rescanReason set",
+    )
     args = parser.parse_args()
 
     log.info("=" * 60)
@@ -765,8 +833,9 @@ def main():
             queue = [args.specimen]
             log.info(f"Single specimen mode: {args.specimen}")
         else:
-            queue = get_priority_queue()
-            log.info(f"Queue: {len(queue)} unscanned specimens")
+            queue = get_priority_queue(include_stale=args.rescan_stale)
+            mode = "unscanned + stale" if args.rescan_stale else "unscanned"
+            log.info(f"Queue: {len(queue)} specimens ({mode})")
 
         if args.limit > 0:
             queue = queue[: args.limit]

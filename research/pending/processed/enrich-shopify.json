@@ -1,0 +1,183 @@
+{
+  "company": "Shopify",
+  "enrichmentDate": "2026-02-14",
+  "mode": "enrich",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [],
+
+  "newFindings": {
+    "teamStructure": "No dedicated AI team or CAIO appointed. ML is distributed across functional areas: product classification/metadata enrichment, fraud/risk modeling, Sidekick development, search/discovery, and behavioral modeling. The organization relies on CEO-driven mandate rather than dedicated AI org structure. Javier Moreno identified as ML contributor. VP of Product Eytan Seidman leads AI-native platform development.",
+    "keyPeople": [
+      {"name": "Eytan Seidman", "title": "VP of Product", "role": "Leads AI-native platform development; stated 'We rewired the platform to be AI-first and instant'", "isNew": true},
+      {"name": "Javier Moreno", "title": "ML Engineer/Contributor", "role": "Shopify ML team contributor (javier.moreno@shopify.com)", "isNew": true},
+      {"name": "Harley Finkelstein", "title": "President", "role": "Public face for AI strategy in earnings calls; announced 'pole position on agentic commerce'", "isNew": true},
+      {"name": "Jeff Hoffmeister", "title": "Chief Financial Officer", "role": "Handles financial guidance including AI investment context", "isNew": true}
+    ],
+    "investmentSignals": "FY 2025 revenue: $11.56B (+30% YoY). Operating income: $1.47B (+37%). Free cash flow: >$2B (17% margin). $2B share repurchase authorized. No explicit AI CapEx disclosed, but executives emphasized 'operating leverage through AI, automation, and proprietary project management systems' without expanding teams. Infrastructure partners: Google Cloud Platform (primary), Nebius (training clusters), CentML (GPU acceleration).",
+    "recentDevelopments": "Winter '26 Edition (Feb 2026): 150+ AI updates including Sidekick evolution to proactive collaborator, SimGym AI Research Preview for merchant testing, Shopify Dev MCP Server for AI-assisted development. Q4 2025: AI search orders up 15x since Jan 2025. Universal Commerce Protocol (UCP) co-developed with Google for agentic commerce. Agentic Commerce sales channel launched Jan 2026 enabling products inside ChatGPT. Tangle: new open-source ML experimentation platform.",
+    "observableMarkers": {
+      "reportingStructure": "No CAIO or dedicated AI leadership. CEO Lütke sets AI mandate directly. VP Product (Seidman) oversees AI-native platform. ML distributed across product teams, not centralized. Head of Localization role eliminated (formerly Giulia Greco) - localization now AI-driven.",
+      "resourceAllocation": "Infrastructure: GCP (primary), Nebius (training), CentML (GPU), Toloka (data labeling). Models: finetuned Qwen multimodal, LLaMA, Nomic embeddings. Tools: Copilot, Cursor, Claude Code pre-provisioned to all employees. No separate AI budget disclosed - AI spending embedded in platform development.",
+      "timeHorizons": "Executive framing: 'We think in decades, not in quarters.' FY 2025 was 'year of robust growth and investment, particularly in AI.' 2026 positioned as year 'AI era has reached commerce...at scale.' Q1 2026 guidance: low 30% revenue growth expected.",
+      "decisionRights": "CEO Lütke: 'Before asking for more Headcount and resources, teams must demonstrate why they cannot get what they want done using AI.' Teams can opt out of AI training but Lütke warned approach 'appears unsustainable.' Performance reviews now include AI usage evaluation.",
+      "metrics": "Sidekick (3 weeks): ~4,000 custom apps generated, 29,000+ automations via Flow, 1.2M photos edited. AI search orders: 15x growth since Jan 2025. Translations: 100x speedup achieved. High-achievers: '100x the work' per Lütke. GMV: $378.4B (+29%). B2B GMV: +96% YoY. Revenue per employee: >$1.3M (more than double prior levels)."
+    },
+    "classificationUpdate": "Classification confirmed as Contextual. Shopify's approach is textbook contextual ambidexterity: no separate AI unit, CEO mandate sets behavioral expectations organization-wide, AI proficiency embedded in performance reviews, tools universally provisioned. The lack of a CAIO or dedicated AI org reinforces the contextual classification - AI capability is expected to emerge from existing teams, not a separate structure."
+  },
+
+  "quotes": [
+    {
+      "text": "Reflexive AI usage is now a baseline expectation at Shopify.",
+      "speaker": "Tobias Lütke",
+      "speakerTitle": "CEO",
+      "source": "X/Twitter (leaked internal memo)",
+      "sourceUrl": "https://x.com/tobi/status/1909251946235437514",
+      "sourceDate": "2025-04",
+      "context": "Internal memo about AI-first policy, subsequently shared publicly"
+    },
+    {
+      "text": "Before asking for more Headcount and resources, teams must demonstrate why they cannot get what they want done using AI.",
+      "speaker": "Tobias Lütke",
+      "speakerTitle": "CEO",
+      "source": "Slator / Internal Memo",
+      "sourceUrl": "https://slator.com/in-internal-memo-shopify-ceo-says-ai-has-already-sped-up-translations-100x/",
+      "sourceDate": "2025-04",
+      "context": "Internal memo establishing new headcount approval process"
+    },
+    {
+      "text": "brilliant usage of AI is already helping high-achievers accomplish 100x the work.",
+      "speaker": "Tobias Lütke",
+      "speakerTitle": "CEO",
+      "source": "Slator / Internal Memo",
+      "sourceUrl": "https://slator.com/in-internal-memo-shopify-ceo-says-ai-has-already-sped-up-translations-100x/",
+      "sourceDate": "2025-04",
+      "context": "Citing productivity gains from AI adoption, including translations and large-scale refactors"
+    },
+    {
+      "text": "Our task here at Shopify is to make our software unquestionably the best canvas on which to develop the best businesses of the future. For that we need to be absolutely ahead.",
+      "speaker": "Tobias Lütke",
+      "speakerTitle": "CEO",
+      "source": "Slator / Internal Memo",
+      "sourceUrl": "https://slator.com/in-internal-memo-shopify-ceo-says-ai-has-already-sped-up-translations-100x/",
+      "sourceDate": "2025-04",
+      "context": "Justifying aggressive AI adoption stance"
+    },
+    {
+      "text": "Everywhere commerce is happening — we are in pole position on agentic commerce.",
+      "speaker": "Harley Finkelstein",
+      "speakerTitle": "President",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-11",
+      "context": "Q4 2025 earnings call discussing competitive positioning in AI commerce"
+    },
+    {
+      "text": "We have trillions of data points from billions of transactions across millions of merchants...we have a more diverse commerce data set than almost anyone else.",
+      "speaker": "Harley Finkelstein",
+      "speakerTitle": "President",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-11",
+      "context": "Explaining AI competitive advantage from data scale"
+    },
+    {
+      "text": "We are about to see more billion-dollar brands born in the next decade than we did in the last century, and our focus is on making sure that we will be the ones powering them.",
+      "speaker": "Harley Finkelstein",
+      "speakerTitle": "President",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-11",
+      "context": "Long-term vision for AI-enabled commerce platform"
+    },
+    {
+      "text": "We rewired the platform to be AI-first and instant...effectively eliminating the latency between having an idea and getting validated, working code.",
+      "speaker": "Eytan Seidman",
+      "speakerTitle": "VP of Product",
+      "source": "Shopify Winter '26 Edition",
+      "sourceUrl": "https://www.shopify.com/news/winter-26-edition-dev",
+      "sourceDate": "2026-02",
+      "context": "Winter '26 Edition announcement about AI-native developer platform"
+    },
+    {
+      "text": "2026 is about to show the world what he meant by that. The AI era has now reached commerce, and you're about to see what that looks like at scale.",
+      "speaker": "Harley Finkelstein",
+      "speakerTitle": "President",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-11",
+      "context": "Earnings call framing 2026 as AI commerce inflection point"
+    },
+    {
+      "text": "what I hope you've come to understand about Shopify is that we think in decades, not in quarters.",
+      "speaker": "Harley Finkelstein",
+      "speakerTitle": "President",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-11",
+      "context": "Long-term strategic orientation on AI investments"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Q4 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2026-02-11",
+      "notes": "Key source for financial metrics, Sidekick performance data, agentic commerce strategy quotes from Finkelstein"
+    },
+    {
+      "name": "Slator - CEO Memo on AI and Translations",
+      "url": "https://slator.com/in-internal-memo-shopify-ceo-says-ai-has-already-sped-up-translations-100x/",
+      "type": "Press",
+      "date": "2025-04",
+      "notes": "Verbatim Lütke quotes about AI mandate, 100x productivity claims, headcount policy"
+    },
+    {
+      "name": "Shopify Engineering - Machine Learning at Shopify",
+      "url": "https://shopify.engineering/machine-learning-at-shopify",
+      "type": "Blog",
+      "date": "2025",
+      "notes": "Infrastructure details (GCP, Nebius, CentML, Toloka), model stack (Qwen, LLaMA, Nomic), distributed ML org structure"
+    },
+    {
+      "name": "Winter '26 Edition - Developer Announcement",
+      "url": "https://www.shopify.com/news/winter-26-edition-dev",
+      "type": "Press",
+      "date": "2026-02",
+      "notes": "AI-native platform details, Dev MCP Server, Seidman quote, Sidekick evolution, Tangle platform"
+    },
+    {
+      "name": "Digital Commerce 360 - 2025 Revenue Analysis",
+      "url": "https://www.digitalcommerce360.com/2026/02/12/shopify-revenue-b2b-sales-ai-2025/",
+      "type": "Press",
+      "date": "2026-02-12",
+      "notes": "FY 2025 financial summary: $11.56B revenue, $1.47B operating income, B2B growth"
+    },
+    {
+      "name": "MIT CDO - Lütke AI Expectation Article",
+      "url": "https://cdo.mit.edu/blog/2025/04/11/shopify-ceo-tobi-lutke-ai-is-now-a-fundamental-expectation-for-employeeslutke-says-managers-asking-for-new-human-talent-will-have-to-explain-why-the-job-cant-be-done-by-ai/",
+      "type": "Press",
+      "date": "2025-04-11",
+      "notes": "Performance review integration, AI tools (Copilot, Cursor, Claude Code) pre-provisioned"
+    }
+  ],
+
+  "summary": "Enrichment confirmed Shopify's contextual ambidexterity classification with substantial new detail. Key new findings: (1) No CAIO or dedicated AI org exists - ML is distributed across product teams with CEO mandate as coordination mechanism; (2) FY 2025 financials show 30% revenue growth to $11.56B with >$2B free cash flow, though no AI-specific investment disclosed; (3) Winter '26 Edition reveals significant AI product velocity including SimGym, Dev MCP Server, and Sidekick evolution to proactive collaborator; (4) Q4 2025 earnings call provided rich executive quotes from Finkelstein positioning Shopify for 'pole position on agentic commerce.'",
+
+  "openQuestions": [
+    "What is the actual headcount of ML/AI practitioners at Shopify? (Not disclosed in any source)",
+    "Who leads the Sidekick product team specifically?",
+    "What percentage of R&D budget goes to AI vs. other development?",
+    "Has Shopify considered appointing a CAIO, or is the distributed model deliberate?",
+    "What happened to Head of Localization role (Giulia Greco) - was this AI-driven elimination?"
+  ],
+
+  "botanistNotes": [
+    "Shopify is a remarkably pure specimen of contextual ambidexterity. The absence of a CAIO or dedicated AI unit is not a gap but a design choice - AI capability is expected to emerge from behavioral expectations (performance reviews, hiring gates) rather than structural separation.",
+    "The '100x productivity' claim is fascinating organizational signaling: Lütke frames AI as a test that differentiates high-achievers from others, creating internal competitive pressure without formal structural change.",
+    "Revenue per employee exceeding $1.3M (double prior levels) while headcount stays flat is a measurable outcome of the AI-substitution policy. This is rare quantitative evidence of contextual ambidexterity working at scale.",
+    "Interesting pattern: Shopify eliminated a Head of Localization role while touting 100x translation speedups. This suggests AI-driven role elimination is already happening, even if headcount overall is 'flat' - composition is shifting."
+  ]
+}

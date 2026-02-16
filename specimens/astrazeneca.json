@@ -1,0 +1,188 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "astrazeneca",
+  "name": "AstraZeneca",
+  "title": "Federated AI with Central Standards, Distributed Project Authority",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural Ambidexterity",
+    "confidence": "High",
+    "classificationRationale": "AstraZeneca exhibits classic hub-and-spoke structure: a central enterprise data office under CDO Brian Dummann sets standards, governance, and provides shared infrastructure, while business units maintain their own data offices with full autonomy over project selection. The explicit statement 'there is no central group that determines what projects we will or won't do' confirms distributed execution within central guardrails. The AI Accelerator serves as a cross-functional coordination mechanism rather than an org unit, enabling speed without centralizing control.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Pharmaceuticals",
+    "sector": "Healthcare",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": "$54B (2024)",
+    "headquarters": "Cambridge, UK",
+    "geography": "Global"
+  },
+  "description": "AstraZeneca operates a federated hub-and-spoke model for AI, with a central enterprise data office that defines standards, governance frameworks, and shared infrastructure while business units retain full autonomy to decide which AI projects to pursue. The CDO Brian Dummann leads a team focused on 'accelerating the impact of technology, data, and AI across AstraZeneca's value chain,' but deliberately avoids centralizing project approval authority.\n\nThe company has made a conscious structural choice to integrate AI governance within data governance rather than creating a standalone CAIO role. The 'AI Accelerator' is a cross-functional initiative bringing together technology, legal, compliance, and governance teams to streamline assessments and accelerate implementation—a coordination mechanism rather than an organizational unit.\n\nAI is deeply embedded in R&D, enabling 2x faster drug discovery and reducing antibody lead identification from 3 months to 3 days. With $13B annual R&D investment, $250M+ in AI research, and $2.5B committed to a new Beijing R&D center with AI lab, AstraZeneca is betting heavily on AI as a force multiplier toward their $80B 2030 revenue goal.",
+  "observableMarkers": {
+    "reportingStructure": "CDO (Dummann) leads AI/data strategy; federated data offices report to business units but align to central enterprise data office standards",
+    "resourceAllocation": "Distributed budget authority — business units decide AI project investments; central office provides shared infrastructure, governance, and tools",
+    "timeHorizons": "Mixed: immediate efficiency gains for enterprise users, 3-5 year drug discovery acceleration, 2030 strategic revenue targets",
+    "decisionRights": "Explicitly decentralized — 'no central group determines what projects we will or won't do'; business leaders have autonomy within guardrails",
+    "metrics": "Drug discovery speed (2x faster molecule identification, 3 months to 3 days for antibody leads), time to insights (reduced 6 months to 2.5 months), genome analysis targets (2M by 2026), revenue trajectory to $80B"
+  },
+  "mechanisms": [
+    {
+      "id": 8,
+      "name": "Turn Compliance Into Deployment Advantage",
+      "evidence": "The AI Accelerator cross-functional initiative unifies legal, compliance, and governance reviews to speed implementation rather than slow it. By integrating AI governance within data governance, they've turned regulatory requirements into a coordinated approval process that accelerates rather than gates.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Our AI-enabled platforms are using generative models to identify potential drug molecules twice as fast as traditional processes and help us prioritize those that will be most effective.",
+      "speaker": "Pascal Soriot",
+      "speakerTitle": "CEO",
+      "source": "Investment Reports Interview",
+      "sourceUrl": "https://www.investmentreports.co/interview/pascal-soriot-994",
+      "sourceDate": "2025",
+      "context": "Discussing AI impact on drug discovery"
+    },
+    {
+      "text": "We are very optimistic about what AI and digital transformation can do. But we also need to be vigilant and ensure that we harness these technologies ethically and responsibly.",
+      "speaker": "Pascal Soriot",
+      "speakerTitle": "CEO",
+      "source": "Investment Reports Interview",
+      "sourceUrl": "https://www.investmentreports.co/interview/pascal-soriot-994",
+      "sourceDate": "2025",
+      "context": "Discussing guardrails around AI implementation"
+    },
+    {
+      "text": "These advances are accelerating innovative science and the delivery of life-changing medicines.",
+      "speaker": "Pascal Soriot",
+      "speakerTitle": "CEO",
+      "source": "Investment Reports Interview",
+      "sourceUrl": "https://www.investmentreports.co/interview/pascal-soriot-994",
+      "sourceDate": "2025",
+      "context": "Summarizing AI impact"
+    },
+    {
+      "text": "We're not going to get all of our AI technology from one partner.",
+      "speaker": "Brian Dummann",
+      "speakerTitle": "Vice President of Insights & Technology and Chief Data Officer",
+      "source": "CDO Magazine Interview",
+      "sourceUrl": "https://www.cdomagazine.tech/aiml/inside-astrazenecas-ai-strategy-cdo-brian-dummann-on-innovation-governance-and-speed",
+      "sourceDate": "2025",
+      "context": "Explaining portfolio approach to AI vendors"
+    },
+    {
+      "text": "There is no central group that determines what projects we will or won't do.",
+      "speaker": "Brian Dummann",
+      "speakerTitle": "Vice President of Insights & Technology and Chief Data Officer",
+      "source": "CDO Magazine Interview",
+      "sourceUrl": "https://www.cdomagazine.tech/aiml/should-ai-governance-stand-on-its-own-astrazeneca-cdo-weighs-in",
+      "sourceDate": "2025",
+      "context": "Explaining decentralized decision-making for AI projects"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Federated AI Structure with AI Accelerator",
+      "summary": "AstraZeneca operates a hub-and-spoke model with central enterprise data office under CDO Brian Dummann setting standards while business units retain full project autonomy. The AI Accelerator cross-functional initiative coordinates legal, compliance, and tech to speed implementation. AI deeply embedded in R&D with 2x faster drug discovery. $2.5B Beijing AI lab investment announced. Revenue target $80B by 2030 driven by AI strategy.",
+      "sourceRefs": [
+        "astrazeneca-cdo-magazine-ai-strategy-2025",
+        "astrazeneca-cdo-magazine-governance-2025",
+        "astrazeneca-investment-reports-soriot-2025",
+        "astrazeneca-q4-2025-results",
+        "astrazeneca-beijing-rd-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "astrazeneca-cdo-magazine-ai-strategy-2025",
+      "name": "CDO Magazine - Inside AstraZeneca's AI Strategy",
+      "type": "Interview",
+      "url": "https://www.cdomagazine.tech/aiml/inside-astrazenecas-ai-strategy-cdo-brian-dummann-on-innovation-governance-and-speed",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "astrazeneca-cdo-magazine-governance-2025",
+      "name": "CDO Magazine - AI Governance",
+      "type": "Interview",
+      "url": "https://www.cdomagazine.tech/aiml/should-ai-governance-stand-on-its-own-astrazeneca-cdo-weighs-in",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "astrazeneca-investment-reports-soriot-2025",
+      "name": "Investment Reports - Pascal Soriot Interview",
+      "type": "Interview",
+      "url": "https://www.investmentreports.co/interview/pascal-soriot-994",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "astrazeneca-emerj-2024",
+      "name": "Emerj - Artificial Intelligence at AstraZeneca",
+      "type": "Report",
+      "url": "https://emerj.com/artificial-intelligence-at-astrazeneca/",
+      "sourceDate": "2024",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "astrazeneca-q4-2025-results",
+      "name": "AstraZeneca Q4 2025 Results",
+      "type": "Earnings",
+      "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/full-year-q4-2025-results.html",
+      "sourceDate": "2026-02-10",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "astrazeneca-beijing-rd-2025",
+      "name": "AstraZeneca Beijing R&D Investment",
+      "type": "Press",
+      "url": "https://www.astrazeneca.com/media-centre/press-releases/2025/astrazeneca-invests-2-and-half-bn-in-beijing-r-and-d-and-manufacturing.html",
+      "sourceDate": "2025-03",
+      "collectedDate": "2026-02-14"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": null,
+    "environmentalAiPull": "Strong"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": 0.5,
+    "namedVsQuiet": -0.2,
+    "longVsShortHorizon": -0.4
+  },
+  "openQuestions": [
+    "Size of dedicated AI/data science headcount across the federated structure",
+    "How the Modella AI acquisition (Q4 2025) changes oncology R&D AI structure",
+    "Whether the Beijing AI lab represents a shift toward more centralized research AI",
+    "Specific governance mechanisms for high-risk AI applications mentioned but not detailed"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] AstraZeneca's explicit rejection of a CAIO role is structurally interesting — they've integrated AI governance within data governance, arguing the capabilities are identical. This challenges the emerging norm of standalone AI leadership and suggests an alternative pattern: the expanded CDO as de facto AI leader.",
+    "[2026-02] The AI Accelerator as a 'cross-functional initiative' rather than an organizational unit represents a coordination mechanism variant within M4. It's not a CoE (M2) because it doesn't own resources or set strategy — it's a process layer that enables the hub-and-spoke to move faster. This 'mechanism without org' pattern may be worth tracking.",
+    "[2026-02] In pharma — where R&D typically requires tight central coordination — AstraZeneca's extreme decentralization of project authority ('no central group determines what projects we will or won't do') is unusually bold. They've solved this by separating standards (central) from project selection (distributed), creating a high-autonomy variant of M4 uncommon in regulated industries."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-14",
+    "lastUpdated": "2026-02-14",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "company": "Comcast / NBCUniversal",
+  "ticker": "CMCSA",
+  "leader": "Brian Roberts",
+  "leaderTitle": "CEO",
+  "sector": "Telecom / Media",
+  "quadrant": "Q3",
+  "scannedDate": "2026-02-14",
+  "searchesCompleted": 5,
+  "urlsFetched": 5,
+  "fetchFailures": [
+    "https://corporate.comcast.com/press/releases/lift-labs-generative-ai-accelerator-participants-secure-partnerships-comcast-nbcuniversal-or-sky",
+    "https://www.fierce-network.com/broadband/comcast-ceo-talks-competition-asserts-company-tech-driven",
+    "https://corporate.comcast.com/news-information/news-feed/introducing-the-new-center-of-nbcuniversal-innovation"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 5,
+    "suggestedModelName": "Product/Venture Lab (5a Internal Incubator)",
+    "suggestedOrientation": "Structural",
+    "confidence": "Medium",
+    "rationale": "Comcast NBCUniversal structures AI work primarily through LIFT Labs, an accelerator that functions as a venture-style incubation mechanism. Since 2018, 90% of participating startups have secured pilots, POCs, or deals — and successful partnerships get absorbed into Comcast's operations (e.g., Waymark's AI video platform now powers Comcast Advertising). This is classic 5a: external exploration that feeds internal product integration. However, the lack of a visible Chief AI Officer or dedicated internal AI research lab makes this classification medium confidence. The operational AI deployments (network automation, VideoAI) suggest some embedded AI capability exists, but the dominant structural mechanism is the accelerator-to-integration pipeline.",
+    "aiTeamStructure": "No dedicated AI lab or Chief AI Officer. AI work is distributed across: (1) LIFT Labs accelerator that vets 1,000+ AI startups annually, (2) embedded AI within Connectivity & Platforms under Steve Crone, (3) NBCUniversal Media Labs for content/media innovation. The accelerator functions as the primary scouting and exploration mechanism, with successful startups getting integrated into business units for execution.",
+    "keyPeople": [
+      {"name": "Brian Roberts", "title": "Chairman & CEO, Comcast Corporation", "role": "Sets strategic direction; has spoken about AI creating 'more bits of things we're going to consume'"},
+      {"name": "Michael Cavanagh", "title": "President, Comcast Corporation", "role": "Discussed AI-driven automation in network operations during Q4 2025 earnings call"},
+      {"name": "Steve Crone", "title": "CEO, Connectivity and Platforms", "role": "Leads broadband/connectivity division where AI is deployed for network optimization"},
+      {"name": "Dave Watson", "title": "Vice Chairman, Comcast Corporation", "role": "Former Connectivity CEO, now Vice Chairman"},
+      {"name": "Laura Plunkett", "title": "Executive Director, LIFT Labs Startup Engagement", "role": "Acts as bridge between Comcast and startup ecosystem"},
+      {"name": "Luke Butler", "title": "Executive Director, LIFT Labs Startup Engagement", "role": "Co-leads accelerator programs with Plunkett"}
+    ],
+    "investmentSignals": "LIFT Labs Fall 2025 cohort startups have raised an average of $90M in VC from tier-1 investors (a16z, Sequoia, Google, General Catalyst). NBCUniversal Technology Center represents ~$17M investment in 63,000 sq ft facility in Englewood Cliffs, NJ. $14.4B total CapEx in 2025 focused on network infrastructure with AI as enabling technology. No disclosed AI-specific budget line.",
+    "observableMarkers": {
+      "reportingStructure": "No CAIO. AI work distributed: LIFT Labs reports through corporate innovation, network AI embedded in Connectivity & Platforms (Steve Crone → Michael Cavanagh → Brian Roberts), Media Labs within NBCUniversal.",
+      "resourceAllocation": "AI investment bundled within broader CapEx and innovation programs. LIFT Labs provides startups 'direct connections to decision-makers' and pilot resources. Not a ring-fenced AI budget but rather embedded allocation.",
+      "timeHorizons": "LIFT Labs accelerator: 5-6 week intensive programs with 6-12 month pilot horizon. Network AI: operational improvements on quarterly cadence. No visible 3-5 year AI research horizon.",
+      "decisionRights": "Centralized scouting (LIFT Labs vets 1,000+ startups/year) but distributed execution. Business units decide on pilot adoption. 'Symphony' philosophy emphasizes cross-divisional coordination.",
+      "metrics": "LIFT Labs: 90% partnership rate since 2018. Network AI: 20% reduction in trouble calls, 35% reduction in repair minutes. Peacock AI recommendations driving engagement. No published AI-specific P&L metrics."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "And so what will AI do? Well, one thing it's going to do is create a lot more bits of things that we're going to consume, we're going to choose and search and navigate, assist, manage.",
+      "speaker": "Brian Roberts",
+      "speakerTitle": "Chairman & CEO, Comcast Corporation",
+      "source": "MoffettNathanson Investor Conference",
+      "sourceUrl": "https://www.fierce-network.com/broadband/comcast-ceo-talks-competition-asserts-company-tech-driven",
+      "sourceDate": "2024-05",
+      "context": "Roberts discussing Comcast's technology positioning and future of AI consumption"
+    },
+    {
+      "text": "a 20% reduction in trouble calls and a 35% reduction in repair minutes where we have deployed FDX technology",
+      "speaker": "Michael J. Cavanagh",
+      "speakerTitle": "President, Comcast Corporation",
+      "source": "Comcast Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/01/29/comcast-cmcsa-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-01-29",
+      "context": "Discussing operational benefits of AI-driven automation in network infrastructure"
+    },
+    {
+      "text": "LIFT Labs has been impactful... instrumental in helping us",
+      "speaker": "Varun Mohan",
+      "speakerTitle": "Cofounder, Windsurf",
+      "source": "LIFT Labs Website",
+      "sourceUrl": "https://lift.comcast.com/",
+      "sourceDate": "2025",
+      "context": "Startup founder describing LIFT Labs accelerator experience (external perspective)"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Comcast Q4 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/01/29/comcast-cmcsa-q4-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2026-01-29",
+      "notes": "Cavanagh mentioned AI-driven automation for network optimization. Focus on operational AI, not strategic AI positioning. No CAIO or AI team structure discussion."
+    },
+    {
+      "name": "LIFT Labs Website",
+      "url": "https://lift.comcast.com/",
+      "type": "Blog",
+      "date": "2025",
+      "notes": "90% of participating startups since 2018 have secured pilots, POCs, or deals. Key scouting mechanism for AI innovation."
+    },
+    {
+      "name": "Fall 2025 LIFT Labs Companies",
+      "url": "https://lift.comcast.com/from-ai-governance-to-search-optimization-meet-the-fall-2025-lift-labs-companies-working-with-comcast-nbcuniversal/",
+      "type": "Blog",
+      "date": "2025-10",
+      "notes": "Vets 1,000+ AI startups annually. Fall 2025 cohort raised avg $90M from tier-1 VCs. Focus areas: AI governance, search optimization, IP protection."
+    },
+    {
+      "name": "Technical.ly - LIFT Labs Accelerator Cohort",
+      "url": "https://technical.ly/?p=234773",
+      "type": "Press",
+      "date": "2024-10",
+      "notes": "Laura Plunkett profile as Executive Director. Five-week intensive programs. Cross-company collaboration with NBCUniversal and Sky."
+    },
+    {
+      "name": "Comcast Leadership Page",
+      "url": "https://corporate.comcast.com/company/leadership",
+      "type": "Blog",
+      "date": "2026-02",
+      "notes": "No Chief AI Officer listed. Traditional executive structure: CEO, President, division CEOs. AI embedded within existing roles."
+    }
+  ],
+
+  "summary": "Comcast NBCUniversal structures AI work primarily through LIFT Labs, an accelerator that functions as a venture scouting mechanism — vetting 1,000+ AI startups annually and converting 90% into pilots or deals since 2018. Successful partnerships (like Waymark's AI video platform) get absorbed into operational units. No Chief AI Officer exists; AI is embedded within Connectivity & Platforms for network automation and within NBCUniversal for content applications. Brian Roberts frames AI as 'creating more bits to consume' — positioning Comcast as infrastructure for AI-generated content consumption rather than an AI creator.",
+
+  "openQuestions": [
+    "Who leads AI strategy at the corporate level? No CAIO visible, unclear if someone owns cross-company AI coordination.",
+    "What happened to Media Labs? The NBCUniversal Technology Center launched in 2012 but current status is unclear.",
+    "How does Peacock's recommendation AI connect to broader AI strategy? 44M paid subscribers but AI team structure not visible.",
+    "Is there internal AI research beyond operational applications, or is LIFT Labs the primary exploration mechanism?",
+    "What is the VideoAI team structure that won the Technology Emmy? No leadership or organizational details found."
+  ],
+
+  "conferenceFindings": "No known AI conference presence. Brian Roberts speaks at investor conferences (MoffettNathanson, Morgan Stanley TMT) and industry events (CES, NCTA) but AI is a secondary topic — framed as enabler of consumption rather than strategic priority.",
+
+  "botanistNotes": [
+    "The 'Symphony' philosophy is analytically interesting: Comcast explicitly believes divisions are 'more powerful together' — but this coordination doctrine doesn't extend to a unified AI structure. AI remains siloed by business function (network ops vs. content vs. advertising), with LIFT Labs as the only cross-cutting mechanism.",
+    "Roberts' 'more bits to consume' framing is revealing: he positions Comcast as the pipe for AI-generated content, not the AI generator. This is infrastructure-centric thinking — let others create AI content, we'll deliver it. Classic telecom mental model.",
+    "The LIFT Labs → internal absorption pattern (5a) is working: Waymark went from accelerator to powering Comcast Advertising's AI video platform. But this is opportunistic integration, not strategic AI architecture.",
+    "Conspicuous absence: no CAIO, no 'AI-first' rhetoric, no published AI principles. For a company spanning broadband + content + theme parks + advertising, the lack of visible AI coordination is notable. Either AI is deeply embedded and invisible, or it's genuinely fragmented."
+  ],
+
+  "bestQuote": {
+    "text": "And so what will AI do? Well, one thing it's going to do is create a lot more bits of things that we're going to consume, we're going to choose and search and navigate, assist, manage.",
+    "speaker": "Brian Roberts",
+    "why": "This quote perfectly captures Comcast's infrastructure-centric AI worldview. Roberts isn't talking about building AI — he's talking about being the delivery mechanism for AI-generated content. It's a telecom CEO's mental model: let others create, we'll be the pipe. Analytically interesting because it explains why they might not need a Chief AI Officer — if you're not building AI, you don't need an AI leader."
+  }
+}

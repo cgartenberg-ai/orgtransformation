@@ -1,0 +1,114 @@
+{
+  "id": "arm-holdings",
+  "name": "Arm Holdings",
+  "title": "Three-Division Reorganization with Physical AI Unit",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "orientationName": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Decision tree: Formal AI unit? YES — new Physical AI division explicitly created. Central team? The three-division structure (Cloud and AI, Edge, Physical AI) suggests a federated model under corporate coordination. Builds or enables? Physical AI division BUILDS (robotics products). 3+ semi-autonomous units? YES (Cloud and AI, Edge, Physical AI). This suggests M4 hub-and-spoke where each division has domain-specific AI applications built on shared Arm IP/architecture. Low confidence: limited structural detail — we know the division exists and its leader (Drew Henry) but not the coordination mechanisms between divisions.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Semiconductors",
+    "sector": "IP Licensing / Chip Architecture",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Cambridge, UK",
+    "geography": "Global"
+  },
+  "description": "Arm Holdings reorganized into three main business divisions in early 2026: (1) Cloud and AI, (2) Edge (mobile devices and PC products), and (3) Physical AI — a newly created unit focused on robotics that incorporates the existing automotive business. Drew Henry heads the Physical AI division.\n\nThe creation of a dedicated Physical AI division is structurally significant: it separates robotics/physical world AI applications from the cloud/digital AI stack, reflecting a bet that embodied AI will become a distinct market requiring specialized architectural decisions. Plans to add dedicated robotics staff signal this is a real structural commitment, not just a rebranding exercise.\n\nThe three-division structure maps roughly to time horizons: Cloud and AI (current revenue from data center), Edge (current revenue from mobile), and Physical AI (future revenue from robotics). This is a clean structural separation of exploitation (Cloud, Edge) from exploration (Physical AI).",
+  "observableMarkers": {
+    "reportingStructure": "Three divisions: Cloud and AI, Edge (mobile/PC), Physical AI (robotics, Drew Henry as head) [stocktwits-arm-2026].",
+    "resourceAllocation": "Plans to add dedicated robotics staff to Physical AI division [stocktwits-arm-2026].",
+    "timeHorizons": "Cloud and AI = current revenue. Edge = current revenue. Physical AI = future revenue (robotics market growth bet).",
+    "decisionRights": "Drew Henry has divisional authority over Physical AI including automotive business and new robotics initiative [stocktwits-arm-2026].",
+    "metrics": null
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "text": "Physical AI solutions could 'fundamentally enhance labor, free up extra time' and significantly impact GDP.",
+      "speaker": "Drew Henry",
+      "speakerTitle": "Head of Physical AI, Arm Holdings",
+      "source": "Stocktwits / Financial Press",
+      "sourceUrl": "https://stocktwits.com/news-articles/markets/equity/arm-reportedly-launches-physical-ai-division/cmxzXyJR42M",
+      "timestamp": null,
+      "date": "2026-01"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "Three-Division Reorganization — Physical AI Unit Created",
+      "summary": "Arm reorganized into three divisions at CES 2026: Cloud and AI, Edge, and Physical AI (new). Drew Henry heads Physical AI, which incorporates automotive business and will add dedicated robotics staff. The division is focused on embodied AI for robotics, with Henry claiming physical AI could fundamentally impact GDP.",
+      "classification": null,
+      "sourceRefs": [
+        "stocktwits-arm-2026",
+        "yahoo-arm-physical-ai-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "stocktwits-arm-2026",
+      "type": "Press",
+      "name": "Stocktwits — Arm Reportedly Launches Physical AI Division",
+      "url": "https://stocktwits.com/news-articles/markets/equity/arm-reportedly-launches-physical-ai-division/cmxzXyJR42M",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-15",
+      "notes": null
+    },
+    {
+      "id": "yahoo-arm-physical-ai-2026",
+      "type": "Press",
+      "name": "Yahoo Finance — Exclusive: Arm launches Physical AI unit",
+      "url": "https://finance.yahoo.com/news/exclusive-arm-launches-physical-ai-193509035.html",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-15",
+      "notes": "Fetch failed (compression error). Data extracted from research summary."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": null,
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low",
+    "environmentalAiPull": "Strong"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": -0.6,
+    "speedVsDepth": -0.3,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": -0.6,
+    "longVsShortHorizon": -0.5
+  },
+  "openQuestions": [
+    "How do the three divisions coordinate on shared Arm IP and architecture?",
+    "What is the headcount and budget for the Physical AI division?",
+    "How does the automotive business integration into Physical AI change its strategic direction?",
+    "What robotics partners or customers is Arm targeting?",
+    "How does this relate to NVIDIA's push into physical AI and robotics?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] The three-division structure maps cleanly to time horizons (current Cloud/Edge vs. future Physical AI), making this a potentially good example of structural ambidexterity through divisional separation. Worth watching as the Physical AI division develops.",
+    "[2026-02] 'Physical AI' as a named organizational unit is emerging as a trend — NVIDIA also uses this terminology. The semiconductor industry is creating structural categories for embodied AI distinct from digital AI, which may represent a new habitat condition in our taxonomy."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-15",
+    "lastUpdated": "2026-02-15",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

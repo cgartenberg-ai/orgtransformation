@@ -29,12 +29,12 @@
       "properties": {
         "structuralModel": {
           "type": ["integer", "null"],
-          "enum": [1, 2, 3, 4, 5, 6, 7, null],
-          "description": "Primary structural model. 1=Research Lab, 2=Center of Excellence, 3=Embedded Teams, 4=Hybrid/Hub-and-Spoke, 5=Product/Venture Lab, 6=Unnamed/Informal, 7=Tiger Teams"
+          "enum": [1, 2, 3, 4, 5, 6, 7, 8, 9, null],
+          "description": "Primary structural model. 1=Research Lab, 2=Center of Excellence, 3=Embedded Teams, 4=Hybrid/Hub-and-Spoke, 5=Product/Venture Lab, 6=Unnamed/Informal, 7=Tiger Teams, 8=Skunkworks, 9=AI-Native"
         },
         "structuralModelName": {
           "type": "string",
-          "enum": ["Research Lab", "Center of Excellence", "Embedded Teams", "Hybrid/Hub-and-Spoke", "Product/Venture Lab", "Unnamed/Informal", "Tiger Teams", ""],
+          "enum": ["Research Lab", "Center of Excellence", "Embedded Teams", "Hybrid/Hub-and-Spoke", "Product/Venture Lab", "Unnamed/Informal", "Tiger Teams", "Skunkworks", "AI-Native", ""],
           "description": "Human-readable name for the primary structural model"
         },
         "subType": {
@@ -49,7 +49,7 @@
         },
         "secondaryModel": {
           "type": ["integer", "null"],
-          "enum": [1, 2, 3, 4, 5, 6, 7, null],
+          "enum": [1, 2, 3, 4, 5, 6, 7, 8, 9, null],
           "description": "Secondary structural model if hybrid. e.g. Eli Lilly is Model 1 + Model 5b"
         },
         "secondaryModelName": {
@@ -148,7 +148,7 @@
 
     "mechanisms": {
       "type": "array",
-      "description": "Which of the 10 cross-cutting mechanisms this specimen demonstrates.",
+      "description": "Which cross-cutting mechanisms this specimen demonstrates.",
       "items": {
         "type": "object",
         "required": ["id", "name", "evidence"],
@@ -156,8 +156,8 @@
           "id": {
             "type": "integer",
             "minimum": 1,
-            "maximum": 10,
-            "description": "Mechanism number (1-10)"
+            "maximum": 15,
+            "description": "Mechanism number (1-15, expandable as new mechanisms are confirmed)"
           },
           "name": {
             "type": "string",
@@ -293,7 +293,7 @@
 
     "contingencies": {
       "type": "object",
-      "description": "How this specimen scores on the 5 key contingency variables. Used by the Situation Matcher.",
+      "description": "How this specimen scores on the 6 key contingency variables. Used by the Situation Matcher.",
       "properties": {
         "regulatoryIntensity": {
           "type": ["string", "null"],
@@ -319,6 +319,11 @@
           "type": ["string", "null"],
           "enum": ["High", "Medium", "Low", null],
           "description": "Degree of legacy system burden"
+        },
+        "environmentalAiPull": {
+          "type": ["string", "null"],
+          "enum": ["Strong", "Moderate", "Weak", null],
+          "description": "Strength of external AI ecosystem pull — vendor partnerships, platform dependencies, competitive pressure to adopt"
         }
       }
     },
@@ -379,8 +384,8 @@
       "properties": {
         "status": {
           "type": "string",
-          "enum": ["Active", "Stub", "Archived"],
-          "description": "Active=maintained, Stub=minimal data, Archived=no longer tracking"
+          "enum": ["Active", "Stub", "Inactive", "Archived"],
+          "description": "Active=maintained, Stub=minimal data, Inactive=org pivoted away or specimen superseded, Archived=no longer tracking"
         },
         "created": {
           "type": "string",

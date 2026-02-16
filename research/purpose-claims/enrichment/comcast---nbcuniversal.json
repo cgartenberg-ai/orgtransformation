@@ -1,0 +1,27 @@
+{
+  "specimenId": "comcast---nbcuniversal",
+  "scannedDate": "2026-02-15",
+  "quality": "adequate",
+  "claimCount": 5,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 0,
+    "higher-calling": 0,
+    "identity": 2,
+    "survival": 1,
+    "commercial-success": 1
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 6,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.fierce-network.com/broadband/comcast-ceo-talks-competition-asserts-company-tech-driven (403)",
+    "https://www.economicclub.org/sites/default/files/transcripts/0322econclub-roberts-JF%20Edit.pdf (PDF binary unreadable)",
+    "https://finance.yahoo.com/quote/CMCSA/earnings/CMCSA-Q3-2025-earnings_call-369187.html (compression error)"
+  ]
+}

@@ -1,4 +1,5 @@
 import { getAllSpecimens } from "@/lib/data/specimens";
+import { getFindings } from "@/lib/data/synthesis";
 import { STRUCTURAL_MODELS } from "@/lib/types/taxonomy";
 import type { StructuralModel } from "@/lib/types/specimen";
 
@@ -7,7 +8,10 @@ let cachedPrompt: string | null = null;
 export async function buildSystemPrompt(): Promise<string> {
   if (cachedPrompt) return cachedPrompt;
 
-  const specimens = await getAllSpecimens();
+  const [specimens, findingData] = await Promise.all([
+    getAllSpecimens(),
+    getFindings(),
+  ]);
   const active = specimens.filter((s) => s.meta.status !== "Archived");
 
   // Build model descriptions
@@ -28,25 +32,34 @@ export async function buildSystemPrompt(): Promise<string> {
     })
     .join("\n");
 
-  // Contingency dimensions
-  const contingencies = `
-Five Contingency Dimensions:
-1. Regulatory Intensity (High/Medium/Low) — How heavily regulated the industry is
-2. Time to Obsolescence (Fast/Medium/Slow) — How quickly products/services become outdated
-3. CEO Tenure (Founder/Long/Medium/Short) — Leadership stability and mandate
-4. Talent Market Position (Talent-rich/Talent-constrained/Non-traditional) — Access to AI talent
-5. Tech Debt (High/Medium/Low) — Legacy system burden
+  // Five Primitives
+  const primitives = `
+Five Primitives That Predict Structural Choice:
+P1. Work Architecture Modularity — How decomposable is the work? (Modular → M3/M6, Integral → M1/M4)
+P2. Work Output Measurability — Can quality be captured in metrics? (Low measurability → overcorrection risk)
+P3. Governance Structure — Founder vs. hired CEO, formal vs. real authority, board/shareholder pressure
+P4. Competitive & Institutional Context — Competitive dynamics (P4a) + regulatory regime (P4b)
+P5. Organizational Endowment — Tech debt (P5a), coupling (P5b), capital intensity (P5c), talent (P5d)
   `.trim();
+
+  // Core Findings summary
+  const findingsSummary = findingData.findings
+    .map((f) => `F${f.number}. ${f.title} (${f.primitivesEngaged.join("+")}): ${f.claim.split(".")[0]}.`)
+    .join("\n");
 
   cachedPrompt = `You are the Ambidexterity Field Guide Advisor — a research-backed assistant that helps organizational leaders find their structural "species" for AI organization.
 
 ## Your Knowledge Base
 
-### Seven Structural Models (Species)
+### Nine Structural Models (Species)
 
 ${modelDescriptions}
 
-### ${contingencies}
+### ${primitives}
+
+### 10 Core Findings
+
+${findingsSummary}
 
 ### Specimen Registry (${active.length} organizations)
 Format: id | name | model | orientation | industry | title
@@ -54,16 +67,17 @@ ${specimenRegistry}
 
 ## Your Behavior
 
-1. Start by understanding the user's context. Ask 2-3 focused clarifying questions about:
-   - Industry and regulatory environment
-   - Organization size and structure
-   - What's driving their AI interest (competitive pressure, efficiency, new products, etc.)
+1. Start by understanding the user's context through the 5 Primitives lens. Ask 2-3 focused questions:
+   - Work architecture: Is their core work modular or integral? (P1)
+   - Governance: Founder-led or hired CEO? How much structural latitude? (P3)
+   - Context: Competitive intensity and regulatory burden? (P4)
    - Current AI maturity (just starting, pockets of experimentation, scaling)
 
 2. Based on their answers, recommend 1-3 structural models with:
-   - Why each model fits their situation
+   - Why each model fits their primitive profile (reference which primitives predict the recommendation)
    - Specific specimens they should study (reference by name, link as /specimens/{id})
-   - Trade-offs and tensions to watch for
+   - Which findings are most relevant to their situation
+   - Trade-offs and tensions to watch for (especially T1: structural vs. contextual)
 
 3. Be conversational but substantive. Use the botanical metaphor naturally ("in our collection," "specimens that thrive in similar conditions"). Avoid jargon. Be direct about trade-offs.
 

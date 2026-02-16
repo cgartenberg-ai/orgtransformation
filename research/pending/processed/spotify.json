@@ -1,0 +1,201 @@
+{
+  "company": "Spotify",
+  "ticker": "SPOT",
+  "leader": "Daniel Ek",
+  "leaderTitle": "Executive Chairman (former CEO through Jan 2026)",
+  "sector": "Media / Tech",
+  "quadrant": "Q3",
+  "scannedDate": "2026-02-14",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.billboard.com/pro/spotify-ceo-daniel-ek-ai-what-hes-said-technology/ - paywalled content",
+    "https://www.nbim.no/en/news-and-insights/podcast/2024/live-podcast-with-daniel-ek-founder--ceo-spotify-the-future-of-audio-ai-in-music-and-motivation/ - podcast landing page only, no transcript"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 4,
+    "suggestedModelName": "Hybrid/Hub-and-Spoke",
+    "suggestedOrientation": "Contextual",
+    "confidence": "High",
+    "rationale": "Spotify exhibits a classic hub-and-spoke model adapted to their squad/tribe structure. They have a central ML Platform/Research team that provides recommendation algorithms and infrastructure as a service, while product squads (personalization, ads, content) embed data scientists and ML engineers who leverage these platform services. The newly announced Generative AI Research Lab (Oct 2025) adds a formal research hub. This platform-plus-embedded approach ensures both innovation (central R&D on cutting-edge algorithms) and rapid product integration (squads quickly applying AI to user-facing features). The contextual orientation is evident in their 'Honk' system where individual engineers balance AI exploration with daily execution.",
+    "aiTeamStructure": "Three-layer structure: (1) Spotify Research - central AI/ML research team focused on advancing state of the art in generative AI, LLMs, reinforcement learning, and causal learning; (2) Creator Technology Research Lab - focused on AI tools for artists, formerly led by François Pachet; (3) Newly announced Generative AI Research Lab (Oct 2025) - partnership with major labels for artist-first AI music products. Product squads embed data scientists and ML engineers who leverage platform services. The 'Honk' system enables engineers to use Claude for code generation and bug fixes.",
+    "keyPeople": [
+      {"name": "Daniel Ek", "title": "Executive Chairman (former CEO)", "role": "Strategic vision, transitioned to chairman Jan 2026"},
+      {"name": "Gustav Söderström", "title": "Co-CEO, Co-President and Chief Product and Technology Officer", "role": "AI strategy and product development"},
+      {"name": "Alex Norström", "title": "Co-CEO, Co-President and Chief Business Officer", "role": "Business partnerships and artist relations for AI"},
+      {"name": "François Pachet", "title": "Director, Creator Technology Research Lab", "role": "AI-based tools for musicians (previously Sony, 20 years)"}
+    ],
+    "investmentSignals": "No specific AI budget or headcount disclosed. Acquired Sonantic (AI voice platform) in 2022. Building 'state-of-the-art generative AI research lab' announced Oct 2025. AI DJ has reached 90 million subscribers with 4 billion engagement hours. Internal AI tooling (Honk) deployed to engineering team. Claims to have invested in AI capabilities 'for over two years' in anticipation of current AI moment.",
+    "observableMarkers": {
+      "reportingStructure": "AI capabilities report through product/engineering to Co-CEO Söderström. No dedicated CAIO. Research labs appear to have some autonomy while product squads integrate AI features.",
+      "resourceAllocation": "Dedicated research labs (Spotify Research, Creator Technology Research Lab, new Generative AI Research Lab). Platform team provides shared ML infrastructure to product squads.",
+      "timeHorizons": "Mixed. Research teams work on longer-term (generative AI, LLMs). Product squads deliver quarterly (AI DJ, Prompted Playlists). Ek's vision: '5-10 years from now' AI will curate better than humans.",
+      "decisionRights": "Distributed within squad model. Individual engineers can use AI coding tools (Honk) without centralized approval. AI product features emerge from squads.",
+      "metrics": "Engagement-focused: 90M subscribers using AI DJ, 4B+ engagement hours, 50M mixed playlists created, 1M+ transitions daily. User satisfaction: solving the 'discovery problem' where users currently find what they want only 30-40% of the time."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "The entire industry stands to benefit from this paradigm shift but we believe those who embrace this change and move fast, will benefit the most.",
+      "speaker": "Gustav Söderström",
+      "speakerTitle": "Co-CEO, Co-President and Chief Product and Technology Officer",
+      "source": "Spotify Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/10/spotify-spot-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-10",
+      "context": "Discussing AI as a growth opportunity"
+    },
+    {
+      "text": "AI is the most consequential technology shift since the smartphone...we want to build this future hand in hand with the music industry, guided by clear principles.",
+      "speaker": "Gustav Söderström",
+      "speakerTitle": "Co-President and Chief Product and Technology Officer",
+      "source": "Spotify Newsroom - Artist-First AI Announcement",
+      "sourceUrl": "https://newsroom.spotify.com/2025-10-16/artist-first-ai-music-spotify-collaboration/",
+      "sourceDate": "2025-10-16",
+      "context": "Announcing AI partnership with major labels"
+    },
+    {
+      "text": "Technology should always serve artists, not the other way around. Our focus at Spotify is making sure innovation supports artists by protecting their rights, respecting their creative choices, and creating new ways for fans to discover and enjoy the music they love.",
+      "speaker": "Alex Norström",
+      "speakerTitle": "Co-President and Chief Business Officer",
+      "source": "Spotify Newsroom - Artist-First AI Announcement",
+      "sourceUrl": "https://newsroom.spotify.com/2025-10-16/artist-first-ai-music-spotify-collaboration/",
+      "sourceDate": "2025-10-16",
+      "context": "Framing Spotify's AI principles"
+    },
+    {
+      "text": "We consider ourselves the R&D department for the music industry. Our job is to understand new technologies quickly and capture their potential.",
+      "speaker": "Gustav Söderström",
+      "speakerTitle": "Co-CEO",
+      "source": "Spotify Q4 2025 Earnings",
+      "sourceUrl": "https://newsroom.spotify.com/2026-02-10/spotify-q4-2025-earnings/",
+      "sourceDate": "2026-02-10",
+      "context": "Framing Spotify's role in AI innovation"
+    },
+    {
+      "text": "The next wave of technology shifts—AI, new interfaces, wearables, new ways of interacting with content—these will reshape how people discover and experience audio.",
+      "speaker": "Daniel Ek",
+      "speakerTitle": "Founder and Executive Chairman",
+      "source": "Spotify Q4 2025 Earnings",
+      "sourceUrl": "https://newsroom.spotify.com/2026-02-10/spotify-q4-2025-earnings/",
+      "sourceDate": "2026-02-10",
+      "context": "Strategic vision statement"
+    },
+    {
+      "text": "New technology is seldom disruptive on its own. Significant disruption happens when new technologies enable new asymmetric business models.",
+      "speaker": "Gustav Söderström",
+      "speakerTitle": "Co-CEO",
+      "source": "Spotify Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/10/spotify-spot-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-10",
+      "context": "Philosophy on technology disruption"
+    },
+    {
+      "text": "An engineer on their morning commute can tell Claude to fix a bug or add a feature to the iOS app.",
+      "speaker": "Gustav Söderström",
+      "speakerTitle": "Co-CEO",
+      "source": "Spotify Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/10/spotify-spot-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-10",
+      "context": "Describing internal AI tool 'Honk'"
+    },
+    {
+      "text": "They are not here to protect what I built, they are here to build what we have not imagined yet.",
+      "speaker": "Daniel Ek",
+      "speakerTitle": "Founder and Executive Chairman",
+      "source": "Spotify Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/10/spotify-spot-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-10",
+      "context": "On handing leadership to Co-CEOs Söderström and Norström"
+    },
+    {
+      "text": "Taste is not a fact. It is an opinion.",
+      "speaker": "Gustav Söderström",
+      "speakerTitle": "Co-CEO",
+      "source": "Spotify Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/10/spotify-spot-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-10",
+      "context": "Explaining why Spotify's global listener data is a unique AI dataset advantage"
+    },
+    {
+      "text": "The truth is, as good as we are at recommendations, if you really put your mind to it, you could create a better playlist yourself. I think five years to ten years from now, that will not be true.",
+      "speaker": "Daniel Ek",
+      "speakerTitle": "CEO (at time of interview)",
+      "source": "In Good Company with Nicolai Tangen podcast",
+      "sourceUrl": "https://open.spotify.com/episode/2doZQpE8jhWd9B0npkFdwR",
+      "sourceDate": "2024-01",
+      "context": "Discussing future of AI-powered personalization"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Spotify Q4 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/10/spotify-spot-q4-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2026-02-10",
+      "notes": "Rich source. Co-CEO transition, Honk AI coding system, AI DJ metrics (90M users, 4B hours), Prompted Playlists, 'agentic media platform' vision, engineering team not writing code since December"
+    },
+    {
+      "name": "Spotify Q4 2025 Earnings Announcement",
+      "url": "https://newsroom.spotify.com/2026-02-10/spotify-q4-2025-earnings/",
+      "type": "Press",
+      "date": "2026-02-10",
+      "notes": "Official announcement with executive quotes on AI as technology shift, 2026 as 'Year of Raising Ambition'"
+    },
+    {
+      "name": "Spotify Artist-First AI Partnership Announcement",
+      "url": "https://newsroom.spotify.com/2025-10-16/artist-first-ai-music-spotify-collaboration/",
+      "type": "Press",
+      "date": "2025-10-16",
+      "notes": "Announced generative AI research lab, partnership with Sony/UMG/WMG/Merlin/Believe, four AI principles (upfront partnerships, artist choice, fair compensation, artist-fan connection)"
+    },
+    {
+      "name": "Spotify Research - Artificial Intelligence",
+      "url": "https://research.atspotify.com/artificial-intelligence",
+      "type": "Blog",
+      "date": "2026-02",
+      "notes": "Documents 9 research focus areas: AI, Search & Recommendations, Audio/Visual Intelligence, Speech/NLP, User Modeling, Causal Inference, Algorithmic Responsibility, Evaluation, Economics"
+    },
+    {
+      "name": "Daniel Ek on AI, Podcasts - Complete Music Update",
+      "url": "https://completemusicupdate.com/spotify-boss-daniel-ek-talks-ai-podcasts-and-apple-tax-in-new-interview/",
+      "type": "Press",
+      "date": "2023-10",
+      "notes": "Search result - Ek called AI-generated music 'tricky', replicating artist voice without approval 'not OK'"
+    },
+    {
+      "name": "François Pachet profile",
+      "url": "https://www.francoispachet.fr/",
+      "type": "Blog",
+      "date": "2026-02",
+      "notes": "Director of Creator Technology Research Lab, 20 years at Sony before Spotify, pioneer in AI-based tools for musicians"
+    }
+  ],
+
+  "summary": "Spotify employs a hybrid/hub-and-spoke AI model adapted to their famous squad/tribe organizational structure. A central ML Platform and Research team provides recommendation algorithms and infrastructure, while product squads embed ML engineers to build features like AI DJ (90M users, 4B engagement hours). In October 2025, they announced a new Generative AI Research Lab in partnership with major labels, signaling increased investment in artist-first AI music tools. The recent CEO transition (Ek to chairman, Söderström and Norström as Co-CEOs) positions the product/technology leader to drive AI strategy.",
+
+  "openQuestions": [
+    "What is the headcount and budget for the various AI/ML research teams?",
+    "How does the new Generative AI Research Lab relate to existing research infrastructure?",
+    "What is the reporting structure for François Pachet's Creator Technology Research Lab?",
+    "How widely is the 'Honk' AI coding system deployed across engineering?",
+    "What percentage of Spotify's R&D is allocated to AI vs. other areas?"
+  ],
+
+  "conferenceFindings": "No specific conference presentations found in this scan. Ek has appeared on podcasts (Acquired, In Good Company with Nicolai Tangen, Founders) but not traditional tech/AI conferences.",
+
+  "botanistNotes": [
+    "The Honk system is striking: top Spotify developers reportedly 'have not written a single line of code since December' and only 'generate code and supervise it.' This is one of the most aggressive internal AI adoption claims I've seen - and it comes from an earnings call, making it an on-the-record statement to investors. Suggests contextual ambidexterity where individual engineers balance exploration (AI coding) with execution (shipping features).",
+    "The squad/tribe model may be uniquely suited to AI integration. Unlike hierarchical orgs that need formal AI teams, Spotify's autonomous squads can independently adopt AI tools. The 'platform-plus-embedded' approach (central ML platform serving product squads) mirrors the hub-and-spoke pattern but with unusually high squad autonomy.",
+    "Ek's transition to chairman while Söderström (product/tech) becomes Co-CEO is significant timing. The earnings call framed it as freeing Ek for European tech investing (including his Helsing AI defense investment), but it also positions the technologist to drive AI transformation rather than the founder.",
+    "The claim 'we consider ourselves the R&D department for the music industry' is a fascinating framing - it positions Spotify not as a music company using AI, but as an AI/tech company serving music. This echoes Söderström's insight that 'significant disruption happens when new technologies enable new asymmetric business models' - they're building the platform that captures AI value in music."
+  ],
+
+  "bestQuote": {
+    "text": "Taste is not a fact. It is an opinion.",
+    "speaker": "Gustav Söderström",
+    "why": "This six-word statement captures Spotify's entire AI thesis. Unlike search (where there are canonical right answers), music recommendation requires understanding subjective, contextual, personal taste at massive scale. This is their moat: they have the global dataset of 'language-to-music' interactions that no LLM trained on canonical facts can replicate. It's both a strategic insight and an implicit challenge to AI companies who think recommendation can be solved with general-purpose models."
+  }
+}

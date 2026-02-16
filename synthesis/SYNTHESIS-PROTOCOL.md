@@ -29,8 +29,11 @@ Before analyzing anything:
 - [ ] Read `synthesis/mechanisms.json` — load current confirmed mechanisms and candidates. Note which specimens already have evidence recorded.
 - [ ] Read `synthesis/tensions.json` — load current tensions. Note which already have specimen links.
 - [ ] Read `synthesis/contingencies.json` — load current contingencies. Note which already have specimen links.
-- [ ] Read `synthesis/insights.json` — load current cross-cutting insights. Note maturity levels and which specimens are already cited. **Remember: insights are NEVER deleted.**
+- [ ] Read `synthesis/insights.json` — load current cross-cutting insights (archived v1 collection). Note maturity levels and which specimens are already cited. **Remember: insights are NEVER deleted.**
+- [ ] Read `synthesis/primitives.json` — load the 5 analytical primitives (P1-P5). These are analytical lenses, not filters.
+- [ ] Read `synthesis/findings.json` — load the 10 core findings (F1-F10) and field observations. Note maturity levels and evidence arrays.
 - [ ] Read `specimens/registry.json` — get the full specimen list for cross-referencing.
+- [ ] Read `research/field-signals.json` — review active signals. Check if any have enough evidence (5+ sessions) to be promoted to insights during this session. Field signals are macro observations from research sessions that accumulate across time. Active signals with sufficient evidence density should be promoted to `synthesis/insights.json` during Step 5b.
 - [ ] Check for previous synthesis session files in `synthesis/sessions/` — understand what was already processed in prior sessions.
 - [ ] Plan batch: **Cap at 8-10 specimens per batch** for quality synthesis. Mix 2-3 sectors per batch so cross-cutting patterns are visible (don't process one sector at a time). Stubs may have too little data for meaningful synthesis — include them but don't force-fit.
 - [ ] **If running multiple batches in sequence:** Read the previous batch's session log before starting. Carry forward any "emerging sector trends" or "questions for the next batch" from the prior Botanist's Field Notes. The goal is cumulative pattern recognition across batches, not isolated analysis.
@@ -228,6 +231,45 @@ Check evidence counts: if a `"hypothesis"` insight now has 2+ specimens → prom
 
 ---
 
+### Step 5d: Findings Review (across batch)
+
+After the insight review, evaluate specimens against the 10 core findings in `synthesis/findings.json`.
+
+> **Exploration and Curiosity First.** The findings are empirical claims we're testing, not truths we're confirming. Evidence that challenges a finding is just as analytically valuable as evidence that supports it. Novel patterns that don't fit any finding are worth flagging prominently — they may become Finding 11.
+
+**Does any newly processed specimen provide evidence for or against an existing finding?**
+
+Walk through `synthesis/findings.json`. For each finding, check if any newly synthesized specimen provides evidence:
+
+```
+Does the specimen speak to this finding?
+├── YES, supports → Add to finding's evidence array:
+│   { "specimenId": "org-id", "note": "How this specimen supports the finding" }
+├── YES, challenges → Add to finding's evidence array with direction:
+│   { "specimenId": "org-id", "note": "How this challenges the finding", "direction": "challenges" }
+│   Flag prominently in session log under "Findings Challenged"
+├── MAYBE, tangentially relevant → Note in session log only. Don't add to findings.json yet.
+└── NO → Skip
+```
+
+**Does this batch reveal a finding-level pattern not yet captured?**
+
+Criteria for proposing a new finding (F11+):
+1. A claim about how primitives interact to produce structural outcomes
+2. Supported by evidence from 3+ specimens across multiple industries
+3. Has a testable implication
+4. Not already captured by F1-F10
+
+If yes: propose in session log under "New Findings Proposed" with draft claim, primitives engaged, and evidence. The finding is added to `findings.json` only after review.
+
+**Should any finding's maturity change?**
+
+- `emerging` → `confirmed`: 5+ supporting specimens across 2+ industries, no unresolved contradictions
+- `confirmed` → `contested`: mounting contradictory evidence that can't be explained as boundary conditions
+- Any maturity change should be noted in the session log with reasoning
+
+---
+
 ### Step 5c: Botanist's Field Notes (across batch)
 
 After the analytical steps above, pause and write **free-form reflections** on what you observed across this batch. These notes are the intellectual heart of the field journal — informal, honest, and speculative in ways the structured synthesis files can't be.
@@ -239,6 +281,7 @@ Write a `## Botanist's Field Notes` section in the session log. Aim for 3-6 para
 3. **What's structurally interesting?** — Observations about *how* organizations are solving the exploration/execution problem that feel novel or underappreciated.
 4. **What's thin or suspicious?** — Where does the data feel weak? Which classifications are you least confident about? Where might we be pattern-matching on noise?
 5. **Questions for the next batch** — What would you specifically look for in the next batch to confirm or disconfirm what you're seeing here?
+6. **Primitive lens** *(consider, but don't be limited by)*: Did this batch reveal anything about how modularity, measurability, governance, competitive context, or organizational endowment shape structural choices? Did anything surprise you relative to what the primitives would predict? Are there patterns in this batch that the primitive framework can't explain? Those are often the most interesting observations.
 
 **Tone:** Write as a fellow researcher thinking out loud — not as a report. These notes should read like a field biologist's journal entry after a day of observation. Candid > polished. Speculative > safe.
 
@@ -316,6 +359,12 @@ After ALL pending specimens are processed:
   - New insights added (if discovered)
   - `"lastUpdated": "YYYY-MM-DD"`
 
+- [ ] **Update `synthesis/findings.json`** (from Step 5d):
+  - New evidence added to existing findings (with direction: supports/challenges)
+  - Maturity changes applied (emerging→confirmed, or confirmed→contested if contradictions mount)
+  - New findings added (if proposed and reviewed)
+  - `"lastUpdated": "YYYY-MM-DD"`
+
 - [ ] **Write synthesis session log** at `synthesis/sessions/YYYY-MM-DD-synthesis.md`:
 
   ```yaml
@@ -332,6 +381,9 @@ After ALL pending specimens are processed:
   taxonomy_proposals: 0
   insights_updated: []
   new_insights: []
+  findings_updated: []
+  findings_challenged: []
+  new_findings_proposed: []
   ---
 
   # Synthesis Session: YYYY-MM-DD
@@ -379,6 +431,18 @@ After ALL pending specimens are processed:
   | Insight | Theme | Evidence Count | Maturity |
   |---------|-------|----------------|----------|
 
+  ## Findings Updated (Step 5d)
+  | Finding | New Evidence | Direction | From Specimens |
+  |---------|-------------|-----------|----------------|
+
+  ## Findings Challenged (Step 5d)
+  | Finding | Challenge | From Specimens | Implication |
+  |---------|-----------|----------------|-------------|
+
+  ## New Findings Proposed (Step 5d)
+  | Proposed Finding | Claim | Primitives | Evidence Count |
+  |------------------|-------|------------|----------------|
+
   ## Botanist's Field Notes
 
   [Free-form reflections: what surprised you, what patterns are emerging,
@@ -404,6 +468,13 @@ After ALL pending specimens are processed:
   ## Open Questions
   [What would we most like to know that we don't?]
   ```
+
+- [ ] **Check field signals for promotion**:
+  - Review `research/field-signals.json` for `"status": "active"` signals with 5+ sessions
+  - If evidence is sufficient and specific enough, promote to `synthesis/insights.json`:
+    - Set signal `"status": "promoted"` and `"promotedTo": "INS-XXX"` in field-signals.json
+    - Create a new insight entry in insights.json with the signal's data points as evidence
+  - If signals have new relevant evidence from this batch, add session ID and specimen slugs
 
 - [ ] **Run validator**:
   ```bash

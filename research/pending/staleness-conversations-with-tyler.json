@@ -1,0 +1,71 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "conversations-with-tyler",
+  "sourceName": "Conversations with Tyler",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "Triaged recent AI eps; Jack Clark/Anthropic (Ep 242, May 2025) deep-scanned; Mercor/Brendan Foody (Oct 2025) noted; 2025 Year-in-Review noted.",
+  "newScannedThrough": "Scanned through Ep 269 (Feb 2026). Deep-scanned Brendan Foody/Mercor (Ep 267, Jan 2026) and Alison Gopnik (Ep 265, Dec 2025). Sorkin (Ep 269) and MacCulloch (Ep 268) low AI relevance.",
+  "newContent": [
+    {
+      "title": "Brendan Foody on Teaching AI and the Future of Knowledge Work (Ep. 267)",
+      "date": "2026-01-07",
+      "url": "https://conversationswithtyler.com/episodes/brendan-foody/",
+      "relevance": "HIGH",
+      "findings": [
+        {
+          "type": "structural-model",
+          "description": "Mercor operates an expert marketplace for AI training. Pays premium rates ($150/hr for poets) because expertise, once encoded into evals, scales infinitely. Inverts traditional knowledge work: experts create evaluation rubrics once, then scale across billions of users.",
+          "quote": "We hire all of the experts that teach the leading AI models."
+        },
+        {
+          "type": "mechanism",
+          "description": "Knowledge work transformation: from task execution to environment building. Instead of bankers repeatedly analyzing data rooms, they build RL environments that train agents. Economic model shifts from hourly labor to fixed-cost investments in teaching systems.",
+          "quote": "Instead of the investment banker redundantly analyzing...they'll teach the model how to do that once."
+        },
+        {
+          "type": "insight",
+          "description": "The scarcity shift: taste/judgment—not information—is the bottleneck. Challenge is encoding what 'good' looks like into measurable criteria. Rubrics become core organizational asset.",
+          "specimenCandidate": "mercor"
+        }
+      ]
+    },
+    {
+      "title": "Alison Gopnik on Childhood Learning, AI as Cultural Technology (Ep. 265)",
+      "date": "2025-12-09",
+      "url": "https://conversationswithtyler.com/episodes/alison-gopnik/",
+      "relevance": "MEDIUM",
+      "findings": [
+        {
+          "type": "theoretical-frame",
+          "description": "AI as cultural technology thesis: AI should be understood as a cultural technology for information access (like writing, print, libraries), not as artificial intelligence implying independent reasoning. Reframes AI deployment around knowledge synthesis/retrieval rather than autonomous decision-making.",
+          "quote": "Generative AI is the latest technique for getting information from other people."
+        },
+        {
+          "type": "limitation",
+          "description": "AI produces text without 'making contact with external reality'—generates plausible outputs disconnected from world-grounding. Critical gap for organizations: AI cannot replace exploration, experimentation, hypothesis-testing requiring real-world feedback loops."
+        },
+        {
+          "type": "deployment-pattern",
+          "description": "Recommended deployment: information synthesis tasks, complementary tools for human experts, education redesign around evaluating AI outputs. Human + AI superior when structured around complementary strengths."
+        }
+      ]
+    },
+    {
+      "title": "Diarmaid MacCulloch on Christianity, Sex, and History (Ep. 268)",
+      "date": "2026-01-21",
+      "url": "https://conversationswithtyler.com/episodes/diarmaid-macculloch/",
+      "relevance": "LOW"
+    },
+    {
+      "title": "Andrew Ross Sorkin on Market Bubbles and 1929 (Ep. 269)",
+      "date": "2026-02-04",
+      "url": "https://conversationswithtyler.com/episodes/andrew-ross-sorkin/",
+      "relevance": "LOW"
+    }
+  ],
+  "summary": "Two high-value episodes since last scan. Brendan Foody (Ep 267) provides rich structural findings on Mercor's expert marketplace model for AI training—strong specimen candidate. Key insight: knowledge work shifts from task execution to environment/rubric building. Alison Gopnik (Ep 265) offers theoretical framing of AI as cultural technology, useful for positioning AI deployment patterns. Two other episodes (Sorkin on 1929, MacCulloch on Christianity) have no AI relevance.",
+  "actionItems": [
+    "Consider adding Mercor as specimen (Foody interview provides structural detail)",
+    "Cross-reference Gopnik's 'AI as cultural technology' frame with existing theoretical mechanisms"
+  ]
+}

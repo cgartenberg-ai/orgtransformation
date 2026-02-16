@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.fieldguide.overnight-pipeline</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Library/Frameworks/Python.framework/Versions/3.13/bin/python3</string>
+        <string>/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/scripts/overnight-pipeline.py</string>
+        <string>--skip-permissions</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation</string>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>19</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/pipeline-reports/pipeline-stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/cgart/Penn Dropbox/Claudine Gartenberg/Feedforward/playground/orgtransformation/pipeline-reports/pipeline-stderr.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/Library/Frameworks/Python.framework/Versions/3.13/bin</string>
+        <key>HOME</key>
+        <string>/Users/cgart</string>
+    </dict>
+
+    <!-- Don't keep alive — run once per day at 7 PM -->
+    <key>KeepAlive</key>
+    <false/>
+
+    <!-- Timeout: 12 hours (43200 seconds) -->
+    <key>TimeOut</key>
+    <integer>43200</integer>
+</dict>
+</plist>

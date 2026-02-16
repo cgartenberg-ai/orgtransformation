@@ -1,0 +1,658 @@
+{
+  "taskId": "earnings-disney-intel-lilly-moderna-shopify-feb-2026",
+  "taskType": "earnings",
+  "scannedDate": "2026-02-15",
+  "sourceScanned": {
+    "sourceId": null,
+    "name": "Recent Earnings — Disney, Intel, Eli Lilly, Moderna, Shopify",
+    "type": "Earnings Call",
+    "scannedThrough": "Q4 2025 / Q1 FY2026 earnings calls",
+    "scannedThroughDate": "2026-02-15"
+  },
+  "searchesCompleted": 14,
+  "urlsFetched": 14,
+  "searchFailures": [],
+  "fetchFailures": [
+    {"url": "https://newsroom.intel.com/corporate/lip-bu-tan-steps-in-the-right-direction", "reason": "Sibling-error cascade during parallel fetch"},
+    {"url": "https://www.insidermonkey.com/blog/intel-corporation-nasdaqintc-q4-2025-earnings-call-transcript-1680769/", "reason": "Sibling-error cascade during parallel fetch"},
+    {"url": "https://www.accessnewswire.com/newsroom/en/healthcare-and-pharmaceutical/moderna-reports-fourth-quarter-and-fiscal-year-2025-financial-results-1137508", "reason": "403 Forbidden"},
+    {"url": "https://openai.com/index/moderna/", "reason": "403 Forbidden"},
+    {"url": "https://www.hollywoodreporter.com/business/business-news/disney-josh-damaro-priorities-bets-1236502432/", "reason": "CSS-only content returned"},
+    {"url": "https://www.cnbc.com/2025/12/11/cnbc-exclusive-transcript-disney-ceo-bob-iger-and-openai-ceo-sam-altman-speak-with-cnbcs-squawk-on-the-street-today.html", "reason": "CSS-only content returned"},
+    {"url": "https://www.drugdiscoverytrends.com/lilly-and-nvidia-unveil-1b-co-innovation-lab-in-sf/", "reason": "403 Forbidden"}
+  ],
+  "organizations": [
+    {
+      "name": "Walt Disney Company",
+      "specimenId": "disney",
+      "existingSpecimen": true,
+      "currentModel": "M4",
+      "quarterReported": "Q1 FY2026 (Oct-Dec 2025)",
+      "earningsDate": "2026-02-02",
+      "transcriptAccessed": true,
+      "sources": [
+        {
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/disney-dis-q1-2026-earnings-call-transcript/",
+          "title": "Disney Q1 FY2026 Earnings Call Transcript",
+          "sourceDate": "2026-02-02",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://www.wdwmagic.com/other/walt-disney-company/news/02feb2026-bob-iger-details-disneys-ai-strategy-during-q1-2026-earnings-call.htm",
+          "title": "Bob Iger Details Disney's AI Strategy During Q1 2026 Earnings Call",
+          "sourceDate": "2026-02-02",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://collider.com/bob-iger-disney-ceo-exit-interview-josh-damaro-will-embrace-ai/",
+          "title": "Disney's New CEO Will Be Embracing AI Moving Forward",
+          "sourceDate": "2026-02",
+          "collectedDate": "2026-02-15"
+        }
+      ],
+      "findings": [
+        {
+          "type": "structural",
+          "detail": "Iger articulated three strategic AI pillars during Q1 FY2026 earnings call: (1) Creativity — AI as a tool to help the creative process, (2) Productivity — operational efficiency improvements, (3) Connectivity — creating a more intimate relationship with the consumer. This is a hub-and-spoke framing where AI serves multiple business units through distinct use cases.",
+          "quote": "We view AI as having a number of obviously, possible advantages or opportunities for the company. One is as a tool to help the creative process... Another is productivity... And the third, I'll call connectivity, which is creating basically a more intimate relationship with the consumer.",
+          "speaker": "Bob Iger",
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Disney signed a 3-year licensing deal with OpenAI for Sora-generated short-form videos using ~250 Disney characters (no human voices/faces). Disney receives payment for the licensing. This represents a boundary decision: Disney licenses IP for AI-generated content but explicitly excludes talent likenesses, creating a structural firewall between AI-generated and human-performed content.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Disney is developing a unified Disney Plus/Hulu app experience by year-end 2026, with plans to enable subscribers to create short-form AI-generated content on Disney Plus using Sora tools. This is a platform-level AI integration, not a standalone AI product.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural"]
+        },
+        {
+          "type": "structural",
+          "detail": "CEO succession: Josh D'Amaro takes over as CEO on March 18, 2026. Iger stepping down, remaining as advisor through end of 2026. Dana Walden appointed as President and Chief Creative Officer — a newly created position centralizing creative leadership across Disney's businesses. D'Amaro selected partly because he 'views technology as an opportunity and not a threat.' D'Amaro will prioritize gaming, AI, and interactivity.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Iger's prior restructuring created accountability by placing streaming under Alan Bergman and Dana Walden (movie/TV leadership) so 'those people that were investing the most needed to have much more skin in the game.' This is a structural philosophy statement about how Disney organizes — accountability through P&L ownership, not functional separation.",
+          "quote": null,
+          "speaker": "Bob Iger",
+          "relevanceTest": ["structural"]
+        },
+        {
+          "type": "tension",
+          "detail": "Iger explicitly stated AI-generated content will NOT impact Disney's traditional programming, positioning AI as complementary rather than substitutive. This is a deliberate tension management choice — exploring AI content creation while protecting the core creative execution model. The SAG-AFTRA exclusion of talent likenesses reinforces this boundary.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["tension"]
+        },
+        {
+          "type": "investment",
+          "detail": "$1 billion equity investment in OpenAI announced December 2025. Streaming segment delivered 12% revenue growth and ~50% earnings growth. Streaming margins on track to reach 10% this fiscal year (up from 5% prior year). Experiences segment exceeded $10 billion quarterly revenue for the first time.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["specificity"]
+        }
+      ]
+    },
+    {
+      "name": "Intel Corporation",
+      "specimenId": "intel",
+      "existingSpecimen": true,
+      "currentModel": null,
+      "quarterReported": "Q4 2025",
+      "earningsDate": "2026-01-23",
+      "transcriptAccessed": true,
+      "sources": [
+        {
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/01/23/intel-intc-q4-2025-earnings-call-transcript/",
+          "title": "Intel Q4 2025 Earnings Call Transcript",
+          "sourceDate": "2026-01-23",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://www.trendforce.com/news/2026/01/20/news-intel-recruits-qualcomm-and-amd-gpu-veteran-eric-demers-to-advance-ai-push/",
+          "title": "Intel Recruits Qualcomm and AMD GPU Veteran Eric Demers",
+          "sourceDate": "2026-01-20",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/02/03/intel-gpu-chief-architect-ai-lip-bu-tan.html",
+          "title": "Intel is moving into GPUs and has hired a chief architect",
+          "sourceDate": "2026-02-03",
+          "collectedDate": "2026-02-15"
+        }
+      ],
+      "findings": [
+        {
+          "type": "structural",
+          "detail": "Lip-Bu Tan centralized Data Center and AI (DCAI) businesses under a single executive named Kevork, ensuring tight coordination across what had been separate business units. This is a classic hub consolidation move — collapsing distributed AI/data center units into one reporting line under CEO oversight.",
+          "quote": "I centralize our data center and AI businesses under Kevork, ensuring tight coordination.",
+          "speaker": "Lip-Bu Tan",
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Tan explicitly simplified organizational structure: reduced bureaucracy, flattened decision-making. Non-GAAP OpEx cut 15% to $16.5B in 2025, targeting $16B in 2026. Described as 'organizational streamlining and reduced complexity.' This is a delayering move combined with cultural transformation.",
+          "quote": "We simplify our organization and greatly reduce bureaucracy to improve efficiency and accelerate decision-making.",
+          "speaker": "Lip-Bu Tan",
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Intel AI Group leadership instability: Sachin Katti, whom Tan had appointed to lead the newly independent AI Group, departed for OpenAI in November 2025. This is a significant structural setback — the AI Group lost its founding leader within months of creation.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "New hire: Eric Demers recruited as Senior Vice President of GPU Architecture (January 2026). Former CTO of AMD's graphics division and 14-year Qualcomm GPU hardware veteran. This signals Intel's shift toward building an in-house GPU capability rather than relying solely on Gaudi accelerator line. Second major semiconductor executive recruited after TSMC SVP Wei-Jen Lo in 2025.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Naga appointed to lead Intel 18A manufacturing efforts with 'laser-focused' yield improvement mandate. Yields improving at '7-8% per month' but Tan acknowledged they remain below his target. This is a dedicated manufacturing execution role, separate from the AI product strategy.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Intel's AI product strategy is shifting to 'heterogeneous silicon' — providing CPU, NPU, discrete GPU, integrated GPU, ASICs, and XPUs across diverse computing environments. Focus narrowing to inference-driven workloads, agentic AI, and hybrid AI architecture rather than competing head-on in AI training.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural"]
+        },
+        {
+          "type": "structural",
+          "detail": "Custom ASIC business exceeded $1B annualized run rate in Q4 2025 (>50% YoY growth, 26% sequential). Targeting $100B TAM. Built for AI, networking, and cloud workloads. This is emerging as a significant structural bet alongside the foundry business — purpose-built silicon for hyperscaler customers.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Server roadmap simplified and narrowed: focused on 16-channel Diamond Rapids (high-end), accelerating Coral Rapids introduction. Clearwater Forest deprioritized. This is classic Tan discipline — fewer products, deeper focus, eliminating organizational sprawl.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "investment",
+          "detail": "DCAI revenue $4.7B in Q4 2025, up 15% sequentially — fastest growth this decade. AI PC units grew 16% sequentially. Custom ASIC >$1B annualized. Q4 total revenue $13.7B (high end of guidance). Balance sheet: $37.4B cash + short-term investments. Strategic investments received: $5B from NVIDIA, funding from SoftBank and U.S. government.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["specificity"]
+        },
+        {
+          "type": "investment",
+          "detail": "2025 gross CapEx: $17.7B. 2026 planned flat to down slightly. Spending shifting from space/facilities to tools — increasing wafer starts on Intel 7, Intel 3, and 18A. More weighted to H1 2026. Will not deploy CapEx for 14A until customers are secured. Advanced packaging (EMIB-T) opportunity 'well north of $1 billion' with customer prepayments.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["specificity"]
+        },
+        {
+          "type": "tension",
+          "detail": "Intel navigating a three-way strategic tension: (1) reviving foundry manufacturing, (2) competing in AI accelerators/ASICs, (3) maintaining x86 CPU franchise. Under Tan, the resolution is radical simplification — fewer products, centralized DCAI, and disciplined CapEx allocation. Three explicit strategic pillars: 'becoming a financially disciplined foundry, revitalizing the x86 ecosystem, and refining AI strategy under direct CEO oversight.'",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["tension", "structural"]
+        },
+        {
+          "type": "workforce",
+          "detail": "15% workforce reduction (24,000 jobs cut globally): from ~96,400 to ~75,000 by end of 2025. Targeting $1.5B in annual cost savings. In Oregon alone, ~4,000 of ~20,000 employees cut (~20%). Tan framing: recruiting 'new leaders from the outside and empower key leaders from within' while streamlining.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["specificity"]
+        }
+      ]
+    },
+    {
+      "name": "Eli Lilly and Company",
+      "specimenId": "eli-lilly",
+      "existingSpecimen": true,
+      "currentModel": "M4",
+      "quarterReported": "Q4 2025",
+      "earningsDate": "2026-02-04",
+      "transcriptAccessed": true,
+      "sources": [
+        {
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/04/eli-lilly-lly-q4-2025-earnings-call-transcript/",
+          "title": "Eli Lilly Q4 2025 Earnings Call Transcript",
+          "sourceDate": "2026-02-04",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai",
+          "title": "NVIDIA and Lilly Announce Co-Innovation AI Lab",
+          "sourceDate": "2026-01-12",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://blogs.nvidia.com/blog/jpmorgan-healthcare-nvidia-lilly/",
+          "title": "CEOs of NVIDIA and Lilly Share Blueprint for AI and Drug Discovery",
+          "sourceDate": "2026-01",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://www.benchling.com/news/benchling-and-lilly-tunelab-partner-to-democratize-access-to-ai-models",
+          "title": "Benchling and Lilly TuneLab Partner to Democratize Access to AI Models",
+          "sourceDate": "2025-09",
+          "collectedDate": "2026-02-15"
+        }
+      ],
+      "findings": [
+        {
+          "type": "structural",
+          "detail": "NVIDIA-Lilly co-innovation lab announced January 12, 2026: up to $1B investment over 5 years in talent, infrastructure, and compute. Located in San Francisco Bay Area (South San Francisco), opening early 2026. Co-locates Lilly domain experts (biology, science, medicine) with NVIDIA AI researchers/engineers working side-by-side. Operates under a 'scientist-in-the-loop framework' connecting agentic wet labs with computational dry labs for 24/7 AI-assisted experimentation.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "The NVIDIA-Lilly lab represents a rare external hub-and-spoke extension — Lilly is creating an external AI research node (the SF lab) that feeds back into its internal drug discovery pipeline. The continuous learning system connecting wet and dry labs is a feedback loop architecture, not a one-directional outsourcing arrangement. Built on NVIDIA BioNeMo platform and Vera Rubin architecture.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural"]
+        },
+        {
+          "type": "structural",
+          "detail": "David Ricks reframed drug discovery from artisanal to engineering: the lab aims to make molecule discovery 'an engineering problem, versus this sort of discovery, this artisanal drug-making problem.' This is a structural philosophy — moving from craft-based to systematic AI-assisted discovery.",
+          "quote": "Each small molecule discovery is like a work of art. If we can make that an engineering problem, versus this sort of discovery, this artisanal drug-making problem, think of the impact on human life.",
+          "speaker": "David Ricks",
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Lilly TuneLab (launched September 2025): Internal AI/ML platform providing access to predictive models trained on decades of Lilly's proprietary research data (representing >$1B in research investment). Offers prediction models for antibodies and small molecules. Partnered with Benchling to distribute TuneLab models to Benchling's 1,300+ biotech customers. Includes federated learning — external scientists share experimental results back to improve models. This is a platform externalization strategy — Lilly monetizing its AI capabilities.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Lilly invested in a new supercomputer (described as 'most powerful in biopharma industry') using NVIDIA DGX SuperPOD architecture with DGX B300 systems. Ricks referenced this on Q4 earnings call: 'In addition to our new supercomputer, we recently announced a new collaboration with NVIDIA to open a co-innovation AI lab.'",
+          "quote": "We continue investing in artificial intelligence to discover and develop new medicines. In addition to our new supercomputer, we recently announced a new collaboration with NVIDIA to open a co-innovation AI lab.",
+          "speaker": "David Ricks",
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "New therapeutic area leadership: Dr. Carole Ho appointed President of Lilly Neuroscience; Anne White appointed President of Lilly Immunology. Both first-time earnings call participants, signaling structural leadership additions. Combined with 36 active Phase III programs (14 new), 39 BD transactions in 2025, and what Ricks called 'one of the largest clinical stage pipelines in company history.'",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Lab focus areas span the full value chain: (1) foundation/frontier models for biology and chemistry, (2) molecule identification/optimization/validation, (3) manufacturing applications, (4) medical imaging, (5) scientific AI agents, (6) clinical development, (7) robotics/physical AI for discovery and production, (8) digital twins for manufacturing supply chain. This breadth suggests the NVIDIA lab is not just R&D — it's a platform for AI across the entire pharmaceutical value chain.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural"]
+        },
+        {
+          "type": "investment",
+          "detail": "Over $55B committed to manufacturing since 2020 (largest build-out in company history). New $3.5B manufacturing facility in Pennsylvania announced January 30, 2026. New operational sites in Wisconsin and North Carolina. Q4 2025 revenue $19.3B (43% YoY growth). Full-year 2025 revenue $65.2B (45% growth). 2026 guidance: $80B-$83B (25% growth). Producing 1.8x incretin doses vs 2024.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Lilly Direct platform reached 1 million U.S. patients in 2025. Zepbound self-pay vials constitute one-third of all new obesity medication starts. Described as 'scale direct-to-consumer platform' — this represents a structural innovation in pharma distribution, bypassing traditional pharmacy/PBM channels.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        }
+      ]
+    },
+    {
+      "name": "Moderna, Inc.",
+      "specimenId": "moderna",
+      "existingSpecimen": true,
+      "currentModel": "M3",
+      "quarterReported": "Q4 2025",
+      "earningsDate": "2026-02-13",
+      "transcriptAccessed": true,
+      "sources": [
+        {
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/13/moderna-mrna-q4-2025-earnings-call-transcript/",
+          "title": "Moderna Q4 2025 Earnings Call Transcript",
+          "sourceDate": "2026-02-13",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://www.modernatx.com/en-US/media-center/all-media/blogs/moderna-2025-shareholder-letter",
+          "title": "Moderna 2025 Shareholder Letter",
+          "sourceDate": "2026-02",
+          "collectedDate": "2026-02-15"
+        }
+      ],
+      "findings": [
+        {
+          "type": "structural",
+          "detail": "Bancel stated during Q4 earnings call that 'The adoption of AI tools has touched every part of our business, and we expect further productivity improvement in 2026.' This confirms M3 (Embedded Teams) classification — AI is embedded across functions rather than concentrated in a central unit.",
+          "quote": "The adoption of AI tools has touched every part of our business, and we expect further productivity improvement in 2026.",
+          "speaker": "Stephane Bancel",
+          "relevanceTest": ["structural"]
+        },
+        {
+          "type": "structural",
+          "detail": "Moderna's 2025 shareholder letter reveals scale of AI deployment: 'The team has written more than 4,000 GPTs across the entire company.' This is the most concrete metric of AI tool creation at any company in our collection — 4,000+ custom GPTs represent a massive embedded deployment model where each team/function builds its own AI tools.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "OpenAI collaboration deepened beyond ChatGPT Enterprise deployment: 'Our continued collaboration with OpenAI enabled new capabilities that support how we write protocols, develop regulatory documents and streamline internal workflows, allowing our people to focus on the highest-impact scientific and strategic work.' This shows AI moving from general productivity tool to embedded in core pharma processes (protocol writing, regulatory document development).",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "AI governance framework explicitly mentioned: 'Across all of these efforts, we applied clear governance, transparency and responsible-use principles to help ensure that technology enhances — not replaces — the judgment and expertise of our teams.' This is a governance boundary — AI as augmentation, not replacement, with formal oversight principles.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural"]
+        },
+        {
+          "type": "structural",
+          "detail": "New CDO appointment: Dr. David Berman named Chief Development Officer and Executive Committee member, effective March 2, 2026. Previously headed R&D at Immunocore, developed 12+ clinical-stage immunotherapies at BMS and AstraZeneca. Replaces Jackie Miller. This is a key R&D leadership transition as Moderna pivots toward oncology.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "investment",
+          "detail": "Operating expenses reduced by $2.2B (30% decrease) in 2025 — exceeded original guidance by over $1B. AI adoption cited as contributing factor alongside 'productivity, lower inventory write-downs, contract manufacturing wind-down costs.' 2025 revenues $1.9B. Company expects to break even in 2026 per Bancel. Entered 2026 with 'exciting digital and robotics projects.'",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["specificity"]
+        },
+        {
+          "type": "tension",
+          "detail": "Moderna's earnings call was notably thin on AI-specific detail compared to the shareholder letter and prior communications. The call focused on pipeline (oncology pivot, flu vaccine FDA setback) and cost reduction. AI was mentioned generically as part of productivity gains. No mention of ChatGPT Enterprise, mRNA Design Studio, or agentic labs on the call itself. This suggests AI has become so embedded that it's no longer highlighted as a separate strategic initiative — it's operational infrastructure.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["tension"]
+        }
+      ]
+    },
+    {
+      "name": "Shopify Inc.",
+      "specimenId": "shopify",
+      "existingSpecimen": true,
+      "currentModel": "M6",
+      "quarterReported": "Q4 2025",
+      "earningsDate": "2026-02-11",
+      "transcriptAccessed": true,
+      "sources": [
+        {
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/02/11/shopify-shop-q4-2025-earnings-call-transcript/",
+          "title": "Shopify Q4 2025 Earnings Call Transcript",
+          "sourceDate": "2026-02-11",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://www.firstround.com/ai/shopify",
+          "title": "From Memo to Movement: Shopify's Cultural Adoption of AI",
+          "sourceDate": "2026",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "url": "https://www.shopify.com/news/winter-26-edition-renaissance",
+          "title": "Shopify Winter '26 Edition: The RenAIssance",
+          "sourceDate": "2026-01",
+          "collectedDate": "2026-02-15"
+        }
+      ],
+      "findings": [
+        {
+          "type": "structural",
+          "detail": "Shopify's AI deployment metrics from Q4 2025 earnings: Sidekick generated ~4,000 custom apps within 3 weeks of latest update, created 29,000+ automations via Shopify Flow, and edited 1.2 million photos in the same period. Orders from AI search increased 15x since January 2025 (from small base). Agentic storefronts syndicate products to Google AI mode, Gemini, ChatGPT, and Microsoft Copilot.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Universal Commerce Protocol (UCP): Co-developed with Google. Described as the 'only protocol that covers the full commerce journey, end-to-end.' Payment-agnostic design maintaining merchant checkout logic. This is infrastructure-level AI integration — Shopify positioning itself as the commerce layer for AI agents regardless of platform.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Finkelstein (President) on agentic commerce positioning: Shopify claims to be 'in pole position on agentic commerce' and emphasizes that 'data is what AI is fueled by' as an 'enormous advantage' — platform data from millions of merchants creates a structural moat for AI product development.",
+          "quote": null,
+          "speaker": "Harley Finkelstein",
+          "relevanceTest": ["structural"]
+        },
+        {
+          "type": "structural",
+          "detail": "Earnings call confirmed Shopify achieved operating expense leverage through 'disciplined headcount management' and 'leveraging AI, automation and our proprietary project management and talent management systems.' Accelerated product development 'without growing the size of the team.' This is the organizational proof point of M6 (Informal) — AI enabling flat team structures to scale output.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "First Round Capital deep-dive reveals Shopify's AI organizational model in detail: (1) Universal model access — anyone can use every AI tool and model, unlike companies restricting to technical teams, (2) Unlimited AI spending — no budget caps on tool usage, with leaderboard tracking highest token spenders as a proxy for value creation, (3) Internal LLM proxy — centralized interface allowing employees to access multiple models, updated continuously, integrating MCP servers connecting all internal data sources.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Shopify VP Farhan Thawar implemented 'MCP Everything' initiative — making every piece of internal data available through Model Context Protocol servers so employees can 'interrogate and figure out their own workflows.' Infrastructure-first philosophy: once one team creates an MCP connection, all employees access it. This is shared infrastructure for contextual AI rather than centralized AI development.",
+          "quote": "We make every single piece of data inside the company available, even though that data lives inside all these different tools. It's ready for people to interrogate and figure out their own workflows.",
+          "speaker": "Farhan Thawar",
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "AI performance metrics embedded in HR: Performance reviews now incorporate AI adoption measures including pair programming time, AI tool usage (Cursor, Claude Code, LLM proxy), and 360 review questions rating colleagues' 'AI native' and 'AI reflexive' orientations. Engineering activity dashboard tracks Copilot adoption. Analysis showed engineers using AI tools demonstrated positive performance correlations.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "AI agents now synthesize weekly project champion updates from GitHub PRs, documentation, Slack, and issue tracking. 50% pass without human modification. A dedicated Revenue Tooling Team built an RFP agent using LibreChat to automatically answer prospect questions. Individual sales engineers consolidated GSuite, Slack, and Salesforce into AI-powered Cursor dashboards. Non-technical sales reps building site audit tools in Cursor.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Shopify's hiring strategy inverted conventional wisdom: dramatically scaled internship program (from 75 to 1,000 target), viewing interns as 'AI centaurs' naturally inclined toward new tools. Thawar: 'In this new, post-LLM world, they bring another skill: they're AI centaurs.' This is a deliberate workforce composition strategy — hire for AI-native mindsets rather than senior experience.",
+          "quote": null,
+          "speaker": "Farhan Thawar",
+          "relevanceTest": ["structural", "specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Legal/governance approach: Default 'yes' to AI adoption. Thawar's 2021 GitHub Copilot discussion with legal: 'Hey, we're likely going to do this. How can we do it safely?' Required legal teams to find paths to adoption rather than obstruct. Senior leadership consensus required across entire C-suite including general counsel.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural"]
+        },
+        {
+          "type": "structural",
+          "detail": "GitHub Copilot reached 80% of engineers within one year of early adoption (pre-ChatGPT). Initial 1,500 Cursor licenses exhausted; immediately ordered additional 1,500. Fastest-growing user groups: support and revenue teams (non-engineering). Shopify open-sourced Roast, an AI orchestration framework.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Lutke formalized 'context engineering' as a systematic organizational practice — structuring how humans and AI interact to maximize learning and output quality rather than pure automation. Thawar articulated the deeper value: 'The non-obvious value is you discover that your process should be done in a different order or should be done with different assumptions. And that's when something clicks — maybe you can skip a huge amount of work or reorder the process.'",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural"]
+        },
+        {
+          "type": "investment",
+          "detail": "Q4 2025 revenue exceeded $3B (highest quarterly revenue in history). Full-year 2025 revenue $11.5B (30% growth). GMV grew 29% YoY. B2B GMV up 84% in Q4, 96% in full year. Shop Pay processed $43B GMV in Q4 (>50% of U.S. GPV). Q1 2026 guidance: revenue growth in low 30% range YoY.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["specificity"]
+        },
+        {
+          "type": "structural",
+          "detail": "Winter '26 Edition ('The RenAIssance'): 150+ product updates. Key AI features: Sidekick Pulse (proactive growth recommendations), custom app generation by merchants, Shopify Catalog API (clusters billions of products using AI), Checkout Kit for embedded agent checkout, MCP tools for Model Context Protocol integration. Developer-facing: Sidekick App Extensions allowing third-party apps to expose data/functionality to Sidekick.",
+          "quote": null,
+          "speaker": null,
+          "relevanceTest": ["structural", "specificity"]
+        }
+      ]
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "AI as embedded infrastructure vs. named initiative",
+      "detail": "Moderna's earnings call barely mentioned AI specifically — it's become operational infrastructure rather than a strategic initiative to highlight. Compare to Intel and Disney where AI is still a named strategic pillar requiring dedicated leadership and investment announcements. This suggests a maturity spectrum: early-stage (named AI divisions/leaders) → mid-stage (AI partnerships/labs) → mature (AI invisible in earnings, just part of how work is done).",
+      "relevantCompanies": ["moderna", "shopify", "intel", "disney"]
+    },
+    {
+      "trend": "CEO succession as structural inflection point for AI strategy",
+      "detail": "Both Disney (Iger → D'Amaro, March 2026) and Intel (Gelsinger → Tan, 2025) demonstrate how CEO transitions create structural reset opportunities for AI. D'Amaro selected partly for viewing 'technology as an opportunity not a threat.' Tan immediately centralized DCAI, simplified org, and hired external semiconductor veterans. The CEO transition is the most powerful mechanism for structural transformation.",
+      "relevantCompanies": ["disney", "intel"]
+    },
+    {
+      "trend": "External AI labs as structural innovation in pharma",
+      "detail": "Lilly's NVIDIA co-innovation lab ($1B, SF Bay Area) and Lilly TuneLab (platform for 1,300+ Benchling customers) represent a new structural pattern: pharma companies creating external AI nodes that both accelerate internal discovery AND externalize AI capabilities as a platform. This is hub-and-spoke extending beyond the firm boundary.",
+      "relevantCompanies": ["eli-lilly"]
+    },
+    {
+      "trend": "Agentic commerce infrastructure race",
+      "detail": "Shopify's Universal Commerce Protocol (co-developed with Google), agentic storefronts syndicating to ChatGPT/Gemini/Copilot, and MCP-based checkout tools signal that AI commerce infrastructure is becoming a platform-level competitive axis. The company positioning to be the commerce layer for all AI agents.",
+      "relevantCompanies": ["shopify"]
+    },
+    {
+      "trend": "4,000 GPTs as the new metric for embedded AI adoption",
+      "detail": "Moderna's disclosure of 4,000+ custom GPTs company-wide is the most concrete internal AI deployment metric in our collection. This operationalizes M3 (Embedded Teams) — each team/function building its own AI tools on a shared platform (ChatGPT Enterprise) rather than a central team building for everyone.",
+      "relevantCompanies": ["moderna"]
+    },
+    {
+      "trend": "AI-driven headcount discipline",
+      "detail": "Intel cut 24,000 jobs (15% workforce) while restructuring around AI. Shopify achieved revenue growth without team growth through 'disciplined headcount management' and AI leverage. Shopify requires managers to justify why a job can't be done by AI before hiring. This is the workforce structural signal: AI enabling organizations to scale output without proportional headcount growth.",
+      "relevantCompanies": ["intel", "shopify"]
+    }
+  ],
+  "newSourcesDiscovered": [
+    {
+      "name": "First Round Capital AI Series — Shopify deep-dive",
+      "url": "https://www.firstround.com/ai/shopify",
+      "type": "Long-form interview/case study",
+      "priority": "HIGH",
+      "notes": "Extremely rich organizational detail about Shopify's AI adoption — VP Farhan Thawar interview. Covers universal model access, MCP infrastructure, hiring strategy, performance metrics, legal governance. Best single source on Shopify's M6 model we've found."
+    },
+    {
+      "name": "Benchling-Lilly TuneLab partnership announcement",
+      "url": "https://www.benchling.com/news/benchling-and-lilly-tunelab-partner-to-democratize-access-to-ai-models",
+      "type": "Press release",
+      "priority": "MEDIUM",
+      "notes": "Details on Lilly TuneLab platform — AI/ML models trained on decades of proprietary data, distributed to 1,300+ biotech customers via Benchling. Federated learning model."
+    },
+    {
+      "name": "NVIDIA-Lilly JPMorgan Healthcare press release",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai",
+      "type": "Press release",
+      "priority": "HIGH",
+      "notes": "Full structural detail on the $1B co-innovation lab. Scientist-in-the-loop framework, wet lab/dry lab integration, BioNeMo platform, Vera Rubin architecture. Key Ricks quote about artisanal-to-engineering transformation."
+    },
+    {
+      "name": "Shopify Winter '26 Edition: The RenAIssance",
+      "url": "https://www.shopify.com/news/winter-26-edition-renaissance",
+      "type": "Product announcement",
+      "priority": "MEDIUM",
+      "notes": "150+ product updates. Key AI features: Sidekick Pulse, custom app generation, Catalog API, Checkout Kit, MCP tools, agentic storefronts."
+    }
+  ],
+  "purposeClaimsDiscovered": [
+    {
+      "specimenId": "disney",
+      "speaker": "Bob Iger",
+      "role": "CEO",
+      "claim": "We view AI as having a number of obviously, possible advantages or opportunities for the company. One is as a tool to help the creative process... Another is productivity... And the third, I'll call connectivity, which is creating basically a more intimate relationship with the consumer.",
+      "context": "Q1 FY2026 earnings call, February 2, 2026, responding to analyst question about AI strategy",
+      "source": "https://www.fool.com/earnings/call-transcripts/2026/02/02/disney-dis-q1-2026-earnings-call-transcript/",
+      "claimType": "commercial-success",
+      "notes": "Frames AI through commercial/operational lens — creativity, productivity, consumer connectivity. No higher purpose invocation. Distinctly pragmatic framing."
+    },
+    {
+      "specimenId": "disney",
+      "speaker": "Bob Iger",
+      "role": "CEO",
+      "claim": "when you look at the history of human beings, no generation of human being has ever been able to stand in the way of technological advance",
+      "context": "ABC World News Tonight interview discussing CEO transition and AI strategy, February 2026",
+      "source": "https://collider.com/bob-iger-disney-ceo-exit-interview-josh-damaro-will-embrace-ai/",
+      "claimType": "teleological",
+      "notes": "Historical inevitability framing — technology advance as unstoppable force. Used to justify successor's AI embrace. Teleological: specific falsifiable claim about technology trajectory."
+    },
+    {
+      "specimenId": "eli-lilly",
+      "speaker": "David Ricks",
+      "role": "Chair and CEO",
+      "claim": "Each small molecule discovery is like a work of art. If we can make that an engineering problem, versus this sort of discovery, this artisanal drug-making problem, think of the impact on human life.",
+      "context": "JPMorgan Healthcare Conference, January 2026, announcing NVIDIA co-innovation lab",
+      "source": "https://blogs.nvidia.com/blog/jpmorgan-healthcare-nvidia-lilly/",
+      "claimType": "teleological",
+      "notes": "Reframes drug discovery from art to engineering — AI as the mechanism for transformation. Invokes 'impact on human life' as the telos. Rich purpose claim connecting structural change (lab creation) to human welfare outcome."
+    },
+    {
+      "specimenId": "eli-lilly",
+      "speaker": "David Ricks",
+      "role": "Chair and CEO",
+      "claim": "Combining our volumes of data and scientific knowledge with NVIDIA's computational power and model-building expertise could reinvent drug discovery as we know it.",
+      "context": "NVIDIA-Lilly co-innovation lab announcement, January 12, 2026",
+      "source": "https://nvidianews.nvidia.com/news/nvidia-and-lilly-announce-co-innovation-lab-to-reinvent-drug-discovery-in-the-age-of-ai",
+      "claimType": "utopian",
+      "notes": "Utopian framing — 'reinvent drug discovery as we know it.' Grand, unfalsifiable claim about transformational potential."
+    },
+    {
+      "specimenId": "moderna",
+      "speaker": "Stephane Bancel",
+      "role": "CEO",
+      "claim": "The adoption of AI tools has touched every part of our business, and we expect further productivity improvement in 2026.",
+      "context": "Q4 2025 earnings call, February 13, 2026",
+      "source": "https://www.fool.com/earnings/call-transcripts/2026/02/13/moderna-mrna-q4-2025-earnings-call-transcript/",
+      "claimType": "commercial-success",
+      "notes": "Understated commercial framing. Notable for what it doesn't invoke — no mission, no grand vision, just productivity. Consistent with Moderna's M3 embedded model where AI is operational infrastructure."
+    },
+    {
+      "specimenId": "intel",
+      "speaker": "Lip-Bu Tan",
+      "role": "CEO",
+      "claim": "The era of artificial intelligence is driving unprecedented demand for semiconductor across entire compute landscapes from AI accelerators and traditional data centers into network and enterprise domains all the way out to client and edge devices.",
+      "context": "Q4 2025 earnings call, January 23, 2026",
+      "source": "https://www.fool.com/earnings/call-transcripts/2026/01/23/intel-intc-q4-2025-earnings-call-transcript/",
+      "claimType": "survival",
+      "notes": "Existential framing — 'unprecedented demand' positions AI as the market force Intel must ride or die. Implicit survival claim: Intel's restructuring is necessary to capture this demand or become irrelevant."
+    },
+    {
+      "specimenId": "intel",
+      "speaker": "Lip-Bu Tan",
+      "role": "CEO",
+      "claim": "We simplify our organization and greatly reduce bureaucracy to improve efficiency and accelerate decision-making.",
+      "context": "Q4 2025 earnings call, January 23, 2026",
+      "source": "https://www.fool.com/earnings/call-transcripts/2026/01/23/intel-intc-q4-2025-earnings-call-transcript/",
+      "claimType": "identity",
+      "notes": "Identity claim — redefining Intel as an efficient, execution-driven company. Implicit contrast with prior bureaucratic culture under Gelsinger. Cultural transformation framing."
+    }
+  ]
+}

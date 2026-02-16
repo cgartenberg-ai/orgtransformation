@@ -1,0 +1,127 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "bcg-ai-radar",
+  "sourceName": "BCG AI Radar",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "None",
+  "newScannedThrough": "BCG AI Radar 2026 (January 2026)",
+  "newContent": [
+    {
+      "title": "BCG AI Radar 2026: As AI Investments Surge, CEOs Take the Lead",
+      "url": "https://www.bcg.com/publications/2026/as-ai-investments-surge-ceos-take-the-lead",
+      "pdfUrl": "https://web-assets.bcg.com/73/8e/cc44cbc14a3b81695f8a3de28ff1/ai-radar-2026-web-jan-2026-edit.pdf",
+      "date": "2026-01-15",
+      "relevance": "HIGH",
+      "notes": "Major annual survey of 2,360 executives across 16 markets, including 640 CEOs"
+    },
+    {
+      "title": "Scaling AI Requires New Processes, Not Just New Tools",
+      "url": "https://www.bcg.com/publications/2026/scaling-ai-requires-new-processes-not-just-new-tools",
+      "date": "2026",
+      "relevance": "HIGH",
+      "notes": "Process redesign requirements for AI agent deployment"
+    },
+    {
+      "title": "AI Transformation Is a Workforce Transformation",
+      "url": "https://www.bcg.com/publications/2026/ai-transformation-is-a-workforce-transformation",
+      "date": "2026",
+      "relevance": "HIGH",
+      "notes": "Workforce transformation and upskilling strategies"
+    },
+    {
+      "title": "How AI Agents and Tech Will Transform Health Care in 2026",
+      "url": "https://www.bcg.com/publications/2026/how-ai-agents-will-transform-health-care",
+      "date": "2026",
+      "relevance": "MEDIUM",
+      "notes": "Industry-specific AI agent adoption patterns"
+    }
+  ],
+  "extractedFindings": [
+    {
+      "finding": "CEO AI Decision Authority",
+      "evidence": "72% of CEOs say they are the main decision makers on AI strategy, up from prior years when AI was IT-led",
+      "source": "BCG AI Radar 2026",
+      "specimenRelevance": "Cross-cutting pattern on governance centralization"
+    },
+    {
+      "finding": "CEO Time Investment in AI",
+      "evidence": "Trailblazing CEOs spend more than 8 hours per week on their own AI upskilling",
+      "source": "BCG AI Radar 2026",
+      "specimenRelevance": "Executive engagement pattern"
+    },
+    {
+      "finding": "AI Investment Doubling",
+      "evidence": "Companies plan to double AI spending in 2026 to ~1.7% of revenues, more than twice the 2025 increase",
+      "source": "BCG AI Radar 2026",
+      "specimenRelevance": "Budget allocation patterns"
+    },
+    {
+      "finding": "Investment Persistence Despite Uncertainty",
+      "evidence": "94% of companies plan to continue investing in AI even without immediate returns; only 6% plan to scale back if AI fails to deliver",
+      "source": "BCG AI Radar 2026",
+      "specimenRelevance": "Long-term commitment patterns"
+    },
+    {
+      "finding": "Three CEO Archetypes",
+      "evidence": "BCG identifies three CEO archetypes: Pioneers (high investment, aggressive upskilling), Pragmatists (moderate approach), Followers (wait-and-see)",
+      "source": "BCG AI Radar 2026",
+      "specimenRelevance": "Leadership typology for AI adoption"
+    },
+    {
+      "finding": "Pioneer Upskilling Budget Allocation",
+      "evidence": "Pioneering CEOs allocate ~60% of AI budget to workforce upskilling vs 27% (pragmatists) and 24% (followers)",
+      "source": "BCG AI Radar 2026",
+      "specimenRelevance": "Talent investment differential"
+    },
+    {
+      "finding": "Agent-First Investment Strategy",
+      "evidence": "Pioneer CEOs allocate >50% of 2026 AI investments to AI agents specifically",
+      "source": "BCG AI Radar 2026",
+      "specimenRelevance": "Agentic AI focus"
+    },
+    {
+      "finding": "CEO Job Stability Anxiety",
+      "evidence": "50% of CEO respondents believe their job stability depends on getting AI right in 2026",
+      "source": "BCG AI Radar 2026",
+      "specimenRelevance": "Executive pressure and stakes"
+    },
+    {
+      "finding": "Agent ROI Optimism",
+      "evidence": "90% of CEOs believe AI agents will produce measurable returns in 2026",
+      "source": "BCG AI Radar 2026",
+      "specimenRelevance": "Agentic AI expectations"
+    },
+    {
+      "finding": "Intentional Implementation Slowdown",
+      "evidence": "60% of CEOs admit intentionally slowing AI implementation due to concerns over potential errors and malfunctions",
+      "source": "BCG AI Radar 2026",
+      "specimenRelevance": "Risk management vs speed tension"
+    },
+    {
+      "finding": "Leadership Support Effect",
+      "evidence": "Employee positive sentiment toward GenAI rises from 15% to 55% with strong leadership support",
+      "source": "BCG AI at Work 2025",
+      "specimenRelevance": "Change management effectiveness"
+    },
+    {
+      "finding": "Frontline Silicon Ceiling",
+      "evidence": "Only 50% of frontline employees regularly use AI tools - a 'silicon ceiling' blocking broader adoption",
+      "source": "BCG AI at Work 2025",
+      "specimenRelevance": "Adoption equity gap"
+    },
+    {
+      "finding": "Process Redesign Requirement",
+      "evidence": "Companies deploying AI agents at scale need to redesign end-to-end processes to achieve step changes in productivity",
+      "source": "BCG 2026",
+      "specimenRelevance": "Structural transformation requirement"
+    }
+  ],
+  "summary": "First scan of BCG AI Radar. The January 2026 edition (surveying 2,360 executives including 640 CEOs) reveals a major governance shift: AI strategy has moved from IT-led to CEO-led, with 72% of CEOs now serving as chief AI decision makers. Three CEO archetypes emerge (Pioneers, Pragmatists, Followers) with stark differences in upskilling investment (60% vs 24-27% of AI budget). Investment is doubling despite uncertain ROI. Key tension: 90% expect agent ROI but 60% are intentionally slowing implementation due to error concerns. The 'silicon ceiling' finding (only 50% frontline adoption) highlights execution gaps. Multiple high-relevance articles for our research on organizational structure.",
+  "recommendedActions": [
+    "Queue 'BCG AI Radar 2026' findings for cross-specimen validation",
+    "Consider creating field signal on CEO centralization of AI governance",
+    "Track 'silicon ceiling' as potential tension between frontline and executive adoption",
+    "Note pioneer/pragmatist/follower typology for potential use in our taxonomy"
+  ],
+  "technicalNotes": "BCG website blocked direct page content extraction (returned CSS only). Findings extracted from search result snippets and PDF metadata. Full PDF available at listed URL for manual review if needed."
+}

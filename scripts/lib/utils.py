@@ -96,6 +96,8 @@ def save_json(
 
         with os.fdopen(tmp_fd, "w", encoding="utf-8") as f:
             f.write(content)
+            f.flush()
+            os.fsync(f.fileno())
 
         # 2. Validate: re-read tmp and parse to ensure valid JSON was written
         with open(tmp_path, "r", encoding="utf-8") as f:

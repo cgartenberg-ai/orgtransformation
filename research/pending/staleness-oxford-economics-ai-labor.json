@@ -1,0 +1,79 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "oxford-economics-ai-labor",
+  "sourceName": "Oxford Economics AI & Labor Research",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "None",
+  "newScannedThrough": "February 2026 — scanned 2026 Global Outlook Conference, January 2026 AI/labor research briefing, and 2026 economic trend reports",
+  "newContent": [
+    {
+      "title": "Evidence of an AI-driven shakeup of job markets is patchy",
+      "url": "https://www.oxfordeconomics.com/resource/evidence-of-an-ai-driven-shakeup-of-job-markets-is-patchy/",
+      "date": "2026-01-07",
+      "relevance": "HIGH",
+      "keyFindings": [
+        "Firms don't appear to be replacing workers with AI on a significant scale",
+        "AI cited for 55,000 US job cuts in first 11 months of 2025 — only 4.5% of total job losses",
+        "Job losses from 'market/economic conditions' were 4x larger (245,000)",
+        "Some firms may be 'dressing up layoffs as good news' by attributing to AI",
+        "If AI were replacing labor at scale, productivity should be accelerating — it isn't",
+        "Graduate unemployment rise aligns with cyclical patterns, not AI-driven structural change"
+      ]
+    },
+    {
+      "title": "Three key trends to watch in the global economy in 2026",
+      "url": "https://www.oxfordeconomics.com/resource/three-key-trends-to-watch-in-the-global-economy-in-2026/",
+      "date": "2026-01",
+      "relevance": "MEDIUM",
+      "keyFindings": [
+        "AI as 'shock absorber or shock magnifier' for 2026 growth",
+        "Rapid US AI-related capital spending has offset weaker growth elsewhere",
+        "AI financing shifting from cash to debt — creating vulnerability",
+        "Upside scenario: tech spending hits record % of GDP, US GDP grows 3%",
+        "Downside scenario: dot-com-style bust could drop US GDP growth below 1%"
+      ]
+    },
+    {
+      "title": "Dispatches from Oxford Economics' 2026 Global Outlook Conference: AI, tariffs and the new shape of growth",
+      "url": "https://www.oxfordeconomics.com/resource/dispatches-from-oxford-economics-2026-global-outlook-conference-ai-tariffs-and-the-new-shape-of-growth/",
+      "date": "2026-01",
+      "relevance": "MEDIUM",
+      "keyFindings": [
+        "Adrian Cooper: 'Protectionism will continue to creep higher, and AI will remain the vital counterweight'",
+        "Global trade in 'tug-of-war between tariffs and AI'",
+        "AI-driven investment keeps high-tech manufacturing buoyant despite tariff pressures"
+      ]
+    },
+    {
+      "title": "2026 Labor Market Outlook (via Fortune/Yahoo coverage)",
+      "url": "https://fortune.com/2026/02/13/jobless-expansion-economy-gdp-growth-payroll-gains-unemployment-rate-ai-productivity/",
+      "date": "2026-02-13",
+      "relevance": "HIGH",
+      "keyFindings": [
+        "Job gains to average less than 40,000/month in 2026 — enough to keep unemployment stable",
+        "Economy characterized by 'low-hire, low-fire' trend",
+        "Michael Pearce: Economy will grow via higher productivity aided by AI, but 'people aren't core to that story'",
+        "AI's labor-saving potential could boost corporate profits as share of economy",
+        "Workers may account for smaller slice of economic gains"
+      ]
+    }
+  ],
+  "summary": "First scan of Oxford Economics AI/labor research. Major January 2026 research briefing challenges AI job displacement narrative — finds only 4.5% of US job losses attributed to AI, suggests companies use AI as 'cover story' for routine layoffs. Key organizational insight: the productivity test (if AI were displacing workers, productivity should accelerate — it isn't). February 2026 outlook predicts 'jobless expansion' where growth comes from AI-enabled productivity gains rather than hiring. Relevant to structural research: evidence that AI workforce transformation is slower than corporate narratives suggest, with firms in 'low-hire, low-fire' equilibrium.",
+  "specimenImplications": [
+    {
+      "type": "field-signal",
+      "signal": "AI displacement narrative vs. reality gap — Oxford Economics finds corporate AI-layoff claims outpace actual AI-driven job losses by ~20:1",
+      "relevance": "Challenges specimen claims about AI workforce transformation; suggests need for skepticism about AI-attributed layoffs in press releases"
+    },
+    {
+      "type": "field-signal",
+      "signal": "'Low-hire, low-fire' equilibrium — firms not aggressively adding or cutting workers as AI capabilities expand",
+      "relevance": "Suggests most organizations are in holding pattern, not rapid workforce restructuring; specimen evidence of aggressive AI-driven layoffs may be outliers"
+    },
+    {
+      "type": "mechanism-candidate",
+      "mechanism": "AI as corporate narrative device — layoffs attributed to AI may serve signaling function (forward-looking, tech-savvy) rather than reflecting actual automation",
+      "relevance": "Caution when interpreting specimen workforce changes; triangulate with productivity metrics"
+    }
+  ]
+}

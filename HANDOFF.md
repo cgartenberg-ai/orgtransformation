@@ -1,87 +1,60 @@
-# Session Handoff — February 14, 2026 (Sessions 29-30: Refactoring)
+# Session Handoff — February 15, 2026 (Session 37)
 
 ## What Happened This Session
 
-**Comprehensive 6-phase refactoring** — eliminated all technical debt identified in 6 deep audits. 18 git commits, 0 breakage throughout.
-
-### Phase 1: Crash-Safe Infrastructure ✅
-- Created `scripts/lib/utils.py` — atomic writes (`save_json`), PID-based locks, preflight checks, changelog
-- Created `data/CHANGELOG.md` — append-only audit log
-- Wired safety primitives into all 3 overnight scripts (10 `json.dump()` sites → `save_json()`)
-- **Key fix**: pending→processed ordering in purpose-claims now prevents duplicate-on-crash
-
-### Phase 2: Data Quality ✅
-- Cleaned `contingencies.json` duplicate keys (talentMarketPosition: merged non-traditional→nonTraditional, talent-rich→high, talent-constrained→low)
-- Marked 5 government specimens Inactive (nasa, us-cyber-command, new-york-state, us-air-force, pentagon-cdao)
-- Enhanced `rebuild-registry.js` (respects Inactive, supports `--dry-run`)
-- Tagged 172 null-URL sources with `[paywall]` (5) or `[no URL]` (167)
-- Backfilled `discoveredIn` for 20 insights (16 matched to sessions, 4 tagged pre-session-tracking)
-
-### Phase 3: Validation Infrastructure ✅
-- Extended validator: 11 → 16 sections (+purpose claims provenance, +tension/contingency coverage, +insight evidence, +enrichment completeness, +registry freshness)
-- Created `scripts/specimen-lifecycle-status.js` — cross-references 7 data sources per specimen → `data/specimen-lifecycle-status.{md,json}`
-- Created `scripts/check-source-freshness.js` — Tier 1 (14d) / Tier 2 (30d) staleness alerts
-
-### Phase 4: Type Alignment ✅
-- Fixed `ContingencyDefinition` with dynamic keys + index signature
-- Added `environmentalAiPull` (C6) to specimen types, `"Inactive"` to `SpecimenStatus`
-- Added try-catch error handling to all 4 synthesis data loaders
-
-### Phase 5: Organizational Cleanup ✅
-- Archived 43 one-off scripts to `scripts/archive/` (8 active remain)
-- Moved `UI_IMPROVEMENTS.md`, `VISUAL_DESIGN_SPEC.md` → `docs/archive/`; `sources.md` → `research/sources.md`
-- Updated all cross-references; created `scripts/README.md`
-
-### Phase 6: Documentation ✅
-- Updated `CLAUDE.md` project structure, `WORKFLOW.md` (new Operational Infrastructure section), `APP_STATE.md` (refreshed all counts)
+- **Framework-aware pipeline integration** — Updated all overnight scripts + protocols so the analytical framework (5 primitives, 10 findings) flows through the entire pipeline with anti-confirmation-bias guardrail at every stage
+  - Research: P1-P5 primitive antenna + T1-T5 tension names in relevance test
+  - Curation: `primitiveIndicators` + `findingRelevance` (supports/challenges) with equal-weight principle
+  - Synthesis: New Step 5d Findings Review + primitive lens + findings.json in wrap-up
+  - Purpose Claims: P3/P4 analytical context + `primitiveRelevance` in enrichment
+- **Documentation comprehensive update** — APP_STATE.md, CLAUDE.md, WORKFLOW.md, scripts/README.md, SW_ARCHITECTURE.md, Ambidexterity_Field_Guide_Spec.md all updated to reflect orchestrator + framework-aware pipeline
+- **Build verified**: 285 pages, 0 errors. Validator: 0 errors, 157 warnings.
 
 ## Active Analytical Threads
 
 | Thread | Status | What to Watch For |
 |--------|--------|-------------------|
-| **Measurement-driven moral hazard** | 3 insights (Session 25) | Flag any specimen with precise AI metrics. Scan for lagging quality indicators. |
-| **Identity claims as immune system** | Field note (Session 27) | Goldman anti-cost-bias, BMW zero-survival. Needs more cases before elevation to insight. |
-| **Exploration→execution leadership transitions** | Watching | May indicate Temporal orientation shifts. |
-| **Management layer elimination + Garicano** | Watching | ASML is the control case (non-AI). |
-| **Coasean signals** | Gathering | McKinsey (25K agents), Khosrowshahi/Nadella explicit Coase references. |
+| **Professional services restructuring wave** | Session 35 | Baker McKenzie, Capgemini, Forrester all restructuring in Feb 2026. |
+| **Management delayering + Garicano** | ENRICHED | Amazon 78% managers, UPS 12K/78K, ASML management-only cuts. |
+| **Hyperscaler CapEx explosion** | Data | Combined $590-645B for 2026. Creates organizational gravity. |
+| **Agentic AI as restructuring catalyst** | ENRICHED | Salesforce Agentforce 9K->5K, Baker McKenzie + Claude Cowork. |
+| **CEO succession as structural inflection** | Data | Disney, Intel, Walmart, Workday — 4 transitions in one earnings cycle. |
+| **CAIO role evolution** | NEW (Session 36) | Live test found 15 CAIO appointments. CDO->CAIO transitions. |
 
 ## Immediate Next Steps (Start Here)
 
-### Priority 1: Botanist Discussions Still Pending
-- **Financial services natural experiment** (GS vs MS vs JPM) — documented in `synthesis/sessions/2026-02-13-finserv-healthcare-botanist.md`
-- **Healthcare payer vs. provider governance gap** — potentially paper-worthy
-
-### Priority 2: Placement — Remaining Specimens
-38 active specimens not in any tension, 22 not in any contingency (see `data/specimen-lifecycle-status.md` for the full gap list). These need interactive placement sessions.
-
-### Priority 3: Principles & Insights Overhaul (Builder Hat)
-65 insights are the richer analytical unit vs 9 confirmed mechanisms. Decision needed on hierarchy.
-
-### Priority 4: Ongoing Research
-- Enrich thin specimens (Chegg stub, HP Inc/ABB/Siemens/Coca-Cola flagged Session 21)
-- 3 specimens with 0 purpose claims (ig-group, indostar-capital, meta-reality-labs)
-- 6 insights with thin evidence (only 1 specimen each)
-
-## Housekeeping Items Resolved ✅
-
-These items from prior handoffs are now **cleared**:
-- ~~Remove government specimens from registry~~ → Marked Inactive (Phase 2B)
-- ~~Contingencies.json cleanup~~ → Duplicate keys merged (Phase 2A)
-- ~~Null-URL sources~~ → All tagged with [paywall]/[no URL] (Phase 2D)
-- ~~Insight discoveredIn backfill~~ → All 65 insights have non-null discoveredIn (Phase 2E)
-- ~~One-off scripts cluttering scripts/~~ → 43 archived (Phase 5A)
-- ~~Stale root docs~~ → Moved to archive/research (Phase 5B)
-
-## Current Validation State
-
+### HIGH PRIORITY: Install launchd + run first framework-aware overnight
+The pipeline is built, tested, and now framework-aware — but NOT yet scheduled.
+```bash
+python3 scripts/overnight-pipeline.py --dry-run          # preview tonight's schedule
+python3 scripts/overnight-pipeline.py --skip-permissions  # run live (first framework-aware run)
 ```
-node scripts/validate-workflow.js → 0 errors, 27 warnings
-cd site && npm run build → ✓ success (258 pages)
+Install for nightly automation:
+```bash
+cp scripts/com.fieldguide.overnight-pipeline.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.fieldguide.overnight-pipeline.plist
 ```
+
+### Priority 1: Process Purpose Claims Run Results
+Background purpose claims run from Session 33 completed. Check `research/purpose-claims/pending/`.
+
+### Priority 2: Review CAIO Live Test Output
+`research/pending/press-CAIO-appointments.json` — 15 findings, 11 new specimen candidates.
+
+### Priority 3: Remaining Synthesis Placement
+~23 specimens in Batches 8-9. See `HANDOFF_ARCHIVE.md` Session 36 for batch breakdown.
+
+### Priority 4: Purpose Claims for New Specimens
+8 specimens from Session 35 unscanned in scan-tracker.
+
+## Housekeeping
+
+- Git commit for Sessions 36-37
+- Clean up `research/pending/` — accumulated agent outputs
+- Morning review: check `pipeline-reports/` after first overnight run
 
 ---
 
-*For historical context (Sessions 11-27), see `HANDOFF_ARCHIVE.md`.*
+*For historical context, see `HANDOFF_ARCHIVE.md`.*
 *For current data counts and site status, see `APP_STATE.md`.*
 *For full session history, see `SESSION_LOG.md`.*
-*For operational procedures, see `scripts/README.md` and `WORKFLOW.md` → Operational Infrastructure.*

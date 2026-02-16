@@ -102,10 +102,49 @@
       "source": "NBC News",
       "sourceUrl": "https://www.nbcnews.com/tech/elon-musk/xai-musk-addresses-wave-departures-xai-founder-rcna258651",
       "date": "2026-02-11"
+    },
+    {
+      "speaker": "Elon Musk",
+      "speakerTitle": "CEO, xAI",
+      "quote": "We have several hundred people who… I prefer the word engineer more than I prefer the word researcher.",
+      "source": "Dwarkesh Podcast",
+      "sourceUrl": "https://www.dwarkesh.com/p/elon-musk",
+      "date": "2026-02-05"
+    },
+    {
+      "speaker": "Elon Musk",
+      "speakerTitle": "CEO, xAI",
+      "quote": "The vast majority of what will be done in the future is engineering. It rounds up to 100%. Once you understand the fundamental laws of physics, and there are not that many of them, everything else is engineering.",
+      "source": "Dwarkesh Podcast",
+      "sourceUrl": "https://www.dwarkesh.com/p/elon-musk",
+      "date": "2026-02-05"
+    },
+    {
+      "speaker": "Elon Musk",
+      "speakerTitle": "CEO, xAI",
+      "quote": "I somewhat disagree with the AI companies that are C-corp or B-corp trying to generate profit as much as possible or revenue as much as possible, saying they're labs. They're not labs.",
+      "source": "Dwarkesh Podcast",
+      "sourceUrl": "https://www.dwarkesh.com/p/elon-musk",
+      "date": "2026-02-05"
+    },
+    {
+      "speaker": "Elon Musk",
+      "speakerTitle": "CEO, xAI",
+      "quote": "I just repeatedly tackle the limiting factor. Whatever the limiting factor is on speed, I'm going to tackle that.",
+      "source": "Dwarkesh Podcast",
+      "sourceUrl": "https://www.dwarkesh.com/p/elon-musk",
+      "date": "2026-02-05"
     }
   ],
 
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Dwarkesh Podcast — Engineer Identity & Organizational Philosophy",
+      "summary": "Musk articulates xAI's organizational identity in Dwarkesh Patel interview (Feb 5, 2026). Key framing: xAI employs 'several hundred' engineers, explicitly rejecting 'researcher' label — 'once you understand the fundamental laws of physics, everything else is engineering.' Attacks competitor lab branding: OpenAI/Anthropic are 'C-corp or B-corp trying to generate profit... saying they're labs. They're not labs.' Describes limiting-factor management as organizational philosophy: 'I just repeatedly tackle the limiting factor.' Positions Grok as orchestration layer for Tesla Optimus robots, creating cross-entity AI-physical execution integration. Infrastructure: SpaceX and Tesla pursuing 100 gigawatts/year solar mandate to power compute.",
+      "classification": null,
+      "sourceRefs": ["dwarkesh-musk-feb-2026"]
+    },
     {
       "date": "2026-02",
       "label": "Four-Division Restructuring + SpaceX Acquisition",
@@ -185,6 +224,14 @@
       "url": "https://futurism.com/artificial-intelligence/cofounders-fleeing-elon-musk-xai",
       "sourceDate": "2026-02-11",
       "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "dwarkesh-musk-feb-2026",
+      "type": "Podcast",
+      "name": "Dwarkesh Podcast — Elon Musk: In 36 months, the cheapest place to put AI will be space",
+      "url": "https://www.dwarkesh.com/p/elon-musk",
+      "sourceDate": "2026-02-05",
+      "collectedDate": "2026-02-15"
     }
   ],
 
@@ -223,7 +270,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-02-13",
-    "lastUpdated": "2026-02-13",
+    "lastUpdated": "2026-02-15",
     "completeness": "High",
     "convertedFrom": null
   }

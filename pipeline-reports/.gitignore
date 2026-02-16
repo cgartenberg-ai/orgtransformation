@@ -1,0 +1,3 @@
+# Keep field journals (audit trail), ignore ephemeral briefings
+*-morning-briefing.md
+!*-field-journal.md

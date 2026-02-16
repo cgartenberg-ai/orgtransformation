@@ -1,8 +1,139 @@
 # Handoff Archive
 
-Historical context from Sessions 11-27 (February 9-13, 2026). Read only when you need deep background on a specific topic. For current state, see `HANDOFF.md` and `APP_STATE.md`.
+Historical context from Sessions 11-37 (February 9-15, 2026). Read only when you need deep background on a specific topic. For current state, see `HANDOFF.md` and `APP_STATE.md`.
 
 This file grows monotonically — new sessions are appended at the top, nothing is deleted.
+
+---
+
+## Session 36 (continued as Session 37) — February 15, 2026
+
+### Framework-Aware Pipeline Integration
+
+**Verified Session 36 build**: `npm run build` (285 pages, 0 errors), `validate-workflow.js` (0 errors, 157 warnings).
+
+**Updated all 4 pipeline stages** to inject the analytical framework (5 primitives P1-P5, 10 findings F1-F10):
+- **Research** (`overnight-research.py`, `research/SKILL.md`, `SESSION-PROTOCOL.md`): P1-P5 primitive antenna + T1-T5 named in relevance test
+- **Curation** (`overnight-curate.py`, `CURATION-PROTOCOL.md`): `primitiveIndicators` (P1-P5 object) + `findingRelevance` (supports/challenges direction) + anti-bias guardrail
+- **Synthesis** (`SYNTHESIS-PROTOCOL.md`, `synthesize/SKILL.md`): New Step 5d Findings Review, primitive lens in field notes, findings.json in session wrap-up
+- **Purpose Claims** (`overnight-purpose-claims.py`, `purpose-claims/SKILL.md`): P3/P4 analytical context + `primitiveRelevance` in enrichment
+
+**Key design principle** (user directive): "Evidence that contradicts or falls outside the framework receives the SAME analytical weight as confirming evidence." Anti-confirmation-bias guardrail embedded at every stage. Gradient: Research (antenna) → Curation (structured tagging) → Synthesis (full lens) → Purpose Claims (light context).
+
+**Documentation updated**: APP_STATE.md (orchestrator + framework-aware pipeline), CLAUDE.md (project structure, quick commands, synthesis directory), WORKFLOW.md (framework-aware note + primitives/findings reference tables), scripts/README.md (framework-aware note), SW_ARCHITECTURE.md (new types/routes/data access), Ambidexterity_Field_Guide_Spec.md (analytical framework section).
+
+---
+
+## Session 36 — February 15, 2026 (Afternoon)
+
+### Synthesis Patch + Nightly Pipeline Build
+
+**Phase A: Synthesis Patch**
+- Applied 111 changes from 7-batch autonomous synthesis run (62 specimens analyzed)
+- Created `scripts/patch-synthesis-feb15.py` with 4 phases: score revisions, new placements, contingency additions, mechanism links + insights
+- Fixed 3 dry-run issues: amazon-agi T3, coca-cola T1 (moved to NEW_PLACEMENTS), wells-fargo T2/T5 (corrected old values)
+- Validator: 0 errors, 157 warnings post-patch
+
+**Phase B: Nightly Pipeline Implementation (10 tasks)**
+1. Created `scripts/pipeline-schedule.json` — 7-day themed rotation config
+2. Added `--schedule-theme` flag with 14 theme modes to `overnight-research.py`
+3. Created `scripts/overnight-pipeline.py` — 6-phase orchestrator with time budgeting
+4. Created `scripts/overnight-synthesis.py` — autonomous synthesis engine
+5. Created `pipeline-reports/` directory + `.gitignore`
+6. Created `scripts/com.fieldguide.overnight-pipeline.plist` — launchd for 7 PM daily
+7. Integration tests: 14/14 themes pass, 7/7 pipeline days pass
+8. Updated `scripts/README.md` and `WORKFLOW.md`
+9. **Live end-to-end test**: `press-keyword` with limit 1 → CAIO-appointments agent completed in 345s, produced 15 findings (9.9 KB output)
+
+**Bugs fixed during implementation:**
+- `scannedThroughDate` None causing TypeError in sort
+- substacks sort with None values
+- `target-specimens` dry-run accessing `t['mode']` on standard targets
+- `byModel` values were int counts not lists in taxonomy gaps
+- Status field "Active" vs "active" case sensitivity
+
+---
+
+## Sessions 34-35 (Feb 15): Research Agents + Full Curation (10 sessions, 8 new specimens)
+
+### Session 34: Research Agent Batch
+- **4 Opus research agents launched in parallel** covering Q4 2025 earnings + Feb 12-15 press/podcast sweep
+- **105+ findings, 16 broader trends, 23 purpose claims** across ~20 organizations
+- All 4 agent outputs merged into `research/queue.json`, `source-registry.json`, `field-signals.json`
+
+### Session 35: Full Curation
+- **10 pending research sessions curated** — the largest single curation session
+- **8 new specimens created**: baker-mckenzie, arm-holdings, forrester, capgemini, fda-hhs, columbia-group, liverpool-city-region, verses-ai
+- **17 existing specimens updated** with new layers (13 earnings enrichments + 4 press sweep updates)
+- **Registry: 159 active specimens** (164 total including 5 inactive), up from 151
+- Sessions 2-6 (deep scans) discovered to be already incorporated through overnight curation — queue entries closed
+- Duplicate source IDs in disney and intel fixed (batch script artifact)
+- Null-URL sources properly tagged across 8 specimens
+- Validator: **0 errors, 157 warnings** (all pre-existing)
+
+---
+
+## Session 33 (Feb 15): Palantir Reclassification + Enrichment Merges + Research Attempt
+
+**Pre-compaction synthesis work:**
+- **Palantir reclassified M9→M6b** — AI-native prestige trap. Founded 2003 for data integration, not AI. AIP launched 2023 as GenAI response. Guardrail 5 hardened.
+- **11 enrichment merges** from overnight curation (palantir, asml, astrazeneca, rivian, comcast/nbcuniversal, spotify, stripe, nextera-energy + others)
+- **8 new specimens placed** into tensions/contingencies/mechanisms
+- **Purpose claims background run** launched and completed
+
+**Post-compaction:**
+- Attempted online research run for Q4 2025 earnings calls + substacks
+- Ad-hoc web searches gathered partial findings (Alphabet, Microsoft, Meta, Amazon, Forrester, Disney, Intel, Cognizant) — **NOT persisted to any file**
+- User corrected: not following `/research` protocol. Skill invoked but context window too full to continue.
+- Session ended due to context exhaustion.
+
+---
+
+## Session 32 (Feb 14): Pipeline Technical Debt Audit — 15 Fixes
+
+Thorough technical debt audit of Track 1 and Track 2 pipelines via 4 deep-audit agents (code robustness, data pipeline, process gaps, documentation). All 15 identified issues fixed.
+
+- **A1**: Designed Track 2 collect/enrich split architecture (documented in WORKFLOW.md, v2 future)
+- **A2**: Added content-based dedup to overnight-purpose-claims.py merge logic (fingerprint: specimenId + text[:100] + speaker)
+- **A3**: Standardized quality thresholds to 4-level scale (rich=5+, adequate=2-4, thin=1, none=0) in SKILL.md
+- **A4**: Added enrichment schema validation to validate-workflow.js (Section 15)
+- **A5**: Added `--rescan-stale` flag and `rescanReason` support to overnight-purpose-claims.py
+- **B1**: Documented two curate input formats in WORKFLOW.md (multi-company session vs single-company JSON)
+- **B2**: Clarified synthesis-queue.json description (interactive tracking, not automated)
+- **B3**: Wired field-signals.json into synthesize SKILL.md and SYNTHESIS-PROTOCOL.md
+- **B5**: Documented overnight scripts scope limitations in WORKFLOW.md (source-registry updates are by-design interactive)
+- **C2**: Added rebuild-registry.js call after overnight-curate.py successful curation
+- **C4**: Added purpose-claims-to-specimens consistency check (Section 12b in validator)
+- **C5**: Added C6 environmentalAiPull to overnight-curate.py CONTINGENCIES_REF
+- **D1**: Defined 7-stage specimen lifecycle gates in WORKFLOW.md
+- **D2**: Updated specimen-schema.json (M8/M9, C6, Inactive, mechanism max 15)
+- **D3**: Standardized session naming across tracks in WORKFLOW.md
+
+Validator: 0 errors, 135 warnings (pre-existing enrichment data quality). Both Python scripts parse clean.
+
+---
+
+## Sessions 29-30 (Feb 14): Comprehensive 6-Phase Infrastructure Refactoring
+
+**Comprehensive 6-phase refactoring** — eliminated all technical debt identified in 6 deep audits. 18 git commits, 0 breakage throughout.
+
+- **Phase 1: Crash-Safe Infrastructure** — Created `scripts/lib/utils.py` (atomic writes, PID-based locks, preflight checks, changelog). Wired safety primitives into all 3 overnight scripts (10 `json.dump()` → `save_json()`). Fixed pending→processed ordering in purpose-claims.
+- **Phase 2: Data Quality** — Cleaned contingencies.json duplicates, marked 5 gov specimens Inactive, tagged 172 null-URL sources, backfilled `discoveredIn` for 20 insights.
+- **Phase 3: Validation Infrastructure** — Extended validator 11→16 sections. Created `specimen-lifecycle-status.js` and `check-source-freshness.js`.
+- **Phase 4: Type Alignment** — Fixed ContingencyDefinition types, added C6 + "Inactive" to types, added try-catch to synthesis data loaders.
+- **Phase 5: Organizational Cleanup** — Archived 43 one-off scripts, moved stale docs, created scripts/README.md.
+- **Phase 6: Documentation** — Updated CLAUDE.md, WORKFLOW.md, APP_STATE.md.
+
+Validator: 0 errors, 27 warnings. Site: 258 pages. Zero breakage throughout.
+
+## Session 31 (Feb 14): Audit Remediation — Phases 3-5
+
+Continuation session completing the remediation plan from 4 deep audit agents (code robustness, data pipeline, process gaps, documentation).
+
+- **Phase 3 (Validation Enhancements)**: Fixed 2 "unknown" specimenId entries in mechanisms.json (both netflix). Fixed orphan queue entry path. Added ID/filename mismatch check + schema validation to validate-workflow.js (sections 17-18). Added graceful degradation to specimen detail page (catch handlers for purpose claims + enrichment, null-safe property access in findRelated).
+- **Phase 4 (Documentation Refresh)**: Updated 8 stale documentation files — SW_ARCHITECTURE.md (major rewrite: added purpose-claims subsystem, field-journal, SpiderChart, CitedText, buildSystemPrompt; fixed model range 1-9, matrix 9x3, 6 contingencies), APP_STATE.md (~11 count/path fixes), WORKFLOW.md (C6, stale counts), CLAUDE.md (v1.4, missing skills), Ambidexterity_Field_Guide_Spec.md (C6, 9 models), CURATION-PROTOCOL.md (C6), .claude/skills/research/SKILL.md (claim taxonomy v2.0).
+- **Phase 5 (Data Cleanup)**: Merged hp/hp-inc duplicate (migrated 5 purpose claims, removed duplicate tension placement, deleted hp.json, rebuilt registry 149→148). Moved 2 orphan enrichment supplement files to `enrichment/supplements/`. Confirmed meta-reality-labs correctly tagged Deprecated.
+- **Final state**: 0 errors, 27 warnings. Site builds clean. 3 commits: `d28b8bd` (Phase 3), `0c112aa` (Phase 4), `a46f34c` (Phase 5).
 
 ---
 

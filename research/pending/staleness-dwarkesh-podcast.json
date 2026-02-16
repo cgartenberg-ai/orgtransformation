@@ -1,0 +1,73 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "dwarkesh-podcast",
+  "sourceName": "Dwarkesh Podcast",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "Feed check Feb 3 — no new 2026 eps (last: Dec 30, 2025). 128 total eps. Karpathy ep still pending deep-scan.",
+  "newScannedThrough": "Scanned through Feb 15, 2026. 3 new episodes in Feb 2026: Dario Amodei (Feb 13), Elon Musk (Feb 5), Adam Marblestone (Feb 5). Plus Jan 10 blog post. ~131 total eps.",
+  "newContent": [
+    {
+      "title": "Dario Amodei — 'We are near the end of the exponential'",
+      "date": "2026-02-13",
+      "url": "https://www.dwarkesh.com/p/dario-amodei-2",
+      "relevance": "HIGH",
+      "notes": "Anthropic CEO discusses: engineers who don't write code anymore (AI does it), Claude Code accelerating internal dev, organizational structure for scaling compute, multiple business models coexisting. Revenue trajectory: $0→$100M (2023), $1B (2024), $9-10B (2025), added several billion in Jan 2026 alone."
+    },
+    {
+      "title": "Elon Musk — 'In 36 months, the cheapest place to put AI will be space'",
+      "date": "2026-02-05",
+      "url": "https://www.dwarkesh.com/p/elon-musk",
+      "relevance": "HIGH",
+      "notes": "xAI organizational structure: prefers 'engineer' over 'researcher', several hundred people on AI interpretability/debuggers. Humanoid manufacturing: building entirely custom supply chain from first principles, 'Optimus Academy' for robot training. Bold prediction: 'pure AI corporations will far outperform any corporations that have humans in the loop.' Grok as orchestration layer for Optimus robots."
+    },
+    {
+      "title": "Adam Marblestone — 'AI is missing something fundamental about the brain'",
+      "date": "2026-02-05",
+      "url": "https://www.dwarkesh.com/p/adam-marblestone",
+      "relevance": "LOW",
+      "notes": "Neuroscience focus. May have organizational implications but needs deep-scan."
+    },
+    {
+      "title": "What I've been reading recently - Jan 10, 2026",
+      "date": "2026-01-10",
+      "url": "https://www.dwarkesh.com/p/notes-jan-10-2026",
+      "relevance": "LOW",
+      "notes": "Blog post, not podcast episode. Reading notes on neuroscience topics."
+    }
+  ],
+  "summary": "Significant new content since Feb 3 scan. Two HIGH-relevance episodes: (1) Dario Amodei interview with rich organizational findings on Anthropic's internal AI adoption — engineers no longer writing code, Claude Code accelerating development, scaling decisions; (2) Elon Musk interview covering xAI's engineering-focused culture, humanoid manufacturing organization (custom supply chain, Optimus Academy), and provocative claim that pure-AI corporations will outperform human-in-loop organizations. Both warrant specimen enrichment or new specimens.",
+  "curateRecommendations": [
+    {
+      "specimenId": "anthropic",
+      "action": "enrich",
+      "rationale": "Dario interview provides fresh data on Anthropic's internal AI adoption and organizational structure. Engineers not writing code, Claude Code integration, scaling decisions.",
+      "keyFindings": [
+        "Engineers at Anthropic who don't write any code — AI handles it",
+        "Claude Code used internally for GPU kernels, chip design",
+        "Deliberate compute allocation strategy prioritizing sustainability over max scaling",
+        "Revenue: $0→$100M→$1B→$10B trajectory, still accelerating"
+      ]
+    },
+    {
+      "specimenId": "xai",
+      "action": "enrich-or-create",
+      "rationale": "Elon interview reveals xAI organizational structure, alignment approach, Grok-Optimus integration vision.",
+      "keyFindings": [
+        "Several hundred people on AI interpretability/debuggers",
+        "Mission-based alignment vs traditional safety governance",
+        "Prefers 'engineer' to 'researcher' — engineering culture",
+        "Prediction: pure-AI corporations will outperform human-in-loop orgs"
+      ]
+    },
+    {
+      "specimenId": "tesla",
+      "action": "enrich",
+      "rationale": "Humanoid manufacturing organization details: custom supply chain, Optimus Academy training infrastructure.",
+      "keyFindings": [
+        "Building entirely custom actuators, motors, gears — no existing supply chain",
+        "Optimus Academy: tens of thousands of robots for self-play training",
+        "S-curve production: Optimus 3 targets 1M units/year, Optimus 4 targets 10M"
+      ]
+    }
+  ]
+}

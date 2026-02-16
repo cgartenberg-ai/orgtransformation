@@ -1,0 +1,52 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "state-of-ai-report",
+  "sourceName": "State of AI Report",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "None",
+  "newScannedThrough": "State of AI Report 2025 (Nathan Benaich/Air Street Capital, released Oct 2025)",
+  "newContent": [
+    {
+      "title": "State of AI Report 2025 - Enterprise Adoption Findings",
+      "date": "2025-10",
+      "url": "https://www.stateof.ai/",
+      "relevance": "MEDIUM",
+      "findings": [
+        "44% of U.S. businesses now pay for AI tools (up from 5% in 2023), avg contract $530K",
+        "95% of professionals now use AI at work or home (survey of 1,200+)",
+        "76% pay for AI tools out of pocket",
+        "AI-first startups expand 1.5x faster than peers"
+      ]
+    },
+    {
+      "title": "Deloitte State of AI in Enterprise 2026",
+      "date": "2025-09",
+      "url": "https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html",
+      "relevance": "HIGH",
+      "findings": [
+        "Only 1 in 5 companies has mature governance model for autonomous AI agents despite rapid agentic AI adoption",
+        "AI skills gap is biggest barrier to enterprise AI integration",
+        "Education ranked #1 talent strategy adjustment, not role/workflow redesign",
+        "42% believe AI strategy highly prepared, but feel LESS prepared on infrastructure, data governance, risk, talent",
+        "2/3 report productivity gains, but only 34% describe impact as transformative",
+        "Companies with 40%+ projects in production expected to double in 6 months",
+        "Worker AI access rose 50% in 2025"
+      ]
+    }
+  ],
+  "summary": "First scan of this source. State of AI Report 2025 (stateof.ai) provides enterprise adoption stats - 44% of US businesses paying for AI tools is notable. The more valuable find is Deloitte's State of AI in Enterprise 2026 (published Sept 2025) with strong organizational findings: governance gap for agentic AI (only 20% have mature models), skills gap as top barrier, and a revealing disconnect where companies feel prepared on strategy but less prepared on infrastructure/talent/risk. The education-over-restructuring finding aligns with our specimen observations about training investments.",
+  "potentialSpecimens": [],
+  "potentialMechanisms": [
+    {
+      "name": "Governance Lag in Agentic AI",
+      "description": "Agentic AI adoption outpacing governance maturity - only 1 in 5 companies have mature oversight models",
+      "source": "Deloitte State of AI in Enterprise 2026"
+    },
+    {
+      "name": "Strategy-Capability Disconnect",
+      "description": "Organizations feel prepared on AI strategy but less prepared on infrastructure, data governance, risk management, and talent",
+      "source": "Deloitte State of AI in Enterprise 2026"
+    }
+  ],
+  "notes": "The Deloitte report (n=3,235 senior leaders) is methodologically stronger than most industry reports. The agentic AI governance gap is highly relevant to our specimen collection - could add as a field signal. The strategy-capability disconnect echoes patterns we see in specimens that announce AI initiatives but struggle with execution."
+}

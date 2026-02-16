@@ -1,40 +1,102 @@
 {
   "id": "deloitte",
   "name": "Deloitte",
-  "title": "Agentic Operating Model",
+  "title": "Global AI Leadership Layer Over Professional Services CoE Network",
   "classification": {
-    "structuralModel": 2,
-    "structuralModelName": "Center of Excellence",
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
     "subType": null,
     "subTypeName": null,
-    "secondaryModel": null,
-    "secondaryModelName": null,
-    "orientation": "Structural",
-    "orientationName": "Structural",
-    "confidence": "Low",
-    "classificationRationale": "CAUTION: This specimen conflates Deloitte's RESEARCH FINDINGS about agentic AI with Deloitte's own organizational structure. The data (30% explore, 38% pilot, etc.) describes Deloitte's clients, not Deloitte itself. As a professional services firm with dedicated AI practices, Deloitte's internal AI org likely operates as a CoE (Model 2) serving client engagements. However, confidence is Low because we lack direct evidence of Deloitte's own internal AI structure. Needs fundamental rework with sources about Deloitte's actual AI organization.",
+    "secondaryModel": 2,
+    "secondaryModelName": "Center of Excellence",
+    "orientation": "Contextual",
+    "orientationName": "Contextual Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "Deloitte exhibits classic Hub-and-Spoke (M4) with central AI leadership (Global AI Leader Nitin Mittal, US Head Jim Rowan) setting standards while distributed CoEs (Global AI Infrastructure CoE, APAC Agentic AI CoE) and regional AI Institutes execute regionally. The June 2026 talent architecture overhaul—replacing traditional pyramid with role-specific designations—signals contextual orientation: AI capabilities being woven into existing roles rather than separated into distinct exploration units. Mittal's emphasis on 'coupling people and machine intelligence' and 'weaving AI into business workflows' reinforces integration-first philosophy. Secondary M2 reflects the strong CoE presence providing governance and enablement.",
     "typeSpecimen": false
   },
   "habitat": {
     "industry": "Professional Services",
     "sector": "Management Consulting / Audit",
     "orgSize": "Enterprise",
-    "employees": "~457,000",
-    "revenue": "~$65B",
+    "employees": 470000,
+    "revenue": "$70.5B (FY2025)",
     "headquarters": "London, UK",
     "geography": "Global"
   },
-  "description": "Deloitte's research on agentic AI adoption reveals a stark gap: while 30% explore and 38% pilot, only 14% have solutions ready to deploy and a mere 11% are actively using these systems in production.\n- Key insight: Leading enterprises don't layer agents onto existing workflows—they redesign processes to leverage agents' unique strengths\n- 'Bolting AI onto existing workflows delivers limited value. Real impact requires reimagining processes with agents at the core.'\n- New paradigm: 'What if we rebuild our entire operating model around AI?' Not implementing tools—pioneering new operating models around autonomous decision-making\n- Workforce shift: Human-agent collaboration moving from hands-on execution to supervision and exception handling\n- Infrastructure requirement: Clean, consistent, real-time data, standardized interfaces, event-driven architectures",
+  "description": "Deloitte has constructed a multi-layered AI governance structure combining global leadership, regional Centers of Excellence, and AI Institutes. Nitin Mittal serves as Global AI Leader coordinating overall AI strategy, with Jim Rowan leading the US market and regional Chief AI Officers (like Sulabh Soral in the UK) driving local implementation. The firm has committed $3 billion to generative AI development through FY2030.\n\nThe organizational approach emphasizes integration over separation. Rather than building a walled-off AI research unit, Deloitte is embedding AI capabilities across its 470,000-person workforce while using CoEs to provide shared infrastructure and standards. The Global AI Infrastructure CoE and Asia Pacific Agentic AI CoE (120+ AI specialists, 6,000+ regional practitioners) exemplify this hub-and-spoke model where central standards enable distributed execution.\n\nMost significantly, Deloitte announced a June 2026 talent architecture overhaul explicitly driven by AI's reshaping of consulting work. The traditional pyramid titles (analyst, consultant, manager) are being replaced with role-specific designations and alphanumeric levels (L45, L55). This structural change—affecting 181,500 US employees—signals that AI is not being siloed but rather integrated into the fundamental organization of professional work.",
   "observableMarkers": {
-    "reportingStructure": null,
-    "resourceAllocation": null,
-    "timeHorizons": null,
-    "decisionRights": null,
-    "metrics": "30% exploring, 38% piloting, 14% ready to deploy, 11% in production. Governance-as-enabler increases confidence for higher-value scenarios."
+    "reportingStructure": "Global AI Leader (Nitin Mittal) appears to coordinate global AI strategy. US Head of AI (Jim Rowan) leads US market. Regional AI Institute leads (e.g., Sulabh Soral for UK) report within consulting. New 'Leaders' class being added to hierarchy above managers. Alphanumeric leveling (L45, L55, etc.) being introduced June 2026.",
+    "resourceAllocation": "$3B GenAI investment through FY2030. Tech budget AI allocation rising from 8% to 13%. 470,000+ global workforce. 181,500 US employees. 120+ AI specialists in APAC CoE alone. 6,000+ AI practitioners across APAC.",
+    "timeHorizons": "FY2030 as target for $3B GenAI investment. Agentic Enterprise 2028 as key strategic milestone. 3-6 month horizon for moving pilots to production. June 2026 talent architecture implementation.",
+    "decisionRights": "Joe Ucuzoglu drives global restructuring decisions. Global AI Leader coordinates AI strategy. Business units retain autonomy but consolidated from 5 to 4 in 2024. CoEs appear to have mandate to support cross-regional AI implementations.",
+    "metrics": "85% of surveyed companies plan to customize autonomous AI agents. Only 34% report using AI to 'deeply transform' operations. 25% have moved 40%+ of pilots to production. 30% redesigning core processes around AI. 21% have mature agentic AI governance frameworks."
   },
-  "mechanisms": [],
-  "quotes": [],
+  "mechanisms": [
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "The talent architecture overhaul replacing traditional titles with role-specific designations, combined with the 'coupling of people and machine intelligence' philosophy, suggests AI tools are being designed for broad workforce adoption rather than specialist use. The goal of expanding AI tools access from 40% to 60% of 470K employees indicates consumer-grade accessibility requirements.",
+      "strength": "Emerging"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Clients around the world are placing their trust in Deloitte to navigate an unprecedented level of complexity and change. By integrating our unrivaled depth of expertise across key business domains with our modern engineering capabilities and outcome orientation, Deloitte is uniquely positioned to help businesses, governments, and markets capture the full potential of AI.",
+      "speaker": "Joe Ucuzoglu",
+      "speakerTitle": "Deloitte Global CEO",
+      "source": "Deloitte FY2025 Global Revenue Announcement",
+      "sourceUrl": "https://www.deloitte.com/global/en/about/press-room/global-revenue-announcement.html",
+      "sourceDate": "2025-09",
+      "context": "FY2025 annual revenue announcement highlighting AI as strategic differentiator"
+    },
+    {
+      "text": "Leaders should enable enterprise value by weaving AI into business workflows through better coupling of people and machine intelligence.",
+      "speaker": "Nitin Mittal",
+      "speakerTitle": "Deloitte Global AI Leader",
+      "source": "State of AI Report 2026 Press Release",
+      "sourceUrl": "https://www.deloitte.com/us/en/about/press-room/state-of-ai-report-2026.html",
+      "sourceDate": "2026-01",
+      "context": "2026 State of AI in the Enterprise report release discussing AI integration strategy"
+    },
+    {
+      "text": "Succeeding organizations invest in both automation/algorithms and their people, empowering teams to embrace reimagined business models.",
+      "speaker": "Jim Rowan",
+      "speakerTitle": "US Head of AI, Deloitte",
+      "source": "State of AI Report 2026 Press Release",
+      "sourceUrl": "https://www.deloitte.com/us/en/about/press-room/state-of-ai-report-2026.html",
+      "sourceDate": "2026-01",
+      "context": "2026 State of AI report discussing organizational transformation requirements"
+    },
+    {
+      "text": "We are modernizing our talent architecture to provide a more tailored experience reflective of our professionals' broad range of skills and the work they do serving our clients.",
+      "speaker": "Deloitte",
+      "speakerTitle": "Company statement",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/01/22/deloitte-job-title-change-ai-reshapes-big-4-accounting-consulting-firms/",
+      "sourceDate": "2026-01-22",
+      "context": "Announcing June 2026 talent architecture overhaul replacing traditional consulting pyramid titles"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Enrichment: M2→M4",
+      "summary": "Reclassified from M2 (Center of Excellence) Structural to M4 (Hybrid/Hub-and-Spoke) Contextual based on enrichment data. Confidence: Low→Medium.",
+      "classification": {
+        "previousModel": 2,
+        "previousModelName": "Center of Excellence",
+        "previousOrientation": "Structural",
+        "newModel": 4,
+        "newModelName": "Hybrid/Hub-and-Spoke",
+        "newOrientation": "Contextual"
+      },
+      "sourceRefs": [
+        "enrich-deloitte-fortune-2026-01",
+        "enrich-deloitte-revenue-2025-09",
+        "enrich-deloitte-state-of-ai-2026-01"
+      ]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
@@ -81,34 +143,96 @@
       "sourceDate": null,
       "collectedDate": "2026-01-20",
       "notes": "[no URL]"
+    },
+    {
+      "id": "enrich-deloitte-fortune-2026-01",
+      "name": "Fortune - Deloitte Job Title Changes",
+      "url": "https://fortune.com/2026/01/22/deloitte-job-title-change-ai-reshapes-big-4-accounting-consulting-firms/",
+      "type": "Press",
+      "sourceDate": "2026-01-22",
+      "collectedDate": "2026-02-14",
+      "notes": "Detailed restructuring of talent architecture: replacing traditional titles with job families, alphanumeric levels (L45, L55), new 'Leaders' class. Implementation June 2026. Cites $3B GenAI investment."
+    },
+    {
+      "id": "enrich-deloitte-revenue-2025-09",
+      "name": "Deloitte Global Revenue Announcement FY2025",
+      "url": "https://www.deloitte.com/global/en/about/press-room/global-revenue-announcement.html",
+      "type": "Press",
+      "sourceDate": "2025-09",
+      "collectedDate": "2026-02-14",
+      "notes": "FY2025 financials: $70.5B revenue, 4.8% growth, 470K employees, $3B GenAI commitment through FY2030. Joe Ucuzoglu quote on AI positioning."
+    },
+    {
+      "id": "enrich-deloitte-state-of-ai-2026-01",
+      "name": "Deloitte State of AI Report 2026 Press Release",
+      "url": "https://www.deloitte.com/us/en/about/press-room/state-of-ai-report-2026.html",
+      "type": "Press",
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-14",
+      "notes": "Key AI adoption metrics. Named Nitin Mittal as Global AI Leader and Jim Rowan as US Head of AI. Quotes on people+machine strategy."
+    },
+    {
+      "id": "enrich-deloitte-soral-profile-2025",
+      "name": "Sulabh Soral Profile - Deloitte UK",
+      "url": "https://www.deloitte.com/uk/en/about/people/profiles.ssoral+9d80be73.html",
+      "type": "Press",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14",
+      "notes": "UK Chief AI Officer, Consulting. Leads Deloitte AI Institute UK. 20 years experience. Financial services focus."
+    },
+    {
+      "id": "enrich-deloitte-ai-institute-2026",
+      "name": "Deloitte AI Institute US",
+      "url": "https://www.deloitte.com/us/en/services/consulting/content/advancing-human-ai-collaboration.html",
+      "type": "Press",
+      "sourceDate": "2026",
+      "collectedDate": "2026-02-14",
+      "notes": "AI Institute structure: focus on agentic AI, 80+ use cases across 6 industries, human-AI collaboration mandate."
+    },
+    {
+      "id": "enrich-deloitte-ucuzoglu-profile-2025",
+      "name": "Grokipedia - Joe Ucuzoglu",
+      "url": "https://grokipedia.com/page/Joe_Ucuzoglu",
+      "type": "Report",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14",
+      "notes": "Background on Ucuzoglu's tenure, March 2024 restructuring (5 units to 4), Davos 2025 participation, quarterly State of GenAI reports."
     }
   ],
   "contingencies": {
-    "regulatoryIntensity": null,
-    "timeToObsolescence": null,
-    "ceoTenure": null,
-    "talentMarketPosition": null,
-    "technicalDebt": null
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Medium",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low",
+    "environmentalAiPull": "Strong"
   },
   "tensionPositions": {
-    "structuralVsContextual": null,
-    "speedVsDepth": null,
-    "centralVsDistributed": null,
-    "namedVsQuiet": null,
-    "longVsShortHorizon": null
+    "structuralVsContextual": 0.5,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": 0.0,
+    "namedVsQuiet": -0.3,
+    "longVsShortHorizon": -0.2
   },
   "openQuestions": [
     "What is Deloitte's ACTUAL internal AI organizational structure? Does it have a centralized AI practice, embedded teams, or hybrid model?",
-    "This specimen needs to be reworked to describe Deloitte's own AI transformation rather than its research findings about clients."
+    "This specimen needs to be reworked to describe Deloitte's own AI transformation rather than its research findings about clients.",
+    "Exact reporting relationship between Global AI Leader (Mittal), US Head of AI (Rowan), and regional CAIOs (Soral)",
+    "Whether the AI Institutes and CoEs share a unified governance structure or operate independently",
+    "Total global AI headcount across all regions and business units",
+    "What percentage of the $3B GenAI investment has been deployed vs. committed"
   ],
   "taxonomyFeedback": [
-    "Systemic issue: professional services firms (Deloitte, BCG, McKinsey) often have specimens that conflate their research/advisory output with their own organizational structure. Need clear guidance for curators on separating these."
+    "Systemic issue: professional services firms (Deloitte, BCG, McKinsey) often have specimens that conflate their research/advisory output with their own organizational structure. Need clear guidance for curators on separating these.",
+    "[2026-02] Deloitte's June 2026 talent architecture overhaul is a rare specimen of AI-driven organizational restructuring affecting job design itself—not just where AI teams sit, but how all 181,500 US employees are classified and titled. This is the clearest evidence yet that AI is reshaping the fundamental architecture of professional services work, moving beyond 'add an AI team' to 'redesign the org chart because AI changes what roles mean.'",
+    "[2026-02] The M4 Hub-and-Spoke classification fits, but Deloitte presents an interesting variant: the 'spokes' are geographically distributed CoEs and AI Institutes rather than business-unit-aligned teams. The Global AI Leader → US/Regional Heads → Regional CAIOs → CoEs → AI Institutes chain creates more layers than typical M4 specimens, suggesting professional services may require more coordination overhead than product companies.",
+    "[2026-02] Mittal's 'weaving AI into business workflows' and 'coupling of people and machine intelligence' language strongly signals contextual ambidexterity—the goal is integration not separation. This contrasts with tech company M4s where exploration often remains more structurally distinct. Professional services may be a natural habitat for contextual approaches given the knowledge-worker-intensive nature of the work."
   ],
   "meta": {
     "status": "Stub",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-15",
+    "completeness": "High",
     "convertedFrom": "library/cases/deloitte.json"
   }
 }

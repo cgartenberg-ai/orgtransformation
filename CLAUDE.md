@@ -108,10 +108,14 @@ orgtransformation/
 │   └── *.json                   # Specimen files (see registry.json for count)
 │
 ├── synthesis/                   # CROSS-CUTTING PATTERNS
+│   ├── ANALYTICAL-FRAMEWORK.md  # Framework spec (v0.2): 5 primitives → 5 tensions → 10 findings
+│   ├── primitives.json          # 5 analytical primitives (P1-P5)
+│   ├── findings.json            # 10 core findings (F1-F10) consolidated from 78 field insights
 │   ├── mechanisms.json          # Confirmed + candidate mechanisms
-│   ├── tensions.json            # 5 structural tensions
-│   ├── contingencies.json       # 6 contingency factors
-│   ├── insights.json            # Field insights (growing collection)
+│   ├── tensions.json            # 5 structural tensions (with primitive derivations)
+│   ├── contingencies.json       # 6 contingency factors (with primitive mappings)
+│   ├── insights-archive-v1.json # 78 archived field insights (preserved for traceability)
+│   ├── insights.json            # Legacy insights file (see findings.json for current)
 │   └── sessions/                # Synthesis session notes
 │
 ├── research/                    # TRACK 1 + SHARED
@@ -141,6 +145,10 @@ orgtransformation/
 │   ├── specimen-lifecycle-status.json  # Lifecycle dashboard (machine)
 │   └── specimen-lifecycle-status.md    # Lifecycle dashboard (human)
 │
+├── pipeline-reports/            # NIGHTLY PIPELINE OUTPUT
+│   ├── *-morning-briefing.md    # Phase summary, time budget, review checklist
+│   └── *-field-journal.md       # Synthesis audit trail (placements + rationale)
+│
 ├── site/                        # Next.js 14 prototype
 │   ├── app/                     # Routes
 │   ├── components/              # React components
@@ -150,14 +158,18 @@ orgtransformation/
 │   ├── lib/                     # Shared Python library (atomic writes, locks, logging)
 │   │   ├── __init__.py
 │   │   └── utils.py             # save_json, load_json, acquire_lock, etc.
-│   ├── validate-workflow.js     # Consistency checker (16 sections)
+│   ├── overnight-pipeline.py    # ORCHESTRATOR — chains all 6 phases, 7-day rotation
+│   ├── pipeline-schedule.json   # Weekly schedule config (themes, limits, budgets)
+│   ├── overnight-research.py    # Phase 1: Research agents (framework-aware)
+│   ├── overnight-curate.py      # Phase 2: Curation agents (framework-aware)
+│   ├── overnight-purpose-claims.py  # Phase 3: Purpose claims agents
+│   ├── overnight-synthesis.py   # Phase 4: Autonomous synthesis (DEPRECATED — interactive only)
+│   ├── validate-workflow.js     # Phase 5: Consistency checker (18 sections)
 │   ├── rebuild-registry.js      # Rebuild registry from specimen files
 │   ├── specimen-lifecycle-status.js  # Pipeline dashboard generator
 │   ├── check-source-freshness.js    # Source staleness alerter
 │   ├── compute-mechanism-affinity.js # Analysis utility
-│   ├── overnight-research.py    # Overnight research automation
-│   ├── overnight-purpose-claims.py  # Overnight claims automation
-│   ├── overnight-curate.py      # Overnight curation automation
+│   ├── com.fieldguide.overnight-pipeline.plist  # launchd schedule (7 PM daily)
 │   └── archive/                 # 43 historical one-off scripts
 │
 ├── docs/archive/                # Historical design docs
@@ -177,6 +189,8 @@ orgtransformation/
 
 | I want to... | Command |
 |--------------|---------|
+| Run the full nightly pipeline | `python3 scripts/overnight-pipeline.py --skip-permissions` |
+| Preview tonight's schedule | `python3 scripts/overnight-pipeline.py --dry-run` |
 | Do a research session | `/research` |
 | Scan earnings calls | `/research` (follow earnings protocol) |
 | Create/update specimens | `/curate` |
@@ -221,3 +235,4 @@ Before ending any session that modified files:
 | Insights guardrail | Insights in `synthesis/insights.json` are **never deleted** — they can be updated with new evidence or new insights can be added, but existing insights are permanent records of research findings |
 | HANDOFF.md | Updated via `/handoff` skill at end of each session; previous content archived to `HANDOFF_ARCHIVE.md` |
 | Two research tracks | Track 1 (structural) and Track 2 (purpose claims) are parallel, share specimens and transcript infrastructure |
+| No government specimens | Government entities (agencies, military, regional governments) are NOT valid specimens — mandate-driven, not market-driven. Mark as Inactive. Government contractors (Lockheed, Anduril) ARE valid. (Guardrail 9) |

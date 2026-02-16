@@ -1,0 +1,97 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "columbia-group",
+  "name": "Columbia Group",
+  "title": "Maritime AI Factory Under New Head of AI",
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Decision tree: Formal AI unit=YES (Head of AI role, 'AI factory' concept) \u2192 Publishes research=NO \u2192 Central team=YES \u2192 Builds or enables=ENABLES (productivity tools, knowledge management, crew assignment) \u2192 M2 Center of Excellence. Low confidence: single source, thin data. The 'AI factory' concept could evolve toward M4 or M5 but current evidence shows an enablement function.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Maritime / Shipping",
+    "sector": "Ship Management",
+    "orgSize": null,
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Limassol, Cyprus",
+    "geography": "Europe"
+  },
+  "description": "Columbia Group, a Cyprus-based maritime company, appointed Christina Orfanidou as Head of AI in February 2026. Orfanidou previously served as Head of AI Services at Deloitte Cyprus and led AI adoption for the European Commission. She plans to establish an 'AI factory' for developing customized solutions, with initial focus on internal operations: AI agents for repetitive tasks, knowledge management tools, and modernized crew assignment systems. The appointment illustrates the diffusion of AI leadership roles into traditional maritime industries.",
+  "observableMarkers": {
+    "reportingStructure": "Head of AI (Christina Orfanidou) \u2014 reporting line unknown. CEO Mark O'Neil referenced in appointment announcement.",
+    "resourceAllocation": null,
+    "timeHorizons": null,
+    "decisionRights": null,
+    "metrics": null
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "speaker": "Christina Orfanidou",
+      "speakerTitle": "Head of AI, Columbia Group",
+      "quote": "AI is not about technology for technology's sake...we see AI as a productivity and empowerment tool.",
+      "source": "Cyprus Mail",
+      "sourceUrl": "https://cyprus-mail.com/2026/02/09/columbia-group-appoints-christina-orfanidou-as-head-of-ai",
+      "date": "2026-02-09"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Initial Documentation \u2014 Head of AI Appointment",
+      "summary": "Christina Orfanidou appointed Head of AI. Plans to establish 'AI factory' for customized solutions. Focus on internal operations: AI agents, knowledge management, crew assignment.",
+      "classification": null,
+      "sourceRefs": [
+        "cyprus-mail-columbia-ai-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cyprus-mail-columbia-ai-2026",
+      "type": "Press",
+      "name": "Cyprus Mail \u2014 Columbia Group Appoints Head of AI",
+      "url": "https://cyprus-mail.com/2026/02/09/columbia-group-appoints-christina-orfanidou-as-head-of-ai",
+      "sourceDate": "2026-02-09",
+      "collectedDate": "2026-02-15"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": null,
+    "environmentalAiPull": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [
+    "What does the 'AI factory' actually look like structurally \u2014 dedicated team, outsourced, or hybrid?",
+    "What is the AI team size and reporting structure within Columbia Group?",
+    "How does the maritime industry's regulatory environment (IMO, flag state requirements) constrain or shape AI adoption?"
+  ],
+  "taxonomyFeedback": [
+    "Maritime industry specimen \u2014 illustrates AI leadership diffusion into traditional shipping/logistics. The 'AI factory' concept is interesting but too thin to classify beyond CoE."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-15",
+    "lastUpdated": "2026-02-15",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

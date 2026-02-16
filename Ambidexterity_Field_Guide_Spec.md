@@ -353,13 +353,28 @@ Additional candidate mechanisms remain under observation. Each mechanism links t
 
 Cross-cutting findings that span multiple specimens, industries, or mechanisms. These are the field guide's key empirical contributions — **insights are never deleted**, only updated with new evidence or new insights added.
 
-Insights are organized by theme (convergence, organizational-form, mechanism, workforce, methodology). See `synthesis/insights.json` for the current collection, which grows with each synthesis session.
+Insights are organized by theme (convergence, organizational-form, mechanism, workforce, methodology). The original 78 insights are archived in `synthesis/insights-archive-v1.json`. They have been consolidated into the **Analytical Framework** (see below).
 
-**Insight maturity lifecycle**: hypothesis (1 specimen) → emerging (2 specimens) → confirmed (3+ specimens).
+### Analytical Framework (v0.2)
+
+The project's converging theoretical layer. Full specification: `synthesis/ANALYTICAL-FRAMEWORK.md`.
+
+**5 Analytical Primitives** (`synthesis/primitives.json`) — independent variables that predict structural choice:
+- P1 Work Architecture Modularity (Conway/Colfer & Baldwin mirroring)
+- P2 Work Output Measurability (Holmstrom multi-task)
+- P3 Governance Structure (Aghion & Tirole formal/real authority)
+- P4 Competitive/Institutional Context (North institutions, competitive dynamics)
+- P5 Organizational Endowment (legacy systems, talent, culture, prior investment)
+
+**10 Core Findings** (`synthesis/findings.json`) — empirical claims consolidated from 78 field insights, each with evidence, testable implications, and paper linkages. Finding maturity lifecycle: emerging → confirmed → contested.
+
+**3 Latent Papers**: "Structure Follows Architecture" (P1-centered), "Moral Hazard of AI Transition" (P2-centered), "Purpose and Structure as Complements" (P3/P7-centered).
+
+> **Exploration and Curiosity First.** The framework enriches the pipeline's analytical vocabulary without constraining what agents and researchers see. Evidence that contradicts or falls outside the framework receives the same weight as confirming evidence. All pipeline stages (research, curation, synthesis, purpose claims) have been updated with framework awareness at appropriate intensity levels — from light "antenna" at research through full analytical lens at synthesis.
 
 ### Tensions & Contingencies
 
-Beyond mechanisms, the synthesis phase surfaces two additional analytical dimensions:
+Beyond mechanisms, the synthesis phase surfaces two additional analytical dimensions. **Tensions are now derived from primitive interactions** (e.g., T1 derives from P1×P3, T2 from P2×P4). T1 is the master tension; T4 retained with caveat. See `synthesis/tensions.json` for derivation details.
 
 **Core Tensions** — Structural trade-offs that organizations navigate differently:
 

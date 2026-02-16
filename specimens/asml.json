@@ -1,0 +1,277 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "asml",
+  "name": "ASML",
+  "title": "AI as Operational Tool Without Formal Structure",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6b",
+    "subTypeName": "Centralized-but-Unnamed",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "ASML has AI/ML capabilities embedded within R&D without a formal AI Lab or branded AI organization. There is a Head of AI Program and Strategy (Yu Cao) and Technical Program Manager AI/ML (Arnaud Hubaux), but no CAIO or C-suite AI role. AI is framed as an operational optimization tool (managing 100,000 parameters per wafer exposure) rather than a strategic transformation initiative. The company's public communications emphasize AI as a demand driver (customers need AI chips) rather than internal capability. This fits 6b: centralized capability exists without lab branding. Contextual orientation applies because same engineers balance core lithography work with AI optimization—no structural separation between exploration and execution.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Semiconductor Equipment",
+    "sector": "Technology",
+    "orgSize": "Enterprise",
+    "employees": 43000,
+    "revenue": "€28.3B (2024)",
+    "headquarters": "Veldhoven, Netherlands",
+    "geography": "Global (Netherlands, US, Taiwan, South Korea, China)"
+  },
+  "description": "ASML is the world's sole supplier of extreme ultraviolet (EUV) lithography machines—essential infrastructure for manufacturing advanced AI chips. Despite being critical to the AI supply chain, ASML's internal AI organization is minimal and unnamed. The company uses AI operationally for predictive ML in manufacturing and parameter optimization in lithography systems, but does not position AI as a strategic transformation initiative.\n\nThe structural asymmetry is notable: ASML is mentioned by every major AI company as essential infrastructure, yet ASML itself treats AI as a tactical tool rather than a strategic capability. This likely reflects their competitive moat being in physics and optics rather than software. AI optimization is embedded within existing engineering workflows—the same engineers doing core lithography work also apply AI/ML techniques. This represents textbook contextual ambidexterity.\n\nASML has partnered with Google Cloud for AI/ML infrastructure and Mistral AI for embedding AI across its product portfolio, suggesting a buy-vs-build approach to AI capabilities. The company has 14,000+ R&D employees globally, but AI/ML headcount is not disclosed and appears to be a small fraction embedded within engineering functions.",
+  "observableMarkers": {
+    "reportingStructure": "AI Program and Strategy reports unclear—likely within engineering/R&D. No CAIO or C-suite AI role. Head of AI Program and Strategy (Yu Cao) based in Santa Clara.",
+    "resourceAllocation": "AI investment embedded in R&D, not ring-fenced. Cloud partnerships (Google Cloud, Mistral AI) suggest buy-vs-build approach for AI capabilities. No specific AI budget or headcount disclosed.",
+    "timeHorizons": "Focus on near-term operational improvements (predictive ML for manufacturing). Longer-term AI R&D likely embedded in overall lithography R&D roadmap.",
+    "decisionRights": "Appears distributed—AI/ML teams have autonomy to partner with cloud providers and iterate rapidly (biweekly releases).",
+    "metrics": "Engineering efficiency (40% improvement), release cycle speed (months to biweekly), data query speed (25x faster). No AI-specific business metrics disclosed."
+  },
+  "mechanisms": [
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "Arnaud Hubaux emphasizes that Google Cloud tools require 'no need for specialized training. It just works.' Engineers 'feel like pioneers' with tools that are intuitive enough to adopt without formal training.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "AI is a game-changer for us. It helps optimize our lithography systems, which involve managing 100,000 parameters for each wafer exposure.",
+      "speaker": "Christophe Fouquet",
+      "speakerTitle": "CEO",
+      "source": "CommonWealth Magazine Interview",
+      "sourceId": "asml-commonwealth-2025",
+      "sourceDate": "2025-01",
+      "context": "Interview discussing ASML's technology and AI applications",
+      "themes": [
+        "AI as operational tool",
+        "optimization focus"
+      ]
+    },
+    {
+      "text": "AI is going to require very advanced chips, and this is going to drive EUV.",
+      "speaker": "Christophe Fouquet",
+      "speakerTitle": "CEO",
+      "source": "Earnings Call / Investor Communications",
+      "sourceId": "asml-earnings-2025",
+      "sourceDate": "2025",
+      "context": "Discussing AI-driven demand for advanced semiconductors",
+      "themes": [
+        "AI as demand driver"
+      ]
+    },
+    {
+      "text": "Many of our customers have shared a notably more positive assessment of the medium-term market situation, primarily based on more robust expectations of the sustainability of AI-related demand.",
+      "speaker": "Christophe Fouquet",
+      "speakerTitle": "CEO",
+      "source": "Q4 2025 Financial Results Press Release",
+      "sourceId": "asml-q4-2025-press",
+      "sourceDate": "2026-01-28",
+      "context": "Q4 2025 earnings press release",
+      "themes": [
+        "AI as demand driver",
+        "customer perspective"
+      ]
+    },
+    {
+      "text": "The sky's the limit with Google Cloud when it comes to automating repetitive tasks so we can focus on what really matters for customers. If we need a very fast computer, we just deploy it.",
+      "speaker": "Arnaud Hubaux",
+      "speakerTitle": "Technical Program Manager AI/ML",
+      "source": "Google Cloud Case Study",
+      "sourceId": "asml-google-cloud-case",
+      "sourceDate": "2025",
+      "context": "Case study on ASML's AI/ML cloud adoption",
+      "themes": [
+        "cloud partnership",
+        "automation"
+      ]
+    },
+    {
+      "text": "Our engineers feel like pioneers and really have pride in shaping the future of new products coming into the market. This is how they get energized. And on top of that, what they really like with Google Cloud is that there's no need for specialized training. It just works.",
+      "speaker": "Arnaud Hubaux",
+      "speakerTitle": "Technical Program Manager AI/ML",
+      "source": "Google Cloud Case Study",
+      "sourceId": "asml-google-cloud-case",
+      "sourceDate": "2025",
+      "context": "Discussing engineer adoption of AI/ML tools",
+      "themes": [
+        "engineer adoption",
+        "low friction tools"
+      ]
+    },
+    {
+      "text": "We went from months between releases to biweekly release cycles now. The fact that we're now able to reach this pace is really amazing.",
+      "speaker": "Arnaud Hubaux",
+      "speakerTitle": "Technical Program Manager AI/ML",
+      "source": "Google Cloud Case Study",
+      "sourceId": "asml-google-cloud-case",
+      "sourceDate": "2025",
+      "context": "Describing AI/ML product release velocity",
+      "themes": [
+        "velocity improvement",
+        "iteration speed"
+      ]
+    },
+    {
+      "text": "I'm more keen on building a healthy relationship. To be less customer-supplier, and more one team trying to solve a problem together.",
+      "speaker": "Arnaud Hubaux",
+      "speakerTitle": "Technical Program Manager AI/ML",
+      "source": "Google Cloud Case Study",
+      "sourceId": "asml-google-cloud-case",
+      "sourceDate": "2025",
+      "context": "Describing partnership approach with vendors",
+      "themes": [
+        "vendor partnership",
+        "collaboration model"
+      ]
+    },
+    {
+      "text": "Cuts would 'trim bloat and reduce extraneous and inefficient layers' — wants to 'make sure engineers can be engineers again.'",
+      "speaker": "Roger Dassen",
+      "speakerTitle": "CFO, ASML",
+      "source": "Dutch Review",
+      "sourceUrl": "https://dutchreview.com/news/asml-to-fire-1700-people/",
+      "timestamp": null,
+      "date": "2026-01-28"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-01",
+      "label": "1,700 Management Cuts — Matrix to Product-Dedicated Engineering",
+      "summary": "ASML cuts 1,700 positions (~4% of 43K workforce) despite record financial year (EUR 9.6B net gain 2025). Cuts primarily target management and leadership in Technology and IT divisions. Major structural shift: reorganizing Technology org 'from a project/matrix setup to one where most of our engineers will be dedicated to a specific product and module.' Simultaneously creating new engineering jobs. CFO Dassen: 'trim bloat and reduce extraneous and inefficient layers' — 'make sure engineers can be engineers again.' Making changes 'at a moment of strength.'",
+      "classification": null,
+      "sourceRefs": [
+        "dutchreview-asml-2026",
+        "tomshardware-asml-2026"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Initial observation",
+      "summary": "ASML identified as M6b (Centralized-but-Unnamed) with Contextual orientation. World's only EUV lithography supplier uses AI operationally for manufacturing optimization but has no formal AI Lab or strategic AI transformation initiative. Head of AI Program and Strategy exists but without C-suite positioning. Company frames AI primarily as demand driver (customers need AI chips) rather than internal capability. Partnerships with Google Cloud and Mistral AI suggest buy-vs-build approach.",
+      "sourceRefs": [
+        "asml-q4-2025-press",
+        "asml-google-cloud-case",
+        "asml-commonwealth-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "asml-q4-2025-press",
+      "name": "ASML Q4 2025 Financial Results Press Release",
+      "url": "https://www.asml.com/en/news/press-releases/2026/q4-2025-financial-results",
+      "type": "Press",
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-02-14",
+      "notes": "Official earnings announcement. AI mentioned only as demand driver, not internal strategy. Announced organizational restructuring to 'strengthen focus on engineering and innovation' but no AI-specific details."
+    },
+    {
+      "id": "asml-google-cloud-case",
+      "name": "Google Cloud Case Study: ASML",
+      "url": "https://cloud.google.com/customers/asml",
+      "type": "Blog",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14",
+      "notes": "Best source on ASML's internal AI/ML operations. Details predictive ML product, cloud adoption, team dynamics. Key quotes from Arnaud Hubaux."
+    },
+    {
+      "id": "asml-commonwealth-2025",
+      "name": "CommonWealth Magazine Interview - Christophe Fouquet",
+      "url": "https://english.cw.com.tw/article/article.action?id=3903",
+      "type": "Interview",
+      "sourceDate": "2025-01",
+      "collectedDate": "2026-02-14",
+      "notes": "Interview discussing ASML technology and AI applications. Source of key CEO quote on 100,000 parameters."
+    },
+    {
+      "id": "asml-imd-podcast-2025",
+      "name": "IMD CEO Dialogue Podcast - Christophe Fouquet",
+      "url": "https://www.imd.org/ibyimd/podcasts/europes-irreplaceable-innovator-asmls-ceo-on-powering-the-digital-future/",
+      "type": "Interview",
+      "sourceDate": "2025-11-10",
+      "collectedDate": "2026-02-14",
+      "notes": "Podcast landing page only - full transcript not available. Discusses EUV innovation and AI-driven chip demand."
+    },
+    {
+      "id": "asml-innovation-ecosystem",
+      "name": "ASML Innovation Ecosystem Page",
+      "url": "https://www.asml.com/en/company/sustainability/innovation-ecosystem",
+      "type": "Blog",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14",
+      "notes": "Describes R&D partnerships (imec, universities, ARCNL) but no AI-specific organizational details."
+    },
+    {
+      "id": "asml-ceo-profile-2024",
+      "name": "Introducing Christophe Fouquet, ASML's new CEO",
+      "url": "https://www.asml.com/en/news/stories/2024/christophe-fouquet-asml-ceo",
+      "type": "Press",
+      "sourceDate": "2024-04",
+      "collectedDate": "2026-02-14",
+      "notes": "Background on Fouquet appointment. French national, joined ASML 2008, CBO before CEO."
+    },
+    {
+      "id": "dutchreview-asml-2026",
+      "type": "Press",
+      "name": "Dutch Review — ASML to fire 1700 people, despite record year",
+      "url": "https://dutchreview.com/news/asml-to-fire-1700-people/",
+      "timestamp": null,
+      "sourceDate": "2026-01-28",
+      "collectedDate": "2026-02-15",
+      "notes": null
+    },
+    {
+      "id": "tomshardware-asml-2026",
+      "type": "Press",
+      "name": "Tom's Hardware — ASML to lay off employees despite AI chip boom",
+      "url": "https://www.tomshardware.com/tech-industry/asml-to-lay-off-employees-despite-ai-chip-boom-and-record-high-stock-price-company-to-streamline-it-and-technology-departments-proposed-cuts-mostly-affect-leadership-roles",
+      "timestamp": null,
+      "sourceDate": "2026-01",
+      "collectedDate": "2026-02-15",
+      "notes": null
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Short",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low",
+    "environmentalAiPull": "Strong"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.7,
+    "speedVsDepth": 0.0,
+    "centralVsDistributed": -0.3,
+    "namedVsQuiet": 0.9,
+    "longVsShortHorizon": -0.6
+  },
+  "openQuestions": [
+    "Does Yu Cao (Head of AI Program and Strategy) report to the CTO or CEO?",
+    "What is the headcount of ASML's AI/ML teams?",
+    "Is there a formal AI strategy document or internal AI organization beyond embedded functions?",
+    "How does the Mistral AI partnership translate into organizational structure or team additions?",
+    "What fraction of the 14,000+ R&D employees work on AI/ML specifically?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] ASML presents a fascinating control case: the world's most critical AI supply chain company has no formal AI organization. They are AI-enabling (their machines make AI chips) without being AI-transforming (their own operations use AI tactically, not strategically). This raises a question for the taxonomy: should we distinguish between companies that enable AI externally vs. adopt AI internally?",
+    "[2026-02] The 6b classification fits well but highlights an edge case: ASML has named AI roles (Head of AI Program and Strategy) without an AI organization. The 'unnamed' in 6b typically implies no AI leadership titles, but ASML has titles without structure. Consider whether 6b needs a variant for 'titled but unstructured' AI programs.",
+    "[2026-02] ASML's framing of AI-as-demand-driver (external) vs. AI-as-tool (internal) is structurally interesting. Their competitive moat is physics/optics, so AI is genuinely peripheral to their core capability. This may be the cleanest example of 'execution-side AI only' in the collection—AI used to optimize existing workflows with no exploration mandate."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-14",
+    "lastUpdated": "2026-02-15",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "capgemini",
+  "name": "Capgemini",
+  "title": "EUR 700M AI Restructuring — Catalyst for Enterprise-Wide AI Adoption",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6a",
+    "subTypeName": "Enterprise-Wide Adoption",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Low",
+    "classificationRationale": "Decision tree: Formal AI unit? Not described in this source — CEO frames as enterprise-wide pivot ('catalyst for enterprise-wide AI adoption'). Central team? Likely exists but not described. The EUR 700M restructuring is for 'country-specific workforce and skills adaptation initiatives' — suggesting distributed, country-level AI adoption rather than centralized lab. GenAI/agentic AI accounts for 10%+ of Group bookings (already enterprise-wide). M6a: mass adoption without formal named AI structure. Low confidence: single corporate announcement source. Contextual orientation: 'enterprise-wide AI adoption' suggests same people doing both traditional and AI work.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Professional Services",
+    "sector": "IT Consulting / Technology Services",
+    "orgSize": "Enterprise",
+    "employees": 340000,
+    "revenue": null,
+    "headquarters": "Paris, France",
+    "geography": "Global"
+  },
+  "description": "Capgemini announced EUR 700 million in restructuring charges over 2025-2026 (majority in 2026) for 'country-specific workforce and skills adaptation initiatives' to meet surging AI demand. CEO Aiman Ezzat framed this as 'clearly pivoting the Group to be the catalyst for enterprise-wide AI adoption.'\n\nGenerative and agentic AI already accounted for over 10% of Group bookings in Q4 2025, indicating substantial market traction. Expected restructuring cash outflows run approximately EUR 200M above 2025 levels. The 340,000-employee organization faces the classic professional services AI tension: restructuring human expertise while selling that same expertise to clients.\n\nThe 'catalyst' framing is noteworthy — Ezzat positions Capgemini not as an AI adopter but as the entity that enables other organizations' AI transformations, justifying internal restructuring as necessary to credibly deliver AI services externally.",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": "EUR 700M restructuring charges (2025-2026, majority in 2026). EUR 200M additional cash outflows above 2025 levels [globenewswire-capgemini-2026].",
+    "timeHorizons": "Two-year restructuring program (2025-2026).",
+    "decisionRights": null,
+    "metrics": "340,000 employees globally. GenAI/agentic AI >10% of Group bookings in Q4 2025 [globenewswire-capgemini-2026]."
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "text": "Clearly pivoting the Group to be the catalyst for enterprise-wide AI adoption.",
+      "speaker": "Aiman Ezzat",
+      "speakerTitle": "CEO, Capgemini",
+      "source": "GlobeNewsWire — Capgemini FY 2025 Results",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/02/13/3237831/0/en/Full-year-2025-results.html",
+      "timestamp": null,
+      "date": "2026-02-13"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "EUR 700M AI Restructuring Program Announced",
+      "summary": "Capgemini announces EUR 700M restructuring over 2025-2026 for 'country-specific workforce and skills adaptation.' GenAI/agentic AI >10% of Q4 bookings. CEO Ezzat: 'clearly pivoting the Group to be the catalyst for enterprise-wide AI adoption.' 340K employees globally. EUR 200M additional cash outflows above 2025.",
+      "classification": null,
+      "sourceRefs": [
+        "globenewswire-capgemini-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "globenewswire-capgemini-2026",
+      "type": "Press Release",
+      "name": "Capgemini Full-year 2025 results",
+      "url": "https://www.globenewswire.com/news-release/2026/02/13/3237831/0/en/Full-year-2025-results.html",
+      "timestamp": null,
+      "sourceDate": "2026-02-13",
+      "collectedDate": "2026-02-15",
+      "notes": "FY 2025 results announcement containing EUR 700M restructuring disclosure."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium",
+    "environmentalAiPull": "Strong"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.3,
+    "speedVsDepth": 0.2,
+    "centralVsDistributed": 0.3,
+    "namedVsQuiet": 0.5,
+    "longVsShortHorizon": 0.3
+  },
+  "openQuestions": [
+    "Does Capgemini have a CAIO or dedicated AI leadership?",
+    "What is the structure of Capgemini's internal AI capabilities vs. client-facing AI services?",
+    "How are the 'country-specific workforce and skills adaptation initiatives' structured?",
+    "What AI tools and platforms does Capgemini use internally?",
+    "How does the EUR 700M restructuring compare to competitors (Accenture, Deloitte, etc.)?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] The 'catalyst for enterprise-wide AI adoption' framing creates a recursive tension: Capgemini sells AI transformation services while undergoing its own AI transformation. This is the professional services paradox — the product is human expertise, but the restructuring reduces human headcount.",
+    "[2026-02] Part of the Feb 2026 professional services restructuring wave (Baker McKenzie, Forrester). The EUR 700M scale makes this the largest single AI restructuring investment in the collection by a professional services firm."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-15",
+    "lastUpdated": "2026-02-15",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

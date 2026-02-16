@@ -1,0 +1,67 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "the-decoder",
+  "sourceName": "The Decoder",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "None",
+  "newScannedThrough": "2026-02-14",
+  "newContent": [
+    {
+      "title": "Amazon launches AI Studio to cut film and TV production costs",
+      "date": "2026-02",
+      "url": "https://the-decoder.com/amazon-launches-ai-studio-to-cut-film-and-tv-production-costs/",
+      "relevance": "HIGH",
+      "notes": "Amazon MGM Studios creating dedicated AI Studio unit under Albert Cheng. March 2026 beta launch with industry partners. Quote: 'AI should speed up processes but not replace people.' Already using AI in 'House of David' S2 for battle scenes. Context: 30K job cuts since Oct."
+    },
+    {
+      "title": "AI industry finds its 2026 narrative: users are the bottleneck, not models",
+      "date": "2026-02",
+      "url": "https://the-decoder.com/ai-industry-finds-its-2026-narrative-as-openai-and-microsoft-argue-users-are-the-bottleneck-not-models/",
+      "relevance": "HIGH",
+      "notes": "OpenAI/Microsoft positioning: capability exceeds deployment. Fidji Simo says models 'capable of far more than how most people experience them.' ChatGPT evolving to 'super assistant' with proactive features. Codex as 'automated teammate.' Enterprise plans up to $20K/month."
+    },
+    {
+      "title": "DeepMind and Anthropic CEOs expect AI to hit entry-level jobs and internships in 2026",
+      "date": "2026-02",
+      "url": "https://the-decoder.com/deepmind-and-anthropic-ceos-expect-ai-to-hit-entry-level-jobs-and-internships-in-2026/",
+      "relevance": "HIGH",
+      "notes": "Hassabis: 'Entry-level jobs could take a hit this year' - already noticing at DeepMind. Amodei: 'Half of office jobs for young professionals' may disappear in 1-5 years. Anthropic expects 'fewer junior and mid-level employees going forward.'"
+    },
+    {
+      "title": "OpenAI manager Weil: 2026 will be for science what 2025 was for software engineering",
+      "date": "2026-02",
+      "url": "https://the-decoder.com/openai-manager-weil-2026-will-be-for-science-what-2025-was-for-software-engineering/",
+      "relevance": "MEDIUM",
+      "notes": "Kevin Weil says GPT-5 making researchers more productive. 'GPT 5.2 has read substantially every paper written in the last 30 years.' Predicts breakthrough year for AI in science."
+    },
+    {
+      "title": "ByteDance releases Seed2.0 AI model series",
+      "date": "2026-02-14",
+      "url": "https://the-decoder.com/",
+      "relevance": "MEDIUM",
+      "notes": "ByteDance Seed2.0 matches Western models at fraction of price. Relevant to cost dynamics and competition."
+    },
+    {
+      "title": "Mistral reports $400M+ annualized revenue",
+      "date": "2026-02",
+      "url": "https://the-decoder.com/",
+      "relevance": "MEDIUM",
+      "notes": "European AI sovereignty driving Mistral business growth. French AI startup success story."
+    },
+    {
+      "title": "CES 2026: Nvidia Vera Rubin platform",
+      "date": "2026-01",
+      "url": "https://the-decoder.com/ces-2026-nvidia-promises-five-times-the-ai-performance-and-ten-times-cheaper-inference-with-vera-rubin/",
+      "relevance": "LOW",
+      "notes": "Ruby GPU: 3x training compute, 5x inference compute vs Blackwell. Available H2 2026. Infrastructure context only."
+    },
+    {
+      "title": "OpenAI planning IPO for late 2026",
+      "date": "2026-02",
+      "url": "https://the-decoder.com/openai-planning-ipo-for-late-2026-fears-anthropic-might-go-public-first/",
+      "relevance": "LOW",
+      "notes": "Q4 2026 IPO planned. Fears Anthropic going public first. Financial context."
+    }
+  ],
+  "summary": "First scan of The Decoder. Found 3 HIGH-relevance organizational findings: (1) Amazon creating dedicated AI Studio unit for film/TV production - structural response to AI capabilities; (2) OpenAI/Microsoft framing 2026 as 'users are the bottleneck' - capability exceeds organizational deployment capacity, enterprise plans to $20K/month; (3) Amodei/Hassabis both report already reducing junior hiring at Anthropic/DeepMind, predict major entry-level job displacement. Key theme: AI leaders publicly acknowledging organizational restructuring already underway."
+}

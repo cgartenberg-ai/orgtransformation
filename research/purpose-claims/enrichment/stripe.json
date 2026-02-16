@@ -1,0 +1,26 @@
+{
+  "specimenId": "stripe",
+  "scannedDate": "2026-02-15",
+  "quality": "rich",
+  "claimCount": 9,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 3,
+    "higher-calling": 0,
+    "identity": 2,
+    "survival": 2,
+    "commercial-success": 0
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://stripe.com/annual-updates/2024 (rendered as code, no content)",
+    "https://assets.stripeassets.com/fzn2n1nzq965/2pt3yIHthraqR1KwXgr98U/2d69cad44de990455e9ec8744933a446/Stripe-annual-letter-2024.pdf (binary PDF not parseable)"
+  ]
+}

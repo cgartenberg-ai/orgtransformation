@@ -1,0 +1,25 @@
+{
+  "specimenId": "spotify",
+  "scannedDate": "2026-02-15",
+  "quality": "rich",
+  "claimCount": 14,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 3,
+    "higher-calling": 1,
+    "identity": 4,
+    "survival": 2,
+    "commercial-success": 2
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://joincolossus.com/episode/how-spotify-thinks/ (redirected but no transcript content available)"
+  ]
+}

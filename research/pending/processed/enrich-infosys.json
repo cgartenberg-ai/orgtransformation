@@ -1,0 +1,152 @@
+{
+  "company": "Infosys",
+  "enrichmentDate": "2026-02-14",
+  "mode": "enrich",
+  "searchesCompleted": 5,
+  "urlsFetched": 3,
+  "fetchFailures": [
+    "https://www.infosys.com/newsroom/press-releases/2026/collaboration-accelerate-ai-value-journey.html (403)",
+    "https://www.infosys.com/newsroom/press-releases/2026/collaborates-ai-first-innovation-hub.html (403)",
+    "https://scanx.trade/stock-market-news/stocks/infosys-ceo-salil-parekh-sees-ai-led-growth-opportunities-outweighing-industry-headwinds-at-davos-2026/30534686 (no content)",
+    "https://www.cnbc.com/video/2026/01/22/infosys-ceo-financial-services-one-of-the-key-ai-growth-drivers.html (no content)"
+  ],
+
+  "newFindings": {
+    "teamStructure": "Key AI leadership positions identified: Sunil Senan (Global Head of Data and AI) and Balakrishna (Bali) DR (Executive Vice President and Global Services Head for AI and Industry Verticals). No dedicated CAIO role - AI leadership distributed through these two senior positions. Infosys operates 12+ Living Labs globally for innovation.",
+    "keyPeople": [
+      {"name": "Sunil Senan", "title": "Global Head of Data and AI", "role": "Leads AI-first strategy and portfolio across Infosys", "isNew": true},
+      {"name": "Balakrishna (Bali) DR", "title": "Executive Vice President and Global Services Head for AI and Industry Verticals", "role": "Accelerating AI adoption across all service lines and internal operations", "isNew": true}
+    ],
+    "investmentSignals": "$500 million innovation fund backing Infosys' business incubator framework. Infosys Topaz platform comprises 12,000+ AI assets, 150+ pre-trained AI models, and 10+ specialized AI platforms. Company hiring 20,000 college graduates in FY27 (April 2026-March 2027).",
+    "recentDevelopments": "January 2026: Cognition partnership announced to deploy Devin (AI software engineer) across Infosys engineering and client engagements - includes co-innovation labs and enablement programs. February 2026: Citizens Bank AI-First Innovation Hub partnership. London AI Lab opened with University of Cambridge (25,000 sq ft, capacity for 200 employees). November 2025: AI-First GCC Model unveiled. October 2025: First IT services company globally to achieve ISO 42001:2023 certification for ethical AI use.",
+    "observableMarkers": {
+      "reportingStructure": "AI leadership reports through two EVP-level roles (Sunil Senan and Bali DR), not a unified CAIO. CEO Salil Parekh's term extended through 2027.",
+      "resourceAllocation": "$500M innovation fund. 323,788 total employees (as of June 2025) with 270,000+ certified as 'AI Aware.' 28M+ lines of code generated via AI. 500+ agents built.",
+      "timeHorizons": "Three-wave AI adoption strategy: Wave 1 (Nov 2022-24 months): Pilots, productivity. Wave 2 (current): IT ops, business processes. Wave 3 (next 6-12 months): Process/experience improvement, design, implementation.",
+      "decisionRights": "Central Topaz Fabric platform provides unified AI infrastructure across company. Infosys Generative AI Labs, part of Topaz, coordinates industry solutions and partner ecosystem.",
+      "metrics": "4,600 AI projects active with 90% of top 200 clients. 2,500+ generative AI projects and 200+ agentic AI projects for clients. 12 industry analyst leadership ratings in FY2026. 18,000 of 20,000 planned freshers onboarded in current fiscal. Total headcount reduced by 12,506 over past two years."
+    },
+    "classificationUpdate": "Current classification as M? (unknown model) should be updated. Evidence suggests M4 (Dedicated AI Unit) or potentially M6 (Portfolio of Units). Infosys has: (1) dedicated AI leadership roles (Sunil Senan, Bali DR), (2) centralized platform (Topaz), (3) multiple CoEs and labs (Cursor CoE, Cognition co-innovation labs, London AI Lab, Living Labs network), (4) structured AI training tiers. The multi-lab structure with central platform suggests M6 Portfolio orientation, but could also be M4 with strong platform governance."
+  },
+
+  "quotes": [
+    {
+      "text": "We will have our people working and these software agents, which make the overall economics for the client much better",
+      "speaker": "Salil Parekh",
+      "speakerTitle": "CEO and Managing Director",
+      "source": "Business Today",
+      "sourceUrl": "https://www.businesstoday.in/technology/news/story/indian-its-hiring-model-is-changingand-ai-is-the-reason-512582-2026-01-23",
+      "sourceDate": "2026-01-23",
+      "context": "Describing AI-driven delivery transformation and human-agent collaboration model"
+    },
+    {
+      "text": "In financial services, (out of) 25 of our largest clients, (in) 15 we are the AI partner of choice… These are real projects. This is not proof of concept. These are projects in banks, which are being used at scale today.",
+      "speaker": "Salil Parekh",
+      "speakerTitle": "CEO and Managing Director",
+      "source": "Davos 2026 interviews (multiple outlets)",
+      "sourceUrl": "https://www.niftytrader.in/markets/infosys-plans-to-hire-20000-graduates-in-fy27-ceo-sees-ai-as-next-big-growth-engine/",
+      "sourceDate": "2026-01",
+      "context": "Davos 2026 - discussing scale of AI adoption in financial services clients"
+    },
+    {
+      "text": "We see some places where there's compression and some places where there's growth. And we see the growth a little bit more than what we see on the compression.",
+      "speaker": "Salil Parekh",
+      "speakerTitle": "CEO and Managing Director",
+      "source": "Davos 2026 interviews",
+      "sourceUrl": "https://www.niftytrader.in/markets/infosys-plans-to-hire-20000-graduates-in-fy27-ceo-sees-ai-as-next-big-growth-engine/",
+      "sourceDate": "2026-01",
+      "context": "Davos 2026 - on balance of AI-driven revenue compression vs growth"
+    },
+    {
+      "text": "We believe we are uniquely positioned to capture market share across these value pools and emerge as the leading AI value creator for global enterprises.",
+      "speaker": "Salil Parekh",
+      "speakerTitle": "CEO and Managing Director",
+      "source": "Q3 FY26 Earnings Call",
+      "sourceUrl": "https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q3/documents/transcripts/earningscall.pdf",
+      "sourceDate": "2026-01-14",
+      "context": "Q3 FY26 earnings call guidance and positioning statement"
+    },
+    {
+      "text": "Opportunities around agentic AI require a rigorous data and governance strategy",
+      "speaker": "Sunil Senan",
+      "speakerTitle": "Global Head of Data and AI",
+      "source": "TBRI Special Report",
+      "sourceUrl": "https://tbri.com/special-reports/infosys-readies-to-deliver-outcomes-at-scale-through-ai/",
+      "sourceDate": "2025",
+      "context": "Discussing requirements for scaling agentic AI in enterprises"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "TBRI Special Report - Infosys Readies to Deliver Outcomes at Scale Through AI",
+      "url": "https://tbri.com/special-reports/infosys-readies-to-deliver-outcomes-at-scale-through-ai/",
+      "type": "Report",
+      "date": "2025",
+      "notes": "Key source for AI leadership names (Sunil Senan), $500M innovation fund, three-wave adoption strategy, ISO certification, and Topaz portfolio details"
+    },
+    {
+      "name": "Business Today - Indian IT's hiring model is changing...and AI is the reason",
+      "url": "https://www.businesstoday.in/technology/news/story/indian-its-hiring-model-is-changingand-ai-is-the-reason-512582-2026-01-23",
+      "type": "Press",
+      "date": "2026-01-23",
+      "notes": "Salil Parekh quote on human-agent model, 18K of 20K freshers onboarded"
+    },
+    {
+      "name": "Scanx Trade - Infosys CEO at Davos 2026",
+      "url": "https://scanx.trade/stock-market-news/stocks/infosys-ceo-salil-parekh-sees-ai-led-growth-opportunities-outweighing-industry-headwinds-at-davos-2026/30534686",
+      "type": "Press",
+      "date": "2026-01",
+      "notes": "4,600 AI projects with 90% of top 200 clients, 20K FY27 hires confirmed"
+    },
+    {
+      "name": "NiftyTrader - Infosys Plans to Hire 20,000 Graduates in FY27",
+      "url": "https://www.niftytrader.in/markets/infosys-plans-to-hire-20000-graduates-in-fy27-ceo-sees-ai-as-next-big-growth-engine/",
+      "type": "Press",
+      "date": "2026-01",
+      "notes": "Davos 2026 quotes on financial services AI adoption and growth vs compression"
+    },
+    {
+      "name": "Storyboard18 - TCS, Infosys, Wipro and HCL Tech headcount reduces by over 42,000",
+      "url": "https://www.storyboard18.com/how-it-works/tcs-infosys-wipro-and-hcl-tech-headcount-reduces-by-over-42000-in-two-years-77264.htm",
+      "type": "Press",
+      "date": "2025",
+      "notes": "323,788 total employees as of June 2025, 12,506 headcount reduction over two years"
+    },
+    {
+      "name": "IT Pro - Infosys announces plans to open London AI lab",
+      "url": "https://www.itpro.com/business/infosys-announces-plans-to-open-london-ai-lab",
+      "type": "Press",
+      "date": "2025",
+      "notes": "London AI Lab with Cambridge, 25K sq ft, 200-person capacity, Living Labs network (12+ globally)"
+    },
+    {
+      "name": "Infosys Q3 FY26 Earnings Call Transcript",
+      "url": "https://www.infosys.com/investors/reports-filings/quarterly-results/2025-2026/q3/documents/transcripts/earningscall.pdf",
+      "type": "Earnings Call",
+      "date": "2026-01-14",
+      "notes": "28M lines of code generated via AI, 500+ agents built, 12 analyst leadership ratings"
+    },
+    {
+      "name": "StartupNews - AI Becomes Core to Manufacturing Strategy (Infosys Knowledge Institute)",
+      "url": "https://startupnews.fyi/2026/02/14/infosys-manufacturing-tech-index-ai/",
+      "type": "Report",
+      "date": "2026-02-14",
+      "notes": "Infosys Knowledge Institute research: 75% of manufacturers formally integrated AI into roadmaps"
+    }
+  ],
+
+  "summary": "Significant enrichment achieved. Identified two key AI leadership roles (Sunil Senan as Global Head of Data and AI, Bali DR as EVP for AI and Industry Verticals) - no dedicated CAIO. Found $500M innovation fund, three-wave AI adoption strategy, and impressive scale metrics: 4,600 active AI projects, 28M lines of AI-generated code, 500+ agents built, 270K employees AI-certified. Multiple new partnerships (Cognition/Devin, Cambridge AI Lab) add to Cursor CoE already documented.",
+
+  "openQuestions": [
+    "Exact reporting relationship between Sunil Senan and Bali DR - are they peers or is there hierarchy?",
+    "What percentage of the $500M innovation fund is allocated specifically to AI vs other initiatives?",
+    "Specific headcount for the Topaz team or AI-dedicated employees (as opposed to AI-trained)"
+  ],
+
+  "botanistNotes": [
+    "The dual-leadership structure (Senan for Data/AI strategy, Bali for AI adoption/service lines) suggests a matrix model - one leader for capability, one for deployment. This is a common but sophisticated pattern for scaling AI across a 300K+ workforce.",
+    "The three-wave adoption timeline is revealing: they're explicitly in 'Wave 2' (IT ops, business processes) with 'Wave 3' (process improvement) 6-12 months out. This suggests measured, portfolio-style rollout rather than moonshot thinking.",
+    "The 12,506 headcount reduction over two years alongside 20K planned FY27 hires signals workforce recomposition, not contraction. They're replacing traditional roles with AI-augmented ones - the Parekh quote about 'people working with software agents' confirms this strategic intent."
+  ]
+}

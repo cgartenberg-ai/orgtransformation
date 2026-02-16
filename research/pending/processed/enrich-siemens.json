@@ -1,0 +1,145 @@
+{
+  "company": "Siemens",
+  "enrichmentDate": "2026-02-14",
+  "mode": "enrich",
+  "searchesCompleted": 5,
+  "urlsFetched": 5,
+  "fetchFailures": ["manufacturingdive.com - article body not accessible"],
+
+  "newFindings": {
+    "teamStructure": "Vasi Philomin reports directly to Peter Koerte (CTO/CSO), who is a Managing Board member. This establishes a clear CTO->AI EVP reporting line. Siemens will commit 'hundreds of industrial AI experts' to the NVIDIA partnership for building AI-driven manufacturing sites. The ONE Tech Company transformation program launched a year ago targets major structural changes by October 2026 and full scaling within two years.",
+    "keyPeople": [
+      {"name": "Peter Koerte", "title": "Member of the Managing Board, Chief Technology Officer and Chief Strategy Officer", "role": "Oversees Data & AI function; Philomin reports to him", "isNew": true},
+      {"name": "Ralf Thomas", "title": "Chief Financial Officer", "role": "CFO providing earnings guidance", "isNew": true}
+    ],
+    "investmentSignals": "Acquisition of Altair Engineering for €9.5 billion closed March 2025. Agreement to acquire Dotmatics for US$5.1 billion signed April 2025. AI software business recorded all-time high quarterly orders above EUR 2.5 billion in Q4 FY2025. Building world's first fully AI-driven manufacturing site at Siemens Electronics Factory in Erlangen, Germany starting 2026.",
+    "recentDevelopments": "Nine new AI-powered copilots launched across Teamcenter, Polarion, and Opcenter. Digital Twin Composer software to launch mid-2026. Partnership with NVIDIA to build 'Industrial AI Operating System.' Data-sharing alliances formed with German machine builders Trumpf and DMG Mori to train industrial AI models. AI portfolio expanded to 38 AI-enabled products (up from 35). ONE Tech Company transformation targets completion October 2026.",
+    "observableMarkers": {
+      "reportingStructure": "EVP Head of Data & AI (Philomin) → CTO/CSO (Koerte) → CEO (Busch). This is a CTO-reporting model, not CEO-direct.",
+      "resourceAllocation": "Hundreds of industrial AI experts committed to NVIDIA partnership. €9.5B Altair acquisition + $5.1B Dotmatics acquisition for software/AI capabilities. AI software orders >€2.5B quarterly.",
+      "timeHorizons": "ONE Tech Company transformation: major changes by October 2026, full scaling within 2 years. First AI-driven manufacturing site blueprint: 2026. Digital Twin Composer: mid-2026.",
+      "decisionRights": "Central Data & AI function under CTO sets AI strategy and platform capabilities. Business divisions (Digital Industries, Smart Infrastructure, Mobility) retain operational autonomy with dedicated CEOs.",
+      "metrics": "FY2025: €78.9B revenue, €10.4B net income, 318,000 employees. Q1 FY2026: €21.4B orders (+10% comparable), €19.1B revenue (+8% comparable). FY2026 EPS guidance raised to €10.70-€11.10. Industrial AI accuracy target: 95%+ (vs 60-70% raw LLM)."
+    },
+    "classificationUpdate": "Classification confirmed. The M? placeholder should likely be M4 (Federated Model with Central Platform) given: (1) central Data & AI function under CTO with dedicated EVP, (2) Xcelerator platform as unifying layer, (3) three autonomous business divisions (Digital Industries, Smart Infrastructure, Mobility) with own CEOs. The structure shows central AI capability development with federated application across divisions."
+  },
+
+  "quotes": [
+    {
+      "text": "Artificial intelligence is a strong growth driver for our businesses. We're scaling industrial AI in our core industries together with world-class partners.",
+      "speaker": "Roland Busch",
+      "speakerTitle": "President and CEO, Siemens AG",
+      "source": "Siemens Q1 FY2026 Earnings Release",
+      "sourceUrl": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q1-fy-2026",
+      "sourceDate": "2026-02-12",
+      "context": "Q1 FY2026 earnings announcement"
+    },
+    {
+      "text": "Industrial AI is no longer a feature; it's a force that will reshape the next century. Siemens is delivering AI-native capabilities, intelligence embedded end-to-end across design, engineering and operations, to help our customers anticipate issues, accelerate innovation and reduce cost.",
+      "speaker": "Roland Busch",
+      "speakerTitle": "President and CEO, Siemens AG",
+      "source": "Siemens CES 2026 Keynote Press Release",
+      "sourceUrl": "https://press.siemens.com/global/en/pressrelease/siemens-unveils-industrial-tech-ai-era-ces-2026-keynote",
+      "sourceDate": "2025-11-24",
+      "context": "CES 2026 keynote announcement"
+    },
+    {
+      "text": "AI doesn't respect silos. AI doesn't respect data silos, doesn't respect any kind of boundaries.",
+      "speaker": "Roland Busch",
+      "speakerTitle": "President and CEO, Siemens AG",
+      "source": "TechBuzz AI article",
+      "sourceUrl": "https://www.techbuzz.ai/articles/siemens-ceo-ai-powered-factories-need-humans-just-fewer-of-them",
+      "sourceDate": "2026-01",
+      "context": "Discussing organizational transformation rationale"
+    },
+    {
+      "text": "We give people an opportunity to contribute, to bring their ideas, but we have a clear idea of where we want to go.",
+      "speaker": "Roland Busch",
+      "speakerTitle": "President and CEO, Siemens AG",
+      "source": "TechBuzz AI article",
+      "sourceUrl": "https://www.techbuzz.ai/articles/siemens-ceo-ai-powered-factories-need-humans-just-fewer-of-them",
+      "sourceDate": "2026-01",
+      "context": "Describing change management philosophy during ONE Tech Company transformation"
+    },
+    {
+      "text": "I'm thrilled to join Siemens at a time when the boundaries between the physical and digital worlds are being redrawn by AI.",
+      "speaker": "Vasi Philomin",
+      "speakerTitle": "EVP and Head of Data & Artificial Intelligence, Siemens AG",
+      "source": "Siemens Press Release",
+      "sourceUrl": "https://press.siemens.com/global/en/pressrelease/ai-leader-vasi-philomin-joins-siemens-scale-industrial-ai-innovation",
+      "sourceDate": "2025-05",
+      "context": "Appointment announcement"
+    },
+    {
+      "text": "The next great frontier for artificial intelligence is the physical world – powering machines, factories, and infrastructure that sense, reason, and act.",
+      "speaker": "Vasi Philomin",
+      "speakerTitle": "EVP and Head of Data & Artificial Intelligence, Siemens AG",
+      "source": "Siemens Press Release",
+      "sourceUrl": "https://press.siemens.com/global/en/pressrelease/ai-leader-vasi-philomin-joins-siemens-scale-industrial-ai-innovation",
+      "sourceDate": "2025-05",
+      "context": "Appointment announcement"
+    },
+    {
+      "text": "We are delighted to welcome Vasi Philomin to Siemens. Vasi brings a rare combination of deep technical expertise, strategic vision, and strong record in execution.",
+      "speaker": "Peter Koerte",
+      "speakerTitle": "Member of the Managing Board, CTO and CSO, Siemens AG",
+      "source": "Siemens Press Release",
+      "sourceUrl": "https://press.siemens.com/global/en/pressrelease/ai-leader-vasi-philomin-joins-siemens-scale-industrial-ai-innovation",
+      "sourceDate": "2025-05",
+      "context": "Announcing Philomin hire"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Siemens Press Release - Philomin Appointment",
+      "url": "https://press.siemens.com/global/en/pressrelease/ai-leader-vasi-philomin-joins-siemens-scale-industrial-ai-innovation",
+      "type": "Press",
+      "date": "2025-05",
+      "notes": "Key source for Philomin's role, reporting structure to Peter Koerte, and responsibilities. Confirms CTO-reporting model."
+    },
+    {
+      "name": "Siemens Q1 FY2026 Earnings Release",
+      "url": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q1-fy-2026",
+      "type": "Earnings Call",
+      "date": "2026-02-12",
+      "notes": "Latest financials, raised guidance, Busch quote on AI as growth driver."
+    },
+    {
+      "name": "TechBuzz AI - Siemens CEO Interview",
+      "url": "https://www.techbuzz.ai/articles/siemens-ceo-ai-powered-factories-need-humans-just-fewer-of-them",
+      "type": "Interview",
+      "date": "2026-01",
+      "notes": "Rich source on AI accuracy challenges (60-70% → 95%), data-sharing with Trumpf/DMG Mori, ONE Tech Company transformation timeline."
+    },
+    {
+      "name": "Siemens CES 2026 Keynote Press Release",
+      "url": "https://press.siemens.com/global/en/pressrelease/siemens-unveils-industrial-tech-ai-era-ces-2026-keynote",
+      "type": "Conference",
+      "date": "2025-11-24",
+      "notes": "CES 2026 announcements including NVIDIA partnership, nine new copilots, Digital Twin Composer."
+    },
+    {
+      "name": "Siemens Q4 FY2025 Earnings Release",
+      "url": "https://press.siemens.com/global/en/pressrelease/earnings-release-and-financial-results-q4-fy-2025",
+      "type": "Earnings Call",
+      "date": "2025-11",
+      "notes": "AI software orders >€2.5B record, Altair/Dotmatics acquisitions, ONE Tech Company program milestones."
+    }
+  ],
+
+  "summary": "Significant new structural detail found: Philomin reports to CTO Peter Koerte (not directly to CEO), establishing a CTO-reporting AI model. Major investments confirmed: €9.5B Altair + $5.1B Dotmatics acquisitions, >€2.5B quarterly AI software orders. ONE Tech Company transformation has concrete timeline (October 2026 major changes, 2-year scaling). Data-sharing alliances with Trumpf and DMG Mori for industrial model training add specificity to the 'industrial AI models' approach.",
+
+  "openQuestions": [
+    "Exact headcount of central Data & AI organization under Philomin",
+    "Percentage of R&D budget allocated specifically to AI",
+    "How the 'hundreds of industrial AI experts' committed to NVIDIA partnership are organized",
+    "Whether Philomin's team is a new organization or absorbed existing AI teams"
+  ],
+
+  "botanistNotes": [
+    "The CTO-reporting model (Philomin → Koerte → Busch) suggests AI is positioned as a technology/platform capability rather than a business transformation function. This contrasts with CEO-reporting CAIO models seen at other specimens.",
+    "Busch's 'AI doesn't respect silos' quote directly ties the ONE Tech Company transformation to AI implementation needs—the organizational change is explicitly AI-driven, not the reverse.",
+    "The 60-70% → 95% accuracy journey through domain-specific training reveals why industrial AI requires different organizational arrangements than consumer AI—the tolerance for error is fundamentally different."
+  ]
+}

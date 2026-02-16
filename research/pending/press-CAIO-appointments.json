@@ -1,0 +1,172 @@
+{
+  "mode": "press-keyword",
+  "keyword": "CAIO-appointments",
+  "scannedDate": "2026-02-15",
+  "searchesCompleted": 3,
+  "urlsFetched": 7,
+  "findings": [
+    {
+      "company": "AllianceBernstein",
+      "finding": "Created Chief AI Officer role; CAIO reports to Chief Operating Officer focusing on outcomes rather than tools",
+      "keyPeople": [{"name": "Andrew Chin", "title": "Chief AI Officer"}],
+      "quotes": [{"text": "For AI, the focus has to be on the outcomes, not on the tools.", "speaker": "Andrew Chin", "source": "https://fortune.com/2025/09/03/chief-ai-officer-alliancebernstein-gen-digital/"}],
+      "sourceUrl": "https://fortune.com/2025/09/03/chief-ai-officer-alliancebernstein-gen-digital/",
+      "sourceDate": "2025-09-03",
+      "structuralRelevance": "high"
+    },
+    {
+      "company": "Intuit",
+      "finding": "Transitioned Chief Data Officer role to Chief AI Officer; CAIO reports to CTO",
+      "keyPeople": [
+        {"name": "Ashok Srivastava", "title": "Chief AI Officer (formerly SVP and Chief Data Officer)"},
+        {"name": "Alex Balazs", "title": "CTO (CAIO reports to)"}
+      ],
+      "quotes": [],
+      "sourceUrl": "https://fortune.com/2025/09/03/chief-ai-officer-alliancebernstein-gen-digital/",
+      "sourceDate": "2025-09-03",
+      "structuralRelevance": "high"
+    },
+    {
+      "company": "Gen Digital",
+      "finding": "Appointed Chief AI Officer focused on product enhancement and team productivity",
+      "keyPeople": [{"name": "Howie Xu", "title": "Chief AI Officer"}],
+      "quotes": [{"text": "You don't really need a chief AI officer if you are only talking about AI making some changes for productivity.", "speaker": "Howie Xu", "source": "https://fortune.com/2025/09/03/chief-ai-officer-alliancebernstein-gen-digital/"}],
+      "sourceUrl": "https://fortune.com/2025/09/03/chief-ai-officer-alliancebernstein-gen-digital/",
+      "sourceDate": "2025-09-03",
+      "structuralRelevance": "high"
+    },
+    {
+      "company": "Fetch",
+      "finding": "Hired Chief AI Officer; recruited from Google after 18+ years",
+      "keyPeople": [{"name": "Gowtham Gundu", "title": "Chief AI Officer"}],
+      "quotes": [],
+      "sourceUrl": "https://fortune.com/2025/09/03/chief-ai-officer-alliancebernstein-gen-digital/",
+      "sourceDate": "2025-09-03",
+      "structuralRelevance": "medium"
+    },
+    {
+      "company": "Principal Financial Group",
+      "finding": "Chief Data and Analytics Officer working with CIO on AI strategy (no dedicated CAIO)",
+      "keyPeople": [{"name": "Rajesh Arora", "title": "Chief Data and Analytics Officer"}],
+      "quotes": [{"text": "This is not going to be once and done. We're going to continue to enhance our posture.", "speaker": "Rajesh Arora", "source": "https://fortune.com/2025/09/03/chief-ai-officer-alliancebernstein-gen-digital/"}],
+      "sourceUrl": "https://fortune.com/2025/09/03/chief-ai-officer-alliancebernstein-gen-digital/",
+      "sourceDate": "2025-09-03",
+      "structuralRelevance": "medium"
+    },
+    {
+      "company": "Ivalua",
+      "finding": "Founder David Khuat-Duy shifted from CEO to Chief AI Officer; first objective was to deploy AI internally then take lessons to customers",
+      "keyPeople": [{"name": "David Khuat-Duy", "title": "Chief AI Officer (formerly CEO and Founder)"}],
+      "quotes": [{"text": "There's a lot of data categorization, storage, cleaning that needs to happen.", "speaker": "David Khuat-Duy", "source": "https://www.informationweek.com/machine-learning-ai/how-will-the-role-of-chief-ai-officer-evolve-in-2025-"}],
+      "sourceUrl": "https://www.informationweek.com/machine-learning-ai/how-will-the-role-of-chief-ai-officer-evolve-in-2025-",
+      "sourceDate": "2025-04-18",
+      "structuralRelevance": "high"
+    },
+    {
+      "company": "LinkedIn",
+      "finding": "Appointed Chief AI Officer at beginning of 2025; CAIO serves as internal advocate for AI while guiding teams through regulations and ethics",
+      "keyPeople": [{"name": "Deepak Agarwal", "title": "Chief AI Officer"}],
+      "quotes": [{"text": "Chief AI officers must also serve as internal advocates for AI while guiding teams through emerging regulations and ethical considerations.", "speaker": "Deepak Agarwal", "source": "https://www.informationweek.com/machine-learning-ai/how-will-the-role-of-chief-ai-officer-evolve-in-2025-"}],
+      "sourceUrl": "https://www.informationweek.com/machine-learning-ai/how-will-the-role-of-chief-ai-officer-evolve-in-2025-",
+      "sourceDate": "2025-04-18",
+      "structuralRelevance": "high"
+    },
+    {
+      "company": "Dell Technologies",
+      "finding": "CTO also serves as Chief AI Officer (combined role)",
+      "keyPeople": [{"name": "John Roese", "title": "CTO and Chief AI Officer"}],
+      "quotes": [],
+      "sourceUrl": "https://www.informationweek.com/machine-learning-ai/how-will-the-role-of-chief-ai-officer-evolve-in-2025-",
+      "sourceDate": "2025-04-18",
+      "structuralRelevance": "medium"
+    },
+    {
+      "company": "Abu Dhabi Commercial Bank",
+      "finding": "Hired Chief AI Officer",
+      "keyPeople": [{"name": "Shameek Kundu", "title": "Chief AI Officer"}],
+      "quotes": [],
+      "sourceUrl": "https://db.financialexpressb2b.com/features/emergence-of-chief-ai-officer-how-enterprises-should-gear-up",
+      "sourceDate": "2025-01-01",
+      "structuralRelevance": "medium"
+    },
+    {
+      "company": "Motilal Oswal Financial Service",
+      "finding": "Selected first Chief AI Officer",
+      "keyPeople": [{"name": "Siddharth Sureka", "title": "Chief AI Officer"}],
+      "quotes": [],
+      "sourceUrl": "https://db.financialexpressb2b.com/features/emergence-of-chief-ai-officer-how-enterprises-should-gear-up",
+      "sourceDate": "2025-01-01",
+      "structuralRelevance": "medium"
+    },
+    {
+      "company": "Jindal Steel and Power",
+      "finding": "Hired former BharatPe Chief Data Officer as Chief AI Officer",
+      "keyPeople": [{"name": "Ritesh Mohan Srivastava", "title": "Chief AI Officer (formerly Chief Data Officer at BharatPe)"}],
+      "quotes": [],
+      "sourceUrl": "https://db.financialexpressb2b.com/features/emergence-of-chief-ai-officer-how-enterprises-should-gear-up",
+      "sourceDate": "2025-01-01",
+      "structuralRelevance": "medium"
+    },
+    {
+      "company": "Mirae Asset Global Investments",
+      "finding": "Appointed first Chief AI Officer",
+      "keyPeople": [{"name": "Nishant Pradhan", "title": "Chief AI Officer"}],
+      "quotes": [],
+      "sourceUrl": "https://db.financialexpressb2b.com/features/emergence-of-chief-ai-officer-how-enterprises-should-gear-up",
+      "sourceDate": "2025-01-01",
+      "structuralRelevance": "medium"
+    },
+    {
+      "company": "UK Government",
+      "finding": "Created first Chief AI Officer role in public sector; CAIO oversees AI teams at Government Digital Service within DSIT, leads testing and scaling across government",
+      "keyPeople": [{"name": "Kalbir Sohi", "title": "Chief AI Officer"}],
+      "quotes": [],
+      "sourceUrl": "https://www.globalgovernmentforum.com/uk-government-appoints-first-chief-ai-officer/",
+      "sourceDate": "2026-01-06",
+      "structuralRelevance": "low"
+    },
+    {
+      "company": "FDA (US)",
+      "finding": "Created first Chief AI Officer role; launched Elsa generative AI tool for employee efficiency",
+      "keyPeople": [{"name": "Jeremy Walsh", "title": "Chief AI Officer"}],
+      "quotes": [],
+      "sourceUrl": "https://govciomedia.com/the-caios-leading-responsible-ai-development-across-government/",
+      "sourceDate": "2026-02-13",
+      "structuralRelevance": "low"
+    },
+    {
+      "company": "DHS (US)",
+      "finding": "Chief AI Officer also serves as CIO; responsible for AI innovation and responsible use",
+      "keyPeople": [{"name": "Antoine McCord", "title": "Chief AI Officer and CIO"}],
+      "quotes": [],
+      "sourceUrl": "https://govciomedia.com/the-caios-leading-responsible-ai-development-across-government/",
+      "sourceDate": "2026-02-13",
+      "structuralRelevance": "low"
+    }
+  ],
+  "industryStats": {
+    "ibm2025": "26% of 2,300 organizations now have a CAIO, up from 11% two years earlier",
+    "dataiq2025": "33.1% have appointed CAIO; 43.9% believe role should be created; 48% of FTSE 100 have CAIO or equivalent",
+    "aws2026": "60% have established CAIO; additional 26% intend to do so in 2026",
+    "fortune500Projection": "Over 40% of Fortune 500 companies expected to have CAIO by end of 2026"
+  },
+  "roleEvolution": {
+    "observation": "CAIO role evolving from symbolic/exploratory (CAIO 1.0) to operational/consequential (CAIO 2.0)",
+    "quote": "The CAIO role is evolving from a symbolic appointment into something far more operational and consequential.",
+    "source": "https://www.cio.com/article/4126708/the-curious-evolution-of-the-chief-ai-officer.html"
+  },
+  "summary": "Sweep found 15 CAIO appointments across private and public sectors. Key patterns: (1) Several firms transitioned existing CDO/data roles to CAIO rather than creating net-new positions (Intuit, Jindal Steel); (2) Some combined CAIO with existing C-suite roles like CTO or CIO (Dell, DHS); (3) Ivalua's founder moved from CEO to CAIO—unusual structural signal of AI priority; (4) LinkedIn CAIO explicitly positioned as internal AI advocate + regulatory/ethics guide. Industry surveys show rapid adoption: 26-60% of organizations now have CAIO depending on methodology, with 40%+ of Fortune 500 expected by end of 2026. Government excluded from specimen candidates per project rules.",
+  "newSpecimenCandidates": [
+    "AllianceBernstein",
+    "Intuit",
+    "Gen Digital",
+    "Fetch",
+    "Ivalua",
+    "LinkedIn",
+    "Dell Technologies",
+    "Abu Dhabi Commercial Bank",
+    "Motilal Oswal Financial Service",
+    "Jindal Steel and Power",
+    "Mirae Asset Global Investments"
+  ]
+}

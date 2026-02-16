@@ -28,7 +28,7 @@
   "observableMarkers": {
     "reportingStructure": "Demis Hassabis leads unified Google DeepMind [source-3]. Reports to Sundar Pichai [fool-alphabet-q4-2025].",
     "resourceAllocation": "CapEx guidance: $175-185B for 2026 (nearly doubling from $91.4B in 2025) [fool-alphabet-q4-2025]. Breakdown: 60% servers/compute, 40% data centers/networking [fool-alphabet-q4-2025]. Half of ML compute allocated to Cloud [fool-alphabet-q4-2025]. Continued hiring in AI and Cloud [fool-alphabet-q4-2025].",
-    "timeHorizons": "Supply-constrained through 2026 — demand outpacing capacity buildout [fool-alphabet-q4-2025-feb].",
+    "timeHorizons": "Supply-constrained through 2026 \u2014 demand outpacing capacity buildout [fool-alphabet-q4-2025-feb].",
     "decisionRights": null,
     "metrics": "2,500 to 5,600 employees (post-merger) [source-3]. Gemini: 750M MAU (up from 650M Q3), 10B+ tokens/day via API [fool-alphabet-q4-2025]. Gemini 3 Pro processes 3x daily tokens vs 2.5 Pro [fool-alphabet-q4-2025]. 8M+ paid Gemini Enterprise seats [fool-alphabet-q4-2025]. 120,000+ enterprises using Gemini [fool-alphabet-q4-2025]. Gemini serving costs down 78% in 2025 [fool-alphabet-q4-2025]. Google Cloud backlog: $240B (+55% QoQ from $155B) [fool-alphabet-q4-2025]. ~50% of Google code now AI-generated [fool-alphabet-q4-2025-feb]. Alphabet Q4 2025: $97.23B revenue (+19% YoY), EPS $2.82 [fool-alphabet-q4-2025]."
   },
@@ -45,7 +45,7 @@
       "text": "I do [expect] to go through the year in a supply constrained way.",
       "speaker": "Sundar Pichai",
       "speakerTitle": "CEO",
-      "context": "Q&A, Q4 2025 earnings call — on whether AI compute capacity will be sufficient in 2026",
+      "context": "Q&A, Q4 2025 earnings call \u2014 on whether AI compute capacity will be sufficient in 2026",
       "sourceRef": "fool-alphabet-q4-2025-feb"
     },
     {
@@ -66,6 +66,16 @@
   "layers": [
     {
       "date": "2026-02",
+      "label": "Q4 2025 Earnings Enrichment \u2014 CapEx, Gemini Scale, Cloud Backlog",
+      "summary": "Additional Q4 2025 earnings data: CapEx guidance $175-185B for 2026 (nearly 2x 2025 $91.4B). Gemini app 750M+ MAUs. 8M Gemini Enterprise paid seats in ~4 months. Cloud backlog $240B (55% sequential growth from $155B). 10B+ tokens/minute via API. Gemini 3 Pro processing 3x daily tokens vs 2.5 Pro. Serving costs lowered 78% over 2025. Intent to acquire Intersect (data center/energy). Cloud revenue $17.7B (+48% YoY), operating margin 30.1%.",
+      "classification": null,
+      "sourceRefs": [
+        "fool-alphabet-q4-2025-transcript",
+        "fortune-alphabet-ai-spending"
+      ]
+    },
+    {
+      "date": "2026-02",
       "label": "Citation Backfill",
       "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
       "classification": null,
@@ -74,7 +84,7 @@
     {
       "date": "2026-02",
       "label": "Overnight research scan",
-      "summary": "New data from Q4 2025 earnings: **50% of Google code now AI-generated** — CFO Ashkenazi revealed approximately half of Google's code is written by AI agents with human review. Supply constraints expected through 2026 (Pichai). Continued hiring in AI/Cloud confirmed. CapEx breakdown clarified: 60% servers/compute, 40% data centers/networking. Added 3 executive quotes on infrastructure investment posture.",
+      "summary": "New data from Q4 2025 earnings: **50% of Google code now AI-generated** \u2014 CFO Ashkenazi revealed approximately half of Google's code is written by AI agents with human review. Supply constraints expected through 2026 (Pichai). Continued hiring in AI/Cloud confirmed. CapEx breakdown clarified: 60% servers/compute, 40% data centers/networking. Added 3 executive quotes on infrastructure investment posture.",
       "classification": null,
       "sourceRefs": [
         "fool-alphabet-q4-2025-feb",
@@ -83,8 +93,8 @@
     },
     {
       "date": "2026-02",
-      "label": "Q4 2025 Earnings — CapEx Surge + Gemini 3 Metrics",
-      "summary": "Q4 2025 (reported Feb 4): Revenue $97.23B (+19% YoY), EPS $2.82 (beat by 9.73%). **CapEx guidance: $175-185B for 2026** — nearly doubling from $91-93B in 2025. Just over half of ML compute goes to Cloud. Gemini 3 Pro processing 3x daily tokens vs 2.5 Pro. **Gemini serving costs down 78%** through model optimization. Gemini app: 750M MAU (was 650M Q3). 8M+ paid Gemini Enterprise seats. 120,000+ enterprises using Gemini (95% of top 20 SaaS). **Cloud backlog: $240B** (was $155B Q3 — +55% QoQ). No DeepMind org structure changes announced. Research-to-product pipeline: 'All the innovation...Imagen, Veo, Liria, Genie...we bring into our products and cloud customers.'",
+      "label": "Q4 2025 Earnings \u2014 CapEx Surge + Gemini 3 Metrics",
+      "summary": "Q4 2025 (reported Feb 4): Revenue $97.23B (+19% YoY), EPS $2.82 (beat by 9.73%). **CapEx guidance: $175-185B for 2026** \u2014 nearly doubling from $91-93B in 2025. Just over half of ML compute goes to Cloud. Gemini 3 Pro processing 3x daily tokens vs 2.5 Pro. **Gemini serving costs down 78%** through model optimization. Gemini app: 750M MAU (was 650M Q3). 8M+ paid Gemini Enterprise seats. 120,000+ enterprises using Gemini (95% of top 20 SaaS). **Cloud backlog: $240B** (was $155B Q3 \u2014 +55% QoQ). No DeepMind org structure changes announced. Research-to-product pipeline: 'All the innovation...Imagen, Veo, Liria, Genie...we bring into our products and cloud customers.'",
       "classification": null,
       "sourceRefs": [
         "fool-alphabet-q4-2025"
@@ -93,7 +103,7 @@
     {
       "date": "2026-02",
       "label": "Q3 2025 Results + Identity Narrative Shift + Pre-Q4 Preview",
-      "summary": "Q3 2025: Alphabet revenue $102.3B (+16%), net income $35B (+33%), EPS $2.87 (+35%). Gemini: 650M monthly active users, queries 3x from Q2, 7 billion tokens/minute via API. Google Cloud: revenue up 34%, backlog expanded $49B sequentially to $155B (+46% QoQ). 13M+ developers building with generative models, 230M+ videos generated with Veo 3. CapEx guidance: $91-93B for full year 2025. Analyst narrative shift: Google evolving 'from an advertising giant that uses AI to an AI company that monetizes through advertising, cloud, and consumer platforms' — an identity-level structural reframing. Gemini 3 expected to launch next. Q4 2025 earnings scheduled Feb 4 — not yet reported at time of collection. Key questions for Q4: AI adoption in Search (AI Overviews), Workspace, and enterprise Cloud; any DeepMind/Google AI org structure updates.",
+      "summary": "Q3 2025: Alphabet revenue $102.3B (+16%), net income $35B (+33%), EPS $2.87 (+35%). Gemini: 650M monthly active users, queries 3x from Q2, 7 billion tokens/minute via API. Google Cloud: revenue up 34%, backlog expanded $49B sequentially to $155B (+46% QoQ). 13M+ developers building with generative models, 230M+ videos generated with Veo 3. CapEx guidance: $91-93B for full year 2025. Analyst narrative shift: Google evolving 'from an advertising giant that uses AI to an AI company that monetizes through advertising, cloud, and consumer platforms' \u2014 an identity-level structural reframing. Gemini 3 expected to launch next. Q4 2025 earnings scheduled Feb 4 \u2014 not yet reported at time of collection. Key questions for Q4: AI adoption in Search (AI Overviews), Workspace, and enterprise Cloud; any DeepMind/Google AI org structure updates.",
       "classification": null,
       "sourceRefs": [
         "alphabet-ir-q3-2025",
@@ -106,7 +116,7 @@
     {
       "date": "2025-10",
       "label": "Historical AI Org Evolution (Acquired Deep-Scan)",
-      "summary": "Acquired 'Google: The AI Company' deep-scan reveals 25-year arc. Early decentralized AI (2001-2009, Shazeer/Herrick working informally). Google X as AI incubator (2009, Thrun's academic consultant model). Brain team (2011, Dean/Ng/Corrado). DNN Research acquisition ($44M, Hinton/Krizhevsky/Sutskever). DeepMind acquisition ($550M, 2014) kept operationally separate in London with independent oversight board. Dual structure (Brain = products, DeepMind = AGI research) preserved mission integrity but may have delayed ChatGPT response. Talent exodus: Rosewood Hotel dinner (2015) → Sutskever → OpenAI. Gemini response. 450M users by Oct 2025.",
+      "summary": "Acquired 'Google: The AI Company' deep-scan reveals 25-year arc. Early decentralized AI (2001-2009, Shazeer/Herrick working informally). Google X as AI incubator (2009, Thrun's academic consultant model). Brain team (2011, Dean/Ng/Corrado). DNN Research acquisition ($44M, Hinton/Krizhevsky/Sutskever). DeepMind acquisition ($550M, 2014) kept operationally separate in London with independent oversight board. Dual structure (Brain = products, DeepMind = AGI research) preserved mission integrity but may have delayed ChatGPT response. Talent exodus: Rosewood Hotel dinner (2015) \u2192 Sutskever \u2192 OpenAI. Gemini response. 450M users by Oct 2025.",
       "classification": null,
       "sourceRefs": [
         "source-3"
@@ -155,12 +165,12 @@
       "timestamp": null,
       "sourceDate": null,
       "collectedDate": "2026-01-20",
-      "notes": "[paywall] [no URL — legacy conversion]"
+      "notes": "[paywall] [no URL \u2014 legacy conversion]"
     },
     {
       "id": "source-3",
       "type": "Podcast",
-      "name": "Acquired — Google: The AI Company",
+      "name": "Acquired \u2014 Google: The AI Company",
       "url": "https://www.acquired.fm/episodes/google-the-ai-company",
       "timestamp": null,
       "sourceDate": "2025-10-05",
@@ -170,7 +180,7 @@
     {
       "id": "alphabet-ir-q3-2025",
       "type": "Earnings Call",
-      "name": "Alphabet IR — Q3 2025 Earnings Release",
+      "name": "Alphabet IR \u2014 Q3 2025 Earnings Release",
       "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q3/2025q3-alphabet-earnings-release.pdf",
       "timestamp": null,
       "sourceDate": "2025-10-30",
@@ -180,7 +190,7 @@
     {
       "id": "fool-alphabet-q3-2025",
       "type": "Earnings Call",
-      "name": "Motley Fool — Alphabet Q3 2025 Earnings Call Transcript",
+      "name": "Motley Fool \u2014 Alphabet Q3 2025 Earnings Call Transcript",
       "url": "https://www.fool.com/earnings/call-transcripts/2025/11/27/alphabet-googl-q3-2025-earnings-call-transcript/",
       "timestamp": null,
       "sourceDate": "2025-11-27",
@@ -190,7 +200,7 @@
     {
       "id": "saxo-alphabet-q3-2025",
       "type": "Earnings Call",
-      "name": "Saxo — Alphabet Q3 2025 Earnings Analysis",
+      "name": "Saxo \u2014 Alphabet Q3 2025 Earnings Analysis",
       "url": "https://www.home.saxo/content/articles/equities/googl-earnings-30102025",
       "timestamp": null,
       "sourceDate": "2025-10-30",
@@ -200,7 +210,7 @@
     {
       "id": "alphabet-ir-q4-date",
       "type": "Press",
-      "name": "Alphabet IR — Q4 2025 Earnings Call Schedule",
+      "name": "Alphabet IR \u2014 Q4 2025 Earnings Call Schedule",
       "url": "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
       "timestamp": null,
       "sourceDate": "2026-01-23",
@@ -210,7 +220,7 @@
     {
       "id": "ig-alphabet-q4-preview",
       "type": "Press",
-      "name": "IG Bank — Alphabet Q4 Earnings Preview",
+      "name": "IG Bank \u2014 Alphabet Q4 Earnings Preview",
       "url": "https://www.ig.com/en-ch/news-and-trade-ideas/alphabet-q4-earnings-preview-will-cloud-and-ai-justify-the-4t-valuation-260202",
       "timestamp": null,
       "sourceDate": "2026-02-02",
@@ -220,7 +230,7 @@
     {
       "id": "fool-alphabet-q4-2025",
       "type": "Earnings Call",
-      "name": "Motley Fool — Alphabet Q4 2025 Earnings Call Transcript",
+      "name": "Motley Fool \u2014 Alphabet Q4 2025 Earnings Call Transcript",
       "url": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
       "timestamp": null,
       "sourceDate": "2026-02-04",
@@ -230,7 +240,7 @@
     {
       "id": "fool-alphabet-q4-2025-feb",
       "type": "Earnings Call",
-      "name": "Motley Fool — Alphabet Q4 2025 Earnings Call Transcript (Feb scan)",
+      "name": "Motley Fool \u2014 Alphabet Q4 2025 Earnings Call Transcript (Feb scan)",
       "url": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
       "timestamp": null,
       "sourceDate": "2026-02-04",
@@ -240,12 +250,20 @@
     {
       "id": "9to5-alphabet-q4-2025",
       "type": "Press",
-      "name": "9to5Google — Alphabet Q4 2025 Earnings",
+      "name": "9to5Google \u2014 Alphabet Q4 2025 Earnings",
       "url": "https://9to5google.com/2026/02/04/alphabet-q4-2025-earnings/",
       "timestamp": null,
       "sourceDate": "2026-02-04",
       "collectedDate": "2026-02-07",
       "notes": "Pichai on AI investments driving revenue across the board."
+    },
+    {
+      "id": "fortune-alphabet-ai-spending",
+      "type": "Press",
+      "name": "Fortune \u2014 Alphabet Google AI Spending Supply Constraints",
+      "url": "https://fortune.com/2026/02/04/alphabet-google-ai-spending-supply-constraints/",
+      "sourceDate": "2026-02-04",
+      "collectedDate": "2026-02-15"
     }
   ],
   "contingencies": {
@@ -267,19 +285,19 @@
     "What is the relationship between Gemini team and DeepMind? Still merged? Functional split?",
     "How does 50% AI-generated code change the role of human engineers? What review/oversight structure exists?",
     "Does the 50% code metric apply uniformly across Google, or is DeepMind different?",
-    "What happens when supply constraints ease — does investment posture change?"
+    "What happens when supply constraints ease \u2014 does investment posture change?"
   ],
   "taxonomyFeedback": [
-    "The analyst narrative shift — 'from an advertising giant that uses AI to an AI company that monetizes through advertising' — represents an identity-level structural reframing. If this narrative takes hold internally, it could drive reclassification: Google DeepMind shifts from a research lab within an ad company to the core capability of an AI company. This blurs the M1/M4 boundary further.",
-    "Cloud backlog at $155B and 34% growth suggests enterprise AI is becoming a core revenue driver for Alphabet, not a side bet. This changes the structural relationship between DeepMind (research) and Cloud (commercialization) — the research-to-product pipeline is now a major revenue pipeline.",
-    "[2026-02] The '50% of code AI-generated' finding is a major structural marker. If AI agents write half the code with human review, this fundamentally changes the labor model of software production. Google is not just building AI — they are being transformed by it internally. This is a strong signal for the 'AI-native organization' pattern we're tracking. However, unclear if this applies to DeepMind specifically or just Google overall.",
-    "[2026-02] CapEx nearly doubling ($91B → $175-185B) while Pichai expects supply constraints all year suggests demand is outrunning even aggressive capacity buildout. This is infrastructure-level commitment that locks in the AI-centric strategy for years. Cloud backlog at $240B (+55% QoQ) confirms enterprise demand is real.",
+    "The analyst narrative shift \u2014 'from an advertising giant that uses AI to an AI company that monetizes through advertising' \u2014 represents an identity-level structural reframing. If this narrative takes hold internally, it could drive reclassification: Google DeepMind shifts from a research lab within an ad company to the core capability of an AI company. This blurs the M1/M4 boundary further.",
+    "Cloud backlog at $155B and 34% growth suggests enterprise AI is becoming a core revenue driver for Alphabet, not a side bet. This changes the structural relationship between DeepMind (research) and Cloud (commercialization) \u2014 the research-to-product pipeline is now a major revenue pipeline.",
+    "[2026-02] The '50% of code AI-generated' finding is a major structural marker. If AI agents write half the code with human review, this fundamentally changes the labor model of software production. Google is not just building AI \u2014 they are being transformed by it internally. This is a strong signal for the 'AI-native organization' pattern we're tracking. However, unclear if this applies to DeepMind specifically or just Google overall.",
+    "[2026-02] CapEx nearly doubling ($91B \u2192 $175-185B) while Pichai expects supply constraints all year suggests demand is outrunning even aggressive capacity buildout. This is infrastructure-level commitment that locks in the AI-centric strategy for years. Cloud backlog at $240B (+55% QoQ) confirms enterprise demand is real.",
     "[2026-02] Q4 2025 call answered one open question: No DeepMind org structure updates announced. The M1+M4 classification holds. Research-to-product pipeline language persists."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-12",
+    "lastUpdated": "2026-02-15",
     "completeness": "High",
     "convertedFrom": "library/cases/google-deepmind.json"
   }

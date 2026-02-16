@@ -1,0 +1,149 @@
+{
+  "company": "Deloitte",
+  "enrichmentDate": "2026-02-14",
+  "mode": "enrich",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.rcrwireless.com/20250929/ai-infrastructure/deloitte-ai-infra - page rendered without article content"
+  ],
+
+  "newFindings": {
+    "teamStructure": "Deloitte is implementing a major talent architecture overhaul effective June 1, 2026. Traditional pyramid titles (analyst, consultant, manager) are being replaced with role-specific designations referencing 'job family' and 'sub-family' (e.g., 'Software Engineer III', 'Project Management Senior Consultant', 'Senior Consultant, Functional Transformation'). Internally, employees will be assigned alphanumeric levels (L45 = senior consultant, L55 = manager). A new 'Leaders' class joins partners, principals, and managing directors. This restructuring affects approximately 181,500 US employees and reflects AI's reshaping of consulting work, as Deloitte invests $3B in GenAI through FY2030.",
+    "keyPeople": [
+      {
+        "name": "Joe Ucuzoglu",
+        "title": "Deloitte Global CEO",
+        "role": "Overall strategic leadership including AI investment direction. Appointed December 2022. Led March 2024 global restructuring consolidating five business units into four.",
+        "isNew": false
+      },
+      {
+        "name": "Nitin Mittal",
+        "title": "Deloitte Global AI Leader",
+        "role": "Leads global AI strategy and enterprise AI adoption initiatives",
+        "isNew": true
+      },
+      {
+        "name": "Jim Rowan",
+        "title": "US Head of AI, Deloitte",
+        "role": "Leads US AI practice and market strategy",
+        "isNew": true
+      },
+      {
+        "name": "Sulabh Soral",
+        "title": "Chief AI Officer, Consulting (UK)",
+        "role": "Leads Deloitte AI Institute UK. 20 years experience in product innovation, data science, and technology. Advises C-level executives on AI transformations, particularly in financial services. Based in London.",
+        "isNew": true
+      }
+    ],
+    "investmentSignals": "$3 billion committed to generative AI development through fiscal year 2030. Tech budgets allocated to AI expected to rise from 8% to 13% over next two years. $673 million invested in learning and development in FY2025 (21+ million formal training hours). FY2025 global revenue: $70.5 billion (+4.8%). Over 470,000 global employees. Americas region grew 7.1% (fastest). Technology & Transformation unit grew 4.7%.",
+    "recentDevelopments": "March 2024: Largest global restructuring in decade — consolidated five business units into four by merging consulting and risk advisory. September 2025: Launched Global AI Infrastructure Center of Excellence (CoE) as part of 'Silicon2Service' AI factory-as-a-service model. 2025: Launched Asia Pacific Agentic AI Centre of Excellence with 120+ AI specialists from APAC and 6,000+ practitioners region-wide supporting $1B+ pipeline. 2026: Launched Zora AI — agentic AI model powered by Nvidia to automate complex business processes. June 2026: Major talent architecture overhaul replacing traditional pyramid model with role-specific designations.",
+    "observableMarkers": {
+      "reportingStructure": "Global AI Leader (Nitin Mittal) appears to coordinate global AI strategy. US Head of AI (Jim Rowan) leads US market. Regional AI Institute leads (e.g., Sulabh Soral for UK) report within consulting. New 'Leaders' class being added to hierarchy above managers. Alphanumeric leveling (L45, L55, etc.) being introduced June 2026.",
+      "resourceAllocation": "$3B GenAI investment through FY2030. Tech budget AI allocation rising from 8% to 13%. 470,000+ global workforce. 181,500 US employees. 120+ AI specialists in APAC CoE alone. 6,000+ AI practitioners across APAC.",
+      "timeHorizons": "FY2030 as target for $3B GenAI investment. Agentic Enterprise 2028 as key strategic milestone. 3-6 month horizon for moving pilots to production. June 2026 talent architecture implementation.",
+      "decisionRights": "Joe Ucuzoglu drives global restructuring decisions. Global AI Leader coordinates AI strategy. Business units retain autonomy but consolidated from 5 to 4 in 2024. CoEs appear to have mandate to support cross-regional AI implementations.",
+      "metrics": "85% of surveyed companies plan to customize autonomous AI agents. Only 34% report using AI to 'deeply transform' operations. 25% have moved 40%+ of pilots to production. 30% redesigning core processes around AI. 21% have mature agentic AI governance frameworks."
+    },
+    "classificationUpdate": "Current classification is M? with Low confidence. Based on new data, Deloitte appears to be a hybrid structure combining: (1) Dedicated AI leadership (Global AI Leader, US Head of AI, regional CAIOs, AI Institutes), (2) Centers of Excellence (Global AI Infrastructure CoE, APAC Agentic AI CoE), and (3) Broad organizational embedding (470K employees with AI tools access expanding from 40% to 60%). This suggests M8 (Hub-and-Spoke) or a variant of M2 (Embedded) with centralized CoE coordination. Recommend upgrading to M8 with Medium confidence pending verification of reporting relationships between CoEs, AI Leaders, and business units."
+  },
+
+  "quotes": [
+    {
+      "text": "Clients around the world are placing their trust in Deloitte to navigate an unprecedented level of complexity and change. By integrating our unrivaled depth of expertise across key business domains with our modern engineering capabilities and outcome orientation, Deloitte is uniquely positioned to help businesses, governments, and markets capture the full potential of AI.",
+      "speaker": "Joe Ucuzoglu",
+      "speakerTitle": "Deloitte Global CEO",
+      "source": "Deloitte FY2025 Global Revenue Announcement",
+      "sourceUrl": "https://www.deloitte.com/global/en/about/press-room/global-revenue-announcement.html",
+      "sourceDate": "2025-09",
+      "context": "FY2025 annual revenue announcement highlighting AI as strategic differentiator"
+    },
+    {
+      "text": "Leaders should enable enterprise value by weaving AI into business workflows through better coupling of people and machine intelligence.",
+      "speaker": "Nitin Mittal",
+      "speakerTitle": "Deloitte Global AI Leader",
+      "source": "State of AI Report 2026 Press Release",
+      "sourceUrl": "https://www.deloitte.com/us/en/about/press-room/state-of-ai-report-2026.html",
+      "sourceDate": "2026-01",
+      "context": "2026 State of AI in the Enterprise report release discussing AI integration strategy"
+    },
+    {
+      "text": "Succeeding organizations invest in both automation/algorithms and their people, empowering teams to embrace reimagined business models.",
+      "speaker": "Jim Rowan",
+      "speakerTitle": "US Head of AI, Deloitte",
+      "source": "State of AI Report 2026 Press Release",
+      "sourceUrl": "https://www.deloitte.com/us/en/about/press-room/state-of-ai-report-2026.html",
+      "sourceDate": "2026-01",
+      "context": "2026 State of AI report discussing organizational transformation requirements"
+    },
+    {
+      "text": "We are modernizing our talent architecture to provide a more tailored experience reflective of our professionals' broad range of skills and the work they do serving our clients.",
+      "speaker": "Deloitte",
+      "speakerTitle": "Company statement",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/01/22/deloitte-job-title-change-ai-reshapes-big-4-accounting-consulting-firms/",
+      "sourceDate": "2026-01-22",
+      "context": "Announcing June 2026 talent architecture overhaul replacing traditional consulting pyramid titles"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Fortune - Deloitte Job Title Changes",
+      "url": "https://fortune.com/2026/01/22/deloitte-job-title-change-ai-reshapes-big-4-accounting-consulting-firms/",
+      "type": "Press",
+      "date": "2026-01-22",
+      "notes": "Detailed restructuring of talent architecture: replacing traditional titles with job families, alphanumeric levels (L45, L55), new 'Leaders' class. Implementation June 2026. Cites $3B GenAI investment."
+    },
+    {
+      "name": "Deloitte Global Revenue Announcement FY2025",
+      "url": "https://www.deloitte.com/global/en/about/press-room/global-revenue-announcement.html",
+      "type": "Press",
+      "date": "2025-09",
+      "notes": "FY2025 financials: $70.5B revenue, 4.8% growth, 470K employees, $3B GenAI commitment through FY2030. Joe Ucuzoglu quote on AI positioning."
+    },
+    {
+      "name": "Deloitte State of AI Report 2026 Press Release",
+      "url": "https://www.deloitte.com/us/en/about/press-room/state-of-ai-report-2026.html",
+      "type": "Press",
+      "date": "2026-01",
+      "notes": "Key AI adoption metrics. Named Nitin Mittal as Global AI Leader and Jim Rowan as US Head of AI. Quotes on people+machine strategy."
+    },
+    {
+      "name": "Sulabh Soral Profile - Deloitte UK",
+      "url": "https://www.deloitte.com/uk/en/about/people/profiles.ssoral+9d80be73.html",
+      "type": "Press",
+      "date": "2025",
+      "notes": "UK Chief AI Officer, Consulting. Leads Deloitte AI Institute UK. 20 years experience. Financial services focus."
+    },
+    {
+      "name": "Deloitte AI Institute US",
+      "url": "https://www.deloitte.com/us/en/services/consulting/content/advancing-human-ai-collaboration.html",
+      "type": "Press",
+      "date": "2026",
+      "notes": "AI Institute structure: focus on agentic AI, 80+ use cases across 6 industries, human-AI collaboration mandate."
+    },
+    {
+      "name": "Grokipedia - Joe Ucuzoglu",
+      "url": "https://grokipedia.com/page/Joe_Ucuzoglu",
+      "type": "Report",
+      "date": "2025",
+      "notes": "Background on Ucuzoglu's tenure, March 2024 restructuring (5 units to 4), Davos 2025 participation, quarterly State of GenAI reports."
+    }
+  ],
+
+  "summary": "Deloitte has named AI leadership positions (Nitin Mittal as Global AI Leader, Jim Rowan as US Head of AI, regional CAIOs like Sulabh Soral), committed $3B to GenAI through FY2030, and is restructuring its 181,500 US workforce away from the traditional consulting pyramid toward role-specific titles with alphanumeric levels (effective June 2026). The firm has launched multiple Centers of Excellence including a Global AI Infrastructure CoE and an Asia Pacific Agentic AI CoE with 120+ AI specialists.",
+
+  "openQuestions": [
+    "Exact reporting relationship between Global AI Leader (Mittal), US Head of AI (Rowan), and regional CAIOs (Soral)",
+    "Whether the AI Institutes and CoEs share a unified governance structure or operate independently",
+    "Total global AI headcount across all regions and business units",
+    "What percentage of the $3B GenAI investment has been deployed vs. committed"
+  ],
+
+  "botanistNotes": [
+    "The June 2026 talent architecture overhaul is highly significant — Deloitte is explicitly citing AI as the driver for abandoning the traditional consulting pyramid model. This is one of the clearest signals of AI reshaping organizational structure in professional services.",
+    "The layered AI leadership structure (Global AI Leader → US/regional heads → regional CAIOs → CoEs → AI Institutes) suggests a Hub-and-Spoke model (M8) rather than pure embedded or centralized approaches. The CoEs appear to provide shared infrastructure while business units retain delivery.",
+    "The 'coupling of people and machine intelligence' framing from Mittal signals an integration-first philosophy rather than replacement or siloed AI teams — aligns with contextual ambidexterity patterns."
+  ]
+}

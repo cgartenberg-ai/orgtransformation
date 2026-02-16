@@ -1,0 +1,34 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "cheeky-pint",
+  "sourceName": "Cheeky Pint",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "Dario Amodei + Satya Nadella episodes (triaged full episode list). No new eps since Nov 25, 2025 (on hiatus).",
+  "newScannedThrough": "Episode 23 (Ben Thompson, Feb 12, 2026). Podcast resumed Feb 2026 after hiatus.",
+  "newContent": [
+    {
+      "title": "Elon Musk on Space GPUs, AI, Optimus, and his manufacturing method",
+      "date": "2026-02-05",
+      "url": "https://cheekypint.substack.com/p/elon-musk-on-space-gpus-ai-optimus",
+      "relevance": "HIGH",
+      "notes": "xAI team structure (several hundred, engineers not researchers), AI lab critique (revenue-maximizing corps vs real labs), cross-company integration hints (xAI-Tesla convergence with Grok orchestrating Optimus)"
+    },
+    {
+      "title": "An Interview with Ben Thompson by John Collison",
+      "date": "2026-02-12",
+      "url": "https://stratechery.com/2026/an-interview-with-ben-thompson-by-john-collison-on-the-cheeky-pint-podcast/",
+      "relevance": "MEDIUM",
+      "notes": "Topics: AI agents impact on ads/e-commerce, whether software is dead, Mark Zuckerberg's platform obsession harming Meta. Meta organizational critique may be relevant."
+    },
+    {
+      "title": "Julia DeWahl (Antares) on nuclear micro-reactors",
+      "date": "2026-01-XX",
+      "url": "https://cheekypint.substack.com",
+      "relevance": "MEDIUM",
+      "notes": "AI hyperscalers driving nuclear renaissance - infrastructure angle. Energy constraints on AI scaling."
+    }
+  ],
+  "summary": "Cheeky Pint resumed after ~3-month hiatus with major episodes. Now at 23 episodes. HIGH-relevance Musk episode contains xAI organizational structure insights: framing AI work as engineering not research, team of several hundred engineers, critique of 'AI labs' as revenue-maximizing corporations. Ben Thompson episode covers AI agents disrupting business models. Julia DeWahl episode addresses AI infrastructure constraints (nuclear for hyperscalers).",
+  "actionRequired": true,
+  "recommendedAction": "Queue Musk episode for detailed curation - xAI organizational structure is directly relevant to specimen collection. Ben Thompson episode may yield Meta organizational insights worth cross-referencing with existing Meta specimen."
+}

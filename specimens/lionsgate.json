@@ -93,6 +93,15 @@
       "publicationDate": "2026-02-06",
       "collectedDate": "2026-02-07",
       "notes": "Primary source for CAIO appointment. Fetch failed (JS-rendered), data extracted from research summary."
+    },
+    {
+      "id": "rmnstars-lionsgate-2026",
+      "type": "Press",
+      "name": "RMN Stars — Lionsgate Appoints Kathleen Grace as First-Ever Chief AI Officer",
+      "url": "https://www.rmnstars.com/lionsgate-appoints-kathleen-grace-as-first-ever-chief-ai-officer-amid-hollywoods-pivot-to-ai-first-production/",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-15",
+      "notes": "Additional coverage confirming CAIO appointment details and Grace's background (Vermillio CSO, YouTube Spaces)."
     }
   ],
 
@@ -129,7 +138,7 @@
   "meta": {
     "status": "Stub",
     "created": "2026-02-09",
-    "lastUpdated": "2026-02-13",
+    "lastUpdated": "2026-02-15",
     "completeness": "Low",
     "convertedFrom": null
   }

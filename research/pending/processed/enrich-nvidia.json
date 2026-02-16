@@ -1,0 +1,194 @@
+{
+  "company": "NVIDIA",
+  "enrichmentDate": "2026-02-14",
+  "mode": "enrich",
+  "searchesCompleted": 5,
+  "urlsFetched": 5,
+  "fetchFailures": [
+    "stratechery.com - paywalled",
+    "businesschief.com - 403 error",
+    "weforum.org - 403 error"
+  ],
+
+  "newFindings": {
+    "teamStructure": "Engineering is NVIDIA's largest discipline with ~17,700 employees (nearly two-thirds of the company), highlighting its focus on semiconductor design and software development. IT, Business Management, Marketing & Product, and Sales & Support each represent 4-7% of staff. Total headcount: 36,000 (Jan 2025) growing to ~44,000 (Dec 2025). In late 2025, leadership structure was streamlined—direct reports to CEO Huang reduced from 55 to 36.",
+    "keyPeople": [
+      {
+        "name": "Alison Wagonfeld",
+        "title": "Chief Marketing Officer",
+        "role": "First-ever CMO; leads marketing and communications; reports directly to CEO",
+        "background": "Former CMO of Google Cloud",
+        "startDate": "February 2026",
+        "isNew": true
+      },
+      {
+        "name": "William Dally",
+        "title": "Chief Scientist & Senior Vice President of Research",
+        "role": "Heads deep research on processors, architectures, and AI systems",
+        "isNew": true
+      },
+      {
+        "name": "Banghua Zhu",
+        "title": "Principal Research Scientist",
+        "role": "Applied research on Star Nemotron team; focus on post-training, evaluation, agents, and infrastructure",
+        "background": "Assistant Professor at University of Washington; Ph.D. UC Berkeley; co-founder Nexusflow",
+        "startDate": "2025",
+        "isNew": true
+      },
+      {
+        "name": "Jiantao Jiao",
+        "title": "Research Scientist (assumed)",
+        "role": "Focus on AGI and superintelligence; post-training, evaluation, agents",
+        "background": "Assistant Professor at UC Berkeley; Ph.D. Stanford; co-founder Nexusflow",
+        "startDate": "2025",
+        "isNew": true
+      }
+    ],
+    "investmentSignals": "Q3 FY26 revenue: $57.0 billion (up 62% YoY). Data Center revenue: $51.2 billion (up 66% YoY). Q4 FY26 guidance: $65.0 billion. Huang stated NVIDIA has $500 billion in orders for 2025-2026 combined. CFO Kress: 'visibility to a half a trillion dollars in Blackwell and Rubin revenue through end of calendar 2026.' Nine-month shareholder returns: $37.0 billion. UK investment commitment: £2 billion. $1 billion 5-year partnership with Eli Lilly for co-innovation lab.",
+    "recentDevelopments": "Late 2025: NVIDIA streamlined leadership (55→36 direct reports to CEO). Jan 2026: First CMO hired (Alison Wagonfeld from Google Cloud). Jan 2026: $1B Eli Lilly co-innovation lab announced in San Francisco Bay Area. Late 2025: Advanced negotiations to acquire AI21 Labs ($2-3B 'acquihire' of ~200 AI specialists). New AI Factory Research Center announced at Digital Realty in Virginia (powered by Vera Rubin). Partnership with HPE for AI Factory Lab in Grenoble, France (Q2 2026). DOE partnership: 100,000 GPU 'Solstice' system at Argonne. 260,000+ GPU deployment with Korean government (Samsung, Hyundai, SK Group, NAVER Cloud).",
+    "observableMarkers": {
+      "reportingStructure": "Late 2025: Direct reports to CEO reduced from 55 to 36. New CMO (Wagonfeld) reports directly to Huang. William Dally leads research as Chief Scientist & SVP. No dedicated Chief AI Officer—AI leadership under Huang himself.",
+      "resourceAllocation": "Engineering: ~17,700 employees (66% of company). R&D focused on GPUs, data center, AI software. $51.2B quarterly revenue from Data Center alone. Revenue per employee: $3.6-4.59M. Profit per employee: >$2M.",
+      "timeHorizons": "Huang at Cisco AI Summit (Feb 2026): 'Let a thousand flowers bloom' philosophy—high tolerance for experimentation without immediate ROI demands. 'The number of different AI projects in our company is—it's out of control, and it's great.' Views AI as decade-long transformation.",
+      "decisionRights": "Huang philosophy (Feb 2026): 'If you want to be in control...you've got to seek therapy.' Leaders should seek to 'influence' rather than 'control' their companies. Internal AI projects described as 'out of control' intentionally.",
+      "metrics": "73.4% gross margin. $3.6-4.59M revenue per employee. 'Virtuous cycle' language: Huang tracks compute demand growth, VC investment flows, model-maker ecosystem expansion. Claims AI creates more jobs (cites radiologist growth)."
+    },
+    "classificationUpdate": "Classification M? needs resolution. Based on new data, NVIDIA appears to be an M1/Integrated model but with extreme flatness (even after reducing from 55→36 direct reports). The 'out of control' experimentation philosophy, complete information transparency, and expectation that 'innovation is everywhere' aligns with the existing specimen description. However, the addition of functional leadership roles (CMO, Chief Scientist) and reduction of direct reports suggests some formalization. Recommend confirming as M1-Integrated or creating a distinct classification note about NVIDIA's unique 'controlled chaos' structure."
+  },
+
+  "quotes": [
+    {
+      "text": "Blackwell sales are off the charts, and cloud GPUs are sold out. Compute demand keeps accelerating and compounding across training and inference — each growing exponentially. We've entered the virtuous cycle of AI.",
+      "speaker": "Jensen Huang",
+      "speakerTitle": "Founder & CEO, NVIDIA",
+      "source": "NVIDIA Q3 FY26 Earnings Release",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2026",
+      "sourceDate": "2025-11-19",
+      "context": "Quarterly earnings announcement"
+    },
+    {
+      "text": "The number of different AI projects in our company is—it's out of control, and it's great.",
+      "speaker": "Jensen Huang",
+      "speakerTitle": "Founder & CEO, NVIDIA",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/02/04/jensen-huang-demanding-roi-from-ai-strategy-testing/",
+      "sourceDate": "2026-02-04",
+      "context": "Discussion about AI strategy and experimentation"
+    },
+    {
+      "text": "If you want to be in control...you've got to seek therapy.",
+      "speaker": "Jensen Huang",
+      "speakerTitle": "Founder & CEO, NVIDIA",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/02/04/jensen-huang-demanding-roi-from-ai-strategy-testing/",
+      "sourceDate": "2026-02-04",
+      "context": "On leadership philosophy and control"
+    },
+    {
+      "text": "Let a thousand flowers bloom.",
+      "speaker": "Jensen Huang",
+      "speakerTitle": "Founder & CEO, NVIDIA",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/02/04/jensen-huang-demanding-roi-from-ai-strategy-testing/",
+      "sourceDate": "2026-02-04",
+      "context": "Philosophy on AI experimentation and ROI demands"
+    },
+    {
+      "text": "The most valuable IP to me is not my answers… they're my questions.",
+      "speaker": "Jensen Huang",
+      "speakerTitle": "Founder & CEO, NVIDIA",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/02/04/jensen-huang-demanding-roi-from-ai-strategy-testing/",
+      "sourceDate": "2026-02-04",
+      "context": "On the importance of inquiry over answers"
+    },
+    {
+      "text": "the largest infrastructure buildout in human history",
+      "speaker": "Jensen Huang",
+      "speakerTitle": "Founder & CEO, NVIDIA",
+      "source": "NVIDIA Blog / WEF Davos",
+      "sourceUrl": "https://blogs.nvidia.com/blog/davos-wef-blackwell-ceo-larry-fink-jensen-huang/",
+      "sourceDate": "2026-01-21",
+      "context": "Describing AI infrastructure development at World Economic Forum"
+    },
+    {
+      "text": "AI is infrastructure",
+      "speaker": "Jensen Huang",
+      "speakerTitle": "Founder & CEO, NVIDIA",
+      "source": "NVIDIA Blog / WEF Davos",
+      "sourceUrl": "https://blogs.nvidia.com/blog/davos-wef-blackwell-ceo-larry-fink-jensen-huang/",
+      "sourceDate": "2026-01-21",
+      "context": "On treating AI as national infrastructure at World Economic Forum"
+    },
+    {
+      "text": "I'm very excited to share that I will be joining NVIDIA as a Principal Research Scientist!",
+      "speaker": "Banghua Zhu",
+      "speakerTitle": "Principal Research Scientist, NVIDIA",
+      "source": "TrendForce",
+      "sourceUrl": "https://www.trendforce.com/news/2025/07/01/news-nvidia-and-intel-appointed-new-executives-related-to-ai/",
+      "sourceDate": "2025-07-01",
+      "context": "Announcement of joining NVIDIA's Star Nemotron team"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "NVIDIA Q3 FY26 Earnings Release",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2026",
+      "type": "Earnings Call",
+      "date": "2025-11-19",
+      "notes": "Key financials: $57B revenue, $51.2B data center, 'virtuous cycle' quote. Strategic partnerships (OpenAI 10GW, Anthropic 1GW)."
+    },
+    {
+      "name": "Fortune - Jensen Huang on AI ROI",
+      "url": "https://fortune.com/2026/02/04/jensen-huang-demanding-roi-from-ai-strategy-testing/",
+      "type": "Interview",
+      "date": "2026-02-04",
+      "notes": "Critical organizational philosophy quotes: 'out of control and it's great,' 'thousand flowers bloom,' control vs influence."
+    },
+    {
+      "name": "NVIDIA Blog - Davos WEF with Larry Fink",
+      "url": "https://blogs.nvidia.com/blog/davos-wef-blackwell-ceo-larry-fink-jensen-huang/",
+      "type": "Conference",
+      "date": "2026-01-21",
+      "notes": "AI as infrastructure, 'five-layer cake' framework, 2025 VC investment record year."
+    },
+    {
+      "name": "TrendForce - NVIDIA Executive Appointments",
+      "url": "https://www.trendforce.com/news/2025/07/01/news-nvidia-and-intel-appointed-new-executives-related-to-ai/",
+      "type": "Press",
+      "date": "2025-07-01",
+      "notes": "Details on Banghua Zhu and Jiantao Jiao hires (both Tsinghua alumni, Nexusflow co-founders)."
+    },
+    {
+      "name": "SQ Magazine - NVIDIA Headcount",
+      "url": "https://sqmagazine.co.uk/how-many-people-work-at-nvidia/",
+      "type": "Report",
+      "date": "2025",
+      "notes": "36K employees (Jan 2025), ~44K (Dec 2025). Engineering: 17,700 (66%). Late 2025 leadership streamlining: 55→36 direct reports."
+    },
+    {
+      "name": "Business Chief - NVIDIA CMO Appointment",
+      "url": "https://businesschief.com/news/why-has-nvidia-hired-its-first-chief-marketing-officer",
+      "type": "Press",
+      "date": "2026-01",
+      "notes": "Alison Wagonfeld (ex-Google Cloud CMO) appointed as first CMO, Feb 2026, reports to Huang."
+    }
+  ],
+
+  "summary": "Substantial new data on NVIDIA's organizational structure and leadership philosophy. Headcount grew from 36K to 44K in 2025; engineering represents 66% of the company (~17,700 people). Late 2025 saw leadership streamlining (55→36 direct reports to CEO), first-ever CMO hire, and two high-profile AI researcher acqui-hires. Most valuable finding: Huang's Feb 2026 quotes about internal AI projects being 'out of control, and it's great' and his philosophy that leaders should 'influence' rather than 'control'—directly validating the 'lab as entire company' classification.",
+
+  "openQuestions": [
+    "What exactly changed when direct reports went from 55 to 36? Who was removed or consolidated?",
+    "What is the size and structure of William Dally's research organization?",
+    "Does the 'Star Nemotron' team represent a named AI unit, and how large is it?",
+    "What metrics does NVIDIA use internally to evaluate AI project success?",
+    "How does the AI21 Labs acquisition (if completed) integrate into the structure?"
+  ],
+
+  "botanistNotes": [
+    "The 'out of control and it's great' quote is remarkable—a direct executive endorsement of organizational chaos as strategy. This confirms NVIDIA as an extreme case of the M1/Integrated model where exploration is deliberately unbounded.",
+    "The 55→36 direct report reduction is interesting structural evolution—even this famously flat organization is adding some hierarchy. But 36 is still extraordinarily flat for a 44,000-person company.",
+    "The simultaneous creation of a CMO role (functional specialization) while maintaining 'thousand flowers' experimentation suggests NVIDIA is selectively adding structure for go-to-market while keeping R&D fluid. This may be a pattern worth tracking: 'functional formalization at the boundary, chaos at the core.'"
+  ]
+}

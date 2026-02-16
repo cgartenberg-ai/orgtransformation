@@ -1,0 +1,52 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "elad-gil-blog",
+  "sourceName": "Elad Gil's Blog",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "None",
+  "newScannedThrough": "AI Market Clarity (July 2025)",
+  "newContent": [
+    {
+      "title": "AI Market Clarity",
+      "date": "2025-07",
+      "url": "https://blog.eladgil.com/p/ai-market-clarity",
+      "relevance": "HIGH",
+      "keyFindings": [
+        "Shift from seat-based to cognition-based pricing models - fundamental workforce restructuring",
+        "AI adoption is 'not a technology problem – it is an organization, process, and people issue'",
+        "Market leaders crystallized: Anthropic, Google, Meta/Llama, Microsoft, Mistral, OpenAI, X.AI",
+        "Agentic AI replacing roles in customer service (Decagon, Sierra), code (Cursor, Cognition), legal (Harvey, EvenUp)"
+      ]
+    },
+    {
+      "title": "Things I Don't Know About AI",
+      "date": "2024-02",
+      "url": "https://blog.eladgil.com/p/things-i-dont-know-about-ai",
+      "relevance": "MEDIUM",
+      "keyFindings": [
+        "Cloud providers (Microsoft, Amazon, Google) are primary funders of frontier AI, not VCs",
+        "Microsoft $10B+ in OpenAI; Anthropic $7B from Amazon+Google combined",
+        "Meta's distinctive dual-track: $20B compute budget + open-source AI sponsorship",
+        "Enterprise vs startup AI adoption divergence: enterprises need compliance (FedRAMP, HIPAA), on-prem options"
+      ]
+    },
+    {
+      "title": "Early Days of AI (and AI Hype Cycle)",
+      "date": "2023-08-21",
+      "url": "https://blog.eladgil.com/p/early-days-of-ai",
+      "relevance": "LOW",
+      "keyFindings": [
+        "Four-wave AI adoption model: GenAI natives → fast-moving startups → next-gen infrastructure → enterprise wave (2024-2025)",
+        "Enterprise adoption faces 3-6 month planning cycles + year-long prototyping",
+        "Microsoft, Adobe, Google identified as exceptional large enterprises 'moving fast to AI'"
+      ]
+    }
+  ],
+  "summary": "First scan of Elad Gil's Blog. Most relevant finding is 'AI Market Clarity' (July 2025) which articulates the shift from seat-based to cognition-based models and argues AI adoption is fundamentally an organizational/process problem, not a technology problem. Gil identifies clear market consolidation around 7 LLM players and documents agentic AI replacing roles across customer service, code, and legal. Earlier posts provide useful context on funding structures (cloud providers as primary AI funders) and adoption wave patterns. HIGH relevance for organizational ambidexterity research - Gil's framing of AI as organizational transformation aligns directly with our central question.",
+  "specimenCandidates": [],
+  "existingSpecimenUpdates": [],
+  "actionItems": [
+    "Consider adding Gil's 'seat-based to cognition-based' framing to mechanism candidates",
+    "Gil's observation that 'AI adoption is not a technology problem – it is an organization, process, and people issue' could be a field signal"
+  ]
+}

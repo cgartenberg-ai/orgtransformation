@@ -1,0 +1,44 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "sec-filings",
+  "sourceName": "SEC Filings (10-K, 8-K, Proxy)",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "None",
+  "newScannedThrough": "SEC AI Task Force creation (Aug 2025), Investor Advisory Committee AI recommendations (Dec 2025), 2026 Examination Priorities",
+  "newContent": [
+    {
+      "title": "SEC AI Task Force Creation",
+      "date": "2025-08-01",
+      "relevance": "HIGH",
+      "url": "https://www.sec.gov/newsroom/press-releases/2025-103-sec-creates-task-force-tap-artificial-intelligence-enhanced-innovation-efficiency-across-agency",
+      "notes": "SEC appointed Valerie Szczepanik as Chief AI Officer. Creates cross-agency collaboration structure. Direct structural parallel to corporate CAIO appointments we're tracking."
+    },
+    {
+      "title": "SEC Investor Advisory Committee AI Disclosure Recommendations",
+      "date": "2025-12-04",
+      "relevance": "HIGH",
+      "url": "https://www.sec.gov/files/approved-artificial-intelligence-disclosure-recommendation-120425.pdf",
+      "notes": "Recommends SEC issue guidance on AI disclosure requirements. Key structural implication: companies must map AI use across functions, document governance including vendor management, separate internal vs customer-facing AI discussion."
+    },
+    {
+      "title": "SEC FY2026 Examination Priorities - AI Focus",
+      "date": "2025-11-18",
+      "relevance": "HIGH",
+      "url": "https://www.sec.gov/files/2026-exam-priorities.pdf",
+      "notes": "AI identified as examination priority. Will review accuracy of AI capability representations. Examiners trained to assess AI governance, risk management, compliance controls. Forces organizational disclosure of AI decision-making processes."
+    },
+    {
+      "title": "SEC Speech: AI and the Future of Investment Management",
+      "date": "2026-02-03",
+      "relevance": "MEDIUM",
+      "url": "https://www.sec.gov/newsroom/speeches-statements/daly-020326-artificial-intelligence-future-investment-management",
+      "notes": "Commissioner Daly speech on AI transformation in investment management. Signals regulatory attention to AI deployment in financial services."
+    }
+  ],
+  "summary": "Major regulatory developments since Aug 2025: SEC created internal AI Task Force with CAIO role (structural parallel to corporate trends we track). December 2025 recommendations push toward requiring companies to disclose AI governance structures, map AI use across business functions, and distinguish internal vs customer-facing AI. FY2026 examination priorities specifically target AI capability claims accuracy. This creates compliance pressure that will force more detailed AI organizational disclosure in upcoming 10-K filings. Key insight: SEC's own structural response (CAIO, cross-agency task force) mirrors corporate patterns we're documenting.",
+  "researchImplications": [
+    "Monitor 10-K filings from Feb-Apr 2026 for enhanced AI governance disclosures driven by examination priorities",
+    "SEC's own CAIO appointment adds to field evidence of C-suite AI roles proliferation (26% of orgs per IBM 2025)",
+    "Disclosure guidance may standardize how companies report AI organizational structures - valuable for specimen enrichment"
+  ]
+}

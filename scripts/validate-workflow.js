@@ -491,6 +491,8 @@ section('12. Purpose Claims Provenance');
 
 const claimsRegistryPath = path.join(RESEARCH_DIR, 'purpose-claims', 'registry.json');
 const claimsRegistry = loadJSON(claimsRegistryPath);
+const scanTrackerPath = path.join(RESEARCH_DIR, 'purpose-claims', 'scan-tracker.json');
+const scanTracker = loadJSON(scanTrackerPath);
 if (claimsRegistry) {
   const claims = claimsRegistry.claims || [];
   ok(`Purpose claims registry: ${claims.length} claims`);
@@ -537,6 +539,40 @@ if (claimsRegistry) {
 
   if (nullSourceDate > 0) warn(`${nullSourceDate} claims with null sourceDate`);
   else ok('All claims have sourceDate');
+}
+
+// ── 12b. Purpose Claims ↔ Specimens Consistency ──
+
+if (claimsRegistry && scanTracker) {
+  // Check scan-tracker specimen IDs reference real specimens
+  const trackerSpecimenIds = (scanTracker.specimens || []).map(s => s.specimenId);
+  const orphanedTrackerIds = trackerSpecimenIds.filter(id => !allSpecimenIds.has(id));
+  if (orphanedTrackerIds.length > 0) {
+    warn(`Scan tracker has ${orphanedTrackerIds.length} specimens not in specimens/: ${orphanedTrackerIds.slice(0, 5).join(', ')}${orphanedTrackerIds.length > 5 ? '...' : ''}`);
+  } else {
+    ok('All scan-tracker specimens exist in specimens/');
+  }
+
+  // Check claim counts: tracker.claimsFound vs actual claims in registry
+  const claimsPerSpecimen = {};
+  for (const c of (claimsRegistry.claims || [])) {
+    if (c.specimenId) {
+      claimsPerSpecimen[c.specimenId] = (claimsPerSpecimen[c.specimenId] || 0) + 1;
+    }
+  }
+  let countMismatches = 0;
+  for (const entry of (scanTracker.specimens || [])) {
+    const trackCount = entry.claimsFound || 0;
+    const actualCount = claimsPerSpecimen[entry.specimenId] || 0;
+    if (trackCount !== actualCount) {
+      countMismatches++;
+    }
+  }
+  if (countMismatches > 0) {
+    warn(`${countMismatches} scan-tracker entries have claimsFound ≠ actual registry count (expected after rescans)`);
+  } else {
+    ok('Scan-tracker claim counts match registry');
+  }
 }
 
 // ── 13. Tension/Contingency Specimen Coverage ──
@@ -639,8 +675,6 @@ if (insightsData) {
 
 section('15. Enrichment Completeness');
 
-const scanTrackerPath = path.join(RESEARCH_DIR, 'purpose-claims', 'scan-tracker.json');
-const scanTracker = loadJSON(scanTrackerPath);
 const enrichmentDir = path.join(RESEARCH_DIR, 'purpose-claims', 'enrichment');
 
 if (scanTracker && fs.existsSync(enrichmentDir)) {
@@ -667,6 +701,27 @@ if (scanTracker && fs.existsSync(enrichmentDir)) {
   } else {
     ok('All enrichment files correspond to registered specimens');
   }
+
+  // Enrichment schema validation — check required fields
+  let enrichSchemaIssues = 0;
+  for (const id of enrichmentFiles) {
+    try {
+      const eData = JSON.parse(fs.readFileSync(path.join(enrichmentDir, `${id}.json`), 'utf8'));
+      const missing = [];
+      if (!eData.specimenId) missing.push('specimenId');
+      if (!Array.isArray(eData.keyFindings) || eData.keyFindings.length === 0) missing.push('keyFindings');
+      if (!Array.isArray(eData.rhetoricalPatterns) || eData.rhetoricalPatterns.length === 0) missing.push('rhetoricalPatterns');
+      if (!eData.claimTypeDistribution || typeof eData.claimTypeDistribution !== 'object') missing.push('claimTypeDistribution');
+      if (missing.length > 0) {
+        warn(`Enrichment ${id}: missing or empty fields: ${missing.join(', ')}`);
+        enrichSchemaIssues++;
+      }
+    } catch (e) {
+      warn(`Enrichment ${id}: invalid JSON — ${e.message}`);
+      enrichSchemaIssues++;
+    }
+  }
+  if (enrichSchemaIssues === 0) ok('All enrichment files pass schema validation');
 }
 
 // ── 16. Registry Freshness ──

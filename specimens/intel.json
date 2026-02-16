@@ -29,7 +29,7 @@
   "observableMarkers": {
     "reportingStructure": "CEO Lip-Bu Tan directly leads AI and Advanced Technologies Group after CTO departure [intel-leadership-restructuring]. Three longtime technical executives (Rob Bruckner, Mike Hurley, Lisa Pearce) now report directly to CEO [intel-leadership-restructuring]. Product groups (DCAI, CCG) report directly to CEO [intel-q3-2025-earnings]. Flattened structure to reduce organizational complexity [intel-vision-2025-register].",
     "resourceAllocation": "Dedicated Intel Labs with 700+ researchers [intel-labs-ai-research]. Custom ASIC business as distinct unit with $1B+ revenue [intel-q4-2025-earnings]. Central Engineering Group created to unify horizontal functions [intel-q3-2025-earnings]. Ring-fenced foundry business. Clear separation between research (Labs) and product execution (business units).",
-    "timeHorizons": "Mixed: Intel Labs does multi-year fundamental research (cognitive AI, quantum, physical AI) [intel-labs-ai-research]. Product groups work on quarterly/annual cycles (AI PCs, Xeon, Gaudi) [intel-q4-2025-earnings]. CEO mentions 'won't happen overnight' for competitive AI platform — implies multi-year horizon for turnaround [intel-vision-2025-register].",
+    "timeHorizons": "Mixed: Intel Labs does multi-year fundamental research (cognitive AI, quantum, physical AI) [intel-labs-ai-research]. Product groups work on quarterly/annual cycles (AI PCs, Xeon, Gaudi) [intel-q4-2025-earnings]. CEO mentions 'won't happen overnight' for competitive AI platform \u2014 implies multi-year horizon for turnaround [intel-vision-2025-register].",
     "decisionRights": "Significantly centralized under CEO Tan after flattening [intel-leadership-restructuring]. CEO directly oversees AI strategy. Central Engineering Group coordinates horizontal decisions [intel-q3-2025-earnings]. Quote from memo: 'This supports our emphasis on becoming an engineering-focused company and will give me visibility into what's needed to compete and win' [intel-leadership-restructuring].",
     "metrics": "Revenue by segment (DCAI grew 15% sequentially in Q4) [intel-q4-2025-earnings]. AI PC unit growth (16% in Q4) [intel-q4-2025-earnings]. Custom ASIC business growth (50%+ in 2025, 26% sequential in Q4) [intel-q4-2025-earnings]. Process node progress (18A milestone) [intel-q4-2025-earnings]. Profitability targets (64.7% loss reduction in 2025, profitability target 2026) [intel-q4-2025-earnings]."
   },
@@ -103,7 +103,7 @@
       "context": "Keynote remarks on organizational culture"
     },
     {
-      "text": "Our conviction in the essential role of CPUs in the AI era continues to grow. We delivered a solid finish to the year and made progress on our journey to build a new Intel. The introduction of our first products on Intel 18A – the most advanced process technology developed and manufactured in the United States – marks an important milestone.",
+      "text": "Our conviction in the essential role of CPUs in the AI era continues to grow. We delivered a solid finish to the year and made progress on our journey to build a new Intel. The introduction of our first products on Intel 18A \u2013 the most advanced process technology developed and manufactured in the United States \u2013 marks an important milestone.",
       "speaker": "Lip-Bu Tan",
       "speakerTitle": "CEO",
       "source": "Q4 2025 Earnings Press Release",
@@ -131,6 +131,15 @@
     }
   ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Tan Centralized DCAI + 24K Layoffs + GPU Architect Hire",
+      "summary": "New CEO Lip-Bu Tan centralized Data Center and AI (DCAI) division, simplified org structure/delayered. 24K layoffs (15% of workforce). AI Group leader Sachin Katti departed for OpenAI. Eric Demers (AMD/Qualcomm GPU veteran) recruited as SVP GPU Architecture \u2014 signal of commitment to GPU/AI silicon. Custom ASIC business exceeds $1B run rate. Tan's structural approach: consolidate from distributed to centralized AI under single division.",
+      "classification": null,
+      "sourceRefs": [
+        "intel-q4-2025-earnings-enrichment"
+      ]
+    },
     {
       "date": "2026-02",
       "label": "Citation Backfill",
@@ -204,6 +213,15 @@
       "sourceDate": "2025-04-08",
       "collectedDate": "2026-02-09",
       "notes": "Additional keynote coverage, Tan's philosophy quotes, memory constraints discussion."
+    },
+    {
+      "id": "intel-q4-2025-earnings-enrichment",
+      "type": "Earnings Call",
+      "name": "Intel Q4 2025 Earnings Coverage — Tan Centralization & DCAI Restructuring",
+      "url": null,
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-15",
+      "notes": "[no URL — research agent summary] Q4 2025 earnings. Tan centralized DCAI. Simplified org/delayered. 24K layoffs (15%). Eric Demers recruited as SVP GPU Architecture."
     }
   ],
   "contingencies": {
@@ -228,14 +246,14 @@
     "What is the governance structure for Intel's university AI Centers of Excellence?"
   ],
   "taxonomyFeedback": [
-    "[2026-02] Intel presents an interesting case of M4 hub-and-spoke where the 'hub' is being reconfigured in real-time. The CTO departure to OpenAI created a vacuum that CEO Tan filled by pulling AI strategy directly to himself. This is unusual — most M4 models have a dedicated executive running the hub, not the CEO. The flattening may be temporary turnaround structure or a lasting design choice.",
-    "[2026-02] The 'bureaucracy kills innovation' framing is explicit structural critique rare in our specimen collection. Tan is not just reorganizing — he's publicly diagnosing structural pathology. The memo language ('suffocating the culture of innovation', 'takes too long to make decisions', 'unnecessary silos') provides unusually candid evidence for Mechanism 11 (Flatten Management Layers).",
-    "[2026-02] Intel Labs as secondary M1 component is noteworthy — 700+ researchers is larger than many pure M1 Research Labs in our collection. The tension between this protected research capacity and the urgent product-side catch-up to NVIDIA creates a live experiment in ambidexterity under competitive pressure."
+    "[2026-02] Intel presents an interesting case of M4 hub-and-spoke where the 'hub' is being reconfigured in real-time. The CTO departure to OpenAI created a vacuum that CEO Tan filled by pulling AI strategy directly to himself. This is unusual \u2014 most M4 models have a dedicated executive running the hub, not the CEO. The flattening may be temporary turnaround structure or a lasting design choice.",
+    "[2026-02] The 'bureaucracy kills innovation' framing is explicit structural critique rare in our specimen collection. Tan is not just reorganizing \u2014 he's publicly diagnosing structural pathology. The memo language ('suffocating the culture of innovation', 'takes too long to make decisions', 'unnecessary silos') provides unusually candid evidence for Mechanism 11 (Flatten Management Layers).",
+    "[2026-02] Intel Labs as secondary M1 component is noteworthy \u2014 700+ researchers is larger than many pure M1 Research Labs in our collection. The tension between this protected research capacity and the urgent product-side catch-up to NVIDIA creates a live experiment in ambidexterity under competitive pressure."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-02-09",
-    "lastUpdated": "2026-02-12",
+    "lastUpdated": "2026-02-15",
     "completeness": "High",
     "convertedFrom": null
   }

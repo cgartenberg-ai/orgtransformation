@@ -1,6 +1,6 @@
 {
   "description": "Field Signals Registry — macro observations and cross-cutting patterns noticed during research sessions. These are the precursors to formal insights (synthesis/insights.json). Signals accumulate evidence across sessions; when a signal has 3+ specimen evidence, it can be promoted to a formal insight. Append-only: signals are never deleted, only updated or promoted.",
-  "lastUpdated": "2026-02-10T16:30:00Z",
+  "lastUpdated": "2026-02-15T12:00:00Z",
   "schema": {
     "id": "Unique slug",
     "signal": "Short title (5-10 words)",
@@ -22,7 +22,7 @@
       "description": "Companies across sectors citing AI as driver for large-scale layoffs and role elimination. 55K+ AI-attributed layoffs in 2025, 25K in January 2026 alone. Affects tech, finance, logistics, chemicals, advertising.",
       "theme": "workforce",
       "firstObserved": "2026-01-31",
-      "lastUpdated": "2026-02-03",
+      "lastUpdated": "2026-02-15",
       "status": "active",
       "sessions": [
         "2026-01-31-substacks-bg2-press.md",
@@ -31,7 +31,8 @@
         "2026-02-01-001-research-press-podcasts-reports.md",
         "2026-02-03-001-research-podcasts-press-substacks.md",
         "2026-02-03-002-research-press-podcasts-ai-labs.md",
-        "2026-02-04-001-earnings-q4-2025-wide-net.md"
+        "2026-02-04-001-earnings-q4-2025-wide-net.md",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "relatedSpecimens": [
         "amazon-agi",
@@ -42,7 +43,10 @@
         "ups",
         "pinterest",
         "accenture-openai",
-        "nokia"
+        "nokia",
+        "intel",
+        "disney",
+        "shopify"
       ],
       "dataPoints": [
         "55K AI-attributed US layoffs in 2025 (Challenger, Gray & Christmas)",
@@ -53,7 +57,14 @@
         "Meta MSL: 600 cut from AI division Oct 2025, but TBD Lab hires protected",
         "Accenture: $865M restructuring, 11K layoffs (791K→779K), 'exiting non-reskillable on compressed timeline'",
         "Workday: 1,750 layoffs (8.5%), $230-270M charges",
-        "Nokia: €750M restructuring (2025-2026), portfolio businesses reorg"
+        "Nokia: €750M restructuring (2025-2026), portfolio businesses reorg",
+        "Amazon: 30K corporate layoffs Oct 2025-Jan 2026 (78%+ mid-level managers L5-L7), 57K total under Jassy",
+        "UPS: 78K positions eliminated by end 2026 (48K in 2025 + ~30K in 2026), 26.9M labor hours removed",
+        "Intel: 24K layoffs (15% workforce, from ~96K to ~75K), targeting $1.5B annual savings",
+        "Baker McKenzie: 600-1,000 support roles (~10% of workforce), attorneys excluded",
+        "Capgemini: EUR 700M restructuring for workforce adaptation, 340K+ employees",
+        "Panasonic: 10K-12K employee cuts (5K Japan + 5K+ elsewhere), $879M restructuring cost",
+        "Forrester Research: 8% workforce cut (~127 employees), exiting consulting entirely"
       ],
       "counterEvidence": "Oxford Economics: 'firms don't appear to be replacing workers with AI on a significant scale.' Forrester: 55% of employers regret AI layoffs; half will be quietly rehired offshore/lower pay.",
       "promotedTo": null
@@ -64,18 +75,20 @@
       "description": "Growing credibility problem where companies attribute layoffs to AI when restructuring appears demand-driven or cyclical. TechCrunch, Oxford Economics, Forrester, Deutsche Bank all questioning the narrative. Our insight #11 flags this as 'redundancy washing' counter-explanation.",
       "theme": "workforce",
       "firstObserved": "2026-01-31",
-      "lastUpdated": "2026-02-03",
+      "lastUpdated": "2026-02-15",
       "status": "active",
       "sessions": [
         "2026-01-31-tier2-podcasts-press-session.md",
         "2026-02-01-001-research-press-podcasts-reports.md",
         "2026-02-03-001-research-podcasts-press-substacks.md",
         "2026-02-03-002-research-press-podcasts-ai-labs.md",
-        "2026-02-04-001-earnings-q4-2025-wide-net.md"
+        "2026-02-04-001-earnings-q4-2025-wide-net.md",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "relatedSpecimens": [
         "pinterest",
-        "workday"
+        "workday",
+        "amazon-agi"
       ],
       "dataPoints": [
         "TechCrunch Feb 1 2026: 'AI layoffs or AI-washing?'",
@@ -85,7 +98,10 @@
         "Deutsche Bank warning of 'AI redundancy washing' in 2026",
         "Pinterest: most explicit case — SEC filing cites 'transformation initiatives', resources reallocated to AI-focused roles, but no demonstrated AI productivity gains yet",
         "Boston Herald Feb 2 2026: 'Some companies tie AI to layoffs, but the reality is more complicated'",
-        "Workday: 1,750 layoffs (8.5%) framed as AI pivot, $230-270M charges — but thin structural evidence for genuine AI-driven transformation"
+        "Workday: 1,750 layoffs (8.5%) framed as AI pivot, $230-270M charges — but thin structural evidence for genuine AI-driven transformation",
+        "Fortune Feb 10, 2026: only 55K of 1.2M U.S. job cuts in 2025 (4.5%) explicitly mentioned AI",
+        "Forrester: companies making premature layoffs anticipating future AI efficiency gains that haven't materialized",
+        "Amazon Jassy explicitly denied AI was the driver (\"It's culture\") despite earlier AI efficiency memos — Galetti contradicted by citing AI as \"transformative technology\""
       ],
       "counterEvidence": "Some restructuring IS genuinely AI-driven (UPS automation, Salesforce agent replacement, Travelers TravAI with concrete metrics). The question is proportion, not existence. Pinterest CEO does cite specific AI products (visual search, Pinterest Assistant for 600M users).",
       "promotedTo": null
@@ -96,13 +112,14 @@
       "description": "Multiple large companies explicitly targeting management layers as AI automates information aggregation and coordination that middle managers previously performed. Connects to Simon (1947) on bounded rationality — AI expands the span of control. Now confirmed in Q4 2025 earnings calls from Meta and Amazon.",
       "theme": "convergence",
       "firstObserved": "2026-01-31",
-      "lastUpdated": "2026-02-03",
+      "lastUpdated": "2026-02-15",
       "status": "promoted",
       "sessions": [
         "2026-01-31-gap-coverage-session.md",
         "2026-02-01-001-research-press-podcasts-reports.md",
         "2026-02-03-003-research-earnings-calls-press.md",
-        "2026-02-04-001-earnings-q4-2025-wide-net.md"
+        "2026-02-04-001-earnings-q4-2025-wide-net.md",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "relatedSpecimens": [
         "amazon-agi",
@@ -110,7 +127,8 @@
         "ups",
         "meta-ai",
         "salesforce",
-        "servicenow"
+        "servicenow",
+        "intel"
       ],
       "dataPoints": [
         "UPS: targeting management layers specifically, 48K+ jobs confirmed 2025",
@@ -119,7 +137,12 @@
         "Zuckerberg Q4 2025: 'what many big teams do can now be accomplished by a single, very talented person' — investing in 'flattening teams'",
         "Amazon Galetti Jan 2026: 'reducing layers, increasing ownership, and removing bureaucracy'",
         "Salesforce: 4K support jobs cut and redeployed as AI agents handle 84% resolution",
-        "ServiceNow CEO McDermott: 'obliterate 20th century org charts' — framing AI as organizational restructuring tool, not just efficiency tool"
+        "ServiceNow CEO McDermott: 'obliterate 20th century org charts' — framing AI as organizational restructuring tool, not just efficiency tool",
+        "Amazon: 78%+ of 30K corporate layoffs were mid-level managers (L5-L7); Jassy: \"important to be lean, flat, and move fast\"",
+        "UPS: 12K of 85K management positions eliminated (~14% of managers); Tome: cuts \"made possible by new technologies, such as AI\"",
+        "ASML: 1,700 cuts primarily targeting management and leadership roles; CFO: \"make sure engineers can be engineers again\"",
+        "Intel: Tan explicitly simplified org structure, \"greatly reduce bureaucracy,\" 15% OpEx cut",
+        "Google: 50% of code now from AI agents (up from 30% at Microsoft); reduces coordination overhead for engineering management"
       ],
       "counterEvidence": null,
       "promotedTo": "insight-restructuring-convergence"
@@ -150,7 +173,7 @@
       "description": "Chief AI Officer role expanding from ~10% of Fortune 500 (2024) to projected 40%+ by end of 2026. Federal mandate driving government adoption. State-level wave (7+ US states). Expanding into new sectors: advertising, medical education, defense.",
       "theme": "governance",
       "firstObserved": "2026-01-31",
-      "lastUpdated": "2026-02-03",
+      "lastUpdated": "2026-02-15",
       "status": "promoted",
       "sessions": [
         "2026-01-31-multi-source-session.md",
@@ -159,20 +182,27 @@
         "2026-02-01-001-research-press-podcasts-reports.md",
         "2026-02-01-002-research-tier1-press-broad-scan.md",
         "2026-02-03-001-research-podcasts-press-substacks.md",
-        "2026-02-04-001-earnings-q4-2025-wide-net.md"
+        "2026-02-04-001-earnings-q4-2025-wide-net.md",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "relatedSpecimens": [
         "ubs",
         "commonwealth-bank",
         "stagwell",
-        "uk-government"
+        "uk-government",
+        "lionsgate",
+        "panasonic",
+        "new-york-state"
       ],
       "dataPoints": [
         "40%+ Fortune 500 expected to have CAIO by end of 2026",
         "48% of FTSE 100 now have CAIOs",
         "Federal mandate: all US Executive departments must appoint CAIO (OMB April 2024)",
         "State-level wave: NY, OK, MT, TX, NC, AR, IL",
-        "IBM: 26% of organizations now have CAIO (up from 11%), hub-and-spoke model yields 36% higher ROI than centralized-only"
+        "IBM: 26% of organizations now have CAIO (up from 11%), hub-and-spoke model yields 36% higher ROI than centralized-only",
+        "Lionsgate: first entertainment industry CAIO (Kathleen Grace), reports directly to CEO",
+        "Panasonic: first CAIO (Akira Sakakibara, effective April 2026), plus new Solution Revenue Officer — linking AI to revenue",
+        "New York State: CAIO Fournier-Tombs (from UN AI policy lab), reports to CIO Dru Rai"
       ],
       "counterEvidence": "NY State 1st CAIO departed in <1 year — tenure/retention may be a problem. PwC framework suggests CAIO evolving from single role to 'portfolio of accountable owners' — role may dissolve into distributed accountability.",
       "promotedTo": "insight-caio-waves"
@@ -495,13 +525,14 @@
       "description": "OpenAI = 45% of Azure RPO. Market reversed from viewing the partnership as Microsoft's biggest advantage to viewing concentration as strategic risk. Q2 FY2026 earnings triggered $375B market cap wipe — investors questioning AI ROI and OpenAI dependency simultaneously. Internal MAI team (Suleyman) vs. external OpenAI creates structural dual-source tension.",
       "theme": "explore-execute",
       "firstObserved": "2026-01-31",
-      "lastUpdated": "2026-02-03",
+      "lastUpdated": "2026-02-15",
       "status": "active",
       "sessions": [
         "2026-01-31-substacks-bg2-press.md",
         "2026-01-31-deep-scan-session.md",
         "2026-02-03-001-research-podcasts-press-substacks.md",
-        "2026-02-03-003-research-earnings-calls-press.md"
+        "2026-02-03-003-research-earnings-calls-press.md",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "relatedSpecimens": [
         "microsoft",
@@ -516,7 +547,14 @@
         "Azure growth slowed to 39% (from 40%) despite massive CapEx — investors questioning AI ROI",
         "Strategic pivot to 'AI Efficiency' narrative — focus on lowering cost of serving models",
         "Copilot: 15M paid seats / 450M commercial = 3.3% penetration — market wants higher adoption",
-        "Discussing vertical integration of own silicon + restructuring OpenAI deal"
+        "Discussing vertical integration of own silicon + restructuring OpenAI deal",
+        "Suleyman declares AI self-sufficiency mission — building proprietary MAI models to reduce OpenAI dependency",
+        "OpenAI = 45% of Microsoft's $625B revenue backlog ($281.3B), much from new $250B Azure contract",
+        "OpenAI's $38B AWS deal formally ended exclusive Azure reliance",
+        "Microsoft holds 27% of OpenAI's for-profit arm with IP rights through 2032",
+        "Suleyman: Microsoft AI Superintelligence Team targeting \"professional-grade AGI\"",
+        "Non-OpenAI backlog grew 28% YoY — diversification working",
+        "FY2026 CapEx projected $100-125B, goal to double datacenter capacity by end FY2027"
       ],
       "counterEvidence": null,
       "promotedTo": null
@@ -551,12 +589,13 @@
       "description": "Meta's AI org is the most restructured in our collection: 5 major reorgs in ~2 years. Latest: Alexandr Wang (28yo Scale AI founder) as first CAIO, Meta Superintelligence Labs (MSL) with 4-unit structure (TBD Lab, FAIR, Products/Applied Research, Infra). LeCun departure is vivid explore/execute tension — researcher who built FAIR loses to execution-focused outsider. Plus Reality Labs ($70B+ losses) pivoting to AI wearables.",
       "theme": "explore-execute",
       "firstObserved": "2026-01-31",
-      "lastUpdated": "2026-02-03",
+      "lastUpdated": "2026-02-15",
       "status": "active",
       "sessions": [
         "2026-01-31-substacks-bg2-press.md",
         "2026-02-03-001-research-podcasts-press-substacks.md",
-        "2026-02-03-002-research-press-podcasts-ai-labs.md"
+        "2026-02-03-002-research-press-podcasts-ai-labs.md",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "relatedSpecimens": [
         "meta-ai",
@@ -577,7 +616,13 @@
         "Q4 2025 earnings: $115-135B 2026 CapEx (nearly 2x 2025's $72.2B) — largest AI investment commitment by any single company",
         "MSL 'most talent-dense research effort in the industry' per Zuckerberg (6 months in)",
         "Vision: 'personal superintelligence' — AI that understands personal context, history, interests",
-        "Explicit commitment to 'flattening teams' and 'AI-native tooling' for workforce"
+        "Explicit commitment to 'flattening teams' and 'AI-native tooling' for workforce",
+        "Meta Compute: new top-level org for AI infrastructure (Janardhan technical + Gross planning + McCormick government relations)",
+        "MSL confirmed four-team structure: TBD Lab (Wang), FAIR (Fergus), Products (Friedman), Infra (Ramani)",
+        "The Information: 4th restructuring of AI efforts in 6 months — organizational search costs signal",
+        "RIVOS acquihire for custom silicon (RISC-V chip designer) plus MTIA program",
+        "$115-135B 2026 CapEx building sovereign AI cloud infrastructure with government/sovereign fund partners",
+        "Reality Labs: 1,000-1,500 cuts (10%), 30% metaverse budget cut, 3 VR studios closed"
       ],
       "counterEvidence": null,
       "promotedTo": null
@@ -588,16 +633,18 @@
       "description": "Four companies (Meta $115-135B + Amazon $150B+ + Microsoft $150B annualized + Google $91-93B) committing ~$500-530B in 2026 AI CapEx. Microsoft's $375B market cap wipe on Jan 29 is the first major correction signal — market demanding proof of returns. 'AI Efficiency' narrative pivot signals new phase: from 'spend to build' to 'show me the returns.'",
       "theme": "investment",
       "firstObserved": "2026-02-03",
-      "lastUpdated": "2026-02-03",
+      "lastUpdated": "2026-02-15",
       "status": "active",
       "sessions": [
-        "2026-02-03-003-research-earnings-calls-press.md"
+        "2026-02-03-003-research-earnings-calls-press.md",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "relatedSpecimens": [
         "microsoft",
         "meta-ai",
         "amazon-agi",
-        "google-deepmind"
+        "google-deepmind",
+        "nvidia"
       ],
       "dataPoints": [
         "Meta: $115-135B 2026 CapEx guidance (nearly 2x 2025's $72.2B)",
@@ -606,7 +653,13 @@
         "Google: $91-93B full year 2025 CapEx guidance",
         "Combined ~$500-530B from just 4 companies in a single year",
         "Microsoft pivoting to 'AI Efficiency' narrative — lowering cost of serving AI models",
-        "Copilot penetration at 3.3% (15M/450M seats) — market wants faster adoption to justify spend"
+        "Copilot penetration at 3.3% (15M/450M seats) — market wants faster adoption to justify spend",
+        "Alphabet: $175-185B 2026 CapEx (nearly 2x 2025's $91.4B), 3x 2024's $52.5B — biggest absolute increase",
+        "Amazon: $200B 2026 CapEx (up from $128B in 2025), exceeded analyst expectations by $50B",
+        "Combined Big Five >B for 2026 with $1.63T cumulative backlog",
+        "NVIDIA Huang: ~$660B combined hyperscaler CapEx is \"sustainable\" — \"the largest infrastructure buildout in human history\"",
+        "AWS operating margin: 35% — proving AI infrastructure CAN generate returns",
+        "Google Cloud: operating margin 30.1% (up from 17.5%), $240B backlog (doubled YoY)"
       ],
       "counterEvidence": "AWS operating margin improved from 30.3% to 34.6% — proprietary silicon + AI workloads CAN improve margins. Salesforce Agentforce at $500M ARR with 330% growth suggests enterprise AI can monetize.",
       "promotedTo": null
@@ -720,16 +773,22 @@
       "description": "Across Q4 2025 earnings calls, 'agentic' has displaced 'copilot' as the primary framing for AI deployment. This isn't just naming — it signals a structural shift from AI-as-assistant (augments individual workers) to AI-as-agent (replaces organizational units/processes). McDermott's 'obliterate 20th century org charts' is the most explicit articulation: AI agents don't augment existing structure, they replace it.",
       "theme": "convergence",
       "firstObserved": "2026-02-04",
-      "lastUpdated": "2026-02-04",
+      "lastUpdated": "2026-02-15",
       "status": "active",
       "sessions": [
-        "2026-02-04-001-earnings-q4-2025-wide-net.md"
+        "2026-02-04-001-earnings-q4-2025-wide-net.md",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "relatedSpecimens": [
         "servicenow",
         "travelers",
         "salesforce",
-        "accenture-openai"
+        "accenture-openai",
+        "amazon-agi",
+        "ups",
+        "walmart",
+        "shopify",
+        "disney"
       ],
       "dataPoints": [
         "ServiceNow CEO McDermott: 'obliterate 20th century org charts' — most explicit articulation of agentic AI as structural transformation",
@@ -738,7 +797,13 @@
         "Accenture: 70K trained in 'agentic AI' specifically — differentiated from general AI training",
         "Nokia: 'agentic AI' for autonomous network management (96% downtime reduction)",
         "Salesforce: from 'Copilot' (2024) to 'Agentforce' (2025) — explicit naming transition",
-        "Microsoft: from 'Copilot' to '3M user-created agents' — even Copilot becoming agent platform"
+        "Microsoft: from 'Copilot' to '3M user-created agents' — even Copilot becoming agent platform",
+        "Amazon: Bedrock Agent Corp for enterprise deployment, Rufus 300M users (60% purchase lift), Curo 150%+ developer growth",
+        "UPS: 90% cross-border transactions digital, 127 automated buildings (28% lower cost), Velocity facility 15:1 robot-to-human",
+        "Salesforce: Agentforce 4K+ paid deals, 850K help conversations with 85% resolution, 233% agent usage growth",
+        "Baker McKenzie: Anthropic Claude Cowork agent as catalyst for 600-1,000 role cuts",
+        "Walmart: Wally AI diagnostic agent for supply chain, 65% stores automated target, 4M developer hours saved",
+        "Shopify: Sidekick generated ~4K custom apps in 3 weeks, 29K Flow automations, 1.2M photos edited"
       ],
       "counterEvidence": "Could be marketing relabeling rather than genuine structural shift. 'Copilot' may just be unfashionable. Need to verify whether 'agentic' deployments actually differ structurally from 'copilot' ones.",
       "promotedTo": null
@@ -940,10 +1005,11 @@
       "description": "McKinsey (25K agents, QuantumBlack at 40% revenue), BCG (multi-year embedded AI transformation), PwC, Accenture all restructuring around AI both internally (how they work) and externally (what they sell). Their dual role — restructuring themselves while advising others on restructuring — creates interesting selection effects and potential conflicts of interest. Professional services is a distinct structural pattern we haven't documented.",
       "theme": "structural-form",
       "firstObserved": "2026-02-10",
-      "lastUpdated": "2026-02-10",
+      "lastUpdated": "2026-02-15",
       "status": "active",
       "sessions": [
-        "podcast-conference-sweep-feb-10.json"
+        "podcast-conference-sweep-feb-10.json",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "relatedSpecimens": [
         "accenture-openai"
@@ -954,7 +1020,11 @@
         "QuantumBlack: 1,700-person AI division = 40% of McKinsey revenue",
         "Sternfels (CES 2026): 'Transform or die'",
         "BCG: multi-year AI transformation engagements with embedded tools",
-        "Accenture: $5.9B GenAI bookings while $865M own restructuring"
+        "Accenture: $5.9B GenAI bookings while $865M own restructuring",
+        "Baker McKenzie: 600-1,000 support roles cut, attorneys excluded, Anthropic Claude Cowork agent as catalyst",
+        "Capgemini: EUR 700M restructuring over 2 years, CEO: \"clearly pivoting to be the catalyst for enterprise-wide AI adoption\"",
+        "Forrester Research: 8% workforce cut, exiting consulting (bookings -50%+), shifting to AI-first research model",
+        "Professional services restructuring wave — 3 firms in same week, mid-Feb 2026"
       ],
       "counterEvidence": "Conflict of interest: consultants recommending AI restructuring they can sell. McKinsey 25K agent count may be inflated for CES presentation impact.",
       "promotedTo": null
@@ -982,6 +1052,138 @@
         "Cross-app agent orchestration as the new coordination layer"
       ],
       "counterEvidence": "Thompson argues moats exist and transition will be more graduated than 'SaaS is dead' narrative. Enterprise switching costs remain very high.",
+      "promotedTo": null
+    },
+    {
+      "id": "internal-ai-coding-critical-mass",
+      "signal": "Internal AI coding agents hit critical mass — 50% of code at scale",
+      "description": "Multiple large companies now report that AI agents write a substantial share of their production code. Google: 50% of code written by AI agents (reviewed by engineers). Microsoft: 30%+ AI-written. Walmart: 4M developer hours saved. Shopify: 80% Copilot adoption within 1 year, GitHub Copilot 4.7M paid subscribers. This is no longer a pilot — it's a structural shift in how software engineering is organized, with implications for team sizes, spans of control, and the role of engineering management.",
+      "theme": "convergence",
+      "firstObserved": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "status": "active",
+      "sessions": [
+        "research/sessions/2026-02-15-session-34-research-agents.md"
+      ],
+      "relatedSpecimens": [
+        "google-deepmind",
+        "microsoft",
+        "walmart",
+        "shopify"
+      ],
+      "dataPoints": [
+        "Google: 50% of code now written by AI agents (reviewed by engineers) — Q4 2025 earnings",
+        "Microsoft Nadella: 30%+ of code AI-written",
+        "Walmart: 4M developer hours saved by AI coding tools",
+        "Shopify: 80% Copilot adoption within 1 year, immediately ordered 3K Cursor licenses",
+        "GitHub Copilot: 4.7M paid subscribers (up 75% YoY)",
+        "Salesforce: flat engineering headcount attributed to AI productivity gains",
+        "Moderna: 4,000+ custom GPTs across entire company"
+      ],
+      "counterEvidence": "Code quantity does not equal code quality. AI-generated code may increase technical debt, reduce code readability, or create novel security vulnerabilities. The 50% figure likely includes boilerplate/scaffolding that was already low-value human work.",
+      "promotedTo": null
+    },
+    {
+      "id": "custom-silicon-as-organizational-strategy",
+      "signal": "Custom AI silicon as vertical integration strategy reshaping org structure",
+      "description": "Amazon (Trainium B+ revenue, 1.4M chips), Meta (MTIA + RIVOS acquihire), Google (TPUs), and Apple (in-house silicon) are all building custom AI chips. This isn't just a technology choice — it requires creating semiconductor design teams, integrating them with cloud/infrastructure ops, and making decade-horizon investment decisions. Organizations are expanding their scope into hardware design, which fundamentally changes their org charts, talent needs, and capital allocation.",
+      "theme": "structural-form",
+      "firstObserved": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "status": "active",
+      "sessions": [
+        "research/sessions/2026-02-15-session-34-research-agents.md"
+      ],
+      "relatedSpecimens": [
+        "amazon-agi",
+        "meta-ai",
+        "google-deepmind",
+        "intel"
+      ],
+      "dataPoints": [
+        "Amazon: Trainium custom silicon B+ annual revenue run rate, 1.4M chips deployed, Trainium 4 in development with NVLink Fusion",
+        "Meta: RIVOS acquihire (RISC-V chip designer), MTIA program within Superintelligence Labs infra",
+        "Intel: Eric Demers (AMD/Qualcomm GPU vet) recruited as SVP GPU Architecture — entering GPU market",
+        "Amazon: custom silicon + Nvidia compatibility (Trainium 4 NVLink Fusion) = twin-engine strategy",
+        "NVIDIA still captures ~90% of AI accelerator spending — but custom silicon eroding monopoly"
+      ],
+      "counterEvidence": "Intel's decades of experience shows chip design is extremely hard and failure rates are high. Custom chips take 3-5 years to mature. Nvidia's rapid innovation pace may outrun custom efforts.",
+      "promotedTo": null
+    },
+    {
+      "id": "ceo-succession-as-ai-inflection",
+      "signal": "CEO succession as structural inflection point for AI strategy",
+      "description": "Disney (Iger→D'Amaro, March 2026), Intel (Gelsinger→Tan, 2025), and Workday (Eschenbach→Bhusri, Feb 2026) demonstrate how CEO transitions create structural reset opportunities. D'Amaro selected partly for viewing \"technology as an opportunity not a threat.\" Tan immediately centralized DCAI and simplified org. Bhusri returned because AI was \"bigger transformation than SaaS.\" The CEO transition is the most powerful mechanism for rapid structural transformation.",
+      "theme": "governance",
+      "firstObserved": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "status": "active",
+      "sessions": [
+        "research/sessions/2026-02-15-session-34-research-agents.md"
+      ],
+      "relatedSpecimens": [
+        "disney",
+        "intel",
+        "workday"
+      ],
+      "dataPoints": [
+        "Disney: D'Amaro selected partly because he views technology as opportunity not threat; Dana Walden created as President/CCO",
+        "Intel: Tan immediately centralized DCAI, simplified org, cut 15% workforce, recruited external semiconductor veterans",
+        "Workday: Eschenbach ousted after 13 months, Bhusri returned; framed AI as \"bigger transformation than SaaS\"",
+        "Walmart: McMillon→Furner succession, Furner expected to continue AI-first supply chain strategy"
+      ],
+      "counterEvidence": "CEO succession may reflect broader board pressure rather than individual vision. New CEOs often restructure simply to establish authority, not because of genuine strategic insight.",
+      "promotedTo": null
+    },
+    {
+      "id": "pharma-external-ai-lab-model",
+      "signal": "Pharma companies creating external AI research nodes — new structural form",
+      "description": "Eli Lilly's NVIDIA co-innovation lab (B, 5yr, SF Bay Area) represents a new structural pattern: a pharma company creating an external AI research node that feeds back into its internal drug discovery pipeline. The scientist-in-the-loop framework connecting wet labs and dry labs is a continuous feedback loop, not one-directional outsourcing. Combined with TuneLab (externalizing AI capabilities to 1,300+ Benchling customers), Lilly is creating a two-way platform: importing AI capabilities AND exporting proprietary AI models.",
+      "theme": "structural-form",
+      "firstObserved": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "status": "active",
+      "sessions": [
+        "research/sessions/2026-02-15-session-34-research-agents.md"
+      ],
+      "relatedSpecimens": [
+        "eli-lilly"
+      ],
+      "dataPoints": [
+        "NVIDIA-Lilly co-innovation lab: B over 5 years, SF Bay Area, opening early 2026",
+        "Scientist-in-the-loop framework connecting agentic wet labs with computational dry labs",
+        "Built on NVIDIA BioNeMo platform and Vera Rubin architecture",
+        "Lilly TuneLab: AI/ML platform distributed to 1,300+ biotech customers via Benchling partnership",
+        "Ricks: reframing drug discovery from \"artisanal\" to \"engineering\" problem",
+        "Lab covers full pharma value chain: foundation models, molecule ID, manufacturing, imaging, clinical dev, robotics, digital twins",
+        "Lilly's most powerful supercomputer in biopharma (DGX SuperPOD architecture)"
+      ],
+      "counterEvidence": "Only one pharma company showing this pattern so far. May be Lilly-specific due to their scale (B revenue, B manufacturing since 2020). Need Roche-Genentech, Sanofi, Moderna for pattern validation.",
+      "promotedTo": null
+    },
+    {
+      "id": "matrix-to-product-reorg-pattern",
+      "signal": "Matrix structures collapsing into product-dedicated teams under AI pressure",
+      "description": "ASML and xAI both reorganized from matrix/project-based structures to product-dedicated teams in early 2026. ASML explicitly moving \"from a project/matrix setup to one where most engineers will be dedicated to a specific product.\" xAI reorganized from research lab into four product areas (Grok, Imagine, Coding, Macrohard). This is a recurring pattern: as AI capabilities mature, organizations shed coordination overhead (matrix) in favor of product-focused autonomy (dedicated teams).",
+      "theme": "structural-form",
+      "firstObserved": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "status": "active",
+      "sessions": [
+        "research/sessions/2026-02-15-session-34-research-agents.md"
+      ],
+      "relatedSpecimens": [
+        "asml",
+        "xai"
+      ],
+      "dataPoints": [
+        "ASML: explicitly moving from matrix/project setup to product-dedicated engineering",
+        "ASML CFO: \"make sure engineers can be engineers again\" — cutting management not engineering",
+        "xAI: research lab reorganized into 4 product divisions (Grok, Imagine, Coding, Macrohard)",
+        "xAI: 50% co-founder departures triggered by shift from research to product focus",
+        "Both cutting management layers while protecting technical talent"
+      ],
+      "counterEvidence": "Matrix structures exist for a reason — cross-product coordination, resource sharing, knowledge transfer. Product-dedicated teams may recreate silos. The pattern may be cyclical (matrix→product→matrix) rather than directional.",
       "promotedTo": null
     }
   ]

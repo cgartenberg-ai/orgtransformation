@@ -1,0 +1,170 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "nextera-energy",
+  "name": "NextEra Energy",
+  "title": "Energy Giant Powers AI Era Through Strategic Partnerships",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6b",
+    "subTypeName": "Centralized-but-Unnamed",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "NextEra has no Chief AI Officer, no dedicated AI lab, and no formal AI organization visible in their executive structure. AI capabilities are acquired primarily through strategic partnerships (Google Cloud) rather than internal build. The company embeds AI into existing operations (drones for power restoration, predictive maintenance) without creating a separate exploration unit. This is M6b rather than M6a because there's no evidence of 80%+ enterprise-wide adoption — instead there appears to be a centralized partnership-driven approach without formal AI branding. The contextual orientation fits because AI is being integrated into existing roles and operational workflows rather than structurally separated.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Energy / Utilities",
+    "sector": "Electric Utilities",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Juno Beach, Florida, USA",
+    "geography": "United States (primarily Florida)"
+  },
+  "description": "NextEra Energy approaches AI without a dedicated AI organization, Chief AI Officer, or formal AI lab. Instead, the company pursues AI through strategic partnerships — most notably with Google Cloud — and embeds AI capabilities into existing operations such as predictive maintenance and drone inspections. CEO John Ketchum frames NextEra primarily as an AI *enabler* providing the clean energy infrastructure that powers AI data centers, rather than as an AI developer.\n\nThis positioning reflects a structural choice: rather than building internal AI capabilities through a research lab (M1) or center of excellence (M2), NextEra outsources AI development to technology partners while contributing domain expertise in grid operations. The absence of a CAIO or dedicated AI leadership suggests confidence that AI capabilities can be acquired through partnerships because technology companies desperately need what NextEra already owns — electrons. A Central Lab exists in West Palm Beach with 16 scientists, but this focuses on chemistry and energy testing, not AI research.\n\nThe company's innovation infrastructure (35 Mules startup hub, Innovation Summit, Hack Week) exists but isn't AI-specific. The Google Cloud partnership will create an AI grid-management tool expected mid-2026, confirming that external partnership is the primary mechanism for AI capability development. Ketchum's reframing of NextEra as 'a technology company that delivers electricity' signals strategic positioning to investors, though the executive roster shows zero technology officers — traditional energy roles only.",
+  "observableMarkers": {
+    "reportingStructure": "No CAIO or dedicated AI leadership. AI initiatives appear to report through existing operational chains. CEO Ketchum is the primary spokesperson on AI-related matters.",
+    "resourceAllocation": "AI investment appears bundled within broader technology and infrastructure spending. The Google Cloud partnership suggests co-investment/outsourcing model rather than dedicated internal AI budget.",
+    "timeHorizons": "Mixed. Near-term: predictive maintenance, drone AI (operational). Mid-term: AI grid-management tool launch mid-2026. Long-term: Infrastructure to power AI data centers through 2032+.",
+    "decisionRights": "Appears centralized at corporate level for major AI partnerships. Operational AI (drones, maintenance) likely distributed to operational units.",
+    "metrics": "Not specifically disclosed for AI. Overall company metrics: 8%+ adjusted EPS CAGR through 2032, 10% dividend growth through 2026."
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "text": "The need for power is going to be more significant than anything we've seen since the post–World War II industrial revolution.",
+      "speaker": "John Ketchum",
+      "speakerTitle": "Chairman, President and CEO, NextEra Energy",
+      "source": "McKinsey Interview",
+      "sourceUrl": "https://www.mckinsey.com/industries/electric-power-and-natural-gas/our-insights/a-technology-company-that-delivers-electricity-a-talk-with-nextera-energy-ceo-john-ketchum",
+      "sourceDate": "2025-12",
+      "context": "Discussion about rising electricity demand driven by AI and data centers",
+      "significance": "Reveals NextEra's strategic framing as infrastructure builders for a historic transformation, not AI developers. The post-WWII comparison signals massive, long-term capital deployment — a claim about structural position in the economy rather than AI capability."
+    },
+    {
+      "text": "America needs more electrons on the grid, and America needs a proven energy infrastructure builder to get the job done.",
+      "speaker": "John Ketchum",
+      "speakerTitle": "Chairman, President and CEO, NextEra Energy",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.investor.nexteraenergy.com/reports-and-filings/quarterly-financial-results/2025",
+      "sourceDate": "2026-01-27",
+      "context": "CEO commentary on Q4 2025 results and infrastructure investment thesis"
+    },
+    {
+      "text": "We're already having a lot of success with renewables, but let's capitalize on the need for capacity and gas generation. By partnering with GE Vernova, we can find multi-gigawatt solutions for these customers, not just gas but combined with renewable solutions.",
+      "speaker": "John Ketchum",
+      "speakerTitle": "Chairman, President and CEO, NextEra Energy",
+      "source": "Energy Connects Interview",
+      "sourceUrl": "https://www.energyconnects.com/news/gas-lng/2025/january/renewables-leader-nextera-expanding-gas-nuclear-for-ai-boom",
+      "sourceDate": "2025-01",
+      "context": "Interview about expanding gas and nuclear capacity for AI boom"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Initial specimen collection",
+      "summary": "NextEra Energy pursues AI through strategic partnerships (Google Cloud primary) rather than internal build. No dedicated AI organization, CAIO, or formal AI lab. CEO Ketchum positions company as AI infrastructure enabler — providing clean energy for data centers — rather than AI developer. Google Cloud partnership producing AI grid-management tool for mid-2026 launch. Company joined AI Infrastructure Partnership in March 2025. Innovation programs exist (35 Mules, Innovation Summit, Hack Week) but aren't AI-specific. Central Lab in West Palm Beach focuses on chemistry/energy testing, not AI.",
+      "sourceRefs": [
+        "nextera-energy-q4-2025-earnings",
+        "nextera-energy-mckinsey-2025",
+        "nextera-energy-innovation-page",
+        "nextera-energy-imd-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "nextera-energy-q4-2025-earnings",
+      "name": "NextEra Q4 2025 Earnings Presentation",
+      "url": "https://www.investor.nexteraenergy.com/~/media/Files/N/NEE-IR/reports-and-fillings/quarterly-earnings/2025/Q4%202025/4Q%202025%20Slides%20vF.pdf",
+      "type": "Earnings Call",
+      "date": "2026-01-27",
+      "accessed": "2026-02-14",
+      "notes": "Full year 2025 results, 2026 guidance, infrastructure investment plans"
+    },
+    {
+      "id": "nextera-energy-mckinsey-2025",
+      "name": "McKinsey Interview with John Ketchum",
+      "url": "https://www.mckinsey.com/industries/electric-power-and-natural-gas/our-insights/a-technology-company-that-delivers-electricity-a-talk-with-nextera-energy-ceo-john-ketchum",
+      "type": "Interview",
+      "date": "2025-12",
+      "accessed": "2026-02-14",
+      "notes": "CEO discusses future of energy, data center demand, grid resilience. Called NextEra 'a technology company that delivers electricity'"
+    },
+    {
+      "id": "nextera-energy-officers",
+      "name": "NextEra Energy Corporate Officers",
+      "url": "https://www.investor.nexteraenergy.com/corporate-governance/officers",
+      "type": "Report",
+      "date": "2026-02",
+      "accessed": "2026-02-14",
+      "notes": "Executive team listing - confirms no CAIO or dedicated AI leadership"
+    },
+    {
+      "id": "nextera-energy-innovation-page",
+      "name": "NextEra Innovation Page",
+      "url": "https://www.nexteraenergy.com/careers/life-at-nextera/innovation.html",
+      "type": "Blog",
+      "date": "2026-02",
+      "accessed": "2026-02-14",
+      "notes": "Describes AI drones, innovation programs, 35 Mules startup hub"
+    },
+    {
+      "id": "nextera-energy-imd-2025",
+      "name": "IMD AI Maturity Profile - NextEra Energy",
+      "url": "https://www.imd.org/entity-profile/nextera-energy-ai-maturity-2025/",
+      "type": "Report",
+      "date": "2025",
+      "accessed": "2026-02-14",
+      "notes": "Business school assessment of NextEra's AI positioning"
+    },
+    {
+      "id": "nextera-energy-ceraweek",
+      "name": "CERAWeek Speaker Profile - John Ketchum",
+      "url": "https://www.ceraweek.com/en/speakers/john-ketchum-1060-24833",
+      "type": "Conference",
+      "date": "2025",
+      "accessed": "2026-02-14",
+      "notes": "Conference speaker listing"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Slow",
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Non-traditional",
+    "technicalDebt": null,
+    "environmentalAiPull": "Strong"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.7,
+    "speedVsDepth": 0.0,
+    "centralVsDistributed": 0.3,
+    "namedVsQuiet": 0.8,
+    "longVsShortHorizon": -0.5
+  },
+  "openQuestions": [
+    "What internal AI/data science capabilities exist within operational units?",
+    "How is the Google Cloud partnership governed — joint venture, customer relationship, or strategic alliance?",
+    "What specific AI applications are deployed beyond drones and predictive maintenance?",
+    "Is there a technology/digital transformation leader below C-suite driving AI adoption?",
+    "What metrics does NextEra use internally to measure AI success?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] NextEra represents an unusual M6b case where the absence of formal AI structure appears to be a deliberate strategic choice rather than organizational immaturity. They don't need AI credentials because they own the critical resource (electrons) that AI companies desperately need. This inverts the typical power dynamic where companies build AI labs to signal relevance — NextEra's bargaining position lets them acquire AI capability through partnership without internal build.",
+    "[2026-02] The 'AI enabler vs. AI developer' distinction may warrant taxonomic attention. NextEra positions itself as infrastructure layer for the AI era, similar to how cloud providers positioned in the mobile era. This is a fundamentally different relationship to AI than orgs trying to *apply* AI to their operations. The taxonomy currently assumes organizations are AI adopters; NextEra's case suggests a category of 'AI enablers' with different structural incentives.",
+    "[2026-02] The rhetoric-structure gap is notable: Ketchum calls NextEra 'a technology company that delivers electricity' yet the executive roster shows zero technology officers — all traditional energy roles. This suggests strategic positioning for capital markets rather than actual structural transformation toward technology. Worth tracking whether this gap closes over time or remains purely rhetorical."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-14",
+    "lastUpdated": "2026-02-14",
+    "completeness": "Medium",
+    "convertedFrom": null
+  }
+}

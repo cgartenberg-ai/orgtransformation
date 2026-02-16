@@ -1,0 +1,101 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "mit-tech-review",
+  "sourceName": "MIT Technology Review",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "None",
+  "newScannedThrough": "Feb 2026 (10 Breakthrough Technologies 2026 issue + enterprise AI strategy pieces)",
+  "newContent": [
+    {
+      "title": "The crucial first step for designing a successful enterprise AI system",
+      "date": "2026-02-02",
+      "url": "https://www.technologyreview.com/2026/02/02/1131822/the-crucial-first-step-for-designing-a-successful-enterprise-ai-system/",
+      "relevance": "HIGH",
+      "notes": "Mistral AI methodology: identify 'iconic use case' as foundation for AI transformation. Four criteria: strategic, urgent, impactful, feasible. Key stat: only 2% of senior execs rate their orgs highly on delivering AI results. 7% have deployed genAI widely despite 2/3 having deployed it somewhere."
+    },
+    {
+      "title": "Rethinking AI's future in an augmented workplace",
+      "date": "2026-01-21",
+      "url": "https://www.technologyreview.com/2026/01/21/1131366/rethinking-ais-future-in-an-augmented-workplace/",
+      "relevance": "HIGH",
+      "notes": "Vanguard research: 'AI has potential to be GPT that lifts productivity, reshapes industries, augments human work rather than displaces it.' Workplace augmentation framing."
+    },
+    {
+      "title": "Generative coding: 10 Breakthrough Technologies 2026",
+      "date": "2026-01-12",
+      "url": "https://www.technologyreview.com/2026/01/12/1130027/generative-coding-ai-software-2026-breakthrough-technology/",
+      "relevance": "HIGH",
+      "notes": "Key stat: AI now writes ~30% of Microsoft's code, >25% of Google's code (per company heads). Professional devs and novices using AI coding assistants to produce, test, edit, debug."
+    },
+    {
+      "title": "Hyperscale AI data centers: 10 Breakthrough Technologies 2026",
+      "date": "2026-01-12",
+      "url": "https://www.technologyreview.com/2026/01/12/1129982/hyperscale-ai-data-centers-energy-usage-2026-breakthrough-technology/",
+      "relevance": "MEDIUM",
+      "notes": "Infrastructure breakthrough: supersized data centers as 'new species of infrastructure' to fuel AI race. Relevant to resource allocation decisions."
+    },
+    {
+      "title": "What's next for AI in 2026",
+      "date": "2026-01-05",
+      "url": "https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/",
+      "relevance": "MEDIUM",
+      "notes": "DeepSeek R1 release; Chinese open models gaining ground. Prediction: Silicon Valley apps quietly shipping on Chinese open models. Regulatory tug-of-war between White House and states."
+    },
+    {
+      "title": "Building a high performance data and AI organization (2nd edition)",
+      "date": "2025-10-29",
+      "url": "https://www.technologyreview.com/2025/10/29/1124014/building-a-high-performance-data-and-ai-organization-2nd-edition/",
+      "relevance": "HIGH",
+      "notes": "Key stat: 98% of companies feel increased urgency; 85% believe <18 months to deploy AI strategy or negative effects. Only 13% globally say ready to leverage AI fully. Essential capabilities: compute, network, cybersecurity, observability, data quality, AI-focused culture and talent."
+    },
+    {
+      "title": "America's coming war over AI regulation",
+      "date": "2026-01-23",
+      "url": "https://www.technologyreview.com/2026/01/23/1131559/americas-coming-war-over-ai-regulation/",
+      "relevance": "LOW",
+      "notes": "Regulatory landscape: Trump exec order Dec 11 to limit state AI laws. States vs federal battle. Court battleground for AI regulation in 2026."
+    },
+    {
+      "title": "Mechanistic interpretability: 10 Breakthrough Technologies 2026",
+      "date": "2026-01-12",
+      "url": "https://www.technologyreview.com/2026/01/12/1130003/mechanistic-interpretability-ai-research-models-2026-breakthrough-technology/",
+      "relevance": "MEDIUM",
+      "notes": "New techniques giving researchers glimpse at AI model inner workings. Relevant to AI safety/governance organizational structures."
+    }
+  ],
+  "summary": "First scan of MIT Technology Review. Strong 2026 coverage with 10 Breakthrough Technologies issue (Jan 12) and enterprise AI strategy pieces. Key organizational findings: (1) Only 2% of execs rate AI results highly; 7% have scaled genAI widely despite 66% having deployed somewhere—scaling gap confirmed. (2) AI writing 25-30% of code at Microsoft/Google—major workforce integration signal. (3) 98% companies feel urgency, 85% believe <18 months to deploy or face negative effects—time pressure driving structural decisions. (4) Mistral AI 'iconic use case' methodology: strategic, urgent, impactful, feasible criteria for AI transformation starting point. (5) Vanguard research: AI as 'augmentation not displacement' GPT framing.",
+  "extractedFindings": [
+    {
+      "finding": "AI code generation at scale in big tech",
+      "source": "MIT Tech Review - Generative Coding 2026",
+      "date": "2026-01-12",
+      "detail": "AI now writes approximately 30% of Microsoft's code and more than 25% of Google's code, according to the heads of those companies.",
+      "relevantSpecimens": ["microsoft", "google-deepmind"],
+      "mechanism": "Developer augmentation"
+    },
+    {
+      "finding": "Enterprise AI scaling gap",
+      "source": "MIT Tech Review - Enterprise AI System Design",
+      "date": "2026-02-02",
+      "detail": "Only 2% of senior executives rate their organizations highly on delivering AI results. While two-thirds have deployed generative AI, only 7% have done so widely.",
+      "relevantSpecimens": [],
+      "mechanism": "Pilot-to-production gap"
+    },
+    {
+      "finding": "AI urgency timeline pressure",
+      "source": "MIT Tech Review - High Performance Data & AI Org",
+      "date": "2025-10-29",
+      "detail": "98% of companies feel increased urgency; 85% believe they have less than 18 months to deploy AI strategy or face negative business effects. Only 13% globally say they are ready.",
+      "relevantSpecimens": [],
+      "mechanism": "Competitive pressure driving structural decisions"
+    },
+    {
+      "finding": "Iconic use case methodology",
+      "source": "MIT Tech Review - Enterprise AI System Design (Mistral AI)",
+      "date": "2026-02-02",
+      "detail": "Mistral AI methodology starts by identifying an 'iconic use case' with four criteria: strategic, urgent, impactful, and feasible. 'Choosing the right use case can mean the difference between true transformation and endless tinkering and testing.'",
+      "relevantSpecimens": [],
+      "mechanism": "Use case selection for AI transformation"
+    }
+  ]
+}

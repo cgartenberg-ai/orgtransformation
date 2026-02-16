@@ -1,0 +1,604 @@
+{
+  "taskId": "press-podcast-sweep-feb-15-2026",
+  "taskType": "press-keyword",
+  "scannedDate": "2026-02-15",
+  "sourceScanned": {
+    "sourceId": null,
+    "name": "Press Keyword Sweep + Podcast Feed Checks (Feb 12-15, 2026)",
+    "type": "Press + Podcast",
+    "scannedThrough": "Press through Feb 15, 2026; Podcasts through Feb 15, 2026",
+    "scannedThroughDate": "2026-02-15"
+  },
+  "searchesCompleted": 21,
+  "urlsFetched": 14,
+  "searchFailures": [
+    {
+      "query": "site:nopriorspod.com 2026",
+      "reason": "No results returned"
+    }
+  ],
+  "fetchFailures": [
+    {
+      "url": "https://www.sage.com/en-us/news/press-releases/2026/01/sage-partners-with-augusta-labs-to-accelerate-the-build-out-of-its-ai-centre-of-excellence/",
+      "reason": "403 Forbidden"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/exclusive-arm-launches-physical-ai-193509035.html",
+      "reason": "incorrect header check (compression error)"
+    },
+    {
+      "url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+      "reason": "Page returned JS/CSS only, no article text"
+    },
+    {
+      "url": "https://www.metaintro.com/blog/salesforce-layoffs-february-2026-agentforce-ai",
+      "reason": "Page returned JS/CSS only, no article text"
+    },
+    {
+      "url": "https://www.metaintro.com/blog/workday-layoffs-ceo-steps-down-co-founder-returns-ai-2026",
+      "reason": "Page returned JS/CSS only, no article text"
+    },
+    {
+      "url": "https://deadline.com/2026/02/lionsgate-ai-kathleen-grace-1236710403/",
+      "reason": "Page returned JS/CSS only, no article text"
+    },
+    {
+      "url": "https://tech.co/news/companies-replace-workers-with-ai",
+      "reason": "Page returned JS/CSS only, no article text"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Lionsgate",
+      "type": "new-specimen-candidate",
+      "industry": "Media & Entertainment",
+      "finding": "CAIO appointment — first Chief AI Officer",
+      "structuralDetails": {
+        "what": "Lionsgate hired Kathleen Grace as its first-ever Chief AI Officer. Grace reports directly to CEO Jon Feltheimer and is part of the senior decision-making team. Her mandate covers AI strategy across production, marketing, distribution, and administrative operations, plus IP protection for the studio and talent partners.",
+        "who": "Kathleen Grace — previously Chief Strategy Officer at Vermillio (AI IP licensing platform), before that headed New Form digital studio (backed by Ron Howard/Brian Grazer/Discovery), and led YouTube's global Spaces initiative.",
+        "reportingLine": "Reports directly to CEO Jon Feltheimer; works closely with Vice Chairman Michael Burns",
+        "scope": "Company-wide: production tools for filmmakers, efficiency in production/marketing/distribution/admin, IP protection initiatives",
+        "headcount": "Not specified — single CAIO hire announced, no mention of building a team beneath her"
+      },
+      "quotes": [
+        {
+          "speaker": "Jon Feltheimer, CEO",
+          "text": "The company continues to find exciting new use cases for the technology to increase productivity and expand the creative tool kit for storytellers.",
+          "context": "Explaining rationale for CAIO hire"
+        },
+        {
+          "speaker": "Kathleen Grace, CAIO",
+          "text": "Described joining a culture that is 'entrepreneurial and forward-looking' with intent to expand the 'creative palette' for filmmakers.",
+          "context": "On joining Lionsgate"
+        }
+      ],
+      "relevanceTest": {
+        "structural": true,
+        "tension": true,
+        "specificity": true
+      },
+      "sources": [
+        {
+          "url": "https://variety.com/2026/film/news/lionsgate-hires-chief-ai-officer-1236653786/",
+          "title": "Lionsgate Hires First Chief AI Officer Kathleen Grace",
+          "date": "2026-02",
+          "sourceType": "trade press"
+        },
+        {
+          "url": "https://www.rmnstars.com/lionsgate-appoints-kathleen-grace-as-first-ever-chief-ai-officer-amid-hollywoods-pivot-to-ai-first-production/",
+          "title": "Lionsgate Appoints Kathleen Grace as First-Ever Chief AI Officer",
+          "date": "2026-02",
+          "sourceType": "press"
+        }
+      ],
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "name": "xAI",
+      "type": "new-specimen-candidate",
+      "industry": "Technology / AI",
+      "finding": "Major reorganization — research lab to product-driven entity; 50% co-founder departures; SpaceX integration",
+      "structuralDetails": {
+        "what": "xAI underwent a major reorganization from a theoretical research lab to a product-driven entity. The company reorganized AI development into four core product areas: Grok chatbot, Imagine video-generation system, a coding-automation platform, and the Macrohard multi-agent AI software initiative. 6 of 12 original co-founders departed (50%), plus 10+ engineers publicly announced departures. Company is being integrated into a new 'extra-planetary computing' division within SpaceX.",
+        "who": "Named departures: Christian Szegedy, Kyle Kosic, Greg Yang, Zihang Dai, Toby Pohlen, Guodong Zhang, Yuhuai (Tony) Wu, Jimmy Ba",
+        "rationale": "Transition from founding research phase to product-oriented scaling. Musk described it as 'trimming the fat and focusing on the muscle.' Preparing for potential IPO as early as Q4 2026.",
+        "headcount": "1,000+ employees, aggressive hiring continuing"
+      },
+      "quotes": [
+        {
+          "speaker": "Elon Musk",
+          "text": "Described the reorganization as 'trimming the fat and focusing on the muscle,' suggesting the founding phase has concluded.",
+          "context": "Explaining rationale for restructuring"
+        },
+        {
+          "speaker": "Anonymous former senior engineer",
+          "text": "The original pitch was about pure scientific discovery...the mandate shifted entirely to serving the immediate needs of X (formerly Twitter) and Tesla's Optimus program.",
+          "context": "On the strategic shift"
+        }
+      ],
+      "relevanceTest": {
+        "structural": true,
+        "tension": true,
+        "specificity": true
+      },
+      "sources": [
+        {
+          "url": "https://theaiinsider.tech/2026/02/14/xai-reorganization-triggers-co-founder-departures-as-company-scales-ai-development/",
+          "title": "xAI Reorganization Triggers Co-Founder Departures as Company Scales AI Development",
+          "date": "2026-02-14",
+          "sourceType": "tech press"
+        },
+        {
+          "url": "https://creati.ai/ai-news/2026-02-12/xai-reorganization-cofounder-departures-elon-musk/",
+          "title": "Elon Musk's xAI Loses Six Co-Founders Amid Reorganization",
+          "date": "2026-02-12",
+          "sourceType": "tech press"
+        }
+      ],
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "name": "Baker McKenzie",
+      "type": "new-specimen-candidate",
+      "industry": "Professional Services / Legal",
+      "finding": "AI-driven restructuring cutting up to 1,000 support roles (~10% of global workforce)",
+      "structuralDetails": {
+        "what": "Baker McKenzie announced cuts of 600-1,000 support positions as part of an AI-driven restructuring. Affected functions: research staff, marketing, knowledge management, secretarial. Attorney positions explicitly excluded. Anthropic's Claude Cowork AI agent cited as a catalyst enabling automation of legal tasks and documentation.",
+        "functionsAffected": ["research", "marketing", "knowledge management", "secretarial"],
+        "functionsExcluded": ["attorneys"],
+        "geographicImpact": "Dozens in London and Belfast; hundreds across global operations",
+        "aiTools": "Anthropic Claude Cowork AI agent"
+      },
+      "quotes": [
+        {
+          "speaker": "Baker McKenzie spokesperson",
+          "text": "This review was aimed at rethinking the ways in which we work, including through our use of AI, introducing efficiencies, and investing in those roles that best serve our clients' needs.",
+          "context": "Official statement on restructuring"
+        }
+      ],
+      "relevanceTest": {
+        "structural": true,
+        "tension": true,
+        "specificity": true
+      },
+      "sources": [
+        {
+          "url": "https://americanbazaaronline.com/2026/02/13/baker-mckenzie-to-cut-1000-roles-in-ai-driven-restructuring-475053/",
+          "title": "Baker McKenzie to cut 1,000 roles in AI-driven restructuring",
+          "date": "2026-02-13",
+          "sourceType": "press"
+        }
+      ],
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "name": "Workday",
+      "type": "new-specimen-candidate",
+      "industry": "Enterprise Software",
+      "finding": "CEO ousted, co-founder returns to lead AI pivot; cumulative 10.5% workforce reduction over 12 months",
+      "structuralDetails": {
+        "what": "Workday CEO Carl Eschenbach stepped down after ~13 months; co-founder Aneel Bhusri returned as CEO. Layoff timeline: Feb 2025 cut 8.5% (~1,750 positions) for AI investment; Sept 2025 Eschenbach walked back rehiring commitments saying 'We don't need more headcount to drive the business forward'; Feb 2026 additional 2% reduction (~400 positions). Eschenbach received $3.6M severance. Total reduction: ~2,150 positions in 12 months.",
+        "strategicShift": "From maintaining headcount to prioritizing AI capabilities over team size. Bhusri framed AI as 'bigger transformation than SaaS.'",
+        "marketContext": "Shares fell ~40% over the preceding year; down 25%+ YTD 2026"
+      },
+      "quotes": [
+        {
+          "speaker": "Aneel Bhusri, returning CEO",
+          "text": "AI is a bigger transformation than SaaS — and it will define the next generation of market leaders.",
+          "context": "Framing the leadership transition"
+        },
+        {
+          "speaker": "Carl Eschenbach, departing CEO",
+          "text": "We don't need more headcount to drive the business forward.",
+          "context": "Sept 2025, walking back rehiring commitments"
+        }
+      ],
+      "relevanceTest": {
+        "structural": true,
+        "tension": true,
+        "specificity": true
+      },
+      "sources": [
+        {
+          "url": "https://www.theregister.com/2026/02/09/workday_ceo_steps_down/",
+          "title": "Workday CEO steps down amid layoffs and market jitters",
+          "date": "2026-02-09",
+          "sourceType": "tech press"
+        },
+        {
+          "url": "https://www.cnbc.com/2026/02/09/workday-stock-carl-eschenbach-aneel-bhusri.html",
+          "title": "Workday CEO Carl Eschenbach is stepping down, co-founder Aneel Bhusri to take over",
+          "date": "2026-02-09",
+          "sourceType": "financial press"
+        }
+      ],
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "name": "Arm Holdings",
+      "type": "new-specimen-candidate",
+      "industry": "Semiconductors / Technology",
+      "finding": "Reorganized into 3 divisions, creating new Physical AI unit for robotics",
+      "structuralDetails": {
+        "what": "Arm Holdings reorganized the company into three main business divisions: (1) Cloud and AI, (2) Edge (mobile devices and PC products), (3) Physical AI (new — includes automotive business, focused on robotics). Drew Henry heads the Physical AI unit. Plans to add dedicated robotics staff.",
+        "leader": "Drew Henry, head of Physical AI division",
+        "rationale": "Robotics market viewed as having substantial long-term growth potential. Henry says physical AI could 'fundamentally enhance labor, free up extra time' and significantly impact GDP.",
+        "timing": "Announced at CES in early January 2026"
+      },
+      "quotes": [
+        {
+          "speaker": "Drew Henry, head of Physical AI",
+          "text": "Physical AI solutions could 'fundamentally enhance labor, free up extra time' and significantly impact GDP.",
+          "context": "On the strategic vision for the new division"
+        }
+      ],
+      "relevanceTest": {
+        "structural": true,
+        "tension": false,
+        "specificity": true
+      },
+      "sources": [
+        {
+          "url": "https://stocktwits.com/news-articles/markets/equity/arm-reportedly-launches-physical-ai-division/cmxzXyJR42M",
+          "title": "Arm Reportedly Launches 'Physical AI' Division",
+          "date": "2026-01",
+          "sourceType": "financial press"
+        },
+        {
+          "url": "https://finance.yahoo.com/news/exclusive-arm-launches-physical-ai-193509035.html",
+          "title": "Exclusive-Arm launches 'Physical AI' unit",
+          "date": "2026-01",
+          "sourceType": "wire service"
+        }
+      ],
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "name": "Forrester Research",
+      "type": "new-specimen-candidate",
+      "industry": "Professional Services / Research",
+      "finding": "AI-driven strategic restructuring: exiting consulting, 8% workforce cut, shifting to AI-first research model",
+      "structuralDetails": {
+        "what": "Forrester cut 8% of workforce (~127 employees), exiting strategy consulting entirely (bookings declined 50%+ in 2025), discontinuing multi-day conferences in favor of shorter regional forums. Research will reach 80% of revenue in 2026 (up from 75% in 2025). Rebranding AI product from 'Izola' to 'Forrester AI' with 55% YoY growth in unique users. Redirecting restructuring savings toward AI investments.",
+        "restructuringCost": "$13.5-14M, with $9.9M recognized in Q4",
+        "aiProduct": "Forrester AI (formerly Izola) — Q4 showed 55% YoY growth in unique users, 65% increase in prompts. 'AI Surge' of improvements scheduled for H1 2026."
+      },
+      "quotes": [
+        {
+          "speaker": "George Colony, CEO",
+          "text": "Company has been 'actively embracing AI' for 3.5 years.",
+          "context": "Q4 2025 earnings call"
+        }
+      ],
+      "relevanceTest": {
+        "structural": true,
+        "tension": true,
+        "specificity": true
+      },
+      "sources": [
+        {
+          "url": "https://www.dailypolitical.com/2026/02/13/forrester-research-q4-earnings-call-highlights.html",
+          "title": "Forrester Research Q4 Earnings Call Highlights",
+          "date": "2026-02-13",
+          "sourceType": "earnings coverage"
+        }
+      ],
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "name": "ASML",
+      "type": "enrich-existing",
+      "industry": "Semiconductors",
+      "finding": "Cutting 1,700 positions (mostly management) while restructuring from matrix to product-dedicated engineering",
+      "structuralDetails": {
+        "what": "ASML announced 1,700 job cuts (~4% of global workforce) despite record financial year. Cuts primarily target management and leadership roles in Technology and IT divisions. The company is restructuring its Technology organization 'from a project/matrix setup to one where most of our engineers will be dedicated to a specific product and module.' Simultaneously creating new engineering jobs to strengthen technology projects. CFO Roger Dassen said cuts would 'trim bloat and reduce extraneous and inefficient layers' — wants to 'make sure engineers can be engineers again.'",
+        "structuralChange": "Matrix organization → product-dedicated engineering teams",
+        "functionsAffected": "Technology division, IT & Data organizations — mostly middle managers and up",
+        "financialContext": "Net gain of EUR 9.6 billion in 2025; expects better in 2026. Making changes 'at a moment of strength.'"
+      },
+      "quotes": [
+        {
+          "speaker": "Roger Dassen, CFO",
+          "text": "Cuts would 'trim bloat and reduce extraneous and inefficient layers' — wants to 'make sure engineers can be engineers again.'",
+          "context": "Explaining the rationale for restructuring"
+        }
+      ],
+      "relevanceTest": {
+        "structural": true,
+        "tension": true,
+        "specificity": true
+      },
+      "sources": [
+        {
+          "url": "https://dutchreview.com/news/asml-to-fire-1700-people/",
+          "title": "ASML to fire 1700 people, despite record year",
+          "date": "2026-01-28",
+          "sourceType": "press"
+        },
+        {
+          "url": "https://www.tomshardware.com/tech-industry/asml-to-lay-off-employees-despite-ai-chip-boom-and-record-high-stock-price-company-to-streamline-it-and-technology-departments-proposed-cuts-mostly-affect-leadership-roles",
+          "title": "ASML to lay off employees — company to streamline IT and Technology departments",
+          "date": "2026-01",
+          "sourceType": "tech press"
+        }
+      ],
+      "collectedDate": "2026-02-15",
+      "notes": "Already exists as a pending specimen in research/pending/asml.json — this enriches with structural detail on the matrix-to-product reorg"
+    },
+    {
+      "name": "Capgemini",
+      "type": "new-specimen-candidate",
+      "industry": "Professional Services / IT Consulting",
+      "finding": "EUR 700M restructuring for 'workforce and skills adaptation' driven by AI demand shift",
+      "structuralDetails": {
+        "what": "Capgemini announced EUR 700 million in restructuring charges over the next two years (majority in 2026). Purpose: 'country-specific workforce and skills adaptation initiatives' to meet surging AI demand. Generative and agentic AI accounted for over 10% of Group bookings in Q4. Expected restructuring cash outflows ~EUR 200M above 2025 levels.",
+        "strategicFrame": "CEO Aiman Ezzat: 'clearly pivoting the Group to be the catalyst for enterprise-wide AI adoption.'",
+        "scale": "EUR 700M restructuring cost; 340,000+ employees globally"
+      },
+      "quotes": [
+        {
+          "speaker": "Aiman Ezzat, CEO",
+          "text": "Clearly pivoting the Group to be the catalyst for enterprise-wide AI adoption.",
+          "context": "FY 2025 results announcement, Feb 13 2026"
+        }
+      ],
+      "relevanceTest": {
+        "structural": true,
+        "tension": true,
+        "specificity": true
+      },
+      "sources": [
+        {
+          "url": "https://www.globenewswire.com/news-release/2026/02/13/3237831/0/en/Full-year-2025-results.html",
+          "title": "Capgemini Full-year 2025 results",
+          "date": "2026-02-13",
+          "sourceType": "corporate announcement"
+        }
+      ],
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "name": "Panasonic",
+      "type": "new-specimen-candidate",
+      "industry": "Manufacturing / Electronics",
+      "finding": "Appointing first CAIO, cutting 10,000-12,000 employees, creating Business CEO mechanism across subsidiaries",
+      "structuralDetails": {
+        "what": "Panasonic appointed Akira Sakakibara as first CAIO (effective April 1, 2026) and also created a new Solution Revenue Officer role (Hirofumi Suzuki). Implemented 'Business CEO' mechanism where operating company presidents simultaneously serve as Business Chief Executive Officers of Panasonic Holdings for 'overall group optimization.' Cutting 10,000-12,000 employees globally (5,000 in Japan, 5,000+ elsewhere) in sales and indirect departments. Restructuring cost: ~130 billion yen (~$879M). Targeting JPY 100 billion in AI-related sales by FY2031.",
+        "newRoles": ["Chief AI Officer (Akira Sakakibara)", "Solution Revenue Officer (Hirofumi Suzuki)"],
+        "governanceChange": "Business CEO mechanism — operating company presidents dual-hatted as Business CEOs of Panasonic Holdings",
+        "caioScope": "AI strategy navigator: implementing AI solutions, optimizing operations, breaking down organizational silos between manufacturing units, reshaping supply chains using generative AI"
+      },
+      "quotes": [
+        {
+          "speaker": "Yuki Kusumi, CEO",
+          "text": "Identified 2026 as the 'key year for achieving growth phase transition.'",
+          "context": "New Year message to employees"
+        }
+      ],
+      "relevanceTest": {
+        "structural": true,
+        "tension": true,
+        "specificity": true
+      },
+      "sources": [
+        {
+          "url": "https://news.aibase.com/news/25258",
+          "title": "Panasonic Appoints a Chief AI Officer, Focusing on the 2026 Growth Phase Transition",
+          "date": "2026",
+          "sourceType": "tech press"
+        },
+        {
+          "url": "https://news.panasonic.com/global/stories/18259",
+          "title": "Group CEO New Year Message to Employees: 2026 as the Year to Achieve a Turnaround",
+          "date": "2026-01",
+          "sourceType": "corporate"
+        }
+      ],
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "name": "Salesforce",
+      "type": "enrich-existing",
+      "industry": "Enterprise Software",
+      "finding": "Laid off fewer than 1,000 employees on Feb 10, 2026; Agentforce AI driving structural changes",
+      "structuralDetails": {
+        "what": "Salesforce laid off fewer than 1,000 employees on February 10, 2026, affecting marketing, product management, data analytics, and Agentforce AI teams. CEO Benioff previously stated the company reduced customer support headcount from 9,000 to 5,000 through agentic AI agents. This is part of ongoing structural shift toward AI-first operations.",
+        "functionsAffected": ["marketing", "product management", "data analytics", "Agentforce AI teams"],
+        "priorContext": "Support headcount reduced from 9,000 to 5,000 via agentic AI"
+      },
+      "relevanceTest": {
+        "structural": true,
+        "tension": true,
+        "specificity": true
+      },
+      "sources": [
+        {
+          "url": "https://www.metaintro.com/blog/salesforce-layoffs-february-2026-agentforce-ai",
+          "title": "Salesforce Lays Off Nearly 1000 Across AI",
+          "date": "2026-02",
+          "sourceType": "tech press"
+        }
+      ],
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "name": "New York State",
+      "type": "signal-only",
+      "industry": "Government",
+      "finding": "Appointed first Chief AI Officer for state government AI strategy",
+      "structuralDetails": {
+        "what": "New York State Office of Information Technology Services (ITS) appointed Eleonore Fournier-Tombs as CAIO. She reports to CIO Dru Rai. Scope: guide AI strategy across ITS, partner agencies, and state government; expand AI education and generative AI tools for state employees; refine 'Acceptable Use of AI Technologies' policy. Background: 15+ years in AI/data governance, founded UN's first AI policy research lab, directed governance of predictive analytics and AI systems at UN University.",
+        "reportingLine": "Reports to CIO Dru Rai",
+        "scope": "Cross-agency AI strategy, policy refinement, employee AI education"
+      },
+      "quotes": [
+        {
+          "speaker": "Dru Rai, CIO",
+          "text": "Her experience in AI and data will help accelerate innovation across New York State agencies and ensure the responsible adoption of emerging technologies for the benefit of all New Yorkers.",
+          "context": "Announcement of appointment"
+        }
+      ],
+      "relevanceTest": {
+        "structural": true,
+        "tension": false,
+        "specificity": true
+      },
+      "sources": [
+        {
+          "url": "https://www.cdomagazine.tech/leadership-moves/new-york-state-appoints-eleonore-fournier-tombs-as-chief-ai-officer",
+          "title": "New York State Appoints Eleonore Fournier-Tombs as Chief AI Officer",
+          "date": "2026-02",
+          "sourceType": "trade press"
+        }
+      ],
+      "collectedDate": "2026-02-15"
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "AI-washing in layoffs",
+      "description": "Fortune and TechCrunch both reported on the growing 'AI-washing' phenomenon where companies cite AI as justification for layoffs that may be driven by other factors. Only 55,000 of 1.2 million U.S. job cuts in 2025 (4.5%) explicitly mentioned AI. Forrester research suggests companies are making 'premature layoffs anticipating future AI efficiency gains that haven't materialized.'",
+      "sources": [
+        {
+          "url": "https://fortune.com/2026/02/10/ai-washing-and-forever-layoffs-why-companies-keep-cutting-jobs-even-amid-rising-profits/",
+          "title": "AI-washing and forever layoffs",
+          "date": "2026-02-10"
+        }
+      ],
+      "relevance": "Directly relevant to the tension between AI-driven exploration and operational execution — raises question of whether restructurings are genuine structural adaptations or narrative cover"
+    },
+    {
+      "trend": "Matrix-to-product reorganization pattern",
+      "description": "Both ASML and xAI are reorganizing from matrix/project-based structures to product-dedicated teams. ASML explicitly moving 'from a project/matrix setup to one where most of our engineers will be dedicated to a specific product and module.' xAI reorganized from research lab into four product areas. This is a recurring pattern of organizations shedding coordination overhead in favor of product-focused autonomy.",
+      "relevance": "Structural pattern: as AI capabilities mature, organizations shift from exploration-oriented matrix structures to execution-oriented product-dedicated teams"
+    },
+    {
+      "trend": "Professional services AI restructuring wave",
+      "description": "Baker McKenzie (1,000 roles, 10% of workforce), Capgemini (EUR 700M restructuring), and Forrester Research (8% cut, exiting consulting) all announced major AI-driven restructurings within days of each other in mid-February 2026. Professional services firms are simultaneously the sellers and consumers of AI transformation — they're restructuring themselves while advising clients on the same.",
+      "relevance": "Represents a new industry cluster for the herbarium — professional services firms as a category face unique tensions because their product IS human expertise"
+    },
+    {
+      "trend": "CAIO proliferation across sectors",
+      "description": "In this sweep alone: Lionsgate (entertainment), Panasonic (manufacturing), New York State (government), US Cyber Command (military). The CAIO role is spreading rapidly beyond tech into every sector. Estimated 40%+ of Fortune 500 will have a CAIO by end of 2026. Panasonic's case is particularly interesting — they created CAIO plus Solution Revenue Officer simultaneously, explicitly linking AI strategy to revenue conversion.",
+      "relevance": "The CAIO role is becoming the institutional mechanism for managing the exploration-execution tension at the C-suite level"
+    },
+    {
+      "trend": "Agentic AI as restructuring catalyst",
+      "description": "Salesforce's Agentforce driving support headcount from 9,000 to 5,000. Baker McKenzie citing Anthropic's Claude Cowork agent as catalyst. Insurance giants deploying AI agents across claims, underwriting, and policy administration. Gartner predicts 40% of enterprise apps will embed task-specific AI agents by 2026 (up from <5% in 2025). The shift from pilot to production in agentic AI is now directly causing structural changes.",
+      "relevance": "Agentic AI is the specific technology mechanism that's accelerating the transition from AI-as-tool to AI-as-structural-force"
+    }
+  ],
+  "newSourcesDiscovered": [
+    {
+      "name": "The AI Insider (theaiinsider.tech)",
+      "type": "Tech press",
+      "notes": "Good coverage of AI restructurings, xAI reorganization articles were detailed and timely"
+    },
+    {
+      "name": "AI to ROI Substack (ai2roi.substack.com)",
+      "type": "Newsletter",
+      "notes": "Daily AI business news analysis — may be useful for tracking structural developments"
+    },
+    {
+      "name": "Daily Political (dailypolitical.com)",
+      "type": "Financial press",
+      "notes": "Good earnings call highlight summaries, provided Forrester details"
+    }
+  ],
+  "podcastFeedStatus": [
+    {
+      "podcastId": "no-priors",
+      "latestEpisode": "Ep 150: Rivian's Roadmap to AI Architecture and Autonomy with Founder and CEO RJ Scaringe",
+      "latestDate": "2026-02-12",
+      "newEpisodesSinceLastScan": 0,
+      "highPriorityEpisodes": [],
+      "notes": "RSS feed confirms Ep 150 (Feb 12) is still the latest as of Feb 15. Weekly cadence suggests Ep 151 should drop around Feb 19. Previous episodes: Ep 149 (Feb 5, Sunday Robotics/Memo Robot), Ep 148 (Jan 29), Ep 147 (Jan 22), Ep 146 (Jan 15, Jensen Huang). The Jensen Huang episode (Ep 146) would have been HIGH PRIORITY but was already scanned on Feb 12."
+    },
+    {
+      "podcastId": "latent-space",
+      "latestEpisode": "Unknown — could not confirm episodes after Artificial Analysis episode (Jan 17)",
+      "latestDate": "unknown",
+      "newEpisodesSinceLastScan": -1,
+      "highPriorityEpisodes": [],
+      "notes": "Could not get the podcast archive page to render content. RSS/Substack pages returned mostly JS. The most recent confirmed episode from search results is the Artificial Analysis episode from Jan 17 about LLM evals. A more recent episode about automating science with Andrew White was dated Jan 28. No Feb 12-15 episodes confirmed. The AINews item about 'Sam Altman's AI Combinator' appears recent but undated. Check directly at latent.space/podcast/archive."
+    },
+    {
+      "podcastId": "pragmatic-engineer",
+      "latestEpisode": "Unknown — Pragmatic Summit was Feb 11; post-summit content expected",
+      "latestDate": "unknown",
+      "newEpisodesSinceLastScan": -1,
+      "highPriorityEpisodes": [
+        {
+          "title": "Pragmatic Summit 2026 Content (Feb 11)",
+          "priority": "HIGH",
+          "reason": "OpenAI presented at the summit on 'how OpenAI uses Codex internally and what it means to steer an engineering team in an agent-first world.' This is directly relevant to our research — agent-first engineering org structure. Check for published summit content or podcast episodes summarizing the event.",
+          "actionNeeded": "Check newsletter.pragmaticengineer.com/archive for post-summit issues"
+        }
+      ],
+      "notes": "Pragmatic Summit occurred Feb 11 with 400 senior engineers. OpenAI DevRel team presented on agent-first engineering. 2-3 podcast episodes per month cadence in 2026. Post-summit content (podcast episode or newsletter deepdive) likely published Feb 13-14 but not confirmed in search results."
+    },
+    {
+      "podcastId": "cognitive-revolution",
+      "latestEpisode": "Approaching the AI Event Horizon (Parts 1 & 2) — appears most recent",
+      "latestDate": "2026-02-12 (estimated)",
+      "newEpisodesSinceLastScan": 2,
+      "highPriorityEpisodes": [
+        {
+          "title": "Approaching the AI Event Horizon? Part 1 — with James Zou, Sam Hammond, Shoshannah Tekofsky",
+          "priority": "MEDIUM",
+          "reason": "Likely discusses AI impact on work and organizational structures, but guests suggest more policy/trends focus than structural detail",
+          "actionNeeded": "Review episode description for structural content before deep-scanning"
+        },
+        {
+          "title": "Approaching the AI Event Horizon? Part 2 — with Abhi Mahajan, Helen Toner, Jeremie Harris",
+          "priority": "MEDIUM",
+          "reason": "Helen Toner (former OpenAI board member) and Jeremie Harris may discuss AI governance structures",
+          "actionNeeded": "Review episode description for structural content before deep-scanning"
+        }
+      ],
+      "notes": "Biweekly cadence. Previous episodes: Feb 8 (Asymmetric Security/cybersecurity), Feb 5 (Blitzy/enterprise AI coding). The 'Event Horizon' episodes appear to be the most recent, estimated around Feb 12-15 based on position in the feed. Also noted: 'The AI-Powered Biohub' episode about Zuckerberg/Chan data investments may be relevant but appears slightly older."
+    }
+  ],
+  "purposeClaimsDiscovered": [
+    {
+      "specimenId": null,
+      "orgName": "Workday",
+      "speaker": "Aneel Bhusri, returning CEO",
+      "claim": "AI is a bigger transformation than SaaS — and it will define the next generation of market leaders.",
+      "context": "Framing the leadership transition and strategic pivot after ousting CEO Carl Eschenbach",
+      "rhetoricalFunction": "Existential framing — positions AI not as a feature but as an era-defining shift that requires founder-level leadership, justifying both the CEO change and ongoing workforce reductions",
+      "source": "https://www.theregister.com/2026/02/09/workday_ceo_steps_down/",
+      "sourceDate": "2026-02-09"
+    },
+    {
+      "specimenId": null,
+      "orgName": "Lionsgate",
+      "speaker": "Jon Feltheimer, CEO",
+      "claim": "The company continues to find exciting new use cases for the technology to increase productivity and expand the creative tool kit for storytellers.",
+      "context": "Explaining why Lionsgate created its first Chief AI Officer role",
+      "rhetoricalFunction": "Dual framing — productivity (execution) AND creative expansion (exploration) in a single sentence, with emphasis on AI as tool-for-creators rather than replacement-of-creators. The 'appropriate guardrails' addition signals sensitivity to Hollywood labor tensions.",
+      "source": "https://www.rmnstars.com/lionsgate-appoints-kathleen-grace-as-first-ever-chief-ai-officer-amid-hollywoods-pivot-to-ai-first-production/",
+      "sourceDate": "2026-02"
+    },
+    {
+      "specimenId": null,
+      "orgName": "Capgemini",
+      "speaker": "Aiman Ezzat, CEO",
+      "claim": "Clearly pivoting the Group to be the catalyst for enterprise-wide AI adoption.",
+      "context": "FY 2025 results announcement while revealing EUR 700M restructuring program",
+      "rhetoricalFunction": "Identity transformation — redefines Capgemini from IT services provider to 'catalyst' for AI adoption, justifying massive restructuring investment by reframing the company's core purpose",
+      "source": "https://www.globenewswire.com/news-release/2026/02/13/3237831/0/en/Full-year-2025-results.html",
+      "sourceDate": "2026-02-13"
+    },
+    {
+      "specimenId": null,
+      "orgName": "Panasonic",
+      "speaker": "Yuki Kusumi, CEO",
+      "claim": "2026 as the 'key year for achieving growth phase transition.'",
+      "context": "New Year message to employees while announcing 10,000-12,000 job cuts and new CAIO appointment",
+      "rhetoricalFunction": "Temporal urgency — frames 2026 as an inflection point requiring immediate structural action, creating a narrative window that justifies both massive layoffs and new C-suite positions simultaneously",
+      "source": "https://news.panasonic.com/global/stories/18259",
+      "sourceDate": "2026-01"
+    }
+  ]
+}

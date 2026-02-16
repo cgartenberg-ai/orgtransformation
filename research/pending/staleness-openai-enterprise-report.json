@@ -1,0 +1,101 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "openai-enterprise-report",
+  "sourceName": "State of Enterprise AI",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "None",
+  "newScannedThrough": "Deloitte State of AI in the Enterprise 2026 (8th edition, published Jan 2026)",
+  "newContent": [
+    {
+      "title": "Deloitte State of AI in the Enterprise 2026 Report",
+      "date": "2026-01",
+      "url": "https://www.deloitte.com/global/en/issues/generative-ai/state-of-ai-in-enterprise.html",
+      "relevance": "HIGH",
+      "findings": [
+        {
+          "finding": "Only 21% of organizations report having mature governance models for autonomous agents, despite 73% planning agentic AI deployment within two years",
+          "mechanism": "Governance Gap",
+          "specimenRelevance": "Cross-cutting: structural governance deficit"
+        },
+        {
+          "finding": "84% of companies have NOT redesigned jobs around AI capabilities, despite 82% anticipating 10% of jobs fully automated within three years",
+          "mechanism": "Organizational Inertia",
+          "specimenRelevance": "Cross-cutting: workforce restructuring lag"
+        },
+        {
+          "finding": "Only 25% of organizations have deployed 40%+ of AI pilots into production; pilot-to-production timelines extend from 3 months to 18+ months",
+          "mechanism": "Pilot Purgatory",
+          "specimenRelevance": "Cross-cutting: scaling bottleneck"
+        },
+        {
+          "finding": "Companies broadened workforce AI access by 50% in one year—from <40% to ~60% of workers equipped with sanctioned AI tools",
+          "mechanism": "Democratization",
+          "specimenRelevance": "Cross-cutting: tool access expansion"
+        },
+        {
+          "finding": "Only 30% of organizations are redesigning key processes around AI; 37% use AI superficially without changing underlying business processes",
+          "mechanism": "Surface Integration",
+          "specimenRelevance": "Cross-cutting: process redesign gap"
+        },
+        {
+          "finding": "Only 34% of leaders are truly reimagining the business with AI; 25% report AI having transformative effect (doubled from prior year)",
+          "mechanism": "Ambidexterity Gap",
+          "specimenRelevance": "Cross-cutting: exploration vs exploitation divide"
+        },
+        {
+          "finding": "Worker enthusiasm varies: 13% highly enthusiastic, 55% open to exploration, 21% prefer avoiding use, 4% actively distrust AI",
+          "mechanism": "Workforce Sentiment Segmentation",
+          "specimenRelevance": "Cross-cutting: change resistance patterns"
+        }
+      ]
+    },
+    {
+      "title": "CrewAI 2026 State of Agentic AI Survey",
+      "date": "2026-02-11",
+      "url": "https://www.businesswire.com/news/home/20260211693427/en/Agentic-AI-Reaches-Tipping-Point-100-of-Enterprises-Plan-to-Expand-Adoption-in-2026-New-CrewAI-Survey-Finds",
+      "relevance": "MEDIUM",
+      "findings": [
+        {
+          "finding": "65% of enterprises already using AI agents; 81% have fully adopted or actively scaling agentic AI across teams",
+          "mechanism": "Agentic Mainstreaming",
+          "specimenRelevance": "Cross-cutting: agent adoption rates"
+        },
+        {
+          "finding": "Organizations have automated 31% of workflows with agentic AI, expect to expand by additional 33% in 2026",
+          "mechanism": "Workflow Automation",
+          "specimenRelevance": "Cross-cutting: automation velocity"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI GPT-5.3-Codex-Spark Release",
+      "date": "2026-02-12",
+      "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+      "relevance": "LOW",
+      "findings": [
+        {
+          "finding": "OpenAI released GPT-5.3-Codex-Spark optimized for real-time coding at 1000+ tokens/sec via Cerebras partnership",
+          "mechanism": null,
+          "specimenRelevance": "OpenAI specimen only: product evolution"
+        }
+      ]
+    },
+    {
+      "title": "OpenAI Scaling Social Science Research Tool",
+      "date": "2026-02-13",
+      "url": "https://openai.com/index/scaling-social-science-research/",
+      "relevance": "LOW",
+      "findings": [
+        {
+          "finding": "OpenAI announced tool to help researchers turn qualitative data into quantitative analysis",
+          "mechanism": null,
+          "specimenRelevance": "OpenAI specimen only: research tooling"
+        }
+      ]
+    }
+  ],
+  "summary": "Major new content: Deloitte's 8th annual State of AI in the Enterprise (3,235 respondents, 24 countries) provides critical cross-cutting data on enterprise AI maturity. KEY STRUCTURAL FINDINGS: (1) Severe governance gap—only 21% have mature agent governance despite 73% planning agentic deployment; (2) Organizational inertia—84% haven't redesigned jobs despite 82% expecting automation; (3) Pilot purgatory—only 25% have moved 40%+ pilots to production; (4) Process redesign lag—only 30% redesigning processes, 37% doing surface-level integration; (5) Workforce access expansion—50% increase in sanctioned AI tool access in one year. CrewAI survey adds agentic-specific data: 65% already using agents, 31% of workflows automated. This source was mislabeled as openai.com—it's actually Deloitte's enterprise survey.",
+  "sourceCorrection": {
+    "note": "The source URL was listed as openai.com but the 'State of Enterprise AI' is actually Deloitte's annual enterprise survey. Recommend updating source-registry.json to point to https://www.deloitte.com/global/en/issues/generative-ai/state-of-ai-in-enterprise.html"
+  }
+}

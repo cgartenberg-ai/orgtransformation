@@ -1,0 +1,208 @@
+{
+  "company": "Palantir",
+  "ticker": "PLTR",
+  "leader": "Alex Karp",
+  "leaderTitle": "CEO & Co-Founder",
+  "sector": "Defense / Enterprise AI",
+  "quadrant": "Q1",
+  "scannedDate": "2026-02-14",
+  "searchesCompleted": 5,
+  "urlsFetched": 4,
+  "fetchFailures": [
+    "https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios",
+    "https://debuglies.com/2026/01/12/peter-thiel-alex-karp-palantirs-rise-in-ai-driven-national-security-2026/"
+  ],
+
+  "structuralFindings": {
+    "suggestedModel": 9,
+    "suggestedModelName": "AI-Native",
+    "suggestedOrientation": "Contextual",
+    "confidence": "High",
+    "rationale": "Palantir is fundamentally an AI-native organization — it was founded in 2003 specifically to build data and AI infrastructure, not to 'transform' from a legacy state. There is no separate 'AI team' because the entire company IS the AI team. Unlike traditional enterprises that create AI centers of excellence or labs, Palantir's core products (Gotham, Foundry, Apollo, AIP) are all AI/ML platforms. The 'engineering commune' culture Karp describes, where '97% of employees use Foundry daily,' reflects contextual ambidexterity: everyone balances exploration and execution within their roles. There is no structural separation because AI is not a function — it is the business.",
+    "aiTeamStructure": "Palantir does NOT have a dedicated 'AI team' in the traditional sense. According to The Information's org chart coverage, the company 'doesn't have a formal org chart, although CEO Alex Karp works closely with dozens of executives.' The entire organization is oriented around building and deploying AI platforms. Matt Welsh holds the title 'Head of AI Systems' but this appears to be a technical leadership role within an AI-native company, not a separate AI unit. The organizational structure is notably flat and informal, which Karp describes as an 'engineering commune.'",
+    "keyPeople": [
+      {"name": "Alexander C. Karp", "title": "CEO & Co-Founder", "role": "Sets strategic vision, describes company as 'engineering commune'"},
+      {"name": "Shyam Sankar", "title": "President & COO", "role": "Oversees product innovation, fields government AI inquiries"},
+      {"name": "Matt Welsh", "title": "Head of AI Systems", "role": "Technical AI leadership"},
+      {"name": "David Glazer", "title": "CFO & Treasurer", "role": "Financial oversight"},
+      {"name": "Ryan Taylor", "title": "Chief Revenue Officer & Chief Legal Officer", "role": "Commercial strategy"},
+      {"name": "Jim Siders", "title": "CIO", "role": "Information systems"},
+      {"name": "Katherine Hsiao", "title": "Executive Vice President", "role": "Executive leadership"}
+    ],
+    "investmentSignals": "Q4 2025 adjusted expenses reached $608 million (up 5% sequentially, 34% annually), 'primarily driven by continued investment in AIP and elite technical hiring.' Major government contracts include: $10B U.S. Army contract (summer 2025), $646M National Geospatial-Intelligence Agency contract (Sept 2025), $448M U.S. Navy shipbuilding contract (Dec 2025). Full-year 2025 revenue: $4.48 billion. 2026 guidance: ~$7.19B revenue, $4.13B adjusted operating income.",
+    "observableMarkers": {
+      "reportingStructure": "Flat, informal. Karp 'works closely with dozens of executives' without formal org chart. No separate AI function — AI IS the business.",
+      "resourceAllocation": "All R&D is AI R&D. No ring-fenced AI budget because all products are AI products. Investment language is about 'AIP and elite technical hiring.'",
+      "timeHorizons": "Mixed. Defense contracts are multi-year, commercial AIP deployments show quarterly acceleration. Karp's vision is explicitly long-term ('two decades converging into this moment').",
+      "decisionRights": "Highly centralized around Karp and core leadership. The 'engineering commune' culture tolerates internal disagreement but Karp sets strategic direction.",
+      "metrics": "Revenue growth (70% YoY Q4), Rule of 40 (114% Q3), customer expansion (61 deals >$10M in Q4), contract wins, commercial adoption rates."
+    }
+  },
+
+  "quotes": [
+    {
+      "text": "Large language models alone will not lead us to salvation.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "Q4 2025 Shareholder Letter",
+      "sourceUrl": "https://www.palantir.com/q4-2025-letter/en/",
+      "sourceDate": "2026-02",
+      "context": "Explaining Palantir's distinctive approach to AI vs. commoditized LLM providers"
+    },
+    {
+      "text": "The next step is for the market to differentiate between those supplying commoditization of cognition and those scaling the leverage made possible by it.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-02",
+      "context": "Positioning Palantir against commoditized AI/LLM providers"
+    },
+    {
+      "text": "A gulf is emerging between those who perceive the preconditions for harnessing the power of artificial intelligence and others who are far more vulnerable and adrift.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "Q4 2025 Shareholder Letter",
+      "sourceUrl": "https://www.palantir.com/q4-2025-letter/en/",
+      "sourceDate": "2026-02",
+      "context": "Describing widening divide in AI adoption capabilities"
+    },
+    {
+      "text": "The route for us to something universal—a generalizable artificial intelligence platform—was made possible by an obsessive focus on the specific.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "Q3 2025 Shareholder Letter",
+      "sourceUrl": "https://www.palantir.com/q3-2025-letter/en/",
+      "sourceDate": "2025-11",
+      "context": "Explaining how Palantir's customer-focused approach led to universal AI platform"
+    },
+    {
+      "text": "Our reluctance to abandon constraints has been a principal and driving force of our continued rise.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "Q3 2025 Shareholder Letter",
+      "sourceUrl": "https://www.palantir.com/q3-2025-letter/en/",
+      "sourceDate": "2025-11",
+      "context": "Describing organizational philosophy on deliberate constraints"
+    },
+    {
+      "text": "97% of our employees use Foundry daily.",
+      "speaker": "Palantir Executive",
+      "speakerTitle": "Unknown",
+      "source": "Q4 2025 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/",
+      "sourceDate": "2026-02-02",
+      "context": "Demonstrating internal dog-fooding of AI platform"
+    },
+    {
+      "text": "AI is going to help many people with vocational training, but no college degree, make a lot more money because of the value being created.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "The Axios Show",
+      "sourceUrl": "https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios",
+      "sourceDate": "2025-11",
+      "context": "On AI's impact on workforce and education"
+    },
+    {
+      "text": "You're effed... The Yale grad will have to learn something specific — domain expertise.",
+      "speaker": "Alexander C. Karp",
+      "speakerTitle": "CEO",
+      "source": "The Axios Show",
+      "sourceUrl": "https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios",
+      "sourceDate": "2025-11",
+      "context": "On AI disrupting generalist white-collar workers"
+    },
+    {
+      "text": "Everything we've built over two decades is converging into this moment.",
+      "speaker": "Palantir",
+      "speakerTitle": "Corporate",
+      "source": "Company Statement",
+      "sourceUrl": "https://finance.yahoo.com/news/palantir-technologies-inc-pltr-q4-050032107.html",
+      "sourceDate": "2026-02",
+      "context": "Entering 2026 positioning"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Q4 2025 Shareholder Letter",
+      "url": "https://www.palantir.com/q4-2025-letter/en/",
+      "type": "Shareholder Letter",
+      "date": "2026-02",
+      "notes": "Key strategic framing: 'commoditization of cognition' vs. 'scaling leverage.' Net income $609M, 70% revenue growth. Describes company as 'engineering commune.'"
+    },
+    {
+      "name": "Q4 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/02/palantir-pltr-q4-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2026-02-02",
+      "notes": "Leadership quotes, AIP strategy, 'elite technical hiring' investment, 61 deals >$10M."
+    },
+    {
+      "name": "Q3 2025 Shareholder Letter",
+      "url": "https://www.palantir.com/q3-2025-letter/en/",
+      "type": "Shareholder Letter",
+      "date": "2025-11",
+      "notes": "121% U.S. commercial growth, 'obsessive focus on the specific' philosophy."
+    },
+    {
+      "name": "The Axios Show - Alex Karp Interview",
+      "url": "https://www.axios.com/2025/11/07/palantir-ceo-alex-karp-interview-axios",
+      "type": "Interview",
+      "date": "2025-11",
+      "notes": "Provocative quotes on AI disrupting white-collar workers, vocational training value. (Fetch failed but search results captured key quotes)"
+    },
+    {
+      "name": "Palantir Q3 2025 Analysis - Acquirer's Multiple",
+      "url": "https://acquirersmultiple.com/2025/11/palantir-q3-2025-record-growth-114-rule-of-40-and-a-defining-moment-for-enterprise-ai/",
+      "type": "Press",
+      "date": "2025-11",
+      "notes": "Rule of 40 score of 114%, Sankar quotes on American worker empowerment."
+    },
+    {
+      "name": "The Information Org Chart",
+      "url": "https://www.theinformation.com/org-charts/palantir",
+      "type": "Report",
+      "date": "2025",
+      "notes": "Notes that Palantir 'doesn't have a formal org chart' - key structural finding."
+    },
+    {
+      "name": "R1 + Palantir AI Lab Launch (R37)",
+      "url": "https://finance.yahoo.com/news/r1-launches-r37-ai-lab-105900620.html",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Joint AI lab for healthcare RCM - shows partnership model for AI deployment."
+    },
+    {
+      "name": "HD Hyundai AI Center of Excellence Partnership",
+      "url": "https://finance.yahoo.com/news/palantir-deepens-global-ai-infrastructure-070635501.html",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Shows 'bootcamp' model and Center of Excellence partnerships with customers."
+    }
+  ],
+
+  "summary": "Palantir is a textbook example of an AI-native organization (M9) — founded in 2003 specifically to build AI/data infrastructure, it has no separate 'AI team' because the entire company is the AI team. CEO Karp describes it as an 'engineering commune' with a deliberately informal structure, no formal org chart, and 97% of employees using the Foundry platform daily. The company's contextual ambidexterity emerges from every employee balancing exploration and execution within their roles, enabled by a unified platform infrastructure.",
+
+  "openQuestions": [
+    "What is Matt Welsh's (Head of AI Systems) specific scope vs. Shyam Sankar's product oversight?",
+    "How does the 'engineering commune' actually make decisions on major AI investments?",
+    "What is the internal structure of the AIP product team vs. Foundry vs. Gotham teams?",
+    "How autonomous are Forward Deployed Engineers in making AI decisions at customer sites?"
+  ],
+
+  "conferenceFindings": "Karp spoke at World Economic Forum 2026 on AI reshaping warfare/national security, but no publicly available transcripts were found. Also appeared at Hill & Valley Forum (May 2025) discussing 'The Technological Republic.' Conference presence is high-profile but focused on geopolitical/strategic themes rather than organizational structure.",
+
+  "botanistNotes": [
+    "STRUCTURALLY FASCINATING: Palantir represents the rare case of M9 (AI-Native) in enterprise software — most M9 examples are consumer/social companies. They were building AI infrastructure before 'AI transformation' was a concept, making them uniquely positioned to study what an 'AI-first' organization looks like at scale.",
+    "NO ORG CHART AS A STRATEGY: The explicit lack of formal org chart is not sloppiness — it appears to be deliberate design. Karp's 'engineering commune' framing suggests that structural ambiguity is part of how they maintain contextual ambidexterity. Everyone owns AI because no one owns AI.",
+    "CUSTOMER BOOTCAMPS AS EXTENSION MODEL: The HD Hyundai 'Center of Excellence' partnership reveals how Palantir extends its contextual model to customers — they don't build separate AI teams for clients, they embed Palantir culture/tools into client organizations. This is M4 (Hub-and-Spoke) for THEIR CUSTOMERS, not for themselves.",
+    "KARP'S ANTI-GENERALIST THESIS: His provocative 'Yale grad is effed' comment reveals a theory of AI that privileges domain expertise over general intelligence — which maps directly to his product strategy (ontologies, Forward Deployed Engineers, customer-specific deployments)."
+  ],
+
+  "bestQuote": {
+    "text": "Large language models alone will not lead us to salvation.",
+    "speaker": "Alexander C. Karp",
+    "why": "This quote captures Palantir's entire strategic positioning: they're not competing on model capability, but on the 'orchestration layer' between raw AI and enterprise reality. It's a direct challenge to the OpenAI/Anthropic thesis that foundation models are the moat. For organizational structure research, it explains why they don't have a separate 'AI research lab' — they're not trying to build better models, they're building the software that makes models useful."
+  }
+}

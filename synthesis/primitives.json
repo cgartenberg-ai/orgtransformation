@@ -1,0 +1,206 @@
+{
+  "description": "The 5 primitive variables that predict AI organizational structure. These are the independent variables in the theory — everything else (tensions, findings, mechanisms) derives from interactions among these primitives.",
+  "lastUpdated": "2026-02-15",
+  "primitives": [
+    {
+      "id": "work-architecture-modularity",
+      "shortId": "P1",
+      "name": "Work Architecture Modularity",
+      "definition": "The degree to which the organization's core value-creating work can be decomposed into discrete, independently optimizable tasks. Conway's law / Colfer & Baldwin mirroring: organizational structure mirrors technical architecture.",
+      "subDimensions": [
+        {
+          "id": "technical-modularity",
+          "name": "Technical Architecture",
+          "scoringGuide": {
+            "high": "Software-first, API-driven, modular codebase (e.g., Shopify, Stripe)",
+            "medium": "Mixed digital/physical, partially modular (e.g., financial services, media)",
+            "low": "Integral physical production, tightly coupled systems (e.g., automotive, pharma, manufacturing)"
+          }
+        },
+        {
+          "id": "cognitive-modularity",
+          "name": "Leader's Cognitive Model",
+          "scoringGuide": {
+            "high": "Leader sees work as decomposable tasks, AI slots into task boundaries",
+            "medium": "Leader sees some tasks as decomposable, others as integral",
+            "low": "Leader sees work as holistic craft requiring integrated judgment"
+          }
+        }
+      ],
+      "theoreticalAnchors": [
+        "Conway (1967) — organizations mirror communication structures",
+        "Colfer & Baldwin (2016) — mirroring hypothesis",
+        "Simon (1962) — near-decomposability",
+        "Baldwin & Clark (2000) — modularity and option value",
+        "Henderson & Clark (1990) — architectural innovation"
+      ],
+      "generatesTensions": [1, 3],
+      "relatedFindings": ["finding-1-mirroring", "finding-5-industry-equilibria", "finding-9-boundary-dissolution"]
+    },
+    {
+      "id": "work-output-measurability",
+      "shortId": "P2",
+      "name": "Work Output Measurability",
+      "definition": "The degree to which work quality and outcomes can be captured in quantitative metrics. Holmstrom's multi-task problem: when some dimensions are measurable and others aren't, organizations rationally optimize measurable dimensions while unmeasured dimensions degrade.",
+      "subDimensions": [
+        {
+          "id": "output-measurability",
+          "name": "Output Quality Measurement",
+          "scoringGuide": {
+            "high": "Clear quantitative metrics capture most value dimensions (e.g., transaction throughput, code commits)",
+            "medium": "Partial measurability — some dimensions captured, others tacit (e.g., customer service quality, investment judgment)",
+            "low": "Key quality dimensions resist quantification (e.g., clinical judgment, creative quality, institutional knowledge)"
+          }
+        },
+        {
+          "id": "transition-metric-validity",
+          "name": "AI Transition Metric Validity",
+          "scoringGuide": {
+            "high": "AI deployment metrics accurately reflect total value creation",
+            "medium": "Metrics capture efficiency gains but miss some quality dimensions",
+            "low": "Metrics systematically overstate AI success — unmeasured quality degradation invisible"
+          }
+        }
+      ],
+      "theoreticalAnchors": [
+        "Holmstrom (1979) — multi-task moral hazard",
+        "Garicano (2000) — knowledge hierarchies",
+        "Polanyi (1966) — tacit knowledge",
+        "Baker (1992) — performance measurement distortion"
+      ],
+      "generatesTensions": [2],
+      "relatedFindings": ["finding-2-moral-hazard", "finding-10-delayering"]
+    },
+    {
+      "id": "governance-structure",
+      "shortId": "P3",
+      "name": "Governance Structure",
+      "definition": "The allocation of formal and real authority over AI structural decisions, and the incentive contracts (explicit and implicit) that shape how that authority is exercised. Not just 'who is the CEO' but the full governance regime: residual claimancy, board composition, shareholder base, formal vs. real authority gaps.",
+      "subDimensions": [
+        {
+          "id": "residual-claimancy",
+          "name": "Residual Claimancy & Authority Type",
+          "scoringGuide": {
+            "high": "Founder-CEO with significant equity stake — personal wealth tied to long-term firm value",
+            "medium": "Hired CEO with strong board backing, moderate tenure security",
+            "low": "Hired CEO facing activist pressure, short tenure expectation, or government mandate-driven role"
+          }
+        },
+        {
+          "id": "formal-real-authority-gap",
+          "name": "Formal vs. Real Authority Alignment",
+          "scoringGuide": {
+            "high": "AI decision-maker has both formal title AND domain expertise/organizational influence",
+            "medium": "Partial alignment — formal authority in some domains, real authority in others",
+            "low": "Significant gap — AI leader has title but lacks domain credibility or organizational influence (e.g., CAIO without manufacturing expertise)"
+          }
+        },
+        {
+          "id": "board-shareholder-pressure",
+          "name": "Board & Shareholder Influence",
+          "scoringGuide": {
+            "high": "Supportive long-term investors, aligned board, minimal activist pressure",
+            "medium": "Mixed shareholder base, board broadly supportive but quarterly-conscious",
+            "low": "Active short-term pressure, activist investors, ESG mandates constraining AI choices"
+          }
+        }
+      ],
+      "theoreticalAnchors": [
+        "Holmstrom (1979, 1999) — incentive theory",
+        "Aghion & Tirole (1997) — formal vs. real authority",
+        "Tirole (2001) — corporate governance",
+        "Gibbons (2005) — four theories of the firm",
+        "Gibbons & Henderson (2012) — relational contracts"
+      ],
+      "generatesTensions": [3, 4, 5],
+      "relatedFindings": ["finding-3-governance", "finding-6-lifecycle", "finding-7-expelled-exploration", "finding-8-purpose-structure"]
+    },
+    {
+      "id": "competitive-institutional-context",
+      "shortId": "P4",
+      "name": "Competitive and Institutional Context",
+      "definition": "The external forces — competitive dynamics, regulatory environment, labor market structure, industry norms — that shape the returns to different structural choices. NOT sociological 'environmental pull' but economic competitive and institutional forces.",
+      "subDimensions": [
+        {
+          "id": "competitive-dynamics",
+          "name": "Competitive Dynamics (P4a)",
+          "scoringGuide": {
+            "high": "AI-native entrants threatening core business, winner-take-all race dynamics",
+            "medium": "Rivals deploying AI as competitive tool, but not existential threat",
+            "low": "Low AI competitive pressure, stable market positions, AI as efficiency tool not strategic weapon"
+          }
+        },
+        {
+          "id": "institutional-environment",
+          "name": "Institutional Environment (P4b)",
+          "scoringGuide": {
+            "high": "Heavy regulation requiring audit trails, review processes, explainability (pharma, finance, healthcare)",
+            "medium": "Moderate regulatory requirements, professional norms constrain some applications",
+            "low": "Light regulation, few institutional constraints on AI deployment"
+          }
+        }
+      ],
+      "theoreticalAnchors": [
+        "North (1990) — institutional economics",
+        "Williamson (1975, 1985) — transaction costs",
+        "Porter (1980) — competitive forces",
+        "Teece (2007) — dynamic capabilities",
+        "Barzel (1997) — property rights"
+      ],
+      "generatesTensions": [2, 4, 5],
+      "relatedFindings": ["finding-4-regulation-cost", "finding-5-industry-equilibria", "finding-8-purpose-structure"]
+    },
+    {
+      "id": "organizational-endowment",
+      "shortId": "P5",
+      "name": "Organizational Endowment",
+      "definition": "The inherited organizational characteristics that constrain the feasible set of AI structural choices independent of current strategy. Path-dependent endowments that cannot be changed quickly.",
+      "subDimensions": [
+        {
+          "id": "technical-debt",
+          "name": "Technical Debt / Infrastructure Maturity (P5a)",
+          "scoringGuide": {
+            "high": "Cloud-native, modern data infrastructure, API-first architecture",
+            "medium": "Partial modernization, some legacy systems, data infrastructure improving",
+            "low": "Heavy legacy systems, fragmented data, requires multi-year infrastructure transformation before AI deployment"
+          }
+        },
+        {
+          "id": "organizational-coupling",
+          "name": "Organizational Coupling (P5b)",
+          "scoringGuide": {
+            "high": "Loosely coupled divisional structure — can spin up independent AI units without disrupting core",
+            "medium": "Mixed — some divisions independent, some tightly integrated",
+            "low": "Tightly coupled functional structure — AI exploration units would disrupt core coordination (e.g., Apple)"
+          }
+        },
+        {
+          "id": "capital-intensity",
+          "name": "Capital Intensity (P5c)",
+          "scoringGuide": {
+            "high": "Capital-light — software, services, financial products",
+            "medium": "Mixed — some physical infrastructure, some digital",
+            "low": "Capital-intensive — manufacturing, logistics, energy, physical infrastructure constrains toward embedded models"
+          }
+        },
+        {
+          "id": "talent-position",
+          "name": "Talent Market Position (P5d)",
+          "scoringGuide": {
+            "high": "Can attract frontier AI researchers — brand, location, compensation, mission appeal",
+            "medium": "Competitive for applied AI talent but not frontier researchers",
+            "low": "Talent-constrained — defaults to partnerships, vendor solutions, or domain-expert reskilling"
+          }
+        }
+      ],
+      "theoreticalAnchors": [
+        "North (1990) — path dependence",
+        "Penrose (1959) — firm growth and resources",
+        "Nelson & Winter (1982) — organizational routines",
+        "Henderson & Clark (1990) — architectural innovation"
+      ],
+      "generatesTensions": [1],
+      "relatedFindings": ["finding-1-mirroring", "finding-4-regulation-cost", "finding-5-industry-equilibria"]
+    }
+  ]
+}

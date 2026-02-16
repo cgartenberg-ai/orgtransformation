@@ -1,6 +1,6 @@
 {
   "description": "Source Registry — tracks what sources have been scanned and through when. Updated at end of each Phase 1 research session. Check scannedThrough before scanning to avoid duplicate work.",
-  "lastUpdated": "2026-02-12T12:00:00Z",
+  "lastUpdated": "2026-02-15T12:00:00Z",
   "sources": [
     {
       "id": "cheeky-pint",
@@ -28,14 +28,15 @@
       "url": "https://nopriorspod.com",
       "host": "Elad Gil & Sarah Guo",
       "frequency": "Weekly",
-      "scannedThrough": "Through Ep 151 (Feb 12, 2026) — Rivian/Scaringe ep. Roblox/Baszucki (Feb 5) and Deming (Jan 29) also noted.",
-      "scannedThroughDate": "2026-02-12",
-      "lastScanned": "2026-02-12",
+      "scannedThrough": "Through Ep 150 (Feb 12, 2026) — Rivian/Scaringe ep. No new episodes since last scan.",
+      "scannedThroughDate": "2026-02-15",
+      "lastScanned": "2026-02-15",
       "sessionFiles": [
         "2026-01-31-no-priors-jensen-huang.md",
         "2026-01-31-gap-coverage-session.md",
         "2026-02-03-001-research-podcasts-press-substacks.md",
-        "research/pending/podcast-substack-sweep-feb-2026.json"
+        "research/pending/podcast-substack-sweep-feb-2026.json",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "notes": "Best startup vs. incumbent coverage. Emil Michael DoW ep (147) is HIGH priority for deep-scan — Pentagon AI org structure."
     },
@@ -85,13 +86,14 @@
       "url": "https://latent.space",
       "host": "Swyx & Alessio Fanelli",
       "frequency": "Weekly",
-      "scannedThrough": "Through Feb 12, 2026. 'Scientist and Simulator' (Feb 10), AI News, adversarial reasoning essay. Active but technical/research-focused, low org-structural density.",
-      "scannedThroughDate": "2026-02-12",
-      "lastScanned": "2026-02-12",
+      "scannedThrough": "Feed check Feb 15, 2026. Could not confirm episodes after Automating Science with Andrew White (Jan 28). JS rendering issues on archive pages.",
+      "scannedThroughDate": "2026-02-15",
+      "lastScanned": "2026-02-15",
       "sessionFiles": [
         "2026-01-31-multi-source-session.md",
         "2026-02-03-001-research-podcasts-press-substacks.md",
-        "research/pending/podcast-substack-sweep-feb-2026.json"
+        "research/pending/podcast-substack-sweep-feb-2026.json",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "notes": "Full transcripts available on website. AI engineer + application layer. Glean enterprise AI episode is high-value for deep scan.",
       "transcriptsAvailable": true
@@ -157,11 +159,12 @@
       "url": "https://cognitiverevolution.ai",
       "host": "Nathan Labenz",
       "frequency": "Weekly",
-      "scannedThrough": "Triaged recent eps; Atlassian/Sherif Mansour (Nov 20, 2025) deep-scanned. AI 2025→2026 Live Show (Parts 1+2) noted. Daniel Miessler, Illia Polosukhin eps noted.",
-      "scannedThroughDate": "2026-01-31",
-      "lastScanned": "2026-01-31",
+      "scannedThrough": "Feed check Feb 15, 2026. \"Approaching the AI Event Horizon\" Parts 1 & 2 (~Feb 12) with James Zou, Sam Hammond, Helen Toner, Jeremie Harris. MEDIUM priority for structural content.",
+      "scannedThroughDate": "2026-02-15",
+      "lastScanned": "2026-02-15",
       "sessionFiles": [
-        "2026-01-31-tier2-podcasts-press-session.md"
+        "2026-01-31-tier2-podcasts-press-session.md",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "notes": "Full transcripts available on website. AI agents, operational deep dives. Atlassian ep is highest-value for enterprise AI org structure (Teamwork Graph, Rovo agents). AI 2025→2026 Live Show mostly macro/policy.",
       "transcriptsAvailable": true
@@ -292,12 +295,13 @@
       "url": "https://newsletter.pragmaticengineer.com",
       "host": "Gergely Orosz",
       "frequency": "2x/week",
-      "scannedThrough": "Through Feb 12, 2026. Kotlin AI podcast (Feb 12), Steve Yegge AI agents (Feb 10), Grady Booch (Feb 4), 10 tech companies dev tools (Feb 3). Pragmatic Summit held Feb 11 — content not yet published.",
-      "scannedThroughDate": "2026-02-12",
-      "lastScanned": "2026-02-12",
+      "scannedThrough": "Feed check Feb 15, 2026. Pragmatic Summit held Feb 11 — OpenAI presented on agent-first engineering org structure (HIGH priority for follow-up). Post-summit content expected but not confirmed.",
+      "scannedThroughDate": "2026-02-15",
+      "lastScanned": "2026-02-15",
       "sessionFiles": [
         "2026-01-31-tier2-podcasts-press-session.md",
-        "research/pending/podcast-substack-sweep-feb-2026.json"
+        "research/pending/podcast-substack-sweep-feb-2026.json",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "notes": "Engineering org restructuring, AI tooling impact on teams, layoff structural analysis. High signal for how engineering orgs are actually changing day-to-day. Partially paywalled. Key trends: Senior-Only model, AI Reliability Engineer role, Talent Hollow. Pragmatic Summit Feb 11 2026 may yield org-specific data."
     },
@@ -413,13 +417,14 @@
       "url": "https://wsj.com",
       "host": "WSJ Editorial",
       "frequency": "Daily",
-      "scannedThrough": "Keyword sweep through Feb 12, 2026 via press-sweep and CAIO-reorg-discovery agents.",
-      "scannedThroughDate": "2026-02-12",
-      "lastScanned": "2026-02-12",
+      "scannedThrough": "Keyword sweep through Feb 15, 2026 via press-podcast-sweep agent.",
+      "scannedThroughDate": "2026-02-15",
+      "lastScanned": "2026-02-15",
       "sessionFiles": [
         "2026-02-01-002-research-tier1-press-broad-scan.md",
         "research/pending/press-sweep-feb-2026.json",
-        "research/pending/caio-reorg-discovery-feb-2026.json"
+        "research/pending/caio-reorg-discovery-feb-2026.json",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "notes": "Primary source for major reorg announcements, CEO strategy interviews, earnings call analysis with AI restructuring language, CAIO/CTO appointments at Fortune 500. Keyword-searchable archive. Paywalled but headlines/excerpts often suffice for triage. Search: 'chief AI officer', 'AI restructuring', 'AI center of excellence', 'AI layoffs'."
     },
@@ -431,13 +436,14 @@
       "url": "https://ft.com",
       "host": "FT Editorial",
       "frequency": "Daily",
-      "scannedThrough": "Keyword sweep through Feb 12, 2026 via press-sweep and CAIO-reorg-discovery agents.",
-      "scannedThroughDate": "2026-02-12",
-      "lastScanned": "2026-02-12",
+      "scannedThrough": "Keyword sweep through Feb 15, 2026 via press-podcast-sweep agent.",
+      "scannedThroughDate": "2026-02-15",
+      "lastScanned": "2026-02-15",
       "sessionFiles": [
         "2026-02-01-002-research-tier1-press-broad-scan.md",
         "research/pending/press-sweep-feb-2026.json",
-        "research/pending/caio-reorg-discovery-feb-2026.json"
+        "research/pending/caio-reorg-discovery-feb-2026.json",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "notes": "Strongest on European/global AI org moves (Siemens, SAP, Roche, Novo Nordisk, UK Gov). Better than WSJ for non-US companies. Also strong on AI governance, board-level AI strategy. Paywalled. Search: 'chief AI officer', 'AI transformation', 'AI governance'."
     },
@@ -449,13 +455,14 @@
       "url": "https://reuters.com/technology",
       "host": "Reuters Editorial",
       "frequency": "Daily",
-      "scannedThrough": "Keyword sweep through Feb 12, 2026 via press-sweep and CAIO-reorg-discovery agents.",
-      "scannedThroughDate": "2026-02-12",
-      "lastScanned": "2026-02-12",
+      "scannedThrough": "Keyword sweep through Feb 15, 2026 via press-podcast-sweep agent.",
+      "scannedThroughDate": "2026-02-15",
+      "lastScanned": "2026-02-15",
       "sessionFiles": [
         "2026-02-01-002-research-tier1-press-broad-scan.md",
         "research/pending/press-sweep-feb-2026.json",
-        "research/pending/caio-reorg-discovery-feb-2026.json"
+        "research/pending/caio-reorg-discovery-feb-2026.json",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "notes": "Wire service — often first to report layoffs, reorgs, executive changes. Free access. Already surfaced in prior sessions via Google News. Formalizing as tracked source."
     },
@@ -467,13 +474,14 @@
       "url": "https://bloomberg.com/technology",
       "host": "Bloomberg Editorial",
       "frequency": "Daily",
-      "scannedThrough": "Keyword sweep through Feb 12, 2026 via press-sweep and CAIO-reorg-discovery agents.",
-      "scannedThroughDate": "2026-02-12",
-      "lastScanned": "2026-02-12",
+      "scannedThrough": "Keyword sweep through Feb 15, 2026 via press-podcast-sweep agent.",
+      "scannedThroughDate": "2026-02-15",
+      "lastScanned": "2026-02-15",
       "sessionFiles": [
         "2026-02-01-002-research-tier1-press-broad-scan.md",
         "research/pending/press-sweep-feb-2026.json",
-        "research/pending/caio-reorg-discovery-feb-2026.json"
+        "research/pending/caio-reorg-discovery-feb-2026.json",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "notes": "Deep enterprise AI coverage, M&A reporting (Scale AI/Meta, lab valuations), workforce data. Mark Gurman for Apple AI org, Brad Stone for Amazon. Paywalled but headlines triage well via Google News."
     },
@@ -485,13 +493,14 @@
       "url": "https://theinformation.com",
       "host": "Jessica Lessin et al.",
       "frequency": "Daily",
-      "scannedThrough": "Keyword sweep through Feb 12, 2026 via press-sweep and CAIO-reorg-discovery agents.",
-      "scannedThroughDate": "2026-02-12",
-      "lastScanned": "2026-02-12",
+      "scannedThrough": "Keyword sweep through Feb 15, 2026 via press-podcast-sweep agent. Meta 4th restructuring story (paywall).",
+      "scannedThroughDate": "2026-02-15",
+      "lastScanned": "2026-02-15",
       "sessionFiles": [
         "2026-02-01-002-research-tier1-press-broad-scan.md",
         "research/pending/press-sweep-feb-2026.json",
-        "research/pending/caio-reorg-discovery-feb-2026.json"
+        "research/pending/caio-reorg-discovery-feb-2026.json",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "notes": "Best insider reporting on AI lab internal dynamics — org charts, team restructuring, talent departures, internal strategy debates. Broke many Meta/Google/OpenAI reorg stories. Heavily paywalled but headlines are high-signal for what to search elsewhere."
     },
@@ -503,13 +512,14 @@
       "url": "https://cnbc.com/technology",
       "host": "CNBC Editorial",
       "frequency": "Daily",
-      "scannedThrough": "Keyword sweep through Feb 12, 2026 via press-sweep and CAIO-reorg-discovery agents.",
-      "scannedThroughDate": "2026-02-12",
-      "lastScanned": "2026-02-12",
+      "scannedThrough": "Keyword sweep through Feb 15, 2026 via press-podcast-sweep agent.",
+      "scannedThroughDate": "2026-02-15",
+      "lastScanned": "2026-02-15",
       "sessionFiles": [
         "2026-02-03-002-research-press-podcasts-ai-labs.md",
         "research/pending/press-sweep-feb-2026.json",
-        "research/pending/caio-reorg-discovery-feb-2026.json"
+        "research/pending/caio-reorg-discovery-feb-2026.json",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "notes": "CEO interviews on AI strategy (often video), earnings coverage with AI restructuring angles. Free access. Good for CEO quotes on org changes. Broke Meta 600-layoff story and Pinterest 15% cuts."
     },
@@ -521,12 +531,13 @@
       "url": "https://fortune.com/section/tech",
       "host": "Fortune Editorial",
       "frequency": "Daily",
-      "scannedThrough": "Keyword sweep through Feb 12, 2026 via press-sweep and CAIO-reorg-discovery agents.",
-      "scannedThroughDate": "2026-02-12",
-      "lastScanned": "2026-02-12",
+      "scannedThrough": "Keyword sweep through Feb 15, 2026 via press-podcast-sweep agent. AI-washing and forever layoffs article (Feb 10).",
+      "scannedThroughDate": "2026-02-15",
+      "lastScanned": "2026-02-15",
       "sessionFiles": [
         "research/pending/press-sweep-feb-2026.json",
-        "research/pending/caio-reorg-discovery-feb-2026.json"
+        "research/pending/caio-reorg-discovery-feb-2026.json",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "notes": "Fortune 500 AI adoption surveys, CEO AI strategy pieces, CAIO profiles. Already cited in prior sessions (AI layoff wave). Partially free."
     },
@@ -580,12 +591,13 @@
       "url": "https://seekingalpha.com/earnings/earnings-call-transcripts",
       "host": "Various (via Seeking Alpha / Motley Fool)",
       "frequency": "Quarterly",
-      "scannedThrough": "Through Feb 12, 2026. Q4 2025 earnings sweep: Google (Feb 4), Amazon (Feb 5) previously pending — JPM Healthcare Conference scanned. Salesforce Q4 FY2026 upcoming Feb 25.",
-      "scannedThroughDate": "2026-02-12",
-      "lastScanned": "2026-02-12",
+      "scannedThrough": "Q4 2025 / Q4 FY2026 wide earnings sweep: Alphabet (Feb 4), Amazon (Feb 5), Meta (Jan 29), Microsoft (Jan 28), Disney (Feb 2), Intel (Jan 23), Lilly (Feb 4), Moderna (Feb 13), Shopify (Feb 11), UPS (Jan 27). NVIDIA Q3 FY2026 + Q4 pre-earnings. Salesforce Q4 FY2026 scheduled Feb 25. Walmart Q4 FY2026 scheduled Feb 19.",
+      "scannedThroughDate": "2026-02-15",
+      "lastScanned": "2026-02-15",
       "sessionFiles": [
         "2026-02-03-003-research-earnings-calls-press.md",
-        "2026-02-04-001-earnings-q4-2025-wide-net.md"
+        "2026-02-04-001-earnings-q4-2025-wide-net.md",
+        "research/sessions/2026-02-15-session-34-research-agents.md"
       ],
       "notes": "ELEVATED TO TIER 1: Highest structural density of any source type. CEOs make on-the-record statements about flattening, delayering, agent deployment, CapEx. Wide-net discovery searches surfacing new specimens beyond tech (insurance: Travelers, healthcare: RWJBarnabas, telecom: Nokia). Q4 2025 earnings season still active — Google (Feb 4) and Amazon (Feb 5) pending."
     },

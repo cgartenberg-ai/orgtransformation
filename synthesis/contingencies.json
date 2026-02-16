@@ -1,6 +1,6 @@
 {
   "description": "Living document — key contingencies that determine which structural approach is appropriate. Updated during Phase 3 synthesis sessions.",
-  "lastUpdated": "2026-02-13",
+  "lastUpdated": "2026-02-15",
   "contingencies": [
     {
       "id": "regulatoryIntensity",
@@ -67,7 +67,15 @@
           "exxonmobil",
           "tesla",
           "hyundai-robotics",
-          "bosch-bcai"
+          "bosch-bcai",
+          "palantir",
+          "asml",
+          "astrazeneca",
+          "rivian",
+          "nextera-energy",
+          "cedars-sinai",
+          "kaiser-permanente",
+          "mass-general-brigham"
         ]
       },
       "medium": {
@@ -112,7 +120,11 @@
           "google-deepmind",
           "intel",
           "apple",
-          "crowdstrike"
+          "crowdstrike",
+          "comcast---nbcuniversal",
+          "spotify",
+          "stripe",
+          "meta-ai"
         ]
       },
       "low": {
@@ -150,7 +162,6 @@
           "workday",
           "chegg",
           "recruit-holdings",
-          "servicenow",
           "accenture",
           "cognizant",
           "washington-post",
@@ -159,8 +170,14 @@
           "pepsico",
           "ulta-beauty",
           "salesforce",
-          "hp-inc"
+          "hp-inc",
+          "mckinsey"
         ]
+      },
+      "primitiveMapping": {
+        "primitive": "P4",
+        "subDimension": "P4b",
+        "relationship": "Institutional environment -- regulatory regime determines structural governance requirements"
       }
     },
     {
@@ -206,7 +223,9 @@
           "sk-telecom",
           "workday",
           "accenture",
-          "cognizant"
+          "cognizant",
+          "spotify",
+          "stripe"
         ]
       },
       "medium": {
@@ -256,7 +275,10 @@
           "pepsico",
           "ulta-beauty",
           "thomson-reuters",
-          "hp-inc"
+          "hp-inc",
+          "palantir",
+          "rivian",
+          "comcast---nbcuniversal"
         ]
       },
       "low": {
@@ -302,7 +324,10 @@
           "lockheed-martin",
           "delta-air-lines",
           "lowes",
-          "panasonic"
+          "panasonic",
+          "asml",
+          "astrazeneca",
+          "nextera-energy"
         ]
       },
       "fast": {
@@ -321,6 +346,11 @@
           "pinterest",
           "workday"
         ]
+      },
+      "primitiveMapping": {
+        "primitive": "P4",
+        "subDimension": "P4a",
+        "relationship": "Competitive dynamics -- pace of market change determines urgency of structural response"
       }
     },
     {
@@ -358,7 +388,17 @@
           "delta-air-lines",
           "netflix",
           "kroger",
-          "recruit-holdings"
+          "recruit-holdings",
+          "palantir",
+          "astrazeneca",
+          "rivian",
+          "comcast---nbcuniversal",
+          "spotify",
+          "stripe",
+          "ups",
+          "lionsgate",
+          "crowdstrike",
+          "meta-ai"
         ]
       },
       "founder": {
@@ -431,7 +471,14 @@
           "pepsico",
           "panasonic",
           "uber",
-          "thomson-reuters"
+          "thomson-reuters",
+          "nextera-energy",
+          "baker-mckenzie",
+          "arm-holdings",
+          "cedars-sinai",
+          "kaiser-permanente",
+          "mass-general-brigham",
+          "mckinsey"
         ]
       },
       "low": {
@@ -453,7 +500,9 @@
           "nike",
           "ulta-beauty",
           "kyndryl",
-          "t-mobile"
+          "t-mobile",
+          "asml",
+          "hp-inc"
         ]
       },
       "new": {
@@ -484,6 +533,10 @@
         "specimens": [
           "klarna"
         ]
+      },
+      "primitiveMapping": {
+        "primitive": "P3",
+        "relationship": "Governance structure -- residual claimancy and authority type determine structural latitude"
       }
     },
     {
@@ -556,7 +609,12 @@
           "uber",
           "unitedhealth-group",
           "visa",
-          "workday"
+          "workday",
+          "palantir",
+          "asml",
+          "astrazeneca",
+          "spotify",
+          "stripe"
         ]
       },
       "low": {
@@ -611,7 +669,9 @@
           "ulta-beauty",
           "ups",
           "walmart",
-          "wells-fargo"
+          "wells-fargo",
+          "rivian",
+          "comcast---nbcuniversal"
         ]
       },
       "nonTraditional": {
@@ -651,7 +711,12 @@
           "specimenId": "mount-sinai-health-system",
           "note": "Nadkarni reframes talent competition with Silicon Valley: 'We can't offer Silicon Valley salaries, but health systems are the place to make immediate, measurable impact.' Purpose as talent arbitrage."
         }
-      ]
+      ],
+      "primitiveMapping": {
+        "primitive": "P5",
+        "subDimension": "P5d",
+        "relationship": "Organizational endowment -- talent position constrains which structural models are staffable"
+      }
     },
     {
       "id": "technicalDebt",
@@ -697,7 +762,9 @@
           "wells-fargo",
           "bosch-bcai",
           "pepsico",
-          "panasonic"
+          "panasonic",
+          "comcast---nbcuniversal",
+          "kaiser-permanente"
         ]
       },
       "medium": {
@@ -749,7 +816,11 @@
           "nike",
           "ulta-beauty",
           "thomson-reuters",
-          "recruit-holdings"
+          "recruit-holdings",
+          "hp-inc",
+          "cedars-sinai",
+          "mass-general-brigham",
+          "meta-ai"
         ]
       },
       "low": {
@@ -798,8 +869,20 @@
           "tesla",
           "netflix",
           "google-deepmind",
-          "apple"
+          "apple",
+          "palantir",
+          "asml",
+          "rivian",
+          "spotify",
+          "stripe",
+          "crowdstrike",
+          "mckinsey"
         ]
+      },
+      "primitiveMapping": {
+        "primitive": "P5",
+        "subDimension": "P5a",
+        "relationship": "Organizational endowment -- legacy infrastructure determines feasible AI integration approaches"
       }
     },
     {
@@ -824,7 +907,26 @@
           "lockheed-martin",
           "goldman-sachs",
           "morgan-stanley",
-          "jpmorgan"
+          "jpmorgan",
+          "palantir",
+          "asml",
+          "astrazeneca",
+          "rivian",
+          "spotify",
+          "stripe",
+          "nextera-energy",
+          "mckinsey",
+          "thomson-reuters",
+          "kyndryl",
+          "accenture-openai",
+          "amazon-agi",
+          "meta-ai",
+          "google-deepmind",
+          "servicenow",
+          "recruit-holdings",
+          "uber",
+          "xai",
+          "mass-general-brigham"
         ]
       },
       "medium": {
@@ -841,7 +943,16 @@
           "pfizer",
           "roche-genentech",
           "bmw",
-          "toyota"
+          "toyota",
+          "cedars-sinai",
+          "kaiser-permanente",
+          "lionsgate",
+          "comcast---nbcuniversal",
+          "ups",
+          "fedex",
+          "panasonic",
+          "bosch-bcai",
+          "wells-fargo"
         ]
       },
       "low": {
@@ -860,6 +971,10 @@
           "ulta-beauty",
           "ford"
         ]
+      },
+      "primitiveMapping": {
+        "primitive": "P4",
+        "relationship": "Competitive and institutional context -- composite of P4a (competitive dynamics) and P4b (institutional environment)"
       }
     }
   ]

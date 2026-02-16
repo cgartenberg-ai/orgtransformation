@@ -1,0 +1,26 @@
+{
+  "specimenId": "asml",
+  "scannedDate": "2026-02-15",
+  "quality": "rich",
+  "claimCount": 8,
+  "claimTypeDistribution": {
+    "utopian": 0,
+    "teleological": 0,
+    "higher-calling": 3,
+    "identity": 5,
+    "survival": 0,
+    "commercial-success": 0
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://english.cw.com.tw/article/article.action?id=3903",
+    "https://www.fastcompany.com/91235182/asmls-christophe-fouquet-is-leading-the-company-quietly-powering-the-ai-boom"
+  ]
+}

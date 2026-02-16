@@ -2,7 +2,7 @@
   "id": "salesforce",
   "name": "Salesforce",
   "$schema": "./specimen-schema.json",
-  "title": "Agentforce at Scale — Explorer Exits, Operator Inherits, Customer Zero Scales",
+  "title": "Agentforce at Scale \u2014 Explorer Exits, Operator Inherits, Customer Zero Scales",
   "classification": {
     "structuralModel": 5,
     "structuralModelName": "Product/Venture Lab",
@@ -13,7 +13,7 @@
     "orientation": "Structural",
     "orientationName": "Structural",
     "confidence": "Medium",
-    "classificationRationale": "M4→M5a+M3 (Audit 2026-02-12). Einstein and Agentforce are AI products embedded in the Salesforce platform — internal incubator products that stay in the parent (M5a). AI is also embedded in product teams across Sales Cloud, Service Cloud, etc. (M3). The 'hub' was really a product organization, not infrastructure-coordinating function.",
+    "classificationRationale": "M4\u2192M5a+M3 (Audit 2026-02-12). Einstein and Agentforce are AI products embedded in the Salesforce platform \u2014 internal incubator products that stay in the parent (M5a). AI is also embedded in product teams across Sales Cloud, Service Cloud, etc. (M3). The 'hub' was really a product organization, not infrastructure-coordinating function.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -25,10 +25,10 @@
     "headquarters": "San Francisco, CA",
     "geography": "Global"
   },
-  "description": "Salesforce is the cleanest case study of a company simultaneously building AI products, using those products to restructure its own workforce, and selling the restructuring capability to others. Agentforce serves 18,500+ enterprise customers with 9,500-10,000 paid deals and $500M ARR (Q3 FY2026), running 3 billion automated workflows monthly [techbuzz-agentforce-500m] [salesforce-ir-q3-fy2026].\n\nInternally, Salesforce deployed Agentforce on help.salesforce.com, handling 380,000+ conversations at an 84-85% autonomous resolution rate with only 2% escalation to humans. This enabled 4,000 support jobs to be cut in September 2025, with staff redeployed into sales and services roles — what Benioff calls 'radical augmentation.' A further ~1,000 jobs were cut in February 2026, hitting marketing, product management, data analytics, and notably the Agentforce team itself [ciodive-agentforce-it-benioff] [sfben-feb2026-layoffs].\n\nA major executive shakeup occurred in late 2025-early 2026: five senior leaders departed within three months (Slack CEO Denise Dresser to OpenAI, Agentforce builder Adam Evans to startups, Tableau CEO Ryan Aytay, CMO Ariel Kelman to AMD, and Chief Trust Officer Brad Arkin). Salesforce replaced them with six appointments, the most significant being Joe Inzerillo's promotion to President of Enterprise & AI Technology, consolidating Agentforce and Slack under one executive. Inzerillo operates as 'Customer Zero' — deploying Agentforce internally to restructure Salesforce's own operations, generating metrics that become the external sales pitch [cio-exec-churn] [sfben-exec-shakeup] [diginomica-customer-zero].\n\nThis creates a triple AI leadership structure: (1) Inzerillo for product AI (Agentforce + Slack platform), (2) Eric Hysen as Chief AI & Transformation Officer (legal, compliance, government, trusted agentics), and (3) the Agentforce product team under Madhav Thattai (promoted from COO of Agentforce). The AI leadership succession — Clara Shih (CEO of Salesforce AI, ~20 months) → Adam Evans (EVP/GM, ~15 months) → Madhav Thattai (EVP/GM, current) — shows three leaders in under three years with progressively narrowing scope [cio-shih-departure].\n\nThe $8B Informatica acquisition provides the data management foundation. AgentExchange targets a '$6 trillion digital labor market.' Data Cloud + AI ARR reached $900M (+120% YoY). Pricing evolving from per-seat to consumption-based. Benioff's stated goal: one billion AI agents running on Salesforce platform [salesforce-agentexchange-2025].",
+  "description": "Salesforce is the cleanest case study of a company simultaneously building AI products, using those products to restructure its own workforce, and selling the restructuring capability to others. Agentforce serves 18,500+ enterprise customers with 9,500-10,000 paid deals and $500M ARR (Q3 FY2026), running 3 billion automated workflows monthly [techbuzz-agentforce-500m] [salesforce-ir-q3-fy2026].\n\nInternally, Salesforce deployed Agentforce on help.salesforce.com, handling 380,000+ conversations at an 84-85% autonomous resolution rate with only 2% escalation to humans. This enabled 4,000 support jobs to be cut in September 2025, with staff redeployed into sales and services roles \u2014 what Benioff calls 'radical augmentation.' A further ~1,000 jobs were cut in February 2026, hitting marketing, product management, data analytics, and notably the Agentforce team itself [ciodive-agentforce-it-benioff] [sfben-feb2026-layoffs].\n\nA major executive shakeup occurred in late 2025-early 2026: five senior leaders departed within three months (Slack CEO Denise Dresser to OpenAI, Agentforce builder Adam Evans to startups, Tableau CEO Ryan Aytay, CMO Ariel Kelman to AMD, and Chief Trust Officer Brad Arkin). Salesforce replaced them with six appointments, the most significant being Joe Inzerillo's promotion to President of Enterprise & AI Technology, consolidating Agentforce and Slack under one executive. Inzerillo operates as 'Customer Zero' \u2014 deploying Agentforce internally to restructure Salesforce's own operations, generating metrics that become the external sales pitch [cio-exec-churn] [sfben-exec-shakeup] [diginomica-customer-zero].\n\nThis creates a triple AI leadership structure: (1) Inzerillo for product AI (Agentforce + Slack platform), (2) Eric Hysen as Chief AI & Transformation Officer (legal, compliance, government, trusted agentics), and (3) the Agentforce product team under Madhav Thattai (promoted from COO of Agentforce). The AI leadership succession \u2014 Clara Shih (CEO of Salesforce AI, ~20 months) \u2192 Adam Evans (EVP/GM, ~15 months) \u2192 Madhav Thattai (EVP/GM, current) \u2014 shows three leaders in under three years with progressively narrowing scope [cio-shih-departure].\n\nThe $8B Informatica acquisition provides the data management foundation. AgentExchange targets a '$6 trillion digital labor market.' Data Cloud + AI ARR reached $900M (+120% YoY). Pricing evolving from per-seat to consumption-based. Benioff's stated goal: one billion AI agents running on Salesforce platform [salesforce-agentexchange-2025].",
   "observableMarkers": {
-    "reportingStructure": "Benioff as CEO. Joe Inzerillo promoted to President, Enterprise & AI Technology — consolidates Agentforce (Madhav Thattai, EVP/GM) and Slack (Rob Seaman, EVP/GM) under one executive. Inzerillo reports to Chief Product Officer Steve Fisher. Eric Hysen remains Chief AI & Transformation Officer (reports to President/CLO). Dave Ward hired as Chief Architect (new role, ex-Lumen CTO). Robin Washington as President/COFO. Slack demoted from CEO-led to EVP/GM-led unit. Tableau leadership vacant after Aytay departure [cio-exec-churn] [sfben-exec-shakeup].",
-    "resourceAllocation": "AI budget tripled $4M→$300M. Informatica acquisition: $8B. 4,000 support jobs cut Sep 2025 + ~1,000 more Feb 2026 (marketing, PM, data analytics, Agentforce team, Heroku). Hiring mix: 20%+ more AEs, engineering frozen ('We're not going to hire any more engineers this year' — Benioff). AI handles 30-50% of work at Salesforce [cio-budget-2026] [sfben-feb2026-layoffs] [fortune-benioff-less-heads].",
+    "reportingStructure": "Benioff as CEO. Joe Inzerillo promoted to President, Enterprise & AI Technology \u2014 consolidates Agentforce (Madhav Thattai, EVP/GM) and Slack (Rob Seaman, EVP/GM) under one executive. Inzerillo reports to Chief Product Officer Steve Fisher. Eric Hysen remains Chief AI & Transformation Officer (reports to President/CLO). Dave Ward hired as Chief Architect (new role, ex-Lumen CTO). Robin Washington as President/COFO. Slack demoted from CEO-led to EVP/GM-led unit. Tableau leadership vacant after Aytay departure [cio-exec-churn] [sfben-exec-shakeup].",
+    "resourceAllocation": "AI budget tripled $4M\u2192$300M. Informatica acquisition: $8B. 4,000 support jobs cut Sep 2025 + ~1,000 more Feb 2026 (marketing, PM, data analytics, Agentforce team, Heroku). Hiring mix: 20%+ more AEs, engineering frozen ('We're not going to hire any more engineers this year' \u2014 Benioff). AI handles 30-50% of work at Salesforce [cio-budget-2026] [sfben-feb2026-layoffs] [fortune-benioff-less-heads].",
     "timeHorizons": "Short-term: Agentforce product scaling, workforce restructuring. Medium-term: AgentExchange marketplace, pricing model shift from seats to consumption. Long-term: 'one billion AI agents' on Salesforce platform, identity shift from CRM to digital labor platform [cloudwars-benioff-agentic].",
     "decisionRights": "Inzerillo's Customer Zero model gives the CDO-turned-President authority to deploy Agentforce internally before commercial release. Internal deployment generates the metrics (84% resolution, $1.5M pipeline from sales agent) that authorize external sales. The Customer Zero role is a structural innovation: one executive controls both internal transformation and external product [diginomica-customer-zero].",
     "metrics": "18,500 enterprise customers. 9,500 Agentforce paid deals. $500M Agentforce ARR (Q3 FY2026). $900M Data Cloud + AI ARR (+120% YoY). 3B automated workflows monthly. 380K conversations on help.salesforce.com. 84% autonomous resolution rate. 2% escalation to humans. RPO $63.4B (+11%). FCF $12.4B (+31%). Q4 FY2025 revenue: $10.0B."
@@ -43,7 +43,7 @@
     {
       "id": 9,
       "name": "Hire CAIOs from Consumer Tech",
-      "evidence": "Eric Hysen hired as Chief AI & Transformation Officer from US government (DHS CAIO/CIO). Career path: Google SWE/PM → Biden-Harris transition → DHS CAIO/CIO → Salesforce. Government-to-corporate CAIO pipeline.",
+      "evidence": "Eric Hysen hired as Chief AI & Transformation Officer from US government (DHS CAIO/CIO). Career path: Google SWE/PM \u2192 Biden-Harris transition \u2192 DHS CAIO/CIO \u2192 Salesforce. Government-to-corporate CAIO pipeline.",
       "strength": "Moderate"
     },
     {
@@ -81,7 +81,7 @@
     {
       "speaker": "Joe Inzerillo",
       "speakerTitle": "President, Enterprise & AI Technology, Salesforce",
-      "quote": "The fusion between the human workforce and the AI workforce — with the AI dictating terms based upon its capabilities — is the future of the agentic enterprise.",
+      "quote": "The fusion between the human workforce and the AI workforce \u2014 with the AI dictating terms based upon its capabilities \u2014 is the future of the agentic enterprise.",
       "source": "Metis Strategy Interview",
       "sourceUrl": "https://www.metisstrategy.com/interview/joe-inzerillo/",
       "date": "2025"
@@ -89,7 +89,7 @@
     {
       "speaker": "Adam Evans",
       "speakerTitle": "EVP & GM, Salesforce AI (departing)",
-      "quote": "I've decided it's time to start my next chapter outside Salesforce — returning to what I love most: building startups.",
+      "quote": "I've decided it's time to start my next chapter outside Salesforce \u2014 returning to what I love most: building startups.",
       "source": "Salesforce Ben",
       "sourceUrl": "https://www.salesforceben.com/huge-exec-shakeup-at-salesforce-as-new-head-of-agentforce-revealed/",
       "date": "2026-02"
@@ -98,8 +98,17 @@
   "layers": [
     {
       "date": "2026-02",
-      "label": "Executive Shakeup — Explorer Exits, Operator Inherits, Platform Consolidation",
-      "summary": "5 senior departures in 3 months: Denise Dresser (Slack CEO → OpenAI CRO), Adam Evans (Agentforce builder → startups), Ryan Aytay (Tableau CEO, 19yr tenure), Ariel Kelman (CMO → AMD), Brad Arkin (CTO/CSO). Replaced by 6 appointments: Joe Inzerillo promoted to President of Enterprise & AI Technology (consolidating Agentforce + Slack), Madhav Thattai as EVP/GM Agentforce (operator replacing builder Evans), Rob Seaman as EVP/GM Slack (demoted from CEO-led), Dave Ward as Chief Architect (new role, ex-Lumen CTO), Iain Mulholland as CSO (ex-Google Cloud), Patrick Stokes as CMO. ~1,000 additional layoffs hit marketing, PM, data analytics, and Agentforce team itself. AI leadership succession: Clara Shih (CEO Salesforce AI, ~20mo) → Adam Evans (EVP/GM, ~15mo) → Madhav Thattai (EVP/GM, current) — 3 leaders in <3 years with narrowing scope. Customer Zero model formalized: Inzerillo runs Salesforce as internal test lab for Agentforce before external sales. Benioff's augmentation-to-replacement rhetorical arc: publicly said 'AI augments people' then months later 'I need less heads.'",
+      "label": "Feb 2026 Layoffs \u2014 ~1K Cuts Hit Agentforce Team",
+      "summary": "~1,000 additional layoffs in February 2026 affecting marketing, PM, data analytics, and notably the Agentforce team itself. Support workforce reduced from 9K to ~5K via AI. Engineering headcount frozen. 20%+ more AEs hired. Benioff claims '30-50% of work' is now AI-handled. The Agentforce team being cut while Agentforce products cut other teams creates a recursive restructuring pattern.",
+      "classification": null,
+      "sourceRefs": [
+        "salesforce-feb-2026-layoffs"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "Executive Shakeup \u2014 Explorer Exits, Operator Inherits, Platform Consolidation",
+      "summary": "5 senior departures in 3 months: Denise Dresser (Slack CEO \u2192 OpenAI CRO), Adam Evans (Agentforce builder \u2192 startups), Ryan Aytay (Tableau CEO, 19yr tenure), Ariel Kelman (CMO \u2192 AMD), Brad Arkin (CTO/CSO). Replaced by 6 appointments: Joe Inzerillo promoted to President of Enterprise & AI Technology (consolidating Agentforce + Slack), Madhav Thattai as EVP/GM Agentforce (operator replacing builder Evans), Rob Seaman as EVP/GM Slack (demoted from CEO-led), Dave Ward as Chief Architect (new role, ex-Lumen CTO), Iain Mulholland as CSO (ex-Google Cloud), Patrick Stokes as CMO. ~1,000 additional layoffs hit marketing, PM, data analytics, and Agentforce team itself. AI leadership succession: Clara Shih (CEO Salesforce AI, ~20mo) \u2192 Adam Evans (EVP/GM, ~15mo) \u2192 Madhav Thattai (EVP/GM, current) \u2014 3 leaders in <3 years with narrowing scope. Customer Zero model formalized: Inzerillo runs Salesforce as internal test lab for Agentforce before external sales. Benioff's augmentation-to-replacement rhetorical arc: publicly said 'AI augments people' then months later 'I need less heads.'",
       "classification": null,
       "sourceRefs": [
         "cio-exec-churn",
@@ -113,7 +122,7 @@
     },
     {
       "date": "2026-02",
-      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke + M5 → M5 Product/Venture Lab + M3 Embedded Teams",
+      "label": "M4 Taxonomy Audit: M4 Hybrid/Hub-and-Spoke + M5 \u2192 M5 Product/Venture Lab + M3 Embedded Teams",
       "summary": "M4 taxonomy audit: Reclassified from M4 Hub-and-Spoke to M5a Internal Incubator + M3 Embedded. Einstein/Agentforce are products; product teams embed AI independently.",
       "classification": "M4 Hybrid/Hub-and-Spoke + M5",
       "sourceRefs": [
@@ -123,14 +132,14 @@
     {
       "date": "2026-02",
       "label": "Overnight research scan",
-      "summary": "Research scan confirmed existing documentation. The Eric Hysen Chief AI & Transformation Officer appointment (already documented in 2025-08 layer) was the only finding. Research agent noted the combined 'AI + Transformation' title as significant — Salesforce explicitly views AI leadership and organizational transformation as a single mandate. No new structural data.",
+      "summary": "Research scan confirmed existing documentation. The Eric Hysen Chief AI & Transformation Officer appointment (already documented in 2025-08 layer) was the only finding. Research agent noted the combined 'AI + Transformation' title as significant \u2014 Salesforce explicitly views AI leadership and organizational transformation as a single mandate. No new structural data.",
       "classification": null,
       "sourceRefs": []
     },
     {
       "date": "2026-02",
-      "label": "Agentforce at Scale — Earnings, Marketplace, Radical Augmentation",
-      "summary": "Q4 FY2025: $10.0B revenue (+8%), RPO $63.4B (+11%), FCF $12.4B (+31%). Benioff declared 'the quarter of Agentforce.' Agentforce adoption scaled from 3,000 paying customers at FY2025 close to 9,500 paid deals by Q3 FY2026 (+50% QoQ). Agentforce annualized revenue: $500M by Q3 FY2026 (330% YoY surge). On help.salesforce.com: 380,000 conversations handled by Agentforce, 84% autonomous resolution rate, only 2% escalation to humans. 4,000 support jobs cut in September 2025 — agents handling ~50% of customer support tasks; many staff redeployed into sales and services roles ('radical augmentation' per Benioff). Data Cloud + AI ARR: $900M (+120% YoY). Acquired Informatica for $8B — data management foundation for AI. Launched AgentExchange — 'world's first agent marketplace' for the '$6 trillion digital labor market.' 6 of top 10 deals in Q3 FY2026 driven by companies wanting to 'transform with Agentforce.' Agentforce IT Service launched — expanding from sales/service into IT service management.",
+      "label": "Agentforce at Scale \u2014 Earnings, Marketplace, Radical Augmentation",
+      "summary": "Q4 FY2025: $10.0B revenue (+8%), RPO $63.4B (+11%), FCF $12.4B (+31%). Benioff declared 'the quarter of Agentforce.' Agentforce adoption scaled from 3,000 paying customers at FY2025 close to 9,500 paid deals by Q3 FY2026 (+50% QoQ). Agentforce annualized revenue: $500M by Q3 FY2026 (330% YoY surge). On help.salesforce.com: 380,000 conversations handled by Agentforce, 84% autonomous resolution rate, only 2% escalation to humans. 4,000 support jobs cut in September 2025 \u2014 agents handling ~50% of customer support tasks; many staff redeployed into sales and services roles ('radical augmentation' per Benioff). Data Cloud + AI ARR: $900M (+120% YoY). Acquired Informatica for $8B \u2014 data management foundation for AI. Launched AgentExchange \u2014 'world's first agent marketplace' for the '$6 trillion digital labor market.' 6 of top 10 deals in Q3 FY2026 driven by companies wanting to 'transform with Agentforce.' Agentforce IT Service launched \u2014 expanding from sales/service into IT service management.",
       "classification": null,
       "sourceRefs": [
         "salesforce-ir-q4-fy2025",
@@ -143,7 +152,7 @@
     },
     {
       "date": "2025-08",
-      "label": "Dual AI Leadership — Chief AI & Transformation Officer",
+      "label": "Dual AI Leadership \u2014 Chief AI & Transformation Officer",
       "summary": "Salesforce added Eric Hysen as Chief AI and Transformation Officer (Aug 2025), reporting to President/Chief Legal Officer. Scope: legal, government, compliance, public affairs, and 'trusted agentics.' Background: Former CAIO at DHS, former CIO at DHS, Google SWE/PM. Government-to-corporate CAIO pipeline. This creates dual AI leadership: product AI teams (Agentforce) + internal AI transformation officer (Hysen).",
       "classification": null,
       "sourceRefs": [
@@ -154,7 +163,7 @@
     {
       "date": "2026-01",
       "label": "AI-Driven Workforce Restructuring",
-      "summary": "Cut support staff from 9,000 to ~5,000 through AI agent deployment. 50% of customer conversations now AI-handled (from zero one year prior). Shifted hiring mix: 20%+ more AEs, flat engineering. Budget tripled $4M→$300M. Agentforce recalibrated with deterministic 'Agent Script' controls. In 'Agent War' with ServiceNow for enterprise AI OS dominance.",
+      "summary": "Cut support staff from 9,000 to ~5,000 through AI agent deployment. 50% of customer conversations now AI-handled (from zero one year prior). Shifted hiring mix: 20%+ more AEs, flat engineering. Budget tripled $4M\u2192$300M. Agentforce recalibrated with deterministic 'Agent Script' controls. In 'Agent War' with ServiceNow for enterprise AI OS dominance.",
       "classification": null,
       "sourceRefs": [
         "uctoday-cuts-2026",
@@ -210,7 +219,7 @@
     {
       "id": "uctoday-cuts-2026",
       "type": "Press",
-      "name": "UC Today — AI Agents Slash 4,000 Salesforce Jobs",
+      "name": "UC Today \u2014 AI Agents Slash 4,000 Salesforce Jobs",
       "url": "https://www.uctoday.com/unified-communications/ai-agents-slash-4000-salesforce-jobs-months-after-ceo-downplays-ais-risks-on-jobs/",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -220,7 +229,7 @@
     {
       "id": "sfben-hiring-2026",
       "type": "Press",
-      "name": "Salesforce Ben — Hiring Changes",
+      "name": "Salesforce Ben \u2014 Hiring Changes",
       "url": "https://www.salesforceben.com/marc-benioff-explains-hiring-changes-as-ai-slows-engineering-growth-but-accelerates-investment/",
       "timestamp": null,
       "sourceDate": "2026",
@@ -230,17 +239,17 @@
     {
       "id": "cio-budget-2026",
       "type": "Press",
-      "name": "CIO — AI Shakes Up the Salesforce Workforce",
+      "name": "CIO \u2014 AI Shakes Up the Salesforce Workforce",
       "url": "https://www.cio.com/article/3817774/ai-shakes-up-the-salesforce-workforce.html",
       "timestamp": null,
       "sourceDate": "2026",
       "collectedDate": "2026-01-31",
-      "notes": "Budget tripled $4M→$300M, CFO quote."
+      "notes": "Budget tripled $4M\u2192$300M, CFO quote."
     },
     {
       "id": "cio-agentscript-2026",
       "type": "Press",
-      "name": "CIO — Salesforce's Agentforce Recalibration",
+      "name": "CIO \u2014 Salesforce's Agentforce Recalibration",
       "url": "https://www.cio.com/article/4113617/salesforces-agentforce-recalibration-raises-costs-and-complexity-for-cios.html",
       "timestamp": null,
       "sourceDate": "2026",
@@ -250,7 +259,7 @@
     {
       "id": "govconwire-hysen-2025",
       "type": "Press",
-      "name": "GovConWire — Hysen appointment",
+      "name": "GovConWire \u2014 Hysen appointment",
       "url": "https://www.govconwire.com/articles/eric-hysen-salesforce-chief-ai-transformation-officer-appointment",
       "timestamp": null,
       "sourceDate": "2025-08",
@@ -260,7 +269,7 @@
     {
       "id": "cdo-hysen-2025",
       "type": "Press",
-      "name": "CDO Magazine — Hysen role scope",
+      "name": "CDO Magazine \u2014 Hysen role scope",
       "url": "https://www.cdomagazine.tech/leadership-moves/salesforce-names-eric-hysen-chief-ai-and-transformation-officer-for-legal-corporate-affairs",
       "timestamp": null,
       "sourceDate": "2025-08",
@@ -270,7 +279,7 @@
     {
       "id": "agent-war-2026",
       "type": "Press",
-      "name": "FinancialContent/WRAL — The Great Agent War",
+      "name": "FinancialContent/WRAL \u2014 The Great Agent War",
       "url": "https://markets.financialcontent.com/wral/article/tokenring-2026-1-1-the-great-agent-war-salesforce-and-servicenow-clash-over-the-future-of-the-enterprise-ai-operating-system",
       "timestamp": null,
       "sourceDate": "2026-01-01",
@@ -280,7 +289,7 @@
     {
       "id": "salesforce-ir-q4-fy2025",
       "type": "Earnings Call",
-      "name": "Salesforce IR — Q4 FY2025 Results",
+      "name": "Salesforce IR \u2014 Q4 FY2025 Results",
       "url": "https://investor.salesforce.com/news/news-details/2025/Salesforce-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
       "timestamp": null,
       "sourceDate": "2025-02-26",
@@ -290,7 +299,7 @@
     {
       "id": "techbuzz-agentforce-500m",
       "type": "Press",
-      "name": "TechBuzz — Salesforce Agentforce AI Hits $500M Run Rate",
+      "name": "TechBuzz \u2014 Salesforce Agentforce AI Hits $500M Run Rate",
       "url": "https://www.techbuzz.ai/articles/salesforce-agentforce-ai-hits-500m-run-rate-beats-earnings",
       "timestamp": null,
       "sourceDate": "2025-12",
@@ -300,7 +309,7 @@
     {
       "id": "salesforce-ir-q3-fy2026",
       "type": "Earnings Call",
-      "name": "Salesforce IR — Q3 FY2026 Record Results Driven by Agentforce",
+      "name": "Salesforce IR \u2014 Q3 FY2026 Record Results Driven by Agentforce",
       "url": "https://investor.salesforce.com/news/news-details/2025/Salesforce-Delivers-Record-Third-Quarter-Fiscal-2026-Results-Driven-by-Agentforce--Data-360/default.aspx",
       "timestamp": null,
       "sourceDate": "2025-12",
@@ -310,7 +319,7 @@
     {
       "id": "ciodive-agentforce-q4-2025",
       "type": "Press",
-      "name": "CIO Dive — Agentforce Resolution Metrics",
+      "name": "CIO Dive \u2014 Agentforce Resolution Metrics",
       "url": "https://www.ciodive.com/news/salesforce-agentforce-AI-Q4-2025/741212/",
       "timestamp": null,
       "sourceDate": "2025-02-26",
@@ -320,7 +329,7 @@
     {
       "id": "ciodive-agentforce-it-benioff",
       "type": "Press",
-      "name": "CIO Dive — Salesforce Agentforce IT Services, 4K Support Cuts",
+      "name": "CIO Dive \u2014 Salesforce Agentforce IT Services, 4K Support Cuts",
       "url": "https://www.ciodive.com/news/salesforce-agentforce-IT-services-marc-benioff/807103/",
       "timestamp": null,
       "sourceDate": "2025-09",
@@ -330,7 +339,7 @@
     {
       "id": "salesforce-agentexchange-2025",
       "type": "Press",
-      "name": "Salesforce Newsroom — 2025 Year in Review (AgentExchange)",
+      "name": "Salesforce Newsroom \u2014 2025 Year in Review (AgentExchange)",
       "url": "https://www.salesforce.com/news/stories/2025-recap/?bc=OTH",
       "timestamp": null,
       "sourceDate": "2025-12",
@@ -340,7 +349,7 @@
     {
       "id": "cio-exec-churn",
       "type": "Press",
-      "name": "CIO — Salesforce Lays Off Staffers as Executive Leadership Churn Continues",
+      "name": "CIO \u2014 Salesforce Lays Off Staffers as Executive Leadership Churn Continues",
       "url": "https://www.cio.com/article/4130028/salesforce-lays-off-staffers-as-executive-leadership-churn-continues.html",
       "sourceDate": "2026-02-10",
       "collectedDate": "2026-02-12"
@@ -348,7 +357,7 @@
     {
       "id": "sfben-exec-shakeup",
       "type": "Press",
-      "name": "Salesforce Ben — Huge Exec Shakeup at Salesforce",
+      "name": "Salesforce Ben \u2014 Huge Exec Shakeup at Salesforce",
       "url": "https://www.salesforceben.com/huge-exec-shakeup-at-salesforce-as-new-head-of-agentforce-revealed/",
       "sourceDate": "2026-02",
       "collectedDate": "2026-02-12"
@@ -356,7 +365,7 @@
     {
       "id": "dnyuz-exec-shakeup",
       "type": "Press",
-      "name": "DNYUZ — Salesforce Appoints 6 New Leaders in Executive Shake-Up",
+      "name": "DNYUZ \u2014 Salesforce Appoints 6 New Leaders in Executive Shake-Up",
       "url": "https://dnyuz.com/2026/02/10/salesforce-appoints-6-new-leaders-in-an-executive-shake-up-after-5-high-profile-departures/",
       "sourceDate": "2026-02-10",
       "collectedDate": "2026-02-12"
@@ -364,7 +373,7 @@
     {
       "id": "sfben-feb2026-layoffs",
       "type": "Press",
-      "name": "Salesforce Ben — Feb 2026 Layoffs (~1,000)",
+      "name": "Salesforce Ben \u2014 Feb 2026 Layoffs (~1,000)",
       "url": "https://www.salesforceben.com/salesforce-lays-off-nearly-1000-employees-in-early-2026-cuts/",
       "sourceDate": "2026-02",
       "collectedDate": "2026-02-12"
@@ -372,7 +381,7 @@
     {
       "id": "fortune-benioff-less-heads",
       "type": "Press/Podcast",
-      "name": "Fortune — Benioff 'I Need Less Heads' (Logan Bartlett Show)",
+      "name": "Fortune \u2014 Benioff 'I Need Less Heads' (Logan Bartlett Show)",
       "url": "https://fortune.com/2025/09/02/salesforce-ceo-billionaire-marc-benioff-ai-agents-jobs-layoffs-customer-service-sales/",
       "sourceDate": "2025-09-02",
       "collectedDate": "2026-02-12"
@@ -380,7 +389,7 @@
     {
       "id": "diginomica-customer-zero",
       "type": "Interview",
-      "name": "Diginomica — Being Customer Zero: Salesforce CDO on Agentic AI",
+      "name": "Diginomica \u2014 Being Customer Zero: Salesforce CDO on Agentic AI",
       "url": "https://diginomica.com/being-customer-zero-how-salesforces-first-chief-digital-officer-picking-learnings-agentic-ai",
       "sourceDate": "2025",
       "collectedDate": "2026-02-12"
@@ -388,7 +397,7 @@
     {
       "id": "cloudwars-benioff-agentic",
       "type": "Press",
-      "name": "Cloud Wars — Benioff on Agentic AI",
+      "name": "Cloud Wars \u2014 Benioff on Agentic AI",
       "url": "https://cloudwars.com/innovation-leadership/salesforce-ceo-marc-benioff-agentic-ai-will-thrill-customers-out-of-their-minds/",
       "sourceDate": "2025",
       "collectedDate": "2026-02-12"
@@ -396,10 +405,19 @@
     {
       "id": "cio-shih-departure",
       "type": "Press",
-      "name": "CIO — CEO of Salesforce AI Clara Shih Has Left",
+      "name": "CIO \u2014 CEO of Salesforce AI Clara Shih Has Left",
       "url": "https://www.cio.com/article/3607317/ceo-of-salesforce-ai-clara-shih-has-left.html",
       "sourceDate": "2024-11",
       "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "salesforce-feb-2026-layoffs",
+      "type": "Press",
+      "name": "Salesforce February 2026 Layoffs Coverage",
+      "url": null,
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-15",
+      "notes": "[no URL \u2014 research agent summary]"
     }
   ],
   "contingencies": {
@@ -423,24 +441,24 @@
     "Will Thattai (operator replacing builder Evans) sustain Agentforce innovation velocity or does this mark the beginning of the exploitation trap?",
     "Will Q4 FY2026 earnings (Feb 25, 2026) reveal updated headcount and Agentforce metrics post-restructuring?",
     "Does Inzerillo's Agentforce+Slack consolidation effectively re-create a hub-and-spoke structure (reversing the M4 audit)?",
-    "The Agentforce team being cut while Agentforce products cut other teams — is this recursive pattern sustainable?"
+    "The Agentforce team being cut while Agentforce products cut other teams \u2014 is this recursive pattern sustainable?"
   ],
   "taxonomyFeedback": [
     "Salesforce's simultaneous workforce cuts (4,000 support staff) and hiring shifts (+20% AEs) represents a distinct pattern: AI doesn't just reduce headcount, it reshapes the workforce composition. The taxonomy doesn't capture this 'workforce recomposition' pattern.",
     "Benioff's contradiction (publicly downplaying AI job displacement 2 months before cutting 4,000 jobs) raises questions about how executives manage the narrative around AI-driven restructuring.",
     "Salesforce may be approaching type specimen status for Mechanism #10 (Productize Internal Advantages): the clearest case of using AI internally to restructure, then selling that capability externally. The eat-your-own-dog-food pattern with specific metrics (84% resolution, 2% escalation, $500M ARR) is unusually well-documented.",
-    "The identity shift from CRM company to 'digital labor platform' — with AgentExchange targeting a '$6T digital labor market' — raises an M5/M8 boundary question: is Agentforce an adjacent venture (M5a) or a core replacement that could eventually become the primary way Salesforce operates (potential M8)?",
-    "[2026-02] Research scan confirmed the combined 'Chief AI & Transformation Officer' title as significant — Salesforce explicitly bundles AI leadership with organizational transformation mandate in one role. This reinforces M4 classification: the AI hub is explicitly designed to transform the spokes.",
-    "[2026-02-12 M4 Audit] Reclassified from M4 to M5+M3. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No — Einstein/Agentforce are products; product teams embed AI independently.",
-    "[2026-02-13] Three AI leaders in <3 years with narrowing scope (Shih: 'CEO of Salesforce AI' → Evans: 'EVP/GM of AI' → Thattai: 'EVP/GM of Agentforce') is a structural signal. Each transition narrowed the mandate from strategic AI leadership to operational product management. This mirrors the exploration→execution leadership transition pattern: visionaries replaced by operators as the product matures.",
+    "The identity shift from CRM company to 'digital labor platform' \u2014 with AgentExchange targeting a '$6T digital labor market' \u2014 raises an M5/M8 boundary question: is Agentforce an adjacent venture (M5a) or a core replacement that could eventually become the primary way Salesforce operates (potential M8)?",
+    "[2026-02] Research scan confirmed the combined 'Chief AI & Transformation Officer' title as significant \u2014 Salesforce explicitly bundles AI leadership with organizational transformation mandate in one role. This reinforces M4 classification: the AI hub is explicitly designed to transform the spokes.",
+    "[2026-02-12 M4 Audit] Reclassified from M4 to M5+M3. Key discriminator: does the hub coordinate shared AI infrastructure that distributed units depend on and build upon? Answer: No \u2014 Einstein/Agentforce are products; product teams embed AI independently.",
+    "[2026-02-13] Three AI leaders in <3 years with narrowing scope (Shih: 'CEO of Salesforce AI' \u2192 Evans: 'EVP/GM of AI' \u2192 Thattai: 'EVP/GM of Agentforce') is a structural signal. Each transition narrowed the mandate from strategic AI leadership to operational product management. This mirrors the exploration\u2192execution leadership transition pattern: visionaries replaced by operators as the product matures.",
     "[2026-02-13] Inzerillo's consolidation of Agentforce+Slack under one President may be re-creating a hub. The M4 audit classified this as M5+M3 just days ago, but the structural reorganization post-dates that audit. The Chief Architect role and explicit mandate to 'connect Agentforce and Slack' suggest evolving toward hub-and-spoke. Classification needs re-evaluation at next review cycle.",
     "[2026-02-13] The augmentation-to-replacement rhetorical arc is now documented with specific quotes: Benioff publicly said 'AI augments people, I don't know if it replaces them' then months later 'I need less heads.' The shift happened when operational metrics (84% resolution, 50% AI conversations) validated displacement. This is a testable mechanism: executives use augmentation framing until operational data authorizes replacement framing.",
-    "[2026-02-13] Customer Zero as structural innovation: Inzerillo's role (CDO→President) creates a new organizational function where one executive owns both internal deployment and external product. The internal metrics become the sales pitch. This is Mechanism #10 at institutional scale and should be considered for mechanism codification."
+    "[2026-02-13] Customer Zero as structural innovation: Inzerillo's role (CDO\u2192President) creates a new organizational function where one executive owns both internal deployment and external product. The internal metrics become the sales pitch. This is Mechanism #10 at institutional scale and should be considered for mechanism codification."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-13",
+    "lastUpdated": "2026-02-15",
     "completeness": "High",
     "convertedFrom": "library/cases/salesforce.json"
   }

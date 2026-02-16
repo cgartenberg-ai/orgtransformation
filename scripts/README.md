@@ -4,29 +4,58 @@ Active scripts for the Ambidexterity Field Guide project. One-off historical scr
 
 ## Active Scripts
 
-### Overnight Automation (Python)
+### Nightly Pipeline (Python)
 
-These scripts run Claude Code agents for batch data collection. They use the shared library in `lib/` for atomic writes, locking, and logging.
+The nightly pipeline chains research → curate → purpose claims → synthesis → validation → morning briefing. It runs on a 7-day themed rotation configured in `pipeline-schedule.json`.
 
 | Script | Purpose | Runtime | Key I/O |
 |--------|---------|---------|---------|
-| `overnight-research.py` | Runs research agents to scan sources | ~2-4 hrs | Writes: `research/queue.json`, session files |
-| `overnight-purpose-claims.py` | Collects purpose claims via agents | ~3-6 hrs | Reads: `pending/*.json` → Writes: `registry.json`, `scan-tracker.json` |
-| `overnight-curate.py` | Creates/updates specimen cards | ~2-4 hrs | Reads: `research/queue.json` → Writes: `specimens/*.json`, `registry.json` |
+| `overnight-pipeline.py` | **Orchestrator** — chains all phases | ~7 hrs | Reads: schedule → Writes: `pipeline-reports/` |
+| `overnight-research.py` | Research agents (14 theme modes) | ~1-5 hrs | Writes: `research/pending/`, `research/queue.json` |
+| `overnight-curate.py` | Creates/updates specimen cards | ~2-4 hrs | Reads: `research/queue.json` → Writes: `specimens/*.json` |
+| `overnight-purpose-claims.py` | Collects purpose claims | ~3-6 hrs | Writes: `purpose-claims/registry.json` |
+| `overnight-synthesis.py` | **Autonomous synthesis** — scores specimens | ~1 hr | Writes: `synthesis/*.json`, field journal |
+| `pipeline-schedule.json` | 7-day themed rotation config | — | Read by orchestrator |
 
-**Running overnight scripts:**
+**Running the pipeline:**
 ```bash
-# From project root
-python3 scripts/overnight-research.py [--dry-run]
-python3 scripts/overnight-purpose-claims.py [--dry-run]
-python3 scripts/overnight-curate.py [--dry-run]
+# Full nightly pipeline (runs tonight's schedule)
+python3 scripts/overnight-pipeline.py --skip-permissions
+
+# Preview what would run
+python3 scripts/overnight-pipeline.py --dry-run --day monday
+
+# Run a specific phase only
+python3 scripts/overnight-pipeline.py --phase 1 --skip-permissions
+
+# Run a themed research batch directly
+python3 scripts/overnight-research.py --schedule-theme press-keyword --limit 4 --dry-run
 ```
 
-**Important flags:**
-- `--dry-run` — Preview what would happen without modifying any files
-- All scripts acquire a PID-based lock file (`scripts/.locks/`) to prevent concurrent runs
-- All data writes use atomic `save_json()` — write to `.tmp`, validate, backup original, then rename
-- All modifications logged to `data/CHANGELOG.md`
+**Schedule themes (14 modes):**
+`earnings`, `press-keyword`, `podcast-feed-check`, `substacks`, `enterprise-reports`, `target-specimens`, `target-specimens-enrich`, `stale-refresh`, `low-confidence`, `taxonomy-gap-coverage`, `daily-news-headlines`, `industry-vertical-searches`, `source-staleness-audit`, `catch-up`
+
+**Scheduling:** launchd plist at `scripts/com.fieldguide.overnight-pipeline.plist` triggers daily at 7 PM. Install:
+```bash
+cp scripts/com.fieldguide.overnight-pipeline.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.fieldguide.overnight-pipeline.plist
+```
+
+**Morning review:** Check `pipeline-reports/YYYY-MM-DD-morning-briefing.md` and `pipeline-reports/YYYY-MM-DD-field-journal.md`.
+
+**Framework-aware pipeline (Session 36+):** All overnight scripts inject the analytical framework into agent prompts:
+- `overnight-research.py` — P1-P5 primitive antenna + T1-T5 tension names in relevance test
+- `overnight-curate.py` — Tags `primitiveIndicators` (P1-P5) and `findingRelevance` (supports/challenges F1-F10) with anti-bias guardrail
+- `overnight-purpose-claims.py` — P3/P4 analytical context + `primitiveRelevance` in enrichment
+- `SYNTHESIS-PROTOCOL.md` — Step 5d Findings Review + primitive lens in field notes
+
+**Important:**
+- `--dry-run` — Preview without modifying files
+- `--skip-permissions` — Required for unattended runs
+- PID-based lock files (`scripts/.locks/`) prevent concurrent runs
+- All writes use atomic `save_json()` — tmp → validate → backup → rename
+- All changes logged to `data/CHANGELOG.md`
+- Time-budget-aware: skips optional batches if running long (12-hour window)
 
 ### Validation & Status (Node.js)
 

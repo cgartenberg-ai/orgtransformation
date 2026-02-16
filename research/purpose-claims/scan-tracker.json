@@ -1,6 +1,6 @@
 {
   "description": "Tracks which specimens have been scanned for purpose claims. Quality: unscanned | rich (5+) | adequate (2-4) | thin (1) | none (scanned, 0 claims). See PURPOSE-CLAIMS-SPEC.md for full schema.",
-  "lastUpdated": "2026-02-13",
+  "lastUpdated": "2026-02-15",
   "specimens": [
     {
       "specimenId": "abb",
@@ -913,6 +913,54 @@
       "specimenId": "intuit",
       "lastScanned": "2026-02-13",
       "claimsFound": 9,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "palantir",
+      "lastScanned": "2026-02-15",
+      "claimsFound": 12,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "asml",
+      "lastScanned": "2026-02-15",
+      "claimsFound": 8,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "astrazeneca",
+      "lastScanned": "2026-02-15",
+      "claimsFound": 8,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "rivian",
+      "lastScanned": "2026-02-15",
+      "claimsFound": 7,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "comcast---nbcuniversal",
+      "lastScanned": "2026-02-15",
+      "claimsFound": 5,
+      "quality": "adequate"
+    },
+    {
+      "specimenId": "spotify",
+      "lastScanned": "2026-02-15",
+      "claimsFound": 14,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "stripe",
+      "lastScanned": "2026-02-15",
+      "claimsFound": 9,
+      "quality": "rich"
+    },
+    {
+      "specimenId": "nextera-energy",
+      "lastScanned": "2026-02-15",
+      "claimsFound": 7,
       "quality": "rich"
     }
   ]

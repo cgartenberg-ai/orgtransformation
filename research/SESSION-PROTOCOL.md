@@ -24,7 +24,7 @@ This is the filter. Before recording any finding, apply the **Relevance Test** (
 Before recording an observation, it must pass at least ONE of these three checks:
 
 1. **Structural**: Does this tell us about organizational STRUCTURES — labs, teams, reporting lines, units, governance, resource allocation — not just that they're "using AI"?
-2. **Tension**: Does it reveal how the org handles the TENSION between exploring new AI capabilities and executing on current operations? Look for: trade-offs, failures, pivots, dual structures, integration challenges.
+2. **Tension**: Does it reveal how the org navigates one of the 5 structural tensions? T1: structural separation vs. contextual integration; T2: deep pilots vs. wide deployment; T3: centralized vs. distributed control; T4: named/branded AI org vs. quiet transformation; T5: long R&D horizons vs. short accountability cycles. Look for: trade-offs, failures, pivots, dual structures, integration challenges.
 3. **Specificity**: Is there concrete detail — names, numbers, headcount, budgets, timelines, direct quotes — not just generalities?
 
 **If it fails all three, don't record it.**

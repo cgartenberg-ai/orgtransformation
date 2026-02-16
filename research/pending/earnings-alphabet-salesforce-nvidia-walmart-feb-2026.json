@@ -1,0 +1,406 @@
+{
+  "taskId": "earnings-alphabet-salesforce-nvidia-walmart-feb-2026",
+  "taskType": "earnings",
+  "scannedDate": "2026-02-15",
+  "sourceScanned": {
+    "sourceId": null,
+    "name": "Q4 2025 / Recent Earnings — Alphabet, Salesforce, NVIDIA, Walmart",
+    "type": "Earnings Call",
+    "scannedThrough": "Q4 2025 / Q4 FY2026 earnings calls",
+    "scannedThroughDate": "2026-02-15"
+  },
+  "searchesCompleted": 13,
+  "urlsFetched": 12,
+  "searchFailures": [],
+  "fetchFailures": [
+    "https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q4-2025/ (CSS-only, no article content rendered)",
+    "https://www.cnbc.com/2026/02/04/alphabet-googl-q4-2025-earnings.html (CSS-only, no article content rendered)",
+    "https://www.cnbc.com/2026/02/06/nvidia-rises-7percent-as-ceo-says-660-billion-capex-buildout-is-sustainable.html (CSS-only, no article content rendered)",
+    "https://supplychaindigital.com/news/walmart-ceo-doug-mcmillon-john-furner (403 blocked)",
+    "https://talkbusiness.net/2026/02/the-supply-side-walmart-bets-big-on-artificial-intelligence/ (403 blocked)",
+    "https://www.fierce-network.com/cloud/google-cloud-cranks-capex-revenue-backlog-soar (403 blocked)",
+    "https://sourcingjournal.com/topics/technology/walmart-doug-mcmillion-artificial-intelligence-labor-openai-1234787197/ (content not rendered)"
+  ],
+  "organizations": [
+    {
+      "company": "Alphabet / Google",
+      "existingSpecimen": "google-deepmind",
+      "quarterScanned": "Q4 2025 (calendar year, reported Feb 4, 2026)",
+      "transcriptAvailable": true,
+      "observations": [
+        {
+          "finding": "CapEx guidance for 2026 set at $175B-$185B, nearly doubling 2025 spend of $91.4B and more than tripling 2024 spend of $52.5B. Q4 2025 CapEx alone was $27.9B. Allocation: ~60% servers, ~40% data centers/networking. Just over half of 2026 ML compute allocated to Cloud business.",
+          "relevanceType": "investment",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Announced intent to acquire Intersect (data center/energy solutions company), signaling vertical integration into infrastructure supply chain. Pichai stated the top concern keeping him 'up at night' is compute capacity and constraints including power, land, and supply chain. He expects to operate 'in a supply constrained way' through 2026.",
+          "relevanceType": "investment",
+          "sourceUrl": "https://fortune.com/2026/02/04/alphabet-google-ai-spending-supply-constraints/",
+          "sourceDate": "2026-02-04",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Gemini app reached 750M+ monthly active users, up from 650M last quarter (added 100M MAUs in Q4). Processing 10B+ tokens per minute via API (up from 7B last quarter). Gemini 3 Pro processed 3x as many daily tokens as 2.5 Pro. Serving unit costs lowered by 78% over 2025 through model optimizations and efficiency improvements.",
+          "relevanceType": "deployment",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Gemini Enterprise seats: 8M+ paid seats sold (launched ~4 months prior), 2,800+ companies using it. 120,000+ enterprises use Gemini. 5B+ customer interactions in Q4 (65% YoY growth). Nearly 350 customers each process >100B tokens monthly. 95% of top 20 and 80%+ of top 100 SaaS firms use Gemini.",
+          "relevanceType": "deployment",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Google Cloud Q4 revenue: $17.7B (up 48% YoY). Operating income: $5.3B (more than doubled). Operating margin: 30.1% (up from 17.5%). Backlog: $240B (up 55% sequentially from $155B in Q3, doubled YoY). Revenue from generative AI products grew nearly 400% YoY. 75% of Cloud customers use vertically optimized AI. AI customers use 1.8x as many products as non-AI users.",
+          "relevanceType": "structural",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Cloud backlog trajectory: $85B (Q3 2024) -> $106B (Q2 2025) -> $155B (Q3 2025) -> $240B (Q4 2025). Google Cloud closed more $1B+ deals in Q1-Q3 2025 than in all of 2023-2024 combined. Annualized Cloud run rate exceeded $70B.",
+          "relevanceType": "structural",
+          "sourceUrl": "https://cloudwars.com/cloud/google-cloud-reports-surge-in-billion-dollar-deals/",
+          "sourceDate": "2026-02-04",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "50% of Google code now written by coding agents (reviewed by engineers). AI agents deployed in treasury organization for invoice payment and reconciliation. Agents supporting daily operations across engineering and back office functions.",
+          "relevanceType": "deployment",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Waymo surpassed 20M fully autonomous trips, now completing 400,000+ weekly rides. Sixth market launched (Miami), with expansion planned to multiple US cities plus UK and Japan. Received $16B investment round. Other Bets segment: $370M revenue but $3.6B loss (vs. $1.17B loss in Q4 2024).",
+          "relevanceType": "structural",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Depreciation rose 38% to $21.1B for full year 2025 (from $15.3B in 2024), expected to accelerate further in 2026. This is the cost of rapid infrastructure buildout and signals the scale of the asset base being constructed.",
+          "relevanceType": "investment",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "YouTube annual revenue exceeded $60B (ads + subscriptions). YouTube advertising: $11.4B in Q4 (up 9% YoY). Shorts: 200B+ daily views. Over 325M paid subscriptions across consumer services. Podcast hours on living room devices: 700M+ hours in October (up 75% YoY).",
+          "relevanceType": "deployment",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "No explicit organizational restructuring announced in Q4 call. No changes to DeepMind reporting lines. No new internal units disclosed. Pichai framed 2025 as 'laying the foundation' and described maintaining 'a brutal pace to compete in AI' going into 2026. CFO described efficiency pursuit as ongoing rather than episodic.",
+          "relevanceType": "structural",
+          "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/",
+          "sourceDate": "2026-02-04",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    },
+    {
+      "company": "Salesforce",
+      "existingSpecimen": "salesforce",
+      "quarterScanned": "Q4 FY2026 (Nov-Jan, reports Feb 25, 2026 — NOT YET AVAILABLE)",
+      "transcriptAvailable": false,
+      "notes": "Q4 FY2026 earnings call scheduled for February 25, 2026. Transcript not yet available. Findings below are from recent structural news (Jan-Feb 2026).",
+      "observations": [
+        {
+          "finding": "Salesforce laid off approximately 1,000 employees in February 2026. Departments most affected: marketing, product management, data analytics, and Agentforce AI product division. This follows a pattern of recurring cuts: 8,000 in January 2023, then 'several hundred more' in late 2023, then 1,000+ in February 2025.",
+          "relevanceType": "workforce",
+          "sourceUrl": "https://www.storyboard18.com/brand-marketing/salesforce-lays-off-under-1000-employees-amid-executive-reshuffle-and-ai-push-89263.htm",
+          "sourceDate": "2026-02-14",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Five senior leaders departed since December 2025, replaced by six new executives. New leadership assigned to key businesses including Agentforce and Slack. Article describes this as 'strategic realignment of the company's leadership architecture' toward 'AI-first vision.' Specific names not publicly disclosed in articles reviewed.",
+          "relevanceType": "structural",
+          "sourceUrl": "https://www.storyboard18.com/brand-marketing/salesforce-lays-off-under-1000-employees-amid-executive-reshuffle-and-ai-push-89263.htm",
+          "sourceDate": "2026-02-14",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Customer support workforce reduced from ~9,000 to ~5,000 through AI deployment. In September 2025, Salesforce eliminated about 4,000 customer support roles — nearly half of the support division. Benioff stated the company 'successfully reduced its support team size significantly without hurting customer satisfaction.'",
+          "relevanceType": "workforce",
+          "sourceUrl": "https://mindcron.com/salesforce-layoffs-1000-jobs-agentforce-ai-strategy/",
+          "sourceDate": "2026-02-14",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Agentforce metrics: 4,000+ paid deals, 8,000+ total transactions since launch. $100M+ in ARR. 850,000 conversations on Salesforce Help with 85% resolution rate. 233% increase in AI agent usage over six months. 21,000 Slack Agent interactions completed by sales team. Benioff claimed 'AI is doing 30-50% of all the work at Salesforce now' — though analysts suggest this may conflate productivity boosts with actual work completion.",
+          "relevanceType": "deployment",
+          "sourceUrl": "https://www.salesforceben.com/how-true-are-marc-benioffs-ai-implementation-claims/",
+          "sourceDate": "2026-02-10",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Benioff held engineering headcount 'mostly flat this year,' attributing stability to 'significant productivity gains driven by AI tooling.' Simultaneously hired 20%+ more account executives for go-to-market on AI products. Reduced chiefs of staff to one through AI-powered Slackbot. Active recruitment continues exclusively for ML/AI development roles; doors closing for generalist and legacy-system roles.",
+          "relevanceType": "workforce",
+          "sourceUrl": "https://www.salesforceben.com/marc-benioff-explains-hiring-changes-as-ai-slows-engineering-growth-but-accelerates-investment/",
+          "sourceDate": "2026-02-12",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Key structural paradox: Salesforce is 'simultaneously selling a product that automates work while automating its own workforce.' The company frames cuts not as cost reduction but as 'strategic realignment' — moving resources from human-intensive departments toward Agentforce platform. Benioff positions Agentforce as 'the most significant product launch in the company's 25-year history.'",
+          "relevanceType": "tension",
+          "sourceUrl": "https://www.webpronews.com/salesforce-sharpens-the-knife-again-inside-the-crm-giants-latest-restructuring-as-ai-ambitions-collide-with-workforce-reality/",
+          "sourceDate": "2026-02-14",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Community skepticism about Benioff's AI claims: 53% of LinkedIn poll respondents viewed Agentforce 3.0 as 'just marketing.' Industry analyst Vernon Keenan suggested Benioff may have conflated '30-50% productivity boosts' with actual work completion percentages. Reddit users questioned claims without supporting evidence. No independent confirmation of the 30-50% internal work claim.",
+          "relevanceType": "tension",
+          "sourceUrl": "https://www.salesforceben.com/how-true-are-marc-benioffs-ai-implementation-claims/",
+          "sourceDate": "2026-02-10",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    },
+    {
+      "company": "NVIDIA",
+      "existingSpecimen": "nvidia",
+      "quarterScanned": "Q4 FY2026 (Nov-Jan, reports Feb 26, 2026 — NOT YET AVAILABLE). Q3 FY2026 data used as latest available.",
+      "transcriptAvailable": false,
+      "notes": "Q4 FY2026 earnings call scheduled for February 26, 2026. Not yet available. GTC 2026 scheduled for March 16-19. Findings below from Q3 FY2026 (most recent) and recent news.",
+      "observations": [
+        {
+          "finding": "Q3 FY2026 total revenue: $57.0B (up 62% YoY). Data Center revenue: $51.2B (record, up 66% YoY), representing 90% of total revenue. Non-GAAP net income: $31.8B (up 59% YoY). Q4 guidance: $65.0B revenue. Networking revenue: $8.2B (up 162% YoY).",
+          "relevanceType": "investment",
+          "sourceUrl": "https://futurumgroup.com/insights/nvidia-q3-fy-2026-record-data-center-revenue/",
+          "sourceDate": "2025-11-20",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Jensen Huang described the AI infrastructure buildout as 'the largest infrastructure buildout in human history' and called the combined ~$660B hyperscaler CapEx commitment 'sustainable.' Stated: 'Blackwell sales are off the charts, and cloud GPUs are sold out...We've entered the virtuous cycle of AI.'",
+          "relevanceType": "investment",
+          "sourceUrl": "https://futurumgroup.com/insights/nvidia-q3-fy-2026-record-data-center-revenue/",
+          "sourceDate": "2025-11-20",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Major customer AI factory commitments: OpenAI minimum 10-gigawatt deployment, Anthropic initial 1-gigawatt Grace Blackwell and Vera Rubin commitment, xAI Colossus 2-gigawatt facility, AWS/HUMAIN up to 150,000 accelerators. Aggregate AI factory projects: approximately 5 million GPUs.",
+          "relevanceType": "structural",
+          "sourceUrl": "https://futurumgroup.com/insights/nvidia-q3-fy-2026-record-data-center-revenue/",
+          "sourceDate": "2025-11-20",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Blackwell platform: GB300 shipments now exceed GB200, representing roughly 2/3 of Blackwell revenue. Delivers 5x faster training vs. Hopper; 10x performance-per-watt advantage on mixture-of-experts inference. Rubin platform launching H2 FY2027; annual cadence maintained.",
+          "relevanceType": "deployment",
+          "sourceUrl": "https://futurumgroup.com/insights/nvidia-q3-fy-2026-record-data-center-revenue/",
+          "sourceDate": "2025-11-20",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "NVIDIA captures roughly 90% of AI accelerator spending according to industry estimates. Networking differentiation: Spectrum-X Ethernet and Quantum-X InfiniBand scaling across hyperscalers. NVLink Fusion partnerships expanding with Fujitsu, Intel, and Arm IP integration.",
+          "relevanceType": "structural",
+          "sourceUrl": "https://futurumgroup.com/insights/nvidia-q3-fy-2026-record-data-center-revenue/",
+          "sourceDate": "2025-11-20",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "GTC 2026 scheduled March 16-19, 2026 at SAP Center, San Jose. 500+ sessions on agentic AI, physical AI, and robotics. Jensen Huang keynote March 16. This will likely contain significant organizational and product announcements.",
+          "relevanceType": "structural",
+          "sourceUrl": "https://www.nvidia.com/gtc/",
+          "sourceDate": "2026-02-15",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Combined hyperscaler AI CapEx for 2026: Amazon $200B (up 56% from $128B), Meta $125B (up 74% from $72B), Microsoft on pace for $140B+, Alphabet $175-185B. Total Big Five exceeds $600B. Zero China data center compute contribution for NVIDIA in Q4 guidance.",
+          "relevanceType": "investment",
+          "sourceUrl": "https://futurumgroup.com/insights/nvidia-q3-fy-2026-record-data-center-revenue/",
+          "sourceDate": "2025-11-20",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    },
+    {
+      "company": "Walmart",
+      "existingSpecimen": "walmart",
+      "quarterScanned": "Q4 FY2026 (Nov-Jan, reports Feb 19, 2026 — NOT YET AVAILABLE). FY2026 guidance and recent news used.",
+      "transcriptAvailable": false,
+      "notes": "Q4 FY2026 earnings call scheduled for February 19, 2026 (4 days away). Transcript not yet available. Findings below from FY2026 guidance, Q3 data, and recent structural news.",
+      "observations": [
+        {
+          "finding": "CEO transition announced: Doug McMillon (CEO since 2014) will retire in 2026, replaced by John Furner. McMillon's tenure emphasized technology transformation. Furner expected to continue automation and AI-first supply chain strategy.",
+          "relevanceType": "structural",
+          "sourceUrl": "https://marketrealist.com/four-changes-coming-to-walmart/",
+          "sourceDate": "2026-02-01",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Wally AI agent introduced for merchants: McMillon described it as 'learning to help us get to the root cause of issues related to things like out of stocks or overstocks with more accuracy and speed.' This is a diagnostic AI agent for supply chain problem-solving, not just automation.",
+          "relevanceType": "deployment",
+          "sourceUrl": "https://www.constellationr.com/insights/news/walmarts-fiscal-2026-bets-supply-chain-optimization-ai-automation",
+          "sourceDate": "2026-02-10",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Automation target: 65% of stores by 2026, with over half of fulfillment center operations already automated. AI 'super agents' deployed in distribution centers for Automated Defect Detection Systems that scan millions of packages for damages and barcode issues in real-time. Self-driving forklifts and sensors deployed in logistics.",
+          "relevanceType": "deployment",
+          "sourceUrl": "https://www.constellationr.com/insights/news/walmarts-fiscal-2026-bets-supply-chain-optimization-ai-automation",
+          "sourceDate": "2026-02-10",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "AI developer tools saved 4 million developer hours in prior year. AI coding assistance expanding across North America and India operations. This signals significant internal AI tooling for software development, similar to Google's 50% code-from-agents claim.",
+          "relevanceType": "deployment",
+          "sourceUrl": "https://www.constellationr.com/insights/news/walmarts-fiscal-2026-bets-supply-chain-optimization-ai-automation",
+          "sourceDate": "2026-02-10",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "FY2026 financial guidance: net sales growth 3-4%, operating income growth 3.5-5.5%, CapEx 3-3.5% of sales toward technology and store modernization. Global advertising: $4.4B (up 27%), marketplace revenue up 37%, global membership income: $3.8B (up 21%). E-commerce represents 18% of business with planned expansion.",
+          "relevanceType": "investment",
+          "sourceUrl": "https://www.constellationr.com/insights/news/walmarts-fiscal-2026-bets-supply-chain-optimization-ai-automation",
+          "sourceDate": "2026-02-10",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "OpenAI partnership: Walmart enabling ChatGPT users to purchase products during chat sessions. Free training and certification programs from OpenAI for Walmart employees. Workforce approach: retain employees through AI co-working training rather than replacement. McMillon stated 'every job' will change because of AI.",
+          "relevanceType": "workforce",
+          "sourceUrl": "https://marketrealist.com/four-changes-coming-to-walmart/",
+          "sourceDate": "2026-02-01",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "finding": "Walmart plans April 2026 investor conference specifically to highlight supply chain automation investments. This suggests significant additional detail coming on structural AI transformation. 'Store of the Future' concept being rolled out with expanded services.",
+          "relevanceType": "structural",
+          "sourceUrl": "https://www.constellationr.com/insights/news/walmarts-fiscal-2026-bets-supply-chain-optimization-ai-automation",
+          "sourceDate": "2026-02-10",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    }
+  ],
+  "broaderTrends": [
+    {
+      "trend": "Hyperscaler CapEx explosion: Combined Big Five (Amazon, Alphabet, Microsoft, Meta, Oracle) AI infrastructure CapEx exceeds $600B for 2026, with combined backlog hitting $1.63 trillion. This is described as 'the largest infrastructure buildout in human history.'",
+      "companies": ["Alphabet", "NVIDIA"],
+      "sourceUrl": "https://cloudwars.com/cloud-wars-minute/hyperscalers-backlog-hits-1-63-trillion-spurring-645b-in-2026-capex/",
+      "sourceDate": "2026-02-14",
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "trend": "Internal AI coding agents hitting critical mass: Google reports 50% of code written by AI agents (reviewed by engineers). Salesforce claims engineers 'more productive than ever' with flat headcount. Walmart saved 4M developer hours. This suggests a cross-industry structural shift in how software engineering is organized — fewer engineers writing more code via AI augmentation.",
+      "companies": ["Alphabet", "Salesforce", "Walmart"],
+      "sourceUrl": "multiple",
+      "sourceDate": "2026-02-04",
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "trend": "AI-driven workforce recomposition pattern: Salesforce cutting support (9K->5K), holding engineering flat, growing sales 20%+. This is not simple headcount reduction but structural recomposition — shrinking human-intensive operational roles, stabilizing AI-augmented technical roles, and expanding go-to-market roles. Walmart taking the opposite approach: retaining workers via training rather than replacing them.",
+      "companies": ["Salesforce", "Walmart"],
+      "sourceUrl": "multiple",
+      "sourceDate": "2026-02-14",
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "trend": "Supply constraint as organizational challenge: Both Alphabet (Pichai: 'supply constrained way' through 2026) and NVIDIA (GPUs 'sold out') are constrained by physical infrastructure. The organizational challenge shifts from 'what to build with AI' to 'how to allocate scarce compute across competing internal demands.' This is a classic resource allocation problem with structural implications.",
+      "companies": ["Alphabet", "NVIDIA"],
+      "sourceUrl": "https://fortune.com/2026/02/04/alphabet-google-ai-spending-supply-constraints/",
+      "sourceDate": "2026-02-04",
+      "collectedDate": "2026-02-15"
+    },
+    {
+      "trend": "Three upcoming events to watch: NVIDIA Q4 FY2026 earnings (Feb 26), Salesforce Q4 FY2026 earnings (Feb 25), Walmart Q4 FY2026 earnings (Feb 19) and April investor conference on supply chain automation. All will contain significant structural AI data.",
+      "companies": ["NVIDIA", "Salesforce", "Walmart"],
+      "sourceUrl": "multiple",
+      "sourceDate": "2026-02-15",
+      "collectedDate": "2026-02-15"
+    }
+  ],
+  "newSourcesDiscovered": [
+    {
+      "name": "Salesforce FY26 Q3 Product Releases and Corporate Announcements",
+      "url": "https://www.salesforce.com/news/stories/fy26-q3-highlights/?bc=OTH",
+      "type": "Corporate Press",
+      "notes": "Salesforce official quarterly product release summary — useful for tracking Agentforce evolution"
+    },
+    {
+      "name": "Walmart April 2026 Investor Conference",
+      "url": null,
+      "type": "Investor Event",
+      "notes": "Walmart plans to highlight supply chain automation investments at April conference. Watch for detailed structural data."
+    },
+    {
+      "name": "NVIDIA GTC 2026 (March 16-19, San Jose)",
+      "url": "https://www.nvidia.com/gtc/",
+      "type": "Conference",
+      "notes": "500+ sessions on agentic AI, physical AI, robotics. Jensen Huang keynote. Likely to contain major organizational/product announcements."
+    },
+    {
+      "name": "The Digital Labor Economy: Impact on Enterprise & Work (Salesforce report)",
+      "url": "https://www.salesforce.com/agentforce/digital-labor-economy-impact-report/?bc=OTH",
+      "type": "Industry Report",
+      "notes": "Salesforce's own framing of the digital labor economy — useful for purpose claims analysis"
+    },
+    {
+      "name": "Cloud Wars Backlog Tracker",
+      "url": "https://cloudwars.com/cloud-wars-minute/hyperscalers-backlog-hits-1-63-trillion-spurring-645b-in-2026-capex/",
+      "type": "Analysis",
+      "notes": "Tracks hyperscaler backlog across Microsoft, Oracle, AWS, Google Cloud — $1.63T total"
+    }
+  ],
+  "purposeClaimsDiscovered": [
+    {
+      "company": "Alphabet",
+      "speaker": "Sundar Pichai",
+      "role": "CEO",
+      "claimFragment": "Pichai described maintaining 'a brutal pace to compete in AI' as framing for the unprecedented $175-185B CapEx commitment. This is a survival/competitive urgency framing to authorize massive capital allocation.",
+      "potentialType": "survival",
+      "sourceUrl": "https://fortune.com/2026/02/04/alphabet-google-ai-spending-supply-constraints/",
+      "sourceDate": "2026-02-04",
+      "notes": "Need full verbatim quote from transcript for registry. The framing of supply constraints as existential competitive pressure is notable."
+    },
+    {
+      "company": "Salesforce",
+      "speaker": "Marc Benioff",
+      "role": "CEO",
+      "claimFragment": "Benioff described Agentforce as 'the most significant product launch in the company's 25-year history' — positioning the AI pivot as the defining moment for the company's identity.",
+      "potentialType": "identity",
+      "sourceUrl": "https://www.webpronews.com/salesforce-sharpens-the-knife-again-inside-the-crm-giants-latest-restructuring-as-ai-ambitions-collide-with-workforce-reality/",
+      "sourceDate": "2026-02-14",
+      "notes": "Need verbatim source. The claim elevates Agentforce above every prior Salesforce product including the original CRM platform."
+    },
+    {
+      "company": "Salesforce",
+      "speaker": "Marc Benioff",
+      "role": "CEO",
+      "claimFragment": "Benioff claimed 'AI is doing 30-50% of all the work at Salesforce now' — a commercial-success/identity claim that positions Salesforce as eating its own dog food. Notable that analysts questioned the precision of this claim.",
+      "potentialType": "commercial-success",
+      "sourceUrl": "https://www.salesforceben.com/how-true-are-marc-benioffs-ai-implementation-claims/",
+      "sourceDate": "2026-02-10",
+      "notes": "Need verbatim source and context. The gap between Benioff's claims and community skepticism (53% call it 'just marketing') is analytically interesting."
+    },
+    {
+      "company": "NVIDIA",
+      "speaker": "Jensen Huang",
+      "role": "CEO",
+      "claimFragment": "Huang described the AI infrastructure buildout as 'the largest infrastructure buildout in human history' driven by 'sky high' demand, and declared 'We've entered the virtuous cycle of AI.'",
+      "potentialType": "utopian",
+      "sourceUrl": "https://futurumgroup.com/insights/nvidia-q3-fy-2026-record-data-center-revenue/",
+      "sourceDate": "2025-11-20",
+      "notes": "Need full verbatim quote. The 'virtuous cycle' framing is a teleological claim about AI's self-reinforcing trajectory."
+    },
+    {
+      "company": "Walmart",
+      "speaker": "Doug McMillon",
+      "role": "CEO",
+      "claimFragment": "McMillon stated 'every job' will change because of AI, while positioning Walmart's approach as retention-and-training rather than replacement. This is a distinctive 'identity' claim — Walmart frames itself as the employer that helps workers adapt rather than displacing them.",
+      "potentialType": "identity",
+      "sourceUrl": "https://marketrealist.com/four-changes-coming-to-walmart/",
+      "sourceDate": "2026-02-01",
+      "notes": "Need verbatim source. The contrast with Salesforce's approach (cut support workforce by 44%) is stark and analytically valuable."
+    }
+  ]
+}

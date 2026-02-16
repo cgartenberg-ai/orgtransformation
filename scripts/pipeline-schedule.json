@@ -1,0 +1,211 @@
+{
+  "description": "7-day themed rotation with multiple research batches per night. Observed runtime ~30-40 min per run. Limits set aggressively — pipeline has massive headroom in a 12-hour window.",
+  "schedule": {
+    "monday": {
+      "themes": [
+        {
+          "name": "earnings",
+          "mode": "earnings",
+          "limit": 20,
+          "agentsParallel": 3,
+          "notes": "Scan earnings calendar for unscanned Q results. Priority: critical > high > monitor."
+        },
+        {
+          "name": "press-keyword",
+          "mode": "press-keyword",
+          "limit": 16,
+          "agentsParallel": 3,
+          "notes": "Structural keyword searches: CAIO, AI lab, restructuring, center of excellence."
+        }
+      ],
+      "curate": { "limit": 40, "agentsParallel": 4 },
+      "purposeClaims": { "limit": 20, "agentsParallel": 3 },
+      "synthesis": { "limit": 40, "autonomous": true }
+    },
+    "tuesday": {
+      "themes": [
+        {
+          "name": "tier1-tier2-podcasts",
+          "mode": "podcast-feed-check",
+          "limit": 16,
+          "agentsParallel": 3,
+          "notes": "Check all Tier 1 (6) + Tier 2 (8) podcast feeds. Deep-scan new high-priority episodes.",
+          "sources": ["cheeky-pint", "no-priors", "bg2-pod", "dwarkesh-podcast", "latent-space", "acquired", "conversations-with-tyler", "invest-like-the-best", "cognitive-revolution", "all-in-podcast", "lex-fridman"]
+        },
+        {
+          "name": "tier25-podcasts",
+          "mode": "podcast-feed-check",
+          "limit": 12,
+          "agentsParallel": 3,
+          "notes": "Check Tier 2.5 AI Leadership podcasts (8 shows).",
+          "sources": ["agents-of-scale", "the-ai-ceo", "leadership-next", "the-data-chief", "training-data", "morgan-stanley-insights", "pigment-perspectives", "hg-orbit"]
+        },
+        {
+          "name": "daily-news-scan",
+          "mode": "daily-news-headlines",
+          "limit": 6,
+          "agentsParallel": 2,
+          "notes": "Headline scan of AI Daily Brief, The AI Breakdown, Last Week in AI for structural signals."
+        }
+      ],
+      "curate": { "limit": 40, "agentsParallel": 4 },
+      "purposeClaims": { "limit": 20, "agentsParallel": 3 },
+      "synthesis": { "limit": 40, "autonomous": true }
+    },
+    "wednesday": {
+      "themes": [
+        {
+          "name": "substacks-all-tiers",
+          "mode": "substacks",
+          "limit": 16,
+          "agentsParallel": 3,
+          "notes": "Scan all Tier 1 (6), Tier 2 (7), Tier 2.5 (3) substacks for new structural content.",
+          "sources": ["stratechery", "one-useful-thing", "not-boring", "the-generalist", "import-ai", "pragmatic-engineer", "thesequence", "construction-physics", "semianalysis", "ai-snake-oil", "interconnects", "the-batch", "last-week-in-ai", "lennys-newsletter", "elad-gils-blog", "platformer"]
+        },
+        {
+          "name": "enterprise-reports",
+          "mode": "enterprise-reports",
+          "limit": 12,
+          "agentsParallel": 3,
+          "notes": "Check BCG AI Radar, OpenAI State of Enterprise AI, Deloitte Tech Trends, PwC AI Predictions, HBR AI Strategy, Mercer, Oxford Economics, i4cp, State of AI Report.",
+          "sources": ["bcg-ai-radar", "openai-enterprise", "deloitte-tech-trends", "pwc-ai-predictions", "hbr-ai-strategy", "mercer-global-talent", "oxford-economics", "i4cp", "state-of-ai-report"]
+        },
+        {
+          "name": "target-specimens-phase-a",
+          "mode": "target-specimens",
+          "limit": 16,
+          "agentsParallel": 3,
+          "notes": "Work through target-specimens.json Phase A (new specimens). Priority by quadrant coverage gaps."
+        }
+      ],
+      "curate": { "limit": 40, "agentsParallel": 4 },
+      "purposeClaims": { "limit": 20, "agentsParallel": 3 },
+      "synthesis": { "limit": 40, "autonomous": true }
+    },
+    "thursday": {
+      "themes": [
+        {
+          "name": "stale-refresh",
+          "mode": "stale-refresh",
+          "limit": 24,
+          "agentsParallel": 3,
+          "notes": "Find specimens with oldest lastUpdated dates. Enrich with fresh data. At 24/week, cycles through all 157 active specimens in ~7 Thursdays (~2 months)."
+        },
+        {
+          "name": "target-specimens-phase-b",
+          "mode": "target-specimens-enrich",
+          "limit": 16,
+          "agentsParallel": 3,
+          "notes": "Enrich existing specimens from target-specimens.json Phase B."
+        },
+        {
+          "name": "press-keyword",
+          "mode": "press-keyword",
+          "limit": 12,
+          "agentsParallel": 3,
+          "notes": "Second weekly press sweep — different keyword set from Monday."
+        }
+      ],
+      "curate": { "limit": 40, "agentsParallel": 4 },
+      "purposeClaims": { "limit": 20, "agentsParallel": 3 },
+      "synthesis": { "limit": 40, "autonomous": true }
+    },
+    "friday": {
+      "themes": [
+        {
+          "name": "earnings-followup",
+          "mode": "earnings",
+          "limit": 16,
+          "agentsParallel": 3,
+          "notes": "Follow up on any earnings reported this week that weren't caught Monday."
+        },
+        {
+          "name": "low-confidence",
+          "mode": "low-confidence",
+          "limit": 12,
+          "agentsParallel": 3,
+          "notes": "Targeted research for specimens with low-confidence classifications."
+        },
+        {
+          "name": "taxonomy-gaps",
+          "mode": "taxonomy-gap-coverage",
+          "limit": 12,
+          "agentsParallel": 3,
+          "notes": "Discovery searches for underrepresented structural models in the taxonomy grid."
+        }
+      ],
+      "curate": { "limit": 40, "agentsParallel": 4 },
+      "purposeClaims": { "limit": 20, "agentsParallel": 3 },
+      "synthesis": { "limit": 40, "autonomous": true }
+    },
+    "saturday": {
+      "themes": [
+        {
+          "name": "tier3-extended-podcasts",
+          "mode": "podcast-feed-check",
+          "limit": 12,
+          "agentsParallel": 3,
+          "notes": "Monthly cycle through Tier 3 (8+ shows) and extended network podcasts.",
+          "sources": ["acq2", "flux", "asianometry", "a16z-podcast", "gradient-dissent", "twiml-ai", "practical-ai", "eye-on-ai"]
+        },
+        {
+          "name": "industry-discovery",
+          "mode": "industry-vertical-searches",
+          "limit": 16,
+          "agentsParallel": 3,
+          "notes": "Run industry-specific discovery searches from earnings-calendar.json discoveryProtocol. Rotate: healthcare, insurance, manufacturing, automotive weekly."
+        }
+      ],
+      "curate": { "limit": 30, "agentsParallel": 4 },
+      "purposeClaims": { "limit": 16, "agentsParallel": 3 },
+      "synthesis": { "limit": 30, "autonomous": true }
+    },
+    "sunday": {
+      "themes": [
+        {
+          "name": "source-staleness-audit",
+          "mode": "source-staleness-audit",
+          "limit": 12,
+          "agentsParallel": 3,
+          "notes": "Read source-registry.json. Find all sources where scannedThroughDate is > 14 days old. Generate priority list for the week ahead. Run targeted research on the most stale sources."
+        },
+        {
+          "name": "catch-up",
+          "mode": "catch-up",
+          "limit": 16,
+          "agentsParallel": 3,
+          "notes": "Process any research backlog: pending files not yet curated, specimens in synthesis queue, stale source-registry entries. Adaptive — picks the most behind phase."
+        }
+      ],
+      "curate": { "limit": 30, "agentsParallel": 4 },
+      "purposeClaims": { "limit": 16, "agentsParallel": 3 },
+      "synthesis": { "limit": 30, "autonomous": true }
+    }
+  },
+  "defaults": {
+    "maxAgentsConcurrent": 4,
+    "agentTimeoutMinutes": 25,
+    "skipOnFailure": true,
+    "retryOnCrash": true,
+    "maxRetries": 1,
+    "startTimeLocal": "19:00",
+    "endTimeLocal": "07:00",
+    "windowMinutes": 720,
+    "phaseBudgetMinutes": {
+      "research": 300,
+      "curate": 120,
+      "purposeClaims": 150,
+      "synthesis": 60,
+      "validation": 5,
+      "briefing": 5,
+      "buffer": 80
+    }
+  },
+  "weeklyThroughputTargets": {
+    "companiesResearched": 350,
+    "specimensCurated": 280,
+    "purposeClaimsCollected": 130,
+    "specimensSynthesized": 280,
+    "notes": "At 40-55 targets/night x 7 nights. First run (Sunday) completed in 33 min. Stale refresh cycles through all 157 specimens in ~7 Thursdays."
+  }
+}

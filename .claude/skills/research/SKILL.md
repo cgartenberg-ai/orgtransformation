@@ -159,10 +159,26 @@ Your main activity is WEB RESEARCH. You MUST use the WebSearch tool to run every
 
 A finding must pass at least ONE of these:
 1. **Structural**: Tells us about org STRUCTURES — labs, teams, reporting lines, units, governance, resource allocation
-2. **Tension**: Reveals how the org handles the TENSION between exploring AI and executing operations
+2. **Tension**: Reveals how the org navigates one of the 5 structural tensions: T1 structural separation vs. contextual integration; T2 deep pilots vs. wide deployment; T3 centralized vs. distributed; T4 named/branded vs. quiet; T5 long horizons vs. short accountability
 3. **Specificity**: Has concrete detail — names, numbers, headcount, budgets, timelines, direct quotes
 
 If it fails all three, don't record it.
+
+## Analytical Framework — Antenna (not filter)
+
+Our emerging theory identifies 5 primitives that predict structural choice. Keep antenna out
+for evidence related to these, but do NOT filter by them. Novel patterns that fall outside
+this framework are just as valuable as those that confirm it.
+
+- P1 Work Architecture Modularity — Can the work be decomposed into discrete tasks?
+- P2 Work Output Measurability — Can quality be captured in quantitative metrics?
+- P3 Governance Structure — Who has authority over AI decisions? Founder vs. hired CEO?
+- P4 Competitive/Institutional Context — Competitive intensity, regulation, industry norms
+- P5 Organizational Endowment — Legacy systems, talent base, culture, prior AI investment
+
+If you notice evidence about any of these — especially evidence that challenges or
+complicates the framework, or reveals patterns we haven't captured — note it in your
+output's observations or botanistNotes. Curiosity and exploration are the priority.
 
 {task-type-specific-context}
 

@@ -1,40 +1,135 @@
 {
   "id": "coca-cola",
   "name": "Coca-Cola",
-  "title": "CEO Transition with CDO Appointment and AI-Driven Restructuring",
+  "title": "CFO-Led Digital Council with Contextual AI Embedding",
   "classification": {
-    "structuralModel": 4,
-    "structuralModelName": "Hybrid/Hub-and-Spoke",
-    "subType": null,
-    "subTypeName": null,
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6b",
+    "subTypeName": "Centralized-but-Unnamed",
     "secondaryModel": null,
     "secondaryModelName": null,
-    "orientation": "Structural",
-    "orientationName": "Structural",
-    "confidence": "Low",
-    "classificationRationale": "Tentative Model 4. Coca-Cola created a new CDO role (Sedef Sahin) alongside CEO transition and $1.1B Microsoft partnership. The CDO presumably serves as a central hub for digital/AI across market divisions (spokes). However, internal AI organizational structure is largely inferred — the data describes executive appointments and partnerships, not team structures. Low confidence reflects this inference gap.",
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Medium",
+    "classificationRationale": "Coca-Cola deliberately avoids creating dedicated AI teams — only 2 of ~2,000 marketing employees have 'AI' in job titles. The Digital Council (CFO-chaired, cross-functional) coordinates AI strategy without creating a separate structural unit. The expectation is that ALL employees embed AI into their workflows rather than specialists doing AI work. This is textbook Contextual orientation: individuals balance exploration and execution within their existing roles. The '6b Centralized-but-Unnamed' subtype fits because there IS a central coordinating body (Digital Council + Head of Generative AI), but it operates as a governance overlay rather than a distinct organizational unit with its own staff.",
     "typeSpecimen": false
   },
   "habitat": {
     "industry": "Consumer Goods",
     "sector": "Beverages",
     "orgSize": "Enterprise",
-    "employees": "~80,000",
-    "revenue": null,
+    "employees": 82000,
+    "revenue": "$47B",
     "headquarters": "Atlanta, GA",
     "geography": "Global"
   },
-  "description": "Coca-Cola is undergoing simultaneous CEO transition and AI-driven restructuring in early 2026. Incoming CEO Henrique Braun (succeeding James Quincey effective March 31, 2026) created a new Chief Digital Officer role, appointing 22-year veteran Sedef Sahin — calling it 'a pivotal new role for our future.'\n\nThe restructuring began with 75 layoffs in Atlanta (January 2026) as the first phase, with more waves planned starting February 28, 2026. Simultaneously, the company is reorganizing into two new market groupings emphasizing Asia, Africa, and Middle East.\n\nThis builds on a $1.1B strategic partnership with Microsoft (announced 2024) deploying Azure OpenAI Service and Copilot across operations. The combination of executive transition, digital leadership appointment, and AI partnership creates a multi-pronged organizational transformation.",
+  "description": "Coca-Cola structures AI work through a Digital Council created in January 2023, chaired by CFO John Murphy with the CMO and CIO as key members. Rather than building a large dedicated AI organization, the company pursues a 'contextual' strategy where AI adoption is embedded across all functions. Only 2 of approximately 2,000 marketing employees have 'AI' in their job titles — the expectation is that everyone embraces AI in their workflows.\n\nThe company has a single Global VP and Head of Generative AI (Pratik Thakar) who leads external partnerships like the MIT Generative AI Impact Consortium and coordinates strategy, but without building a large internal team. The CIO Neeraj Tolmare operates under a CEO mandate requiring AI pilots to demonstrate 'real outcomes that move the needle' before production deployment. Multiple pilots are underway with measurable results: 7-8% sales increase from demand prediction algorithms, 20% higher consumer engagement from AI-generated content, and 10x faster design production via Project Fizzion with Adobe.\n\nA significant structural evolution is underway: effective March 2026, a new Chief Digital Officer (Sedef Salingan Sahin) will take over digital strategy from CFO Murphy and bring together digital, data, and operational excellence. This could signal maturation from the current coordination-focused model toward a more consolidated digital/AI authority.",
   "observableMarkers": {
-    "reportingStructure": "New CDO role (Sedef Sahin, 22-year veteran). CEO transition Braun/Quincey March 2026.",
-    "resourceAllocation": "$1.1B Microsoft partnership (Azure OpenAI, Copilot).",
-    "timeHorizons": "Restructuring in phases starting Jan 2026. CEO transition March 2026.",
-    "decisionRights": null,
-    "metrics": "75 initial layoffs Atlanta. $1.1B Microsoft partnership. 2 new market groupings."
+    "reportingStructure": "Digital Council created Jan 2023, CFO-chaired cross-functional group. New CDO (Sahin) will report directly to incoming CEO Braun effective March 2026. CIO Tolmare operates under mandate from CEO Quincey requiring AI pilots demonstrate 'real outcome that moves the needle.'",
+    "resourceAllocation": "80% Azure / remaining split AWS + GCP. 20 AI assets generated, 10,000 variations across 130+ languages. 2026 CapEx: $2.2B total (AI portion not broken out). Content production 10x faster with Project Fizzion.",
+    "timeHorizons": "Agentic AI pilots still in evaluation phase — not yet in production. Retail prediction algorithm in 3-country pilot, planning global rollout. Save the Orange project targeting 25-year horizon.",
+    "decisionRights": "Digital Council inventories digital capabilities and AI usage across company. CIO only authorizes pilots that 'can achieve either significant revenue generation or substantial efficiency gains once deployed in production.'",
+    "metrics": "7-8% sales increase in demand prediction pilot (3 countries). 20% higher consumer engagement vs non-AI content. 3x faster content generation. 10x faster design production with Fizzion. India outlet coverage: currently 25% (1/4 of total)."
   },
-  "mechanisms": [],
-  "quotes": [],
+  "mechanisms": [
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "evidence": "CFO John Murphy explicitly uses AI tools himself and states: 'If I'm not deploying and learning how to use the ChatGPTs, Claudes, and Geminis of the world, how can I expect others to follow suit?' The Digital Council chair personally models AI adoption.",
+      "strength": "Strong"
+    },
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "CIO Tolmare describes philosophy 'We are all about scale' and pilots are explicitly designed for wide deployment: retail prediction in 3 countries before global rollout, content AI generating 10,000 variations across 130+ languages.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "If I'm not deploying and learning how to use the ChatGPTs, Claudes, and Geminis of the world, how can I expect others to follow suit?",
+      "speaker": "John Murphy",
+      "speakerTitle": "President and CFO",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/10/07/coca-cola-leadership-artificial-intelligence-aiq/",
+      "timestamp": null,
+      "date": "2025-10"
+    },
+    {
+      "text": "We are all about scale.",
+      "speaker": "Neeraj Tolmare",
+      "speakerTitle": "Senior Vice President and CIO",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/07/09/why-coca-colas-cio-prioritizes-big-impact-ai-pilot-projects/",
+      "timestamp": null,
+      "date": "2025-07"
+    },
+    {
+      "text": "AI has proven it can unlock value.",
+      "speaker": "Neeraj Tolmare",
+      "speakerTitle": "Senior Vice President and CIO",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/07/09/why-coca-colas-cio-prioritizes-big-impact-ai-pilot-projects/",
+      "timestamp": null,
+      "date": "2025-07"
+    },
+    {
+      "text": "We don't want to paint ourselves into a corner too soon.",
+      "speaker": "Neeraj Tolmare",
+      "speakerTitle": "Senior Vice President and CIO",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/07/09/why-coca-colas-cio-prioritizes-big-impact-ai-pilot-projects/",
+      "timestamp": null,
+      "date": "2025-07"
+    },
+    {
+      "text": "This represents a best-of-the-best combination of industry practicality and academic rigor.",
+      "speaker": "Pratik Thakar",
+      "speakerTitle": "Global Vice President and Head of Generative AI",
+      "source": "Coca-Cola Company",
+      "sourceUrl": "https://www.coca-colacompany.com/media-center/the-coca-cola-company-joins-mit-ai-impact-consortium.html",
+      "timestamp": null,
+      "date": "2025-01"
+    },
+    {
+      "text": "We're deploying cutting-edge Generative AI in service of humanity and tackling globally critical problems.",
+      "speaker": "Pratik Thakar",
+      "speakerTitle": "Global Vice President and Head of Generative AI",
+      "source": "Coca-Cola Company",
+      "sourceUrl": "https://www.coca-colacompany.com/media-center/the-coca-cola-company-joins-mit-ai-impact-consortium.html",
+      "timestamp": null,
+      "date": "2025-01"
+    },
+    {
+      "text": "With Fizzion, our design elements become smart...This is about embedding AI at the heart of our brand system so creativity can move faster, without losing its soul.",
+      "speaker": "Rapha Abreu",
+      "speakerTitle": "Global Vice President of Design",
+      "source": "Coca-Cola Company",
+      "sourceUrl": "https://www.coca-colacompany.com/media-center/the-coca-cola-company-introduces-fizzion",
+      "timestamp": null,
+      "date": "2025-05"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Enrichment: M4→M6",
+      "summary": "Reclassified from M4 (Hybrid/Hub-and-Spoke) Structural to M6 (Unnamed/Informal) Contextual based on enrichment data. Confidence: Low→Medium.",
+      "classification": {
+        "previousModel": 4,
+        "previousModelName": "Hybrid/Hub-and-Spoke",
+        "previousOrientation": "Structural",
+        "newModel": 6,
+        "newModelName": "Unnamed/Informal",
+        "newOrientation": "Contextual"
+      },
+      "sourceRefs": [
+        "coca-cola-fortune-ai-leadership-2025",
+        "coca-cola-fortune-cio-tolmare-2025",
+        "coca-cola-q4-2025-earnings"
+      ]
+    },
     {
       "date": "2026-01",
       "label": "Initial Documentation",
@@ -99,14 +194,75 @@
       "sourceDate": "2026-01",
       "collectedDate": "2026-01-31",
       "notes": null
+    },
+    {
+      "id": "coca-cola-fortune-ai-leadership-2025",
+      "type": "Press",
+      "name": "Fortune - Coca-Cola AI Leadership",
+      "url": "https://fortune.com/2025/10/07/coca-cola-leadership-artificial-intelligence-aiq/",
+      "timestamp": null,
+      "sourceDate": "2025-10-07",
+      "collectedDate": "2026-02-14",
+      "notes": "Digital Council structure, John Murphy role, 2 of 2000 marketing stat, CFO quote on AI adoption"
+    },
+    {
+      "id": "coca-cola-fortune-cio-tolmare-2025",
+      "type": "Interview",
+      "name": "Fortune - CIO Neeraj Tolmare AI Strategy",
+      "url": "https://fortune.com/2025/07/09/why-coca-colas-cio-prioritizes-big-impact-ai-pilot-projects/",
+      "timestamp": null,
+      "sourceDate": "2025-07-09",
+      "collectedDate": "2026-02-14",
+      "notes": "Retail prediction 7-8% lift, content 20% engagement increase, 80% Azure, multi-vendor strategy"
+    },
+    {
+      "id": "coca-cola-q4-2025-earnings",
+      "type": "Earnings Call",
+      "name": "Coca-Cola Q4 2025 Earnings Call",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/10/coca-cola-ko-q4-2025-earnings-call-transcript/",
+      "timestamp": null,
+      "sourceDate": "2026-02-10",
+      "collectedDate": "2026-02-14",
+      "notes": "Coke Buddy platform, agentic AI for SKU recommendations, India digital ordering deployment"
+    },
+    {
+      "id": "coca-cola-mit-consortium-2025",
+      "type": "Press Release",
+      "name": "Coca-Cola MIT AI Consortium Announcement",
+      "url": "https://www.coca-colacompany.com/media-center/the-coca-cola-company-joins-mit-ai-impact-consortium.html",
+      "timestamp": null,
+      "sourceDate": "2025-01",
+      "collectedDate": "2026-02-14",
+      "notes": "Pratik Thakar role confirmed, Save the Orange project, founding member status"
+    },
+    {
+      "id": "coca-cola-fizzion-2025",
+      "type": "Press Release",
+      "name": "Coca-Cola Project Fizzion Announcement",
+      "url": "https://www.coca-colacompany.com/media-center/the-coca-cola-company-introduces-fizzion",
+      "timestamp": null,
+      "sourceDate": "2025-05-15",
+      "collectedDate": "2026-02-14",
+      "notes": "Adobe partnership, design intelligence system, 10x faster production, Rapha Abreu and Dominik Heinrich roles"
+    },
+    {
+      "id": "coca-cola-cdo-appointment-2026",
+      "type": "Press",
+      "name": "CIO Dive - CDO Appointment",
+      "url": "https://www.ciodive.com/news/coca-cola-cdo-sedef-salingan-sahin/809661/",
+      "timestamp": null,
+      "sourceDate": "2026-01-14",
+      "collectedDate": "2026-02-14",
+      "notes": "Sedef Sahin CDO appointment confirmed"
     }
   ],
   "contingencies": {
     "regulatoryIntensity": "Low",
     "timeToObsolescence": "Slow",
-    "ceoTenure": "New",
-    "talentMarketPosition": "Talent-constrained",
-    "technicalDebt": "Medium"
+    "ceoTenure": "Medium",
+    "talentMarketPosition": "Non-traditional",
+    "technicalDebt": "Medium",
+    "environmentalAiPull": "Strong"
   },
   "tensionPositions": {
     "structuralVsContextual": -0.3,
@@ -118,18 +274,25 @@
   "openQuestions": [
     "What is the scope of the CDO role vs. a CAIO? Does Coca-Cola have or plan a CAIO?",
     "How does the Microsoft/Azure AI deployment map to org structure changes?",
-    "What specific AI use cases drove the restructuring decision?"
+    "What specific AI use cases drove the restructuring decision?",
+    "How many people will report to new CDO Sedef Sahin?",
+    "What is the actual AI/digital budget (broken out from overall CapEx)?",
+    "How large is Pratik Thakar's generative AI team?",
+    "What is the relationship between Digital Council and new CDO role — will CDO absorb the Council?"
   ],
   "taxonomyFeedback": [
     "CDO vs. CAIO distinction matters: a CDO covers broader digital transformation while a CAIO focuses specifically on AI. Coca-Cola's choice of CDO suggests AI is embedded within a broader digital mandate rather than separated.",
     "CPG industry pattern: Coca-Cola, Nestlé, Kraft Heinz, Unilever, Mars all restructuring simultaneously around AI. Industry-level wave worth tracking.",
-    "[2026-02-12 M4 Audit] M4 classification under review (Audit 2026-02-12). Almost no structural data beyond CDO appointment and Microsoft partnership. Current M4 classification is poorly supported at Low completeness/Low confidence. Needs enrichment or reclassification to Unclassified/Stub."
+    "[2026-02-12 M4 Audit] M4 classification under review (Audit 2026-02-12). Almost no structural data beyond CDO appointment and Microsoft partnership. Current M4 classification is poorly supported at Low completeness/Low confidence. Needs enrichment or reclassification to Unclassified/Stub.",
+    "[2026-02] Coca-Cola exemplifies the 'contextual orientation + informal structure' combination that may be more common than our taxonomy suggests. The '2 of 2,000' stat is a powerful empirical marker — most specimens don't provide such clear evidence of deliberate NON-specialization. This suggests we may need better markers for distinguishing contextual intent from mere structural immaturity.",
+    "[2026-02] The CFO-as-AI-champion pattern (Murphy chairing Digital Council) challenges assumptions about who leads AI transformation. Coca-Cola places AI governance in finance/strategy rather than technology or operations — suggesting AI is treated as a business transformation lever rather than a technical capability. This is distinct from CIO-led or CTO-led models.",
+    "[2026-02] The incoming CDO role (March 2026) creates a natural experiment: will consolidating 'digital, data, and operational excellence' under one executive shift Coca-Cola from contextual/informal toward structural/formal? Worth tracking as potential evidence of organizational evolution pathways."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-12",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-15",
+    "completeness": "High",
     "convertedFrom": null
   }
 }

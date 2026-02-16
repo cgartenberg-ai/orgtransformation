@@ -1,6 +1,6 @@
 {
   "description": "Living document — confirmed and candidate mechanisms observed across specimens. Updated during Phase 3 synthesis sessions.",
-  "lastUpdated": "2026-02-13",
+  "lastUpdated": "2026-02-15",
   "confirmed": [
     {
       "id": 1,
@@ -26,7 +26,11 @@
         "honda",
         "deere-and-co",
         "t-mobile",
-        "ami-labs"
+        "ami-labs",
+        "rivian",
+        "uber",
+        "xai",
+        "hp-inc"
       ],
       "evidence": [
         {
@@ -151,6 +155,27 @@
           "speaker": null,
           "source": "synthesis-agent",
           "notes": "CONSEQUENCE: LeCun founded AMI Labs to pursue research agenda without product pressure. Natural experiment continuation."
+        },
+        {
+          "specimenId": "uber",
+          "quote": null,
+          "speaker": null,
+          "source": "Feb 15, 2026 synthesis batch",
+          "notes": "[Moderate] ATG divestiture externalized exploration to protect it. AV partnerships protect via external structure."
+        },
+        {
+          "specimenId": "xai",
+          "quote": null,
+          "speaker": null,
+          "source": "Feb 15, 2026 synthesis batch",
+          "notes": "[Moderate] Macrohard is off-strategy relative to chatbot/coding core. Musk authority protects it."
+        },
+        {
+          "specimenId": "hp-inc",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Moderate] HP IQ ring-fenced within Technology & Innovation Organization under Tuan Tran, separate from quarterly-cycle product divisions. $116M Humane investment protected from divisional efficiency pressures. However, CEO departure creates uncertainty about protection durability."
         }
       ],
       "affinityProfile": {
@@ -208,7 +233,9 @@
         "affinitySummary": "Strongly associated with Structural orientation (87.5%). Most common in: M4 Hub-and-Spoke (3), M5 Product/Venture Lab (3), M1 Research Lab (1)."
       },
       "maturity": "confirmed",
-      "scholarlyAnchor": "March (1991) predicted exploitation crowds out exploration because it has more certain, more proximate returns. This mechanism is the organizational design response: structural separation forces resource allocation to exploration that market logic would otherwise kill. Our data shows the protection mechanism varies by model — ring-fencing (M1), separate governance (M5), CEO shielding (M4) — extending March's insight into a taxonomy of protection strategies."
+      "scholarlyAnchor": "March (1991) predicted exploitation crowds out exploration because it has more certain, more proximate returns. This mechanism is the organizational design response: structural separation forces resource allocation to exploration that market logic would otherwise kill. Our data shows the protection mechanism varies by model — ring-fencing (M1), separate governance (M5), CEO shielding (M4) — extending March's insight into a taxonomy of protection strategies.",
+      "frameworkStatus": "core",
+      "findingLink": "finding-7-expelled-exploration"
     },
     {
       "id": 3,
@@ -228,7 +255,11 @@
         "netflix",
         "toyota",
         "deere-and-co",
-        "general-motors"
+        "general-motors",
+        "apple",
+        "stripe",
+        "crowdstrike",
+        "mass-general-brigham"
       ],
       "evidence": [
         {
@@ -308,6 +339,34 @@
           "speaker": null,
           "source": "General Motors specimen analysis",
           "notes": "Autonomous Robotics Center brings manufacturing AI research directly into production environments."
+        },
+        {
+          "specimenId": "apple",
+          "quote": null,
+          "speaker": null,
+          "source": "Feb 15, 2026 synthesis batch",
+          "notes": "[Moderate] AI embedded directly into product surfaces (Siri, keyboard, Photos). Zurich Vision Lab flows to products."
+        },
+        {
+          "specimenId": "stripe",
+          "quote": null,
+          "speaker": null,
+          "source": "Feb 15, 2026 synthesis batch",
+          "notes": "[Moderate] Payments Foundation Model: research-grade ML shipped as production features. $6B recovered via Adaptive Acceptance."
+        },
+        {
+          "specimenId": "crowdstrike",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Strong] Charlotte AI's multi-agent architecture (12+ specialized agents) was built by the same engineering org that maintains Falcon platform — CTO Zaitsev's AI/ML team and CPEO Kulkarni's product org are structurally fused. APEX classifier and Enterprise Graph represent research-grade capabilities shipped as production features. This is textbook Embed Product at Research Frontier."
+        },
+        {
+          "specimenId": "mass-general-brigham",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Moderate] Cross-functional AI team composition (clinicians, data scientists, PMs, TPMs, engineers) explicitly designed to bridge research to clinical deployment — product embedded at the research frontier rather than downstream."
         }
       ],
       "affinityProfile": {
@@ -355,165 +414,9 @@
         "affinitySummary": "Strongly associated with Structural orientation (100%). Most common in: M4 Hub-and-Spoke (2), M3 Embedded Teams (1), M5 Product/Venture Lab (1)."
       },
       "maturity": "confirmed",
-      "scholarlyAnchor": "Henderson and Clark (1990) showed that architectural innovation fails when organizations treat it as component innovation. This mechanism embeds product teams at the research frontier specifically to prevent that failure — ensuring product development absorbs architectural changes in real time rather than trying to bolt them on after the fact."
-    },
-    {
-      "id": 4,
-      "name": "Consumer-Grade UX for Employee Tools",
-      "definition": "Extending consumer-proven interfaces to employees rather than building separate enterprise systems.",
-      "problemItSolves": "Enterprise tools often have poor UX, limiting adoption. Consumer UX is already validated at scale.",
-      "theoreticalConnection": "Simon (1947): reducing cognitive friction through intuitive interfaces enables individuals to adopt AI tools without organizational mandates.",
-      "specimens": [
-        "bank-of-america",
-        "commonwealth-bank",
-        "duolingo",
-        "goldman-sachs",
-        "morgan-stanley",
-        "mount-sinai-health-system",
-        "cvs-health",
-        "unitedhealth-group",
-        "blue-origin",
-        "delta-air-lines",
-        "fedex",
-        "netflix",
-        "honeywell",
-        "thomson-reuters"
-      ],
-      "evidence": [
-        {
-          "specimenId": "bank-of-america",
-          "source": "Bank of America case analysis",
-          "notes": "Erica chatbot for customers -> Erica for Employees; 90%+ adoption among 213K employees"
-        },
-        {
-          "specimenId": "commonwealth-bank",
-          "quote": null,
-          "speaker": null,
-          "source": "Commonwealth Bank case analysis",
-          "notes": "ChatGPT Enterprise deployment to all 50,000 employees — consumer-grade interface provided universally."
-        },
-        {
-          "specimenId": "duolingo",
-          "quote": null,
-          "speaker": null,
-          "source": "Duolingo case analysis",
-          "notes": "AI embedded into consumer-facing learning product that employees also use. Consumer-grade UX is the product itself — no separate enterprise tool needed."
-        },
-        {
-          "specimenId": "goldman-sachs",
-          "quote": null,
-          "speaker": null,
-          "source": "Fox Business / Goldman Sachs",
-          "notes": "GS AI Assistant launched firmwide June 2025 integrating GPT-4, Gemini, Claude. Intuitive natural language interface for all 46K employees. CIO Argenti emphasizes seamless interaction."
-        },
-        {
-          "specimenId": "morgan-stanley",
-          "quote": "Everything more seamless by using just a command prompt. Or ultimately, you'll be able to use just your voice.",
-          "speaker": "Jed Finn",
-          "source": "Financial Planning",
-          "notes": "AI @ Morgan Stanley Assistant achieves 98% adoption among 16K+ financial advisors. Vision for voice-based interaction demonstrates consumer-grade UX ambition."
-        },
-        {
-          "specimenId": "mount-sinai-health-system",
-          "quote": null,
-          "speaker": null,
-          "source": "Health System CIO",
-          "notes": "CDTO Freeman emphasizes 'experience-led' approach across patient, clinician, and workforce journeys. myMountSinai app and employee digital front door reflect consumer-grade thinking for healthcare tools."
-        },
-        {
-          "specimenId": "cvs-health",
-          "quote": "AI allows us to take the stupid out of work and allows us to do the real value-added work.",
-          "speaker": "Tilak Mandadi",
-          "source": "Fortune",
-          "notes": "AI-native consumer platform launching 2026. Ambient AI scribes saving nurses 90 min/day. Tools designed for intuitive use by nurses, pharmacists, call center agents — consumer UX for healthcare workers."
-        },
-        {
-          "specimenId": "unitedhealth-group",
-          "quote": null,
-          "speaker": null,
-          "source": "synthesis-agent",
-          "notes": "65M chatbot interactions and 18M AI-enabled searches indicate mass internal adoption. 10,000+ employees enrolled in advanced AI learning course. 80%+ of member calls leverage AI tools. The scale of employee AI tool usage suggests consumer-grade accessibility, not specialist-only systems."
-        },
-        {
-          "specimenId": "blue-origin",
-          "quote": null,
-          "speaker": null,
-          "source": "AWS Case Study / AWS re:Invent 2025",
-          "notes": "BlueGPT platform provides a marketplace for agents with discovery and sharing capabilities, enabling 70% company-wide adoption. The platform abstracts away AI complexity, letting employees build and use agents without deep technical expertise."
-        },
-        {
-          "specimenId": "delta-air-lines",
-          "quote": null,
-          "speaker": null,
-          "source": "Delta News Hub CES 2025",
-          "notes": "Delta Concierge is described as bringing consumer-grade AI assistant experience to both customers and employees. The 'augmented intelligence' philosophy explicitly focuses on empowering frontline workers with AI tools."
-        },
-        {
-          "specimenId": "fedex",
-          "quote": null,
-          "speaker": null,
-          "source": "FedEx Newsroom",
-          "notes": "Enterprise-wide AI education program with Accenture LearnVantage platform provides role-based training accessible to all employees, making AI tools usable across the organization."
-        },
-        {
-          "specimenId": "netflix",
-          "source": "curator observation",
-          "notes": "AI tools for creators are explicitly framed as making their work 'better' — pre-vis, VFX sequence prep, shot planning tools designed for creative talent to use directly."
-        },
-        {
-          "specimenId": "honeywell",
-          "quote": null,
-          "speaker": null,
-          "source": "Honeywell specimen analysis",
-          "notes": "24 gen AI initiatives deployed to all 95,000 employees via Microsoft Copilot, GitHub Copilot, and Moveworks. Consumer-grade experience for enterprise AI tools."
-        },
-        {
-          "specimenId": "thomson-reuters",
-          "quote": null,
-          "speaker": null,
-          "source": "Thomson Reuters Q4 2025 Earnings Call",
-          "notes": "Open Arena platform achieved 85%+ employee adoption across the organization, suggesting a user-friendly interface that drives organic adoption rather than mandated compliance."
-        }
-      ],
-      "affinityProfile": {
-        "modelDistribution": {
-          "3": {
-            "count": 1,
-            "percentage": 33.3,
-            "specimens": [
-              "duolingo"
-            ]
-          },
-          "6": {
-            "count": 2,
-            "percentage": 66.7,
-            "specimens": [
-              "bank-of-america",
-              "commonwealth-bank"
-            ]
-          }
-        },
-        "orientationDistribution": {
-          "Structural": {
-            "count": 0,
-            "percentage": 0
-          },
-          "Contextual": {
-            "count": 3,
-            "percentage": 100
-          },
-          "Temporal": {
-            "count": 0,
-            "percentage": 0
-          }
-        },
-        "primaryModel": 6,
-        "primaryOrientation": "Contextual",
-        "specimenCount": 3,
-        "affinitySummary": "Strongly associated with Contextual orientation (100%). Most common in: M6 Unnamed/Informal (2), M3 Embedded Teams (1)."
-      },
-      "maturity": "confirmed",
-      "scholarlyAnchor": "Simon (1947) showed that bounded rationality limits individual decision-making. Consumer-grade UX reduces the cognitive load of AI adoption — when tools are intuitive, individuals can allocate more cognitive capacity to learning what AI can do rather than how to use it. This is why consumer UX drives adoption faster than enterprise interfaces."
+      "scholarlyAnchor": "Henderson and Clark (1990) showed that architectural innovation fails when organizations treat it as component innovation. This mechanism embeds product teams at the research frontier specifically to prevent that failure — ensuring product development absorbs architectural changes in real time rather than trying to bolt them on after the fact.",
+      "frameworkStatus": "keep",
+      "findingLink": "finding-9-boundary-dissolution"
     },
     {
       "id": 5,
@@ -548,7 +451,11 @@
         "thomson-reuters",
         "salesforce",
         "intuit",
-        "mayo-clinic"
+        "mayo-clinic",
+        "spotify",
+        "stripe",
+        "panasonic",
+        "mckinsey"
       ],
       "evidence": [
         {
@@ -735,6 +642,20 @@
           "speaker": "John Halamka",
           "source": "Chief Healthcare Executive (2025)",
           "notes": "400+ AI models in clinical production. Ambient clinical documentation deployed across system. Platform approach enables rapid deployment across clinical specialties."
+        },
+        {
+          "specimenId": "panasonic",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Strong] PX-AI deployed to 180,000 employees group-wide; ConnectAI to all 12,500 Panasonic Connect Japan employees with explicit 'not if but when' framing — mass deployment before full use-case identification. Already documented in specimen."
+        },
+        {
+          "specimenId": "mckinsey",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Strong] Scaled from 'a few thousand' to ~25,000 AI agents in ~18 months. The mass-deployment-first approach mirrors McKinsey's advice to clients: rapid scaling with learning in production rather than careful piloting. This is one of the most extreme examples of Deploy to Thousands Before You Know What Works in our collection."
         }
       ],
       "affinityProfile": {
@@ -787,7 +708,9 @@
         "affinitySummary": "Strongly associated with Structural orientation (66.7%). Most common in: M4 Hub-and-Spoke (4), M6 Unnamed/Informal (3), M2 Center of Excellence (2)."
       },
       "maturity": "widespread",
-      "scholarlyAnchor": "Arrow's (1962) learning-by-doing framework: productivity gains come from cumulative production experience, not from ex ante planning. Deploying AI broadly before knowing the ROI is a bet on learning-by-doing — the information value of observing thousands of usage patterns exceeds the cost of premature deployment. The mechanism works because organizations that wait for perfect information deploy too late."
+      "scholarlyAnchor": "Arrow's (1962) learning-by-doing framework: productivity gains come from cumulative production experience, not from ex ante planning. Deploying AI broadly before knowing the ROI is a bet on learning-by-doing — the information value of observing thousands of usage patterns exceeds the cost of premature deployment. The mechanism works because organizations that wait for perfect information deploy too late.",
+      "frameworkStatus": "keep-with-caveat",
+      "findingLink": "finding-2-moral-hazard"
     },
     {
       "id": 6,
@@ -806,7 +729,10 @@
         "accenture-openai",
         "general-motors",
         "xai",
-        "salesforce"
+        "salesforce",
+        "recruit-holdings",
+        "panasonic",
+        "mckinsey"
       ],
       "evidence": [
         {
@@ -881,6 +807,27 @@
           "speaker": null,
           "source": "Salesforce evolution research (Feb 2026)",
           "notes": "3 AI leaders in <3 years (Shih → Evans → Thattai) with narrowing scope each time. Inzerillo consolidates Agentforce + Slack under single leader. Repeated merging of AI teams under successive leaders."
+        },
+        {
+          "specimenId": "recruit-holdings",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Strong] Glassdoor absorbed into Indeed, eliminating independent CEO (Sutherland-Wong departed) and consolidating 50M reviews with Indeed job data — textbook merger of competing units under single leader to reduce coordination costs."
+        },
+        {
+          "specimenId": "panasonic",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Moderate] CAIO role orchestrates AI across previously separate subsidiaries (Connect, Automotive, Blue Yonder). The Business CEO dual-hat mechanism consolidates decision authority at holdings level while preserving subsidiary structure — a variant of the merge mechanism that coordinates without fully consolidating."
+        },
+        {
+          "specimenId": "mckinsey",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Weak] QuantumBlack absorbed previously scattered analytics capabilities, but evidence of formal team mergers is thin. The 1,700-person division likely consolidated analytics talent that was previously distributed, but the merger history is not well-documented."
         }
       ],
       "affinityProfile": {
@@ -931,173 +878,9 @@
         "affinitySummary": "Strongly associated with Structural orientation (100%). Most common in: M4 Hub-and-Spoke (5), M1 Research Lab (1), M5 Product/Venture Lab (1)."
       },
       "maturity": "confirmed",
-      "scholarlyAnchor": "Gibbons and Henderson's (2012) relational contracts: parallel teams create competing informal agreements about resources, talent, and direction. When AI shifts from peripheral to core, these competing contracts become unsustainable. Consolidation reduces the coordination costs that relational contracts impose."
-    },
-    {
-      "id": 7,
-      "name": "Put Executives on the Tools",
-      "definition": "Senior leaders spending significant time (8+ hours/week) personally using AI tools on real work, not just watching demos.",
-      "problemItSolves": "Executives who don't use AI make bad decisions about AI. They can't evaluate structural options they don't understand.",
-      "theoreticalConnection": "Eisenhardt (1989): executive decision quality improves with direct access to real-time information, not filtered reports.",
-      "specimens": [
-        "bcg-trailblazers",
-        "microsoft",
-        "mercado-libre",
-        "nvidia",
-        "commonwealth-bank",
-        "jpmorgan",
-        "shopify",
-        "goldman-sachs",
-        "morgan-stanley",
-        "accenture-openai",
-        "blue-origin",
-        "delta-air-lines",
-        "fedex"
-      ],
-      "evidence": [
-        {
-          "specimenId": "bcg-trailblazers",
-          "source": "BCG AI Radar",
-          "notes": "BCG 'Trailblazer' CEOs spend 8+ hours per week on their own AI upskilling — twice the average."
-        },
-        {
-          "specimenId": "microsoft",
-          "quote": "I am lingering around Teams channels and they're most helpful... Teams is the new wandering the halls.",
-          "speaker": "Satya Nadella",
-          "source": "Cheeky Pint Podcast",
-          "notes": "Nadella restructured exec ranks, demands all leaders 'work and act like Individual Contributors.' Uses Teams channels as sensing mechanism. Dual model source strategy (MAI internal + OpenAI)."
-        },
-        {
-          "specimenId": "mercado-libre",
-          "source": "Mercado Libre case analysis",
-          "notes": "Founder stepped down as CEO to focus hands-on on AI. Founder-as-hub pattern."
-        },
-        {
-          "specimenId": "nvidia",
-          "quote": "The purpose of a software engineer is to solve known problems and to find new problems to solve. Coding is one of the tasks.",
-          "speaker": "Jensen Huang",
-          "source": "No Priors Podcast",
-          "notes": "CEO personally engages with AI tool implications, frames adoption through 'purpose vs. tasks' philosophy. Reads ~100 'Top Five Things' emails daily to stochastically sample the org."
-        },
-        {
-          "specimenId": "commonwealth-bank",
-          "quote": null,
-          "speaker": null,
-          "source": "Commonwealth Bank case analysis",
-          "notes": "CEO Matt Comyn personally spent significant time understanding AI capabilities and use cases."
-        },
-        {
-          "specimenId": "jpmorgan",
-          "quote": null,
-          "speaker": null,
-          "source": "JPMorgan case analysis",
-          "notes": "CEO Jamie Dimon's public vision: 'fully AI-connected enterprise.' LLM Suite deployed to entire workforce including senior leadership. CEO-level commitment."
-        },
-        {
-          "specimenId": "shopify",
-          "quote": null,
-          "speaker": null,
-          "source": "Shopify case analysis",
-          "notes": "CEO Tobi Lutke issued company-wide mandate requiring AI proficiency. Executive-driven cultural change — AI usage as expectation, not option."
-        },
-        {
-          "specimenId": "goldman-sachs",
-          "quote": "We're asking all of our people to rethink the human processes they go through.",
-          "speaker": "Denis Coleman",
-          "source": "Fortune",
-          "notes": "CEO Solomon and CFO Coleman personally speak about AI transformation in detailed operational terms. Solomon at Davos discussing specific enterprise challenges. Leadership demonstrates deep engagement."
-        },
-        {
-          "specimenId": "morgan-stanley",
-          "quote": "With each passing quarter, our confidence continues to increase in the potential for both the efficiency and the effectiveness of AI-related technologies.",
-          "speaker": "Ted Pick",
-          "source": "Q4 2025 Earnings",
-          "notes": "CEO Pick's increasing confidence expressed across earnings calls suggests growing executive engagement. However, evidence for personal tool usage is thin — classified as Emerging."
-        },
-        {
-          "specimenId": "accenture-openai",
-          "quote": null,
-          "speaker": null,
-          "source": "synthesis-agent",
-          "notes": "40,000 ChatGPT Enterprise licenses deployed to consultants with 'learn by doing' model — consultants become AI-fluent through daily usage before advising clients."
-        },
-        {
-          "specimenId": "blue-origin",
-          "quote": "You need to be world experts on how AI can be relevant for the field you're getting a degree in. There will be a lot of people out in the workforce that don't want to retrain themselves and they'll retire early.",
-          "speaker": "Dave Limp",
-          "source": "Vanderbilt Engineering Campus Event",
-          "notes": "CEO publicly emphasizes AI proficiency as mandatory workforce competence. His background leading Alexa at Amazon suggests hands-on AI fluency at the executive level."
-        },
-        {
-          "specimenId": "delta-air-lines",
-          "quote": "I think of AI more as augmented intelligence rather than artificial intelligence...ensuring that the human is still at the centerpiece of all the technology.",
-          "speaker": "Ed Bastian",
-          "source": "The Vertical Space Podcast",
-          "notes": "CEO Ed Bastian is personally visible as an AI evangelist—delivering the CES keynote, appearing on podcasts discussing AI use cases in detail, and framing the strategic vision personally."
-        },
-        {
-          "specimenId": "fedex",
-          "quote": "Truck unloading and truck loading are a very difficult problem for robotics to solve - packages come in every size, shape and weight. We're not looking for humanoid robots - we're looking for super humanoid robots.",
-          "speaker": "Raj Subramaniam",
-          "source": "NYT Interview",
-          "notes": "CEO Subramaniam discusses AI capabilities in specific technical terms (petabytes, ML models, humanoid robots). CDIO reports directly to CEO, keeping AI in executive view."
-        }
-      ],
-      "affinityProfile": {
-        "modelDistribution": {
-          "2": {
-            "count": 1,
-            "percentage": 14.3,
-            "specimens": [
-              "bcg-trailblazers"
-            ]
-          },
-          "3": {
-            "count": 1,
-            "percentage": 14.3,
-            "specimens": [
-              "shopify"
-            ]
-          },
-          "4": {
-            "count": 4,
-            "percentage": 57.1,
-            "specimens": [
-              "microsoft",
-              "mercado-libre",
-              "nvidia",
-              "jpmorgan"
-            ]
-          },
-          "6": {
-            "count": 1,
-            "percentage": 14.3,
-            "specimens": [
-              "commonwealth-bank"
-            ]
-          }
-        },
-        "orientationDistribution": {
-          "Structural": {
-            "count": 4,
-            "percentage": 57.1
-          },
-          "Contextual": {
-            "count": 3,
-            "percentage": 42.9
-          },
-          "Temporal": {
-            "count": 0,
-            "percentage": 0
-          }
-        },
-        "primaryModel": 4,
-        "primaryOrientation": "Structural",
-        "specimenCount": 7,
-        "affinitySummary": "Moderately associated with Structural orientation (57.1%). Most common in: M4 Hub-and-Spoke (4), M2 Center of Excellence (1), M3 Embedded Teams (1)."
-      },
-      "maturity": "confirmed",
-      "scholarlyAnchor": "Eisenhardt's (1989) strategic decision-making in high-velocity environments: the quality and speed of decisions improve when executives have direct access to real-time information rather than filtered reports. When executives use AI tools themselves, they develop intuitions about AI capability that no briefing can provide — enabling faster, better-informed structural decisions about AI investment and organization."
+      "scholarlyAnchor": "Gibbons and Henderson's (2012) relational contracts: parallel teams create competing informal agreements about resources, talent, and direction. When AI shifts from peripheral to core, these competing contracts become unsustainable. Consolidation reduces the coordination costs that relational contracts impose.",
+      "frameworkStatus": "keep",
+      "findingLink": "finding-6-lifecycle"
     },
     {
       "id": 8,
@@ -1123,7 +906,13 @@
         "progressive",
         "unitedhealth-group",
         "lockheed-martin",
-        "cedars-sinai"
+        "cedars-sinai",
+        "palantir",
+        "astrazeneca",
+        "crowdstrike",
+        "kyndryl",
+        "kaiser-permanente",
+        "mass-general-brigham"
       ],
       "evidence": [
         {
@@ -1249,6 +1038,34 @@
           "speaker": "Mouneer Odeh",
           "source": "Healthcare IT News (2025)",
           "notes": "AI Council as governance body enables deployment confidence. Dual-reporting CAIO (to CIO and CMO) bridges clinical and operational governance. Governance structures convert compliance burden into deployment enabler."
+        },
+        {
+          "specimenId": "crowdstrike",
+          "quote": null,
+          "speaker": null,
+          "source": "Feb 15, 2026 synthesis batch",
+          "notes": "[Moderate] Security compliance certifications create trust advantage competitors must match."
+        },
+        {
+          "specimenId": "kyndryl",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Moderate] Cross-functional governance committee approves AI use cases for regulatory and risk alignment. In IT services, building compliance infrastructure enables deployment in customer environments with strict requirements."
+        },
+        {
+          "specimenId": "kaiser-permanente",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Strong] Turn Compliance Into Deployment Advantage — Kaiser's unified payer-provider governance eliminates the misaligned-incentive problem visible at UnitedHealth (where payer AI optimized for denial throughput while provider AI optimized for clinical accuracy). Single governance structure means compliance infrastructure serves both functions, potentially creating deployment moat."
+        },
+        {
+          "specimenId": "mass-general-brigham",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Strong] Healthcare regulatory burden (FDA, HIPAA, clinical validation requirements) creates high barriers to AI deployment, but MGB's scale (1,800+ staff) and research validation capabilities position it to deploy clinical AI where competitors cannot. The AIwithCare spinout can commercialize precisely because MGB has the governance infrastructure to validate clinical AI."
         }
       ],
       "affinityProfile": {
@@ -1304,7 +1121,9 @@
         "affinitySummary": "Strongly associated with Structural orientation (83.3%). Most common in: M2 Center of Excellence (2), M4 Hub-and-Spoke (2), M5 Product/Venture Lab (1)."
       },
       "maturity": "confirmed",
-      "scholarlyAnchor": "Arrow's (1974) limits of organization: organizations exist to solve information problems that markets cannot. Regulatory compliance infrastructure solves an information asymmetry problem between the organization and its regulators. Once that infrastructure is built, the marginal cost of deploying new AI applications drops — creating an information-economic moat that competitors without this infrastructure cannot easily replicate."
+      "scholarlyAnchor": "Arrow's (1974) limits of organization: organizations exist to solve information problems that markets cannot. Regulatory compliance infrastructure solves an information asymmetry problem between the organization and its regulators. Once that infrastructure is built, the marginal cost of deploying new AI applications drops — creating an information-economic moat that competitors without this infrastructure cannot easily replicate.",
+      "frameworkStatus": "core",
+      "findingLink": "finding-4-regulation-cost"
     },
     {
       "id": 10,
@@ -1324,7 +1143,15 @@
         "lockheed-martin",
         "anduril",
         "uber",
-        "sap"
+        "sap",
+        "rivian",
+        "comcast---nbcuniversal",
+        "amazon-agi",
+        "mass-general-brigham",
+        "palantir",
+        "thomson-reuters",
+        "kyndryl",
+        "mckinsey"
       ],
       "evidence": [
         {
@@ -1406,6 +1233,48 @@
           "speaker": null,
           "source": "synthesis-agent",
           "notes": "SAP Joule represents variant where 'internal advantage' is business process expertise, not just AI capability. Decades of ERP/HCM process knowledge becomes AI training ground. Consider subdividing: 10a Technical Productization (internal AI tools → products) vs 10b Domain Productization (internal domain expertise → AI training)."
+        },
+        {
+          "specimenId": "amazon-agi",
+          "quote": null,
+          "speaker": null,
+          "source": "Feb 15, 2026 synthesis batch",
+          "notes": "[Strong] Trainium $10B+ ARR. Bedrock productizes internal model-serving infra."
+        },
+        {
+          "specimenId": "mass-general-brigham",
+          "quote": null,
+          "speaker": null,
+          "source": "Feb 15, 2026 synthesis batch",
+          "notes": "[Moderate] AIwithCare spinout commercializes clinical trial screening AI."
+        },
+        {
+          "specimenId": "palantir",
+          "quote": null,
+          "speaker": null,
+          "source": "Feb 15, 2026 synthesis batch",
+          "notes": "[Strong] Entire business model is productizing internal data infrastructure. Foundry + AIP."
+        },
+        {
+          "specimenId": "thomson-reuters",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Strong] Productize Internal Operational Advantages: GenAI products at 28% of ACV growing from internal AI expertise in content operations, legal research, and workflow automation externalized as CoCounsel, Westlaw Advantage, ONESOURCE+."
+        },
+        {
+          "specimenId": "kyndryl",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Strong] Kyndryl Bridge platform (1,200+ customers, 190 services) productizes internal IT management capabilities. AgenTeq Framework and SAP CoE turn internal methodology into external client offerings."
+        },
+        {
+          "specimenId": "mckinsey",
+          "quote": null,
+          "speaker": null,
+          "source": "overnight-synthesis 2026-02-15",
+          "notes": "[Moderate] QuantumBlack productizes internal AI capabilities (Lilli, AI agents, analytics methodologies) as external consulting + platform offerings for clients. The shift to outcome-based partnerships means internal AI capability becomes the basis for a new business model. Already documented in specimen."
         }
       ],
       "affinityProfile": {
@@ -1455,14 +1324,83 @@
         "affinitySummary": "Strongly associated with Structural orientation (100%). Most common in: M5 Product/Venture Lab (3), M4 Hub-and-Spoke (2), M2 Center of Excellence (1)."
       },
       "maturity": "confirmed",
-      "scholarlyAnchor": "Holmstrom and Milgrom's (1991) multitask principal-agent model: when organizations build AI for internal operations, the returns are capped by internal demand. Productizing extends the return on the same investment — the principal (the firm) captures value from multiple tasks (internal efficiency + external revenue) without proportional additional cost. This is why the M5c Platform-to-Product pathway is structurally rational."
+      "scholarlyAnchor": "Holmstrom and Milgrom's (1991) multitask principal-agent model: when organizations build AI for internal operations, the returns are capped by internal demand. Productizing extends the return on the same investment — the principal (the firm) captures value from multiple tasks (internal efficiency + external revenue) without proportional additional cost. This is why the M5c Platform-to-Product pathway is structurally rational.",
+      "frameworkStatus": "keep",
+      "findingLink": "finding-9-boundary-dissolution"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Consumer-Grade UX for Employee Tools",
+      "observedIn": [
+        "Bank of America case analysis",
+        "Commonwealth Bank case analysis",
+        "Duolingo case analysis"
+      ],
+      "hypothesis": "Extending consumer-proven interfaces to employees rather than building separate enterprise systems.",
+      "evidenceNeeded": "N/A - demoted from confirmed",
+      "specimens": [
+        "bank-of-america",
+        "commonwealth-bank",
+        "duolingo",
+        "goldman-sachs",
+        "morgan-stanley",
+        "mount-sinai-health-system",
+        "cvs-health",
+        "unitedhealth-group",
+        "blue-origin",
+        "delta-air-lines",
+        "fedex",
+        "netflix",
+        "honeywell",
+        "thomson-reuters",
+        "palantir",
+        "asml",
+        "spotify",
+        "stripe"
+      ],
+      "demotionReason": "Demoted to field observation -- implementation detail, not mechanism. Manifestation of P1 (modular tools for modular work).",
+      "previousId": 4
     },
     {
-      "id": 11,
+      "name": "Put Executives on the Tools",
+      "observedIn": [
+        "BCG AI Radar",
+        "Cheeky Pint Podcast",
+        "Mercado Libre case analysis"
+      ],
+      "hypothesis": "Senior leaders spending significant time (8+ hours/week) personally using AI tools on real work, not just watching demos.",
+      "evidenceNeeded": "N/A - demoted from confirmed",
+      "specimens": [
+        "bcg-trailblazers",
+        "microsoft",
+        "mercado-libre",
+        "nvidia",
+        "commonwealth-bank",
+        "jpmorgan",
+        "shopify",
+        "goldman-sachs",
+        "morgan-stanley",
+        "accenture-openai",
+        "blue-origin",
+        "delta-air-lines",
+        "fedex",
+        "palantir",
+        "mckinsey",
+        "salesforce"
+      ],
+      "demotionReason": "Demoted to field observation -- governance signal (P3), not independent mechanism. Manifestation of formal-vs-real authority alignment.",
+      "previousId": 7
+    },
+    {
       "name": "Flatten Management Layers to Speed AI Decisions",
-      "definition": "Removing management layers because AI reduces the information-aggregation role that middle managers traditionally play. Fewer layers means faster decision-making and more autonomous teams.",
-      "problemItSolves": "Management hierarchies exist partly to aggregate information upward. When AI handles information synthesis, the coordination justification for middle management weakens. Organizations that don't delayer end up with managers supervising AI-augmented workers — adding latency without value.",
-      "theoreticalConnection": "Simon (1947): hierarchy exists to manage bounded rationality. AI expands individual cognitive capacity, reducing the need for hierarchical information aggregation.",
+      "observedIn": [
+        "Cheeky Pint Podcast",
+        "UPS case analysis",
+        "CNBC"
+      ],
+      "hypothesis": "Removing management layers because AI reduces the information-aggregation role that middle managers traditionally play. Fewer layers means faster decision-making and more autonomous teams.",
+      "evidenceNeeded": "N/A - demoted from confirmed",
       "specimens": [
         "microsoft",
         "ups",
@@ -1472,112 +1410,12 @@
         "servicenow",
         "moderna",
         "wells-fargo",
-        "intel"
+        "intel",
+        "recruit-holdings"
       ],
-      "evidence": [
-        {
-          "specimenId": "microsoft",
-          "speaker": "Satya Nadella",
-          "source": "Cheeky Pint Podcast",
-          "notes": "Demands leaders act as individual contributors. Restructured exec ranks. Management delayering — elimination of coordination overhead, not just headcount."
-        },
-        {
-          "specimenId": "ups",
-          "source": "UPS case analysis",
-          "notes": "-30K operational positions via AI/automation. Management delayering convergent with Microsoft pattern. Both target management layers specifically, not just operational headcount. $9B automation investment through 2028."
-        },
-        {
-          "specimenId": "amazon",
-          "quote": "It's culture.",
-          "speaker": "Andy Jassy",
-          "source": "CNBC",
-          "notes": "CEO framed restructuring as cultural transformation — removing bureaucracy layers. 16K cuts Jan 2026 targeting coordination overhead. The structural change is the delayering, not the cost savings."
-        },
-        {
-          "specimenId": "meta-ai",
-          "quote": "What many big teams at Meta do can now be accomplished by a single, very talented person.",
-          "speaker": "Mark Zuckerberg",
-          "source": "Q4 2025 Earnings Call via WebProNews",
-          "notes": "Zuckerberg explicitly endorses flattening teams and elevating individual contributors. Wang memo: 'fewer conversations... each person more load-bearing.' ~600 MSL positions cut + 1,500 Reality Labs cuts target management and coordination overhead."
-        },
-        {
-          "specimenId": "accenture-openai",
-          "quote": "We are exiting on a compressed timeline people where reskilling, based on our experience, is not a viable path for the skills we need.",
-          "speaker": "Julie Sweet",
-          "source": "CNBC",
-          "notes": "11K layoffs + simultaneous 77K AI hires. Reinvention Services consolidation collapses multiple service lines — eliminating management coordination layers. The workforce triage is structural: roles that primarily aggregate or relay information are eliminated."
-        },
-        {
-          "specimenId": "servicenow",
-          "quote": "We need to have those 20th century org charts obliterated... we now need to work in teams.",
-          "speaker": "Bill McDermott",
-          "source": "Q4 2025 Earnings Call via CNBC",
-          "notes": "CEO explicitly frames AI as enabling team-based work that replaces hierarchical org charts. Consumption-based pricing shift (seats→assist packs) reflects structural assumption that AI agents replace layers of human coordination."
-        },
-        {
-          "specimenId": "moderna",
-          "quote": null,
-          "speaker": null,
-          "source": "Moderna JP Morgan Conference Update / case analysis",
-          "notes": "Chief People and Digital Technology Officer role merges HR and tech departments — structural flattening of the HR/tech organizational divide. Enables 'work planning' instead of 'workforce planning.' $2B opex reduction with GPT tools contributing."
-        },
-        {
-          "specimenId": "wells-fargo",
-          "quote": null,
-          "speaker": null,
-          "source": "Wells Fargo Newsroom / Google partnership announcements",
-          "notes": "30-35% automation target with $612M severance costs signals management layer reduction through AI-enabled automation. Business leader (Van Beurden) atop AI function replaces traditional CTO/tech-leader hierarchy."
-        },
-        {
-          "specimenId": "intel",
-          "quote": null,
-          "speaker": null,
-          "source": "synthesis-agent",
-          "notes": "CEO Tan: 'Bureaucracy kills innovation.' Explicit rationale for org flattening after cutting bureaucratic layers."
-        }
-      ],
-      "maturity": "confirmed",
-      "scholarlyAnchor": "Simon's (1947) information-processing view: hierarchy exists to manage bounded rationality. Managers aggregate, filter, and transmit information upward. AI expands individual cognitive capacity by automating information synthesis — directly substituting for the aggregation function that justified management layers. Delayering is the structural consequence of reduced need for human information processing.",
-      "affinityProfile": {
-        "modelDistribution": {
-          "4": {
-            "count": 1,
-            "percentage": 33.3,
-            "specimens": [
-              "microsoft"
-            ]
-          },
-          "6": {
-            "count": 2,
-            "percentage": 66.7,
-            "specimens": [
-              "ups",
-              "amazon"
-            ]
-          }
-        },
-        "orientationDistribution": {
-          "Structural": {
-            "count": 1,
-            "percentage": 33.3
-          },
-          "Contextual": {
-            "count": 2,
-            "percentage": 66.7
-          },
-          "Temporal": {
-            "count": 0,
-            "percentage": 0
-          }
-        },
-        "primaryModel": 6,
-        "primaryOrientation": "Contextual",
-        "specimenCount": 3,
-        "affinitySummary": "Strongly associated with Contextual orientation (66.7%). Most common in: M6 Unnamed/Informal (2), M4 Hub-and-Spoke (1)."
-      }
-    }
-  ],
-  "candidates": [
+      "demotionReason": "Replaced by Finding 10 -- not a single mechanism but three distinct phenomena requiring decomposition.",
+      "previousId": 11
+    },
     {
       "name": "Ring-Fence Multi-Year Budgets",
       "observedIn": [

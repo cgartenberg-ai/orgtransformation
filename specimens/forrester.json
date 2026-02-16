@@ -1,0 +1,103 @@
+{
+  "id": "forrester",
+  "name": "Forrester Research",
+  "title": "Research-First AI Pivot — Exiting Consulting, AI Product Replacing Human Analysts",
+  "classification": {
+    "structuralModel": 6,
+    "structuralModelName": "Unnamed/Informal",
+    "subType": "6b",
+    "subTypeName": "Centralized-but-Unnamed",
+    "secondaryModel": 5,
+    "secondaryModelName": "Product/Venture Lab",
+    "orientation": "Contextual",
+    "orientationName": "Contextual",
+    "confidence": "Low",
+    "classificationRationale": "Decision tree: Formal AI unit? Not explicitly described — AI product 'Forrester AI' (formerly Izola) exists but no dedicated AI lab or CAIO. Central team? Likely — AI product development requires a team, but not described. Builds or enables? BUILDS an AI product (Forrester AI). This suggests M6b primary (centralized capability without lab branding) + M5 secondary (AI product being built and commercialized). Low confidence: single earnings call source, limited structural detail. Guardrail G6: The exit from consulting is a one-time strategic pivot, not temporal cycling — Contextual orientation (entire org pivoting to AI-first research model). Guardrail G4: Not M1 despite being a 'research' company — the AI is replacing research delivery methods, not conducting fundamental research.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Professional Services",
+    "sector": "Research & Advisory",
+    "orgSize": "Mid-market",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Cambridge, MA",
+    "geography": "North America"
+  },
+  "description": "Forrester Research cut 8% of its workforce (~127 employees) in early 2026 while exiting strategy consulting entirely — a business line whose bookings had declined over 50% in 2025. The company is shifting to an AI-first research model, with research expected to reach 80% of revenue in 2026 (up from 75% in 2025). Multi-day conferences are being discontinued in favor of shorter regional forums.\n\nThe company rebranded its AI product from 'Izola' to 'Forrester AI,' which showed 55% YoY growth in unique users and 65% increase in prompts in Q4. An 'AI Surge' of improvements is scheduled for H1 2026. Restructuring costs totaled $13.5-14M, with $9.9M recognized in Q4. CEO George Colony noted the company has been 'actively embracing AI' for 3.5 years.\n\nThis specimen is structurally interesting because it represents a knowledge industry firm whose core product (research and analysis) is directly threatened by AI. Unlike law firms (Baker McKenzie) where attorneys are protected, Forrester is cannibalizing its own human research delivery with an AI product — a potentially more radical form of AI-driven restructuring.",
+  "observableMarkers": {
+    "reportingStructure": null,
+    "resourceAllocation": "$13.5-14M restructuring costs. Savings redirected to AI investments. Research to reach 80% of revenue [dailypolitical-forrester-2026].",
+    "timeHorizons": "3.5 years of AI adoption (since ~2022). AI Surge improvements H1 2026.",
+    "decisionRights": null,
+    "metrics": "8% workforce cut (~127 employees). Consulting bookings declined 50%+ in 2025. Forrester AI: 55% YoY user growth, 65% prompt increase [dailypolitical-forrester-2026]."
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "text": "Company has been 'actively embracing AI' for 3.5 years.",
+      "speaker": "George Colony",
+      "speakerTitle": "CEO, Forrester Research",
+      "source": "Daily Political — Forrester Q4 Earnings",
+      "sourceUrl": "https://www.dailypolitical.com/2026/02/13/forrester-research-q4-earnings-call-highlights.html",
+      "timestamp": null,
+      "date": "2026-02-13"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "AI-First Research Pivot — Exit Consulting, 8% Cut",
+      "summary": "Forrester cuts 8% of workforce (~127 employees), exits strategy consulting (bookings declined 50%+ in 2025), discontinues multi-day conferences. Rebranded AI product to 'Forrester AI' (55% user growth, 65% prompt growth). Research to reach 80% of revenue. $13.5-14M restructuring costs. CEO Colony: 'actively embracing AI for 3.5 years.' AI Surge improvements scheduled H1 2026.",
+      "classification": null,
+      "sourceRefs": [
+        "dailypolitical-forrester-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "dailypolitical-forrester-2026",
+      "type": "Press",
+      "name": "Daily Political — Forrester Research Q4 Earnings Call Highlights",
+      "url": "https://www.dailypolitical.com/2026/02/13/forrester-research-q4-earnings-call-highlights.html",
+      "timestamp": null,
+      "sourceDate": "2026-02-13",
+      "collectedDate": "2026-02-15",
+      "notes": "Q4 2025 earnings call coverage."
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Low",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Long",
+    "talentMarketPosition": "Talent-constrained",
+    "technicalDebt": "Medium",
+    "environmentalAiPull": "Strong"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.4,
+    "speedVsDepth": 0.3,
+    "centralVsDistributed": -0.2,
+    "namedVsQuiet": 0.3,
+    "longVsShortHorizon": 0.4
+  },
+  "openQuestions": [
+    "What team builds and maintains Forrester AI (formerly Izola)?",
+    "How do human analysts interact with AI-generated research — quality control, editorial oversight?",
+    "Is the consulting exit driven by AI cannibalization or broader market shifts?",
+    "What is the AI team headcount and structure?",
+    "How do clients perceive AI-generated vs. human-generated research?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] Forrester is the first specimen where AI directly cannibalizes the firm's core product (human research). Unlike Baker McKenzie (support staff cut, attorneys protected), Forrester's AI product replaces the core analysts. This is a qualitatively different structural dynamic.",
+    "[2026-02] Part of the Feb 2026 professional services restructuring wave (with Baker McKenzie and Capgemini). Professional services are an underexplored habitat — these firms sell human expertise and must navigate the tension of automating their own product."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-15",
+    "lastUpdated": "2026-02-15",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

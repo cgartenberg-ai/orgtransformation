@@ -13,7 +13,7 @@
     "orientation": "Structural",
     "orientationName": "Structural Ambidexterity",
     "confidence": "High",
-    "classificationRationale": "Disney exhibits classic M4 Hybrid/Hub-and-Spoke: (1) Disney Research Studios in Zurich provides fundamental research capability (16+ years, led by Chief Scientist Markus Gross), (2) the new Office of Technology Enablement provides central governance/standards without centralizing execution, and (3) business units (Disney+, Parks, Studios) retain decision rights on their AI projects. The OTE explicitly 'does NOT take over or centralize' business unit AI—this is coordination and enablement, not command. The $1B OpenAI partnership adds a strategic external layer. Structural orientation because exploration (Research Studios, OTE) and execution (business unit AI) are organizationally distinct. Secondary M1 classification reflects the genuine research lab component in Zurich.",
+    "classificationRationale": "Disney exhibits classic M4 Hybrid/Hub-and-Spoke: (1) Disney Research Studios in Zurich provides fundamental research capability (16+ years, led by Chief Scientist Markus Gross), (2) the new Office of Technology Enablement provides central governance/standards without centralizing execution, and (3) business units (Disney+, Parks, Studios) retain decision rights on their AI projects. The OTE explicitly 'does NOT take over or centralize' business unit AI\u2014this is coordination and enablement, not command. The $1B OpenAI partnership adds a strategic external layer. Structural orientation because exploration (Research Studios, OTE) and execution (business unit AI) are organizationally distinct. Secondary M1 classification reflects the genuine research lab component in Zurich.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -25,7 +25,7 @@
     "headquarters": "Burbank, California",
     "geography": "Global"
   },
-  "description": "Disney operates a sophisticated three-layer AI structure that combines fundamental research, governance/enablement, and distributed business unit execution. At the research frontier, Disney Research Studios in Zurich (established 16+ years ago) conducts world-class research in visual computing, machine learning, and AI for filmmaking, with close ties to ETH Zürich and additional locations in Los Angeles and Pittsburgh. This research feeds into all Disney film studios including WDAS, Pixar, ILM, and Marvel.\n\nThe governance layer is the Office of Technology Enablement (OTE), established November 2024 under Jamie Voris (former 14-year CTO of Walt Disney Studios). Reporting to Alan Bergman (Co-chairman, Disney Entertainment), OTE is expected to grow to ~100 employees with a mission to establish Disney as a 'progressive, innovative, and responsible leader' in AI and Mixed Reality. Crucially, OTE provides governance and standards across Entertainment, ESPN, and Parks without centralizing or taking over business unit AI projects—business units retain decision rights on their initiatives.\n\nThe third layer is strategic external partnership, exemplified by the $1B equity investment in OpenAI (December 2025) as part of a 3-year licensing agreement. This partnership enables Sora integration into Disney+ for short-form content, representing a 'buy vs. build' decision for generative video capabilities. CEO Bob Iger frames AI as 'the most powerful technology' Disney has ever seen while maintaining three guardrails: IP protection, creator respect, and customer value.",
+  "description": "Disney operates a sophisticated three-layer AI structure that combines fundamental research, governance/enablement, and distributed business unit execution. At the research frontier, Disney Research Studios in Zurich (established 16+ years ago) conducts world-class research in visual computing, machine learning, and AI for filmmaking, with close ties to ETH Z\u00fcrich and additional locations in Los Angeles and Pittsburgh. This research feeds into all Disney film studios including WDAS, Pixar, ILM, and Marvel.\n\nThe governance layer is the Office of Technology Enablement (OTE), established November 2024 under Jamie Voris (former 14-year CTO of Walt Disney Studios). Reporting to Alan Bergman (Co-chairman, Disney Entertainment), OTE is expected to grow to ~100 employees with a mission to establish Disney as a 'progressive, innovative, and responsible leader' in AI and Mixed Reality. Crucially, OTE provides governance and standards across Entertainment, ESPN, and Parks without centralizing or taking over business unit AI projects\u2014business units retain decision rights on their initiatives.\n\nThe third layer is strategic external partnership, exemplified by the $1B equity investment in OpenAI (December 2025) as part of a 3-year licensing agreement. This partnership enables Sora integration into Disney+ for short-form content, representing a 'buy vs. build' decision for generative video capabilities. CEO Bob Iger frames AI as 'the most powerful technology' Disney has ever seen while maintaining three guardrails: IP protection, creator respect, and customer value.",
   "observableMarkers": {
     "reportingStructure": "Office of Technology Enablement reports to Alan Bergman (Co-chairman, Disney Entertainment) [variety-ote-2024]. Disney Research Studios appears to operate semi-independently with Chief Scientist Markus Gross [disney-research-about]. OTE has 'accountability to all business segments' and partners with leaders across the company [variety-ote-2024].",
     "resourceAllocation": "OTE is a dedicated unit with growth budget to ~100 employees [variety-ote-2024]. $1B OpenAI investment is ring-fenced strategic capital [fortune-openai-2025]. Research Studios has dedicated facility in Zurich with academic partnerships [disney-research-about]. Not clear if there's a centralized AI budget beyond these structures.",
@@ -43,7 +43,7 @@
     {
       "id": 3,
       "name": "Embed Product at Research Frontier",
-      "evidence": "Disney Research Studios explicitly serves all Disney film studios (WDAS, Pixar, ILM, Marvel) with its research output. The research lab is not isolated academia—it has direct pathways to production pipelines.",
+      "evidence": "Disney Research Studios explicitly serves all Disney film studios (WDAS, Pixar, ILM, Marvel) with its research output. The research lab is not isolated academia\u2014it has direct pathways to production pipelines.",
       "strength": "Moderate"
     }
   ],
@@ -132,6 +132,15 @@
   "layers": [
     {
       "date": "2026-02",
+      "label": "Three AI Pillars + OpenAI/Sora Deal + CEO Succession",
+      "summary": "Disney announced three AI pillars: creativity, productivity, connectivity. Major OpenAI/Sora 3-year licensing deal for AI video generation. CEO succession: Bob Iger to James D'Amaro (effective March 2026). Dana Walden named new President and Chief Creative Officer. AI strategy spans content creation (Sora), park operations, and distribution optimization.",
+      "classification": null,
+      "sourceRefs": [
+        "disney-q1-fy2026-earnings-enrichment"
+      ]
+    },
+    {
+      "date": "2026-02",
       "label": "Citation Backfill",
       "summary": "Added inline [source-id] citations to all observable markers for fact-level auditability.",
       "classification": null,
@@ -213,6 +222,15 @@
       "url": "https://en.wikipedia.org/wiki/Disney_Research",
       "sourceDate": "2026-02-08",
       "collectedDate": "2026-02-08"
+    },
+    {
+      "id": "disney-q1-fy2026-earnings-enrichment",
+      "type": "Earnings Call",
+      "name": "Disney Q1 FY2026 Earnings Coverage — Three AI Pillars & CEO Succession",
+      "url": null,
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-15",
+      "notes": "[no URL — research agent summary] Q1 FY2026 earnings. OpenAI/Sora 3-year licensing deal. CEO succession D'Amaro (March 2026). Three AI pillars (creativity, productivity, connectivity)."
     }
   ],
   "contingencies": {
@@ -239,13 +257,13 @@
   ],
   "taxonomyFeedback": [
     "[2026-02] Disney presents an unusually mature M4 variant where the 'hub' is actually bifurcated: Disney Research Studios (16+ years, fundamental research) and Office of Technology Enablement (new, governance/enablement) serve different functions. Research Studios is almost M1-like in character, while OTE is pure M2 governance. The combination creates a sophisticated capability stack that few organizations achieve.",
-    "[2026-02] The explicit design principle that OTE 'does NOT take over or centralize' business unit AI projects is structurally interesting—it's a conscious rejection of the command-and-control model that many enterprises default to. This suggests an intentional architectural choice to preserve business unit autonomy while providing coordination and standards.",
-    "[2026-02] The $1B OpenAI partnership reveals a 'buy vs. build' decision at the generative AI frontier—Disney is buying Sora capability rather than trying to build it internally. This is economically rational given Disney's core competency is IP/storytelling not foundation model development, but it creates an interesting dependency on an external partner for a potentially strategic capability."
+    "[2026-02] The explicit design principle that OTE 'does NOT take over or centralize' business unit AI projects is structurally interesting\u2014it's a conscious rejection of the command-and-control model that many enterprises default to. This suggests an intentional architectural choice to preserve business unit autonomy while providing coordination and standards.",
+    "[2026-02] The $1B OpenAI partnership reveals a 'buy vs. build' decision at the generative AI frontier\u2014Disney is buying Sora capability rather than trying to build it internally. This is economically rational given Disney's core competency is IP/storytelling not foundation model development, but it creates an interesting dependency on an external partner for a potentially strategic capability."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-02-09",
-    "lastUpdated": "2026-02-12",
+    "lastUpdated": "2026-02-15",
     "completeness": "High",
     "convertedFrom": null
   }

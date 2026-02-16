@@ -37,7 +37,10 @@ export default async function TensionsPage() {
       {/* Tension reference */}
       <section>
         <h2 className="mb-4 font-serif text-xl text-forest">
-          The 5 Core Tensions
+          The 5 Tensions — Derived from{" "}
+          <Link href="/framework" className="text-forest underline">
+            Primitives
+          </Link>
         </h2>
         <div className="space-y-6">
           {tensionData.tensions.map((t) => {
@@ -81,15 +84,59 @@ export default async function TensionsPage() {
                   cc !== null
               );
 
+            const PRIMITIVE_COLORS: Record<string, string> = {
+              P1: "bg-forest-50 text-forest",
+              P2: "bg-amber-50 text-amber-700",
+              P3: "bg-violet-50 text-violet-700",
+              P4: "bg-sky-50 text-sky-700",
+              P5: "bg-rose-50 text-rose-700",
+            };
+
             return (
               <div
                 key={t.id}
-                className="rounded-lg border border-sage-200 bg-cream-50 p-5"
+                className={`rounded-lg border bg-cream-50 p-5 ${
+                  t.masterTension ? "border-amber-400 ring-1 ring-amber-200" : "border-sage-200"
+                }`}
               >
-                <h3 className="font-serif text-lg font-medium text-forest">
-                  {t.name}
-                </h3>
+                <div className="flex items-center gap-2">
+                  <h3 className="font-serif text-lg font-medium text-forest">
+                    {t.name}
+                  </h3>
+                  {t.masterTension && (
+                    <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-widest text-amber-700">
+                      Master Tension
+                    </span>
+                  )}
+                </div>
                 <p className="mt-1 text-sm text-charcoal-600">{t.tradeoff}</p>
+
+                {/* Derived from primitives */}
+                {t.derivedFrom && (
+                  <div className="mt-2 flex flex-wrap items-center gap-1.5">
+                    <span className="text-[10px] font-medium uppercase tracking-wide text-charcoal-400">
+                      Derived from:
+                    </span>
+                    {t.derivedFrom.primitives.map((pid) => (
+                      <Link
+                        key={pid}
+                        href="/framework"
+                        className={`rounded px-1.5 py-0.5 font-mono text-[10px] font-bold ${PRIMITIVE_COLORS[pid] || "bg-sage-50 text-sage-700"}`}
+                      >
+                        {pid}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+
+                {/* Caveat (T4) */}
+                {t.caveat && (
+                  <div className="mt-2 rounded border border-amber-200 bg-amber-50 px-3 py-2">
+                    <p className="text-[10px] italic text-amber-700">
+                      {t.caveat.split(".").slice(0, 2).join(".") + "."}
+                    </p>
+                  </div>
+                )}
 
                 {/* Poles */}
                 <div className="mt-3 grid gap-2 md:grid-cols-2">

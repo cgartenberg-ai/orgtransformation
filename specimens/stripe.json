@@ -1,0 +1,230 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "stripe",
+  "name": "Stripe",
+  "title": "Contextual AI Integration with Distributed Autonomous Development Agents",
+  "classification": {
+    "structuralModel": 4,
+    "structuralModelName": "Hybrid/Hub-and-Spoke",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Contextual",
+    "orientationName": "Contextual Ambidexterity",
+    "confidence": "Medium",
+    "classificationRationale": "Stripe exhibits a hybrid model with contextual ambidexterity. Central coordination exists through specialized roles (CRO of AI for go-to-market, Head of Information for foundation models) while AI development emerges from distributed domain teams—the 'minions' automated development system originated in financial operations, not a central AI lab. Nearly all employees use internal AI tools weekly, suggesting AI capability is distributed throughout the organization. This satisfies M4's requirement for BOTH central standards AND distributed execution. The contextual orientation is evidenced by individuals balancing exploration and execution within their roles rather than through structural separation.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Fintech / Payments",
+    "sector": "Financial Services",
+    "orgSize": "Scaleup",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "San Francisco, CA",
+    "geography": "Global"
+  },
+  "description": "Stripe operates a contextually ambidextrous hybrid model where AI capability is deeply embedded throughout the organization rather than centralized in a dedicated lab. The company has created specialized coordination roles—a Chief Revenue Officer of AI (Maia Josebachvili) for go-to-market strategy and a Head of Information (Emily Glassberg Sands) for foundation model work—but AI development itself emerges from domain teams across the organization.\n\nThe most striking evidence of distributed AI adoption is 'minions'—fully automated development environments that fix bugs and generate pull requests without human involvement in the coding process. Remarkably, 5% of all Stripe PRs are now generated end-to-end by these AI agents, with 30% of bugs fixed by minions during a recent Fix-It Week. This capability originated from the financial operations team, not a central AI unit, illustrating bottom-up innovation.\n\nNearly all employees use Stripe's internal LLM tool weekly, and Cursor adoption is widespread. Patrick Collison frames AI as 'acceleration not replacement,' expecting to hire more in 2026 because of AI. The company explicitly rejects traditional ROI justification for AI investments, treating them as strategic conviction rather than analytical calculation.",
+  "observableMarkers": {
+    "reportingStructure": "CRO of AI (Maia Josebachvili) handles AI go-to-market. Head of Information (Emily Glassberg Sands) owns foundation model work. Both likely report into executive team. No CAIO or centralized AI leadership structure visible.",
+    "resourceAllocation": "AI appears embedded across product teams rather than ring-fenced. Internal tooling (LLM tool, Cursor) deployed company-wide. Foundation model development treated as core payments infrastructure investment.",
+    "timeHorizons": "Mixed: Real-time decisioning (sub-100ms latency for fraud) represents execution; Payments Foundation Model and agentic commerce protocol represent longer-term platform plays. Patrick talks about 'hiring more in 2026 because of AI' — forward-looking horizon.",
+    "decisionRights": "Distributed. Innovation comes from domain teams (minions from financial ops). Company-wide AI tool adoption suggests decentralized experimentation. Patrick explicitly rejects centralized ROI justification for AI investments.",
+    "metrics": "Patrick dismisses 'what percent of code was written by LLM' as a 'vanity metric.' Instead measures PR velocity (~30% up YoY) and user feedback. Revenue metrics: 11.9% average revenue lift from Optimized Checkout Suite. $6B recovered via Adaptive Acceptance."
+  },
+  "mechanisms": [
+    {
+      "id": 4,
+      "name": "Consumer-Grade UX for Employee Tools",
+      "evidence": "Nearly all employees use Stripe's internal LLM tool weekly. Widespread Cursor adoption across the organization. Company built its own documentation platform specifically to support AI agent usability.",
+      "strength": "Strong"
+    },
+    {
+      "id": 5,
+      "name": "Deploy to Thousands Before You Know What Works",
+      "evidence": "Company-wide deployment of internal AI tools with near-universal weekly usage. Minions system deployed to generate 5% of all PRs without waiting for proof of ROI. Patrick explicitly rejects ROI justification: 'If you ask people to justify ROI, they'll magically produce numbers meeting any threshold.'",
+      "strength": "Strong"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "This is not just using LLMs in Cursor. This is a human never logged into the dev box.",
+      "speaker": "Patrick Collison",
+      "speakerTitle": "CEO",
+      "source": "Retool Summit Fireside Chat",
+      "sourceUrl": "https://retool.com/blog/stripe-ceo-ai-agents-and-the-future-of-software",
+      "sourceDate": "2025-10",
+      "context": "Describing Stripe's 'minions' — fully automated development environments that fix bugs and generate PRs without human involvement in the coding process"
+    },
+    {
+      "text": "What would we elect to do much more of?",
+      "speaker": "Patrick Collison",
+      "speakerTitle": "CEO",
+      "source": "Retool Summit Fireside Chat",
+      "sourceUrl": "https://retool.com/blog/stripe-ceo-ai-agents-and-the-future-of-software",
+      "sourceDate": "2025-10",
+      "context": "Pushing back on doom-and-gloom framing about AI replacing workers; reframing AI as expansion of capability rather than reduction of workforce"
+    },
+    {
+      "text": "The minions are gonna want to read the documentation, and the minions can't ask the person next to them.",
+      "speaker": "Patrick Collison",
+      "speakerTitle": "CEO",
+      "source": "Retool Summit Fireside Chat",
+      "sourceUrl": "https://retool.com/blog/stripe-ceo-ai-agents-and-the-future-of-software",
+      "sourceDate": "2025-10",
+      "context": "Explaining why Stripe built its own documentation platform — to support automated AI development agents"
+    },
+    {
+      "text": "If you ask people to justify ROI, they'll magically produce numbers meeting any threshold.",
+      "speaker": "John Collison",
+      "speakerTitle": "President",
+      "source": "AMA with Patrick and John Collison, Stripe Sessions 2025",
+      "sourceUrl": "https://stripe.com/sessions/2025/ama-with-patrick-and-john-collison",
+      "sourceDate": "2025-05",
+      "context": "Warning against traditional ROI modeling for AI investments; advocating for user feedback and market demand as primary investment drivers"
+    },
+    {
+      "text": "Any time fraudsters reverse-engineer thresholds, they do so within days.",
+      "speaker": "John Collison",
+      "speakerTitle": "President",
+      "source": "AMA with Patrick and John Collison, Stripe Sessions 2025",
+      "sourceUrl": "https://stripe.com/sessions/2025/ama-with-patrick-and-john-collison",
+      "sourceDate": "2025-05",
+      "context": "Explaining why Stripe's AI work differs from consumer AI — adversarial conditions require constant adaptation"
+    },
+    {
+      "text": "Stripe expects to be hiring more than ever in 2026 because of AI.",
+      "speaker": "Patrick Collison",
+      "speakerTitle": "CEO",
+      "source": "Various reporting on Stripe Sessions 2025",
+      "sourceUrl": "https://blockchain.news/flashnews/stripe-s-patrick-collison-signals-2026-ai-driven-hiring-surge",
+      "sourceDate": "2025-05",
+      "context": "Countering narrative that AI reduces employment; likened AI to 'the GLP-1 for efficiency'"
+    },
+    {
+      "text": "AI and stablecoins are 'gale force tailwinds' in a turbulent economy.",
+      "speaker": "Patrick Collison",
+      "speakerTitle": "CEO",
+      "source": "Stripe Sessions 2025",
+      "sourceUrl": "https://stripe.com/sessions/2025/opening-keynote",
+      "sourceDate": "2025-05",
+      "context": "Opening keynote framing the two transformative forces shaping commerce and global trade"
+    },
+    {
+      "text": "More than 700 AI agent startups launched on Stripe last year, a figure that we expect will be substantially eclipsed by the total in 2025.",
+      "speaker": "Patrick and John Collison",
+      "speakerTitle": "CEO and President",
+      "source": "Stripe 2024 Annual Letter",
+      "sourceUrl": "https://www.fxcintel.com/research/analysis/stripe-2024-annual-letter",
+      "sourceDate": "2025-03",
+      "context": "Highlighting Stripe's position as infrastructure provider to AI companies"
+    },
+    {
+      "text": "Agentic commerce is a complete rewiring of how commerce on the Internet works.",
+      "speaker": "Patrick Collison",
+      "speakerTitle": "CEO",
+      "source": "AMA with Patrick and John Collison, Stripe Sessions 2025",
+      "sourceUrl": "https://stripe.com/sessions/2025/ama-with-patrick-and-john-collison",
+      "sourceDate": "2025-05",
+      "context": "Describing the transformative potential of AI agents conducting transactions within applications"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Initial observation: Distributed AI with autonomous development agents",
+      "summary": "Stripe operates a hybrid model with contextual ambidexterity. Central coordination through CRO of AI and Head of Information roles, but AI development emerges from distributed domain teams. The 'minions' system—fully autonomous development agents generating 5% of all PRs—originated from financial operations, not a central AI lab. Near-universal weekly usage of internal AI tools across employees. Company explicitly rejects ROI justification for AI investments, treating them as strategic conviction.",
+      "sourceRefs": [
+        "stripe-retool-2025",
+        "stripe-sessions-ama-2025",
+        "stripe-sessions-applied-ai-2025",
+        "stripe-annual-letter-2025"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "stripe-retool-2025",
+      "name": "Retool Summit Fireside Chat: Patrick Collison on AI Agents and the Future of Software",
+      "type": "Interview",
+      "url": "https://retool.com/blog/stripe-ceo-ai-agents-and-the-future-of-software",
+      "sourceDate": "2025-10",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "stripe-sessions-ama-2025",
+      "name": "Stripe Sessions 2025: AMA with Patrick and John Collison",
+      "type": "Conference",
+      "url": "https://stripe.com/sessions/2025/ama-with-patrick-and-john-collison",
+      "sourceDate": "2025-05",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "stripe-sessions-applied-ai-2025",
+      "name": "Stripe Sessions 2025: Applied AI: Delivering on Growth",
+      "type": "Conference",
+      "url": "https://stripe.com/sessions/2025/applied-ai-delivering-on-growth",
+      "sourceDate": "2025-05",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "stripe-agentic-commerce-2025",
+      "name": "Maia Josebachvili on Stripe's Agentic Commerce Playbook",
+      "type": "Interview",
+      "url": "https://www.retailgentic.com/p/maia-josebachvili-on-stripes-agentic",
+      "sourceDate": "2025",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "stripe-annual-letter-2025",
+      "name": "Stripe 2024 Annual Letter (FXC Intel Analysis)",
+      "type": "Report",
+      "url": "https://www.fxcintel.com/research/analysis/stripe-2024-annual-letter",
+      "sourceDate": "2025-03",
+      "collectedDate": "2026-02-14"
+    },
+    {
+      "id": "stripe-cnbc-disruptor-2025",
+      "name": "CNBC Disruptor 50: Stripe 2025",
+      "type": "Press",
+      "url": "https://www.cnbc.com/2025/06/10/stripe-2025-cnbc-disruptor-50.html",
+      "sourceDate": "2025-06",
+      "collectedDate": "2026-02-14"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "Medium",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low",
+    "environmentalAiPull": "Strong"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": 0.7,
+    "speedVsDepth": 0.4,
+    "centralVsDistributed": 0.5,
+    "namedVsQuiet": 0.5,
+    "longVsShortHorizon": 0.0
+  },
+  "openQuestions": [
+    "How exactly are Stripe's 'four AI focus areas' structured organizationally?",
+    "What is the size and composition of the Payments Foundation Model team?",
+    "How does Emily Glassberg Sands' 'Head of Information' role relate to AI leadership?",
+    "What is the formal reporting structure for AI initiatives — do they roll up through product, engineering, or a separate AI function?",
+    "How does the CRO of AI role coordinate with product/engineering on AI development vs. go-to-market?"
+  ],
+  "taxonomyFeedback": [
+    "[2026-02] The CRO of AI title is taxonomically unusual—it signals Stripe views AI primarily as a revenue/commercial opportunity to be 'sold' rather than a technical capability to be 'built.' Most M2/M4 orgs create CAIOs or AI Labs; Stripe created a go-to-market role. This raises the question of whether our taxonomy adequately captures organizations that treat AI as a market opportunity rather than an internal transformation challenge.",
+    "[2026-02] Stripe's 'minions' represent an edge case for contextual ambidexterity: AI agents autonomously performing exploration (generating new code) within an execution context (fixing bugs, maintaining systems). The human's role shifts from doing to reviewing. This may be an emergent form of ambidexterity where the tension is resolved by delegating exploration to non-human agents.",
+    "[2026-02] Patrick Collison's explicit rejection of ROI justification ('If you ask people to justify ROI, they'll magically produce numbers meeting any threshold') challenges conventional wisdom about how to authorize AI investment. This suggests founder-led companies may use conviction-based rather than calculation-based approaches to AI strategy—a contingency variable we might want to track."
+  ],
+  "meta": {
+    "status": "Active",
+    "created": "2026-02-14",
+    "lastUpdated": "2026-02-14",
+    "completeness": "High",
+    "convertedFrom": null
+  }
+}

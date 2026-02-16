@@ -1,0 +1,99 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "verses-ai",
+  "name": "VERSES AI Inc.",
+  "title": "Founder-to-Operator Transition: R&D to Commercial Pivot",
+  "classification": {
+    "structuralModel": 5,
+    "structuralModelName": "Product/Venture Lab",
+    "subType": "5a",
+    "subTypeName": "Internal Incubator",
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Temporal",
+    "confidence": "Low",
+    "classificationRationale": "Decision tree: Formal AI unit=YES (VERSES is an AI company building the Genius platform) \u2192 Publishes research=YES (active intelligence research) BUT primary output shifting to products \u2192 Builds products from AI=YES \u2192 M5a (products stay in parent). Temporal orientation: explicit phase transition from exploration (founder-led R&D) to execution (operator-led commercialization). Low confidence: single source (press release), thin structural detail.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Artificial Intelligence",
+    "sector": "Enterprise AI / Active Inference",
+    "orgSize": "Startup",
+    "employees": null,
+    "revenue": null,
+    "headquarters": null,
+    "geography": "North America"
+  },
+  "description": "VERSES AI experienced a classic founder-to-operator transition in February 2026. Founder/CEO Gabriel Rene, co-founder/Brand Ambassador Dan Mapes, and Chief Accounting Officer Kevin Wilson all resigned from positions and the board on February 10, 2026. David T. Scott was appointed Interim CEO, bringing a 30-year career spanning AWS, Twitter, and AT&T. Scott immediately articulated an explicit pivot from R&D exploration to commercial execution, targeting financial services as the initial market for VERSES' Genius agentic enterprise intelligence platform. The pattern is clean: exploration-stage founders depart, execution-stage operator arrives, and the organizational mission narrows from broad R&D to specific commercial targets.",
+  "observableMarkers": {
+    "reportingStructure": "Interim CEO David T. Scott (AWS/Twitter/AT&T background). Founder CEO Gabriel Rene departed.",
+    "resourceAllocation": null,
+    "timeHorizons": "Near-term revenue focus \u2014 'driving near-term revenue beginning with financial services.'",
+    "decisionRights": "Centralized under new interim CEO. Board restructured with founder departures.",
+    "metrics": null
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "speaker": "David T. Scott",
+      "speakerTitle": "Interim CEO, VERSES AI",
+      "quote": "Our focus now is straightforward and transparent: converting our R&D into commercial products, executing a disciplined go-to-market strategy, and driving near-term revenue -- beginning with opportunities in the financial services sector.",
+      "source": "GlobeNewsWire",
+      "sourceUrl": "https://www.globenewswire.com/news-release/2026/02/10/3235333/0/en/VERSES-AI-Inc-Announces-Management-Changes.html",
+      "date": "2026-02-10"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Founder Departure + Commercial Pivot",
+      "summary": "Founder CEO Gabriel Rene, co-founder Dan Mapes, and CAO Kevin Wilson all resigned. David T. Scott (AWS/Twitter/AT&T) appointed Interim CEO. Explicit pivot from R&D exploration to commercial execution targeting financial services.",
+      "classification": null,
+      "sourceRefs": [
+        "globenewswire-verses-management-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "globenewswire-verses-management-2026",
+      "type": "Press Release",
+      "name": "GlobeNewsWire \u2014 VERSES AI Announces Management Changes",
+      "url": "https://www.globenewswire.com/news-release/2026/02/10/3235333/0/en/VERSES-AI-Inc-Announces-Management-Changes.html",
+      "sourceDate": "2026-02-10",
+      "collectedDate": "2026-02-15"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": null,
+    "timeToObsolescence": null,
+    "ceoTenure": "Short",
+    "talentMarketPosition": null,
+    "technicalDebt": null,
+    "environmentalAiPull": null
+  },
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": 0.7,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": 0.6
+  },
+  "openQuestions": [
+    "What is VERSES AI's actual team size and organizational structure post-transition?",
+    "How does the Genius platform work and what stage of development is it?",
+    "Will the financial services focus succeed in generating near-term revenue?",
+    "Is this a genuine pivot or a prelude to wind-down/acquisition?"
+  ],
+  "taxonomyFeedback": [
+    "Clean example of the founder-to-operator pattern that often accompanies the exploration-to-execution transition. The new CEO's first statement is almost a textbook articulation of temporal ambidexterity: 'converting R&D into commercial products.'",
+    "Small company but the pattern is analytically valuable as a reference case for how AI startups manage the research-to-product transition."
+  ],
+  "meta": {
+    "status": "Stub",
+    "created": "2026-02-15",
+    "lastUpdated": "2026-02-15",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

@@ -32,6 +32,8 @@ Run from project root: orgtransformation/
 import argparse
 import json
 import logging
+import os
+import shutil
 import subprocess
 import sys
 import time
@@ -120,7 +122,41 @@ Contingency Variables (assess where data supports):
   timeToObsolescence:      Fast | Medium | Slow
   ceoTenure:               Long | Medium | Short | Founder
   talentMarketPosition:    Talent-rich | Talent-constrained | Non-traditional
-  technicalDebt:           High | Medium | Low"""
+  technicalDebt:           High | Medium | Low
+  environmentalAiPull:     Strong | Moderate | Weak"""
+
+PRIMITIVES_REF = """\
+Analytical Primitives (note where data speaks to these — use null when silent):
+  P1 Work Architecture Modularity — Can the work be decomposed into discrete tasks?
+  P2 Work Output Measurability — Can quality be captured in quantitative metrics?
+  P3 Governance Structure — Who has authority? Founder vs. hired CEO, formal vs. real authority
+  P4 Competitive/Institutional Context — Competitive intensity, regulation, industry norms
+  P5 Organizational Endowment — Legacy systems, talent base, culture, prior AI investment"""
+
+FINDINGS_REF = """\
+Core Findings (note if this specimen supports, challenges, or is irrelevant to each):
+  F1  Mirroring Thesis — Work architecture predicts structural model
+  F2  Overcorrection Trap — Measurable metrics hide quality degradation
+  F3  CEO Tenure Predicts Speed — Founder-CEOs mandate faster transformation
+  F4  Regulation Is Expensive Not Slow — Compliance enables deployment speed
+  F5  Hub-Spoke Convergence — M4 dominates enterprise AI
+  F6  Named Labs Attract Talent — Visibility drives AI talent acquisition
+  F7  Purpose Claims as Authorization — Leaders invoke purpose to legitimate change
+  F8  Two-Speed IT — Shadow AI creates ungoverned parallel infrastructure
+  F9  AI-Native Paradox — Born-AI firms face distinct coordination problems
+  F10 Merger Creates Coordination Crisis — Consolidating AI teams triggers conflicts"""
+
+FRAMEWORK_GUARDRAIL = """\
+## FRAMEWORK AWARENESS — Exploration and Curiosity First
+
+The project has an emerging analytical framework (5 primitives P1-P5, 10 findings F1-F10).
+Use these to ENRICH your analysis, but do NOT let them constrain what you see.
+
+Evidence that contradicts or falls outside the framework receives the SAME analytical
+weight as evidence that confirms it. If this specimen shows a pattern the framework
+can't explain, tag it prominently in taxonomyFeedback. Novel patterns and surprises
+are just as analytically important as framework-confirming evidence.
+We are scientists exploring with curiosity, not advocates confirming a theory."""
 
 CLASSIFICATION_GUARDRAILS = """\
 Classification Guardrails — check these before finalizing:
@@ -129,7 +165,12 @@ Classification Guardrails — check these before finalizing:
   3. M4 requires BOTH central + distributed: If AI is only central, it's M2 not M4
   4. M6 enterprise-wide (6a): Requires evidence of 80%+ adoption, top-down mandate
   5. Temporal vs one-time: A single pivot is NOT temporal cycling — needs repeated phases
-  6. AI-Native (M9): Only for orgs BORN with AI — not orgs that adopted AI early
+  6. AI-Native PRESTIGE TRAP (M9): ONLY for orgs whose FOUNDING PURPOSE was AI/ML.
+     Test: was it founded to BUILD AI, or founded for something else and later ADOPTED AI?
+     FALSE M9: data/analytics companies that added AI later (Palantir: founded 2003 for
+     data integration, AIP launched 2023 = NOT M9); tech companies where ML is toolkit;
+     companies reframing history as 'always AI.' If AI language only adopted post-2020 = NOT M9.
+     True M9: Anthropic (2021, safe AI), OpenAI (2015, AGI), Recursion (2013, AI-first pharma).
   7. M5 requires PRODUCT creation: Internal tools/enablement is M2, not M5"""
 
 MODEL_NAMES = {
@@ -310,6 +351,12 @@ def build_curate_prompt(slug: str, pending_data: dict, existing_specimen: dict |
            Example: "[2026-02] New earnings data strengthens M4 classification..."
         9. APPEND new openQuestions — keep existing ones, add new ones, remove any
            that have been answered by the new data
+        10. Update `primitiveIndicators` if new data speaks to any of the 5 primitives
+            (P1-P5). Use null for primitives where data is silent. Don't force-fit.
+        11. Update `findingRelevance` if new data provides evidence for or against any
+            of the 10 findings (F1-F10). Both directions are equally valuable.
+
+        {FRAMEWORK_GUARDRAIL}
 
         ## EXISTING SPECIMEN
         {existing_json}
@@ -370,6 +417,16 @@ def build_curate_prompt(slug: str, pending_data: dict, existing_specimen: dict |
 
         {CONTINGENCIES_REF}
 
+        ## ANALYTICAL PRIMITIVES (optional enrichment)
+
+        {PRIMITIVES_REF}
+
+        ## CORE FINDINGS (note relevance — supports, challenges, or silent)
+
+        {FINDINGS_REF}
+
+        {FRAMEWORK_GUARDRAIL}
+
         ## SPECIMEN TEMPLATE
         {template_json}
 
@@ -411,6 +468,15 @@ def build_curate_prompt(slug: str, pending_data: dict, existing_specimen: dict |
         - sources: all from research data, with IDs like "{slug}-earnings-2025", type, URL, dates
         - contingencies: assess all 5 from available data
         - tensionPositions: score all 5 axes where data supports (-1.0 to +1.0)
+        - primitiveIndicators: optional object with keys P1-P5. For each primitive where
+          the data clearly speaks to it, write a short note (e.g., "High modularity —
+          API-driven platform [source-id]"). Use null for primitives where data is silent.
+          Do NOT force-fit — null is the right answer when the data doesn't speak to a primitive.
+        - findingRelevance: optional array of objects noting which findings this specimen
+          provides evidence for OR AGAINST. Each entry:
+          {{"findingId": "finding-N-slug", "direction": "supports|challenges", "note": "why"}}
+          Include BOTH directions — a specimen that challenges a finding is just as valuable
+          as one that supports it. Omit findings where the specimen has nothing to say.
         - openQuestions: from research data
         - taxonomyFeedback: IMPORTANT — write 2-3 substantive observations here,
           each prefixed with "[{today[:7]}]" for temporal tracking:
@@ -1109,6 +1175,43 @@ def main():
                 except Exception as e:
                     log.error(f"  Synthesis queue update failed for {slug}: {e}")
 
+                # Register/flag specimens in purpose-claims scan-tracker
+                try:
+                    tracker_path = PROJECT_ROOT / "research" / "purpose-claims" / "scan-tracker.json"
+                    if tracker_path.exists():
+                        tracker = load_json(tracker_path)
+                        existing_ids = {s["specimenId"]: s for s in tracker.get("specimens", [])}
+                        if action == "new" and slug not in existing_ids:
+                            tracker.setdefault("specimens", []).append({
+                                "specimenId": slug,
+                                "lastScanned": None,
+                                "claimsFound": 0,
+                                "quality": "unscanned",
+                            })
+                            tracker["lastUpdated"] = str(date.today())
+                            save_json(tracker_path, tracker)
+                            log.info(f"  → Registered {slug} in purpose-claims scan-tracker")
+                        elif action == "updated" and slug in existing_ids:
+                            # Flag for rescan — new data may yield new claims
+                            entry = existing_ids[slug]
+                            if not entry.get("rescanReason"):
+                                entry["rescanReason"] = f"enriched via curate {date.today().isoformat()}"
+                                tracker["lastUpdated"] = str(date.today())
+                                save_json(tracker_path, tracker)
+                                log.info(f"  → Flagged {slug} for purpose-claims rescan")
+                except Exception as e:
+                    log.error(f"  Scan-tracker update failed for {slug}: {e}")
+
+                # Move consumed pending file to processed/
+                try:
+                    processed_dir = PENDING_DIR / "processed"
+                    processed_dir.mkdir(parents=True, exist_ok=True)
+                    dest = processed_dir / pending_path.name
+                    shutil.move(str(pending_path), str(dest))
+                    log.info(f"  → Moved {pending_path.name} → processed/")
+                except Exception as e:
+                    log.warning(f"  Could not move pending file {pending_path.name}: {e}")
+
             else:
                 results.append({
                     "slug": slug,
@@ -1254,6 +1357,22 @@ def main():
                 f"New: {len([r for r in succeeded if r.get('action') == 'new'])}, "
                 f"Updated: {len([r for r in succeeded if r.get('action') == 'updated'])}",
             ])
+
+        # Rebuild registry aggregates to stay in sync
+        if succeeded:
+            log.info("\nRebuilding registry aggregates...")
+            try:
+                result = subprocess.run(
+                    ["node", str(PROJECT_ROOT / "scripts" / "rebuild-registry.js")],
+                    capture_output=True, text=True, timeout=30,
+                    cwd=str(PROJECT_ROOT),
+                )
+                if result.returncode == 0:
+                    log.info("Registry rebuilt successfully")
+                else:
+                    log.warning(f"rebuild-registry.js failed: {result.stderr[:200]}")
+            except Exception as e:
+                log.warning(f"Could not run rebuild-registry.js: {e}")
 
     finally:
         # ─── Release Lock ─────────────────────────────────────────────────

@@ -1,0 +1,41 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "wired",
+  "sourceName": "Wired",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "None",
+  "newScannedThrough": "Wired January/February 2026 issue + The Wired World in 2026 special edition",
+  "newContent": [
+    {
+      "title": "Wired January/February 2026: China's DeepSeek & AI Innovation",
+      "date": "2026-01-01",
+      "relevance": "HIGH",
+      "notes": "Feature on DeepSeek's unique corporate structure - hedge fund subsidiary model (High-Flyer) that allows prioritizing research over commercialization. Structural innovation: parent company is quant hedge fund controlled by founder Liang Wenfeng, avoiding external investor pressure. Potential specimen: DeepSeek."
+    },
+    {
+      "title": "The Wired World in 2026: AI in Policymaking & Governance",
+      "date": "2025-12-01",
+      "relevance": "MEDIUM",
+      "notes": "Annual trends briefing covering AI moving beyond automation into governance. Governments experimenting with AI systems for legislation drafting, resource optimization. More about public sector than corporate organizational structure."
+    },
+    {
+      "title": "AI Lobbying & Regulation Landscape",
+      "date": "2026-02-01",
+      "relevance": "LOW",
+      "notes": "Coverage of OpenAI and Meta deploying super-PACs. Policy/regulatory focus rather than internal organizational structure. Not directly relevant to specimen collection."
+    }
+  ],
+  "candidateSpecimens": [
+    {
+      "name": "DeepSeek",
+      "rationale": "Unique structural model: hedge fund (High-Flyer) subsidiary structure allows research-first orientation without VC pressure. Founded April 2023, incorporated July 2023. CEO Liang Wenfeng maintains control through parent company. Caused $600B NVIDIA market cap loss in Jan 2025 due to efficiency breakthroughs. Distinct from US AI lab models (OpenAI/Anthropic). Chinese context may limit evidence access but structural innovation is noteworthy.",
+      "priority": "MEDIUM",
+      "barriers": "Limited English-language interview transcripts; Chinese government approval dynamics; may not fit Western corporate governance frames"
+    }
+  ],
+  "summary": "First scan of Wired. Primary finding: DeepSeek corporate structure as hedge fund subsidiary is structurally distinctive - prioritizes research over commercialization by design. The Wired World in 2026 special edition has broad AI governance trends but less organizational detail. No major gaps in existing specimens identified. DeepSeek could be a candidate specimen for 'AI Lab (Pure Research)' model if sufficient evidence can be gathered.",
+  "recommendedActions": [
+    "Consider adding DeepSeek as candidate specimen - unique hedge fund subsidiary model",
+    "Schedule Wired re-scan for April 2026 (quarterly)"
+  ]
+}

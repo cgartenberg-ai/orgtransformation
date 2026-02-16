@@ -153,8 +153,18 @@ If you classified as M1 (Research Lab), ask: Is the AI unit's primary integratio
 **Guardrail 4: Prestige Bias Check**
 M1 (Research Lab) is the most commonly over-applied model. Before finalizing M1, verify: Is the unit truly *ring-fenced and separated*, or is it integrated into the broader organization's workflow? Does it have academic culture, publications, and multi-year horizons as primary outputs?
 
-**Guardrail 5: AI-Native Scope Check**
-If the specimen is a standalone AI startup (no legacy business to balance), it may not exhibit ambidexterity tension. Tag `habitat.orgType: "AI-native"` and note that the ambidexterity framing applies differently. These specimens are valuable as competitive threat reference points for AI-adopter organizations.
+**Guardrail 5: AI-Native Prestige Trap (M9 scope)**
+M9 (AI-Native) is reserved for organizations whose **founding purpose was AI/ML** — companies that were born to build AI, not companies that adopted AI early or use AI extensively. The test is: *Was this company founded specifically to build AI/ML systems, or was it founded to solve a non-AI problem and later adopted AI as a capability?*
+
+Common false M9 patterns:
+- **Data/analytics companies that added AI later** (e.g., Palantir: founded 2003 for data integration, added AIP in 2023 as GenAI response) → M6b, not M9
+- **Tech companies where ML is part of the toolkit** (e.g., using ML for recommendations, fraud detection, optimization) → classify by AI *structure*, not AI *usage*
+- **Companies that retroactively reframe their history as "always AI"** — if the company didn't mention AI/ML in founding materials and only adopted AI language post-2020, it's not AI-native regardless of current rhetoric
+- **Companies with extensive AI capabilities but pre-AI founding purpose** — even if "the entire company does AI now," the organizational transformation from non-AI to AI is the phenomenon we study (M1-M8), not M9
+
+True M9 examples: Anthropic (founded 2021 to build safe AI), OpenAI (founded 2015 to build AGI), Recursion Pharmaceuticals (founded 2013 as AI-first drug discovery). The founding charter must be AI/ML.
+
+If a standalone AI startup has no legacy business to balance, it may not exhibit the exploration/execution tension that other models address. Tag these and note that the ambidexterity framing applies differently — they are valuable as competitive reference points for AI-adopter organizations.
 
 **Guardrail 6: One-Time Event vs. Temporal Orientation**
 If you assigned Temporal orientation, ask: Is the organization *cycling* between exploration and execution, or did it make a *one-time pivot*? A single dramatic transformation (e.g., "refounded for AI in 72 hours") is not temporal cycling. If individuals now balance both in their daily roles, the orientation is Contextual.
@@ -168,6 +178,9 @@ If you classified as M4 (Hub-and-Spoke), ask: Does the "hub" provide *shared AI 
 - Research lab + independent product teams = M1+M3 (not M4)
 - AI product embedded in platform + enterprise mandate = M5+M6a (not M4)
 - CoE that sets standards + embedded teams that build independently = M2+M3 (not M4)
+
+**Guardrail 9: No Government Entities**
+Government entities (federal agencies, state/regional governments, military branches, regulatory bodies) are NOT valid specimens. Their AI adoption is mandate-driven, not market-driven — they face fundamentally different incentive structures, accountability mechanisms, and resource allocation constraints than organizations operating in competitive markets. If the entity is a government body at any level, do not create a specimen. If one already exists, mark it `"status": "Inactive"`. Note: government-adjacent entities (e.g., government contractors like Lockheed Martin, Anduril) ARE valid — they are market participants even though their customer is government.
 
 ### Step 3: Assign Ambidexterity Orientation
 

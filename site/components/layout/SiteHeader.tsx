@@ -3,11 +3,11 @@ import Link from "next/link";
 const navItems = [
   { href: "/specimens", label: "Specimens" },
   { href: "/taxonomy", label: "Taxonomy" },
+  { href: "/framework", label: "Framework" },
+  { href: "/findings", label: "Findings" },
   { href: "/mechanisms", label: "Principles" },
-  { href: "/insights", label: "Insights" },
   { href: "/tensions", label: "Tensions" },
   { href: "/purpose-claims", label: "Purpose Claims" },
-  { href: "/field-journal", label: "Field Journal" },
   { href: "/compare", label: "Compare" },
   { href: "/about", label: "About" },
 ];

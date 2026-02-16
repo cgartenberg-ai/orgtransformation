@@ -1,0 +1,99 @@
+{
+  "$schema": "./specimen-schema.json",
+  "id": "fda-hhs",
+  "name": "FDA / HHS",
+  "title": "Federal Health Agency CAIO Appointments Under Executive Order",
+  "classification": {
+    "structuralModel": 2,
+    "structuralModelName": "Center of Excellence",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": null,
+    "secondaryModelName": null,
+    "orientation": "Structural",
+    "confidence": "Low",
+    "classificationRationale": "Decision tree: Formal AI unit=YES (CAIO role established under executive order mandate) \u2192 Publishes research=NO \u2192 Central team=YES (CAIO + IT dual-hat at FDA) \u2192 Builds or enables=ENABLES (AI-assisted review adoption, internal AI tools) \u2192 M2 Center of Excellence. Low confidence because data is thin \u2014 single press source on CAIO appointments. The dual-hatting of CAIO with Head of IT at FDA suggests AI governance embedded in existing IT structure rather than a separate function. Guardrail 4 checked: not over-applying M1 \u2014 these are internal adoption roles, not research functions.",
+    "typeSpecimen": false
+  },
+  "habitat": {
+    "industry": "Government",
+    "sector": "Federal Health / Regulatory",
+    "orgSize": "Enterprise",
+    "employees": null,
+    "revenue": null,
+    "headquarters": "Washington, DC / Silver Spring, MD",
+    "geography": "North America"
+  },
+  "description": "FDA appointed Jeremy Walsh as its first Chief AI Officer and Head of IT (dual-hat role combining AI leadership with IT governance). HHS designated Peter Bowman-Davis as acting Chief AI Officer. Both roles support internal AI adoption, not external regulatory oversight of AI \u2014 an important distinction for a regulatory agency. FDA completed its first AI-assisted scientific review and targets agency-wide AI-assisted review by summer 2026. Both appointments follow the Trump administration executive order requiring all federal agencies to appoint CAIOs by June 2, 2025. Walsh's background is in federal health contracting and IT, not AI research \u2014 positioning this as an operations/governance function rather than a technical innovation function.",
+  "observableMarkers": {
+    "reportingStructure": "FDA CAIO Jeremy Walsh dual-hatted as Head of IT. HHS acting CAIO Peter Bowman-Davis. Both internal-facing AI adoption roles, not external AI regulatory oversight.",
+    "resourceAllocation": null,
+    "timeHorizons": "FDA targeting agency-wide AI-assisted review by summer 2026.",
+    "decisionRights": "Mandated by executive order \u2014 top-down structural imposition rather than organic adoption.",
+    "metrics": "FDA completed first AI-assisted scientific review (February 2026). Target: agency-wide AI-assisted review by summer 2026."
+  },
+  "mechanisms": [],
+  "quotes": [
+    {
+      "speaker": "Marty Makary",
+      "speakerTitle": "FDA Commissioner",
+      "quote": "FDA completed its first AI-assisted scientific review this week, with a goal to implement AI-assisted review agency-wide by this summer.",
+      "source": "Akin Gump \u2014 Eye on FDA",
+      "sourceUrl": "https://www.akingump.com/en/insights/blogs/eye-on-fda/fda-and-hhs-appoint-ai-chiefs",
+      "date": "2026-02"
+    }
+  ],
+  "layers": [
+    {
+      "date": "2026-02",
+      "label": "Initial Documentation \u2014 Federal CAIO Appointments",
+      "summary": "FDA appointed Jeremy Walsh as first CAIO + Head of IT. HHS designated Peter Bowman-Davis as acting CAIO. Both roles mandate internal AI adoption under executive order. FDA completed first AI-assisted scientific review.",
+      "classification": null,
+      "sourceRefs": [
+        "akingump-fda-hhs-caio-2026"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "akingump-fda-hhs-caio-2026",
+      "type": "Press",
+      "name": "Akin Gump \u2014 FDA and HHS Appoint AI Chiefs",
+      "url": "https://www.akingump.com/en/insights/blogs/eye-on-fda/fda-and-hhs-appoint-ai-chiefs",
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-15"
+    }
+  ],
+  "contingencies": {
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": null,
+    "ceoTenure": null,
+    "talentMarketPosition": null,
+    "technicalDebt": "High",
+    "environmentalAiPull": "Moderate"
+  },
+  "tensionPositions": {
+    "structuralVsContextual": null,
+    "speedVsDepth": null,
+    "centralVsDistributed": null,
+    "namedVsQuiet": null,
+    "longVsShortHorizon": null
+  },
+  "openQuestions": [
+    "How does the dual-hatting of CAIO with Head of IT affect the AI function \u2014 does IT governance constrain or enable AI adoption?",
+    "What is the relationship between FDA's internal AI adoption and its external AI regulatory posture?",
+    "How are individual agencies implementing the CAIO executive order differently?",
+    "What resources are allocated to the CAIO function beyond the executive order mandate?"
+  ],
+  "taxonomyFeedback": [
+    "Federal government CAIO mandates represent a distinctive structural pattern: top-down imposition of AI leadership roles via executive order, rather than organic adoption. This creates a natural experiment in how mandated vs. voluntary AI structures differ in effectiveness.",
+    "The dual-hatting of CAIO with IT leadership (FDA) vs. standalone acting CAIO (HHS) is an interesting comparison within the same regulatory framework."
+  ],
+  "meta": {
+    "status": "Inactive",
+    "created": "2026-02-15",
+    "lastUpdated": "2026-02-15",
+    "completeness": "Low",
+    "convertedFrom": null
+  }
+}

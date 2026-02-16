@@ -1,30 +1,32 @@
 {
   "description": "Specimen Registry — tracks all specimens in the herbarium. Auto-rebuilt by rebuild-registry.js.",
-  "lastUpdated": "2026-02-14",
-  "totalSpecimens": 143,
-  "totalFiles": 148,
-  "inactiveCount": 5,
+  "lastUpdated": "2026-02-15",
+  "totalSpecimens": 157,
+  "totalFiles": 164,
+  "inactiveCount": 7,
   "byModel": {
-    "1": 12,
-    "2": 20,
-    "3": 14,
-    "4": 47,
+    "1": 13,
+    "2": 19,
+    "3": 12,
+    "4": 54,
     "5": 16,
-    "6": 23,
+    "6": 32,
     "9": 10
   },
   "byOrientation": {
-    "Structural": 94,
-    "Contextual": 43,
-    "Temporal": 4
+    "Structural": 97,
+    "Contextual": 53,
+    "Temporal": 5
   },
   "typeSpecimens": [
     "anduril",
     "bank-of-america",
     "blue-origin",
     "google-x",
+    "nvidia",
     "pg-chatpg",
-    "samsung-c-lab"
+    "samsung-c-lab",
+    "shopify"
   ],
   "specimens": [
     {
@@ -127,8 +129,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-13",
-      "layerCount": 9,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 10,
       "completeness": "High",
       "confidence": "High"
     },
@@ -193,6 +195,51 @@
       "confidence": "Medium"
     },
     {
+      "id": "arm-holdings",
+      "name": "Arm Holdings",
+      "structuralModel": 4,
+      "subType": null,
+      "secondaryModel": null,
+      "orientation": "Structural",
+      "typeSpecimen": false,
+      "status": "Stub",
+      "created": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "layerCount": 1,
+      "completeness": "Low",
+      "confidence": "Low"
+    },
+    {
+      "id": "asml",
+      "name": "ASML",
+      "structuralModel": 6,
+      "subType": "6b",
+      "secondaryModel": null,
+      "orientation": "Contextual",
+      "typeSpecimen": false,
+      "status": "Active",
+      "created": "2026-02-14",
+      "lastUpdated": "2026-02-15",
+      "layerCount": 2,
+      "completeness": "Medium",
+      "confidence": "Medium"
+    },
+    {
+      "id": "astrazeneca",
+      "name": "AstraZeneca",
+      "structuralModel": 4,
+      "subType": null,
+      "secondaryModel": null,
+      "orientation": "Structural",
+      "typeSpecimen": false,
+      "status": "Active",
+      "created": "2026-02-14",
+      "lastUpdated": "2026-02-14",
+      "layerCount": 1,
+      "completeness": "High",
+      "confidence": "High"
+    },
+    {
       "id": "atlassian",
       "name": "Atlassian",
       "structuralModel": 4,
@@ -202,10 +249,25 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
+      "lastUpdated": "2026-02-15",
+      "layerCount": 2,
+      "completeness": "High",
+      "confidence": "High"
+    },
+    {
+      "id": "baker-mckenzie",
+      "name": "Baker McKenzie",
+      "structuralModel": 6,
+      "subType": "6a",
+      "secondaryModel": null,
+      "orientation": "Contextual",
+      "typeSpecimen": false,
+      "status": "Stub",
+      "created": "2026-02-15",
+      "lastUpdated": "2026-02-15",
       "layerCount": 1,
       "completeness": "Low",
-      "confidence": "Medium"
+      "confidence": "Low"
     },
     {
       "id": "bank-of-america",
@@ -315,17 +377,32 @@
     {
       "id": "bytedance",
       "name": "ByteDance Volcano Engine",
-      "structuralModel": 5,
-      "subType": "5c",
-      "secondaryModel": null,
+      "structuralModel": 1,
+      "subType": null,
+      "secondaryModel": 4,
       "orientation": "Structural",
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
-      "layerCount": 2,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 3,
+      "completeness": "High",
+      "confidence": "High"
+    },
+    {
+      "id": "capgemini",
+      "name": "Capgemini",
+      "structuralModel": 6,
+      "subType": "6a",
+      "secondaryModel": null,
+      "orientation": "Contextual",
+      "typeSpecimen": false,
+      "status": "Stub",
+      "created": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "layerCount": 1,
       "completeness": "Low",
-      "confidence": "Medium"
+      "confidence": "Low"
     },
     {
       "id": "cedars-sinai",
@@ -390,17 +467,17 @@
     {
       "id": "coca-cola",
       "name": "Coca-Cola",
-      "structuralModel": 4,
-      "subType": null,
+      "structuralModel": 6,
+      "subType": "6b",
       "secondaryModel": null,
-      "orientation": "Structural",
+      "orientation": "Contextual",
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-12",
-      "layerCount": 1,
-      "completeness": "Low",
-      "confidence": "Low"
+      "lastUpdated": "2026-02-15",
+      "layerCount": 2,
+      "completeness": "High",
+      "confidence": "Medium"
     },
     {
       "id": "cognizant",
@@ -415,6 +492,36 @@
       "lastUpdated": "2026-02-09",
       "layerCount": 1,
       "completeness": "Low",
+      "confidence": "Medium"
+    },
+    {
+      "id": "columbia-group",
+      "name": "Columbia Group",
+      "structuralModel": 2,
+      "subType": null,
+      "secondaryModel": null,
+      "orientation": "Structural",
+      "typeSpecimen": false,
+      "status": "Stub",
+      "created": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "layerCount": 1,
+      "completeness": "Low",
+      "confidence": "Low"
+    },
+    {
+      "id": "comcast---nbcuniversal",
+      "name": "Comcast / NBCUniversal",
+      "structuralModel": 5,
+      "subType": "5a",
+      "secondaryModel": 6,
+      "orientation": "Structural",
+      "typeSpecimen": false,
+      "status": "Active",
+      "created": "2026-02-14",
+      "lastUpdated": "2026-02-14",
+      "layerCount": 1,
+      "completeness": "Medium",
       "confidence": "Medium"
     },
     {
@@ -510,17 +617,17 @@
     {
       "id": "deloitte",
       "name": "Deloitte",
-      "structuralModel": 2,
+      "structuralModel": 4,
       "subType": null,
-      "secondaryModel": null,
-      "orientation": "Structural",
+      "secondaryModel": 2,
+      "orientation": "Contextual",
       "typeSpecimen": false,
       "status": "Stub",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
-      "layerCount": 2,
-      "completeness": "Low",
-      "confidence": "Low"
+      "lastUpdated": "2026-02-15",
+      "layerCount": 3,
+      "completeness": "High",
+      "confidence": "Medium"
     },
     {
       "id": "delta-air-lines",
@@ -547,8 +654,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-12",
-      "layerCount": 2,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 3,
       "completeness": "High",
       "confidence": "High"
     },
@@ -585,16 +692,16 @@
     {
       "id": "duolingo",
       "name": "Duolingo",
-      "structuralModel": 3,
-      "subType": null,
+      "structuralModel": 6,
+      "subType": "6c",
       "secondaryModel": null,
       "orientation": "Contextual",
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
-      "layerCount": 2,
-      "completeness": "Low",
+      "lastUpdated": "2026-02-15",
+      "layerCount": 3,
+      "completeness": "High",
       "confidence": "Medium"
     },
     {
@@ -607,8 +714,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-12",
-      "layerCount": 6,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 7,
       "completeness": "High",
       "confidence": "High"
     },
@@ -643,6 +750,21 @@
       "confidence": "Low"
     },
     {
+      "id": "fda-hhs",
+      "name": "FDA / HHS",
+      "structuralModel": 2,
+      "subType": null,
+      "secondaryModel": null,
+      "orientation": "Structural",
+      "typeSpecimen": false,
+      "status": "Inactive",
+      "created": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "layerCount": 1,
+      "completeness": "Low",
+      "confidence": "Low"
+    },
+    {
       "id": "fedex",
       "name": "FedEx",
       "structuralModel": 2,
@@ -671,6 +793,21 @@
       "layerCount": 1,
       "completeness": "Medium",
       "confidence": "Medium"
+    },
+    {
+      "id": "forrester",
+      "name": "Forrester Research",
+      "structuralModel": 6,
+      "subType": "6b",
+      "secondaryModel": 5,
+      "orientation": "Contextual",
+      "typeSpecimen": false,
+      "status": "Stub",
+      "created": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "layerCount": 1,
+      "completeness": "Low",
+      "confidence": "Low"
     },
     {
       "id": "general-motors",
@@ -757,8 +894,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-12",
-      "layerCount": 7,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 8,
       "completeness": "High",
       "confidence": "Medium"
     },
@@ -885,16 +1022,16 @@
     {
       "id": "infosys",
       "name": "Infosys",
-      "structuralModel": 2,
+      "structuralModel": 4,
       "subType": null,
-      "secondaryModel": null,
+      "secondaryModel": 2,
       "orientation": "Structural",
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-13",
-      "layerCount": 3,
-      "completeness": "Low",
+      "lastUpdated": "2026-02-15",
+      "layerCount": 4,
+      "completeness": "High",
       "confidence": "Medium"
     },
     {
@@ -907,8 +1044,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-12",
-      "layerCount": 2,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 3,
       "completeness": "High",
       "confidence": "Medium"
     },
@@ -1057,8 +1194,23 @@
       "typeSpecimen": false,
       "status": "Stub",
       "created": "2026-02-09",
-      "lastUpdated": "2026-02-13",
+      "lastUpdated": "2026-02-15",
       "layerCount": 2,
+      "completeness": "Low",
+      "confidence": "Low"
+    },
+    {
+      "id": "liverpool-city-region",
+      "name": "Liverpool City Region Combined Authority",
+      "structuralModel": 2,
+      "subType": null,
+      "secondaryModel": null,
+      "orientation": "Structural",
+      "typeSpecimen": false,
+      "status": "Inactive",
+      "created": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "layerCount": 1,
       "completeness": "Low",
       "confidence": "Low"
     },
@@ -1222,8 +1374,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-13",
-      "layerCount": 10,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 11,
       "completeness": "High",
       "confidence": "High"
     },
@@ -1252,8 +1404,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-04",
-      "layerCount": 5,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 6,
       "completeness": "Medium",
       "confidence": "Medium"
     },
@@ -1267,8 +1419,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 4,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 5,
       "completeness": "Medium",
       "confidence": "Medium"
     },
@@ -1348,6 +1500,21 @@
       "confidence": "Low"
     },
     {
+      "id": "nextera-energy",
+      "name": "NextEra Energy",
+      "structuralModel": 6,
+      "subType": "6b",
+      "secondaryModel": null,
+      "orientation": "Contextual",
+      "typeSpecimen": false,
+      "status": "Active",
+      "created": "2026-02-14",
+      "lastUpdated": "2026-02-14",
+      "layerCount": 1,
+      "completeness": "Medium",
+      "confidence": "Medium"
+    },
+    {
       "id": "nike",
       "name": "Nike",
       "structuralModel": 2,
@@ -1402,10 +1569,10 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-09",
-      "layerCount": 3,
-      "completeness": "Low",
-      "confidence": "Medium"
+      "lastUpdated": "2026-02-15",
+      "layerCount": 4,
+      "completeness": "High",
+      "confidence": "High"
     },
     {
       "id": "ntt-data",
@@ -1429,13 +1596,13 @@
       "subType": null,
       "secondaryModel": 9,
       "orientation": "Structural",
-      "typeSpecimen": false,
+      "typeSpecimen": true,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-12",
-      "layerCount": 3,
-      "completeness": "Low",
-      "confidence": "Medium"
+      "lastUpdated": "2026-02-15",
+      "layerCount": 5,
+      "completeness": "High",
+      "confidence": "High"
     },
     {
       "id": "openai-microsoft",
@@ -1450,6 +1617,21 @@
       "lastUpdated": "2026-01-31",
       "layerCount": 3,
       "completeness": "Low",
+      "confidence": "Medium"
+    },
+    {
+      "id": "palantir",
+      "name": "Palantir",
+      "structuralModel": 6,
+      "subType": "6b",
+      "secondaryModel": null,
+      "orientation": "Contextual",
+      "typeSpecimen": false,
+      "status": "Active",
+      "created": "2026-02-14",
+      "lastUpdated": "2026-02-15",
+      "layerCount": 2,
+      "completeness": "High",
       "confidence": "Medium"
     },
     {
@@ -1633,6 +1815,21 @@
       "confidence": "Medium"
     },
     {
+      "id": "rivian",
+      "name": "Rivian",
+      "structuralModel": 4,
+      "subType": null,
+      "secondaryModel": 5,
+      "orientation": "Structural",
+      "typeSpecimen": false,
+      "status": "Active",
+      "created": "2026-02-14",
+      "lastUpdated": "2026-02-14",
+      "layerCount": 1,
+      "completeness": "High",
+      "confidence": "High"
+    },
+    {
       "id": "roche-genentech",
       "name": "Roche / Genentech",
       "structuralModel": 3,
@@ -1672,8 +1869,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-13",
-      "layerCount": 7,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 8,
       "completeness": "High",
       "confidence": "Medium"
     },
@@ -1770,17 +1967,17 @@
     {
       "id": "shopify",
       "name": "Shopify",
-      "structuralModel": 3,
-      "subType": null,
+      "structuralModel": 6,
+      "subType": "6a",
       "secondaryModel": null,
       "orientation": "Contextual",
-      "typeSpecimen": false,
+      "typeSpecimen": true,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
-      "layerCount": 3,
-      "completeness": "Low",
-      "confidence": "Medium"
+      "lastUpdated": "2026-02-15",
+      "layerCount": 5,
+      "completeness": "High",
+      "confidence": "High"
     },
     {
       "id": "siemens",
@@ -1792,10 +1989,10 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-12",
-      "layerCount": 2,
-      "completeness": "Low",
-      "confidence": "Medium"
+      "lastUpdated": "2026-02-15",
+      "layerCount": 3,
+      "completeness": "High",
+      "confidence": "High"
     },
     {
       "id": "sierra-ai",
@@ -1843,6 +2040,21 @@
       "confidence": "Low"
     },
     {
+      "id": "spotify",
+      "name": "Spotify",
+      "structuralModel": 4,
+      "subType": null,
+      "secondaryModel": null,
+      "orientation": "Contextual",
+      "typeSpecimen": false,
+      "status": "Active",
+      "created": "2026-02-14",
+      "lastUpdated": "2026-02-14",
+      "layerCount": 1,
+      "completeness": "High",
+      "confidence": "High"
+    },
+    {
       "id": "ssi",
       "name": "Safe Superintelligence Inc. (SSI)",
       "structuralModel": 9,
@@ -1870,6 +2082,21 @@
       "lastUpdated": "2026-02-02",
       "layerCount": 1,
       "completeness": "Low",
+      "confidence": "Medium"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "structuralModel": 4,
+      "subType": null,
+      "secondaryModel": null,
+      "orientation": "Contextual",
+      "typeSpecimen": false,
+      "status": "Active",
+      "created": "2026-02-14",
+      "lastUpdated": "2026-02-14",
+      "layerCount": 1,
+      "completeness": "High",
       "confidence": "Medium"
     },
     {
@@ -2092,8 +2319,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-02-01",
-      "layerCount": 2,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 3,
       "completeness": "Medium",
       "confidence": "Medium"
     },
@@ -2128,6 +2355,21 @@
       "confidence": "Low"
     },
     {
+      "id": "verses-ai",
+      "name": "VERSES AI Inc.",
+      "structuralModel": 5,
+      "subType": "5a",
+      "secondaryModel": null,
+      "orientation": "Temporal",
+      "typeSpecimen": false,
+      "status": "Stub",
+      "created": "2026-02-15",
+      "lastUpdated": "2026-02-15",
+      "layerCount": 1,
+      "completeness": "Low",
+      "confidence": "Low"
+    },
+    {
       "id": "visa",
       "name": "Visa",
       "structuralModel": 4,
@@ -2145,17 +2387,17 @@
     {
       "id": "walmart",
       "name": "Walmart",
-      "structuralModel": 5,
-      "subType": "5c",
-      "secondaryModel": null,
+      "structuralModel": 4,
+      "subType": null,
+      "secondaryModel": 5,
       "orientation": "Structural",
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-01-31",
-      "lastUpdated": "2026-01-31",
-      "layerCount": 2,
-      "completeness": "Low",
-      "confidence": "Medium"
+      "lastUpdated": "2026-02-15",
+      "layerCount": 4,
+      "completeness": "High",
+      "confidence": "High"
     },
     {
       "id": "washington-post",
@@ -2212,8 +2454,8 @@
       "typeSpecimen": false,
       "status": "Stub",
       "created": "2026-02-04",
-      "lastUpdated": "2026-02-13",
-      "layerCount": 3,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 4,
       "completeness": "Low",
       "confidence": "Low"
     },
@@ -2242,8 +2484,8 @@
       "typeSpecimen": false,
       "status": "Active",
       "created": "2026-02-13",
-      "lastUpdated": "2026-02-13",
-      "layerCount": 3,
+      "lastUpdated": "2026-02-15",
+      "layerCount": 4,
       "completeness": "High",
       "confidence": "High"
     }

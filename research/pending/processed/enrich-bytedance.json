@@ -1,0 +1,131 @@
+{
+  "company": "ByteDance",
+  "enrichmentDate": "2026-02-14",
+  "mode": "enrich",
+  "searchesCompleted": 5,
+  "urlsFetched": 5,
+  "fetchFailures": ["finance.yahoo.com/news/bytedance-ceo-mad-employees-missing-090505112.html (header check error)"],
+
+  "newFindings": {
+    "teamStructure": "Major restructuring: ByteDance AI Lab (est. 2016, peaked at ~150 researchers) is now fully integrated into the Seed team. Seed was established in 2023 and has 8 research directions: LLM, Infrastructure, Vision, Speech, Multimodal Interaction & World Model, AI for Science, Robotics, and Responsible AI. The original AI division 'Flow' (late 2023) split into three units: Flow (application), Seed (foundational models), and Stone (infrastructure/tooling). Labs in China, Singapore, US and other locations.",
+    "keyPeople": [
+      {"name": "Wu Yonghui", "title": "Head of Fundamental Research at Seed", "role": "Former Google Fellow (17 years at Google/DeepMind); reports directly to CEO Liang Rubo (bypassing Seed head Zhu Wenjia). Joined February 2025 and is driving the restructuring.", "isNew": true},
+      {"name": "Zhu Wenjia", "title": "Head of Seed", "role": "Now focuses on technology application rather than basic research after Wu Yonghui's arrival", "isNew": true},
+      {"name": "Li Hang", "title": "Head of Research / Director of AI Lab", "role": "Now reports to Wu Yonghui (previously reported to Zhu). Transitioned to labor/consulting role as of late 2025. Led NLP group (~100 members)", "isNew": true},
+      {"name": "Xiang Liang", "title": "Head of Applied Machine Learning", "role": "Led development of Doubao LLM. Now reports to Wu Yonghui instead of Zhu Wenjia", "isNew": true},
+      {"name": "Kelly Zhang Nan", "title": "Former Douyin CEO", "role": "Now spearheading Jimeng AI platform development", "isNew": true},
+      {"name": "Tan Dai", "title": "President, Volcano Engine", "role": "Leads ByteDance's cloud/AI services unit", "isNew": true},
+      {"name": "Chen Zhijie", "title": "Former TikTok Algorithm Head", "role": "Left ByteDance in late 2024, launched new AI coding venture", "isNew": true},
+      {"name": "Ma Weiying", "title": "Former AI Lab Director", "role": "Led original AI Lab from 2016, departed 2020", "isNew": false}
+    ],
+    "investmentSignals": "Much more detailed breakdown now available: 2024 AI spend was ~$11B (80B yuan). 2025 AI infra spend was ~$21B (150B yuan), including $12B for AI infrastructure, $5.5B for China chip purchases (doubled YoY), $6.8B for overseas AI capacity. 2026 planned capex: $23B (160B yuan), with ~$12B (85B yuan) specifically for AI processors. Purchased 230,000 GPUs (mostly H20) from Nvidia in 2024. Planning preliminary order of 20,000 H200 chips ($20K each). Spent ~$150M (RMB 1B) promoting Doubao across app network. Also investing $2B for AI hub in Malaysia. Negotiating with Broadcom for custom AI chip design. Working with TSMC on self-designed AI chips targeting mass production by 2026.",
+    "recentDevelopments": "Major structural shift in Feb 2025 when Wu Yonghui joined from Google DeepMind. Li Hang transitioned from Head of AI Lab to consulting role as AI Lab fully merged into Seed. 'Seed-Edge' research initiative launched to push frontier intelligence after being outpaced by DeepSeek. Trust and safety teams facing job cuts across Asia, US, Europe, Middle East, Africa. Released Seed-Thinking-1.5 (reasoning model outpacing DeepSeek-R1), Doubao-1.5-Pro (multimodal), and Seedance 2.0 (video generation, Feb 2026). December 2025 launched AI voice assistant in Chinese smartphones starting with ZTE Nubia M153.",
+    "observableMarkers": {
+      "reportingStructure": "NEW: Wu Yonghui reports DIRECTLY to CEO Liang Rubo, bypassing normal chain (Seed head Zhu Wenjia). This elevated reporting line for AI research is a key structural signal. Multiple team leads (Li Hang, Xiang Liang) now report to Wu rather than Zhu. Division of labor: Zhu handles application, Wu handles basic research.",
+      "resourceAllocation": "NEW: $23B planned 2026 capex (up from $21B in 2025). ~$12B for AI processors alone. 230,000 GPUs purchased in 2024. Custom chip development with TSMC. $2B Malaysia AI hub. The scale of hardware investment suggests significant centralization of AI compute resources.",
+      "timeHorizons": "NEW: Liang explicitly stated ByteDance will focus on 'pursuing the upper limits of intelligence this year, rather than chasing the daily active users of any specific product.' This is exploration-over-exploitation orientation. Seed-Edge launched for long-term frontier research.",
+      "decisionRights": "NEW: The Wu Yonghui direct-to-CEO reporting line suggests founder-level decision rights for AI research. Zhang Yiming (founder) remains actively involved - reads AI research daily, meets with global AI experts. This is founder-led AI strategy, not delegated to business units.",
+      "metrics": "Existing metrics confirmed (172M Doubao MAUs, token usage). NEW: Company is now de-emphasizing DAU metrics for AI products. By Oct 2025, ByteDance AI consumed 30T daily tokens (2nd globally after Google's 43T)."
+    },
+    "classificationUpdate": "Current M? classification should likely be updated to M1 (AI-First Core) or possibly M6 (Ambidextrous Hybrid). Evidence: (1) Founder actively directing AI initiatives, (2) CEO acknowledges AI as existential priority and criticizes org sluggishness, (3) AI research head reports directly to CEO bypassing normal hierarchy, (4) $23B annual AI investment is among highest globally, (5) Strategic pivot to 'pursuing intelligence' over product DAU metrics. This is strong M1 Structural orientation. However, the split structure (Flow for apps, Seed for research, Stone for infra) combined with the massive recommendation engine business suggests M6 could also fit."
+  },
+
+  "quotes": [
+    {
+      "text": "Our organization's reaction to new opportunities has been sluggish, lacking the sharpness of startups.",
+      "speaker": "Liang Rubo",
+      "speakerTitle": "CEO and Co-founder, ByteDance",
+      "source": "Recode China AI / Yicai Global",
+      "sourceUrl": "https://recodechinaai.substack.com/p/tiktoks-parent-bytedance-quietly",
+      "sourceDate": "2025-02",
+      "context": "All-hands meeting after DeepSeek's rise revealed ByteDance had been outpaced by leaner AI startups"
+    },
+    {
+      "text": "Our technology review only started to seriously discuss GPT in 2023, while most successful LLM startups were founded between 2018 and 2021.",
+      "speaker": "Liang Rubo",
+      "speakerTitle": "CEO and Co-founder, ByteDance",
+      "source": "Recode China AI / Yicai Global",
+      "sourceUrl": "https://recodechinaai.substack.com/p/tiktoks-parent-bytedance-quietly",
+      "sourceDate": "2025-02",
+      "context": "Same all-hands meeting, acknowledging ByteDance was late to the LLM wave"
+    },
+    {
+      "text": "ByteDance will focus on pursuing the upper limits of 'intelligence' this year, rather than chasing the daily active users of any specific product, such as its Doubao AI assistant.",
+      "speaker": "Liang Rubo",
+      "speakerTitle": "CEO and Co-founder, ByteDance",
+      "source": "Yicai Global",
+      "sourceUrl": "https://www.yicaiglobal.com/news/bytedance-was-too-slow-in-seizing-ai-opportunities-ceo-says",
+      "sourceDate": "2025-02-13",
+      "context": "Company-wide meeting on Feb 13, 2025, laying out strategic priority shift"
+    },
+    {
+      "text": "This approach will inspire more experimentation and ensure critical technological milestones are not overlooked.",
+      "speaker": "Liang Rubo",
+      "speakerTitle": "CEO and Co-founder, ByteDance",
+      "source": "Yicai Global",
+      "sourceUrl": "https://www.yicaiglobal.com/news/bytedance-was-too-slow-in-seizing-ai-opportunities-ceo-says",
+      "sourceDate": "2025-02-13",
+      "context": "Explaining rationale for deprioritizing DAU metrics in favor of intelligence frontier"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Korea Times",
+      "url": "https://www.koreatimes.co.kr/www/world/2025/02/501_392847.html",
+      "type": "Press",
+      "date": "2025-02",
+      "notes": "Key source on Wu Yonghui appointment, reporting structure changes, and team reorganization"
+    },
+    {
+      "name": "AI Base News",
+      "url": "https://test-news.aibase.com/news/17204",
+      "type": "Press",
+      "date": "2025-04",
+      "notes": "Details on AI Lab history (150 researchers at peak), merger into Seed team, Ma Weiying era"
+    },
+    {
+      "name": "Yicai Global",
+      "url": "https://www.yicaiglobal.com/news/bytedance-was-too-slow-in-seizing-ai-opportunities-ceo-says",
+      "type": "Press",
+      "date": "2025-02-13",
+      "notes": "Verbatim quotes from Liang Rubo's Feb 13 all-hands meeting"
+    },
+    {
+      "name": "ByteDance Seed official site",
+      "url": "https://seed.bytedance.com/en/",
+      "type": "Blog",
+      "date": "2026-02",
+      "notes": "Official team structure: 8 research directions, lab locations"
+    },
+    {
+      "name": "Recode China AI",
+      "url": "https://recodechinaai.substack.com/p/tiktoks-parent-bytedance-quietly",
+      "type": "Report",
+      "date": "2025-02",
+      "notes": "Comprehensive breakdown: Flow/Seed/Stone structure, investment figures, GPU counts, executive roles"
+    },
+    {
+      "name": "TrendForce",
+      "url": "https://www.trendforce.com/news/2025/12/23/news-bytedance-reportedly-to-boost-2026-ai-spend-to-23b-plans-preliminary-20k-h200-chips-order",
+      "type": "Report",
+      "date": "2025-12-23",
+      "notes": "2026 AI spending plans, chip orders"
+    }
+  ],
+
+  "summary": "ByteDance underwent major AI restructuring in February 2025 when Wu Yonghui (ex-Google Fellow) joined as Head of Fundamental Research reporting directly to CEO Liang Rubo, bypassing the normal chain of command. The original AI Lab (est. 2016, ~150 researchers at peak) has been fully merged into the Seed team. CEO Liang publicly acknowledged organizational sluggishness on AI and announced a strategic pivot to 'pursuing intelligence' over DAU metrics. Investment details now much clearer: $21B AI infra in 2025, $23B planned for 2026, 230K GPUs purchased in 2024.",
+
+  "openQuestions": [
+    "Exact current headcount of Seed team (AI Lab had 150 at peak, but post-merger size unclear)",
+    "Zhang Yiming's formal role vs informal influence on AI strategy",
+    "Status of Stone team (infrastructure) - how does it interact with Volcano Engine?",
+    "Whether the elevated Wu Yonghui reporting line persists or was transitional"
+  ],
+
+  "botanistNotes": [
+    "STRUCTURAL SIGNAL: The Wu Yonghui direct-to-CEO reporting line is highly significant - it suggests founder/CEO-level governance for AI research, which is characteristic of M1 (AI-First) specimens. This is different from housing AI in a tech platform or business unit.",
+    "FOUNDER INVOLVEMENT: Zhang Yiming's continued active involvement (reading research daily, meeting AI experts) despite stepping down as CEO suggests this is a founder-controlled AI transformation, similar to what we see in Google (Pichai/Hassabis) or Meta (Zuckerberg/LeCun). The founders don't delegate AI strategy.",
+    "CRISIS AS CATALYST: The DeepSeek shock triggered a visible organizational response - public self-criticism, restructuring, new hires, Seed-Edge initiative. This is a useful natural experiment for how large tech companies react when their AI position is threatened."
+  ]
+}

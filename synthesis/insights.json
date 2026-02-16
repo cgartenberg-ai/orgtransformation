@@ -1,6 +1,6 @@
 {
   "description": "Cross-cutting field insights discovered during synthesis — patterns that span multiple specimens, industries, or mechanisms. These are the field guide's key empirical contributions.",
-  "lastUpdated": "2026-02-13",
+  "lastUpdated": "2026-02-15",
   "insights": [
     {
       "id": "hub-spoke-rd-intensive",
@@ -2482,6 +2482,680 @@
         "The anodyne-vs-authentic question could be disambiguated by checking whether mission-anchored AI claims predict actual adoption rates — authentic mission alignment should predict faster adoption, formulaic messaging should not"
       ],
       "discoveredIn": "synthesis/sessions/2026-02-13-finserv-healthcare-botanist.md"
+    },
+    {
+      "id": "professional-services-firewall-gradient",
+      "title": "Professional Services Firms Draw AI Firewalls at the Point of Maximum Rent Extraction",
+      "theme": "organizational-form",
+      "finding": "Professional services firms create explicit or implicit boundaries between AI-automatable work and protected human expertise. The firewall position correlates with where the firm extracts economic rents: Baker McKenzie protects attorneys (billable hours), Thomson Reuters gates AI with 4K domain experts, McKinsey blurs the boundary toward 1:1 human-agent parity, Salesforce inverts the firewall (AI default, human exception at 2%), Forrester removes it entirely (product automated). The gradient runs from hardest firewalls in regulated high-rent-extraction roles to no firewall where the product itself is automated.",
+      "evidence": [
+        {
+          "specimenId": "baker-mckenzie",
+          "note": "Attorney exclusion firewall — support staff fully exposed, attorneys fully protected"
+        },
+        {
+          "specimenId": "thomson-reuters",
+          "note": "4K+ SME evaluation layer gates AI outputs before deployment"
+        },
+        {
+          "specimenId": "mckinsey",
+          "note": "Dissolving boundary — 25K agents alongside 40K humans, 1:1 target"
+        },
+        {
+          "specimenId": "salesforce",
+          "note": "Inverted firewall — 84% AI resolution, humans handle 2% escalations"
+        },
+        {
+          "specimenId": "forrester",
+          "note": "No firewall — Forrester AI product directly replaces human analyst delivery"
+        }
+      ],
+      "theoreticalConnection": "Barzel (1997) on property rights and rent extraction: the firm draws the AI boundary where human judgment is hardest to replicate and generates the highest rents.",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-a-professional-services.md",
+      "relatedTensions": [
+        1
+      ],
+      "maturity": "emerging"
+    },
+    {
+      "id": "explorer-to-operator-leadership-succession",
+      "title": "AI Product Leadership Follows an Explorer-to-Operator Succession Pattern",
+      "theme": "leadership",
+      "finding": "Salesforce cycled through three AI leaders in under three years with progressively narrowing scope: Clara Shih (CEO of Salesforce AI, visionary) → Adam Evans (EVP/GM, builder) → Madhav Thattai (EVP/GM Agentforce, operator). Each transition narrowed the mandate from strategic AI leadership to operational product management, mirroring the exploration-to-execution transition predicted by ambidexterity theory.",
+      "evidence": [
+        {
+          "specimenId": "salesforce",
+          "note": "Three AI leaders in <3 years: Shih → Evans → Thattai, progressively narrowing scope"
+        },
+        {
+          "specimenId": "thomson-reuters",
+          "note": "Inverse trajectory: Hron elevated from startup CTO through three roles (operator → visionary)"
+        }
+      ],
+      "theoreticalConnection": "Henderson and Clark on architectural innovation: organizational challenge shifts from invention to integration as technology matures. Holmstrom: visionary leaders tolerate ambiguity (incomplete contracts); operators require specified deliverables.",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-a-professional-services.md",
+      "relatedTensions": [
+        5
+      ],
+      "maturity": "emerging"
+    },
+    {
+      "id": "alliance-mediated-ai-capability",
+      "title": "Firms with High Technical Debt Default to Alliance-Mediated AI Capability",
+      "theme": "organizational-form",
+      "finding": "Kyndryl builds AI capabilities through hyperscaler partnerships (100 agents in 100 days with Google Cloud) rather than internal R&D. Hypothesis: firms with high technical debt (C5) and constrained talent markets (C4) default to alliance-mediated AI because transaction costs of partnerships are lower than internal costs of building from scratch.",
+      "evidence": [
+        {
+          "specimenId": "kyndryl",
+          "note": "Alliance-driven agent development with Google Cloud, Microsoft, NVIDIA, SAP"
+        },
+        {
+          "specimenId": "capgemini",
+          "note": "Country-specific workforce adaptation may be partner-mediated"
+        },
+        {
+          "specimenId": "nextera-energy",
+          "note": "Google Cloud partnership provides AI capability as a service"
+        }
+      ],
+      "theoreticalConnection": "Coase (1937) on boundary of the firm: alliance-mediated capability when internal costs exceed transaction costs. Williamson (1975) on asset specificity: generic AI capabilities obtainable through alliances; firm-specific must be built.",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-a-professional-services.md",
+      "relatedTensions": [
+        1,
+        3
+      ],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "healthcare-dual-authority-governance",
+      "title": "Healthcare AI Governance Consistently Produces Dual-Authority Structures",
+      "theme": "organizational-form",
+      "finding": "Healthcare AI governance produces dual-authority structures because clinical AI decisions require two types of expertise (technical and clinical) that do not co-reside in any single leader. Solutions include dual-reporting CAIO (Cedars-Sinai), multi-hub C-suite (Mayo), CAIO + CDTO (Mount Sinai), dual-hat CMIO/CAIO (Kaiser), CDAIO + CXO (CVS). This is distinct from matrix management — it distributes the governance function across two leaders with complementary domains.",
+      "evidence": [
+        {
+          "specimenId": "cedars-sinai",
+          "note": "Dual-reporting CAIO (CIO + CMO). Distributed informatics officers (CHIO, CNIO, CMIO)."
+        },
+        {
+          "specimenId": "mayo-clinic",
+          "note": "Multi-hub C-suite: CAIO + CDAO + Platform"
+        },
+        {
+          "specimenId": "mount-sinai-health-system",
+          "note": "CAIO + CDTO dual leadership"
+        },
+        {
+          "specimenId": "sutter-health",
+          "note": "Clinician-CAIO model"
+        },
+        {
+          "specimenId": "cvs-health",
+          "note": "Anti-CAIO stance but CDAIO + CXO dual structure"
+        },
+        {
+          "specimenId": "kaiser-permanente",
+          "note": "Dual-hat CMIO/CAIO — cheapest variant, absorbs AI into existing role"
+        }
+      ],
+      "theoreticalConnection": "Information cost problem: clinical AI requires bridging technical and clinical epistemologies. Dual-authority structures minimize information loss at the domain boundary.",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-c-healthcare-pharma-energy.md",
+      "relatedTensions": [
+        1,
+        3
+      ],
+      "maturity": "emerging"
+    },
+    {
+      "id": "founder-authority-m6a-regulated",
+      "title": "Founder Authority Is a Necessary Condition for M6a Contextual Adoption in Regulated Industries",
+      "theme": "contingency",
+      "finding": "Moderna (founder-led) achieved M6a contextual adoption in pharma with 100% proficiency mandate. No non-founder-led pharma company in the collection has achieved M6a. Founder authority provides the legitimacy to override organizational resistance that regulated industries impose on radical structural choices. Extends the broader founder-authority insight with a specific testable prediction about structural model boundaries.",
+      "evidence": [
+        {
+          "specimenId": "moderna",
+          "note": "Bancel (founder, 15yr) mandated 100% AI proficiency in 6 months"
+        },
+        {
+          "specimenId": "shopify",
+          "note": "Lutke (founder) imposed 'prove AI can't do it' headcount policy"
+        },
+        {
+          "specimenId": "eli-lilly",
+          "note": "Ricks (long tenure, not founder) achieved M4 deep separation, not M6a"
+        },
+        {
+          "specimenId": "astrazeneca",
+          "note": "Soriot (14yr tenure) achieved federated M4, not M6a"
+        }
+      ],
+      "theoreticalConnection": "Extends founder-authority-structural-enabler: it is not tenure length but FOUNDER STATUS that predicts whether M6a contextual ambidexterity is feasible in regulated industries.",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-c-healthcare-pharma-energy.md",
+      "relatedTensions": [
+        1
+      ],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "buy-exploration-protect-execution",
+      "title": "Media/Entertainment Companies Outsource AI Exploration While Protecting IP Execution",
+      "theme": "organizational-form",
+      "finding": "Media/entertainment companies with valuable IP systematically outsource AI exploration to external partners while keeping execution internal. The logic: building generative AI internally risks creating tools that could leak or replicate the IP moat. Partnering externalizes exploration risk while maintaining IP control through licensing. Counter-example: Netflix builds AI internally because its moat is recommendation (hard to replicate from proprietary user data), not content IP.",
+      "evidence": [
+        {
+          "specimenId": "disney",
+          "note": "$1B OpenAI/Sora partnership — buy generative capability, protect IP"
+        },
+        {
+          "specimenId": "lionsgate",
+          "note": "Runway AI model trained on proprietary content — partnership, not internal build"
+        },
+        {
+          "specimenId": "comcast---nbcuniversal",
+          "note": "LIFT Labs accelerator absorbs startup AI capabilities"
+        },
+        {
+          "specimenId": "netflix",
+          "note": "COUNTER-EXAMPLE: builds AI internally (9 research areas, AIMS, Eyeline). Moat is recommendation, not IP."
+        }
+      ],
+      "theoreticalConnection": "Teece (1986) complementary assets: when appropriability is weak (AI models replicable), firms with strong complementary assets (IP) control the assets and outsource the technology.",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-d-consumer-retail-media.md",
+      "relatedTensions": [
+        1,
+        2
+      ],
+      "maturity": "emerging"
+    },
+    {
+      "id": "technical-debt-predicts-contextual-structural",
+      "title": "Technical Debt Predicts Contextual vs. Structural AI Organizational Choice",
+      "theme": "contingency",
+      "finding": "Low-debt organizations adopt contextual models (M3/M6); high-debt organizations adopt structural models (M2/M4). The mechanism: universal AI tool provisioning (enabling contextual adoption) requires modern, homogeneous infrastructure. Legacy systems create interface complexity that demands structural separation between AI teams and operational teams. The relationship is gradient, not binary.",
+      "evidence": [
+        {
+          "specimenId": "shopify",
+          "note": "Low debt → M6a contextual. Cloud-native, modern stack."
+        },
+        {
+          "specimenId": "netflix",
+          "note": "Low debt → M3 contextual. Cloud-native, Metaflow."
+        },
+        {
+          "specimenId": "spotify",
+          "note": "Low debt → M4 contextual. Cloud-native."
+        },
+        {
+          "specimenId": "walmart",
+          "note": "High debt → M4 structural. Legacy retail systems, 10,500+ stores."
+        },
+        {
+          "specimenId": "comcast---nbcuniversal",
+          "note": "High debt → M5a structural. Legacy cable infrastructure."
+        },
+        {
+          "specimenId": "nike",
+          "note": "Medium debt → M2+M3 transitional. Intermediate position on gradient."
+        }
+      ],
+      "theoreticalConnection": "Infrastructure homogeneity as a precondition for contextual integration. Williamson's asset specificity applied to internal IT: heterogeneous legacy systems are 'specific assets' requiring dedicated governance structures.",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-d-consumer-retail-media.md",
+      "relatedTensions": [
+        1
+      ],
+      "maturity": "emerging"
+    },
+    {
+      "id": "capital-intensity-constrains-ai-structure",
+      "title": "Capital Intensity Constrains AI Structural Choice Toward Hub-and-Spoke or Embedded Models",
+      "theme": "contingency",
+      "finding": "Capital-intensive industries systematically favor M4 or M6 over M1/M5 because AI must integrate with physical infrastructure. AI is a component of the physical product, not a standalone product. The constraint operates through three channels: (1) physical infrastructure creates rigid investment cycles, (2) AI value is measurable only through operational improvements, (3) high technical debt in legacy systems forces augmentation rather than replacement.",
+      "evidence": [
+        {
+          "specimenId": "ups",
+          "note": "M6, $9B automation investment integrated with physical sorting infrastructure"
+        },
+        {
+          "specimenId": "panasonic",
+          "note": "M4, manufacturing AI must integrate with 230K-employee industrial operations"
+        },
+        {
+          "specimenId": "bosch-bcai",
+          "note": "M1+M3, research center + embedded division teams for diverse physical products"
+        },
+        {
+          "specimenId": "asml",
+          "note": "M6b, AI optimizes 100K parameters per wafer within existing lithography machines"
+        },
+        {
+          "specimenId": "rivian",
+          "note": "M4+M5, custom silicon + Large Driving Model integrated with vehicle platform"
+        },
+        {
+          "specimenId": "hp-inc",
+          "note": "M4+M5a, HP IQ lab serves physical product lines (PCs, printers)"
+        }
+      ],
+      "theoreticalConnection": "Williamson (1985) on asset specificity: capital-intensive firms have high asset specificity in physical infrastructure, constraining organizational design choices.",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-e-industrial-logistics.md",
+      "relatedTensions": [
+        1,
+        5
+      ],
+      "maturity": "emerging"
+    },
+    {
+      "id": "simultaneous-cut-and-invest",
+      "title": "Workforce Reduction and AI Investment Are Simultaneous, Not Sequential",
+      "theme": "organizational-form",
+      "finding": "Multiple specimens combine workforce reduction with AI investment in the same restructuring. This contradicts sequential models (cut first then invest, or invest first then cut) in favor of simultaneity where cost savings and capability investment are structurally intertwined. Exploitation savings fund exploration investments in the same organizational moment.",
+      "evidence": [
+        {
+          "specimenId": "ups",
+          "note": "-78K positions + $9B automation investment"
+        },
+        {
+          "specimenId": "hp-inc",
+          "note": "-4-6K positions + $116M Humane acquisition for HP IQ lab"
+        },
+        {
+          "specimenId": "asml",
+          "note": "-1,700 management positions + Google Cloud/Mistral AI partnerships"
+        },
+        {
+          "specimenId": "accenture-openai",
+          "note": "-11K positions + 77K AI hires ($865M restructuring)"
+        },
+        {
+          "specimenId": "intel",
+          "note": "-24K positions + GPU architect hire from AMD/Qualcomm"
+        }
+      ],
+      "theoreticalConnection": "March (1991) on simultaneous exploration and exploitation. The simultaneous cut-and-invest is ambidexterity at the resource allocation level.",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-e-industrial-logistics.md",
+      "relatedTensions": [
+        2,
+        5
+      ],
+      "maturity": "emerging"
+    },
+    {
+      "id": "moat-determines-ai-structure",
+      "title": "Organizations Structurally Separate AI When AI Is Constitutive of Competitive Advantage",
+      "theme": "contingency",
+      "finding": "When AI is constitutive of competitive advantage, firms structurally separate it (Arm Physical AI division, Rivian autonomy hub). When AI is complementary to a non-AI competitive advantage, firms embed AI operationally (ASML where moat is physics, NextEra where moat is physical assets). The distinguishing question: does AI define the competitive advantage or enhance a non-AI advantage?",
+      "evidence": [
+        {
+          "specimenId": "arm-holdings",
+          "note": "AI-constitutive: Physical AI division structurally separated for future AI chip architecture"
+        },
+        {
+          "specimenId": "rivian",
+          "note": "AI-constitutive: multi-hub autonomy structure, custom silicon, structural firewall for AI work"
+        },
+        {
+          "specimenId": "asml",
+          "note": "AI-complementary: moat is physics/optics, AI embedded operationally, no AI structure"
+        },
+        {
+          "specimenId": "nextera-energy",
+          "note": "AI-complementary: moat is physical assets, AI via Google Cloud partnership"
+        }
+      ],
+      "theoreticalConnection": "Teece (2007) dynamic capabilities: structural separation of AI is justified when AI is the source of dynamic capability, not when AI merely supports existing capabilities.",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-e-industrial-logistics.md",
+      "relatedTensions": [
+        1
+      ],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "machine-mediated-ambidexterity",
+      "title": "Autonomous AI Agents May Partially Resolve the Exploration-Execution Tension",
+      "theme": "organizational-form",
+      "finding": "Three very different organizations independently developed multi-agent architectures where autonomous AI agents handle routine execution (fixing bugs, processing alerts), potentially freeing human attention for exploration. If agents handle execution, the exploration/execution tension may be partially resolved through human-machine work allocation rather than organizational design.",
+      "evidence": [
+        {
+          "specimenId": "stripe",
+          "note": "'Minions' write 5% of PRs (30% during Fix-It Week) — autonomous dev agents"
+        },
+        {
+          "specimenId": "crowdstrike",
+          "note": "Charlotte AI's 12+ specialized agents orchestrate for threat detection"
+        },
+        {
+          "specimenId": "xai",
+          "note": "Macrohard aspires to staff entire software company with AI agents"
+        }
+      ],
+      "theoreticalConnection": "Smith (1776) and Becker & Murphy (1992) division of labor applied to AI systems. If execution is delegated to machines, the exploration/execution tension becomes a human-machine allocation problem rather than an organizational design problem.",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-f-new-and-reclass.md",
+      "relatedTensions": [
+        1,
+        2
+      ],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "delayering-three-mechanisms",
+      "title": "Management Delayering in the AI Era Encompasses Three Distinct Mechanisms",
+      "theme": "mechanism",
+      "finding": "AI-era management delayering is at least three distinct phenomena, not one: (1) Automation-driven substitution — AI replaces the information-aggregation function (UPS, purest Garicano mechanism); (2) Efficiency-driven simplification — management layers cut to improve speed regardless of AI (ASML, matrix-to-product reorganization); (3) Investment-driven restructuring — headcount reduction creates budget for AI capability (HP Inc., resource reallocation). The Garicano connection applies cleanly only to mechanism 1.",
+      "evidence": [
+        {
+          "specimenId": "ups",
+          "note": "Mechanism 1: AI algorithms route packages, replacing middle managers who aggregated facility data"
+        },
+        {
+          "specimenId": "asml",
+          "note": "Mechanism 2: 'trim bloat to make sure engineers can be engineers again' — matrix simplification"
+        },
+        {
+          "specimenId": "hp-inc",
+          "note": "Mechanism 3: 4-6K cuts fund $116M Humane acquisition for AI capability"
+        },
+        {
+          "specimenId": "fedex",
+          "note": "Mechanism 3 variant: worker augmentation widens spans of control, indirectly reducing management need"
+        }
+      ],
+      "theoreticalConnection": "Garicano (2000) knowledge hierarchies: mechanism 1 is direct substitution of the routing function; mechanisms 2 and 3 are organizational responses to AI that reduce management without AI directly replacing managers.",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-e-industrial-logistics.md",
+      "relatedTensions": [
+        1,
+        3
+      ],
+      "maturity": "emerging"
+    },
+    {
+      "id": "m4-overcount-discriminator",
+      "title": "Hub-and-Spoke (M4) Was Over-Applied; the Discriminating Question Is Bidirectional Coordination",
+      "theme": "taxonomy",
+      "finding": "The Feb 2026 M4 audit revealed systematic over-classification: 7 of 8 specimens in the Big Tech batch were reclassified away from M4. Any org with a named central AI function and distributed teams looks like hub-and-spoke from outside, but M4 requires active bidirectional coordination. The discriminating question: 'Does the central entity provide shared AI infrastructure that distributed units depend on?' If no → M1+M3 or M3; if the entity builds a product → M5.",
+      "evidence": [
+        {
+          "specimenId": "amazon-agi",
+          "note": "M4→M1+M3: AGI org does research, product teams do AI independently. No coordination loop."
+        },
+        {
+          "specimenId": "meta-ai",
+          "note": "M4→M1+M3: MSL is research, product teams embed AI independently."
+        },
+        {
+          "specimenId": "apple",
+          "note": "M4→M3: AI distributed across SVPs without coordinating hub."
+        },
+        {
+          "specimenId": "sap",
+          "note": "M4→M5a+M2: Joule is a product, not a hub coordinating spokes."
+        },
+        {
+          "specimenId": "servicenow",
+          "note": "M4→M5a+M6a: AI IS the product, not a separate organizational function."
+        }
+      ],
+      "theoreticalConnection": "Classification accuracy depends on distinguishing coordination mechanisms (hub-and-spoke) from colocation (research lab + embedded teams) and product development (AI product company).",
+      "discoveredIn": "synthesis/sessions/2026-02-15-batch-b-big-tech-reclass.md",
+      "relatedTensions": [
+        1,
+        3
+      ],
+      "maturity": "confirmed"
+    },
+    {
+      "id": "acqui-hire-to-cto-pipeline",
+      "title": "Acqui-Hire to CTO Pipeline",
+      "theme": "organizational-form",
+      "finding": "Organizations can acquire AI leadership by purchasing startups with talented founders, then elevating them through rapid promotions (2-3 roles in 2 years) to CTO. This path brings product-shipping experience and startup velocity to enterprise AI transformation while giving the acqui-hire full authority over AI strategy and acquisition integration.",
+      "evidence": [
+        {
+          "specimenId": "thomson-reuters",
+          "note": ""
+        },
+        {
+          "specimenId": "amazon-agi",
+          "note": ""
+        },
+        {
+          "specimenId": "google-deepmind",
+          "note": ""
+        }
+      ],
+      "theoreticalConnection": "",
+      "discoveredIn": "overnight-synthesis/2026-02-15",
+      "relatedTensions": [],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "cto/ctio-split-creates-dual-exploration-lanes",
+      "title": "CTO/CTIO Split Creates Dual Exploration Lanes",
+      "theme": "organizational-form",
+      "finding": "CrowdStrike's separation of CTO (Zaitsev — operational AI/ML, data science) from CTIO (Ionescu — technology innovation) creates two distinct exploration lanes within a single engineering organization. This is a structural nuance within the Embedded Teams (M3) model that enables both near-term AI product development and longer-horizon technology innovation without creating a separate lab or division. The pattern suggests that organizations can maintain exploration capacity within embedded structures through functional differentiation at the executive level.",
+      "evidence": [
+        {
+          "specimenId": "crowdstrike",
+          "note": ""
+        },
+        {
+          "specimenId": "google-ai-infra",
+          "note": ""
+        }
+      ],
+      "theoreticalConnection": "",
+      "discoveredIn": "overnight-synthesis/2026-02-15",
+      "relatedTensions": [],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "dual-hat-ceo-as-ai-transformation-accelerant",
+      "title": "Dual-Hat CEO as AI Transformation Accelerant",
+      "theme": "organizational-form",
+      "finding": "When parent company CEOs personally assume subsidiary CEO roles during AI transformation, they eliminate the principal-agent gap between strategy and execution. This creates maximum centralization of AI authority — the same person controls both the strategic mandate and the operational lever. The pattern appears when: (a) the subsidiary IS the AI transformation (not just participating), and (b) urgency requires bypassing normal delegation structures.",
+      "evidence": [
+        {
+          "specimenId": "recruit-holdings",
+          "note": ""
+        },
+        {
+          "specimenId": "sk-telecom",
+          "note": ""
+        }
+      ],
+      "theoreticalConnection": "",
+      "discoveredIn": "overnight-synthesis/2026-02-15",
+      "relatedTensions": [],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "acqui-hire-to-lab-pipeline",
+      "title": "Acqui-Hire-to-Lab Pipeline",
+      "theme": "organizational-form",
+      "finding": "Organizations use acquisitions not just to buy technology but to populate exploration functions with pre-formed teams. HP IQ (from Humane) and TR Labs (from ThoughtTrace) both represent acqui-hire-to-lab pathways where the acquired team becomes the nucleus of a protected exploration unit. This differs from traditional acqui-hire (individual talent absorption) — the team cohesion is preserved and channeled into a structural lab.",
+      "evidence": [
+        {
+          "specimenId": "hp-inc",
+          "note": ""
+        },
+        {
+          "specimenId": "thomson-reuters",
+          "note": ""
+        }
+      ],
+      "theoreticalConnection": "",
+      "discoveredIn": "overnight-synthesis/2026-02-15",
+      "relatedTensions": [],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "alliance-driven-capability-building",
+      "title": "Alliance-Driven Capability Building",
+      "theme": "organizational-form",
+      "finding": "Some organizations build AI capabilities primarily through deep structural partnerships rather than internal R&D or acqui-hires. Kyndryl's '100 agents in 100 days' with Google Cloud, 16,000+ Microsoft-certified employees, and NVIDIA/SAP partnerships represent a third pathway: capabilities that reside in the alliance network rather than internal teams.",
+      "evidence": [
+        {
+          "specimenId": "kyndryl",
+          "note": ""
+        },
+        {
+          "specimenId": "infosys",
+          "note": ""
+        },
+        {
+          "specimenId": "ntt-data",
+          "note": ""
+        },
+        {
+          "specimenId": "accenture-openai",
+          "note": ""
+        }
+      ],
+      "theoreticalConnection": "",
+      "discoveredIn": "overnight-synthesis/2026-02-15",
+      "relatedTensions": [],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "dual-authority-hub-in-regulated-domains",
+      "title": "Dual-Authority Hub in Regulated Domains",
+      "theme": "organizational-form",
+      "finding": "In highly regulated industries where AI decisions require multiple distinct types of authority (technical + domain-specific), organizations create dual-reporting hub leaders rather than single-authority hubs. Cedars-Sinai's CAIO reports to both CIO (technical authority) and CMO (clinical authority), explicitly institutionalizing the recognition that healthcare AI cannot be governed from either domain alone. This is a structural innovation beyond standard hub-and-spoke.",
+      "evidence": [
+        {
+          "specimenId": "cedars-sinai",
+          "note": ""
+        },
+        {
+          "specimenId": "mount-sinai-health-system",
+          "note": ""
+        },
+        {
+          "specimenId": "mayo-clinic",
+          "note": ""
+        }
+      ],
+      "theoreticalConnection": "",
+      "discoveredIn": "overnight-synthesis/2026-02-15",
+      "relatedTensions": [],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "dual-hat-leadership-as-contextual-economization",
+      "title": "Dual-Hat Leadership as Contextual Economization",
+      "theme": "organizational-form",
+      "finding": "Organizations in heavily regulated, talent-constrained environments may deliberately choose dual-hat AI leadership (CMIO/CAIO, CDO/CAIO) to economize on executive headcount while embedding AI authority within existing governance structures. This is not a failure to create dedicated AI leadership but a structural choice that trades dedicated attention for governance coherence and talent scarcity management.",
+      "evidence": [
+        {
+          "specimenId": "kaiser-permanente",
+          "note": ""
+        },
+        {
+          "specimenId": "cedars-sinai",
+          "note": ""
+        }
+      ],
+      "theoreticalConnection": "",
+      "discoveredIn": "overnight-synthesis/2026-02-15",
+      "relatedTensions": [],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "academic-medical-centers-as-ai-platform-companies",
+      "title": "Academic Medical Centers as AI Platform Companies",
+      "theme": "organizational-form",
+      "finding": "Academic medical centers with sufficient scale (1,000+ digital staff) can structurally transition from research-to-publication institutions to research-to-product platforms. The AIwithCare spinout from MGB, combined with Mayo Clinic Platform's external validation services, suggests a new structural pattern: academic medical centers leveraging clinical data, regulatory compliance infrastructure, and research validation capabilities to become platform companies that commercialize clinical AI.",
+      "evidence": [
+        {
+          "specimenId": "mass-general-brigham",
+          "note": ""
+        },
+        {
+          "specimenId": "mayo-clinic",
+          "note": ""
+        },
+        {
+          "specimenId": "mount-sinai-health-system",
+          "note": ""
+        }
+      ],
+      "theoreticalConnection": "",
+      "discoveredIn": "overnight-synthesis/2026-02-15",
+      "relatedTensions": [],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "ai-agents-as-organizational-headcount",
+      "title": "AI Agents as Organizational Headcount",
+      "theme": "organizational-form",
+      "finding": "McKinsey's explicit counting of AI agents as 'employees' (25,000 agents alongside 40,000 humans) represents a rhetorical and potentially structural innovation in how organizations conceptualize their workforce composition. This is not metaphorical — Sternfels presented the 60,000 figure as the firm's total 'employees' at a major public venue (CES 2026). This maps to the 'ai-agents-as-org-members' field signal and suggests professional services firms may be leading a redefinition of organizational boundaries to include non-human members.",
+      "evidence": [
+        {
+          "specimenId": "mckinsey",
+          "note": ""
+        },
+        {
+          "specimenId": "meta-ai",
+          "note": ""
+        },
+        {
+          "specimenId": "salesforce",
+          "note": ""
+        }
+      ],
+      "theoreticalConnection": "",
+      "discoveredIn": "overnight-synthesis/2026-02-15",
+      "relatedTensions": [],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "structural-duality:-research-protection-+-workforce-restruct",
+      "title": "Structural Duality: Research Protection + Workforce Restructuring",
+      "theme": "organizational-form",
+      "finding": "Amazon demonstrates that protecting AI exploration (AGI org separation) and executing AI-driven workforce restructuring (30K layoffs targeting management layers) can proceed in parallel as complementary rather than contradictory strategies. The $200B CapEx and $730M severance in the same quarter reveals structural ambidexterity operating on two tracks: building frontier research capacity while simultaneously flattening management hierarchies. Jassy's explicit framing ('fewer people doing some jobs, more people doing other types') suggests this is intentional structural rebalancing, not just cost-cutting.",
+      "evidence": [
+        {
+          "specimenId": "amazon-agi",
+          "note": ""
+        },
+        {
+          "specimenId": "meta-ai",
+          "note": ""
+        },
+        {
+          "specimenId": "accenture-openai",
+          "note": ""
+        },
+        {
+          "specimenId": "microsoft",
+          "note": ""
+        }
+      ],
+      "theoreticalConnection": "",
+      "discoveredIn": "overnight-synthesis/2026-02-15",
+      "relatedTensions": [],
+      "maturity": "hypothesis"
+    },
+    {
+      "id": "serial-restructuring-as-organizational-cost",
+      "title": "Serial Restructuring as Organizational Cost",
+      "theme": "organizational-form",
+      "finding": "Meta's 5th major AI restructuring in ~2 years (documented in Puck: 'Why Did Meta Reorganize Its AI Unit... Again?') suggests that excessive structural flexibility has costs. Each reorg disrupts relational contracts, causes talent attrition (LeCun), and consumes management attention. The taxonomy doesn't currently capture the costs of organizational instability as a constraint on ambidexterity.",
+      "evidence": [
+        {
+          "specimenId": "meta-ai",
+          "note": ""
+        },
+        {
+          "specimenId": "salesforce",
+          "note": ""
+        },
+        {
+          "specimenId": "xai",
+          "note": ""
+        }
+      ],
+      "theoreticalConnection": "",
+      "discoveredIn": "overnight-synthesis/2026-02-15",
+      "relatedTensions": [],
+      "maturity": "hypothesis"
     }
   ]
 }

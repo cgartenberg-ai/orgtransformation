@@ -12,7 +12,7 @@
     "orientation": "Contextual",
     "orientationName": "Contextual",
     "confidence": "Medium",
-    "classificationRationale": "Model 6a confirmed with stronger evidence. UPS eliminated 48K+ positions in 2025 (10% of 490K), with 20-30K more planned in 2026. $9B automation investment through 2028. Key structural finding: explicitly targeting management layers — AI reduces coordination complexity, enabling delayering and potential region consolidation. Still no CAIO or formal AI lab described. Contextual: automation embedded across operational and management functions. Confidence upgraded from Low to Medium based on multiple sources with specific structural detail.",
+    "classificationRationale": "Model 6a confirmed with stronger evidence. UPS eliminated 48K+ positions in 2025 (10% of 490K), with 20-30K more planned in 2026. $9B automation investment through 2028. Key structural finding: explicitly targeting management layers \u2014 AI reduces coordination complexity, enabling delayering and potential region consolidation. Still no CAIO or formal AI lab described. Contextual: automation embedded across operational and management functions. Confidence upgraded from Low to Medium based on multiple sources with specific structural detail.",
     "typeSpecimen": false
   },
   "habitat": {
@@ -24,7 +24,7 @@
     "headquarters": "Atlanta, GA",
     "geography": "Global"
   },
-  "description": "UPS is executing the most dramatic AI-driven restructuring in logistics history, eliminating 48,000+ positions in 2025 (10% of its 490,000-person workforce) with 20-30,000 more planned for 2026 — totaling 68,000+ through early 2026. The restructuring is powered by a $9B automation investment through 2028, targeting $3B in labor cost savings.\n\nThe structural transformation goes beyond headcount reduction. UPS is explicitly targeting management layers, not just operational roles. AI automation reduces coordination complexity between facilities, enabling organizational delayering and potential region consolidation. At the Louisville 'Velocity' hub, robots outnumber workers 15:1, with processing speed up ~300%. In December 2025, UPS ordered 400 Pickle Robot units for $120M — each robot unloads a truck in ~2 hours and pays for itself in 18 months. 57% of packages now move through automated facilities.\n\nThe restructuring also includes closing ~93 facilities in 2025 and 24 more in 2026 (~200 total by 2029), spinning off the freight business by June 2026, and reducing Amazon volume by >50% by June 2026 (driving $3.5B cost removal). This represents a fundamental shift from a labor-intensive to an automation-intensive operating model.",
+  "description": "UPS is executing the most dramatic AI-driven restructuring in logistics history, eliminating 48,000+ positions in 2025 (10% of its 490,000-person workforce) with 20-30,000 more planned for 2026 \u2014 totaling 68,000+ through early 2026. The restructuring is powered by a $9B automation investment through 2028, targeting $3B in labor cost savings.\n\nThe structural transformation goes beyond headcount reduction. UPS is explicitly targeting management layers, not just operational roles. AI automation reduces coordination complexity between facilities, enabling organizational delayering and potential region consolidation. At the Louisville 'Velocity' hub, robots outnumber workers 15:1, with processing speed up ~300%. In December 2025, UPS ordered 400 Pickle Robot units for $120M \u2014 each robot unloads a truck in ~2 hours and pays for itself in 18 months. 57% of packages now move through automated facilities.\n\nThe restructuring also includes closing ~93 facilities in 2025 and 24 more in 2026 (~200 total by 2029), spinning off the freight business by June 2026, and reducing Amazon volume by >50% by June 2026 (driving $3.5B cost removal). This represents a fundamental shift from a labor-intensive to an automation-intensive operating model.",
   "observableMarkers": {
     "reportingStructure": null,
     "resourceAllocation": null,
@@ -37,11 +37,26 @@
   "layers": [
     {
       "date": "2026-02",
-      "label": "48K+ Confirmed + Management Delayering + $9B Automation",
-      "summary": "Evolved from initial 30K estimate to 48K+ confirmed 2025 cuts + 20-30K planned 2026 (68K+ total). Key new finding: explicitly targeting management layers — AI reduces coordination complexity. $9B automation through 2028. Louisville Velocity hub: 15:1 robot ratio. 400 Pickle Robots ordered ($120M). 57% automated. 93 facilities closing.",
+      "label": "78K Positions Eliminated + Automated Buildings + Amazon De-Dependency",
+      "summary": "UPS Q4 2025: 78K positions eliminated by end 2026 (largest workforce reduction in logistics industry). 127 automated buildings operating at 28% lower cost. RFID tracking 1.3M packages/day. Amazon 'glide-down' strategic de-dependency from largest customer. No formal AI leadership role (confirms M6 classification \u2014 AI transformation without named AI function). CEO Carol Tome framing: 'better, not bigger.'",
       "classification": null,
       "sourceRefs": [
-        "amblogistic-2026", "traxtech-2026", "linkedin-bhavsar-2026", "4corner-2025", "designrush-2026", "wsws-2026", "techrepublic-2026"
+        "ups-q4-2025-earnings"
+      ]
+    },
+    {
+      "date": "2026-02",
+      "label": "48K+ Confirmed + Management Delayering + $9B Automation",
+      "summary": "Evolved from initial 30K estimate to 48K+ confirmed 2025 cuts + 20-30K planned 2026 (68K+ total). Key new finding: explicitly targeting management layers \u2014 AI reduces coordination complexity. $9B automation through 2028. Louisville Velocity hub: 15:1 robot ratio. 400 Pickle Robots ordered ($120M). 57% automated. 93 facilities closing.",
+      "classification": null,
+      "sourceRefs": [
+        "amblogistic-2026",
+        "traxtech-2026",
+        "linkedin-bhavsar-2026",
+        "4corner-2025",
+        "designrush-2026",
+        "wsws-2026",
+        "techrepublic-2026"
       ]
     },
     {
@@ -58,7 +73,7 @@
     {
       "id": "source-1",
       "type": "Press",
-      "name": "NewsNation — Major employers job cuts 2026",
+      "name": "NewsNation \u2014 Major employers job cuts 2026",
       "url": "https://www.newsnationnow.com/business/major-employers-job-cuts-2026/",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -68,7 +83,7 @@
     {
       "id": "amblogistic-2026",
       "type": "Press",
-      "name": "AM Blogistic — UPS 48K jobs analysis",
+      "name": "AM Blogistic \u2014 UPS 48K jobs analysis",
       "url": "https://amblogistic.us/what-upss-48000-job-cuts-mean-for-u-s-logistics-and-peak-season-performance/",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -78,7 +93,7 @@
     {
       "id": "traxtech-2026",
       "type": "Press",
-      "name": "TraxTech — UPS AI automation",
+      "name": "TraxTech \u2014 UPS AI automation",
       "url": "https://www.traxtech.com/ai-in-supply-chain/ups-deploys-ai-automation-to-replace-43000-workers",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -88,7 +103,7 @@
     {
       "id": "linkedin-bhavsar-2026",
       "type": "LinkedIn",
-      "name": "LinkedIn (Bhavsar) — UPS Velocity hub analysis",
+      "name": "LinkedIn (Bhavsar) \u2014 UPS Velocity hub analysis",
       "url": "https://www.linkedin.com/pulse/ups-transformation-how-48000-layoffs-automation-amazons-bhavsar-5smhe",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -98,7 +113,7 @@
     {
       "id": "4corner-2025",
       "type": "Press",
-      "name": "4 Corner Resources — Pickle Robots",
+      "name": "4 Corner Resources \u2014 Pickle Robots",
       "url": "https://www.4cornerresources.com/job-market-news/america-reacts-as-ai-takes-over-and-ups-layoffs/",
       "timestamp": null,
       "sourceDate": "2025-12",
@@ -108,7 +123,7 @@
     {
       "id": "designrush-2026",
       "type": "Press",
-      "name": "DesignRush — Management delayering",
+      "name": "DesignRush \u2014 Management delayering",
       "url": "https://news.designrush.com/ups-layoffs-48k-workers-walks-away-from-old-growth-models",
       "timestamp": null,
       "sourceDate": "2026-01",
@@ -118,7 +133,7 @@
     {
       "id": "wsws-2026",
       "type": "Press",
-      "name": "WSWS — 68K+ total through early 2026",
+      "name": "WSWS \u2014 68K+ total through early 2026",
       "url": "https://www.wsws.org/en/articles/2026/01/22/gtpz-j22.html",
       "timestamp": null,
       "sourceDate": "2026-01-22",
@@ -128,12 +143,21 @@
     {
       "id": "techrepublic-2026",
       "type": "Press",
-      "name": "TechRepublic — Amazon volume reduction",
+      "name": "TechRepublic \u2014 Amazon volume reduction",
       "url": "https://www.techrepublic.com/article/news-ups-amazon-job-cuts-30k/",
       "timestamp": null,
       "sourceDate": "2026-01",
       "collectedDate": "2026-02-01",
       "notes": "Amazon >50% volume reduction by June 2026, $3.5B cost removal"
+    },
+    {
+      "id": "ups-q4-2025-earnings",
+      "type": "Earnings Call",
+      "name": "UPS Q4 2025 Earnings Coverage",
+      "url": null,
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-15",
+      "notes": "[no URL \u2014 research agent summary]"
     }
   ],
   "contingencies": {
@@ -161,7 +185,7 @@
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-02-01",
+    "lastUpdated": "2026-02-15",
     "completeness": "Medium",
     "convertedFrom": null
   }

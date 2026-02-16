@@ -1,0 +1,220 @@
+{
+  "company": "Walmart",
+  "enrichmentDate": "2026-02-14",
+  "mode": "enrich",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "ciodive.com - returned JS/tracking code only",
+    "supplychaindive.com - returned JS/tracking code only",
+    "retaildive.com - returned JS/tracking code only",
+    "cnbc.com - returned CSS code only"
+  ],
+
+  "newFindings": {
+    "teamStructure": "Walmart has created a new EVP of AI Platforms role reporting to Suresh Kumar (EVP, Global CTO and Chief Development Officer). Daniel Danker was hired into a new position as EVP of AI Acceleration, Product and Design. The company operates an Intelligent Retail Lab (IRL) as a tech incubator under Store No. 8, led by Mike Hanrahan as IRL CEO. Sravana Karnati serves as EVP of Global Technology Platforms, overseeing Element (their MLOps platform). The 'super agents' framework is managed under CTO Suresh Kumar.",
+    "keyPeople": [
+      {"name": "Daniel Danker", "title": "EVP of AI Acceleration, Product and Design", "role": "New AI leadership role hired in 2025, previously led R&D for online grocery at Instacart and served as Instacart's Chief Product Officer", "isNew": true},
+      {"name": "Suresh Kumar", "title": "EVP, Global CTO and Chief Development Officer", "role": "Daniel Danker reports to him; leads AI super agents framework", "isNew": true},
+      {"name": "Hari Vasudev", "title": "CTO", "role": "Leads agentic AI strategy; authored May 2025 blog on surgical AI deployment", "isNew": true},
+      {"name": "Sravana Karnati", "title": "EVP of Global Technology Platforms", "role": "Oversees Element MLOps platform", "isNew": true},
+      {"name": "Mike Hanrahan", "title": "CEO, Intelligent Retail Lab", "role": "Leads Walmart's AI tech incubator within Store No. 8", "isNew": true},
+      {"name": "John Furner", "title": "President and CEO (effective Feb 2026)", "role": "Succeeding Doug McMillon; emphasizing AI-driven transformation", "isNew": true},
+      {"name": "David Guggina", "title": "President and CEO, Walmart U.S. (effective Feb 2026)", "role": "Former EVP/Chief eCommerce Officer; e-commerce and automation expert", "isNew": true},
+      {"name": "Seth Dallaire", "title": "EVP and Chief Growth Officer, Walmart Inc.", "role": "Oversees global enterprise platforms including Walmart Connect, Walmart+, Data Ventures, Vizio", "isNew": true}
+    ],
+    "investmentSignals": "In May 2025, Walmart eliminated 1,500 corporate positions while investing over $500 million in AI and robotics. CapEx projected at 3-3.5% of sales for technology investments. Global advertising business delivered $4.4B annual sales (up 27%). Walmart Data Ventures revenue up double digits with client base nearly doubled. Global membership income up 21% to $3.8B for fiscal 2025. Company transferred to Nasdaq at $905B market cap, reflecting AI/tech identity.",
+    "recentDevelopments": "CEO transition: Doug McMillon stepping down after 12 years, John Furner taking over Feb 2026. January 2026 restructuring: Seth Dallaire promoted to global Chief Growth Officer to centralize platforms. David Guggina (former eCommerce chief) named Walmart US CEO. October 2025: OpenAI partnership enabling purchases within ChatGPT ('agentic commerce'). Also partnered with Google Gemini. OpenAI certification program partnership targeting 10M Americans certified by 2030. AI rolling out to 1.5 million associates. Company targeting 65% automation of store services and over 50% of fulfillment volume through robotics/AI.",
+    "observableMarkers": {
+      "reportingStructure": "New reporting lines confirmed: Daniel Danker (EVP AI Platforms) → Suresh Kumar (Global CTO). Three operational segment heads (US, International, Sam's Club) → John Furner (CEO). Seth Dallaire (Chief Growth Officer) coordinates global platforms.",
+      "resourceAllocation": "$500M+ investment in AI/robotics (May 2025). CapEx 3-3.5% of sales for technology. Headcount projected flat at 2.1M globally for 3+ years while AI transforms job composition. 1,500 corporate positions eliminated while investing in AI.",
+      "timeHorizons": "Near-term: AI 'tinkering becomes transformation' in 2026 per Daniel Danker. Medium-term: 65% store service automation target; 50%+ fulfillment automation via robotics/AI. Long-term: Headcount flat for 5 years amid AI growth.",
+      "decisionRights": "Centralizing platforms under Chief Growth Officer to 'accelerate shared capabilities.' Operating segments freed to focus on customers/members. AI super agents operate at higher levels managing lesser AI agents in targeted areas.",
+      "metrics": "850M product catalogue data points improved via GenAI. 64% of Sam's Club members using friction-free checkout. AI checkout reduced times by 21%. Digital twin predicts refrigeration failures 2 weeks in advance. Trend-to-Product system cuts fashion timelines by 18 weeks. E-commerce sales up 1,110% from 2014 ($10B→$121B). 40%+ of new code is AI-generated or AI-assisted."
+    },
+    "classificationUpdate": "Current M? classification should be updated. The specimen shows MULTIPLE structural models: (1) Platform-to-Product model (commercializing Route Optimization as SaaS) remains valid, but (2) there's also strong evidence of an Embedded AI model with dedicated AI leadership (Danker, Vasudev, Kumar) and centralized AI platforms (Element MLOps, super agents). Consider hybrid M3-M5 or reclassify based on dominant pattern. The centralized AI platform team with embedded deployment ('super agents' managing specialized agents) suggests M5 (Embedded AI) may be more accurate than pure Platform-to-Product."
+  },
+
+  "quotes": [
+    {
+      "text": "Our approach to agentic AI at Walmart is surgical. Agents work best when deployed for highly specific tasks.",
+      "speaker": "Hari Vasudev",
+      "speakerTitle": "CTO",
+      "source": "AI Magazine / Walmart blog",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/walmart-ai-strategy-agentic-future/",
+      "sourceDate": "2025-05",
+      "context": "Blog post explaining Walmart's agentic AI strategy"
+    },
+    {
+      "text": "For us, agents work best when deployed for highly specific tasks, to produce outputs that can then be stitched together.",
+      "speaker": "Hari Vasudev",
+      "speakerTitle": "CTO",
+      "source": "AI Magazine",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/walmart-ai-strategy-agentic-future/",
+      "sourceDate": "2025",
+      "context": "Explaining architectural approach to AI agents"
+    },
+    {
+      "text": "For the last year or two, we've been tinkering with it. This is the year where tinkering becomes transformation. This is the year where we've built a level of mastery around that and we'll start building things that deeply address customer problems.",
+      "speaker": "Daniel Danker",
+      "speakerTitle": "EVP of AI Acceleration, Product and Design",
+      "source": "ICR Conference",
+      "sourceUrl": "https://www.retaildive.com/news/walmart-ai-shopping-strategy-tinkering-transformation/809556/",
+      "sourceDate": "2026-01",
+      "context": "28th Annual ICR Conference presentation"
+    },
+    {
+      "text": "These leadership changes also mark a key step in how we organize for the future. Even the best teams need the right structure to win. As AI rapidly reshapes retail, we are centralizing our platforms to accelerate shared capabilities, freeing up our operating segments to be more focused on and closer to our customers and members.",
+      "speaker": "John Furner",
+      "speakerTitle": "Incoming President and CEO",
+      "source": "Walmart Corporate News",
+      "sourceUrl": "https://corporate.walmart.com/news/2026/01/16/walmart-announces-leadership-changes",
+      "sourceDate": "2026-01-16",
+      "context": "Announcement of leadership restructuring"
+    },
+    {
+      "text": "AI is changing how people shop, and customer expectations are higher than ever. But no one is more prepared to usher in the next era of retail.",
+      "speaker": "David Guggina",
+      "speakerTitle": "President and CEO, Walmart U.S.",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2026/01/21/walmart-tech-ai-stores-ceo-amazon/",
+      "sourceDate": "2026-01-21",
+      "context": "Statement upon appointment as Walmart US CEO"
+    },
+    {
+      "text": "AI is going to change literally every job. Maybe there's a job in the world that AI won't change.",
+      "speaker": "Doug McMillon",
+      "speakerTitle": "CEO",
+      "source": "CNBC / AI Magazine",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/walmart-ai-strategy-agentic-future/",
+      "sourceDate": "2025-09",
+      "context": "Discussing broad AI transformation"
+    },
+    {
+      "text": "Element is purpose-built to support the full lifecycle of intelligent workflows, from experimentation to production at scale. Designed for distributed, scalable, and production-ready AI, Element simplifies infrastructure, accelerates development, and empowers teams to focus on delivering impact.",
+      "speaker": "Sravana Karnati",
+      "speakerTitle": "EVP of Global Technology Platforms, Walmart Global Tech",
+      "source": "Walmart announcement",
+      "sourceUrl": "https://www.artificialintelligence-news.com/news/walmart-ai-strategy-agentic-future/",
+      "sourceDate": "2025-08",
+      "context": "Announcing Element MLOps platform"
+    },
+    {
+      "text": "Technology enables us to understand so much more - in real time - about our business.",
+      "speaker": "Mike Hanrahan",
+      "speakerTitle": "CEO, Intelligent Retail Lab",
+      "source": "Walmart tech tour",
+      "sourceUrl": "https://tech2025.com/an-experiential-tour-of-walmarts-new-intelligence-research-lab/",
+      "sourceDate": "2025",
+      "context": "Describing the 50,000 sq ft Intelligent Retail Lab"
+    },
+    {
+      "text": "The kind of outcome we want is where associates are getting paid more and are supervising robotics instead of walking miles and lifting heavy items.",
+      "speaker": "Doug McMillon",
+      "speakerTitle": "CEO",
+      "source": "Fortune / Search results",
+      "sourceUrl": "https://fortune.com/2025/09/27/ai-ceos-job-market-transformation-walmart-accenture-salesforce/",
+      "sourceDate": "2025-09",
+      "context": "Discussing AI impact on associate jobs"
+    },
+    {
+      "text": "When AI is used for software development, more than 40% of the new code is either AI-generated or AI-assisted.",
+      "speaker": "Doug McMillon",
+      "speakerTitle": "CEO",
+      "source": "HBR Interview",
+      "sourceUrl": "https://hbr.org/podcast/2025/11/future-of-business-walmarts-ceo-on-ai-jobs-and-managing-rapid-change",
+      "sourceDate": "2025-11",
+      "context": "HBR Future of Business interview"
+    },
+    {
+      "text": "His curiosity and digital acumen combined with a deep commitment to our people and culture will enable him to take us to the next level. He's uniquely capable of leading the company through this next AI-driven transformation.",
+      "speaker": "Doug McMillon",
+      "speakerTitle": "CEO",
+      "source": "Various outlets",
+      "sourceUrl": "https://www.retaildive.com/news/walmart-ceo-doug-mcmillon-decade-leadership-change/810889/",
+      "sourceDate": "2026-01",
+      "context": "On John Furner succeeding him as CEO"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Walmart Corporate News - Leadership Changes",
+      "url": "https://corporate.walmart.com/news/2026/01/16/walmart-announces-leadership-changes",
+      "type": "Press",
+      "date": "2026-01-16",
+      "notes": "Detailed leadership restructuring: Furner as CEO, Dallaire as global CGO, Guggina as US CEO, platform centralization announcement"
+    },
+    {
+      "name": "Fortune - Walmart C-suite reshuffle",
+      "url": "https://fortune.com/2026/01/21/walmart-tech-ai-stores-ceo-amazon/",
+      "type": "Press",
+      "date": "2026-01-21",
+      "notes": "Analysis of tech-forward leadership appointments, Guggina's non-traditional background, Danker's role"
+    },
+    {
+      "name": "AI Magazine - Walmart AI Strategy Agentic Future",
+      "url": "https://www.artificialintelligence-news.com/news/walmart-ai-strategy-agentic-future/",
+      "type": "Blog",
+      "date": "2025",
+      "notes": "Detailed breakdown of AI products (Wallaby, Element, Trend-to-Product, super agents), Vasudev quotes on surgical AI approach"
+    },
+    {
+      "name": "CIO Dive - Walmart AI Leadership Super Agents",
+      "url": "https://www.ciodive.com/news/walmart-ai-leadership-super-agents/753975/",
+      "type": "Press",
+      "date": "2025",
+      "notes": "Daniel Danker appointment, reporting structure to Suresh Kumar (metadata only - content not fetchable)"
+    },
+    {
+      "name": "Fortune - Walmart headcount flat amid AI",
+      "url": "https://fortune.com/2025/09/27/ai-ceos-job-market-transformation-walmart-accenture-salesforce/",
+      "type": "Press",
+      "date": "2025-09-27",
+      "notes": "Headcount flat for 3+ years at 2.1M, job composition changing, McMillon quotes on automation"
+    },
+    {
+      "name": "Retail Dive - Tinkering becomes transformation",
+      "url": "https://www.retaildive.com/news/walmart-ai-shopping-strategy-tinkering-transformation/809556/",
+      "type": "Press",
+      "date": "2026-01-15",
+      "notes": "Danker quote on 2026 as transformation year (metadata only)"
+    },
+    {
+      "name": "Constellation Research - Fiscal 2026 bets",
+      "url": "https://www.constellationr.com/insights/news/walmarts-fiscal-2026-bets-supply-chain-optimization-ai-automation",
+      "type": "Report",
+      "date": "2025",
+      "notes": "CapEx 3-3.5% for tech, 65% store automation target, supply chain AI investments"
+    },
+    {
+      "name": "CNBC - McMillon on AI changing every job",
+      "url": "https://www.cnbc.com/2025/09/29/walmart-ceo-ai-is-literally-going-to-change-every-job.html",
+      "type": "Interview",
+      "date": "2025-09-29",
+      "notes": "McMillon interview on AI job transformation (content not fetchable)"
+    },
+    {
+      "name": "HBR Podcast - Future of Business with McMillon",
+      "url": "https://hbr.org/podcast/2025/11/future-of-business-walmarts-ceo-on-ai-jobs-and-managing-rapid-change",
+      "type": "Interview",
+      "date": "2025-11",
+      "notes": "McMillon interview before departure announcement"
+    }
+  ],
+
+  "summary": "Substantial new structural data found. Walmart has built dedicated AI leadership: Daniel Danker (EVP AI Acceleration) reports to Suresh Kumar (Global CTO), with Hari Vasudev driving agentic AI strategy and Sravana Karnati overseeing the Element MLOps platform. January 2026 restructuring centralizes platforms under a global Chief Growth Officer while operational segments report to new CEO John Furner. The company invested $500M+ in AI/robotics while cutting 1,500 corporate roles, targeting 65% store automation and keeping 2.1M global headcount flat for 3+ years.",
+
+  "openQuestions": [
+    "Exact headcount of dedicated AI/ML teams (not disclosed)",
+    "Budget allocation specifically for AI vs. broader technology spend",
+    "How Element MLOps platform teams are organized internally",
+    "Whether Route Optimization commercialization (Walmart Commerce Technologies) is still a major focus or overshadowed by broader AI initiatives"
+  ],
+
+  "botanistNotes": [
+    "STRUCTURAL SIGNAL: The January 2026 restructuring reveals a 'platform centralization + federated operations' model. Furner's quote about 'centralizing platforms to accelerate shared capabilities' while 'freeing up operating segments' is a classic ambidexterity move - build once centrally, deploy contextually.",
+    "CLASSIFICATION TENSION: Original specimen focused on Platform-to-Product (Route Optimization). New data shows this is ONE piece of a much larger story. The dominant pattern now appears to be Embedded AI (M5) with dedicated leadership (Danker, Vasudev, Kumar), proprietary platforms (Element, Wallaby), and 'super agents' architecture. Platform-to-Product commercialization continues but isn't the primary structural model.",
+    "REMARKABLE: The 'surgical agentic AI' philosophy (Vasudev) contrasts with many competitors' broad horizontal deployments. Walmart is building specialized agents for specific tasks that 'stitch together' - an architecturally mature approach suggesting a well-developed AI operating model rather than exploratory experiments."
+  ]
+}

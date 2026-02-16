@@ -1,0 +1,27 @@
+{
+  "specimenId": "palantir",
+  "scannedDate": "2026-02-15",
+  "quality": "rich",
+  "claimCount": 12,
+  "claimTypeDistribution": {
+    "utopian": 2,
+    "teleological": 1,
+    "higher-calling": 5,
+    "identity": 2,
+    "survival": 2,
+    "commercial-success": 0
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://podcasts.happyscribe.com/all-in-with-chamath-jason-sacks-friedberg/palantir-ceo-alex-karp-why-the-west-is-destroying-itself-data-empire-skeptics-how-to-win",
+    "https://www.weforum.org/podcasts/meet-the-leader/episodes/palantir-alex-karp-saying-yes-thinking-differently/",
+    "https://www.fastcompany.com/91237322/how-alex-karp-helped-turn-palantir-into-the-wests-ai-arms-dealer"
+  ]
+}

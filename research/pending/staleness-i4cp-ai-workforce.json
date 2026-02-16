@@ -1,0 +1,90 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "i4cp-ai-workforce",
+  "sourceName": "i4cp (Institute for Corporate Productivity)",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "None",
+  "newScannedThrough": "2026 Priorities & Predictions Report (released Dec 2025)",
+  "newContent": [
+    {
+      "title": "2026 Priorities & Predictions Report",
+      "date": "2025-12",
+      "url": "https://www.i4cp.com/press-news/i4cp-releases-2026-priorities-predictions",
+      "relevance": "HIGH",
+      "keyFindings": [
+        "68% of CHROs prioritize AI-related workforce initiatives as top concern",
+        "80% of Future of Work leaders focused on redesigning work for AI",
+        "Only 12% of organizations mature in skills-based workforce models",
+        "Four predictions: AI-driven layoffs as strategic lever, skills as OS of work, digital work twins, dynamic workforce design"
+      ]
+    },
+    {
+      "title": "4 Priorities for Future of Work Leaders in 2026",
+      "date": "2025-12",
+      "url": "https://www.i4cp.com/productivity-blog/4-priorities-for-future-of-work-leaders-in-2026",
+      "relevance": "HIGH",
+      "keyFindings": [
+        "Redesigning work due to AI (80%) is top priority",
+        "Reimagining enterprise organization design (70%) - shift from rigid job-based hierarchies to project/task-based models",
+        "Organizations moving from 'static structures to living systems of work'",
+        "Internal talent marketplaces enabling fluid deployment across projects"
+      ]
+    },
+    {
+      "title": "4 Priorities for CHROs in 2026",
+      "date": "2025-12",
+      "url": "https://www.i4cp.com/productivity-blog/4-priorities-for-chros-in-2026",
+      "relevance": "HIGH",
+      "keyFindings": [
+        "HR operating model evolution: HR Business Partners becoming 'performance enablers', Centers of Expertise becoming 'enterprise intelligence architects', Shared Services becoming 'experience engines powered by AI'",
+        "Shift from three-pillar HR model to 'fluid, intelligence-driven ecosystem'",
+        "Agentic AI governance: 'treat AI agents like interns - capable fast learners requiring oversight, context, and clear boundaries'",
+        "Work deconstruction approach: deconstructing roles into tasks to clarify AI augmentation vs human judgment"
+      ]
+    },
+    {
+      "title": "4 Priorities for Chief Learning & Talent Officers in 2026",
+      "date": "2025-12",
+      "url": "https://www.i4cp.com/productivity-blog/4-priorities-for-chief-learning-talent-officers-in-2026",
+      "relevance": "MEDIUM",
+      "keyFindings": [
+        "59% of CLTOs focused on enterprise-wide upskilling",
+        "43% implementing AI technology/services for adaptive learning",
+        "High-performers 4x more likely to have strong learning cultures",
+        "Shift to embedding development 'into the flow of work' rather than formal programs"
+      ]
+    }
+  ],
+  "structuralFindings": [
+    {
+      "mechanism": "Work Deconstruction",
+      "description": "Organizations deconstructing roles into tasks, determining which work should be done by humans vs AI, redeploying capacity toward higher-value outcomes",
+      "source": "i4cp 2026 Priorities Report",
+      "evidenceStrength": "Strong (68% CHROs, 80% FoW leaders)"
+    },
+    {
+      "mechanism": "Organizational Model Shift",
+      "description": "Shift from rigid job-based hierarchies to project/task-based models with internal talent marketplaces enabling fluid talent deployment",
+      "source": "Future of Work Priorities 2026",
+      "evidenceStrength": "Strong (70% prioritizing org design reimagination)"
+    },
+    {
+      "mechanism": "AI Governance as Apprenticeship",
+      "description": "Organizations treating AI agents like interns - capable fast learners requiring oversight, context, and clear boundaries ('intern year' for agentic AI)",
+      "source": "CHRO Priorities 2026",
+      "evidenceStrength": "Moderate (recommendation from executive board)"
+    },
+    {
+      "mechanism": "HR Function Transformation",
+      "description": "Three-pillar HR model evolving to intelligence-driven ecosystem: HRBPs as performance enablers, CoEs as intelligence architects, Shared Services as AI-powered experience engines",
+      "source": "CHRO Priorities 2026",
+      "evidenceStrength": "Moderate (directional shift described)"
+    }
+  ],
+  "quotableInsight": "The architecture of work itself is being rewritten. - Kevin Oakes, i4cp Founder",
+  "summary": "First scan of i4cp. Their 2026 Priorities Report represents comprehensive survey of CHROs and HR executives on AI-driven workforce transformation. Key findings: 80% of Future of Work leaders prioritizing work redesign for AI, 70% reimagining org design from job-based to task-based models, 68% of CHROs focused on AI workforce initiatives. Notable structural mechanisms include work deconstruction (breaking roles into tasks for AI/human allocation), internal talent marketplaces, and treating agentic AI like 'interns requiring supervision'. The HR function itself is evolving from three-pillar model to 'intelligence-driven ecosystem.' Only 12% of orgs mature in skills-based models despite being seen as future direction.",
+  "potentialSpecimens": [],
+  "crossReferences": [
+    "Potentially relevant to existing specimens implementing task-based work models or internal talent marketplaces"
+  ]
+}

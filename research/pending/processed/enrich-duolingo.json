@@ -1,0 +1,202 @@
+{
+  "company": "Duolingo",
+  "enrichmentDate": "2026-02-14",
+  "mode": "enrich",
+  "searchesCompleted": 5,
+  "urlsFetched": 5,
+  "fetchFailures": [
+    "https://www.cnbc.com/2025/09/17/duolingo-ceo-how-ai-makes-my-employees-more-productive-without-layoffs.html (returned only CSS)",
+    "https://www.gsb.stanford.edu/insights/duolingos-luis-von-ahn-his-vision-ai-educating-world (returned only CSS)"
+  ],
+
+  "newFindings": {
+    "teamStructure": "Engineering is the largest department at 347 employees (40.6% of total 855 workforce). Total company headcount is 855 employees with 7.2% YoY growth. Key AI leadership: Klinton Bicknell serves as Head of AI (joined 2018, formerly linguistics professor at Northwestern). Burr Settles was formerly director of research and head of AI. Claire Brust is an AI research engineer. No separate 'AI division' — AI capability is integrated within engineering and research teams. Company has 'frAI-days' (every Friday morning) dedicated to AI experimentation across all teams.",
+    "keyPeople": [
+      {"name": "Klinton Bicknell", "title": "Head of AI", "role": "Leads AI research and development; joined 2018 from Northwestern University where he was linguistics professor", "isNew": true},
+      {"name": "Burr Settles", "title": "Former Director of Research / Head of AI", "role": "Previously led research and AI; unclear current status", "isNew": true},
+      {"name": "Claire Brust", "title": "AI Research Engineer", "role": "AI research and engineering", "isNew": true},
+      {"name": "Severin Hacker", "title": "Co-Founder and CTO", "role": "Envisions AI transforming app into educational ecosystem beyond language", "isNew": true},
+      {"name": "Matt Skaruppa", "title": "CFO", "role": "Financial strategy; noted 'we are not gonna be afraid to invest in innovation'", "isNew": true}
+    ],
+    "investmentSignals": "Q3 2025: Revenue $271.7M (41% YoY growth), net income $292.2M (includes $222.7M tax benefit). Gross margin 72.5% — slightly down due to higher AI and hosting costs. Guiding to ~$1.2B bookings for year (33% growth). 29% adjusted EBITDA margin. No specific AI budget disclosed, but von Ahn noted 'costs are coming down' for AI features. Most expensive AI features are behind Duolingo Max paywall. 38% profit growth in Q1 2025.",
+    "recentDevelopments": "April 2025: Von Ahn published 'AI-first' memo on LinkedIn declaring company AI-first. Significant backlash followed; he later clarified 'I do not see AI as replacing what our employees do.' Company reduced 10% of contractors citing AI capabilities. No full-time employees laid off (company claims never to have laid off full-time employees since founding in 2009). Added headcount since April 2025. 2025: Launched 'Video Call With Lily' — AI character for real-world speaking practice. Doubled language course offerings to 148+ courses using AI-assisted content generation. Chess course launched (fastest-growing course). July 2025: Von Ahn joined Figma board. Late 2025: Von Ahn announced as recipient of 2026 IEEE Frances E. Allen Medal.",
+    "observableMarkers": {
+      "reportingStructure": "Head of AI (Klinton Bicknell) exists but no CAIO/CDO. AI strategy driven directly by CEO Luis von Ahn. CTO Severin Hacker (co-founder) leads technical vision including AI. No separate AI executive reporting to board.",
+      "resourceAllocation": "Engineering 347 employees (40.6% of workforce). Total 855 employees. 83 new hires YTD vs 45 departures = net +38. Pittsburgh HQ: 289. New York: 187. Remote/distributed: 279. Higher AI/hosting costs noted in earnings but specific AI headcount not disclosed.",
+      "timeHorizons": "frAI-days (Friday mornings) for weekly AI experimentation. Daily Birdbrain model updates. Longer-term vision: become 'as good as a one-on-one tutor.' 2026 guidance to be provided February 2026.",
+      "decisionRights": "Hiring decisions now require demonstrating work 'cannot be replaced by AI or made significantly more efficient through AI.' AI usage factored into performance reviews. Teams must justify headcount by showing they cannot automate more work.",
+      "metrics": "130M monthly active users. 36% DAU growth YoY. Q3 2025: $271.7M revenue. Productivity claim: 'same number of people can make 4-5x as much content.' User engagement: doubled average words spoken per Max subscriber in 2025."
+    },
+    "classificationUpdate": "Current classification as M? (Contextual orientation) appears correct. Duolingo represents a contextual approach — AI is integrated across the organization rather than isolated in a separate unit. The frAI-days initiative, the policy of requiring all teams to demonstrate AI-augmented work, and the absence of a separate 'AI division' all support contextual orientation. Could potentially be classified as M8 (AI-Native Upstart) given that Birdbrain AI has been core since 2018 and the company was AI-enabled from early stage. Recommend reviewing whether M8 fits better than current M? classification."
+  },
+
+  "quotes": [
+    {
+      "text": "This was on me. I did not give enough context.",
+      "speaker": "Luis von Ahn",
+      "speakerTitle": "CEO and Co-Founder",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/08/18/duolingo-ceo-admits-controversial-ai-memo-did-not-give-enough-context-insists-company-never-laid-off-full-time-employees/",
+      "sourceDate": "2025-08-18",
+      "context": "Reflecting on backlash to his AI-first memo"
+    },
+    {
+      "text": "We've never laid off any full-time employees. We don't plan to.",
+      "speaker": "Luis von Ahn",
+      "speakerTitle": "CEO and Co-Founder",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/08/18/duolingo-ceo-admits-controversial-ai-memo-did-not-give-enough-context-insists-company-never-laid-off-full-time-employees/",
+      "sourceDate": "2025-08-18",
+      "context": "Clarifying employment policy after AI-first announcement"
+    },
+    {
+      "text": "What will probably happen is that one person will be able to accomplish more, rather than having fewer people.",
+      "speaker": "Luis von Ahn",
+      "speakerTitle": "CEO and Co-Founder",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/08/18/duolingo-ceo-admits-controversial-ai-memo-did-not-give-enough-context-insists-company-never-laid-off-full-time-employees/",
+      "sourceDate": "2025-08-18",
+      "context": "Describing expected productivity gains from AI"
+    },
+    {
+      "text": "With the same number of people, we can make four or five times as much content in the same amount of time. There are still humans that have to direct the computer to do the right thing, but each human is able to do way more.",
+      "speaker": "Luis von Ahn",
+      "speakerTitle": "CEO and Co-Founder",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2025/09/17/duolingo-ceo-how-ai-makes-my-employees-more-productive-without-layoffs.html",
+      "sourceDate": "2025-09-17",
+      "context": "Quantifying AI productivity gains at Duolingo"
+    },
+    {
+      "text": "When there's a shift this big, the worst thing you can do is wait.",
+      "speaker": "Luis von Ahn",
+      "speakerTitle": "CEO and Co-Founder",
+      "source": "Mind the Product",
+      "sourceUrl": "https://www.mindtheproduct.com/duolingo-announces-ai-first-strategy/",
+      "sourceDate": "2025-04",
+      "context": "From all-hands letter announcing AI-first strategy"
+    },
+    {
+      "text": "We're making a similar call now, and this time the platform shift is AI.",
+      "speaker": "Luis von Ahn",
+      "speakerTitle": "CEO and Co-Founder",
+      "source": "Campus Technology",
+      "sourceUrl": "https://campustechnology.com/articles/2025/05/06/duolingo-embraces-ai-in-push-for-scalable-learning.aspx",
+      "sourceDate": "2025-05-06",
+      "context": "Comparing AI-first to earlier mobile-first transition"
+    },
+    {
+      "text": "I did not expect the amount of blowback.",
+      "speaker": "Luis von Ahn",
+      "speakerTitle": "CEO and Co-Founder",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/06/09/duolingo-ceo-surprised-backlash-ai-first-company-announcement/",
+      "sourceDate": "2025-06-09",
+      "context": "Interview with Financial Times about AI-first backlash"
+    },
+    {
+      "text": "Every tech company is doing similar things, [but] we were open about it.",
+      "speaker": "Luis von Ahn",
+      "speakerTitle": "CEO and Co-Founder",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/06/09/duolingo-ceo-surprised-backlash-ai-first-company-announcement/",
+      "sourceDate": "2025-06-09",
+      "context": "Explaining why Duolingo faced more criticism than peers"
+    },
+    {
+      "text": "To be clear: I do not see AI as replacing what our employees do (we are in fact continuing to hire at the same speed as before).",
+      "speaker": "Luis von Ahn",
+      "speakerTitle": "CEO and Co-Founder",
+      "source": "Fortune",
+      "sourceUrl": "https://fortune.com/2025/05/24/duolingo-ai-first-employees-ceo-luis-von-ahn/",
+      "sourceDate": "2025-05-24",
+      "context": "LinkedIn post walking back AI-first statement"
+    },
+    {
+      "text": "Costs are coming down. They've come down just without us doing anything.",
+      "speaker": "Luis von Ahn",
+      "speakerTitle": "CEO and Co-Founder",
+      "source": "Motley Fool (Q3 2025 Earnings Call Transcript)",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2025/11/06/duolingo-duol-q3-2025-earnings-call-transcript/",
+      "sourceDate": "2025-11-06",
+      "context": "Q3 2025 earnings call discussing AI infrastructure costs"
+    },
+    {
+      "text": "We are not gonna be afraid to invest in innovation.",
+      "speaker": "Matt Skaruppa",
+      "speakerTitle": "CFO",
+      "source": "Motley Fool (Q3 2025 Earnings Call Transcript)",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2025/11/06/duolingo-duol-q3-2025-earnings-call-transcript/",
+      "sourceDate": "2025-11-06",
+      "context": "Q3 2025 earnings call discussing investment priorities"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Fortune - Duolingo CEO admits controversial AI memo",
+      "url": "https://fortune.com/2025/08/18/duolingo-ceo-admits-controversial-ai-memo-did-not-give-enough-context-insists-company-never-laid-off-full-time-employees/",
+      "type": "Press",
+      "date": "2025-08-18",
+      "notes": "Key quotes from von Ahn clarifying AI-first stance and employment policy"
+    },
+    {
+      "name": "Motley Fool - Q3 2025 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2025/11/06/duolingo-duol-q3-2025-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2025-11-06",
+      "notes": "Financials, AI cost discussion, innovation investment signals"
+    },
+    {
+      "name": "IEEE Spectrum - How Duolingo's AI Learns",
+      "url": "https://spectrum.ieee.org/duolingo",
+      "type": "Press",
+      "date": "2023-02-05",
+      "notes": "Key source for AI leadership names: Klinton Bicknell (Head of AI), Burr Settles (former), Claire Brust"
+    },
+    {
+      "name": "Unify GTM - Duolingo Employee Data",
+      "url": "https://www.unifygtm.com/insights-headcount/duolingo",
+      "type": "Report",
+      "date": "2025",
+      "notes": "Detailed headcount: 855 total, 347 engineering (40.6%), geographic breakdown"
+    },
+    {
+      "name": "Fortune - Duolingo CEO surprised by backlash",
+      "url": "https://fortune.com/2025/06/09/duolingo-ceo-surprised-backlash-ai-first-company-announcement/",
+      "type": "Press",
+      "date": "2025-06-09",
+      "notes": "FT interview quotes about backlash and transparency"
+    },
+    {
+      "name": "CDO Times - Duolingo's AI-First Pivot",
+      "url": "https://cdotimes.com/2025/05/01/duolingos-ai-first-pivot-what-it-means-for-the-next-digital-wave/",
+      "type": "Press",
+      "date": "2025-05-01",
+      "notes": "frAI-days initiative, hiring policy changes, AI-first culture details"
+    },
+    {
+      "name": "Yahoo Finance - Q3 2025 Earnings Highlights",
+      "url": "https://finance.yahoo.com/news/duolingo-inc-duol-q3-2025-090034592.html",
+      "type": "Press",
+      "date": "2025-11",
+      "notes": "Financial metrics: 130M MAU, 36% DAU growth, revenue and margin details"
+    }
+  ],
+
+  "summary": "Substantial new structural data obtained. Duolingo has 855 employees with Engineering comprising 347 (40.6%) — the largest department. Key AI leadership identified: Klinton Bicknell as Head of AI (since 2018), with Burr Settles as former director of research. The April 2025 'AI-first' memo created significant backlash but company claims no full-time layoffs ever; only 10% contractor reduction. Novel organizational feature: 'frAI-days' (Friday mornings) for company-wide AI experimentation.",
+
+  "openQuestions": [
+    "Exact size of dedicated AI research team (beyond knowing engineering is 347)",
+    "Does Klinton Bicknell still hold Head of AI title as of 2026?",
+    "What is Burr Settles' current role (left or reassigned)?",
+    "Specific R&D/AI budget allocation as % of revenue",
+    "Reporting line for Head of AI — does Bicknell report to CTO Hacker or CEO von Ahn?"
+  ],
+
+  "botanistNotes": [
+    "The 'frAI-days' initiative is a distinctive observable marker — weekly protected time for AI experimentation across the entire organization, not just technical teams. This is a strong signal of contextual orientation.",
+    "The backlash-then-clarification cycle around the AI-first memo reveals tension: leadership wants aggressive AI adoption, but public messaging requires careful framing. Von Ahn's quote 'Every tech company is doing similar things, we were open about it' suggests transparency as differentiator — possibly a specimen for studying how organizations manage AI narratives.",
+    "Classification question: Is this M8 (AI-Native Upstart) or truly contextual? Birdbrain predates the AI hype (2018), suggesting AI was foundational rather than transformational. The 4-5x productivity claim and content scaling via AI suggests the organization was built around AI leverage from early stage."
+  ]
+}

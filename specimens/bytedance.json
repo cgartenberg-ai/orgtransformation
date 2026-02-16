@@ -1,40 +1,108 @@
 {
   "id": "bytedance",
   "name": "ByteDance Volcano Engine",
-  "title": "50 Trillion Token Consumer-to-Enterprise Scale",
+  "title": "Founder-Elevated AI Research with CEO-Direct Reporting",
   "classification": {
-    "structuralModel": 5,
-    "structuralModelName": "Product/Venture Lab",
-    "subType": "5c",
-    "subTypeName": "Platform-to-Product",
-    "secondaryModel": null,
-    "secondaryModelName": null,
+    "structuralModel": 1,
+    "structuralModelName": "Research Lab",
+    "subType": null,
+    "subTypeName": null,
+    "secondaryModel": 4,
+    "secondaryModelName": "Hybrid/Hub-and-Spoke",
     "orientation": "Structural",
     "orientationName": "Structural",
-    "confidence": "Medium",
-    "classificationRationale": "Volcano Engine / Doubao is an internal AI platform (built for TikTok/Douyin ecosystem) now commercialized externally to enterprise customers (Mercedes-Benz, BYD, China Merchants Bank). This internal-to-external platform trajectory is the defining pattern of Model 5c. Ocean team hardware initiatives (Doubao phone, Ola Friend, AI glasses) further extend the platform into products. Structural orientation: Volcano Engine is a named, separately-branded business unit.",
+    "confidence": "High",
+    "classificationRationale": "ByteDance shows clear M1 Research Lab characteristics: (1) Wu Yonghui reports directly to CEO bypassing normal hierarchy—this elevated reporting for fundamental research is the M1 signature; (2) Seed team has 8 research directions including 'AI for Science' and 'Responsible AI' with multi-year horizons; (3) CEO explicitly deprioritized DAU metrics in favor of 'pursuing intelligence.' Secondary M4 classification reflects the Flow/Seed/Stone split—central foundational research (Seed) with distributed application (Flow) and shared infrastructure (Stone). Structural orientation because exploration (Seed) and execution (Flow) are in distinct organizational units with different leadership.",
     "typeSpecimen": false
   },
   "habitat": {
     "industry": "Technology",
     "sector": "Social Media / AI Platform",
     "orgSize": "Enterprise",
-    "employees": "~150,000",
-    "revenue": "~$110B (estimated)",
+    "employees": 150000,
+    "revenue": "$120B+",
     "headquarters": "Beijing, China",
     "geography": "Global (China-centric)"
   },
-  "description": "ByteDance's Doubao large language model usage grew more than tenfold in a single year. 'AI is being adopted at an unprecedented speed, and how to make better use of it has become a question all businesses have to answer well.'\n- Doubao's daily token usage: 50 trillion tokens/month, up from 4 trillion (12x increase in one year)\n- Volcano Engine accounts for 49.2% of AI model-focused public cloud services in China (IDC)\n- Enterprise customers: Mercedes-Benz, BYD, China Merchants Bank, Yuanfudao\n- Spring Festival Gala partnership (2026 CCTV): reached 700+ million viewers\n- Ocean team integrates hardware initiatives: Doubao phone, Ola Friend earbuds, AI glasses, plus acquired Smartisan, PICO, Oladance",
+  "description": "ByteDance underwent significant AI restructuring in February 2025 when Wu Yonghui, a former Google Fellow with 17 years at Google/DeepMind, joined as Head of Fundamental Research. The key structural signal: Wu reports directly to CEO Liang Rubo, bypassing the normal chain of command through Seed head Zhu Wenjia. This elevated reporting line places fundamental AI research at the founder/CEO level—a pattern seen in other tech giants like Google (Hassabis to Pichai) and Meta (LeCun to Zuckerberg).\n\nThe original ByteDance AI Lab (established 2016, ~150 researchers at peak) has been fully merged into the Seed team. ByteDance now operates a three-unit AI structure: Flow (applications), Seed (foundational models), and Stone (infrastructure/tooling). Seed has 8 research directions spanning LLM, Infrastructure, Vision, Speech, Multimodal Interaction, AI for Science, Robotics, and Responsible AI—with labs in China, Singapore, US and other locations.\n\nCEO Liang Rubo publicly acknowledged organizational sluggishness in responding to AI opportunities, noting that ByteDance's 'technology review only started to seriously discuss GPT in 2023, while most successful LLM startups were founded between 2018 and 2021.' The DeepSeek shock triggered a visible response: the Seed-Edge research initiative was launched to push frontier intelligence. Liang stated that ByteDance will 'focus on pursuing the upper limits of intelligence this year, rather than chasing the daily active users of any specific product'—a clear signal of exploration-over-exploitation orientation at the CEO level.",
   "observableMarkers": {
-    "reportingStructure": null,
-    "resourceAllocation": null,
-    "timeHorizons": null,
-    "decisionRights": null,
-    "metrics": "172M MAUs (QuestMobile Q3 2025), surpassing DeepSeek's 144M. $23B AI infrastructure investment planned for 2026. Potential 20,000 NVIDIA H200 chip purchase."
+    "reportingStructure": "Wu Yonghui (Head of Fundamental Research) reports DIRECTLY to CEO Liang Rubo, bypassing Seed head Zhu Wenjia. Multiple team leads (Li Hang, Xiang Liang) now report to Wu rather than Zhu. Division of labor: Zhu handles application, Wu handles basic research.",
+    "resourceAllocation": "$23B planned 2026 capex (up from $21B in 2025). ~$12B for AI processors alone. 230,000 GPUs purchased in 2024. Custom chip development with TSMC. $2B Malaysia AI hub. Significant centralization of AI compute resources.",
+    "timeHorizons": "CEO explicitly stated ByteDance will focus on 'pursuing the upper limits of intelligence this year, rather than chasing the daily active users of any specific product.' Seed-Edge launched for long-term frontier research. Multi-year chip development initiatives.",
+    "decisionRights": "Founder-level decision rights for AI research via Wu-to-CEO direct reporting. Zhang Yiming (founder) remains actively involved—reads AI research daily, meets with global AI experts. Founder-led AI strategy, not delegated to business units.",
+    "metrics": "172M Doubao MAUs. Company now de-emphasizing DAU metrics for AI products. By Oct 2025, ByteDance AI consumed 30T daily tokens (2nd globally after Google's 43T)."
   },
-  "mechanisms": [],
-  "quotes": [],
+  "mechanisms": [
+    {
+      "id": 1,
+      "name": "Protect Off-Strategy Work",
+      "evidence": "Seed-Edge initiative launched explicitly to pursue frontier intelligence even when it doesn't immediately contribute to product DAU. CEO's statement about deprioritizing DAU metrics in favor of 'pursuing intelligence' protects long-term research from short-term product pressures.",
+      "strength": "Strong"
+    },
+    {
+      "id": 7,
+      "name": "Put Executives on the Tools",
+      "evidence": "Founder Zhang Yiming 'reads AI research daily, meets with global AI experts' despite stepping down as CEO. CEO Liang's detailed technical self-criticism about GPT timing suggests hands-on engagement with AI capabilities.",
+      "strength": "Moderate"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "Our organization's reaction to new opportunities has been sluggish, lacking the sharpness of startups.",
+      "speaker": "Liang Rubo",
+      "speakerTitle": "CEO and Co-founder, ByteDance",
+      "source": "Recode China AI / Yicai Global",
+      "sourceUrl": "https://recodechinaai.substack.com/p/tiktoks-parent-bytedance-quietly",
+      "timestamp": null,
+      "date": "2025-02"
+    },
+    {
+      "text": "Our technology review only started to seriously discuss GPT in 2023, while most successful LLM startups were founded between 2018 and 2021.",
+      "speaker": "Liang Rubo",
+      "speakerTitle": "CEO and Co-founder, ByteDance",
+      "source": "Recode China AI / Yicai Global",
+      "sourceUrl": "https://recodechinaai.substack.com/p/tiktoks-parent-bytedance-quietly",
+      "timestamp": null,
+      "date": "2025-02"
+    },
+    {
+      "text": "ByteDance will focus on pursuing the upper limits of 'intelligence' this year, rather than chasing the daily active users of any specific product, such as its Doubao AI assistant.",
+      "speaker": "Liang Rubo",
+      "speakerTitle": "CEO and Co-founder, ByteDance",
+      "source": "Yicai Global",
+      "sourceUrl": "https://www.yicaiglobal.com/news/bytedance-was-too-slow-in-seizing-ai-opportunities-ceo-says",
+      "timestamp": null,
+      "date": "2025-02-13"
+    },
+    {
+      "text": "This approach will inspire more experimentation and ensure critical technological milestones are not overlooked.",
+      "speaker": "Liang Rubo",
+      "speakerTitle": "CEO and Co-founder, ByteDance",
+      "source": "Yicai Global",
+      "sourceUrl": "https://www.yicaiglobal.com/news/bytedance-was-too-slow-in-seizing-ai-opportunities-ceo-says",
+      "timestamp": null,
+      "date": "2025-02-13"
+    }
+  ],
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "Enrichment: M5→M1",
+      "summary": "Reclassified from M5 (Product/Venture Lab) Structural to M1 (Research Lab) Structural based on enrichment data. Confidence: Medium→High.",
+      "classification": {
+        "previousModel": 5,
+        "previousModelName": "Product/Venture Lab",
+        "previousOrientation": "Structural",
+        "newModel": 1,
+        "newModelName": "Research Lab",
+        "newOrientation": "Structural"
+      },
+      "sourceRefs": [
+        "bytedance-korea-times-2025-02",
+        "bytedance-aibase-2025-04",
+        "bytedance-yicai-2025-02"
+      ]
+    },
     {
       "date": "2026-01",
       "label": "Curation Review",
@@ -101,33 +169,102 @@
       "sourceDate": null,
       "collectedDate": "2026-01-20",
       "notes": "[no URL]"
+    },
+    {
+      "id": "bytedance-korea-times-2025-02",
+      "type": "Press",
+      "name": "Korea Times",
+      "url": "https://www.koreatimes.co.kr/www/world/2025/02/501_392847.html",
+      "timestamp": null,
+      "sourceDate": "2025-02",
+      "collectedDate": "2026-02-14",
+      "notes": "Key source on Wu Yonghui appointment, reporting structure changes, and team reorganization"
+    },
+    {
+      "id": "bytedance-aibase-2025-04",
+      "type": "Press",
+      "name": "AI Base News",
+      "url": "https://test-news.aibase.com/news/17204",
+      "timestamp": null,
+      "sourceDate": "2025-04",
+      "collectedDate": "2026-02-14",
+      "notes": "Details on AI Lab history (150 researchers at peak), merger into Seed team, Ma Weiying era"
+    },
+    {
+      "id": "bytedance-yicai-2025-02",
+      "type": "Press",
+      "name": "Yicai Global",
+      "url": "https://www.yicaiglobal.com/news/bytedance-was-too-slow-in-seizing-ai-opportunities-ceo-says",
+      "timestamp": null,
+      "sourceDate": "2025-02-13",
+      "collectedDate": "2026-02-14",
+      "notes": "Verbatim quotes from Liang Rubo's Feb 13 all-hands meeting"
+    },
+    {
+      "id": "bytedance-seed-official-2026-02",
+      "type": "Blog",
+      "name": "ByteDance Seed official site",
+      "url": "https://seed.bytedance.com/en/",
+      "timestamp": null,
+      "sourceDate": "2026-02",
+      "collectedDate": "2026-02-14",
+      "notes": "Official team structure: 8 research directions, lab locations"
+    },
+    {
+      "id": "bytedance-recode-china-2025-02",
+      "type": "Report",
+      "name": "Recode China AI",
+      "url": "https://recodechinaai.substack.com/p/tiktoks-parent-bytedance-quietly",
+      "timestamp": null,
+      "sourceDate": "2025-02",
+      "collectedDate": "2026-02-14",
+      "notes": "Comprehensive breakdown: Flow/Seed/Stone structure, investment figures, GPU counts, executive roles"
+    },
+    {
+      "id": "bytedance-trendforce-2025-12",
+      "type": "Report",
+      "name": "TrendForce",
+      "url": "https://www.trendforce.com/news/2025/12/23/news-bytedance-reportedly-to-boost-2026-ai-spend-to-23b-plans-preliminary-20k-h200-chips-order",
+      "timestamp": null,
+      "sourceDate": "2025-12-23",
+      "collectedDate": "2026-02-14",
+      "notes": "2026 AI spending plans, chip orders"
     }
   ],
   "contingencies": {
-    "regulatoryIntensity": null,
-    "timeToObsolescence": null,
-    "ceoTenure": null,
-    "talentMarketPosition": null,
-    "technicalDebt": null
+    "regulatoryIntensity": "High",
+    "timeToObsolescence": "Fast",
+    "ceoTenure": "Founder",
+    "talentMarketPosition": "Talent-rich",
+    "technicalDebt": "Low",
+    "environmentalAiPull": "Strong"
   },
   "tensionPositions": {
-    "structuralVsContextual": null,
+    "structuralVsContextual": -0.7,
     "speedVsDepth": "Speed. 12x token growth in one year, rapid hardware portfolio expansion (phone, earbuds, glasses).",
     "centralVsDistributed": "Centralized. Volcano Engine is a central platform serving both internal (TikTok) and external customers.",
-    "namedVsQuiet": null,
-    "longVsShortHorizon": null
+    "namedVsQuiet": -0.6,
+    "longVsShortHorizon": -0.4
   },
-  "openQuestions": [],
+  "openQuestions": [
+    "Exact current headcount of Seed team (AI Lab had 150 at peak, but post-merger size unclear)",
+    "Zhang Yiming's formal role vs informal influence on AI strategy",
+    "Status of Stone team (infrastructure) - how does it interact with Volcano Engine?",
+    "Whether the elevated Wu Yonghui reporting line persists or was transitional"
+  ],
   "taxonomyFeedback": [
     "[2026-02] This specimen reveals a distinctive M5c pattern where consumer-scale infrastructure (50 trillion tokens/month serving TikTok's algorithmic engine) becomes the economic foundation for enterprise commercialization. Unlike typical M5c specimens where internal platforms are productized after proving out at modest internal scale, ByteDance's Volcano Engine enters the market already battle-tested at extreme scale — giving it a structural cost and reliability advantage that explains the 49.2% market share. The economic logic here is inverted from standard 'build internal, sell external' — this is 'scale internal to unreachable levels, then monetize the cost structure gap.' This may represent a new M5c variant: platform-to-product via scale moat rather than feature differentiation.",
     "[2026-02] The Ocean team hardware proliferation (Doubao phone, Ola Friend earbuds, AI glasses, plus acquisitions of Smartisan, PICO, Oladance) sits awkwardly within M5c classification. These aren't platform extensions — they're vertical integration into end-user devices, more akin to Amazon's Kindle/Echo strategy. This suggests ByteDance may be operating a hybrid M5c + M9 structure: Volcano Engine follows classic internal-to-external platform logic, while Ocean team operates as an AI-native hardware incubator. The taxonomy currently has no clean way to represent this dual-mode operation within a single specimen. Worth tracking whether other M5c specimens show similar hardware ambitions or if this is unique to ByteDance's recommendation-algorithm DNA.",
-    "[2026-02] The 12x token growth (4T to 50T/month) and $23B infrastructure investment signal an interesting tension: ByteDance is simultaneously commercializing Volcano Engine externally while still experiencing hypergrowth in internal consumption. This creates unusual organizational dynamics — the platform team must serve two masters with potentially conflicting optimization targets (cost efficiency for enterprise vs. model performance for TikTok's core algorithm). Most M5c specimens face sequential optimization: optimize for internal use, then adapt for external sale. ByteDance faces concurrent optimization, which likely requires different governance structures and decision rights than standard M5c. The specimen data doesn't reveal how they resolve this tension — a key open question for understanding whether this model is replicable."
+    "[2026-02] The 12x token growth (4T to 50T/month) and $23B infrastructure investment signal an interesting tension: ByteDance is simultaneously commercializing Volcano Engine externally while still experiencing hypergrowth in internal consumption. This creates unusual organizational dynamics — the platform team must serve two masters with potentially conflicting optimization targets (cost efficiency for enterprise vs. model performance for TikTok's core algorithm). Most M5c specimens face sequential optimization: optimize for internal use, then adapt for external sale. ByteDance faces concurrent optimization, which likely requires different governance structures and decision rights than standard M5c. The specimen data doesn't reveal how they resolve this tension — a key open question for understanding whether this model is replicable.",
+    "[2026-02] The Wu Yonghui direct-to-CEO reporting line is a key structural signal distinguishing M1 from M2. In a standard CoE (M2), the AI leader reports through normal hierarchy; here, fundamental research bypasses even the Seed team head to reach the CEO. This 'elevated reporting for exploration' may be worth codifying as an M1 marker.",
+    "[2026-02] ByteDance's three-unit structure (Flow/Seed/Stone) is a clean M1+M4 hybrid: centralized foundational research (Seed), distributed application (Flow), shared infrastructure (Stone). The split emerged from necessity—Flow was too application-focused, so Seed was carved out for basic research. This 'split a team to protect exploration' pattern appears in other specimens.",
+    "[2026-02] Crisis as organizational catalyst: The DeepSeek shock triggered visible restructuring, public self-criticism, and strategic pivot. This is a useful natural experiment—large tech incumbents respond to AI competitive threats by elevating research reporting lines and protecting exploration from product pressures. Similar to Microsoft's response to ChatGPT."
   ],
   "meta": {
     "status": "Active",
     "created": "2026-01-31",
-    "lastUpdated": "2026-01-31",
-    "completeness": "Low",
+    "lastUpdated": "2026-02-15",
+    "completeness": "High",
     "convertedFrom": "library/cases/bytedance.json"
   }
 }

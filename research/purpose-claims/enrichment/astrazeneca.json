@@ -1,0 +1,25 @@
+{
+  "specimenId": "astrazeneca",
+  "scannedDate": "2026-02-15",
+  "quality": "rich",
+  "claimCount": 8,
+  "claimTypeDistribution": {
+    "utopian": 1,
+    "teleological": 3,
+    "higher-calling": 1,
+    "identity": 2,
+    "survival": 1,
+    "commercial-success": 0
+  },
+  "keyFindings": [],
+  "rhetoricalPatterns": [],
+  "comparativeNotes": null,
+  "notableAbsences": null,
+  "correctedLeaderInfo": null,
+  "scanNarrative": null,
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "https://www.astrazeneca.com/media-centre/press-releases/2026/full-year-q4-2025-results.html"
+  ]
+}

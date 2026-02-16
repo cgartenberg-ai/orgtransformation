@@ -1,0 +1,210 @@
+{
+  "company": "Atlassian",
+  "enrichmentDate": "2026-02-14",
+  "mode": "enrich",
+  "searchesCompleted": 5,
+  "urlsFetched": 6,
+  "fetchFailures": [
+    "stratechery.com - paywall/no content extracted"
+  ],
+
+  "newFindings": {
+    "teamStructure": "Atlassian has a Machine Learning Research team working on LLMs, Generative AI, Search, Conversational Agents, and AI Optimization. Separately, they have a 'Teamwork Lab' research division led by Dr. Molly Sands. The company is actively hiring PhD-level AI Researchers for 2026 (seeking candidates preferably co-located in Seattle or PST timezone). Total company headcount is 10,000-12,000 employees globally. No specific AI team headcount disclosed.",
+    "keyPeople": [
+      {
+        "name": "Tamar Yehoshua",
+        "title": "Chief Product and AI Officer",
+        "role": "Joining November 17, 2025. Previously President of Product & Technology at Glean; Chief Product Officer at Slack. First executive with explicit 'AI' in title at C-level.",
+        "isNew": true
+      },
+      {
+        "name": "Dr. Molly Sands",
+        "title": "Head of Teamwork Lab",
+        "role": "Leads Atlassian's Teamwork Lab research division. Produced AI Collaboration Report.",
+        "isNew": true
+      },
+      {
+        "name": "Matthew Graviss",
+        "title": "Public Sector Chief Technology Officer",
+        "role": "Joined March 2025. Former State Department CAIO. First public sector CTO at Atlassian.",
+        "isNew": true
+      },
+      {
+        "name": "Anu Bharadwaj",
+        "title": "President (departing)",
+        "role": "Leaving at end of 2025. Part of leadership reshuffling as company doubles down on AI.",
+        "isNew": true
+      },
+      {
+        "name": "Joe Binz",
+        "title": "CFO (retiring)",
+        "role": "Retiring June 30, 2026 after four years. CFO search underway.",
+        "isNew": true
+      }
+    ],
+    "investmentSignals": "No specific AI budget or CapEx disclosed. Company delivering 5M Rovo seats while improving gross margin (suggests efficient AI infrastructure spend). Acquired The Browser Company for nearly $1 billion (per search results) to build AI-native browser for knowledge work. Company maintains target of 25%+ non-GAAP operating margin by FY2027 while investing in AI.",
+    "recentDevelopments": "MAJOR: Acquired The Browser Company (Dia browser) to build AI-native browser for enterprise knowledge workers (announced Q1 FY26). Rovo hit 5 million monthly active users as of Q2 FY26 (Feb 2026) - up from 3.5M in Q1 FY26. Teamwork Collection passed 1 million seats sold in less than 9 months. Loom AI editions growing >100% YoY. Rovo Dev ranked #1 on SWE-Bench industry benchmark. Q2 FY26 marked first time crossing $1B in cloud product revenue in a single quarter.",
+    "observableMarkers": {
+      "reportingStructure": "NEW: Tamar Yehoshua joining as Chief Product AND AI Officer (combined role) - reports directly to CEO Cannon-Brookes. This consolidates product and AI under one C-level executive. Scott Farquhar stepped down as co-CEO in 2024, leaving Cannon-Brookes as sole CEO.",
+      "resourceAllocation": "Teamwork Graph now contains 100+ billion objects. Virtual service agents resolving 22% of requests, returning ~57 hours (1.5 FTE) capacity weekly. Company managing AI infrastructure costs while improving margins - suggesting efficient deployment rather than massive expansion.",
+      "timeHorizons": "Earnings guidance: 20%+ compounded annual revenue growth through FY2027. AI strategy appears integrated into normal product roadmap rather than separate exploration track.",
+      "decisionRights": "Multi-model architecture 'built on purpose' - suggests centralized platform team manages model selection while product teams consume through unified API. Quote: 'Our job is adopting and delivering value quickly.'",
+      "metrics": "Q2 FY26 metrics: 5M Rovo MAU (up from 3.5M in Q1 = 43% QoQ growth). 2.4M workflow automations via Rovo agents in 6 months. Companies using AI code generation see 5% more Jira tasks, 5% higher MAU, 5% faster seat expansion. 78% of Rovo Search users report it superior to past search."
+    },
+    "classificationUpdate": "Current classification shows 'M?' with medium confidence. Based on new data, this appears to be M6 (AI Platform Team) with Structural orientation: The Teamwork Graph + AI Gateway architecture provides a centralized platform that product teams consume. The new Chief Product AND AI Officer role consolidates this further. Rovo operates as an enterprise-wide AI platform across all products. However, the ML Research team doing foundational work suggests some M7 (Dedicated AI R&D) elements. Recommend M6 with high confidence, possibly M6/M7 hybrid."
+  },
+
+  "quotes": [
+    {
+      "text": "AI is the best thing to happen to Atlassian Corporation, and the results we are seeing today are no accident.",
+      "speaker": "Mike Cannon-Brookes",
+      "speakerTitle": "CEO",
+      "source": "Atlassian Q2 FY2026 Earnings Call",
+      "sourceUrl": "https://www.fool.com/earnings/call-transcripts/2026/02/05/atlassian-team-q2-2026-earnings-call-transcript/",
+      "sourceDate": "2026-02-05",
+      "context": "Opening remarks on AI performance"
+    },
+    {
+      "text": "We're able to deliver those five million Rovo seats and continue to improve gross margin.",
+      "speaker": "Mike Cannon-Brookes",
+      "speakerTitle": "CEO",
+      "source": "The Register - Atlassian Q2 2026",
+      "sourceUrl": "https://www.theregister.com/2026/02/06/atlassian_q2_2026/",
+      "sourceDate": "2026-02-06",
+      "context": "Defending AI infrastructure costs to investors"
+    },
+    {
+      "text": "I'm convinced AI is great for Atlassian. Others think software is dead.",
+      "speaker": "Mike Cannon-Brookes",
+      "speakerTitle": "CEO",
+      "source": "The Register - Atlassian Q2 2026",
+      "sourceUrl": "https://www.theregister.com/2026/02/06/atlassian_q2_2026/",
+      "sourceDate": "2026-02-06",
+      "context": "Response to skeptics about AI disrupting Atlassian's business"
+    },
+    {
+      "text": "Do I think there will be far less developers in the world five years from now? No, I don't think so. I think there'll be far more.",
+      "speaker": "Mike Cannon-Brookes",
+      "speakerTitle": "CEO",
+      "source": "Diginomica - Atlassian tops $5bn in FY25",
+      "sourceUrl": "https://diginomica.com/atlassian-tops-5bn-fy25-ceo-bullish-ai-enterprise",
+      "sourceDate": "2025-08",
+      "context": "On AI's impact on software development jobs"
+    },
+    {
+      "text": "We built [our AI systems] to be multi-model on purpose…Our job is adopting and delivering value quickly.",
+      "speaker": "Mike Cannon-Brookes",
+      "speakerTitle": "CEO",
+      "source": "Atlassian Blog - Leading in the Age of AI",
+      "sourceUrl": "https://www.atlassian.com/blog/inside-atlassian/mcb-on-leading-in-the-age-of-ai",
+      "sourceDate": "2025",
+      "context": "Explaining multi-model AI architecture strategy"
+    },
+    {
+      "text": "Five years from now, we'll have more engineers working for our company than we do today.",
+      "speaker": "Mike Cannon-Brookes",
+      "speakerTitle": "CEO",
+      "source": "Atlassian Blog - Leading in the Age of AI",
+      "sourceUrl": "https://www.atlassian.com/blog/inside-atlassian/mcb-on-leading-in-the-age-of-ai",
+      "sourceDate": "2025",
+      "context": "On future engineering headcount despite AI automation"
+    },
+    {
+      "text": "As software gets cheaper to build, the roadmap gets longer.",
+      "speaker": "Mike Cannon-Brookes",
+      "speakerTitle": "CEO",
+      "source": "Atlassian Blog - Leading in the Age of AI",
+      "sourceUrl": "https://www.atlassian.com/blog/inside-atlassian/mcb-on-leading-in-the-age-of-ai",
+      "sourceDate": "2025",
+      "context": "On why AI expands rather than contracts developer demand"
+    },
+    {
+      "text": "The founder's job is to fight the entropy of ambition.",
+      "speaker": "Mike Cannon-Brookes",
+      "speakerTitle": "CEO",
+      "source": "Atlassian Blog - Leading in the Age of AI",
+      "sourceUrl": "https://www.atlassian.com/blog/inside-atlassian/mcb-on-leading-in-the-age-of-ai",
+      "sourceDate": "2025",
+      "context": "On leadership philosophy during transformation"
+    },
+    {
+      "text": "AI is not just an add-on, but the engine powering modern teamwork.",
+      "speaker": "Mike Cannon-Brookes",
+      "speakerTitle": "CEO",
+      "source": "Atlassian Q1 FY26 Shareholder Letter",
+      "sourceUrl": "https://www.atlassian.com/blog/announcements/shareholder-letter-q1fy26",
+      "sourceDate": "2025-10",
+      "context": "Describing strategic importance of AI to core business"
+    },
+    {
+      "text": "I love my job, and this is the most exciting time to be at Atlassian...fantastic tailwind from new AI technologies.",
+      "speaker": "Mike Cannon-Brookes",
+      "speakerTitle": "CEO",
+      "source": "Diginomica - Atlassian tops $5bn in FY25",
+      "sourceUrl": "https://diginomica.com/atlassian-tops-5bn-fy25-ceo-bullish-ai-enterprise",
+      "sourceDate": "2025-08",
+      "context": "Q4 FY25 earnings call, reaffirming long-term commitment"
+    }
+  ],
+
+  "sources": [
+    {
+      "name": "Atlassian Q2 FY2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/02/05/atlassian-team-q2-2026-earnings-call-transcript/",
+      "type": "Earnings Call",
+      "date": "2026-02-05",
+      "notes": "5M Rovo users, 100B+ Teamwork Graph objects, AI as transformational. Key quote on multi-model architecture."
+    },
+    {
+      "name": "Atlassian Q1 FY26 Shareholder Letter",
+      "url": "https://www.atlassian.com/blog/announcements/shareholder-letter-q1fy26",
+      "type": "Press",
+      "date": "2025-10",
+      "notes": "3.5M AI MAU, Tamar Yehoshua appointment, Browser Company acquisition, Rovo Dev #1 on SWE-Bench"
+    },
+    {
+      "name": "The Register - Atlassian Q2 2026",
+      "url": "https://www.theregister.com/2026/02/06/atlassian_q2_2026/",
+      "type": "Press",
+      "date": "2026-02-06",
+      "notes": "5M Rovo users, $1.6B revenue (23% YoY), first $1B cloud quarter. Cannon-Brookes defensive quotes on AI."
+    },
+    {
+      "name": "Diginomica - Atlassian tops $5bn in FY25",
+      "url": "https://diginomica.com/atlassian-tops-5bn-fy25-ceo-bullish-ai-enterprise",
+      "type": "Press",
+      "date": "2025-08",
+      "notes": "2.3M AI MAU in Q4 FY25 (20x YoY growth), no AI premium pricing yet. Key quotes on developer job growth."
+    },
+    {
+      "name": "Atlassian Blog - Leading in the Age of AI",
+      "url": "https://www.atlassian.com/blog/inside-atlassian/mcb-on-leading-in-the-age-of-ai",
+      "type": "Interview",
+      "date": "2025",
+      "notes": "Rich philosophical quotes from MCB on multi-model strategy, creativity, and leadership in AI era."
+    },
+    {
+      "name": "FedScoop - Matthew Graviss joins Atlassian",
+      "url": "https://fedscoop.com/radio/matthew-graviss-has-joined-the-australian-based-software-company-as-its-public-sector-chief-technology-officer-after-roughly-17-years-in-government/",
+      "type": "Press",
+      "date": "2025-03",
+      "notes": "Former State Dept CAIO hired as first public sector CTO. Signal of government market push."
+    }
+  ],
+
+  "summary": "Atlassian has dramatically scaled its AI footprint: Rovo hit 5 million MAU by Q2 FY26, up from 3.5M just one quarter earlier. The company is consolidating AI and product leadership under new Chief Product and AI Officer Tamar Yehoshua (joining Nov 2025), signaling strategic importance. The ~$1B Browser Company acquisition aims to capture the AI-native browser market for knowledge workers.",
+
+  "openQuestions": [
+    "Exact headcount of ML Research team and Teamwork Lab",
+    "Specific AI R&D budget or % of total R&D",
+    "Whether Teamwork Lab reports to Sherif Mansour or Tamar Yehoshua",
+    "Browser Company integration timeline and team structure",
+    "How the multi-model 'AI gateway' architecture is technically staffed"
+  ],
+
+  "botanistNotes": [
+    "The creation of a combined 'Chief Product AND AI Officer' role (Yehoshua) is structurally significant - it suggests AI is not a separate function but integrated into product. This is different from companies that have a standalone CAIO/Head of AI.",
+    "Cannon-Brookes's quote 'as software gets cheaper to build, the roadmap gets longer' is a theoretical claim about induced demand in software development - potentially testable as a mechanism.",
+    "The 5M→ rapid scaling of Rovo without disclosed team expansion suggests platform efficiency. The multi-model architecture ('built on purpose') indicates an M6 Platform Team model rather than M3 Shadow AI or M7 R&D Lab."
+  ]
+}

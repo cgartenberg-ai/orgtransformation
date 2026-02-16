@@ -1,0 +1,105 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "lennys-newsletter",
+  "sourceName": "Lenny's Newsletter",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "None",
+  "newScannedThrough": "February 2026 (all January 2026 content reviewed)",
+  "newContent": [
+    {
+      "title": "We replaced our sales team with 20 AI agents—here's what happened next | Jason Lemkin (SaaStr)",
+      "date": "2026-01",
+      "url": "https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents",
+      "relevance": "HIGH",
+      "findings": [
+        {
+          "org": "SaaStr",
+          "fact": "Replaced entire GTM team (10 SDRs/AEs) with 20 AI agents managed by 1.2 humans",
+          "structuralModel": "AI-first replacement",
+          "sourceUrl": "https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents",
+          "sourceDate": "2026-01",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "org": "SaaStr portfolio (aggregate)",
+          "fact": "Lemkin observes 'most SDRs and BDRs will be extinct within a year' across portfolio companies",
+          "structuralModel": "AI-driven role elimination",
+          "sourceUrl": "https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents",
+          "sourceDate": "2026-01",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    },
+    {
+      "title": "The new AI growth playbook for 2026: Lovable hit $200M ARR in one year | Elena Verna",
+      "date": "2026-01",
+      "url": "https://www.lennysnewsletter.com/p/the-new-ai-growth-playbook-for-2026-elena-verna",
+      "relevance": "HIGH",
+      "findings": [
+        {
+          "org": "Lovable",
+          "fact": "$200M ARR in under one year with only 100 employees; activation ownership moved from growth teams to product teams",
+          "structuralModel": "AI-native product-led growth",
+          "sourceUrl": "https://www.lennysnewsletter.com/p/the-new-ai-growth-playbook-for-2026-elena-verna",
+          "sourceDate": "2026-01",
+          "collectedDate": "2026-02-15"
+        },
+        {
+          "org": "Lovable",
+          "fact": "60-70% of traditional growth tactics no longer apply; must re-find product-market fit every 3 months due to AI capability advances",
+          "structuralModel": "Continuous PMF recalibration",
+          "sourceUrl": "https://www.lennysnewsletter.com/p/the-new-ai-growth-playbook-for-2026-elena-verna",
+          "sourceDate": "2026-01",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    },
+    {
+      "title": "The future of AI-powered sales | Jeanne DeWitt (Vercel COO)",
+      "date": "2026-01",
+      "url": "https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently",
+      "relevance": "HIGH",
+      "findings": [
+        {
+          "org": "Vercel",
+          "fact": "Replaced 10 SDRs with 1 person + AI; pioneering the 'GTM engineer' role that combines go-to-market strategy with technical implementation",
+          "structuralModel": "Hybrid human-AI sales structure",
+          "sourceUrl": "https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently",
+          "sourceDate": "2026-01",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    },
+    {
+      "title": "Marc Andreessen: The real AI boom hasn't even started yet",
+      "date": "2026-01-29",
+      "url": "https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom",
+      "relevance": "MEDIUM",
+      "findings": []
+    },
+    {
+      "title": "How I AI: OpenAI product lead on getting the most out of Codex",
+      "date": "2026-01-12",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-the-power-users",
+      "relevance": "MEDIUM",
+      "findings": [
+        {
+          "org": "OpenAI",
+          "fact": "Codex workflows use structured planning (Plans.md), parallel development via Git worktrees, and automated code review at scale",
+          "structuralModel": "AI coding agent integration",
+          "sourceUrl": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-the-power-users",
+          "sourceDate": "2026-01-12",
+          "collectedDate": "2026-02-15"
+        }
+      ]
+    },
+    {
+      "title": "ChatGPT apps are about to be the next big distribution channel",
+      "date": "2026-01-20",
+      "url": "https://www.lennysnewsletter.com/p/chatgpt-apps-are-about-to-be-the",
+      "relevance": "LOW",
+      "findings": []
+    }
+  ],
+  "summary": "First scan of Lenny's Newsletter yields exceptional AI-organizational content. Three HIGH-relevance findings: (1) SaaStr replaced 10-person sales team with 20 AI agents managed by 1.2 humans; (2) Lovable reached $200M ARR with 100 employees, shifting activation to product teams and re-finding PMF every 3 months; (3) Vercel replaced 10 SDRs with 1 person + AI, pioneering 'GTM engineer' hybrid role. Strong signal that sales/GTM functions are rapidly restructuring around AI agents. Lovable and Vercel are both candidate specimens. SaaStr findings provide macro-level evidence of AI-driven role elimination in sales."
+}

@@ -154,9 +154,10 @@ For each verbatim claim found, create an entry in `research/purpose-claims/regis
 After scanning a specimen, update `research/purpose-claims/scan-tracker.json`:
 - Set `lastScanned` to today's date
 - Set `claimsFound` to the count
-- Set `quality`:
-  - `rich` — 3+ claims found
-  - `adequate` — 1-2 claims found
+- Set `quality` (4-level scale):
+  - `rich` — 5+ claims found
+  - `adequate` — 2-4 claims found
+  - `thin` — 1 claim found
   - `none` — scanned, no qualifying claims found (this is data too)
 
 ### Step 6: Write Session File
@@ -322,7 +323,7 @@ Write a JSON file to: {output-path}
   "specimenId": "{specimen-id}",
   "scannedDate": "YYYY-MM-DD",
   "claimsFound": N,
-  "quality": "rich|adequate|none",
+  "quality": "rich|adequate|thin|none",
   "searchesCompleted": N,
   "urlsFetched": N,
   "searchFailures": ["queries that failed"],
@@ -420,6 +421,7 @@ This claim registry serves the paper on **purpose and AI-era organizational tran
    - **Survival** — we must change or be left behind (creates urgency without positive vision)
    - **Commercial-success** — this will make the business perform better (the baseline — standard business logic)
 4. The type and frequency of purpose claims varies systematically with structural model, orientation, and industry
+5. Purpose claims connect to the analytical framework's **P3 (Governance Structure)** and **P4 (Competitive/Institutional Context)** primitives: governance determines *who* can make purpose claims and with what authority; competitive context shapes *what kind* of claim is credible. Founder authority (P3) may enable more utopian/identity framing; hired CEOs facing board pressure may default to commercial-success/survival framing. This is a hypothesis under investigation, not a confirmed finding.
 
 The registry provides the empirical base. Every claim is citable, traceable, and coded.
 

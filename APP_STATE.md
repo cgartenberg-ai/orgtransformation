@@ -1,6 +1,6 @@
 # App State: Ambidexterity Field Guide
 
-## Last Updated: February 14, 2026
+## Last Updated: February 15, 2026
 
 ---
 
@@ -41,8 +41,10 @@ The reference site is a working Next.js prototype in `site/`. It implements UI S
 | `/ai-native` | `app/ai-native/page.tsx` | AI-native org analysis: model/orientation distribution, specimen grid | Working |
 | `/mechanisms` | `app/mechanisms/page.tsx` | Confirmed + candidate mechanisms list with maturity badges | Working |
 | `/mechanisms/[id]` | `app/mechanisms/[id]/page.tsx` | Individual mechanism with linked specimens, scholarly anchor | Working |
-| `/insights` | `app/insights/page.tsx` | Cross-cutting field insights grouped by theme | Working |
-| `/tensions` | `app/tensions/page.tsx` | `TensionMap` + enriched tension cards (drivers, contingencies, model clustering, interpretive notes) | Working |
+| `/framework` | `app/framework/page.tsx` | Analytical framework: 5 primitives → 5 tensions → 10 findings flow | Working |
+| `/findings` | `app/findings/page.tsx` | 10 core findings with evidence grids, primitive filters, field observations | Working |
+| `/insights` | `app/insights/page.tsx` | Redirects to `/findings` (legacy URL preserved) | Working |
+| `/tensions` | `app/tensions/page.tsx` | `TensionMap` + enriched tension cards with primitive derivations, master tension badge, caveat display | Working |
 | `/matcher` | `app/matcher/page.tsx` | `MatcherForm` — 6-dimension matching with transparent scoring | Working |
 | `/compare` | `app/compare/page.tsx` | `ComparisonView` — side-by-side up to 4 | Working |
 | `/about` | `app/about/page.tsx` | Methodology, taxonomy reference, academic foundation | Working |
@@ -55,7 +57,7 @@ The reference site is a working Next.js prototype in `site/`. It implements UI S
 ```
 site/components/
 ├── layout/
-│   ├── SiteHeader.tsx          # Nav bar with links (Specimens, Taxonomy, Principles, Insights, Purpose Claims, Tensions, Field Journal, Compare, About)
+│   ├── SiteHeader.tsx          # Nav bar with links (Specimens, Taxonomy, Framework, Findings, Principles, Tensions, Purpose Claims, Compare, About)
 │   └── SiteFooter.tsx          # Footer
 ├── specimens/
 │   ├── SpecimenBrowser.tsx     # Client: filterable list with search
@@ -124,7 +126,9 @@ site/lib/
 │   │   ├── getMechanisms()
 │   │   ├── getTensions()
 │   │   ├── getContingencies()
-│   │   └── getInsights()
+│   │   ├── getInsights()           # DEPRECATED — reads from archive
+│   │   ├── getPrimitives()         # NEW — reads primitives.json
+│   │   └── getFindings()           # NEW — reads findings.json
 │   └── purpose-claims.ts   # File-based: reads ../research/purpose-claims/
 │       ├── getAllPurposeClaims()
 │       ├── getSpecimenEnrichment(id)   # Single enrichment file
@@ -146,37 +150,40 @@ site/lib/
 
 ## Data Infrastructure Status
 
-### Specimens: 144 active (149 total including 5 inactive)
+### Specimens: 157 active (164 total including 7 inactive)
 
 | Structural Model | Count | Type Specimen |
 |-----------------|-------|---------------|
-| Model 1: Research Lab | 12 | Google DeepMind |
-| Model 2: Center of Excellence | 20 | — |
-| Model 3: Embedded Teams | 14 | — |
-| Model 4: Hub-and-Spoke | 47 | Novo Nordisk |
+| Model 1: Research Lab | 13 | Google DeepMind |
+| Model 2: Center of Excellence | 19 | — |
+| Model 3: Embedded Teams | 12 | — |
+| Model 4: Hub-and-Spoke | 54 | Novo Nordisk |
 | Model 5: Product/Venture Lab | 16 | Google X (5b), Samsung C-Lab (5a) |
-| Model 6: Unnamed/Informal | 24 | P&G (ChatPG), Bank of America |
+| Model 6: Unnamed/Informal | 32 | P&G (ChatPG), Bank of America |
 | Model 7: Tiger Teams | 0 | — (no confirmed specimens after taxonomy audit) |
 | Model 8: Skunkworks (Emerging) | 0 | — (predicted model, no confirmed specimens) |
 | Model 9: AI-Native | 10 | — (born-AI organizations, no legacy to transform) |
 
-**Orientation distribution**: 94 Structural, 44 Contextual, 4 Temporal
+**Orientation distribution**: 97 Structural, 53 Contextual, 5 Temporal
 
 **AI-native specimens**: 10 tagged (harvey-ai, mercor, sierra-ai, glean, ssi, ami-labs, thinking-machines-lab, world-labs, databricks, snowflake)
 
-**Inactive specimens**: 5 government (nasa, us-cyber-command, new-york-state, us-air-force, pentagon-cdao) — excluded from all aggregates
+**Inactive specimens**: 7 government (nasa, us-cyber-command, new-york-state, us-air-force, pentagon-cdao, fda-hhs, liverpool-city-region) — excluded from all aggregates
 
 ### Synthesis Data
 
-- 9 confirmed mechanisms + 14 candidates (`synthesis/mechanisms.json`)
-- 65 cross-cutting field insights (`synthesis/insights.json`)
-- 5 core tensions (`synthesis/tensions.json`)
-- 6 key contingencies (`synthesis/contingencies.json`)
+- **Analytical Framework** (`synthesis/ANALYTICAL-FRAMEWORK.md` v0.2): 5 primitives → 5 derived tensions → 10 consolidated findings
+- **5 analytical primitives** (`synthesis/primitives.json`): P1 Work Architecture Modularity, P2 Work Output Measurability, P3 Governance Structure, P4 Competitive/Institutional Context, P5 Organizational Endowment
+- **10 core findings** (`synthesis/findings.json`): Consolidated from 78 field insights, 208 evidence links across specimens, 22 preserved field observations. 3 latent papers identified.
+- **78 archived field insights** (`synthesis/insights-archive-v1.json`): Original insight collection, preserved for traceability. 56 mapped to findings, 22 to field observations.
+- 6 confirmed mechanisms + 17 candidates (`synthesis/mechanisms.json`) — 3 demoted from confirmed (Consumer-Grade UX, Put Executives on Tools, AI-Driven Delayering) during framework convergence
+- 5 core tensions with primitive derivations (`synthesis/tensions.json`) — T1 master tension, T4 retained with caveat
+- 6 key contingencies with primitive mappings (`synthesis/contingencies.json`)
 
 ### Purpose Claims Data
 
-- **1,522 purpose claims** across 145 specimens (v2.0 taxonomy: 6 types). All 149 specimens tracked in scan-tracker (0 unscanned).
-- **130 enrichment files** in `research/purpose-claims/enrichment/` with rhetorical profiles (claimTypeDistribution, keyFindings, rhetoricalPatterns). 19 scanned specimens still need enrichment.
+- **1,592 purpose claims** across 156 specimens (v2.0 taxonomy: 6 types). 164 specimens tracked in scan-tracker (8 unscanned — new from Session 35).
+- **136 enrichment files** in `research/purpose-claims/enrichment/` with rhetorical profiles (claimTypeDistribution, keyFindings, rhetoricalPatterns).
 - **Visual analytics**: Spider/radar charts on specimen pages and purpose claims browser (Profiles view)
 - **Citation system**: `[source-id]` inline markers → `CitedText.tsx` superscript links. **34 specimens** backfilled with `[source-id]` citations across observable markers.
 
@@ -186,7 +193,7 @@ site/lib/
 
 ### Validation
 
-`node scripts/validate-workflow.js` — 0 errors, 27 warnings (18 sections including provenance checks, coverage gaps, enrichment completeness, registry freshness, ID/filename consistency, schema validation)
+`node scripts/validate-workflow.js` — 0 errors, 157 warnings (18 sections including provenance checks, coverage gaps, enrichment completeness, registry freshness, ID/filename consistency, schema validation)
 
 **Additional operational scripts** (see `scripts/README.md`):
 - `node scripts/specimen-lifecycle-status.js` — Pipeline dashboard → `data/specimen-lifecycle-status.{md,json}`
@@ -195,7 +202,7 @@ site/lib/
 
 ### Classification Guardrails
 
-8 guardrails embedded in curation protocol (`curation/CURATION-PROTOCOL.md`) to prevent common misclassifications (M7 trap, M1 trap, prestige bias, AI-native scope, M4 permissiveness, etc.)
+9 guardrails embedded in curation protocol (`curation/CURATION-PROTOCOL.md`) to prevent common misclassifications (M7 trap, M1 trap, prestige bias, AI-native scope, M4 permissiveness, etc.)
 
 ---
 
@@ -235,11 +242,30 @@ site/lib/
 
 ## Pipeline Status
 
+### Nightly Pipeline Orchestrator
+
+The full pipeline runs autonomously via `scripts/overnight-pipeline.py`, chaining 6 phases on a **7-day themed rotation** configured in `scripts/pipeline-schedule.json`. All overnight scripts are now **framework-aware** — research agents have antenna for the 5 primitives, curation agents tag `primitiveIndicators` and `findingRelevance`, and synthesis evaluates evidence for/against the 10 core findings.
+
+**Command:** `python3 scripts/overnight-pipeline.py --skip-permissions` (or `--dry-run` to preview)
+**Schedule:** Fires daily at 7 PM via launchd. See `WORKFLOW.md` → Operational Infrastructure for full weekly schedule and commands.
+**Reports:** Morning briefings and field journals in `pipeline-reports/`.
+
+| Phase | Script | What it does |
+|-------|--------|-------------|
+| 1. Research | `overnight-research.py` | Themed web scans → `research/pending/` |
+| 2. Curation | `overnight-curate.py` | Creates/updates specimen cards from queue |
+| 3. Purpose Claims | `overnight-purpose-claims.py` | Collects verbatim claims → registry |
+| 4. Synthesis | `overnight-synthesis.py` | Autonomous scoring (see note below) |
+| 5. Validation | `validate-workflow.js` | Consistency checks (0 errors required) |
+| 6. Briefing | (orchestrator) | Generates morning briefing report |
+
+**Safety:** Atomic writes, PID-based lock files, time-budget-aware (12-hour window), all changes logged to `data/CHANGELOG.md`. See `scripts/README.md` for full details.
+
 ### Research (Phase 1)
 - 16+ sessions completed (in `research/sessions/`)
 - **7 Group A files in `research/pending/`** — processed research agent outputs retained for reference (deep-scans, earnings, podcasts, sweeps). 89 Group B curation artifacts archived to `research/pending/archived-curation-artifacts/`.
 - **37 target specimens** in `research/target-specimens.json` for systematic sector coverage
-- **Overnight automation**: `scripts/overnight-research.py` ready for unattended runs
+- **Framework-aware agents**: Research prompts include P1-P5 primitive antenna and updated T1-T5 tension names in relevance test
 - **Field signals**: 37 tracked in `research/field-signals.json` (7 added Session 15c from podcast sweep)
 - Deep-scan backlog: 4 HIGH, 5 MEDIUM priority podcast episodes
 - Low-confidence queue: 2 specimens (roche-genentech M3, lg-electronics M2) in `research/low-confidence-queue.json`
@@ -248,12 +274,14 @@ site/lib/
 - 14 sessions completed (in `curation/sessions/`)
 - 6 specimens pending synthesis (enriched in Session 16)
 - First parallel curation session completed 2026-02-04 (4 agents, overlap protocol)
+- **Framework-aware agents**: Curation prompts tag `primitiveIndicators` (P1-P5) and `findingRelevance` (supports/challenges) with anti-bias guardrail
 
 ### Synthesis (Phase 3) — Interactive Botanist Mode
 - **Automated `/synthesize` and `overnight-synthesis.py` DEPRECATED** — synthesis requires interactive collaboration (Sessions 11-12 proved this)
 - 104 specimens placed in tensions + contingencies across 7 interactive batches (Sessions 11-14, 18)
 - ~23 specimens remaining across Batches 8-9 (see `HANDOFF.md` for batch breakdown with analytical questions)
 - `modularity-predicts-ai-structure` and `two-dimensions-of-tacit-information` hypotheses in insights.json
+- **New Step 5d (Findings Review)**: Synthesis protocol now evaluates specimens against 10 core findings, tracking evidence for/against, with maturity lifecycle (emerging→confirmed→contested)
 - Scoring guides, discovery protocol, and stub policy documented in `WORKFLOW.md` Phase 3
 
 ---
@@ -264,12 +292,15 @@ See `CLAUDE.md` → Project Structure for the full directory tree. Key operation
 
 ```
 scripts/README.md                        # Active scripts documentation
+scripts/overnight-pipeline.py            # Nightly orchestrator (chains all 6 phases)
+scripts/pipeline-schedule.json           # 7-day themed rotation config
 data/CHANGELOG.md                        # Append-only audit log
 data/specimen-lifecycle-status.md        # Pipeline dashboard (run specimen-lifecycle-status.js to regenerate)
+pipeline-reports/                        # Morning briefings and field journals
 ```
 
 ---
 
 ## Session Log
 
-See **`SESSION_LOG.md`** for full session history (60 entries, Feb 1–14, 2026). Updated at end of each session per the Session End Protocol in `CLAUDE.md`.
+See **`SESSION_LOG.md`** for full session history (61 entries, Feb 1–15, 2026). Updated at end of each session per the Session End Protocol in `CLAUDE.md`.

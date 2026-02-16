@@ -1,8 +1,7 @@
 {
   "id": "workday",
   "name": "Workday",
-  "title": "AI Pivot Restructuring — 1,750 Layoffs (8.5%)",
-
+  "title": "AI Pivot Restructuring — Founder Return After 10.5% Cumulative Cuts",
   "classification": {
     "structuralModel": 6,
     "structuralModelName": "Unnamed/Informal",
@@ -16,7 +15,6 @@
     "classificationRationale": "Tentative Model 6a. Workday is cutting 1,750 jobs (8.5% of workforce) with CEO Carl Eschenbach citing 'increasing demand for AI' as driver. Continued hiring in 'key strategic areas' (AI-targeted). No dedicated AI lab, CAIO, or CoE described — the restructuring is enterprise-wide reallocation framed as AI pivot. Low confidence: this may be cost-cutting framed as AI ('AI-washing'). Restructuring announcement rather than observed AI org structure.",
     "typeSpecimen": false
   },
-
   "habitat": {
     "industry": "Technology",
     "sector": "Enterprise Software / HCM",
@@ -26,9 +24,7 @@
     "headquarters": "Pleasanton, CA",
     "geography": "Global"
   },
-
   "description": "Workday announced 1,750 layoffs (8.5% of workforce) in February 2025, with CEO Carl Eschenbach explicitly citing AI as the driver: 'Companies everywhere are reimagining how work gets done, and the increasing demand for AI has the potential to drive a new era of growth for Workday.'\n\nThe company simultaneously announced continued hiring in 'key strategic areas' including AI, suggesting a workforce composition shift rather than pure headcount reduction. Restructuring charges of $230-270M for severance and benefits.\n\nThis specimen is primarily valuable as an 'AI-washing' data point. Only 4-5% of tech layoffs explicitly cite AI as driver, and critics note companies may be using AI narrative to justify cost reductions. Former Amazon employee quoted: 'You could potentially have just been bloated in the first place, reduce head count, attribute it to AI, and now you've got a value story.' The specimen parallels Pinterest (also explicit AI-pivot layoffs) but with even less structural evidence of actual AI organizational change.",
-
   "observableMarkers": {
     "reportingStructure": null,
     "resourceAllocation": "$230-270M restructuring charges. 1,750 jobs cut (8.5%).",
@@ -36,7 +32,6 @@
     "decisionRights": null,
     "metrics": "1,750 jobs cut (8.5% of ~20,600 workforce)."
   },
-
   "mechanisms": [],
   "quotes": [
     {
@@ -45,16 +40,46 @@
       "speakerTitle": "CEO",
       "sourceRef": "cbsnews-ai-layoffs-2026",
       "context": "Announcing workforce reduction tied to AI strategy realignment"
+    },
+    {
+      "text": "AI is a bigger transformation than SaaS — and it will define the next generation of market leaders.",
+      "speaker": "Aneel Bhusri",
+      "speakerTitle": "Returning CEO & Co-founder, Workday",
+      "source": "The Register",
+      "sourceUrl": "https://www.theregister.com/2026/02/09/workday_ceo_steps_down/",
+      "timestamp": null,
+      "date": "2026-02-09"
+    },
+    {
+      "text": "We don't need more headcount to drive the business forward.",
+      "speaker": "Carl Eschenbach",
+      "speakerTitle": "Departing CEO, Workday",
+      "source": "CNBC",
+      "sourceUrl": "https://www.cnbc.com/2026/02/09/workday-stock-carl-eschenbach-aneel-bhusri.html",
+      "timestamp": null,
+      "date": "2025-09"
     }
   ],
-
   "layers": [
+    {
+      "date": "2026-02",
+      "label": "CEO Ouster, Founder Return, Cumulative 10.5% Cut",
+      "summary": "Expanded detail on leadership transition: Carl Eschenbach departed after ~13 months as CEO, received $3.6M severance. Co-founder Aneel Bhusri returned as CEO. Cumulative workforce reduction now 10.5% over 12 months: Feb 2025 cut 8.5% (~1,750); Sept 2025 Eschenbach walked back rehiring; Feb 2026 additional 2% (~400). Shares fell ~40% over preceding year. Bhusri: 'AI is a bigger transformation than SaaS.' Eschenbach: 'We don't need more headcount to drive the business forward.'",
+      "classification": null,
+      "sourceRefs": [
+        "theregister-workday-2026",
+        "cnbc-workday-bhusri-2026"
+      ]
+    },
     {
       "date": "2026-02",
       "label": "Second Layoff Wave + Founder Return as CEO",
       "summary": "Workday cut ~400 jobs (2% of workforce) on Feb 4, 2026, primarily in customer operations and non-revenue roles. Founder Aneel Bhusri returned as CEO on Feb 9, triggering 8%+ stock decline. Carl Eschenbach departed as CEO. Company redirecting resources from human support to AI-driven HR/finance tools. Previous round: 1,750 layoffs (8.5% workforce) with $230-270M restructuring costs. Latest round: ~$135M in charges. Sequential layoff waves pattern. Eschenbach's parting framing: 'Companies everywhere are reimagining how work gets done.'",
       "classification": null,
-      "sourceRefs": ["hrexec-workday-cuts-2026", "oreateai-workday-2026"]
+      "sourceRefs": [
+        "hrexec-workday-cuts-2026",
+        "oreateai-workday-2026"
+      ]
     },
     {
       "date": "2026-02",
@@ -76,7 +101,6 @@
       ]
     }
   ],
-
   "sources": [
     {
       "id": "fortune-workday-2025",
@@ -123,17 +147,35 @@
       "url": "https://www.oreateai.com/blog/workdays-bold-move-navigating-layoffs-amid-ai-growth/454c49c70068da1eccd6dacc1f52e4e3",
       "sourceDate": "2026-02",
       "collectedDate": "2026-02-12"
+    },
+    {
+      "id": "theregister-workday-2026",
+      "type": "Press",
+      "name": "The Register — Workday CEO steps down amid layoffs and market jitters",
+      "url": "https://www.theregister.com/2026/02/09/workday_ceo_steps_down/",
+      "timestamp": null,
+      "sourceDate": "2026-02-09",
+      "collectedDate": "2026-02-15",
+      "notes": null
+    },
+    {
+      "id": "cnbc-workday-bhusri-2026",
+      "type": "Press",
+      "name": "CNBC — Workday CEO Carl Eschenbach is stepping down, co-founder Aneel Bhusri to take over",
+      "url": "https://www.cnbc.com/2026/02/09/workday-stock-carl-eschenbach-aneel-bhusri.html",
+      "timestamp": null,
+      "sourceDate": "2026-02-09",
+      "collectedDate": "2026-02-15",
+      "notes": null
     }
   ],
-
   "contingencies": {
     "regulatoryIntensity": "Low",
     "timeToObsolescence": "Fast",
-    "ceoTenure": null,
+    "ceoTenure": "Founder",
     "talentMarketPosition": "Talent-constrained",
     "technicalDebt": "Medium"
   },
-
   "tensionPositions": {
     "structuralVsContextual": 0.5,
     "speedVsDepth": 0.5,
@@ -141,25 +183,22 @@
     "namedVsQuiet": 0.7,
     "longVsShortHorizon": 0.5
   },
-
   "openQuestions": [
     "Is this genuine AI restructuring or cost-cutting framed as AI?",
     "What AI roles are being created with the 'key strategic areas' hiring?",
     "How does Workday's own AI product (Illuminate) relate to internal AI org structure?",
     "What is Workday's actual AI team size and structure?"
   ],
-
   "taxonomyFeedback": [
     "Workday is primarily valuable as an AI-washing data point. The gap between 'AI as stated reason for restructuring' and 'AI as actual driver of organizational change' is widening across the tech sector.",
     "Parallels Pinterest: both are mid-tier tech companies tying workforce cuts to AI pivot with minimal evidence of actual AI organizational structure change.",
     "[2026-02] Additional scan confirms narrative consistency — CEO continues framing layoffs as 'resource realignment' for AI opportunity. Still no evidence of actual AI organizational structure (no CAIO, no dedicated lab, no CoE). Classification remains Low confidence M6a.",
     "[2026-02-13] Founder-return pattern during AI transformation (Bhusri replacing Eschenbach) echoes similar dynamics where companies bring back founders to drive radical transformation that professional managers resist. The 8% stock decline on the announcement suggests market skepticism. This is a CEO succession pattern worth tracking across specimens."
   ],
-
   "meta": {
     "status": "Stub",
     "created": "2026-02-04",
-    "lastUpdated": "2026-02-13",
+    "lastUpdated": "2026-02-15",
     "completeness": "Low",
     "convertedFrom": null
   }

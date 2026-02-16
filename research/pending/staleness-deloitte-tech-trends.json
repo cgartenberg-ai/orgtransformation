@@ -1,0 +1,99 @@
+{
+  "mode": "source-staleness-audit",
+  "sourceId": "deloitte-tech-trends",
+  "sourceName": "Deloitte Tech Trends",
+  "scannedDate": "2026-02-15",
+  "previousScannedThrough": "None",
+  "newScannedThrough": "Tech Trends 2026 report (17th annual, released January 2026)",
+  "urlsScanned": [
+    "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
+    "https://www.deloitte.com/us/en/about/press-room/deloitte-tech-trends-2026.html"
+  ],
+  "newContent": [
+    {
+      "title": "Tech Trends 2026: The Great Rebuild - Architecting an AI-Native Tech Organization",
+      "date": "2026-01",
+      "url": "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html",
+      "relevance": "HIGH",
+      "keyFindings": [
+        "AI Architects expected to nearly double from 30% to 58% of tech teams within two years",
+        "New roles: Human-AI Collaboration Designers, Edge AI Engineers, Forward-Deployed Engineers",
+        "57% report shifting from project-based to product-centric operating models",
+        "Nearly 70% of tech leaders plan to grow teams in response to generative AI",
+        "Two-thirds piloting or deploying AI agents as team members",
+        "CIO role expanding - 70% serving as enterprise-wide AI evangelists",
+        "Governance shifting to adaptive 'three M's': map, measure, monitor in real-time"
+      ]
+    },
+    {
+      "title": "Tech Trends 2026 Press Release: AI Comes of Age",
+      "date": "2026-01",
+      "url": "https://www.deloitte.com/us/en/about/press-room/deloitte-tech-trends-2026.html",
+      "relevance": "HIGH",
+      "keyFindings": [
+        "Only 11% have AI agents in production despite 38% piloting - major pilot-to-production gap",
+        "Organizations trying to automate human-designed processes rather than redesigning for AI-first",
+        "Building hybrid human-digital workforces requiring new HR-equivalent frameworks",
+        "IT function shifting from service delivery to strategic leadership",
+        "Infrastructure crisis: usage growth outpacing cost reductions"
+      ]
+    },
+    {
+      "title": "TMT Predictions 2026: The AI Gap Narrows",
+      "date": "2026-01",
+      "url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions.html",
+      "relevance": "MEDIUM",
+      "keyFindings": [
+        "Autonomous AI agent market projected to reach $8.5B by 2026, $35B by 2030",
+        "75% of companies may invest in agentic AI by end of 2026",
+        "Inference-optimized chip market growing to $50B in 2026",
+        "Industrial robot installed base to surpass 5.5 million by 2026"
+      ]
+    }
+  ],
+  "organizationalFindings": [
+    {
+      "finding": "Pilot-to-Production Gap",
+      "evidence": "Only 11% of organizations have AI agents in production despite 38% piloting them",
+      "implication": "Scaling barrier is organizational/operational, not technical",
+      "specimenRelevance": "Cross-cutting - relevant to all specimens piloting agentic AI"
+    },
+    {
+      "finding": "AI Architect Role Explosion",
+      "evidence": "Expected to nearly double from 30% to 58% of tech teams within two years",
+      "implication": "New structural role becoming standard in tech orgs",
+      "specimenRelevance": "Creates new specimen signal to track"
+    },
+    {
+      "finding": "Project-to-Product Shift",
+      "evidence": "57% report shifting from project-based to product-centric operating models",
+      "implication": "Structural reorganization toward value streams, not project offices",
+      "specimenRelevance": "Validates 'Dedicated AI Unit' model with product focus"
+    },
+    {
+      "finding": "Human-Agent Teams Emerging",
+      "evidence": "Two-thirds piloting/deploying AI agents as team members; new roles like Human-AI Collaboration Designers",
+      "implication": "Hybrid workforce is structural reality, not future speculation",
+      "specimenRelevance": "Supports 'Agent Workforce Integration' mechanism"
+    },
+    {
+      "finding": "CIO as AI Evangelist",
+      "evidence": "70% of CIOs serving as enterprise-wide AI evangelists; almost a third say orchestrating peer tech leaders is essential",
+      "implication": "Tech leadership expanding scope from delivery to transformation",
+      "specimenRelevance": "Validates 'Chief AI Officer' variations and CIO evolution patterns"
+    },
+    {
+      "finding": "Governance Shift to Real-Time",
+      "evidence": "Moving from point-in-time reviews to adaptive 'map, measure, monitor' continuous oversight",
+      "implication": "Traditional governance cycles too slow for AI pace",
+      "specimenRelevance": "Relevant to 'AI Council' and 'Governance Board' patterns"
+    }
+  ],
+  "summary": "First scan of Deloitte Tech Trends. The 2026 report (17th annual) contains rich organizational findings: only 11% have agents in production vs 38% piloting (major execution gap), AI Architect roles nearly doubling, 57% shifting to product-centric models, two-thirds deploying agents as team members, and CIOs expanding to enterprise AI evangelists. High relevance for structural research - multiple mechanism confirmations and new role patterns to track.",
+  "recommendedActions": [
+    "Add 'AI Architect' as tracked role in specimen structural layers",
+    "Update mechanism evidence for 'Agent Workforce Integration' with Deloitte survey data",
+    "Create research queue item for 'pilot-to-production gap' as analytical theme",
+    "Add Deloitte Tech Trends to annual refresh calendar (January releases)"
+  ]
+}
